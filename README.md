@@ -1,1 +1,35 @@
-IyDwn5OaIFRy4bqvYyBuZ2hp4buHbSBM4bubcCA2CgpUcmFuZyB3ZWIgdHLhuq9jIG5naGnhu4dtIHTGsMahbmcgdMOhYyBjaG8gaOG7jWMgc2luaCBs4bubcCA2IMO0biB04bqtcCBjw6FjIG3DtG4gaOG7jWMuCgojIyBDw6FjaCBkw7luZwoKTeG7nyBmaWxlIGBpbmRleC5odG1sYCBi4bqxbmcgdHLDrG5oIGR1eeG7h3QsIGNo4buNbiBtw7RuIGjhu41jIHbDoCBjaOG6vyDEkeG7mToKCi0gKirwn5OdIEx1eeG7h24gdOG6rXAqKjogYuG6pW0gxJHDoXAgw6FuIOKGkiBiaeG6v3QgbmdheSDEkcO6bmcvc2FpIHThu6tuZyBjw6J1LCBrw6htIGdp4bqjaSB0aMOtY2gKLSAqKuKPse+4jyBUaGkgdGjhu60qKjogMjAgY8OidSBuZ+G6q3Ugbmhpw6puLCBsw6BtIGjhur90IG3hu5tpIGhp4buHbiBr4bq/dCBxdeG6oyB04buVbmcKCiMjIEPDoWMgbcO0biBoaeG7h24gY8OzCgp8IE3DtG4gfCBT4buRIGPDonUgfCBO4buZaSBkdW5nIHwKfC0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLS18Cnwg8J+UrCBLSFROIDYgfCA2NyB8IEdp4buvYSBrw6wgMSAoMzAgY8OidSDEkeG7gSB0aGkgKyAzNyBjw6J1IMSR4buBIGPGsMahbmcgw7RuIHThuq1wKSB8CgojIyBUaMOqbSBtw7RuIG3hu5tpCgoxLiBU4bqhbyB0aMawIG3hu6VjIG3hu5tpLCB2w60gZOG7pSBgdG9hbi9gCjIuIFRow6ptIGZpbGUgYHF1ZXN0aW9ucy5qc29uYCB0aGVvIMSR4buLbmggZOG6oW5nOgpgYGBqc29uClsKICB7CiAgICAiaWQiOiAxLAogICAgInF1ZXN0aW9uIjogIk7hu5lpIGR1bmcgY8OidSBo4buPaT8iLAogICAgIm9wdGlvbnMiOiBbIkEuIC4uLiIsICJCLiAuLi4iLCAiQy4gLi4uIiwgIkQuIC4uLiJdLAogICAgImFuc3dlciI6IDEsCiAgICAiZXhwbGFuYXRpb24iOiAiR2nhuqNpIHRow61jaCBuZ+G6r24iCiAgfQpdCmBgYAooYGFuc3dlcmAgbMOgIGNo4buJIHPhu5EgxJHDoXAgw6FuIMSRw7puZywgYuG6r3QgxJHhuqd1IHThu6sgMCkKMy4gQ29weSBmaWxlIGBraHRuL2luZGV4Lmh0bWxgIHNhbmcgdGjGsCBt4bulYyBt4bubaSwgc+G7rWEgdGnDqnUgxJHhu4EKNC4gVGjDqm0gY2FyZCBtw7RuIG3hu5tpIHbDoG8gYGluZGV4Lmh0bWxgIGfhu5FjCg==
+# 📚 Trắc nghiệm Lớp 6
+
+Trang web trắc nghiệm tương tác cho học sinh lớp 6 ôn tập các môn học.
+
+## Cách dùng
+
+Mở file `index.html` bằng trình duyệt, chọn môn học và chế độ:
+
+- **📝 Luyện tập**: bấm đáp án → biết ngay đúng/sai từng câu, kèm giải thích
+- **⏱️ Thi thử**: 20 câu ngẫu nhiên, làm hết mới hiện kết quả tổng
+
+## Các môn hiện có
+
+| Môn | Số câu | Nội dung |
+|-----|--------|----------|
+| 🔬 KHTN 6 | 67 | Giữa kì 1 (30 câu đề thi + 37 câu đề cương ôn tập) |
+
+## Thêm môn mới
+
+1. Tạo thư mục mới, ví dụ `toan/`
+2. Thêm file `questions.json` theo định dạng:
+```json
+[
+  {
+    "id": 1,
+    "question": "Nội dung câu hỏi?",
+    "options": ["A. ...", "B. ...", "C. ...", "D. ..."],
+    "answer": 1,
+    "explanation": "Giải thích ngắn"
+  }
+]
+```
+(`answer` là chỉ số đáp án đúng, bắt đầu từ 0)
+3. Copy file `khtn/index.html` sang thư mục mới, sửa tiêu đề
+4. Thêm card môn mới vào `index.html` gốc
