@@ -73,15 +73,31 @@ function start(m){
   renderQ();
 }
 function renderStudy(){
-  // Chế độ học tập: hiện toàn bộ câu hỏi + đáp án đúng + giải thích
-  document.getElementById('progress').textContent=`📖 Chế độ học tập — toàn bộ ${allQ.length} câu hỏi`;
+  // Chế độ học tập: hiện toàn bộ câu hỏi, bấm từng câu mới hiện đáp án
+  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${allQ.length} câu hỏi (bấm từng câu để xem đáp án)`;
   document.getElementById('nextBtn').classList.add('hidden');
   const qd=document.getElementById('quiz');
   qd.innerHTML=allQ.map((q,i)=>
-    `<div class="q"><p>Câu ${i+1}: ${q.question}</p>`+
-    q.options.map((o,oi)=>`<div class="opt${oi===q.answer?' correct':''}" style="cursor:default">${o}</div>`).join('')+
-    `<div class="exp show">💡 ${q.explanation}</div></div>`
+    `<div class="q" id="sq${i}"><p>Câu ${i+1}: ${q.question}</p>`+
+    q.options.map((o,oi)=>`<div class="opt" style="cursor:default">${o}</div>`).join('')+
+    `<button class="opt" style="background:#e8f0fe;border-color:#1a73e8;color:#1a73e8;font-weight:bold" onclick="revealStudy(${i})">👁️ Xem đáp án</button>`+
+    `<div class="exp" id="sexp${i}"></div></div>`
   ).join('');
+  // lưu đáp án để reveal dùng
+  window._studyQ=allQ;
+}
+function revealStudy(i){
+  const q=window._studyQ[i];
+  const box=document.querySelector(`#sq${i}`);
+  box.querySelectorAll('.opt').forEach((el,oi)=>{
+    if(oi===q.answer)el.classList.add('correct');
+  });
+  // ẩn nút xem đáp án
+  const btn=box.querySelector('button.opt');
+  if(btn)btn.style.display='none';
+  const exp=document.getElementById(`sexp${i}`);
+  exp.innerHTML=`✅ <b>Đáp án đúng:</b> ${q.options[q.answer]}<br>💡 ${q.explanation}`;
+  exp.classList.add('show');
 }
 function renderQ(){
   const q=quizQ[idx], qd=document.getElementById('quiz');
