@@ -178,6 +178,16 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .ltrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
 .pnote{font-size:15px;color:#444;line-height:1.6}
 .lcheck{font-size:19px;color:#0d47a1;margin:14px 0 4px}
+/* ===== 2 TAB: HOC TUNG BAI / LUYEN TAP ===== */
+.tabbar{position:sticky;top:0;z-index:60;display:flex;gap:8px;background:#f5f7fa;padding:8px 0;margin-bottom:6px}
+.tabbtn{flex:1;min-height:50px;padding:10px 12px;border-radius:12px;font-size:18px;font-weight:600;font-family:inherit;cursor:pointer;background:#fff;border:2px solid #90a4ae;color:#37474f}
+.tabbtn.on{background:#2e7d32;border-color:#2e7d32;color:#fff}
+#tabLuyen{display:none}
+body.tab-luyen #tabHoc{display:none}
+body.tab-luyen #tabLuyen{display:block}
+.sgk{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:12px;padding:1px 9px;font-size:14px;font-weight:700;margin-right:7px;white-space:nowrap}
+.lgenbox{border:2px solid #a5d6a7;background:#f7fbf7;border-radius:12px;padding:14px;margin:12px 0}
+.lgenbox h4{font-size:19px;color:#1b5e20;margin:0 0 8px}
 </style>
 </head>
 <body>
@@ -186,8 +196,10 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <p class="sub">Học kì 1 • Đọc hiểu đề, phân tích và tự giải</p>
 <p class="steps">Đọc đề → 🔦 Soi từ khóa → 🔍 Phân tích → ✍️ Tự giải → ✔ Kiểm tra → 📖 Đối chiếu</p>
 
+<div class="tabbar" id="tabbar"><button class="tabbtn on" type="button" data-tab="hoc">📖 Học từng bài</button><button class="tabbtn" type="button" data-tab="luyen">✏️ Luyện tập</button></div>
 <div id="home">
-<div class="partban partban1" id="part1"><h2>📖 Phần 1 — Học từng bài</h2><p>Học lần lượt theo đúng thứ tự sách giáo khoa Toán 6 (Kết nối tri thức với cuộc sống), học kì 1 — đủ 22 bài. Học xong bài nào, bấm nút "✏️ Luyện bài này" ở cuối bài để sang Phần 2 làm bài tập của đúng bài đó.</p></div>
+<div id="tabHoc">
+<div class="partban partban1" id="part1"><h2>📖 Phần 1 — Học từng bài</h2><p>Học lần lượt theo đúng thứ tự sách giáo khoa Toán 6 (Kết nối tri thức với cuộc sống), học kì 1 — đủ 22 bài. Cuối mỗi bài có nút "📖 Xem bài mẫu" để mở bài mẫu của đúng bài đó ở tab ✏️ Luyện tập, và nút "🎲 Luyện ngay dạng này" để luyện ngay tại chỗ với một đề mới cùng dạng.</p></div>
 <div class="lbar"><div class="lrow"><span style="font-weight:700">👀 Chế độ xem:</span><button class="lbtn" type="button" data-lmode="single">📄 Từng bài</button><button class="lbtn" type="button" data-lmode="all">📚 Xem tất cả</button></div><div id="lpicker"></div><div class="lrow" style="justify-content:space-between"><button class="lnavbtn" type="button" id="lprev">⬅ Bài trước</button><span id="lpos" style="font-size:16px;color:#444"></span><button class="lnavbtn" type="button" id="lnext">Bài sau ➡</button></div></div>
 <div id="lessons">
 <div class="lesson" id="lh1">
@@ -211,7 +223,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào nói đúng nhất về "phần tử"? A) Phần tử là tên của tập hợp. B) Phần tử là mỗi đối tượng ở trong tập hợp. C) Phần tử là dấu { }.</button><div class="qa-a">Đáp án đúng là B. Phần tử là từng đối tượng nằm trong tập hợp. A sai vì tên tập hợp là chữ cái in hoa như A, B; C chỉ là dấu dùng khi viết tập hợp.</div></div>
 <div class="qa"><button class="qa-q" type="button">Cho D = {2; 4; 6; 8}. Số nào KHÔNG thuộc D: số 4, số 6 hay số 9?</button><div class="qa-a">Số 9 không thuộc D, viết 9 ∉ D. Còn 4 ∈ D và 6 ∈ D.</div></div>
 <div class="qa"><button class="qa-q" type="button">Viết tập hợp E các số tự nhiên nhỏ hơn 5 theo cách liệt kê.</button><div class="qa-a">E = {0; 1; 2; 3; 4}. Nhớ nhé: số tự nhiên bắt đầu từ 0.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p22">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tap-hop">📐 Thẻ lý thuyết: Tập hợp</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p22">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p22">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="tap-hop">📐 Thẻ lý thuyết: Tập hợp</button></div>
+<div class="lgenbox" id="lgen-lh1" style="display:none"></div>
 </div>
 <div class="lesson" id="lh2">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -232,7 +245,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Ý nào là ý chính của bài "Cách ghi số tự nhiên"? A) Cách đếm số lượng đồ vật. B) Cách đọc, viết số và giá trị của từng chữ số theo hàng. C) Cách viết chữ cái La Mã.</button><div class="qa-a">Đáp án đúng là B — đó là nội dung mấu chốt của bài. A là việc đếm thông thường; C chỉ là một phần nhỏ (số La Mã) trong bài.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số La Mã XIX bằng bao nhiêu?</button><div class="qa-a">XIX = 10 + 9 = 19.</div></div>
 <div class="qa"><button class="qa-q" type="button">Chữ số 7 trong số 17 250 có giá trị là bao nhiêu?</button><div class="qa-a">7 000, vì chữ số 7 ở hàng nghìn.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p21">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p21">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p21">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh2" style="display:none"></div>
 </div>
 <div class="lesson" id="lh3">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -255,7 +269,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng ý chính về tia số? A) Tia số dùng để vẽ hình trang trí. B) Trên tia số, số ở bên phải lớn hơn số ở bên trái. C) Tia số chỉ có 10 số.</button><div class="qa-a">Đáp án đúng là B — đó là điểm mấu chốt để so sánh số bằng tia số. C sai vì tia số chứa mọi số tự nhiên và kéo dài mãi.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số liền trước của 1 000 là số nào?</button><div class="qa-a">999.</div></div>
 <div class="qa"><button class="qa-q" type="button">Giữa 4 và 9 trên tia số có những số tự nhiên nào?</button><div class="qa-a">Các số 5; 6; 7; 8 — tất cả 4 số.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p23">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tia-so">📐 Thẻ lý thuyết: Tia số</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p23">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p23">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="tia-so">📐 Thẻ lý thuyết: Tia số</button></div>
+<div class="lgenbox" id="lgen-lh3" style="display:none"></div>
 </div>
 <div class="lesson" id="lh4">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -276,7 +291,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Khi gặp bài toán có lời văn, việc đầu tiên nên làm là gì? A) Cộng hết các số trong đề. B) Đọc chậm từng câu, tìm xem đề cho biết gì và hỏi gì. C) Đoán ngay đáp án.</button><div class="qa-a">Đáp án đúng là B. Bắt được ý chính của đề rồi mới chọn phép tính; cộng bừa mọi số trong đề (cách A) rất dễ sai.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính nhanh: 99 + 45 + 1 = ?</button><div class="qa-a">Ghép 99 + 1 = 100 trước, rồi 100 + 45 = 145.</div></div>
 <div class="qa"><button class="qa-q" type="button">Một đội có 36 bạn, trong đó 19 bạn được khen. Hỏi còn bao nhiêu bạn chưa được khen?</button><div class="qa-a">36 − 19 = 17 bạn.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p3">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p3">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p3">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh4" style="display:none"></div>
 </div>
 <div class="lesson" id="lh5">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -297,7 +313,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Từ khóa nào trong đề cho biết phải làm phép chia? A) "tất cả" B) "chia đều" C) "thêm vào"</button><div class="qa-a">Đáp án đúng là B — "chia đều" là từ khóa mấu chốt của phép chia. "Tất cả" và "thêm vào" thường gợi phép cộng.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính 45 : 6 — thương và số dư là bao nhiêu?</button><div class="qa-a">45 : 6 = 7 dư 3. Kiểm tra lại: 6 × 7 + 3 = 45.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tìm x, biết 7 × x = 84.</button><div class="qa-a">x = 84 : 7 = 12.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p4">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p4">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p4">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh5" style="display:none"></div>
 </div>
 <div class="lesson" id="lh6">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -318,7 +335,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào nói đúng ý chính về lũy thừa? A) 3² = 3 × 2 = 6. B) 3² = 3 × 3 = 9, vì số mũ cho biết có bao nhiêu thừa số giống nhau được nhân. C) 3² đọc là "ba hai".</button><div class="qa-a">Đáp án đúng là B. A là nhầm lẫn hay gặp nhất: số mũ không phải là số để nhân thẳng với cơ số.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính 10³.</button><div class="qa-a">10³ = 10 × 10 × 10 = 1 000.</div></div>
 <div class="qa"><button class="qa-q" type="button">Viết gọn: 7² × 7³ = ?</button><div class="qa-a">7² × 7³ = 7⁵ (giữ nguyên cơ số 7, cộng hai số mũ 2 + 3 = 5).</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p2">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p2">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p2">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh6" style="display:none"></div>
 </div>
 <div class="lesson" id="lh7">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -338,7 +356,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Trong biểu thức 5 + 3 × 2, một bạn cộng trước được 16. Đúng hay sai? Vì sao?</button><div class="qa-a">Sai. Phải nhân trước: 3 × 2 = 6, rồi 5 + 6 = 11. Cộng trước là lỗi hay gặp nhất ở bài này.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính 100 − 25 × 3.</button><div class="qa-a">Nhân trước: 25 × 3 = 75. Sau đó: 100 − 75 = 25.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính 48 : (6 × 2).</button><div class="qa-a">Trong ngoặc trước: 6 × 2 = 12. Sau đó: 48 : 12 = 4.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p1">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p1">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p1">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh7" style="display:none"></div>
 </div>
 <div class="lesson" id="lh8">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -359,7 +378,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào là ý chính của "quan hệ chia hết"? A) Hai số bất kỳ đều chia hết cho nhau. B) a chia hết cho b khi a = b × q; khi đó a là bội của b, b là ước của a. C) Chia hết nghĩa là chia ra số thập phân.</button><div class="qa-a">Đáp án đúng là B. A sai (ví dụ 5 không chia hết cho 2). C sai vì chia hết phải là chia không còn dư.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số 7 có phải là ước của 35 không? Vì sao?</button><div class="qa-a">Có, vì 35 = 7 × 5 nên 35 ⋮ 7, tức là 7 là ước của 35.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tìm bốn bội của 6.</button><div class="qa-a">0; 6; 12; 18 (nhân 6 lần lượt với 0; 1; 2; 3). Bội tiếp theo là 24; 30...</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p24">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p24">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p24">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh8" style="display:none"></div>
 </div>
 <div class="lesson" id="lh9">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -378,7 +398,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Điểm mấu chốt khác nhau giữa dấu hiệu chia hết cho 2, 5 và dấu hiệu chia hết cho 3, 9 là gì?</button><div class="qa-a">Dấu hiệu cho 2 và 5 chỉ nhìn chữ số TẬN CÙNG; dấu hiệu cho 3 và 9 phải tính TỔNG CÁC CHỮ SỐ. Đây là ý chính cần bắt được của bài.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số 345 có chia hết cho 3 không? Có chia hết cho 9 không?</button><div class="qa-a">Tổng các chữ số: 3 + 4 + 5 = 12. 12 ⋮ 3 nên 345 ⋮ 3. Nhưng 12 không chia hết cho 9 nên 345 không chia hết cho 9.</div></div>
 <div class="qa"><button class="qa-q" type="button">Trong các số 137; 260; 403, số nào chia hết cho 5?</button><div class="qa-a">Số 260 (chữ số tận cùng là 0).</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p18">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p18">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p18">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh9" style="display:none"></div>
 </div>
 <div class="lesson" id="lh10">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -398,8 +419,9 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng ý chính để nhận ra một số nguyên tố? A) Số đó là số lẻ. B) Số đó lớn hơn 1 và chỉ có hai ước là 1 và chính nó. C) Số đó có chữ số tận cùng là 3.</button><div class="qa-a">Đáp án đúng là B. A sai vì 9; 15; 21 là số lẻ nhưng là hợp số. C không liên quan đến định nghĩa.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số 29 là số nguyên tố hay hợp số? Vì sao?</button><div class="qa-a">Số nguyên tố, vì 29 chỉ có hai ước là 1 và 29.</div></div>
 <div class="qa"><button class="qa-q" type="button">Phân tích 36 ra thừa số nguyên tố.</button><div class="qa-a">36 = 2 × 2 × 3 × 3 = 2² × 3².</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p28">✏️ Luyện bài này</button></div>
-<p class="pnote">Bài mẫu riêng của Bài 10 là bài "Số nguyên tố và hợp số" trong thư viện bài mẫu ở Phần 2 — nút "Luyện bài này" mở đúng bài mẫu đó.</p>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p28">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p28">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh10" style="display:none"></div>
+<p class="pnote">Bài mẫu riêng của Bài 10 là bài "Số nguyên tố và hợp số" trong thư viện bài mẫu ở tab ✏️ Luyện tập — nút "📖 Xem bài mẫu" mở đúng bài mẫu đó.</p>
 </div>
 <div class="lesson" id="lh11">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -420,7 +442,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Từ khóa nào trong đề báo hiệu phải tìm ƯCLN? A) "nhỏ nhất" B) "chia đều thành các phần giống nhau, không thừa, nhiều nhất" C) "cộng lại tất cả"</button><div class="qa-a">Đáp án đúng là B — bắt được cụm từ này là bắt được ý chính của dạng bài ƯCLN. "Nhỏ nhất" thường là dấu hiệu của BCNN (Bài 12).</div></div>
 <div class="qa"><button class="qa-q" type="button">Tìm ƯCLN(18; 30).</button><div class="qa-a">18 = 2 × 3²; 30 = 2 × 3 × 5. Các thừa số chung với số mũ nhỏ nhất: 2 × 3 = 6. Vậy ƯCLN(18; 30) = 6.</div></div>
 <div class="qa"><button class="qa-q" type="button">ƯCLN(7; 11) bằng bao nhiêu? Hai số này có gì đặc biệt?</button><div class="qa-a">ƯCLN(7; 11) = 1. Hai số 7 và 11 là hai số nguyên tố cùng nhau.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p5">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p5">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p5">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh11" style="display:none"></div>
 </div>
 <div class="lesson" id="lh12">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -441,7 +464,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Cụm từ nào trong đề là dấu hiệu của BCNN? A) "ít nhất bao nhiêu ngày nữa lại cùng" B) "nhiều nhất bao nhiêu phần" C) "tổng cộng"</button><div class="qa-a">Đáp án đúng là A. Cụm "lại cùng + ít nhất" là ý mấu chốt của dạng bài BCNN; còn "nhiều nhất bao nhiêu phần" thuộc dạng ƯCLN.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tìm BCNN(4; 10).</button><div class="qa-a">4 = 2²; 10 = 2 × 5. BCNN = 2² × 5 = 20.</div></div>
 <div class="qa"><button class="qa-q" type="button">BCNN(5; 7) bằng bao nhiêu?</button><div class="qa-a">5 và 7 không có thừa số nguyên tố chung nên BCNN(5; 7) = 5 × 7 = 35.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p6">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p6">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p6">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh12" style="display:none"></div>
 </div>
 <div class="lesson" id="lh13">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -465,7 +489,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào nói đúng ý chính về số nguyên âm? A) Số nguyên âm luôn lớn hơn số 0. B) Số nguyên âm nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương. C) Số 0 là số nguyên âm.</button><div class="qa-a">Đáp án đúng là B. A sai (ví dụ −1 &lt; 0). C sai vì số 0 không phải là số nguyên âm.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số đối của 12 là số nào?</button><div class="qa-a">−12.</div></div>
 <div class="qa"><button class="qa-q" type="button">Sắp xếp các số sau theo thứ tự tăng dần: −4; 0; 3; −1.</button><div class="qa-a">−4 &lt; −1 &lt; 0 &lt; 3. (Trong hai số âm: −4 ở xa điểm 0 hơn nên nhỏ hơn −1.)</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p25">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="truc-so-nguyen">📐 Thẻ lý thuyết: Trục số (số nguyên)</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p25">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p25">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="truc-so-nguyen">📐 Thẻ lý thuyết: Trục số (số nguyên)</button></div>
+<div class="lgenbox" id="lgen-lh13" style="display:none"></div>
 </div>
 <div class="lesson" id="lh14">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -486,7 +511,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Ý mấu chốt khi cộng hai số nguyên khác dấu là gì? A) Cộng hai giá trị tuyệt đối rồi đặt dấu âm. B) Trừ hai giá trị tuyệt đối, kết quả lấy dấu của số có giá trị tuyệt đối lớn hơn. C) Kết quả luôn bằng 0.</button><div class="qa-a">Đáp án đúng là B. Cách A là cách cộng hai số cùng dấu âm. Cách C chỉ đúng khi hai số đối nhau.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−12) + 12.</button><div class="qa-a">Bằng 0, vì −12 và 12 là hai số đối nhau.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính 3 − 10.</button><div class="qa-a">3 − 10 = 3 + (−10) = −7.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p8">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p8">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p8">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh14" style="display:none"></div>
 </div>
 <div class="lesson" id="lh15">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -505,8 +531,9 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Chỗ hay sai nhất của bài quy tắc dấu ngoặc là gì? A) Quên đổi dấu một số hạng khi phía trước ngoặc là dấu trừ. B) Viết số quá to. C) Dùng bút chì.</button><div class="qa-a">Đáp án đúng là A — khi phía trước ngoặc có dấu trừ, phải đổi dấu MỌI số hạng trong ngoặc, kể cả số hạng ở cuối. Đây là ý mấu chốt của bài.</div></div>
 <div class="qa"><button class="qa-q" type="button">Bỏ dấu ngoặc rồi tính: 40 − (15 + 5).</button><div class="qa-a">40 − 15 − 5 = 20.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−30) − (−12).</button><div class="qa-a">(−30) − (−12) = (−30) + 12 = −18.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p27">✏️ Luyện bài này</button></div>
-<p class="pnote">Bài mẫu riêng của Bài 15 là bài "Tính biểu thức có dấu ngoặc" trong thư viện bài mẫu ở Phần 2 — nút "Luyện bài này" mở đúng bài mẫu đó. Ngoài bài mẫu, ở Phần 2 em còn có mẫu sinh đề riêng về dấu ngoặc để luyện thêm nhiều đề mới.</p>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p27">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p27">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh15" style="display:none"></div>
+<p class="pnote">Bài mẫu riêng của Bài 15 là bài "Tính biểu thức có dấu ngoặc" trong thư viện bài mẫu ở tab ✏️ Luyện tập — nút "📖 Xem bài mẫu" mở đúng bài mẫu đó. Muốn luyện thêm nhiều đề mới cùng dạng, bấm nút "🎲 Luyện ngay dạng này" ngay tại bài học này.</p>
 </div>
 <div class="lesson" id="lh16">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -526,7 +553,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Để tính đúng (−8) × 5, điều mấu chốt phải nhớ là gì? A) 8 × 5 = 40 và hai số khác dấu nên tích âm: −40. B) Tích của hai số nguyên luôn dương. C) Tích luôn bằng 0.</button><div class="qa-a">Đáp án đúng là A — quy tắc dấu là ý chính của bài: khác dấu → tích âm. B và C đều sai.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−11) × (−3).</button><div class="qa-a">Hai số cùng dấu → tích dương: 33.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−1) × 250.</button><div class="qa-a">−250.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p19">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p19">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p19">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh16" style="display:none"></div>
 </div>
 <div class="lesson" id="lh17">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -545,7 +573,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Điểm khác nhau mấu chốt giữa "ước của 6" trong số tự nhiên và trong số nguyên là gì?</button><div class="qa-a">Trong số tự nhiên, 6 có 4 ước: 1; 2; 3; 6. Trong số nguyên có thêm các ước âm −1; −2; −3; −6 nên có 8 ước. Đó là điểm mới của bài này.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−48) : (−6).</button><div class="qa-a">Hai số cùng dấu → thương dương: 8.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số −4 có phải là ước của 20 không? Vì sao?</button><div class="qa-a">Có, vì 20 = (−4) × (−5) nên 20 ⋮ (−4).</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p26">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p26">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p26">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh17" style="display:none"></div>
 </div>
 <div class="lesson" id="lh18">
 <span class="cbadge">Chương 4 · Một số hình phẳng trong thực tiễn</span>
@@ -566,7 +595,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Đặc điểm nào giúp em nhận ra ngay một lục giác đều? A) Có 6 cạnh dài ngắn khác nhau. B) Có 6 cạnh bằng nhau và 6 góc bằng nhau. C) Có 4 góc vuông.</button><div class="qa-a">Đáp án đúng là B — chữ "đều" nghĩa là các cạnh bằng nhau và các góc bằng nhau. C là đặc điểm của hình vuông và hình chữ nhật.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tam giác đều có cạnh 7 cm thì chu vi bằng bao nhiêu?</button><div class="qa-a">C = 7 × 3 = 21 cm.</div></div>
 <div class="qa"><button class="qa-q" type="button">Hình vuông có mấy trục đối xứng?</button><div class="qa-a">4 trục đối xứng.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p13">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tam-giac-deu">📐 Thẻ lý thuyết: Tam giác đều</button><button class="btn btn-k" type="button" data-theory="hinh-vuong">📐 Thẻ lý thuyết: Hình vuông</button><button class="btn btn-k" type="button" data-theory="luc-giac-deu">📐 Thẻ lý thuyết: Lục giác đều</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p13">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p13">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="tam-giac-deu">📐 Thẻ lý thuyết: Tam giác đều</button><button class="btn btn-k" type="button" data-theory="hinh-vuong">📐 Thẻ lý thuyết: Hình vuông</button><button class="btn btn-k" type="button" data-theory="luc-giac-deu">📐 Thẻ lý thuyết: Lục giác đều</button></div>
+<div class="lgenbox" id="lgen-lh18" style="display:none"></div>
 <p class="pnote">Bài mẫu luyện tập chính của bài này là "Tam giác đều"; bài mẫu "Hình vuông" (p12 trong thư viện Phần 2) cũng thuộc bài này.</p>
 </div>
 <div class="lesson" id="lh19">
@@ -588,7 +618,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng điểm khác nhau mấu chốt giữa hình thoi và hình chữ nhật? A) Hình thoi có 4 cạnh bằng nhau và hai đường chéo vuông góc; hình chữ nhật có 4 góc vuông và hai đường chéo bằng nhau. B) Hai hình giống hệt nhau. C) Hình thoi không có đường chéo.</button><div class="qa-a">Đáp án đúng là A. C sai vì hình thoi có hai đường chéo — chúng vuông góc với nhau.</div></div>
 <div class="qa"><button class="qa-q" type="button">Hình thang cân có mấy trục đối xứng?</button><div class="qa-a">Đúng 1 trục đối xứng.</div></div>
 <div class="qa"><button class="qa-q" type="button">Hình bình hành có mấy cặp cạnh đối song song?</button><div class="qa-a">2 cặp cạnh đối song song.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p11">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p11">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p11">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<div class="lgenbox" id="lgen-lh19" style="display:none"></div>
 <p class="pnote">Bài mẫu luyện tập chính là "Hình chữ nhật". Các bài mẫu "Hình thang cân" (p14), "Hình thoi" (p15) và "Hình bình hành" (p16) trong Phần 2 cũng thuộc bài này.</p>
 </div>
 <div class="lesson" id="lh20">
@@ -613,7 +644,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Khi tính diện tích hình bình hành, điều mấu chốt dễ sai nhất là gì? A) Dùng độ dài cạnh bên thay cho chiều cao. B) Quên viết đáp số. C) Dùng thước cong.</button><div class="qa-a">Đáp án đúng là A — phải nhân cạnh đáy với CHIỀU CAO ỨNG VỚI cạnh đáy đó (đoạn thẳng hạ vuông góc xuống cạnh đáy), không được dùng cạnh bên. Đây là lỗi kinh điển của bài này.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính diện tích hình thang có hai đáy 5 cm và 9 cm, chiều cao 4 cm.</button><div class="qa-a">S = (5 + 9) × 4 : 2 = 14 × 4 : 2 = 28 (cm²).</div></div>
 <div class="qa"><button class="qa-q" type="button">Chu vi hình vuông có cạnh 9 cm là bao nhiêu?</button><div class="qa-a">C = 9 × 4 = 36 cm.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p15">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p15">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p15">🎲 Luyện ngay dạng này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<div class="lgenbox" id="lgen-lh20" style="display:none"></div>
 <p class="pnote">Bài mẫu chính của bài này là "Hình thoi" (diện tích theo hai đường chéo). Các bài mẫu "Hình chữ nhật" (p11), "Hình vuông" (p12), "Hình thang cân" (p14) và "Hình bình hành" (p16) trong Phần 2 cũng là luyện tập chu vi — diện tích của bài này.</p>
 </div>
 <div class="lesson" id="lh21">
@@ -634,7 +666,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Cách chắc chắn nhất để kiểm tra một đường thẳng có phải là trục đối xứng của hình không là gì? A) Nhìn bằng mắt thấy nó chia hình thành hai phần. B) Tưởng tượng gấp hình theo đường thẳng đó: hai nửa có trùng khít lên nhau không. C) Đường thẳng đó phải là đường chéo của hình.</button><div class="qa-a">Đáp án đúng là B — "gấp và trùng khít" là ý mấu chốt của bài. C sai: đường chéo của hình chữ nhật chia hình thành hai phần nhưng không phải là trục đối xứng.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tam giác cân (nhưng không phải tam giác đều) có mấy trục đối xứng?</button><div class="qa-a">1 trục đối xứng.</div></div>
 <div class="qa"><button class="qa-q" type="button">Lá cây và con bướm là ví dụ cho điều gì trong bài này?</button><div class="qa-a">Đó là các hình có trục đối xứng trong tự nhiên.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p17">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p17">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p17">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh21" style="display:none"></div>
 </div>
 <div class="lesson" id="lh22">
 <span class="cbadge">Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên</span>
@@ -654,9 +687,12 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Điểm khác nhau mấu chốt giữa trục đối xứng và tâm đối xứng là gì? A) Trục đối xứng là gấp hình theo một đường thẳng; tâm đối xứng là quay hình nửa vòng quanh một điểm. B) Hai khái niệm này giống hệt nhau. C) Chỉ hình tròn mới có tâm đối xứng.</button><div class="qa-a">Đáp án đúng là A — bắt được cặp ý "gấp ↔ đường thẳng" và "quay nửa vòng ↔ một điểm" là nắm được cả Bài 21 và Bài 22.</div></div>
 <div class="qa"><button class="qa-q" type="button">Hình chữ nhật có tâm đối xứng không? Nếu có thì tâm nằm ở đâu?</button><div class="qa-a">Có. Tâm đối xứng là giao điểm của hai đường chéo.</div></div>
 <div class="qa"><button class="qa-q" type="button">Chữ S có tâm đối xứng không?</button><div class="qa-a">Có — quay nửa vòng, chữ S trùng với chính nó.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p20">✏️ Luyện bài này</button></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p20">📖 Xem bài mẫu</button><button class="btn btn-h" type="button" data-quickgen="p20">🎲 Luyện ngay dạng này</button></div>
+<div class="lgenbox" id="lgen-lh22" style="display:none"></div>
 </div>
 </div>
+</div>
+<div id="tabLuyen">
 <div class="partban partban2" id="part2"><h2>✏️ Phần 2 — Luyện tập</h2><p>Làm bài mẫu theo chương, sinh đề mới không giới hạn, làm đề luyện 5 bài và xem lại thẻ lý thuyết tương tác.</p></div>
   <div class="streak" id="streakBox"></div>
   <div class="sec">
@@ -689,6 +725,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
     <p class="desc">Các bài mẫu có sẵn để học cách phân tích đề và trình bày lời giải.</p>
     <div id="sampleList"></div>
   </div>
+</div>
 </div>
 
 <div id="probArea" class="hidden">
@@ -759,9 +796,10 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   </div>
 </div>
 
-<script src="gen.js?v=20261021i"></script>
+<script src="gen.js?v=20261021j"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
+const SGK_LBL={p22:'SGK Bài 1 · Tập hợp',p21:'SGK Bài 2 · Cách ghi số tự nhiên',p23:'SGK Bài 3 · Thứ tự trong tập hợp số tự nhiên',p3:'SGK Bài 4 · Phép cộng và phép trừ số tự nhiên',p4:'SGK Bài 5 · Phép nhân và phép chia số tự nhiên',p2:'SGK Bài 6 · Lũy thừa với số mũ tự nhiên',p1:'SGK Bài 7 · Thứ tự thực hiện các phép tính',p24:'SGK Bài 8 · Quan hệ chia hết và tính chất',p18:'SGK Bài 9 · Dấu hiệu chia hết',p28:'SGK Bài 10 · Số nguyên tố',p5:'SGK Bài 11 · Ước chung. Ước chung lớn nhất',p6:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p7:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p25:'SGK Bài 13 · Tập hợp các số nguyên',p8:'SGK Bài 14 · Phép cộng và phép trừ số nguyên',p9:'SGK Bài 15 · Quy tắc dấu ngoặc',p10:'SGK Bài 14–15 · Số nguyên',p27:'SGK Bài 15 · Quy tắc dấu ngoặc',p19:'SGK Bài 16 · Phép nhân số nguyên',p26:'SGK Bài 17 · Phép chia hết. Ước và bội của số nguyên',p13:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p12:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p11:'SGK Bài 19 · Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân',p14:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p15:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p16:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p17:'SGK Bài 21 · Hình có trục đối xứng',p20:'SGK Bài 22 · Hình có tâm đối xứng'};
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
 let examList=[],examIdx=0,examAnswers=[];
 let done={}; try{done=JSON.parse(localStorage.getItem('toan6_done')||'{}')}catch(e){done={}}
@@ -771,7 +809,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021i').then(r=>r.json()),fetch('theory.json?v=20261021i').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021j').then(r=>r.json()),fetch('theory.json?v=20261021j').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
@@ -805,7 +843,7 @@ function renderHome(){
     if(!list.length)return;
     html+=`<div class="chap-t">${CHAPTERS[cn]}</div>`;
     list.forEach(p=>{
-      html+=`<button class="p-item" onclick="openSample(${p._i})"><span>${p.title} <small style="color:#444;font-size:16px">(${p.topic})</small></span><span class="${done[p.id]?'done':'todo'}">${done[p.id]?'✅':'○'}</span></button>`;
+      html+=`<button class="p-item" onclick="openSample(${p._i})"><span>${SGK_LBL[p.id]?`<span class="sgk">${SGK_LBL[p.id]}</span>`:''}${p.title} <small style="color:#444;font-size:16px">(${p.topic})</small></span><span class="${done[p.id]?'done':'todo'}">${done[p.id]?'✅':'○'}</span></button>`;
     });
   });
   document.getElementById('sampleList').innerHTML=html;
@@ -1346,9 +1384,19 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
   var wrap=document.getElementById('lessons');
   if(wrap){
     wrap.addEventListener('click',function(e){
-      var t=(e.target&&e.target.closest)?e.target.closest('[data-sample],[data-gen],[data-theory]'):null;
+      var lg=(e.target&&e.target.closest)?e.target.closest('[data-lgact]'):null;
+      if(lg){
+        var lb=lg.closest?lg.closest('.lgenbox'):null;
+        if(lb) lgenAct(parseInt(lb.id.replace('lgen-lh',''),10), lg.getAttribute('data-lgact'));
+        return;
+      }
+      var t=(e.target&&e.target.closest)?e.target.closest('[data-sample],[data-gen],[data-theory],[data-quickgen]'):null;
       if(!t) return;
-      if(t.hasAttribute('data-sample')){
+      if(t.hasAttribute('data-quickgen')){
+        var les=t.closest? t.closest('.lesson'):null;
+        if(les) quickGen(t.getAttribute('data-quickgen'), parseInt(les.id.replace('lh',''),10));
+      }else if(t.hasAttribute('data-sample')){
+        setToanTab('luyen');
         var id=t.getAttribute('data-sample'), idx=-1;
         if(typeof problems!=='undefined'&&typeof openSample==='function'){
           idx=problems.findIndex(function(p){return p.id===id;});
@@ -1363,6 +1411,92 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
         openTheoryFromLesson(t.getAttribute('data-theory'));
       }
     });
+  }
+
+  /* ===== 2 TAB: HOC / LUYEN + LUYEN NHUNG TRONG BAI HOC ===== */
+  var curTab='hoc';
+  try{ var tb0=localStorage.getItem('toan6_tab'); if(tb0==='luyen'||tb0==='hoc') curTab=tb0; }catch(e){}
+  var tabBtns=[].slice.call(document.querySelectorAll('[data-tab]'));
+  window.setToanTab=function(t){
+    curTab=(t==='luyen')?'luyen':'hoc';
+    document.body.classList.toggle('tab-luyen',curTab==='luyen');
+    tabBtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-tab')===curTab); });
+    try{ localStorage.setItem('toan6_tab',curTab); }catch(e){}
+  };
+  var setToanTab=window.setToanTab;
+  tabBtns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var home=document.getElementById('home');
+      if(home&&home.classList.contains('hidden')&&typeof renderHome==='function'){ lessonReturn=false; renderHome(); }
+      setToanTab(b.getAttribute('data-tab'));
+      window.scrollTo(0,0);
+    });
+  });
+  setToanTab(curTab);
+  var lgenState={};
+  function quickGen(sampleId,n){
+    var lvl=parseInt((document.getElementById('selLvl')||{}).value||'2',10)||2;
+    var smp=null;
+    if(typeof problems!=='undefined'&&problems&&problems.length) smp=problems.find(function(p){return p.id===sampleId;});
+    if(smp&&smp.template&&window.GEN&&window.GEN.templates&&window.GEN.templates[smp.template]){
+      lgenState[n]={tpl:smp.template,obj:window.GEN.makeFrom(smp.template,lvl)};
+      renderLGen(n);
+      var box=document.getElementById('lgen-lh'+n);
+      if(box){ box.style.display=''; box.scrollIntoView({block:'nearest',behavior:'smooth'}); }
+    }else{
+      /* Khong co template lien ket: mo sinh de o tab Luyen theo dung chuong cua bai mau */
+      setToanTab('luyen');
+      if(smp){ var sc=document.getElementById('selChap'); if(sc) sc.value=''+smp.chapter; }
+      var bg=document.getElementById('btnGen'); if(bg) bg.click();
+    }
+  }
+  function renderLGen(n){
+    var st=lgenState[n]; if(!st) return;
+    var p=st.obj, box=document.getElementById('lgen-lh'+n); if(!box) return;
+    var escT=(typeof esc==='function')?esc:function(x){return ''+x;};
+    var html='<h4>🎲 Luyện ngay dạng này</h4>';
+    html+='<span class="tag">'+escT(''+((window.GEN&&window.GEN.chapters&&window.GEN.chapters[p.chapter])||''))+' — '+escT(''+(p.topic||''))+'</span>';
+    html+='<div style="font-weight:700;font-size:19px;margin:4px 0 2px">'+escT(''+(p.title||''))+'</div>';
+    html+='<div class="ptext">'+escT(''+(p.text||''))+'</div>';
+    if(p.svg) html+='<div class="fig">'+p.svg+'</div>';
+    html+=(p.parts||[]).map(function(pt,j){
+      return '<div class="ans-row"><label>'+pt.label+':</label><input id="lgin'+n+'-'+j+'" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit">'+(pt.unit||'')+'</span></div>';
+    }).join('');
+    html+='<div><button class="btn btn-c" type="button" data-lgact="check">✔ Kiểm tra</button><button class="btn btn-k" type="button" data-lgact="again">🎲 Đề khác</button><button class="btn btn-h" type="button" data-lgact="hint">💡 Gợi ý</button><button class="btn btn-s" type="button" data-lgact="sol">📖 Lời giải</button></div>';
+    html+='<div class="fb" id="lgfb'+n+'"></div>';
+    html+='<div class="panel panel-h" id="lghint'+n+'"><h3>💡 Gợi ý</h3>'+(p.svg?'<div class="fig">'+p.svg+'</div>':'')+(p.theory?'<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> '+p.theory+'</div>':'')+'<div>'+(p.hint||'')+'</div></div>';
+    html+='<div class="panel panel-s" id="lgsol'+n+'"><h3>📖 Lời giải chi tiết</h3><div class="solsteps">'+(p.solution||[]).map(function(x){return '<div class="solstep">'+x+'</div>';}).join('')+'</div></div>';
+    box.innerHTML=html;
+  }
+  function lgenAct(n,act){
+    var st=lgenState[n]; if(!st) return;
+    if(act==='again'){
+      var lvl=parseInt((document.getElementById('selLvl')||{}).value||'2',10)||2;
+      st.obj=window.GEN.makeFrom(st.tpl,lvl);
+      renderLGen(n);
+      var box=document.getElementById('lgen-lh'+n);
+      if(box) box.scrollIntoView({block:'nearest',behavior:'smooth'});
+    }else if(act==='check'){
+      var p=st.obj, allOk=true;
+      (p.parts||[]).forEach(function(pt,j){
+        var inp=document.getElementById('lgin'+n+'-'+j); if(!inp) return;
+        var v=parseNum(inp.value), want=parseNum(pt.answer);
+        var ok=!isNaN(v)&&Math.abs(v-want)<0.001;
+        inp.classList.toggle('ok',ok); inp.classList.toggle('no',!ok);
+        if(!ok) allOk=false;
+      });
+      if(typeof bumpStreak==='function') bumpStreak(allOk);
+      if(typeof showStreak==='function') showStreak();
+      var fb=document.getElementById('lgfb'+n);
+      if(fb){
+        fb.textContent=allOk?'🎉 Đúng rồi! Làm tốt lắm. Bấm "🎲 Đề khác" để luyện tiếp dạng này nhé.':'❌ Chưa đúng hết. Xem 💡 Gợi ý hoặc 📖 Lời giải rồi thử lại nhé!';
+        fb.className='fb '+(allOk?'ok':'no');
+      }
+    }else if(act==='hint'){
+      var hp=document.getElementById('lghint'+n); if(hp) hp.classList.toggle('show');
+    }else if(act==='sol'){
+      var sp=document.getElementById('lgsol'+n); if(sp) sp.classList.toggle('show');
+    }
   }
   var lessonReturn=false;
   window.openTheoryFromLesson=function(id){
@@ -1379,6 +1513,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     bl2.onclick=function(){
       if(lessonReturn){
         lessonReturn=false;
+        if(window.setToanTab) setToanTab('hoc');
         document.getElementById('theoryArea').classList.add('hidden');
         if(typeof renderHome==='function') renderHome();
         var t=document.getElementById('part1'); if(t) t.scrollIntoView();
