@@ -187,7 +187,7 @@ svg text.lit{fill:#e65100!important}
   <div class="card">
     <h2 id="tName"></h2>
     <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
-    <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).</div>
+    <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).</div>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
     <div class="theory-box" id="tFormulas" style="margin-top:10px"></div>
@@ -492,7 +492,7 @@ function activateAngle(fullName){
   const wasOn=wedge&&wedge.classList.contains('nm-on');
   clearHighlights();
   if(wasOn){
-    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
     return;
   }
   if(wedge)wedge.classList.add('nm-on');
@@ -512,7 +512,7 @@ function activateNm(el,label){
   const wasOn=el&&el.classList.contains('nm-on');
   clearHighlights();
   if(wasOn||!el){
-    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
     return;
   }
   el.classList.add('nm-on');
@@ -523,7 +523,10 @@ document.getElementById('tFacts').addEventListener('click',e=>{
   if(!w)return;
   e.stopPropagation();
   const act=w.dataset.act, label=w.dataset.label;
-  if(act==='shape'){
+  if(act==='nm'){
+    const el=[...document.querySelectorAll('#tFig [data-nm]')].find(x=>x.dataset.nm===w.dataset.target);
+    activateNm(el,label);
+  }else if(act==='shape'){
     clearHighlights();
     document.querySelectorAll('#tFig circle.nm').forEach(x=>x.classList.add('nm-on'));
     document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
@@ -556,10 +559,13 @@ function openTheory(i){
   document.getElementById('home').classList.add('hidden');
   document.getElementById('theoryArea').classList.remove('hidden');
   document.getElementById('tName').textContent='📐 '+curTheory.name;
-  document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
+  document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
   document.getElementById('tFig').innerHTML=curTheory.svg;
   tagNames();
-  document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${j===0?linkifyFact(f,curTheory.links):f}</div>`).join('');
+  document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>{
+    const fl=(curTheory.links||[]).filter(L=>(L.fact||0)===j);
+    return `<div class="fact" id="fact${j}">• ${fl.length?linkifyFact(f,fl):f}</div>`;
+  }).join('');
   document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
   document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
   document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
