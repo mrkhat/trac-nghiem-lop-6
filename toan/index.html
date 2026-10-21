@@ -65,6 +65,10 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 select{padding:10px;font-size:15px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
 svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
+svg g.hot.on text{fill:#e65100!important}
+.frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
+.frow:hover{background:#fff8e1}
+.frow.on{background:#ffe0b2;border-color:#ea8600}
 .fact{padding:8px 10px;border-radius:6px;margin:5px 0;background:#fafafa;border:1px solid #eee;font-size:15px;line-height:1.5}
 .fact.on{background:#fff3cd;border-color:#ea8600}
 .streak{text-align:center;font-size:15px;margin-bottom:14px;color:#555}
@@ -170,7 +174,7 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
   <button class="btn btn-g" id="btnList2">← Về trang chính</button>
   <div class="card">
     <h2 id="tName"></h2>
-    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.</p>
+    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh; góc tại đỉnh A gọi là <b>góc A</b>.</p>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
     <div class="theory-box" id="tFormulas" style="margin-top:10px"></div>
@@ -431,15 +435,29 @@ function showExamResult(){
   window.scrollTo(0,0);
 }
 
+let ovlActive=-1;
+function showOvl(i,row){
+  const groups=document.querySelectorAll('#tFig .ovl');
+  const turnOn=(ovlActive!==i);
+  groups.forEach(g=>g.style.display='none');
+  document.querySelectorAll('.frow').forEach(r=>r.classList.remove('on'));
+  ovlActive=-1;
+  if(turnOn&&groups[i]){
+    groups[i].style.display='';
+    row.classList.add('on');
+    ovlActive=i;
+  }
+}
 let curTheory=null;
 function openTheory(i){
-  curTheory=theory[i];
+  curTheory=theory[i];ovlActive=-1;
   document.getElementById('home').classList.add('hidden');
   document.getElementById('theoryArea').classList.remove('hidden');
   document.getElementById('tName').textContent='📐 '+curTheory.name;
   document.getElementById('tFig').innerHTML=curTheory.svg;
   document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${f}</div>`).join('');
-  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ:</b>'+(curTheory.formulas||[]).map(f=>`<div style="margin-top:5px">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
+  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
+  document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
   document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
   document.getElementById('tCheckUnit').textContent=curTheory.check.unit||'';
   document.getElementById('tCheckInp').value='';
