@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiếng Anh 6 - Học kì 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:17px;line-height:1.6;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5}
+h1{text-align:center;color:#1a73e8;margin-bottom:8px}
+.sub{text-align:center;color:#666;margin-bottom:20px}
+.mode-btns{display:flex;gap:12px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
+.mode-btns button{padding:14px 28px;font-size:16px;border:none;border-radius:8px;cursor:pointer;color:#fff}
+#btnPractice{background:#34a853}
+#btnExam{background:#ea8600}
+#btnStudy{background:#1a73e8}
+#btnHome{background:#666;color:#fff;padding:8px 16px;min-height:44px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px}
+.q{background:#fff;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.q p{font-weight:bold;margin-bottom:10px}
+.opt{display:block;width:100%;text-align:left;padding:12px;min-height:44px;margin:6px 0;border:1px solid #ddd;border-radius:6px;background:#fafafa;cursor:pointer;font-size:16px}
+.opt:hover{background:#e8f0fe}
+.opt.correct{background:#d4edda;border-color:#28a745;color:#155724}
+.opt.wrong{background:#f8d7da;border-color:#dc3545;color:#721c24}
+.opt:disabled{cursor:default;opacity:.9}
+.exp{margin-top:8px;padding:10px;background:#fff3cd;border-radius:6px;font-size:16px;line-height:1.6;display:none}
+.exp.show{display:block}
+#progress{text-align:center;margin-bottom:12px;font-weight:bold}
+#result{background:#fff;padding:20px;border-radius:8px;text-align:center}
+#result h2{margin-bottom:12px}
+.r-item{text-align:left;padding:8px;border-bottom:1px solid #eee;font-size:16px;line-height:1.6}
+.r-ok{color:#28a745}.r-no{color:#dc3545}
+#nextBtn{display:block;margin:16px auto;padding:12px 40px;min-height:44px;font-size:16px;background:#1a73e8;color:#fff;border:none;border-radius:8px;cursor:pointer}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<h1>🔤 Tiếng Anh 6 - Học kì 1</h1>
+<p class="sub" id="qcount">Đang tải câu hỏi…</p>
+<p class="sub">⚠️ Đáp án do người soạn biên soạn, <b>chưa đối chiếu đáp án chính thức</b> — dùng để ôn tập, nếu gặp câu chưa rõ hãy hỏi thầy cô.</p>
+<div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang Tiếng Anh 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
+<div id="home">
+  <div class="mode-btns">
+    <button id="btnPractice">📝 Luyện tập<br><small style="font-size:13px">biết ngay đúng/sai từng câu</small></button>
+    <button id="btnExam">⏱️ Thi thử<br><small style="font-size:13px">20 câu ngẫu nhiên, chấm cuối bài</small></button>
+    <button id="btnStudy">📖 Học tập<br><small style="font-size:13px">xem toàn bộ câu hỏi + đáp án</small></button>
+  </div>
+</div>
+<div id="quizArea" class="hidden">
+  <button id="btnHome">← Chọn lại chế độ</button>
+  <div id="progress"></div>
+  <div id="quiz"></div>
+  <button id="nextBtn" class="hidden">Câu tiếp theo →</button>
+  <div id="result" class="hidden"></div>
+</div>
+<script>
+let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
+fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Học kì 1 • sách Global Success';});
+
+document.getElementById('btnPractice').onclick=()=>start('practice');
+document.getElementById('btnExam').onclick=()=>start('exam');
+document.getElementById('btnStudy').onclick=()=>start('study');
+document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function start(m){
+  mode=m;
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.remove('hidden');
+  document.getElementById('result').classList.add('hidden');
+  idx=0;score=0;answers=[];
+  if(m==='study'){ renderStudy(); return; }
+  quizQ = m==='exam' ? shuffle([...allQ]).slice(0,20) : shuffle([...allQ]);
+  document.getElementById('nextBtn').classList.toggle('hidden', m!=='practice');
+  renderQ();
+}
+function renderStudy(){
+  // Chế độ học tập: hiện toàn bộ câu hỏi, bấm chọn đáp án từng câu như chế độ thi
+  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${allQ.length} câu hỏi (bấm chọn đáp án từng câu)`;
+  document.getElementById('nextBtn').classList.add('hidden');
+  const qd=document.getElementById('quiz');
+  qd.innerHTML=allQ.map((q,i)=>
+    `<div class="q" id="sq${i}"><p>Câu ${i+1}: ${q.question}</p>`+
+    q.options.map((o,oi)=>`<button class="opt" data-q="${i}" data-o="${oi}">${o}</button>`).join('')+
+    `<div class="exp" id="sexp${i}"></div></div>`
+  ).join('');
+  window._studyQ=allQ;
+  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>studyAnswer(parseInt(b.dataset.q),parseInt(b.dataset.o)));
+}
+function studyAnswer(qi, oi){
+  const q=window._studyQ[qi], ok=(oi===q.answer);
+  const box=document.querySelector(`#sq${qi}`);
+  box.querySelectorAll('.opt').forEach((b,bi)=>{
+    b.disabled=true;
+    if(bi===q.answer)b.classList.add('correct');
+    else if(bi===oi)b.classList.add('wrong');
+  });
+  const exp=document.getElementById(`sexp${qi}`);
+  exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Sai.</b> ')+`Đáp án đúng: ${q.options[q.answer]}<br>💡 ${q.explanation}`;
+  exp.classList.add('show');
+}
+function renderQ(){
+  const q=quizQ[idx], qd=document.getElementById('quiz');
+  document.getElementById('progress').textContent=`Câu ${idx+1}/${quizQ.length}`+(mode==='exam'?' (chế độ thi)':' (luyện tập)');
+  qd.innerHTML=`<div class="q"><p>Câu ${idx+1}: ${q.question}</p>`+
+    q.options.map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')+
+    `<div class="exp" id="exp"></div></div>`;
+  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(parseInt(b.dataset.i)));
+  document.getElementById('nextBtn').classList.add('hidden');
+}
+function answer(i){
+  const q=quizQ[idx], ok=(i===q.answer);
+  answers.push({q, picked:i, ok});
+  if(ok)score++;
+  const btns=document.querySelectorAll('.opt');
+  btns.forEach((b,bi)=>{
+    b.disabled=true;
+    if(bi===q.answer)b.classList.add('correct');
+    else if(bi===i)b.classList.add('wrong');
+  });
+  const exp=document.getElementById('exp');
+  if(mode==='practice'){
+    exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Sai.</b> ')+q.explanation;
+    exp.classList.add('show');
+    document.getElementById('nextBtn').classList.remove('hidden');
+  } else {
+    // chế độ thi: qua câu tiếp theo luôn
+    setTimeout(next, 400);
+  }
+}
+document.getElementById('nextBtn').onclick=next;
+function next(){
+  idx++;
+  if(idx<quizQ.length)renderQ();
+  else showResult();
+}
+function showResult(){
+  document.getElementById('quiz').innerHTML='';
+  document.getElementById('progress').textContent='';
+  document.getElementById('nextBtn').classList.add('hidden');
+  const r=document.getElementById('result');
+  r.classList.remove('hidden');
+  let html=`<h2>Kết quả: ${score}/${quizQ.length} (${Math.round(score/quizQ.length*100)}%)</h2>`;
+  html+= score/quizQ.length>=0.8 ? '<p>🎉 Xuất sắc!</p>' : score/quizQ.length>=0.5 ? '<p>👍 Khá, cố thêm nhé!</p>' : '<p>💪 Cần ôn thêm!</p>';
+  answers.forEach((a,i)=>{
+    html+=`<div class="r-item"><span class="${a.ok?'r-ok':'r-no'}">${a.ok?'✅':'❌'} Câu ${i+1}:</span> ${a.q.question}<br><small>Bạn chọn: ${a.q.options[a.picked]}<br>Đáp án đúng: ${a.q.options[a.q.answer]}<br><i>${a.q.explanation}</i></small></div>`;
+  });
+  html+=`<br><button id="btnHome2" style="padding:10px 24px;background:#1a73e8;color:#fff;border:none;border-radius:6px;cursor:pointer">Làm lại</button>`;
+  r.innerHTML=html;
+  document.getElementById('btnHome2').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
+}
+</script>
+</body>
+</html>

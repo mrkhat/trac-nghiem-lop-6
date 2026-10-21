@@ -1,0 +1,578 @@
+[
+ {
+  "id": 1,
+  "question": "What is the English word for “bạn cùng lớp”?",
+  "options": [
+   "A. teacher",
+   "B. subject",
+   "C. library",
+   "D. classmate"
+  ],
+  "answer": 3,
+  "explanation": "“Classmate” nghĩa là bạn cùng lớp. “Teacher” là giáo viên, “subject” là môn học, “library” là thư viện."
+ },
+ {
+  "id": 2,
+  "question": "She ___ English every day.",
+  "options": [
+   "A. study",
+   "B. studies",
+   "C. studying",
+   "D. studied"
+  ],
+  "answer": 1,
+  "explanation": "Chủ ngữ “She” (ngôi thứ 3 số ít) ở thì hiện tại đơn, động từ phải thêm -s/-es: study → studies (đổi y thành i rồi thêm es)."
+ },
+ {
+  "id": 3,
+  "question": "I use a ___ to draw a circle. (Em dùng ___ để vẽ hình tròn.)",
+  "options": [
+   "A. calculator",
+   "B. ruler",
+   "C. compass",
+   "D. pencil case"
+  ],
+  "answer": 2,
+  "explanation": "Dụng cụ để vẽ hình tròn là com-pa — “compass”. “Calculator” là máy tính cầm tay, “ruler” là thước kẻ."
+ },
+ {
+  "id": 4,
+  "question": "He ___ TV in the evening.",
+  "options": [
+   "A. watch",
+   "B. watchs",
+   "C. watches",
+   "D. watching"
+  ],
+  "answer": 2,
+  "explanation": "Chủ ngữ “He” đi với động từ thêm -es: watch → watches (động từ tận cùng bằng -ch thì thêm -es)."
+ },
+ {
+  "id": 5,
+  "question": "Từ “library” có nghĩa là gì?",
+  "options": [
+   "A. lớp học",
+   "B. căng-tin",
+   "C. thư viện",
+   "D. phòng thí nghiệm"
+  ],
+  "answer": 2,
+  "explanation": "“Library” là thư viện — nơi đọc và mượn sách."
+ },
+ {
+  "id": 6,
+  "question": "They ___ football after school.",
+  "options": [
+   "A. plays",
+   "B. play",
+   "C. playing",
+   "D. is play"
+  ],
+  "answer": 1,
+  "explanation": "Chủ ngữ “They” (số nhiều) dùng động từ nguyên thể: play."
+ },
+ {
+  "id": 7,
+  "question": "My favourite ___ is maths. (Môn học yêu thích của tôi là toán.)",
+  "options": [
+   "A. teacher",
+   "B. school bag",
+   "C. class",
+   "D. subject"
+  ],
+  "answer": 3,
+  "explanation": "“Subject” nghĩa là môn học — hợp với “maths” (môn toán)."
+ },
+ {
+  "id": 8,
+  "question": "We ___ uniforms at school. (Chúng tôi mặc đồng phục ở trường.)",
+  "options": [
+   "A. is wear",
+   "B. wearing",
+   "C. wears",
+   "D. wear"
+  ],
+  "answer": 3,
+  "explanation": "Chủ ngữ “We” dùng động từ nguyên thể “wear” (mặc). “Wear a uniform” = mặc đồng phục."
+ },
+ {
+  "id": 9,
+  "question": "The cat is ___ the table. (Con mèo ở dưới cái bàn.)",
+  "options": [
+   "A. under",
+   "B. between",
+   "C. next to",
+   "D. in front of"
+  ],
+  "answer": 0,
+  "explanation": "“Under” nghĩa là ở dưới. “Between” = ở giữa (hai vật), “next to” = bên cạnh."
+ },
+ {
+  "id": 10,
+  "question": "Từ “wardrobe” có nghĩa là gì?",
+  "options": [
+   "A. tủ lạnh",
+   "B. tủ quần áo",
+   "C. kệ sách",
+   "D. bàn học"
+  ],
+  "answer": 1,
+  "explanation": "“Wardrobe” là tủ đựng quần áo."
+ },
+ {
+  "id": 11,
+  "question": "___ a TV in the living room. (Có một cái tivi trong phòng khách.)",
+  "options": [
+   "A. There are",
+   "B. There is",
+   "C. Is there",
+   "D. Are there"
+  ],
+  "answer": 1,
+  "explanation": "“A TV” là một vật (số ít) nên dùng “There is”. Nhiều vật mới dùng “There are”."
+ },
+ {
+  "id": 12,
+  "question": "“Mai's book” — dấu 's trong “Mai's” cho biết điều gì?",
+  "options": [
+   "A. số nhiều",
+   "B. quá khứ",
+   "C. quyển sách của Mai (sở hữu)",
+   "D. tương lai"
+  ],
+  "answer": 2,
+  "explanation": "Dấu sở hữu cách ('s) cho biết quyển sách thuộc về Mai: Mai's book = quyển sách của Mai."
+ },
+ {
+  "id": 13,
+  "question": "The lamp is ___ the sofa and the table. (Cái đèn ở giữa ghế sô-pha và cái bàn.)",
+  "options": [
+   "A. between",
+   "B. on",
+   "C. under",
+   "D. in"
+  ],
+  "answer": 0,
+  "explanation": "Đèn nằm giữa hai vật (ghế và bàn) nên dùng “between”."
+ },
+ {
+  "id": 14,
+  "question": "___ three bedrooms in my house. (Nhà tôi có ba phòng ngủ.)",
+  "options": [
+   "A. There is",
+   "B. There are",
+   "C. There isn't",
+   "D. Is there"
+  ],
+  "answer": 1,
+  "explanation": "“Three bedrooms” là số nhiều nên dùng “There are”."
+ },
+ {
+  "id": 15,
+  "question": "Từ “fridge” có nghĩa là gì?",
+  "options": [
+   "A. bếp",
+   "B. bồn rửa",
+   "C. tủ lạnh",
+   "D. máy giặt"
+  ],
+  "answer": 2,
+  "explanation": "“Fridge” là tủ lạnh (viết đầy đủ: refrigerator)."
+ },
+ {
+  "id": 16,
+  "question": "The books are ___ the shelf. (Những cuốn sách ở trên kệ.)",
+  "options": [
+   "A. in",
+   "B. under",
+   "C. behind",
+   "D. on"
+  ],
+  "answer": 3,
+  "explanation": "“On” nghĩa là ở trên (bề mặt): sách đặt trên kệ — “on the shelf”."
+ },
+ {
+  "id": 17,
+  "question": "She is ___ a book now. (Bây giờ cô ấy đang đọc sách.)",
+  "options": [
+   "A. reading",
+   "B. read",
+   "C. reads",
+   "D. readed"
+  ],
+  "answer": 0,
+  "explanation": "Có “now” (bây giờ) → thì hiện tại tiếp diễn: is + V-ing → “is reading”."
+ },
+ {
+  "id": 18,
+  "question": "Từ “friendly” có nghĩa là gì?",
+  "options": [
+   "A. thân thiện",
+   "B. nhút nhát",
+   "C. hài hước",
+   "D. cẩn thận"
+  ],
+  "answer": 0,
+  "explanation": "“Friendly” = thân thiện, dễ gần."
+ },
+ {
+  "id": 19,
+  "question": "Look! The boys ___ football.",
+  "options": [
+   "A. is playing",
+   "B. plays",
+   "C. are playing",
+   "D. play yesterday"
+  ],
+  "answer": 2,
+  "explanation": "“Look!” (Nhìn kìa!) báo hiệu việc đang xảy ra → hiện tại tiếp diễn. “The boys” là số nhiều nên dùng “are playing”."
+ },
+ {
+  "id": 20,
+  "question": "A person who makes you laugh is ___. (Người làm bạn cười là người...)",
+  "options": [
+   "A. shy",
+   "B. funny",
+   "C. careful",
+   "D. slim"
+  ],
+  "answer": 1,
+  "explanation": "“Funny” = hài hước, vui tính — người làm người khác cười."
+ },
+ {
+  "id": 21,
+  "question": "I ___ my homework at the moment. (Lúc này tôi đang làm bài tập.)",
+  "options": [
+   "A. am doing",
+   "B. does",
+   "C. do always",
+   "D. doing"
+  ],
+  "answer": 0,
+  "explanation": "“At the moment” (lúc này) → hiện tại tiếp diễn: I am doing."
+ },
+ {
+  "id": 22,
+  "question": "Từ “shy” có nghĩa là gì?",
+  "options": [
+   "A. tự tin",
+   "B. năng động",
+   "C. tốt bụng",
+   "D. nhút nhát"
+  ],
+  "answer": 3,
+  "explanation": "“Shy” = nhút nhát, hay xấu hổ. Trái nghĩa với “confident” (tự tin)."
+ },
+ {
+  "id": 23,
+  "question": "He is tall and slim. He ___ glasses. (Anh ấy đeo kính.)",
+  "options": [
+   "A. wear",
+   "B. wears",
+   "C. wearing",
+   "D. is wear"
+  ],
+  "answer": 1,
+  "explanation": "Chủ ngữ “He” dùng động từ thêm -s: wear → wears (đeo/mặc)."
+ },
+ {
+  "id": 24,
+  "question": "What ___ she doing now?",
+  "options": [
+   "A. is",
+   "B. are",
+   "C. do",
+   "D. does"
+  ],
+  "answer": 0,
+  "explanation": "Hỏi việc đang diễn ra với chủ ngữ “she”: What is she doing?"
+ },
+ {
+  "id": 25,
+  "question": "This street is ___ than that street. (Đường này hẹp hơn đường kia — narrow)",
+  "options": [
+   "A. narrow",
+   "B. narrowest",
+   "C. narrower",
+   "D. more narrow"
+  ],
+  "answer": 2,
+  "explanation": "Có “than” → so sánh hơn. Tính từ ngắn “narrow” thêm -er: narrower."
+ },
+ {
+  "id": 26,
+  "question": "Từ “bakery” có nghĩa là gì?",
+  "options": [
+   "A. tiệm bánh",
+   "B. bệnh viện",
+   "C. bưu điện",
+   "D. rạp chiếu phim"
+  ],
+  "answer": 0,
+  "explanation": "“Bakery” là tiệm bánh — nơi bán bánh mì, bánh ngọt."
+ },
+ {
+  "id": 27,
+  "question": "The city is ___ than the countryside. (Thành phố nhộn nhịp hơn vùng quê — busy)",
+  "options": [
+   "A. busy",
+   "B. busier",
+   "C. busiest",
+   "D. more busy"
+  ],
+  "answer": 1,
+  "explanation": "So sánh hơn của “busy”: đổi y thành i rồi thêm -er → busier."
+ },
+ {
+  "id": 28,
+  "question": "Muốn hỏi đường đến rạp chiếu phim, em nói câu nào?",
+  "options": [
+   "A. Where is the cinema?",
+   "B. What is the cinema?",
+   "C. When is the cinema?",
+   "D. Who is the cinema?"
+  ],
+  "answer": 0,
+  "explanation": "Hỏi địa điểm/đường đi dùng “Where” (ở đâu): Where is the cinema?"
+ },
+ {
+  "id": 29,
+  "question": "The park is ___ than the garden. (Công viên rộng hơn khu vườn — big)",
+  "options": [
+   "A. big",
+   "B. biggest",
+   "C. more big",
+   "D. bigger"
+  ],
+  "answer": 3,
+  "explanation": "So sánh hơn của “big”: gấp đôi phụ âm cuối rồi thêm -er → bigger."
+ },
+ {
+  "id": 30,
+  "question": "Từ “railway station” có nghĩa là gì?",
+  "options": [
+   "A. bến xe buýt",
+   "B. ga tàu hỏa",
+   "C. sân bay",
+   "D. bến cảng"
+  ],
+  "answer": 1,
+  "explanation": "“Railway station” là ga tàu hỏa — nơi tàu đỗ để đón khách."
+ },
+ {
+  "id": 31,
+  "question": "My neighbourhood is very ___. There is no noise. (Khu nhà tôi rất yên tĩnh.)",
+  "options": [
+   "A. noisy",
+   "B. busy",
+   "C. quiet",
+   "D. narrow"
+  ],
+  "answer": 2,
+  "explanation": "“No noise” (không có tiếng ồn) → “quiet” (yên tĩnh). Trái nghĩa với “noisy” (ồn ào)."
+ },
+ {
+  "id": 32,
+  "question": "Go straight and ___ left at the corner. (Đi thẳng rồi rẽ trái ở góc đường.)",
+  "options": [
+   "A. turn",
+   "B. cross",
+   "C. take",
+   "D. make"
+  ],
+  "answer": 0,
+  "explanation": "Chỉ đường: “turn left” = rẽ trái, “turn right” = rẽ phải."
+ },
+ {
+  "id": 33,
+  "question": "Fansipan is the ___ mountain in Viet Nam. (Phan Xi Păng là ngọn núi cao nhất Việt Nam — high)",
+  "options": [
+   "A. high",
+   "B. higher",
+   "C. highest",
+   "D. more high"
+  ],
+  "answer": 2,
+  "explanation": "So sánh nhất (nhất trong tất cả) thêm -est và có “the”: the highest."
+ },
+ {
+  "id": 34,
+  "question": "Từ “waterfall” có nghĩa là gì?",
+  "options": [
+   "A. thác nước",
+   "B. sa mạc",
+   "C. hang động",
+   "D. hòn đảo"
+  ],
+  "answer": 0,
+  "explanation": "“Waterfall” là thác nước (water = nước, fall = rơi xuống)."
+ },
+ {
+  "id": 35,
+  "question": "You ___ litter on the beach. (Em không được xả rác trên bãi biển.)",
+  "options": [
+   "A. must",
+   "B. mustn't",
+   "C. musts",
+   "D. don't must"
+  ],
+  "answer": 1,
+  "explanation": "“Mustn't” = không được làm (cấm). Xả rác là việc bị cấm nên dùng mustn't."
+ },
+ {
+  "id": 36,
+  "question": "Ha Long Bay has many ___. (Vịnh Hạ Long có nhiều...)",
+  "options": [
+   "A. deserts",
+   "B. islands",
+   "C. volcanoes",
+   "D. glaciers"
+  ],
+  "answer": 1,
+  "explanation": "Vịnh Hạ Long nổi tiếng với hàng nghìn hòn đảo đá vôi — “islands” (đảo)."
+ },
+ {
+  "id": 37,
+  "question": "This is the ___ cave in Viet Nam. (Đây là hang động lớn nhất Việt Nam — big)",
+  "options": [
+   "A. big",
+   "B. bigger",
+   "C. biggest",
+   "D. most big"
+  ],
+  "answer": 2,
+  "explanation": "So sánh nhất của “big”: the biggest."
+ },
+ {
+  "id": 38,
+  "question": "Từ “suncream” dùng để làm gì?",
+  "options": [
+   "A. chống nắng",
+   "B. đựng sách",
+   "C. chỉ hướng",
+   "D. giữ ấm"
+  ],
+  "answer": 0,
+  "explanation": "“Suncream” là kem chống nắng — bôi khi đi biển, leo núi."
+ },
+ {
+  "id": 39,
+  "question": "You ___ keep the beach clean. (Em phải giữ bãi biển sạch.)",
+  "options": [
+   "A. mustn't",
+   "B. must",
+   "C. musts",
+   "D. not must"
+  ],
+  "answer": 1,
+  "explanation": "“Must” = phải làm. Giữ bãi biển sạch là việc phải làm nên dùng must."
+ },
+ {
+  "id": 40,
+  "question": "Từ “backpack” có nghĩa là gì?",
+  "options": [
+   "A. lều",
+   "B. đèn pin",
+   "C. áo phao",
+   "D. ba lô"
+  ],
+  "answer": 3,
+  "explanation": "“Backpack” là ba lô — vật không thể thiếu khi đi tham quan, leo núi."
+ },
+ {
+  "id": 41,
+  "question": "We ___ visit our grandparents at Tet. (Tết đến, chúng ta nên thăm ông bà.)",
+  "options": [
+   "A. shouldn't",
+   "B. shoulds",
+   "C. should",
+   "D. not should"
+  ],
+  "answer": 2,
+  "explanation": "“Should” = nên làm. Thăm ông bà dịp Tết là việc nên làm."
+ },
+ {
+  "id": 42,
+  "question": "Từ “lucky money” có nghĩa là gì?",
+  "options": [
+   "A. tiền lẻ",
+   "B. tiền gửi ngân hàng",
+   "C. tiền xu",
+   "D. tiền lì xì"
+  ],
+  "answer": 3,
+  "explanation": "“Lucky money” là tiền lì xì — tiền mừng tuổi đầu năm cho trẻ em."
+ },
+ {
+  "id": 43,
+  "question": "You ___ eat too many sweets. (Em không nên ăn quá nhiều kẹo.)",
+  "options": [
+   "A. should",
+   "B. shoulds",
+   "C. shouldn't",
+   "D. not should"
+  ],
+  "answer": 2,
+  "explanation": "“Shouldn't” = không nên. Ăn quá nhiều kẹo không tốt cho răng nên dùng shouldn't."
+ },
+ {
+  "id": 44,
+  "question": "Từ “fireworks” có nghĩa là gì?",
+  "options": [
+   "A. đèn lồng",
+   "B. câu đối",
+   "C. mâm ngũ quả",
+   "D. pháo hoa"
+  ],
+  "answer": 3,
+  "explanation": "“Fireworks” là pháo hoa — bắn lên trời đêm giao thừa."
+ },
+ {
+  "id": 45,
+  "question": "“Peach blossom” là hoa gì?",
+  "options": [
+   "A. hoa mai",
+   "B. hoa sen",
+   "C. hoa cúc",
+   "D. hoa đào"
+  ],
+  "answer": 3,
+  "explanation": "“Peach blossom” là hoa đào — loài hoa Tết đặc trưng ở miền Bắc. (Hoa mai là “apricot blossom”.)"
+ },
+ {
+  "id": 46,
+  "question": "Chọn câu chúc Tết đúng ngữ pháp:",
+  "options": [
+   "A. I wishes you a Happy New Year!",
+   "B. I wishing you a Happy New Year!",
+   "C. I wishs you a Happy New Year!",
+   "D. I wish you a Happy New Year!"
+  ],
+  "answer": 3,
+  "explanation": "Chủ ngữ “I” đi với động từ nguyên thể: I wish you a Happy New Year! (Chúc bạn năm mới vui vẻ!)"
+ },
+ {
+  "id": 47,
+  "question": "There is ___ rice cake on the table. (Có một ít bánh chưng trên bàn.)",
+  "options": [
+   "A. some",
+   "B. any",
+   "C. many",
+   "D. a few"
+  ],
+  "answer": 0,
+  "explanation": "Câu khẳng định dùng “some” (một ít). “Any” thường dùng trong câu phủ định và câu hỏi."
+ },
+ {
+  "id": 48,
+  "question": "Từ “relative” có nghĩa là gì?",
+  "options": [
+   "A. bạn bè",
+   "B. hàng xóm",
+   "C. thầy cô",
+   "D. họ hàng"
+  ],
+  "answer": 3,
+  "explanation": "“Relative” là họ hàng, bà con — những người thân trong gia đình lớn."
+ }
+]
