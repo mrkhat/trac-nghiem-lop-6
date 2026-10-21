@@ -399,17 +399,13 @@ document.getElementById('btnGen').onclick=()=>{
 document.getElementById('btnVariant').onclick=()=>{
   if(curProb&&curProb.template&&window.GEN.templates[curProb.template]){
     const lvl=parseInt(document.getElementById('selLvl').value)||2;
-    const p=window.GEN.templates[curProb.template].gen(lvl);
-    p.gen=true;p.template=curProb.template;
-    openProbObj(p,'gen');
+    openProbObj(window.GEN.makeFrom(curProb.template,lvl),'gen');
   }
 };
 document.getElementById('btnAgain').onclick=()=>{
   if(curProb&&curProb.template){
     const lvl=parseInt(document.getElementById('selLvl').value);
-    const p=window.GEN.templates[curProb.template].gen(lvl);
-    p.gen=true;p.template=curProb.template;
-    openProbObj(p,'gen');
+    openProbObj(window.GEN.makeFrom(curProb.template,lvl),'gen');
   }
 };
 document.getElementById('btnExam').onclick=()=>{

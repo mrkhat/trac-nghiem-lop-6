@@ -239,8 +239,11 @@ window.GEN={templates:T,
  make(chapter,lvl){
    const keys=Object.keys(T).filter(k=>T[k].chapter===chapter);
    const k=pick(keys);
+   return this.makeFrom(k,lvl);
+ },
+ makeFrom(k,lvl){
    const p=T[k].gen(lvl||2);
-   p.gen=true;p.template=k;
+   p.gen=true;p.template=k;p.chapter=T[k].chapter;p.topic=T[k].topic;
    return p;
  }};
 })();
