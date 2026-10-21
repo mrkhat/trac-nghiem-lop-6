@@ -7,42 +7,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <title>KHTN 6 — Giữa kì 1 | Học tập & Trắc nghiệm</title>
+<link rel="stylesheet" href="../assets/common.css">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937;overflow-x:hidden}
+body{overflow-x:hidden}
 button{font-family:inherit}
-h1{text-align:center;color:#1a73e8;margin:10px 0 4px;font-size:30px}
-.sub{text-align:center;color:#444;margin-bottom:14px}
-.topnav{text-align:center;margin-bottom:16px}
-.topnav a{color:#1a73e8;text-decoration:none;font-size:16px;display:inline-flex;align-items:center;min-height:44px;padding:10px 4px}
-.part{border-radius:12px;padding:14px 16px;margin:22px 0 12px;color:#fff}
-.part1{background:#1a73e8}
-.part2{background:#ea8600}
-.part h2{font-size:25px}
-.part p{font-size:16px;opacity:.95;margin-top:2px}
-.card{background:#fff;padding:16px;border-radius:10px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.card h3{color:#1a73e8;margin-bottom:8px;font-size:19px}
 .card ul{margin:0 0 8px 20px;line-height:1.7;font-size:18px}
 .card li{margin-bottom:4px}
 .goal{background:#e8f0fe;border-left:4px solid #1a73e8;padding:8px 12px;border-radius:6px;font-size:18px;margin-bottom:10px;line-height:1.7}
-.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:17px;margin:10px 0;line-height:1.65}
-figure{margin:10px 0 4px;text-align:center}
-figure img{max-width:100%;height:auto;border-radius:8px}
-figcaption{font-size:14px;color:#444;margin-top:5px;line-height:1.55}
-.quizlink{display:block;text-align:center;background:#ea8600;color:#fff;font-size:18px;font-weight:bold;padding:18px;border-radius:10px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.15)}
-.quizlink small{display:block;font-weight:normal;font-size:16px;margin-top:4px;opacity:.95}
 .road{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px}
 .road a{font-size:16px;background:#e8f0fe;color:#174ea6;border:1px solid #1a73e8;border-radius:20px;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}
 .road a:hover{background:#d2e3fc}
 .chk{border:1px dashed #bbb;border-radius:8px;padding:10px 12px;margin:8px 0;background:#fafafa;font-size:18px}
 .chk p{margin-bottom:6px;line-height:1.7}
-.chk-btn{padding:10px 18px;min-height:44px;border:none;border-radius:6px;background:#1a73e8;color:#fff;cursor:pointer;font-size:16px}
+.chk-btn{border:none;background:#1a73e8;color:#fff}
 .chk-a{display:none;margin-top:8px;padding:8px;background:#d4edda;border-radius:6px;line-height:1.7}
 .chk-a.show{display:block}
-.note{font-size:16px;color:#444;text-align:center;line-height:1.7;margin:14px 0}
-footer{font-size:14px;color:#444;line-height:1.7;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
-footer a{color:#444}
-
 .sub-h{font-weight:bold;color:#1a73e8;margin:14px 0 4px;font-size:18px}
 .mm{border:2px dashed #bbb;border-radius:10px;padding:10px 12px;margin:12px 0;background:#fff}
 .mm-t{text-align:center;margin-bottom:8px}
@@ -52,8 +31,6 @@ footer a{color:#444}
 .mm-b b{display:block;margin-bottom:2px}
 .fc-sec{margin-top:14px;border-top:2px solid #eee;padding-top:10px}
 .fc-title{font-weight:bold;color:#1a73e8;font-size:18px}
-.fc-tools{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0}
-.fc-prog{font-size:16px;color:#444}
 .fc-filter{padding:10px 14px;min-height:44px;border:1px solid #1a73e8;background:#fff;color:#1a73e8;border-radius:20px;cursor:pointer;font-size:16px}
 .fc-filter.on{background:#1a73e8;color:#fff}
 .fc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(160px,100%),1fr));gap:10px}
@@ -68,7 +45,6 @@ footer a{color:#444}
 .fc-f img,.fc-f svg{width:100%;height:66px;object-fit:cover;border-radius:6px;margin-bottom:6px;flex:none}
 .fc-f svg{background:#fff}
 .fc-q{font-weight:bold}
-.fc-hint{margin-top:auto;font-size:14px;color:#444}
 .sup{background:#e6f4ea;border:1.5px dashed #34a853;border-radius:8px;padding:9px 12px;font-size:17px;line-height:1.65;margin:10px 0}
 /* --- Mặt trước flashcard: sơ đồ ĐỘNG cho thẻ về quá trình/chuyển động (CSS thuần, nhẹ) --- */
 .fc-rot{transform-box:view-box;transform-origin:50px 32px;animation:fcSpin 5s linear infinite}
@@ -91,81 +67,32 @@ footer a{color:#444}
 .fc-wt{animation:fcSpringW 2.2s ease-in-out infinite}
 @keyframes fcSpring{0%,100%{transform:scaleY(.86)}50%{transform:scaleY(1.14)}}
 @keyframes fcSpringW{0%,100%{transform:translateY(-5.5px)}50%{transform:translateY(5.5px)}}
-@media (prefers-reduced-motion:reduce){.fc-f svg *{animation:none!important}}
-.fc-btns{display:flex;gap:6px;margin-top:6px}
-.fc-btns button{flex:1;padding:10px 4px;min-height:44px;border:none;border-radius:6px;font-size:16px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){
+.fc-f svg *{animation:none!important}
+}
 .fc-btns .ok{background:#34a853;color:#fff}
 .fc-btns .no{background:#f1f3f4;color:#444;border:1px solid #ccc}
-.next{margin-top:14px;background:#e8f0fe;border-radius:8px;padding:10px 12px;font-size:16px;text-align:center}
 .next a{color:#1a73e8;font-weight:bold;text-decoration:none}
-
 /* --- Hai chế độ xem: Từng bài / Xem tất cả --- */
 #part1head{scroll-margin-top:6px}
-.viewctl{background:#fff;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1);padding:12px;margin-bottom:14px}
-.vmodes{display:flex;gap:8px;flex-wrap:wrap}
-.vmode{flex:1 1 150px;min-height:48px;padding:12px 10px;border-radius:8px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:16px;font-weight:bold;cursor:pointer}
+.viewctl{position:sticky;top:8px;z-index:60;background:#fff;border:1.5px solid #cfd8dc;border-radius:12px;padding:10px 12px;margin:0 0 16px;box-shadow:0 2px 8px rgba(0,0,0,.10)}
+.vmodes{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.vmode{min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:17px;font-weight:600;cursor:pointer;font-family:inherit}
 .vmode.on{background:#1a73e8;color:#fff}
 #vnav{margin-top:12px}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{min-height:44px;padding:10px 14px;border-radius:22px;border:1.5px solid #1a73e8;background:#e8f0fe;color:#174ea6;font-size:16px;cursor:pointer}
-.chip.on{background:#1a73e8;color:#fff;font-weight:bold}
-.prevnext{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px}
-.prevnext button{min-height:48px;padding:10px 16px;border:none;border-radius:8px;background:#1a73e8;color:#fff;font-size:16px;font-weight:bold;cursor:pointer}
-.prevnext button:disabled{background:#bbb;cursor:default}
-#vpos{font-size:16px;color:#444;font-weight:bold;text-align:center}
-figure img,img,svg{max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{min-height:44px;padding:9px 13px;border-radius:10px;border:2px solid #90a4ae;background:#f5f7fa;font-size:16px;cursor:pointer;color:#263238;font-family:inherit;text-align:center}
+.chip.on{background:#5e35b1;border-color:#5e35b1;color:#fff;font-weight:700}
+.prevnext{display:flex;gap:8px;margin-top:10px;align-items:center;justify-content:space-between}
+.prevnext button{min-height:44px;padding:10px 16px;border:none;border-radius:10px;background:#37474f;color:#fff;font-size:17px;font-weight:600;cursor:pointer;font-family:inherit}
+.prevnext button:disabled{opacity:.4;cursor:default}
+#vpos{font-size:16px;font-weight:700;color:#37474f}
 .card{overflow-wrap:break-word}
-@media (max-width:480px){h1{font-size:24px}.prevnext button{padding:10px 10px}.chip{padding:10px 12px}}
+
+@media (max-width:640px){.chip{flex:1 1 30%;text-align:center}}
 </style>
-<style>
-/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
-body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
-h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
-h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
-h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
-img{max-width:100%}
-.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
-.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
-.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
-input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
-a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
-.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
-.next{font-size:17px}
-@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
-</style>
-<style>
-/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
-.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
-.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
-.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
-.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
-.fc-back{transform:rotateY(180deg);background:#e8f5e9}
-.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
-.fc-face svg{max-width:100%;height:auto}
-.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
-.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
-.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
-.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
-.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
-.fc-stat{text-align:center;color:#455a64;font-size:14px}
-.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
-.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
-@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
-@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
-@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
-@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
-@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
-.fc-out-r{animation:fcOutR .28s forwards}
-.fc-out-l{animation:fcOutL .28s forwards}
-.fc-in-r{animation:fcInR .25s}
-.fc-in-l{animation:fcInL .25s}
-.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
-.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
-.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
-.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
-[data-fc]{display:block!important}
-.fc-tools{display:none!important}
-</style>
+
+
 </head>
 <body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>

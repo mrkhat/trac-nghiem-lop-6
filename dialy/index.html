@@ -6,73 +6,39 @@
 <title>Địa lí 6 — Học kì 1 | Học từng bài</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>try{document.documentElement.setAttribute('data-mode',localStorage.getItem('dialy_view_mode')||'single')}catch(e){}</script>
+<link rel="stylesheet" href="../assets/common.css">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
 html{overflow-x:hidden}
-img,svg,canvas{max-width:100%}
+canvas{max-width:100%}
 button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
-body{font-family:'Be Vietnam Pro',Arial,sans-serif;background:#eef4f6;color:#1f2937;line-height:1.7;font-size:18px;overflow-x:hidden}
+body{overflow-x:hidden}
 a{color:#1565c0}
-.hero{background:linear-gradient(120deg,#00695c,#1565c0);color:#fff;padding:26px 16px;text-align:center}
-.hero h1{font-size:30px;margin-bottom:6px}
-.hero p{opacity:.92}
-.hero a{color:#ffe082}
 .wrap{max-width:880px;margin:0 auto;padding:0 12px 30px}
-.modebar{position:sticky;top:0;z-index:50;background:#ffffffee;backdrop-filter:blur(4px);border-bottom:1px solid #cfd8dc;padding:8px 10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;max-width:880px;margin:0 auto}
-.modelab{font-weight:bold;color:#37474f}
-.modebtn,.navbtn,.chip{border:1.5px solid #90a4ae;background:#fff;border-radius:999px;padding:10px 16px;cursor:pointer;font-size:16px;min-height:44px;display:inline-flex;align-items:center}
-.modebtn.on{background:#1565c0;color:#fff;border-color:#1565c0;font-weight:bold}
-.chipbar{display:none;gap:6px;overflow-x:auto;padding:8px 10px;max-width:880px;margin:0 auto;white-space:nowrap}
-.chip.on{background:#00897b;color:#fff;border-color:#00897b;font-weight:bold}
-.singlenav{display:none}
-html[data-mode="single"] .singlenav{display:flex}
-html[data-mode="single"] .chipbar.singlenav{display:flex}
-html[data-mode="single"] .modebar .singlenav{display:inline-flex;gap:6px;margin-left:auto}
 html[data-mode="single"] .lesson{display:none}
 html[data-mode="single"] .lesson.on{display:block}
 html[data-mode="single"] .partsum{display:none}
 html[data-mode="single"] .partsum.on{display:block}
 html[data-mode="single"] .chap{display:none}
 .chap{color:#fff;font-weight:bold;font-size:18px;border-radius:10px;padding:10px 14px;margin:22px 0 4px}
-.lesson,.partsum{background:#fff;border-radius:14px;padding:20px;margin:16px 0;box-shadow:0 2px 8px rgba(0,0,0,.08);border-top:7px solid var(--c,#999)}
+.lesson,.partsum{border-radius:14px;padding:20px;margin:16px 0;box-shadow:0 2px 8px rgba(0,0,0,.08);border-top:7px solid var(--c,#999)}
 .partsum{border-top-color:#f9a825}
-.lhead{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
-.lnum{color:#fff;font-weight:bold;border-radius:8px;padding:2px 10px}
-.badge{font-size:14px;font-weight:bold;border-radius:999px;padding:2px 10px;color:#fff}
-.badge.gk{background:#2e7d32}.badge.sau{background:#ef6c00}
-.lchap{color:#546e7a;font-size:15px}
 .lesson h2,.partsum h2{font-size:25px;margin:4px 0 8px;color:#1f2937}
-.hook{font-style:italic;background:#f1f8e9;border-radius:10px;padding:10px 12px;margin-bottom:12px}
 .pts{margin:0 0 6px 18px}
 .pts li{margin-bottom:8px}
-.hl{background:#fff176;padding:0 4px;border-radius:4px;font-weight:bold}
-.hl2{color:#00695c;font-weight:bold;background:#c8e6c9;padding:0 4px;border-radius:4px}
-.gallery figure{margin:14px 0}
 .gallery img{width:100%;border-radius:10px;display:block}
 .dsvg{width:100%;height:auto;display:block;border-radius:10px;background:#fff}
-figcaption{font-size:16px;color:#37474f;margin-top:6px}
 figcaption .src{color:#546e7a;font-size:14px}
 .figh{font-weight:bold;font-size:18px;margin-bottom:8px}
 .fig-note{font-size:15px;color:#546e7a;margin-top:6px}
-.moc{background:#e8f5e9;border-left:5px solid #2e7d32;border-radius:8px;padding:10px 12px;margin:12px 0}
-.meo{background:#fff8e1;border-left:5px solid #f9a825;border-radius:8px;padding:10px 12px;margin:12px 0}
 .bosung{background:#fff3e0;border:2px dashed #ef6c00;border-radius:8px;padding:10px 12px;margin:12px 0}
-.fcanim{margin:0 auto}
-.fcanim svg{width:min(340px,100%);height:auto;max-height:230px;border-radius:8px}
 .mmap{border:2px dashed #b0bec5;border-radius:12px;padding:12px;margin:14px 0;background:#fafafa}
 .mm-title{font-weight:bold;margin-bottom:8px}
 .mm-center{color:#fff;font-weight:bold;text-align:center;border-radius:999px;padding:8px 12px;margin:0 auto 10px;max-width:520px}
 .mm-branch{display:flex;gap:8px;margin-bottom:7px;align-items:stretch}
 .mm-b{min-width:128px;max-width:190px;font-weight:bold;border:1.5px solid;border-radius:8px;padding:8px;font-size:15px}
 .mm-k{flex:1;background:#fff;border-radius:8px;padding:8px;font-size:15px;border:1px solid #e0e0e0}
-.lesson h3{margin:16px 0 8px;font-size:19px}
 .small{font-size:16px;color:#546e7a}
-.qa{border:1px solid #cfd8dc;border-radius:10px;margin-bottom:8px;overflow:hidden}
-.qa-q{width:100%;text-align:left;background:#f7f9fa;border:0;padding:12px;cursor:pointer;font-size:17px;font-weight:bold;color:#1f2937;min-height:44px}
 .qahint{font-weight:normal;color:#546e7a;font-size:14px}
-.qa-a{display:none;padding:10px 12px;background:#e8f5e9;border-top:1px solid #cfd8dc}
-.qa.open .qa-a{display:block}
-.fcbox{background:#f7f9fa;border:1.5px dashed #90a4ae;border-radius:12px;padding:12px;margin:14px 0}
 .fcbox h3{margin:0 0 8px}
 .fcprog{color:#00897b;font-size:15px}
 .fcard{text-align:center;background:#fff;border-radius:10px;padding:12px;border:1px solid #e0e0e0}
@@ -83,96 +49,29 @@ figcaption .src{color:#546e7a;font-size:14px}
 .fcbtns button{border:1.5px solid #90a4ae;background:#fff;border-radius:8px;padding:10px 14px;cursor:pointer;font-size:16px;min-height:44px}
 .fcknow{border-color:#2e7d32!important;color:#2e7d32;font-weight:bold}
 .fconly{display:block;margin-bottom:8px;font-size:16px;padding:6px 0}
-.next{margin-top:16px;text-align:right}
 .next a{display:inline-flex;align-items:center;min-height:44px;background:var(--c,#1565c0);color:#fff;text-decoration:none;font-weight:bold;border-radius:999px;padding:12px 20px}
-.quizlink{display:block;text-align:center;background:#6a1b9a;color:#fff;font-weight:bold;text-decoration:none;border-radius:12px;padding:16px;margin:16px 0;font-size:18px}
-.tbtn{border:1.5px solid #546e7a;background:#fff;border-radius:8px;padding:10px 14px;cursor:pointer;font-size:16px;min-height:44px}
+.tbtn{border:1.5px solid #546e7a;background:#fff}
 .orbitinfo{background:#10243c;color:#e3f2fd;border-radius:10px;padding:12px;margin-top:8px;min-height:48px;font-size:17px}
 #orbitSvg .pos{cursor:pointer}
 #orbitSvg .pos.sel circle:first-child{stroke:#ffeb3b;stroke-width:4}
 .moonbtn{border:2px solid #90a4ae;background:#10243c;border-radius:10px;padding:6px;cursor:pointer;min-width:54px;min-height:54px}
 .moonbtn.sel{border-color:#ffeb3b}
-.botbar{max-width:880px;margin:0 auto;padding:0 12px 26px}
-@media(max-width:560px){.mm-branch{flex-direction:column}.mm-b{max-width:none}.hero h1{font-size:26px}.lesson h2{font-size:22px}.lesson,.partsum{padding:14px}.fcbtns button{flex:1 1 30%}.modebar{gap:6px}}
-@media(min-width:561px) and (max-width:900px){.lesson,.partsum{padding:18px}}
+@media(max-width:560px){
+.mm-branch{flex-direction:column}
+.mm-b{max-width:none}
+.lesson h2{font-size:22px}
+.lesson,.partsum{padding:14px}
+.fcbtns button{flex:1 1 30%}
+}
+@media(min-width:561px) and (max-width:900px){
+.lesson,.partsum{padding:18px}
+}
 </style>
-<style>
-/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
-body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
-h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
-h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
-h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
-img{max-width:100%}
-.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
-.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
-.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
-input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
-a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
-.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
-.next{font-size:17px}
-@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
-</style>
-<style>
-/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
-.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
-.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
-.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
-.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
-.fc-back{transform:rotateY(180deg);background:#e8f5e9}
-.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
-.fc-face svg{max-width:100%;height:auto}
-.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
-.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
-.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
-.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
-.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
-.fc-stat{text-align:center;color:#455a64;font-size:14px}
-.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
-.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
-@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
-@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
-@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
-@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
-@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
-.fc-out-r{animation:fcOutR .28s forwards}
-.fc-out-l{animation:fcOutL .28s forwards}
-.fc-in-r{animation:fcInR .25s}
-.fc-in-l{animation:fcInL .25s}
-.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
-.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
-.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
-.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
-[data-fc]{display:block!important}
-.fc-tools{display:none!important}
-</style>
+
+
 <style>
 /* ===== KHUNG CHUAN DIALY (dong bo voi lichsu/khtn) ===== */
-.topnav{text-align:center;margin-bottom:10px}
-.topnav a{color:#1a73e8;text-decoration:none;font-size:15px;display:inline-block;padding:10px 8px;min-height:44px}
-.sub{text-align:center;color:#444;margin-bottom:14px;line-height:1.6;font-size:16px}
-.part{border-radius:12px;padding:16px;margin:22px 0 12px;color:#fff}
-.part1{background:#1a73e8}
-.part h2{font-size:22px;font-weight:700;color:#fff}
-.part p{font-size:16px;opacity:.95;margin-top:4px;line-height:1.6}
-.viewbar{position:sticky;top:8px;z-index:60;background:#fff;border:1.5px solid #cfd8dc;border-radius:12px;padding:10px 12px;margin:0 0 16px;box-shadow:0 2px 8px rgba(0,0,0,.10)}
-.vrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.vlabel{font-size:16px;font-weight:700;color:#37474f}
-.vbtn{min-height:44px;padding:10px 18px;border-radius:24px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
-.vbtn.on{background:#1a73e8;color:#fff}
-.pickrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.pick{min-height:44px;padding:9px 13px;border-radius:10px;border:2px solid #90a4ae;background:#f5f7fa;font-size:16px;cursor:pointer;color:#263238;font-family:inherit;flex:1 1 18%;text-align:center}
-.pick.on{background:#5e35b1;border-color:#5e35b1;color:#fff;font-weight:700}
-.navrow{display:flex;gap:8px;margin-top:10px}
-.navbtn{flex:1;min-height:48px;padding:11px 10px;border:none;border-radius:10px;background:#37474f;color:#fff;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
-.navbtn:disabled{opacity:.4;cursor:default}
-.secttl{color:var(--c,#1a73e8)}
-.hook{background:#fff8e1;border-left:4px solid #ffb300;border-radius:6px;padding:12px 14px;font-size:18px;line-height:1.65;margin:10px 0;font-style:italic}
 .lesson h2{color:var(--c,#1a73e8)}
-figure{margin:10px 0 4px;text-align:center}
-figure img{max-width:100%;height:auto;border-radius:8px}
-.gallery{display:flex;gap:10px;flex-wrap:wrap}
-.gallery figure{flex:1 1 230px;margin:6px 0}
-figcaption{font-size:14px;color:#444;margin-top:6px;line-height:1.55}
 </style>
 
 </head>
