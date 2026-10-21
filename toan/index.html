@@ -312,6 +312,10 @@ function openProbObj(p,mode){
   let hintHtml=`<h3>💡 Gợi ý</h3>`;
   if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">👆 Hình của bài toán: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
   if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
+  if(p.shape){
+    const sh=(typeof theory!=='undefined')?theory.find(s=>s.id===p.shape):null;
+    if(sh)hintHtml+=`<button class="btn btn-k" style="margin-top:8px" onclick="openTheoryById('${p.shape}')">📚 Xem thẻ lý thuyết: ${sh.name}</button>`;
+  }
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
   let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
@@ -399,7 +403,15 @@ document.getElementById('btnAna').onclick=()=>document.getElementById('anaPanel'
 document.getElementById('btnHint').onclick=()=>document.getElementById('hintPanel').classList.toggle('show');
 document.getElementById('btnSol').onclick=()=>document.getElementById('solPanel').classList.toggle('show');
 document.getElementById('btnList').onclick=renderHome;
-document.getElementById('btnList2').onclick=renderHome;
+document.getElementById('btnList2').onclick=()=>{
+  if(theoryFromProb){
+    theoryFromProb=false;
+    document.getElementById('theoryArea').classList.add('hidden');
+    document.getElementById('probArea').classList.remove('hidden');
+    document.getElementById('btnList2').textContent='← Về trang chính';
+    window.scrollTo(0,0);
+  }else renderHome();
+};
 document.getElementById('btnList3').onclick=renderHome;
 document.getElementById('btnPrev').onclick=()=>{if(curMode==='sample'&&cur>0)openSample(cur-1)};
 document.getElementById('btnNext').onclick=()=>{
@@ -554,9 +566,19 @@ function showOvl(i,row){
   }
 }
 let curTheory=null;
+let theoryFromProb=false;
+function openTheoryById(id){
+  const i=theory.findIndex(s=>s.id===id);
+  if(i<0)return;
+  openTheory(i);
+  theoryFromProb=true;
+  document.getElementById('btnList2').textContent='← Quay lại bài toán';
+}
 function openTheory(i){
-  curTheory=theory[i];ovlActive=-1;
+  curTheory=theory[i];ovlActive=-1;theoryFromProb=false;
+  document.getElementById('btnList2').textContent='← Về trang chính';
   document.getElementById('home').classList.add('hidden');
+  document.getElementById('probArea').classList.add('hidden');
   document.getElementById('theoryArea').classList.remove('hidden');
   document.getElementById('tName').textContent='📐 '+curTheory.name;
   document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
@@ -619,6 +641,11 @@ let aiHistory=[],aiBusy=false;
 function aiSystem(){
   const p=curProb;
   if(!p)return 'Bạn là gia sư Toán lớp 6, trả lời bằng tiếng Việt, ngắn gọn, dễ hiểu.';
+  let cardCtx='';
+  if(p.shape&&typeof theory!=='undefined'&&theory.length){
+    const sh=theory.find(s=>s.id===p.shape);
+    if(sh)cardCtx=`\nNội dung thẻ lý thuyết "${sh.name}" (bắt buộc dùng đúng nội dung, ký hiệu và cách gọi tên này khi giải thích cho học sinh, thống nhất với phần lý thuyết trong ứng dụng): ${sh.facts.join(' | ')} Công thức: ${sh.formulas.map(f=>f.label+': '+f.f+' ('+f.note+')').join('; ')}`;
+  }
   return `Bạn là gia sư Toán lớp 6 (Việt Nam), đang hướng dẫn một học sinh làm bài tự luận học kì 1.
 Quy tắc bắt buộc:
 1. Trả lời bằng tiếng Việt, ngắn gọn, thân thiện, phù hợp học sinh lớp 6. Mỗi lần trả lời chỉ hướng dẫn 1-2 bước nhỏ rồi hỏi lại để học sinh tự tính.
@@ -632,7 +659,7 @@ Dữ kiện đề cho: ${p.analysis.given.join('; ')}
 Hướng làm dự kiến: ${p.analysis.plan}
 Từ khóa quan trọng trong đề: ${(p.kw&&p.kw.length)?p.kw.map(k=>'"'+k.t+'" ('+k.why+')').join('; '):'chưa có sẵn, hãy tự chỉ ra các số liệu và từ ngữ mấu chốt trong đề'}
 Lời giải mẫu từng bước (chỉ để bạn dẫn dắt học sinh đi đúng hướng này, KHÔNG đọc nguyên văn từng dòng cho học sinh): ${p.solution.join(' -> ')}
-Lý thuyết liên quan: ${p.theory||''}
+Lý thuyết liên quan: ${p.theory||''}${cardCtx}
 Đáp án đúng (chỉ để bạn kiểm tra ngầm khi học sinh trả lời, tuyệt đối không nói ra trừ khi học sinh xin lời giải): ${p.parts.map(pt=>pt.label+' = '+pt.answer+' '+(pt.unit||'')).join('; ')}`;
 }
 function aiAppend(cls,text){

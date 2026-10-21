@@ -534,7 +534,7 @@
   "text": "Một mảnh vườn hình chữ nhật có chiều dài 15 m và chiều rộng 8 m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.",
   "title": "Bài 11: Mảnh vườn hình chữ nhật",
   "topic": "Hình chữ nhật",
-  "theory": "Hình chữ nhật: Chu vi = (chiều dài + chiều rộng) × 2. Diện tích = chiều dài × chiều rộng.",
+  "theory": "Hình chữ nhật ABCD: Chu vi P = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.",
   "kw": [
    {
     "t": "chiều dài 15 m",
@@ -557,7 +557,8 @@
     "why": "Điều cần tìm (ý b): diện tích mảnh vườn."
    }
   ],
-  "template": "rectGeo"
+  "template": "rectGeo",
+  "shape": "hinh-chu-nhat"
  },
  {
   "analysis": {
@@ -590,7 +591,7 @@
   "text": "Một sân chơi hình vuông có cạnh 9 m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.",
   "title": "Bài 12: Sân chơi hình vuông",
   "topic": "Hình vuông",
-  "theory": "Hình vuông: Chu vi = cạnh × 4. Diện tích = cạnh × cạnh.",
+  "theory": "Hình vuông: Chu vi P = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.",
   "kw": [
    {
     "t": "cạnh 9 m",
@@ -608,7 +609,8 @@
     "why": "Điều cần tìm (ý b): diện tích của sân."
    }
   ],
-  "template": "squareGeo"
+  "template": "squareGeo",
+  "shape": "hinh-vuong"
  },
  {
   "analysis": {
@@ -635,7 +637,7 @@
   "text": "Một biển báo giao thông có dạng tam giác đều với cạnh dài 30 cm. Tính chu vi của biển báo đó.",
   "title": "Bài 13: Biển báo tam giác đều",
   "topic": "Tam giác đều",
-  "theory": "Tam giác đều có 3 cạnh bằng nhau và 3 góc bằng nhau. Chu vi = cạnh × 3.",
+  "theory": "Tam giác đều: Chu vi P = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).",
   "kw": [
    {
     "t": "tam giác đều",
@@ -653,7 +655,8 @@
     "why": "Điều cần tìm: chu vi của biển báo."
    }
   ],
-  "template": "triGeo"
+  "template": "triGeo",
+  "shape": "tam-giac-deu"
  },
  {
   "analysis": {
@@ -681,7 +684,7 @@
   "text": "Mặt bàn có dạng hình thang cân với đáy lớn 12 cm, đáy nhỏ 8 cm và cạnh bên 5 cm. Tính chu vi của mặt bàn.",
   "title": "Bài 14: Mặt bàn hình thang cân",
   "topic": "Hình thang cân",
-  "theory": "Chu vi của một hình bằng tổng độ dài tất cả các cạnh. Hình thang cân có 2 cạnh bên bằng nhau, 2 đáy là hai cạnh song song.",
+  "theory": "Hình thang: Diện tích S = (a + b) × h : 2. Trong đó a là đáy lớn, b là đáy nhỏ, h là chiều cao. Chu vi bằng tổng độ dài tất cả các cạnh.",
   "kw": [
    {
     "t": "hình thang cân",
@@ -709,7 +712,8 @@
     "why": "Điều cần tìm: chu vi mặt bàn = tổng 4 cạnh."
    }
   ],
-  "template": "trapGeo"
+  "template": "trapGeo",
+  "shape": "hinh-thang-can"
  },
  {
   "analysis": {
@@ -736,7 +740,7 @@
   "text": "Một viên gạch trang trí hình thoi có hai đường chéo dài 6 cm và 8 cm. Tính diện tích của viên gạch.",
   "title": "Bài 15: Diện tích hình thoi",
   "topic": "Hình thoi",
-  "theory": "Hình thoi: Diện tích = (đường chéo thứ nhất × đường chéo thứ hai) : 2. Hai đường chéo của hình thoi vuông góc với nhau.",
+  "theory": "Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).",
   "kw": [
    {
     "t": "hai đường chéo dài 6 cm và 8 cm",
@@ -749,7 +753,8 @@
     "why": "Điều cần tìm: diện tích viên gạch (hình thoi)."
    }
   ],
-  "template": "rhombusGeo"
+  "template": "rhombusGeo",
+  "shape": "hinh-thoi"
  },
  {
   "analysis": {
@@ -776,7 +781,7 @@
   "text": "Một mảnh đất hình bình hành có cạnh đáy 9 m và chiều cao tương ứng 5 m. Tính diện tích của mảnh đất.",
   "title": "Bài 16: Diện tích hình bình hành",
   "topic": "Hình bình hành",
-  "theory": "Hình bình hành: Diện tích = cạnh đáy × chiều cao tương ứng với cạnh đáy đó.",
+  "theory": "Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.",
   "kw": [
    {
     "t": "cạnh đáy 9 m",
@@ -794,7 +799,8 @@
     "why": "Điều cần tìm: diện tích mảnh đất."
    }
   ],
-  "template": "paraGeo"
+  "template": "paraGeo",
+  "shape": "hinh-binh-hanh"
  },
  {
   "analysis": {

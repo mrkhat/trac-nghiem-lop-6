@@ -139,7 +139,7 @@ rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
   return{title:'Mảnh vườn hình chữ nhật',text:`Một mảnh vườn hình chữ nhật có chiều dài ${L} m và chiều rộng ${W} m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.`,svg,
    analysis:{given:[`Hình chữ nhật: chiều dài ${L} m, chiều rộng ${W} m`],ask:'Chu vi và diện tích mảnh vườn',plan:'Chu vi hình chữ nhật: (dài + rộng) × 2. Diện tích hình chữ nhật: dài × rộng.'},
    hint:`${L} + ${W} = ${L+W}.`,
-   theory:'Hình chữ nhật: Chu vi = (chiều dài + chiều rộng) × 2. Diện tích = chiều dài × chiều rộng. Các cạnh đối của hình chữ nhật bằng nhau, bốn góc đều vuông.',
+   theory:'Hình chữ nhật ABCD: Chu vi P = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.',
    kw:[{t:`chiều dài ${L} m`,type:'data',why:'Đề cho: chiều dài mảnh vườn.'},{t:`chiều rộng ${W} m`,type:'data',why:'Đề cho: chiều rộng mảnh vườn.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi mảnh vườn.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích mảnh vườn.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Chu vi: (${L} + ${W}) × 2 = ${L+W} × 2 = ${P} (m)`,`Diện tích: ${L} × ${W} = ${A} (m²)`]};
@@ -150,7 +150,7 @@ squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
   return{title:'Sân chơi hình vuông',text:`Một sân chơi hình vuông có cạnh ${s} m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.`,svg,
    analysis:{given:[`Hình vuông có cạnh ${s} m (4 cạnh bằng nhau)`],ask:'Chu vi và diện tích của sân',plan:'Chu vi hình vuông: cạnh × 4. Diện tích hình vuông: cạnh × cạnh.'},
    hint:`${s} × 4 = ${P} và ${s} × ${s} = ${A}.`,
-   theory:'Hình vuông: Chu vi = cạnh × 4. Diện tích = cạnh × cạnh. Hình vuông có 4 cạnh bằng nhau và 4 góc vuông.',
+   theory:'Hình vuông: Chu vi P = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.',
    kw:[{t:`cạnh ${s} m`,type:'data',why:'Đề cho: cạnh hình vuông (cả 4 cạnh đều bằng nhau).'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi của sân.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích của sân.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Chu vi: ${s} × 4 = ${P} (m)`,`Diện tích: ${s} × ${s} = ${A} (m²)`]};
@@ -161,7 +161,7 @@ triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
   return{title:'Biển báo tam giác đều',text:`Một biển báo giao thông có dạng tam giác đều với cạnh dài ${s} cm. Tính chu vi của biển báo đó.`,svg,
    analysis:{given:['Tam giác đều: 3 cạnh bằng nhau, mỗi cạnh '+s+' cm'],ask:'Chu vi của biển báo',plan:'Chu vi là tổng độ dài 3 cạnh. Vì 3 cạnh bằng nhau nên lấy cạnh × 3.'},
    hint:`Tam giác đều có 3 cạnh bằng nhau: ${s} × 3.`,
-   theory:'Tam giác đều có 3 cạnh bằng nhau và 3 góc bằng nhau (mỗi góc 60°). Chu vi = cạnh × 3.',
+   theory:'Tam giác đều: Chu vi P = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).',
    kw:[{t:'tam giác đều',type:'op',why:'Từ khóa: tam giác đều có 3 cạnh bằng nhau → chu vi = cạnh × 3.'},{t:`cạnh dài ${s} cm`,type:'data',why:'Đề cho: mỗi cạnh dài bấy nhiêu.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm: chu vi của biển báo.'}],
    parts:[{label:'Chu vi',answer:''+P,unit:'cm'}],
    solution:[`Chu vi: ${s} × 3 = ${P} (cm)`]};
@@ -172,7 +172,7 @@ trapGeo:{chapter:4,topic:'Hình thang cân',gen(l){
   return{title:'Mặt bàn hình thang cân',text:`Mặt bàn có dạng hình thang cân với đáy lớn ${DL} cm, đáy nhỏ ${DN} cm và cạnh bên ${leg} cm. Tính chu vi của mặt bàn.`,svg,
    analysis:{given:[`Hình thang cân: đáy lớn ${DL} cm, đáy nhỏ ${DN} cm`,`Hình thang cân có 2 cạnh bên bằng nhau, mỗi cạnh ${leg} cm`],ask:'Chu vi của mặt bàn',plan:`Chu vi = đáy lớn + đáy nhỏ + cạnh bên + cạnh bên = ${DL} + ${DN} + ${leg} + ${leg}.`},
    hint:`Hình thang cân có hai cạnh bên bằng nhau: ${DL} + ${DN} + ${leg} × 2.`,
-   theory:'Chu vi của một hình bằng tổng độ dài tất cả các cạnh. Hình thang cân có 2 cạnh bên bằng nhau, 2 góc kề một đáy bằng nhau, 2 đường chéo bằng nhau.',
+   theory:'Chu vi của một hình bằng tổng độ dài tất cả các cạnh. Hình thang: Diện tích S = (a + b) × h : 2 (a là đáy lớn, b là đáy nhỏ, h là chiều cao). Hình thang cân có 2 cạnh bên bằng nhau.',
    kw:[{t:'hình thang cân',type:'op',why:'Từ khóa: hình thang cân có 2 cạnh bên bằng nhau.'},{t:`đáy lớn ${DL} cm`,type:'data',why:'Đề cho: đáy lớn.'},{t:`đáy nhỏ ${DN} cm`,type:'data',why:'Đề cho: đáy nhỏ.'},{t:`cạnh bên ${leg} cm`,type:'data',why:'Đề cho: mỗi cạnh bên, mà hình có 2 cạnh bên.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm: chu vi mặt bàn = tổng 4 cạnh.'}],
    parts:[{label:'Chu vi',answer:''+P,unit:'cm'}],
    solution:[`Chu vi: ${DL} + ${DN} + ${leg} + ${leg} = ${P} (cm)`]};
@@ -185,7 +185,7 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
   return{title:'Diện tích hình thoi',text:`Một viên gạch trang trí hình thoi có hai đường chéo dài ${d2} cm và ${d1} cm. Tính diện tích của viên gạch.`,svg,
    analysis:{given:[`Hình thoi có hai đường chéo ${d2} cm và ${d1} cm`],ask:'Diện tích viên gạch',plan:`Diện tích hình thoi bằng một nửa tích hai đường chéo: (${d2} × ${d1}) : 2.`},
    hint:`${d2} × ${d1} = ${d2*d1}, rồi chia cho 2.`,
-   theory:'Hình thoi: Diện tích = (đường chéo thứ nhất × đường chéo thứ hai) : 2. Hình thoi có 4 cạnh bằng nhau, hai đường chéo vuông góc với nhau.',
+   theory:'Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).',
    kw:[{t:`hai đường chéo dài ${d2} cm và ${d1} cm`,type:'data',why:'Đề cho: độ dài hai đường chéo của hình thoi.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích viên gạch (hình thoi).'}],
    parts:[{label:'Diện tích',answer:''+A,unit:'cm²'}],
    solution:[`Diện tích: (${d2} × ${d1}) : 2 = ${d2*d1} : 2 = ${A} (cm²)`]};
@@ -196,7 +196,7 @@ paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
   return{title:'Diện tích hình bình hành',text:`Một mảnh đất hình bình hành có cạnh đáy ${base} m và chiều cao tương ứng ${h} m. Tính diện tích của mảnh đất.`,svg,
    analysis:{given:[`Hình bình hành: cạnh đáy ${base} m, chiều cao ứng với cạnh đáy đó là ${h} m`],ask:'Diện tích mảnh đất',plan:'Diện tích hình bình hành = cạnh đáy × chiều cao tương ứng.'},
    hint:`Lấy cạnh đáy nhân với chiều cao: ${base} × ${h}.`,
-   theory:'Hình bình hành: Diện tích = cạnh đáy × chiều cao tương ứng với cạnh đáy đó. Các cạnh đối của hình bình hành song song và bằng nhau.',
+   theory:'Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.',
    kw:[{t:`cạnh đáy ${base} m`,type:'data',why:'Đề cho: cạnh đáy hình bình hành.'},{t:`chiều cao tương ứng ${h} m`,type:'data',why:'Đề cho: chiều cao ứng với cạnh đáy đó — phải ghép đúng cặp đáy × chiều cao.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích mảnh đất.'}],
    parts:[{label:'Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Diện tích: ${base} × ${h} = ${A} (m²)`]};
@@ -244,6 +244,8 @@ window.GEN={templates:T,
  makeFrom(k,lvl){
    const p=T[k].gen(lvl||2);
    p.gen=true;p.template=k;p.chapter=T[k].chapter;p.topic=T[k].topic;
+   const SHAPE={rectGeo:'hinh-chu-nhat',squareGeo:'hinh-vuong',triGeo:'tam-giac-deu',trapGeo:'hinh-thang-can',rhombusGeo:'hinh-thoi',paraGeo:'hinh-binh-hanh'};
+   if(SHAPE[k])p.shape=SHAPE[k];
    return p;
  }};
 })();
