@@ -66,6 +66,18 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .fb.ok{color:#2e7d32;font-weight:bold}.fb.no{color:#dc3545}
 .nav{display:flex;justify-content:space-between;margin-top:6px;flex-wrap:wrap;gap:6px}
 .hidden{display:none}
+.qz-item{border:1.5px solid #cfd8dc;border-radius:10px;padding:12px 14px;margin:12px 0;background:#fafafa}
+.qz-q{font-size:17px;font-weight:600;line-height:1.55;margin-bottom:10px}
+.qz-opts{display:flex;flex-direction:column;gap:8px}
+.qz-opt{display:block;width:100%;text-align:left;padding:11px 13px;font-size:16px;line-height:1.5;border:1.5px solid #90a4ae;border-radius:8px;background:#fff;cursor:pointer;min-height:44px;color:#222}
+.qz-opt:hover{border-color:#1a73e8}
+.qz-opt.sel{border-color:#1a73e8;background:#e3f2fd;font-weight:600}
+.qz-item.done .qz-opt{cursor:default}
+.qz-opt.right{border-color:#2e7d32;background:#e8f5e9;font-weight:700}
+.qz-opt.wrong{border-color:#c62828;background:#ffebee}
+.qz-exp{margin-top:10px;background:#fff8e1;border-left:4px solid #f9a825;padding:9px 11px;font-size:16px;line-height:1.6;border-radius:0 8px 8px 0}
+.qz-score{font-size:20px;font-weight:700;margin:12px 0 4px}
+.qz-cheer{font-size:16px;color:#444;line-height:1.6}
 .sel-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
 select{padding:10px;font-size:16px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
@@ -808,6 +820,20 @@ body.tab-luyen #tabLuyen{display:block}
     </div>
   </div>
   <div class="sec">
+    <h2>🧠 Kiểm tra trí nhớ lý thuyết</h2>
+    <p class="desc">Bài kiểm tra trắc nghiệm 10 câu rút ngẫu nhiên từ các thẻ ⚡ Nhớ nhanh, thẻ Đúng/Sai và thẻ lý thuyết của các bài học — toàn là lý thuyết, công thức và tính chất cần thuộc lòng. Mỗi câu một hàng riêng cho từng phương án, làm xong bấm Nộp bài là biết điểm ngay!</p>
+    <p class="desc">Điểm cao nhất của em: <b id="qzBest">—</b>/10</p>
+    <div class="sel-row">
+      <button class="btn btn-k" id="btnQzStart">▶ Bắt đầu bài kiểm tra</button>
+      <button class="btn btn-c hidden" id="btnQzNew">🔀 Làm bài mới</button>
+    </div>
+    <div id="qzResult" class="hidden"></div>
+    <div id="qzArea"></div>
+    <div class="sel-row hidden" id="qzSubmitRow">
+      <button class="btn btn-a" id="btnQzSubmit">✔ Nộp bài</button>
+    </div>
+  </div>
+  <div class="sec">
     <h2>📐 Thẻ lý thuyết tương tác</h2>
     <p class="desc">Bấm vào từng yếu tố trên hình để xem đặc điểm tương ứng: các hình học (cạnh, góc, đường chéo, trục đối xứng, công thức chu vi và diện tích), tập hợp, tia số và trục số — kèm câu hỏi tự kiểm tra.</p>
     <div class="shape-grid" id="shapeGrid"></div>
@@ -888,7 +914,7 @@ body.tab-luyen #tabLuyen{display:block}
   </div>
 </div>
 
-<script src="gen.js?v=20261021j"></script>
+<script src="gen.js?v=20261021k"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 const SGK_LBL={p22:'SGK Bài 1 · Tập hợp',p21:'SGK Bài 2 · Cách ghi số tự nhiên',p23:'SGK Bài 3 · Thứ tự trong tập hợp số tự nhiên',p3:'SGK Bài 4 · Phép cộng và phép trừ số tự nhiên',p4:'SGK Bài 5 · Phép nhân và phép chia số tự nhiên',p2:'SGK Bài 6 · Lũy thừa với số mũ tự nhiên',p1:'SGK Bài 7 · Thứ tự thực hiện các phép tính',p24:'SGK Bài 8 · Quan hệ chia hết và tính chất',p18:'SGK Bài 9 · Dấu hiệu chia hết',p28:'SGK Bài 10 · Số nguyên tố',p5:'SGK Bài 11 · Ước chung. Ước chung lớn nhất',p6:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p7:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p25:'SGK Bài 13 · Tập hợp các số nguyên',p8:'SGK Bài 14 · Phép cộng và phép trừ số nguyên',p9:'SGK Bài 15 · Quy tắc dấu ngoặc',p10:'SGK Bài 14–15 · Số nguyên',p27:'SGK Bài 15 · Quy tắc dấu ngoặc',p19:'SGK Bài 16 · Phép nhân số nguyên',p26:'SGK Bài 17 · Phép chia hết. Ước và bội của số nguyên',p13:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p12:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p11:'SGK Bài 19 · Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân',p14:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p15:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p16:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p17:'SGK Bài 21 · Hình có trục đối xứng',p20:'SGK Bài 22 · Hình có tâm đối xứng'};
@@ -901,8 +927,8 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021j').then(r=>r.json()),fetch('theory.json?v=20261021j').then(r=>r.json())]).then(([p,t])=>{
-  problems=p;theory=t;renderHome();
+Promise.all([fetch('problems.json?v=20261021k').then(r=>r.json()),fetch('theory.json?v=20261021k').then(r=>r.json()),fetch('quiz.json?v=20261021k').then(r=>r.json()).catch(()=>[])]).then(([p,t,qz])=>{
+  problems=p;theory=t;window.QUIZ_BANK=qz;renderHome();if(window.qzInit)window.qzInit();
 });
 
 function renderHome(){
@@ -1423,6 +1449,108 @@ document.getElementById('btnAiSend').onclick=()=>{
 };
 document.getElementById('aiInput').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('btnAiSend').click();});
 document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q));
+</script>
+<script>
+/* ===== KIEM TRA TRI NHO LY THUYET (quiz.json) ===== */
+(function(){
+  var bank=[], drawn=[], sel=[], submitted=false;
+  function $(id){return document.getElementById(id);}
+  function qEsc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function shuffle(arr){var a=arr.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+  function bestVal(){var v=0;try{v=parseInt(localStorage.getItem('toan6_quiz_best')||'0',10)||0;}catch(e){}return v;}
+  function showBest(){var el=$('qzBest');if(el){var b=bestVal();el.textContent=b>0?(''+b):'—';}}
+  function draw(){
+    var byCh={};
+    bank.forEach(function(q){(byCh[q.ch]=byCh[q.ch]||[]).push(q);});
+    var picked=[], usedQ={};
+    [1,2,3,4,5].forEach(function(c){
+      var pool=shuffle(byCh[c]||[]), n=0, i;
+      for(i=0;i<pool.length&&n<2;i++){if(!usedQ[pool[i].q]){usedQ[pool[i].q]=1;picked.push(pool[i]);n++;}}
+      for(i=0;i<pool.length&&n<2;i++){if(picked.indexOf(pool[i])<0){picked.push(pool[i]);n++;}}
+    });
+    if(picked.length<10){
+      var rest=shuffle(bank.filter(function(q){return picked.indexOf(q)<0;}));
+      rest.forEach(function(q){if(picked.length<10&&!usedQ[q.q]){usedQ[q.q]=1;picked.push(q);}});
+      rest.forEach(function(q){if(picked.length<10&&picked.indexOf(q)<0)picked.push(q);});
+    }
+    return shuffle(picked).slice(0,10).map(function(q){
+      var idx=shuffle([0,1,2,3]);
+      return {q:q.q,explain:q.explain,ch:q.ch,opts:idx.map(function(i){return q.options[i];}),answer:idx.indexOf(q.answer)};
+    });
+  }
+  function render(){
+    var html='';
+    drawn.forEach(function(it,i){
+      html+='<div class="qz-item" id="qzi'+i+'"><div class="qz-q">Câu '+(i+1)+'. '+qEsc(it.q)+'</div><div class="qz-opts">';
+      it.opts.forEach(function(o,j){
+        html+='<button type="button" class="qz-opt" data-i="'+i+'" data-j="'+j+'">'+'ABCD'.charAt(j)+') '+qEsc(o)+'</button>';
+      });
+      html+='</div><div class="qz-exp hidden" id="qze'+i+'">💡 '+qEsc(it.explain)+'</div></div>';
+    });
+    $('qzArea').innerHTML=html;
+    $('qzArea').querySelectorAll('.qz-opt').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        if(submitted)return;
+        var i=parseInt(btn.getAttribute('data-i'),10);
+        sel[i]=parseInt(btn.getAttribute('data-j'),10);
+        btn.parentNode.querySelectorAll('.qz-opt').forEach(function(x){x.classList.remove('sel');});
+        btn.classList.add('sel');
+      });
+    });
+  }
+  function start(){
+    if(!bank.length&&window.QUIZ_BANK&&window.QUIZ_BANK.length)bank=window.QUIZ_BANK;
+    if(!bank.length){
+      var r=$('qzResult');r.classList.remove('hidden');
+      r.innerHTML='<div class="qz-cheer">Đang tải ngân hàng câu hỏi… em đợi ít giây rồi bấm lại nhé!</div>';
+      return;
+    }
+    drawn=draw();sel=drawn.map(function(){return -1;});submitted=false;
+    var res=$('qzResult');res.classList.add('hidden');res.innerHTML='';
+    render();
+    $('btnQzStart').classList.add('hidden');
+    $('btnQzNew').classList.add('hidden');
+    $('qzSubmitRow').classList.remove('hidden');
+    var area=$('qzArea');if(area&&area.scrollIntoView)area.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function submit(){
+    if(submitted||!drawn.length)return;
+    submitted=true;
+    var score=0;
+    drawn.forEach(function(it,i){
+      if(sel[i]===it.answer)score++;
+      var box=$('qzi'+i);
+      if(box){
+        box.classList.add('done');
+        box.querySelectorAll('.qz-opt').forEach(function(btn,j){
+          btn.disabled=true;
+          if(j===it.answer)btn.classList.add('right');
+          else if(j===sel[i])btn.classList.add('wrong');
+        });
+      }
+      var ex=$('qze'+i);if(ex)ex.classList.remove('hidden');
+    });
+    var cheer=score===10?'🌟 Xuất sắc! Em nhớ lý thuyết rất chắc.':
+      score>=8?'🎉 Rất tốt! Chỉ còn một chút nữa là đạt điểm tuyệt đối.':
+      score>=5?'👍 Khá tốt! Xem lại phần giải thích ở những câu sai rồi làm bài mới nhé.':
+      score>=3?'💪 Cố lên! Mở lại các thẻ ⚡ Nhớ nhanh và thẻ Đúng/Sai trong bài học để ôn, rồi thử lại nhé.':
+      '🌱 Không sao đâu! Mình ôn lại từng bài bằng thẻ lý thuyết trước, rồi quay lại kiểm tra sau nhé.';
+    var res=$('qzResult');res.classList.remove('hidden');
+    res.innerHTML='<div class="qz-score">Đúng '+score+'/10 câu</div><div class="qz-cheer">'+cheer+'</div>';
+    if(score>bestVal()){try{localStorage.setItem('toan6_quiz_best',''+score);}catch(e){}}
+    showBest();
+    $('qzSubmitRow').classList.add('hidden');
+    $('btnQzNew').classList.remove('hidden');
+    res.scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  window.qzInit=function(){if(window.QUIZ_BANK&&window.QUIZ_BANK.length)bank=window.QUIZ_BANK;};
+  var bs=$('btnQzStart'),bn=$('btnQzNew'),sb=$('btnQzSubmit');
+  if(bs)bs.addEventListener('click',start);
+  if(bn)bn.addEventListener('click',start);
+  if(sb)sb.addEventListener('click',submit);
+  showBest();
+  window.QZ={get bank(){return bank;},get drawn(){return drawn;},get sel(){return sel;},start:start,submit:submit};
+})();
 </script>
 <script>
 
