@@ -151,6 +151,7 @@ img,svg{max-width:100%}
 .read-body p.tho{white-space:pre-line}
 .read-body p.gap{text-align:center;color:#888;font-style:italic}
 .read-body .read-note{font-size:14px;line-height:1.6;color:#555;border-top:1px dashed #c9b8dd;padding-top:8px}
+.read-body .rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a;transition:background .25s}
 </style>
 <style>
 /* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
@@ -1610,21 +1611,42 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   pickVoice();
   if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
   var cur=null;
-  function chunksOf(body){
-    var chunks=[];
-    body.querySelectorAll('p').forEach(function(p){
+  function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function pushLong(units,t,el){
+    if(t.length<=220){ units.push({t:t,el:el}); return; }
+    var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], buf='';
+    parts.forEach(function(x){ x=x.trim(); if(!x) return; if(buf&&(buf+' '+x).length>200){ units.push({t:buf,el:el}); buf=x; } else { buf=buf?buf+' '+x:x; } });
+    if(buf) units.push({t:buf,el:el});
+  }
+  var lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+  function prepare(box){
+    if(box._units) return box._units;
+    var units=[];
+    box.querySelectorAll('.read-body p').forEach(function(p){
       if(p.classList.contains('read-note')||p.classList.contains('gap')) return;
       if(p.classList.contains('tho')){
-        (p.innerText||p.textContent||'').split('\n').forEach(function(line){ line=line.replace(/\s+/g,' ').trim(); if(line) chunks.push(line); });
+        var lines=(p.textContent||'').split('\n');
+        p.innerHTML=lines.map(function(l){ return l.trim()? '<span class="rb-u">'+esc(l)+'</span>' : ''; }).join('\n');
+        p.querySelectorAll('.rb-u').forEach(function(sp){ var t=sp.textContent.replace(/\s+/g,' ').trim(); if(t) units.push({t:t,el:sp}); });
         return;
       }
-      var t=(p.innerText||p.textContent||'').replace(/\s+/g,' ').trim();
-      if(!t) return;
-      var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], buf='';
-      parts.forEach(function(s){ s=s.trim(); if(!s) return; if(buf && (buf+' '+s).length>170){ chunks.push(buf); buf=s; } else { buf=buf?buf+' '+s:s; } });
-      if(buf) chunks.push(buf);
+      var txt=(p.textContent||'').replace(/\s+/g,' ').trim();
+      if(!txt) return;
+      if(p.querySelector('b,i,em,strong,span,a,u')){ pushLong(units,txt,p); return; }
+      var sents=txt.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[txt];
+      p.innerHTML=sents.map(function(x){ return '<span class="rb-u">'+esc(x.trim())+'</span>'; }).join(' ');
+      p.querySelectorAll('.rb-u').forEach(function(sp){ pushLong(units,sp.textContent,sp); });
     });
-    return chunks;
+    box._units=units;
+    return units;
   }
   function setBtn(st){
     document.querySelectorAll('.rb-listen').forEach(function(b){ b.classList.remove('reading'); if(b.getAttribute('data-orig')) b.textContent=b.getAttribute('data-orig'); });
@@ -1634,12 +1656,13 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   function stopRead(){
     if(cur){ cur.dead=true; cur=null; }
     try{ synth.cancel(); }catch(e){}
-    setBtn(null);
+    hi(null); setBtn(null);
   }
   function speakNext(st){
     if(!st||cur!==st||st.dead) return;
-    if(st.idx>=st.chunks.length){ stopRead(); return; }
-    var u=new SpeechSynthesisUtterance(st.chunks[st.idx]);
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    hi(st.units[st.idx].el);
+    var u=new SpeechSynthesisUtterance(st.units[st.idx].t);
     u.lang='vi-VN'; u.rate=0.95;
     if(viVoice) u.voice=viVoice;
     u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
@@ -1648,8 +1671,16 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   }
   function startRead(box){
     stopRead();
-    var chunks=chunksOf(box.querySelector('.read-body'));
-    if(!chunks.length) return;
+    var units;
+    try{ units=prepare(box); }catch(e){ units=[]; }
+    if(!units.length){ /* du phong: doc theo doan, to mau ca doan */
+      box.querySelectorAll('.read-body p').forEach(function(p){
+        if(p.classList.contains('read-note')||p.classList.contains('gap')) return;
+        var t=(p.textContent||'').replace(/\s+/g,' ').trim();
+        if(t) pushLong(units,t,p);
+      });
+    }
+    if(!units.length) return;
     if(!box.classList.contains('open')){
       box.classList.add('open');
       var tg=box.querySelector('.rb-toggle'); if(tg) tg.textContent='Thu gọn ▴';
@@ -1664,7 +1695,7 @@ document.querySelectorAll('.fcbox').forEach(function(box){
         note.hidden=false;
       }
     }
-    var st={box:box,chunks:chunks,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false};
+    var st={box:box,units:units,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false};
     cur=st; setBtn(st); speakNext(st);
   }
   document.querySelectorAll('.readbox').forEach(function(box){
