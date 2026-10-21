@@ -97,7 +97,7 @@ Từng ảnh đã được tải về và **xem trực tiếp** để đối chi
 
 ## Bảng nguồn ảnh
 
-32 ảnh qua URL `https://commons.wikimedia.org/wiki/Special:FilePath/<file>?width=900` và 1 ảnh qua URL ảnh trực tiếp của The Met; tất cả đã kiểm chứng bằng curl (HTTP 200 + content-type image). Khái niệm trừu tượng không có ảnh phù hợp (đơn vị thời gian, trục TCN/CN ở Bài 2) được vẽ bằng SVG ngay trong trang, bám sát nội dung SGK. Thư mục `img/` giữ bản tải về của các ảnh bản v1 để dự phòng.
+31 ảnh qua URL `https://commons.wikimedia.org/wiki/Special:FilePath/<file>?width=900` và 1 ảnh qua URL ảnh trực tiếp của The Met; tất cả đã kiểm chứng bằng curl (HTTP 200 + content-type image). Riêng sơ đồ Ai Cập–Lưỡng Hà (Bài 6) là file SVG tự vẽ nhãn tiếng Việt lưu ngay trong repo: `img/ban-do-ai-cap-luong-ha.svg`. Khái niệm trừu tượng không có ảnh phù hợp (đơn vị thời gian, trục TCN/CN ở Bài 2) được vẽ bằng SVG ngay trong trang, bám sát nội dung SGK. Thư mục `img/` giữ bản tải về của các ảnh bản v1 để dự phòng.
 
 | # | File / nguồn | Giấy phép | Dùng ở |
 |---|---|---|---|
@@ -109,8 +109,8 @@ Từng ảnh đã được tải về và **xem trực tiếp** để đối chi
 | 6 | Homo habilis - forensic facial reconstruction.png | CC BY-SA 4.0 | Bài 3 (dải tiến hóa), thẻ 11 |
 | 7 | Homo erectus reconstruction, Natural History Museum, London.jpg | CC BY-SA 2.0 | Bài 3 (dải tiến hóa), thẻ 12 |
 | 8 | NHM - Homo sapiens Modell 1.jpg | CC BY-SA 4.0 | Bài 3 (dải tiến hóa), thẻ 13 |
-| 9 | Skulls of our Ancestors.jpg | CC BY-SA 2.0 | Bài 3 (so sánh hộp sọ), thẻ 9 |
-| 10 | Acheulean handaxe found in southern England - 55465763081.jpg | CC BY 4.0 | Bài 3, thẻ 14 |
+| 9 | **Students explore hominid evolution.jpg** (thay 21/10/2026 — đợt rà chữ nước ngoài: ảnh cũ đầy nhãn tiếng Anh của bảo tàng) | CC BY 4.0 | Bài 3 (so sánh hộp sọ), thẻ 9 |
+| 10 | **Palaeolithic acheulean handaxe (FindID 709909).jpg** (thay 21/10/2026 — đợt rà chữ nước ngoài: ảnh cũ lọt thẻ nhãn tiếng Anh của bảo tàng) | CC BY 2.0 | Bài 3, thẻ 14 |
 | 11 | Altamira, bison.jpg | Public Domain | Bài 4, thẻ 15/17 |
 | 12 | Lascaux painting.jpg | Public Domain | Bài 4, thẻ 19 |
 | 13 | Neolithic, Polished Stone Axe (FindID 468960).jpg | CC BY-SA 2.0 | Bài 4, timeline, thẻ 18 |
@@ -118,7 +118,7 @@ Từng ảnh đã được tải về và **xem trực tiếp** để đối chi
 | 15 | Bronze Age dagger.jpg | Public Domain | Bài 5, thẻ 20/21/23 |
 | 16 | Giza pyramids sandstorm.jpg | CC0 | Bài 6, timeline, thẻ 24/25 |
 | 17 | **The Met Open Access — Donation Stela of Osorkon I, object 550793** (thay 21/10/2026) | CC0 | Bài 6, thẻ 26 |
-| 18 | **Ancient Egypt and Mesopotamia c. 1450 BC.png** (thay 21/10/2026) | Public domain | Bài 6, thẻ 27 |
+| 18 | **img/ban-do-ai-cap-luong-ha.svg** — sơ đồ tự vẽ nhãn TIẾNG VIỆT (thay bản đồ tiếng Anh 21/10/2026 — đợt rà chữ nước ngoài; xem mục riêng bên dưới) | Tự vẽ | Bài 6, thẻ 27 |
 | 19 | Ancient ziggurat at Ali Air Base Iraq 2005.jpg | CC BY 3.0 | Bài 6 |
 | 20 | Code of Hammurabi (Louvre Sb 8)-31434550325.jpg | CC BY 2.0 | Timeline, thẻ 28 |
 | 21 | Varanasi, India, Ghats on Ganges River.jpg | CC BY 4.0 | Bài 7, thẻ 29 |
@@ -157,3 +157,17 @@ Nguyên tắc áp dụng: cốt lõi SGK học trước, phần bổ sung để 
 - Bài học bao phủ 100% kiến thức mà câu trắc nghiệm kiểm tra (xem mục Kiểm tra độ bao phủ).
 - Sơ đồ tự vẽ có ghi chú "hình minh họa, không theo tỉ lệ" khi không đúng tỉ lệ thật.
 - Đáp án trắc nghiệm do người biên soạn tự làm, **chưa đối chiếu đáp án chính thức**.
+
+## Rà soát chữ nước ngoài trong hình (21/10/2026)
+
+Quy tắc của user: hạn chế tối đa chữ tiếng Anh/ngôn ngữ khác trong hình bài học thường (trẻ lớp 6 không đọc được, gây phân tâm). Đã tải và xem trực tiếp toàn bộ 33 ảnh. Kết quả: **thay/vẽ lại 3 ảnh**, còn lại sạch chữ hoặc thuộc ngoại lệ giữ nguyên.
+
+| Ảnh | Vấn đề | Xử lý |
+|---|---|---|
+| Bản đồ Ai Cập–Lưỡng Hà (Bài 6 + thẻ 27) | Toàn bộ nhãn bằng tiếng Anh (EGYPT, BABYLONIA, ASSYRIA…) — nhãn chính là nội dung cần học | **Vẽ lại** thành sơ đồ SVG đơn giản nhãn TIẾNG VIỆT: `img/ban-do-ai-cap-luong-ha.svg` (Biển Địa Trung Hải, Biển Đỏ, Vịnh Ba Tư, sông Nin/Ti-grơ/Ơ-phrát, Men-phít, Ba-bi-lon, mũi tên Bắc); chú thích ghi "sơ đồ minh họa đơn giản hoá" |
+| Skulls of our Ancestors (Bài 3 + thẻ 9) | Tường trưng bày hộp sọ phủ kín nhãn/câu chữ tiếng Anh đọc được | **Thay** → `Students explore hominid evolution.jpg` (CC BY 4.0): học sinh cầm 3 hộp sọ so sánh, không chữ; chú thích đã chỉnh theo ảnh mới |
+| Acheulean handaxe… (Bài 3 + thẻ 14) | Thẻ nhãn bảo tàng tiếng Anh lọt ở góc dưới-trái, thấy rõ mảnh chữ | **Thay** → `Palaeolithic acheulean handaxe (FindID 709909).jpg` (CC BY 2.0, Portable Antiquities Scheme): rìu tay chụp 4 phía trên nền trắng, chỉ có thước tỉ lệ cm |
+
+**Giữ nguyên (ngoại lệ, có lý do):** bia tiến sĩ Văn Miếu — chữ Hán khắc trên bia chính là hiện vật/nội dung bài; bia Hammurabi — chữ hình nêm là hiện vật (phần hiện trong ảnh chủ yếu là hình chạm); giáp cốt — chữ giáp cốt là nội dung bài; bia chữ tượng hình The Met — chữ tượng hình là nội dung bài; đồng hồ mặt trời 1668 — chữ số giờ là nội dung của đồng hồ; bến sông Hằng Varanasi — biển hiệu ở xa, nhỏ và mờ, không phải điểm nhìn chính; Mohenjo-daro — biển nhỏ ở rìa xa; đội quân đất nung — bảng nhỏ ở rất xa, không đọc được.
+
+**Đã kiểm tra sạch chữ (25 ảnh còn lại):** rìu đá mài, dao găm đồng, trống đồng Đông Sơn, đồng hồ cát, 4 ảnh dải tiến hóa (afarensis/habilis/erectus/sapiens), Lascaux, Altamira, lửa trại, ruộng bậc thang Bali, kim tự tháp Giza, ziggurat Ur, Vạn Lí Trường Thành, Parthenon, Colosseum, Discobolus, tượng Phật Gandhara, hạt chuỗi Óc Eo, Mỹ Sơn, Angkor Wat.

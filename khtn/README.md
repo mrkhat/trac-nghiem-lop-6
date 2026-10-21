@@ -96,7 +96,7 @@ Theo ràng buộc kỹ thuật (connector push chỉ nhận file UTF-8, không �
 |---|---|---|---|
 | 1 | A group of scientists working in a laboratory Esculab.jpg | CC0 | 200, image/jpeg |
 | 2 | GHS-pictogram-silhouette.svg | Public domain | 200, image/png |
-| 3 | Magnifying glass2.jpg | Public domain | 200, image/jpeg |
+| 3 | **Magnifying glass.jpg** (thay 21/10/2026 — đợt rà chữ nước ngoài: ảnh cũ soi con tem Đức, chữ "DEUTSCHE POST" ngay điểm nhìn chính) | CC BY 2.5 | 200, image/jpeg |
 | 4 | Dark Cool Optical Microscope.png | CC BY-SA 4.0 | 200, image/png |
 | 5 | Steel ruler closeup.jpg | CC BY-SA 4.0 | 200, image/jpeg |
 | 6 | Cent-o-gram-311.jpg | Public domain | 200, image/jpeg |
@@ -104,8 +104,21 @@ Theo ràng buộc kỹ thuật (connector push chỉ nhận file UTF-8, không �
 | 8 | Analog wall thermometer showing temperature in Celsius and Fahrenheit.jpg (tác giả JOBAER) | Giấy phép tự do trên Wikimedia Commons | 200, image/jpeg |
 | 9 | Melting - Flickr - Trinity.jpg | CC BY-SA 2.0 | 200, image/jpeg |
 | 10 | Recycling symbol.svg | Public domain | 200, image/png |
-| 11 | BOC Medical oxygen tanks Royal Women's Hospital.jpg | CC BY-SA 4.0 | 200, image/jpeg |
+| 11 | **Oxygen cylinders at the hospital in Tomaszów Mazowiecki, Poland.jpg** (thay 21/10/2026 — đợt rà chữ nước ngoài: ảnh cũ có logo "BOC" lớn trên bồn) | Public domain | 200, image/jpeg |
 | 12 | Onion Epidermis Cells W.M. 40x - 132.jpg | CC BY 2.0 | 200, image/jpeg |
 | 13 | Photo dynamometres charges.jpg | CC BY-SA 3.0 | 200, image/jpeg |
 
 **Ghi chú đợt soát ảnh 2026-10-21 (khớp ảnh – nội dung + hình câu hỏi/đáp án):** đã tải và xem trực tiếp cả 13 ảnh để đối chiếu với chú thích của từng bài (trang mô tả file trên Commons không mở được từ môi trường làm việc — bị 403 — nên đối chiếu bằng chính ảnh tải về). Kết quả: **12/13 ảnh khớp**; riêng ảnh cũ của Bài 8 (`CelsiusKelvinThermometer.jpg`) là nhiệt kế hai thang **°C và K (Kelvin)** — không hề có thang °F như chú thích và câu hỏi gợi nhớ theo hình vẫn nói tới — nên **đã thay** bằng ảnh nhiệt kế treo tường hai thang **°C (trái) / °F (phải)** ở trên, đồng thời sửa alt, chú thích, câu hỏi gợi nhớ theo hình và dòng nguồn ở chân trang cho khớp. Giấy phép chính xác (biến thể CC) của ảnh mới chưa đối chiếu lại được trên trang file gốc vì lỗi 403 nói trên; tác giả "JOBAER" lấy từ EXIF của file, và Wikimedia Commons chỉ lưu trữ ảnh giấy phép tự do. Ngoài ra đã rà toàn bộ **56 câu hỏi gợi nhớ**: không câu hỏi nào và không đáp án nào chứa ảnh nhúng — 13 câu dạng 🖼️ (1 câu/bài) chỉ nhắc tới hình minh họa của chính bài học trong lời câu hỏi, đáp án luôn là chữ → **không có cặp hình câu hỏi – hình đáp án trùng nhau** cần xử lí; sơ đồ SVG của flashcard giữ nguyên như cũ.
+
+## Rà soát chữ nước ngoài trong hình (21/10/2026)
+
+Quy tắc của user: hạn chế tối đa chữ tiếng Anh/ngôn ngữ khác trong hình bài học thường. Đã tải và xem trực tiếp toàn bộ 13 ảnh. Kết quả: **thay 2 ảnh**, còn lại sạch chữ hoặc thuộc ngoại lệ giữ nguyên.
+
+| Ảnh | Vấn đề | Xử lý |
+|---|---|---|
+| Kính lúp — Magnifying glass2.jpg (Bài 3, 6 vị trí gồm flashcard) | Kính soi con tem Đức, chữ "DEUTSCHE POST / 1 RM" to rõ ngay điểm nhìn chính | **Thay** → `Magnifying glass.jpg` (CC BY 2.5): kính lúp cầm tay trên nền trơn, không chữ |
+| Bình oxygen — BOC Medical oxygen tanks… (Bài 11, 4 vị trí gồm flashcard) | Logo "BOC" đỏ cỡ lớn trên thân bồn + dòng chữ nhỏ "Liquid Medical Oxygen / NO SMOKING" | **Thay** → `Oxygen cylinders at the hospital in Tomaszów Mazowiecki, Poland.jpg` (Public domain): dãy bình khí nén tại bệnh viện, không logo/chữ đọc được |
+
+**Giữ nguyên (ngoại lệ, có lý do):** nhiệt kế hai thang °C/°F (Bài 8) — thang °F chính là nội dung bài học (ngoại lệ user đã duyệt); thước thép (Bài 5), cân Cent-o-gram (Bài 6), lực kế (Bài 13), đồng hồ bấm giây Hanhart (Bài 7) — các vạch số/đơn vị (cm, g, N, giây) là nội dung đo lường của bài, tên hãng sản xuất rất nhỏ trên mặt dụng cụ, không phải điểm nhìn chính.
+
+**Đã kiểm tra sạch chữ:** phòng thí nghiệm (Bài 1), biển báo GHS (Bài 2, biểu tượng thuần), kính hiển vi (Bài 4), đá tan (Bài 9), biểu tượng tái chế (Bài 10), tế bào hành (Bài 12).

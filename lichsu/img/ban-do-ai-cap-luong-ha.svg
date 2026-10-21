@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" role="img" aria-label="Sơ đồ đơn giản hoá Ai Cập và Lưỡng Hà cổ đại, nhãn tiếng Việt">
+  <!-- Đất liền -->
+  <rect x="0" y="0" width="640" height="560" fill="#f6e7c8"/>
+  <!-- Vùng Ai Cập -->
+  <ellipse cx="150" cy="335" rx="98" ry="188" fill="#ffd968" opacity="0.45"/>
+  <!-- Vùng Lưỡng Hà -->
+  <ellipse cx="505" cy="205" rx="108" ry="98" fill="#f2a65a" opacity="0.35"/>
+  <!-- Biển Địa Trung Hải -->
+  <path d="M0,0 L640,0 L640,96 C560,122 500,96 430,124 C370,148 330,128 268,146 C200,166 90,150 0,178 Z" fill="#a9d3f2"/>
+  <!-- Biển Đỏ -->
+  <path d="M292,214 L340,196 L452,452 L406,470 Z" fill="#a9d3f2"/>
+  <!-- Vịnh Ba Tư -->
+  <path d="M585,322 C612,312 640,326 640,358 L640,424 C614,408 594,378 585,322 Z" fill="#a9d3f2"/>
+  <!-- Châu thổ sông Nin -->
+  <path d="M186,206 L142,158 M186,206 L168,150 M186,206 L200,150 M186,206 L230,160" stroke="#2f7fd0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Sông Nin -->
+  <path d="M186,206 C176,300 166,420 176,548" stroke="#2f7fd0" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Sông Ơ-phrát -->
+  <path d="M428,116 C450,170 480,230 540,286" stroke="#2f7fd0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Sông Ti-grơ -->
+  <path d="M492,104 C505,160 540,225 566,282" stroke="#2f7fd0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Đoạn hai sông nhập lại chảy ra vịnh -->
+  <path d="M553,292 C566,302 578,312 587,328" stroke="#2f7fd0" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Thành phố -->
+  <circle cx="197" cy="197" r="5" fill="#b03030"/>
+  <circle cx="526" cy="252" r="5" fill="#b03030"/>
+  <!-- Mũi tên Bắc -->
+  <path d="M612,120 L600,142 L624,142 Z" fill="#333333"/>
+  <rect x="609" y="142" width="6" height="26" fill="#333333"/>
+  <!-- Nhãn -->
+  <text x="28" y="66" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#1663b8">BIỂN ĐỊA TRUNG HẢI</text>
+  <text x="46" y="348" font-family="Arial, sans-serif" font-size="27" font-weight="bold" fill="#8a5a00">AI CẬP</text>
+  <text x="196" y="424" font-family="Arial, sans-serif" font-size="15" font-style="italic" fill="#1663b8">sông Nin</text>
+  <text x="208" y="201" font-family="Arial, sans-serif" font-size="13" fill="#333333">Men-phít</text>
+  <text x="446" y="342" font-family="Arial, sans-serif" font-size="23" font-weight="bold" fill="#8a3b12">LƯỠNG HÀ</text>
+  <text x="350" y="140" font-family="Arial, sans-serif" font-size="14" fill="#1663b8">sông Ơ-phrát</text>
+  <text x="516" y="140" font-family="Arial, sans-serif" font-size="14" fill="#1663b8">sông Ti-grơ</text>
+  <text x="404" y="250" font-family="Arial, sans-serif" font-size="13" fill="#333333">Ba-bi-lon</text>
+  <text x="330" y="332" font-family="Arial, sans-serif" font-size="15" fill="#1663b8" transform="rotate(62 330 332)">Biển Đỏ</text>
+  <text x="520" y="452" font-family="Arial, sans-serif" font-size="15" fill="#1663b8">Vịnh Ba Tư</text>
+  <text x="598" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">Bắc</text>
+  <!-- Khung -->
+  <rect x="1" y="1" width="638" height="558" fill="none" stroke="#d8c391" stroke-width="2"/>
+</svg>
