@@ -9,7 +9,7 @@ Module học + ôn tập Tiếng Anh lớp 6, xây dựng ngày 21/10/2026 theo 
 Mỗi Unit là một khối khép kín theo đúng thứ tự:
 
 1. **Mục tiêu của Unit** ("Học xong Unit này, em nói được…") + ngữ pháp chính.
-2. **Từ vựng theo chủ đề** — lưới thẻ từ: mỗi từ có **hình minh họa** (ảnh thật đã kiểm chứng hoặc emoji lớn cho từ trừu tượng), **phiên âm IPA**, **nghĩa tiếng Việt**, **1 câu ví dụ đơn giản (A1) có dịch**, và **2 nút nghe 🔊** (nghe từ / nghe câu) đọc bằng `speechSynthesis` của trình duyệt (lang en-US, không cần mạng).
+2. **Từ vựng theo chủ đề** — lưới thẻ từ: mỗi từ có **hình minh họa** (tranh minh họa do AI vẽ hoặc emoji lớn cho từ trừu tượng), **phiên âm IPA**, **nghĩa tiếng Việt**, **1 câu ví dụ đơn giản (A1) có dịch**, và **2 nút nghe 🔊** (nghe từ / nghe câu) đọc bằng `speechSynthesis` của trình duyệt (lang en-US, không cần mạng).
 3. **Sơ đồ ngữ pháp** của Unit (sơ đồ tư duy HTML/CSS thuần + khung công thức + hộp "Lỗi hay gặp").
 4. **Flashcard từ vựng riêng của Unit** — dùng lại đúng hình của thẻ từ; mặt trước: hình + từ + phiên âm + nút nghe; **mặt sau: nghĩa + ví dụ (không lặp lại hình của mặt trước** — theo chuẩn "hình phía câu hỏi ≠ hình phía đáp án"); Đã thuộc/Chưa thuộc lưu `localStorage` khóa `tienganh_flash_v1`, thẻ chưa thuộc xếp trước.
 5. **Luyện tập tự làm** (tự luận là chính): Bài A điền từ (4 câu, tự chấm, sai thì hiện đáp án + gợi ý), Bài B sắp xếp từ thành câu (2 câu, tự chấm), Bài viết nhỏ theo **khung mẫu có chỗ trống** thay thông tin của mình — bài mẫu chỉ mở khi bấm xem, sau khi trẻ đã tự viết.
@@ -48,7 +48,7 @@ Từ vựng và phiên âm đối chiếu theo danh mục từ vựng SGK tổng
 | Hạng mục | Số lượng |
 |---|---|
 | Unit | 6 |
-| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 38 thẻ có hình (22 ảnh thật + 16 tranh minh họa gen AI) + 35 emoji minh họa |
+| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 38 thẻ có hình (toàn bộ là tranh minh họa gen AI: 16 tranh sua-* đợt rà soát + 22 tranh thay ảnh chụp 2026-10-21) + 35 emoji minh họa |
 | Cặp hỏi–đáp giao tiếp | 20 (U1: 4, U2: 4, U3–U6: 3) |
 | Bài tập điền từ + sắp xếp câu | 36 câu tự chấm (mỗi Unit 4 + 2) + 6 bài viết theo mẫu |
 | Câu trắc nghiệm | 48 (8/Unit), phân bố đáp án 12/12/12/12 |
@@ -140,6 +140,6 @@ Toàn bộ 29 ảnh thẻ từ vựng + flashcard trước đây dựng bằng t
 
 **Đổi emoji:** confident 🌟 → 😎 (🌟 trùng ý "ngôi sao" với famous ⭐, gây nhầm).
 
-**Giữ nguyên (đã khớp):** 22 ảnh thật (school, calculator, compass — đúng com-pa vẽ hình, library, living room, kitchen, bedroom, bathroom, garden, sofa, fridge, mountain, island, cave, forest, desert, park, square, fireworks, chung cake, temple, backpack) và 35 emoji đúng ý (teacher 👩‍🏫, maths 🔢, English 🔤, ruler 📏, playground 🛝, house 🏠, các tính từ Unit 3 trừ confident, cinema 🎬, hospital 🏥, post office 📮, quiet 🤫, noisy 🔊, famous ⭐, suncream 🧴, lucky money 🧧…). Ba mục ở mức "một phần" nhưng chấp nhận được và giữ nguyên: subject 📚, careful 🔍, busy 🏙️, slim 🧍 (emoji chỉ gợi ý tương đối, nghĩa chính do từ + câu ví dụ mang).
+**Đã thay bằng tranh AI (2026-10-21, lưu đè đúng tên file):** 22 file trước là ảnh chụp (school, calculator, compass — tranh mới vẫn đúng com-pa vẽ hình, library, living room, kitchen, bedroom, bathroom, garden, sofa, fridge, mountain, island, cave, forest, desert, park, square, fireworks, chung cake, temple, backpack) — toàn bộ hình thẻ từ nay là tranh minh họa; giữ nguyên 35 emoji đúng ý (teacher 👩‍🏫, maths 🔢, English 🔤, ruler 📏, playground 🛝, house 🏠, các tính từ Unit 3 trừ confident, cinema 🎬, hospital 🏥, post office 📮, quiet 🤫, noisy 🔊, famous ⭐, suncream 🧴, lucky money 🧧…). Ba mục ở mức "một phần" nhưng chấp nhận được và giữ nguyên: subject 📚, careful 🔍, busy 🏙️, slim 🧍 (emoji chỉ gợi ý tương đối, nghĩa chính do từ + câu ví dụ mang).
 
 16 tranh mới gen theo lưới 2×2 rồi cắt lẻ, phong cách màu nước sách truyện thống nhất, không chữ trong hình. Tự kiểm sau sửa: node --check đạt, đủ 73 thẻ từ, 38/38 đường dẫn hình trả 200. Các file ảnh cũ bị thay (beach.jpg, boat.jpg, kumquat-tree.jpg, lamp.jpg, railway-station.jpg, waterfall.jpg, peach-blossom.jpg) vẫn còn trong `hinh-anh/tienganh/` nhưng không còn trang nào tham chiếu.

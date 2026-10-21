@@ -30,44 +30,44 @@ Thư mục chuyên hình ảnh của repo. Mỗi môn một thư mục con. Phon
 
 Trang Ngữ văn (nguvan/index.html) tham chiếu các hình này qua đường dẫn ../hinh-anh/nguvan/<file>.
 
-## lichsu/ — Lịch sử 6 (32 hình, ~5605 KB) — ảnh thật tải về (địa phương hoá 21/10/2026)
+## lichsu/ — Lịch sử 6 — 27 file đã thay bằng tranh AI phong cách ảnh thật (21/10/2026); giữ ảnh thật: dải tiến hóa + hộp sọ; 1 SVG tự vẽ
 
 Ảnh bài học + ảnh flashcard của trang Lịch sử trước đây hotlink Wikimedia Commons/The Met; nay đã tải về thành file thật trong thư mục này và trang trỏ đường dẫn tương đối `../hinh-anh/lichsu/<file>`. Ghi nguồn giữ nguyên trong chú thích dưới từng ảnh trên trang. Riêng sơ đồ bản đồ Ai Cập–Lưỡng Hà tự vẽ vẫn ở `lichsu/img/ban-do-ai-cap-luong-ha.svg` như cũ.
 
 | File | Dùng ở | Nguồn gốc |
 |---|---|---|
-| bai1-trong-dong-dong-son.jpg | Bài 1 + flashcard (khoá dongson) | Wikimedia Commons: Dong_Son_Drum,_Bronze,_Vietnam_or_China,_2nd%E2%80%931st_c_BC,_temp_Prague_Kinsky,_NG_Vu_517,_142199.jpg |
-| bai1-bia-tien-si.jpg | Bài 1 + flashcard (stele) | Wikimedia Commons: BiaTienSi1442.jpg |
-| bai2-dong-ho-cat.jpg | Bài 2 + flashcard (sandclock) | Wikimedia Commons: Sand_Clock.jpg |
-| bai2-dong-ho-mat-troi.jpg | Bài 2 + flashcard (sundial) | Wikimedia Commons: Sundial_Lannion_Brittany_France.JPG |
+| bai1-trong-dong-dong-son.jpg | Bài 1 + flashcard (khoá dongson) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai1-bia-tien-si.jpg | Bài 1 + flashcard (stele) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai2-dong-ho-cat.jpg | Bài 2 + flashcard (sandclock) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai2-dong-ho-mat-troi.jpg | Bài 2 + flashcard (sundial) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
 | bai3-nguoi-toi-co.jpg | Bài 3, dải tiến hoá + flashcard (evo1) | Wikimedia Commons: NHM_-_Australopithecus_afarensis_Modell_1.jpg |
 | bai3-nguoi-kheo-leo.webp | Bài 3, dải tiến hoá + flashcard (evo2) | Wikimedia Commons: Homo_habilis_-_forensic_facial_reconstruction.png |
 | bai3-nguoi-dung-thang.jpg | Bài 3, dải tiến hoá + flashcard (evo3) | Wikimedia Commons: Homo_erectus_reconstruction,_Natural_History_Museum,_London.jpg |
 | bai3-nguoi-tinh-khon.jpg | Bài 3, dải tiến hoá + flashcard (evo4) | Wikimedia Commons: NHM_-_Homo_sapiens_Modell_1.jpg |
 | bai3-hop-so-so-sanh.jpg | Bài 3, so sánh hộp sọ + flashcard (skulls) | Wikimedia Commons: Students_explore_hominid_evolution.jpg |
-| bai4-tranh-hang-lascaux.jpg | Bài 4 + flashcard (lascaux) | Wikimedia Commons: Lascaux_painting.jpg |
-| bai4-riu-tay-ghe.jpg | Bài 4 + flashcard (handaxe) | Wikimedia Commons: Palaeolithic_acheulean_handaxe_(FindID_709909).jpg |
-| bai4-bo-rung-altamira.jpg | Bài 4 + flashcard (altamira) | Wikimedia Commons: Altamira,_bison.jpg |
-| bai4-riu-da-mai.jpg | Bài 4 + flashcard (polishedaxe) | Wikimedia Commons: Neolithic,_Polished_Stone_Axe_(FindID_468960).jpg |
-| bai5-dao-gam-dong.jpg | Bài 5 + flashcard (dagger) | Wikimedia Commons: Bronze_Age_dagger.jpg |
-| bai4-ruong-bac-thang.jpg | Bài 4 + flashcard (terraces) | Wikimedia Commons: Rice_terraces,_Bali.jpg |
-| bai4-lua-trai.jpg | Bài 1/4 + flashcard (campfire) | Wikimedia Commons: Campfire_flames.jpg |
-| bai6-kim-tu-thap-giza.jpg | Bài 6 + flashcard (pyramids) | Wikimedia Commons: Giza_pyramids_sandstorm.jpg |
-| bai6-thap-ziggurat.jpg | Bài 6 + flashcard (ziggurat) | Wikimedia Commons: Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg |
-| bai6-bia-chu-tuong-hinh.jpg | Bài 6 + flashcard (hieroglyphs) | The Met Open Access — bia đá Donation Stela of Osorkon I (CC0) |
-| bai6-bia-luat-hammurabi.jpg | Bài 6 + flashcard (hammurabi) | Wikimedia Commons: Code_of_Hammurabi_(Louvre_Sb_8)-31434550325.jpg |
-| bai7-mohenjo-daro.jpg | Bài 7 + flashcard (mohenjo) | Wikimedia Commons: Mohenjo-daro.jpg |
-| bai7-ben-song-hang.jpg | Bài 7 + flashcard (ganges) | Wikimedia Commons: Varanasi,_India,_Ghats_on_Ganges_River.jpg |
-| bai7-tuong-phat-gandhara.jpg | Bài 7 + flashcard (buddha) | Wikimedia Commons: Standing_Buddha_Gandhara._Mus%C3%A9e_des_arts_asiatiques_Guimet.jpg |
-| bai8-giap-cot.jpg | Bài 8 + flashcard (oraclebone) | Wikimedia Commons: Oracle_bone_from_the_Couling-Chalfant_collection.jpg |
-| bai8-van-ly-truong-thanh.jpg | Bài 8 + flashcard (greatwall) | Wikimedia Commons: Badaling_China_Great-Wall-of-China-01.jpg |
-| bai8-doi-quan-dat-nung.jpg | Bài 8 + flashcard (terracotta) | Wikimedia Commons: 51714-Terracota-Army.jpg |
-| bai9-den-parthenon.jpg | Bài 9 + flashcard (parthenon) | Wikimedia Commons: Acropolis_Parthenon_Athens_Greece.jpg |
-| bai9-tuong-nem-dia.jpg | Bài 9 + flashcard (discobolus) | Wikimedia Commons: Discobolus_The_Discus_Thrower.jpg |
-| bai9-dau-truong-colosseum.jpg | Bài 9 + flashcard (colosseum) | Wikimedia Commons: Colosseum_in_Rome,_Italy_-_April_2007.jpg |
-| bai10-hat-chuoi-oc-eo.jpg | Bài 10 + flashcard (oceo) | Wikimedia Commons: Oc_Eo_Culture_Beads.jpg |
-| bai10-thanh-dia-my-son.jpg | Bài 10 + flashcard (myson) | Wikimedia Commons: My_Son_Sanctuary_Vietnam_06.jpg |
-| bai10-angkor-wat.jpg | Bài 10 + flashcard (angkor) | Wikimedia Commons: Angkor_Wat_with_its_reflection_(cropped).jpg |
+| bai4-tranh-hang-lascaux.jpg | Bài 4 + flashcard (lascaux) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai4-riu-tay-ghe.jpg | Bài 4 + flashcard (handaxe) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai4-bo-rung-altamira.jpg | Bài 4 + flashcard (altamira) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai4-riu-da-mai.jpg | Bài 4 + flashcard (polishedaxe) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai5-dao-gam-dong.jpg | Bài 5 + flashcard (dagger) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai4-ruong-bac-thang.jpg | Bài 4 + flashcard (terraces) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai4-lua-trai.jpg | Bài 1/4 + flashcard (campfire) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai6-kim-tu-thap-giza.jpg | Bài 6 + flashcard (pyramids) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai6-thap-ziggurat.jpg | Bài 6 + flashcard (ziggurat) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai6-bia-chu-tuong-hinh.jpg | Bài 6 + flashcard (hieroglyphs) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai6-bia-luat-hammurabi.jpg | Bài 6 + flashcard (hammurabi) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai7-mohenjo-daro.jpg | Bài 7 + flashcard (mohenjo) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai7-ben-song-hang.jpg | Bài 7 + flashcard (ganges) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai7-tuong-phat-gandhara.jpg | Bài 7 + flashcard (buddha) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai8-giap-cot.jpg | Bài 8 + flashcard (oraclebone) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai8-van-ly-truong-thanh.jpg | Bài 8 + flashcard (greatwall) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai8-doi-quan-dat-nung.jpg | Bài 8 + flashcard (terracotta) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai9-den-parthenon.jpg | Bài 9 + flashcard (parthenon) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai9-tuong-nem-dia.jpg | Bài 9 + flashcard (discobolus) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai9-dau-truong-colosseum.jpg | Bài 9 + flashcard (colosseum) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai10-hat-chuoi-oc-eo.jpg | Bài 10 + flashcard (oceo) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai10-thanh-dia-my-son.jpg | Bài 10 + flashcard (myson) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
+| bai10-angkor-wat.jpg | Bài 10 + flashcard (angkor) | Tranh AI phong cách ảnh thật — thay ảnh ngoài, lưu đè cùng tên (21/10/2026) |
 
 ### Tranh minh họa AI gen bổ sung (21/10/2026 — đợt làm phong phú hình ảnh)
 
