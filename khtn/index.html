@@ -3,74 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <title>KHTN 6 — Giữa kì 1 | Học tập & Trắc nghiệm</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
-h1{text-align:center;color:#1a73e8;margin:10px 0 4px}
-.sub{text-align:center;color:#666;margin-bottom:14px}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937;overflow-x:hidden}
+button{font-family:inherit}
+h1{text-align:center;color:#1a73e8;margin:10px 0 4px;font-size:30px}
+.sub{text-align:center;color:#444;margin-bottom:14px}
 .topnav{text-align:center;margin-bottom:16px}
-.topnav a{color:#1a73e8;text-decoration:none;font-size:14px}
+.topnav a{color:#1a73e8;text-decoration:none;font-size:16px;display:inline-flex;align-items:center;min-height:44px;padding:10px 4px}
 .part{border-radius:12px;padding:14px 16px;margin:22px 0 12px;color:#fff}
 .part1{background:#1a73e8}
 .part2{background:#ea8600}
-.part h2{font-size:20px}
-.part p{font-size:13px;opacity:.92;margin-top:2px}
+.part h2{font-size:25px}
+.part p{font-size:16px;opacity:.95;margin-top:2px}
 .card{background:#fff;padding:16px;border-radius:10px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.card h3{color:#1a73e8;margin-bottom:8px;font-size:17px}
-.card ul{margin:0 0 8px 20px;line-height:1.55;font-size:15px}
+.card h3{color:#1a73e8;margin-bottom:8px;font-size:19px}
+.card ul{margin:0 0 8px 20px;line-height:1.7;font-size:18px}
 .card li{margin-bottom:4px}
-.goal{background:#e8f0fe;border-left:4px solid #1a73e8;padding:8px 12px;border-radius:6px;font-size:14px;margin-bottom:10px;line-height:1.5}
-.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:14px;margin:10px 0;line-height:1.5}
+.goal{background:#e8f0fe;border-left:4px solid #1a73e8;padding:8px 12px;border-radius:6px;font-size:18px;margin-bottom:10px;line-height:1.7}
+.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:17px;margin:10px 0;line-height:1.65}
 figure{margin:10px 0 4px;text-align:center}
 figure img{max-width:100%;height:auto;border-radius:8px}
-figcaption{font-size:12px;color:#777;margin-top:5px;line-height:1.45}
+figcaption{font-size:14px;color:#444;margin-top:5px;line-height:1.55}
 .quizlink{display:block;text-align:center;background:#ea8600;color:#fff;font-size:18px;font-weight:bold;padding:18px;border-radius:10px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.15)}
-.quizlink small{display:block;font-weight:normal;font-size:13px;margin-top:4px;opacity:.95}
+.quizlink small{display:block;font-weight:normal;font-size:16px;margin-top:4px;opacity:.95}
 .road{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px}
-.road a{font-size:13px;background:#e8f0fe;color:#174ea6;border:1px solid #1a73e8;border-radius:20px;padding:5px 11px;text-decoration:none}
+.road a{font-size:16px;background:#e8f0fe;color:#174ea6;border:1px solid #1a73e8;border-radius:20px;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}
 .road a:hover{background:#d2e3fc}
-.chk{border:1px dashed #bbb;border-radius:8px;padding:10px 12px;margin:8px 0;background:#fafafa;font-size:14px}
-.chk p{margin-bottom:6px;line-height:1.5}
-.chk-btn{padding:6px 12px;border:none;border-radius:6px;background:#1a73e8;color:#fff;cursor:pointer;font-size:13px}
-.chk-a{display:none;margin-top:8px;padding:8px;background:#d4edda;border-radius:6px;line-height:1.5}
+.chk{border:1px dashed #bbb;border-radius:8px;padding:10px 12px;margin:8px 0;background:#fafafa;font-size:18px}
+.chk p{margin-bottom:6px;line-height:1.7}
+.chk-btn{padding:10px 18px;min-height:44px;border:none;border-radius:6px;background:#1a73e8;color:#fff;cursor:pointer;font-size:16px}
+.chk-a{display:none;margin-top:8px;padding:8px;background:#d4edda;border-radius:6px;line-height:1.7}
 .chk-a.show{display:block}
-.note{font-size:13px;color:#666;text-align:center;line-height:1.6;margin:14px 0}
-footer{font-size:11px;color:#999;line-height:1.6;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
-footer a{color:#888}
+.note{font-size:16px;color:#444;text-align:center;line-height:1.7;margin:14px 0}
+footer{font-size:14px;color:#444;line-height:1.7;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
+footer a{color:#444}
 
-.sub-h{font-weight:bold;color:#1a73e8;margin:14px 0 4px;font-size:15.5px}
+.sub-h{font-weight:bold;color:#1a73e8;margin:14px 0 4px;font-size:18px}
 .mm{border:2px dashed #bbb;border-radius:10px;padding:10px 12px;margin:12px 0;background:#fff}
 .mm-t{text-align:center;margin-bottom:8px}
-.mm-c{display:inline-block;color:#fff;font-weight:bold;padding:7px 16px;border-radius:20px;font-size:15px}
-.mm-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px}
-.mm-b{border:1.5px solid #bbb;border-radius:8px;padding:7px 9px;font-size:13px;line-height:1.5;background:#fafafa}
+.mm-c{display:inline-block;color:#fff;font-weight:bold;padding:7px 16px;border-radius:20px;font-size:17px}
+.mm-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(160px,100%),1fr));gap:8px}
+.mm-b{border:1.5px solid #bbb;border-radius:8px;padding:7px 9px;font-size:16px;line-height:1.6;background:#fafafa}
 .mm-b b{display:block;margin-bottom:2px}
 .fc-sec{margin-top:14px;border-top:2px solid #eee;padding-top:10px}
-.fc-title{font-weight:bold;color:#1a73e8;font-size:15px}
+.fc-title{font-weight:bold;color:#1a73e8;font-size:18px}
 .fc-tools{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0}
-.fc-prog{font-size:13px;color:#555}
-.fc-filter{padding:5px 10px;border:1px solid #1a73e8;background:#fff;color:#1a73e8;border-radius:20px;cursor:pointer;font-size:12.5px}
+.fc-prog{font-size:16px;color:#444}
+.fc-filter{padding:10px 14px;min-height:44px;border:1px solid #1a73e8;background:#fff;color:#1a73e8;border-radius:20px;cursor:pointer;font-size:16px}
 .fc-filter.on{background:#1a73e8;color:#fff}
-.fc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.fc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(160px,100%),1fr));gap:10px}
 .fc.hide{display:none}
-.fc-in{position:relative;height:180px;cursor:pointer;transition:transform .5s;transform-style:preserve-3d}
+.fc-in{position:relative;height:204px;cursor:pointer;transition:transform .5s;transform-style:preserve-3d}
 .fc.flip .fc-in{transform:rotateY(180deg)}
 .fc.known .fc-in{outline:3px solid #34a853;border-radius:10px}
 .fc.unknown .fc-in{outline:3px solid #f9ab00;border-radius:10px}
-.fc-f,.fc-b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:10px;padding:8px;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:13.5px;line-height:1.45;overflow:hidden}
+.fc-f,.fc-b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:10px;padding:8px;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:17px;line-height:1.5;overflow:hidden}
 .fc-f{background:#eef4ff;border:1.5px solid #1a73e8;justify-content:flex-start}
 .fc-b{background:#e6f4ea;border:1.5px solid #34a853;transform:rotateY(180deg);justify-content:center}
 .fc-f img,.fc-f svg{width:100%;height:66px;object-fit:cover;border-radius:6px;margin-bottom:6px;flex:none}
 .fc-f svg{background:#fff}
 .fc-q{font-weight:bold}
-.fc-hint{margin-top:auto;font-size:11px;color:#888}
+.fc-hint{margin-top:auto;font-size:14px;color:#444}
 .fc-btns{display:flex;gap:6px;margin-top:6px}
-.fc-btns button{flex:1;padding:6px 4px;border:none;border-radius:6px;font-size:12.5px;cursor:pointer}
+.fc-btns button{flex:1;padding:10px 4px;min-height:44px;border:none;border-radius:6px;font-size:16px;cursor:pointer}
 .fc-btns .ok{background:#34a853;color:#fff}
 .fc-btns .no{background:#f1f3f4;color:#444;border:1px solid #ccc}
-.next{margin-top:14px;background:#e8f0fe;border-radius:8px;padding:10px 12px;font-size:14.5px;text-align:center}
+.next{margin-top:14px;background:#e8f0fe;border-radius:8px;padding:10px 12px;font-size:16px;text-align:center}
 .next a{color:#1a73e8;font-weight:bold;text-decoration:none}
+
+/* --- Hai chế độ xem: Từng bài / Xem tất cả --- */
+#part1head{scroll-margin-top:6px}
+.viewctl{background:#fff;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1);padding:12px;margin-bottom:14px}
+.vmodes{display:flex;gap:8px;flex-wrap:wrap}
+.vmode{flex:1 1 150px;min-height:48px;padding:12px 10px;border-radius:8px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:16px;font-weight:bold;cursor:pointer}
+.vmode.on{background:#1a73e8;color:#fff}
+#vnav{margin-top:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:44px;padding:10px 14px;border-radius:22px;border:1.5px solid #1a73e8;background:#e8f0fe;color:#174ea6;font-size:16px;cursor:pointer}
+.chip.on{background:#1a73e8;color:#fff;font-weight:bold}
+.prevnext{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px}
+.prevnext button{min-height:48px;padding:10px 16px;border:none;border-radius:8px;background:#1a73e8;color:#fff;font-size:16px;font-weight:bold;cursor:pointer}
+.prevnext button:disabled{background:#bbb;cursor:default}
+#vpos{font-size:16px;color:#444;font-weight:bold;text-align:center}
+figure img,img,svg{max-width:100%}
+.card{overflow-wrap:break-word}
+@media (max-width:480px){h1{font-size:24px}.prevnext button{padding:10px 10px}.chip{padding:10px 12px}}
 </style>
 </head>
 <body>
@@ -78,9 +100,39 @@ footer a{color:#888}
 <h1>🔬 Khoa học tự nhiên 6 — Giữa kì 1</h1>
 <p class="sub">Sách <b>Kết nối tri thức</b> • Học theo lộ trình từng bài cho hiểu trước, rồi mới làm trắc nghiệm nhé!</p>
 
-<div class="part part1"><h2>📖 Phần 1 — Học tập</h2><p>Học <b>nối tiếp từng bài</b>: mỗi bài là một chặng khép kín — học nội dung, xem sơ đồ tư duy, trả lời câu hỏi gợi nhớ, ôn flashcard của chính bài đó — xong bài này mới sang bài tiếp theo. Học hết 13 bài thì xuống <b>Phần Tổng kết</b> ở cuối trang để ôn lại toàn bộ, rồi mới sang Phần 2 làm trắc nghiệm.</p></div>
+<div class="part part1" id="part1head"><h2>📖 Phần 1 — Học tập</h2><p>Học <b>nối tiếp từng bài</b>: mỗi bài là một chặng khép kín — học nội dung, xem sơ đồ tư duy, trả lời câu hỏi gợi nhớ, ôn flashcard của chính bài đó — xong bài này mới sang bài tiếp theo. Học hết 13 bài thì xuống <b>Phần Tổng kết</b> ở cuối trang để ôn lại toàn bộ, rồi mới sang Phần 2 làm trắc nghiệm. Dùng thanh chọn ngay dưới đây để học <b>từng bài một</b> (mặc định) hoặc <b>xem tất cả</b> một lượt — trang sẽ nhớ lựa chọn của em.</p></div>
 
-<div class="card">
+<div class="viewctl" id="viewctlTop">
+  <div class="vmodes">
+    <button type="button" class="vmode" data-setmode="single">📄 Từng bài</button>
+    <button type="button" class="vmode" data-setmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="vnav">
+    <div class="chips">
+      <button type="button" class="chip" data-go="bai1">Bài 1</button>
+      <button type="button" class="chip" data-go="bai2">Bài 2</button>
+      <button type="button" class="chip" data-go="bai3">Bài 3</button>
+      <button type="button" class="chip" data-go="bai4">Bài 4</button>
+      <button type="button" class="chip" data-go="bai5">Bài 5</button>
+      <button type="button" class="chip" data-go="bai6">Bài 6</button>
+      <button type="button" class="chip" data-go="bai7">Bài 7</button>
+      <button type="button" class="chip" data-go="bai8">Bài 8</button>
+      <button type="button" class="chip" data-go="bai9">Bài 9</button>
+      <button type="button" class="chip" data-go="bai10">Bài 10</button>
+      <button type="button" class="chip" data-go="bai11">Bài 11</button>
+      <button type="button" class="chip" data-go="bai12">Bài 12</button>
+      <button type="button" class="chip" data-go="bai13">Bài 13</button>
+      <button type="button" class="chip" data-go="tongket">🎓 Tổng kết</button>
+    </div>
+    <div class="prevnext">
+      <button type="button" id="btnPrev">⬅ Bài trước</button>
+      <span id="vpos"></span>
+      <button type="button" id="btnNext">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
+
+<div class="card" id="roadmap">
   <h3>🗺️ Lộ trình học giữa kì 1</h3>
   <div class="road">
     <a href="#bai1">1. Giới thiệu KHTN</a>
@@ -286,8 +338,8 @@ footer a{color:#888}
     <li>Lưu ý an toàn: nhiệt kế thủy ngân khi vỡ rất nguy hiểm — ôn lại cách xử lí ở Bài 2 nhé.</li>
   </ul>
   <figure>
-    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/CelsiusKelvinThermometer.jpg?width=900" alt="Nhiệt kế với hai thang đo" loading="lazy">
-    <figcaption>Một nhiệt kế có thể in nhiều thang đo khác nhau. Khi đọc nhiệt độ, em phải chú ý xem đang đọc theo thang nào — °C hay °F. (Ảnh: Wikimedia Commons, CC BY-SA 3.0)</figcaption>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Analog_wall_thermometer_showing_temperature_in_Celsius_and_Fahrenheit.jpg?width=900" alt="Nhiệt kế treo tường với hai thang đo °C và °F" loading="lazy">
+    <figcaption>Nhiệt kế treo tường có hai thang đo đặt cạnh nhau: bên trái là thang Xen-xi-ớt (°C), bên phải là thang Fa-ren-hai (°F). Cùng một lúc, nhiệt độ đọc theo hai thang cho hai con số khác nhau — khi đọc nhiệt kế, em phải chú ý mình đang đọc theo thang nào nhé! (Ảnh: JOBAER, Wikimedia Commons, giấy phép tự do)</figcaption>
   </figure>
   <div class="moc">📌 <b>Điểm cần nhớ:</b> °F = °C × 1,8 + 32 • Nước sôi = 100 °C = <b>212 °F</b> • Nước đá tan = 0 °C.</div>
   <div class="sub-h">🗺️ Sơ đồ tư duy của bài — nhìn một lượt là nhớ cả bài:</div><div class="mm"><div class="mm-t"><span class="mm-c" style="background:#1a73e8">Đo nhiệt độ</span></div><div class="mm-g"><div class="mm-b"><b>Dụng cụ</b>nhiệt kế</div><div class="mm-b"><b>Thang Xen-xi-ớt °C</b>nước đá tan: 0 °C • nước sôi: 100 °C</div><div class="mm-b"><b>Thang Fa-ren-hai °F</b>nước sôi: 212 °F</div><div class="mm-b"><b>Công thức đổi</b>°F = °C × 1,8 + 32</div></div></div>
@@ -295,7 +347,7 @@ footer a{color:#888}
   <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Đổi 22 °C ra độ F.</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 22 × 1,8 + 32 = 39,6 + 32 = <b>71,6 °F</b>.</div></div>
   <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Trong thang Fa-ren-hai, nhiệt độ của nước đang sôi là bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 212 °F.</div></div>
 
-  <div class="chk"><p>❓ <b>Gợi nhớ:</b> 🖼️ Nhìn hình nhiệt kế có hai thang đo: nếu nhiệt độ là 100 °C thì đọc theo thang Fa-ren-hai được bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 212 °F — đó là nhiệt độ của nước đang sôi.</div></div><div class="chk"><p>❓ <b>Gợi nhớ:</b> Đổi 0 °C sang độ F.</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 0 × 1,8 + 32 = 32 °F.</div></div>
+  <div class="chk"><p>❓ <b>Gợi nhớ:</b> 🖼️ Nhìn hình nhiệt kế treo tường: hai thang đo trên nhiệt kế là hai thang nào? Nước đang sôi ở 100 °C thì đọc theo thang Fa-ren-hai được bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Thang Xen-xi-ớt (°C) ở bên trái và thang Fa-ren-hai (°F) ở bên phải. 100 °C = 212 °F — đó là nhiệt độ của nước đang sôi.</div></div><div class="chk"><p>❓ <b>Gợi nhớ:</b> Đổi 0 °C sang độ F.</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 0 × 1,8 + 32 = 32 °F.</div></div>
   <div class="fc-sec"><div class="fc-title">🃏 Flashcard của Bài 8 — bấm vào thẻ để lật mặt sau; nhớ rồi thì bấm ✔ Đã thuộc</div><div class="fc-tools"><span class="fc-prog" data-prog="bai8"></span><button class="fc-filter" data-filter="bai8">Chỉ xem thẻ chưa thuộc</button></div><div class="fc-grid" data-fc="bai8"></div></div>
   <div class="next">✅ Xong Bài 8 rồi! Ôn thẻ xong thì đi tiếp 👉 <a href="#bai9">Bài 9: Các thể của chất</a></div>
 </div>
@@ -431,9 +483,16 @@ footer a{color:#888}
 </div>
 
 <div class="part" id="tongket" style="background:#5e35b1"><h2>🎓 Phần Tổng kết — Ôn lại cả học kì</h2><p>Học xong 13 bài rồi! Xem lại sơ đồ tư duy tổng và lật một lượt toàn bộ flashcard để kiểm tra mình đã thuộc hết chưa, rồi mới sang Phần 2 làm trắc nghiệm.</p></div>
-<div class="card">
+<div class="card" id="tongketCard">
   <div class="sub-h">🗺️ Sơ đồ tư duy của bài — nhìn một lượt là nhớ cả bài:</div><div class="mm"><div class="mm-t"><span class="mm-c" style="background:#1a73e8">KHTN 6 — Học kì 1</span></div><div class="mm-g"><div class="mm-b"><b>Mở đầu & đo lường</b>nghiên cứu khoa học • an toàn phòng thực hành • kính lúp, kính hiển vi • đo dài, khối lượng, thời gian, nhiệt độ</div><div class="mm-b"><b>Chất quanh ta</b>ba thể & sự chuyển thể • tính chất vật lí/hóa học • vật liệu & 3R</div><div class="mm-b"><b>Oxygen – Không khí</b>nitrogen 78% • oxygen 21% • an toàn khi cháy xăng</div><div class="mm-b"><b>Tế bào</b>đơn vị của sự sống • nhân điều khiển • đơn bào/đa bào • các cấp độ tổ chức</div><div class="mm-b"><b>Lực</b>lực & trọng lực • hai lực cân bằng • lực kế (N)</div></div></div>
   <div class="fc-sec"><div class="fc-title">🃏 Flashcard TỔNG ÔN — toàn bộ thẻ của 13 bài (trạng thái Đã thuộc dùng chung với từng bài)</div><div class="fc-tools"><span class="fc-prog" data-prog="all"></span><button class="fc-filter" data-filter="all">Chỉ xem thẻ chưa thuộc</button></div><div class="fc-grid" data-fc="all"></div></div>
+</div>
+
+<div class="viewctl" id="viewctlBottom">
+  <div class="vmodes">
+    <button type="button" class="vmode" data-setmode="single">📄 Từng bài</button>
+    <button type="button" class="vmode" data-setmode="all">📚 Xem tất cả</button>
+  </div>
 </div>
 
 <div class="part part2"><h2>✍️ Phần 2 — Trắc nghiệm</h2><p>Học xong Phần 1 rồi thì vào làm bài kiểm tra thử sức nhé.</p></div>
@@ -451,7 +510,7 @@ footer a{color:#888}
   • Bài 5 (thước thép) — File "Steel ruler closeup.jpg" (CC BY-SA 4.0)<br>
   • Bài 6 (cân đòn) — File "Cent-o-gram-311.jpg" (Public domain)<br>
   • Bài 7 (đồng hồ bấm giây) — File "Stoppuhr hanhart.jpg" (Public domain)<br>
-  • Bài 8 (nhiệt kế) — File "CelsiusKelvinThermometer.jpg" (CC BY-SA 3.0)<br>
+  • Bài 8 (nhiệt kế treo tường hai thang °C và °F) — File "Analog wall thermometer showing temperature in Celsius and Fahrenheit.jpg" (JOBAER, giấy phép tự do trên Wikimedia Commons)<br>
   • Bài 9 (đá tan) — File "Melting - Flickr - Trinity.jpg" (CC BY-SA 2.0)<br>
   • Bài 10 (tái chế) — File "Recycling symbol.svg" (Public domain)<br>
   • Bài 11 (bình oxygen) — File "BOC Medical oxygen tanks Royal Women's Hospital.jpg" (CC BY-SA 4.0)<br>
@@ -500,7 +559,7 @@ function fcRenderAll(){
     const key=g.getAttribute('data-fc');
     let cards = key==='all' ? Object.keys(FLASH).flatMap(k=>FLASH[k]) : FLASH[key];
     if(FCFILT[key]) cards=cards.filter(c=>FCST[c.id]!==1);
-    g.innerHTML=cards.map(fcCard).join('')||'<p style="font-size:13.5px;color:#34a853">🎉 Tất cả thẻ ở đây em đã thuộc hết rồi!</p>';
+    g.innerHTML=cards.map(fcCard).join('')||'<p style="font-size:16px;color:#1e7d32">🎉 Tất cả thẻ ở đây em đã thuộc hết rồi!</p>';
   });
   document.querySelectorAll('[data-prog]').forEach(p=>{
     const key=p.getAttribute('data-prog');
@@ -518,6 +577,57 @@ document.addEventListener('click',e=>{
   if(fin){fin.parentElement.classList.toggle('flip');}
 });
 fcRenderAll();
+</script>
+<script>
+// ---------- Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" ----------
+const VLESSONS=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','bai13'];
+const VSEQ=VLESSONS.concat(['tongket']);
+const VNAMES={'bai1':'Giới thiệu KHTN','bai2':'An toàn phòng thực hành','bai3':'Kính lúp','bai4':'Kính hiển vi','bai5':'Đo chiều dài','bai6':'Đo khối lượng','bai7':'Đo thời gian','bai8':'Đo nhiệt độ','bai9':'Các thể của chất','bai10':'Chất và vật liệu','bai11':'Oxygen và không khí','bai12':'Tế bào','bai13':'Lực và lực kế','tongket':'Tổng kết'};
+let VMODE='single'; try{VMODE=localStorage.getItem('khtn_view_mode')==='all'?'all':'single'}catch(e){}
+let VCUR='bai1';
+(function(){const h=(location.hash||'').replace('#',''); if(VSEQ.indexOf(h)>=0) VCUR=h;})();
+function vEl(id){return document.getElementById(id)}
+function vShow(el,show){if(el) el.style.display=show?'':'none'}
+function vApply(){
+  const single=VMODE==='single';
+  document.querySelectorAll('.vmode').forEach(b=>b.classList.toggle('on',b.getAttribute('data-setmode')===VMODE));
+  vShow(vEl('vnav'),single);
+  vShow(vEl('roadmap'),!single);
+  VLESSONS.forEach(id=>vShow(vEl(id),!single||VCUR===id));
+  vShow(vEl('tongket'),!single||VCUR==='tongket');
+  vShow(vEl('tongketCard'),!single||VCUR==='tongket');
+  document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',single&&c.getAttribute('data-go')===VCUR));
+  const i=VSEQ.indexOf(VCUR);
+  const bp=vEl('btnPrev'), bn=vEl('btnNext'), vp=vEl('vpos');
+  if(bp) bp.disabled=i<=0;
+  if(bn) bn.disabled=i>=VSEQ.length-1;
+  if(vp) vp.textContent = VCUR==='tongket' ? '🎓 Phần Tổng kết' : ('Bài '+(i+1)+'/13 — '+VNAMES[VCUR]);
+}
+function vGo(id){
+  if(VSEQ.indexOf(id)<0) return;
+  VCUR=id;
+  if(VMODE!=='single') return;
+  vApply();
+  try{history.replaceState(null,'','#'+id)}catch(e){}
+  const t=vEl('viewctlTop'); if(t) t.scrollIntoView();
+}
+function vSetMode(m){
+  VMODE=(m==='all')?'all':'single';
+  try{localStorage.setItem('khtn_view_mode',VMODE)}catch(e){}
+  vApply();
+  if(VMODE==='single'){const t=vEl('viewctlTop'); if(t) t.scrollIntoView();}
+}
+document.querySelectorAll('.vmode').forEach(b=>b.addEventListener('click',()=>vSetMode(b.getAttribute('data-setmode'))));
+document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>vGo(c.getAttribute('data-go'))));
+vEl('btnPrev').addEventListener('click',()=>vGo(VSEQ[Math.max(0,VSEQ.indexOf(VCUR)-1)]));
+vEl('btnNext').addEventListener('click',()=>vGo(VSEQ[Math.min(VSEQ.length-1,VSEQ.indexOf(VCUR)+1)]));
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href^="#"]'); if(!a) return;
+  const id=a.getAttribute('href').replace('#','');
+  if(VSEQ.indexOf(id)<0) return;
+  if(VMODE==='single'){e.preventDefault(); vGo(id);} else {VCUR=id;}
+});
+vApply();
 </script>
 </body>
 </html>

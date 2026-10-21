@@ -32,6 +32,15 @@ Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗ
 
 **Phần Tổng kết** (sau Bài 13, trước Phần 2): sơ đồ tư duy TỔNG "KHTN 6 — Học kì 1" với 5 nhánh nhóm bài (Mở đầu & đo lường / Chất / Oxygen–không khí / Tế bào / Lực) + bộ flashcard TỔNG ÔN gộp toàn bộ 64 thẻ (dùng chung trạng thái Đã thuộc với các bộ theo bài).
 
+**Hai chế độ hiển thị (bổ sung 2026-10-21):** thanh chọn ở đầu trang Phần 1 (lặp lại ở cuối trang, trước Phần 2):
+- **📄 Từng bài** — chế độ **mặc định**: chỉ hiện đúng 1 bài tại một thời điểm; chọn bài bằng thanh chip Bài 1–13 (Phần Tổng kết là chip riêng ở cuối thanh) hoặc nút ⬅ Bài trước / Bài sau ➡ (kèm dòng vị trí "Bài n/13 — tên bài"); chuyển bài thì cuộn lên đầu thanh chọn. Các link trong trang (lộ trình, khối "Xong Bài n") cũng chuyển bài theo chế độ này.
+- **📚 Xem tất cả** — show all toàn bộ 13 bài + Tổng kết như bản trước.
+- Lựa chọn được lưu `localStorage` khoá `khtn_view_mode` (`single`/`all`), mở lại trang vẫn giữ chế độ cũ; mở link có `#baiN`/`#tongket` thì chế độ Từng bài tự chọn đúng bài đó. Trạng thái flashcard `khtn_flash_v1` không bị ảnh hưởng.
+
+**Responsive (bổ sung 2026-10-21):** mobile-first — dùng tốt ở 375px (điện thoại), 768px (iPad) và desktop (cột nội dung tối đa 800px căn giữa); mọi nút/chip/link điều hướng có vùng chạm ≥ 44px (nút chế độ và Trước/Sau cao 48px); chữ thân bài ≥ 16px (nội dung bài, câu hỏi gợi nhớ); lưới sơ đồ tư duy và lưới flashcard dùng `minmax(min(160px,100%),1fr)` nên tự co cột, cộng `max-width:100%` cho ảnh/SVG và chặn tràn ngang toàn trang — không có cuộn ngang.
+
+**Chuẩn font (bổ sung 2026-10-21):** font **'Be Vietnam Pro'** (Google Fonts, hỗ trợ tiếng Việt, weight 400–700) với fallback Arial/sans-serif, nút bấm kế thừa font chung. Thân bài **18px, line-height 1.7**, màu chữ chính `#1f2937`; chữ phụ/giải thích ≥ 16px; chú thích ảnh và chân trang 14px màu `#444`; **không còn cỡ chữ < 13px trong CSS** (trước đây chân trang và dòng gợi ý trên flashcard chỉ 11px). H2 = 25px, tiêu đề bài 19px, sơ đồ tư duy 16–17px, nội dung flashcard 17px (chiều cao thẻ tăng 180 → 204px cho vừa cỡ chữ mới), mọi nút/chip ≥ 16px.
+
 | Bài | Câu hỏi gợi nhớ | Flashcard |
 |---|---|---|
 | 1. Giới thiệu KHTN | 4 | 5 |
@@ -68,9 +77,11 @@ Theo ràng buộc kỹ thuật (connector push chỉ nhận file UTF-8, không �
 | 5 | Steel ruler closeup.jpg | CC BY-SA 4.0 | 200, image/jpeg |
 | 6 | Cent-o-gram-311.jpg | Public domain | 200, image/jpeg |
 | 7 | Stoppuhr hanhart.jpg | Public domain | 200, image/jpeg |
-| 8 | CelsiusKelvinThermometer.jpg | CC BY-SA 3.0 | 200, image/jpeg |
+| 8 | Analog wall thermometer showing temperature in Celsius and Fahrenheit.jpg (tác giả JOBAER) | Giấy phép tự do trên Wikimedia Commons | 200, image/jpeg |
 | 9 | Melting - Flickr - Trinity.jpg | CC BY-SA 2.0 | 200, image/jpeg |
 | 10 | Recycling symbol.svg | Public domain | 200, image/png |
 | 11 | BOC Medical oxygen tanks Royal Women's Hospital.jpg | CC BY-SA 4.0 | 200, image/jpeg |
 | 12 | Onion Epidermis Cells W.M. 40x - 132.jpg | CC BY 2.0 | 200, image/jpeg |
 | 13 | Photo dynamometres charges.jpg | CC BY-SA 3.0 | 200, image/jpeg |
+
+**Ghi chú đợt soát ảnh 2026-10-21 (khớp ảnh – nội dung + hình câu hỏi/đáp án):** đã tải và xem trực tiếp cả 13 ảnh để đối chiếu với chú thích của từng bài (trang mô tả file trên Commons không mở được từ môi trường làm việc — bị 403 — nên đối chiếu bằng chính ảnh tải về). Kết quả: **12/13 ảnh khớp**; riêng ảnh cũ của Bài 8 (`CelsiusKelvinThermometer.jpg`) là nhiệt kế hai thang **°C và K (Kelvin)** — không hề có thang °F như chú thích và câu hỏi gợi nhớ theo hình vẫn nói tới — nên **đã thay** bằng ảnh nhiệt kế treo tường hai thang **°C (trái) / °F (phải)** ở trên, đồng thời sửa alt, chú thích, câu hỏi gợi nhớ theo hình và dòng nguồn ở chân trang cho khớp. Giấy phép chính xác (biến thể CC) của ảnh mới chưa đối chiếu lại được trên trang file gốc vì lỗi 403 nói trên; tác giả "JOBAER" lấy từ EXIF của file, và Wikimedia Commons chỉ lưu trữ ảnh giấy phép tự do. Ngoài ra đã rà toàn bộ **56 câu hỏi gợi nhớ**: không câu hỏi nào và không đáp án nào chứa ảnh nhúng — 13 câu dạng 🖼️ (1 câu/bài) chỉ nhắc tới hình minh họa của chính bài học trong lời câu hỏi, đáp án luôn là chữ → **không có cặp hình câu hỏi – hình đáp án trùng nhau** cần xử lí; sơ đồ SVG của flashcard giữ nguyên như cũ.
