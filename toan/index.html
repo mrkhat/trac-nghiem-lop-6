@@ -295,11 +295,14 @@ function openProbObj(p,mode){
     `<div style="margin-top:6px"><span class="lbl">Đề hỏi:</span> ${p.analysis.ask}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Hướng làm:</span> ${p.analysis.plan}</div>`;
   let hintHtml=`<h3>💡 Gợi ý</h3>`;
-  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">Nhìn vào hình: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
+  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">👆 Hình của bài toán: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
   if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
-  document.getElementById('solPanel').innerHTML=`<h3>📖 Lời giải chi tiết</h3><ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+  let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
+  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">👆 Đối chiếu từng bước giải với số đo trên hình.</p>`;
+  solHtml+=`<ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+  document.getElementById('solPanel').innerHTML=solHtml;
   ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
   aiHistory=[];document.getElementById('chatLog').innerHTML='';
   const fb=document.getElementById('feedback');fb.textContent='';fb.className='fb';
@@ -495,6 +498,7 @@ Quy tắc bắt buộc:
 3. Hướng dẫn theo kiểu GỢI MỞ: đặt câu hỏi dẫn dắt, gợi ý từng bước, bám đúng các số trong đề. KHÔNG đưa đáp án số cuối cùng ngay khi học sinh chưa thử làm. Chỉ trình bày lời giải đầy đủ khi học sinh xin lời giải hoặc đã thử nhiều lần.
 4. Khi được hỏi về từ khóa, hãy dùng đúng danh sách từ khóa được cung cấp dưới đây và giải thích vì sao chúng quan trọng.
 ĐỀ BÀI: ${p.text}
+${p.svg?'Bài này CÓ hình vẽ kèm số đo (học sinh đang nhìn thấy hình ở đầu bài). Khi gợi ý, hãy nhắc học sinh nhìn vào hình, đọc số đo trên hình và chỉ rõ số đo đó ứng với cạnh/đường nào trong công thức.':''}
 Dữ kiện đề cho: ${p.analysis.given.join('; ')}
 Đề hỏi: ${p.analysis.ask}
 Hướng làm dự kiến: ${p.analysis.plan}
