@@ -129,6 +129,56 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .next{font-size:17px}
 @media(max-width:480px){body{padding:12px}h1{font-size:26px}}
 </style>
+<style>
+/* ===== PHAN 1: BAI HOC THEO SGK ===== */
+.partban{border-radius:12px;padding:16px;margin:22px 0 12px;color:#fff}
+.partban h2{font-size:25px;margin:0 0 4px;color:#fff;line-height:1.35}
+.partban p{font-size:16px;opacity:.95;margin:0;line-height:1.6}
+.partban1{background:#1a73e8}
+.partban2{background:#ea8600}
+.lbar{background:#fff;border:1px solid #dfe3e6;border-radius:12px;padding:12px 14px;margin:12px 0}
+.lrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0}
+.lbtn{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer;background:#fff;border:1.5px solid #90a4ae;color:#37474f}
+.lbtn.on{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:700}
+.lchip{min-height:44px;padding:8px 13px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;background:#eef4ee;border:1.5px solid #a5d6a7;color:#1b5e20}
+.lchip.on{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:700}
+.lchapt{width:100%;font-weight:700;color:#1565c0;font-size:16px;margin-top:8px}
+.lnavbtn{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer;background:#2e7d32;color:#fff;border:none}
+.lnavbtn:disabled{opacity:.45;cursor:default}
+.cbadge{display:inline-block;font-size:14px;font-weight:700;color:#fff;background:#1565c0;border-radius:20px;padding:5px 12px;margin-bottom:8px}
+.lesson h3.ltitle{font-size:24px;color:#2e7d32;margin:2px 0 8px;line-height:1.35}
+.goal{font-size:17px;color:#37474f;background:#e8f5e9;border-left:4px solid #2e7d32;border-radius:6px;padding:10px 13px;margin:8px 0;line-height:1.65}
+.ll{margin:5px 0;line-height:1.7;font-size:18px}
+.lkw{background:#42a5f5;color:#fff;border-radius:4px;padding:1px 5px;font-weight:700}
+.lfig{text-align:center;margin:10px 0}
+.lfig svg{max-width:100%}
+.figcap{font-size:16px;color:#444;margin-top:4px;line-height:1.6}
+.vdu{border:1.5px solid #a5d6a7;background:#f7fbf7;border-radius:10px;padding:12px 14px;margin:12px 0}
+.vdu h4{font-size:19px;color:#1b5e20;margin:0 0 6px}
+.vdu .de{font-size:18px;line-height:1.65;margin-bottom:6px;white-space:pre-line}
+.lstep{margin:0 0 6px;line-height:1.65;font-size:17px}
+.readbox{background:#e3f2fd;border:1.5px solid #90caf9;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:17px;line-height:1.65}
+.readbox h4{font-size:18px;color:#0d47a1;margin:0 0 6px}
+.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:10px 13px;border-radius:6px;font-size:16px;margin:10px 0;line-height:1.65}
+.qa{border:1.5px solid #90caf9;border-radius:8px;margin:8px 0;overflow:hidden}
+.qa-q{width:100%;text-align:left;background:#e3f2fd;border:none;padding:14px 13px;font-size:17px;font-weight:600;cursor:pointer;line-height:1.55;color:#0d47a1;font-family:inherit;min-height:48px}
+.qa-q::after{content:"👉 Bấm để xem đáp án";display:block;font-size:14px;font-weight:400;color:#444;margin-top:4px}
+.qa.open .qa-q::after{content:"👇 Đáp án nè:"}
+.qa-a{display:none;background:#f1f8e9;padding:12px 13px;font-size:17px;line-height:1.65}
+.qa.open .qa-a{display:block}
+.minicard{max-width:430px;height:245px;margin:8px auto;perspective:900px;cursor:pointer}
+.mini-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.minicard.flipped .mini-inner{transform:rotateY(180deg)}
+.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.5;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
+.mini-front{background:#fff8e1;border:2px solid #f9a825;color:#4e342e}
+.mini-back{background:#e8f5e9;border:2px solid #43a047;color:#14532d;transform:rotateY(180deg)}
+.mini-face img{max-width:100%;max-height:105px;border-radius:8px;margin-bottom:8px;object-fit:cover}
+.mini-tag{font-size:14px;font-weight:bold;color:#e65100;margin-bottom:4px}
+.minicard svg{max-height:105px;max-width:100%;margin-bottom:8px}
+.ltrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
+.pnote{font-size:15px;color:#444;line-height:1.6}
+.lcheck{font-size:19px;color:#0d47a1;margin:14px 0 4px}
+</style>
 </head>
 <body>
 <a class="back" href="../">← Trang chủ các môn</a>
@@ -137,6 +187,477 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <p class="steps">Đọc đề → 🔦 Soi từ khóa → 🔍 Phân tích → ✍️ Tự giải → ✔ Kiểm tra → 📖 Đối chiếu</p>
 
 <div id="home">
+<div class="partban partban1" id="part1"><h2>📖 Phần 1 — Học từng bài</h2><p>Học lần lượt theo đúng thứ tự sách giáo khoa Toán 6 (Kết nối tri thức với cuộc sống), học kì 1 — đủ 22 bài. Học xong bài nào, bấm nút "✏️ Luyện bài này" ở cuối bài để sang Phần 2 làm bài tập của đúng bài đó.</p></div>
+<div class="lbar"><div class="lrow"><span style="font-weight:700">👀 Chế độ xem:</span><button class="lbtn" type="button" data-lmode="single">📄 Từng bài</button><button class="lbtn" type="button" data-lmode="all">📚 Xem tất cả</button></div><div id="lpicker"></div><div class="lrow" style="justify-content:space-between"><button class="lnavbtn" type="button" id="lprev">⬅ Bài trước</button><span id="lpos" style="font-size:16px;color:#444"></span><button class="lnavbtn" type="button" id="lnext">Bài sau ➡</button></div></div>
+<div id="lessons">
+<div class="lesson" id="lh1">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 1. Tập hợp</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu tập hợp và phần tử là gì; đọc, viết đúng ký hiệu ∈ (thuộc) và ∉ (không thuộc); viết một tập hợp bằng hai cách.</div>
+<p class="ll">Một <span class="lkw">tập hợp</span> là một nhóm các đối tượng được xác định rõ ràng. Ví dụ: tập hợp các học sinh của lớp em; tập hợp các số chẵn nhỏ hơn 10.</p>
+<p class="ll">Mỗi đối tượng trong tập hợp gọi là một <span class="lkw">phần tử</span> của tập hợp.</p>
+<p class="ll">Người ta thường đặt tên tập hợp bằng chữ cái in hoa: A, B, C...</p>
+<p class="ll">Ký hiệu <span class="lkw">∈</span> đọc là "thuộc": 5 ∈ A đọc là "5 thuộc A", nghĩa là 5 là phần tử của A.</p>
+<p class="ll">Ký hiệu <span class="lkw">∉</span> đọc là "không thuộc": 4 ∉ A đọc là "4 không thuộc A".</p>
+<p class="ll"><b>Cách viết thứ nhất — liệt kê:</b> để các phần tử trong dấu { }, mỗi phần tử viết một lần, ngăn cách bằng dấu chấm phẩy. Ví dụ: A = {1; 3; 5; 7; 9}.</p>
+<p class="ll"><b>Cách viết thứ hai — chỉ ra tính chất:</b> A = {x | x là số tự nhiên lẻ và x &lt; 10}, đọc là: "A gồm các phần tử x, sao cho x là số tự nhiên lẻ, nhỏ hơn 10".</p>
+<div class="lfig"><div style="pointer-events:none"><svg viewBox="0 0 300 210"><ellipse class="hot" data-f="0" cx="140" cy="102" rx="105" ry="76" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><text x="50" y="42" font-size="18" font-weight="bold" fill="#0d47a1">A</text><g class="hot" data-f="3"><circle cx="88" cy="72" r="15" fill="#ffffff" stroke="#1565c0" stroke-width="2"/><text x="88" y="77" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">1</text></g><g><circle cx="140" cy="58" r="15" fill="#ffffff" stroke="#1565c0" stroke-width="2"/><text x="140" y="63" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">3</text></g><g class="hot" data-f="1"><circle cx="186" cy="82" r="15" fill="#ffffff" stroke="#1565c0" stroke-width="2"/><text x="186" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">5</text></g><g><circle cx="108" cy="132" r="15" fill="#ffffff" stroke="#1565c0" stroke-width="2"/><text x="108" y="137" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">7</text></g><g><circle cx="168" cy="138" r="15" fill="#ffffff" stroke="#1565c0" stroke-width="2"/><text x="168" y="143" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">9</text></g><g class="hot" data-f="2"><circle cx="266" cy="66" r="15" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/><text x="266" y="71" text-anchor="middle" font-size="15" font-weight="bold" fill="#e65100">4</text></g><g class="hot" data-f="4"><rect x="152" y="172" width="142" height="30" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="223" y="191" text-anchor="middle" font-size="12.5" fill="#e65100">x | x lẻ, x &lt; 10</text></g><g class="ovl" style="display:none"><ellipse cx="140" cy="102" rx="105" ry="76" fill="none" stroke="#ff9800" stroke-width="5" opacity="0.55"/></g><g class="ovl" style="display:none"><rect x="152" y="172" width="142" height="30" rx="8" fill="#ff9800" opacity="0.3"/></g></svg></div><div class="figcap">Hình vẽ: hình bầu dục là tập hợp A. Số nằm trong hình là phần tử của A; số nằm ngoài hình thì không thuộc A. Bấm nút "Thẻ lý thuyết" ở cuối bài để mở hình này dạng tương tác.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Viết tập hợp bằng cách liệt kê</h4><div class="de">Đề: Viết tập hợp B gồm các số tự nhiên chẵn nhỏ hơn 10 bằng cách liệt kê.</div><p class="lstep">Bước 1) Tìm các số tự nhiên chẵn nhỏ hơn 10: đó là 0; 2; 4; 6; 8 (số 0 cũng là số tự nhiên chẵn).</p><p class="lstep">Bước 2) Viết các số đó vào dấu { }, ngăn cách bằng dấu chấm phẩy: B = {0; 2; 4; 6; 8}.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Điền ký hiệu ∈ hoặc ∉</h4><div class="de">Đề: Cho tập hợp C = {3; 6; 9; 12}. Điền ký hiệu ∈ hoặc ∉ vào ô trống: 6 ☐ C; 7 ☐ C.</div><p class="lstep">Bước 1) Nhìn vào tập hợp C: các phần tử là 3; 6; 9; 12. Số 6 có trong C nên 6 ∈ C, đọc là "6 thuộc C".</p><p class="lstep">Bước 2) Số 7 không có trong C nên 7 ∉ C, đọc là "7 không thuộc C".</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Ký hiệu ∈ đọc là gì? Khi nào ta viết a ∈ A?</div></div><div class="mini-face mini-back"><div>∈ đọc là "thuộc". Ta viết a ∈ A khi a là phần tử của tập hợp A.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Có mấy cách viết một tập hợp? Kể tên các cách đó.</div></div><div class="mini-face mini-back"><div>Có 2 cách: liệt kê các phần tử; chỉ ra tính chất đặc trưng của các phần tử.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Tập hợp là một nhóm đối tượng xác định rõ; mỗi đối tượng trong đó là một phần tử.<br>• ∈ đọc là "thuộc", ∉ đọc là "không thuộc".<br>• Hai cách viết tập hợp: liệt kê các phần tử; chỉ ra tính chất đặc trưng.<br>• Phần tử trong dấu { } viết một lần, ngăn cách bằng dấu chấm phẩy.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào nói đúng nhất về "phần tử"? A) Phần tử là tên của tập hợp. B) Phần tử là mỗi đối tượng ở trong tập hợp. C) Phần tử là dấu { }.</button><div class="qa-a">Đáp án đúng là B. Phần tử là từng đối tượng nằm trong tập hợp. A sai vì tên tập hợp là chữ cái in hoa như A, B; C chỉ là dấu dùng khi viết tập hợp.</div></div>
+<div class="qa"><button class="qa-q" type="button">Cho D = {2; 4; 6; 8}. Số nào KHÔNG thuộc D: số 4, số 6 hay số 9?</button><div class="qa-a">Số 9 không thuộc D, viết 9 ∉ D. Còn 4 ∈ D và 6 ∈ D.</div></div>
+<div class="qa"><button class="qa-q" type="button">Viết tập hợp E các số tự nhiên nhỏ hơn 5 theo cách liệt kê.</button><div class="qa-a">E = {0; 1; 2; 3; 4}. Nhớ nhé: số tự nhiên bắt đầu từ 0.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p22">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tap-hop">📐 Thẻ lý thuyết: Tập hợp</button></div>
+</div>
+<div class="lesson" id="lh2">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 2. Cách ghi số tự nhiên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> đọc, viết số tự nhiên theo hệ thập phân; biết giá trị của mỗi chữ số theo hàng; đọc và viết các số La Mã thường gặp.</div>
+<p class="ll">Ta ghi số tự nhiên bằng 10 chữ số: 0; 1; 2; 3; 4; 5; 6; 7; 8; 9. Cách ghi này gọi là <span class="lkw">hệ thập phân</span>.</p>
+<p class="ll">Mỗi chữ số trong một số có <span class="lkw">giá trị tùy theo hàng</span> (vị trí) của nó: hàng đơn vị, hàng chục, hàng trăm, hàng nghìn...</p>
+<p class="ll">Ví dụ: trong số 5 372, chữ số 5 ở hàng nghìn nên có giá trị là 5 000; chữ số 3 ở hàng trăm nên có giá trị là 300.</p>
+<p class="ll">Khi đọc số, ta đọc theo từng lớp (lớp nghìn, lớp đơn vị...), từ trái sang phải.</p>
+<p class="ll">Ngoài hệ thập phân, người xưa còn dùng <span class="lkw">số La Mã</span>: I = 1, V = 5, X = 10, L = 50.</p>
+<p class="ll">Viết số La Mã: ký hiệu nhỏ đứng sau ký hiệu lớn thì cộng (VI = 6); ký hiệu nhỏ đứng trước ký hiệu lớn thì trừ (IV = 4, IX = 9).</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Đọc số và tìm giá trị của chữ số</h4><div class="de">Đề: Đọc số 25 304 và cho biết giá trị của chữ số 5 trong số đó.</div><p class="lstep">Bước 1) Tách lớp: 25 nghìn 304. Đọc là: "hai mươi lăm nghìn ba trăm linh bốn".</p><p class="lstep">Bước 2) Chữ số 5 đứng ở hàng nghìn nên giá trị của chữ số 5 là 5 000.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Viết số La Mã</h4><div class="de">Đề: Viết số 29 bằng số La Mã.</div><p class="lstep">Bước 1) Tách 29 = 20 + 9. Số 20 viết là XX (10 + 10).</p><p class="lstep">Bước 2) Số 9 viết là IX (10 − 1). Ghép lại: 29 = XXIX.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số La Mã XIV bằng bao nhiêu?</div></div><div class="mini-face mini-back"><div>XIV = 10 + 4 = 14. (IV = 5 − 1 = 4: ký hiệu nhỏ đứng trước ký hiệu lớn thì trừ.)</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Trong số 4 081, chữ số 4 có giá trị bao nhiêu?</div></div><div class="mini-face mini-back"><div>4 000, vì chữ số 4 ở hàng nghìn.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Hệ thập phân dùng 10 chữ số 0–9; giá trị của chữ số phụ thuộc vào hàng của nó.<br>• Đọc số theo từng lớp, từ trái sang phải.<br>• Số La Mã: I = 1, V = 5, X = 10, L = 50.<br>• Ký hiệu nhỏ đứng trước ký hiệu lớn thì trừ (IV = 4); đứng sau thì cộng (VI = 6).</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Ý nào là ý chính của bài "Cách ghi số tự nhiên"? A) Cách đếm số lượng đồ vật. B) Cách đọc, viết số và giá trị của từng chữ số theo hàng. C) Cách viết chữ cái La Mã.</button><div class="qa-a">Đáp án đúng là B — đó là nội dung mấu chốt của bài. A là việc đếm thông thường; C chỉ là một phần nhỏ (số La Mã) trong bài.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số La Mã XIX bằng bao nhiêu?</button><div class="qa-a">XIX = 10 + 9 = 19.</div></div>
+<div class="qa"><button class="qa-q" type="button">Chữ số 7 trong số 17 250 có giá trị là bao nhiêu?</button><div class="qa-a">7 000, vì chữ số 7 ở hàng nghìn.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p21">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh3">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 3. Thứ tự trong tập hợp các số tự nhiên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> biểu diễn số tự nhiên trên tia số; so sánh hai số tự nhiên; tìm số liền trước, số liền sau.</div>
+<p class="ll"><span class="lkw">Tia số</span> là một tia có gốc là điểm 0. Mỗi số tự nhiên được biểu diễn bởi một điểm trên tia số, các điểm cách đều nhau.</p>
+<p class="ll">Trên tia số, các số <b>tăng dần từ trái sang phải</b>: số ở bên phải thì <b>lớn hơn</b> số ở bên trái.</p>
+<p class="ll">So sánh hai số: số nào có nhiều chữ số hơn thì lớn hơn. Nếu hai số có cùng số chữ số, ta so sánh từng cặp chữ số cùng hàng, từ trái sang phải.</p>
+<p class="ll"><span class="lkw">Số liền sau</span> của một số là số đứng ngay bên phải nó: số liền sau của a là a + 1.</p>
+<p class="ll"><span class="lkw">Số liền trước</span> là số đứng ngay bên trái: số liền trước của a (với a &gt; 0) là a − 1.</p>
+<p class="ll">Số tự nhiên nhỏ nhất là 0. Không có số tự nhiên lớn nhất.</p>
+<p class="ll">👉 Bấm vào các điểm trên tia số dưới đây để xem số liền trước, số liền sau của nó.</p>
+<div class="lfig"><div class="fig"><svg viewBox="0 0 470 74"><line x1="22" y1="38" x2="442" y2="38" stroke="#37474f" stroke-width="2"/><polygon points="442,32 456,38 442,44" fill="#37474f"/><line x1="48" y1="32" x2="48" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="48" y="60" text-anchor="middle" font-size="13" fill="#37474f">0</text><g class="nlp" data-info="Điểm 0 là gốc của tia số — điểm bắt đầu. Mọi số tự nhiên khác đều nằm ở bên phải điểm 0."><circle cx="48" cy="38" r="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><text x="48" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">0</text></g><line x1="86" y1="32" x2="86" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="86" y="60" text-anchor="middle" font-size="13" fill="#37474f">1</text><circle cx="86" cy="38" r="3" fill="#90a4ae"/><line x1="124" y1="32" x2="124" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="124" y="60" text-anchor="middle" font-size="13" fill="#37474f">2</text><circle cx="124" cy="38" r="3" fill="#90a4ae"/><line x1="162" y1="32" x2="162" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="162" y="60" text-anchor="middle" font-size="13" fill="#37474f">3</text><g class="nlp" data-info="Điểm 3 nằm bên trái điểm 8 nên 3 nhỏ hơn 8. Ta viết 3 &lt; 8, đọc là '3 bé hơn 8'."><circle cx="162" cy="38" r="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><text x="162" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">3</text></g><line x1="200" y1="32" x2="200" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="200" y="60" text-anchor="middle" font-size="13" fill="#37474f">4</text><circle cx="200" cy="38" r="3" fill="#90a4ae"/><line x1="238" y1="32" x2="238" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="238" y="60" text-anchor="middle" font-size="13" fill="#37474f">5</text><circle cx="238" cy="38" r="3" fill="#90a4ae"/><line x1="276" y1="32" x2="276" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="276" y="60" text-anchor="middle" font-size="13" fill="#37474f">6</text><circle cx="276" cy="38" r="3" fill="#90a4ae"/><line x1="314" y1="32" x2="314" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="314" y="60" text-anchor="middle" font-size="13" fill="#37474f">7</text><circle cx="314" cy="38" r="3" fill="#90a4ae"/><line x1="352" y1="32" x2="352" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="352" y="60" text-anchor="middle" font-size="13" fill="#37474f">8</text><g class="nlp" data-info="Điểm 8 nằm bên phải điểm 3 nên 8 lớn hơn 3. Ta viết 8 &gt; 3, đọc là '8 lớn hơn 3'."><circle cx="352" cy="38" r="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><text x="352" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#0d47a1">8</text></g><line x1="390" y1="32" x2="390" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="390" y="60" text-anchor="middle" font-size="13" fill="#37474f">9</text><circle cx="390" cy="38" r="3" fill="#90a4ae"/><line x1="428" y1="32" x2="428" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="428" y="60" text-anchor="middle" font-size="13" fill="#37474f">10</text><circle cx="428" cy="38" r="3" fill="#90a4ae"/></svg><div class="figRead">👆 Bấm vào các điểm tròn màu xanh trên tia số để xem vị trí và cách so sánh hai số.</div></div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: So sánh hai số tự nhiên</h4><div class="de">Đề: So sánh 1 235 và 1 253.</div><p class="lstep">Bước 1) Hai số đều có 4 chữ số. So sánh từ trái sang phải: hàng nghìn đều là 1, hàng trăm đều là 2.</p><p class="lstep">Bước 2) Hàng chục: 3 &lt; 5 nên 1 235 &lt; 1 253, đọc là "một nghìn hai trăm ba mươi lăm nhỏ hơn một nghìn hai trăm năm mươi ba".</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Số liền trước, số liền sau</h4><div class="de">Đề: Tìm số liền trước và số liền sau của 99.</div><p class="lstep">Bước 1) Số liền sau đứng ngay bên phải: 99 + 1 = 100.</p><p class="lstep">Bước 2) Số liền trước đứng ngay bên trái: 99 − 1 = 98.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Trên tia số, số ở bên phải so với số ở bên trái thì thế nào?</div></div><div class="mini-face mini-back"><div>Lớn hơn. Càng đi sang phải trên tia số, số càng lớn.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số liền sau của a là gì? Số liền trước của a là gì?</div></div><div class="mini-face mini-back"><div>Số liền sau: a + 1. Số liền trước: a − 1 (với a &gt; 0).</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Trên tia số: số ở bên phải lớn hơn số ở bên trái.<br>• Số liền sau của a là a + 1; số liền trước của a là a − 1.<br>• So sánh số: số nhiều chữ số hơn thì lớn hơn; bằng số chữ số thì so từng hàng từ trái sang phải.<br>• Số tự nhiên nhỏ nhất là 0; không có số tự nhiên lớn nhất.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng ý chính về tia số? A) Tia số dùng để vẽ hình trang trí. B) Trên tia số, số ở bên phải lớn hơn số ở bên trái. C) Tia số chỉ có 10 số.</button><div class="qa-a">Đáp án đúng là B — đó là điểm mấu chốt để so sánh số bằng tia số. C sai vì tia số chứa mọi số tự nhiên và kéo dài mãi.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số liền trước của 1 000 là số nào?</button><div class="qa-a">999.</div></div>
+<div class="qa"><button class="qa-q" type="button">Giữa 4 và 9 trên tia số có những số tự nhiên nào?</button><div class="qa-a">Các số 5; 6; 7; 8 — tất cả 4 số.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p23">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tia-so">📐 Thẻ lý thuyết: Tia số</button></div>
+</div>
+<div class="lesson" id="lh4">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 4. Phép cộng và phép trừ số tự nhiên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> cộng, trừ hai số tự nhiên thành thạo; dùng tính chất giao hoán, kết hợp để tính nhanh; giải được bài toán thực tế về cộng, trừ.</div>
+<p class="ll">Phép cộng hai số tự nhiên cho ta <span class="lkw">tổng</span>. Các số cộng với nhau gọi là <span class="lkw">số hạng</span>.</p>
+<p class="ll">Tính chất của phép cộng: <b>giao hoán</b> (a + b = b + a) và <b>kết hợp</b> ((a + b) + c = a + (b + c)). Nhờ hai tính chất này, ta ghép các số cộng lại thành 10, 100... để tính nhanh.</p>
+<p class="ll">Phép trừ là phép tính ngược của phép cộng: nếu a − b = c thì c + b = a. Số bị trừ phải lớn hơn hoặc bằng số trừ.</p>
+<p class="ll">Muốn tìm <b>số hạng chưa biết</b>: lấy tổng trừ đi số hạng đã biết.</p>
+<p class="ll">Gặp bài toán có lời văn, em hãy đọc đề theo 3 bước ở khung "🔍 Cách đọc đề" dưới ví dụ 2 của bài này.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tính nhanh bằng cách ghép số</h4><div class="de">Đề: Tính nhanh 47 + 59 + 53.</div><p class="lstep">Bước 1) Ghép hai số cộng lại thành số trăm chẵn: 47 + 53 = 100 (đổi chỗ số 59 và số 53 nhờ tính chất giao hoán, kết hợp).</p><p class="lstep">Bước 2) Lấy 100 + 59 = 159.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Bài toán có lời văn</h4><div class="de">Đề: Một cửa hàng có 125 quyển vở. Buổi sáng bán được 48 quyển, buổi chiều bán được 57 quyển. Hỏi cửa hàng còn lại bao nhiêu quyển vở?</div><p class="lstep">Bước 1) Tính tổng số vở đã bán trong cả ngày: 48 + 57 = 105 (quyển).</p><p class="lstep">Bước 2) Tính số vở còn lại: 125 − 105 = 20 (quyển). Đáp số: 20 quyển vở.</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — có 125 quyển vở lúc đầu; buổi sáng bán 48 quyển, buổi chiều bán 57 quyển.</div><div><b>Bước 3)</b> Đề hỏi gì? — cửa hàng còn lại bao nhiêu quyển vở. Từ khóa "còn lại" cho biết: phải tính số đã bán rồi lấy số ban đầu trừ đi.</div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Tính chất giao hoán của phép cộng nói gì?</div></div><div class="mini-face mini-back"><div>Đổi chỗ hai số hạng thì tổng không đổi: a + b = b + a.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Muốn tính nhanh 68 + 25 + 32, em ghép hai số nào trước? Vì sao?</div></div><div class="mini-face mini-back"><div>Ghép 68 + 32 = 100 trước, vì ra số trăm chẵn nên cộng tiếp rất dễ: 100 + 25 = 125.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Phép cộng có tính chất giao hoán và kết hợp — ghép các số thành 10, 100 để tính nhanh.<br>• Tìm số hạng chưa biết: lấy tổng trừ đi số hạng đã biết.<br>• Bài toán hỏi "còn lại" thường phải trừ; hỏi "tất cả" thường phải cộng.<br>• Đọc đề chậm, tách rõ hai việc: đề cho biết gì — đề hỏi gì.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Khi gặp bài toán có lời văn, việc đầu tiên nên làm là gì? A) Cộng hết các số trong đề. B) Đọc chậm từng câu, tìm xem đề cho biết gì và hỏi gì. C) Đoán ngay đáp án.</button><div class="qa-a">Đáp án đúng là B. Bắt được ý chính của đề rồi mới chọn phép tính; cộng bừa mọi số trong đề (cách A) rất dễ sai.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính nhanh: 99 + 45 + 1 = ?</button><div class="qa-a">Ghép 99 + 1 = 100 trước, rồi 100 + 45 = 145.</div></div>
+<div class="qa"><button class="qa-q" type="button">Một đội có 36 bạn, trong đó 19 bạn được khen. Hỏi còn bao nhiêu bạn chưa được khen?</button><div class="qa-a">36 − 19 = 17 bạn.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p3">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh5">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 5. Phép nhân và phép chia số tự nhiên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nhân, chia số tự nhiên; biết phép chia hết và phép chia có dư; tìm thừa số chưa biết.</div>
+<p class="ll">Phép nhân hai số tự nhiên cho ta <span class="lkw">tích</span>. Các số nhân với nhau gọi là <span class="lkw">thừa số</span>.</p>
+<p class="ll">Tính chất của phép nhân: <b>giao hoán</b> (a × b = b × a), <b>kết hợp</b> ((a × b) × c = a × (b × c)) và <b>phân phối</b> đối với phép cộng: a × (b + c) = a × b + a × c.</p>
+<p class="ll">Phép chia a : b = q. Nếu chia không còn dư, ta gọi đó là <span class="lkw">phép chia hết</span>.</p>
+<p class="ll">Nếu chia còn dư thì: số bị chia = số chia × thương + số dư, trong đó số dư luôn <b>nhỏ hơn số chia</b>.</p>
+<p class="ll">Muốn tìm <b>thừa số chưa biết</b>: lấy tích chia cho thừa số đã biết. Muốn tìm <b>số bị chia</b>: lấy thương nhân với số chia.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tính nhanh phép nhân</h4><div class="de">Đề: Tính nhanh 25 × 17 × 4.</div><p class="lstep">Bước 1) Ghép 25 × 4 = 100 trước (nhờ tính chất giao hoán và kết hợp).</p><p class="lstep">Bước 2) Lấy 100 × 17 = 1 700.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Bài toán chia đều</h4><div class="de">Đề: Có 96 quyển vở chia đều vào 8 hộp. Hỏi mỗi hộp có bao nhiêu quyển vở?</div><p class="lstep">Bước 1) "Chia đều" vào các hộp nghĩa là làm phép chia: lấy tổng số vở chia cho số hộp.</p><p class="lstep">Bước 2) 96 : 8 = 12 (quyển). Đáp số: mỗi hộp có 12 quyển vở.</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — có 96 quyển vở; chia đều vào 8 hộp.</div><div><b>Bước 3)</b> Đề hỏi gì? — mỗi hộp có bao nhiêu quyển vở. Từ khóa "chia đều" là dấu hiệu của phép chia.</div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Muốn tìm thừa số chưa biết, em làm thế nào?</div></div><div class="mini-face mini-back"><div>Lấy tích chia cho thừa số đã biết.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Trong phép chia có dư, số dư phải thế nào so với số chia?</div></div><div class="mini-face mini-back"><div>Số dư luôn nhỏ hơn số chia. Nếu số dư bằng hoặc lớn hơn số chia thì phép chia làm chưa đúng.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Phép nhân có tính chất giao hoán, kết hợp, phân phối — ghép 25 × 4 hoặc 125 × 8 để tính nhanh.<br>• Chia có dư: số bị chia = số chia × thương + số dư; số dư luôn nhỏ hơn số chia.<br>• Tìm thừa số chưa biết: lấy tích chia cho thừa số đã biết.<br>• Từ khóa "chia đều" → làm phép chia; đáp án là số lượng tính cho một phần.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Từ khóa nào trong đề cho biết phải làm phép chia? A) "tất cả" B) "chia đều" C) "thêm vào"</button><div class="qa-a">Đáp án đúng là B — "chia đều" là từ khóa mấu chốt của phép chia. "Tất cả" và "thêm vào" thường gợi phép cộng.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính 45 : 6 — thương và số dư là bao nhiêu?</button><div class="qa-a">45 : 6 = 7 dư 3. Kiểm tra lại: 6 × 7 + 3 = 45.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tìm x, biết 7 × x = 84.</button><div class="qa-a">x = 84 : 7 = 12.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p4">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh6">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 6. Lũy thừa với số mũ tự nhiên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu lũy thừa là gì (cơ số, số mũ); tính giá trị của lũy thừa; nhân, chia hai lũy thừa cùng cơ số.</div>
+<p class="ll"><span class="lkw">Lũy thừa</span> là cách viết ngắn gọn của phép nhân nhiều thừa số giống nhau: aⁿ = a × a × ... × a (có n thừa số a nhân với nhau).</p>
+<p class="ll">Trong aⁿ: a gọi là <span class="lkw">cơ số</span>, n gọi là <span class="lkw">số mũ</span>. aⁿ đọc là "a mũ n" hoặc "a lũy thừa n".</p>
+<p class="ll">Ví dụ: 2³ đọc là "2 mũ 3"; 2³ = 2 × 2 × 2 = 8. Chú ý: 2³ khác hẳn 2 × 3 (2³ = 8, còn 2 × 3 = 6).</p>
+<p class="ll">Trường hợp đặc biệt: a¹ = a; a⁰ = 1 (với a khác 0).</p>
+<p class="ll"><b>Nhân</b> hai lũy thừa cùng cơ số: giữ nguyên cơ số, <b>cộng</b> hai số mũ: aᵐ × aⁿ = aᵐ⁺ⁿ.</p>
+<p class="ll"><b>Chia</b> hai lũy thừa cùng cơ số: giữ nguyên cơ số, <b>trừ</b> hai số mũ: aᵐ : aⁿ = aᵐ⁻ⁿ (với m ≥ n).</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tính giá trị của lũy thừa</h4><div class="de">Đề: Tính 3² và 2⁴.</div><p class="lstep">Bước 1) 3² có 2 thừa số 3 nhân nhau: 3² = 3 × 3 = 9.</p><p class="lstep">Bước 2) 2⁴ có 4 thừa số 2 nhân nhau: 2⁴ = 2 × 2 × 2 × 2 = 16.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Nhân, chia hai lũy thừa cùng cơ số</h4><div class="de">Đề: Viết gọn rồi tính: 2³ × 2² và 5³ : 5².</div><p class="lstep">Bước 1) Nhân hai lũy thừa cùng cơ số 2 thì cộng số mũ: 2³ × 2² = 2³⁺² = 2⁵ = 32.</p><p class="lstep">Bước 2) Chia hai lũy thừa cùng cơ số 5 thì trừ số mũ: 5³ : 5² = 5³⁻² = 5¹ = 5.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>2⁴ đọc là gì và bằng bao nhiêu?</div></div><div class="mini-face mini-back"><div>Đọc là "2 mũ 4". Giá trị: 2⁴ = 2 × 2 × 2 × 2 = 16.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>a⁰ bằng bao nhiêu (với a khác 0)?</div></div><div class="mini-face mini-back"><div>a⁰ = 1.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• aⁿ là tích của n thừa số a; a là cơ số, n là số mũ.<br>• a¹ = a và a⁰ = 1 (với a khác 0).<br>• Nhân hai lũy thừa cùng cơ số thì cộng số mũ; chia thì trừ số mũ.<br>• Đừng nhầm aⁿ với a × n: 2³ = 8, còn 2 × 3 = 6.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào nói đúng ý chính về lũy thừa? A) 3² = 3 × 2 = 6. B) 3² = 3 × 3 = 9, vì số mũ cho biết có bao nhiêu thừa số giống nhau được nhân. C) 3² đọc là "ba hai".</button><div class="qa-a">Đáp án đúng là B. A là nhầm lẫn hay gặp nhất: số mũ không phải là số để nhân thẳng với cơ số.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính 10³.</button><div class="qa-a">10³ = 10 × 10 × 10 = 1 000.</div></div>
+<div class="qa"><button class="qa-q" type="button">Viết gọn: 7² × 7³ = ?</button><div class="qa-a">7² × 7³ = 7⁵ (giữ nguyên cơ số 7, cộng hai số mũ 2 + 3 = 5).</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p2">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh7">
+<span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 7. Thứ tự thực hiện các phép tính</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nắm thứ tự làm các phép tính trong biểu thức không có dấu ngoặc và biểu thức có dấu ngoặc.</div>
+<p class="ll">Biểu thức chỉ có cộng và trừ (hoặc chỉ có nhân và chia): làm <b>lần lượt từ trái sang phải</b>.</p>
+<p class="ll">Biểu thức có cả cộng, trừ, nhân, chia: làm <span class="lkw">nhân và chia trước</span>, cộng và trừ sau.</p>
+<p class="ll">Biểu thức có <span class="lkw">lũy thừa</span>: tính lũy thừa <b>trước tiên</b>.</p>
+<p class="ll">Biểu thức có <span class="lkw">dấu ngoặc</span>: tính trong ngoặc trước, theo thứ tự: ngoặc tròn ( ) → ngoặc vuông [ ] → ngoặc nhọn { }.</p>
+<p class="ll">Mẹo nhớ cả bài: "Lũy thừa — nhân chia — cộng trừ; có ngoặc thì tính trong ngoặc trước".</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Biểu thức không có dấu ngoặc</h4><div class="de">Đề: Tính 24 − 6 × 2 + 8 : 4.</div><p class="lstep">Bước 1) Làm nhân và chia trước: 6 × 2 = 12; 8 : 4 = 2. Biểu thức trở thành: 24 − 12 + 2.</p><p class="lstep">Bước 2) Làm cộng, trừ theo thứ tự từ trái sang phải: 24 − 12 = 12; 12 + 2 = 14.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Biểu thức có dấu ngoặc</h4><div class="de">Đề: Tính 36 : [12 − (3 + 5)].</div><p class="lstep">Bước 1) Tính trong ngoặc tròn trước: 3 + 5 = 8. Biểu thức trở thành: 36 : [12 − 8].</p><p class="lstep">Bước 2) Tính trong ngoặc vuông: 12 − 8 = 4. Cuối cùng: 36 : 4 = 9.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Biểu thức vừa có phép nhân vừa có phép cộng: làm phép nào trước?</div></div><div class="mini-face mini-back"><div>Làm phép nhân (và phép chia) trước, phép cộng (và phép trừ) sau.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Gặp biểu thức có dấu ngoặc, em tính phần nào trước?</div></div><div class="mini-face mini-back"><div>Tính trong ngoặc trước, theo thứ tự: ( ) rồi [ ] rồi { }.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Thứ tự làm tính: lũy thừa → nhân, chia → cộng, trừ.<br>• Cùng một mức (chỉ có cộng/trừ hoặc chỉ có nhân/chia): làm từ trái sang phải.<br>• Có dấu ngoặc: tính trong ngoặc trước — ( ) → [ ] → { }.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Trong biểu thức 5 + 3 × 2, một bạn cộng trước được 16. Đúng hay sai? Vì sao?</button><div class="qa-a">Sai. Phải nhân trước: 3 × 2 = 6, rồi 5 + 6 = 11. Cộng trước là lỗi hay gặp nhất ở bài này.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính 100 − 25 × 3.</button><div class="qa-a">Nhân trước: 25 × 3 = 75. Sau đó: 100 − 75 = 25.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính 48 : (6 × 2).</button><div class="qa-a">Trong ngoặc trước: 6 × 2 = 12. Sau đó: 48 : 12 = 4.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p1">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh8">
+<span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 8. Quan hệ chia hết và tính chất</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu "a chia hết cho b" nghĩa là gì; tìm ước và bội của một số; dùng tính chất chia hết của một tổng, một hiệu.</div>
+<p class="ll">Số tự nhiên a <span class="lkw">chia hết</span> cho số tự nhiên b (b khác 0) nếu có số tự nhiên q sao cho a = b × q. Ký hiệu là a ⋮ b, đọc là "a chia hết cho b".</p>
+<p class="ll">Khi a ⋮ b, ta nói a là <span class="lkw">bội</span> của b, còn b là <span class="lkw">ước</span> của a.</p>
+<p class="ll">Cách tìm ước của một số: chia số đó lần lượt cho 1; 2; 3; ... — số nào chia hết thì số đó là ước.</p>
+<p class="ll">Cách tìm bội của một số: nhân số đó lần lượt với 0; 1; 2; 3; ...</p>
+<p class="ll"><span class="lkw">Tính chất chia hết của một tổng</span>: nếu a ⋮ m và b ⋮ m thì (a + b) ⋮ m. Tính chất này cũng đúng với một hiệu (a − b, với a ≥ b).</p>
+<p class="ll">Ngược lại: nếu trong một tổng chỉ có một số hạng không chia hết cho m, còn các số hạng còn lại đều chia hết cho m, thì tổng đó không chia hết cho m.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tìm ước và bội</h4><div class="de">Đề: Tìm các ước của 12 và năm bội đầu tiên của 4.</div><p class="lstep">Bước 1) Tìm ước của 12: 12 chia hết cho 1; 2; 3; 4; 6; 12 nên Ư(12) = {1; 2; 3; 4; 6; 12}.</p><p class="lstep">Bước 2) Tìm bội của 4: nhân 4 lần lượt với 0; 1; 2; 3; 4, được B(4) = {0; 4; 8; 12; 16}.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Xét tính chia hết của một tổng</h4><div class="de">Đề: Không tính tổng, hãy xét xem 18 + 24 có chia hết cho 6 không.</div><p class="lstep">Bước 1) Kiểm tra từng số hạng: 18 ⋮ 6 (vì 18 = 6 × 3) và 24 ⋮ 6 (vì 24 = 6 × 4).</p><p class="lstep">Bước 2) Cả hai số hạng cùng chia hết cho 6 nên tổng chia hết cho 6: (18 + 24) ⋮ 6 (thật vậy, tổng bằng 42 = 6 × 7).</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>a ⋮ b nghĩa là gì? Khi đó a và b còn được gọi là gì của nhau?</div></div><div class="mini-face mini-back"><div>Nghĩa là a = b × q với q là số tự nhiên. a là bội của b; b là ước của a.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Nếu a ⋮ m và b ⋮ m thì tổng a + b có chia hết cho m không?</div></div><div class="mini-face mini-back"><div>Có. (a + b) ⋮ m — đó là tính chất chia hết của một tổng.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• a ⋮ b khi a = b × q: a là bội của b, b là ước của a.<br>• Tìm ước: thử chia lần lượt từ 1 trở đi. Tìm bội: nhân lần lượt với 0; 1; 2; 3...<br>• Nếu mọi số hạng đều chia hết cho m thì tổng (và hiệu) cũng chia hết cho m.<br>• Số 1 là ước của mọi số; mọi số đều có hai ước là 1 và chính nó.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào là ý chính của "quan hệ chia hết"? A) Hai số bất kỳ đều chia hết cho nhau. B) a chia hết cho b khi a = b × q; khi đó a là bội của b, b là ước của a. C) Chia hết nghĩa là chia ra số thập phân.</button><div class="qa-a">Đáp án đúng là B. A sai (ví dụ 5 không chia hết cho 2). C sai vì chia hết phải là chia không còn dư.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số 7 có phải là ước của 35 không? Vì sao?</button><div class="qa-a">Có, vì 35 = 7 × 5 nên 35 ⋮ 7, tức là 7 là ước của 35.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tìm bốn bội của 6.</button><div class="qa-a">0; 6; 12; 18 (nhân 6 lần lượt với 0; 1; 2; 3). Bội tiếp theo là 24; 30...</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p24">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh9">
+<span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 9. Dấu hiệu chia hết</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nhận biết một số có chia hết cho 2, 5, 3, 9 hay không mà không cần làm phép chia.</div>
+<p class="ll">Số <span class="lkw">chia hết cho 2</span>: chữ số tận cùng là 0; 2; 4; 6; 8 (tức là số chẵn).</p>
+<p class="ll">Số <span class="lkw">chia hết cho 5</span>: chữ số tận cùng là 0 hoặc 5.</p>
+<p class="ll">Số <span class="lkw">chia hết cho 3</span>: <b>tổng các chữ số</b> của nó chia hết cho 3.</p>
+<p class="ll">Số <span class="lkw">chia hết cho 9</span>: <b>tổng các chữ số</b> của nó chia hết cho 9. Số nào chia hết cho 9 thì cũng chia hết cho 3.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Dùng dấu hiệu chia hết cho 2 và cho 5</h4><div class="de">Đề: Trong các số 35; 128; 2 025; 90, số nào chia hết cho 2? Số nào chia hết cho 5?</div><p class="lstep">Bước 1) Nhìn chữ số tận cùng: 128 (tận cùng 8) và 90 (tận cùng 0) là số chẵn nên chia hết cho 2.</p><p class="lstep">Bước 2) Số có tận cùng 0 hoặc 5 thì chia hết cho 5: đó là 35; 2 025; 90. Riêng số 90 vừa chia hết cho 2 vừa chia hết cho 5.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Tìm chữ số chưa biết</h4><div class="de">Đề: Điền chữ số thích hợp vào dấu * để số 43* chia hết cho 3.</div><p class="lstep">Bước 1) Tính tổng các chữ số đã biết: 4 + 3 = 7. Cần 7 + * là một số chia hết cho 3.</p><p class="lstep">Bước 2) Các số lớn hơn 7 và chia hết cho 3 là 9; 12; 15 nên * bằng 2; 5 hoặc 8.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Muốn biết một số có chia hết cho 3 không, em nhìn vào đâu?</div></div><div class="mini-face mini-back"><div>Nhìn vào TỔNG CÁC CHỮ SỐ: nếu tổng đó chia hết cho 3 thì số đã cho chia hết cho 3.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số chia hết cho cả 2 và 5 thì có chữ số tận cùng là gì?</div></div><div class="mini-face mini-back"><div>Chữ số tận cùng là 0.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Chia hết cho 2: tận cùng là 0; 2; 4; 6; 8. Chia hết cho 5: tận cùng là 0 hoặc 5.<br>• Chia hết cho 3: tổng các chữ số chia hết cho 3.<br>• Chia hết cho 9: tổng các chữ số chia hết cho 9.<br>• Số chia hết cho 9 thì chắc chắn chia hết cho 3 (chiều ngược lại chưa chắc đúng).</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Điểm mấu chốt khác nhau giữa dấu hiệu chia hết cho 2, 5 và dấu hiệu chia hết cho 3, 9 là gì?</button><div class="qa-a">Dấu hiệu cho 2 và 5 chỉ nhìn chữ số TẬN CÙNG; dấu hiệu cho 3 và 9 phải tính TỔNG CÁC CHỮ SỐ. Đây là ý chính cần bắt được của bài.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số 345 có chia hết cho 3 không? Có chia hết cho 9 không?</button><div class="qa-a">Tổng các chữ số: 3 + 4 + 5 = 12. 12 ⋮ 3 nên 345 ⋮ 3. Nhưng 12 không chia hết cho 9 nên 345 không chia hết cho 9.</div></div>
+<div class="qa"><button class="qa-q" type="button">Trong các số 137; 260; 403, số nào chia hết cho 5?</button><div class="qa-a">Số 260 (chữ số tận cùng là 0).</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p18">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh10">
+<span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 10. Số nguyên tố</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu số nguyên tố và hợp số là gì; phân tích một số ra thừa số nguyên tố.</div>
+<p class="ll"><span class="lkw">Số nguyên tố</span> là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó. Ví dụ: 2; 3; 5; 7; 11; 13...</p>
+<p class="ll"><span class="lkw">Hợp số</span> là số tự nhiên lớn hơn 1, có nhiều hơn hai ước. Ví dụ: 4; 6; 8; 9; 10...</p>
+<p class="ll">Số 0 và số 1 thì đặc biệt: <b>không</b> phải là số nguyên tố, cũng <b>không</b> phải là hợp số.</p>
+<p class="ll">Số 2 là số nguyên tố chẵn duy nhất; mọi số nguyên tố khác đều là số lẻ.</p>
+<p class="ll"><span class="lkw">Phân tích một số ra thừa số nguyên tố</span> là viết số đó thành tích của các thừa số nguyên tố. Cách làm: chia dần cho các số nguyên tố từ nhỏ đến lớn (2; 3; 5; 7; ...) cho đến khi thương bằng 1.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Nhận ra số nguyên tố và hợp số</h4><div class="de">Đề: Trong các số 13; 15; 17; 21, số nào là số nguyên tố, số nào là hợp số?</div><p class="lstep">Bước 1) Xét số ước: 13 chỉ có hai ước là 1 và 13 nên 13 là số nguyên tố. 17 cũng chỉ có hai ước là 1 và 17 nên là số nguyên tố.</p><p class="lstep">Bước 2) 15 có các ước 1; 3; 5; 15 (nhiều hơn hai ước) nên là hợp số. 21 có các ước 1; 3; 7; 21 nên cũng là hợp số.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Phân tích ra thừa số nguyên tố</h4><div class="de">Đề: Phân tích số 60 ra thừa số nguyên tố.</div><p class="lstep">Bước 1) Chia dần cho các số nguyên tố từ nhỏ đến lớn: 60 : 2 = 30; 30 : 2 = 15; 15 : 3 = 5; 5 : 5 = 1. Dừng lại khi thương bằng 1.</p><p class="lstep">Bước 2) Gom các thừa số lại: 60 = 2 × 2 × 3 × 5 = 2² × 3 × 5.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số nguyên tố là số như thế nào?</div></div><div class="mini-face mini-back"><div>Là số tự nhiên lớn hơn 1, chỉ có đúng hai ước là 1 và chính nó.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số 1 có phải là số nguyên tố không? Có phải là hợp số không?</div></div><div class="mini-face mini-back"><div>Không và không. Số 0 và số 1 không là số nguyên tố, cũng không là hợp số.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Số nguyên tố: lớn hơn 1, có đúng hai ước (1 và chính nó).<br>• Hợp số: lớn hơn 1, có nhiều hơn hai ước.<br>• Số 0 và số 1 không là số nguyên tố, cũng không là hợp số.<br>• Phân tích ra thừa số nguyên tố: chia dần cho 2; 3; 5; 7... tới khi thương bằng 1 rồi gom lại.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng ý chính để nhận ra một số nguyên tố? A) Số đó là số lẻ. B) Số đó lớn hơn 1 và chỉ có hai ước là 1 và chính nó. C) Số đó có chữ số tận cùng là 3.</button><div class="qa-a">Đáp án đúng là B. A sai vì 9; 15; 21 là số lẻ nhưng là hợp số. C không liên quan đến định nghĩa.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số 29 là số nguyên tố hay hợp số? Vì sao?</button><div class="qa-a">Số nguyên tố, vì 29 chỉ có hai ước là 1 và 29.</div></div>
+<div class="qa"><button class="qa-q" type="button">Phân tích 36 ra thừa số nguyên tố.</button><div class="qa-a">36 = 2 × 2 × 3 × 3 = 2² × 3².</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-gen="primeFactor">✏️ Luyện bài này</button></div>
+<p class="pnote">Bài 10 chưa có bài mẫu riêng trong thư viện. Nút "Luyện bài này" sẽ sinh ngay một đề mới của dạng "Số nguyên tố" (phân tích ra thừa số nguyên tố) để em luyện.</p>
+</div>
+<div class="lesson" id="lh11">
+<span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 11. Ước chung. Ước chung lớn nhất</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu ước chung và ước chung lớn nhất (ƯCLN); tìm ƯCLN bằng cách phân tích ra thừa số nguyên tố; vận dụng vào bài toán chia phần.</div>
+<p class="ll"><span class="lkw">Ước chung</span> của hai hay nhiều số là một số vừa là ước của số này, vừa là ước của các số còn lại.</p>
+<p class="ll"><span class="lkw">Ước chung lớn nhất</span> (viết tắt là ƯCLN) là số tự nhiên lớn nhất trong các ước chung của các số đó.</p>
+<p class="ll">Cách tìm ƯCLN bằng phân tích ra thừa số nguyên tố: <b>Bước 1)</b> Phân tích mỗi số ra thừa số nguyên tố. <b>Bước 2)</b> Chọn các thừa số <b>chung</b>. <b>Bước 3)</b> Mỗi thừa số lấy với số mũ <b>nhỏ nhất</b>, rồi nhân các kết quả lại.</p>
+<p class="ll">Hai số có ƯCLN bằng 1 được gọi là hai số <b>nguyên tố cùng nhau</b>.</p>
+<p class="ll">ƯCLN thường dùng để: rút gọn phân số về phân số tối giản; chia một nhóm đồ vật thành nhiều phần bằng nhau nhất, không thừa món nào.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tìm ƯCLN bằng phân tích thừa số nguyên tố</h4><div class="de">Đề: Tìm ƯCLN(24; 36).</div><p class="lstep">Bước 1) Phân tích ra thừa số nguyên tố: 24 = 2³ × 3; 36 = 2² × 3².</p><p class="lstep">Bước 2) Chọn các thừa số chung với số mũ nhỏ nhất: 2² và 3. Nhân lại: ƯCLN(24; 36) = 2² × 3 = 12.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Bài toán chia phần quà</h4><div class="de">Đề: Có 24 cây bút và 36 quyển vở. Muốn chia đều thành các phần quà giống nhau (mỗi phần có cả bút và vở) sao cho không thừa món nào. Hỏi chia được nhiều nhất bao nhiêu phần?</div><p class="lstep">Bước 1) Số phần phải là ước chung của 24 và 36. Muốn số phần nhiều nhất thì số phần là ƯCLN(24; 36). Theo Ví dụ 1, ƯCLN(24; 36) = 12.</p><p class="lstep">Bước 2) Vậy chia được nhiều nhất 12 phần. Mỗi phần có 24 : 12 = 2 cây bút và 36 : 12 = 3 quyển vở.</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — có 24 cây bút và 36 quyển vở; các phần quà phải giống nhau và không thừa món nào.</div><div><b>Bước 3)</b> Đề hỏi gì? — chia được nhiều nhất bao nhiêu phần. Từ khóa "nhiều nhất" cùng với "chia đều, không thừa" là dấu hiệu của ƯCLN.</div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>ƯCLN của hai số là gì?</div></div><div class="mini-face mini-back"><div>Là số tự nhiên LỚN NHẤT vừa là ước của số này, vừa là ước của số kia.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Khi tìm ƯCLN bằng phân tích ra thừa số nguyên tố, mỗi thừa số chung lấy số mũ thế nào?</div></div><div class="mini-face mini-back"><div>Lấy số mũ NHỎ NHẤT trong các số mũ của thừa số đó.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• ƯCLN là ước chung lớn nhất của các số.<br>• Tìm ƯCLN: phân tích ra thừa số nguyên tố → lấy các thừa số chung, số mũ nhỏ nhất → nhân lại.<br>• Bài toán "chia đều, không thừa, nhiều nhất" → tìm ƯCLN.<br>• ƯCLN bằng 1 thì các số nguyên tố cùng nhau; phân số có tử số và mẫu số nguyên tố cùng nhau là phân số tối giản.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Từ khóa nào trong đề báo hiệu phải tìm ƯCLN? A) "nhỏ nhất" B) "chia đều thành các phần giống nhau, không thừa, nhiều nhất" C) "cộng lại tất cả"</button><div class="qa-a">Đáp án đúng là B — bắt được cụm từ này là bắt được ý chính của dạng bài ƯCLN. "Nhỏ nhất" thường là dấu hiệu của BCNN (Bài 12).</div></div>
+<div class="qa"><button class="qa-q" type="button">Tìm ƯCLN(18; 30).</button><div class="qa-a">18 = 2 × 3²; 30 = 2 × 3 × 5. Các thừa số chung với số mũ nhỏ nhất: 2 × 3 = 6. Vậy ƯCLN(18; 30) = 6.</div></div>
+<div class="qa"><button class="qa-q" type="button">ƯCLN(7; 11) bằng bao nhiêu? Hai số này có gì đặc biệt?</button><div class="qa-a">ƯCLN(7; 11) = 1. Hai số 7 và 11 là hai số nguyên tố cùng nhau.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p5">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh12">
+<span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
+<h3 class="ltitle">Bài 12. Bội chung. Bội chung nhỏ nhất</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu bội chung và bội chung nhỏ nhất (BCNN); tìm BCNN bằng cách phân tích ra thừa số nguyên tố; vận dụng vào bài toán hai việc lặp lại cùng lúc.</div>
+<p class="ll"><span class="lkw">Bội chung</span> của hai hay nhiều số là một số vừa là bội của số này, vừa là bội của các số còn lại.</p>
+<p class="ll"><span class="lkw">Bội chung nhỏ nhất</span> (viết tắt là BCNN) là số tự nhiên nhỏ nhất khác 0 trong các bội chung của các số đó.</p>
+<p class="ll">Cách tìm BCNN bằng phân tích ra thừa số nguyên tố: <b>Bước 1)</b> Phân tích mỗi số ra thừa số nguyên tố. <b>Bước 2)</b> Chọn <b>tất cả</b> các thừa số (cả chung và riêng). <b>Bước 3)</b> Mỗi thừa số lấy với số mũ <b>lớn nhất</b>, rồi nhân các kết quả lại.</p>
+<p class="ll">Các bội chung khác của hai số chính là các bội của BCNN của chúng.</p>
+<p class="ll">BCNN thường dùng cho các bài toán: hai việc lặp lại thì khi nào lại cùng xảy ra; xếp hàng sao cho vừa đủ; tìm số nhỏ nhất thỏa mãn một điều kiện chia hết...</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tìm BCNN bằng phân tích thừa số nguyên tố</h4><div class="de">Đề: Tìm BCNN(6; 8).</div><p class="lstep">Bước 1) Phân tích ra thừa số nguyên tố: 6 = 2 × 3; 8 = 2³.</p><p class="lstep">Bước 2) Lấy mọi thừa số với số mũ lớn nhất: 2³ và 3. Nhân lại: BCNN(6; 8) = 2³ × 3 = 24.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Bài toán cùng trực nhật</h4><div class="de">Đề: Bạn Lan cứ 4 ngày trực nhật một lần, bạn Hùng cứ 6 ngày trực nhật một lần. Hôm nay hai bạn cùng trực nhật. Hỏi sau ít nhất bao nhiêu ngày nữa hai bạn lại cùng trực nhật?</div><p class="lstep">Bước 1) Số ngày cần tìm phải là bội chung của 4 và 6, và là số nhỏ nhất khác 0 — tức là BCNN(4; 6).</p><p class="lstep">Bước 2) 4 = 2²; 6 = 2 × 3 nên BCNN(4; 6) = 2² × 3 = 12. Đáp số: sau 12 ngày nữa hai bạn lại cùng trực nhật.</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — Lan cứ 4 ngày trực nhật một lần; Hùng cứ 6 ngày một lần; hôm nay hai bạn cùng trực nhật.</div><div><b>Bước 3)</b> Đề hỏi gì? — sau ít nhất bao nhiêu ngày nữa hai bạn lại cùng trực nhật. Từ khóa "lại cùng" và "ít nhất" là dấu hiệu của BCNN.</div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>BCNN của hai số là gì?</div></div><div class="mini-face mini-back"><div>Là số tự nhiên NHỎ NHẤT khác 0 vừa là bội của số này, vừa là bội của số kia.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Khi tìm BCNN, mỗi thừa số nguyên tố lấy số mũ thế nào? Khác gì so với khi tìm ƯCLN?</div></div><div class="mini-face mini-back"><div>BCNN lấy số mũ LỚN NHẤT. ƯCLN thì chỉ lấy thừa số chung và lấy số mũ NHỎ NHẤT.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• BCNN là bội chung nhỏ nhất khác 0 của các số.<br>• Tìm BCNN: phân tích ra thừa số nguyên tố → lấy mọi thừa số (chung và riêng), số mũ lớn nhất → nhân lại.<br>• Bài toán "lại cùng nhau", "ít nhất", "nhỏ nhất" → tìm BCNN.<br>• Phân biệt: ƯCLN — thừa số chung, số mũ nhỏ nhất; BCNN — mọi thừa số, số mũ lớn nhất.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Cụm từ nào trong đề là dấu hiệu của BCNN? A) "ít nhất bao nhiêu ngày nữa lại cùng" B) "nhiều nhất bao nhiêu phần" C) "tổng cộng"</button><div class="qa-a">Đáp án đúng là A. Cụm "lại cùng + ít nhất" là ý mấu chốt của dạng bài BCNN; còn "nhiều nhất bao nhiêu phần" thuộc dạng ƯCLN.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tìm BCNN(4; 10).</button><div class="qa-a">4 = 2²; 10 = 2 × 5. BCNN = 2² × 5 = 20.</div></div>
+<div class="qa"><button class="qa-q" type="button">BCNN(5; 7) bằng bao nhiêu?</button><div class="qa-a">5 và 7 không có thừa số nguyên tố chung nên BCNN(5; 7) = 5 × 7 = 35.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p6">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh13">
+<span class="cbadge">Chương 3 · Số nguyên</span>
+<h3 class="ltitle">Bài 13. Tập hợp các số nguyên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> biết số nguyên âm, số nguyên dương; biểu diễn số nguyên trên trục số; tìm số đối và so sánh hai số nguyên.</div>
+<p class="ll">Ngoài các số tự nhiên, ta còn có các số như −1; −2; −3... gọi là <span class="lkw">số nguyên âm</span> (đọc là "âm một", "âm hai", "âm ba"...).</p>
+<p class="ll">Các số tự nhiên khác 0 (1; 2; 3...) còn gọi là <span class="lkw">số nguyên dương</span>. Số 0 không phải là số nguyên âm, cũng không phải là số nguyên dương.</p>
+<p class="ll">Tập hợp các số nguyên gồm: các số nguyên âm, số 0 và các số nguyên dương.</p>
+<p class="ll">Trên <span class="lkw">trục số</span>: điểm 0 ở giữa; phía bên phải của 0 là các số nguyên dương, phía bên trái là các số nguyên âm. Số ở bên phải thì lớn hơn số ở bên trái.</p>
+<p class="ll">Mọi số nguyên âm đều <b>nhỏ hơn 0</b> và nhỏ hơn mọi số nguyên dương.</p>
+<p class="ll">Hai số <span class="lkw">đối nhau</span> nằm ở hai phía của điểm 0 và cách đều điểm 0. Ví dụ: 3 và −3 là hai số đối nhau. Số đối của 0 là chính nó (0).</p>
+<p class="ll">So sánh hai số nguyên âm: số nào gần điểm 0 hơn thì lớn hơn. Ví dụ: −2 &gt; −5 (đọc là "âm hai lớn hơn âm năm").</p>
+<p class="ll">👉 Bấm vào các điểm trên trục số dưới đây để xem vị trí của từng số nguyên.</p>
+<div class="lfig"><div class="fig"><svg viewBox="0 0 470 74"><line x1="16" y1="38" x2="440" y2="38" stroke="#37474f" stroke-width="2"/><polygon points="16,32 2,38 16,44" fill="#37474f"/><polygon points="440,32 454,38 440,44" fill="#37474f"/><line x1="60" y1="32" x2="60" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="60" y="60" text-anchor="middle" font-size="13" fill="#37474f">−5</text><circle cx="60" cy="38" r="3" fill="#90a4ae"/><line x1="96" y1="32" x2="96" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="96" y="60" text-anchor="middle" font-size="13" fill="#37474f">−4</text><g class="nlp" data-info="Số −4 là số nguyên âm: nó nằm bên trái điểm 0 nên nhỏ hơn 0. Đọc là 'âm bốn'."><circle cx="96" cy="38" r="10" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/><text x="96" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">−4</text></g><line x1="132" y1="32" x2="132" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="132" y="60" text-anchor="middle" font-size="13" fill="#37474f">−3</text><g class="nlp" data-info="Số −3 và số 3 là hai số đối nhau: chúng nằm ở hai phía của điểm 0 và cùng cách 0 ba đơn vị."><circle cx="132" cy="38" r="10" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/><text x="132" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">−3</text></g><line x1="168" y1="32" x2="168" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="168" y="60" text-anchor="middle" font-size="13" fill="#37474f">−2</text><circle cx="168" cy="38" r="3" fill="#90a4ae"/><line x1="204" y1="32" x2="204" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="204" y="60" text-anchor="middle" font-size="13" fill="#37474f">−1</text><circle cx="204" cy="38" r="3" fill="#90a4ae"/><line x1="240" y1="32" x2="240" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="240" y="60" text-anchor="middle" font-size="13" fill="#37474f">0</text><g class="nlp" data-info="Điểm 0 là gốc của trục số. Số 0 không phải số nguyên âm, cũng không phải số nguyên dương."><circle cx="240" cy="38" r="10" fill="#fff59d" stroke="#f57c00" stroke-width="2"/><text x="240" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">0</text></g><line x1="276" y1="32" x2="276" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="276" y="60" text-anchor="middle" font-size="13" fill="#37474f">1</text><circle cx="276" cy="38" r="3" fill="#90a4ae"/><line x1="312" y1="32" x2="312" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="312" y="60" text-anchor="middle" font-size="13" fill="#37474f">2</text><circle cx="312" cy="38" r="3" fill="#90a4ae"/><line x1="348" y1="32" x2="348" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="348" y="60" text-anchor="middle" font-size="13" fill="#37474f">3</text><g class="nlp" data-info="Số 3 là số nguyên dương. Số đối của 3 là −3, nằm ở phía bên trái và cũng cách 0 ba đơn vị."><circle cx="348" cy="38" r="10" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/><text x="348" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#37474f">3</text></g><line x1="384" y1="32" x2="384" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="384" y="60" text-anchor="middle" font-size="13" fill="#37474f">4</text><circle cx="384" cy="38" r="3" fill="#90a4ae"/><line x1="420" y1="32" x2="420" y2="44" stroke="#37474f" stroke-width="1.5"/><text x="420" y="60" text-anchor="middle" font-size="13" fill="#37474f">5</text><circle cx="420" cy="38" r="3" fill="#90a4ae"/></svg><div class="figRead">👆 Bấm vào các điểm tròn trên trục số để xem số đó là số nguyên âm, số nguyên dương hay là số đối của nhau.</div></div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Tìm số đối</h4><div class="de">Đề: Tìm số đối của −7 và số đối của 5.</div><p class="lstep">Bước 1) Số đối của −7 nằm ở phía bên kia của điểm 0, cách điểm 0 đúng 7 đơn vị: đó là số 7.</p><p class="lstep">Bước 2) Tương tự, số đối của 5 là −5. Hai số đối nhau chỉ khác nhau ở dấu phía trước.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: So sánh hai số nguyên âm</h4><div class="de">Đề: So sánh −2 và −5.</div><p class="lstep">Bước 1) Đưa hai số lên trục số: điểm −2 nằm gần điểm 0 hơn điểm −5, tức là điểm −2 ở bên phải điểm −5.</p><p class="lstep">Bước 2) Số ở bên phải thì lớn hơn nên −2 &gt; −5, đọc là "âm hai lớn hơn âm năm".</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số đối của −5 là số nào? Hai số đối nhau nằm ở đâu trên trục số?</div></div><div class="mini-face mini-back"><div>Số đối của −5 là 5. Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều điểm 0.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Trong hai số nguyên âm, số nào lớn hơn?</div></div><div class="mini-face mini-back"><div>Số gần điểm 0 hơn thì lớn hơn. Ví dụ: −1 &gt; −10.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Số nguyên gồm: số nguyên âm, số 0 và số nguyên dương. Số 0 không âm cũng không dương.<br>• Trên trục số: số ở bên phải lớn hơn số ở bên trái; mọi số nguyên âm đều nhỏ hơn 0.<br>• Hai số đối nhau cách đều điểm 0 và ở hai phía của 0; số đối của 0 là 0.<br>• So sánh hai số nguyên âm: số gần điểm 0 hơn thì lớn hơn.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào nói đúng ý chính về số nguyên âm? A) Số nguyên âm luôn lớn hơn số 0. B) Số nguyên âm nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương. C) Số 0 là số nguyên âm.</button><div class="qa-a">Đáp án đúng là B. A sai (ví dụ −1 &lt; 0). C sai vì số 0 không phải là số nguyên âm.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số đối của 12 là số nào?</button><div class="qa-a">−12.</div></div>
+<div class="qa"><button class="qa-q" type="button">Sắp xếp các số sau theo thứ tự tăng dần: −4; 0; 3; −1.</button><div class="qa-a">−4 &lt; −1 &lt; 0 &lt; 3. (Trong hai số âm: −4 ở xa điểm 0 hơn nên nhỏ hơn −1.)</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p25">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="truc-so-nguyen">📐 Thẻ lý thuyết: Trục số (số nguyên)</button></div>
+</div>
+<div class="lesson" id="lh14">
+<span class="cbadge">Chương 3 · Số nguyên</span>
+<h3 class="ltitle">Bài 14. Phép cộng và phép trừ số nguyên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> cộng, trừ hai số nguyên đúng quy tắc; vận dụng vào bài toán nhiệt độ, tiền bạc trong thực tế.</div>
+<p class="ll"><span class="lkw">Cộng hai số nguyên cùng dấu</span>: cộng hai giá trị tuyệt đối của chúng, kết quả giữ nguyên dấu chung. Ví dụ: (−5) + (−3) = −8 (đọc là "âm năm cộng âm ba bằng âm tám").</p>
+<p class="ll"><span class="lkw">Cộng hai số nguyên khác dấu</span>: lấy giá trị tuyệt đối lớn hơn trừ đi giá trị tuyệt đối nhỏ hơn; kết quả mang dấu của số có giá trị tuyệt đối lớn hơn. Ví dụ: (−7) + 4 = −3.</p>
+<p class="ll">Hai số đối nhau cộng lại bằng 0: a + (−a) = 0.</p>
+<p class="ll">Phép trừ đổi thành phép cộng với số đối: a − b = a + (−b). Ví dụ: 5 − 9 = 5 + (−9) = −4; (−3) − (−8) = (−3) + 8 = 5.</p>
+<p class="ll">Phép cộng số nguyên vẫn có tính chất giao hoán, kết hợp như phép cộng số tự nhiên.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Cộng hai số nguyên</h4><div class="de">Đề: Tính (−6) + (−14) và (−9) + 5.</div><p class="lstep">Bước 1) (−6) + (−14): hai số cùng dấu âm → cộng hai giá trị tuyệt đối 6 + 14 = 20, giữ dấu âm: kết quả là −20.</p><p class="lstep">Bước 2) (−9) + 5: hai số khác dấu → lấy 9 − 5 = 4, kết quả mang dấu của −9 (số có giá trị tuyệt đối lớn hơn): kết quả là −4.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Bài toán nhiệt độ</h4><div class="de">Đề: Buổi sáng, nhiệt độ là −2°C. Buổi trưa, nhiệt độ tăng 7°C. Buổi tối, nhiệt độ giảm 9°C so với buổi trưa. Hỏi nhiệt độ buổi tối là bao nhiêu?</div><p class="lstep">Bước 1) Buổi trưa: nhiệt độ tăng nghĩa là cộng: −2 + 7 = 5 (°C).</p><p class="lstep">Bước 2) Buổi tối: nhiệt độ giảm nghĩa là trừ: 5 − 9 = −4 (°C). Đáp số: −4°C.</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — sáng: −2°C; trưa: tăng 7°C; tối: giảm 9°C so với buổi trưa.</div><div><b>Bước 3)</b> Đề hỏi gì? — nhiệt độ buổi tối là bao nhiêu. Từ khóa "tăng → cộng", "giảm → trừ"; phải tính lần lượt qua buổi trưa rồi mới tới buổi tối.</div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Cộng hai số nguyên âm: tính thế nào, kết quả mang dấu gì?</div></div><div class="mini-face mini-back"><div>Cộng hai giá trị tuyệt đối, kết quả mang dấu âm. Ví dụ: (−4) + (−6) = −10.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>(−3) − (−8) bằng bao nhiêu? Vì sao?</div></div><div class="mini-face mini-back"><div>Bằng 5. Vì trừ một số âm thì đổi thành cộng số dương: (−3) + 8 = 5.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Cùng dấu: cộng hai giá trị tuyệt đối, giữ nguyên dấu chung. Khác dấu: trừ hai giá trị tuyệt đối, lấy dấu của số có giá trị tuyệt đối lớn hơn.<br>• Trừ số nguyên = cộng với số đối của nó: a − b = a + (−b).<br>• Hai số đối nhau có tổng bằng 0.<br>• Trong bài toán thực tế: "tăng, thêm, lên" → cộng; "giảm, bớt, xuống" → trừ.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Ý mấu chốt khi cộng hai số nguyên khác dấu là gì? A) Cộng hai giá trị tuyệt đối rồi đặt dấu âm. B) Trừ hai giá trị tuyệt đối, kết quả lấy dấu của số có giá trị tuyệt đối lớn hơn. C) Kết quả luôn bằng 0.</button><div class="qa-a">Đáp án đúng là B. Cách A là cách cộng hai số cùng dấu âm. Cách C chỉ đúng khi hai số đối nhau.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính (−12) + 12.</button><div class="qa-a">Bằng 0, vì −12 và 12 là hai số đối nhau.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính 3 − 10.</button><div class="qa-a">3 − 10 = 3 + (−10) = −7.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p8">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh15">
+<span class="cbadge">Chương 3 · Số nguyên</span>
+<h3 class="ltitle">Bài 15. Quy tắc dấu ngoặc</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> bỏ dấu ngoặc đúng quy tắc và dùng quy tắc dấu ngoặc để tính nhanh giá trị của biểu thức.</div>
+<p class="ll">Khi bỏ dấu ngoặc có <span class="lkw">dấu "+" ở phía trước</span>: giữ nguyên dấu của mọi số hạng trong ngoặc.</p>
+<p class="ll">Khi bỏ dấu ngoặc có <span class="lkw">dấu "−" ở phía trước</span>: phải đổi dấu của <b>mọi</b> số hạng trong ngoặc (đang cộng thành trừ, đang trừ thành cộng).</p>
+<p class="ll">Sau khi bỏ dấu ngoặc, ta có thể đổi chỗ và nhóm các số hạng cho dễ tính — nhớ mang theo cả dấu của từng số hạng.</p>
+<p class="ll">Ví dụ nhanh: 15 − (7 − 3) = 15 − 7 + 3 = 11. (Tính trong ngoặc trước cũng được: 15 − 4 = 11 — hai cách cho cùng một kết quả.)</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Bỏ ngoặc để tính nhanh</h4><div class="de">Đề: Tính 125 − (37 + 25).</div><p class="lstep">Bước 1) Phía trước ngoặc là dấu trừ → bỏ ngoặc và đổi dấu mọi số hạng trong ngoặc: 125 − 37 − 25.</p><p class="lstep">Bước 2) Nhóm 125 − 25 = 100 trước cho dễ tính, rồi lấy 100 − 37 = 63.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Biểu thức có số nguyên âm</h4><div class="de">Đề: Tính (−48) + 15 − (−15).</div><p class="lstep">Bước 1) Trừ một số âm đổi thành cộng số dương: −(−15) = +15. Biểu thức trở thành: (−48) + 15 + 15.</p><p class="lstep">Bước 2) Cộng 15 + 15 = 30, rồi tính (−48) + 30 = −18.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Bỏ dấu ngoặc trong a − (b − c) ta được gì?</div></div><div class="mini-face mini-back"><div>Được a − b + c: vì phía trước ngoặc là dấu trừ nên mọi số hạng trong ngoặc đều phải đổi dấu.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Bỏ dấu ngoặc trong a + (b − c) ta được gì?</div></div><div class="mini-face mini-back"><div>Được a + b − c: vì phía trước ngoặc là dấu cộng nên giữ nguyên dấu của các số hạng.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Phía trước ngoặc là dấu +: bỏ ngoặc, giữ nguyên dấu các số hạng.<br>• Phía trước ngoặc là dấu −: bỏ ngoặc, đổi dấu mọi số hạng trong ngoặc.<br>• Bỏ ngoặc xong mới đổi chỗ, nhóm số — luôn mang theo dấu của từng số hạng.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Chỗ hay sai nhất của bài quy tắc dấu ngoặc là gì? A) Quên đổi dấu một số hạng khi phía trước ngoặc là dấu trừ. B) Viết số quá to. C) Dùng bút chì.</button><div class="qa-a">Đáp án đúng là A — khi phía trước ngoặc có dấu trừ, phải đổi dấu MỌI số hạng trong ngoặc, kể cả số hạng ở cuối. Đây là ý mấu chốt của bài.</div></div>
+<div class="qa"><button class="qa-q" type="button">Bỏ dấu ngoặc rồi tính: 40 − (15 + 5).</button><div class="qa-a">40 − 15 − 5 = 20.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính (−30) − (−12).</button><div class="qa-a">(−30) − (−12) = (−30) + 12 = −18.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p9">✏️ Luyện bài này</button></div>
+<p class="pnote">Bài 15 chưa có bài mẫu đúng riêng về quy tắc dấu ngoặc. Bài mẫu gần nhất cùng chương là bài "Tính giá trị biểu thức số nguyên" — nút luyện mở bài đó để em luyện bỏ ngoặc và tính biểu thức.</p>
+</div>
+<div class="lesson" id="lh16">
+<span class="cbadge">Chương 3 · Số nguyên</span>
+<h3 class="ltitle">Bài 16. Phép nhân số nguyên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nhân hai số nguyên đúng quy tắc dấu; dùng tính chất của phép nhân để tính nhanh.</div>
+<p class="ll"><span class="lkw">Quy tắc dấu khi nhân</span>: hai số <b>cùng dấu</b> → tích là số <b>dương</b>; hai số <b>khác dấu</b> → tích là số <b>âm</b>.</p>
+<p class="ll">Cách tính: xác định dấu của tích trước, rồi nhân hai giá trị tuyệt đối với nhau.</p>
+<p class="ll">Ví dụ: (−6) × 7 — hai số khác dấu nên tích âm; 6 × 7 = 42 nên kết quả là −42. (−4) × (−9) — hai số cùng dấu âm nên tích dương: 36.</p>
+<p class="ll">Phép nhân số nguyên có tính chất giao hoán, kết hợp, phân phối như với số tự nhiên. Nhờ đó ta tính nhanh được, ví dụ ghép (−25) × (−4) = 100.</p>
+<p class="ll">Mọi số nhân với 0 đều bằng 0. Lũy thừa của số âm: (−2)³ = (−2) × (−2) × (−2) = −8.</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Nhân hai số nguyên</h4><div class="de">Đề: Tính (−6) × 7 và (−4) × (−9).</div><p class="lstep">Bước 1) (−6) × 7: hai số khác dấu → tích là số âm. 6 × 7 = 42 nên kết quả là −42.</p><p class="lstep">Bước 2) (−4) × (−9): hai số cùng dấu (đều là số âm) → tích là số dương. 4 × 9 = 36 nên kết quả là 36.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Tính nhanh phép nhân</h4><div class="de">Đề: Tính nhanh (−25) × 13 × (−4).</div><p class="lstep">Bước 1) Ghép (−25) × (−4) trước: hai số cùng dấu nên tích dương, và 25 × 4 = 100 là số tròn trăm: (−25) × (−4) = 100.</p><p class="lstep">Bước 2) Lấy 100 × 13 = 1 300.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>(−3) × 4 bằng bao nhiêu? Tích mang dấu gì? Vì sao?</div></div><div class="mini-face mini-back"><div>Bằng −12. Hai số khác dấu nên tích là số âm.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>(−2) × (−5) bằng bao nhiêu? Tích mang dấu gì? Vì sao?</div></div><div class="mini-face mini-back"><div>Bằng 10. Hai số cùng dấu (đều là số âm) nên tích là số dương.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Nhân hai số nguyên: cùng dấu → tích dương; khác dấu → tích âm.<br>• Xác định dấu của tích trước, rồi nhân hai giá trị tuyệt đối.<br>• Mọi số nhân với 0 đều bằng 0.<br>• Tính nhanh: ghép các thừa số cho ra 10 hoặc 100, ví dụ (−25) × (−4) = 100.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Để tính đúng (−8) × 5, điều mấu chốt phải nhớ là gì? A) 8 × 5 = 40 và hai số khác dấu nên tích âm: −40. B) Tích của hai số nguyên luôn dương. C) Tích luôn bằng 0.</button><div class="qa-a">Đáp án đúng là A — quy tắc dấu là ý chính của bài: khác dấu → tích âm. B và C đều sai.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính (−11) × (−3).</button><div class="qa-a">Hai số cùng dấu → tích dương: 33.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính (−1) × 250.</button><div class="qa-a">−250.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p19">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh17">
+<span class="cbadge">Chương 3 · Số nguyên</span>
+<h3 class="ltitle">Bài 17. Phép chia hết. Ước và bội của một số nguyên</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu phép chia hết trong tập hợp các số nguyên; tìm ước và bội của một số nguyên.</div>
+<p class="ll">Số nguyên a <span class="lkw">chia hết</span> cho số nguyên b (b khác 0) nếu có số nguyên q sao cho a = b × q. Khi đó a là <span class="lkw">bội</span> của b, còn b là <span class="lkw">ước</span> của a — giống như với số tự nhiên, chỉ khác là nay xét trong các số nguyên.</p>
+<p class="ll">Phép chia hai số nguyên cũng theo quy tắc dấu: cùng dấu → thương là số dương; khác dấu → thương là số âm. Ví dụ: (−24) : 6 = −4 (đọc là "âm hai mươi tư chia sáu bằng âm bốn"); (−35) : (−5) = 7.</p>
+<p class="ll">Ước của một số nguyên gồm cả ước dương và ước âm. Ví dụ: các ước của 6 là 1; −1; 2; −2; 3; −3; 6; −6 — tất cả 8 ước.</p>
+<p class="ll">Bội của một số nguyên a gồm các số: 0; a; −a; 2a; −2a; 3a; −3a...</p>
+<div class="vdu"><h4>✏️ Ví dụ 1: Chia hai số nguyên</h4><div class="de">Đề: Tính (−24) : 6 và 35 : (−5).</div><p class="lstep">Bước 1) (−24) : 6: hai số khác dấu → thương là số âm. 24 : 6 = 4 nên kết quả là −4.</p><p class="lstep">Bước 2) 35 : (−5): hai số khác dấu → thương là số âm. 35 : 5 = 7 nên kết quả là −7.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Tìm tất cả các ước của một số nguyên</h4><div class="de">Đề: Tìm tất cả các ước của 6 trong tập hợp các số nguyên.</div><p class="lstep">Bước 1) Tìm các ước dương của 6: 1; 2; 3; 6 (vì 6 = 1 × 6 = 2 × 3).</p><p class="lstep">Bước 2) Thêm các ước âm tương ứng: −1; −2; −3; −6. Vậy số 6 có tất cả 8 ước: 1; −1; 2; −2; 3; −3; 6; −6.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Số 6 có bao nhiêu ước trong tập hợp các số nguyên? Vì sao nhiều hơn trong số tự nhiên?</div></div><div class="mini-face mini-back"><div>Có 8 ước. Vì trong số nguyên, mỗi ước dương có thêm một ước âm đối ứng.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>(−35) : (−5) bằng bao nhiêu? Thương mang dấu gì?</div></div><div class="mini-face mini-back"><div>Bằng 7. Hai số cùng dấu nên thương là số dương.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Trong số nguyên: a ⋮ b khi a = b × q với q là số nguyên; a là bội của b, b là ước của a.<br>• Chia hai số nguyên: cùng dấu → thương dương; khác dấu → thương âm.<br>• Ước của một số nguyên gồm cả ước dương và ước âm — số lượng ước gấp đôi so với trong số tự nhiên.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Điểm khác nhau mấu chốt giữa "ước của 6" trong số tự nhiên và trong số nguyên là gì?</button><div class="qa-a">Trong số tự nhiên, 6 có 4 ước: 1; 2; 3; 6. Trong số nguyên có thêm các ước âm −1; −2; −3; −6 nên có 8 ước. Đó là điểm mới của bài này.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính (−48) : (−6).</button><div class="qa-a">Hai số cùng dấu → thương dương: 8.</div></div>
+<div class="qa"><button class="qa-q" type="button">Số −4 có phải là ước của 20 không? Vì sao?</button><div class="qa-a">Có, vì 20 = (−4) × (−5) nên 20 ⋮ (−4).</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p26">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh18">
+<span class="cbadge">Chương 4 · Một số hình phẳng trong thực tiễn</span>
+<h3 class="ltitle">Bài 18. Hình tam giác đều. Hình vuông. Hình lục giác đều</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nhận dạng được tam giác đều, hình vuông, lục giác đều và nêu đúng các đặc điểm của mỗi hình.</div>
+<p class="ll"><span class="lkw">Tam giác đều</span>: có 3 cạnh bằng nhau, 3 góc bằng nhau (mỗi góc bằng 60°), có 3 trục đối xứng. Chu vi: C = a × 3 (a là độ dài cạnh).</p>
+<p class="ll"><span class="lkw">Hình vuông</span>: có 4 cạnh bằng nhau, 4 góc đều là góc vuông (90°); hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường; có 4 trục đối xứng. Chu vi: C = a × 4; diện tích: S = a × a.</p>
+<p class="ll"><span class="lkw">Lục giác đều</span>: có 6 cạnh bằng nhau, 6 góc bằng nhau (mỗi góc bằng 120°), có 6 trục đối xứng. Khi nối tâm với các đỉnh, lục giác đều được chia thành 6 tam giác đều. Chu vi: C = a × 6.</p>
+<p class="ll">Cách đọc tên hình: các đỉnh viết bằng chữ in hoa (A, B, C...), đọc vòng quanh theo thứ tự. Góc đọc bằng 3 chữ in hoa, chữ ở giữa là đỉnh của góc: góc BAC đọc là "góc B-A-C, đỉnh A".</p>
+<p class="ll">Bấm các nút "Thẻ lý thuyết" ở cuối bài để xem hình tương tác của từng hình.</p>
+<div class="lfig"><div style="display:flex;gap:18px;justify-content:center;flex-wrap:wrap;align-items:flex-end"><svg width="110" height="88" viewBox="0 0 40 32"><polygon points="20,3 37,29 3,29" fill="#fff8e1" stroke="#e65100" stroke-width="1.6"/></svg><svg width="92" height="88" viewBox="0 0 40 34"><rect x="8" y="4" width="24" height="24" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.6"/></svg><svg width="110" height="88" viewBox="0 0 40 32"><polygon points="12,3 28,3 37,16 28,29 12,29 3,16" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.6"/></svg></div><div class="figcap">Từ trái sang phải: tam giác đều — hình vuông — lục giác đều.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Chu vi tam giác đều</h4><div class="de">Đề: Một biển báo giao thông hình tam giác đều có cạnh 30 cm. Tính chu vi của biển báo.</div><p class="lstep">Bước 1) Tam giác đều có 3 cạnh bằng nhau nên chu vi là tổng độ dài 3 cạnh: C = a × 3.</p><p class="lstep">Bước 2) Thay a = 30 vào: C = 30 × 3 = 90 (cm).</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Chu vi và diện tích hình vuông</h4><div class="de">Đề: Một sân chơi hình vuông có cạnh 8 m. Tính chu vi và diện tích của sân chơi.</div><p class="lstep">Bước 1) Chu vi hình vuông: C = a × 4 = 8 × 4 = 32 (m).</p><p class="lstep">Bước 2) Diện tích hình vuông: S = a × a = 8 × 8 = 64 (m²).</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div><svg width="90" height="70" viewBox="0 0 40 32"><polygon points="20,3 37,29 3,29" fill="#fff8e1" stroke="#e65100" stroke-width="1.6"/></svg><br>Hình này là hình gì? Nó có mấy trục đối xứng?</div></div><div class="mini-face mini-back"><div>Tam giác đều. Nó có 3 trục đối xứng, 3 cạnh bằng nhau, 3 góc bằng nhau (mỗi góc 60°).</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Lục giác đều có mấy cạnh bằng nhau? Nối tâm với các đỉnh thì lục giác đều được chia thành mấy tam giác đều?</div></div><div class="mini-face mini-back"><div>Lục giác đều có 6 cạnh bằng nhau. Nối tâm với các đỉnh, ta được 6 tam giác đều.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Tam giác đều: 3 cạnh bằng nhau, 3 góc 60°, 3 trục đối xứng; C = a × 3.<br>• Hình vuông: 4 cạnh bằng nhau, 4 góc vuông, 4 trục đối xứng; C = a × 4, S = a × a.<br>• Lục giác đều: 6 cạnh bằng nhau, 6 góc 120°, 6 trục đối xứng; C = a × 6.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Đặc điểm nào giúp em nhận ra ngay một lục giác đều? A) Có 6 cạnh dài ngắn khác nhau. B) Có 6 cạnh bằng nhau và 6 góc bằng nhau. C) Có 4 góc vuông.</button><div class="qa-a">Đáp án đúng là B — chữ "đều" nghĩa là các cạnh bằng nhau và các góc bằng nhau. C là đặc điểm của hình vuông và hình chữ nhật.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tam giác đều có cạnh 7 cm thì chu vi bằng bao nhiêu?</button><div class="qa-a">C = 7 × 3 = 21 cm.</div></div>
+<div class="qa"><button class="qa-q" type="button">Hình vuông có mấy trục đối xứng?</button><div class="qa-a">4 trục đối xứng.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p13">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="tam-giac-deu">📐 Thẻ lý thuyết: Tam giác đều</button><button class="btn btn-k" type="button" data-theory="hinh-vuong">📐 Thẻ lý thuyết: Hình vuông</button><button class="btn btn-k" type="button" data-theory="luc-giac-deu">📐 Thẻ lý thuyết: Lục giác đều</button></div>
+<p class="pnote">Bài mẫu luyện tập chính của bài này là "Tam giác đều"; bài mẫu "Hình vuông" (p12 trong thư viện Phần 2) cũng thuộc bài này.</p>
+</div>
+<div class="lesson" id="lh19">
+<span class="cbadge">Chương 4 · Một số hình phẳng trong thực tiễn</span>
+<h3 class="ltitle">Bài 19. Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> nhận dạng được hình chữ nhật, hình thoi, hình bình hành, hình thang cân và nêu đúng đặc điểm của mỗi hình.</div>
+<p class="ll"><span class="lkw">Hình chữ nhật</span>: các cạnh đối bằng nhau; 4 góc đều là góc vuông; hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường; có 2 trục đối xứng. Lưu ý: đường chéo KHÔNG phải là trục đối xứng của hình chữ nhật.</p>
+<p class="ll"><span class="lkw">Hình thoi</span>: 4 cạnh đều bằng nhau; hai đường chéo vuông góc với nhau, cắt nhau tại trung điểm của mỗi đường và chính là 2 trục đối xứng của hình thoi.</p>
+<p class="ll"><span class="lkw">Hình bình hành</span>: các cạnh đối song song và bằng nhau; hai đường chéo cắt nhau tại trung điểm của mỗi đường; có tâm đối xứng là giao điểm của hai đường chéo; hình bình hành thường KHÔNG có trục đối xứng.</p>
+<p class="ll"><span class="lkw">Hình thang cân</span>: có một cặp cạnh đối song song (hai cạnh đó gọi là hai đáy); hai cạnh bên bằng nhau; hai góc kề một cạnh đáy bằng nhau; hai đường chéo bằng nhau; có đúng 1 trục đối xứng.</p>
+<p class="ll">Bấm các nút "Thẻ lý thuyết" ở cuối bài để xem hình tương tác của từng hình.</p>
+<div class="lfig"><div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;align-items:flex-end"><svg width="120" height="70" viewBox="0 0 40 22"><rect x="3" y="3" width="34" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.4"/></svg><svg width="100" height="70" viewBox="0 0 40 26"><polygon points="20,2 38,13 20,24 2,13" fill="#fff8e1" stroke="#e65100" stroke-width="1.4"/></svg><svg width="120" height="70" viewBox="0 0 40 22"><polygon points="10,3 37,3 30,19 3,19" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.4"/></svg><svg width="120" height="70" viewBox="0 0 40 22"><polygon points="8,3 32,3 37,19 3,19" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.4"/></svg></div><div class="figcap">Từ trái sang phải: hình chữ nhật — hình thoi — hình bình hành — hình thang cân.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Đặc điểm của hình chữ nhật</h4><div class="de">Đề: Cho hình chữ nhật ABCD. Kể tên các cặp cạnh bằng nhau và cho biết hai đường chéo AC, BD có tính chất gì.</div><p class="lstep">Bước 1) Các cạnh đối bằng nhau: AB = CD (hai cạnh dài) và BC = DA (hai cạnh ngắn).</p><p class="lstep">Bước 2) Hai đường chéo của hình chữ nhật bằng nhau và cắt nhau tại trung điểm của mỗi đường: AC = BD.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Phân biệt các hình</h4><div class="de">Đề: Trong ba hình: hình thoi, hình bình hành, hình thang cân — hình nào có hai đường chéo vuông góc với nhau? Hình nào có đúng 1 trục đối xứng?</div><p class="lstep">Bước 1) Hình thoi có hai đường chéo vuông góc với nhau (đây là dấu hiệu riêng của hình thoi trong ba hình này).</p><p class="lstep">Bước 2) Hình thang cân có đúng 1 trục đối xứng (đường thẳng đi qua trung điểm của hai đáy). Hình bình hành thường không có trục đối xứng nào.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Hình thoi khác hình bình hành ở điểm nào dễ nhận ra nhất?</div></div><div class="mini-face mini-back"><div>Hình thoi có 4 cạnh ĐỀU bằng nhau và hai đường chéo VUÔNG GÓC với nhau. Hình bình hành chỉ cần các cạnh đối bằng nhau, hai đường chéo không vuông góc.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Hình nào có tâm đối xứng nhưng thường không có trục đối xứng?</div></div><div class="mini-face mini-back"><div>Hình bình hành. Tâm đối xứng của nó là giao điểm của hai đường chéo.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Hình chữ nhật: cạnh đối bằng nhau, 4 góc vuông, hai đường chéo bằng nhau, 2 trục đối xứng.<br>• Hình thoi: 4 cạnh bằng nhau, hai đường chéo vuông góc và là 2 trục đối xứng.<br>• Hình bình hành: cạnh đối song song và bằng nhau, có tâm đối xứng, thường không có trục đối xứng.<br>• Hình thang cân: hai cạnh bên bằng nhau, hai đường chéo bằng nhau, đúng 1 trục đối xứng.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng điểm khác nhau mấu chốt giữa hình thoi và hình chữ nhật? A) Hình thoi có 4 cạnh bằng nhau và hai đường chéo vuông góc; hình chữ nhật có 4 góc vuông và hai đường chéo bằng nhau. B) Hai hình giống hệt nhau. C) Hình thoi không có đường chéo.</button><div class="qa-a">Đáp án đúng là A. C sai vì hình thoi có hai đường chéo — chúng vuông góc với nhau.</div></div>
+<div class="qa"><button class="qa-q" type="button">Hình thang cân có mấy trục đối xứng?</button><div class="qa-a">Đúng 1 trục đối xứng.</div></div>
+<div class="qa"><button class="qa-q" type="button">Hình bình hành có mấy cặp cạnh đối song song?</button><div class="qa-a">2 cặp cạnh đối song song.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p11">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<p class="pnote">Bài mẫu luyện tập chính là "Hình chữ nhật". Các bài mẫu "Hình thang cân" (p14), "Hình thoi" (p15) và "Hình bình hành" (p16) trong Phần 2 cũng thuộc bài này.</p>
+</div>
+<div class="lesson" id="lh20">
+<span class="cbadge">Chương 4 · Một số hình phẳng trong thực tiễn</span>
+<h3 class="ltitle">Bài 20. Chu vi và diện tích của một số tứ giác đã học</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> viết đúng và dùng được công thức chu vi, diện tích của hình chữ nhật, hình vuông, hình thoi, hình bình hành và hình thang.</div>
+<p class="ll"><span class="lkw">Chu vi</span> (ký hiệu là C) của một hình là tổng độ dài của tất cả các cạnh bao quanh hình đó.</p>
+<p class="ll">Hình chữ nhật: C = (a + b) × 2; <span class="lkw">diện tích</span> (ký hiệu là S): S = a × b (a là chiều dài, b là chiều rộng).</p>
+<p class="ll">Hình vuông: C = a × 4; S = a × a.</p>
+<p class="ll">Hình bình hành: C = (a + b) × 2 (a và b là độ dài hai cạnh kề nhau); S = a × h, trong đó a là độ dài cạnh đáy, h là chiều cao từ một đỉnh xuống cạnh đáy đó ("chiều cao từ đỉnh A xuống cạnh CD" — luôn phải đọc rõ chiều cao hạ từ đỉnh nào xuống cạnh nào).</p>
+<p class="ll">Hình thoi: C = a × 4; S = (m × n) : 2 (m và n là độ dài hai đường chéo).</p>
+<p class="ll">Hình thang: C là tổng độ dài 4 cạnh; S = (a + b) × h : 2 (a và b là độ dài hai đáy, h là chiều cao).</p>
+<p class="ll">Chú ý về đơn vị: chu vi dùng đơn vị độ dài (cm, m); diện tích dùng đơn vị vuông (cm², m²). Trước khi tính, các độ dài phải cùng một đơn vị.</p>
+<div class="lfig"><svg width="250" height="120" viewBox="0 0 48 26"><rect x="6" y="5" width="36" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="0.9"/><text x="24" y="3.6" font-size="3.4" text-anchor="middle">12 m</text><text x="43" y="14" font-size="3.4">7 m</text></svg><div class="figcap">Mảnh vườn hình chữ nhật ở Ví dụ 1: chiều dài 12 m, chiều rộng 7 m.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Bài toán mảnh vườn hình chữ nhật</h4><div class="de">Đề: Một mảnh vườn hình chữ nhật có chiều dài 12 m, chiều rộng 7 m. Tính chu vi và diện tích của mảnh vườn.</div><p class="lstep">Bước 1) Chu vi mảnh vườn: C = (12 + 7) × 2 = 19 × 2 = 38 (m).</p><p class="lstep">Bước 2) Diện tích mảnh vườn: S = 12 × 7 = 84 (m²).</p></div>
+<div class="readbox"><h4>🔍 Cách đọc đề bài toán này</h4><div><b>Bước 1)</b> Đọc chậm từng câu, không đọc lướt.</div><div><b>Bước 2)</b> Đề cho biết gì? — mảnh vườn là hình chữ nhật; chiều dài 12 m, chiều rộng 7 m.</div><div><b>Bước 3)</b> Đề hỏi gì? — hai thứ: chu vi (đơn vị là m) và diện tích (đơn vị là m²). Gạch hai từ khóa "chu vi" và "diện tích" để không tính thiếu.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Diện tích hình thoi</h4><div class="de">Đề: Một viên gạch hình thoi có hai đường chéo dài 6 cm và 8 cm. Tính diện tích của viên gạch.</div><p class="lstep">Bước 1) Nhớ công thức diện tích hình thoi theo hai đường chéo: S = (m × n) : 2.</p><p class="lstep">Bước 2) Thay số: S = (6 × 8) : 2 = 48 : 2 = 24 (cm²).</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Diện tích hình thoi có hai đường chéo là m và n thì tính thế nào?</div></div><div class="mini-face mini-back"><div>S = (m × n) : 2 — nhân độ dài hai đường chéo rồi chia cho 2.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Diện tích hình bình hành có cạnh đáy 10 cm và chiều cao ứng với cạnh đáy đó là 6 cm bằng bao nhiêu?</div></div><div class="mini-face mini-back"><div>S = 10 × 6 = 60 (cm²). Lưu ý: phải dùng chiều cao ứng với đúng cạnh đáy đó.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Chu vi là tổng độ dài các cạnh, ký hiệu C. Diện tích ký hiệu S, đơn vị có dấu vuông (cm², m²).<br>• Hình chữ nhật: C = (a + b) × 2, S = a × b. Hình vuông: C = a × 4, S = a × a.<br>• Hình bình hành: S = a × h (h là chiều cao ứng với cạnh đáy a). Hình thoi: S = (m × n) : 2.<br>• Hình thang: S = (đáy lớn + đáy nhỏ) × chiều cao : 2.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Khi tính diện tích hình bình hành, điều mấu chốt dễ sai nhất là gì? A) Dùng độ dài cạnh bên thay cho chiều cao. B) Quên viết đáp số. C) Dùng thước cong.</button><div class="qa-a">Đáp án đúng là A — phải nhân cạnh đáy với CHIỀU CAO ỨNG VỚI cạnh đáy đó (đoạn thẳng hạ vuông góc xuống cạnh đáy), không được dùng cạnh bên. Đây là lỗi kinh điển của bài này.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tính diện tích hình thang có hai đáy 5 cm và 9 cm, chiều cao 4 cm.</button><div class="qa-a">S = (5 + 9) × 4 : 2 = 14 × 4 : 2 = 28 (cm²).</div></div>
+<div class="qa"><button class="qa-q" type="button">Chu vi hình vuông có cạnh 9 cm là bao nhiêu?</button><div class="qa-a">C = 9 × 4 = 36 cm.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p15">✏️ Luyện bài này</button><button class="btn btn-k" type="button" data-theory="hinh-chu-nhat">📐 Thẻ lý thuyết: Hình chữ nhật</button><button class="btn btn-k" type="button" data-theory="hinh-thoi">📐 Thẻ lý thuyết: Hình thoi</button><button class="btn btn-k" type="button" data-theory="hinh-binh-hanh">📐 Thẻ lý thuyết: Hình bình hành</button><button class="btn btn-k" type="button" data-theory="hinh-thang-can">📐 Thẻ lý thuyết: Hình thang cân</button></div>
+<p class="pnote">Bài mẫu chính của bài này là "Hình thoi" (diện tích theo hai đường chéo). Các bài mẫu "Hình chữ nhật" (p11), "Hình vuông" (p12), "Hình thang cân" (p14) và "Hình bình hành" (p16) trong Phần 2 cũng là luyện tập chu vi — diện tích của bài này.</p>
+</div>
+<div class="lesson" id="lh21">
+<span class="cbadge">Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên</span>
+<h3 class="ltitle">Bài 21. Hình có trục đối xứng</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu trục đối xứng là gì; tìm được trục đối xứng của các hình quen thuộc và nhận ra hình có trục đối xứng trong thực tế.</div>
+<p class="ll">Một hình có <span class="lkw">trục đối xứng</span> nếu có một đường thẳng sao cho khi gấp hình theo đường thẳng đó, hai nửa của hình <b>trùng khít</b> lên nhau. Đường thẳng đó gọi là trục đối xứng của hình.</p>
+<p class="ll">Số trục đối xứng của một số hình quen thuộc: hình vuông có 4; hình chữ nhật có 2; tam giác đều có 3; tam giác cân có 1; hình thoi có 2; hình thang cân có 1; hình tròn có vô số.</p>
+<p class="ll">Hình bình hành thường <b>không</b> có trục đối xứng (tuy nó có tâm đối xứng — em sẽ học ở Bài 22).</p>
+<p class="ll">Trong đời sống, rất nhiều vật có trục đối xứng: lá cây, con bướm, khuôn mặt người, nhiều công trình kiến trúc...</p>
+<div class="lfig"><svg width="150" height="110" viewBox="0 0 40 30"><polygon points="20,3 35,26 5,26" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.4"/><line x1="20" y1="1" x2="20" y2="28" stroke="#e65100" stroke-width="1.2" stroke-dasharray="3 2"/></svg><div class="figcap">Đường đứt nét màu cam là trục đối xứng của tam giác cân: gấp hình theo đường này, hai nửa của hình trùng khít lên nhau.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Trục đối xứng của chữ cái</h4><div class="de">Đề: Chữ cái A và chữ cái H, mỗi chữ có bao nhiêu trục đối xứng?</div><p class="lstep">Bước 1) Chữ A: gấp theo đường thẳng đứng đi qua đỉnh của chữ, hai nửa trùng khít → chữ A có 1 trục đối xứng (trục dọc).</p><p class="lstep">Bước 2) Chữ H: gấp theo trục dọc thì trùng khít, gấp theo trục ngang cũng trùng khít → chữ H có 2 trục đối xứng.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Hình không có trục đối xứng</h4><div class="de">Đề: Trong các hình sau: hình vuông, hình bình hành, hình thang cân — hình nào không có trục đối xứng?</div><p class="lstep">Bước 1) Hình vuông có 4 trục đối xứng và hình thang cân có 1 trục đối xứng — cả hai đều có trục đối xứng.</p><p class="lstep">Bước 2) Hình bình hành thường không gấp trùng khít theo bất kỳ đường thẳng nào → hình bình hành không có trục đối xứng.</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Trục đối xứng của một hình là đường thẳng như thế nào?</div></div><div class="mini-face mini-back"><div>Là đường thẳng mà khi gấp hình theo nó, hai nửa của hình trùng khít lên nhau.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Hình tròn có mấy trục đối xứng?</div></div><div class="mini-face mini-back"><div>Vô số — mọi đường thẳng đi qua tâm của hình tròn đều là trục đối xứng của nó.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Trục đối xứng: gấp hình theo đường đó, hai nửa của hình trùng khít.<br>• Hình vuông: 4 trục. Hình chữ nhật: 2 trục. Tam giác đều: 3 trục. Hình thang cân: 1 trục.<br>• Hình tròn có vô số trục đối xứng.<br>• Hình bình hành thường không có trục đối xứng.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Cách chắc chắn nhất để kiểm tra một đường thẳng có phải là trục đối xứng của hình không là gì? A) Nhìn bằng mắt thấy nó chia hình thành hai phần. B) Tưởng tượng gấp hình theo đường thẳng đó: hai nửa có trùng khít lên nhau không. C) Đường thẳng đó phải là đường chéo của hình.</button><div class="qa-a">Đáp án đúng là B — "gấp và trùng khít" là ý mấu chốt của bài. C sai: đường chéo của hình chữ nhật chia hình thành hai phần nhưng không phải là trục đối xứng.</div></div>
+<div class="qa"><button class="qa-q" type="button">Tam giác cân (nhưng không phải tam giác đều) có mấy trục đối xứng?</button><div class="qa-a">1 trục đối xứng.</div></div>
+<div class="qa"><button class="qa-q" type="button">Lá cây và con bướm là ví dụ cho điều gì trong bài này?</button><div class="qa-a">Đó là các hình có trục đối xứng trong tự nhiên.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p17">✏️ Luyện bài này</button></div>
+</div>
+<div class="lesson" id="lh22">
+<span class="cbadge">Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên</span>
+<h3 class="ltitle">Bài 22. Hình có tâm đối xứng</h3>
+<div class="goal">🎯 <b>Học xong bài này, em biết:</b> hiểu tâm đối xứng là gì; nhận ra các hình và các chữ cái có tâm đối xứng.</div>
+<p class="ll">Một hình có <span class="lkw">tâm đối xứng</span> nếu có một điểm sao cho khi quay hình nửa vòng (180°) quanh điểm đó, hình <b>trùng với chính nó</b>. Điểm đó gọi là tâm đối xứng của hình.</p>
+<p class="ll">Các hình có tâm đối xứng: hình chữ nhật, hình vuông, hình thoi, hình bình hành, lục giác đều, hình tròn. Tâm đối xứng thường là giao điểm của hai đường chéo, hoặc là tâm của hình.</p>
+<p class="ll">Tam giác đều <b>không</b> có tâm đối xứng (nó chỉ có trục đối xứng). Hình thang cân cũng không có tâm đối xứng.</p>
+<p class="ll">Một số chữ cái có tâm đối xứng: H, I, N, O, S, X, Z.</p>
+<div class="lfig"><svg width="170" height="100" viewBox="0 0 44 24"><polygon points="12,3 41,3 32,21 3,21" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.3"/><line x1="12" y1="3" x2="32" y2="21" stroke="#888888" stroke-width="0.8" stroke-dasharray="2.4 1.8"/><line x1="41" y1="3" x2="3" y2="21" stroke="#888888" stroke-width="0.8" stroke-dasharray="2.4 1.8"/><circle cx="22" cy="12" r="1.8" fill="#d32f2f"/></svg><div class="figcap">Chấm đỏ là tâm đối xứng của hình bình hành — giao điểm của hai đường chéo. Quay hình nửa vòng quanh chấm đỏ, hình trùng với chính nó.</div></div>
+<div class="vdu"><h4>✏️ Ví dụ 1: Nhận ra hình có tâm đối xứng</h4><div class="de">Đề: Trong các hình: tam giác đều, hình vuông, hình bình hành — hình nào có tâm đối xứng?</div><p class="lstep">Bước 1) Hình vuông: quay nửa vòng quanh giao điểm của hai đường chéo, hình trùng với chính nó → hình vuông có tâm đối xứng.</p><p class="lstep">Bước 2) Hình bình hành: quay nửa vòng quanh giao điểm của hai đường chéo cũng trùng với chính nó → có tâm đối xứng. Tam giác đều quay nửa vòng thì không trùng → không có tâm đối xứng.</p></div>
+<div class="vdu"><h4>✏️ Ví dụ 2: Tâm đối xứng của chữ cái</h4><div class="de">Đề: Trong hai chữ N và A, chữ nào có tâm đối xứng?</div><p class="lstep">Bước 1) Chữ N: quay nửa vòng (tức là lật ngược) chữ N, ta thấy nó trùng với chính nó → chữ N có tâm đối xứng.</p><p class="lstep">Bước 2) Chữ A: quay nửa vòng thì không trùng với chính nó → chữ A không có tâm đối xứng (chữ A chỉ có trục đối xứng).</p></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Tâm đối xứng của một hình là điểm như thế nào?</div></div><div class="mini-face mini-back"><div>Là điểm mà khi quay hình nửa vòng (180°) quanh nó, hình trùng với chính nó.</div></div></div></div>
+<div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh — bấm để lật thẻ</span><div>Tâm đối xứng của hình bình hành nằm ở đâu?</div></div><div class="mini-face mini-back"><div>Ở giao điểm của hai đường chéo của hình bình hành.</div></div></div></div>
+<div class="moc">⭐ <b>Điểm cần nhớ:</b><br>• Tâm đối xứng: quay hình nửa vòng quanh điểm đó, hình trùng với chính nó.<br>• Hình có tâm đối xứng: hình chữ nhật, hình vuông, hình thoi, hình bình hành, lục giác đều, hình tròn.<br>• Tam giác đều và hình thang cân không có tâm đối xứng.<br>• Chữ cái có tâm đối xứng: H, I, N, O, S, X, Z.</div>
+<h4 class="lcheck">✔ Kiểm tra nhanh — tự trả lời rồi bấm vào câu hỏi để xem đáp án</h4>
+<div class="qa"><button class="qa-q" type="button">Điểm khác nhau mấu chốt giữa trục đối xứng và tâm đối xứng là gì? A) Trục đối xứng là gấp hình theo một đường thẳng; tâm đối xứng là quay hình nửa vòng quanh một điểm. B) Hai khái niệm này giống hệt nhau. C) Chỉ hình tròn mới có tâm đối xứng.</button><div class="qa-a">Đáp án đúng là A — bắt được cặp ý "gấp ↔ đường thẳng" và "quay nửa vòng ↔ một điểm" là nắm được cả Bài 21 và Bài 22.</div></div>
+<div class="qa"><button class="qa-q" type="button">Hình chữ nhật có tâm đối xứng không? Nếu có thì tâm nằm ở đâu?</button><div class="qa-a">Có. Tâm đối xứng là giao điểm của hai đường chéo.</div></div>
+<div class="qa"><button class="qa-q" type="button">Chữ S có tâm đối xứng không?</button><div class="qa-a">Có — quay nửa vòng, chữ S trùng với chính nó.</div></div>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p20">✏️ Luyện bài này</button></div>
+</div>
+</div>
+<div class="partban partban2" id="part2"><h2>✏️ Phần 2 — Luyện tập</h2><p>Làm bài mẫu theo chương, sinh đề mới không giới hạn, làm đề luyện 5 bài và xem lại thẻ lý thuyết tương tác.</p></div>
   <div class="streak" id="streakBox"></div>
   <div class="sec">
     <h2>🎲 Luyện tập không giới hạn</h2>
@@ -238,7 +759,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   </div>
 </div>
 
-<script src="gen.js?v=20261021g"></script>
+<script src="gen.js?v=20261021h"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -250,7 +771,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021g').then(r=>r.json()),fetch('theory.json?v=20261021g').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021h').then(r=>r.json()),fetch('theory.json?v=20261021h').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
@@ -772,6 +1293,102 @@ document.getElementById('btnAiSend').onclick=()=>{
 };
 document.getElementById('aiInput').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('btnAiSend').click();});
 document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q));
+</script>
+<script>
+
+/* ===== PHAN 1: DIEU HUONG BAI HOC + THE MINI + KIEM TRA NHANH ===== */
+(function(){
+  var N=22, curL=0, lmode='single';
+  try{
+    var m=localStorage.getItem('toan6_view_mode'); if(m==='all'||m==='single') lmode=m;
+    var c=parseInt(localStorage.getItem('toan6_lesson')||'0',10); if(!isNaN(c)&&c>=0&&c<N) curL=c;
+  }catch(e){}
+  var CHG=[[1,7,'Chương 1 · Tập hợp các số tự nhiên'],[8,12,'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên'],[13,17,'Chương 3 · Số nguyên'],[18,20,'Chương 4 · Một số hình phẳng trong thực tiễn'],[21,22,'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên']];
+  var picker=document.getElementById('lpicker');
+  if(picker){
+    var ph='';
+    CHG.forEach(function(g){
+      ph+='<div class="lchapt">'+g[2]+'</div><div class="lrow">';
+      for(var i=g[0];i<=g[1];i++){ ph+='<button class="lchip" type="button" data-lgo="'+(i-1)+'">Bài '+i+'</button>'; }
+      ph+='</div>';
+    });
+    picker.innerHTML=ph;
+  }
+  var lessons=[]; for(var i=1;i<=N;i++){ lessons.push(document.getElementById('lh'+i)); }
+  var chips=[].slice.call(document.querySelectorAll('[data-lgo]'));
+  var mbtns=[].slice.call(document.querySelectorAll('[data-lmode]'));
+  var prev=document.getElementById('lprev'), next=document.getElementById('lnext'), pos=document.getElementById('lpos');
+  function apply(){
+    lessons.forEach(function(el,i){ if(el) el.style.display=(lmode==='all'||i===curL)?'':'none'; });
+    chips.forEach(function(ch){ ch.classList.toggle('on', lmode!=='all' && parseInt(ch.getAttribute('data-lgo'),10)===curL); });
+    mbtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-lmode')===lmode); });
+    if(picker) picker.style.display=(lmode==='all')?'none':'';
+    if(prev) prev.disabled=(curL<=0);
+    if(next) next.disabled=(curL>=N-1);
+    if(pos) pos.textContent='Bài '+(curL+1)+' / '+N;
+    try{ localStorage.setItem('toan6_view_mode',lmode); localStorage.setItem('toan6_lesson',''+curL); }catch(e){}
+  }
+  function go(i,scroll){
+    curL=Math.max(0,Math.min(N-1,i)); apply();
+    if(scroll){ var t=document.getElementById('part1'); if(t) t.scrollIntoView({behavior:'smooth'}); }
+  }
+  chips.forEach(function(ch){ ch.addEventListener('click',function(){ go(parseInt(ch.getAttribute('data-lgo'),10),true); }); });
+  mbtns.forEach(function(b){ b.addEventListener('click',function(){ lmode=b.getAttribute('data-lmode'); apply(); }); });
+  if(prev) prev.addEventListener('click',function(){ go(curL-1,true); });
+  if(next) next.addEventListener('click',function(){ go(curL+1,true); });
+  apply();
+  document.querySelectorAll('.minicard').forEach(function(c){
+    c.addEventListener('click',function(){ c.classList.toggle('flipped'); });
+  });
+  document.querySelectorAll('.qa-q').forEach(function(b){
+    b.addEventListener('click',function(){ b.parentElement.classList.toggle('open'); });
+  });
+  var wrap=document.getElementById('lessons');
+  if(wrap){
+    wrap.addEventListener('click',function(e){
+      var t=(e.target&&e.target.closest)?e.target.closest('[data-sample],[data-gen],[data-theory]'):null;
+      if(!t) return;
+      if(t.hasAttribute('data-sample')){
+        var id=t.getAttribute('data-sample'), idx=-1;
+        if(typeof problems!=='undefined'&&typeof openSample==='function'){
+          idx=problems.findIndex(function(p){return p.id===id;});
+          if(idx>=0) openSample(idx);
+        }
+      }else if(t.hasAttribute('data-gen')){
+        var k=t.getAttribute('data-gen');
+        var sel=document.getElementById('selLvl');
+        var lvl=parseInt(sel?sel.value:'2',10)||2;
+        if(window.GEN&&typeof openProbObj==='function') openProbObj(window.GEN.makeFrom(k,lvl),'gen');
+      }else if(t.hasAttribute('data-theory')){
+        openTheoryFromLesson(t.getAttribute('data-theory'));
+      }
+    });
+  }
+  var lessonReturn=false;
+  window.openTheoryFromLesson=function(id){
+    if(typeof theory==='undefined'||typeof openTheory!=='function') return;
+    var idx=theory.findIndex(function(s){return s.id===id;});
+    if(idx<0) return;
+    lessonReturn=true;
+    openTheory(idx);
+    document.getElementById('btnList2').textContent='← Quay lại bài học';
+  };
+  var bl2=document.getElementById('btnList2');
+  if(bl2){
+    var orig=bl2.onclick;
+    bl2.onclick=function(){
+      if(lessonReturn){
+        lessonReturn=false;
+        document.getElementById('theoryArea').classList.add('hidden');
+        if(typeof renderHome==='function') renderHome();
+        var t=document.getElementById('part1'); if(t) t.scrollIntoView();
+        return;
+      }
+      if(orig) orig();
+    };
+  }
+})();
+
 </script>
 </body>
 </html>
