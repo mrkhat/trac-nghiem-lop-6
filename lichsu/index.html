@@ -3,81 +3,130 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <title>Lịch sử 6 — Học kì 1 | Học từng bài & Trắc nghiệm</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;max-width:820px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
-h1{text-align:center;color:#1a73e8;margin:10px 0 4px}
-.sub{text-align:center;color:#666;margin-bottom:14px;line-height:1.5}
-.topnav{text-align:center;margin-bottom:16px}
-.topnav a{color:#1a73e8;text-decoration:none;font-size:14px}
-.part{border-radius:12px;padding:14px 16px;margin:22px 0 12px;color:#fff}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;max-width:820px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937;font-size:18px;line-height:1.6}
+img,svg{max-width:100%}
+h1{text-align:center;color:#1a73e8;margin:10px 0 4px;font-size:32px;font-weight:700}
+.sub{text-align:center;color:#444;margin-bottom:14px;line-height:1.6;font-size:16px}
+.topnav{text-align:center;margin-bottom:10px}
+.topnav a{color:#1a73e8;text-decoration:none;font-size:15px;display:inline-block;padding:10px 8px;min-height:44px}
+.part{border-radius:12px;padding:16px;margin:22px 0 12px;color:#fff}
 .part1{background:#1a73e8}.part2{background:#ea8600}.partsum{background:#5e35b1}
-.part h2{font-size:20px}
-.part p{font-size:13px;opacity:.92;margin-top:2px;line-height:1.5}
+.part h2{font-size:25px;font-weight:700}
+.part p{font-size:16px;opacity:.95;margin-top:4px;line-height:1.6}
 .lesson{background:#fff;border-radius:12px;margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.12);overflow:hidden;border-top:10px solid var(--c,#1a73e8)}
-.lesson .body{padding:16px}
-.lesson h3{color:var(--c,#1a73e8);font-size:19px;margin-bottom:6px;line-height:1.35}
-.badge{display:inline-block;font-size:11.5px;font-weight:bold;color:#fff;background:var(--c,#1a73e8);border-radius:20px;padding:3px 10px;margin-bottom:8px}
+.lesson .body{padding:16px;line-height:1.7}
+.lesson h3{color:var(--c,#1a73e8);font-size:24px;margin-bottom:6px;line-height:1.35;font-weight:700}
+.badge{display:inline-block;font-size:13.5px;font-weight:700;color:#fff;background:var(--c,#1a73e8);border-radius:20px;padding:5px 12px;margin-bottom:8px}
 .badge.gk{background:#2e7d32}.badge.sau{background:#ef6c00}.badge.mr{background:#6a1b9a}
-.hook{background:#fff8e1;border-left:4px solid #ffb300;border-radius:6px;padding:10px 12px;font-size:15px;line-height:1.55;margin:10px 0;font-style:italic}
-.lesson ul{margin:0 0 8px 20px;line-height:1.6;font-size:15px}
-.lesson li{margin-bottom:5px}
-.hl{background:#fff176;padding:0 4px;border-radius:3px;font-weight:bold;white-space:nowrap}
-.hl2{background:#c8e6c9;padding:0 4px;border-radius:3px;font-weight:bold;white-space:nowrap}
-.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:14px;margin:10px 0;line-height:1.55}
-.meo{background:#e8f5e9;border:2px dashed #43a047;border-radius:8px;padding:10px 12px;font-size:14.5px;margin:10px 0;line-height:1.55}
-.wow{background:#fce4ec;border-left:4px solid #e91e63;border-radius:6px;padding:10px 12px;font-size:14.5px;margin:10px 0;line-height:1.55}
+.hook{background:#fff8e1;border-left:4px solid #ffb300;border-radius:6px;padding:12px 14px;font-size:18px;line-height:1.65;margin:10px 0;font-style:italic}
+.lesson ul{margin:0 0 8px 22px;line-height:1.7;font-size:18px}
+.lesson li{margin-bottom:6px}
+.hl{background:#fff176;padding:0 4px;border-radius:3px;font-weight:700}
+.hl2{background:#c8e6c9;padding:0 4px;border-radius:3px;font-weight:700}
+.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:10px 13px;border-radius:6px;font-size:16px;margin:10px 0;line-height:1.65}
+.meo{background:#e8f5e9;border:2px dashed #43a047;border-radius:8px;padding:11px 13px;font-size:17px;margin:10px 0;line-height:1.65}
+.wow{background:#fce4ec;border-left:4px solid #e91e63;border-radius:6px;padding:11px 13px;font-size:17px;margin:10px 0;line-height:1.65}
+.plusbox{background:#eef4ff;border:2px dashed #5b8def;border-radius:8px;padding:11px 13px;font-size:16.5px;margin:10px 0;line-height:1.65;color:#173a75}
 figure{margin:10px 0 4px;text-align:center}
 figure img{max-width:100%;height:auto;border-radius:8px}
-figcaption{font-size:12.5px;color:#666;margin-top:5px;line-height:1.5}
+figcaption{font-size:14px;color:#444;margin-top:6px;line-height:1.55}
 .gallery{display:flex;gap:10px;flex-wrap:wrap}
 .gallery figure{flex:1 1 230px;margin:6px 0}
 .evo{display:flex;gap:8px;flex-wrap:wrap;align-items:stretch;margin:12px 0}
 .evo figure{flex:1 1 150px;margin:0;background:#f3e5f5;border-radius:10px;padding:8px}
 .evo img{width:100%;height:150px;object-fit:cover}
-.evo figcaption{color:#4a148c;font-size:12.5px}
+.evo figcaption{color:#4a148c;font-size:14px}
 .evo .arrow{align-self:center;font-size:22px;color:#8e24aa;font-weight:bold}
-/* Câu hỏi gợi nhớ */
 .qa{border:1.5px solid #90caf9;border-radius:8px;margin:8px 0;overflow:hidden}
-.qa-q{width:100%;text-align:left;background:#e3f2fd;border:none;padding:11px 12px;font-size:14.5px;cursor:pointer;line-height:1.5;color:#0d47a1}
-.qa-q::after{content:"👉 Bấm để xem đáp án";display:block;font-size:12px;color:#666;margin-top:3px}
+.qa-q{width:100%;text-align:left;background:#e3f2fd;border:none;padding:14px 13px;font-size:17px;font-weight:600;cursor:pointer;line-height:1.55;color:#0d47a1;font-family:inherit;min-height:48px}
+.qa-q::after{content:"👉 Bấm để xem đáp án";display:block;font-size:14px;font-weight:400;color:#444;margin-top:4px}
 .qa.open .qa-q::after{content:"👇 Đáp án nè:"}
-.qa-a{display:none;background:#f1f8e9;padding:10px 12px;font-size:14.5px;line-height:1.55}
+.qa-a{display:none;background:#f1f8e9;padding:12px 13px;font-size:17px;line-height:1.65}
 .qa.open .qa-a{display:block}
-.secttl{font-size:16px;font-weight:bold;color:var(--c,#1a73e8);margin:16px 0 4px}
-/* Flashcard */
+.secttl{font-size:18px;font-weight:700;color:var(--c,#1a73e8);margin:16px 0 4px}
 .fcbox{text-align:center;background:#fafafa;border:1.5px solid #ddd;border-radius:10px;padding:12px;margin-top:8px}
 .fc-card{height:300px;perspective:800px;cursor:pointer;margin:8px auto;max-width:520px}
 .fc-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
 .fc-card.flipped .fc-inner{transform:rotateY(180deg)}
-.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;font-size:17px;line-height:1.5;box-shadow:0 2px 8px rgba(0,0,0,.15);overflow:hidden}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;font-size:18px;line-height:1.55;box-shadow:0 2px 8px rgba(0,0,0,.15);overflow:hidden}
 .fc-front{background:#e8f0fe;border:2px solid #1a73e8;color:#174ea6}
-.fc-back{background:#d4edda;border:2px solid #28a745;color:#155724;transform:rotateY(180deg);font-size:15.5px}
+.fc-back{background:#d4edda;border:2px solid #28a745;color:#14532d;transform:rotateY(180deg)}
 .fc-face img{max-width:100%;max-height:130px;object-fit:cover;border-radius:8px;margin-bottom:10px}
+.fc-hint{font-size:14px;color:#444;margin-top:6px;font-weight:400}
+.fc-ans{font-size:19px;font-weight:600;line-height:1.6}
+.fc-ans-lb{display:block;font-size:14px;color:#1e7e34;font-weight:700;margin-bottom:8px}
+.fc-face img.anim-kb{animation:kb 7s ease-in-out infinite alternate}
+.fc-face img.anim-flick{animation:flick 1.8s ease-in-out infinite}
+.fc-strip{display:flex;gap:5px;width:100%;justify-content:center;margin-bottom:10px}
+.fc-strip img{width:23%;height:104px;max-height:none;object-fit:cover;margin:0;animation:stageSeq 6.4s ease-in-out infinite}
+.fc-strip img:nth-child(2){animation-delay:1.2s}
+.fc-strip img:nth-child(3){animation-delay:2.4s}
+.fc-strip img:nth-child(4){animation-delay:3.6s}
+@keyframes kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.16) translate(-2%,2%)}}
+@keyframes flick{0%,100%{filter:brightness(1) saturate(1)}25%{filter:brightness(1.28) saturate(1.35)}50%{filter:brightness(.93) saturate(1.05)}75%{filter:brightness(1.18) saturate(1.25)}}
+@keyframes stageSeq{0%{opacity:.3;transform:translateY(7px)}15%{opacity:1;transform:none}42%{opacity:1}58%{opacity:.3}100%{opacity:.3}}
 .fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
-.btn{padding:9px 15px;border:none;border-radius:8px;cursor:pointer;color:#fff;font-size:14px;background:#1a73e8}
-.btn.gray{background:#666}.btn.green{background:#34a853}.btn.red{background:#dc3545}
-.fc-prog{font-size:14px;color:#555;margin-top:4px}
-.fc-stat{font-size:12.5px;color:#888}
-.next{display:block;text-align:center;background:var(--c,#1a73e8);color:#fff;text-decoration:none;font-weight:bold;font-size:15.5px;padding:13px;border-radius:0}
+.btn{padding:10px 16px;border:none;border-radius:8px;cursor:pointer;color:#fff;font-size:16px;font-weight:600;background:#1a73e8;min-height:44px;font-family:inherit}
+.btn.gray{background:#5f6368}.btn.green{background:#2e9e4f}.btn.red{background:#d93025}
+.fc-prog{font-size:15px;color:#444;margin-top:4px}
+.fc-stat{font-size:14px;color:#555}
+.next{display:block;text-align:center;background:var(--c,#1a73e8);color:#fff;text-decoration:none;font-weight:700;font-size:16.5px;padding:15px 12px;min-height:52px}
 .card{background:#fff;padding:16px;border-radius:10px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.card h3{color:#5e35b1;margin-bottom:8px;font-size:17px}
+.card h3{color:#5e35b1;margin-bottom:8px;font-size:19px}
 .tl{position:relative;margin:6px 0 0 6px}
-.tl div{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;font-size:15px;line-height:1.5}
+.tl div{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;font-size:17px;line-height:1.6}
 .tl img{width:74px;height:56px;object-fit:cover;border-radius:8px;flex:none;box-shadow:0 1px 3px rgba(0,0,0,.25)}
 .tl b{color:#5e35b1}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
-.chip{padding:10px 12px;border:2px solid #5e35b1;background:#ede7f6;color:#4527a0;border-radius:8px;cursor:pointer;font-size:14px;text-align:left}
+.chip{padding:10px 13px;border:2px solid #5e35b1;background:#ede7f6;color:#4527a0;border-radius:8px;cursor:pointer;font-size:16px;text-align:left;min-height:44px;font-family:inherit}
 .chip:disabled{opacity:.45;cursor:default}
 .chip.bad{border-color:#dc3545;background:#f8d7da}
-.slots{min-height:44px;border:2px dashed #bbb;border-radius:8px;padding:8px;font-size:14px;line-height:1.6;background:#fafafa}
-.msg{font-weight:bold;margin:8px 0;min-height:20px;font-size:15px}
-.quizlink{display:block;text-align:center;background:#ea8600;color:#fff;font-size:18px;font-weight:bold;padding:18px;border-radius:10px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.15)}
-.quizlink small{display:block;font-weight:normal;font-size:13px;margin-top:4px;opacity:.95}
-.note{font-size:13px;color:#666;text-align:center;line-height:1.6;margin:14px 0}
-footer{font-size:11px;color:#999;line-height:1.6;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
-footer a{color:#888}
+.slots{min-height:44px;border:2px dashed #bbb;border-radius:8px;padding:10px;font-size:16px;line-height:1.6;background:#fafafa}
+.msg{font-weight:700;margin:8px 0;min-height:22px;font-size:17px}
+.quizlink{display:block;text-align:center;background:#ea8600;color:#fff;font-size:19px;font-weight:700;padding:18px;border-radius:10px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.quizlink small{display:block;font-weight:400;font-size:14.5px;margin-top:5px;opacity:.97}
+.note{font-size:16px;color:#444;text-align:center;line-height:1.65;margin:14px 0}
+footer{font-size:14px;color:#444;line-height:1.65;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
+footer a{color:#555}
+.viewbar{position:sticky;top:8px;z-index:60;background:#fff;border:1.5px solid #cfd8dc;border-radius:12px;padding:10px 12px;margin:0 0 16px;box-shadow:0 2px 8px rgba(0,0,0,.10)}
+.viewbar-b{position:static;margin:16px 0 4px;box-shadow:none}
+.vrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.vlabel{font-size:16px;font-weight:700;color:#37474f}
+.vbtn{min-height:44px;padding:10px 18px;border-radius:24px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.vbtn.on{background:#1a73e8;color:#fff}
+.pickrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.pick{min-height:44px;padding:9px 13px;border-radius:10px;border:2px solid #90a4ae;background:#f5f7fa;font-size:16px;cursor:pointer;color:#263238;font-family:inherit}
+.pick.on{background:#5e35b1;border-color:#5e35b1;color:#fff;font-weight:700}
+.navrow{display:flex;gap:8px;margin-top:10px}
+.navbtn{flex:1;min-height:48px;padding:11px 10px;border:none;border-radius:10px;background:#37474f;color:#fff;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.navbtn:disabled{opacity:.4;cursor:default}
+body.mode-single .lesson{display:none}
+body.mode-single .lesson.cur{display:block}
+body.mode-single #sumwrap{display:none}
+body.mode-single #sumwrap.cur{display:block}
+body.mode-all #picker{display:none}
+@media (max-width:640px){
+body{padding:10px}
+h1{font-size:26px}
+.part h2{font-size:22px}
+.lesson h3{font-size:21px}
+.lesson .body{padding:13px}
+.gallery figure{flex:1 1 100%}
+.evo figure{flex:1 1 44%}
+.evo .arrow{display:none}
+.fc-card{height:290px}
+.pick{flex:1 1 30%;text-align:center}
+.tl img{width:64px;height:50px}
+}
+@media (prefers-reduced-motion: reduce){
+*{animation:none!important;transition:none!important}
+}
 </style>
 </head>
 <body>
@@ -86,6 +135,22 @@ footer a{color:#888}
 <p class="sub">Sách <b>Kết nối tri thức</b> • Học <b>từng bài một</b> theo thứ tự: đọc bài → trả lời câu hỏi gợi nhớ → lật flashcard của chính bài đó. Học hết các bài mới xuống <b>Phần Tổng kết</b> ở cuối trang nhé!</p>
 
 <div class="part part1"><h2>📖 Phần 1 — Học tập (học từng bài)</h2><p>Nhãn trên mỗi bài cho biết bài đó thuộc phần nào: <b>Giữa kì 1</b> • <b>Sau giữa kì</b> • <b>Mở rộng học kì 1</b> (nhiều trường dạy sang đầu học kì 2 — cứ học theo thứ tự trên lớp của em).</p></div>
+
+<!-- ===== THANH CHẾ ĐỘ XEM ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
 
 <!-- ================= BÀI 1 ================= -->
 <div class="lesson" id="bai1" style="--c:#1565c0">
@@ -101,6 +166,7 @@ footer a{color:#888}
       <br>• <b>Tư liệu chữ viết</b>: sử sách, bia đá, văn bản cổ…
       <br>• <b>Tư liệu truyền miệng</b>: truyền thuyết, truyện dân gian được kể lại qua nhiều đời.</li>
   </ul>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: Muốn <b>tìm hiểu lịch sử</b>, em hãy đọc sách lịch sử 📚, tham quan <b>bảo tàng và di tích</b> 🏛️, nghe ông bà kể chuyện ngày xưa. Đó là những cách làm "thám tử quá khứ" thú vị nhất!</div>
   <div class="gallery">
     <figure>
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dong_Son_Drum,_Bronze,_Vietnam_or_China,_2nd%E2%80%931st_c_BC,_temp_Prague_Kinsky,_NG_Vu_517,_142199.jpg?width=900" alt="Trống đồng Đông Sơn" loading="lazy">
@@ -147,6 +213,7 @@ footer a{color:#888}
     <li>Lấy <b>năm 1 Công nguyên</b> làm mốc: các năm trước đó gọi là <b>trước Công nguyên (TCN)</b>. Năm TCN số <b>càng lớn</b> thì càng <b>xưa</b>: <span class="hl">500 TCN xảy ra trước 200 TCN</span>.</li>
     <li>Mẹo tính thế kỉ: lấy số chỉ trăm của năm <b>cộng thêm 1</b> (năm 938 → 9 + 1 = <b>thế kỉ X</b>). Riêng năm tròn trăm thuộc ngay thế kỉ đó: năm 1900 → thế kỉ XIX, năm 2000 → thế kỉ XX.</li>
   </ul>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: <b>Năm 1 Công nguyên</b> được coi là năm <b>Chúa Giê-su ra đời</b> — người ta lấy chính mốc này để chia thời gian thành <b>trước Công nguyên (TCN)</b> và sau Công nguyên. Và nhớ thêm: <b>thế kỉ I</b> gồm các năm từ <b>1 đến 100</b>.</div>
   <div class="gallery">
     <figure>
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sand_Clock.jpg?width=900" alt="Đồng hồ cát" loading="lazy">
@@ -177,14 +244,14 @@ footer a{color:#888}
       <line x1="30" y1="90" x2="730" y2="90" stroke="#795548" stroke-width="4"/>
       <line x1="380" y1="55" x2="380" y2="125" stroke="#d32f2f" stroke-width="5"/>
       <text x="380" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#d32f2f">NĂM 1</text>
-      <text x="380" y="145" text-anchor="middle" font-size="12.5" fill="#333">mốc chia thời gian</text>
+      <text x="380" y="145" text-anchor="middle" font-size="13.5" fill="#333">mốc chia thời gian</text>
       <circle cx="120" cy="90" r="8" fill="#1565c0"/><text x="120" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">500 TCN</text>
       <circle cx="250" cy="90" r="8" fill="#42a5f5"/><text x="250" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">200 TCN</text>
-      <text x="185" y="118" text-anchor="middle" font-size="12.5" fill="#333">số TO hơn = XƯA hơn ➜</text>
+      <text x="185" y="118" text-anchor="middle" font-size="13.5" fill="#333">số TO hơn = XƯA hơn ➜</text>
       <circle cx="520" cy="90" r="8" fill="#2e7d32"/><text x="520" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">năm 938</text>
-      <text x="520" y="118" text-anchor="middle" font-size="12.5" fill="#333">thế kỉ X</text>
+      <text x="520" y="118" text-anchor="middle" font-size="13.5" fill="#333">thế kỉ X</text>
       <circle cx="665" cy="90" r="8" fill="#2e7d32"/><text x="665" y="70" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">năm 2026</text>
-      <text x="665" y="118" text-anchor="middle" font-size="12.5" fill="#333">thế kỉ XXI</text>
+      <text x="665" y="118" text-anchor="middle" font-size="13.5" fill="#333">thế kỉ XXI</text>
     </svg>
     <figcaption>🧭 Trục thời gian: bên trái mốc là TCN — càng xa mốc về trái, năm càng xưa. Bên phải là thời của chúng ta. <i>(Hình minh họa, khoảng cách trên trục không theo tỉ lệ thật.)</i></figcaption>
   </figure>
@@ -225,10 +292,10 @@ footer a{color:#888}
     <li><b>Người tinh khôn</b>: xuất hiện muộn hơn rất lâu; bộ não lớn, cấu tạo cơ thể <b>như người ngày nay</b>; biết làm công cụ bằng <b>đá mài</b> sắc và đẹp hơn, sống lan ra khắp các châu lục.</li>
     <li>Ở Việt Nam, các nhà khảo cổ tìm thấy <b>răng người tối cổ</b> trong hang <span class="hl">Thẩm Khuyên, Thẩm Hai (Lạng Sơn)</span>.</li>
   </ul>
-  <p style="font-size:15px;margin:8px 0 2px"><b>🎞️ Dải tiến hóa — nhìn hình là nhớ ngay 4 chặng đường:</b></p>
+  <p style="font-size:17px;margin:8px 0 2px"><b>🎞️ Dải tiến hóa — nhìn hình là nhớ ngay 4 chặng đường:</b></p>
   <div class="evo">
     <figure>
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Australopithecus_afarensis_reconstruction.JPG?width=900" alt="Phục dựng người tối cổ Australopithecus" loading="lazy">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/NHM_-_Australopithecus_afarensis_Modell_1.jpg?width=900" alt="Mô hình người tối cổ Australopithecus" loading="lazy">
       <figcaption><b>1️⃣ NGƯỜI TỐI CỔ</b><br>≈ 4 triệu năm trước<br>🚶 Đi thẳng bằng 2 chân</figcaption>
     </figure>
     <div class="arrow">➜</div>
@@ -407,11 +474,11 @@ footer a{color:#888}
       <figcaption>🛕 <b>Đền tháp bậc thang (ziggurat) ở Ur</b>, Lưỡng Hà — nơi thờ thần của người Xu-me, trông như một "cầu thang lên trời". (Wikimedia Commons, CC BY 3.0)</figcaption>
     </figure>
     <figure>
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Agilkia_Esmet-Achom_02.jpg?width=900" alt="Chữ tượng hình Ai Cập khắc trên đá" loading="lazy">
-      <figcaption>𓂀 <b>Chữ tượng hình Ai Cập</b> khắc trên tường đá — mỗi hình vẽ là một ký hiệu. Nhớ là: Ai Cập vẽ hình, Lưỡng Hà ấn nêm! (Wikimedia Commons, CC BY 3.0)</figcaption>
+      <img src="https://images.metmuseum.org/CRDImages/eg/web-large/DP-12500-003.jpg" alt="Bia đá Ai Cập khắc đầy chữ tượng hình" loading="lazy">
+      <figcaption>𓂀 <b>Bia đá khắc chữ tượng hình Ai Cập</b> (bia cúng của vua Ô-xơ-con I, khoảng 930 TCN) — cả tấm bia phủ kín ký hiệu hình vẽ: chim, rắn, con mắt… Nhớ là: Ai Cập vẽ hình, Lưỡng Hà ấn nêm! (The Met — Open Access, CC0)</figcaption>
     </figure>
     <figure>
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Egypt_and_Mesopotamia_c._1450_BC_af.png?width=900" alt="Bản đồ Ai Cập và Lưỡng Hà cổ đại" loading="lazy">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Egypt_and_Mesopotamia_c._1450_BC.png?width=900" alt="Bản đồ Ai Cập và Lưỡng Hà cổ đại" loading="lazy">
       <figcaption>🗺️ <b>Bản đồ Ai Cập và Lưỡng Hà</b> khoảng năm 1450 TCN — hai cái nôi văn minh nằm cạnh nhau. (Wikimedia Commons, CC BY-SA 3.0)</figcaption>
     </figure>
   </div>
@@ -560,6 +627,7 @@ footer a{color:#888}
     <li><span class="hl2">La Mã</span>: từ một thành quốc nhỏ (thành lập năm <span class="hl">753 TCN</span> theo truyền thuyết), lớn mạnh thành <b>đế quốc</b> rộng lớn quanh Địa Trung Hải.</li>
     <li>Thành tựu La Mã: hệ thống <b>luật pháp</b> đặt nền móng cho luật nhiều nước ngày nay; kiến trúc vòm cuốn đồ sộ — tiêu biểu là <span class="hl">đấu trường Cô-li-dê</span> ở Rô-ma; đường sá, cầu máng dẫn nước; lịch Giu-li-út gần giống dương lịch ngày nay.</li>
   </ul>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: Người La Mã còn để lại <b>bảng chữ cái Latinh</b> (a, b, c…) mà rất nhiều nước vẫn dùng đến ngày nay — <b>chữ Quốc ngữ của Việt Nam</b> cũng được xây dựng dựa trên chữ Latinh đó!</div>
   <div class="gallery">
     <figure>
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Acropolis_Parthenon_Athens_Greece.jpg?width=900" alt="Đền Parthenon ở Athens" loading="lazy">
@@ -654,6 +722,7 @@ footer a{color:#888}
 </div>
 
 <!-- ================= PHẦN TỔNG KẾT ================= -->
+<div id="sumwrap">
 <div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 10 bài rồi! Giờ nhìn lại bức tranh lớn: sơ đồ tổng → dòng thời gian → trò chơi sắp xếp → lật lại toàn bộ flashcard một lượt.</p></div>
 
 <div class="card" style="--c:#5e35b1">
@@ -671,7 +740,7 @@ footer a{color:#888}
 <div class="card">
   <h3>🕰️ Dòng thời gian — 10 sự kiện lớn của học kì 1</h3>
   <div class="tl">
-    <div><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Australopithecus_afarensis_reconstruction.JPG?width=900" alt="Người tối cổ" loading="lazy"><span><b>≈ 4 triệu năm trước</b> — Người tối cổ xuất hiện ở Đông Phi, biết đi bằng hai chân.</span></div>
+    <div><img src="https://commons.wikimedia.org/wiki/Special:FilePath/NHM_-_Australopithecus_afarensis_Modell_1.jpg?width=900" alt="Người tối cổ" loading="lazy"><span><b>≈ 4 triệu năm trước</b> — Người tối cổ xuất hiện ở Đông Phi, biết đi bằng hai chân.</span></div>
     <div><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Campfire_flames.jpg?width=900" alt="Ngọn lửa" loading="lazy"><span><b>≈ 1,8 triệu năm trước</b> — Người đứng thẳng biết dùng lửa: nấu ăn, sưởi ấm, xua thú dữ.</span></div>
     <div><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux_painting.jpg?width=900" alt="Tranh hang động" loading="lazy"><span><b>Hàng chục vạn năm trước</b> — Người tinh khôn xuất hiện, sống thành thị tộc, biết vẽ tranh trong hang.</span></div>
     <div><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Neolithic,_Polished_Stone_Axe_(FindID_468960).jpg?width=900" alt="Rìu đá mài" loading="lazy"><span><b>≈ 10.000 năm trước</b> — "Cách mạng đá mới": con người biết trồng trọt, chăn nuôi, mài đá.</span></div>
@@ -686,7 +755,7 @@ footer a{color:#888}
 
 <div class="card">
   <h3>🎮 Trò chơi: Sắp xếp sự kiện theo thời gian</h3>
-  <p style="font-size:14.5px;line-height:1.55">Bấm nút bắt đầu, rồi bấm vào các thẻ sự kiện theo thứ tự từ <b>xưa nhất</b> đến <b>gần nhất</b>.</p>
+  <p style="font-size:16px;line-height:1.6">Bấm nút bắt đầu, rồi bấm vào các thẻ sự kiện theo thứ tự từ <b>xưa nhất</b> đến <b>gần nhất</b>.</p>
   <button class="btn" id="gameStart" style="background:#5e35b1">▶ Bắt đầu / Chơi lại</button>
   <div class="msg" id="gameMsg"></div>
   <div class="slots" id="gameSlots">Thứ tự em chọn sẽ hiện ở đây…</div>
@@ -695,25 +764,35 @@ footer a{color:#888}
 
 <div class="card">
   <h3>🃏 Flashcard TỔNG ÔN — cả 48 thẻ của học kì 1</h3>
-  <p style="font-size:14.5px;line-height:1.55">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
   <div class="fcbox" data-cards="all"></div>
 </div>
 
 <a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm Lịch sử 6 (Học kì 1)<small>71 câu hỏi • 3 chế độ: Học tập – Luyện tập – Thi thử</small></a>
 <p class="note">📌 Lưu ý: nhãn "Giữa kì 1 / Sau giữa kì / Mở rộng học kì 1" trên từng bài chỉ là gợi ý theo phân phối chương trình phổ biến — mỗi trường có thể cắt phạm vi hơi khác, em cứ học theo đúng thứ tự bài trên lớp nhé.</p>
+</div><!-- /#sumwrap -->
+
+<!-- ===== THANH CHẾ ĐỘ XEM (cuối trang) ===== -->
+<div class="viewbar viewbar-b">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+</div>
 
 <footer>
   <b>Nguồn ảnh (Wikimedia Commons, giấy phép tự do):</b><br>
-  Trống đồng Đông Sơn (CC BY-SA 3.0) • Bia Tiến sĩ 1442 (CC BY-SA 3.0) • Đồng hồ cát — Sand Clock (CC BY-SA 3.0) • Đồng hồ mặt trời Lannion (CC BY-SA 3.0) • Phục dựng Australopithecus afarensis (CC BY-SA 3.0) • Phục dựng Homo habilis (CC BY-SA 4.0) • Phục dựng Homo erectus, Bảo tàng Lịch sử Tự nhiên London (CC BY-SA 2.0) • Mô hình Homo sapiens NHM (CC BY-SA 4.0) • Hộp sọ các giai đoạn — Skulls of our Ancestors (CC BY-SA 2.0) • Tranh hang Lascaux (Public Domain) • Rìu tay Acheulean (CC BY 4.0) • Tranh bò rừng Altamira (Public Domain) • Rìu đá mài thời đá mới (CC BY-SA 2.0) • Dao găm thời đồ đồng (Public Domain) • Ruộng bậc thang Bali (CC BY 4.0) • Lửa trại — Campfire flames (Public Domain) • Kim tự tháp Giza (CC0) • Tháp Ziggurat ở Iraq (CC BY 3.0) • Chữ tượng hình Ai Cập, Agilkia (CC BY 3.0) • Bản đồ Ai Cập–Lưỡng Hà 1450 TCN (CC BY-SA 3.0) • Bia luật Hammurabi, Louvre (CC BY 2.0) • Mohenjo-daro (CC BY-SA 3.0) • Bến sông Hằng, Varanasi (CC BY 4.0) • Tượng Phật Gandhara (Public Domain) • Giáp cốt (CC0) • Vạn Lí Trường Thành, Badaling (CC BY-SA 3.0) • Đội quân đất nung (CC BY 2.0) • Đền Parthenon, Acropolis (CC0) • Đấu trường Colosseum (CC BY-SA 2.5) • Tượng người ném đĩa Discobolus (CC BY 3.0) • Angkor Wat (CC BY-SA 4.0) • Thánh địa Mỹ Sơn (CC BY 4.0) • Hạt chuỗi văn hóa Óc Eo (CC0).<br>
+  Trống đồng Đông Sơn (CC BY-SA 3.0) • Bia Tiến sĩ 1442 (CC BY-SA 3.0) • Đồng hồ cát — Sand Clock (CC BY-SA 3.0) • Đồng hồ mặt trời Lannion (CC BY-SA 3.0) • Mô hình Australopithecus afarensis, Bảo tàng Lịch sử Tự nhiên Vienna (CC BY-SA 4.0) • Phục dựng Homo habilis (CC BY-SA 4.0) • Phục dựng Homo erectus, Bảo tàng Lịch sử Tự nhiên London (CC BY-SA 2.0) • Mô hình Homo sapiens NHM (CC BY-SA 4.0) • Hộp sọ các giai đoạn — Skulls of our Ancestors (CC BY-SA 2.0) • Tranh hang Lascaux (Public Domain) • Rìu tay Acheulean (CC BY 4.0) • Tranh bò rừng Altamira (Public Domain) • Rìu đá mài thời đá mới (CC BY-SA 2.0) • Dao găm thời đồ đồng (Public Domain) • Ruộng bậc thang Bali (CC BY 4.0) • Lửa trại — Campfire flames (Public Domain) • Kim tự tháp Giza (CC0) • Tháp Ziggurat ở Iraq (CC BY 3.0) • Bia đá chữ tượng hình Ai Cập — The Met Open Access (CC0) • Bản đồ Ai Cập–Lưỡng Hà 1450 TCN (Public domain) • Bia luật Hammurabi, Louvre (CC BY 2.0) • Mohenjo-daro (CC BY-SA 3.0) • Bến sông Hằng, Varanasi (CC BY 4.0) • Tượng Phật Gandhara (Public Domain) • Giáp cốt (CC0) • Vạn Lí Trường Thành, Badaling (CC BY-SA 3.0) • Đội quân đất nung (CC BY 2.0) • Đền Parthenon, Acropolis (CC0) • Đấu trường Colosseum (CC BY-SA 2.5) • Tượng người ném đĩa Discobolus (CC BY 3.0) • Angkor Wat (CC BY-SA 4.0) • Thánh địa Mỹ Sơn (CC BY 4.0) • Hạt chuỗi văn hóa Óc Eo (CC0).<br>
   Nội dung bám theo SGK "Lịch sử và Địa lí 6" — bộ Kết nối tri thức với cuộc sống. Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
 </footer>
 
 <style>
 .mmap{background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;padding:12px;margin:14px 0}
-.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:15px}
-.mm-center{background:var(--c,#5e35b1);color:#fff;font-weight:bold;text-align:center;border-radius:8px;padding:9px;font-size:15.5px;margin-bottom:10px;line-height:1.4}
-.mm-branch{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-size:14px;line-height:1.5}
-.mm-b{flex:none;background:var(--c,#5e35b1);color:#fff;border-radius:6px;padding:3px 8px;font-weight:bold;font-size:12.5px;margin-top:1px}
+.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:16px}
+.mm-center{background:var(--c,#5e35b1);color:#fff;font-weight:bold;text-align:center;border-radius:8px;padding:9px;font-size:17px;margin-bottom:10px;line-height:1.4}
+.mm-branch{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-size:16px;line-height:1.5}
+.mm-b{flex:none;background:var(--c,#5e35b1);color:#fff;border-radius:6px;padding:4px 9px;font-weight:bold;font-size:14px;margin-top:1px}
 .mm-k{flex:1}
 </style>
 
@@ -723,7 +802,7 @@ dongson:"https://commons.wikimedia.org/wiki/Special:FilePath/Dong_Son_Drum,_Bron
 stele:"https://commons.wikimedia.org/wiki/Special:FilePath/BiaTienSi1442.jpg?width=900",
 sandclock:"https://commons.wikimedia.org/wiki/Special:FilePath/Sand_Clock.jpg?width=900",
 sundial:"https://commons.wikimedia.org/wiki/Special:FilePath/Sundial_Lannion_Brittany_France.JPG?width=900",
-evo1:"https://commons.wikimedia.org/wiki/Special:FilePath/Australopithecus_afarensis_reconstruction.JPG?width=900",
+evo1:"https://commons.wikimedia.org/wiki/Special:FilePath/NHM_-_Australopithecus_afarensis_Modell_1.jpg?width=900",
 evo2:"https://commons.wikimedia.org/wiki/Special:FilePath/Homo_habilis_-_forensic_facial_reconstruction.png?width=900",
 evo3:"https://commons.wikimedia.org/wiki/Special:FilePath/Homo_erectus_reconstruction,_Natural_History_Museum,_London.jpg?width=900",
 evo4:"https://commons.wikimedia.org/wiki/Special:FilePath/NHM_-_Homo_sapiens_Modell_1.jpg?width=900",
@@ -737,8 +816,8 @@ terraces:"https://commons.wikimedia.org/wiki/Special:FilePath/Rice_terraces,_Bal
 campfire:"https://commons.wikimedia.org/wiki/Special:FilePath/Campfire_flames.jpg?width=900",
 pyramids:"https://commons.wikimedia.org/wiki/Special:FilePath/Giza_pyramids_sandstorm.jpg?width=900",
 ziggurat:"https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg?width=900",
-hieroglyphs:"https://commons.wikimedia.org/wiki/Special:FilePath/Agilkia_Esmet-Achom_02.jpg?width=900",
-map:"https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Egypt_and_Mesopotamia_c._1450_BC_af.png?width=900",
+hieroglyphs:"https://images.metmuseum.org/CRDImages/eg/web-large/DP-12500-003.jpg",
+map:"https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Egypt_and_Mesopotamia_c._1450_BC.png?width=900",
 hammurabi:"https://commons.wikimedia.org/wiki/Special:FilePath/Code_of_Hammurabi_(Louvre_Sb_8)-31434550325.jpg?width=900",
 mohenjo:"https://commons.wikimedia.org/wiki/Special:FilePath/Mohenjo-daro.jpg?width=900",
 ganges:"https://commons.wikimedia.org/wiki/Special:FilePath/Varanasi,_India,_Ghats_on_Ganges_River.jpg?width=900",
@@ -755,29 +834,29 @@ angkor:"https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat_with_its_
 };
 /* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ] — 100% thẻ đều có hình */
 const CARDS=[
-["Lịch sử là gì?","Là tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người.","dongson"],
+["Lịch sử là gì?","Là tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người.","dongson","kb"],
 ["Kể tên 3 loại tư liệu lịch sử.","Tư liệu hiện vật – tư liệu chữ viết – tư liệu truyền miệng.","stele"],
-["Trống đồng, rìu đá thuộc loại tư liệu nào?","Tư liệu hiện vật — đồ vật còn lại đến ngày nay.","dongson"],
+["Trống đồng, rìu đá thuộc loại tư liệu nào?","Tư liệu hiện vật — đồ vật còn lại đến ngày nay.","dongson","kb"],
 ["Học lịch sử giúp em điều gì?","Biết cội nguồn của mình, rút bài học từ quá khứ và thêm yêu quê hương, đất nước.","stele"],
-["Tư liệu truyền miệng là gì? Cho một ví dụ.","Chuyện được kể lại bằng miệng qua nhiều đời, ví dụ: truyền thuyết Sơn Tinh – Thủy Tinh.","campfire"],
+["Tư liệu truyền miệng là gì? Cho một ví dụ.","Chuyện được kể lại bằng miệng qua nhiều đời, ví dụ: truyền thuyết Sơn Tinh – Thủy Tinh.","campfire","flick"],
 ["1 thập kỉ, 1 thế kỉ, 1 thiên niên kỉ bằng bao nhiêu năm?","Thập kỉ = 10 năm • Thế kỉ = 100 năm • Thiên niên kỉ = 1000 năm.","sandclock"],
 ["Năm 2026 thuộc thế kỉ nào?","Thế kỉ XXI (21) — vì thế kỉ XXI kéo dài từ năm 2001 đến 2100.","sundial"],
 ["Năm 500 TCN và năm 200 TCN, năm nào đến trước (xưa hơn)?","Năm 500 TCN — số TCN càng lớn thì càng xưa.","sandclock"],
 ["Âm lịch và dương lịch được tính dựa vào đâu?","Âm lịch theo chuyển động của Mặt Trăng; dương lịch theo Trái Đất quay quanh Mặt Trời.","sundial"],
-["Xếp đúng thứ tự 4 chặng tiến hóa của loài người.","Người tối cổ → Người khéo léo → Người đứng thẳng → Người tinh khôn.","skulls"],
-["Người tối cổ xuất hiện ở đâu, cách đây khoảng bao lâu?","Ở Đông Phi, cách đây khoảng 4 triệu năm.","evo1"],
+["Xếp đúng thứ tự 4 chặng tiến hóa của loài người.","Người tối cổ → Người khéo léo → Người đứng thẳng → Người tinh khôn.","skulls","strip"],
+["Người tối cổ xuất hiện ở đâu, cách đây khoảng bao lâu?","Ở Đông Phi, cách đây khoảng 4 triệu năm.","evo1","kb"],
 ["Người khéo léo (Homo habilis) nổi bật ở điểm nào?","Biết chế tạo công cụ bằng đá — công cụ đầu tiên của loài người.","evo2"],
-["Người đứng thẳng (Homo erectus) gắn với điều kì diệu nào?","Biết dùng lửa: nấu chín thức ăn, sưởi ấm, xua đuổi thú dữ.","evo3"],
+["Người đứng thẳng (Homo erectus) gắn với điều kì diệu nào?","Biết dùng lửa: nấu chín thức ăn, sưởi ấm, xua đuổi thú dữ.","evo3","kb"],
 ["Người tinh khôn (Homo sapiens) có gì khác biệt nhất?","Bộ não lớn, cơ thể gần như người ngày nay; biết mài đá, vẽ tranh trong hang.","evo4"],
 ["Dấu tích người tối cổ ở Việt Nam được tìm thấy ở đâu?","Ở hang Thẩm Khuyên và Thẩm Hai (Lạng Sơn) — những chiếc răng hóa thạch.","handaxe"],
 ["Bầy người nguyên thủy là gì?","Nhóm vài chục người sống chung với nhau, cùng săn bắt – hái lượm để kiếm ăn.","altamira"],
-["Ở công xã thị tộc, mọi người LÀM … và HƯỞNG …?","Làm chung – hưởng chung: cùng lao động, chia đều sản phẩm, không ai giàu hơn ai.","terraces"],
+["Ở công xã thị tộc, mọi người LÀM … và HƯỞNG …?","Làm chung – hưởng chung: cùng lao động, chia đều sản phẩm, không ai giàu hơn ai.","terraces","kb"],
 ["Vì sao xã hội nguyên thủy theo chế độ mẫu hệ?","Vì phụ nữ hái lượm ổn định, lại nuôi dạy con trẻ nên là trung tâm của thị tộc.","altamira"],
 ["'Cách mạng đá mới' nghĩa là gì?","Con người biết trồng trọt, chăn nuôi và mài đá làm công cụ — không còn chỉ phụ thuộc vào săn bắt, hái lượm.","polishedaxe"],
 ["Người nguyên thủy thường sống ở đâu và kiếm sống bằng cách nào?","Sống trong hang động, mái đá gần sông suối; kiếm sống bằng săn bắt và hái lượm.","lascaux"],
 ["Kim loại đầu tiên con người biết sử dụng là gì?","Là đồng — mở đầu thời đại đồ đồng.","dagger"],
 ["Vì sao xã hội nguyên thủy dần phân hóa giàu – nghèo?","Nhờ công cụ kim loại, sản xuất có của dư thừa; của dư rơi vào tay một số người → sinh tư hữu, giàu – nghèo.","dagger"],
-["Chế độ phụ hệ thay thế mẫu hệ khi nào?","Khi nam giới trở thành lực lượng chính trong sản xuất (cày bừa, chăn nuôi, rèn đúc) và giữ vai trò chủ chốt trong gia đình.","terraces"],
+["Chế độ phụ hệ thay thế mẫu hệ khi nào?","Khi nam giới trở thành lực lượng chính trong sản xuất (cày bừa, chăn nuôi, rèn đúc) và giữ vai trò chủ chốt trong gia đình.","terraces","kb"],
 ["Cuối thời nguyên thủy, xã hội chuyển biến thành xã hội gì?","Xã hội có giai cấp — nhà nước sắp ra đời.","dagger"],
 ["Văn minh Ai Cập cổ đại hình thành bên dòng sông nào?","Sông Nin — con sông dài, hiền hòa, bồi đắp phù sa màu mỡ.","pyramids"],
 ["Kim tự tháp được xây để làm gì? Kim tự tháp lớn nhất tên là gì?","Là lăng mộ cho các Pha-ra-ông; lớn nhất là kim tự tháp Kê-ốp.","pyramids"],
@@ -824,8 +903,12 @@ function mountDeck(box){
       prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat');
   function render(){
     var ci=order[pos],c=CARDS[ci];
-    front.innerHTML='<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div style="font-size:12.5px;color:#666;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>';
-    back.innerHTML='<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[1]+'</div>';
+    if(c[3]==='strip'){
+      front.innerHTML='<div class="fc-strip"><img src="'+IMG.evo1+'" alt="Chặng 1: người tối cổ"><img src="'+IMG.evo2+'" alt="Chặng 2: người khéo léo"><img src="'+IMG.evo3+'" alt="Chặng 3: người đứng thẳng"><img src="'+IMG.evo4+'" alt="Chặng 4: người tinh khôn"></div><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    } else {
+      front.innerHTML='<img'+(c[3]?' class="anim-'+c[3]+'"':'')+' src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    }
+    back.innerHTML='<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>';
     card.classList.toggle('flipped',flipped);
     prog.textContent='Thẻ '+(pos+1)+' / '+order.length;
     var k=idxs.filter(function(i){return known[i];}).length;
@@ -879,6 +962,63 @@ function startGame(){
   });
 }
 document.getElementById('gameStart').addEventListener('click',startGame);
+
+/* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
+var VMKEY='lichsu_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','🏁 Tổng kết'];
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+PLABELS.forEach(function(lb,i){
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button';
+  b.addEventListener('click',function(){showPage(i,true);});
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
+function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
+function showPage(i,scroll){
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 10':'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='sum';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
+(function(){
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'sum':h);
+  if(ix>=0) curPage=ix;
+})();
+applyMode();
+showPage(curPage,false);
 </script>
 </body>
 </html>
