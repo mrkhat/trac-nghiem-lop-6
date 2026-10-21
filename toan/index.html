@@ -462,8 +462,13 @@ function linkifyFact(text,links){
   return out;
 }
 function activateNm(el,label){
-  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
-  if(el)el.classList.add('nm-on');
+  const wasOn=el&&el.classList.contains('nm-on');
+  clearHighlights();
+  if(wasOn||!el){
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
+    return;
+  }
+  el.classList.add('nm-on');
   document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
 }
 document.getElementById('tFacts').addEventListener('click',e=>{
@@ -472,7 +477,7 @@ document.getElementById('tFacts').addEventListener('click',e=>{
   e.stopPropagation();
   const act=w.dataset.act, label=w.dataset.label;
   if(act==='shape'){
-    document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+    clearHighlights();
     document.querySelectorAll('#tFig circle.nm').forEach(x=>x.classList.add('nm-on'));
     document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
   }else if(act.startsWith('side:')){
@@ -492,11 +497,9 @@ document.getElementById('tFacts').addEventListener('click',e=>{
 let ovlActive=-1;
 function showOvl(i,row){
   const groups=document.querySelectorAll('#tFig .ovl');
-  const turnOn=(ovlActive!==i);
-  groups.forEach(g=>g.style.display='none');
-  document.querySelectorAll('.frow').forEach(r=>r.classList.remove('on'));
-  ovlActive=-1;
-  if(turnOn&&groups[i]){
+  const wasOn=(ovlActive===i);
+  clearHighlights();
+  if(!wasOn&&groups[i]){
     groups[i].style.display='';
     row.classList.add('on');
     ovlActive=i;
@@ -525,11 +528,20 @@ function openTheory(i){
   });
   window.scrollTo(0,0);
 }
-function selectFact(j){
+function clearHighlights(){
   document.querySelectorAll('#tFig .hot').forEach(x=>x.classList.remove('on'));
-  document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(x=>x.classList.add('on'));
-  document.querySelectorAll('.fact').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('#tFacts .fact').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+  document.querySelectorAll('#tFig .ovl').forEach(g=>g.style.display='none');
+  document.querySelectorAll('.frow').forEach(r=>r.classList.remove('on'));
+  ovlActive=-1;
+}
+function selectFact(j){
   const f=document.getElementById('fact'+j);
+  const wasOn=f&&f.classList.contains('on');
+  clearHighlights();
+  if(wasOn)return;
+  document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(x=>x.classList.add('on'));
   if(f)f.classList.add('on');
 }
 document.getElementById('tFig').addEventListener('click',e=>{
