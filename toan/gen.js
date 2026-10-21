@@ -147,6 +147,18 @@ intExpr:{chapter:3,topic:'Tính biểu thức số nguyên',gen(l){
    parts:[{label:'Kết quả',answer:''+ans,unit:''}],
    solution:[`${ex} = ${-a+b} − ${c} = ${ans}`]};
 }},
+intBracket:{chapter:3,topic:'Quy tắc dấu ngoặc (Bài 15)',gen(l){
+  const a=R(l===1?25:35,l===1?50:70),b=R(8,40),c=b+R(3,25),d=R(4,30),s=pick(['−','+']);
+  const inner=b-c, mid=a-inner, ans=s==='−'?mid-d:mid+d;
+  const ex=`${a} − (${b} − ${c}) ${s} ${d}`;
+  return{title:'Tính biểu thức có dấu ngoặc',text:`Tính giá trị của biểu thức:\n${ex}`,
+   analysis:{given:[`Biểu thức có dấu ngoặc, phía trước ngoặc là dấu trừ`,`Trong ngoặc: ${b} − ${c} cho kết quả là số âm`],ask:'Tính giá trị của biểu thức',plan:`Bước 1) Tính trong ngoặc trước. Bước 2) Bỏ dấu ngoặc theo quy tắc dấu ngoặc: ${a} − (${inner}) = ${a} + ${-inner}. Bước 3) Tính tiếp từ trái sang phải.`},
+   hint:`Trong ngoặc: ${b} − ${c} = ${inner}. Nhớ: trừ một số âm bằng cộng số dương.`,
+   theory:'Quy tắc dấu ngoặc (Bài 15): khi bỏ dấu ngoặc có dấu + đằng trước, giữ nguyên dấu của các số hạng trong ngoặc; khi bỏ dấu ngoặc có dấu \u2212 đằng trước, phải đổi dấu mọi số hạng trong ngoặc. Trừ một số âm bằng cộng với số đối của nó.',
+   kw:[{t:'Tính giá trị của biểu thức',type:'ask',why:'Điều cần tìm: kết quả cuối cùng của biểu thức.'},{t:ex,type:'data',why:'Số liệu đề cho: biểu thức có dấu ngoặc \u2014 tính trong ngoặc trước, bỏ ngoặc theo quy tắc dấu ngoặc.'}],
+   parts:[{label:'Kết quả',answer:''+ans,unit:''}],
+   solution:[`Bước 1) Tính trong ngoặc trước: ${b} − ${c} = ${inner}. Biểu thức trở thành: ${a} − (${inner}) ${s} ${d}.`,`Bước 2) Bỏ dấu ngoặc: phía trước ngoặc là dấu trừ nên đổi dấu số hạng trong ngoặc: ${a} − (${inner}) = ${a} + ${-inner} = ${mid}.`,`Bước 3) Tính tiếp từ trái sang phải: ${mid} ${s} ${d} = ${ans}.`]};
+}},
 moneyWord:{chapter:3,topic:'Bài toán thực tế với số nguyên',gen(l){
   const S=R(5,9)*10000,x=R(2,4)*5000,y=R(1,3)*10000;
   let z=R(1,3)*5000,ans=S-x+y-z;
@@ -247,6 +259,7 @@ divRule:{chapter:2,topic:'Dấu hiệu chia hết (Bài 9)',gen(l){
   let nums=new Set();
   while(nums.size<4)nums.add(base+R(0,60));
   nums=[...nums];
+  if(!nums.some(x=>x%d===0)){const mults=[];for(let m=d;m<=160;m+=d)if(m>=21)mults.push(m);let mm=pick(mults);while(nums.includes(mm))mm=pick(mults);nums[0]=mm;}
   const ok=nums.filter(x=>x%d===0);
   const ans=Math.max(...ok);
   const rule={2:'số có chữ số tận cùng là 0, 2, 4, 6, 8',5:'số có chữ số tận cùng là 0 hoặc 5',3:'số có tổng các chữ số chia hết cho 3',9:'số có tổng các chữ số chia hết cho 9'}[d];
@@ -394,7 +407,7 @@ intSet:{chapter:3,topic:'Tập hợp các số nguyên (Bài 13)',gen(l){
    analysis:{given:['Trục số: điểm 0 ở giữa, bên phải số 0 là các số nguyên dương, bên trái số 0 là các số nguyên âm',`Các số cần xét ở ý c): ${list.join('; ')}`],ask:'Số đối của một số nguyên âm; số số nguyên nằm giữa hai số; số số nguyên âm trong các số đã cho',plan:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0. Liệt kê các số nguyên nằm giữa hai số rồi đếm. Số nguyên âm là số nhỏ hơn 0.'},
    hint:`Số đối của ${neg} nằm bên phải điểm 0, cách 0 đúng ${x} đơn vị.`,
    theory:'Tập hợp các số nguyên (Bài 13): gồm các số nguyên âm, số 0 và các số nguyên dương. Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0. Số đối của 0 là 0.',
-   kw:[{t:'số đối',type:'op',why:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0.'},{t:'nằm giữa',type:'ask',why:'Các số lớn hơn số nhỏ và nhỏ hơn số lớn, không kể hai số ở hai đầu.'},{t:'số nguyên âm',type:'ask',why:'Các số nhỏ hơn 0, có dấu trừ ở phía trước.'}],
+   kw:[{t:'Số đối',type:'op',why:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0.'},{t:'nằm giữa',type:'ask',why:'Các số lớn hơn số nhỏ và nhỏ hơn số lớn, không kể hai số ở hai đầu.'},{t:'số nguyên âm',type:'ask',why:'Các số nhỏ hơn 0, có dấu trừ ở phía trước.'}],
    parts:[{label:`a) Số đối của ${neg}`,answer:''+x,unit:''},{label:`b) Số số nguyên nằm giữa ${u} và ${v}`,answer:''+(v-u-1),unit:'số'},{label:'c) Số số nguyên âm trong các số đã cho',answer:''+negs.length,unit:'số'}],
    solution:[`Bước 1) Ý a) Số đối của ${neg} nằm ở phía đối diện qua điểm 0 và cách 0 đúng ${x} đơn vị: đó là số ${x}.`,`Bước 2) Ý b) Các số nguyên nằm giữa ${u} và ${v} là ${seq(u+1,v-1)}. Đếm được ${v-u-1} số.`,`Bước 3) Ý c) Các số nguyên âm trong các số đã cho: ${negs.length?negs.join('; '):'không có số nào'}. Vậy có ${negs.length} số nguyên âm.`]};
 }},

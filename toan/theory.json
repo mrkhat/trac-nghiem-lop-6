@@ -1,5 +1,103 @@
 [
  {
+  "angles": [],
+  "check": {
+   "answer": "5",
+   "q": "Tập hợp B = {3; 6; 9; 12; 15} có bao nhiêu phần tử?",
+   "unit": "phần tử"
+  },
+  "facts": [
+   "Tập hợp là một nhóm các đối tượng được xác định rõ ràng. Mỗi đối tượng trong tập hợp gọi là một phần tử của tập hợp. Hình bầu dục trên hình là tập hợp A, gồm các số lẻ nhỏ hơn 10.",
+   "Ký hiệu ∈ đọc là 'thuộc'. Ta viết 5 ∈ A và đọc là '5 thuộc A', nghĩa là 5 là một phần tử của tập hợp A.",
+   "Ký hiệu ∉ đọc là 'không thuộc'. Số 4 đứng ở ngoài tập hợp A nên ta viết 4 ∉ A, đọc là '4 không thuộc A'.",
+   "Cách viết tập hợp thứ nhất: liệt kê các phần tử. Để các phần tử trong dấu { }, mỗi phần tử viết một lần, ngăn cách nhau bằng dấu chấm phẩy: A = {1; 3; 5; 7; 9}.",
+   "Cách viết tập hợp thứ hai: chỉ ra tính chất đặc trưng của các phần tử. A = {x | x là số tự nhiên lẻ và x < 10}, đọc là: A gồm các phần tử x sao cho x là số tự nhiên lẻ, nhỏ hơn 10."
+  ],
+  "formulas": [
+   {
+    "f": "A = {1; 3; 5; 7; 9}",
+    "label": "Cách liệt kê",
+    "note": "viết mọi phần tử trong dấu { }"
+   },
+   {
+    "f": "A = {x | x là số lẻ, x < 10}",
+    "label": "Cách nêu tính chất",
+    "note": "chỉ ra tính chất chung của các phần tử"
+   }
+  ],
+  "id": "tap-hop",
+  "info": "🔤 Bấm vào một yếu tố trên hình để xem giải thích.",
+  "intro": "👆 Bấm vào hình bầu dục và các số trên hình để xem đặc điểm tương ứng.<br>💡 Số nằm trong hình bầu dục thì <b>thuộc</b> tập hợp; số nằm ngoài hình bầu dục thì <b>không thuộc</b> tập hợp.",
+  "links": [],
+  "name": "Tập hợp",
+  "svg": "<svg viewBox=\"0 0 300 210\"><ellipse class=\"hot\" data-f=\"0\" cx=\"140\" cy=\"102\" rx=\"105\" ry=\"76\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"50\" y=\"42\" font-size=\"18\" font-weight=\"bold\" fill=\"#0d47a1\">A</text><g class=\"hot\" data-f=\"3\"><circle cx=\"88\" cy=\"72\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"88\" y=\"77\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">1</text></g><g><circle cx=\"140\" cy=\"58\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"140\" y=\"63\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">3</text></g><g class=\"hot\" data-f=\"1\"><circle cx=\"186\" cy=\"82\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"186\" y=\"87\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">5</text></g><g><circle cx=\"108\" cy=\"132\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"108\" y=\"137\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">7</text></g><g><circle cx=\"168\" cy=\"138\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"168\" y=\"143\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">9</text></g><g class=\"hot\" data-f=\"2\"><circle cx=\"266\" cy=\"66\" r=\"15\" fill=\"#fff3e0\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"266\" y=\"71\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#e65100\">4</text></g><g class=\"hot\" data-f=\"4\"><rect x=\"152\" y=\"172\" width=\"142\" height=\"30\" rx=\"8\" fill=\"#fff3e0\" stroke=\"#ef6c00\" stroke-width=\"1.5\"/><text x=\"223\" y=\"191\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#e65100\">x | x lẻ, x &lt; 10</text></g><g class=\"ovl\" style=\"display:none\"><ellipse cx=\"140\" cy=\"102\" rx=\"105\" ry=\"76\" fill=\"none\" stroke=\"#ff9800\" stroke-width=\"5\" opacity=\"0.55\"/></g><g class=\"ovl\" style=\"display:none\"><rect x=\"152\" y=\"172\" width=\"142\" height=\"30\" rx=\"8\" fill=\"#ff9800\" opacity=\"0.3\"/></g></svg>"
+ },
+ {
+  "angles": [],
+  "check": {
+   "answer": "14",
+   "q": "Số liền trước của 15 là số nào?",
+   "unit": ""
+  },
+  "facts": [
+   "Tia số là một tia có gốc là điểm 0. Mỗi số tự nhiên được biểu diễn bởi một điểm trên tia số, các điểm cách đều nhau.",
+   "So sánh hai số bằng tia số: số ở bên phải thì lớn hơn số ở bên trái. Ví dụ: điểm 5 nằm bên phải điểm 2 nên 5 > 2, đọc là '5 lớn hơn 2'; ngược lại 2 < 5, đọc là '2 bé hơn 5'.",
+   "Số liền sau của một số đứng ngay bên phải số đó: số liền sau của 6 là 7. Số liền trước đứng ngay bên trái: số liền trước của 7 là 6.",
+   "Giữa hai số trên tia số có thể có các số khác: giữa 5 và 9 có các số 6; 7; 8. Số tự nhiên nhỏ nhất là 0, và không có số tự nhiên lớn nhất."
+  ],
+  "formulas": [
+   {
+    "f": "a < b khi điểm a nằm bên trái điểm b",
+    "label": "So sánh",
+    "note": "số ở bên trái bé hơn, số ở bên phải lớn hơn"
+   },
+   {
+    "f": "liền sau của a là a + 1; liền trước của a là a − 1",
+    "label": "Liền sau, liền trước",
+    "note": "hai số kề nhau hơn kém nhau 1 đơn vị"
+   }
+  ],
+  "id": "tia-so",
+  "info": "🔤 Bấm vào một điểm tròn trên tia số để xem giải thích về điểm đó.",
+  "intro": "👆 Bấm vào các điểm tròn trên tia số để xem đặc điểm tương ứng.<br>💡 Trên tia số, các số tăng dần từ trái sang phải: càng đi sang phải thì số càng lớn.",
+  "links": [],
+  "name": "Tia số",
+  "svg": "<svg viewBox=\"0 0 470 90\"><line x1=\"20\" y1=\"45\" x2=\"446\" y2=\"45\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"446,39 460,45 446,51\" fill=\"#37474f\"/><line x1=\"50\" y1=\"38\" x2=\"50\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"50\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><circle class=\"hot\" data-f=\"0\" cx=\"50\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"88\" y1=\"38\" x2=\"88\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"88\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"88\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"126\" y1=\"38\" x2=\"126\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"126\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle class=\"hot\" data-f=\"1\" cx=\"126\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"164\" y1=\"38\" x2=\"164\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"164\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><circle cx=\"164\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"202\" y1=\"38\" x2=\"202\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"202\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"202\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"240\" y1=\"38\" x2=\"240\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"240\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle class=\"hot\" data-f=\"1\" cx=\"240\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"278\" y1=\"38\" x2=\"278\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"278\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">6</text><circle class=\"hot\" data-f=\"2\" cx=\"278\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"316\" y1=\"38\" x2=\"316\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"316\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">7</text><circle class=\"hot\" data-f=\"2\" cx=\"316\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"354\" y1=\"38\" x2=\"354\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"354\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">8</text><circle cx=\"354\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"392\" y1=\"38\" x2=\"392\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"392\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">9</text><circle class=\"hot\" data-f=\"3\" cx=\"392\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"430\" y1=\"38\" x2=\"430\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"430\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">10</text><circle cx=\"430\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><g class=\"ovl\" style=\"display:none\"><circle cx=\"126\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"240\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g><g class=\"ovl\" style=\"display:none\"><circle cx=\"278\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"316\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g></svg>"
+ },
+ {
+  "angles": [],
+  "check": {
+   "answer": "8",
+   "q": "Số đối của −8 là số nào?",
+   "unit": ""
+  },
+  "facts": [
+   "Trục số là một đường thẳng có điểm gốc 0 ở giữa. Bên phải điểm 0 là các số nguyên dương: 1; 2; 3; ... Bên trái điểm 0 là các số nguyên âm: −1; −2; −3; ... Số 0 không phải số nguyên âm, cũng không phải số nguyên dương.",
+   "Số nguyên âm luôn nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương. Ví dụ: −4 < 0, đọc là 'âm bốn bé hơn không'. Số nguyên âm có dấu trừ viết ở phía trước.",
+   "Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều điểm 0. Ví dụ: 3 và −3 là hai số đối nhau, cùng cách điểm 0 ba đơn vị. Số đối của 0 là chính nó, tức là 0.",
+   "So sánh hai số nguyên âm: số nào gần điểm 0 hơn thì số đó lớn hơn. Ví dụ: −2 > −5 vì điểm −2 nằm ở bên phải điểm −5 trên trục số.",
+   "Số nguyên âm dùng nhiều trong đời sống: nhiệt độ dưới 0°C viết bằng số âm, ví dụ −3°C đọc là 'âm ba độ C'; số tiền đang nợ cũng có thể ghi bằng số âm."
+  ],
+  "formulas": [
+   {
+    "f": "a và −a là hai số đối nhau",
+    "label": "Số đối",
+    "note": "hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0"
+   },
+   {
+    "f": "trên trục số, số ở bên phải lớn hơn",
+    "label": "So sánh",
+    "note": "mọi số nguyên âm đều nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương"
+   }
+  ],
+  "id": "truc-so-nguyen",
+  "info": "🔤 Bấm vào một điểm tròn trên trục số để xem giải thích về điểm đó.",
+  "intro": "👆 Bấm vào các điểm tròn trên trục số để xem đặc điểm tương ứng.<br>💡 Bên trái điểm 0 là các số nguyên âm (có dấu − ở phía trước); bên phải điểm 0 là các số nguyên dương.",
+  "links": [],
+  "name": "Trục số (số nguyên)",
+  "svg": "<svg viewBox=\"0 0 470 90\"><line x1=\"14\" y1=\"45\" x2=\"442\" y2=\"45\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"14,39 0,45 14,51\" fill=\"#37474f\"/><polygon points=\"442,39 456,45 442,51\" fill=\"#37474f\"/><line x1=\"45\" y1=\"38\" x2=\"45\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"45\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−5</text><circle class=\"hot\" data-f=\"3\" cx=\"45\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"83\" y1=\"38\" x2=\"83\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"83\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−4</text><circle class=\"hot\" data-f=\"1\" cx=\"83\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"121\" y1=\"38\" x2=\"121\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"121\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−3</text><circle class=\"hot\" data-f=\"2\" cx=\"121\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"159\" y1=\"38\" x2=\"159\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"159\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−2</text><circle class=\"hot\" data-f=\"3\" cx=\"159\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"197\" y1=\"38\" x2=\"197\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"197\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−1</text><circle class=\"hot\" data-f=\"4\" cx=\"197\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"235\" y1=\"38\" x2=\"235\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"235\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><circle class=\"hot\" data-f=\"0\" cx=\"235\" cy=\"45\" r=\"11\" fill=\"#fff59d\" stroke=\"#f57c00\" stroke-width=\"2\"/><line x1=\"273\" y1=\"38\" x2=\"273\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"273\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"273\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"311\" y1=\"38\" x2=\"311\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"311\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle cx=\"311\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"349\" y1=\"38\" x2=\"349\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"349\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><circle class=\"hot\" data-f=\"2\" cx=\"349\" cy=\"45\" r=\"11\" fill=\"#c8e6c9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><line x1=\"387\" y1=\"38\" x2=\"387\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"387\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"387\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"425\" y1=\"38\" x2=\"425\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"425\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle cx=\"425\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><g class=\"ovl\" style=\"display:none\"><circle cx=\"121\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"349\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g><g class=\"ovl\" style=\"display:none\"><rect x=\"30\" y=\"24\" width=\"205\" height=\"42\" fill=\"#ff9800\" opacity=\"0.16\"/></g></svg>"
+ },
+ {
   "angles": [
    {
     "name": "BAC",
@@ -89,201 +187,6 @@
   ],
   "name": "Tam giác đều",
   "svg": "<svg viewBox=\"0 0 240 210\"><polygon points=\"120,25 35,175 205,175\" fill=\"#fff8e1\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"1\" x1=\"120\" y1=\"25\" x2=\"35\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"120\" y1=\"25\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"35\" y1=\"175\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"70\" y1=\"93\" x2=\"84\" y2=\"107\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"156\" y1=\"107\" x2=\"170\" y2=\"93\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"120\" y1=\"168\" x2=\"120\" y2=\"182\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"3\" x1=\"120\" y1=\"25\" x2=\"120\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text class=\"hot\" data-f=\"2\" x=\"112\" y=\"58\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"2\" x=\"44\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"2\" x=\"172\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text><g class=\"ovl\" style=\"display:none\"><text x=\"58\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"172\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"114\" y=\"196\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"120,25 205,175 35,175\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"120\" y1=\"25\" x2=\"120\" y2=\"175\" stroke=\"#d84315\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"112\" y=\"196\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"102\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">h</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"128\" y=\"20\">A</text><text x=\"214\" y=\"190\">B</text><text x=\"8\" y=\"190\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc BAC — đỉnh A ở giữa\" points=\"120,25 107,48 133,48\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"205,175 192,152 179,175\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ACB — đỉnh C ở giữa\" points=\"35,175 61,175 48,152\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"120\" y1=\"25\" x2=\"205\" y2=\"175\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"205\" y1=\"175\" x2=\"35\" y2=\"175\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"35\" y1=\"175\" x2=\"120\" y2=\"25\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"120\" cy=\"25\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"205\" cy=\"175\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"35\" cy=\"175\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
- },
- {
-  "angles": [
-   {
-    "name": "CAB",
-    "sides": [
-     "CA",
-     "AB"
-    ],
-    "v": "A"
-   },
-   {
-    "name": "ABC",
-    "sides": [
-     "AB",
-     "BC"
-    ],
-    "v": "B"
-   },
-   {
-    "name": "BCA",
-    "sides": [
-     "BC",
-     "CA"
-    ],
-    "v": "C"
-   }
-  ],
-  "check": {
-   "answer": "0",
-   "q": "Tam giác thường có mấy trục đối xứng?",
-   "unit": "trục"
-  },
-  "facts": [
-   "Cách đọc tên: tam giác ABC. Các cạnh đọc bằng 2 chữ in hoa: cạnh AB, BC, CA. Các góc đọc bằng 3 chữ in hoa, chữ ở giữa là đỉnh: góc CAB là góc ở đỉnh A, góc ABC ở đỉnh B, góc BCA ở đỉnh C. Bấm vào các tên tô đậm để xem trên hình.",
-   "Ba cạnh có độ dài khác nhau: cạnh AB dài nhất, nằm ngang ở dưới cùng; hai cạnh còn lại ngắn hơn rõ rệt",
-   "Ba góc có số đo khác nhau",
-   "Tam giác có 3 đường cao. Đường cao là đoạn thẳng kẻ từ một đỉnh và vuông góc với cạnh đối diện (nhìn ký hiệu góc vuông ở chân mỗi đường cao). Bấm vào từng đường đứt nét màu tím trên hình — hoặc bấm vào tên tô đậm — để xem: chiều cao từ đỉnh C đến cạnh AB, chiều cao từ đỉnh A đến cạnh BC, chiều cao từ đỉnh B đến cạnh CA.",
-   "Không có trục đối xứng, cũng không có tâm đối xứng"
-  ],
-  "formulas": [
-   {
-    "f": "C = a + b + c",
-    "label": "Chu vi",
-    "note": "a = cạnh BC (đối diện đỉnh A), b = cạnh CA, c = cạnh AB. Tam giác thường là kiến thức bổ trợ (ôn nền), không thuộc Chương IV lớp 6 KNTT"
-   },
-   {
-    "f": "S = (đáy × chiều cao) : 2",
-    "label": "Diện tích",
-    "note": "Khi tính diện tích, ta chọn một cạnh làm đáy rồi dùng đường cao hạ từ đỉnh đối diện xuống cạnh đó. Trong hình đang lấy đáy là AB, chiều cao là đường cao hạ từ đỉnh C"
-   }
-  ],
-  "id": "tam-giac-thuong",
-  "links": [
-   {
-    "act": "angle:CAB",
-    "label": "Góc CAB — đọc: C-A-B, đỉnh A ở giữa",
-    "t": "góc CAB"
-   },
-   {
-    "act": "angle:ABC",
-    "label": "Góc ABC — đọc: A-B-C, đỉnh B ở giữa",
-    "t": "góc ABC"
-   },
-   {
-    "act": "angle:BCA",
-    "label": "Góc BCA — đọc: B-C-A, đỉnh C ở giữa",
-    "t": "góc BCA"
-   },
-   {
-    "act": "shape",
-    "label": "Tam giác ABC — các đỉnh A, B, C",
-    "t": "ABC"
-   },
-   {
-    "act": "side:AB",
-    "label": "Cạnh AB (ký hiệu độ dài: c)",
-    "t": "AB"
-   },
-   {
-    "act": "side:BC",
-    "label": "Cạnh BC (ký hiệu độ dài: a)",
-    "t": "BC"
-   },
-   {
-    "act": "side:CA",
-    "label": "Cạnh CA (ký hiệu độ dài: b)",
-    "t": "CA"
-   },
-   {
-    "act": "nm",
-    "fact": 3,
-    "label": "Chiều cao từ đỉnh C đến cạnh AB — đoạn này vuông góc với cạnh AB",
-    "t": "chiều cao từ đỉnh C đến cạnh AB",
-    "target": "Chiều cao từ đỉnh C đến cạnh AB"
-   },
-   {
-    "act": "nm",
-    "fact": 3,
-    "label": "Chiều cao từ đỉnh A đến cạnh BC — đoạn này vuông góc với cạnh BC",
-    "t": "chiều cao từ đỉnh A đến cạnh BC",
-    "target": "Chiều cao từ đỉnh A đến cạnh BC"
-   },
-   {
-    "act": "nm",
-    "fact": 3,
-    "label": "Chiều cao từ đỉnh B đến cạnh CA — đoạn này vuông góc với cạnh CA",
-    "t": "chiều cao từ đỉnh B đến cạnh CA",
-    "target": "Chiều cao từ đỉnh B đến cạnh CA"
-   }
-  ],
-  "name": "Tam giác thường (bổ trợ)",
-  "svg": "<svg viewBox=\"0 0 255 220\" style=\"width:100%;max-width:340px\"><polygon class=\"hot\" data-f=\"4\" points=\"20,180 235,180 100,35\" fill=\"#fff8e1\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"235\" y1=\"180\" x2=\"100\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"100\" y1=\"35\" x2=\"20\" y2=\"180\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><path class=\"hot\" data-f=\"2\" d=\"M 31 161 Q 20 180 42 180\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M 213 180 Q 235 180 220 164\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M 115 51 Q 100 35 89 54\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh C đến cạnh AB\" data-f=\"3\" x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"90,180 90,170 100,170\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh A đến cạnh BC\" data-f=\"3\" x1=\"20\" y1=\"180\" x2=\"135\" y2=\"73\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"142,80 135,87 128,80\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh B đến cạnh CA\" data-f=\"3\" x1=\"235\" y1=\"180\" x2=\"70\" y2=\"89\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"75,80 84,85 79,94\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh C đến cạnh AB\" x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh A đến cạnh BC\" x1=\"20\" y1=\"180\" x2=\"135\" y2=\"73\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh B đến cạnh CA\" x1=\"235\" y1=\"180\" x2=\"70\" y2=\"89\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><g class=\"ovl\" style=\"display:none\"><text x=\"178\" y=\"102\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"34\" y=\"104\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"121\" y=\"202\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"20,180 235,180 100,35\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#d84315\" stroke-width=\"3\"/><line x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#d84315\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"121\" y=\"202\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"107\" y=\"112\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">h</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"2\" y=\"197\">A</text><text x=\"240\" y=\"197\">B</text><text x=\"107\" y=\"27\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc CAB — đỉnh A ở giữa\" points=\"20,180 33,157 46,180\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"235,180 209,180 217,161\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCA — đỉnh C ở giữa\" points=\"100,35 118,54 87,58\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"235\" y1=\"180\" x2=\"100\" y2=\"35\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"100\" y1=\"35\" x2=\"20\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"20\" cy=\"180\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"235\" cy=\"180\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"100\" cy=\"35\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
- },
- {
-  "angles": [
-   {
-    "name": "CAB",
-    "sides": [
-     "CA",
-     "AB"
-    ],
-    "v": "A"
-   },
-   {
-    "name": "ABC",
-    "sides": [
-     "AB",
-     "BC"
-    ],
-    "v": "B"
-   },
-   {
-    "name": "BCA",
-    "sides": [
-     "BC",
-     "CA"
-    ],
-    "v": "C"
-   }
-  ],
-  "check": {
-   "answer": "1",
-   "q": "Tam giác vuông có mấy góc vuông?",
-   "unit": "góc"
-  },
-  "facts": [
-   "Cách đọc tên: tam giác vuông ABC, vuông tại A. Các cạnh: AB, BC, CA. Góc ở đỉnh A đọc là góc CAB — là góc vuông (90°). Cạnh BC đối diện góc vuông gọi là cạnh huyền. Bấm vào các tên tô đậm để xem trên hình.",
-   "Có đúng 1 góc vuông (90°) tại đỉnh A — ký hiệu ô vuông nhỏ màu đỏ ở góc A. Hai góc còn lại là góc nhọn",
-   "Cạnh BC là cạnh huyền: cạnh đối diện với góc vuông, và là cạnh dài nhất của tam giác vuông",
-   "Hai cạnh AB và AC kề với góc vuông gọi là hai cạnh góc vuông. Khi lấy AB làm cạnh đáy thì AC chính là chiều cao của tam giác",
-   "Tam giác vuông trong hình này không có trục đối xứng"
-  ],
-  "formulas": [
-   {
-    "f": "C = a + b + c",
-    "label": "Chu vi",
-    "note": "a = cạnh huyền BC, b = cạnh CA, c = cạnh AB. Tam giác vuông là kiến thức bổ trợ (ôn nền), không thuộc Chương IV lớp 6 KNTT"
-   },
-   {
-    "f": "S = (c × b) : 2",
-    "label": "Diện tích",
-    "note": "Lấy cạnh AB làm đáy (độ dài c) thì cạnh AC (độ dài b) chính là chiều cao, vì AC vuông góc với AB"
-   }
-  ],
-  "id": "tam-giac-vuong",
-  "links": [
-   {
-    "act": "angle:CAB",
-    "label": "Góc CAB — góc vuông ở đỉnh A (90°)",
-    "t": "góc CAB"
-   },
-   {
-    "act": "shape",
-    "label": "Tam giác vuông ABC — các đỉnh A, B, C",
-    "t": "ABC"
-   },
-   {
-    "act": "side:BC",
-    "label": "Cạnh BC — cạnh huyền (dài nhất)",
-    "t": "BC"
-   },
-   {
-    "act": "side:AB",
-    "label": "Cạnh AB — cạnh góc vuông",
-    "t": "AB"
-   },
-   {
-    "act": "side:CA",
-    "label": "Cạnh CA — cạnh góc vuông",
-    "t": "CA"
-   }
-  ],
-  "name": "Tam giác vuông (bổ trợ)",
-  "svg": "<svg viewBox=\"0 0 240 215\" style=\"width:100%;max-width:340px\"><polygon class=\"hot\" data-f=\"4\" points=\"55,165 200,165 55,45\" fill=\"#fff8e1\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"2\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#6a1b9a\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,165 72,148 55,148\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2.5\"/><g class=\"ovl\" style=\"display:none\"><text x=\"138\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"55,165 200,165 55,45\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#d84315\" stroke-width=\"3\"/><line x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#d84315\" stroke-width=\"3\"/><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"32\" y=\"182\">A</text><text x=\"206\" y=\"182\">B</text><text x=\"34\" y=\"40\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc CAB — đỉnh A ở giữa\" points=\"55,165 55,139 81,165\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"200,165 174,165 180,148\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCA — đỉnh C ở giữa\" points=\"55,45 75,62 55,71\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"55\" y1=\"45\" x2=\"55\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"55\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"200\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"55\" cy=\"45\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
  },
  {
   "angles": [
@@ -999,101 +902,198 @@
   "svg": "<svg viewBox=\"0 0 240 200\"><polygon points=\"35,155 205,155 168,60 72,60\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"1\" x1=\"35\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"205\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"47\" y1=\"100\" x2=\"60\" y2=\"114\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"180\" y1=\"114\" x2=\"193\" y2=\"100\" stroke=\"#e65100\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M62,155 A27,27 0 0 0 49,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M178,155 A27,27 0 0 1 191,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"3\" x1=\"35\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"3\" x1=\"205\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"4\" x1=\"120\" y1=\"45\" x2=\"120\" y2=\"170\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/><g class=\"ovl\" style=\"display:none\"><text x=\"114\" y=\"174\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"114\" y=\"48\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"30\" y=\"102\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"198\" y=\"102\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"35,155 205,155 168,60 72,60\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"120\" y1=\"60\" x2=\"120\" y2=\"155\" stroke=\"#d84315\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\"/><text x=\"114\" y=\"174\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"114\" y=\"48\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"128\" y=\"112\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">h</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"18\" y=\"171\">A</text><text x=\"211\" y=\"171\">B</text><text x=\"176\" y=\"51\">C</text><text x=\"54\" y=\"51\">D</text></g><g><polygon class=\"nm\" data-nm=\"Góc DAB — đỉnh A ở giữa\" points=\"35,155 43,134 61,155\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"205,155 179,155 197,134\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCD — đỉnh C ở giữa\" points=\"168,60 176,81 147,60\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc CDA — đỉnh D ở giữa\" points=\"72,60 93,60 64,81\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB — đáy lớn\" x1=\"35\" y1=\"155\" x2=\"205\" y2=\"155\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC — cạnh bên\" x1=\"205\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CD — đáy nhỏ\" x1=\"168\" y1=\"60\" x2=\"72\" y2=\"60\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh DA — cạnh bên\" x1=\"72\" y1=\"60\" x2=\"35\" y2=\"155\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"35\" cy=\"155\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"205\" cy=\"155\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"168\" cy=\"60\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh D\" cx=\"72\" cy=\"60\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
  },
  {
-  "angles": [],
+  "angles": [
+   {
+    "name": "CAB",
+    "sides": [
+     "CA",
+     "AB"
+    ],
+    "v": "A"
+   },
+   {
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ],
+    "v": "B"
+   },
+   {
+    "name": "BCA",
+    "sides": [
+     "BC",
+     "CA"
+    ],
+    "v": "C"
+   }
+  ],
   "check": {
-   "answer": "5",
-   "q": "Tập hợp B = {3; 6; 9; 12; 15} có bao nhiêu phần tử?",
-   "unit": "phần tử"
+   "answer": "0",
+   "q": "Tam giác thường có mấy trục đối xứng?",
+   "unit": "trục"
   },
   "facts": [
-   "Tập hợp là một nhóm các đối tượng được xác định rõ ràng. Mỗi đối tượng trong tập hợp gọi là một phần tử của tập hợp. Hình bầu dục trên hình là tập hợp A, gồm các số lẻ nhỏ hơn 10.",
-   "Ký hiệu ∈ đọc là 'thuộc'. Ta viết 5 ∈ A và đọc là '5 thuộc A', nghĩa là 5 là một phần tử của tập hợp A.",
-   "Ký hiệu ∉ đọc là 'không thuộc'. Số 4 đứng ở ngoài tập hợp A nên ta viết 4 ∉ A, đọc là '4 không thuộc A'.",
-   "Cách viết tập hợp thứ nhất: liệt kê các phần tử. Để các phần tử trong dấu { }, mỗi phần tử viết một lần, ngăn cách nhau bằng dấu chấm phẩy: A = {1; 3; 5; 7; 9}.",
-   "Cách viết tập hợp thứ hai: chỉ ra tính chất đặc trưng của các phần tử. A = {x | x là số tự nhiên lẻ và x < 10}, đọc là: A gồm các phần tử x sao cho x là số tự nhiên lẻ, nhỏ hơn 10."
+   "Cách đọc tên: tam giác ABC. Các cạnh đọc bằng 2 chữ in hoa: cạnh AB, BC, CA. Các góc đọc bằng 3 chữ in hoa, chữ ở giữa là đỉnh: góc CAB là góc ở đỉnh A, góc ABC ở đỉnh B, góc BCA ở đỉnh C. Bấm vào các tên tô đậm để xem trên hình.",
+   "Ba cạnh có độ dài khác nhau: cạnh AB dài nhất, nằm ngang ở dưới cùng; hai cạnh còn lại ngắn hơn rõ rệt",
+   "Ba góc có số đo khác nhau",
+   "Tam giác có 3 đường cao. Đường cao là đoạn thẳng kẻ từ một đỉnh và vuông góc với cạnh đối diện (nhìn ký hiệu góc vuông ở chân mỗi đường cao). Bấm vào từng đường đứt nét màu tím trên hình — hoặc bấm vào tên tô đậm — để xem: chiều cao từ đỉnh C đến cạnh AB, chiều cao từ đỉnh A đến cạnh BC, chiều cao từ đỉnh B đến cạnh CA.",
+   "Không có trục đối xứng, cũng không có tâm đối xứng"
   ],
   "formulas": [
    {
-    "f": "A = {1; 3; 5; 7; 9}",
-    "label": "Cách liệt kê",
-    "note": "viết mọi phần tử trong dấu { }"
+    "f": "C = a + b + c",
+    "label": "Chu vi",
+    "note": "a = cạnh BC (đối diện đỉnh A), b = cạnh CA, c = cạnh AB. Tam giác thường là kiến thức bổ trợ (ôn nền), không thuộc Chương IV lớp 6 KNTT"
    },
    {
-    "f": "A = {x | x là số lẻ, x < 10}",
-    "label": "Cách nêu tính chất",
-    "note": "chỉ ra tính chất chung của các phần tử"
+    "f": "S = (đáy × chiều cao) : 2",
+    "label": "Diện tích",
+    "note": "Khi tính diện tích, ta chọn một cạnh làm đáy rồi dùng đường cao hạ từ đỉnh đối diện xuống cạnh đó. Trong hình đang lấy đáy là AB, chiều cao là đường cao hạ từ đỉnh C"
    }
   ],
-  "id": "tap-hop",
-  "info": "🔤 Bấm vào một yếu tố trên hình để xem giải thích.",
-  "intro": "👆 Bấm vào hình bầu dục và các số trên hình để xem đặc điểm tương ứng.<br>💡 Số nằm trong hình bầu dục thì <b>thuộc</b> tập hợp; số nằm ngoài hình bầu dục thì <b>không thuộc</b> tập hợp.",
-  "links": [],
-  "name": "Tập hợp",
-  "svg": "<svg viewBox=\"0 0 300 210\"><ellipse class=\"hot\" data-f=\"0\" cx=\"140\" cy=\"102\" rx=\"105\" ry=\"76\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"50\" y=\"42\" font-size=\"18\" font-weight=\"bold\" fill=\"#0d47a1\">A</text><g class=\"hot\" data-f=\"3\"><circle cx=\"88\" cy=\"72\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"88\" y=\"77\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">1</text></g><g><circle cx=\"140\" cy=\"58\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"140\" y=\"63\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">3</text></g><g class=\"hot\" data-f=\"1\"><circle cx=\"186\" cy=\"82\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"186\" y=\"87\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">5</text></g><g><circle cx=\"108\" cy=\"132\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"108\" y=\"137\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">7</text></g><g><circle cx=\"168\" cy=\"138\" r=\"15\" fill=\"#ffffff\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"168\" y=\"143\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">9</text></g><g class=\"hot\" data-f=\"2\"><circle cx=\"266\" cy=\"66\" r=\"15\" fill=\"#fff3e0\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"266\" y=\"71\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#e65100\">4</text></g><g class=\"hot\" data-f=\"4\"><rect x=\"152\" y=\"172\" width=\"142\" height=\"30\" rx=\"8\" fill=\"#fff3e0\" stroke=\"#ef6c00\" stroke-width=\"1.5\"/><text x=\"223\" y=\"191\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#e65100\">x | x lẻ, x &lt; 10</text></g><g class=\"ovl\" style=\"display:none\"><ellipse cx=\"140\" cy=\"102\" rx=\"105\" ry=\"76\" fill=\"none\" stroke=\"#ff9800\" stroke-width=\"5\" opacity=\"0.55\"/></g><g class=\"ovl\" style=\"display:none\"><rect x=\"152\" y=\"172\" width=\"142\" height=\"30\" rx=\"8\" fill=\"#ff9800\" opacity=\"0.3\"/></g></svg>"
+  "id": "tam-giac-thuong",
+  "links": [
+   {
+    "act": "angle:CAB",
+    "label": "Góc CAB — đọc: C-A-B, đỉnh A ở giữa",
+    "t": "góc CAB"
+   },
+   {
+    "act": "angle:ABC",
+    "label": "Góc ABC — đọc: A-B-C, đỉnh B ở giữa",
+    "t": "góc ABC"
+   },
+   {
+    "act": "angle:BCA",
+    "label": "Góc BCA — đọc: B-C-A, đỉnh C ở giữa",
+    "t": "góc BCA"
+   },
+   {
+    "act": "shape",
+    "label": "Tam giác ABC — các đỉnh A, B, C",
+    "t": "ABC"
+   },
+   {
+    "act": "side:AB",
+    "label": "Cạnh AB (ký hiệu độ dài: c)",
+    "t": "AB"
+   },
+   {
+    "act": "side:BC",
+    "label": "Cạnh BC (ký hiệu độ dài: a)",
+    "t": "BC"
+   },
+   {
+    "act": "side:CA",
+    "label": "Cạnh CA (ký hiệu độ dài: b)",
+    "t": "CA"
+   },
+   {
+    "act": "nm",
+    "fact": 3,
+    "label": "Chiều cao từ đỉnh C đến cạnh AB — đoạn này vuông góc với cạnh AB",
+    "t": "chiều cao từ đỉnh C đến cạnh AB",
+    "target": "Chiều cao từ đỉnh C đến cạnh AB"
+   },
+   {
+    "act": "nm",
+    "fact": 3,
+    "label": "Chiều cao từ đỉnh A đến cạnh BC — đoạn này vuông góc với cạnh BC",
+    "t": "chiều cao từ đỉnh A đến cạnh BC",
+    "target": "Chiều cao từ đỉnh A đến cạnh BC"
+   },
+   {
+    "act": "nm",
+    "fact": 3,
+    "label": "Chiều cao từ đỉnh B đến cạnh CA — đoạn này vuông góc với cạnh CA",
+    "t": "chiều cao từ đỉnh B đến cạnh CA",
+    "target": "Chiều cao từ đỉnh B đến cạnh CA"
+   }
+  ],
+  "name": "Tam giác thường (bổ trợ)",
+  "svg": "<svg viewBox=\"0 0 255 220\" style=\"width:100%;max-width:340px\"><polygon class=\"hot\" data-f=\"4\" points=\"20,180 235,180 100,35\" fill=\"#fff8e1\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"235\" y1=\"180\" x2=\"100\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"100\" y1=\"35\" x2=\"20\" y2=\"180\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><path class=\"hot\" data-f=\"2\" d=\"M 31 161 Q 20 180 42 180\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M 213 180 Q 235 180 220 164\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"2\" d=\"M 115 51 Q 100 35 89 54\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh C đến cạnh AB\" data-f=\"3\" x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"90,180 90,170 100,170\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh A đến cạnh BC\" data-f=\"3\" x1=\"20\" y1=\"180\" x2=\"135\" y2=\"73\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"142,80 135,87 128,80\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"hot nm\" data-nm=\"Chiều cao từ đỉnh B đến cạnh CA\" data-f=\"3\" x1=\"235\" y1=\"180\" x2=\"70\" y2=\"89\" stroke=\"#6a1b9a\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline class=\"hot\" data-f=\"3\" points=\"75,80 84,85 79,94\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"1.8\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh C đến cạnh AB\" x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh A đến cạnh BC\" x1=\"20\" y1=\"180\" x2=\"135\" y2=\"73\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Chiều cao từ đỉnh B đến cạnh CA\" x1=\"235\" y1=\"180\" x2=\"70\" y2=\"89\" stroke=\"#ff6d00\" stroke-width=\"11\" opacity=\"0\" stroke-linecap=\"round\"/><g class=\"ovl\" style=\"display:none\"><text x=\"178\" y=\"102\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"34\" y=\"104\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"121\" y=\"202\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"20,180 235,180 100,35\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#d84315\" stroke-width=\"3\"/><line x1=\"100\" y1=\"35\" x2=\"100\" y2=\"180\" stroke=\"#d84315\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"121\" y=\"202\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"107\" y=\"112\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">h</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"2\" y=\"197\">A</text><text x=\"240\" y=\"197\">B</text><text x=\"107\" y=\"27\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc CAB — đỉnh A ở giữa\" points=\"20,180 33,157 46,180\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"235,180 209,180 217,161\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCA — đỉnh C ở giữa\" points=\"100,35 118,54 87,58\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"20\" y1=\"180\" x2=\"235\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"235\" y1=\"180\" x2=\"100\" y2=\"35\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"100\" y1=\"35\" x2=\"20\" y2=\"180\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"20\" cy=\"180\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"235\" cy=\"180\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"100\" cy=\"35\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
  },
  {
-  "angles": [],
+  "angles": [
+   {
+    "name": "CAB",
+    "sides": [
+     "CA",
+     "AB"
+    ],
+    "v": "A"
+   },
+   {
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ],
+    "v": "B"
+   },
+   {
+    "name": "BCA",
+    "sides": [
+     "BC",
+     "CA"
+    ],
+    "v": "C"
+   }
+  ],
   "check": {
-   "answer": "14",
-   "q": "Số liền trước của 15 là số nào?",
-   "unit": ""
+   "answer": "1",
+   "q": "Tam giác vuông có mấy góc vuông?",
+   "unit": "góc"
   },
   "facts": [
-   "Tia số là một tia có gốc là điểm 0. Mỗi số tự nhiên được biểu diễn bởi một điểm trên tia số, các điểm cách đều nhau.",
-   "So sánh hai số bằng tia số: số ở bên phải thì lớn hơn số ở bên trái. Ví dụ: điểm 5 nằm bên phải điểm 2 nên 5 > 2, đọc là '5 lớn hơn 2'; ngược lại 2 < 5, đọc là '2 bé hơn 5'.",
-   "Số liền sau của một số đứng ngay bên phải số đó: số liền sau của 6 là 7. Số liền trước đứng ngay bên trái: số liền trước của 7 là 6.",
-   "Giữa hai số trên tia số có thể có các số khác: giữa 5 và 9 có các số 6; 7; 8. Số tự nhiên nhỏ nhất là 0, và không có số tự nhiên lớn nhất."
+   "Cách đọc tên: tam giác vuông ABC, vuông tại A. Các cạnh: AB, BC, CA. Góc ở đỉnh A đọc là góc CAB — là góc vuông (90°). Cạnh BC đối diện góc vuông gọi là cạnh huyền. Bấm vào các tên tô đậm để xem trên hình.",
+   "Có đúng 1 góc vuông (90°) tại đỉnh A — ký hiệu ô vuông nhỏ màu đỏ ở góc A. Hai góc còn lại là góc nhọn",
+   "Cạnh BC là cạnh huyền: cạnh đối diện với góc vuông, và là cạnh dài nhất của tam giác vuông",
+   "Hai cạnh AB và AC kề với góc vuông gọi là hai cạnh góc vuông. Khi lấy AB làm cạnh đáy thì AC chính là chiều cao của tam giác",
+   "Tam giác vuông trong hình này không có trục đối xứng"
   ],
   "formulas": [
    {
-    "f": "a < b khi điểm a nằm bên trái điểm b",
-    "label": "So sánh",
-    "note": "số ở bên trái bé hơn, số ở bên phải lớn hơn"
+    "f": "C = a + b + c",
+    "label": "Chu vi",
+    "note": "a = cạnh huyền BC, b = cạnh CA, c = cạnh AB. Tam giác vuông là kiến thức bổ trợ (ôn nền), không thuộc Chương IV lớp 6 KNTT"
    },
    {
-    "f": "liền sau của a là a + 1; liền trước của a là a − 1",
-    "label": "Liền sau, liền trước",
-    "note": "hai số kề nhau hơn kém nhau 1 đơn vị"
+    "f": "S = (c × b) : 2",
+    "label": "Diện tích",
+    "note": "Lấy cạnh AB làm đáy (độ dài c) thì cạnh AC (độ dài b) chính là chiều cao, vì AC vuông góc với AB"
    }
   ],
-  "id": "tia-so",
-  "info": "🔤 Bấm vào một điểm tròn trên tia số để xem giải thích về điểm đó.",
-  "intro": "👆 Bấm vào các điểm tròn trên tia số để xem đặc điểm tương ứng.<br>💡 Trên tia số, các số tăng dần từ trái sang phải: càng đi sang phải thì số càng lớn.",
-  "links": [],
-  "name": "Tia số",
-  "svg": "<svg viewBox=\"0 0 470 90\"><line x1=\"20\" y1=\"45\" x2=\"446\" y2=\"45\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"446,39 460,45 446,51\" fill=\"#37474f\"/><line x1=\"50\" y1=\"38\" x2=\"50\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"50\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><circle class=\"hot\" data-f=\"0\" cx=\"50\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"88\" y1=\"38\" x2=\"88\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"88\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"88\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"126\" y1=\"38\" x2=\"126\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"126\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle class=\"hot\" data-f=\"1\" cx=\"126\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"164\" y1=\"38\" x2=\"164\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"164\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><circle cx=\"164\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"202\" y1=\"38\" x2=\"202\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"202\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"202\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"240\" y1=\"38\" x2=\"240\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"240\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle class=\"hot\" data-f=\"1\" cx=\"240\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"278\" y1=\"38\" x2=\"278\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"278\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">6</text><circle class=\"hot\" data-f=\"2\" cx=\"278\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"316\" y1=\"38\" x2=\"316\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"316\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">7</text><circle class=\"hot\" data-f=\"2\" cx=\"316\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"354\" y1=\"38\" x2=\"354\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"354\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">8</text><circle cx=\"354\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"392\" y1=\"38\" x2=\"392\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"392\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">9</text><circle class=\"hot\" data-f=\"3\" cx=\"392\" cy=\"45\" r=\"11\" fill=\"#bbdefb\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"430\" y1=\"38\" x2=\"430\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"430\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">10</text><circle cx=\"430\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><g class=\"ovl\" style=\"display:none\"><circle cx=\"126\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"240\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g><g class=\"ovl\" style=\"display:none\"><circle cx=\"278\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"316\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g></svg>"
- },
- {
-  "angles": [],
-  "check": {
-   "answer": "8",
-   "q": "Số đối của −8 là số nào?",
-   "unit": ""
-  },
-  "facts": [
-   "Trục số là một đường thẳng có điểm gốc 0 ở giữa. Bên phải điểm 0 là các số nguyên dương: 1; 2; 3; ... Bên trái điểm 0 là các số nguyên âm: −1; −2; −3; ... Số 0 không phải số nguyên âm, cũng không phải số nguyên dương.",
-   "Số nguyên âm luôn nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương. Ví dụ: −4 < 0, đọc là 'âm bốn bé hơn không'. Số nguyên âm có dấu trừ viết ở phía trước.",
-   "Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều điểm 0. Ví dụ: 3 và −3 là hai số đối nhau, cùng cách điểm 0 ba đơn vị. Số đối của 0 là chính nó, tức là 0.",
-   "So sánh hai số nguyên âm: số nào gần điểm 0 hơn thì số đó lớn hơn. Ví dụ: −2 > −5 vì điểm −2 nằm ở bên phải điểm −5 trên trục số.",
-   "Số nguyên âm dùng nhiều trong đời sống: nhiệt độ dưới 0°C viết bằng số âm, ví dụ −3°C đọc là 'âm ba độ C'; số tiền đang nợ cũng có thể ghi bằng số âm."
-  ],
-  "formulas": [
+  "id": "tam-giac-vuong",
+  "links": [
    {
-    "f": "a và −a là hai số đối nhau",
-    "label": "Số đối",
-    "note": "hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0"
+    "act": "angle:CAB",
+    "label": "Góc CAB — góc vuông ở đỉnh A (90°)",
+    "t": "góc CAB"
    },
    {
-    "f": "trên trục số, số ở bên phải lớn hơn",
-    "label": "So sánh",
-    "note": "mọi số nguyên âm đều nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương"
+    "act": "shape",
+    "label": "Tam giác vuông ABC — các đỉnh A, B, C",
+    "t": "ABC"
+   },
+   {
+    "act": "side:BC",
+    "label": "Cạnh BC — cạnh huyền (dài nhất)",
+    "t": "BC"
+   },
+   {
+    "act": "side:AB",
+    "label": "Cạnh AB — cạnh góc vuông",
+    "t": "AB"
+   },
+   {
+    "act": "side:CA",
+    "label": "Cạnh CA — cạnh góc vuông",
+    "t": "CA"
    }
   ],
-  "id": "truc-so-nguyen",
-  "info": "🔤 Bấm vào một điểm tròn trên trục số để xem giải thích về điểm đó.",
-  "intro": "👆 Bấm vào các điểm tròn trên trục số để xem đặc điểm tương ứng.<br>💡 Bên trái điểm 0 là các số nguyên âm (có dấu − ở phía trước); bên phải điểm 0 là các số nguyên dương.",
-  "links": [],
-  "name": "Trục số (số nguyên)",
-  "svg": "<svg viewBox=\"0 0 470 90\"><line x1=\"14\" y1=\"45\" x2=\"442\" y2=\"45\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"14,39 0,45 14,51\" fill=\"#37474f\"/><polygon points=\"442,39 456,45 442,51\" fill=\"#37474f\"/><line x1=\"45\" y1=\"38\" x2=\"45\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"45\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−5</text><circle class=\"hot\" data-f=\"3\" cx=\"45\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"83\" y1=\"38\" x2=\"83\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"83\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−4</text><circle class=\"hot\" data-f=\"1\" cx=\"83\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"121\" y1=\"38\" x2=\"121\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"121\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−3</text><circle class=\"hot\" data-f=\"2\" cx=\"121\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"159\" y1=\"38\" x2=\"159\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"159\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−2</text><circle class=\"hot\" data-f=\"3\" cx=\"159\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"197\" y1=\"38\" x2=\"197\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"197\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−1</text><circle class=\"hot\" data-f=\"4\" cx=\"197\" cy=\"45\" r=\"11\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><line x1=\"235\" y1=\"38\" x2=\"235\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"235\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><circle class=\"hot\" data-f=\"0\" cx=\"235\" cy=\"45\" r=\"11\" fill=\"#fff59d\" stroke=\"#f57c00\" stroke-width=\"2\"/><line x1=\"273\" y1=\"38\" x2=\"273\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"273\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"273\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"311\" y1=\"38\" x2=\"311\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"311\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle cx=\"311\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"349\" y1=\"38\" x2=\"349\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"349\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><circle class=\"hot\" data-f=\"2\" cx=\"349\" cy=\"45\" r=\"11\" fill=\"#c8e6c9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><line x1=\"387\" y1=\"38\" x2=\"387\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"387\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"387\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><line x1=\"425\" y1=\"38\" x2=\"425\" y2=\"52\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"425\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle cx=\"425\" cy=\"45\" r=\"3.5\" fill=\"#90a4ae\"/><g class=\"ovl\" style=\"display:none\"><circle cx=\"121\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/><circle cx=\"349\" cy=\"45\" r=\"16\" fill=\"#ff9800\" opacity=\"0.35\"/></g><g class=\"ovl\" style=\"display:none\"><rect x=\"30\" y=\"24\" width=\"205\" height=\"42\" fill=\"#ff9800\" opacity=\"0.16\"/></g></svg>"
+  "name": "Tam giác vuông (bổ trợ)",
+  "svg": "<svg viewBox=\"0 0 240 215\" style=\"width:100%;max-width:340px\"><polygon class=\"hot\" data-f=\"4\" points=\"55,165 200,165 55,45\" fill=\"#fff8e1\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"2\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#6a1b9a\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,165 72,148 55,148\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2.5\"/><g class=\"ovl\" style=\"display:none\"><text x=\"138\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"55,165 200,165 55,45\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#d84315\" stroke-width=\"3\"/><line x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#d84315\" stroke-width=\"3\"/><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"32\" y=\"182\">A</text><text x=\"206\" y=\"182\">B</text><text x=\"34\" y=\"40\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc CAB — đỉnh A ở giữa\" points=\"55,165 55,139 81,165\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"200,165 174,165 180,148\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCA — đỉnh C ở giữa\" points=\"55,45 75,62 55,71\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"55\" y1=\"45\" x2=\"55\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"55\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"200\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"55\" cy=\"45\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
  }
 ]

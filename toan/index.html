@@ -398,8 +398,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Câu nào bắt đúng ý chính để nhận ra một số nguyên tố? A) Số đó là số lẻ. B) Số đó lớn hơn 1 và chỉ có hai ước là 1 và chính nó. C) Số đó có chữ số tận cùng là 3.</button><div class="qa-a">Đáp án đúng là B. A sai vì 9; 15; 21 là số lẻ nhưng là hợp số. C không liên quan đến định nghĩa.</div></div>
 <div class="qa"><button class="qa-q" type="button">Số 29 là số nguyên tố hay hợp số? Vì sao?</button><div class="qa-a">Số nguyên tố, vì 29 chỉ có hai ước là 1 và 29.</div></div>
 <div class="qa"><button class="qa-q" type="button">Phân tích 36 ra thừa số nguyên tố.</button><div class="qa-a">36 = 2 × 2 × 3 × 3 = 2² × 3².</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-gen="primeFactor">✏️ Luyện bài này</button></div>
-<p class="pnote">Bài 10 chưa có bài mẫu riêng trong thư viện. Nút "Luyện bài này" sẽ sinh ngay một đề mới của dạng "Số nguyên tố" (phân tích ra thừa số nguyên tố) để em luyện.</p>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p28">✏️ Luyện bài này</button></div>
+<p class="pnote">Bài mẫu riêng của Bài 10 là bài "Số nguyên tố và hợp số" trong thư viện bài mẫu ở Phần 2 — nút "Luyện bài này" mở đúng bài mẫu đó.</p>
 </div>
 <div class="lesson" id="lh11">
 <span class="cbadge">Chương 2 · Tính chia hết trong tập hợp các số tự nhiên</span>
@@ -505,8 +505,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <div class="qa"><button class="qa-q" type="button">Chỗ hay sai nhất của bài quy tắc dấu ngoặc là gì? A) Quên đổi dấu một số hạng khi phía trước ngoặc là dấu trừ. B) Viết số quá to. C) Dùng bút chì.</button><div class="qa-a">Đáp án đúng là A — khi phía trước ngoặc có dấu trừ, phải đổi dấu MỌI số hạng trong ngoặc, kể cả số hạng ở cuối. Đây là ý mấu chốt của bài.</div></div>
 <div class="qa"><button class="qa-q" type="button">Bỏ dấu ngoặc rồi tính: 40 − (15 + 5).</button><div class="qa-a">40 − 15 − 5 = 20.</div></div>
 <div class="qa"><button class="qa-q" type="button">Tính (−30) − (−12).</button><div class="qa-a">(−30) − (−12) = (−30) + 12 = −18.</div></div>
-<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p9">✏️ Luyện bài này</button></div>
-<p class="pnote">Bài 15 chưa có bài mẫu đúng riêng về quy tắc dấu ngoặc. Bài mẫu gần nhất cùng chương là bài "Tính giá trị biểu thức số nguyên" — nút luyện mở bài đó để em luyện bỏ ngoặc và tính biểu thức.</p>
+<div class="ltrow"><button class="btn btn-c" type="button" data-sample="p27">✏️ Luyện bài này</button></div>
+<p class="pnote">Bài mẫu riêng của Bài 15 là bài "Tính biểu thức có dấu ngoặc" trong thư viện bài mẫu ở Phần 2 — nút "Luyện bài này" mở đúng bài mẫu đó. Ngoài bài mẫu, ở Phần 2 em còn có mẫu sinh đề riêng về dấu ngoặc để luyện thêm nhiều đề mới.</p>
 </div>
 <div class="lesson" id="lh16">
 <span class="cbadge">Chương 3 · Số nguyên</span>
@@ -759,7 +759,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   </div>
 </div>
 
-<script src="gen.js?v=20261021h"></script>
+<script src="gen.js?v=20261021i"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -771,7 +771,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021h').then(r=>r.json()),fetch('theory.json?v=20261021h').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021i').then(r=>r.json()),fetch('theory.json?v=20261021i').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
