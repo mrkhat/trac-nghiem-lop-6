@@ -36,7 +36,8 @@
     "type": "data",
     "why": "Số liệu đề cho: biểu thức gồm phép nhân, chia, cộng, trừ — phải làm nhân/chia trước."
    }
-  ]
+  ],
+  "template": "mixedCalc"
  },
  {
   "analysis": {
@@ -75,7 +76,8 @@
     "type": "data",
     "why": "Số liệu đề cho: có lũy thừa 2³ và 4² — tính lũy thừa trước tiên."
    }
-  ]
+  ],
+  "template": "powerCalc"
  },
  {
   "analysis": {
@@ -126,7 +128,8 @@
     "type": "ask",
     "why": "Điều cần tìm: tổng số tiền cô giáo phải trả."
    }
-  ]
+  ],
+  "template": "buyWord"
  },
  {
   "analysis": {
@@ -166,7 +169,8 @@
     "type": "data",
     "why": "Đề cho: đẳng thức chứa x. Coi 3 × x là một số hạng chưa biết."
    }
-  ]
+  ],
+  "template": "findX"
  },
  {
   "analysis": {
@@ -232,7 +236,8 @@
     "type": "ask",
     "why": "Điều cần tìm + từ khóa \"nhiều nhất\": số phần lớn nhất có thể → tìm ƯCLN(24; 36)."
    }
-  ]
+  ],
+  "template": "gcdWord"
  },
  {
   "analysis": {
@@ -284,7 +289,8 @@
     "type": "ask",
     "why": "Điều cần tìm + từ khóa \"ít nhất\": số ngày nhỏ nhất → tìm BCNN(6; 8)."
    }
-  ]
+  ],
+  "template": "lcmWord"
  },
  {
   "analysis": {
@@ -335,7 +341,8 @@
     "type": "ask",
     "why": "Điều cần tìm: số học sinh khối 6."
    }
-  ]
+  ],
+  "template": "rangeWord"
  },
  {
   "analysis": {
@@ -396,7 +403,8 @@
     "type": "ask",
     "why": "Điều cần tìm (ý b): nhiệt độ buổi tối."
    }
-  ]
+  ],
+  "template": "tempWord"
  },
  {
   "analysis": {
@@ -434,7 +442,8 @@
     "type": "data",
     "why": "Số liệu đề cho: biểu thức số nguyên, tính từ trái sang phải."
    }
-  ]
+  ],
+  "template": "intExpr"
  },
  {
   "analysis": {
@@ -491,7 +500,8 @@
     "type": "ask",
     "why": "Điều cần tìm: số tiền còn lại của Nam."
    }
-  ]
+  ],
+  "template": "moneyWord"
  },
  {
   "analysis": {
@@ -546,7 +556,8 @@
     "type": "ask",
     "why": "Điều cần tìm (ý b): diện tích mảnh vườn."
    }
-  ]
+  ],
+  "template": "rectGeo"
  },
  {
   "analysis": {
@@ -596,7 +607,8 @@
     "type": "ask",
     "why": "Điều cần tìm (ý b): diện tích của sân."
    }
-  ]
+  ],
+  "template": "squareGeo"
  },
  {
   "analysis": {
@@ -640,7 +652,8 @@
     "type": "ask",
     "why": "Điều cần tìm: chu vi của biển báo."
    }
-  ]
+  ],
+  "template": "triGeo"
  },
  {
   "analysis": {
@@ -695,7 +708,8 @@
     "type": "ask",
     "why": "Điều cần tìm: chu vi mặt bàn = tổng 4 cạnh."
    }
-  ]
+  ],
+  "template": "trapGeo"
  },
  {
   "analysis": {
@@ -734,7 +748,8 @@
     "type": "ask",
     "why": "Điều cần tìm: diện tích viên gạch (hình thoi)."
    }
-  ]
+  ],
+  "template": "rhombusGeo"
  },
  {
   "analysis": {
@@ -778,7 +793,8 @@
     "type": "ask",
     "why": "Điều cần tìm: diện tích mảnh đất."
    }
-  ]
+  ],
+  "template": "paraGeo"
  },
  {
   "analysis": {
@@ -838,6 +854,7 @@
     "type": "data",
     "why": "Hình cần xét (ý c)."
    }
-  ]
+  ],
+  "template": "axisTriple"
  }
 ]

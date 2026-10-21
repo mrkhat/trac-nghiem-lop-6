@@ -201,6 +201,20 @@ paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
    parts:[{label:'Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Diện tích: ${base} × ${h} = ${A} (m²)`]};
 }},
+axisTriple:{chapter:5,topic:'Trục đối xứng',gen(l){
+  const all=[
+    {n:'Hình vuông',a:4},{n:'Hình chữ nhật',a:2},{n:'Tam giác đều',a:3},
+    {n:'Hình thoi',a:2},{n:'Hình thang cân',a:1},{n:'Lục giác đều',a:6},{n:'Hình bình hành',a:0}];
+  const shuffled=[...all].sort(()=>Math.random()-0.5).slice(0,3);
+  const labels=['a) ','b) ','c) '];
+  return{title:'Đếm trục đối xứng',text:'Mỗi hình sau có bao nhiêu trục đối xứng?\n'+shuffled.map((s,i)=>labels[i]+s.n).join('\n'),
+   analysis:{given:['Trục đối xứng là đường thẳng chia hình thành hai phần giống hệt nhau khi gấp lại'],ask:'Số trục đối xứng của từng hình',plan:'Tưởng tượng gấp hình theo các đường khác nhau: hình vuông gấp được theo 2 đường chéo và 2 đường giữa; hình chữ nhật chỉ gấp theo 2 đường giữa; tam giác đều gấp theo 3 đường từ đỉnh xuống cạnh đối diện; hình bình hành thường không gấp trùng theo đường nào.'},
+   hint:'Xem lại các thẻ ở mục Lý thuyết hình học: hình nào càng đều thì càng nhiều trục đối xứng.',
+   theory:'Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.',
+   kw:[{t:'bao nhiêu trục đối xứng',type:'ask',why:'Điều cần tìm: số trục đối xứng của từng hình.'},...shuffled.map(s=>({t:s.n,type:'data',why:'Hình cần xét.'}))],
+   parts:shuffled.map((s,i)=>({label:labels[i]+s.n,answer:''+s.a,unit:'trục'})),
+   solution:shuffled.map(s=>`${s.n}: ${s.a} trục đối xứng`)};
+}},
 axisWord:{chapter:5,topic:'Trục đối xứng',gen(l){
   const pool=[
     {n:'Hình vuông',a:4,e:'Hình vuông có 4 trục đối xứng: 2 đường chéo và 2 đường nối trung điểm các cạnh đối.'},

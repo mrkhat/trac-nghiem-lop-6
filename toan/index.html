@@ -156,6 +156,7 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
     <div class="panel panel-s" id="solPanel"></div>
     <div id="ansArea"></div>
     <button class="btn btn-c" id="btnCheck">✔ Kiểm tra đáp án</button>
+    <button class="btn btn-k hidden" id="btnVariant">🔀 Đổi số liệu — làm bài tương tự</button>
     <button class="btn btn-k hidden" id="btnAgain">🎲 Bài tương tự mới</button>
     <div class="fb" id="feedback"></div>
     <div class="nav">
@@ -301,6 +302,7 @@ function openProbObj(p,mode){
     `<div class="ans-row"><label>${pt.label}:</label><input id="inp${j}" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit">${pt.unit||''}</span></div>`
   ).join('');
   document.getElementById('btnAgain').classList.toggle('hidden',!(mode==='gen'));
+  document.getElementById('btnVariant').classList.toggle('hidden',!(mode==='sample'&&p.template));
   const prev=document.getElementById('btnPrev'),next=document.getElementById('btnNext');
   if(mode==='sample'){
     prev.classList.remove('hidden');next.classList.remove('hidden');
@@ -393,6 +395,14 @@ document.getElementById('btnGen').onclick=()=>{
   const ch=parseInt(document.getElementById('selChap').value);
   const lvl=parseInt(document.getElementById('selLvl').value);
   openProbObj(window.GEN.make(ch,lvl),'gen');
+};
+document.getElementById('btnVariant').onclick=()=>{
+  if(curProb&&curProb.template&&window.GEN.templates[curProb.template]){
+    const lvl=parseInt(document.getElementById('selLvl').value)||2;
+    const p=window.GEN.templates[curProb.template].gen(lvl);
+    p.gen=true;p.template=curProb.template;
+    openProbObj(p,'gen');
+  }
 };
 document.getElementById('btnAgain').onclick=()=>{
   if(curProb&&curProb.template){
