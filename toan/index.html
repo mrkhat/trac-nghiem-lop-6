@@ -41,13 +41,13 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .panel ol{margin-left:20px}
 .panel li{margin:4px 0}
 .theory-box{background:#fff;border:1px dashed #ea8600;border-radius:6px;padding:8px 10px;margin:8px 0}
-.kw{border-radius:4px;padding:0 3px;cursor:pointer;font-weight:bold}
-.kw-data{background:#bbdefb;color:#0d47a1}
-.kw-op{background:#ffe0b2;color:#e65100}
-.kw-ask{background:#ffcdd2;color:#b71c1c}
+.kw{border-radius:4px;padding:1px 4px;cursor:pointer;font-weight:bold;border:1.5px solid transparent}
+.kw-data{background:#42a5f5;color:#fff;border-color:#1565c0}
+.kw-op{background:#ff9800;color:#fff;border-color:#e65100}
+.kw-ask{background:#e53935;color:#fff;border-color:#b71c1c}
 .kw-legend{font-size:13px;color:#555;margin:6px 0;display:none}
 .kw-legend.show{display:block}
-.kw-legend span{border-radius:4px;padding:0 5px;font-weight:bold}
+.kw-legend span{border-radius:4px;padding:1px 6px;font-weight:bold;color:#fff}
 #kwInfo{background:#e0f2f1;border:1px solid #80cbc4;border-radius:8px;padding:10px 12px;font-size:14px;margin:8px 0;display:none;line-height:1.5}
 #kwInfo.show{display:block}
 .ans-row{display:flex;align-items:center;gap:8px;margin:10px 0;flex-wrap:wrap}
@@ -186,7 +186,15 @@ function renderHome(){
   const sc=document.getElementById('selChap');
   sc.innerHTML=Object.keys(CHAPTERS).map(c=>`<option value="${c}">${CHAPTERS[c]}</option>`).join('');
   const sg=document.getElementById('shapeGrid');
-  sg.innerHTML=theory.map((s,i)=>`<div class="shape-card" onclick="openTheory(${i})">📐<br><b>${s.name}</b></div>`).join('');
+  const ICONS={
+   'tam-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,3 37,29 3,29" fill="#fff8e1" stroke="#e65100" stroke-width="2"/></svg>',
+   'hinh-vuong':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="9" y="3" width="22" height="22" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
+   'luc-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,3 28,3 37,16 28,29 12,29 3,16" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
+   'hinh-chu-nhat':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="3" y="8" width="34" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
+   'hinh-thoi':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,2 35,16 20,30 5,16" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/></svg>',
+   'hinh-binh-hanh':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="11,6 35,6 29,26 5,26" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
+   'hinh-thang-can':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,5 28,5 37,27 3,27" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>'};
+  sg.innerHTML=theory.map((s,i)=>`<div class="shape-card" onclick="openTheory(${i})">${ICONS[s.id]||'📐'}<br><b>${s.name}</b></div>`).join('');
   const doneCount=problems.filter(p=>done[p.id]).length;
   let html=`<p style="color:#555;font-size:14px">Đã làm đúng: <b>${doneCount}/${problems.length}</b> bài mẫu</p>`;
   Object.keys(CHAPTERS).forEach(cn=>{
