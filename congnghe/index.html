@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Công nghệ 6 — Học kì 1 | Học từng bài & Trắc nghiệm</title>
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+/* ===== CSS riêng của môn Công nghệ: nghe đọc, thẻ mini, sơ đồ ===== */
+.listenbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.rb-listen{min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid var(--c,#0277bd);background:#e3f2fd;color:#0d47a1;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit}
+.rb-listen.reading{background:#ffe082}
+.rb-stop{min-height:44px;padding:10px 14px;border-radius:10px;border:2px solid #c62828;background:#fff;color:#c62828;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit}
+.rb-note{flex-basis:100%;font-size:15px;color:#7a5200;background:#fff8e1;border:1px dashed #ffb300;border-radius:8px;padding:8px 10px;line-height:1.55;margin:4px 0 0}
+.rdsrc.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
+.mmsvg{width:100%;height:auto;display:block;background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;margin:6px 0}
+figure.dfig img{width:100%;height:auto}
+.qa.mini{border-color:#a5d6a7}
+.qa.mini .qa-q{background:#e8f5e9;color:#1b5e20}
+.qa.mini.main{border-color:#ffb300}
+.qa.mini.main .qa-q{background:#fff3e0;color:#bf360c}
+.minittl{font-size:17px;font-weight:700;color:#e65100;margin:16px 0 2px}
+.minicard{max-width:430px;height:245px;margin:8px auto;perspective:900px;cursor:pointer}
+.mini-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.minicard.flipped .mini-inner{transform:rotateY(180deg)}
+.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.5;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
+.mini-front{background:#fff8e1;border:2px solid #ffb300;color:#5d4037}
+.mini-back{background:#e8f5e9;border:2px solid #43a047;color:#14532d;transform:rotateY(180deg)}
+.mini-face img{max-width:100%;max-height:105px;border-radius:8px;margin-bottom:8px;object-fit:cover}
+.recap{margin:0 0 8px 22px;line-height:1.7;font-size:17px}
+.recap li{margin-bottom:5px}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>🔧 Công nghệ 6 — Học kì 1</h1>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Học <b>từng bài một</b>: nghe đọc 🔊 → đọc từng đoạn ngắn → trả lời kiểm tra nhanh ⚡ → lật flashcard. Câu chữ rất ngắn, dễ hiểu. Học hết 9 bài mới xuống <b>Phần Tổng kết</b> nhé!</p>
+
+<div class="part part1"><h2>📖 Phần 1 — Học tập (học từng bài)</h2><p>Nhãn trên mỗi bài: <b>⭐ Giữa kì 1</b> (Chương 1: Nhà ở) • <b>📚 Sau giữa kì</b> (Chương 2: Thực phẩm) • <b>🌿 Mở rộng học kì 1</b> (Chương 3: Trang phục — nhiều trường học tiếp ở đầu học kì 2). Đọc chậm cũng không sao, có nút 🔊 nghe đọc giúp em!</p></div>
+
+<!-- ===== THANH CHẾ ĐỘ XEM ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= BÀI 1 ================= -->
+<div class="lesson" id="bai1" style="--c:#0277bd">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 1. Khái quát về nhà ở</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">🏠 Mỗi ngày em đều về nhà. Nhà là nơi em ăn cơm. Nhà là nơi em ngủ. Nhà còn che mưa, che nắng cho cả nhà. Hôm nay mình tìm hiểu: nhà ở quan trọng thế nào nhé!</div>
+  <ul><li class="rdsrc"><span class="hl2">Nhà ở</span> là <b>công trình để ở</b>. Công trình là thứ con người xây nên.</li><li class="rdsrc">Nhà giúp <b>che chở</b> em: tránh mưa, tránh nắng, tránh gió bão.</li><li class="rdsrc">Nhà còn tránh những điều xấu bên ngoài. Ví dụ: tránh trộm, tránh thú dữ.</li><li class="rdsrc">Nhà là nơi cả nhà <b>sinh hoạt</b>. Sinh hoạt là các việc hằng ngày: ăn cơm, ngủ, học bài.</li></ul>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Nhà ở giúp em tránh được những gì?</button><div class="qa-a">Tránh mưa, nắng, gió bão. Và tránh những nguy hiểm ở bên ngoài.</div></div>
+  <figure><img src="../hinh-anh/congnghe/bai1-gia-dinh-sinh-hoat.webp" alt="Cả gia đình sinh hoạt trong nhà" loading="lazy"><figcaption>👨‍👩‍👧‍👦 Cả nhà sinh hoạt trong nhà — ăn cơm, nghỉ ngơi, học bài đều ở nhà. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <ul><li class="rdsrc">Một ngôi nhà thường có <b>3 phần chính</b>.</li><li class="rdsrc"><b>Móng nhà</b>: nằm dưới đất. Móng giữ cho nhà đứng vững.</li><li class="rdsrc"><b>Thân nhà</b>: ở phần giữa. Thân có tường, cửa ra vào, cửa sổ.</li><li class="rdsrc"><b>Mái nhà</b>: ở trên cùng. Mái che mưa, che nắng.</li></ul>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai1-cau-truc-nha.svg" alt="Sơ đồ 3 phần của nhà ở" loading="lazy"><figcaption>🏠 Sơ đồ 3 phần của nhà. Số 1 là mái, số 2 là thân, số 3 là móng. Em đọc từ trên xuống nhé!</figcaption></figure>
+  <ul><li class="rdsrc">Trong nhà có nhiều <b>khu vực</b>. Khu vực là từng khoảng riêng cho một việc.</li><li class="rdsrc">Khu <b>sinh hoạt chung</b>: tiếp khách, cả nhà ngồi chơi.</li><li class="rdsrc">Khu <b>nghỉ ngơi</b>: để ngủ. Khu <b>nấu ăn</b>: để nấu cơm.</li><li class="rdsrc">Khu <b>vệ sinh</b>: để tắm, rửa. Nhiều nhà có thêm khu <b>thờ cúng</b> ông bà.</li></ul>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Câu nào nói đúng ý chính nhất của bài hôm nay?<br>A. Mái nhà thường được lợp bằng ngói.<br>B. Nhà ở vừa che chở con người, vừa là nơi cả nhà sinh hoạt.<br>C. Nhà ba gian chỉ có ở nông thôn.</button><div class="qa-a">Đáp án <b>B</b>. B nói được việc lớn nhất của nhà ở. A và C đều đúng, nhưng chỉ là chi tiết nhỏ — không phải ý chính.</div></div>
+  <ul><li class="rdsrc">Mỗi nơi có kiểu nhà khác nhau. Vì sao? Vì <b>trời khác nhau</b>, <b>tiền khác nhau</b>, <b>thói quen khác nhau</b>.</li><li class="rdsrc">Ở <b>nông thôn</b>: hay có nhà ba gian.</li><li class="rdsrc">Ở <b>thành phố</b>: nhà liền kề, nhà chung cư, nhà biệt thự.</li><li class="rdsrc">Ở <b>vùng núi</b>: nhà sàn. Sàn cao để tránh ẩm và thú dữ.</li><li class="rdsrc">Ở <b>vùng sông nước</b>: nhà nổi trên sông.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai1-nha-ba-gian.webp" alt="Nhà ba gian ở nông thôn" loading="lazy"><figcaption>🏡 <b>Nhà ba gian</b> — thường thấy ở nông thôn. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai1-nha-san.webp" alt="Nhà sàn ở vùng núi" loading="lazy"><figcaption>⛰️ <b>Nhà sàn</b> — thường thấy ở vùng núi. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai1-nha-noi.webp" alt="Nhà nổi ở vùng sông nước" loading="lazy"><figcaption>🌊 <b>Nhà nổi</b> — ở vùng sông nước. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai1-chung-cu.webp" alt="Nhà chung cư ở thành phố" loading="lazy"><figcaption>🏢 <b>Nhà chung cư</b> — ở thành phố. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Nhà sàn thường có ở đâu? Vì sao sàn nhà lại làm cao?</button><div class="qa-a">Ở vùng núi. Sàn cao để tránh ẩm ướt, thú dữ và nước lũ.</div></div>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai1-cau-truc-nha.svg" alt="Hình gợi nhớ" loading="lazy"><div>Nhà có mấy phần chính? Là những phần nào?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>3 phần: móng – thân – mái.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai1-nha-san.webp" alt="Hình gợi nhớ" loading="lazy"><div>Nhà sàn thường có ở vùng nào?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Ở vùng núi.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Nhà là nơi ở, che chở và sinh hoạt của cả nhà.<br>• Nhà có 3 phần: móng – thân – mái.<br>• Mỗi vùng có kiểu nhà riêng: ba gian, nhà sàn, nhà nổi, chung cư.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ 3 phần của nhà từ dưới lên: <b>Móng đỡ nhà – Thân là nhà – Mái che nhà</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Nhà nổi ở miền Tây <b>nổi theo nước</b>! Nước lên thì nhà lên. Nước xuống thì nhà xuống.</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 442" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#0277bd"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 1: Khái quát về nhà ở</text><line x1="380" y1="62" x2="380" y2="78" stroke="#0277bd" stroke-width="3"/><rect x="196" y="78" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="105.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Khái niệm</text><text x="340" y="99" font-size="16.5" fill="#263238">công trình con người xây nên để ở</text><rect x="196" y="132" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="170.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vai trò</text><text x="340" y="153" font-size="16.5" fill="#263238">che chở trước mưa nắng, bão và nguy hiểm; nơi</text><text x="340" y="175" font-size="16.5" fill="#263238">cả nhà sinh hoạt</text><rect x="196" y="208" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="246.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">3 phần chính</text><text x="340" y="229" font-size="16.5" fill="#263238">MÓNG (dưới đất) – THÂN (ở giữa) – MÁI (trên</text><text x="340" y="251" font-size="16.5" fill="#263238">cùng)</text><rect x="196" y="284" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="322.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Các khu vực</text><text x="340" y="305" font-size="16.5" fill="#263238">sinh hoạt chung • nghỉ ngơi • nấu ăn • vệ sinh</text><text x="340" y="327" font-size="16.5" fill="#263238">• thờ cúng</text><rect x="196" y="360" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="398.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Kiểu nhà Việt Nam</text><text x="340" y="381" font-size="16.5" fill="#263238">ba gian (nông thôn) • nhà sàn (vùng núi) • nhà</text><text x="340" y="403" font-size="16.5" fill="#263238">nổi (sông nước) • chung cư (thành phố)</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Nhà ở có vai trò gì đối với con người?</button><div class="qa-a">Nhà là <b>nơi ở</b>. Nhà <b>che chở</b> con người trước mưa, nắng, gió bão và nguy hiểm. Nhà còn là nơi cả nhà <b>sinh hoạt</b> mỗi ngày.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn sơ đồ 3 phần của nhà: phần nào nằm dưới cùng? Phần đó làm nhiệm vụ gì?</button><div class="qa-a">Phần <b>móng nhà</b>. Móng giữ cho ngôi nhà đứng vững.</div></div>
+  <div class="qa"><button class="qa-q">Kể tên các khu vực chính trong một ngôi nhà.</button><div class="qa-a">Khu sinh hoạt chung, khu nghỉ ngơi, khu nấu ăn, khu vệ sinh. Nhiều nhà có thêm khu thờ cúng.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao mỗi vùng lại có kiểu nhà khác nhau?</button><div class="qa-a">Vì mỗi nơi có <b>thời tiết khác nhau</b>, <b>điều kiện tiền bạc khác nhau</b> và <b>thói quen sống khác nhau</b>.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="0,1,2,3,4"></div>
+  </div>
+  <a class="next" href="#bai2">✔ Xong Bài 1 → Sang Bài 2: Xây dựng nhà ở ⬇</a>
+</div>
+<!-- ================= BÀI 2 ================= -->
+<div class="lesson" id="bai2" style="--c:#0277bd">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 2. Xây dựng nhà ở</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">🧱 Em có biết một ngôi nhà được xây thế nào không? Trước hết phải vẽ bản vẽ. Sau đó thợ xây từng bước một. Mình cùng xem các bước nhé!</div>
+  <ul><li class="rdsrc">Muốn xây nhà, cần nhiều <b>vật liệu</b>. Vật liệu là đồ dùng để xây.</li><li class="rdsrc"><b>Gạch, ngói</b>: để xây tường và lợp mái.</li><li class="rdsrc"><b>Xi măng, cát, đá</b>: trộn với nước thành <b>bê tông</b> rất cứng.</li><li class="rdsrc"><b>Thép</b>: đặt bên trong bê tông cho nhà chắc hơn. Ta gọi là <b>bê tông cốt thép</b>.</li><li class="rdsrc"><b>Gỗ, kính, sơn</b>: làm cửa, làm đồ trong nhà, sơn cho đẹp.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai2-vat-lieu.webp" alt="Các vật liệu xây dựng nhà ở" loading="lazy"><figcaption>🧱 Các vật liệu xây nhà hay gặp: gạch, xi măng, cát, thép, gỗ. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Vật liệu nào được đặt bên trong bê tông để nhà chắc hơn?</button><div class="qa-a">Đó là <b>thép</b>. Bê tông có thép bên trong gọi là bê tông cốt thép.</div></div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai2-cac-buoc-xay-nha.svg" alt="Sơ đồ 5 bước xây dựng một ngôi nhà" loading="lazy"><figcaption>🔢 Sơ đồ 5 bước xây nhà. Em nhìn số 1 → 5 và đọc theo thứ tự nhé!</figcaption></figure>
+  <ul><li class="rdsrc"><b>Bước 1 – Thiết kế và chuẩn bị:</b> vẽ bản vẽ. Chuẩn bị đất, vật liệu, tiền.</li><li class="rdsrc"><b>Bước 2 – Làm móng:</b> đào đất, đổ móng cho chắc.</li><li class="rdsrc"><b>Bước 3 – Xây phần thô:</b> dựng khung, xây tường, lợp mái. Đây là phần 'xương' của nhà.</li><li class="rdsrc"><b>Bước 4 – Hoàn thiện:</b> trát tường, sơn, lát nền. Lắp cửa, điện, nước.</li><li class="rdsrc"><b>Bước 5 – Nghiệm thu:</b> kiểm tra kĩ mọi thứ. Tốt rồi mới dọn vào ở.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai2-thiet-ke.webp" alt="Bàn thiết kế bản vẽ nhà" loading="lazy"><figcaption>✏️ <b>Bước 1</b>: vẽ bản vẽ, chuẩn bị. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai2-xay-tho.webp" alt="Thợ đang xây phần thô của ngôi nhà" loading="lazy"><figcaption>🧱 <b>Bước 3</b>: xây phần thô — khung, tường, mái. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai2-hoan-thien.webp" alt="Thợ đang hoàn thiện bên trong nhà" loading="lazy"><figcaption>🎨 <b>Bước 4</b>: hoàn thiện — sơn, lát nền, lắp cửa. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Chọn câu tóm đúng nhất các bước xây nhà:<br>A. Xây nhà chỉ cần xây tường và lợp mái.<br>B. Xây nhà có 3 việc lớn: chuẩn bị – xây phần thô – hoàn thiện.<br>C. Xây nhà xong thì sơn màu gì cũng được.</button><div class="qa-a">Đáp án <b>B</b>. B tóm được cả quá trình xây nhà. A thiếu nhiều bước quan trọng. C chỉ nói một chi tiết nhỏ.</div></div>
+  <ul><li class="rdsrc">Ở công trường rất nguy hiểm. Thợ xây phải <b>đội mũ bảo hộ</b> để bảo vệ đầu.</li><li class="rdsrc">Giàn giáo phải thật chắc chắn.</li><li class="rdsrc">Em nhỏ nhớ nhé: <b>không được chơi gần nơi đang xây nhà</b>.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai2-an-toan.webp" alt="Công nhân xây dựng đội mũ bảo hộ" loading="lazy"><figcaption>⛑️ Thợ xây đội mũ bảo hộ để an toàn. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai2-thiet-ke.webp" alt="Hình gợi nhớ" loading="lazy"><div>Bước đầu tiên khi xây nhà là gì?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Thiết kế — vẽ bản vẽ và chuẩn bị.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai2-xay-tho.webp" alt="Hình gợi nhớ" loading="lazy"><div>Xây phần thô gồm những việc gì?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Dựng khung, xây tường, lợp mái.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Vật liệu chính: gạch, xi măng, cát, đá, thép, gỗ.<br>• Xây nhà theo thứ tự: thiết kế → làm móng → xây thô → hoàn thiện → nghiệm thu.<br>• Ở công trường phải đội mũ bảo hộ.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ các bước bằng câu: <b>Vẽ – Móng – Thô – Đẹp – Ở</b>. Vẽ bản vẽ, làm móng, xây thô, hoàn thiện cho đẹp, nghiệm thu rồi vào ở.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Bê tông cốt thép cứng đến mức người ta dùng để xây nhà cao hàng chục tầng. Và xây cả cầu lớn qua sông!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#0277bd"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 2: Xây dựng nhà ở</text><line x1="380" y1="62" x2="380" y2="78" stroke="#0277bd" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vật liệu</text><text x="340" y="99" font-size="16.5" fill="#263238">gạch, ngói • xi măng, cát, đá (bê tông) • thép</text><text x="340" y="121" font-size="16.5" fill="#263238">• gỗ, kính, sơn</text><rect x="196" y="154" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="181.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 1–2</text><text x="340" y="175" font-size="16.5" fill="#263238">THIẾT KẾ &amp; CHUẨN BỊ → LÀM MÓNG</text><rect x="196" y="208" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="235.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 3</text><text x="340" y="229" font-size="16.5" fill="#263238">XÂY PHẦN THÔ: khung – tường – mái</text><rect x="196" y="262" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="300.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 4–5</text><text x="340" y="283" font-size="16.5" fill="#263238">HOÀN THIỆN (sơn, nền, cửa, điện nước) → NGHIỆM</text><text x="340" y="305" font-size="16.5" fill="#263238">THU</text><rect x="196" y="338" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="376.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">An toàn</text><text x="340" y="359" font-size="16.5" fill="#263238">đội mũ bảo hộ, giàn giáo chắc, trẻ em không</text><text x="340" y="381" font-size="16.5" fill="#263238">chơi gần công trường</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Kể tên 4 vật liệu dùng để xây nhà.</button><div class="qa-a">Ví dụ: <b>gạch, xi măng, cát, thép</b>. Còn có đá, gỗ, kính, sơn, ngói…</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn sơ đồ 5 bước xây nhà: sau khi làm móng là bước nào?</button><div class="qa-a">Là <b>xây phần thô</b>: dựng khung, xây tường, lợp mái.</div></div>
+  <div class="qa"><button class="qa-q">Xây phần thô gồm những việc gì?</button><div class="qa-a">Dựng <b>khung</b>, xây <b>tường</b> và lợp <b>mái</b> — tạo nên hình dáng chính của ngôi nhà.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao phải nghiệm thu trước khi dọn vào ở?</button><div class="qa-a">Để <b>kiểm tra</b> nhà đã chắc chắn và an toàn chưa. Có lỗi thì sửa ngay, ở mới yên tâm.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="5,6,7,8,9"></div>
+  </div>
+  <a class="next" href="#bai3">✔ Xong Bài 2 → Sang Bài 3: Ngôi nhà thông minh ⬇</a>
+</div>
+<!-- ================= BÀI 3 ================= -->
+<div class="lesson" id="bai3" style="--c:#0277bd">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 3. Ngôi nhà thông minh</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">📱 Em tưởng tượng nhé: em chưa về đến nhà mà đèn đã tự sáng. Em bấm điện thoại là cửa tự mở. Đó chính là <b>nhà thông minh</b> đấy!</div>
+  <ul><li class="rdsrc"><span class="hl2">Ngôi nhà thông minh</span> là nhà có nhiều <b>thiết bị thông minh</b>. Thiết bị là máy móc, đồ dùng.</li><li class="rdsrc">Các thiết bị <b>tự làm việc</b>. Hoặc em <b>điều khiển từ xa</b>.</li><li class="rdsrc">Điều khiển bằng <b>điện thoại thông minh</b>, <b>máy tính bảng</b> có mạng in-tơ-net.</li><li class="rdsrc">Nhà thông minh giúp em sống <b>dễ chịu hơn</b>, <b>an toàn hơn</b>, <b>ít tốn điện hơn</b>.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai3-nha-thong-minh.webp" alt="Ngôi nhà thông minh buổi tối" loading="lazy"><figcaption>🏡 Ngôi nhà thông minh: đèn tự sáng, có pin mặt trời trên mái. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Em điều khiển nhà thông minh từ xa bằng gì?</button><div class="qa-a">Bằng <b>điện thoại thông minh</b> hoặc <b>máy tính bảng</b> có kết nối in-tơ-net.</div></div>
+  <ul><li class="rdsrc"><b>Tiện nghi</b> nghĩa là thuận tiện, dễ chịu. Đèn tự bật khi trời tối. Rèm tự kéo. Điều hòa tự chỉnh độ mát.</li><li class="rdsrc"><b>An ninh, an toàn</b>: nhà có camera trông nhà. Có khóa cửa mở bằng vân tay.</li><li class="rdsrc">Có <b>cảm biến</b>. Cảm biến là bộ phận tự 'cảm nhận' được. Cảm biến khói báo khi có cháy. Cảm biến người lạ báo khi có trộm.</li><li class="rdsrc">Khi có việc xấu, nhà báo cho chủ nhà bằng <b>4 cách</b>: chuông báo, tin nhắn, đèn báo, cuộc gọi tự động.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai3-dieu-khien.webp" alt="Điều khiển đèn nhà bằng điện thoại" loading="lazy"><figcaption>📱 Bấm điện thoại là đèn trong nhà bật. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai3-cam-bien.webp" alt="Camera, cảm biến khói và khóa vân tay" loading="lazy"><figcaption>🎥 Các thiết bị giữ nhà an toàn: camera, cảm biến khói, khóa vân tay. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: Khi có trộm hoặc cháy, nhà thông minh báo động bằng đủ <b>4 hình thức: chuông báo – tin nhắn – đèn báo – cuộc gọi tự động tới chủ nhà</b>.</div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai3-nguyen-tac.svg" alt="Sơ đồ nguyên tắc hoạt động của nhà thông minh" loading="lazy"><figcaption>🔢 Nguyên tắc hoạt động: Nhận lệnh → Xử lí → Chấp hành. Đúng thứ tự này nhé!</figcaption></figure>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Nhìn lại sơ đồ 3 bước. Chi tiết nào quan trọng nhất em cần nhớ?</button><div class="qa-a">Quan trọng nhất là <b>thứ tự 3 bước không được đảo</b>: Nhận lệnh → Xử lí → Chấp hành. Máy phải nhận lệnh trước, xử lí (nghĩ) rồi mới chấp hành (làm).</div></div>
+  <ul><li class="rdsrc">Nhà thông minh còn giúp <b>tiết kiệm năng lượng</b>. Năng lượng ở đây là điện.</li><li class="rdsrc">Cảm biến thấy phòng không có người thì <b>tự tắt đèn</b>.</li><li class="rdsrc">Em cũng làm được như nhà thông minh: <b>tắt điện khi không dùng</b>.</li><li class="rdsrc">Mở cửa sổ đón <b>ánh sáng và gió trời</b> cũng là tiết kiệm điện.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai3-tiet-kiem-dien.webp" alt="Bé tắt đèn khi ra khỏi phòng" loading="lazy"><figcaption>💡 Bé tắt đèn khi ra khỏi phòng — việc nhỏ mà tiết kiệm điện. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai3-nguyen-tac.svg" alt="Hình gợi nhớ" loading="lazy"><div>3 bước hoạt động của nhà thông minh là gì?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Nhận lệnh → Xử lí → Chấp hành.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai3-cam-bien.webp" alt="Hình gợi nhớ" loading="lazy"><div>Thiết bị nào báo cháy trong nhà thông minh?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Cảm biến khói.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Nhà thông minh: thiết bị tự làm việc hoặc điều khiển từ xa bằng điện thoại.<br>• Nhà thông minh giúp: tiện nghi, an toàn, tiết kiệm điện.<br>• Nguyên tắc 3 bước: Nhận lệnh → Xử lí → Chấp hành.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ 3 bước như khi em nghe lời mẹ dặn: <b>Nghe lệnh → Nghĩ → Làm</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Có ngôi nhà nghe được <b>giọng nói</b>! Chỉ cần nói 'tắt đèn' là đèn tắt ngay. Không cần bấm gì cả.</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 398" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#0277bd"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 3: Ngôi nhà thông minh</text><line x1="380" y1="62" x2="380" y2="78" stroke="#0277bd" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Khái niệm</text><text x="340" y="99" font-size="16.5" fill="#263238">nhà có thiết bị thông minh, tự làm việc hoặc</text><text x="340" y="121" font-size="16.5" fill="#263238">điều khiển từ xa</text><rect x="196" y="154" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="181.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Tiện nghi</text><text x="340" y="175" font-size="16.5" fill="#263238">đèn tự bật, rèm tự kéo, điều hòa tự chỉnh</text><rect x="196" y="208" width="130" height="64" rx="9" fill="#0277bd"/><text x="261" y="246.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">An ninh – an toàn</text><text x="340" y="229" font-size="16.5" fill="#263238">camera, khóa vân tay, cảm biến khói/người lạ;</text><text x="340" y="251" font-size="16.5" fill="#263238">báo động 4 cách</text><rect x="196" y="284" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="311.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Tiết kiệm điện</text><text x="340" y="305" font-size="16.5" fill="#263238">tự tắt đèn khi vắng người, dùng ánh sáng trời</text><rect x="196" y="338" width="130" height="42" rx="9" fill="#0277bd"/><text x="261" y="365.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Nguyên tắc</text><text x="340" y="359" font-size="16.5" fill="#263238">NHẬN LỆNH → XỬ LÍ → CHẤP HÀNH</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Ngôi nhà thông minh là gì?</button><div class="qa-a">Là ngôi nhà có nhiều <b>thiết bị thông minh</b>. Các thiết bị tự làm việc, hoặc được điều khiển từ xa bằng điện thoại.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình các thiết bị an toàn: kể 2 thiết bị giúp ngôi nhà an toàn hơn.</button><div class="qa-a">Ví dụ: <b>camera</b> trông nhà và <b>cảm biến khói</b> báo cháy. Còn có khóa cửa vân tay nữa.</div></div>
+  <div class="qa"><button class="qa-q">Nguyên tắc hoạt động của nhà thông minh gồm mấy bước? Kể tên theo thứ tự.</button><div class="qa-a">Gồm <b>3 bước</b>: Nhận lệnh → Xử lí → Chấp hành.</div></div>
+  <div class="qa"><button class="qa-q">Kể 2 việc em có thể làm để tiết kiệm điện ở nhà.</button><div class="qa-a">Ví dụ: <b>tắt đèn khi ra khỏi phòng</b> và <b>mở cửa sổ đón ánh sáng, gió trời</b> thay vì bật đèn, bật quạt.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="10,11,12,13,14"></div>
+  </div>
+  <a class="next" href="#bai4">✔ Xong Bài 3 → Sang Bài 4: Thực phẩm và dinh dưỡng ⬇</a>
+</div>
+<!-- ================= BÀI 4 ================= -->
+<div class="lesson" id="bai4" style="--c:#e65100">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 4. Thực phẩm và dinh dưỡng</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">🍚 Bữa cơm nhà em hôm nay có gì? Cơm, cá, rau, canh... Mỗi món giúp cơ thể một việc khác nhau. Mình cùng tìm hiểu 5 nhóm thực phẩm nhé!</div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg" alt="Sơ đồ 5 nhóm thực phẩm chính" loading="lazy"><figcaption>🎨 Sơ đồ 5 nhóm thực phẩm. Mỗi nhóm một màu. Cơ thể em cần cả 5 nhóm đấy!</figcaption></figure>
+  <ul><li class="rdsrc">Thực phẩm chia thành <b>5 nhóm chính</b>.</li><li class="rdsrc">Nhóm <b>tinh bột, đường và chất xơ</b>: cơm, bánh mì, khoai. Nhóm này cho em <b>năng lượng</b>. Năng lượng là sức để em học và chơi. Đây là nguồn sức chính.</li><li class="rdsrc">Chất xơ giúp <b>tiêu hóa tốt</b>. Tiêu hóa là việc bụng xử lí thức ăn. Có chất xơ, em không bị táo bón.</li><li class="rdsrc">Nhóm <b>chất đạm</b>: thịt, cá, trứng, sữa, đậu. Đạm giúp cơ thể <b>lớn lên</b>. Đạm như 'gạch' xây nên cơ bắp.</li><li class="rdsrc">Nhóm <b>chất béo</b>: dầu ăn, mỡ, bơ, lạc. Béo cho em năng lượng dự trữ. Béo còn giữ ấm cho cơ thể.</li><li class="rdsrc">Nhóm <b>vi-ta-min</b>: rau xanh, trái cây. Vi-ta-min giúp em <b>ít ốm</b>. Người ta gọi là tăng sức đề kháng.</li><li class="rdsrc">Nhóm <b>chất khoáng</b>: sữa, tôm, cua, cá nhỏ. Khoáng giúp <b>xương và răng chắc khỏe</b>. Khoáng còn giúp tạo máu.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai4-tinh-bot.webp" alt="Nhóm thực phẩm giàu tinh bột" loading="lazy"><figcaption>🍚 Nhóm <b>tinh bột</b>: cơm, bánh mì, khoai — cho năng lượng. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai4-dam.webp" alt="Nhóm thực phẩm giàu chất đạm" loading="lazy"><figcaption>🐟 Nhóm <b>chất đạm</b>: cá, thịt, trứng, sữa — giúp lớn lên. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai4-vitamin.webp" alt="Rau quả giàu vi-ta-min" loading="lazy"><figcaption>🍊 Nhóm <b>vi-ta-min</b>: rau, trái cây — giúp ít ốm. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Nhóm thực phẩm nào cho em năng lượng chính để học và chơi?</button><div class="qa-a">Nhóm <b>tinh bột, đường và chất xơ</b> — như cơm, bánh mì, khoai.</div></div>
+  <ul><li class="rdsrc"><b>Bữa ăn hợp lí</b> là bữa ăn có <b>đủ các nhóm thực phẩm</b>.</li><li class="rdsrc">Mỗi nhóm ăn một lượng <b>vừa phải</b>. Không ăn quá nhiều một thứ.</li><li class="rdsrc">Ví dụ bữa trưa hợp lí: cơm + cá kho + rau luộc + canh. Vừa ngon vừa đủ chất.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai4-bua-an-hop-li.webp" alt="Mâm cơm gia đình đủ các nhóm thực phẩm" loading="lazy"><figcaption>🍱 Một bữa ăn hợp lí: có cơm, có cá thịt, có rau, có canh. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Câu nào nói đúng ý chính nhất của bài hôm nay?<br>A. Cơm là món ngon nhất.<br>B. Cơ thể cần đủ 5 nhóm thực phẩm, mỗi nhóm giúp một việc khác nhau.<br>C. Cá có nhiều chất đạm.</button><div class="qa-a">Đáp án <b>B</b>. B nói được ý lớn của cả bài. A chỉ là sở thích. C đúng nhưng chỉ nói về một nhóm.</div></div>
+  <ul><li class="rdsrc">Ăn uống khoa học có <b>4 thói quen tốt</b>. Em nhớ cả 4 nhé:</li><li class="rdsrc">Một: <b>ăn đúng bữa</b>. Sáng, trưa, tối — ăn đúng giờ.</li><li class="rdsrc">Hai: <b>ăn đúng cách</b>. Nhai kĩ. Không vừa ăn vừa xem điện thoại.</li><li class="rdsrc">Ba: <b>ăn sạch</b>. Rửa tay trước khi ăn. Ăn đồ đã nấu chín.</li><li class="rdsrc">Bốn: <b>uống đủ nước</b> mỗi ngày.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai4-an-uong-khoa-hoc.webp" alt="Bé rửa tay trước khi ăn" loading="lazy"><figcaption>🧼 Rửa tay trước khi ăn — một thói quen ăn uống khoa học. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg" alt="Hình gợi nhớ" loading="lazy"><div>Có mấy nhóm thực phẩm chính?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>5 nhóm.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai4-tinh-bot.webp" alt="Hình gợi nhớ" loading="lazy"><div>Nhóm nào cho em năng lượng chính?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Nhóm tinh bột, đường và chất xơ.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Có 5 nhóm thực phẩm: tinh bột–đường & xơ, đạm, béo, vi-ta-min, khoáng.<br>• Bữa ăn hợp lí = đủ các nhóm, mỗi nhóm vừa phải.<br>• 4 thói quen tốt: ăn đúng bữa, ăn đúng cách, ăn sạch, uống đủ nước.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ vai trò bằng hình ảnh: <b>Tinh bột là xăng cho cơ thể, đạm là gạch xây người, vi-ta-min là áo giáp chống ốm</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Xương của em cần một chất khoáng tên là <b>can-xi</b>. Sữa, tôm và cá nhỏ có rất nhiều can-xi đấy!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 442" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#e65100"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 4: Thực phẩm và dinh dưỡng</text><line x1="380" y1="62" x2="380" y2="78" stroke="#e65100" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">5 nhóm</text><text x="340" y="99" font-size="16.5" fill="#263238">tinh bột–đường &amp; xơ • đạm • béo • vi-ta-min •</text><text x="340" y="121" font-size="16.5" fill="#263238">chất khoáng</text><rect x="196" y="154" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="192.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Năng lượng</text><text x="340" y="175" font-size="16.5" fill="#263238">TINH BỘT là nguồn sức chính; CHẤT BÉO cho sức</text><text x="340" y="197" font-size="16.5" fill="#263238">dự trữ</text><rect x="196" y="230" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="268.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Lớn lên</text><text x="340" y="251" font-size="16.5" fill="#263238">CHẤT ĐẠM xây cơ thể; CHẤT KHOÁNG giúp xương</text><text x="340" y="273" font-size="16.5" fill="#263238">răng chắc, tạo máu</text><rect x="196" y="306" width="130" height="42" rx="9" fill="#e65100"/><text x="261" y="333.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Ít ốm</text><text x="340" y="327" font-size="16.5" fill="#263238">VI-TA-MIN tăng sức đề kháng</text><rect x="196" y="360" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="398.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Ăn hợp lí</text><text x="340" y="381" font-size="16.5" fill="#263238">đủ nhóm, vừa phải + 4 thói quen: đúng bữa,</text><text x="340" y="403" font-size="16.5" fill="#263238">đúng cách, sạch, đủ nước</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Có mấy nhóm thực phẩm chính? Kể tên 3 nhóm.</button><div class="qa-a">Có <b>5 nhóm</b>: tinh bột–đường & chất xơ, chất đạm, chất béo, vi-ta-min, chất khoáng.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn sơ đồ 5 nhóm thực phẩm: nhóm nào giúp xương và răng chắc khỏe?</button><div class="qa-a">Nhóm <b>chất khoáng</b> — có trong sữa, tôm, cua, cá nhỏ.</div></div>
+  <div class="qa"><button class="qa-q">Thế nào là một bữa ăn hợp lí?</button><div class="qa-a">Là bữa ăn có <b>đủ các nhóm thực phẩm</b>, mỗi nhóm một lượng vừa phải, đủ sức cho cơ thể hoạt động.</div></div>
+  <div class="qa"><button class="qa-q">Kể 4 thói quen ăn uống khoa học.</button><div class="qa-a"><b>Ăn đúng bữa – ăn đúng cách – ăn sạch (an toàn vệ sinh) – uống đủ nước</b>.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="15,16,17,18,19,20"></div>
+  </div>
+  <a class="next" href="#bai5">✔ Xong Bài 4 → Sang Bài 5: Phương pháp bảo quản và chế biến thực phẩm ⬇</a>
+</div>
+<!-- ================= BÀI 5 ================= -->
+<div class="lesson" id="bai5" style="--c:#e65100">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 5. Phương pháp bảo quản và chế biến thực phẩm</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">🐟 Cá mua về, không ăn ngay sẽ bị ươn. Rau để ngoài trời nóng thì mau héo. Vậy làm sao giữ thực phẩm lâu hư? Đó là việc <b>bảo quản thực phẩm</b>.</div>
+  <ul><li class="rdsrc"><b>Bảo quản</b> là giữ cho thực phẩm <b>lâu hư</b>. Thực phẩm giữ được ngon và an toàn.</li><li class="rdsrc">Thực phẩm bị hư do <b>vi sinh vật</b>. Vi sinh vật là sinh vật rất nhỏ. Mắt thường không nhìn thấy được.</li><li class="rdsrc">Trời càng nóng, vi sinh vật càng sinh sôi nhanh. Đồ ăn càng mau ôi thiu.</li><li class="rdsrc">Bảo quản tốt giúp <b>giữ chất dinh dưỡng</b>. Và <b>không lãng phí</b> đồ ăn.</li></ul>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Vì sao thực phẩm để lâu ngoài trời nóng dễ bị hư?</button><div class="qa-a">Vì trời nóng làm <b>vi sinh vật sinh sôi nhanh</b>. Chúng làm thực phẩm ôi thiu, hỏng.</div></div>
+  <ul><li class="rdsrc">Cách 1: <b>làm lạnh, làm đông</b> bằng tủ lạnh. Lạnh làm vi sinh vật chậm lại.</li><li class="rdsrc">Cách 2: <b>phơi, sấy khô</b>. Ví dụ: cá khô, tôm khô. Khô thì vi sinh vật khó sống.</li><li class="rdsrc">Cách 3: <b>muối chua</b>. Ví dụ: dưa muối, cà muối.</li><li class="rdsrc">Cách 4: <b>đóng gói kín</b>. Hút hết không khí trong túi (gọi là hút chân không). Ít không khí, thực phẩm lâu hư hơn.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai5-tu-lanh.webp" alt="Tủ lạnh sắp xếp gọn gàng" loading="lazy"><figcaption>🧊 <b>Làm lạnh</b> bằng tủ lạnh. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai5-phoi-kho.webp" alt="Phơi cá khô dưới nắng" loading="lazy"><figcaption>☀️ <b>Phơi khô</b> cá, tôm dưới nắng. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai5-muoi-chua.webp" alt="Hũ dưa muối chua" loading="lazy"><figcaption>🥒 <b>Muối chua</b>: dưa muối, cà muối. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai5-cac-buoc-bao-quan.svg" alt="Sơ đồ các bước bảo quản thực phẩm bằng tủ lạnh" loading="lazy"><figcaption>🔢 Các bước cất thực phẩm vào tủ lạnh. Em làm đúng thứ tự 1 → 5 nhé!</figcaption></figure>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Nhìn sơ đồ các bước bảo quản bằng tủ lạnh. Chi tiết nào quan trọng nhất cần nhớ?</button><div class="qa-a">Quan trọng nhất là <b>để đúng ngăn</b>: thịt, cá để ngăn đá; rau, quả để ngăn mát. Để sai ngăn, thực phẩm vẫn mau hư.</div></div>
+  <ul><li class="rdsrc"><b>Chế biến</b> là biến thực phẩm sống thành món ăn.</li><li class="rdsrc">Chế biến <b>có dùng nhiệt</b>: luộc, hấp, kho, chiên, xào, nướng. Nhiệt là lửa và hơi nóng.</li><li class="rdsrc">Chế biến <b>không dùng nhiệt</b>: làm nộm, gỏi, trộn rau, muối chua, xay sinh tố.</li><li class="rdsrc">Làm món nào cũng phải <b>sạch</b>: rửa tay, rửa thực phẩm, dụng cụ sạch. Nhớ: ăn chín, uống sôi.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai5-che-bien-nhiet.webp" alt="Nồi hấp, nồi luộc trên bếp" loading="lazy"><figcaption>🔥 Chế biến <b>có dùng nhiệt</b>: luộc, hấp, kho... (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai5-nom-goi.webp" alt="Đĩa nộm rau trộn" loading="lazy"><figcaption>🥗 Chế biến <b>không dùng nhiệt</b>: món nộm (gỏi). (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: Tuyệt đối <b>không ăn</b> thực phẩm đã ôi thiu, bị mốc, có mùi lạ, hoặc đã <b>hết hạn sử dụng</b>. Hạn sử dụng là ngày cuối cùng còn ăn được, in trên bao bì.</div>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai5-tu-lanh.webp" alt="Hình gợi nhớ" loading="lazy"><div>Kể 3 cách bảo quản thực phẩm hay gặp.</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Làm lạnh/đông – phơi sấy khô – muối chua.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai5-nom-goi.webp" alt="Hình gợi nhớ" loading="lazy"><div>Món nộm (gỏi) có dùng nhiệt không?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Không. Nộm là món không dùng nhiệt.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Bảo quản có 4 cách: làm lạnh/đông, phơi sấy khô, muối chua, đóng gói kín.<br>• Chế biến có 2 kiểu: dùng nhiệt và không dùng nhiệt.<br>• Luôn ăn sạch: rửa tay, rửa thực phẩm, ăn chín uống sôi.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ 3 cách bảo quản của ông bà ta: <b>Lạnh – Khô – Chua</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Ngày xưa chưa có tủ lạnh. Ông bà ta đã biết phơi cá khô và làm mắm để ăn được lâu. Hay thật!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#e65100"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 5: Bảo quản và chế biến thực phẩm</text><line x1="380" y1="62" x2="380" y2="78" stroke="#e65100" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vì sao bảo quản</text><text x="340" y="99" font-size="16.5" fill="#263238">thực phẩm mau hư vì vi sinh vật; bảo quản để</text><text x="340" y="121" font-size="16.5" fill="#263238">lâu hư, giữ chất, đỡ lãng phí</text><rect x="196" y="154" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="192.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Cách bảo quản</text><text x="340" y="175" font-size="16.5" fill="#263238">LẠNH/ĐÔNG • PHƠI SẤY KHÔ • MUỐI CHUA • ĐÓNG</text><text x="340" y="197" font-size="16.5" fill="#263238">GÓI KÍN</text><rect x="196" y="230" width="130" height="42" rx="9" fill="#e65100"/><text x="261" y="257.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Dùng nhiệt</text><text x="340" y="251" font-size="16.5" fill="#263238">luộc • hấp • kho • chiên • xào • nướng</text><rect x="196" y="284" width="130" height="42" rx="9" fill="#e65100"/><text x="261" y="311.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Không dùng nhiệt</text><text x="340" y="305" font-size="16.5" fill="#263238">nộm, gỏi • trộn rau • muối chua • sinh tố</text><rect x="196" y="338" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="376.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">An toàn</text><text x="340" y="359" font-size="16.5" fill="#263238">rửa tay, rửa sạch, ăn chín uống sôi, không ăn</text><text x="340" y="381" font-size="16.5" fill="#263238">đồ ôi thiu</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Kể 3 cách bảo quản thực phẩm em đã học.</button><div class="qa-a">Ví dụ: <b>làm lạnh bằng tủ lạnh, phơi sấy khô, muối chua</b>. Còn có đóng gói kín nữa.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình hũ dưa muối: đây là cách bảo quản nào?</button><div class="qa-a">Cách <b>muối chua</b> — như dưa muối, cà muối của gia đình em.</div></div>
+  <div class="qa"><button class="qa-q">Món nộm (gỏi) thuộc kiểu chế biến nào? Vì sao?</button><div class="qa-a">Kiểu <b>không dùng nhiệt</b>. Vì món nộm chỉ trộn rau củ với gia vị, không nấu trên lửa.</div></div>
+  <div class="qa"><button class="qa-q">Khi cất thịt vào tủ lạnh, em để ngăn nào? Rau thì để ngăn nào?</button><div class="qa-a">Thịt để <b>ngăn đá</b> (ngăn đông). Rau để <b>ngăn mát</b>.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="21,22,23,24,25"></div>
+  </div>
+  <a class="next" href="#bai6">✔ Xong Bài 5 → Sang Bài 6: Dự án: Bữa ăn kết nối yêu thương ⬇</a>
+</div>
+<!-- ================= BÀI 6 ================= -->
+<div class="lesson" id="bai6" style="--c:#e65100">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 6. Dự án: Bữa ăn kết nối yêu thương</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">💗 Hôm nay em làm một việc đặc biệt: <b>tự tay chuẩn bị một bữa ăn</b> cho cả nhà. Đó là dự án 'Bữa ăn kết nối yêu thương'.</div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg" alt="Sơ đồ 5 bước của dự án bữa ăn" loading="lazy"><figcaption>🔢 Dự án có 5 bước. Em làm lần lượt từ bước 1 đến bước 5 nhé!</figcaption></figure>
+  <ul><li class="rdsrc"><b>Bước 1 – Lên thực đơn.</b> Thực đơn là danh sách các món sẽ làm. Chọn món đủ chất. Chọn món cả nhà đều thích.</li><li class="rdsrc"><b>Bước 2 – Đi chợ.</b> Chọn thực phẩm <b>tươi, sạch</b>. Nhìn giá trước khi mua nhé.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai6-ke-hoach-bua-an.webp" alt="Mẹ và bé lên thực đơn bữa ăn" loading="lazy"><figcaption>📝 <b>Bước 1</b>: cùng lên thực đơn. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai6-di-cho.webp" alt="Đi chợ chọn thực phẩm tươi" loading="lazy"><figcaption>🛒 <b>Bước 2</b>: đi chợ, chọn đồ tươi. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Khi đi chợ, em chọn thực phẩm như thế nào?</button><div class="qa-a">Chọn đồ <b>tươi, sạch</b>. Không lấy đồ dập nát. Không lấy đồ có mùi lạ.</div></div>
+  <ul><li class="rdsrc"><b>Bước 3 – Tính toán.</b> Bữa ăn phải đủ các nhóm chất (như Bài 4 em đã học).</li><li class="rdsrc">Tiền mua đồ phải <b>vừa với số tiền em có</b>. Cộng giá từng món trước khi mua.</li><li class="rdsrc"><b>Bước 4 – Chế biến.</b> Em chọn món <b>không dùng nhiệt</b>. Ví dụ: nộm, gỏi, rau trộn. Món này an toàn cho em tự làm.</li><li class="rdsrc">Khi làm, em <b>đeo găng tay</b>. Rau củ phải rửa thật sạch.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai6-tinh-chi-phi.webp" alt="Bé tính chi phí bữa ăn" loading="lazy"><figcaption>🧮 <b>Bước 3</b>: tính tiền cho vừa đủ. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai6-lam-nom.webp" alt="Các bạn cùng làm món nộm" loading="lazy"><figcaption>🥗 <b>Bước 4</b>: cùng làm món nộm. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Chọn câu tóm đúng nhất dự án này:<br>A. Dự án là đi chợ mua thật nhiều đồ ăn ngon.<br>B. Dự án là em tự chuẩn bị một bữa ăn đủ chất, vừa tiền cho cả nhà.<br>C. Dự án là học thuộc tên các món ăn.</button><div class="qa-a">Đáp án <b>B</b>. B nói đủ việc chính của dự án: tự chuẩn bị bữa ăn + đủ chất + vừa tiền + cho cả nhà. A chỉ nói một bước. C không phải việc chính.</div></div>
+  <ul><li class="rdsrc"><b>Bước 5 – Cả nhà cùng ăn.</b> Em mời ông bà, bố mẹ ăn món em làm.</li><li class="rdsrc">Bữa ăn do chính em làm giúp cả nhà <b>gần nhau hơn</b>.</li><li class="rdsrc">Vì thế dự án mới có tên là '<b>kết nối yêu thương</b>'.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai6-bua-an-gia-dinh.webp" alt="Cả nhà quây quần bên bữa ăn" loading="lazy"><figcaption>💗 Cả nhà quây quần bên bữa ăn em chuẩn bị. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg" alt="Hình gợi nhớ" loading="lazy"><div>Bước nào làm trước khi đi chợ?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Bước lên thực đơn.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai6-lam-nom.webp" alt="Hình gợi nhớ" loading="lazy"><div>Món em tự làm trong dự án là món thế nào?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Món không dùng nhiệt, như nộm, gỏi.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• 5 bước: lên thực đơn → đi chợ → tính toán → chế biến → cả nhà cùng ăn.<br>• Món em tự làm: món không dùng nhiệt (nộm, gỏi).<br>• Bữa ăn phải đủ chất và vừa với số tiền.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ thứ tự 5 bước: <b>Nghĩ món – Mua đồ – Tính tiền – Làm món – Mời ăn</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Ở nhiều nước, trẻ em cũng học nấu ăn ở trường như em. Biết nấu ăn là một kĩ năng sống rất quý!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#e65100"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 6: Dự án bữa ăn kết nối yêu thương</text><line x1="380" y1="62" x2="380" y2="78" stroke="#e65100" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 1–2</text><text x="340" y="99" font-size="16.5" fill="#263238">LÊN THỰC ĐƠN (đủ chất, cả nhà thích) → ĐI CHỢ</text><text x="340" y="121" font-size="16.5" fill="#263238">(tươi, sạch)</text><rect x="196" y="154" width="130" height="42" rx="9" fill="#e65100"/><text x="261" y="181.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 3</text><text x="340" y="175" font-size="16.5" fill="#263238">TÍNH TOÁN: đủ nhóm chất + tiền vừa đủ</text><rect x="196" y="208" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="246.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 4</text><text x="340" y="229" font-size="16.5" fill="#263238">CHẾ BIẾN món không dùng nhiệt, đeo găng tay,</text><text x="340" y="251" font-size="16.5" fill="#263238">rửa sạch</text><rect x="196" y="284" width="130" height="42" rx="9" fill="#e65100"/><text x="261" y="311.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Bước 5</text><text x="340" y="305" font-size="16.5" fill="#263238">CẢ NHÀ CÙNG ĂN — quây quần, gắn kết</text><rect x="196" y="338" width="130" height="64" rx="9" fill="#e65100"/><text x="261" y="376.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Ý nghĩa</text><text x="340" y="359" font-size="16.5" fill="#263238">bữa ăn tự làm giúp gia đình thêm yêu thương</text><text x="340" y="381" font-size="16.5" fill="#263238">nhau</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Dự án bữa ăn gồm mấy bước chính? Kể tên các bước.</button><div class="qa-a">Gồm <b>5 bước</b>: lên thực đơn → đi chợ → tính toán → chế biến → cả nhà cùng ăn.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn sơ đồ 5 bước của dự án: bước nào làm trước khi đi chợ?</button><div class="qa-a">Bước <b>lên thực đơn</b>. Nghĩ món trước, rồi mới đi chợ mua đúng thứ cần.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao em nên chọn món không dùng nhiệt để tự làm?</button><div class="qa-a">Vì món không dùng nhiệt <b>an toàn</b> cho em. Em không phải dùng bếp lửa, dao nóng, dầu sôi.</div></div>
+  <div class="qa"><button class="qa-q">'Kết nối yêu thương' trong tên dự án nghĩa là gì?</button><div class="qa-a">Là bữa ăn em tự làm giúp cả nhà <b>quây quần, gần gũi và yêu thương nhau hơn</b>.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="26,27,28,29,30"></div>
+  </div>
+  <a class="next" href="#bai7">✔ Xong Bài 6 → Sang Bài 7: Trang phục trong đời sống ⬇</a>
+</div>
+<!-- ================= BÀI 7 ================= -->
+<div class="lesson" id="bai7" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge mr">🌿 Mở rộng học kì 1</span>
+  <h3>Bài 7. Trang phục trong đời sống</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">👕 Sáng nay em mặc gì đi học? Đồng phục! Trang phục không chỉ để che người. Nó còn giúp em đẹp hơn. Và cho mọi người biết em là ai.</div>
+  <ul><li class="rdsrc"><b>Trang phục</b> là quần áo và những đồ em mặc trên người.</li><li class="rdsrc">Việc thứ nhất: <b>bảo vệ cơ thể</b>. Chống nắng, chống lạnh, tránh côn trùng đốt.</li><li class="rdsrc">Việc thứ hai: <b>làm đẹp</b> cho con người.</li><li class="rdsrc">Việc thứ ba: <b>cho biết em là ai</b>. Đồng phục cho biết em học trường nào. Áo bác sĩ cho biết người đó làm nghề y.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai7-trang-phuc-vai.webp" alt="Tủ quần áo nhiều loại trang phục" loading="lazy"><figcaption>👗 Tủ quần áo có rất nhiều loại trang phục khác nhau. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai7-dong-phuc.webp" alt="Các nghề với đồng phục khác nhau" loading="lazy"><figcaption>👮 Nhìn trang phục là biết nghề: học sinh, bác sĩ, đầu bếp, công an. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Nhìn một người mặc áo trắng của bác sĩ, em biết được điều gì?</button><div class="qa-a">Người đó <b>làm nghề y</b> (bác sĩ, y tá). Trang phục cho biết nghề nghiệp của người mặc.</div></div>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Câu nào nói đúng ý chính nhất của đoạn vừa học?<br>A. Đồng phục học sinh thường có màu trắng.<br>B. Trang phục vừa bảo vệ cơ thể, vừa làm đẹp, vừa cho biết nghề nghiệp của người mặc.<br>C. Áo của bác sĩ có màu trắng.</button><div class="qa-a">Đáp án <b>B</b>. B gộp đủ <b>3 việc</b> của trang phục. A và C đều đúng nhưng chỉ là chi tiết nhỏ.</div></div>
+  <ul><li class="rdsrc">Trang phục rất <b>đa dạng</b>. Đa dạng là có nhiều loại khác nhau.</li><li class="rdsrc">Khác nhau theo <b>tuổi</b>: đồ trẻ em khác đồ người lớn.</li><li class="rdsrc">Khác nhau theo <b>việc làm</b>: đi học mặc đồng phục. Đá bóng mặc đồ thể thao.</li><li class="rdsrc">Khác nhau theo <b>mùa</b>: mùa hè mặc áo mỏng, mát. Mùa đông mặc áo ấm.</li><li class="rdsrc">Khác nhau theo <b>phong tục</b>: ngày Tết, nhiều người mặc áo dài.</li></ul>
+  <ul><li class="rdsrc">Quần áo được may từ <b>vải</b>. Có 3 loại vải hay gặp.</li><li class="rdsrc"><b>Vải sợi thiên nhiên</b>: làm từ thiên nhiên, như cây bông, tơ tằm. Mặc thoáng mát, thấm mồ hôi tốt.</li><li class="rdsrc">Vải <b>bông</b> (cotton): mềm, mát. Vải <b>tơ tằm</b>: mềm, bóng, đẹp. Nhưng tơ tằm đắt tiền và khó giữ.</li><li class="rdsrc"><b>Vải sợi hóa học</b>: do nhà máy làm ra. Ví dụ: vải ni-lon. Bền, ít nhăn, mau khô. Nhưng kém thoáng, ít thấm mồ hôi.</li><li class="rdsrc"><b>Vải sợi pha</b>: trộn sợi thiên nhiên với sợi hóa học. Vừa mát, vừa bền.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai7-vai-bong.webp" alt="Vải bông và áo phông" loading="lazy"><figcaption>🌿 Vải <b>bông</b>: mềm, mát, thấm mồ hôi. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai7-vai-lua.webp" alt="Vải tơ tằm và áo dài lụa" loading="lazy"><figcaption>✨ Vải <b>tơ tằm</b>: mềm, bóng, sang trọng. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai7-vai-tong-hop.webp" alt="Áo khoác vải sợi hóa học" loading="lazy"><figcaption>🧥 Vải <b>sợi hóa học</b>: bền, ít nhăn, mau khô. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="plusbox">➕ <b>Kiến thức bổ sung</b> — biết thêm để làm được bài tập: Muốn biết một chiếc áo làm từ vải gì, em xem <b>nhãn mác</b> trên áo. Nhãn ghi rõ loại vải và cách giặt giữ.</div>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai7-vai-bong.webp" alt="Hình gợi nhớ" loading="lazy"><div>Vải bông mặc có mát không? Vì sao?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Mát. Vì vải bông thấm mồ hôi tốt.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai7-dong-phuc.webp" alt="Hình gợi nhớ" loading="lazy"><div>Nhìn áo trắng của bác sĩ, em biết điều gì?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Người đó làm nghề y.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Trang phục có 3 việc: bảo vệ cơ thể, làm đẹp, cho biết nghề nghiệp.<br>• Vải thiên nhiên (bông, tơ tằm): mát, thấm mồ hôi tốt.<br>• Vải hóa học: bền, ít nhăn, nhưng kém thoáng.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ tính chất vải bằng cảm giác: <b>thiên nhiên thì mát — hóa học thì bền</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Tơ tằm lấy từ kén của con tằm. Một chiếc áo lụa cần tơ của hàng nghìn con tằm đấy!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#6a1b9a"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 7: Trang phục trong đời sống</text><line x1="380" y1="62" x2="380" y2="78" stroke="#6a1b9a" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vai trò</text><text x="340" y="99" font-size="16.5" fill="#263238">bảo vệ cơ thể • làm đẹp • cho biết nghề</text><text x="340" y="121" font-size="16.5" fill="#263238">nghiệp, trường học</text><rect x="196" y="154" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="192.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Đa dạng</text><text x="340" y="175" font-size="16.5" fill="#263238">theo tuổi • theo việc làm • theo mùa • theo</text><text x="340" y="197" font-size="16.5" fill="#263238">phong tục</text><rect x="196" y="230" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="268.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vải thiên nhiên</text><text x="340" y="251" font-size="16.5" fill="#263238">BÔNG: mát, thấm mồ hôi • TƠ TẰM: bóng đẹp,</text><text x="340" y="273" font-size="16.5" fill="#263238">đắt, khó giữ</text><rect x="196" y="306" width="130" height="42" rx="9" fill="#6a1b9a"/><text x="261" y="333.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vải hóa học</text><text x="340" y="327" font-size="16.5" fill="#263238">bền, ít nhăn, mau khô — nhưng kém thoáng</text><rect x="196" y="360" width="130" height="42" rx="9" fill="#6a1b9a"/><text x="261" y="387.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Vải pha</text><text x="340" y="381" font-size="16.5" fill="#263238">trộn 2 loại sợi: vừa mát vừa bền</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Trang phục có những vai trò gì?</button><div class="qa-a">Trang phục <b>bảo vệ cơ thể</b>, <b>làm đẹp</b> cho con người, và <b>cho biết nghề nghiệp</b>, sở thích của người mặc.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình các bộ đồng phục: kể 2 nghề em nhận ra nhờ trang phục.</button><div class="qa-a">Ví dụ: <b>bác sĩ</b> mặc áo trắng; <b>công an</b> mặc đồng phục xanh. Còn có đầu bếp, học sinh…</div></div>
+  <div class="qa"><button class="qa-q">Vải sợi bông có tính chất gì? Vì sao mùa hè hay mặc áo bông?</button><div class="qa-a">Vải bông <b>mềm, thoáng mát, thấm mồ hôi tốt</b>. Mùa hè nóng, mặc áo bông sẽ mát và dễ chịu.</div></div>
+  <div class="qa"><button class="qa-q">Vải sợi hóa học khác vải thiên nhiên ở điểm nào?</button><div class="qa-a">Vải hóa học <b>bền hơn, ít nhăn, mau khô</b>. Nhưng vải hóa học <b>kém thoáng</b> và ít thấm mồ hôi hơn vải thiên nhiên.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="31,32,33,34,35"></div>
+  </div>
+  <a class="next" href="#bai8">✔ Xong Bài 7 → Sang Bài 8: Sử dụng và bảo quản trang phục ⬇</a>
+</div>
+<!-- ================= BÀI 8 ================= -->
+<div class="lesson" id="bai8" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge mr">🌿 Mở rộng học kì 1</span>
+  <h3>Bài 8. Sử dụng và bảo quản trang phục</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">🧺 Quần áo mặc xong thì phải giặt. Áo đẹp mà bẩn và nhàu thì không đẹp nữa. Hôm nay em học cách dùng và giữ quần áo cho bền đẹp nhé!</div>
+  <ul><li class="rdsrc">Chọn trang phục phải <b>hợp với em</b>: vừa người, em thấy thích.</li><li class="rdsrc">Phải hợp với <b>việc em làm</b>: đi học mặc đồng phục. Chơi thể thao mặc đồ thể thao.</li><li class="rdsrc">Phải hợp với <b>tiền của gia đình</b>: không đòi mua đồ quá đắt tiền.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai8-chon-trang-phuc.webp" alt="Bé chọn trang phục trước gương" loading="lazy"><figcaption>🪞 Chọn đồ hợp với mình và hợp với việc sắp làm. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Ngày mai đi học, em nên chọn bộ đồ nào? Vì sao?</button><div class="qa-a">Chọn <b>đồng phục của trường</b>. Vì hợp với việc đi học, gọn gàng và đúng quy định.</div></div>
+  <ul><li class="rdsrc"><b>Giặt</b>: phân loại trước. Áo trắng giặt riêng. Áo màu giặt riêng. Giặt chung, áo trắng dễ bị lem màu.</li><li class="rdsrc">Trước khi giặt, xem <b>nhãn mác</b> trên áo. Nhãn có kí hiệu dặn cách giặt, cách là.</li><li class="rdsrc"><b>Phơi</b>: phơi nơi thoáng gió. Áo màu phơi nắng gắt thì nên lộn trái để giữ màu.</li><li class="rdsrc"><b>Là (ủi)</b>: chỉnh nhiệt độ vừa với loại vải. Vải mỏng dùng nhiệt nhẹ, kẻo cháy vải.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai8-giat-phoi.webp" alt="Giặt và phơi quần áo nơi thoáng" loading="lazy"><figcaption>☀️ Phơi quần áo nơi thoáng gió, có nắng nhẹ. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai8-la-ui.webp" alt="Là (ủi) áo cho phẳng" loading="lazy"><figcaption>👔 Là áo với nhiệt độ vừa với vải. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <figure class="dfig"><img src="../hinh-anh/congnghe/bai8-ky-hieu-giat.svg" alt="Sơ đồ một số kí hiệu trên nhãn quần áo" loading="lazy"><figcaption>🏷️ Một số kí hiệu trên nhãn quần áo. Gặp kí hiệu lạ, em hỏi người lớn nhé!</figcaption></figure>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Nhìn hình các kí hiệu giặt – là. Chi tiết nào quan trọng nhất cần nhớ?</button><div class="qa-a">Quan trọng nhất: trên nhãn quần áo có <b>kí hiệu dặn cách chăm sóc</b>. Làm theo kí hiệu thì quần áo không bị hỏng.</div></div>
+  <ul><li class="rdsrc">Quần áo giặt sạch phải phơi <b>thật khô</b> mới được cất. Còn ẩm là bị mốc ngay.</li><li class="rdsrc">Gấp gọn gàng hoặc treo lên móc. Tủ quần áo phải <b>khô ráo, thoáng</b>.</li><li class="rdsrc">Áo rách một chút thì <b>vá ngay</b>. Để lâu, vết rách càng to thêm.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai8-cat-quan-ao.webp" alt="Tủ quần áo gấp gọn gàng" loading="lazy"><figcaption>🗄️ Tủ quần áo khô ráo, gấp gọn gàng thì áo không bị mốc. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai8-ky-hieu-giat.svg" alt="Hình gợi nhớ" loading="lazy"><div>Trước khi giặt, em xem gì trên quần áo?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Xem nhãn mác và các kí hiệu giặt – là.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai8-cat-quan-ao.webp" alt="Hình gợi nhớ" loading="lazy"><div>Áo chưa khô mà đã cất vào tủ thì sao?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Áo bị ẩm mốc và có mùi hôi.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Chọn đồ: hợp với em, hợp việc làm, hợp tiền của gia đình.<br>• Giặt: xem nhãn mác trước, giặt riêng áo trắng và áo màu.<br>• Cất giữ: khô ráo, gấp gọn, rách thì vá ngay.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Giữ quần áo bền đẹp bằng 3 chữ: <b>Giặt đúng – Phơi khô – Cất gọn</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Áo trắng giặt chung với áo màu có thể bị <b>lem màu</b>. Áo trắng bỗng thành áo hồng đấy!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 388" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#6a1b9a"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 8: Sử dụng và bảo quản trang phục</text><line x1="380" y1="62" x2="380" y2="78" stroke="#6a1b9a" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Lựa chọn</text><text x="340" y="99" font-size="16.5" fill="#263238">hợp bản thân • hợp việc làm, hoàn cảnh • hợp</text><text x="340" y="121" font-size="16.5" fill="#263238">tiền gia đình</text><rect x="196" y="154" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="192.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Giặt</text><text x="340" y="175" font-size="16.5" fill="#263238">xem nhãn mác • phân loại trắng – màu giặt</text><text x="340" y="197" font-size="16.5" fill="#263238">riêng</text><rect x="196" y="230" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="268.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Phơi và là</text><text x="340" y="251" font-size="16.5" fill="#263238">phơi nơi thoáng, lộn trái áo màu • là đúng</text><text x="340" y="273" font-size="16.5" fill="#263238">nhiệt độ của vải</text><rect x="196" y="306" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="344.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Cất giữ</text><text x="340" y="327" font-size="16.5" fill="#263238">phơi thật khô • tủ khô ráo • gấp, treo gọn •</text><text x="340" y="349" font-size="16.5" fill="#263238">vá ngay khi rách</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Khi chọn trang phục, em cần căn cứ vào những điều gì?</button><div class="qa-a">Căn cứ vào <b>đặc điểm và sở thích của em</b>, <b>việc em sắp làm</b> và <b>điều kiện tiền bạc của gia đình</b>.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình giặt và phơi quần áo: vì sao áo màu nên lộn trái khi phơi nắng gắt?</button><div class="qa-a">Để <b>giữ màu áo</b>. Nắng gắt chiếu thẳng vào mặt phải sẽ làm áo mau phai màu.</div></div>
+  <div class="qa"><button class="qa-q">Nhãn mác trên quần áo cho em biết điều gì?</button><div class="qa-a">Cho biết <b>cách giặt, cách là</b> và cách giữ áo — nhờ các kí hiệu trên nhãn.</div></div>
+  <div class="qa"><button class="qa-q">Cất quần áo thế nào để không bị ẩm mốc?</button><div class="qa-a">Giặt sạch, phơi <b>thật khô</b> rồi gấp hoặc treo vào <b>tủ khô ráo, thoáng</b>.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="36,37,38,39,40"></div>
+  </div>
+  <a class="next" href="#bai9">✔ Xong Bài 8 → Sang Bài 9: Thời trang ⬇</a>
+</div>
+<!-- ================= BÀI 9 ================= -->
+<div class="lesson" id="bai9" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge mr">🌿 Mở rộng học kì 1</span>
+  <h3>Bài 9. Thời trang</h3>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="hook rdsrc">✨ Có thời, mọi người thích mặc quần ống loe. Sau này lại thích quần ống hẹp. Cách ăn mặc được nhiều người thích ở một lúc — người ta gọi là <b>thời trang</b>.</div>
+  <ul><li class="rdsrc"><span class="hl2">Thời trang</span> là cách ăn mặc được <b>nhiều người ưa chuộng</b>. Ưa chuộng là được nhiều người thích.</li><li class="rdsrc">Thời trang chỉ đúng trong <b>một khoảng thời gian</b> và một nơi nhất định.</li><li class="rdsrc">Thời trang <b>luôn thay đổi</b>. Năm này thích kiểu này. Vài năm sau lại thích kiểu khác.</li><li class="rdsrc">Kiểu cũ có khi <b>quay trở lại</b> sau nhiều năm.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai9-thoi-trang.webp" alt="Các bạn trẻ với trang phục thời trang" loading="lazy"><figcaption>👗 Thời trang: cách ăn mặc được nhiều người thích ở một lúc. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai9-thay-doi.webp" alt="Trang phục xưa và nay" loading="lazy"><figcaption>🕰️ Trang phục xưa và nay khác nhau nhiều — thời trang luôn thay đổi. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini main"><button class="qa-q">🎯 Bắt ý chính: Chọn câu tóm đúng nhất về thời trang:<br>A. Thời trang là quần áo đắt tiền.<br>B. Thời trang là cách ăn mặc được nhiều người thích trong một lúc và luôn thay đổi.<br>C. Thời trang không bao giờ thay đổi.</button><div class="qa-a">Đáp án <b>B</b>. B nói đủ 2 ý chính: <b>nhiều người thích</b> và <b>luôn thay đổi</b>. A sai: đồ bình thường cũng có thể thành mốt. C sai hẳn: thời trang đổi luôn luôn.</div></div>
+  <ul><li class="rdsrc">Mỗi người có <b>phong cách</b> riêng. Phong cách là cách ăn mặc riêng của mỗi người.</li><li class="rdsrc">Phong cách <b>thể thao</b>: khỏe khoắn, thoải mái. Áo phông, quần soóc, giày thể thao, mũ lưỡi trai.</li><li class="rdsrc">Phong cách <b>thanh lịch</b>: gọn gàng, lịch sự. Hợp khi đi học và đi dự tiệc.</li></ul>
+  <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai9-phong-cach-the-thao.webp" alt="Trang phục phong cách thể thao" loading="lazy"><figcaption>⚽ Phong cách <b>thể thao</b>: khỏe, thoải mái. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai9-thanh-lich.webp" alt="Trang phục phong cách thanh lịch" loading="lazy"><figcaption>🎀 Phong cách <b>thanh lịch</b>: gọn gàng, lịch sự. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
+  <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Em đi đá bóng với bạn. Em nên chọn phong cách nào?</button><div class="qa-a">Phong cách <b>thể thao</b> — mặc thoải mái, chạy nhảy dễ dàng.</div></div>
+  <ul><li class="rdsrc">Em hãy tập chọn phong cách <b>hợp với mình</b>: hợp người, hợp việc, hợp sở thích.</li><li class="rdsrc"><b>Không chạy theo mốt</b> bằng mọi giá. Đồ đắt mà không hợp với em thì vẫn không đẹp.</li><li class="rdsrc">Em nhớ nhé: <b>sạch sẽ và gọn gàng</b> là đẹp nhất.</li></ul>
+  <figure><img src="../hinh-anh/congnghe/bai9-tiet-kiem.webp" alt="Bé bỏ tiền vào ống heo tiết kiệm" loading="lazy"><figcaption>🐷 Không chạy theo mốt tốn kém. Tiền để dành làm việc có ích hơn. (Tranh minh họa do AI vẽ)</figcaption></figure>
+  <div class="minittl">⚡ Nhớ nhanh — bấm vào thẻ để lật xem đáp án</div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai9-thoi-trang.webp" alt="Hình gợi nhớ" loading="lazy"><div>Thời trang là gì?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Cách ăn mặc được nhiều người thích trong một lúc.</div></div></div></div>
+  <div class="minicard" role="button" tabindex="0" aria-label="Thẻ nhớ nhanh"><div class="mini-inner"><div class="mini-face mini-front"><img src="../hinh-anh/congnghe/bai9-thanh-lich.webp" alt="Hình gợi nhớ" loading="lazy"><div>Mặc thế nào là đẹp nhất?</div><div class="fc-hint">(Bấm vào thẻ để lật)</div></div><div class="mini-face mini-back"><div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>Sạch sẽ, gọn gàng, hợp với mình.</div></div></div></div>
+  <div class="moc rdsrc">⭐ <b>Điểm cần nhớ:</b><br>• Thời trang = cách ăn mặc được nhiều người thích trong một lúc.<br>• Thời trang luôn thay đổi, có khi quay vòng trở lại.<br>• Mặc đẹp nhất là: hợp với mình, sạch sẽ, gọn gàng.</div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ câu thần chú: <b>'Mốt thì đổi — sạch gọn thì không'</b>.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Quần jean đã được mặc hơn 150 năm mà vẫn chưa hết mốt. Đúng là có kiểu cũ quay lại mãi!</div>
+  <div class="secttl">🧠 Sơ đồ tư duy</div>
+  <svg class="mmsvg" viewBox="0 0 760 366" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#6a1b9a"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">Bài 9: Thời trang</text><line x1="380" y1="62" x2="380" y2="78" stroke="#6a1b9a" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Khái niệm</text><text x="340" y="99" font-size="16.5" fill="#263238">cách ăn mặc được nhiều người ưa chuộng trong</text><text x="340" y="121" font-size="16.5" fill="#263238">một khoảng thời gian</text><rect x="196" y="154" width="130" height="42" rx="9" fill="#6a1b9a"/><text x="261" y="181.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Đặc điểm</text><text x="340" y="175" font-size="16.5" fill="#263238">luôn thay đổi • kiểu cũ có thể quay lại</text><rect x="196" y="208" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="246.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Phong cách</text><text x="340" y="229" font-size="16.5" fill="#263238">THỂ THAO: khỏe, thoải mái • THANH LỊCH: gọn</text><text x="340" y="251" font-size="16.5" fill="#263238">gàng, lịch sự</text><rect x="196" y="284" width="130" height="64" rx="9" fill="#6a1b9a"/><text x="261" y="322.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Chọn cho mình</text><text x="340" y="305" font-size="16.5" fill="#263238">hợp người, hợp việc, hợp sở thích • không chạy</text><text x="340" y="327" font-size="16.5" fill="#263238">theo mốt • sạch gọn là đẹp nhất</text></svg>
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Thời trang là gì?</button><div class="qa-a">Thời trang là <b>cách ăn mặc được nhiều người ưa chuộng</b> trong một khoảng thời gian nhất định.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình so sánh trang phục xưa và nay: em thấy thời trang thay đổi như thế nào?</button><div class="qa-a">Thời trang <b>thay đổi theo thời gian</b>: kiểu mặc xưa và nay rất khác nhau. Có kiểu cũ còn quay trở lại.</div></div>
+  <div class="qa"><button class="qa-q">Kể 2 phong cách thời trang em đã học.</button><div class="qa-a">Phong cách <b>thể thao</b> (khỏe, thoải mái) và phong cách <b>thanh lịch</b> (gọn gàng, lịch sự).</div></div>
+  <div class="qa"><button class="qa-q">Vì sao không nên chạy theo mốt bằng mọi giá?</button><div class="qa-a">Vì chạy theo mốt rất <b>tốn kém, lãng phí</b>. Đồ đắt mà không hợp với mình thì vẫn không đẹp.</div></div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="41,42,43,44,45"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Bài 9 → Sang phần Tổng kết ⬇</a>
+</div>
+<div id="sumwrap">
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 9 bài rồi, giỏi lắm! Giờ nhìn lại bức tranh lớn: sơ đồ tổng → ôn nhanh từng bài → trò chơi sắp xếp → lật lại toàn bộ flashcard một lượt.</p></div>
+<div class="card" style="--c:#5e35b1">
+  <h3>🧠 Sơ đồ tư duy TỔNG — Công nghệ 6, Học kì 1</h3>
+  <svg class="mmsvg" viewBox="0 0 760 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ tư duy"><rect x="196" y="10" width="368" height="52" rx="12" fill="#5e35b1"/><text x="380" y="43" text-anchor="middle" font-size="19" font-weight="bold" fill="#fff">🏁 Công nghệ 6 — Học kì 1</text><line x1="380" y1="62" x2="380" y2="78" stroke="#5e35b1" stroke-width="3"/><rect x="196" y="78" width="130" height="64" rx="9" fill="#5e35b1"/><text x="261" y="116.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Chương 1: Nhà ở</text><text x="340" y="99" font-size="16.5" fill="#263238">Bài 1–3: vai trò của nhà • 3 phần của nhà •</text><text x="340" y="121" font-size="16.5" fill="#263238">các bước xây nhà • ngôi nhà thông minh</text><rect x="196" y="154" width="130" height="64" rx="9" fill="#5e35b1"/><text x="261" y="192.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Chương 2: Thực phẩm</text><text x="340" y="175" font-size="16.5" fill="#263238">Bài 4–6: 5 nhóm thực phẩm • bảo quản Lạnh –</text><text x="340" y="197" font-size="16.5" fill="#263238">Khô – Chua – Kín • dự án bữa ăn yêu thương</text><rect x="196" y="230" width="130" height="64" rx="9" fill="#5e35b1"/><text x="261" y="268.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Chương 3: Trang phục</text><text x="340" y="251" font-size="16.5" fill="#263238">Bài 7–9: vai trò trang phục • các loại vải •</text><text x="340" y="273" font-size="16.5" fill="#263238">giặt đúng – phơi khô – cất gọn • thời trang</text><rect x="196" y="306" width="130" height="86" rx="9" fill="#5e35b1"/><text x="261" y="355.0" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#fff">Câu thần chú</text><text x="340" y="327" font-size="16.5" fill="#263238">Nhận lệnh → Xử lí → Chấp hành • Vẽ – Móng –</text><text x="340" y="349" font-size="16.5" fill="#263238">Thô – Đẹp – Ở • Mốt thì đổi, sạch gọn thì</text><text x="340" y="371" font-size="16.5" fill="#263238">không</text></svg>
+</div>
+<div class="card">
+  <h3>🔁 Ôn nhanh: mỗi bài một câu</h3>
+  <ul class="recap"><li><b>Bài 1:</b> Nhà là nơi ở, che chở, sinh hoạt. Nhà có 3 phần: móng – thân – mái.</li><li><b>Bài 2:</b> Xây nhà: thiết kế → làm móng → xây thô → hoàn thiện → nghiệm thu.</li><li><b>Bài 3:</b> Nhà thông minh làm việc theo: Nhận lệnh → Xử lí → Chấp hành.</li><li><b>Bài 4:</b> Có 5 nhóm thực phẩm. Bữa ăn hợp lí là bữa ăn đủ nhóm, vừa phải.</li><li><b>Bài 5:</b> Bảo quản: Lạnh – Khô – Chua – Kín. Chế biến: có nhiệt / không nhiệt.</li><li><b>Bài 6:</b> Dự án bữa ăn có 5 bước, món tự làm là món không dùng nhiệt.</li><li><b>Bài 7:</b> Trang phục có 3 vai trò. Vải thiên nhiên mát, vải hóa học bền.</li><li><b>Bài 8:</b> Giữ trang phục: Giặt đúng – Phơi khô – Cất gọn.</li><li><b>Bài 9:</b> Thời trang luôn thay đổi. Sạch sẽ, gọn gàng là đẹp nhất.</li></ul>
+</div>
+<div class="card">
+  <h3>🎮 Trò chơi: Sắp xếp các bước xây dựng một ngôi nhà</h3>
+  <p style="font-size:16px;line-height:1.6">Bấm nút bắt đầu, rồi bấm vào các thẻ việc theo thứ tự từ <b>việc làm trước nhất</b> đến <b>việc làm sau cùng</b>.</p>
+  <button class="btn" id="gameStart" style="background:#5e35b1">▶ Bắt đầu / Chơi lại</button>
+  <div class="msg" id="gameMsg"></div>
+  <div class="slots" id="gameSlots">Thứ tự em chọn sẽ hiện ở đây…</div>
+  <div class="chips" id="gameChips"></div>
+</div>
+<div class="card">
+  <h3>🃏 Flashcard TỔNG ÔN — cả 46 thẻ của học kì 1</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="fcbox" data-cards="all"></div>
+</div>
+<a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm Công nghệ 6 (Học kì 1)<small>54 câu hỏi, sắp xếp từ dễ đến khó • 3 chế độ: Học tập – Luyện tập – Thi thử</small></a>
+<p class="note">📌 Lưu ý: nhãn "Giữa kì 1 / Sau giữa kì / Mở rộng học kì 1" trên từng bài chỉ là gợi ý theo phân phối chương trình phổ biến — mỗi trường có thể cắt phạm vi hơi khác, em cứ học theo đúng thứ tự bài trên lớp nhé.</p>
+</div><!-- /#sumwrap -->
+
+<!-- ===== THANH CHẾ ĐỘ XEM (cuối trang) ===== -->
+<div class="viewbar viewbar-b">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+</div>
+
+<footer>
+  <b>Nguồn ảnh:</b> toàn bộ hình minh họa trong trang là <b>tranh minh họa do AI vẽ</b> theo phong cách tranh màu nước sách truyện (nhà ba gian, nhà sàn, nhà nổi, vật liệu xây dựng, nhà thông minh, các nhóm thực phẩm, bảo quản – chế biến, dự án bữa ăn, trang phục, các loại vải, giặt – là, thời trang…). Các sơ đồ (3 phần của nhà ở, các bước xây nhà, nguyên tắc nhà thông minh, 5 nhóm thực phẩm, các bước bảo quản bằng tủ lạnh, các bước dự án bữa ăn, kí hiệu giặt – là) là <b>sơ đồ tự vẽ, nhãn tiếng Việt</b>.<br>
+  Nội dung bám theo SGK "Công nghệ 6" — bộ Kết nối tri thức với cuộc sống. Đáp án trắc nghiệm và flashcard do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
+</footer>
+
+
+<script>
+const IMG={"b1giadinh": "../hinh-anh/congnghe/bai1-gia-dinh-sinh-hoat.webp", "b1cauctruc": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg", "b1bagian": "../hinh-anh/congnghe/bai1-nha-ba-gian.webp", "b1nhasan": "../hinh-anh/congnghe/bai1-nha-san.webp", "b1nhanoi": "../hinh-anh/congnghe/bai1-nha-noi.webp", "b1chungcu": "../hinh-anh/congnghe/bai1-chung-cu.webp", "b2vatlieu": "../hinh-anh/congnghe/bai2-vat-lieu.webp", "b2thietke": "../hinh-anh/congnghe/bai2-thiet-ke.webp", "b2xaytho": "../hinh-anh/congnghe/bai2-xay-tho.webp", "b2hoanthien": "../hinh-anh/congnghe/bai2-hoan-thien.webp", "b2antoan": "../hinh-anh/congnghe/bai2-an-toan.webp", "b2buoc": "../hinh-anh/congnghe/bai2-cac-buoc-xay-nha.svg", "b3nha": "../hinh-anh/congnghe/bai3-nha-thong-minh.webp", "b3dieukhien": "../hinh-anh/congnghe/bai3-dieu-khien.webp", "b3cambien": "../hinh-anh/congnghe/bai3-cam-bien.webp", "b3nguyentac": "../hinh-anh/congnghe/bai3-nguyen-tac.svg", "b3tietkiem": "../hinh-anh/congnghe/bai3-tiet-kiem-dien.webp", "b4namnhom": "../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg", "b4tinhbot": "../hinh-anh/congnghe/bai4-tinh-bot.webp", "b4dam": "../hinh-anh/congnghe/bai4-dam.webp", "b4vitamin": "../hinh-anh/congnghe/bai4-vitamin.webp", "b4buaan": "../hinh-anh/congnghe/bai4-bua-an-hop-li.webp", "b4anuong": "../hinh-anh/congnghe/bai4-an-uong-khoa-hoc.webp", "b5tulanh": "../hinh-anh/congnghe/bai5-tu-lanh.webp", "b5phoikho": "../hinh-anh/congnghe/bai5-phoi-kho.webp", "b5muoichua": "../hinh-anh/congnghe/bai5-muoi-chua.webp", "b5nhiet": "../hinh-anh/congnghe/bai5-che-bien-nhiet.webp", "b5nom": "../hinh-anh/congnghe/bai5-nom-goi.webp", "b5buoc": "../hinh-anh/congnghe/bai5-cac-buoc-bao-quan.svg", "b6kehoach": "../hinh-anh/congnghe/bai6-ke-hoach-bua-an.webp", "b6dicho": "../hinh-anh/congnghe/bai6-di-cho.webp", "b6lamnom": "../hinh-anh/congnghe/bai6-lam-nom.webp", "b6chiphi": "../hinh-anh/congnghe/bai6-tinh-chi-phi.webp", "b6giadinh": "../hinh-anh/congnghe/bai6-bua-an-gia-dinh.webp", "b6buoc": "../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg", "b7tuphu": "../hinh-anh/congnghe/bai7-trang-phuc-vai.webp", "b7dongphuc": "../hinh-anh/congnghe/bai7-dong-phuc.webp", "b7bong": "../hinh-anh/congnghe/bai7-vai-bong.webp", "b7lua": "../hinh-anh/congnghe/bai7-vai-lua.webp", "b7tonghop": "../hinh-anh/congnghe/bai7-vai-tong-hop.webp", "b8chon": "../hinh-anh/congnghe/bai8-chon-trang-phuc.webp", "b8giat": "../hinh-anh/congnghe/bai8-giat-phoi.webp", "b8kyhieu": "../hinh-anh/congnghe/bai8-ky-hieu-giat.svg", "b8laui": "../hinh-anh/congnghe/bai8-la-ui.webp", "b8cat": "../hinh-anh/congnghe/bai8-cat-quan-ao.webp", "b9thoitrang": "../hinh-anh/congnghe/bai9-thoi-trang.webp", "b9thethao": "../hinh-anh/congnghe/bai9-phong-cach-the-thao.webp", "b9thanhlich": "../hinh-anh/congnghe/bai9-thanh-lich.webp", "b9thaydoi": "../hinh-anh/congnghe/bai9-thay-doi.webp", "b9tietkiem": "../hinh-anh/congnghe/bai9-tiet-kiem.webp"};
+const CARDS=[["Nhà ở có vai trò quan trọng nào?", "Là nơi ở. Nhà che chở con người trước mưa nắng và nguy hiểm. Nhà là nơi cả nhà sinh hoạt.", "b1giadinh"], ["Nhà ở gồm 3 phần chính nào?", "Móng nhà – thân nhà – mái nhà.", "b1cauctruc"], ["Nhà ba gian là kiến trúc đặc trưng ở đâu?", "Ở vùng nông thôn Việt Nam.", "b1bagian"], ["Nhà sàn thường gặp ở vùng nào? Vì sao?", "Ở vùng núi. Sàn cao giúp tránh ẩm ướt, thú dữ và nước lũ.", "b1nhasan"], ["Người dân vùng sông nước thường ở loại nhà nào?", "Nhà nổi — ngôi nhà dựng trên mặt sông.", "b1nhanoi"], ["Kể tên một số vật liệu xây dựng nhà ở.", "Gạch, ngói, xi măng, cát, đá, thép, gỗ, kính, sơn…", "b2vatlieu"], ["Bước đầu tiên khi xây một ngôi nhà là gì?", "Thiết kế (vẽ bản vẽ) và chuẩn bị: đất, vật liệu, tiền.", "b2thietke"], ["Xây dựng phần thô gồm những việc chính nào?", "Dựng khung, xây tường và lợp mái.", "b2xaytho"], ["Giai đoạn hoàn thiện gồm những việc gì?", "Trát, sơn tường, lát nền, lắp cửa, lắp điện và nước.", "b2hoanthien"], ["Vì sao thợ xây phải đội mũ bảo hộ?", "Để bảo vệ đầu, giữ an toàn khi làm việc ở công trường.", "b2antoan"], ["Ngôi nhà thông minh là gì?", "Là nhà có thiết bị thông minh. Thiết bị tự làm việc hoặc điều khiển từ xa. Nhà giúp sống tiện nghi, an toàn, tiết kiệm điện.", "b3nha"], ["Ở xa nhà, em điều khiển đèn và cửa bằng gì?", "Bằng điện thoại thông minh, máy tính bảng có kết nối in-tơ-net.", "b3dieukhien"], ["Hệ thống an ninh trong nhà thông minh có những thiết bị nào?", "Camera, khóa cửa vân tay, cảm biến khói báo cháy, cảm biến báo trộm…", "b3cambien"], ["Nguyên tắc hoạt động của nhà thông minh gồm 3 bước nào?", "Nhận lệnh → Xử lí → Chấp hành.", "b3nguyentac"], ["Kể 2 việc em làm để tiết kiệm điện ở nhà.", "Tắt đèn khi ra khỏi phòng. Mở cửa sổ đón ánh sáng và gió trời.", "b3tietkiem"], ["Có mấy nhóm thực phẩm chính? Kể tên.", "5 nhóm: tinh bột–đường & chất xơ; chất đạm; chất béo; vi-ta-min; chất khoáng.", "b4namnhom"], ["Nhóm tinh bột, đường và chất xơ cho cơ thể điều gì?", "Cho năng lượng chính để hoạt động. Chất xơ giúp tiêu hóa tốt.", "b4tinhbot"], ["Chất đạm có vai trò gì với cơ thể?", "Đạm như 'gạch' xây cơ thể. Đạm giúp em lớn lên, cơ bắp phát triển.", "b4dam"], ["Vi-ta-min giúp cơ thể điều gì?", "Giúp tăng sức đề kháng — em ít bị ốm hơn.", "b4vitamin"], ["Thế nào là bữa ăn hợp lí?", "Bữa ăn có đủ các nhóm thực phẩm, mỗi nhóm một lượng vừa phải.", "b4buaan"], ["Kể 4 thói quen ăn uống khoa học.", "Ăn đúng bữa. Ăn đúng cách. Ăn sạch, an toàn. Uống đủ nước.", "b4anuong"], ["Vì sao cần bảo quản thực phẩm?", "Để thực phẩm lâu hư, giữ được chất dinh dưỡng, ăn an toàn và không lãng phí.", "b5tulanh"], ["Phơi, sấy khô thường dùng cho thực phẩm nào?", "Cá, tôm, mực, các loại hạt, trái cây. Khô thì vi sinh vật khó sống.", "b5phoikho"], ["Dưa muối, cà muối thuộc cách bảo quản nào?", "Cách muối chua.", "b5muoichua"], ["Kể các cách chế biến có dùng nhiệt.", "Luộc, hấp, kho, chiên, xào, nướng…", "b5nhiet"], ["Món nào được chế biến không dùng nhiệt?", "Nộm (gỏi), rau trộn, dưa muối chua, sinh tố…", "b5nom"], ["Dự án 'Bữa ăn kết nối yêu thương' gồm những bước chính nào?", "Lên thực đơn → đi chợ → tính toán → chế biến → cả nhà cùng ăn.", "b6buoc"], ["Khi đi chợ, em chọn thực phẩm thế nào?", "Chọn đồ tươi, sạch, còn mới. Không lấy đồ dập nát, có mùi lạ.", "b6dicho"], ["Trong dự án, em tự làm món ăn nào?", "Món không dùng nhiệt, như nộm, gỏi, rau trộn — an toàn cho em.", "b6lamnom"], ["Vì sao phải tính trước chi phí bữa ăn?", "Để số tiền mua đồ vừa với tiền em có. Đủ chất mà không lãng phí.", "b6chiphi"], ["'Bữa ăn kết nối yêu thương' có ý nghĩa gì?", "Bữa ăn em tự làm giúp cả nhà quây quần, thêm gắn kết, yêu thương.", "b6giadinh"], ["Trang phục có những vai trò gì?", "Bảo vệ cơ thể. Làm đẹp. Cho biết nghề nghiệp, sở thích của người mặc.", "b7tuphu"], ["Nhìn trang phục, em biết được gì về một người?", "Biết nghề nghiệp (bác sĩ, công an, đầu bếp…), trường học và sở thích.", "b7dongphuc"], ["Vải sợi bông (cotton) có tính chất gì?", "Mềm, thoáng mát, thấm mồ hôi tốt. Mặc rất dễ chịu.", "b7bong"], ["Vải tơ tằm có đặc điểm gì?", "Mềm mại, óng ánh, sang trọng. Nhưng đắt tiền và khó giặt giữ.", "b7lua"], ["Vải sợi hóa học có ưu điểm và nhược điểm gì?", "Ưu điểm: bền, ít nhăn, mau khô. Nhược điểm: kém thoáng, ít thấm mồ hôi.", "b7tonghop"], ["Chọn trang phục cần căn cứ vào những điều gì?", "Hợp với em. Hợp với việc em làm. Hợp với tiền của gia đình.", "b8chon"], ["Giặt xong nên phơi quần áo thế nào?", "Phơi nơi thoáng gió. Áo màu phơi nắng gắt thì lộn trái để giữ màu.", "b8giat"], ["Nhãn mác trên quần áo cho em biết điều gì?", "Cho biết cách giặt, cách là nhờ các kí hiệu trên nhãn.", "b8kyhieu"], ["Khi là (ủi) quần áo cần chú ý điều gì?", "Chỉnh nhiệt độ bàn là vừa với loại vải, kẻo cháy vải.", "b8laui"], ["Cất quần áo thế nào để tránh ẩm mốc?", "Giặt sạch, phơi thật khô, gấp gọn vào tủ khô ráo, thoáng.", "b8cat"], ["Thời trang là gì?", "Là cách ăn mặc được nhiều người ưa chuộng trong một khoảng thời gian.", "b9thoitrang"], ["Phong cách thể thao có đặc điểm gì?", "Khỏe khoắn, thoải mái: áo phông, quần soóc, giày thể thao.", "b9thethao"], ["Vì sao thời trang luôn thay đổi theo thời gian?", "Vì sở thích và cuộc sống con người thay đổi. Kiểu cũ có khi quay lại.", "b9thaydoi"], ["Ăn mặc đẹp cần nhất điều gì?", "Sạch sẽ, gọn gàng, hợp với mình và hợp hoàn cảnh.", "b9thanhlich"], ["Có nên chạy theo mốt bằng mọi giá không? Vì sao?", "Không nên. Rất tốn kém, lãng phí. Hãy chọn phong cách hợp với mình.", "b9tietkiem"]];
+/* Câu hỏi gợi nhớ + kiểm tra nhanh: bấm để hiện/ẩn đáp án */
+document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+/* Thẻ lật mini "Nhớ nhanh": bấm để lật, không chấm điểm, không lưu trạng thái */
+document.querySelectorAll('.minicard').forEach(function(c){
+  function flip(){c.classList.toggle('flipped');}
+  c.addEventListener('click',flip);
+  c.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}});
+});
+/* ===== NGHE ĐỌC BÀI HỌC bằng speechSynthesis (giọng vi-VN nếu có) =====
+   Đọc từng câu ngắn nối tiếp, tô vàng câu đang đọc, có nút dừng. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.rb-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  function pickVoice(){
+    var vs=synth.getVoices()||[];
+    viVoice=null;
+    for(var i=0;i<vs.length;i++){ if(vs[i].lang && vs[i].lang.toLowerCase().indexOf('vi')===0){ viVoice=vs[i]; break; } }
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null, lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+  function chunks(t){
+    var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[], buf='';
+    parts.forEach(function(x){ x=x.trim(); if(!x) return; if(buf&&(buf+' '+x).length>200){ out.push(buf); buf=x; } else { buf=buf?buf+' '+x:x; } });
+    if(buf) out.push(buf);
+    return out;
+  }
+  function prepare(box){
+    if(box._units) return box._units;
+    var units=[];
+    box.querySelectorAll('.rdsrc').forEach(function(el){
+      var t=(el.textContent||'').replace(/\s+/g,' ').trim();
+      if(!t) return;
+      chunks(t).forEach(function(c){ units.push({t:c,el:el}); });
+    });
+    box._units=units;
+    return units;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.rb-listen').forEach(function(b){ b.classList.remove('reading'); if(b.getAttribute('data-orig')) b.textContent=b.getAttribute('data-orig'); });
+    document.querySelectorAll('.rb-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc…'; st.stopBtn.hidden=false; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    hi(null); setBtn(null);
+  }
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    hi(st.units[st.idx].el);
+    var u=new SpeechSynthesisUtterance(st.units[st.idx].t);
+    u.lang='vi-VN'; u.rate=0.95;
+    if(viVoice) u.voice=viVoice;
+    u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
+    u.onerror=function(e){ if(cur===st&&!st.dead&&e.error!=='canceled'&&e.error!=='interrupted'){ st.idx++; speakNext(st); } };
+    synth.speak(u);
+  }
+  function startRead(box){
+    stopRead();
+    var units=prepare(box);
+    if(!units.length) return;
+    pickVoice();
+    var note=box.querySelector('.rb-note');
+    if(note){
+      if(viVoice){ note.hidden=true; }
+      else{
+        var dv=(synth.getVoices()||[])[0];
+        note.textContent='⚠️ Máy này chưa có giọng đọc tiếng Việt (đang đọc bằng giọng '+(dv?('"'+dv.name+'" '):'mặc định ')+') nên nghe sẽ không đúng tiếng Việt. Khắc phục: mở trang bằng trình duyệt Microsoft Edge, hoặc cài thêm giọng/gói ngôn ngữ Tiếng Việt trong phần cài đặt của máy.';
+        note.hidden=false;
+      }
+    }
+    var st={box:box,units:units,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false};
+    cur=st; setBtn(st); speakNext(st);
+  }
+  document.querySelectorAll('.lesson').forEach(function(box){
+    var lb=box.querySelector('.rb-listen'); if(!lb) return;
+    lb.setAttribute('data-orig',lb.textContent);
+    lb.addEventListener('click',function(){ if(cur&&cur.box===box){ stopRead(); } else { startRead(box); } });
+    box.querySelector('.rb-stop').addEventListener('click',function(){ stopRead(); });
+  });
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    if(t&&t.closest&&t.closest('.vbtn,.pick,.navbtn,a.next')) stopRead();
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
+})();
+/* Flashcard */
+var LSKEY='congnghe_flash_v1';
+var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
+function saveKnown(){try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
+/* ===== ENGINE FLASHCARD THONG NHAT (giong cac mon khac) ===== */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
+  }
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
+}
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){
+    var c=CARDS[ci];
+    var front='<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+});
+/* Trò chơi sắp xếp các bước xây nhà */
+var STEPS=[
+"✏️ Thiết kế bản vẽ và chuẩn bị",
+"⛏️ Làm móng nhà",
+"🧱 Xây phần thô: khung, tường, mái",
+"🎨 Hoàn thiện: sơn, lát nền, lắp cửa, điện và nước",
+"🔑 Nghiệm thu và dọn vào ở"];
+var picked=[];
+function startGame(){
+  picked=[];
+  var items=STEPS.map(function(_,i){return i;});
+  for(var i=items.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=items[i];items[i]=items[j];items[j]=t;}
+  var chips=document.getElementById('gameChips'),slots=document.getElementById('gameSlots'),msg=document.getElementById('gameMsg');
+  chips.innerHTML='';slots.textContent='Bấm vào các thẻ việc theo thứ tự từ việc làm TRƯỚC NHẤT đến việc làm SAU CÙNG…';msg.textContent='';
+  items.forEach(function(i){
+    var b=document.createElement('button');b.className='chip';b.textContent=STEPS[i];
+    b.onclick=function(){
+      picked.push(i);b.disabled=true;
+      slots.textContent=picked.map(function(k){return STEPS[k];}).join('  →  ');
+      if(picked.length===STEPS.length){
+        var ok=picked.every(function(v,k){return v===k;});
+        msg.textContent=ok?'🎉 ĐÚNG HẾT! Em nhớ thứ tự các bước xây nhà rất giỏi!':'😅 Chưa đúng thứ tự rồi. Nhìn lại sơ đồ 5 bước ở Bài 2 rồi bấm "Chơi lại" nhé!';
+        msg.style.color=ok?'#2e7d32':'#c62828';
+      }
+    };
+    chips.appendChild(b);
+  });
+}
+document.getElementById('gameStart').addEventListener('click',startGame);
+
+/* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
+var VMKEY='congnghe_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','🏁 Tổng kết'];
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+PLABELS.forEach(function(lb,i){
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button';
+  b.addEventListener('click',function(){showPage(i,true);});
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
+function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
+function showPage(i,scroll){
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent=(curPage===PAGES.length-1)?('⬅ '+PLABELS[curPage-1]):'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='sum';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
+(function(){
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'sum':h);
+  if(ix>=0) curPage=ix;
+})();
+applyMode();
+showPage(curPage,false);
+</script>
+</body>
+</html>

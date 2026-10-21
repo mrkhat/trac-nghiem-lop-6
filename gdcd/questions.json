@@ -1,0 +1,650 @@
+[
+ {
+  "id": 1,
+  "question": "Truyền thống gia đình là gì?",
+  "options": [
+   "A. Những điều tốt đẹp được truyền qua nhiều đời trong gia đình",
+   "B. Những ngày lễ lớn trong năm",
+   "C. Những đồ vật cũ trong nhà",
+   "D. Tiền bạc ông bà để lại"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Truyền thống là những điều tốt đẹp của gia đình, được truyền từ đời ông bà, cha mẹ đến con cháu."
+ },
+ {
+  "id": 2,
+  "question": "Việc nào sau đây là truyền thống của gia đình?",
+  "options": [
+   "A. Mỗi người ăn cơm một nơi",
+   "B. Cả nhà sum họp trong ngày giỗ",
+   "C. Không nói chuyện với họ hàng",
+   "D. Không ai nhớ ngày Tết"
+  ],
+  "answer": 1,
+  "explanation": "Chính xác! Sum họp ngày giỗ là truyền thống đẹp: con cháu cùng nhớ về ông bà, tổ tiên."
+ },
+ {
+  "id": 3,
+  "question": "Từ “hiếu học” nghĩa là gì?",
+  "options": [
+   "A. Sợ đến trường",
+   "B. Học thuộc lòng thật nhanh",
+   "C. Rất ham học, coi trọng việc học",
+   "D. Thích chơi hơn học"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! “Hiếu học” là rất ham học. Gia đình có truyền thống hiếu học thì con cháu ai cũng chăm học."
+ },
+ {
+  "id": 4,
+  "question": "Gia phả là gì?",
+  "options": [
+   "A. Sách dạy nấu ăn",
+   "B. Cuốn album ảnh cưới",
+   "C. Sổ ghi chép tiền bạc",
+   "D. Cuốn sách ghi tên ông bà tổ tiên qua các đời"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Gia phả là cuốn sách quý của dòng họ, ghi tên các đời ông bà tổ tiên. Mở gia phả ra là thấy cả “câu chuyện dài” của dòng họ mình."
+ },
+ {
+  "id": 5,
+  "question": "Truyền thống tốt đẹp giúp gia đình điều gì?",
+  "options": [
+   "A. Gắn bó và yêu thương nhau hơn",
+   "B. Giàu lên ngay lập tức",
+   "C. Không phải làm việc nhà nữa",
+   "D. Được nghỉ học nhiều hơn"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Có truyền thống tốt, người trong nhà gắn bó, yêu thương nhau hơn. Em thấy ấm lòng mỗi khi cả nhà sum họp, đúng không nào?"
+ },
+ {
+  "id": 6,
+  "question": "Việc làm nào giúp em giữ gìn truyền thống gia đình?",
+  "options": [
+   "A. Không nghe ông bà kể chuyện xưa",
+   "B. Học chăm, ngoan ngoãn, giúp việc nhà",
+   "C. Quên ngày giỗ của ông bà",
+   "D. Không học nghề truyền thống của nhà"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Những việc nhỏ như học chăm, ngoan ngoãn, giúp việc nhà chính là cách em giữ truyền thống gia đình đấy."
+ },
+ {
+  "id": 7,
+  "question": "Ngày giỗ là ngày gì?",
+  "options": [
+   "A. Ngày sinh nhật của em",
+   "B. Ngày dọn dẹp nhà cửa",
+   "C. Ngày con cháu tưởng nhớ người thân đã mất",
+   "D. Ngày cả nhà đi chơi xa"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Ngày giỗ là ngày con cháu tưởng nhớ người thân đã mất. Hôm đó cả nhà thường sum họp bên nhau."
+ },
+ {
+  "id": 8,
+  "question": "Bạn Lan kể: “Nhà mình đời nào cũng gói bánh chưng ngày Tết.” Đó là gì?",
+  "options": [
+   "A. Một trò chơi ngày Tết",
+   "B. Một việc không cần giữ",
+   "C. Một thói quen xấu",
+   "D. Truyền thống của gia đình"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Việc tốt đẹp được làm từ đời này sang đời khác như gói bánh chưng ngày Tết chính là truyền thống."
+ },
+ {
+  "id": 9,
+  "question": "Đúng ngày giỗ ông, bạn rủ em đi chơi xa cả ngày. Em nên làm gì?",
+  "options": [
+   "A. Ở nhà cùng gia đình làm giỗ, hẹn bạn hôm khác",
+   "B. Giận bạn vì rủ không đúng lúc",
+   "C. Đi chơi ngay, ngày giỗ không quan trọng",
+   "D. Nói dối bố mẹ để đi chơi"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Ngày giỗ là dịp quý để nhớ ơn tổ tiên và sum họp gia đình. Hẹn bạn hôm khác là cách làm vừa tình cảm vừa đúng nhé."
+ },
+ {
+  "id": 10,
+  "question": "Yêu thương con người là gì?",
+  "options": [
+   "A. Nói lời hay nhưng không làm gì",
+   "B. Quan tâm, giúp đỡ và làm điều tốt cho người khác",
+   "C. Cho tiền mọi người lạ",
+   "D. Chỉ thương người trong gia đình"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Yêu thương con người là quan tâm, giúp đỡ và làm những điều tốt đẹp cho người khác."
+ },
+ {
+  "id": 11,
+  "question": "Việc nào thể hiện yêu thương bạn bè ở trường?",
+  "options": [
+   "A. Cười khi bạn bị ngã",
+   "B. Giấu vở của bạn",
+   "C. Giảng bài cho bạn chưa hiểu",
+   "D. Không chơi với bạn mới đến lớp"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Giảng bài cho bạn chưa hiểu là việc làm yêu thương rất đẹp ở trường. Bạn vui, em cũng thấy vui."
+ },
+ {
+  "id": 12,
+  "question": "Câu ca dao “Thương người như thể thương thân” dạy em điều gì?",
+  "options": [
+   "A. Chỉ cần thương bản thân mình",
+   "B. Chỉ thương người giàu",
+   "C. Chỉ thương người trong họ",
+   "D. Thương người khác như thương chính mình"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Câu ca dao dạy ta: hãy thương người khác như thương chính mình. Nhớ câu này là nhớ cả bài học nhé."
+ },
+ {
+  "id": 13,
+  "question": "Khi ông bà bị ốm, em nên làm gì?",
+  "options": [
+   "A. Mang cháo, mang nước và hỏi thăm ông bà",
+   "B. Không cần quan tâm",
+   "C. Làm ồn cho nhà vui hơn",
+   "D. Chạy đi chơi xa"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Mang cháo, mang nước, hỏi thăm ông bà — việc nhỏ thôi mà ông bà ấm lòng lắm đấy."
+ },
+ {
+  "id": 14,
+  "question": "Các bạn lớp em quyên góp sách vở tặng bạn vùng lũ. Đó là việc làm gì?",
+  "options": [
+   "A. Việc làm lãng phí",
+   "B. Thể hiện yêu thương, chia sẻ với người gặp khó khăn",
+   "C. Việc chỉ để được cô khen",
+   "D. Việc không cần thiết"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Quyên góp là gom góp đồ để tặng người cần. Đó là yêu thương được biến thành việc làm thật."
+ },
+ {
+  "id": 15,
+  "question": "Từ “vô cảm” nghĩa là gì?",
+  "options": [
+   "A. Người nhanh nhẹn, hoạt bát",
+   "B. Người rất hay cười",
+   "C. Thấy người gặp khó mà dửng dưng, không quan tâm",
+   "D. Người hay giúp đỡ người khác"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Vô cảm là thấy người khó mà không quan tâm, không giúp. Đó là điều trái với yêu thương, em đừng làm thế nhé."
+ },
+ {
+  "id": 16,
+  "question": "Yêu thương con người mang lại điều gì?",
+  "options": [
+   "A. Chẳng mang lại điều gì",
+   "B. Bị bạn bè chê cười",
+   "C. Làm em mệt mỏi hơn",
+   "D. Người nhận thấy ấm lòng, người cho đi cũng thấy vui"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Yêu thương làm cả hai phía đều vui: người được giúp thấy ấm lòng, người giúp cũng hạnh phúc."
+ },
+ {
+  "id": 17,
+  "question": "Một bạn mới chuyển đến lớp, chưa quen ai. Em nên làm gì?",
+  "options": [
+   "A. Rủ bạn cùng chơi và giới thiệu lớp cho bạn",
+   "B. Chờ bạn tự làm quen một mình",
+   "C. Trêu bạn cho vui",
+   "D. Không nói chuyện với bạn"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Rủ bạn mới cùng chơi là việc làm yêu thương, giúp bạn bớt bỡ ngỡ trong những ngày đầu."
+ },
+ {
+  "id": 18,
+  "question": "Bạn cùng bàn bị ngã ở sân trường, tay bị trầy xước. Em nên làm gì trước tiên?",
+  "options": [
+   "A. Chạy đi chơi tiếp",
+   "B. Đỡ bạn dậy và đưa bạn đến phòng y tế",
+   "C. Đứng nhìn bạn",
+   "D. Cười bạn vì bạn bất cẩn"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Đỡ bạn dậy và đưa bạn đến phòng y tế là việc cần làm ngay. Giúp bạn lúc bạn đau là yêu thương thật sự."
+ },
+ {
+  "id": 19,
+  "question": "Siêng năng là gì?",
+  "options": [
+   "A. Làm việc một lần thật lâu rồi nghỉ",
+   "B. Chỉ làm việc khi có người nhắc",
+   "C. Làm việc chăm chỉ, đều đặn mỗi ngày",
+   "D. Chỉ làm những việc mình thích"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Siêng năng là làm việc chăm chỉ, đều đặn mỗi ngày — như tưới cây, học bài mỗi ngày vậy."
+ },
+ {
+  "id": 20,
+  "question": "Kiên trì là gì?",
+  "options": [
+   "A. Chờ người khác làm thay",
+   "B. Làm thật nhanh cho xong",
+   "C. Bỏ những việc khó",
+   "D. Quyết tâm làm đến cùng, gặp khó không bỏ cuộc"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Kiên trì là quyết tâm làm đến cùng. Gặp khó cũng không bỏ cuộc — nhớ bạn Rùa trong truyện nhé."
+ },
+ {
+  "id": 21,
+  "question": "Việc nào thể hiện siêng năng, kiên trì trong học tập?",
+  "options": [
+   "A. Làm bài mỗi ngày, chưa hiểu thì học lại và hỏi thầy cô",
+   "B. Bỏ qua những bài khó",
+   "C. Chỉ học trước ngày kiểm tra một hôm",
+   "D. Chép bài của bạn cho nhanh"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Học đều mỗi ngày, chưa hiểu thì học lại — đó chính là siêng năng, kiên trì trong học tập."
+ },
+ {
+  "id": 22,
+  "question": "Tục ngữ “Có công mài sắt, có ngày nên kim” dạy em điều gì?",
+  "options": [
+   "A. Nên mua kim mới cho nhanh",
+   "B. Cứ kiên trì làm thì việc khó cũng sẽ xong",
+   "C. Sắt là kim loại rất cứng",
+   "D. Mài sắt là việc rất mệt"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Cây kim nhỏ xíu mà mài mãi cũng thành. Cứ kiên trì, việc khó mấy em cũng làm được."
+ },
+ {
+  "id": 23,
+  "question": "Trong truyện “Thỏ và Rùa”, vì sao Rùa thắng Thỏ?",
+  "options": [
+   "A. Rùa đi đường tắt",
+   "B. Thỏ bị ốm giữa đường",
+   "C. Rùa kiên trì, đi đều đặn và không bỏ cuộc",
+   "D. Rùa chạy nhanh hơn Thỏ"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Rùa chậm nhưng kiên trì, đi đều không nghỉ. Còn Thỏ chủ quan, mải ngủ nên thua."
+ },
+ {
+  "id": 24,
+  "question": "Việc làm nào trái với siêng năng, kiên trì?",
+  "options": [
+   "A. Chăm chỉ làm việc",
+   "B. Vui vẻ giúp bạn",
+   "C. Làm việc cẩn thận",
+   "D. Lười biếng, mau nản, bỏ dở giữa chừng"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Lười biếng và bỏ dở giữa chừng là điều ngược lại với siêng năng, kiên trì. Em tránh nhé."
+ },
+ {
+  "id": 25,
+  "question": "Hùng tập đi xe đạp và bị ngã ba lần. Hùng nên làm gì để thể hiện sự kiên trì?",
+  "options": [
+   "A. Đứng dậy và tập tiếp cho đến khi đi được",
+   "B. Đổ lỗi cho chiếc xe",
+   "C. Bỏ xe, không tập nữa",
+   "D. Khóc và giận bố mẹ"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Ngã thì đứng dậy tập tiếp — đó là kiên trì. Ai tập xe cũng ngã vài lần, cố lên là đi được thôi!"
+ },
+ {
+  "id": 26,
+  "question": "Siêng năng, kiên trì giúp em điều gì?",
+  "options": [
+   "A. Không phải làm việc nhà nữa",
+   "B. Làm được việc khó và đi đến thành công",
+   "C. Khiến bạn bè sợ em",
+   "D. Được điểm cao mà không cần học"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Siêng năng, kiên trì giúp em làm được việc khó và thành công, lại được mọi người tin tưởng nữa."
+ },
+ {
+  "id": 27,
+  "question": "Bài tập này khó, em làm 15 phút vẫn chưa ra. Người kiên trì sẽ làm gì?",
+  "options": [
+   "A. Khóc và không học nữa",
+   "B. Chép đáp án của bạn",
+   "C. Chia nhỏ bài ra, làm từng bước, hỏi cô rồi làm tiếp",
+   "D. Bỏ luôn bài đó, đi chơi"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Chia nhỏ bài, làm từng bước, hỏi thầy cô — việc khó đến mấy cũng có cách. Đừng bỏ cuộc nhé!"
+ },
+ {
+  "id": 28,
+  "question": "Tôn trọng sự thật là gì?",
+  "options": [
+   "A. Giấu kín mọi chuyện",
+   "B. Nói thế nào cũng được",
+   "C. Nói điều bạn muốn nghe",
+   "D. Nói đúng, làm đúng những gì có thật"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Tôn trọng sự thật là nói đúng sự thật, làm đúng sự thật và bảo vệ điều đúng."
+ },
+ {
+  "id": 29,
+  "question": "Việc làm nào thể hiện tôn trọng sự thật?",
+  "options": [
+   "A. Dũng cảm nhận lỗi khi mình làm sai",
+   "B. Đổ lỗi cho bạn khi mình làm vỡ đồ",
+   "C. Giấu bài kiểm tra bị điểm kém",
+   "D. Nói dối để được cô khen"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Nhận lỗi là việc làm dũng cảm và trung thực. Ai cũng có lúc sai, nhận lỗi là rất đáng khen."
+ },
+ {
+  "id": 30,
+  "question": "Trong giờ kiểm tra, việc làm nào là đúng?",
+  "options": [
+   "A. Dùng “phao” giấu trong tay áo",
+   "B. Tự làm bài bằng sức của mình",
+   "C. Hỏi nhỏ bạn đáp án",
+   "D. Nhìn bài của bạn bên cạnh"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Tự làm bài bằng sức của mình mới là tôn trọng sự thật. Điểm số thật mới giúp em biết mình cần học thêm gì."
+ },
+ {
+  "id": 31,
+  "question": "Nhặt được ví tiền ở sân trường, em nên làm gì?",
+  "options": [
+   "A. Lấy tiền ra rồi vứt ví đi",
+   "B. Giữ luôn làm của mình",
+   "C. Nộp cho thầy cô để trả lại người mất",
+   "D. Đưa cho bạn thân giữ hộ"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Nộp cho thầy cô để trả người mất là việc làm trung thực. Người mất ví chắc đang lo lắng lắm, em giúp họ vui lên đấy."
+ },
+ {
+  "id": 32,
+  "question": "Người hay nói thật thường được mọi người thế nào?",
+  "options": [
+   "A. Không tin lời họ nói",
+   "B. Xa lánh, không chơi cùng",
+   "C. Sợ hãi, tránh mặt",
+   "D. Tin tưởng và quý mến"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Người trung thực luôn được mọi người tin tưởng và quý mến, lại được giao những việc quan trọng."
+ },
+ {
+  "id": 33,
+  "question": "Trong truyện “Chú bé chăn cừu”, vì sao lần cuối không ai lên giúp cậu bé khi sói đến thật?",
+  "options": [
+   "A. Vì cậu đã nói dối nhiều lần nên không ai tin nữa",
+   "B. Vì con sói quá dữ",
+   "C. Vì hôm đó trời mưa to",
+   "D. Vì mọi người đều bận việc"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Nói dối nhiều lần thì khi nói thật cũng không ai tin. Đó là bài học lớn của câu chuyện này."
+ },
+ {
+  "id": 34,
+  "question": "Gian lận trong thi cử (chép bài, dùng phao) là việc làm thế nào?",
+  "options": [
+   "A. Hoàn toàn bình thường",
+   "B. Sai, trái với tôn trọng sự thật",
+   "C. Rất thông minh",
+   "D. Nên làm để được điểm cao"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Gian lận là việc làm sai. Điểm cao nhờ gian lận không phải là sức học thật của em."
+ },
+ {
+  "id": 35,
+  "question": "Bạn thân rủ em: “Kiểm tra này tớ cho cậu chép bài nhé!” Em nên nói gì?",
+  "options": [
+   "A. Chép ngay kẻo hết giờ",
+   "B. Chỉ chép một nửa bài thôi",
+   "C. Cảm ơn bạn, nhưng chép bài là gian lận; hai đứa mình cùng ôn bài nhé",
+   "D. Mách cô ngay để bạn bị phạt"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Từ chối nhẹ nhàng và rủ bạn cùng ôn bài — vừa giữ được sự thật, vừa giữ được tình bạn. Hay quá!"
+ },
+ {
+  "id": 36,
+  "question": "Em lỡ làm rách cuốn sách của thư viện. Việc làm đúng nhất là gì?",
+  "options": [
+   "A. Giấu cuốn sách vào góc kệ",
+   "B. Để sách lại như cũ và im lặng ra về",
+   "C. Nói là bạn bên cạnh làm rách",
+   "D. Nhận lỗi với cô thủ thư và xin lỗi"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Nhận lỗi và xin lỗi là việc làm trung thực, dũng cảm. Cô thủ thư sẽ hướng dẫn em cách xử lí, đừng lo nhé."
+ },
+ {
+  "id": 37,
+  "question": "Tự lập là gì?",
+  "options": [
+   "A. Tự làm những việc của mình, không ỷ lại vào người khác",
+   "B. Làm mọi việc một mình, không cần ai giúp bao giờ",
+   "C. Không nghe lời cha mẹ nữa",
+   "D. Làm việc nhà cho nhà hàng xóm"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Tự lập là tự làm những việc của mình, không chờ người khác làm thay."
+ },
+ {
+  "id": 38,
+  "question": "Việc nào thể hiện tự lập ở nhà?",
+  "options": [
+   "A. Chị soạn cặp sách hộ em",
+   "B. Em tự gấp chăn và dọn phòng của mình",
+   "C. Mẹ gấp chăn cho em mỗi ngày",
+   "D. Em chờ nhắc mới chịu đánh răng"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Tự gấp chăn, tự dọn phòng — những việc nhỏ này cho thấy em đã biết tự lập ở nhà rồi đấy."
+ },
+ {
+  "id": 39,
+  "question": "Từ “ỷ lại” nghĩa là gì?",
+  "options": [
+   "A. Tự làm việc của mình",
+   "B. Hay giúp đỡ người khác",
+   "C. Việc của mình mà chờ người khác làm thay",
+   "D. Làm việc rất nhanh"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Ỷ lại là việc của mình mà chờ người khác làm thay. Ỷ lại lâu ngày sẽ rất vất vả sau này."
+ },
+ {
+  "id": 40,
+  "question": "Tự lập giúp em điều gì?",
+  "options": [
+   "A. Làm cha mẹ hết thương em",
+   "B. Khiến em ít bạn hơn",
+   "C. Không cần đi học nữa",
+   "D. Tự tin hơn và trưởng thành hơn"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Tự lập giúp em tự tin, trưởng thành. Cha mẹ và thầy cô cũng vui và yên tâm về em hơn."
+ },
+ {
+  "id": 41,
+  "question": "Việc nào thể hiện tự lập ở trường?",
+  "options": [
+   "A. Tự làm bài tập và tự trực nhật lớp",
+   "B. Nhờ bạn trực nhật thay mình",
+   "C. Mang nhiều đồ chơi rồi nhờ bạn cất",
+   "D. Để cô giáo dọn lớp một mình"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Tự làm bài, tự trực nhật là biểu hiện tự lập ở trường. Trực nhật là đến lượt em dọn vệ sinh lớp đấy."
+ },
+ {
+  "id": 42,
+  "question": "Câu nào nói đúng nhất về tự lập?",
+  "options": [
+   "A. Tự lập là tự ý làm mọi điều mình thích",
+   "B. Việc làm được thì tự làm, việc khó quá vẫn nhờ người lớn giúp",
+   "C. Tự lập là không cần cha mẹ nữa",
+   "D. Việc khó cũng cố làm một mình, tuyệt đối không nhờ ai"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Tự lập không có nghĩa là làm một mình tất cả. Việc nào quá khó, em cứ nhờ người lớn giúp — như thế vẫn là tự lập nhé."
+ },
+ {
+  "id": 43,
+  "question": "Buổi tối, Na tự soạn cặp và chuẩn bị quần áo cho ngày mai. Na đang làm gì?",
+  "options": [
+   "A. Lười biếng",
+   "B. Làm một việc thừa",
+   "C. Tự lập",
+   "D. Ỷ lại"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Tự chuẩn bị đồ cho ngày mai là việc làm tự lập rất tốt. Sáng ra Na sẽ không vội vàng, không quên vở."
+ },
+ {
+  "id": 44,
+  "question": "Ỷ lại lâu ngày sẽ làm em thế nào?",
+  "options": [
+   "A. Ngày càng giỏi giang hơn",
+   "B. Được mọi người khen ngợi",
+   "C. Khỏe mạnh hơn",
+   "D. Không biết tự làm việc gì, lớn lên sẽ rất vất vả"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Ỷ lại lâu ngày, em sẽ không biết làm gì cả. Tập tự làm từ việc nhỏ mỗi ngày là tốt nhất."
+ },
+ {
+  "id": 45,
+  "question": "Sáng nay mẹ bận đi sớm, không ai buộc giày cho em. Em nên làm gì?",
+  "options": [
+   "A. Tự buộc giày như đã được dạy",
+   "B. Không đi học hôm nay",
+   "C. Mang dép lê đến trường cho nhanh",
+   "D. Ngồi khóc chờ mẹ về"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Tự buộc giày là việc em làm được. Tự làm được việc của mình, em sẽ thấy mình “lớn” hẳn lên!"
+ },
+ {
+  "id": 46,
+  "question": "Tự nhận thức bản thân là gì?",
+  "options": [
+   "A. Học giỏi tất cả các môn",
+   "B. Hiểu rõ chính mình: điểm mạnh và điểm yếu của mình",
+   "C. Biết thật nhiều kiến thức",
+   "D. Hiểu rõ tính cách của bạn bè"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Tự nhận thức bản thân là hiểu rõ về chính mình: mình giỏi việc gì, chưa giỏi việc gì."
+ },
+ {
+  "id": 47,
+  "question": "Điểm mạnh của một người là gì?",
+  "options": [
+   "A. Việc người đó làm chưa tốt",
+   "B. Việc bạn của người đó làm giỏi",
+   "C. Việc mà người đó làm giỏi",
+   "D. Việc người đó thích xem"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Điểm mạnh là việc em làm giỏi, ví dụ như vẽ đẹp, chạy nhanh hay hát hay."
+ },
+ {
+  "id": 48,
+  "question": "Việc nào giúp em hiểu mình hơn?",
+  "options": [
+   "A. Chỉ ngồi đoán về mình",
+   "B. Không thử làm việc gì cả",
+   "C. Chép lại điểm mạnh của bạn",
+   "D. Thử làm nhiều việc khác nhau như vẽ, hát, thể thao"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Thử làm nhiều việc, em mới biết mình giỏi việc gì và hợp với việc gì. Cứ mạnh dạn thử nhé!"
+ },
+ {
+  "id": 49,
+  "question": "Khi thầy cô góp ý về điểm chưa tốt của em, em nên làm gì?",
+  "options": [
+   "A. Lắng nghe, cảm ơn và tìm cách sửa",
+   "B. Buồn rồi bỏ cuộc",
+   "C. Nghe tai này, quên tai kia",
+   "D. Giận thầy cô"
+  ],
+  "answer": 0,
+  "explanation": "Đúng rồi! Góp ý là món quà giúp em tốt lên. Lắng nghe và tìm cách sửa là thái độ rất đẹp."
+ },
+ {
+  "id": 50,
+  "question": "Biết mình vẽ rất giỏi, em nên làm gì?",
+  "options": [
+   "A. Khoe khoang để bạn nể",
+   "B. Phát huy điểm mạnh: tham gia lớp vẽ, thi vẽ",
+   "C. Bỏ không vẽ nữa",
+   "D. Cười chê bạn vẽ chưa đẹp"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Biết điểm mạnh thì phát huy nó lên: học thêm, tham gia các cuộc thi. Điểm mạnh sẽ ngày càng “sáng” hơn."
+ },
+ {
+  "id": 51,
+  "question": "Từ “tự ti” nghĩa là gì?",
+  "options": [
+   "A. Rất tự hào về mình",
+   "B. Thích khoe khoang",
+   "C. Buồn, nghĩ mình kém cỏi và không dám thử làm",
+   "D. Hay cười nói vui vẻ"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Tự ti là buồn và nghĩ mình kém, không dám thử. Ai cũng có điểm yếu cả — sửa dần là được, đừng tự ti nhé."
+ },
+ {
+  "id": 52,
+  "question": "Khi biết điểm yếu của mình, thái độ nào là đúng?",
+  "options": [
+   "A. Giấu không cho ai biết",
+   "B. Tự ti và bỏ mặc điểm yếu",
+   "C. Đổ lỗi cho người khác",
+   "D. Bình tĩnh và sửa dần mỗi ngày"
+  ],
+  "answer": 3,
+  "explanation": "Đúng rồi! Bình tĩnh sửa dần mỗi ngày — đó là thái độ đúng. Điểm yếu sửa được từng chút một, không cần vội."
+ },
+ {
+  "id": 53,
+  "question": "Minh viết chữ còn xấu. Cách làm đúng của Minh là gì?",
+  "options": [
+   "A. Nhờ bạn viết hộ mỗi ngày",
+   "B. Luyện viết mỗi ngày một ít để chữ đẹp dần",
+   "C. Buồn và tự ti về chữ của mình",
+   "D. Không viết bài nữa"
+  ],
+  "answer": 1,
+  "explanation": "Đúng rồi! Luyện mỗi ngày một ít là cách sửa điểm yếu khôn ngoan nhất. Chữ của Minh sẽ đẹp dần lên thôi."
+ },
+ {
+  "id": 54,
+  "question": "Cô nói: “Con hát chưa hay, nhưng con vẽ rất đẹp.” Điều đúng nhất em hiểu được là gì?",
+  "options": [
+   "A. Em chỉ nên đi hát",
+   "B. Em là người kém mọi thứ",
+   "C. Ai cũng có điểm mạnh và điểm yếu; em phát huy điểm mạnh và sửa điểm yếu",
+   "D. Cô không thương em"
+  ],
+  "answer": 2,
+  "explanation": "Đúng rồi! Ai cũng có điểm mạnh và điểm yếu riêng. Phát huy điểm mạnh, sửa dần điểm yếu — đó là cách em tiến bộ mỗi ngày."
+ }
+]

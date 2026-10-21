@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "question": "Nhà ở có vai trò quan trọng nhất là gì?",
+    "options": [
+      "A. Nơi ở, che chở và là nơi sinh hoạt của gia đình",
+      "B. Nơi trang trí cho đẹp",
+      "C. Nơi để xe",
+      "D. Nơi bán hàng"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Nhà là nơi ở, che mưa che nắng và là nơi cả nhà sinh hoạt mỗi ngày."
+  },
+  {
+    "id": 2,
+    "question": "Nhà ở gồm 3 phần chính nào?",
+    "options": [
+      "A. Cửa – tường – sân",
+      "B. Móng nhà – thân nhà – mái nhà",
+      "C. Gạch – ngói – gỗ",
+      "D. Phòng khách – bếp – sân"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Nhớ thứ tự từ dưới lên: móng đỡ nhà, thân là nhà, mái che nhà."
+  },
+  {
+    "id": 3,
+    "question": "Phần nào của nhà ở nằm dưới đất và giữ cho nhà đứng vững?",
+    "options": [
+      "A. Mái nhà",
+      "B. Thân nhà",
+      "C. Móng nhà",
+      "D. Cửa sổ"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Móng nằm dưới đất, giống như chân giữ cho nhà đứng vững."
+  },
+  {
+    "id": 4,
+    "question": "Nhà sàn thường có ở vùng nào?",
+    "options": [
+      "A. Thành phố",
+      "B. Sa mạc",
+      "C. Dưới biển",
+      "D. Vùng núi"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Nhà sàn ở vùng núi, sàn cao để tránh ẩm ướt và thú dữ."
+  },
+  {
+    "id": 5,
+    "question": "Vật liệu nào dùng để xây tường nhà?",
+    "options": [
+      "A. Gạch",
+      "B. Kính",
+      "C. Sơn",
+      "D. Rèm cửa"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Gạch là vật liệu chính để xây tường."
+  },
+  {
+    "id": 6,
+    "question": "Bê tông cốt thép là bê tông có thêm vật liệu gì bên trong?",
+    "options": [
+      "A. Gỗ",
+      "B. Thép",
+      "C. Cát",
+      "D. Ngói"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Bê tông có thép bên trong thì rất cứng và chắc, gọi là bê tông cốt thép."
+  },
+  {
+    "id": 7,
+    "question": "Bước đầu tiên khi xây dựng một ngôi nhà là gì?",
+    "options": [
+      "A. Sơn nhà",
+      "B. Lợp mái",
+      "C. Thiết kế và chuẩn bị",
+      "D. Lát nền"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Phải vẽ bản vẽ và chuẩn bị trước, rồi mới xây được."
+  },
+  {
+    "id": 8,
+    "question": "Xây dựng phần thô gồm những việc nào?",
+    "options": [
+      "A. Sơn tường, lát nền",
+      "B. Lắp cửa, lắp điện nước",
+      "C. Dọn vào ở",
+      "D. Dựng khung, xây tường, lợp mái"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Phần thô là phần 'xương' của ngôi nhà: khung, tường, mái."
+  },
+  {
+    "id": 9,
+    "question": "Ngôi nhà thông minh là ngôi nhà như thế nào?",
+    "options": [
+      "A. Nhà có thiết bị thông minh, tự làm việc hoặc điều khiển từ xa",
+      "B. Nhà rất to",
+      "C. Nhà sơn nhiều màu",
+      "D. Nhà có nhiều tầng"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Điểm đặc biệt của nhà thông minh là các thiết bị tự làm việc, điều khiển được từ xa."
+  },
+  {
+    "id": 10,
+    "question": "Em điều khiển ngôi nhà thông minh từ xa bằng gì?",
+    "options": [
+      "A. Cái chổi",
+      "B. Điện thoại thông minh có in-tơ-net",
+      "C. Ti vi cũ",
+      "D. Đài ra-đi-ô"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Chỉ cần điện thoại có mạng là em điều khiển được đèn, cửa trong nhà."
+  },
+  {
+    "id": 11,
+    "question": "Thiết bị nào giúp báo cháy trong ngôi nhà thông minh?",
+    "options": [
+      "A. Camera",
+      "B. Khóa vân tay",
+      "C. Cảm biến khói",
+      "D. Rèm tự động"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Cảm biến khói 'ngửi' thấy khói là báo động ngay."
+  },
+  {
+    "id": 12,
+    "question": "Nguyên tắc hoạt động của ngôi nhà thông minh gồm 3 bước theo thứ tự nào?",
+    "options": [
+      "A. Chấp hành → Xử lí → Nhận lệnh",
+      "B. Xử lí → Nhận lệnh → Chấp hành",
+      "C. Nhận lệnh → Chấp hành → Xử lí",
+      "D. Nhận lệnh → Xử lí → Chấp hành"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Nhớ như nghe lời mẹ dặn: nghe lệnh, nghĩ, rồi mới làm."
+  },
+  {
+    "id": 13,
+    "question": "Thực phẩm được chia thành mấy nhóm chính?",
+    "options": [
+      "A. 5 nhóm",
+      "B. 3 nhóm",
+      "C. 4 nhóm",
+      "D. 6 nhóm"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Có 5 nhóm: tinh bột–đường & xơ, đạm, béo, vi-ta-min, chất khoáng."
+  },
+  {
+    "id": 14,
+    "question": "Cơm, bánh mì, khoai thuộc nhóm thực phẩm nào?",
+    "options": [
+      "A. Nhóm chất đạm",
+      "B. Nhóm tinh bột, đường và chất xơ",
+      "C. Nhóm chất béo",
+      "D. Nhóm chất khoáng"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Nhóm này cho em năng lượng chính để học và chơi."
+  },
+  {
+    "id": 15,
+    "question": "Nhóm thực phẩm nào giúp cơ thể lớn lên, xây nên cơ bắp?",
+    "options": [
+      "A. Nhóm chất béo",
+      "B. Nhóm vi-ta-min",
+      "C. Nhóm chất đạm",
+      "D. Nhóm nước uống"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Chất đạm như 'gạch' xây nên cơ thể: thịt, cá, trứng, sữa, đậu."
+  },
+  {
+    "id": 16,
+    "question": "Rau xanh và trái cây giàu chất gì nhất?",
+    "options": [
+      "A. Chất đạm",
+      "B. Chất béo",
+      "C. Tinh bột",
+      "D. Vi-ta-min"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Rau quả nhiều vi-ta-min, giúp em tăng sức đề kháng, ít ốm."
+  },
+  {
+    "id": 17,
+    "question": "Bảo quản thực phẩm là làm gì?",
+    "options": [
+      "A. Giữ cho thực phẩm lâu hư và an toàn",
+      "B. Nấu thực phẩm cho ngon",
+      "C. Bày thực phẩm cho đẹp",
+      "D. Ăn hết thật nhanh"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Bảo quản giúp đồ ăn giữ được lâu, không bị hư."
+  },
+  {
+    "id": 18,
+    "question": "Cá khô, tôm khô được bảo quản bằng cách nào?",
+    "options": [
+      "A. Muối chua",
+      "B. Phơi, sấy khô",
+      "C. Đóng hộp",
+      "D. Để ngoài trời mưa"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Phơi khô thì vi sinh vật khó sống, cá tôm để được lâu."
+  },
+  {
+    "id": 19,
+    "question": "Dưa muối, cà muối thuộc cách bảo quản nào?",
+    "options": [
+      "A. Làm đông lạnh",
+      "B. Phơi khô",
+      "C. Muối chua",
+      "D. Hút chân không"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Dưa muối, cà muối là cách bảo quản muối chua của gia đình Việt Nam."
+  },
+  {
+    "id": 20,
+    "question": "Món ăn nào được chế biến KHÔNG dùng nhiệt?",
+    "options": [
+      "A. Cá kho",
+      "B. Rau luộc",
+      "C. Canh nấu",
+      "D. Nộm (gỏi)"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Nộm chỉ trộn rau củ với gia vị, không cần nấu trên lửa."
+  },
+  {
+    "id": 21,
+    "question": "Dự án 'Bữa ăn kết nối yêu thương' có mấy bước chính?",
+    "options": [
+      "A. 5 bước",
+      "B. 3 bước",
+      "C. 4 bước",
+      "D. 6 bước"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! 5 bước: lên thực đơn, đi chợ, tính toán, chế biến, cả nhà cùng ăn."
+  },
+  {
+    "id": 22,
+    "question": "Bước nào làm đầu tiên trong dự án bữa ăn?",
+    "options": [
+      "A. Đi chợ",
+      "B. Lên thực đơn",
+      "C. Chế biến món ăn",
+      "D. Ăn cơm"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Nghĩ món trước rồi mới đi chợ mua đúng thứ cần."
+  },
+  {
+    "id": 23,
+    "question": "Khi đi chợ làm dự án, em nên chọn thực phẩm như thế nào?",
+    "options": [
+      "A. Đồ dập nát cho rẻ",
+      "B. Đồ có mùi lạ",
+      "C. Đồ tươi, sạch",
+      "D. Đồ đắt nhất chợ"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Chọn đồ tươi, sạch thì bữa ăn mới ngon và an toàn."
+  },
+  {
+    "id": 24,
+    "question": "Trong dự án bữa ăn, món nào an toàn nhất cho em tự làm?",
+    "options": [
+      "A. Món chiên dầu sôi",
+      "B. Món nướng than",
+      "C. Món kho lâu trên bếp",
+      "D. Món không dùng nhiệt như nộm, gỏi"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Món không dùng nhiệt an toàn cho em: không bếp lửa, không dầu sôi."
+  },
+  {
+    "id": 25,
+    "question": "Vai trò nào sau đây là của trang phục?",
+    "options": [
+      "A. Bảo vệ cơ thể",
+      "B. Làm đẹp cho con người",
+      "C. Cho biết nghề nghiệp của người mặc",
+      "D. Cả 3 ý trên"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Trang phục có đủ 3 việc: bảo vệ cơ thể, làm đẹp, cho biết nghề nghiệp."
+  },
+  {
+    "id": 26,
+    "question": "Vải bông (cotton) có tính chất gì?",
+    "options": [
+      "A. Cứng và nóng",
+      "B. Mềm, thoáng mát, thấm mồ hôi tốt",
+      "C. Không thấm nước",
+      "D. Rất đắt và khó tìm"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Vải bông mặc mát và dễ chịu, nhất là mùa hè."
+  },
+  {
+    "id": 27,
+    "question": "Vải tơ tằm có đặc điểm gì?",
+    "options": [
+      "A. Rẻ, bền, dễ giặt",
+      "B. Cứng như ni-lon",
+      "C. Mềm, bóng, đẹp nhưng đắt và khó giữ",
+      "D. Chỉ có màu trắng"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Tơ tằm sang trọng nhưng giá cao và phải giữ gìn cẩn thận."
+  },
+  {
+    "id": 28,
+    "question": "Vải sợi hóa học có nhược điểm gì?",
+    "options": [
+      "A. Kém thoáng, ít thấm mồ hôi",
+      "B. Mau rách",
+      "C. Quá đắt",
+      "D. Chỉ có một màu"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Vải hóa học bền, ít nhăn, nhưng mặc kém thoáng hơn vải thiên nhiên."
+  },
+  {
+    "id": 29,
+    "question": "Trước khi giặt quần áo, em nên xem gì trên quần áo?",
+    "options": [
+      "A. Xem nhãn mác",
+      "B. Xem giá tiền",
+      "C. Xem màu sắc là đủ",
+      "D. Xem ai tặng"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Nhãn mác có kí hiệu dặn cách giặt, cách là cho từng loại áo."
+  },
+  {
+    "id": 30,
+    "question": "Vì sao áo trắng và áo màu nên giặt riêng?",
+    "options": [
+      "A. Cho vui",
+      "B. Để tránh lem màu sang áo trắng",
+      "C. Để giặt nhanh hơn",
+      "D. Để tiết kiệm điện"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Giặt chung, áo trắng có thể bị lem thành màu khác đấy."
+  },
+  {
+    "id": 31,
+    "question": "Áo màu phơi ngoài nắng gắt, em nên làm gì để giữ màu?",
+    "options": [
+      "A. Phơi mặt phải ra nắng",
+      "B. Phơi càng lâu càng tốt",
+      "C. Lộn trái áo khi phơi",
+      "D. Phơi trong phòng tắm"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Lộn trái giúp mặt phải của áo đỡ bị nắng làm phai màu."
+  },
+  {
+    "id": 32,
+    "question": "Khi là (ủi) áo làm từ vải mỏng, em cần làm gì?",
+    "options": [
+      "A. Để bàn là thật nóng",
+      "B. Không cần chỉnh nhiệt",
+      "C. Là thật lâu ở một chỗ",
+      "D. Chỉnh nhiệt độ nhẹ, vừa với vải"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Vải mỏng mà là quá nóng sẽ bị cháy, hỏng áo."
+  },
+  {
+    "id": 33,
+    "question": "Thời trang là gì?",
+    "options": [
+      "A. Cách ăn mặc được nhiều người ưa chuộng trong một khoảng thời gian",
+      "B. Quần áo đắt tiền",
+      "C. Đồng phục học sinh",
+      "D. Quần áo cũ"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Thời trang là kiểu mặc được nhiều người thích ở một lúc nào đó."
+  },
+  {
+    "id": 34,
+    "question": "Thời trang có đặc điểm gì?",
+    "options": [
+      "A. Không bao giờ thay đổi",
+      "B. Luôn thay đổi theo thời gian",
+      "C. Chỉ người lớn mới có thời trang",
+      "D. Chỉ có ở thành phố"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Thời trang đổi luôn luôn, kiểu cũ có khi còn quay lại."
+  },
+  {
+    "id": 35,
+    "question": "Trang phục phong cách thể thao gồm những đồ nào?",
+    "options": [
+      "A. Áo dài, khăn đóng",
+      "B. Váy dạ hội",
+      "C. Áo phông, quần soóc, giày thể thao",
+      "D. Áo vest, cà vạt"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Phong cách thể thao: khỏe khoắn, thoải mái, dễ vận động."
+  },
+  {
+    "id": 36,
+    "question": "Ăn mặc như thế nào là đẹp nhất?",
+    "options": [
+      "A. Mặc đồ đắt nhất",
+      "B. Mặc giống hệt bạn bè",
+      "C. Đeo thật nhiều đồ trang sức",
+      "D. Sạch sẽ, gọn gàng, hợp với mình"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Sạch sẽ và gọn gàng là đẹp nhất, không cần đắt tiền."
+  },
+  {
+    "id": 37,
+    "question": "Khu vực nào trong nhà ở dùng để tiếp khách và cả nhà ngồi chơi?",
+    "options": [
+      "A. Khu sinh hoạt chung",
+      "B. Khu vệ sinh",
+      "C. Khu nghỉ ngơi",
+      "D. Khu nấu ăn"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Khu sinh hoạt chung là nơi tiếp khách và cả nhà quây quần."
+  },
+  {
+    "id": 38,
+    "question": "Vì sao thợ xây phải đội mũ bảo hộ ở công trường?",
+    "options": [
+      "A. Để cho đẹp",
+      "B. Để bảo vệ đầu, đảm bảo an toàn lao động",
+      "C. Để phân biệt các đội thợ",
+      "D. Để che mưa"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Công trường có nhiều vật rơi, đội mũ bảo hộ là để bảo vệ đầu."
+  },
+  {
+    "id": 39,
+    "question": "Khi có trộm đột nhập, ngôi nhà thông minh báo cho chủ nhà bằng những cách nào?",
+    "options": [
+      "A. Chỉ kêu chuông báo",
+      "B. Mở cửa cho trộm vào",
+      "C. Chuông báo, tin nhắn, đèn báo và cuộc gọi tự động",
+      "D. Tắt hết điện trong nhà"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Có đủ 4 cách báo: chuông, tin nhắn, đèn báo, cuộc gọi tự động."
+  },
+  {
+    "id": 40,
+    "question": "Bữa ăn hợp lí là bữa ăn như thế nào?",
+    "options": [
+      "A. Chỉ ăn thịt",
+      "B. Ăn thật nhiều cơm",
+      "C. Chỉ ăn rau",
+      "D. Có đủ các nhóm thực phẩm, mỗi nhóm một lượng vừa phải"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Đủ nhóm và vừa phải thì cơ thể mới khỏe."
+  },
+  {
+    "id": 41,
+    "question": "Thịt tươi mua về chưa ăn ngay, em nên cất vào đâu?",
+    "options": [
+      "A. Ngăn đá của tủ lạnh",
+      "B. Để trên bàn bếp",
+      "C. Trong tủ quần áo",
+      "D. Ngoài ban công"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Thịt để ngăn đá (ngăn đông), rau quả để ngăn mát nhé."
+  },
+  {
+    "id": 42,
+    "question": "Vì sao trong dự án bữa ăn, em phải tính chi phí trước khi mua đồ?",
+    "options": [
+      "A. Để mua được đồ đắt nhất",
+      "B. Để tiền vừa đủ, không lãng phí mà vẫn đủ chất",
+      "C. Để khỏi phải đi chợ",
+      "D. Để ăn ít đi"
+    ],
+    "answer": 1,
+    "explanation": "Đúng rồi! Tính trước thì mua vừa tiền, đủ chất, không lãng phí."
+  },
+  {
+    "id": 43,
+    "question": "Nhìn một người mặc đồng phục màu xanh, có phù hiệu, em đoán người đó làm nghề gì?",
+    "options": [
+      "A. Đầu bếp",
+      "B. Bác sĩ",
+      "C. Công an",
+      "D. Học sinh"
+    ],
+    "answer": 2,
+    "explanation": "Đúng rồi! Trang phục cho biết nghề nghiệp: đồng phục xanh có phù hiệu là công an."
+  },
+  {
+    "id": 44,
+    "question": "Quần áo giặt xong mà chưa phơi khô đã cất vào tủ, điều gì sẽ xảy ra?",
+    "options": [
+      "A. Áo thơm hơn",
+      "B. Áo phẳng hơn",
+      "C. Áo bền hơn",
+      "D. Áo bị ẩm mốc, có mùi hôi"
+    ],
+    "answer": 3,
+    "explanation": "Đúng rồi! Còn ẩm là mốc ngay. Phải phơi thật khô mới cất nhé."
+  },
+  {
+    "id": 45,
+    "question": "Bạn rủ em mua chiếc áo đang rất 'hot' và đắt, dù em không thích lắm. Em nên làm gì?",
+    "options": [
+      "A. Không mua; chọn đồ hợp với mình và vừa tiền",
+      "B. Vay tiền mua ngay",
+      "C. Mua để khỏi bị bạn chê",
+      "D. Giận bạn, không chơi nữa"
+    ],
+    "answer": 0,
+    "explanation": "Đúng rồi! Không chạy theo mốt. Đồ hợp với mình và vừa tiền mới là lựa chọn khôn ngoan."
+  },
+  {
+    "id": 46,
+    "question": "Vì sao ở vùng sông nước, người dân hay ở nhà nổi?",
+    "options": [
+      "A. Vì gỗ làm nhà rất rẻ",
+      "B. Vì nhà nổi lên xuống theo nước, sống trên sông tiện đi lại và đánh cá",
+      "C. Vì nhà nổi đẹp nhất",
+      "D. Vì trên bờ không có đất nào"
+    ],
+    "answer": 1,
+    "explanation": "Giỏi lắm! Nhà nổi hợp với sống nước: nước lên nhà lên, đi lại bằng thuyền rất tiện."
+  },
+  {
+    "id": 47,
+    "question": "Nhà bạn An đang được trát tường, sơn và lát nền. Ngôi nhà đang ở giai đoạn nào?",
+    "options": [
+      "A. Làm móng",
+      "B. Xây phần thô",
+      "C. Hoàn thiện",
+      "D. Thiết kế"
+    ],
+    "answer": 2,
+    "explanation": "Giỏi lắm! Trát, sơn, lát nền là những việc của giai đoạn hoàn thiện."
+  },
+  {
+    "id": 48,
+    "question": "Việc làm nào sau đây giúp tiết kiệm điện nhất?",
+    "options": [
+      "A. Bật đèn cả ngày cho sáng",
+      "B. Mở điều hòa khi không có ai ở nhà",
+      "C. Mua thật nhiều bóng đèn",
+      "D. Tắt đèn khi ra khỏi phòng và mở cửa đón ánh sáng trời"
+    ],
+    "answer": 3,
+    "explanation": "Giỏi lắm! Em làm được như nhà thông minh: tắt điện khi không dùng, tận dụng ánh sáng trời."
+  },
+  {
+    "id": 49,
+    "question": "Bữa trưa của bạn Lan chỉ có cơm và thịt kho, không có rau. Bữa ăn này thiếu nhóm chất nào nhất?",
+    "options": [
+      "A. Nhóm vi-ta-min và chất xơ",
+      "B. Nhóm tinh bột",
+      "C. Nhóm chất đạm",
+      "D. Nhóm chất béo"
+    ],
+    "answer": 0,
+    "explanation": "Giỏi lắm! Không có rau là thiếu vi-ta-min và chất xơ. Nhớ thêm rau vào bữa ăn nhé."
+  },
+  {
+    "id": 50,
+    "question": "Em thấy hộp sữa đã hết hạn sử dụng và có mùi lạ. Em nên làm gì?",
+    "options": [
+      "A. Vẫn uống bình thường",
+      "B. Bỏ đi, không ăn uống đồ đã hết hạn",
+      "C. Cho bạn uống thử",
+      "D. Uống một ít xem sao"
+    ],
+    "answer": 1,
+    "explanation": "Giỏi lắm! Đồ hết hạn, có mùi lạ là phải bỏ, ăn vào sẽ đau bụng, ngộ độc đấy."
+  },
+  {
+    "id": 51,
+    "question": "Nhóm của em có 100 nghìn đồng để làm bữa ăn cho 4 người. Việc làm đúng nhất là gì?",
+    "options": [
+      "A. Mua một món thật đắt cho hết tiền",
+      "B. Không cần tính, thích gì mua nấy",
+      "C. Lên thực đơn đủ chất, cộng giá trước, chọn đồ vừa tiền",
+      "D. Chỉ mua bánh kẹo"
+    ],
+    "answer": 2,
+    "explanation": "Giỏi lắm! Đó đúng là cách làm của dự án bữa ăn: đủ chất, vừa tiền, không lãng phí."
+  },
+  {
+    "id": 52,
+    "question": "Trời mùa hè rất nóng. Em nên chọn áo làm từ vải nào để mặc cho mát?",
+    "options": [
+      "A. Vải ni-lon dày",
+      "B. Vải len",
+      "C. Vải da",
+      "D. Vải bông"
+    ],
+    "answer": 3,
+    "explanation": "Giỏi lắm! Vải bông thoáng mát, thấm mồ hôi tốt — hợp nhất với mùa hè."
+  },
+  {
+    "id": 53,
+    "question": "Sáng mai em có tiết thể dục, sau đó là lễ chào cờ ở trường. Em chuẩn bị trang phục thế nào là hợp lí nhất?",
+    "options": [
+      "A. Mặc đồng phục đi học và mang theo đồ thể thao cho tiết thể dục",
+      "B. Chỉ mặc đồ thể thao cả ngày",
+      "C. Mặc đồ ngủ cho thoải mái",
+      "D. Mặc áo dài cả ngày"
+    ],
+    "answer": 0,
+    "explanation": "Giỏi lắm! Chọn trang phục phải hợp với từng việc: thể dục mặc đồ thể thao, chào cờ mặc đồng phục."
+  },
+  {
+    "id": 54,
+    "question": "Câu nào tóm đúng nhất ý chính của Bài 9 – Thời trang?",
+    "options": [
+      "A. Phải mua đồ theo mốt thì mới đẹp",
+      "B. Thời trang luôn thay đổi; mặc đẹp nhất là hợp với mình, sạch sẽ, gọn gàng",
+      "C. Chỉ có một phong cách là đẹp",
+      "D. Thời trang không quan trọng với học sinh"
+    ],
+    "answer": 1,
+    "explanation": "Giỏi lắm! Em đã bắt được ý chính của cả bài: mốt thì đổi, sạch gọn và hợp với mình mới là đẹp nhất."
+  }
+]

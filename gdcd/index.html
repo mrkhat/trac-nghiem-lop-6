@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GDCD 6 — Học kì 1 | Học từng bài & Trắc nghiệm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+/* ===== PHẦN RIÊNG CỦA GDCD: Nghe bài + thẻ lật mini + kiểm tra nhanh ===== */
+.lsbox{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.ls-listen,.ls-stop{min-height:44px;padding:10px 16px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;border:2px solid #00838f;background:#e0f2f1;color:#00695c}
+.ls-listen.reading{background:#00838f;color:#fff}
+.ls-stop{background:#fff3e0;border-color:#ef6c00;color:#e65100}
+.ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
+.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
+.rd{border-radius:4px}
+.qmini{border-style:dashed;border-color:#ffb300;background:#fffde7}
+.qmini .qa-q{background:#fff8e1;color:#7b4d00;font-size:16px}
+.qmini .qa-a{background:#fffde7}
+.mfc{perspective:900px;cursor:pointer;max-width:520px;margin:12px auto;height:200px}
+.mfc.hasimg{height:250px}
+.mfc-in{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.mfc.flipped .mfc-in{transform:rotateY(180deg)}
+.mfc-f{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
+.mfc-fr{background:#fff8e1;border:2px solid #ffb300;color:#6d4c00}
+.mfc-bk{background:#e8f5e9;border:2px solid #43a047;color:#1b5e20;transform:rotateY(180deg)}
+.mfc-tag{font-size:13px;font-weight:700;background:#ffb300;color:#4e342e;border-radius:12px;padding:3px 10px;margin-bottom:8px}
+.mfc-tag.ok{background:#43a047;color:#fff}
+.mfc-q{font-size:18px;font-weight:600;line-height:1.5}
+.mfc-a{font-size:18px;font-weight:600;line-height:1.55}
+.mfc-hint{font-size:13.5px;color:#777;margin-top:6px}
+.mfc-f img{max-width:100%;max-height:110px;object-fit:cover;border-radius:8px;margin-bottom:8px}
+.moc ul{margin:6px 0 0 20px}
+.moc li{margin-bottom:3px}
+.mmap{background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;padding:12px;margin:14px 0}
+.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:16px}
+.gdmap{width:100%;height:auto;display:block}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>🌟 Giáo dục công dân 6 — Học kì 1</h1>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Học <b>từng bài một</b>: đọc từng đoạn ngắn (hoặc bấm 🔊 nghe bài) → trả lời câu hỏi nhanh ngay trong bài → xem ⭐ Điểm cần nhớ → lật flashcard của bài. Học hết 6 bài mới xuống <b>Phần Tổng kết</b> ở cuối trang nhé!</p>
+
+<div class="part part1"><h2>📖 Phần 1 — Học tập (học từng bài)</h2><p>Nhãn trên mỗi bài: <b>⭐ Ôn giữa kì 1</b> = Bài 1–3 • <b>📚 Sau giữa kì 1</b> = Bài 4–6. Mỗi bài đều có nút <b>🔊 Nghe bài</b> — em đọc chưa thạo cũng nghe và học được. Thẻ <b>⚡ Nhớ nhanh</b> bấm vào là lật xem đáp án ngay, không tính điểm đâu, cứ thoải mái thử!</p></div>
+
+<!-- ===== THANH CHẾ ĐỘ XEM ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= BÀI 1 ================= -->
+<div class="lesson" id="bai1" style="--c:#a16207">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 1. Tự hào về truyền thống gia đình, dòng họ</h3>
+  <div class="hook rd">🎬 Sáng mùng một Tết, cả nhà Lan quây quần bên bàn thờ. Ông nội thắp hương. Bố kể chuyện ngày xưa của dòng họ. Lan nghe mà thấy ấm lòng. Gia đình em có những chuyện xưa nào hay như thế không?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Truyền thống</span> là những điều tốt đẹp của gia đình.</li>
+    <li class="rd">Những điều tốt đẹp ấy được truyền qua nhiều đời: từ ông bà, đến cha mẹ, rồi đến con cháu.</li>
+    <li class="rd">Nói dễ hiểu: truyền thống là <b>“nếp nhà” tốt đẹp</b> được giữ qua nhiều đời.</li>
+    <li class="rd"><b>Hiếu học</b> nghĩa là rất ham học, coi việc học là quan trọng.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Truyền thống gia đình là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Là những điều tốt đẹp được truyền qua nhiều đời trong gia đình.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thờ cúng tổ tiên:</b> con cháu nhớ ơn ông bà, tổ tiên. <b>Ngày giỗ</b> là ngày tưởng nhớ người thân đã mất — hôm đó cả nhà sum họp.</li>
+    <li class="rd"><b>Yêu thương, đùm bọc nhau:</b> người trong nhà luôn giúp đỡ nhau.</li>
+    <li class="rd"><b>Nghề truyền thống:</b> cả nhà cùng làm một nghề qua nhiều đời, như làm gốm, làm bánh, dệt vải.</li>
+    <li class="rd"><b>Gia phả</b> là cuốn sách ghi tên ông bà tổ tiên qua các đời. Tìm hiểu gia phả là một cách giữ truyền thống.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: “Ngày giỗ” là ngày gì?</button><div class="qa-a">Ngày giỗ là ngày con cháu <b>tưởng nhớ người thân đã mất</b>. Hôm đó cả nhà thường sum họp, cùng thắp hương cho ông bà, tổ tiên.</div></div>
+
+  <ul class="learn">
+    <li class="rd">Truyền thống tốt giúp gia đình <b>gắn bó</b>. Mọi người yêu thương nhau hơn.</li>
+    <li class="rd">Truyền thống tốt dạy em sống tốt. Em học theo điều hay của ông bà, cha mẹ.</li>
+    <li class="rd">Em giữ truyền thống bằng việc nhỏ mỗi ngày: <b>học chăm, ngoan ngoãn, giúp việc nhà, nhớ ngày giỗ và ngày Tết của gia đình</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: “Mỗi dịp giỗ ông, nhà Mai đông đủ con cháu. Người nấu cỗ. Người dọn bàn thờ. Ăn xong, cả nhà ngồi nghe bà kể chuyện xưa.” — Câu nào nói đúng ý chính nhất? 1️⃣ Nhà Mai nấu cỗ rất ngon. 2️⃣ Ngày giỗ là dịp con cháu sum họp và nhớ về ông bà, tổ tiên. 3️⃣ Bà của Mai kể chuyện rất hay.</button><div class="qa-a">Đáp án: <b>câu 2️⃣</b>. Vì sao: cả đoạn đều nói về <b>ngày giỗ</b> — con cháu sum họp, tưởng nhớ tổ tiên. Câu 1️⃣ và 3️⃣ chỉ là <b>chi tiết nhỏ</b> trong đoạn (món ăn, chuyện kể), không phải ý chính của cả đoạn.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai1-goi-banh-chung.webp" alt="Cả nhà cùng gói bánh chưng" loading="lazy"><div class="mfc-q">Nhìn hình: cả nhà đang làm gì để giữ truyền thống ngày Tết?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Cả nhà cùng gói bánh chưng — việc làm giữ nét đẹp truyền thống ngày Tết.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai1-gia-dinh-sum-vay.webp" alt="Cả gia đình sum họp bên bàn thờ ngày giỗ" loading="lazy">
+      <figcaption>👨‍👩‍👧‍👦 <b>Ngày giỗ, cả nhà sum họp.</b> Con cháu thắp hương nhớ ông bà, tổ tiên — đó là truyền thống thờ cúng tổ tiên. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai1-ong-ke-gia-pha.webp" alt="Ông kể cho cháu nghe chuyện dòng họ" loading="lazy">
+      <figcaption>👴 <b>Ông kể chuyện xưa cho cháu nghe.</b> Nghe ông bà kể, em hiểu thêm về dòng họ của mình. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Truyền thống = điều tốt đẹp truyền qua nhiều đời.</li>
+      <li>Ví dụ: thờ cúng tổ tiên, hiếu học, đùm bọc nhau, nghề truyền thống.</li>
+      <li>Truyền thống tốt làm gia đình gắn bó, dạy em sống tốt.</li>
+      <li>Em giữ truyền thống bằng: học chăm, ngoan, giúp việc nhà, nhớ ngày giỗ/Tết.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Ba chữ T — <b>T</b>ruyền thống = <b>T</b>ốt đẹp, <b>T</b>ruyền đời, đáng <b>T</b>ự hào.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Có dòng họ ở Việt Nam giữ gia phả suốt mấy trăm năm! Cuốn gia phả giống như “cuốn truyện dài” của cả dòng họ vậy.</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 1">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="240" y="76" width="180" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 1: Truyền thống</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#fdf6e3" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Là gì?</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Điều tốt đẹp truyền nhiều đời</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#fdf6e3" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">Ví dụ</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Giỗ Tết • hiếu học • nghề nhà</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#fdf6e3" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Gia đình gắn bó, dạy sống tốt</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#fdf6e3" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Em làm</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Học chăm • ngoan • giúp nhà</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Truyền thống gia đình, dòng họ là gì?</button><div class="qa-a">Là những <b>điều tốt đẹp</b> của gia đình, dòng họ, được <b>truyền từ đời này sang đời khác</b>.</div></div>
+  <div class="qa"><button class="qa-q">Kể tên 3 truyền thống tốt đẹp của gia đình.</button><div class="qa-a">Ví dụ: <b>thờ cúng tổ tiên</b> (sum họp ngày giỗ), <b>hiếu học</b> (ham học), <b>yêu thương đùm bọc nhau</b>. Có nhà còn có <b>nghề truyền thống</b>.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình cả nhà bên bàn thờ ở trên: đó là truyền thống nào?</button><div class="qa-a">Đó là truyền thống <b>thờ cúng tổ tiên</b> — con cháu sum họp ngày giỗ để tưởng nhớ ông bà, tổ tiên.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao em nên tự hào về truyền thống gia đình mình?</button><div class="qa-a">Vì truyền thống tốt làm gia đình <b>gắn bó</b>, dạy em <b>sống tốt</b>, và là điều quý giá ông bà, cha mẹ để lại cho em.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Bạn rủ em đi chơi đúng ngày giỗ ông em. Em sẽ làm gì? Vì sao?</button><div class="qa-a">Em <b>ở nhà cùng gia đình làm giỗ</b> và hẹn bạn hôm khác. Vì ngày giỗ là dịp nhớ ơn tổ tiên và sum họp gia đình — rất quý, không nên bỏ.</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="0,1,2,3,4"></div>
+  </div>
+  <a class="next" href="#bai2">✔ Xong Bài 1 → Sang Bài 2: Yêu thương con người ⬇</a>
+</div>
+
+<!-- ================= BÀI 2 ================= -->
+<div class="lesson" id="bai2" style="--c:#c2185b">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 2. Yêu thương con người</h3>
+  <div class="hook rd">🎬 Trên đường đi học, Tuấn thấy một bà cụ xách túi rất nặng. Cụ đi rất chậm. Tuấn chạy tới: “Bà ơi, cháu xách giúp bà nhé!” Cụ cười thật hiền. Chỉ một việc nhỏ thôi, mà cả hai người đều vui.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Yêu thương con người</span> là <b>quan tâm, giúp đỡ</b> người khác.</li>
+    <li class="rd">Là làm những <b>điều tốt đẹp</b> cho mọi người quanh em.</li>
+    <li class="rd">Ai cũng cần được yêu thương. Em cũng vậy.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Yêu thương con người là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Là quan tâm, giúp đỡ và làm điều tốt cho người khác.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Ở nhà:</b> em chăm sóc ông bà khi ốm. Em nhường em nhỏ phần ngon.</li>
+    <li class="rd"><b>Ở trường:</b> em giảng bài cho bạn chưa hiểu. Em đỡ bạn khi bạn ngã.</li>
+    <li class="rd"><b>Ngoài xã hội:</b> em <b>quyên góp</b> sách vở giúp bạn vùng lũ. Quyên góp là gom góp đồ để tặng người đang cần.</li>
+    <li class="rd">Ca dao dạy ta: <b>“Thương người như thể thương thân.”</b> Nghĩa là: hãy thương người khác như thương chính mình.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Câu ca dao nào dạy em yêu thương con người? Nó dặn em điều gì?</button><div class="qa-a">Câu ca dao là <b>“Thương người như thể thương thân”</b> — hãy thương người khác như thương chính mình.</div></div>
+
+  <ul class="learn">
+    <li class="rd">Yêu thương làm người nhận thấy <b>ấm lòng</b>. Người cho đi cũng thấy <b>vui</b>.</li>
+    <li class="rd">Nơi nào có nhiều yêu thương, nơi đó mọi người <b>hạnh phúc</b> hơn.</li>
+    <li class="rd">Trái với yêu thương là <b>vô cảm</b>. Vô cảm là thấy người gặp khó mà <b>dửng dưng, không quan tâm, không giúp</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: “Trời mưa to. Hoa không có áo mưa. Linh lấy áo mưa của mình che cho cả hai bạn. Hai bạn ướt một chút, nhưng cùng cười rất vui.” — Câu nào nói đúng ý chính nhất? 1️⃣ Trời hôm đó mưa rất to. 2️⃣ Linh biết yêu thương, chia sẻ với bạn. 3️⃣ Hai bạn bị ướt áo.</button><div class="qa-a">Đáp án: <b>câu 2️⃣</b>. Vì sao: cả đoạn kể về việc <b>Linh chia sẻ áo mưa với bạn</b> — đó là yêu thương. Câu 1️⃣ (trời mưa) và 3️⃣ (ướt áo) chỉ là <b>chi tiết phụ</b> quanh việc chính đó.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp" alt="Bạn nhỏ dắt bà cụ qua đường" loading="lazy"><div class="mfc-q">Nhìn hình: bạn nhỏ đang làm việc tốt gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Dắt bà cụ qua đường — việc làm thể hiện yêu thương con người.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai2-giup-ban-hoc.webp" alt="Bạn giảng bài cho bạn trong lớp" loading="lazy">
+      <figcaption>📚 <b>Giảng bài cho bạn chưa hiểu</b> là yêu thương ở trường. Bạn vui, em cũng vui. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai2-quyen-gop.webp" alt="Học sinh quyên góp sách vở, quần áo" loading="lazy">
+      <figcaption>🎁 <b>Quyên góp sách vở, quần áo</b> tặng bạn vùng lũ — yêu thương biến thành việc làm thật. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Yêu thương = quan tâm, giúp đỡ, làm điều tốt cho người khác.</li>
+      <li>Biểu hiện: chăm ông bà, giúp bạn học, quyên góp giúp người khó.</li>
+      <li>Yêu thương làm mọi người ấm lòng, xã hội hạnh phúc hơn.</li>
+      <li>Trái với yêu thương là vô cảm — em không làm thế.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> <b>“Thương người như thể thương thân”</b> — thương người như thương chính mình.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Khi em giúp ai đó, cơ thể em tiết ra chất làm em thấy vui và khỏe hơn. Các nhà khoa học gọi đó là “niềm vui của người cho đi”!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 2">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="240" y="76" width="180" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 2: Yêu thương</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#fdf0f5" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Là gì?</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Quan tâm, giúp đỡ người khác</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#fdf0f5" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">Biểu hiện</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Ở nhà • ở trường • xã hội</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#fdf0f5" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Ấm lòng, mọi người hạnh phúc</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#fdf0f5" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Cần tránh</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Vô cảm — thấy khó mà bỏ mặc</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Yêu thương con người là gì?</button><div class="qa-a">Là <b>quan tâm, giúp đỡ</b> và làm những <b>điều tốt đẹp</b> cho người khác.</div></div>
+  <div class="qa"><button class="qa-q">Kể 2 việc thể hiện yêu thương ở trường học.</button><div class="qa-a">Ví dụ: <b>giảng bài cho bạn chưa hiểu</b> và <b>đỡ bạn khi bạn ngã</b>. Rủ bạn mới cùng chơi cũng là yêu thương đấy.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình các bạn quyên góp đồ ở trên: các bạn đang làm gì? Việc đó thể hiện điều gì?</button><div class="qa-a">Các bạn <b>quyên góp sách vở, quần áo</b> tặng người gặp khó khăn. Việc đó thể hiện <b>yêu thương, chia sẻ</b> với mọi người.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao mọi người cần yêu thương nhau?</button><div class="qa-a">Vì yêu thương làm người nhận <b>ấm lòng</b>, người cho đi <b>cũng vui</b>, và xã hội sẽ <b>hạnh phúc</b> hơn.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Bạn cùng lớp bị ngã ở sân trường, tay bị trầy. Em sẽ làm gì?</button><div class="qa-a">Em <b>đỡ bạn dậy</b>, hỏi thăm bạn, rồi <b>đưa bạn đến phòng y tế</b> (hoặc báo thầy cô). Giúp bạn ngay lúc bạn đau là yêu thương thật sự.</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="5,6,7,8,9"></div>
+  </div>
+  <a class="next" href="#bai3">✔ Xong Bài 2 → Sang Bài 3: Siêng năng, kiên trì ⬇</a>
+</div>
+
+<!-- ================= BÀI 3 ================= -->
+<div class="lesson" id="bai3" style="--c:#2e7d32">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 3. Siêng năng, kiên trì</h3>
+  <div class="hook rd">🎬 Bạn Rùa thì chậm chạp. Bạn Thỏ chạy rất nhanh. Nhưng Rùa cứ đi, đi mãi, không nghỉ. Còn Thỏ mải ngủ quên dưới gốc cây. Kết quả: Rùa về đích trước! Vì sao thế nhỉ?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Siêng năng</span> là làm việc <b>chăm chỉ, đều đặn</b> mỗi ngày.</li>
+    <li class="rd"><span class="hl2">Kiên trì</span> là <b>quyết tâm làm đến cùng</b>. Gặp khó cũng không bỏ cuộc.</li>
+    <li class="rd">Hai đức tính này thường đi cùng nhau. Đức tính là thói quen tốt của con người.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Kiên trì nghĩa là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Là quyết tâm làm đến cùng, gặp khó không bỏ cuộc.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Trong học tập:</b> làm bài tập mỗi ngày. Chưa hiểu thì học lại, hỏi thầy cô.</li>
+    <li class="rd"><b>Trong lao động:</b> tưới cây, chăm vườn đều đặn mỗi ngày.</li>
+    <li class="rd"><b>Khi tập việc khó</b> (đi xe đạp, bơi, đàn): ngã thì đứng dậy tập tiếp.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Trong truyện Thỏ và Rùa, bạn nào thắng? Nhờ đức tính gì?</button><div class="qa-a"><b>Rùa thắng</b>, nhờ <b>kiên trì</b> — cứ đi đều, không bỏ cuộc. Thỏ nhanh nhưng chủ quan, mải ngủ nên thua.</div></div>
+
+  <ul class="learn">
+    <li class="rd">Siêng năng, kiên trì giúp em <b>làm được việc khó</b>. Bí quyết: chia việc khó thành việc nhỏ, làm mỗi ngày một ít.</li>
+    <li class="rd">Người siêng năng, kiên trì thường <b>thành công</b>. Mọi người cũng tin tưởng em hơn.</li>
+    <li class="rd">Trái lại là <b>lười biếng</b> và <b>mau nản</b>: việc bị dồn lại, việc làm bỏ dở giữa chừng.</li>
+    <li class="rd">Tục ngữ dạy: <b>“Có công mài sắt, có ngày nên kim.”</b> Nghĩa là: cứ kiên trì làm, việc khó mấy cũng xong.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: Đọc kĩ câu này: “Siêng năng, kiên trì giúp em làm được việc khó và thành công.” — Cụm từ nào quan trọng nhất trong câu? 1️⃣ “việc khó” 2️⃣ “siêng năng, kiên trì” 3️⃣ “giúp em”</button><div class="qa-a">Đáp án: <b>cụm 2️⃣ “siêng năng, kiên trì”</b>. Vì sao: cả bài học nói về <b>hai đức tính này</b> — bỏ cụm đó đi, câu mất hẳn ý chính. “Việc khó” và “giúp em” chỉ là phần phụ quanh ý chính đó.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai3-tho-va-rua.webp" alt="Thỏ ngủ dưới gốc cây, Rùa đi về đích" loading="lazy"><div class="mfc-q">Nhìn hình: vì sao Rùa thắng Thỏ?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Vì Rùa kiên trì, đi đều không nghỉ. Thỏ chủ quan, mải ngủ.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai3-hoc-bai.webp" alt="Bạn nhỏ chăm chỉ học bài buổi tối" loading="lazy">
+      <figcaption>✏️ <b>Học bài mỗi ngày, làm từng bước một.</b> Đó là siêng năng, kiên trì trong học tập. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai3-cay-lon.webp" alt="Bạn nhỏ bên cây cam trĩu quả do mình chăm" loading="lazy">
+      <figcaption>🍊 <b>Cây được tưới mỗi ngày nay đã trĩu quả.</b> Việc chăm chỉ đều đặn luôn cho “quả ngọt”. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Siêng năng = làm việc chăm chỉ, đều đặn.</li>
+      <li>Kiên trì = làm đến cùng, không bỏ cuộc.</li>
+      <li>Hai đức tính này giúp em thành công, được mọi người tin tưởng.</li>
+      <li>Tránh: lười biếng, mau nản, bỏ dở giữa chừng.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> <b>“Có công mài sắt, có ngày nên kim”</b> — làm đều mỗi ngày, việc khó cũng xong.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Học 10–15 phút mỗi ngày dễ nhớ hơn học dồn một lần thật lâu. Chia nhỏ việc ra chính là “bí kíp” của người kiên trì!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 3">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="235" y="76" width="190" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 3: Siêng năng, kiên trì</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#eef7ee" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Siêng năng là</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Làm việc chăm chỉ, đều đặn</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#eef7ee" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">Kiên trì là</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Làm đến cùng, không bỏ cuộc</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#eef7ee" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Biểu hiện</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Học mỗi ngày • ngã dậy tập tiếp</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#eef7ee" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Thành công • được tin tưởng</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Siêng năng và kiên trì khác nhau ở chỗ nào?</button><div class="qa-a"><b>Siêng năng</b> là làm việc chăm chỉ, <b>đều đặn mỗi ngày</b>. <b>Kiên trì</b> là <b>làm đến cùng</b>, gặp khó không bỏ cuộc. Hai đức tính này bổ sung cho nhau.</div></div>
+  <div class="qa"><button class="qa-q">Kể 1 việc thể hiện siêng năng, kiên trì trong học tập.</button><div class="qa-a">Ví dụ: <b>làm bài tập mỗi ngày</b>, bài chưa hiểu thì <b>học lại và hỏi thầy cô</b>, không bỏ dở bài khó.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình cây cam trĩu quả ở trên: để có quả ngọt, bạn nhỏ đã phải làm gì?</button><div class="qa-a">Bạn đã <b>trồng cây và tưới nước, chăm sóc đều đặn mỗi ngày</b> trong thời gian dài. Đó là siêng năng, kiên trì trong lao động.</div></div>
+  <div class="qa"><button class="qa-q">Tục ngữ “Có công mài sắt, có ngày nên kim” dạy em điều gì?</button><div class="qa-a">Dạy em <b>kiên trì</b>: cứ chăm chỉ làm đều đặn, việc khó đến mấy cũng sẽ làm được, như mài mãi thanh sắt cũng thành cây kim.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Bài toán này khó quá, em làm mãi chưa ra. Em sẽ làm gì?</button><div class="qa-a">Em không bỏ cuộc: <b>chia bài thành từng bước nhỏ</b>, làm từng bước một. Chưa ra thì <b>hỏi cô hoặc bạn</b>, nghỉ một lát rồi làm tiếp.</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="10,11,12,13,14"></div>
+  </div>
+  <a class="next" href="#bai4">✔ Xong Bài 3 → Sang Bài 4: Tôn trọng sự thật ⬇</a>
+</div>
+
+<!-- ================= BÀI 4 ================= -->
+<div class="lesson" id="bai4" style="--c:#1565c0">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 4. Tôn trọng sự thật</h3>
+  <div class="hook rd">🎬 Minh làm vỡ chậu hoa của lớp. Không ai nhìn thấy cả. Cô giáo hỏi: “Ai làm vỡ chậu hoa?” Cả lớp im lặng. Minh run run giơ tay: “Thưa cô, em ạ. Em xin lỗi cô.” Theo em, Minh làm vậy có dũng cảm không?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Sự thật</span> là những gì <b>có thật</b>, đúng như đã xảy ra.</li>
+    <li class="rd"><span class="hl2">Tôn trọng sự thật</span> là <b>nói đúng sự thật, làm đúng sự thật</b> và bảo vệ điều đúng.</li>
+    <li class="rd">Người tôn trọng sự thật là người <b>trung thực</b>. Trung thực nghĩa là thật thà, không dối trá.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Tôn trọng sự thật là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Là nói đúng, làm đúng những gì có thật.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Làm sai thì nhận lỗi.</b> Không đổ lỗi cho bạn.</li>
+    <li class="rd"><b>Trong kiểm tra:</b> tự làm bài. Không chép bài bạn. Không dùng “phao” — phao là giấy ghi lén đáp án để chép, đó là gian lận.</li>
+    <li class="rd"><b>Nhặt được của rơi</b> thì trả lại người mất, hoặc nộp cho thầy cô. Của rơi là đồ của người khác đánh rơi.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Em nhặt được ví tiền ở sân trường. Em nên làm gì?</button><div class="qa-a">Em <b>nộp cho thầy cô hoặc chú bảo vệ</b> để trả lại người mất. Không giữ làm của riêng — như thế mới là trung thực.</div></div>
+
+  <ul class="learn">
+    <li class="rd">Người nói thật được mọi người <b>tin tưởng, quý mến</b>.</li>
+    <li class="rd">Ai cũng nói thật thì lớp học và xã hội <b>công bằng, tốt đẹp</b>.</li>
+    <li class="rd">Trái với tôn trọng sự thật là <b>nói dối, gian lận</b>. Nói dối một lần, lần sau nói thật cũng khó ai tin.</li>
+    <li class="rd">Nhớ chuyện <b>“Chú bé chăn cừu”</b>: cậu bé nói dối nhiều lần. Đến khi sói đến thật, không ai tin cậu nữa.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: “Cậu bé chăn cừu nhiều lần kêu ‘Sói đến!’ để trêu mọi người. Mọi người chạy lên giúp thì không có sói. Đến khi sói đến thật, cậu kêu cứu, không ai tin nữa. Bầy cừu bị sói ăn thịt.” — Câu nào tóm đúng nhất ý của đoạn? 1️⃣ Cậu bé chăn cừu rất thích trêu đùa. 2️⃣ Nói dối nhiều lần thì khi nói thật cũng không ai tin. 3️⃣ Sói là con vật rất nguy hiểm.</button><div class="qa-a">Đáp án: <b>câu 2️⃣</b>. Vì sao: cả đoạn kể chuyện để rút ra bài học <b>đừng nói dối</b>. Câu 1️⃣ (thích trêu đùa) và 3️⃣ (sói nguy hiểm) chỉ là <b>chi tiết</b> trong truyện, không phải ý chính.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai4-tra-cua-roi.webp" alt="Bạn gái nộp ví nhặt được cho cô giáo" loading="lazy"><div class="mfc-q">Nhìn hình: bạn gái đang làm việc đúng gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Trả lại ví nhặt được — việc làm trung thực, tôn trọng sự thật.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai4-nhan-loi.webp" alt="Bạn nhỏ dũng cảm giơ tay nhận lỗi với cô giáo" loading="lazy">
+      <figcaption>✋ <b>Dũng cảm nhận lỗi</b> khi làm sai — đó là tôn trọng sự thật. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai4-thi-nghiem-tuc.webp" alt="Học sinh tự làm bài kiểm tra nghiêm túc" loading="lazy">
+      <figcaption>📝 <b>Tự làm bài kiểm tra bằng sức của mình.</b> Không chép bài, không dùng phao. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tôn trọng sự thật = nói đúng, làm đúng sự thật.</li>
+      <li>Biểu hiện: nhận lỗi, không gian lận, trả lại của rơi.</li>
+      <li>Người nói thật được mọi người tin tưởng, quý mến.</li>
+      <li>Nói dối, gian lận là sai — nói dối nhiều, nói thật cũng không ai tin.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> Nói thật thì lòng nhẹ. Nói dối thì lòng lo — cứ <b>nói thật ngay từ đầu</b> là dễ nhất.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Một lời nói dối thường kéo theo nhiều lời nói dối khác để “che” cho nó. Vì thế người nói dối rất mệt đầu!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 4">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="230" y="76" width="200" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 4: Tôn trọng sự thật</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#eef4fb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Là gì?</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Nói đúng, làm đúng sự thật</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#eef4fb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">Biểu hiện</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Nhận lỗi • không gian lận</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#eef4fb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Được tin tưởng, quý mến</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#eef4fb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Cần tránh</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Nói dối, gian lận</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Tôn trọng sự thật là gì?</button><div class="qa-a">Là <b>nói đúng sự thật, làm đúng sự thật</b> và bảo vệ điều đúng.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao không nên chép bài của bạn trong giờ kiểm tra?</button><div class="qa-a">Vì chép bài là <b>gian lận</b> — trái với tôn trọng sự thật. Điểm số gian lận không phải sức học thật của em, và em sẽ không biết mình đang yếu ở đâu.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình bạn gái được giao giữ hũ tiền tiết kiệm của lớp (trong flashcard): vì sao các bạn tin tưởng giao việc đó cho bạn ấy?</button><div class="qa-a">Vì bạn ấy <b>trung thực, nói thật, làm đúng</b>. Người trung thực luôn được mọi người tin tưởng giao việc quan trọng.</div></div>
+  <div class="qa"><button class="qa-q">Chuyện “Chú bé chăn cừu” dạy em bài học gì?</button><div class="qa-a">Đừng <b>nói dối</b>: nói dối nhiều lần thì khi nói thật cũng <b>không ai tin</b> nữa.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Bạn thân rủ em: “Tí nữa kiểm tra, tớ cho cậu chép bài nhé!” Em sẽ trả lời sao?</button><div class="qa-a">Em cảm ơn bạn nhưng <b>từ chối</b>: chép bài là gian lận. Em rủ bạn <b>cùng ôn lại bài</b> trước giờ kiểm tra — vừa đúng, vừa giữ được tình bạn.</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="15,16,17,18,19"></div>
+  </div>
+  <a class="next" href="#bai5">✔ Xong Bài 4 → Sang Bài 5: Tự lập ⬇</a>
+</div>
+
+<!-- ================= BÀI 5 ================= -->
+<div class="lesson" id="bai5" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 5. Tự lập</h3>
+  <div class="hook rd">🎬 Trước đây, sáng nào mẹ cũng buộc giày, xách cặp cho Tùng. Nay khác rồi: Tùng tự buộc giày, tự xách cặp. Mẹ chỉ đứng nhìn và cười. Tùng thấy mình “lớn” hẳn lên! (Nhìn hình trước – sau ở dưới nhé.)</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Tự lập</span> là <b>tự làm những việc của mình</b>.</li>
+    <li class="rd">Việc nào em làm được thì em tự làm. Không chờ người khác làm thay.</li>
+    <li class="rd">Tự lập <b>không có nghĩa</b> là làm một mình mọi thứ. Việc nào quá khó, em vẫn nhờ người lớn giúp.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Tự lập là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Là tự làm những việc của mình, không chờ người khác làm thay.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Ở nhà:</b> tự gấp chăn. Tự dọn phòng. Tự chuẩn bị cặp sách, quần áo cho hôm sau.</li>
+    <li class="rd"><b>Ở trường:</b> tự làm bài tập. Tự trực nhật lớp — trực nhật là đến lượt em dọn vệ sinh lớp.</li>
+    <li class="rd"><b>Tự chăm sóc mình:</b> tự đánh răng, rửa mặt, ăn uống đúng giờ.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Kể 2 việc tự lập em làm được ở nhà.</button><div class="qa-a">Ví dụ: <b>tự gấp chăn</b> và <b>tự dọn phòng</b>. Hoặc: tự chuẩn bị cặp sách, tự buộc giày. Việc nhỏ thôi nhưng rất đáng khen!</div></div>
+
+  <ul class="learn">
+    <li class="rd">Tự lập giúp em <b>trưởng thành</b> hơn và <b>tự tin</b> hơn.</li>
+    <li class="rd">Cha mẹ, thầy cô cũng <b>vui và yên tâm</b> về em.</li>
+    <li class="rd">Trái với tự lập là <b>ỷ lại</b>: việc của mình mà chờ người khác làm thay.</li>
+    <li class="rd">Ỷ lại lâu ngày, em sẽ không biết tự làm gì. Lớn lên sẽ rất vất vả.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: “Từ ngày tự chuẩn bị cặp sách, Na không quên vở nữa. Sáng ra, Na tự mặc quần áo, tự buộc giày. Mẹ Na khen: ‘Con gái mẹ lớn thật rồi!’” — Câu nào nói đúng ý chính nhất? 1️⃣ Mẹ Na khen con gái. 2️⃣ Tự lập giúp Na chủ động, không quên việc và được khen là đã lớn. 3️⃣ Na buộc giày rất nhanh.</button><div class="qa-a">Đáp án: <b>câu 2️⃣</b>. Vì sao: cả đoạn kể về việc <b>Na tự lập</b> và kết quả tốt của nó. Câu 1️⃣ (lời khen) và 3️⃣ (buộc giày nhanh) chỉ là <b>chi tiết nhỏ</b>, không bao quát được ý của cả đoạn.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai5-don-phong.webp" alt="Bạn nhỏ tự gấp chăn, dọn phòng" loading="lazy"><div class="mfc-q">Nhìn hình: bạn nhỏ đang tự lập trong việc gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Bạn đang tự gấp chăn, dọn phòng của mình.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai5-truoc-sau.webp" alt="Trước: mẹ buộc giày cho bạn; Sau: bạn tự buộc giày" loading="lazy">
+      <figcaption>🔄 <b>Trước – sau:</b> Trước đây mẹ làm thay mọi việc. Nay bạn <b>tự buộc giày, tự xách cặp</b> — đó là tự lập! (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai5-truc-nhat.webp" alt="Học sinh tự trực nhật dọn lớp" loading="lazy">
+      <figcaption>🧹 <b>Tự trực nhật lớp</b> — quét lớp, lau bảng, xếp bàn ghế. Việc của lớp mình, mình tự làm. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tự lập = tự làm những việc của mình.</li>
+      <li>Biểu hiện: tự dọn phòng, tự chuẩn bị cặp, tự trực nhật.</li>
+      <li>Tự lập giúp em tự tin và trưởng thành.</li>
+      <li>Tránh ỷ lại — việc của mình đừng chờ người khác làm thay.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> “Việc của mình — mình tự làm. Làm lần một hơi chậm, lần sau quen tay!”</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Nhiều bạn nhỏ ở Nhật Bản tự đi bộ đến trường từ lớp 1. Các bạn ấy được dạy tự lập từ rất sớm — em cũng làm được như thế!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 5">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="250" y="76" width="160" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 5: Tự lập</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#f6eefb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Là gì?</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Tự làm việc của mình</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#f6eefb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">Biểu hiện</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Ở nhà • ở trường • chăm mình</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#f6eefb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Tự tin, trưởng thành</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#f6eefb" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Cần tránh</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Ỷ lại — chờ người làm thay</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Tự lập là gì?</button><div class="qa-a">Là <b>tự làm những việc của mình</b>, không ỷ lại vào người khác.</div></div>
+  <div class="qa"><button class="qa-q">Kể 2 việc thể hiện tự lập ở trường.</button><div class="qa-a">Ví dụ: <b>tự làm bài tập</b> và <b>tự trực nhật lớp</b>. Tự giữ gìn đồ dùng của mình cũng là tự lập.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình trước – sau ở trên: hai nửa hình khác nhau ở điểm nào? Nửa hình nào tốt hơn? Vì sao?</button><div class="qa-a">Nửa <b>trước</b>: mẹ làm thay mọi việc cho bạn. Nửa <b>sau</b>: bạn tự buộc giày, tự xách cặp. Nửa sau tốt hơn — vì bạn đã biết <b>tự lập</b>, mẹ vui và yên tâm hơn.</div></div>
+  <div class="qa"><button class="qa-q">Ỷ lại lâu ngày có hại gì?</button><div class="qa-a">Em sẽ <b>không biết tự làm việc gì</b>, thiếu tự tin, và lớn lên sẽ rất <b>vất vả</b> khi phải tự lo cho mình.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Sáng mai có giờ kiểm tra. Tối nay em sẽ tự chuẩn bị những gì?</button><div class="qa-a">Em tự <b>soạn cặp sách</b> (vở, bút, thước), <b>ôn lại bài</b> một lượt, chuẩn bị quần áo và <b>đi ngủ sớm</b> để mai tỉnh táo. Chuẩn bị trước là tự lập đấy!</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="20,21,22,23,24"></div>
+  </div>
+  <a class="next" href="#bai6">✔ Xong Bài 5 → Sang Bài 6: Tự nhận thức bản thân ⬇</a>
+</div>
+
+<!-- ================= BÀI 6 ================= -->
+<div class="lesson" id="bai6" style="--c:#00838f">
+  <div class="body">
+  <span class="badge sau">📚 Sau giữa kì 1</span>
+  <h3>Bài 6. Tự nhận thức bản thân</h3>
+  <div class="hook rd">🎬 Hoa vẽ rất đẹp. Nhưng Hoa hát chưa hay. Tùng đá bóng rất giỏi. Nhưng Tùng viết văn còn chậm. Bạn nào cũng có việc giỏi và việc chưa giỏi. Còn em thì sao? Em giỏi việc gì nhất?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Tự nhận thức bản thân</span> là <b>hiểu rõ về chính mình</b>.</li>
+    <li class="rd">Hiểu mình giỏi việc gì — đó là <b>điểm mạnh</b>.</li>
+    <li class="rd">Hiểu mình chưa giỏi việc gì — đó là <b>điểm yếu</b>. Điểm yếu là việc mình làm chưa tốt.</li>
+    <li class="rd">Hiểu cả điều mình <b>thích</b> và điều mình chưa thích.</li>
+  </ul>
+
+  <div class="mfc"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><div class="mfc-q">Điểm mạnh là gì? Điểm yếu là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Điểm mạnh là việc em làm giỏi. Điểm yếu là việc em làm chưa tốt.</div></div>
+  </div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Cách 1 — Tự ngẫm nghĩ:</b> ngẫm nghĩ là suy nghĩ kĩ về mình. Em tự hỏi: “Mình giỏi việc gì? Mình yếu việc gì?”</li>
+    <li class="rd"><b>Cách 2 — Lắng nghe góp ý:</b> thầy cô, cha mẹ, bạn bè nói cho em biết điều nên sửa. Đó là góp ý.</li>
+    <li class="rd"><b>Cách 3 — Thử làm nhiều việc:</b> vẽ, hát, thể thao, đọc sách… Thử rồi em mới biết mình hợp với việc gì.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Em vừa học mấy cách để hiểu mình? Kể tên các cách đó.</button><div class="qa-a">Có <b>3 cách</b>: 1) tự ngẫm nghĩ, 2) lắng nghe góp ý, 3) thử làm nhiều việc khác nhau.</div></div>
+
+  <ul class="learn">
+    <li class="rd">Hiểu mình, em <b>phát huy điểm mạnh</b>. Ví dụ: giỏi vẽ thì học thêm lớp vẽ, tham gia thi vẽ.</li>
+    <li class="rd">Hiểu mình, em <b>sửa được điểm yếu</b>. Ví dụ: viết chậm thì luyện viết mỗi ngày một ít.</li>
+    <li class="rd">Đừng <b>tự kiêu</b> khi mình giỏi. Tự kiêu là khoe khoang, coi thường người khác.</li>
+    <li class="rd">Cũng đừng <b>tự ti</b> khi mình chưa giỏi. Tự ti là buồn, nghĩ mình kém cỏi. Ai cũng có điểm yếu — sửa dần là được.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">🎯 Bắt ý chính: Đọc kĩ câu này: “Muốn tiến bộ, em cần biết rõ điểm mạnh và điểm yếu của mình.” — Cụm từ nào quan trọng nhất trong câu? 1️⃣ “tiến bộ” 2️⃣ “điểm mạnh và điểm yếu” 3️⃣ “của mình”</button><div class="qa-a">Đáp án: <b>cụm 2️⃣ “điểm mạnh và điểm yếu”</b>. Vì sao: cả bài 6 nói về việc <b>hiểu điểm mạnh, điểm yếu của mình</b>. Hai cụm kia chỉ là phần phụ — bỏ cụm 2️⃣ đi thì câu mất ý chính.</div></div>
+
+  <div class="mfc hasimg"><div class="mfc-in">
+    <div class="mfc-f mfc-fr"><span class="mfc-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai6-diem-manh.webp" alt="Bạn gái vẽ tranh đẹp, bạn bè trầm trồ" loading="lazy"><div class="mfc-q">Nhìn hình: điểm mạnh của bạn gái là gì?</div><div class="mfc-hint">(Bấm vào thẻ để xem đáp án)</div></div>
+    <div class="mfc-f mfc-bk"><span class="mfc-tag ok">✅ Đáp án</span><div class="mfc-a">Bạn vẽ tranh giỏi — vẽ là điểm mạnh của bạn.</div></div>
+  </div></div>
+
+  <div class="gallery">
+    <figure>
+      <img src="../hinh-anh/gdcd/bai6-truoc-guong.webp" alt="Bạn gái soi gương và nghĩ về sở thích của mình" loading="lazy">
+      <figcaption>🪞 <b>Soi gương và nghĩ về mình:</b> em thích vẽ, thích bóng đá hay thích hát? Hiểu mình bắt đầu từ những câu hỏi như thế. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/gdcd/bai6-thu-suc.webp" alt="Bạn nhỏ thử nhiều hoạt động: vẽ, đàn, bóng đá" loading="lazy">
+      <figcaption>🎨⚽ <b>Thử nhiều việc khác nhau</b> — vẽ, đàn, đá bóng — để biết mình giỏi và hợp với việc gì nhất. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+  </div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tự nhận thức = hiểu rõ điểm mạnh, điểm yếu của mình.</li>
+      <li>3 cách hiểu mình: tự ngẫm nghĩ, nghe góp ý, thử nhiều việc.</li>
+      <li>Hiểu mình để phát huy điểm mạnh, sửa điểm yếu.</li>
+      <li>Không tự kiêu khi giỏi, không tự ti khi chưa giỏi.</li>
+    </ul>
+  </div>
+  <div class="meo">💡 <b>Mẹo nhớ:</b> “Biết mình — sửa mình — giỏi lên!” Hiểu mình là bước đầu tiên để tiến bộ.</div>
+  <div class="wow">🔍 <b>Bí mật thú vị:</b> Bộ não của em vẫn đang lớn lên mỗi ngày. Việc hôm nay em chưa giỏi, cứ luyện đều là mai sẽ giỏi hơn. Điểm yếu không đứng yên một chỗ đâu!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy</div>
+    <svg class="gdmap" viewBox="0 0 660 200" role="img" aria-label="Sơ đồ tư duy Bài 6">
+      <line x1="330" y1="86" x2="95" y2="40" stroke="#bbb" stroke-width="2"/><line x1="330" y1="86" x2="565" y2="40" stroke="#bbb" stroke-width="2"/>
+      <line x1="330" y1="112" x2="95" y2="160" stroke="#bbb" stroke-width="2"/><line x1="330" y1="112" x2="565" y2="160" stroke="#bbb" stroke-width="2"/>
+      <rect x="225" y="76" width="210" height="46" rx="10" style="fill:var(--c)"/>
+      <text x="330" y="104" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Bài 6: Tự nhận thức bản thân</text>
+      <rect x="10" y="12" width="170" height="56" rx="9" fill="#eef7f7" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="700">Là gì?</text>
+      <text x="95" y="54" text-anchor="middle" font-size="13.5">Hiểu điểm mạnh, điểm yếu</text>
+      <rect x="480" y="12" width="170" height="56" rx="9" fill="#eef7f7" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="34" text-anchor="middle" font-size="14" font-weight="700">3 cách hiểu mình</text>
+      <text x="565" y="54" text-anchor="middle" font-size="13.5">Ngẫm nghĩ • nghe góp ý • thử</text>
+      <rect x="10" y="132" width="170" height="56" rx="9" fill="#eef7f7" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="95" y="154" text-anchor="middle" font-size="14" font-weight="700">Ý nghĩa</text>
+      <text x="95" y="174" text-anchor="middle" font-size="13.5">Phát huy mạnh, sửa yếu</text>
+      <rect x="480" y="132" width="170" height="56" rx="9" fill="#eef7f7" style="stroke:var(--c)" stroke-width="1.5"/>
+      <text x="565" y="154" text-anchor="middle" font-size="14" font-weight="700">Thái độ đúng</text>
+      <text x="565" y="174" text-anchor="middle" font-size="13.5">Không tự kiêu, không tự ti</text>
+    </svg>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ</div>
+  <div class="qa"><button class="qa-q">Tự nhận thức bản thân là gì?</button><div class="qa-a">Là <b>hiểu rõ về chính mình</b>: mình giỏi việc gì (điểm mạnh), chưa giỏi việc gì (điểm yếu), và mình thích điều gì.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình bạn nhỏ thử vẽ, đàn, đá bóng ở trên: bạn đang dùng cách nào để hiểu mình?</button><div class="qa-a">Bạn đang dùng <b>cách 3 — thử làm nhiều việc khác nhau</b>. Thử rồi mới biết mình giỏi và hợp với việc gì.</div></div>
+  <div class="qa"><button class="qa-q">Vì sao em không nên tự ti khi mình chưa giỏi một việc nào đó?</button><div class="qa-a">Vì <b>ai cũng có điểm yếu</b>. Điểm yếu sửa dần mỗi ngày là sẽ tốt lên. Tự ti chỉ làm em không dám thử, mà không thử thì không giỏi được.</div></div>
+  <div class="qa"><button class="qa-q">Cô khen em vẽ đẹp và góp ý em viết chữ còn xấu. Em hiểu ra điều gì về mình?</button><div class="qa-a">Em biết <b>điểm mạnh</b> của mình là vẽ đẹp, <b>điểm yếu</b> là chữ viết. Em sẽ phát huy việc vẽ và luyện viết mỗi ngày để sửa điểm yếu.</div></div>
+  <div class="qa"><button class="qa-q">🤔 Tình huống: Cô góp ý: “Bài viết của em chữ còn xấu.” Em sẽ nghĩ và làm gì?</button><div class="qa-a">Em <b>cảm ơn cô</b>, không buồn lâu và không tự ti. Em <b>luyện viết mỗi ngày một trang</b> để chữ đẹp dần lên. Góp ý là món quà giúp em tiến bộ.</div></div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="25,26,27,28,29"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Bài 6 → Xuống Phần TỔNG KẾT học kì 1 ⬇</a>
+</div>
+
+<!-- ================= TỔNG KẾT ================= -->
+<div id="sumwrap">
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 6 bài rồi, giỏi lắm! Giờ nhìn lại cả học kì: sơ đồ tổng → 6 điều tốt em đã học → lật lại toàn bộ flashcard một lượt → sang phần trắc nghiệm.</p></div>
+
+<div class="card" style="--c:#5e35b1">
+  <h3>🧠 Sơ đồ tư duy TỔNG — GDCD 6, Học kì 1</h3>
+  <svg class="gdmap" viewBox="0 0 660 300" role="img" aria-label="Sơ đồ tư duy tổng GDCD 6 học kì 1">
+    <rect x="215" y="8" width="230" height="44" rx="10" fill="#5e35b1"/>
+    <text x="330" y="36" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">GDCD 6 — Học kì 1</text>
+    <line x1="330" y1="52" x2="110" y2="86" stroke="#bbb" stroke-width="2"/><line x1="330" y1="52" x2="330" y2="86" stroke="#bbb" stroke-width="2"/><line x1="330" y1="52" x2="550" y2="86" stroke="#bbb" stroke-width="2"/>
+    <line x1="330" y1="52" x2="110" y2="196" stroke="#bbb" stroke-width="2"/><line x1="330" y1="52" x2="330" y2="196" stroke="#bbb" stroke-width="2"/><line x1="330" y1="52" x2="550" y2="196" stroke="#bbb" stroke-width="2"/>
+    <rect x="20" y="86" width="180" height="66" rx="9" fill="#fdf6e3" stroke="#a16207" stroke-width="1.5"/>
+    <text x="110" y="108" text-anchor="middle" font-size="13.5" font-weight="700">Bài 1: Truyền thống</text>
+    <text x="110" y="128" text-anchor="middle" font-size="12.5">Điều tốt đẹp truyền</text>
+    <text x="110" y="144" text-anchor="middle" font-size="12.5">qua nhiều đời</text>
+    <rect x="240" y="86" width="180" height="66" rx="9" fill="#fdf0f5" stroke="#c2185b" stroke-width="1.5"/>
+    <text x="330" y="108" text-anchor="middle" font-size="13.5" font-weight="700">Bài 2: Yêu thương</text>
+    <text x="330" y="128" text-anchor="middle" font-size="12.5">Quan tâm, giúp đỡ</text>
+    <text x="330" y="144" text-anchor="middle" font-size="12.5">mọi người</text>
+    <rect x="460" y="86" width="180" height="66" rx="9" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="550" y="108" text-anchor="middle" font-size="13.5" font-weight="700">Bài 3: Siêng năng, kiên trì</text>
+    <text x="550" y="128" text-anchor="middle" font-size="12.5">Làm đều mỗi ngày,</text>
+    <text x="550" y="144" text-anchor="middle" font-size="12.5">không bỏ cuộc</text>
+    <rect x="20" y="196" width="180" height="66" rx="9" fill="#eef4fb" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="110" y="218" text-anchor="middle" font-size="13.5" font-weight="700">Bài 4: Tôn trọng sự thật</text>
+    <text x="110" y="238" text-anchor="middle" font-size="12.5">Nói đúng, làm đúng</text>
+    <text x="110" y="254" text-anchor="middle" font-size="12.5">sự thật</text>
+    <rect x="240" y="196" width="180" height="66" rx="9" fill="#f6eefb" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="330" y="218" text-anchor="middle" font-size="13.5" font-weight="700">Bài 5: Tự lập</text>
+    <text x="330" y="238" text-anchor="middle" font-size="12.5">Tự làm việc</text>
+    <text x="330" y="254" text-anchor="middle" font-size="12.5">của mình</text>
+    <rect x="460" y="196" width="180" height="66" rx="9" fill="#eef7f7" stroke="#00838f" stroke-width="1.5"/>
+    <text x="550" y="218" text-anchor="middle" font-size="13.5" font-weight="700">Bài 6: Tự nhận thức</text>
+    <text x="550" y="238" text-anchor="middle" font-size="12.5">Hiểu điểm mạnh,</text>
+    <text x="550" y="254" text-anchor="middle" font-size="12.5">điểm yếu của mình</text>
+    <text x="330" y="288" text-anchor="middle" font-size="13.5" fill="#555">6 bài — 6 đức tính tốt để em lớn lên mỗi ngày 🌱</text>
+  </svg>
+</div>
+
+<div class="card">
+  <h3>🃏 Flashcard TỔNG ÔN — cả 30 thẻ của học kì 1</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="fcbox" data-cards="all"></div>
+</div>
+
+<a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm GDCD 6 (Học kì 1)<small>54 câu hỏi • 3 chế độ: Học tập – Luyện tập – Thi thử • Câu hỏi xếp từ dễ đến khó, cứ từ từ làm nhé!</small></a>
+<p class="note">📌 Lưu ý: nhãn “Ôn giữa kì 1 / Sau giữa kì 1” trên từng bài là theo phân phối chương trình phổ biến của sách Kết nối tri thức (giữa kì 1 thường gồm Bài 1–3). Mỗi trường có thể cắt phạm vi hơi khác — em cứ học theo đúng thứ tự bài trên lớp nhé.</p>
+</div><!-- /#sumwrap -->
+
+<!-- ===== THANH CHẾ ĐỘ XEM (cuối trang) ===== -->
+<div class="viewbar viewbar-b">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+</div>
+
+<footer>
+  <b>Nguồn ảnh:</b> toàn bộ hình minh họa trong trang là <b>tranh minh họa màu nước do AI vẽ</b> (30 hình: gia đình sum họp ngày giỗ, ông kể chuyện gia phả, gói bánh chưng, hiếu học, giúp việc nhà, giúp bà qua đường, giúp bạn học, chăm ông bà, quyên góp, bạn bè nắm tay, tưới vườn mỗi ngày, tập xe đạp, học bài, cây cam trĩu quả, Thỏ và Rùa, nhận lỗi, thi nghiêm túc, trả của rơi, được tin tưởng, cậu bé chăn cừu, tự chuẩn bị cặp sách, dọn phòng, trực nhật, tự đi xe đạp, trước–sau tự lập, soi gương nghĩ về mình, điểm mạnh vẽ tranh, lắng nghe góp ý, thử sức nhiều việc, học nhóm). Sơ đồ tư duy là hình SVG tự vẽ, nhãn tiếng Việt.<br>
+  Nội dung bám theo SGK “Giáo dục công dân 6” — bộ Kết nối tri thức với cuộc sống (học kì 1: Bài 1–6). Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
+</footer>
+
+<script>
+const IMG={
+sumvay:"../hinh-anh/gdcd/bai1-gia-dinh-sum-vay.webp",
+giapha:"../hinh-anh/gdcd/bai1-ong-ke-gia-pha.webp",
+banhchung:"../hinh-anh/gdcd/bai1-goi-banh-chung.webp",
+hieuhoc:"../hinh-anh/gdcd/bai1-hieu-hoc.webp",
+giupnha:"../hinh-anh/gdcd/bai1-giup-viec-nha.webp",
+giupba:"../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp",
+giupban:"../hinh-anh/gdcd/bai2-giup-ban-hoc.webp",
+chamob:"../hinh-anh/gdcd/bai2-cham-ong-ba.webp",
+quyengop:"../hinh-anh/gdcd/bai2-quyen-gop.webp",
+namtay:"../hinh-anh/gdcd/bai2-ban-be-nam-tay.webp",
+tuoicay:"../hinh-anh/gdcd/bai3-lam-viec-deu-dan.webp",
+tapxe:"../hinh-anh/gdcd/bai3-tap-xe-dap.webp",
+hocbai:"../hinh-anh/gdcd/bai3-hoc-bai.webp",
+caylon:"../hinh-anh/gdcd/bai3-cay-lon.webp",
+thorua:"../hinh-anh/gdcd/bai3-tho-va-rua.webp",
+nhanloi:"../hinh-anh/gdcd/bai4-nhan-loi.webp",
+thinghiem:"../hinh-anh/gdcd/bai4-thi-nghiem-tuc.webp",
+tracua:"../hinh-anh/gdcd/bai4-tra-cua-roi.webp",
+tintuong:"../hinh-anh/gdcd/bai4-duoc-tin-tuong.webp",
+chancuu:"../hinh-anh/gdcd/bai4-be-chan-cuu.webp",
+chuanbi:"../hinh-anh/gdcd/bai5-tu-chuan-bi.webp",
+donphong:"../hinh-anh/gdcd/bai5-don-phong.webp",
+trucnhat:"../hinh-anh/gdcd/bai5-truc-nhat.webp",
+tutin:"../hinh-anh/gdcd/bai5-tu-tin.webp",
+truocsau:"../hinh-anh/gdcd/bai5-truoc-sau.webp",
+guong:"../hinh-anh/gdcd/bai6-truoc-guong.webp",
+diemmanh:"../hinh-anh/gdcd/bai6-diem-manh.webp",
+langnghe:"../hinh-anh/gdcd/bai6-lang-nghe.webp",
+thusuc:"../hinh-anh/gdcd/bai6-thu-suc.webp",
+hocnhom:"../hinh-anh/gdcd/bai6-hoc-nhom.webp"};
+/* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ đúng khái niệm của thẻ] */
+const CARDS=[
+["Truyền thống gia đình là gì?","Những điều tốt đẹp của gia đình, được truyền từ đời này sang đời khác.","giapha"],
+["Ngày giỗ trong gia đình là dịp để làm gì?","Để con cháu tưởng nhớ ông bà, tổ tiên và sum họp cùng nhau.","sumvay"],
+["Cả nhà cùng gói bánh chưng ngày Tết là đang làm gì?","Đang giữ gìn và phát huy truyền thống tốt đẹp của gia đình, dân tộc.","banhchung"],
+["Truyền thống hiếu học nghĩa là gì?","Là truyền thống coi trọng việc học; con cháu trong nhà đều chăm học, ham học.","hieuhoc"],
+["Em làm việc gì để giữ truyền thống gia đình?","Học chăm, ngoan ngoãn, giúp việc nhà, nhớ ngày giỗ và ngày Tết của gia đình.","giupnha"],
+["Yêu thương con người là gì?","Là quan tâm, giúp đỡ và làm những điều tốt đẹp cho người khác.","giupba"],
+["Ở trường, việc nào thể hiện yêu thương bạn bè?","Giảng bài cho bạn chưa hiểu, đỡ bạn khi ngã, chia sẻ đồ dùng với bạn.","giupban"],
+["Khi ông bà bị ốm, em nên làm gì?","Chăm sóc ông bà: mang cháo, mang nước, hỏi thăm ông bà.","chamob"],
+["Quyên góp sách vở cho bạn vùng lũ là việc làm gì?","Là việc làm thể hiện yêu thương, chia sẻ với người gặp khó khăn.","quyengop"],
+["Câu ca dao nào dạy ta yêu thương con người?","“Thương người như thể thương thân” — thương người như thương chính mình.","namtay"],
+["Siêng năng là gì?","Là làm việc chăm chỉ, đều đặn mỗi ngày.","tuoicay"],
+["Kiên trì là gì?","Là quyết tâm làm đến cùng, gặp khó cũng không bỏ cuộc.","tapxe"],
+["Học sinh siêng năng, kiên trì biểu hiện thế nào trong học tập?","Làm bài mỗi ngày, chưa hiểu thì học lại và hỏi thầy cô, không bỏ dở.","hocbai"],
+["Siêng năng, kiên trì mang lại điều gì?","Giúp em làm được việc khó và đi đến thành công — như cây được chăm mỗi ngày sẽ trĩu quả.","caylon"],
+["Chuyện Thỏ và Rùa dạy em điều gì?","Phải kiên trì, không chủ quan, không bỏ cuộc — chậm mà đều vẫn thắng.","thorua"],
+["Tôn trọng sự thật là gì?","Là nói đúng sự thật, làm đúng sự thật và bảo vệ điều đúng.","nhanloi"],
+["Trong giờ kiểm tra, việc làm nào là tôn trọng sự thật?","Tự làm bài bằng sức mình, không chép bài bạn, không dùng phao.","thinghiem"],
+["Nhặt được của rơi, em nên làm gì?","Trả lại cho người mất hoặc nộp cho thầy cô, chú bảo vệ.","tracua"],
+["Vì sao người nói thật được mọi người quý mến?","Vì ai cũng tin tưởng người trung thực và yên tâm giao việc cho họ.","tintuong"],
+["Chuyện “Chú bé chăn cừu” dạy em bài học gì?","Không được nói dối: nói dối nhiều lần, khi nói thật cũng không ai tin.","chancuu"],
+["Tự lập là gì?","Là tự làm những việc của mình, không ỷ lại vào người khác.","chuanbi"],
+["Ở nhà, việc nào cho thấy em tự lập?","Tự gấp chăn, tự dọn phòng, tự chuẩn bị cặp sách cho hôm sau.","donphong"],
+["Ở trường, học sinh tự lập biểu hiện thế nào?","Tự làm bài tập, tự trực nhật, giữ gìn đồ dùng của mình.","trucnhat"],
+["Tự lập mang lại điều gì tốt cho em?","Giúp em tự tin, trưởng thành và được mọi người yên tâm, khen ngợi.","tutin"],
+["Nhìn hình trước – sau: bạn Tùng thay đổi thế nào?","Trước: mẹ làm thay mọi việc. Sau: Tùng tự buộc giày, tự xách cặp — đó là tự lập.","truocsau"],
+["Tự nhận thức bản thân là gì?","Là hiểu rõ về chính mình: mình giỏi việc gì, chưa giỏi việc gì, thích điều gì.","guong"],
+["Nhìn hình: bạn gái phát hiện điểm mạnh của mình là gì?","Bạn vẽ tranh đẹp — vẽ là điểm mạnh của bạn.","diemmanh"],
+["Lắng nghe góp ý của thầy cô, bạn bè giúp em điều gì?","Giúp em biết điểm nào mình chưa tốt để sửa — đó là một cách hiểu mình.","langnghe"],
+["Vì sao nên thử làm nhiều việc khác nhau?","Vì thử rồi em mới biết mình giỏi việc gì, hợp với việc gì.","thusuc"],
+["Em có thể nhờ ai giúp mình sửa điểm yếu?","Nhờ thầy cô và bạn bè giỏi hơn chỉ cho em; học cùng bạn là cách sửa điểm yếu rất tốt.","hocnhom"]
+];
+/* Câu hỏi gợi nhớ + kiểm tra nhanh: bấm để hiện/ẩn đáp án */
+document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+/* Thẻ lật mini ⚡ Nhớ nhanh: bấm để lật, không chấm điểm, không lưu trạng thái */
+document.querySelectorAll('.mfc').forEach(function(c){c.addEventListener('click',function(){c.classList.toggle('flipped');});});
+/* Flashcard */
+var LSKEY='gdcd_flash_v1';
+var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
+function saveKnown(){try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   1 the tai 1 thoi diem; the chua thuoc xep truoc. Bam vao the de lat (xoay 3D).
+   Tick "Da thuoc": tick pop + the truot phai; "Chua thuoc": truot trai + ve cuoi hang doi.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
+  }
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
+}
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){
+    var c=CARDS[ci];
+    var front='<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+});
+
+/* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
+var VMKEY='gdcd_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','🏁 Tổng kết'];
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+PLABELS.forEach(function(lb,i){
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button';
+  b.addEventListener('click',function(){showPage(i,true);});
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
+function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
+function showPage(i,scroll){
+  if(window.__stopRead) window.__stopRead();
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 6':'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='sum';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
+(function(){
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'sum':h);
+  if(ix>=0) curPage=ix;
+})();
+applyMode();
+showPage(curPage,false);
+</script>
+
+<script>
+/* ===== NGHE BÀI bằng speechSynthesis (giọng vi-VN nếu có) — mẫu của trang Ngữ văn =====
+   Đọc theo từng câu/ý ngắn nối tiếp, tô sáng phần đang đọc, có nút Dừng,
+   cảnh báo khi máy chưa có giọng đọc tiếng Việt. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  function pickVoice(){
+    var vs=synth.getVoices()||[];
+    viVoice=null;
+    for(var i=0;i<vs.length;i++){ if(vs[i].lang && vs[i].lang.toLowerCase().indexOf('vi')===0){ viVoice=vs[i]; break; } }
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null;
+  function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function pushLong(units,t,el){
+    if(t.length<=220){ units.push({t:t,el:el}); return; }
+    var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], buf='';
+    parts.forEach(function(x){ x=x.trim(); if(!x) return; if(buf&&(buf+' '+x).length>200){ units.push({t:buf,el:el}); buf=x; } else { buf=buf?buf+' '+x:x; } });
+    if(buf) units.push({t:buf,el:el});
+  }
+  var lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+  function prepare(lesson){
+    if(lesson._units) return lesson._units;
+    var units=[];
+    lesson.querySelectorAll('.rd').forEach(function(el){
+      var txt=(el.textContent||'').replace(/\s+/g,' ').trim();
+      if(!txt) return;
+      if(el.querySelector('b,span,i,em,strong,ul')){ pushLong(units,txt,el); return; }
+      var sents=txt.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[txt];
+      el.innerHTML=sents.map(function(x){ return '<span class="rb-u">'+esc(x.trim())+'</span>'; }).join(' ');
+      el.querySelectorAll('.rb-u').forEach(function(sp){ pushLong(units,sp.textContent,sp); });
+    });
+    lesson._units=units;
+    return units;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.classList.remove('reading'); b.textContent='🔊 Nghe bài này'; });
+    document.querySelectorAll('.ls-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc… (bấm để dừng)'; st.stopBtn.hidden=false; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    hi(null); setBtn(null);
+  }
+  window.__stopRead=stopRead;
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    hi(st.units[st.idx].el);
+    var u=new SpeechSynthesisUtterance(st.units[st.idx].t);
+    u.lang='vi-VN'; u.rate=0.95;
+    if(viVoice) u.voice=viVoice;
+    u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
+    u.onerror=function(e){ if(cur===st&&!st.dead&&e.error!=='canceled'&&e.error!=='interrupted'){ st.idx++; speakNext(st); } };
+    synth.speak(u);
+  }
+  function startRead(lesson){
+    stopRead();
+    var units;
+    try{ units=prepare(lesson); }catch(e){ units=[]; }
+    if(!units.length) return;
+    pickVoice();
+    var note=lesson.querySelector('.ls-note');
+    if(note){
+      if(viVoice){ note.hidden=true; }
+      else{
+        var dv=(synth.getVoices()||[])[0];
+        note.textContent='⚠️ Máy này chưa có giọng đọc tiếng Việt (đang đọc bằng giọng '+(dv?('"'+dv.name+'" '):'mặc định ')+') nên nghe sẽ không đúng tiếng Việt. Khắc phục: mở trang bằng trình duyệt Microsoft Edge, hoặc cài thêm giọng/gói ngôn ngữ Tiếng Việt trong phần cài đặt của máy.';
+        note.hidden=false;
+      }
+    }
+    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false};
+    cur=st; setBtn(st); speakNext(st);
+  }
+  document.querySelectorAll('.lesson').forEach(function(lesson){
+    var lb=lesson.querySelector('.ls-listen');
+    if(!lb) return;
+    lb.addEventListener('click',function(){ if(cur&&cur.lesson===lesson){ stopRead(); } else { startRead(lesson); } });
+    lesson.querySelector('.ls-stop').addEventListener('click',function(){ stopRead(); });
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
+})();
+</script>
+</body>
+</html>

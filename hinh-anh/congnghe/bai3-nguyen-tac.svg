@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" font-family="Be Vietnam Pro, Arial, sans-serif">
+<rect width="760" height="260" fill="#f7f9fc"/>
+<rect x="30" y="80" width="200" height="110" rx="16" fill="#0277bd"/><text x="130" y="128" text-anchor="middle" font-size="24" font-weight="bold" fill="#fff">1. NHẬN LỆNH</text><text x="130" y="160" text-anchor="middle" font-size="17" fill="#fff">cảm biến, điện thoại</text>
+<polygon points="245,120 275,135 245,150" fill="#37474f"/>
+<rect x="280" y="80" width="200" height="110" rx="16" fill="#ef6c00"/><text x="380" y="128" text-anchor="middle" font-size="24" font-weight="bold" fill="#fff">2. XỬ LÍ</text><text x="380" y="160" text-anchor="middle" font-size="17" fill="#fff">bộ điều khiển trung tâm</text>
+<polygon points="495,120 525,135 495,150" fill="#37474f"/>
+<rect x="530" y="80" width="200" height="110" rx="16" fill="#2e7d32"/><text x="630" y="128" text-anchor="middle" font-size="24" font-weight="bold" fill="#fff">3. CHẤP HÀNH</text><text x="630" y="160" text-anchor="middle" font-size="17" fill="#fff">đèn sáng, cửa mở...</text>
+<text x="380" y="232" text-anchor="middle" font-size="19" fill="#37474f">Ví dụ: cảm biến thấy trời tối → bộ xử lí ra lệnh → đèn tự bật.</text>
+</svg>
