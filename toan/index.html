@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toán 6 - Tự luận Học kì 1</title>
+<script src="https://js.puter.com/v2/"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937}
+h1{text-align:center;color:#2e7d32;margin-bottom:6px;font-size:30px;line-height:1.3}
+.sub{text-align:center;color:#444;margin-bottom:6px}
+.steps{text-align:center;color:#2e7d32;font-size:16px;margin-bottom:16px}
+a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12px}
+.sec{background:#fff;border-radius:10px;padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.sec>h2{font-size:25px;color:#2e7d32;margin-bottom:6px;line-height:1.35}
+.sec .desc{color:#444;font-size:16px;margin-bottom:10px;line-height:1.6}
+.chap-t{font-weight:bold;color:#1565c0;margin:12px 0 4px;font-size:18px}
+.p-item{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;padding:11px 12px;border:1px solid #ddd;border-radius:8px;background:#fafafa;cursor:pointer;font-size:17px;line-height:1.6;margin:5px 0}
+.p-item:hover{background:#e8f5e9}
+.p-item .done{color:#2e7d32;font-weight:bold}
+.p-item .todo{color:#bbb}
+.shape-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.shape-card{border:1px solid #ddd;border-radius:8px;background:#fafafa;padding:12px;cursor:pointer;text-align:center;font-size:17px;line-height:1.55}
+.shape-card:hover{background:#e8f5e9}
+.tag{display:inline-block;background:#e8f5e9;color:#2e7d32;border-radius:10px;padding:2px 10px;font-size:14px;margin-bottom:10px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1);margin-bottom:14px}
+.card h2{font-size:24px;margin-bottom:10px;line-height:1.35}
+.ptext{white-space:pre-line;font-size:18px;line-height:1.7;margin-bottom:8px}
+.fig{text-align:center;margin:10px 0}
+.fig svg{max-width:100%}
+.btn{padding:10px 16px;font-size:16px;border:none;border-radius:8px;cursor:pointer;color:#fff;margin:4px 4px 4px 0}
+.btn-a{background:#1a73e8}.btn-h{background:#ea8600}.btn-s{background:#6a1b9a}.btn-c{background:#2e7d32}.btn-g{background:#666}.btn-k{background:#00838f}
+.btn:disabled{opacity:.45;cursor:default}
+.panel{border-radius:8px;padding:12px 14px;margin:10px 0;display:none;font-size:17px;line-height:1.65}
+.panel.show{display:block}
+.panel-a{background:#e3f2fd;border:1px solid #90caf9}
+.panel-h{background:#fff3cd;border:1px solid #ffe082}
+.panel-s{background:#f3e5f5;border:1px solid #ce93d8}
+.panel h3{font-size:18px;margin-bottom:6px}
+.panel .lbl{font-weight:bold;color:#1565c0}
+.panel ol{margin-left:20px}
+.panel li{margin:4px 0}
+.theory-box{background:#fff;border:1px dashed #ea8600;border-radius:6px;padding:8px 10px;margin:8px 0}
+.kw{border-radius:4px;padding:1px 4px;cursor:pointer;font-weight:bold;border:1.5px solid transparent}
+.kw-data{background:#42a5f5;color:#fff;border-color:#1565c0}
+.kw-op{background:#ff9800;color:#fff;border-color:#e65100}
+.kw-ask{background:#e53935;color:#fff;border-color:#b71c1c}
+.kw-legend{font-size:16px;color:#444;margin:6px 0;display:none;line-height:1.6}
+.kw-legend.show{display:block}
+.kw-legend span{border-radius:4px;padding:1px 6px;font-weight:bold;color:#fff}
+#kwInfo{background:#e0f2f1;border:1px solid #80cbc4;border-radius:8px;padding:10px 12px;font-size:16px;margin:8px 0;display:none;line-height:1.65}
+#kwInfo.show{display:block}
+.ans-row{display:flex;align-items:center;gap:8px;margin:10px 0;flex-wrap:wrap}
+.ans-row label{font-size:17px;min-width:170px}
+.ans-row input{padding:10px;font-size:17px;border:2px solid #bbb;border-radius:8px;width:150px}
+.ans-row input.ok{border-color:#2e7d32;background:#e8f5e9}
+.ans-row input.no{border-color:#dc3545;background:#fdecea}
+.ans-row .unit{color:#444}
+.fb{font-size:17px;margin:8px 0;min-height:20px;line-height:1.6}
+.fb.ok{color:#2e7d32;font-weight:bold}.fb.no{color:#dc3545}
+.nav{display:flex;justify-content:space-between;margin-top:6px;flex-wrap:wrap;gap:6px}
+.hidden{display:none}
+.sel-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+select{padding:10px;font-size:16px;border:1px solid #bbb;border-radius:8px}
+svg .hot{cursor:pointer}
+svg .hot.on{stroke:#f57c00!important}
+svg g.hot.on text{fill:#e65100!important}
+svg text{stroke:none!important}
+.nmword{color:#0d47a1;font-weight:bold;text-decoration:underline dotted #0d47a1;cursor:pointer;padding:0 1px}
+.nmword:active{color:#e65100}
+.nm{cursor:pointer}
+line.nm-on{stroke:#ff6d00!important;stroke-width:4!important;opacity:.95!important}
+circle.nm-on{fill:#ff6d00!important;opacity:.45!important}
+polygon.nm-on{fill:#ff6d00!important;opacity:.32!important}
+svg text.halo{stroke:rgba(255,255,255,.92)!important;stroke-width:3px;paint-order:stroke}
+svg text.nm-on{fill:#e65100!important}
+svg text.lit{fill:#e65100!important}
+svg .ang-w{fill:rgba(255,152,0,0);cursor:pointer;pointer-events:all}
+svg .ang.on .ang-w{fill:rgba(255,152,0,.45)}
+svg .ang-s{stroke:#ef6c00;stroke-width:4;opacity:0;pointer-events:none}
+svg .ang.on .ang-s{opacity:1}
+svg text.avtx{font-size:15px;font-weight:bold;fill:#37474f}
+svg text.avtx.on{fill:#e65100}
+.figRead{font-size:16.5px;color:#4e342e;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:7px 10px;margin-top:6px}
+#tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:17px;margin:8px 0;min-height:42px;line-height:1.6}
+.fact{cursor:pointer}
+.frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
+.frow:hover{background:#fff8e1}
+.frow.on{background:#ffe0b2;border-color:#ea8600}
+.fact{padding:8px 10px;border-radius:6px;margin:5px 0;background:#fafafa;border:1px solid #eee;font-size:17px;line-height:1.65}
+.fact.on{background:#fff3cd;border-color:#ea8600}
+.streak{text-align:center;font-size:16px;margin-bottom:14px;color:#444}
+.streak b{color:#e65100}
+.r-item{text-align:left;padding:10px;border-bottom:1px solid #eee;font-size:16px;line-height:1.65}
+.panel-ai{background:#e8f5e9;border:1px solid #a5d6a7}
+.chatlog{max-height:280px;overflow-y:auto;margin:8px 0;padding:4px}
+.msg{border-radius:10px;padding:8px 12px;margin:6px 0;font-size:17px;line-height:1.65;white-space:pre-line;max-width:92%}
+.msg-u{background:#c8e6c9;margin-left:auto;text-align:left}
+.msg-a{background:#fff;border:1px solid #c8e6c9}
+.ai-row{display:flex;gap:6px;margin-top:8px}
+.ai-row input{flex:1;padding:10px;font-size:16px;border:2px solid #a5d6a7;border-radius:8px}
+.qbtn{padding:7px 12px;font-size:16px;border:1px solid #2e7d32;border-radius:16px;background:#fff;color:#2e7d32;cursor:pointer;margin:2px}
+.qbtn:hover{background:#e8f5e9}
+button{font-family:inherit}
+small{line-height:1.6}
+</style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<a class="back" href="../">← Trang chủ các môn</a>
+<h1>🔢 Toán 6 — Tự luận</h1>
+<p class="sub">Học kì 1 • Đọc hiểu đề, phân tích và tự giải</p>
+<p class="steps">Đọc đề → 🔦 Soi từ khóa → 🔍 Phân tích → ✍️ Tự giải → ✔ Kiểm tra → 📖 Đối chiếu</p>
+
+<div id="home">
+  <div class="streak" id="streakBox"></div>
+  <div class="sec">
+    <h2>🎲 Luyện tập không giới hạn</h2>
+    <p class="desc">Mỗi lần bấm là một bài mới với số liệu khác nhau — làm mãi không chán, không học thuộc được đáp án.</p>
+    <div class="sel-row">
+      <select id="selChap"></select>
+      <select id="selLvl">
+        <option value="1">Mức: Dễ</option>
+        <option value="2" selected>Mức: Vừa</option>
+        <option value="3">Mức: Khó</option>
+      </select>
+      <button class="btn btn-c" id="btnGen">🎲 Tạo bài mới</button>
+    </div>
+  </div>
+  <div class="sec">
+    <h2>📝 Đề luyện</h2>
+    <p class="desc">Một đề gồm 5 bài trộn các chương, mỗi lần tạo là một đề khác. Làm xong có tổng kết điểm và xem lại lời giải.</p>
+    <div class="sel-row">
+      <button class="btn btn-a" id="btnExam">📝 Tạo đề luyện (5 bài)</button>
+    </div>
+  </div>
+  <div class="sec">
+    <h2>📐 Lý thuyết hình học</h2>
+    <p class="desc">Bấm vào từng yếu tố trên hình (cạnh, góc, đường chéo, trục đối xứng...) để xem đặc điểm, kèm công thức chu vi và diện tích của từng hình.</p>
+    <div class="shape-grid" id="shapeGrid"></div>
+  </div>
+  <div class="sec">
+    <h2>📚 Bài mẫu theo chương</h2>
+    <p class="desc">Các bài mẫu có sẵn để học cách phân tích đề và trình bày lời giải.</p>
+    <div id="sampleList"></div>
+  </div>
+</div>
+
+<div id="probArea" class="hidden">
+  <button class="btn btn-g" id="btnList">← Về trang chính</button>
+  <div class="card">
+    <span class="tag" id="pTopic"></span>
+    <h2 id="pTitle"></h2>
+    <div class="ptext" id="pText"></div>
+    <div class="kw-legend" id="kwLegend">Chú thích: <span class="kw-data">số liệu</span> <span class="kw-op">từ khóa cách làm</span> <span class="kw-ask">điều cần tìm</span> — bấm vào từ tô màu để xem giải thích</div>
+    <div id="kwInfo"></div>
+    <div class="fig" id="pFig"></div>
+    <div>
+      <button class="btn btn-k" id="btnKw">🔦 Soi từ khóa</button>
+      <button class="btn btn-a" id="btnAna">🔍 Phân tích đề</button>
+      <button class="btn btn-h" id="btnHint">💡 Gợi ý</button>
+      <button class="btn btn-s" id="btnSol">📖 Lời giải</button>
+      <button class="btn btn-c" id="btnAI">🤖 Hỏi AI</button>
+    </div>
+    <div class="panel panel-ai" id="aiPanel">
+      <h3>🤖 Gia sư AI — hỏi về bài này</h3>
+      <div>
+        <button class="qbtn" data-q="Hãy phân tích đề bài này giúp em: đề cho biết gì, đề hỏi gì?">🔍 Phân tích đề giúp em</button>
+        <button class="qbtn" data-q="Trong đề bài này, những từ khóa nào quan trọng nhất và vì sao?">🔦 Từ khóa quan trọng</button>
+        <button class="qbtn" data-q="Em chưa biết bắt đầu từ đâu, gợi ý cho em bước đầu tiên, đừng cho đáp án nhé.">💡 Gợi ý bước đầu</button>
+      </div>
+      <div class="chatlog" id="chatLog"></div>
+      <div class="ai-row">
+        <input id="aiInput" placeholder="Nhập câu hỏi của em về bài này...">
+        <button class="btn btn-c" id="btnAiSend">Gửi</button>
+      </div>
+      <p style="font-size:14px;color:#444;margin-top:6px;line-height:1.6">AI hướng dẫn theo kiểu gợi mở, không làm bài hộ. Nếu AI yêu cầu đăng nhập Puter thì đó là tài khoản miễn phí của nền tảng AI.</p>
+    </div>
+    <div class="panel panel-a" id="anaPanel"></div>
+    <div class="panel panel-h" id="hintPanel"></div>
+    <div class="panel panel-s" id="solPanel"></div>
+    <div id="ansArea"></div>
+    <button class="btn btn-c" id="btnCheck">✔ Kiểm tra đáp án</button>
+    <button class="btn btn-k hidden" id="btnVariant">🔀 Đổi số liệu — làm bài tương tự</button>
+    <button class="btn btn-k hidden" id="btnAgain">🎲 Bài tương tự mới</button>
+    <div class="fb" id="feedback"></div>
+    <div class="nav">
+      <button class="btn btn-g" id="btnPrev">← Bài trước</button>
+      <button class="btn btn-g" id="btnNext">Bài tiếp →</button>
+    </div>
+  </div>
+</div>
+
+<div id="theoryArea" class="hidden">
+  <button class="btn btn-g" id="btnList2">← Về trang chính</button>
+  <div class="card">
+    <h2 id="tName"></h2>
+    <p style="color:#444;font-size:17px;margin-bottom:6px;line-height:1.65">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
+    <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).</div>
+    <div class="fig" id="tFig"></div>
+    <div id="tFacts"></div>
+    <div class="theory-box" id="tFormulas" style="margin-top:10px"></div>
+    <div class="ans-row"><label id="tCheckQ"></label><input id="tCheckInp" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit" id="tCheckUnit"></span></div>
+    <button class="btn btn-c" id="btnTCheck">✔ Kiểm tra</button>
+    <div class="fb" id="tFeedback"></div>
+  </div>
+</div>
+
+<div id="examResult" class="hidden">
+  <div class="card">
+    <h2 id="examScore"></h2>
+    <div id="examReview"></div>
+    <br><button class="btn btn-g" id="btnList3">← Về trang chính</button>
+  </div>
+</div>
+
+<script src="gen.js?v=20261021f"></script>
+<script>
+const CHAPTERS=window.GEN.chapters;
+let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
+let examList=[],examIdx=0,examAnswers=[];
+let done={}; try{done=JSON.parse(localStorage.getItem('toan6_done')||'{}')}catch(e){done={}}
+let streak={cur:0,best:0}; try{streak=JSON.parse(localStorage.getItem('toan6_streak')||'{"cur":0,"best":0}')}catch(e){}
+
+function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(streak))}catch(e){}}
+function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
+function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
+
+Promise.all([fetch('problems.json?v=20261021f').then(r=>r.json()),fetch('theory.json?v=20261021f').then(r=>r.json())]).then(([p,t])=>{
+  problems=p;theory=t;renderHome();
+});
+
+function renderHome(){
+  showStreak();
+  document.getElementById('home').classList.remove('hidden');
+  document.getElementById('probArea').classList.add('hidden');
+  document.getElementById('theoryArea').classList.add('hidden');
+  document.getElementById('examResult').classList.add('hidden');
+  const sc=document.getElementById('selChap');
+  sc.innerHTML=Object.keys(CHAPTERS).map(c=>`<option value="${c}">${CHAPTERS[c]}</option>`).join('');
+  const sg=document.getElementById('shapeGrid');
+  const ICONS={
+   'tam-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,3 37,29 3,29" fill="#fff8e1" stroke="#e65100" stroke-width="2"/></svg>',
+   'tam-giac-thuong':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="23,4 38,24 5,28" fill="#fff8e1" stroke="#e65100" stroke-width="2"/></svg>',
+   'tam-giac-vuong':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="6,28 36,28 6,6" fill="#fff8e1" stroke="#e65100" stroke-width="2"/><polyline points="6,19 15,19 15,28" fill="none" stroke="#c62828" stroke-width="2"/></svg>',
+   'hinh-vuong':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="9" y="3" width="22" height="22" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
+   'luc-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,3 28,3 37,16 28,29 12,29 3,16" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
+   'hinh-chu-nhat':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="3" y="8" width="34" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
+   'hinh-thoi':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,2 35,16 20,30 5,16" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/></svg>',
+   'hinh-binh-hanh':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="11,6 35,6 29,26 5,26" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
+   'hinh-thang-can':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,5 28,5 37,27 3,27" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>'};
+  sg.innerHTML=theory.map((s,i)=>`<div class="shape-card" onclick="openTheory(${i})">${ICONS[s.id]||'📐'}<br><b>${s.name}</b></div>`).join('');
+  const doneCount=problems.filter(p=>done[p.id]).length;
+  let html=`<p style="color:#444;font-size:16px">Đã làm đúng: <b>${doneCount}/${problems.length}</b> bài mẫu</p>`;
+  Object.keys(CHAPTERS).forEach(cn=>{
+    const list=problems.map((p,i)=>({...p,_i:i})).filter(p=>p.chapter==cn);
+    if(!list.length)return;
+    html+=`<div class="chap-t">${CHAPTERS[cn]}</div>`;
+    list.forEach(p=>{
+      html+=`<button class="p-item" onclick="openSample(${p._i})"><span>${p.title} <small style="color:#444;font-size:16px">(${p.topic})</small></span><span class="${done[p.id]?'done':'todo'}">${done[p.id]?'✅':'○'}</span></button>`;
+    });
+  });
+  document.getElementById('sampleList').innerHTML=html;
+}
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function renderText(p,kwOn){
+  const el=document.getElementById('pText');
+  if(!kwOn||!p.kw||!p.kw.length){el.textContent=p.text;return;}
+  let matches=[];
+  p.kw.forEach(k=>{
+    let from=0;
+    while(true){
+      const idx=p.text.indexOf(k.t,from);
+      if(idx<0)break;
+      matches.push({s:idx,e:idx+k.t.length,k});
+      from=idx+k.t.length;
+    }
+  });
+  matches.sort((a,b)=>a.s-b.s||(b.e-b.s)-(a.e-a.s));
+  let html='',pos=0;
+  const used=[];
+  matches.forEach(m=>{
+    if(m.s<pos)return;
+    html+=esc(p.text.slice(pos,m.s));
+    html+=`<span class="kw kw-${m.k.type}" data-i="${used.length}">${esc(p.text.slice(m.s,m.e))}</span>`;
+    used.push(m.k);
+    pos=m.e;
+  });
+  html+=esc(p.text.slice(pos));
+  el.innerHTML=html;
+  el.querySelectorAll('.kw').forEach(sp=>{
+    sp.onclick=()=>{
+      const k=used[parseInt(sp.dataset.i)];
+      const info=document.getElementById('kwInfo');
+      info.innerHTML=`<b>${esc(k.t)}</b> — ${esc(k.why)}`;
+      info.classList.add('show');
+    };
+  });
+}
+
+let kwOn=false;
+function openProbObj(p,mode){
+  curProb=p;curMode=mode;kwOn=false;
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('examResult').classList.add('hidden');
+  document.getElementById('theoryArea').classList.add('hidden');
+  document.getElementById('probArea').classList.remove('hidden');
+  document.getElementById('pTopic').textContent=CHAPTERS[p.chapter]+' — '+p.topic+(mode==='exam'?` • Đề luyện: bài ${examIdx+1}/${examList.length}`:'');
+  document.getElementById('pTitle').textContent=p.title;
+  renderText(p,false);
+  document.getElementById('kwLegend').classList.remove('show');
+  document.getElementById('kwInfo').classList.remove('show');
+  document.getElementById('pFig').innerHTML=(p.svg||'')+(p.svg?'<div class="figRead">👆 Bấm vào một góc trên hình để xem tên góc.</div>':'');
+  document.getElementById('anaPanel').innerHTML=
+    `<h3>🔍 Phân tích đề</h3>`+
+    `<div><span class="lbl">Đề cho biết:</span><br>• ${p.analysis.given.join('<br>• ')}</div>`+
+    `<div style="margin-top:6px"><span class="lbl">Đề hỏi:</span> ${p.analysis.ask}</div>`+
+    `<div style="margin-top:6px"><span class="lbl">Hướng làm:</span> ${p.analysis.plan}</div>`;
+  let hintHtml=`<h3>💡 Gợi ý</h3>`;
+  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
+  if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
+  if(p.shape){
+    const sh=(typeof theory!=='undefined')?theory.find(s=>s.id===p.shape):null;
+    if(sh)hintHtml+=`<button class="btn btn-k" style="margin-top:8px" onclick="openTheoryById('${p.shape}')">📚 Xem thẻ lý thuyết: ${sh.name}</button>`;
+  }
+  hintHtml+=`<div>${p.hint}</div>`;
+  document.getElementById('hintPanel').innerHTML=hintHtml;
+  let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
+  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; đối chiếu từng bước giải với số đo trên hình.</p>`;
+  solHtml+=`<ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+  document.getElementById('solPanel').innerHTML=solHtml;
+  ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
+  aiHistory=[];document.getElementById('chatLog').innerHTML='';
+  const fb=document.getElementById('feedback');fb.textContent='';fb.className='fb';
+  document.getElementById('ansArea').innerHTML=p.parts.map((pt,j)=>
+    `<div class="ans-row"><label>${pt.label}:</label><input id="inp${j}" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit">${pt.unit||''}</span></div>`
+  ).join('');
+  document.getElementById('btnAgain').classList.toggle('hidden',!(mode==='gen'));
+  document.getElementById('btnVariant').classList.toggle('hidden',!(mode==='sample'&&p.template));
+  const prev=document.getElementById('btnPrev'),next=document.getElementById('btnNext');
+  if(mode==='sample'){
+    prev.classList.remove('hidden');next.classList.remove('hidden');
+    prev.disabled=(cur===0);next.disabled=(cur===problems.length-1);
+    prev.textContent='← Bài mẫu trước';next.textContent='Bài mẫu tiếp →';
+  }else if(mode==='exam'){
+    prev.classList.add('hidden');next.classList.remove('hidden');
+    next.disabled=false;next.textContent=(examIdx<examList.length-1)?'Bài tiếp →':'Xem kết quả 🎉';
+  }else{
+    prev.classList.add('hidden');next.classList.add('hidden');
+  }
+  window.scrollTo(0,0);
+}
+
+function openSample(i){cur=i;openProbObj(problems[i],'sample');}
+
+function parseNum(s){
+  if(s==null)return NaN;
+  s=(''+s).trim().replace(/\s+/g,'');
+  if(!s)return NaN;
+  if(/^-?\d{1,3}(\.\d{3})+$/.test(s))s=s.replace(/\./g,'');
+  if(s.includes('/')){
+    const[a,b]=s.split('/');
+    const x=parseNum(a),y=parseNum(b);
+    return(isNaN(x)||isNaN(y)||y===0)?NaN:x/y;
+  }
+  return parseFloat(s.replace(',','.'));
+}
+
+function checkCurrent(){
+  const p=curProb;
+  let allOk=true;
+  p.parts.forEach((pt,j)=>{
+    const inp=document.getElementById('inp'+j);
+    const v=parseNum(inp.value),want=parseNum(pt.answer);
+    const ok=!isNaN(v)&&Math.abs(v-want)<0.001;
+    inp.classList.toggle('ok',ok);
+    inp.classList.toggle('no',!ok);
+    if(!ok)allOk=false;
+  });
+  return allOk;
+}
+
+document.getElementById('btnCheck').onclick=()=>{
+  const allOk=checkCurrent();
+  const fb=document.getElementById('feedback');
+  bumpStreak(allOk);
+  if(curMode==='exam'){
+    examAnswers[examIdx]={p:curProb,ok:allOk,picked:curProb.parts.map((pt,j)=>document.getElementById('inp'+j).value)};
+  }
+  if(allOk){
+    fb.textContent='🎉 Đúng rồi! Làm tốt lắm. Nhớ xem lại phần Phân tích và Lời giải để hiểu sâu hơn nhé.';
+    fb.className='fb ok';
+    if(curMode==='sample'&&curProb.id){
+      done[curProb.id]=true;
+      try{localStorage.setItem('toan6_done',JSON.stringify(done))}catch(e){}
+    }
+  }else{
+    fb.textContent='❌ Chưa đúng hết. Bật 🔦 Soi từ khóa hoặc xem 🔍 Phân tích đề rồi thử lại nhé!';
+    fb.className='fb no';
+  }
+};
+
+document.getElementById('btnKw').onclick=()=>{
+  kwOn=!kwOn;
+  renderText(curProb,kwOn);
+  document.getElementById('kwLegend').classList.toggle('show',kwOn);
+  if(!kwOn)document.getElementById('kwInfo').classList.remove('show');
+};
+document.getElementById('btnAna').onclick=()=>document.getElementById('anaPanel').classList.toggle('show');
+document.getElementById('btnHint').onclick=()=>document.getElementById('hintPanel').classList.toggle('show');
+document.getElementById('btnSol').onclick=()=>document.getElementById('solPanel').classList.toggle('show');
+document.getElementById('btnList').onclick=renderHome;
+document.getElementById('btnList2').onclick=()=>{
+  if(theoryFromProb){
+    theoryFromProb=false;
+    document.getElementById('theoryArea').classList.add('hidden');
+    document.getElementById('probArea').classList.remove('hidden');
+    document.getElementById('btnList2').textContent='← Về trang chính';
+    window.scrollTo(0,0);
+  }else renderHome();
+};
+document.getElementById('btnList3').onclick=renderHome;
+document.getElementById('btnPrev').onclick=()=>{if(curMode==='sample'&&cur>0)openSample(cur-1)};
+document.getElementById('btnNext').onclick=()=>{
+  if(curMode==='sample'){if(cur<problems.length-1)openSample(cur+1);}
+  else if(curMode==='exam'){
+    if(examAnswers[examIdx]===undefined){
+      examAnswers[examIdx]={p:curProb,ok:checkCurrent(),picked:curProb.parts.map((pt,j)=>document.getElementById('inp'+j).value)};
+      bumpStreak(examAnswers[examIdx].ok);
+    }
+    examIdx++;
+    if(examIdx<examList.length)openProbObj(examList[examIdx],'exam');
+    else showExamResult();
+  }
+};
+document.getElementById('btnGen').onclick=()=>{
+  const ch=parseInt(document.getElementById('selChap').value);
+  const lvl=parseInt(document.getElementById('selLvl').value);
+  openProbObj(window.GEN.make(ch,lvl),'gen');
+};
+document.getElementById('btnVariant').onclick=()=>{
+  if(curProb&&curProb.template&&window.GEN.templates[curProb.template]){
+    const lvl=parseInt(document.getElementById('selLvl').value)||2;
+    openProbObj(window.GEN.makeFrom(curProb.template,lvl),'gen');
+  }
+};
+document.getElementById('btnAgain').onclick=()=>{
+  if(curProb&&curProb.template){
+    const lvl=parseInt(document.getElementById('selLvl').value);
+    openProbObj(window.GEN.makeFrom(curProb.template,lvl),'gen');
+  }
+};
+document.getElementById('btnExam').onclick=()=>{
+  const lvl=parseInt(document.getElementById('selLvl').value);
+  const chaps=[1,2,3,4,5].sort(()=>Math.random()-0.5);
+  examList=chaps.map(c=>window.GEN.make(c,lvl));
+  examAnswers=[];examIdx=0;
+  openProbObj(examList[0],'exam');
+};
+function showExamResult(){
+  document.getElementById('probArea').classList.add('hidden');
+  const r=document.getElementById('examResult');
+  r.classList.remove('hidden');
+  const score=examAnswers.filter(a=>a.ok).length;
+  document.getElementById('examScore').textContent=`Kết quả đề luyện: ${score}/${examList.length} bài đúng`+(score>=4?' 🎉 Xuất sắc!':score>=3?' 👍 Khá, cố thêm nhé!':' 💪 Ôn lại lý thuyết rồi làm đề mới nhé!');
+  document.getElementById('examReview').innerHTML=examAnswers.map((a,i)=>{
+    const p=a.p;
+    return `<div class="r-item"><span style="color:${a.ok?'#2e7d32':'#dc3545'};font-weight:bold">${a.ok?'✅':'❌'} Bài ${i+1}:</span> ${esc(p.text.split('\n')[0])}<br>`+
+    p.parts.map((pt,j)=>`<small>• ${pt.label}: bạn trả lời "${esc(a.picked[j]||'')}" — đáp án đúng: <b>${pt.answer}</b> ${pt.unit||''}</small>`).join('<br>')+
+    `<br><small><i>Lời giải: ${p.solution.join(' → ')}</i></small></div>`;
+  }).join('');
+  window.scrollTo(0,0);
+}
+
+function linkifyFact(text,links){
+  if(!links||!links.length)return text;
+  let out=text; const ph=[];
+  [...links].sort((a,b)=>b.t.length-a.t.length).forEach((L,i)=>{
+    if(out.includes(L.t)){
+      const key='\u0001'+i+'\u0002';
+      out=out.split(L.t).join(key);
+      ph.push({key,L});
+    }
+  });
+  ph.forEach(({key,L})=>{ out=out.split(key).join(`<span class="nmword" data-act="${L.act}" data-label="${L.label}">${L.t}</span>`); });
+  return out;
+}
+function tagNames(){
+  document.querySelectorAll('#tFig [data-f="0"] text').forEach(t=>{
+    t.classList.add('nm'); t.dataset.nm='Đỉnh '+t.textContent.trim();
+  });
+  curTheory.facts.forEach((f,j)=>{
+    const lines=[];
+    document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(e=>{
+      if(e.tagName==='line')lines.push(e);
+      else e.querySelectorAll('line').forEach(l=>lines.push(l));
+    });
+    if(/^Hai đường chéo/.test(f)){
+      const names=['Đường chéo AC — nối 2 đỉnh đối diện A và C','Đường chéo BD — nối 2 đỉnh đối diện B và D'];
+      lines.slice(0,2).forEach((l,i)=>{ l.classList.add('nm'); l.dataset.nm=names[i]; });
+    }else if(f.includes('trục đối xứng')){
+      const lbl=curTheory.id==='tam-giac-deu'?'Trục đối xứng — cũng là đường cao của tam giác đều':'Trục đối xứng';
+      lines.forEach(l=>{ l.classList.add('nm'); l.dataset.nm=lbl; });
+    }
+  });
+}
+function activateAngle(fullName){
+  const meta=(curTheory.angles||[]).find(a=>a.name===fullName);
+  if(!meta)return;
+  const wedge=[...document.querySelectorAll('#tFig polygon.nm')].find(x=>x.dataset.nm.startsWith('Góc '+fullName));
+  const wasOn=wedge&&wedge.classList.contains('nm-on');
+  clearHighlights();
+  if(wasOn){
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
+    return;
+  }
+  if(wedge)wedge.classList.add('nm-on');
+  meta.sides.forEach(sd=>{
+    const ln=[...document.querySelectorAll('#tFig line.nm')].find(x=>x.dataset.nm.startsWith('Cạnh '+sd));
+    if(ln)ln.classList.add('nm-on');
+  });
+  fullName.split('').forEach(ch=>{
+    const t=[...document.querySelectorAll('#tFig [data-f="0"] text')].find(x=>x.textContent.trim()===ch);
+    if(t)t.classList.add('lit');
+    const c=[...document.querySelectorAll('#tFig circle.nm')].find(x=>x.dataset.nm==='Đỉnh '+ch);
+    if(c)c.classList.add('nm-on');
+  });
+  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">Góc '+fullName+'</b> — đọc: '+fullName.split('').join('-')+', đỉnh '+meta.v+' ở giữa. Hai cạnh tạo thành góc này: cạnh '+meta.sides.join(' và cạnh ');
+}
+function activateNm(el,label){
+  const wasOn=el&&el.classList.contains('nm-on');
+  clearHighlights();
+  if(wasOn||!el){
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
+    return;
+  }
+  el.classList.add('nm-on');
+  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+}
+document.getElementById('tFacts').addEventListener('click',e=>{
+  const w=e.target.closest?e.target.closest('.nmword'):null;
+  if(!w)return;
+  e.stopPropagation();
+  const act=w.dataset.act, label=w.dataset.label;
+  if(act==='nm'){
+    const el=[...document.querySelectorAll('#tFig [data-nm]')].find(x=>x.dataset.nm===w.dataset.target);
+    activateNm(el,label);
+  }else if(act==='shape'){
+    clearHighlights();
+    document.querySelectorAll('#tFig circle.nm').forEach(x=>x.classList.add('nm-on'));
+    document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+  }else if(act.startsWith('side:')){
+    const sd=act.slice(5);
+    const el=[...document.querySelectorAll('#tFig line.nm')].find(x=>x.dataset.nm.startsWith('Cạnh '+sd));
+    activateNm(el,label);
+  }else if(act.startsWith('angle:')){
+    activateAngle(act.slice(6));
+  }else if(act.startsWith('fact:')){
+    selectFact(parseInt(act.slice(5)));
+    document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+  }
+  document.getElementById('tFig').scrollIntoView({block:'center',behavior:'smooth'});
+});
+let ovlActive=-1;
+function showOvl(i,row){
+  const groups=document.querySelectorAll('#tFig .ovl');
+  const wasOn=(ovlActive===i);
+  clearHighlights();
+  if(!wasOn&&groups[i]){
+    groups[i].style.display='';
+    row.classList.add('on');
+    ovlActive=i;
+  }
+}
+let curTheory=null;
+let theoryFromProb=false;
+function openTheoryById(id){
+  const i=theory.findIndex(s=>s.id===id);
+  if(i<0)return;
+  openTheory(i);
+  theoryFromProb=true;
+  document.getElementById('btnList2').textContent='← Quay lại bài toán';
+}
+function openTheory(i){
+  curTheory=theory[i];ovlActive=-1;theoryFromProb=false;
+  document.getElementById('btnList2').textContent='← Về trang chính';
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('probArea').classList.add('hidden');
+  document.getElementById('theoryArea').classList.remove('hidden');
+  document.getElementById('tName').textContent='📐 '+curTheory.name;
+  document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
+  document.getElementById('tFig').innerHTML=curTheory.svg;
+  tagNames();
+  document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>{
+    const fl=(curTheory.links||[]).filter(L=>(L.fact||0)===j);
+    return `<div class="fact" id="fact${j}">• ${fl.length?linkifyFact(f,fl):f}</div>`;
+  }).join('');
+  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#444;font-size:16px">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:18px">${f.f}</span> <small style="color:#444;font-size:16px">(${f.note})</small></div>`).join('');
+  document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
+  document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
+  document.getElementById('tCheckUnit').textContent=curTheory.check.unit||'';
+  document.getElementById('tCheckInp').value='';
+  const fb=document.getElementById('tFeedback');fb.textContent='';fb.className='fb';
+  document.querySelectorAll('#tFig .hot').forEach(el=>{
+    el.onclick=()=>selectFact(parseInt(el.dataset.f));
+  });
+  document.querySelectorAll('#tFacts .fact').forEach(f=>{
+    f.onclick=()=>selectFact(parseInt(f.id.replace('fact','')));
+  });
+  window.scrollTo(0,0);
+}
+function clearHighlights(){
+  document.querySelectorAll('#tFig .hot').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('#tFacts .fact').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+  document.querySelectorAll('#tFig text.lit').forEach(x=>x.classList.remove('lit'));
+  document.querySelectorAll('#tFig .ovl').forEach(g=>g.style.display='none');
+  document.querySelectorAll('.frow').forEach(r=>r.classList.remove('on'));
+  ovlActive=-1;
+}
+function selectFact(j){
+  const f=document.getElementById('fact'+j);
+  const wasOn=f&&f.classList.contains('on');
+  clearHighlights();
+  if(wasOn)return;
+  document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(x=>x.classList.add('on'));
+  if(f)f.classList.add('on');
+}
+document.getElementById('tFig').addEventListener('click',e=>{
+  const nmEl=e.target.closest?e.target.closest('[data-nm]'):null;
+  if(!nmEl)return;
+  const nm=nmEl.dataset.nm;
+  if(nm.startsWith('Góc ')){ activateAngle(nm.split(' ')[1]); return; }
+  activateNm(nmEl,nm);
+});
+document.getElementById('btnTCheck').onclick=()=>{
+  const v=parseNum(document.getElementById('tCheckInp').value);
+  const want=parseNum(curTheory.check.answer);
+  const ok=!isNaN(v)&&Math.abs(v-want)<0.001;
+  const fb=document.getElementById('tFeedback');
+  bumpStreak(ok);showStreak();
+  fb.textContent=ok?'🎉 Đúng rồi! Bạn đã nắm được lý thuyết hình này.':'❌ Chưa đúng. Bấm vào các yếu tố trên hình để ôn lại nhé!';
+  fb.className='fb '+(ok?'ok':'no');
+};
+
+/* ===== Bam vao goc tren hinh bai toan: sang goc + 2 canh ke + chu dinh, doc ten goc ===== */
+document.addEventListener('click',e=>{
+  const g=e.target.closest('.ang'); if(!g)return;
+  const svg=g.closest('svg'); if(!svg)return;
+  const wasOn=g.classList.contains('on');
+  svg.querySelectorAll('.ang.on').forEach(x=>x.classList.remove('on'));
+  svg.querySelectorAll('text.avtx.on').forEach(x=>x.classList.remove('on'));
+  const wrap=svg.parentElement;
+  let rd=wrap.querySelector('.figRead');
+  if(!rd){rd=document.createElement('div');rd.className='figRead';svg.after(rd);}
+  if(wasOn){rd.textContent='👆 Bấm vào một góc trên hình để xem tên góc.';return;}
+  g.classList.add('on');
+  const t=svg.querySelector('text.avtx[data-v="'+g.getAttribute('data-v')+'"]');
+  if(t)t.classList.add('on');
+  rd.textContent=g.getAttribute('data-info');
+});
+
+// ===== Gia su AI (Puter.js - mien phi, khong can API key) =====
+let aiHistory=[],aiBusy=false;
+function aiSystem(){
+  const p=curProb;
+  if(!p)return 'Bạn là gia sư Toán lớp 6, trả lời bằng tiếng Việt, ngắn gọn, dễ hiểu.';
+  let cardCtx='';
+  if(p.shape&&typeof theory!=='undefined'&&theory.length){
+    const sh=theory.find(s=>s.id===p.shape);
+    if(sh)cardCtx=`\nNội dung thẻ lý thuyết "${sh.name}" (bắt buộc dùng đúng nội dung, ký hiệu và cách gọi tên này khi giải thích cho học sinh, thống nhất với phần lý thuyết trong ứng dụng): ${sh.facts.join(' | ')} Công thức: ${sh.formulas.map(f=>f.label+': '+f.f+' ('+f.note+')').join('; ')}`;
+  }
+  return `Bạn là gia sư Toán lớp 6 (Việt Nam), đang hướng dẫn một học sinh làm bài tự luận học kì 1.
+Quy tắc bắt buộc:
+1. Trả lời bằng tiếng Việt, ngắn gọn, thân thiện, phù hợp học sinh lớp 6. Mỗi lần trả lời chỉ hướng dẫn 1-2 bước nhỏ rồi hỏi lại để học sinh tự tính.
+2. TUYỆT ĐỐI KHÔNG dùng ký hiệu LaTeX (không viết \\( \\), \\[ \\]), KHÔNG dùng markdown (không **, không #, không bảng). Viết công thức bằng chữ thường: dùng dấu ×, :, −, lũy thừa viết ² ³, phân số viết dạng a/b. Khi liệt kê bội số hay dãy số, viết cụ thể các số ra (ví dụ: 60; 120; 180; ...) chứ không dùng ký hiệu trừu tượng kiểu {m; 2m; 3m}.
+3. Hướng dẫn theo kiểu GỢI MỞ: đặt câu hỏi dẫn dắt, gợi ý từng bước, bám đúng các số trong đề. KHÔNG đưa đáp án số cuối cùng ngay khi học sinh chưa thử làm. Chỉ trình bày lời giải đầy đủ khi học sinh xin lời giải hoặc đã thử nhiều lần.
+4. Khi được hỏi về từ khóa, hãy dùng đúng danh sách từ khóa được cung cấp dưới đây và giải thích vì sao chúng quan trọng.
+ĐỀ BÀI: ${p.text}
+${p.svg?'Bài này CÓ hình vẽ kèm số đo (học sinh đang nhìn thấy hình ở đầu bài). Khi gợi ý, hãy nhắc học sinh nhìn vào hình, đọc số đo trên hình và chỉ rõ số đo đó ứng với cạnh/đường nào trong công thức.':''}
+Dữ kiện đề cho: ${p.analysis.given.join('; ')}
+Đề hỏi: ${p.analysis.ask}
+Hướng làm dự kiến: ${p.analysis.plan}
+Từ khóa quan trọng trong đề: ${(p.kw&&p.kw.length)?p.kw.map(k=>'"'+k.t+'" ('+k.why+')').join('; '):'chưa có sẵn, hãy tự chỉ ra các số liệu và từ ngữ mấu chốt trong đề'}
+Lời giải mẫu từng bước (chỉ để bạn dẫn dắt học sinh đi đúng hướng này, KHÔNG đọc nguyên văn từng dòng cho học sinh): ${p.solution.join(' -> ')}
+Lý thuyết liên quan: ${p.theory||''}${cardCtx}
+Đáp án đúng (chỉ để bạn kiểm tra ngầm khi học sinh trả lời, tuyệt đối không nói ra trừ khi học sinh xin lời giải): ${p.parts.map(pt=>pt.label+' = '+pt.answer+' '+(pt.unit||'')).join('; ')}`;
+}
+function aiAppend(cls,text){
+  const log=document.getElementById('chatLog');
+  const d=document.createElement('div');
+  d.className='msg '+cls;d.textContent=text;
+  log.appendChild(d);log.scrollTop=log.scrollHeight;
+  return d;
+}
+async function aiSend(text){
+  text=(text||'').trim();
+  if(!text||aiBusy)return;
+  if(typeof puter==='undefined'||!puter.ai){
+    aiAppend('msg-a','⚠️ Chưa tải được AI (kiểm tra kết nối mạng rồi thử lại).');
+    return;
+  }
+  aiBusy=true;
+  aiAppend('msg-u',text);
+  aiHistory.push({role:'user',content:text});
+  const wait=aiAppend('msg-a','🤔 AI đang suy nghĩ...');
+  try{
+    const resp=await puter.ai.chat([{role:'system',content:aiSystem()},...aiHistory]);
+    let out='';
+    if(resp&&resp.message&&resp.message.content)out=resp.message.content;
+    else if(resp&&typeof resp.text==='string')out=resp.text;
+    else if(typeof resp==='string')out=resp;
+    else out=''+resp;
+    wait.textContent=out;
+    aiHistory.push({role:'assistant',content:out});
+  }catch(e){
+    wait.textContent='⚠️ AI chưa trả lời được (có thể cần đăng nhập Puter miễn phí, hoặc mạng đang chậm). Em thử lại sau một chút nhé.';
+  }
+  aiBusy=false;
+  const log=document.getElementById('chatLog');log.scrollTop=log.scrollHeight;
+}
+document.getElementById('btnAI').onclick=()=>document.getElementById('aiPanel').classList.toggle('show');
+document.getElementById('btnAiSend').onclick=()=>{
+  const inp=document.getElementById('aiInput');
+  aiSend(inp.value);inp.value='';
+};
+document.getElementById('aiInput').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('btnAiSend').click();});
+document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q));
+</script>
+</body>
+</html>
