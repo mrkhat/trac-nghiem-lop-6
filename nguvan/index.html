@@ -134,6 +134,72 @@ img,svg{max-width:100%}
   .mm-branch{flex-direction:column;gap:3px}
   .emojifig .big{font-size:48px}
 }
+
+/* ===== Khối "Bài đọc — đọc trước khi học" + Nghe đọc ===== */
+.readbox{border:2px solid var(--c,#6a1b9a);border-radius:14px;background:#fdfaff;margin:12px 0 18px;overflow:hidden}
+.rb-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;padding:10px 12px;background:#f3e8fd}
+.rb-title{font-weight:bold;font-size:17px;color:#4a148c}
+.rb-btns{display:flex;gap:8px;flex-wrap:wrap}
+.rb-btns button{min-height:44px;padding:8px 14px;border-radius:10px;border:1.5px solid var(--c,#6a1b9a);background:#fff;color:#4a148c;font-size:15px;cursor:pointer;font-family:inherit}
+.rb-btns .rb-listen{background:var(--c,#6a1b9a);color:#fff;font-weight:bold}
+.rb-btns .rb-listen.reading{background:#b71c1c;border-color:#b71c1c}
+.rb-btns .rb-stop{border-color:#b71c1c;color:#b71c1c;font-weight:bold}
+.rb-note{padding:8px 12px;font-size:14px;color:#7a5b00;background:#fff8e1}
+.read-body{display:none;padding:4px 16px 12px}
+.readbox.open .read-body{display:block}
+.read-body p{font-size:18px;line-height:1.8;margin:10px 0}
+.read-body p.tho{white-space:pre-line}
+.read-body p.gap{text-align:center;color:#888;font-style:italic}
+.read-body .read-note{font-size:14px;line-height:1.6;color:#555;border-top:1px dashed #c9b8dd;padding-top:8px}
+</style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+<style>
+/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
+.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
+.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
+.fc-face svg{max-width:100%;height:auto}
+.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
+.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
+.fc-stat{text-align:center;color:#455a64;font-size:14px}
+.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
+.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
+@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
+@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
+@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
+@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
+@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
+.fc-out-r{animation:fcOutR .28s forwards}
+.fc-out-l{animation:fcOutL .28s forwards}
+.fc-in-r{animation:fcInR .25s}
+.fc-in-l{animation:fcInL .25s}
+.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
+.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
+.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
+.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
+[data-fc]{display:block!important}
+.fc-tools{display:none!important}
 </style>
 </head>
 <body data-mode="single">
@@ -167,11 +233,87 @@ img,svg{max-width:100%}
     </figure>
     <figure>
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg?width=900" alt="Con cáo" loading="lazy">
-      <figcaption>🦊 <b>Con cáo</b> — nhân vật đã dạy Hoàng tử bé bài học về tình bạn: muốn có bạn thì phải "thuần dưỡng" nhau, tức là tạo nên mối dây gắn bó. (Wikimedia Commons)</figcaption>
+      <figcaption>🦊 <b>Con cáo</b> — nhân vật đã dạy Hoàng tử bé bài học về tình bạn: muốn có bạn thì phải "cảm hóa" nhau, tức là tạo nên mối dây gắn bó. (Wikimedia Commons)</figcaption>
     </figure>
   </div>
 
   <div class="txttl">📖 Văn bản 1: Bài học đường đời đầu tiên <span class="au">— Tô Hoài (trích truyện "Dế Mèn phiêu lưu ký")</span></div>
+  <div class="readbox open" id="rb1">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Thu gọn ▴</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Tôi sống độc lập từ thuở bé. Ấy là tục lệ lâu đời trong họ nhà dế chúng tôi. Vả lại, mẹ thường bảo chúng tôi rằng: “Phải như thế để các con biết kiếm ăn một mình cho quen đi. Con cái mà cứ nhong nhong ăn bám vào bố mẹ thì chỉ sinh ra tính ỷ lại, xấu lắm, rồi ra đời không làm nên trò trống gì đâu”. Bởi thế, lứa sinh nào cũng vậy, đẻ xong là bố mẹ thu xếp cho con cái ra ở riêng.</p>
+      <p>Lứa sinh ấy, chúng tôi có cả thảy ba anh em. Ba anh em chúng tôi chỉ ở với mẹ ba hôm. Tới hôm thứ ba, mẹ đi trước, ba đứa tôi tấp tểnh, khấp khởi, nửa lo nửa vui theo sau. Mẹ dẫn chúng tôi đi và mẹ đem đặt mỗi đứa vào một cái hang đất ở bờ ruộng phía bên kia, chỗ trông ra đầm nước mà không biết mẹ đã chịu khó đào bới, be đắp tinh tươm thành hang, thành nhà cho chúng tôi từ bao giờ. Tôi là em út, bé nhất nên được mẹ tôi sau khi dắt vào hang, lại bỏ theo một ít ngọn cỏ non trước cửa, để tôi nếu có bỡ ngỡ, thì đã có ít thức ăn sẵn trong vài ngày.</p>
+      <p>Rồi mẹ tôi trở về.</p>
+      <p>Tôi cũng không buồn. Trái lại, còn thấy làm khoan khoái vì được ở một mình nơi thoáng đãng, mát mẻ. Tôi vừa thầm cảm ơn mẹ, vừa sạo sục thăm tất cả các hang mẹ đưa đến ở. Khi đã xem xét cẩn thận rồi, tôi ra đứng ở ngoài cửa và ngửng mặt lên trời. Qua những ngọn cỏ ấu nhọn và sắc, tôi thấy màu trời trong xanh. Tôi dọn giọng, vỗ đôi cánh nhỏ tới nách, rồi cao hứng gáy lên mấy tiếng rõ to.</p>
+      <p>Từ đây, tôi bắt đầu vào cuộc đời của tôi. Cho dù tôi sẽ sung sướng hay khổ sở, cái đó tùy ở tính tình tôi khôn ngoan hay đần độn. Song tôi chưa cần biết đến thế, tính đến thế. Mà hãy lấy sự được ung dung độc lập một mình là điều thích lắm rồi.</p>
+      <p>Ngày nào cũng vậy, suốt buổi, tôi chui vào trong cùng hang, hì hục đào đất để khoét một cái ổ lớn, làm thành cái giường ngủ sang trọng. Rồi cũng biết lo xa như các cụ già trong họ dế, tôi đào hang sâu sang hai ngả làm những con đường tắt, những cửa sau, những ngách thượng, phòng khi gặp nguy hiểm, có thể thoát thân ra lối khác được.</p>
+      <p>Chập tối, tôi tạm nghỉ tay và ra đứng ngoài cửa, họp cùng anh chị em hàng xóm quanh bờ ruộng, vừa gảy đàn vừa hát một bài hát hoàng hôn chào tạm biệt ông mặt trời. Khi đêm đã xuống hẳn, cả xóm chúng tôi, các bô lão dế lụ khụ già cốc đế cũng bỗng nhiên vui tính, ai nấy ra khỏi hang, đến tụ hội thật đông tận giữa bãi trong đêm tối mát lạnh, cùng uống sương đọng, ăn cỏ ướt và những gã tài hoa thì gảy đàn thổi sáo, cùng nhau ca hát, nhảy múa linh đình đến tận sáng bạch, lúc ông mặt trời quen thuộc lại nghiêm trang ló lên đằng đông mới tan cuộc ai về nhà nấy.</p>
+      <p>Ngày nào, đêm nào, sớm và chiều nào cũng ngần ấy thứ việc, thứ chơi. Kể đời mà được như thế cũng khá an nhàn, nhưng mới đầu còn thấy hay hay, về sau cũng nhàm dần.</p>
+      <p>Bởi tôi ăn uống điều độ và làm việc có chừng mực nên tôi chóng lớn lắm. Chẳng bao lâu tôi đã trở thành một chàng dế thanh niên cường tráng. Đôi càng tôi mẫm bóng. Những cái vuốt ở chân, ở khoeo cứ cứng dần và nhọn hoắt. Thỉnh thoảng, muốn thử sự lợi hại của những chiếc vuốt, tôi co cẳng lên, đạp phanh phách vào các ngọn cỏ. Những ngọn cỏ gãy rạp, y như có nhát dao vừa lia qua. Đôi cánh tôi, trước kia ngắn hủn hoẳn bây giờ thành cái áo dài kín xuống tận chấm đuôi. Mỗi khi tôi vũ lên, đã nghe tiếng phành phạch giòn giã. Lúc tôi đi bách bộ thì cả người tôi rung rinh một màu nâu bóng mỡ soi gương được và rất ưa nhìn. Đầu tôi to ra và nổi từng tảng, rất bướng. Hai cái răng đen nhánh lúc nào cũng nhai ngoàm ngoạp như hai lưỡi liềm máy làm việc. Sợi râu tôi dài và uốn cong một vẻ rất đỗi hùng dũng. Tôi lấy làm hãnh diện với bà con vì cặp râu ấy lắm. Cứ chốc chốc tôi lại trịnh trọng và khoan thai đưa cả hai chân lên vuốt râu.</p>
+      <p>Tôi đi đứng oai vệ. Mỗi bước đi, tôi làm điệu dún dẩy cái khoeo chân, rung lên rung xuống hai chiếc râu. Cho ra kiểu cách con nhà võ. Tôi tợn lắm. Dám cà khịa với tất cả mọi bà con trong xóm. Khi tôi to tiếng thì ai cũng nhịn, không ai đáp lại. Bởi vì quanh quẩn ai cũng quen mình cả. Không nói, có lẽ họ nể hơn là sợ. Nhưng tôi lại tưởng thế là không ai dám ho he. Ấy vậy, tôi cho tôi giỏi.</p>
+      <p>Những gã xốc nổi thường làm cử chỉ ngông cuồng là tài cao. Tôi quát mấy chị Cào Cào ngụ ngoài đầu bờ khiến mỗi lần thấy tôi đi qua, các chị phải núp khuôn mặt trái xoan dưới nhánh cỏ, chỉ dám đưa mắt lên nhìn trộm. Thỉnh thoảng, tôi ngứa chân đá một cái, ghẹo anh Gọng Vó lấm láp vừa ngơ ngác dưới đầm lên. Tôi càng tưởng tôi là tay ghê gớm, có thể sắp đứng đầu thiên hạ rồi.</p>
+      <p>Chao ôi, có biết đâu rằng: hung hăng hống hách láo chỉ tổ đem thân mà trả nợ những cử chỉ ngu dại của mình thôi. Tôi đã phải trải cảnh như thế. Thoát nạn rồi mà còn ân hận quá, ân hận mãi. Thế mới biết, nếu đã trót không suy tính, lỡ xảy ra những việc dại dột, dù về sau có hối cũng không thể làm lại được.</p>
+      <p>Câu chuyện ân hận đầu tiên mà tôi ghi nhớ suốt đời.</p>
+      <p>Bên hàng xóm tôi có cái hang của Dế Choắt. Dế Choắt là tên tôi đặt cho nó một cách chế diễu và trịch thượng thế. Choắt nọ cũng chắc trạc tuổi tôi. Nhưng vì Choắt bẩm sinh yếu đuối nên tôi coi thường và gã cũng sợ tôi lắm.</p>
+      <p>Cái chàng Dế Choắt, người gày gò và dài lêu nghêu như một gã nghiện thuốc phiện. Đã thanh niên rồi mà cánh chỉ ngắn ngủn đến giữa lưng, hở cả hai mạng sườn như người cởi trần mặc áo gi-lê. Đôi càng bè bè, nặng nề trông đến xấu. Râu ria gì mà cụt có một mẩu, mà mặt mũi lúc nào cũng ngẩn ngẩn ngơ ngơ. Đã vậy tính nết lại ăn sổi, ở thì (thật chỉ vì ốm đau luôn luôn không làm được) một cái hang ở cũng chỉ bới nông sát mặt đất, không biết đào sâu rồi khoét ra nhiều ngách như hang tôi.</p>
+      <p>Một hôm tôi sang chơi, thấy trong nhà luộm thuộm, bề bộn, tôi bảo:</p>
+      <p>– Sao chú mày sinh sống cẩu thả quá như thế! Nhà cửa đâu mà tuềnh toàng. Ngộ có kẻ nào đến phá thì thật chú chết ngay đuôi! Này thử xem: khi chú chui vào tổ lưng chú phải lồm cồm đụng sát lên tận mặt đất, làm cho ai trên vòm cỏ nhìn sang cũng biết chú đương đi đứng chỗ nào trong tổ. Phỏng thử có thằng chim Cắt nó nhòm thấy, nó tưởng mồi, nó mổ một phát, nhất định trúng giữa lưng chú, thì chú có mà đi đời! Ôi thôi, chú mày ơi! Chú mày có lớn mà chẳng có khôn.</p>
+      <p>Ngẫm ra thì tôi chỉ nói lấy sướng miệng thôi. Còn Dế Choắt than thở thế nào, tôi cũng không để tai. Hồi ấy tôi có tính tự đắc, cứ miệng mình nói tai mình nghe chứ không biết nghe ai, thậm chí cũng chẳng để ý có ai nghe mình không.</p>
+      <p>Dế Choắt trả lời tôi bằng một giọng rất buồn rầu:</p>
+      <p>– Thưa anh, em cũng muốn khôn, nhưng không khôn được, đụng đến việc là em thở rồi, không còn hơi sức đâu mà đào bới nữa. Lắm khi em cũng nghĩ nỗi nhà cửa thế này là nguy hiểm, nhưng em nghèo sức quá, em đã lo ròng rã hàng mấy tháng nay cũng không biết làm thế nào. Hay bây giờ em định thế này… Song anh có cho phép nói em mới dám nói…</p>
+      <p>Rồi Dế Choắt loanh quanh, băn khoăn. Tôi phải bảo:</p>
+      <p>– Được, chú mình cứ nói thẳng thừng ra nào.</p>
+      <p>Dế Choắt nhìn tôi mà rằng:</p>
+      <p>– Anh đã nghĩ thương em như thế thì hay là anh đào giúp cho em một cái ngách sang bên nhà anh phòng khi tắt lửa tối đèn có đứa nào đến bắt nạt thì em chạy sang…</p>
+      <p>Chưa nghe hết câu tôi đã hếch răng, xì một hơi rõ dài rồi, với điệu bộ khinh khỉnh, tôi mắng:</p>
+      <p>– Hức! Thông ngách sang nhà ta? Dễ nghe nhỉ! Chú mày hôi như cú mèo thế này, ta làm sao chịu được. Thôi im cái điệu hát mưa dầm sụt sùi ấy đi. Đào tổ nông thì cho chết!</p>
+      <p>Tôi về không một chút bận tâm.</p>
+      <p>Một buổi chiều, tôi ra đứng cửa hang như mọi khi, xem hoàng hôn xuống.</p>
+      <p>Mấy hôm nọ, trời mưa lớn, trên những hồ ao quanh bãi trước mặt, nước dâng trắng mênh mông. Nước đầy và nước mới thì cua cá cũng tấp nập xuôi ngược, thế là bao nhiêu cò, sếu, vạc, cốc, le le, sâm cầm, vịt trời, bồ nông, mòng, két ở các bãi sông xơ xác tận đâu cũng bay cả về vùng nước mới để kiếm mồi. Suốt ngày họ cãi cọ om bốn góc đầm, có khi chỉ vì tranh một mồi tép, có những anh cò vêu vao ngày ngày bì bõm lội bùn tím cả chân mà vẫn hếch mỏ, chẳng được miếng nào. Khổ quá, những kẻ yếu đuối, vật lộn cật lực thế mà cũng không sống nổi. Tôi đứng trong bóng nắng chiều tỏa xuống ánh nước cửa hang mà suy nghĩ việc đời như thế.</p>
+      <p>Bỗng thấy chị Cốc từ mặt nước bay lên, đến đậu gần hang tôi, cách có mấy bước. Chừng rớ được món nào, vừa chén xong, chị tìm đến đứng chỗ mát rỉa lông, rỉa cánh và chùi mép.</p>
+      <p>Tính tôi hay nghịch ranh. Chẳng bận đến tôi, tôi cũng nghĩ mưu trêu chị Cốc. Tôi cất tiếng gọi Dế Choắt. Nghe tiếng thưa, tôi hỏi:</p>
+      <p>– Chú mình có muốn cùng tớ đùa vui không?</p>
+      <p>– Đùa trò gì? Em đương lên cơn hen đây. Hừ hừ…</p>
+      <p>– Đùa chơi một tí.</p>
+      <p>– Hừ hừ… cái gì thế?</p>
+      <p>– Con mụ Cốc kia kìa.</p>
+      <p>Dế Choắt ra cửa, hé mắt nhìn chị Cốc. Rồi hỏi tôi:</p>
+      <p>– Chị Cốc béo xù đứng trước cửa nhà ta ấy hả?</p>
+      <p>– Ừ.</p>
+      <p>– Thôi thôi… hừ hừ… Em xin vái cả sáu tay. Anh đừng trêu vào… Anh phải sợ…</p>
+      <p>Tôi quắc mắt:</p>
+      <p>– Sợ gì? Mày bảo tao sợ cái gì? Mày bảo tao còn biết sợ ai hơn tao nữa?</p>
+      <p>– Thưa anh, thế thì… hừ hừ… em xin sợ. Mời anh cứ đùa một mình thôi.</p>
+      <p>Tôi lại mắng Dế Choắt và bảo:</p>
+      <p>– Giương mắt ra xem tao trêu con mụ Cốc đây này.</p>
+      <p>Tôi rình đến lúc chị Cốc rỉa cánh quay đầu lại phía cửa tôi, tôi cất giọng véo von:</p>
+      <p class="tho">Cái Cò, cái Vạc, cái Nông
+Ba cái cùng béo, vặt lông cái nào?
+Vặt lông cái Cốc cho tao
+Tao nấu, tao nướng, tao xào, tao ăn.</p>
+      <p>Chị Cốc nghe tiếng hát từ trong đất văng vẳng lên, không hiểu như thế nào, giật nẩy hai đầu cánh, muốn bay.</p>
+      <p>Đến khi định thần lại, chị mới trợn tròn mắt, giương cánh lên như sắp sửa đánh nhau. Chị lò dò về phía cửa hang tôi hỏi:</p>
+      <p>– Đứa nào cạnh khoé gì tao thế? Đứa nào cạnh khoé gì tao thế?</p>
+      <p>Tôi chui tọt ngay vào hang, lên giường nằm khểnh, bắt chân chữ ngũ. Bụng nghĩ thú vị: “Mày tức thì mày cứ tức, mày ghè vỡ đầu mày ra cho nhỏ đi, nhỏ đến đâu mày cũng không chui nổi vào tổ tao đâu!”</p>
+      <p>Một tai hoạ đến mà đứa ích kỷ thì không thể biết trước được. Đó là, không trông thấy tôi, nhưng chị Cốc đã trông thấy Dế Choắt đang loay hoay trong cửa hang, chị Cốc liền quát lớn:</p>
+      <p>– Mày nói gì?</p>
+      <p>– Lạy chị, em nói gì đâu?</p>
+      <p>Rồi Dế Choắt lủi vào.</p>
+      <p>– Chối hả? Chối này! Chối này!</p>
+      <p>Mỗi câu “chối này” chị Cốc lại giáng một mỏ xuống. Mỏ Cốc như cái dùi sắt, chọc xuyên cả đất. Rúc trong hang mà bị trúng hai mỏ, Choắt quẹo xương sống lăn ra kêu váng. Núp tận đáy đất mà tôi cũng khiếp, nằm im thin thít. Nhưng đã hả cơn tức, chị Cốc đứng rỉa lông cánh một lát nữa rồi lại bay là xuống đầm nước, không chút để ý đến cảnh khổ đau vừa gây ra.</p>
+      <p>Biết chị Cốc đi rồi, tôi mới mon men bò lên. Trông thấy tôi, Dế Choắt khóc thảm thiết.</p>
+      <p>Tôi hỏi một câu ngớ ngẩn:</p>
+      <p>– Sao? Sao?</p>
+      <p>Choắt không dậy được nữa, nằm thoi thóp. Thấy thế tôi hốt hoảng quỳ xuống, nâng đầu Choắt lên mà than rằng:</p>
+      <p>– Nào tôi đâu biết cơ sự lại ra nông nỗi này! Tôi hối lắm. Tôi hối hận lắm! Anh mà chết là chỉ tại cái tội ngông cuồng dại dột của tôi. Tôi biết làm thế nào bây giờ?</p>
+      <p>Tôi không ngờ Dế Choắt nói với tôi một câu thế này:</p>
+      <p>– Thôi, tôi ốm yếu quá rồi, chết cũng được. Nhưng trước khi nhắm mắt, tôi khuyên anh: ở đời mà có thói hung hăng bậy bạ, có óc mà không biết nghĩ, sớm muộn rồi cũng mang vạ vào mình đấy.</p>
+      <p>Thế rồi Dế Choắt tắt thở. Tôi thương lắm. Vừa thương vừa ăn năn tội mình. Giá tôi không trêu chị Cốc thì đâu đến nỗi Choắt chết. Cả tôi nữa, nếu không nhanh chân chạy vào hang thì tôi cũng chết toi rồi.</p>
+      <p>Tôi đem xác Dế Choắt đến chôn vào một vùng cỏ bùm tum. Tôi đắp thành nấm mộ to. Tôi đứng lặng giờ lâu, nghĩ về bài học đường đời đầu tiên.</p>
+      <p class="read-note">Nguồn văn bản: trích chương I truyện <i>Dế Mèn phiêu lưu ký</i> (Tô Hoài) — nguyên văn đoạn trích như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu toàn văn truyện tại thohay.vn và các đề đọc hiểu trích dẫn SGK.</p>
+    </div>
+  </div>
   <ul>
     <li><b>Phần 1 — Dế Mèn tự kể về mình:</b> Dế Mèn là chàng dế trẻ <span class="hl2">cường tráng, đẹp mã</span>: càng mẫm bóng, cánh dài, râu dài cong vút. Nhưng càng tự hào, Mèn càng <span class="hl">kiêu căng, xốc nổi</span>, coi thường mọi người xung quanh, nhất là Dế Choắt gầy gò, yếu ớt ở hang bên.</li>
     <li><b>Phần 2 — Cái giá của tính kiêu căng:</b> Để ra oai, Dế Mèn bày trò <b>trêu chị Cốc</b> rồi chui tọt vào hang sâu trốn. Chị Cốc tưởng Dế Choắt trêu mình nên mổ cho Choắt những nhát chí mạng. Dế Choắt chết. Trước khi chết, Choắt còn <b>tha thứ</b> và dặn Mèn một câu thấm thía. Dế Mèn ân hận, chôn cất bạn và rút ra <b>bài học đường đời đầu tiên</b>: không được hung hăng, kiêu ngạo mà phải biết nghĩ trước khi làm.</li>
@@ -191,14 +333,82 @@ img,svg{max-width:100%}
   </figure>
 
   <div class="txttl">📖 Văn bản 2: Nếu cậu muốn có một người bạn… <span class="au">— Ăng-toan đơ Xanh-tơ Ê-xu-pe-ri (trích "Hoàng tử bé")</span></div>
+  <div class="readbox" id="rb2">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Thế rồi một con cáo xuất hiện:</p>
+      <p>– Xin chào – con cáo nói.</p>
+      <p>– Xin chào – hoàng tử bé lịch sự trả lời rồi quay người lại nhưng không nhìn thấy gì.</p>
+      <p>– Mình ở đây – giọng nói vang lên – dưới cây táo...</p>
+      <p>– Bạn là ai? Hoàng tử bé hỏi. – Bạn dễ thương quá...</p>
+      <p>– Mình là cáo – con cáo trả lời.</p>
+      <p>– Lại đây chơi với mình đi – hoàng tử bé đề nghị nó. – Mình buồn quá...</p>
+      <p>– Mình không thể chơi với bạn được – con cáo nói. – Mình chưa được cảm hóa.</p>
+      <p>– À! Xin lỗi! – Hoàng tử bé thốt lên.</p>
+      <p>Nhưng sực nhớ ra, cậu hỏi lại:</p>
+      <p>– “Cảm hóa” nghĩa là gì?</p>
+      <p>– Bạn không phải người ở đây – con cáo nói – bạn đi tìm gì vậy?</p>
+      <p>– Mình đi tìm con người. – Hoàng tử bé nói. – “Cảm hóa” nghĩa là gì?</p>
+      <p>– Con người – con cáo nói – họ có súng và họ đi săn. Thật là phiền toái! Họ còn nuôi gà nữa. Đó là chuyện được nhất ở họ. Bạn có tìm gà không?</p>
+      <p>– Không, mình đi tìm bạn bè. “Cảm hóa” nghĩa là gì?</p>
+      <p>– Đó là thứ đã bị lãng quên lâu lắm rồi. Nó có nghĩa là “làm cho gần gũi hơn...”.</p>
+      <p>– Làm cho gần gũi hơn?</p>
+      <p>– Chứ sao – con cáo lên giọng. – Bạn đối với mình mới chỉ là một cậu bé giống như cả trăm nghìn cậu bé. Và mình không cần đến bạn. Còn bạn cũng chẳng cần gì đến mình. Mình đối với bạn chỉ là một con cáo giống như cả trăm nghìn con cáo. Nhưng, nếu bạn cảm hóa mình, tụi mình sẽ cần đến nhau. Lúc đó bạn đối với mình sẽ là duy nhất trên đời. Mình đối với bạn sẽ là duy nhất trên đời...</p>
+      <p>– Mình bắt đầu hiểu rồi. Có một bông hoa... Mình nghĩ là nó đã cảm hóa mình...</p>
+      <p>– Có thể lắm! Trên Trái Đất người ta thấy đủ thứ chuyện...</p>
+      <p>– Ồ! Không phải trên Trái Đất – hoàng tử bé nói.</p>
+      <p>Con cáo tỏ ra rất tò mò:</p>
+      <p>– Trên một hành tinh khác?</p>
+      <p>– Đúng vậy.</p>
+      <p>– Có thợ săn trên hành tinh đó không?</p>
+      <p>– Không.</p>
+      <p>– Chuyện này, đúng là thú vị! Còn gà?</p>
+      <p>– Không.</p>
+      <p>– Chẳng có gì là hoàn hảo – con cáo thở dài.</p>
+      <p>Nhưng rồi nó quay lại với ý nghĩ lúc nãy:</p>
+      <p>– Cuộc sống của mình thật đơn điệu. Mình săn gà, con người săn mình. Mọi con gà đều giống nhau, mọi con người đều giống nhau. Cho nên mình hơi chán. Bởi vậy, nếu bạn cảm hóa mình, xem như đời mình đã được chiếu sáng. Mình sẽ biết thêm một tiếng chân khác hẳn mọi bước chân khác. Những bước chân khác chỉ khiến mình trốn vào lòng đất. Còn bước chân của bạn sẽ gọi mình ra khỏi hang, như là tiếng nhạc. Và nhìn xem! Bạn thấy không, cánh đồng lúa mì đằng kia? Mình không ăn bánh mì. Lúa mì chả có ích gì cho mình. Những đồng lúa mì chẳng gợi nhớ gì cho mình cả. Mà như vậy thì buồn quá! Nhưng bạn có mái tóc vàng óng. Nếu bạn cảm hóa mình thì thật là tuyệt vời! Lúa mì vàng óng ả sẽ làm mình nhớ đến bạn. Và mình sẽ thấy thích tiếng gió trên đồng lúa mì...</p>
+      <p>Con cáo ngừng lời và nhìn hoàng tử bé chăm chú. Nó nói:</p>
+      <p>– Bạn làm ơn... cảm hóa mình đi!</p>
+      <p>– Mình muốn lắm – hoàng tử bé trả lời – nhưng mình không có thời gian. Mình còn phải đi kiếm bạn bè và tìm hiểu nhiều thứ.</p>
+      <p>– Người ta chỉ hiểu những gì họ đã cảm hóa.</p>
+      <p class="gap">(… — phần còn lại của đoạn này em đọc tiếp trong SGK giấy.)</p>
+      <p>– Nếu muốn có một người bạn, hãy cảm hóa mình đi!</p>
+      <p>– Cần phải làm sao? – Hoàng tử bé hỏi.</p>
+      <p>– Cần phải rất kiên nhẫn – con cáo trả lời. – Trước tiên bạn ngồi xa mình một chút, như thế, trên cỏ. Mình sẽ liếc nhìn bạn còn bạn thì không nói gì cả. Lời nói là nguồn gốc của mọi sự hiểu lầm. Nhưng mỗi ngày, bạn có thể ngồi xích lại gần hơn...</p>
+      <p class="gap">(… — phần cáo dặn về “nghi thức” em đọc tiếp trong SGK giấy.)</p>
+      <p>Cứ thế, hoàng tử bé đã cảm hóa con cáo. Khi đến gần lúc phải ra đi, con cáo nói:</p>
+      <p>– A!... Mình sẽ khóc mất.</p>
+      <p>– Lỗi do bạn đó – hoàng tử bé nói – mình không muốn làm bạn đau lòng chút nào, nhưng bạn lại muốn mình cảm hóa bạn...</p>
+      <p>– Tất nhiên rồi – con cáo nói.</p>
+      <p>– Nhưng bạn sẽ khóc – hoàng tử bé nói.</p>
+      <p>– Tất nhiên rồi – con cáo nói.</p>
+      <p>– Vậy thì bạn chẳng được gì cả.</p>
+      <p>– Mình được chứ – con cáo nói – bởi vì còn có màu lúa mì.</p>
+      <p>Sau đó nó nói thêm:</p>
+      <p>– Hãy thăm lại vườn hồng đi! Bạn sẽ hiểu rằng bông hoa của bạn là duy nhất trên đời. Rồi khi bạn quay lại vĩnh biệt mình, mình sẽ tặng bạn một bí mật làm quà.</p>
+      <p>Hoàng tử bé đi thăm lại vườn hoa hồng:</p>
+      <p>– Các bạn chẳng giống bông hồng của tôi chút nào, các bạn chưa là gì cả – cậu nói với chúng. – Chẳng ai cảm hóa các bạn và các bạn chẳng cảm hóa ai. Các bạn giống như bạn cáo của tôi ngày trước. Hồi đó bạn ấy chỉ là một con cáo như cả trăm ngàn con khác. Nhưng tôi đã biến bạn ấy thành bạn của tôi, và bây giờ bạn ấy trở thành duy nhất trên đời.</p>
+      <p class="gap">(… — phần Hoàng tử bé nói tiếp với vườn hồng em đọc tiếp trong SGK giấy.)</p>
+      <p>Rồi cậu quay lại chỗ con cáo:</p>
+      <p>– Vĩnh biệt – cậu nói...</p>
+      <p>– Vĩnh biệt – con cáo nói. – Đây là bí mật của mình. Rất đơn giản: người ta chỉ thấy rõ với trái tim. Điều cốt lõi vô hình trong mắt trần.</p>
+      <p>– Điều cốt lõi vô hình trong mắt trần – hoàng tử bé lặp lại, để cho nhớ.</p>
+      <p>– Chính thời gian mà bạn bỏ ra cho bông hồng của bạn đã khiến bông hồng của bạn trở nên quan trọng đến thế.</p>
+      <p>– Chính thời gian mà mình bỏ ra cho bông hồng của mình... – Hoàng tử bé lặp lại, để cho nhớ.</p>
+      <p>– Con người đã quên mất sự thật này – con cáo nói. – Nhưng bạn thì không được quên. Bạn có trách nhiệm mãi mãi với những gì bạn đã cảm hóa. Bạn có trách nhiệm với bông hồng của bạn...</p>
+      <p>– Mình có trách nhiệm với bông hồng của mình... – Hoàng tử bé lặp lại, để cho nhớ.</p>
+      <p class="read-note">Nguồn văn bản: trích chương XXI <i>Hoàng tử bé</i> (Ăng-toan đơ Xanh-tơ Ê-xu-pe-ri), bản dịch Nguyễn Tấn Đại (NXB Hội Nhà văn, 2005; hiệu đính 2020) — đúng bản dịch in trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại olm.vn (trích nguyên văn SGK, có ghi nguồn dịch). Ba chỗ đánh dấu (…) là đoạn trang nguồn đăng thiếu, không tự chế thêm.</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/hoang-tu-be-va-cao.webp" alt="Hoàng tử bé và con cáo trên đồng lúa mì" loading="lazy">
-    <figcaption>🦊 <b>Hoàng tử bé và con cáo</b> — tình bạn bắt đầu khi ta biết "thuần dưỡng" nhau: dành thời gian cho nhau và chịu trách nhiệm về nhau. (Tranh minh họa do AI vẽ)</figcaption>
+    <figcaption>🦊 <b>Hoàng tử bé và con cáo</b> — tình bạn bắt đầu khi ta biết "cảm hóa" nhau: dành thời gian cho nhau và chịu trách nhiệm về nhau. (Tranh minh họa do AI vẽ)</figcaption>
   </figure>
   <ul>
-    <li>Hoàng tử bé gặp <b>con cáo</b>. Cáo nói: nếu muốn có một người bạn, hãy <span class="hl2">"thuần dưỡng"</span> cáo đi — nghĩa là <b>tạo nên những mối dây liên kết</b> giữa hai bên.</li>
-    <li>Khi đã thuần dưỡng nhau, hai người trở thành <span class="hl">duy nhất</span> đối với nhau: đồng lúa mì vàng sẽ làm cáo nhớ tới mái tóc vàng của Hoàng tử bé.</li>
-    <li>Lúc chia tay, cáo tặng một bí mật: những điều quan trọng nhất — như tình bạn — thì <b>mắt thường không nhìn thấy</b>, chỉ có <b>trái tim</b> mới nhìn rõ. Và ta phải <b>chịu trách nhiệm</b> với người bạn mình đã thuần dưỡng (như bông hồng của Hoàng tử bé).</li>
+    <li>Hoàng tử bé gặp <b>con cáo</b>. Cáo nói: nếu muốn có một người bạn, hãy <span class="hl2">"cảm hóa"</span> cáo đi — nghĩa là <b>tạo nên những mối dây liên kết</b> giữa hai bên.</li>
+    <li>Khi đã cảm hóa nhau, hai người trở thành <span class="hl">duy nhất</span> đối với nhau: đồng lúa mì vàng sẽ làm cáo nhớ tới mái tóc vàng của Hoàng tử bé.</li>
+    <li>Lúc chia tay, cáo tặng một bí mật: những điều quan trọng nhất — như tình bạn — thì <b>mắt thường không nhìn thấy</b>, chỉ có <b>trái tim</b> mới nhìn rõ. Và ta phải <b>chịu trách nhiệm</b> với người bạn mình đã cảm hóa (như bông hồng của Hoàng tử bé).</li>
   </ul>
   <div class="moc">📌 <b>Bài 1 còn có</b> bài thơ <b>"Bắt nạt"</b> (Nguyễn Thế Hoàng Linh): lên án việc bắt nạt bạn bè — bạn bè là để yêu thương, bênh vực nhau, không phải để chê bai, hiếp đáp.</div>
 
@@ -215,14 +425,14 @@ img,svg{max-width:100%}
     <div class="vcard"><b class="tu">kiêu căng</b> — tự cho mình giỏi, coi thường người khác.<span class="vd">Ví dụ: Giỏi mà kiêu căng thì bạn bè cũng xa lánh dần.</span></div>
     <div class="vcard"><b class="tu">xốc nổi</b> — nóng vội, làm việc thiếu suy nghĩ chín chắn.<span class="vd">Ví dụ: Vì một phút xốc nổi, cậu ấy đã nói lời làm bạn tổn thương.</span></div>
     <div class="vcard"><b class="tu">ân hận</b> — day dứt, tiếc nuối vì việc mình đã làm sai.<span class="vd">Ví dụ: Sau khi lỡ tay làm vỡ lọ hoa của mẹ, em ân hận mãi.</span></div>
-    <div class="vcard"><b class="tu">thuần dưỡng</b> — làm cho gần gũi, gắn bó với mình (trong truyện: tạo nên mối liên kết tình cảm).<span class="vd">Ví dụ: Chăm sóc chú mèo hoang mỗi ngày, dần dần em đã thuần dưỡng được nó.</span></div>
+    <div class="vcard"><b class="tu">cảm hóa</b> — làm cho gần gũi, gắn bó với mình (trong truyện: tạo nên mối liên kết tình cảm).<span class="vd">Ví dụ: Chăm sóc chú mèo hoang mỗi ngày, dần dần em đã cảm hóa được nó.</span></div>
     <div class="vcard"><b class="tu">cốt yếu</b> — quan trọng nhất, là cái chính.<span class="vd">Ví dụ: Điều cốt yếu trong tình bạn là sự chân thành.</span></div>
   </div>
 
   <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 1</div>
   <div class="qa"><button class="qa-q">Nhớ lại xem: Dế Mèn có những tính cách nào nổi bật ở đầu truyện?</button><div class="qa-a">Dế Mèn <b>cường tráng, khỏe đẹp</b> nhưng <b>kiêu căng, xốc nổi</b>, hay coi thường người khác — nhất là Dế Choắt yếu ớt bên cạnh.</div></div>
   <div class="qa"><button class="qa-q">Nhớ lại xem: Việc làm nào của Dế Mèn đã gây ra cái chết của Dế Choắt?</button><div class="qa-a">Dế Mèn <b>bày trò trêu chị Cốc</b> rồi trốn vào hang; chị Cốc mổ nhầm <b>Dế Choắt</b>. Choắt bị thương nặng và qua đời.</div></div>
-  <div class="qa"><button class="qa-q">🖼️ Nhìn hình con cáo ở trên: theo cáo, "thuần dưỡng" nghĩa là gì?</button><div class="qa-a">Là <b>tạo nên những mối dây liên kết</b> — nhờ đó hai người trở nên cần thiết và <b>duy nhất</b> đối với nhau.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình con cáo ở trên: theo cáo, "cảm hóa" nghĩa là gì?</button><div class="qa-a">Là <b>tạo nên những mối dây liên kết</b> — nhờ đó hai người trở nên cần thiết và <b>duy nhất</b> đối với nhau.</div></div>
   <div class="qa"><button class="qa-q">Nhớ lại xem: Bài học đường đời đầu tiên của Dế Mèn là gì?</button><div class="qa-a">Không được <b>hung hăng, kiêu ngạo</b>; có óc thì phải <b>biết suy nghĩ</b> trước khi hành động, kẻo mang vạ vào mình và làm khổ người khác.</div></div>
 
   <div class="secttl">✍️ Góc tự luận — Bài 1 (tự viết nhé!)</div>
@@ -241,7 +451,7 @@ img,svg{max-width:100%}
   <div class="write">
     <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Từ câu chuyện của cáo và Hoàng tử bé, theo em, thế nào là một người bạn tốt?</div>
     <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đầu:</b> Trả lời thẳng câu hỏi bằng 1–2 câu (bạn tốt là người…).<br><b>Thân bài:</b> Nêu 2–3 ý, mỗi ý gắn một dẫn chứng: biết gắn bó và dành thời gian cho nhau (cáo chờ Hoàng tử bé mỗi ngày); biết chịu trách nhiệm với bạn; nhìn nhau bằng trái tim — tức quan tâm thật lòng chứ không chỉ nhìn bề ngoài.<br><b>Kết bài:</b> Liên hệ với bản thân: em muốn làm một người bạn như thế nào?</div></div>
-    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Theo em, bạn tốt không phải là người chỉ vui chơi cùng ta lúc vui. Bạn tốt là người dành thời gian cho ta, nhớ những điều nhỏ nhặt về ta và ở bên ta khi ta buồn. Như cáo đã dạy, tình bạn phải được 'thuần dưỡng' bằng sự chân thành mỗi ngày."</div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Theo em, bạn tốt không phải là người chỉ vui chơi cùng ta lúc vui. Bạn tốt là người dành thời gian cho ta, nhớ những điều nhỏ nhặt về ta và ở bên ta khi ta buồn. Như cáo đã dạy, tình bạn phải được 'cảm hóa' bằng sự chân thành mỗi ngày."</div>
     <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy viết bằng suy nghĩ của mình nhé!</div>
   </div>
 
@@ -273,6 +483,89 @@ img,svg{max-width:100%}
   </div>
 
   <div class="txttl">📖 Văn bản 1: Chuyện cổ tích về loài người <span class="au">— Xuân Quỳnh (thơ)</span></div>
+  <div class="readbox open" id="rb3">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Thu gọn ▴</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Trời sinh ra trước nhất
+Chỉ toàn là trẻ con
+Trên trái đất trụi trần
+Không dáng cây ngọn cỏ</p>
+      <p class="tho">Mặt trời cũng chưa có
+Chỉ toàn là bóng đêm
+Không khí chỉ màu đen
+Chưa có màu sắc khác</p>
+      <p class="tho">Mắt trẻ con sáng lắm
+Nhưng chưa thấy gì đâu!
+Mặt trời mới nhô cao
+Cho trẻ con nhìn rõ</p>
+      <p class="tho">Màu xanh bắt đầu cỏ
+Màu xanh bắt đầu cây
+Cây cao bằng gang tay
+Lá cỏ bằng sợi tóc</p>
+      <p class="tho">Cái hoa bằng cái cúc
+Màu đỏ làm ra hoa
+Chim bấy giờ sinh ra
+Cho trẻ nghe tiếng hót</p>
+      <p class="tho">Tiếng hót trong bằng nước
+Tiếng hót cao bằng mây
+Những làn gió thơ ngây
+Truyền âm thanh đi khắp</p>
+      <p class="tho">Muốn trẻ con được tắm
+Sông bắt đầu làm sông
+Sông cần đến mênh mông
+Biển có từ thuở đó</p>
+      <p class="tho">Biển thì cho ý nghĩ
+Biển sinh cá sinh tôm
+Biển sinh những cánh buồm
+Cho trẻ con đi khắp</p>
+      <p class="tho">Đám mây cho bóng rợp
+Trời nắng mây theo che
+Khi trẻ con tập đi
+Đường có từ ngày đó</p>
+      <p class="tho">Nhưng còn cần cho trẻ
+Tình yêu và lời ru
+Cho nên mẹ sinh ra
+Để bế bồng chăm sóc</p>
+      <p class="tho">Mẹ mang về tiếng hát
+Từ cái bống cái bang
+Từ cái hoa rất thơm
+Từ cánh cò rất trắng</p>
+      <p class="tho">Từ vị gừng rất đắng
+Từ vết lấm chưa khô
+Từ đầu nguồn cơn mưa
+Từ bãi sông cát vắng…</p>
+      <p class="tho">Biết trẻ con khao khát
+Chuyện ngày xưa, ngày sau
+Không hiểu là từ đâu
+Mà bà về ở đó</p>
+      <p class="tho">Kể cho bao chuyện cổ
+Chuyện con cóc, nàng tiên
+Chuyện cô Tấm ở hiền
+Thằng Lý Thông ở ác…</p>
+      <p class="tho">Mái tóc bà thì bạc
+Con mắt bà thì vui
+Bà kể đến suốt đời
+Cũng không sao hết chuyện</p>
+      <p class="tho">Muốn cho trẻ hiểu biết
+Thế là bố sinh ra
+Bố bảo cho biết ngoan
+Bố dạy cho biết nghĩ</p>
+      <p class="tho">Rộng lắm là mặt bể
+Dài là con đường đi
+Núi thì xanh và xa
+Hình tròn là trái đất…</p>
+      <p class="tho">Chữ bắt đầu có trước
+Rồi có ghế có bàn
+Rồi có lớp có trường
+Và sinh ra thầy giáo…</p>
+      <p class="tho">Cái bảng bằng cái chiếu
+Cục phấn từ đá ra
+Thầy viết chữ thật to
+“Chuyện loài người” trước nhất</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Chuyện cổ tích về loài người</i> (Xuân Quỳnh, trích tập <i>Lời ru trên mặt đất</i>) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại thohay.vn (bản trọn bài, đối chiếu chéo 3 nguồn khớp nhau).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/chuyen-co-tich-loai-nguoi.webp" alt="Mẹ bế em bé bên bếp lửa thuở sơ khai" loading="lazy">
     <figcaption>🌍 <b>Thuở loài người sơ khai</b> — mọi thứ trên đời như được sinh ra vì trẻ em: có mẹ bồng bế, có bà kể chuyện, có mặt trời sưởi ấm. (Tranh minh họa do AI vẽ)</figcaption>
@@ -289,6 +582,32 @@ Trên trái đất trụi trần
 Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuyện cổ tích về loài người", Xuân Quỳnh</span></div>
 
   <div class="txttl">📖 Văn bản 2: Mây và sóng <span class="au">— Ta-go (Rabindranath Tagore, Ấn Độ)</span></div>
+  <div class="readbox" id="rb4">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Mẹ ơi, trên mây có người gọi con:
+“Bọn tớ chơi từ khi thức dậy cho đến lúc chiều tà. Bọn tớ chơi với bình minh vàng, bọn tớ chơi với vầng trăng bạc.”
+Con hỏi: “Nhưng làm thế nào mình lên đó được?”
+Họ đáp: “Hãy đến nơi tận cùng trái đất, đưa tay lên trời, cậu sẽ được nhấc bổng lên tận tầng mây.”
+“Mẹ mình đang đợi ở nhà” – con bảo – “Làm sao có thể rời mẹ mà đến được?”
+Thế là họ mỉm cười bay đi.
+Nhưng con biết có trò chơi thú vị hơn, mẹ ạ.
+Con là mây và mẹ sẽ là trăng.
+Hai bàn tay con ôm lấy mẹ, và mái nhà ta sẽ là bầu trời xanh thẳm.</p>
+      <p class="tho">Trong sóng có người gọi con:
+“Bọn tớ ca hát từ sáng sớm cho đến hoàng hôn. Bọn tớ ngao du nơi này nơi nọ mà không biết từng đến nơi nao.”
+Con hỏi: “Nhưng làm thế nào mình ra ngoài đó được?”
+Họ nói: “Hãy đến rìa biển cả, nhắm nghiền mắt lại, cậu sẽ được làn sóng nâng đi.”
+Con bảo: “Buổi chiều mẹ luôn muốn mình ở nhà, làm sao có thể rời mẹ mà đi được?”
+Thế là họ mỉm cười, nhảy múa lướt qua.
+Nhưng con biết trò chơi khác hay hơn.
+Con là sóng và mẹ sẽ là bến bờ kì lạ.
+Con lăn, lăn, lăn mãi rồi sẽ cười vang vỡ tan lòng mẹ.
+Và không ai trên thế gian này biết mẹ con ta ở chốn nào.</p>
+      <p class="read-note">Nguồn văn bản: bài thơ văn xuôi <i>Mây và sóng</i> (R. Ta-go, Ấn Độ) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu bản soạn/bài giảng KNTT (hoctot.nam.name.vn, baigiang.violet.vn, giaoanketnoitrithuc.com) — ba nguồn nhất quán.</p>
+    </div>
+  </div>
   <ul>
     <li>Bài thơ gồm hai cuộc trò chuyện. Những người <b>trên mây</b> mời em bé lên chơi từ bình minh đến tối; những người <b>trong sóng</b> mời em bé đi hát ca khắp chốn.</li>
     <li>Cả hai lần, em bé đều <b>từ chối</b>: vì "mẹ mình đang đợi ở nhà" — làm sao có thể rời mẹ mà đi được!</li>
@@ -297,6 +616,37 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </ul>
 
   <div class="txttl">📖 Văn bản 3: Bức tranh của em gái tôi <span class="au">— Tạ Duy Anh (truyện ngắn)</span></div>
+  <div class="readbox" id="rb5">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Em gái tôi tên là Kiều Phương, nhưng tôi quen gọi nó là Mèo vì mặt nó hay bị chính nó bôi bẩn. Nó vui vẻ chấp nhận cái tên tôi tặng cho và hơn thế, còn dùng để xưng hô với bạn bè. Mèo rất hay lục lọi các đồ vật với sự thích thú đến khó chịu.</p>
+      <p>– Này, em không để chúng nó yên được à?</p>
+      <p>Nó vênh mặt:</p>
+      <p>– Mèo mà lại! Em không phá là được…</p>
+      <p>Một hôm, tôi bắt gặp nó nhào một thứ bột gì đó đen sì, trông rất sợ, thỉnh thoảng lại bôi bôi ra cổ tay. Trời ạ, thì ra nó chế thuốc vẽ. Thảo nào các đít xoong chảo bị nó cạo trắng cả. Tôi quyết định bí mật theo dõi em gái tôi. Sau khi có vẻ đã hài lòng, nó lôi trong túi ra bốn lọ nhỏ, cái màu đỏ, cái màu vàng, cái màu xanh lục… đều do nó tự chế. Nó đưa mắt canh chừng rồi lại nhét tất cả vào túi sau khi cho màu đen nhọ nồi vào một cái lọ còn bỏ không. Xong, nó vui vẻ chạy đi làm những việc bố mẹ tôi phân công, vừa làm vừa hát, có vẻ vui lắm.</p>
+      <p>Nhưng mọi bí mật của Mèo cuối cùng cũng bại lộ. Hôm đó chú Tiến Lê – họa sĩ, bạn thân của bố tôi – đưa theo bé Quỳnh đến chơi. Vớ được bạn gái, nó mừng quýnh lên. Hai đứa lôi nhau ra vườn. Tại đây, Mèo đưa toàn bộ những bức tranh nó vẽ giấu ra cho bé Quỳnh xem. Chỉ thấy bé Quỳnh thỉnh thoảng lại reo lên khe khẽ. Lát sau, bé Quỳnh chạy vào thì thầm gì đó với chú Tiến Lê khiến chú phải xin phép bố tôi theo bé Quỳnh ra vườn. Lúc đó, tôi đang mải mê với chiếc diều nên không biết có chuyện gì xảy ra. Chỉ thấy từ ngoài vườn trở vào, mặt chú Tiến Lê rạng rỡ lắm:</p>
+      <p>– Anh chị có phúc lớn rồi. Anh có biết con gái anh là một thiên tài hội họa không?</p>
+      <p>Chú trải sáu bức tranh do Mèo vẽ ra trước mặt bố tôi. Đến lượt bố tôi ngây người ra như không tin vào mắt mình.</p>
+      <p>– Con gái tôi vẽ đây ư? Chả lẽ lại đúng là nó, cái con Mèo hay lục lọi ấy!</p>
+      <p>Và ông không kìm được, ôm thốc Mèo lên:</p>
+      <p>– Ôi, con đã cho bố một bất ngờ quá lớn.</p>
+      <p>Mẹ tôi vừa về, kịp nghe và kịp chứng kiến tất cả, cũng không kiềm được xúc động. Theo chú Tiến Lê thì những bức tranh của Mèo rất độc đáo, có thể đem đóng khung treo ở bất cứ phòng tranh nào. Bố mẹ tôi rất tin vào thẩm định của chú Tiến Lê. Chú còn hứa sẽ giúp em gái tôi để nó phát huy tài năng.</p>
+      <p>Kể từ hôm đó, mặc dù mọi chuyện vẫn như cũ trong căn nhà của chúng tôi, nhưng tôi luôn luôn cảm thấy mình bất tài nên bị đẩy ra ngoài. Những lúc ngồi bên bàn học, tôi chỉ muốn gục xuống khóc.</p>
+      <p>Tôi chẳng tìm thấy ở tôi một năng khiếu gì. Và không hiểu vì sao tôi không thể thân với Mèo như trước kia được nữa. Chỉ cần một lỗi nhỏ ở nó là tôi gắt um lên.</p>
+      <p>Tôi quyết định làm một việc mà tôi vẫn coi khinh: xem trộm những bức tranh của Mèo. Dường như mọi thứ có trong ngôi nhà của chúng tôi đều được nó đưa vào tranh. Mặc dù nó vẽ bằng những nét to tướng, nhưng ngay cả cái bát múc cám lợn, sứt một miếng cũng trở nên ngộ nghĩnh. Con mèo vằn vào tranh, to hơn cả con hổ nhưng nét mặt lại vô cùng dễ mến. Có cảm tưởng nó biết mọi việc chúng tôi làm và lơ đi vì không chấp trẻ em.</p>
+      <p>Gấp lại những bức tranh của Mèo, tôi lén trút ra một tiếng thở dài…</p>
+      <p>Bố mẹ tôi hào hứng mua sắm cho em gái tôi tất cả những gì cần cho công việc vẽ. Chú Tiến Lê tặng “đồng nghiệp” hẳn một hộp màu ngoại xịn. Chỉ có mặt Mèo là không thay đổi. Lúc nào cũng lem nhem, bị tôi quát thì xịu xuống, miệng dẩu ra. Tôi từng thấy nó rất ngộ với vẻ mặt ấy. Nhưng đấy là trước kia. Bây giờ tôi cảm thấy nó như chọc tức tôi…</p>
+      <p>Rồi cả nhà – trừ tôi – vui như tết khi bé Phương, qua giới thiệu của chú Tiến Lê, được mời tham gia trại thi vẽ quốc tế. Luật của cuộc thi là thí sinh phải vẽ một bức tranh theo đề tài tự chọn ngay trước mắt ban giám khảo. Trước khi đi thi, nó có vẻ cứ hay xét nét tôi, khiến tôi rất khó chịu. Nó nhập tâm lời dạy của chú Tiến Lê: “Cháu hãy vẽ cái gì thân thuộc nhất với cháu”.</p>
+      <p>Một tuần sau em gái tôi trở về trong vòng tay dang sẵn của cả bố và mẹ tôi: Bức tranh của nó được trao giải nhất. Nó lao vào ôm cổ tôi, nhưng tôi viện cớ đang dở việc đẩy nhẹ nó ra. Tuy thế, nó vẫn kịp thì thầm vào tai tôi: “Em muốn cả anh cùng đi nhận giải”.</p>
+      <p>Trong gian phòng lớn tràn ngập ánh sáng, những bức tranh của thí sinh treo kín bốn bức tường. Bố, mẹ tôi kéo tôi chen qua đám đông để xem bức tranh của Kiều Phương đã được đóng khung, lồng kính. Trong tranh, một chú bé đang ngồi nhìn ra ngoài cửa sổ, nơi bầu trời trong xanh. Mặt chú bé như tỏa ra một thứ ánh sáng rất lạ. Toát lên từ cặp mắt, tư thế ngồi của chú không chỉ sự suy tư mà còn rất mơ mộng nữa. Mẹ hồi hộp thì thầm vào tai tôi:</p>
+      <p>– Con có nhận ra con không?</p>
+      <p>Tôi giật sững người. Chẳng hiểu sao tôi phải bám chặt lấy tay mẹ. Thoạt tiên là sự ngỡ ngàng, rồi đến hãnh diện, sau đó là xấu hổ. Dưới mắt em tôi, tôi hoàn hảo đến thế kia ư? Tôi nhìn như thôi miên vào dòng chữ đề trên bức tranh: “Anh trai tôi”. Vậy mà dưới mắt tôi thì…</p>
+      <p>– Con đã nhận ra con chưa? – Mẹ vẫn hồi hộp.</p>
+      <p>Tôi không trả lời mẹ vì tôi muốn khóc quá. Bởi vì nếu nói được với mẹ, tôi sẽ nói rằng: “Không phải con đâu. Đấy là tâm hồn và lòng nhân hậu của em con đấy”.</p>
+      <p class="read-note">Nguồn văn bản: truyện ngắn <i>Bức tranh của em gái tôi</i> (Tạ Duy Anh, trích <i>Bản nhạc con đà điểu</i>, NXB Kim Đồng, Hà Nội, 2016, tr. 45–50) — đưa TRỌN TRUYỆN, đúng nguồn SGK dẫn. Đối chiếu tại lazi.vn (mục “Đọc tác phẩm”, Ngữ văn 6 Kết nối tri thức).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/buc-tranh-em-gai.webp" alt="Em gái vẽ tranh con mèo" loading="lazy">
     <figcaption>🎨 <b>Em gái vẽ tranh</b> — bức tranh con mèo của Kiều Phương khiến người anh ngỡ ngàng và tự nhìn lại lòng mình. (Tranh minh họa do AI vẽ)</figcaption>
@@ -381,6 +731,36 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </div>
 
   <div class="txttl">📖 Văn bản 1: Cô bé bán diêm <span class="au">— An-đéc-xen (Hans Christian Andersen, Đan Mạch)</span></div>
+  <div class="readbox open" id="rb6">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Thu gọn ▴</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>(Đêm giao thừa, trời rét mướt. Một cô bé bán diêm nhà nghèo, mồ côi mẹ, đầu trần, chân đất, bụng đói, đang dò dẫm trong bóng tối. Suốt cả ngày em không bán được bao diêm nào...)</p>
+      <p>Cửa sổ mọi nhà đều sáng rực ánh đèn và trong phố sực nức mùi ngỗng quay. Chả là đêm giao thừa mà! Em tưởng nhớ lại năm xưa, khi bà nội hiền hậu của em còn sống, em cũng được đón giao thừa ở nhà. Nhưng Thần Chết đã đến cướp bà em đi mất, gia sản tiêu tán, và gia đình em đã phải lìa ngôi nhà xinh xắn có dây trường xuân bao quanh, nơi em đã sống những ngày đầm ấm, để đến chui rúc trong một xó tối tăm, luôn luôn nghe những lời mắng nhiếc chửi rủa.</p>
+      <p>Em ngồi nép trong một góc tường, giữa hai ngôi nhà, một cái xây lùi vào chút ít.</p>
+      <p>Em thu đôi chân vào người, nhưng mỗi lúc em càng thấy rét buốt hơn.</p>
+      <p>Tuy nhiên, em không thể nào về nhà nếu không bán được ít bao diêm, hay không ai bố thí cho một đồng xu nào đem về; nhất định là cha em sẽ đánh em.</p>
+      <p>Vả lại ở nhà cũng rét thế thôi. Cha con em ở trên gác sát mái nhà, và mặc dầu đã nhét giẻ rách vào các kẽ hở lớn trên vách, gió vẫn thổi rít vào trong nhà. Lúc này đôi bàn tay em đã cứng đờ ra.</p>
+      <p>Chà! Giá quẹt một que diêm mà sưởi cho đỡ rét một chút nhỉ? Giá em có thể rút một que diêm ra quẹt vào tường mà hơ ngón tay nhỉ? Cuối cùng em đánh liều quẹt một que. Diêm bén lửa thật là nhạy. Ngọn lửa lúc đầu xanh lam, dần dần biến đi, trắng ra, rực hồng lên quanh que gỗ, sáng chói trông đến vui mắt.</p>
+      <p>Em hơ đôi tay trên que diêm sáng rực như than hồng. Chà! Ánh sáng kì dị làm sao! Em tưởng chừng như đang ngồi trước một lò sưởi bằng sắt có những hình nổi bằng đồng bóng nhoáng. Trong lò, lửa cháy nom đến vui mắt và toả ra hơi nóng dịu dàng.</p>
+      <p>Thật là dễ chịu! Đôi bàn tay em hơ trên ngọn lửa; bên tay cầm diêm, ngón cái nóng bỏng lên. Chà! Khi tuyết phủ kín mặt đất, gió bấc thổi vun vút mà được ngồi hàng giờ như thế, trong đêm đông rét buốt, trước một lò sưởi, thì khoái biết bao!</p>
+      <p>Em vừa duỗi chân ra sưởi thì lửa vụt tắt, lò sưởi biến mất. Em ngồi đó, tay cầm que diêm đã tàn hẳn. Em bần thần cả người và chợt nghĩ ra rằng cha em đã giao cho em đi bán diêm. Đêm nay về nhà thế nào cũng bị cha mắng.</p>
+      <p>Em quẹt que diêm thứ hai, diêm cháy và sáng rực lên. Bức tường như biến thành một tấm rèm bằng vải màu. Em nhìn thấu vào tận trong nhà. Bàn ăn đã dọn, khăn trải bàn trắng tinh, trên bàn toàn bát đĩa bằng sứ quý giá, và có cả một con ngỗng quay. Nhưng điều kì diệu nhất là ngỗng ta nhảy ra khỏi đĩa và mang cả dao ăn, phuốc-sét cắm trên lưng, tiến về phía em bé.</p>
+      <p>Rồi... que diêm vụt tắt; trước mặt em chỉ còn là những bức tường dày đặc và lạnh lẽo.</p>
+      <p>Thực tế đã thay thế cho mộng tưởng; chẳng có bàn ăn thịnh soạn nào cả, mà chỉ có phố xá vắng teo, lạnh buốt, tuyết phủ trắng xoá, gió bấc vi vu và mấy người khách qua đường quần áo ấm áp vội vã đi đến những nơi hẹn hò, hoàn toàn lãnh đạm với cảnh nghèo khổ của em bé bán diêm.</p>
+      <p>Em quẹt que diêm thứ ba. Bỗng em thấy hiện ra một cây thông Nô-en. Cây này lớn và trang trí lộng lẫy hơn cây mà em đã được thấy năm ngoái qua cửa kính một nhà buôn giàu có. Hàng ngàn ngọn nến sáng rực, lấp lánh trên cành lá xanh tươi và rất nhiều bức tranh màu sắc rực rỡ như những bức bày trong các tủ hàng, hiện ra trước mắt em bé. Em với đôi tay về phía cây... nhưng diêm tắt. Tất cả các ngọn nến bay lên, bay lên mãi rồi biến thành những ngôi sao trên trời.</p>
+      <p>“Chắc hẳn có ai vừa chết”, em bé tự nhủ, vì bà em, người hiền hậu độc nhất đối với em, đã chết từ lâu, trước đây thường nói rằng: “Khi có một vì sao đổi ngôi là có một linh hồn bay lên trời với Thượng đế”.</p>
+      <p>Em quẹt que diêm nữa vào tường, một ánh sáng xanh toả ra xung quanh và em bé nhìn thấy rõ ràng bà em đang mỉm cười với em.</p>
+      <p>Bà ơi! Em bé reo lên, cho cháu đi với! Cháu biết rằng diêm tắt thì bà cũng biến đi mất như lò sưởi, ngỗng quay và cây Nô-en ban nãy, nhưng xin bà đừng bỏ cháu ở nơi này; trước kia khi bà chưa về với Thượng đế chí nhân, bà cháu ta đã từng sung sướng biết bao! Dạo ấy bà đã từng nhủ cháu rằng nếu cháu ngoan ngoãn, cháu sẽ được gặp lại bà, bà ơi! Cháu van bà, bà xin Thượng đế chí nhân cho cháu về với bà. Chắc Người không từ chối đâu.</p>
+      <p>Que diêm tắt phụt, và ảo ảnh rực sáng trên khuôn mặt em bé cũng biến mất.</p>
+      <p>Thế là em quẹt tất cả những que diêm còn lại trong bao. Em muốn níu bà em lại! Diêm nối nhau chiếu sáng như giữa ban ngày. Chưa bao giờ em thấy bà em to lớn và đẹp lão như thế này. Bà cụ cầm lấy tay em, rồi hai bà cháu bay vụt lên cao, cao mãi, chẳng còn đói rét, đau buồn nào đe doạ họ nữa. Họ đã về chầu Thượng đế.</p>
+      <p>Sáng hôm sau, tuyết vẫn phủ kín mặt đất, nhưng mặt trời lên, trong sáng, chói chang trên bầu trời xanh nhợt. Mọi người vui vẻ ra khỏi nhà.</p>
+      <p>Trong buổi sáng lạnh lẽo ấy, ở một xó tường, người ta thấy một em gái có đôi má hồng và đôi môi đang mỉm cười. Em đã chết vì giá rét trong đêm giao thừa.</p>
+      <p>Ngày mồng một đầu năm hiện lên trên thi thể em bé ngồi giữa những bao diêm, trong đó có một bao đã đốt hết nhẵn. Mọi người bảo nhau: “Chắc nó muốn sưởi cho ấm!”, nhưng chẳng ai biết những cái kì diệu em đã trông thấy, nhất là cảnh huy hoàng lúc hai bà cháu bay lên để đón lấy những niềm vui đầu năm.</p>
+      <p>(An-đéc-xen, <i>Truyện An-đéc-xen</i>, Nguyễn Văn Hải – Vũ Minh Toàn dịch, NXB Văn hoá, Hà Nội, 1963)</p>
+      <p class="read-note">Nguồn văn bản: truyện <i>Cô bé bán diêm</i> (trích) của An-đéc-xen — SGK chú thích “văn bản này trích gần hết truyện”; phần mở đầu được in tóm tắt trong ngoặc đơn ngay trong SGK như trên, phần thân truyện là nguyên văn bản dịch Nguyễn Văn Hải – Vũ Minh Toàn như SGK dẫn. Đối chiếu tại giaibaitap123.com (bản in SGK).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/co-be-ban-diem.webp" alt="Cô bé bán diêm quẹt diêm trong đêm tuyết" loading="lazy">
     <figcaption>🕯️ <b>Cô bé bán diêm</b> — giữa đêm tuyết lạnh, mỗi que diêm quẹt lên là một ước mơ ấm áp hiện ra. (Tranh minh họa do AI vẽ)</figcaption>
@@ -393,6 +773,88 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </ul>
 
   <div class="txttl">📖 Văn bản 2: Gió lạnh đầu mùa <span class="au">— Thạch Lam (truyện ngắn)</span></div>
+  <div class="readbox" id="rb7">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bứt, chảy mồ hôi.</p>
+      <p>Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt. Sơn tung chăn tỉnh dậy, nhưng không bước xuống giường ngay như mọi khi, còn ngồi thu tay vào trong bọc, bên cạnh đứa em bé vẫn nắm tay ngủ kỹ. Chị Sơn và mẹ Sơn đã trở dậy, đang ngồi quạt hỏa lò để pha nước chè uống. Sơn nhìn thấy mọi người đã mặc áo rét cả rồi.</p>
+      <p>Nhìn ra ngoài sân, Sơn thấy đất khô trắng, luôn luôn cơn gió vi vu làm bốc lên những màn bụi nhỏ, thổi lăn những cái lá khô lạo xạo. Trời không u ám, toàn một màu trắng đục. Những cây lan trong chậu, lá rung động và hình như sắc lại vì rét.</p>
+      <p>Sơn cũng thấy lạnh, vội vơ lấy cái chăn trùm lên đầu rồi cất tiếng gọi chị. Mẹ Sơn nghe thấy, đặt chén nước chè xuống, bảo chị Lan:</p>
+      <p>– Con vào buồng lấy thúng áo ra mẹ mặc cho em, đi.</p>
+      <p>Rồi quay lại bảo Sơn:</p>
+      <p>– Con sang đây mà ngồi cho ấm. Bước khéo để cho em bé ngủ.</p>
+      <p>Sơn kéo chăn lên đắp cho em, ngồi xếp bằng bên khay nước. Mẹ Sơn rót cho một chén, Sơn cầm lấy chén chè nóng áp vào mặt, vào má cho ấm, rồi để mặt vào miệng chén cho hơi bốc lên. Bà Sơn thường vẫn bảo làm thế cho tỉnh mắt.</p>
+      <p>Người vú già xù xù cái áo bông cánh rách, xách siêu nước từ dưới nhà lên, vừa xuýt xoa vừa nói:</p>
+      <p>– Rét quá! Múc nước cóng cả tay.</p>
+      <p>Vú giơ tay hơ trên hỏa lò. Mẹ Sơn hỏi:</p>
+      <p>– Năm nay rét sớm hơn mọi năm vú nhỉ?</p>
+      <p>Người vú già ra vẻ nhớ lại, đáp:</p>
+      <p>– Cũng chả bằng cái năm mợ đi cân gạo bên Sông. Gớm, mới rét làm sao! Sáng tôi dậy, bà sai đi chợ, cứ run lên cầm cập.</p>
+      <p>Sơn cũng nhớ cái rét năm ấy rõ rệt lắm, như mới đây thôi. Buổi sớm hôm ấy, mẹ Sơn cũng ngồi uống nước chè như sáng hôm nay và cũng lấy áo rét ra mặc.</p>
+      <p>Chị Lan từ trong buồng đi ra, khệ nệ ôm cái thúng quần áo đặt lên đầu phản. Mẹ Sơn đặt cái vỉ buồm lục đống quần áo rét. Sơn nhận ra cũng những cái áo Sơn đã mặc năm ngoái, năm kia: một cái áo vệ sinh màu nâu sẫm với một cái áo dạ khâu chỉ đỏ. Sơn cầm giơ những cái áo lên, thấy mát lạnh cả tay. Từ bộ quần áo thoảng ra hơi mốc của vải gấp lâu trong hòm, làm Sơn nhớ lại những buổi đầu mùa rét từ bao giờ, lâu lắm, ngày Sơn còn nhỏ.</p>
+      <p>Mẹ Sơn giơ lên một cái áo bông cánh đã cũ nhưng còn lành lặn, nói:</p>
+      <p>– Đây là áo của cô Duyên đây.</p>
+      <p>Duyên là đứa em gái bé của Sơn, chết từ năm lên bốn tuổi. Mẹ Sơn nhắc đến làm Sơn nhớ em, cảm động và thương em quá. Vú già là người đã nuôi Duyên từ lúc mới đẻ, với lấy cái áo lật đi lật lại ngắm nghía, tay mân mê các đường chỉ:</p>
+      <p>– Giá bây giờ em nó có còn cũng chả mặc được.</p>
+      <p>Mẹ Sơn yên lặng không nói gì. Nhưng đến lúc nói với Sơn lại để mặc áo, Sơn thấy mẹ hơi rơm rớm nước mắt.</p>
+      <p>Sơn đã mặc xong áo ấm áp: cả cái áo dạ chỉ đỏ lẫn áo vệ sinh, ngoài lại mặc phủ cái áo vải thâm dài. Sơn đứng trên giường trước mặt mẹ, đã quay đi quay lại ba, bốn lần để mẹ Sơn ngắm áo. Sau cùng, mẹ Sơn vuốt các tà áo cho phẳng phiu, rồi đẩy Sơn ra, bảo: – Thôi, con đi chơi.</p>
+      <p>Sơn xúng xính rủ chị ra chợ chơi. Nhà Sơn ở quay lưng vào chợ, cạnh một dãy nhà lá của những người nghèo khổ mà Sơn quen biết cả vì họ vẫn vào vay mượn ở nhà Sơn. Sơn biết lũ trẻ con các gia đình ấy chắc bây giờ đương đợi mình ở cuối chợ để đánh khăng, đánh đáo.</p>
+      <p>Không phải ngày phiên, nên chợ vắng không. Mấy cái quán chơ vơ lộng gió, rác bẩn rải rác lẫn với lá rụng của cây đề. Gió thổi mạnh làm Sơn thấy lạnh và cay mắt. Nhưng chân trời trong hơn mọi hôm, những làng ở xa Sơn thấy rõ như ở gần. Mặt đất rắn lại và nứt nẻ những đường nho nhỏ, kêu vang lên lanh tanh dưới nhịp guốc của hai chị em.</p>
+      <p>Đến cuối chợ đã thấy lũ trẻ đang quây quần chơi nghịch. Chúng nó thấy chị em Sơn đến đều lộ vẻ vui mừng, nhưng chúng vẫn đứng xa, không dám vồ vập. Chúng như biết cái phận nghèo hèn của chúng vậy, tuy Sơn và chị vẫn thân mật chơi đùa với, chứ không kiêu kỳ và khinh khỉnh như các em họ của Sơn.</p>
+      <p>Thằng Cúc, con Xuân, con Tý, con Túc sán gần giương đôi mắt ngắm bộ quần áo mới của Sơn. Sơn nhận thấy chúng ăn mặc không khác ngày thường, vẫn những bộ quần áo nâu bạc đã rách vá nhiều chỗ. Nhưng hôm nay, môi chúng nó tím lại và qua những chỗ áo rách, da thịt thâm đi. Mỗi cơn gió đến, chúng lại run lên, hàm răng đập vào nhau.</p>
+      <p>Thằng Xuân đến mó vào chiếc áo của Sơn, nó chưa thấy cái áo như thế bao giờ. Sơn lật vạt áo thâm, chìa áo vệ sinh và áo dạ cho cả bọn xem. Một đứa tắc lưỡi, nói:</p>
+      <p>– Cái áo này mặc thì nóng lắm. Chắc mua phải đến một đồng bạc chứ không ít, chúng mày nhỉ.</p>
+      <p>Đứa khác nói:</p>
+      <p>– Ngày trước thầy tao cũng có một cái áo như thế, về sau bán cho ông lý mất.</p>
+      <p>Con Túc ngây ngô giương đôi mắt lên hỏi Sơn:</p>
+      <p>– Cái này cậu mua tận Hà Nội phải không?</p>
+      <p>Sơn ưỡn ngực đáp:</p>
+      <p>– Ở Hà Nội, chứ ở đây làm gì có. Mẹ tôi còn hẹn mua cho tôi một cái áo len nhiều tiền hơn nữa kia.</p>
+      <p>Chị Lan bỗng giơ tay vẫy một con bé, từ nãy vẫn đứng dựa vào cột quán, gọi:</p>
+      <p>– Sao không lại đây, Hiên? Lại đây chơi với tôi.</p>
+      <p>Hiên là đứa con gái bên hàng xóm, bạn với Lan và Duyên. Sơn thấy chị gọi nó không lại, bước gần đến trông thấy con bé co ro đứng bên cột quán, chỉ mặc có manh áo rách tả tơi, hở cả lưng và tay. Chị Lan cũng đến hỏi:</p>
+      <p>– Sao áo của mày rách thế Hiên, áo lành đâu không mặc? Con bé bịu xịu nói:</p>
+      <p>– Hết áo rồi, chỉ còn cái này.</p>
+      <p>– Sao không bảo u mày may cho?</p>
+      <p>Sơn bây giờ mới chợt nhớ ra là mẹ cái Hiên rất nghèo, chỉ có nghề đi mò cua bắt ốc thì còn lấy đâu ra tiền mà sắm áo cho con nữa. Sơn thấy động lòng thương, cũng như ban sáng Sơn đã nhớ thương đến em Duyên ngày trước vẫn cùng nói với Hiên đùa nghịch ở vườn nhà. Một ý nghĩ tốt bỗng thoáng qua trong trí, Sơn lại gần chị thì thầm:</p>
+      <p>– Hay là chúng ta đem cho nó cái áo bông cũ, chị ạ.</p>
+      <p>– Ừ, phải đấy. Để chị về lấy.</p>
+      <p>Với lòng ngây thơ của tuổi trẻ, chị Lan hăm hở chạy về nhà lấy áo. Sơn đứng lặng yên đợi, trong lòng tự nhiên thấy ấm áp vui vui.</p>
+      <p>Nhưng cái vui của Sơn không được bao lâu. Bữa cơm về tới nhà, Sơn không thấy mẹ đâu cả, hỏi vú già:</p>
+      <p>– Mợ tôi đi đâu hở vú?</p>
+      <p>– Chị Lan và cậu cứ ăn cơm trước đi. Mợ còn đi ăn giỗ đến trưa mới về.</p>
+      <p>Rồi vú già nhìn rõ vào mặt Sơn, hỏi:</p>
+      <p>– Có phải cậu đem cho con Hiên cái áo bông cũ phải không?</p>
+      <p>Sơn ngạc nhiên đáp:</p>
+      <p>– Phải. Nhưng sao vú biết?</p>
+      <p>– Con Sinh nó nói với tôi đấy – Sinh là đứa em họ của Sơn, vẫn hay nói hỗn với vú già, nên vú ấy ghét – Nó lại còn bảo hễ mợ về nó sẽ sang mách với mợ cho cậu phải đòn.</p>
+      <p>Sơn lo quá, sắp ăn, bỏ đũa đứng dậy, van:</p>
+      <p>– Thế bây giờ làm thế nào, hở vú? Mợ tôi biết thì chết.</p>
+      <p>– Ai bảo cậu dại dột đem cho áo nó? Bây giờ cậu sang bảo cái Hiên trả lại thì không việc gì.</p>
+      <p>Sơn vội vàng ra chợ tìm cái Hiên nhưng không thấy con bé ở đó. Đến nhà cũng không thấy ai, mẹ nó cũng không có nhà. Hai chị em lo sợ, đi ra cánh đồng tìm cũng không gặp. Gần đến buổi chiều, Sơn và chị chưa đòi được áo. Lan trách em:</p>
+      <p>– Sao em lại nghĩ đem cho nó cái áo ấy, có phải bây giờ me mắng chết không.</p>
+      <p>– Ai bảo chị về lấy? Nếu chị không về lấy thì em biết đâu.</p>
+      <p>Chị Lan đấu dịu:</p>
+      <p>– Thôi, bây giờ phải về nhà vậy chứ biết làm thế nào.</p>
+      <p>– Nhưng mà em sợ lắm.</p>
+      <p>Chị Lan thở dài, nắm chặt lấy tay em, an ủi:</p>
+      <p>– Đằng nào cũng phải về cơ mà. May ra có lẽ me không mắng đâu.</p>
+      <p>Hai chị em lo lắng dắt nhau lẻn về nhà. Đến cửa, Sơn nghe thấy tiếng mẹ nói ở trong với tiếng một người đàn bà khác nữa, nghe quen quen. Lan dắt tay Sơn khép nép bước vào, hai chị em ngạc nhiên đứng sững ra khi thấy mẹ con Hiên đang ngồi ở cái ghế con trên đất trước mặt mẹ, tay cầm cái áo bông cũ.</p>
+      <p>Thấy hai con về, mẹ Sơn ngẩng lên nhìn rồi nghiêm nghị bảo:</p>
+      <p>– Kìa, hai cô cậu đã về kia. Thế áo bông của tôi đâu mà tự tiện đem cho đấy?</p>
+      <p>Sơn sợ hãi, cúi đầu lặng im, nép vào sau lưng chị. Bác Hiên vừa cười vừa nói:</p>
+      <p>– Tôi về thấy cháu nó mặc cái áo bông tôi hỏi ngay. Nó bảo của cậu Sơn cho nó. Tôi biết cậu ở đây đùa, nên tôi phải vội vàng đem lại đây trả mợ. Thôi, bây giờ, xin phép mợ tôi về.</p>
+      <p>Mẹ Sơn hỏi:</p>
+      <p>– Con Hiên không có cái áo à?</p>
+      <p>– Bẩm nhà cháu độ này khổ lắm. Chẳng để dành được đồng nào may áo cho con cả. Thành thử vẫn cái áo từ năm ngoái nó mặc mãi.</p>
+      <p>Mẹ Sơn với cái âu đồng, lấy tiền đưa cho bác Hiên:</p>
+      <p>– Đây, tôi cho mượn năm hào cầm về mà may áo cho con.</p>
+      <p>Khi bác Hiên bước ra khỏi cửa, mẹ Sơn vẫy hai con lại gần, rồi âu yếm ôm vào lòng mà bảo:</p>
+      <p>– Hai con tôi quý quá, dám tự do lấy áo đem cho người ta không sợ mẹ mắng ư?</p>
+      <p class="read-note">Nguồn văn bản: truyện ngắn <i>Gió lạnh đầu mùa</i> (Thạch Lam, trích tập truyện <i>Gió lạnh đầu mùa</i>, 1937) — đưa TRỌN TRUYỆN như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại thohay.vn (đăng trọn truyện, giới thiệu theo sách Kết nối tri thức).</p>
+    </div>
+  </div>
   <div class="quote">"Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước."<span class="src">— Câu mở đầu truyện "Gió lạnh đầu mùa", Thạch Lam</span></div>
   <ul>
     <li>Buổi sáng đầu đông, chị em <b>Sơn</b> được mặc áo ấm mới, ra chợ chơi cùng các bạn nhỏ con nhà nghèo trong xóm.</li>
@@ -401,6 +863,29 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </ul>
 
   <div class="txttl">📖 Văn bản 3: Con chào mào <span class="au">— Mai Văn Phấn (thơ)</span></div>
+  <div class="readbox" id="rb8">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Con chào mào đốm trắng mũ đỏ
+Hót trên cây cao chót vót
+triu… uýt… huýt… tu hìu…</p>
+      <p class="tho">Tôi vội vẽ chiếc lồng trong ý nghĩ
+Sợ chim bay đi
+Vừa vẽ xong nó cất cánh
+Tôi ôm khung nắng, khung gió
+Nhành cây xanh hối hả đuổi theo
+Trong vô tăm tích tôi nghĩ
+Lát nữa chào mào sẽ mổ những con sâu
+Trái cây chín đỏ
+Từng giọt nước
+Thanh sạch của tôi
+triu… uýt… huýt… tu hìu…</p>
+      <p class="tho">Chẳng cần chim lại bay về
+Tiếng hót ấy giờ tôi nghe rất rõ.</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Con chào mào</i> (Mai Văn Phấn) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại thohay.vn và các trang trích dẫn SGK (hoc247.net, docx.com.vn).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/con-chao-mao.webp" alt="Chim chào mào đậu trên cành cây buổi sớm" loading="lazy">
     <figcaption>🐦 <b>Con chào mào</b> — chú chim mào đỏ rực đậu trên cành cây trong buổi sáng trong lành. (Tranh minh họa do AI vẽ)</figcaption>
@@ -479,6 +964,25 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </div>
 
   <div class="txttl">📖 Văn bản 1: Chùm ca dao về quê hương đất nước <span class="au">— Ca dao dân gian</span></div>
+  <div class="readbox open" id="rb9">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Thu gọn ▴</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Gió đưa cành trúc la đà,
+Tiếng chuông Trấn Võ, canh gà Thọ Xương.
+Mịt mù khói tỏa ngàn sương,
+Nhịp chày Yên Thái, mặt gương Tây Hồ.</p>
+      <p class="tho">Đường lên xứ Lạng bao xa,
+Cách một trái núi với ba quãng đồng.
+Ai ơi đứng lại mà trông,
+Kìa núi thành Lạng, kìa sông Tam Cờ.</p>
+      <p class="tho">Đò từ Đông Ba, đò qua Đập Đá,
+Đò từ Vĩ Dạ, thẳng ngã Ba Sình.
+Lờ đờ bóng ngả trăng chênh,
+Tiếng hò xa vọng, nhắn tình nước non.</p>
+      <p class="read-note">Nguồn văn bản: chùm ca dao dân gian về quê hương đất nước (3 bài) — đưa TRỌN cả 3 bài như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại vietjack.com (soạn văn 6 KNTT).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/que-huong-luy-tre.webp" alt="Làng quê Việt Nam với lũy tre và đồng lúa" loading="lazy">
     <figcaption>🌾 <b>Quê hương trong ca dao</b> — lũy tre, đồng lúa, cánh diều: những hình ảnh thân thương nhất của làng quê Việt Nam. (Tranh minh họa do AI vẽ)</figcaption>
@@ -490,6 +994,41 @@ Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuy�
   </ul>
 
   <div class="txttl">📖 Văn bản 2: Chuyện cổ nước mình <span class="au">— Lâm Thị Mỹ Dạ (thơ lục bát)</span></div>
+  <div class="readbox" id="rb10">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Tôi yêu truyện cổ nước tôi
+Vừa nhân hậu lại tuyệt vời sâu xa
+Thương người rồi mới thương ta
+Yêu nhau dù mấy cách xa cũng tìm
+Ở hiền thì lại gặp hiền
+Người ngay thì gặp người tiên độ trì
+Mang theo truyện cổ tôi đi
+Nghe trong cuộc sống thầm thì tiếng xưa
+Vàng cơn nắng, trắng cơn mưa
+Con sông chảy có rặng dừa nghiêng soi
+Đời cha ông với đời tôi
+Như con sông với chân trời đã xa
+Chỉ còn truyện cổ thiết tha
+Cho tôi nhận mặt ông cha của mình
+Rất công bằng, rất thông minh
+Vừa độ lượng lại đa tình, đa mang.
+Thị thơm thì giấu người thơm
+Chăm làm thì được áo cơm cửa nhà
+Đẽo cày theo ý người ta
+Sẽ thành khúc gỗ chẳng ra việc gì
+Tôi nghe truyện cổ thầm thì
+Lời cha ông dạy cũng vì đời sau.
+Đậm đà cái tích trầu cau
+Miếng trầu đỏ thắm nặng sâu tình người.
+Sẽ đi qua cuộc đời tôi
+Bấy nhiêu thời nữa chuyển dời xa xôi.
+Nhưng bao truyện cổ trên đời
+Vẫn luôn mới mẻ rạng ngời lương tâm.</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Chuyện cổ nước mình</i> (Lâm Thị Mỹ Dạ) — đưa TRỌN BÀI theo bản lớp 6 như trong SGK Ngữ văn 6 Kết nối tri thức (bản này có thêm khổ cuối so với bản Tập đọc lớp 4; câu “Người ngay thì gặp người tiên độ trì” cũng khác bản lớp 4). Đối chiếu tại thohay.vn (bản lớp 6/KNTT, kèm phần soạn bài theo SGK tr. 95).</p>
+    </div>
+  </div>
   <div class="quote">"Tôi yêu truyện cổ nước tôi
 Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu bài thơ "Chuyện cổ nước mình", Lâm Thị Mỹ Dạ</span></div>
   <ul>
@@ -499,6 +1038,43 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   </ul>
 
   <div class="txttl">📖 Văn bản 3: Cây tre Việt Nam <span class="au">— Thép Mới (tùy bút)</span></div>
+  <div class="readbox" id="rb11">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Cây tre là người bạn thân của nông dân Việt Nam, bạn thân của nhân dân Việt Nam.</p>
+      <p>Nước Việt Nam xanh muôn ngàn cây lá khác nhau. Cây nào cũng đẹp, cây nào cũng quý, nhưng thân thuộc nhất vẫn là tre nứa. Tre Đồng Nai, nứa Việt Bắc, tre ngút ngàn Điện Biên Phủ, luỹ tre thân mật làng tôi... đâu đâu ta cũng có nứa tre làm bạn.</p>
+      <p>Tre, nứa, trúc, mai, vầu mấy chục loại khác nhau, nhưng cùng một mầm non măng mọc thẳng. Vào đâu tre cũng sống, ở đâu tre cũng xanh tốt. Dáng tre vươn mộc mạc, màu tre tươi nhũn nhặn. Rồi tre lớn lên, cứng cáp, dẻo dai, vững chắc. Tre trông thanh cao, giản dị, chí khí như người.</p>
+      <p>Nhà thơ đã có lần ca ngợi:</p>
+      <p class="tho">Bóng tre trùm mát rượi.</p>
+      <p>Bóng tre trùm lên âu yếm làng, bản, xóm, thôn. Dưới bóng tre của ngàn xưa, thấp thoáng mái đình mái chùa cổ kính. Dưới bóng tre xanh, ta gìn giữ một nền văn hoá lâu đời. Dưới bóng tre xanh, đã từ lâu đời, người dân cày Việt Nam dựng nhà, dựng cửa, vỡ ruộng, khai hoang. Tre ăn ở với người, đời đời, kiếp kiếp. Tre, nứa, mai, vầu giúp người trăm nghìn công việc khác nhau. Tre là cánh tay của người nông dân:</p>
+      <p class="tho">Cánh đồng ta năm đôi ba vụ
+Tre với người vất vả quanh năm.</p>
+      <p>Tre với người như thế đã mấy nghìn năm. Một thế kỉ “văn minh”, “khai hoá” của thực dân cũng không làm ra được một tấc sắt. Tre vẫn phải còn vất vả mãi với người. Cối xay tre nặng nề quay, từ nghìn đời nay, xay nắm thóc.</p>
+      <p>Trong mỗi gia đình nông dân Việt Nam, tre là người nhà, tre khăng khít với đời sống hằng ngày.</p>
+      <p>Giang chẻ lạt, buộc mềm, khít chặt như những mối tình quê cái thuở ban đầu thường nỉ non dưới bóng tre, bóng nứa:</p>
+      <p class="tho">Lạt này gói bánh chưng xanh
+Cho mai lấy trúc, cho anh lấy nàng...</p>
+      <p>Tre còn là nguồn vui duy nhất của tuổi thơ. Các em bé còn có đồ chơi gì nữa ngoài mấy que chuyền đánh chắt bằng tre.</p>
+      <p>Tuổi già hút thuốc làm vui. Với chiếc điếu cày tre là khoan khoái. Nhớ lại vụ mùa trước, nghĩ đến những mùa sau, hay nghĩ đến một ngày mai sẽ khác...</p>
+      <p>Suốt một đời người, từ thuở lọt lòng trong chiếc nôi tre, đến khi nhắm mắt xuôi tay, nằm trên giường tre, tre với mình, sống có nhau, chết có nhau, chung thuỷ.</p>
+      <p>Như tre mọc thẳng, con người không chịu khuất.</p>
+      <p>Người xưa có câu: “Trúc dẫu cháy, đốt ngay vẫn thẳng”. Tre là thẳng thắn, bất khuất! Ta kháng chiến, tre lại là đồng chí chiến đấu của ta. Tre cùng ta làm ăn, lại vì ta mà cùng ta đánh giặc.</p>
+      <p>Buổi đầu, không một tấc sắt trong tay, tre là tất cả, tre là vũ khí. Muôn ngàn đời biết ơn chiếc gậy tầm vông đã dựng nên thành đồng Tổ quốc! Và sông Hồng bất khuất có cái chông tre.</p>
+      <p>Gậy tre, chông tre chống lại sắt thép của quân thù. Tre xung phong vào xe tăng, đại bác. Tre giữ làng, giữ nước, giữ mái nhà tranh, giữ đồng lúa chín. Tre hi sinh để bảo vệ con người. Tre, anh hùng lao động! Tre, anh hùng chiến đấu!</p>
+      <p>(...) Nhạc của trúc, nhạc của tre là khúc nhạc của đồng quê. Nhớ một buổi trưa nào, nồm nam cơn gió thổi, khóm tre làng rung lên man mác khúc nhạc đồng quê.</p>
+      <p class="tho">Diều bay, diều lá tre bay lưng trời...
+Sáo tre, sáo trúc vang lưng trời...
+Gió đưa tiếng sáo, gió nâng cánh diều.</p>
+      <p>Trời cao lồng lộng, đồng ruộng mênh mông hãy lắng nghe tiếng hát giữa trời cao của trúc, của tre...</p>
+      <p>“Tre già măng mọc”. Măng mọc trên phù hiệu ở ngực thiếu nhi Việt Nam, lứa măng non của nước Việt Nam Dân chủ Cộng hoà.</p>
+      <p>Các em, các em rồi đây lớn lên, sẽ quen dần với sắt, thép và xi măng cốt sắt.</p>
+      <p>Nhưng, nứa, tre sẽ còn mãi với các em, còn mãi với dân tộc Việt Nam, chia bùi sẻ ngọt của những ngày mai tươi sáng, còn mãi với chúng ta, vui hạnh phúc, hoà bình.</p>
+      <p>Ngày mai, trên đất nước này, sắt, thép có thể nhiều hơn tre, nứa. Nhưng, trên đường trường ta dân bước, tre xanh vẫn là bóng mát. Tre vẫn mang khúc nhạc tâm tình. Tre sẽ càng tươi những cổng chào thắng lợi. Những chiếc đu tre vẫn dướn lên bay bổng. Tiếng sáo diều tre cao vút mãi.</p>
+      <p>Cây tre Việt Nam! Cây tre xanh, nhũn nhặn, ngay thẳng, thuỷ chung, can đảm. Cây tre mang những đức tính của người hiền là tượng trưng cao quý của dân tộc Việt Nam.</p>
+      <p class="read-note">Nguồn văn bản: bài kí <i>Cây tre Việt Nam</i> (Thép Mới, 1955) — đưa TRỌN VĂN như in trong SGK (kể cả dấu (…) có sẵn trong sách sau đoạn “Tre, anh hùng chiến đấu!”). Đối chiếu tại giaibaitap123.com (bản in SGK Ngữ văn 6); bố cục 3 phần của bản này khớp bài giảng KNTT.</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/cay-tre-viet-nam.webp" alt="Lũy tre xanh vươn thẳng" loading="lazy">
     <figcaption>🎋 <b>Cây tre Việt Nam</b> — tre mọc thẳng, mọc thành lũy, tượng trưng cho sức sống và tinh thần đoàn kết của người Việt. (Tranh minh họa do AI vẽ)</figcaption>
@@ -589,7 +1165,25 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   </div>
 
   <div class="txttl">📖 Văn bản 1: Cô Tô <span class="au">— Nguyễn Tuân (kí)</span></div>
-  <div class="quote">"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo và sáng sủa."<span class="src">— Trích văn bản "Cô Tô", Nguyễn Tuân</span></div>
+  <div class="readbox open" id="rb12">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Thu gọn ▴</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Hình như gió bão chờ chúng tôi lọt hết vào trận địa cánh cung bãi cát, rồi mới tăng thêm hỏa lực của gió. Mỗi viên cát bắn vào má vào gáy lúc này buốt như một viên đạn mũi kim. Gió bắn rát từng chập. Chốc chốc gió ngừng trong tích tắc như để thay băng đạn, thì đầu cổ lại bật lên khi gió giật. Gió liên thanh quạt lia lịa vào gối vào ngang thắt lưng, đẩy cả người chạy theo luồng cát mà bạt ra phía sát bờ biển của một bãi dài ba ngàn thước, rộng chừng trăm thước. Sóng cát đánh ra khơi, để bọt sóng vào, trời đất trắng mù mù toàn bãi như là kẻ thù đã bắt đầu thả hơi ngạt. Sóng thúc lẫn nhau mà vào bờ âm âm rền rền như vua thủy cho các loài thủy tộc rung thêm trống trận.</p>
+      <p class="gap">(…)</p>
+      <p>Cuối cùng, bàn tay gió, như một anh chơi ngang phá đám đã gạt phăng hết chúng vào bất cứ con sóng đứt chân nào đổ bờ.</p>
+      <p>Về tới đảo ủy mới biết rằng tất cả các đồng chí đã chia nhau về hết các cơ sở để chống bão.</p>
+      <p>Cuối canh một sang canh hai, bão thật sự bắt đầu. Gác đảo ủy nhiều khuôn cửa kính bị gió vây và dồn, bung hết. Kính bị thứ gió cấp 11 ép, vỡ tung. Tiếng gió càng ghê rợn mỗi khi nó thốc vào, vuốt qua những gờ kính nhọn còn dắt ở ô cửa vỡ. Nó rít lên rú lên như cái kiểu người ta vẫn thường gọi là quỷ khốc thần linh.</p>
+      <p>Phải coi như đây là một cuộc ăn vạ của gió, gió ập vào nhà mà đòi hôi của. Cái gác bê-tông mà rung lên như đài chỉ huy một con tàu đi trên sóng cuồng. Càng về gần sáng, gió đông bắc càng giật, đợt nào cũng là một đợt quỷ sứ ma vương ùa tới mà đập gõ hàng ngàn vạn cái thúng rách, mà nện vào ngàn vạn cái mâm đồng nát. Những lúc này thì cá dưới biển đang chạy đi đâu? Và dây thừng và cột buồm của thuyền Cô Tô có chịu đựng nổi cho hết trận bão không? Hòn ngói, mái tranh các xóm trên quần đảo có đứng được đầu gió này không? (…)</p>
+      <p>Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo, sáng sủa. Từ khi có vịnh Bắc Bộ và từ khi quần đảo Cô Tô mang lấy dấu hiệu của sự sống con người thì, sau mỗi lần dông bão, bao giờ bầu trời Cô Tô cũng trong sáng như vậy. Cây trên núi đảo lại thêm xanh mượt, nước biển lại lam biếc đậm đà hơn hết cả mọi khi, và cát lại vàng giòn hơn nữa. Và nếu cá có vắng tăm biệt tích trong ngày động bão, thì nay lưới càng thêm nặng mẻ cá giã đôi. Chúng tôi leo dốc lên đồn Cô Tô hỏi thăm sức khoẻ anh em bộ binh và hải quân cùng đóng sát nhau trong cái đồn khố xanh cũ ấy. Trèo lên nóc đồn, nhìn ra bao la Thái Bình Dương bốn phương tám hướng, quay gót 180 độ mà ngắm cả toàn cảnh đảo Cô Tô. Nhìn rõ cả Tô Bắc, Tô Trung, Tô Nam, mà càng thấy yêu mến hòn đảo như bất cứ người chài nào đã từng đẻ ra và lớn lên theo mùa sóng ở đây.</p>
+      <p>…Mặt trời lại rọi lên ngày thứ sáu của tôi trên đảo Thanh Luân một cách thật quá là đầy đủ. Tôi dậy từ canh tư. Còn tối đất, cố đi mãi trên đá đầu sư, ra thấu đầu mũi đảo. Và ngồi đó rình mặt trời lên. Điều tôi dự đoán, thật là không sai. Sau trận bão, chân trời, ngấn bể sạch như tấm kính lau hết mây hết bụi. Mặt trời nhú lên dần dần, rồi lên cho kì hết. Tròn trĩnh phúc hậu như lòng đỏ một quả trứng thiên nhiên đầy đặn. Quả trứng hồng hào thăm thẳm và đường bệ đặt lên một mâm bạc đường kính mâm rộng bằng cả một cái chân trời màu ngọc trai nước biển ửng hồng. Y như một mâm lễ phẩm tiến ra từ trong bình minh để mừng cho sự trường thọ của tất cả những người chài lưới trên muôn thuở biển Đông. Vài chiếc nhạn mùa thu chao đi chao lại trên mâm bể sáng dần lên cái chất bạc nén. Một con hải âu bay ngang, là là nhịp cánh…</p>
+      <p>Khi mặt trời đã lên một vài con sào, tức là lúc nó trở về sự bình dị hằng ngày, thì tôi đang múc gầu nước giếng dội lên đầu lên cổ lên vai lên lưng, nghĩa là tôi cũng đang đi tắm như mọi người lao động bình thường đang tắm quanh giếng. Cái giếng nước ngọt ở ria một hòn đảo giữa bể, cái sinh hoạt của nó vui như một cái bến và đậm đà mát nhẹ hơn mọi cái chợ trong đất liền.</p>
+      <p>Cái giếng nước ngọt đảo Thanh Luân sớm nay có không biết bao nhiêu là người đến gánh và múc. Múc nước giếng vào thùng gỗ, vào những cong những ang gốm màu da lươn. Lòng giếng vẫn còn rớt lại vài cái lá cam lá quýt của trận bão vừa rồi quăng vào. Chỗ bãi đá nuôi sáu mươi vạn con hải sâm ngoài kia, bao nhiêu là thuyền của hợp tác xã đang mở nắp sạp đổ nước ngọt vào. Sau trận bão, hôm nay hợp tác xã Bắc Loan Đầu cho mười tám thuyền lớn nhỏ cùng ra khơi đánh cá hồng. Anh hùng Châu Hoà Mãn cùng bốn bạn xã viên đi chung một thuyền. Anh quẩy nước bên bờ giếng, tôi né ra một bên. Anh quẩy mười lăm gánh cho thuyền anh: “Đi ra khơi, xa lắm mà, có khi mười ngày mới về. Nước ngọt cho vào sạp, chỉ để uống. Vo gạo thổi cơm cũng không được lấy nước ngọt. Vo gạo bằng nước bể thôi”.</p>
+      <p>Từ đoàn thuyền sắp ra khơi đến cái giếng ngọt, thùng và cong và gánh nối tiếp đi đi về về. Trông chị Châu Hoà Mãn địu con, thấy nó dịu dàng yên tâm như cái hình ảnh biển cả là mẹ hiền mớm cá cho lũ con lành.</p>
+      <p class="read-note">Nguồn văn bản: trích phần cuối bài kí <i>Cô Tô</i> (Nguyễn Tuân) như trong SGK Ngữ văn 6 Kết nối tri thức. Phần sau bão (ngày thứ năm, mặt trời mọc, giếng nước) đối chiếu tại thohay.vn; hai đoạn tả cơn bão ở đầu văn bản đối chiếu từ các trích dẫn nguyên văn SGK (hoc24.vn, xaydungso.vn) — đoạn chuyển cảnh giữa hai đoạn bão chưa có nguồn đăng liền mạch nên đánh dấu (…), bé đọc thêm trong SGK giấy.</p>
+    </div>
+  </div>
+  <div class="quote">"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo, sáng sủa."<span class="src">— Trích văn bản "Cô Tô", Nguyễn Tuân</span></div>
   <ul>
     <li>Văn bản ghi lại cảnh đảo Cô Tô (Quảng Ninh) <b>sau trận bão</b>: trời quang, biển trong, mặt trời mọc rực rỡ trên mặt biển như một bức tranh.</li>
     <li>Tác giả tả kĩ <b>đời sống lao động</b> trên đảo: ngư dân gánh nước ở giếng nước ngọt, chuẩn bị ra khơi, chợ cá nhộn nhịp — đảo xa mà đầy sức sống.</li>
@@ -597,13 +1191,105 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   </ul>
 
   <div class="txttl">📖 Văn bản 2: Hang Én <span class="au">— Hà My (du kí)</span></div>
+  <div class="readbox" id="rb13">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Đường tới hang Én phải xuyên qua rừng nguyên sinh, vượt nhiều đoạn dốc cao, ngoằn ngoèo, lội khoảng ba mươi quãng suối và sông nên chỉ có một cách di chuyển: đi bộ. Tờ-réc-king hang Én, đối với tôi là một hành trình khám phá thú vị.</p>
+      <p>Hành trình ấy khởi đầu từ con dốc Ba Giàn dài gần 2 km. Dốc cao và gập ghềnh. Đường mòn vừa một người đi, khá trơn, nhiều chặng có cây đổ chắn ngang hoặc những vòm dây leo giăng kín. Rất nhiều cây cổ thụ tán cao vút, thân đầy các loại tầm gửi, có cả phong lan đang nở hoa. Còn có sên, vắt, nhiều loài côn trùng và chim chóc tôi không biết tên… Cảm giác về một cuộc “ngược dòng” tìm về với thuở sơ khai đến với tôi ngay khi len lỏi qua cánh rừng nguyên sinh này.</p>
+      <p>Đi hết dốc Ba Giàn là tới thung lũng Rào Thương, được bao quanh bởi con suối cùng tên. Con đường qua thung lũng trải theo tiếng suối róc rách, thảm cỏ, rồi cây cối rậm rạp, lúp xúp, từ đó vẳng ra tiếng chim kêu đủ giọng. Thích nhất là khi lội qua suối. Nước trong vắt, mát lạnh, thấy cả làn đá cuội nơi đáy suối. Nhiều quãng suối còn nhìn rõ đàn cá bơi liêu xiêu giữa dòng nước chảy xiết như những chiếc lá trúc khô. Yêu vô cùng những đàn bướm đủ màu – vàng, trắng, xanh đen – gặp ven đường, ven suối. Chúng đậu thành từng vạt như đám hoa lá ai ngẫu hứng xếp trên mặt đất. Thấy động, chúng bay lên, lượn vòng, quấn quýt cả vào chân người. Bước đi cùng đàn bướm, ngắm những cánh hồ điệp mong manh giữa không gian trong trẻo, im vắng, tôi ngỡ mình đang đi trong một giấc mộng đẹp.</p>
+      <p>Hang Én giống như cái tổ khổng lồ và an toàn mà Mẹ Thiên Nhiên ban tặng cho con người, với không gian trú ẩn, nước, không khí, ánh sáng,… Hang có ba cửa lớn: cửa trước có hai lớp, vòm cửa ngoài dẫn vào một “sảnh chờ” rộng rãi; cửa trong lại thấp hẹp, sát ngay dải sông ngầm khá rộng, sâu quá thắt lưng. Muốn vào hang, phải lội qua sông; rồi trèo ngược vách đá hiểm trở, cao mấy chục mét. Đứng trên đỉnh dốc sẽ nhìn thấy lòng hang xa tít phía dưới, được bao bọc bằng một quãng sông rộng, nước sâu. Vịn đá lần xuống chân dốc, chúng tôi ngồi bè qua sông để đến lòng hang chính.</p>
+      <p>Lòng hang Én phía trước, nơi rộng nhất khoảng 110 m, có thể chứa được hàng trăm người. Trần hang đẹp như mái vòm của một thánh đường, nơi cao nhất tương đương với toà nhà bốn mươi tầng (120 m). Cửa thứ hai thông lên mặt đất như cái giếng trời khổng lồ đón khí trời và ánh sáng. Quãng sông ngầm đỗ lại êm đềm trước thềm hang chính, len lỏi quanh các hang phụ chừng 4 km, rồi đổ ra cửa hang sau. Ở hang chính, bờ sông cát mịn thoải dần, nước mát lạnh, trong veo, đáy toàn sỏi, đá đã bào nhẵn tạo thành một bãi tắm thiên nhiên hoàn hảo. Nghe nói thời xa xưa, tộc người A-rem đã sống trong hang Én. Trứng chim từng là một nguồn thực phẩm của họ. Giờ họ đã rời ra ngoài sống thành bản nhưng vẫn còn giữ lễ hội “ăn én”. Cũng nghe kể rằng, trong bản A-rem vẫn còn một vài người có bàn chân mỏng, ngón dẹt – dấu tích của bao nhiêu thế hệ leo vách đá, trần hang cao hàng trăm mét.</p>
+      <p>Trong hang Én, hàng vạn con chim én vẫn hồn nhiên cư ngụ và chưa phải biết sợ con người. Bốn vách hang, trần hang – nơi nào cũng dày đặc chim én. Cộng đồng én thoải mái sống “cuộc đời” của chúng, không mảy may để ý đến sự hiện diện của nhóm du khách. Én bố mẹ tấp nập đi, về, mải mốt mớm mồi cho con; én anh chị rập rờn bay đôi; én ra ràng chấp chới vỗ cánh bên rìa hốc đá… Nhiều bạn én thiếu niên ngủ nướng, say giấc ngay trên những mỏm đá thấp dọc lối đi. Nếu đặt lên vai, bạn sẽ rúc vào tóc hoặc đậu trên đầu mình để… ngủ tiếp! Bữa tối, một chú én tò mò sa xuống bàn ăn, cánh bị thương không bay lên được. Khi mắt đã quen với ánh đèn, nó ung dung mổ cơm ăn trong lòng tay tôi. Sáng hôm sau, tôi vẫn thấy nó thản nhiên đi lại quanh lều với một bên cánh còn hơi sã xuống. Có lẽ chỉ ngày mai thôi, đôi cánh ấy sẽ lành hẳn.</p>
+      <p>Vòng ra sau hang Én là bạn có thể bước chầm chậm qua vài trăm triệu năm. Bạn sẽ thấy hàng trăm dải đá san hô uốn lượn thành bao nhiêu tầng, bậc lớn nhỏ, đọng đầy nước nguồn trong vắt tựa như những thửa ruộng bậc thang tuyệt đẹp vào mùa nước đổ. Bạn sẽ thấy những “thương hải tang điền” còn hiện hữu trên dải hoá thạch sò, ốc, san hô,… nơi vách đá. Rồi nhũ đá, măng đá, ngọc động giăng đầy bên những vách núi, sàn hang,… Hô-oát Lim-bơ (Howard Limbert), người tìm ra hơn 500 hang động ở Việt Nam, trong đó có hang Sơn Đoòng lớn nhất thế giới, khẳng định rằng: mỗi xen-ti-mét đá kia phải qua cả trăm triệu năm bào mòn hay bồi đắp mới nên. Và tất cả măng đá, nhũ đá, ngọc động ấy vẫn “sống” trong hành trình tạo tác của tự nhiên.</p>
+      <p class="gap">(… — phần tiếp theo em đọc trong SGK giấy.)</p>
+      <p>Khi bóng tối trùm kín lòng hang Én, thì khoảng trời phía trên cửa hang thứ hai vẫn sáng rất lâu nên có thể nhìn rõ từng đàn én chao liệng không dứt. Đàn én cuối cùng bay về hang khi nền trời đã sẫm hẳn. Tôi ngồi bệt trên cát, trước mặt là khoảng sông lấp lánh, trên cao là trần hang tối thẫm và một khoảng trời thăm thẳm đầy sao. Tứ bề tiếng chim líu ríu như ru nhau và ru người. Nửa đêm thức dậy, vẫn nghe tiếng chim chiu chít, tiếng nước chảy âm âm – và cả tiếng phân chim rơi lộp độp trên mái lều.</p>
+      <p>Năm giờ, đã thấy sáng bừng cả lòng hang, tưởng người ta bật điện – hoá ra luồng nắng ban mai vàng rỡ rọi chéo từ khoảng trời cao xuống. Trên mặt sông, nắng hoà với hơi nước mỏng, tan dần thành lãng đãng khói mơ. Ai nấy nhoài ra khỏi lều, chân trần chạy quanh sông, rồi ngồi ngay bên bờ cát vục nước rửa mặt, hít căng lồng ngực thứ không khí mát lành, tinh khiết…</p>
+      <p>(Theo Hà My, Trang thông tin điện tử Sở Du lịch Quảng Bình, ngày 14/10/2020)</p>
+      <p class="read-note">Nguồn văn bản: bài du kí <i>Hang Én</i> (Hà My) như trong SGK Ngữ văn 6 Kết nối tri thức. Đối chiếu tại tuyensinh247.com (đăng gần trọn văn bản kèm chú thích và dòng nguồn của SGK). Một chỗ nguồn đăng lược bằng dấu […] đã được đánh dấu (…) ở trên.</p>
+    </div>
+  </div>
   <ul>
     <li>Văn bản kể lại hành trình khám phá <b>Hang Én</b> — một hang động khổng lồ trong Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình), nơi có hàng vạn con <span class="hl">chim én</span> làm tổ.</li>
-    <li>Hang rộng lớn đến mức bên trong có cả <b>dòng sông ngầm, bãi cát và một khu rừng</b> đón nắng qua cửa hang; ánh sáng chiếu xuống tạo nên cảnh tượng vừa hùng vĩ vừa bí ẩn.</li>
+    <li>Hang rộng lớn đến mức bên trong có cả <b>dòng sông ngầm và bãi cát</b> rộng đón nắng qua cửa hang; ánh sáng chiếu xuống tạo nên cảnh tượng vừa hùng vĩ vừa bí ẩn.</li>
     <li>Đọc văn bản, em học được cách <b>quan sát và ghi lại</b> một chuyến đi: đi đến đâu, thấy gì, cảm xúc ra sao — đó chính là thể <span class="hl2">du kí</span>.</li>
   </ul>
 
   <div class="txttl">📖 Văn bản 3: Cửu Long Giang ta ơi <span class="au">— Nguyên Hồng (thơ)</span></div>
+  <div class="readbox" id="rb14">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p class="tho">Ngày xưa ta đi học
+Mười tuổi thơ nghe gió thổi mùa thu
+Mắt ngẩng lên trông bản đồ rực rỡ
+Như đồng hoa bỗng gặp một đêm mơ.
+Bản đồ mới tường vôi cũng mới
+Thầy giáo lớn sao, thước bảng cũng lớn sao
+Gậy thần tiên và cánh tay đạo sĩ
+Đưa ta đi sông núi tuyệt vời.</p>
+      <p class="tho">Tim đập mạnh hồn ngây không sao hiểu
+Mê Kông sông dài hơn hai ngàn cây số mênh mông
+Nguồn tự Trung Hoa có Vạn Lý Trường Thành
+Có Hy Mã lạp sơn, Động Đình hồ, Tây du, Thuỷ hử</p>
+      <p class="tho">Mê Kông chảy
+Cây lao đá đổ
+Ngẫm nghĩ voi đi
+Thác Khôn cười trắng xoá
+Lan hoang dứa mật thông nhựa lên hương
+Những trưa hè ngun ngút nắng Trường Sơn
+Rừng Lào – Miên rộng quá
+Dân Lào – Miên mến yêu
+Xôi nếp nước trong sẵn sàng chia bạn đói.</p>
+      <p class="tho">Ta đi… bản đồ không còn nhìn nữa…
+Sáng trời thu lại còn bướm với trời xanh
+Trúc đào tươi chim khuyên rỉa cánh sương đọng long lanh
+Ta cởi áo lội dòng sông ta hát
+Mê Kông chảy Mê Kông cũng hát
+Rừng núi lùi xa
+Đất phẳng thở chan hoà.</p>
+      <p class="tho">Sóng toả chân trời buồm trắng.</p>
+      <p class="tho">Nam Bộ
+Nam Bộ
+Chín nhánh Mê Kông phù sa nổi váng
+Ruộng bãi Mê Kông trồng không hết lúa
+Bến nước Mê Kông tôm cá ngập thuyền
+Sầu riêng thơm dậy đất Thủ Biên
+Suối mát dội trong lòng dừa trĩu quả.</p>
+      <p class="tho">Mê Kông quặn đẻ
+Chín nhánh sông vàng
+Nông dân Nam Bộ gối đất nằm sương
+Mồ hôi vã bãi lau thành đồng lúa
+Thành những tên đọc lên nước mắt đều muốn ứa
+Những Hà Tiên, Gia Định, Long Châu
+Những Gò Công, Gò Vấp, Đồng Tháp, Cà Mau
+Những mặt đất
+Cha ông ta nhắm mắt
+Truyền cháu con không bao giờ chia cắt.</p>
+      <p class="tho">*</p>
+      <p class="tho">Ta đã lớn
+Thầy giáo già đã khuất
+Thước bản to nay thành cán cờ sao
+Những tên làm man mác tuổi thơ xưa
+Đã thấm máu của bao hồn bất tử
+Những Minh Khai, Hà Huy Tập, Lê Hồng Phong, Trần Phú
+Những bông hoa DÂN TỘC ANH HÙNG
+Mười sáu tuổi xanh xanh
+Em Đuốc sống đốt mình phá tan kho giặc
+Võ Thị Sáu vùng răng cắn chặt
+Giữ trung trinh cho đến phút cuối cùng
+Đạn giặc xuyên lỗ chỗ ngực măng non
+Đỏ thắm nụ cười
+Chào Bác Hồ và Việt Nam bất diệt.</p>
+      <p class="tho">Đêm nay
+Cửu Long Giang vẫn âm vang sóng cát
+Sao khuya lấp lánh
+Lửa chài thức sáng, nhịp hát hò ơ
+Đồng Tháp xa đưa những tiếng mẹ ru
+Hồ Chí Minh thành ca dao bát ngát…</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Cửu Long Giang ta ơi</i> (Nguyên Hồng, trích tập <i>Trời xanh</i>, NXB Văn học, Hà Nội, 1960, tr. 5–9) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức (văn bản Thực hành đọc của Bài 5). Đối chiếu tại thohay.vn (bản đăng theo sách Kết nối tri thức tập 1).</p>
+    </div>
+  </div>
   <figure>
     <img src="../hinh-anh/nguvan/cuu-long-giang.webp" alt="Sông Cửu Long mênh mông" loading="lazy">
     <figcaption>🚤 <b>Cửu Long Giang</b> — dòng sông mẹ mênh mông chở nặng phù sa và thuyền trái cây của miền Tây. (Tranh minh họa do AI vẽ)</figcaption>
@@ -634,8 +1320,8 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   </div>
 
   <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 5</div>
-  <div class="qa"><button class="qa-q">Nhớ lại xem: Cảnh đảo Cô Tô sau trận bão được Nguyễn Tuân tả bằng những từ nào?</button><div class="qa-a">Một ngày <b>"trong trẻo và sáng sủa"</b> — trời quang đãng, mặt biển đẹp, mặt trời mọc rực rỡ, đảo hồi sinh đầy sức sống sau bão.</div></div>
-  <div class="qa"><button class="qa-q">🖼️ Nhìn hình hang động: Hang Én có những điều kì thú nào bên trong?</button><div class="qa-a">Hang khổng lồ đến mức có cả <b>dòng sông ngầm, bãi cát và một khu rừng</b> mọc nhờ ánh nắng lọt qua cửa hang; và đó là nhà của <b>hàng vạn con chim én</b>.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Cảnh đảo Cô Tô sau trận bão được Nguyễn Tuân tả bằng những từ nào?</button><div class="qa-a">Một ngày <b>"trong trẻo, sáng sủa"</b> — trời quang đãng, mặt biển đẹp, mặt trời mọc rực rỡ, đảo hồi sinh đầy sức sống sau bão.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình hang động: Hang Én có những điều kì thú nào bên trong?</button><div class="qa-a">Hang khổng lồ đến mức có cả <b>dòng sông ngầm và bãi cát</b> rộng nhờ ánh nắng lọt qua cửa hang; và đó là nhà của <b>hàng vạn con chim én</b>.</div></div>
   <div class="qa"><button class="qa-q">Nhớ lại xem: "Cửu Long Giang ta ơi" viết về dòng sông nào, ở vùng nào của nước ta?</button><div class="qa-a">Về <b>sông Cửu Long</b> ở <b>đồng bằng Nam Bộ</b> — vùng đất phù sa trù phú, vườn trái xum xuê và con người hào sảng.</div></div>
   <div class="qa"><button class="qa-q">Đọc-hiểu nhanh: Ba văn bản của Bài 5 giống nhau ở điểm nào?</button><div class="qa-a">Đều thuộc thể <b>kí / du kí</b>: ghi lại cảnh đẹp và đời sống con người ở các vùng đất của Việt Nam mà tác giả đã đi qua, kèm cảm xúc tự hào, yêu mến.</div></div>
 
@@ -649,7 +1335,7 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   <div class="write">
     <div class="wq"><span class="lvl vua">VỪA</span>Tưởng tượng em vừa đi thăm đảo Cô Tô (hoặc Hang Én), hãy viết đoạn văn tả lại một cảnh đẹp nhất mà em "nhìn thấy".</div>
     <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Nêu cảnh em chọn tả (mặt trời mọc trên biển Cô Tô / ánh nắng trong Hang Én).<br><b>Thân đoạn:</b> Tả theo trình tự từ xa đến gần hoặc từ trên xuống dưới; dùng 1–2 so sánh để cảnh hiện lên rõ (mặt trời như lòng đỏ trứng gà…).<br><b>Kết đoạn:</b> Cảm xúc của em trước cảnh đẹp đó.</div></div>
-    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Mặt trời lên chậm rãi từ phía chân biển, tròn và đỏ như một lòng đỏ trứng gà khổng lồ. Mặt nước lấp lánh hàng nghìn mảnh vàng vỡ. Đứng trên bãi cát lúc ấy, em hiểu vì sao Nguyễn Tuân gọi buổi sáng ở Cô Tô là 'trong trẻo và sáng sủa' — mọi thứ như vừa được gột rửa sạch bong sau trận bão."</div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Mặt trời lên chậm rãi từ phía chân biển, tròn và đỏ như một lòng đỏ trứng gà khổng lồ. Mặt nước lấp lánh hàng nghìn mảnh vàng vỡ. Đứng trên bãi cát lúc ấy, em hiểu vì sao Nguyễn Tuân gọi buổi sáng ở Cô Tô là 'trong trẻo, sáng sủa' — mọi thứ như vừa được gột rửa sạch bong sau trận bão."</div>
     <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tả bằng tưởng tượng và ngôn ngữ của mình nhé!</div>
   </div>
   <div class="write">
@@ -673,7 +1359,7 @@ Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu 
   <div class="mmap" style="--c:#5e35b1">
     <div class="mm-title">🧠 Sơ đồ tư duy TỔNG — Ngữ văn 6, Học kì 1</div>
     <div class="mm-center">NGỮ VĂN 6 — HỌC KÌ 1</div>
-    <div class="mm-branch"><span class="mm-b">Bài 1 • Tình bạn</span><span class="mm-k">Dế Mèn học bài học đầu đời • cáo dạy "thuần dưỡng" — khiêm tốn, trân trọng bạn bè</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài 1 • Tình bạn</span><span class="mm-k">Dế Mèn học bài học đầu đời • cáo dạy "cảm hóa" — khiêm tốn, trân trọng bạn bè</span></div>
     <div class="mm-branch"><span class="mm-b">Bài 2 • Gia đình</span><span class="mm-k">mọi thứ sinh ra vì trẻ em • tình mẫu tử trong "Mây và sóng" • biết nhận lỗi như người anh trong "Bức tranh của em gái tôi"</span></div>
     <div class="mm-branch"><span class="mm-b">Bài 3 • Chia sẻ</span><span class="mm-k">cô bé bán diêm • chiếc áo bông cho bạn nghèo — yêu thương bằng HÀNH ĐỘNG</span></div>
     <div class="mm-branch"><span class="mm-b">Bài 4 • Quê hương</span><span class="mm-k">ca dao • truyện cổ nhân hậu • cây tre = biểu tượng người Việt</span></div>
@@ -735,8 +1421,8 @@ const CARDS=[
 ["Tính cách ban đầu của Dế Mèn là gì?","Cường tráng, khỏe mạnh, đẹp mã — nhưng kiêu căng, xốc nổi và coi thường mọi người xung quanh.","de"],
 ["Dế Mèn đã vô tình gây ra hậu quả đau lòng nào?","Trêu chị Cốc rồi trốn đi, khiến chị Cốc mổ nhầm Dế Choắt; Dế Choắt qua đời, Dế Mèn ân hận vô cùng.","de"],
 ["Bài học đường đời đầu tiên của Dế Mèn là gì?","\"Ở đời mà có thói hung hăng bậy bạ, có óc mà không biết nghĩ, sớm muộn rồi cũng mang vạ vào mình đấy.\"","de"],
-["Theo cáo trong \"Hoàng tử bé\", \"thuần dưỡng\" nghĩa là gì?","Là tạo nên những mối dây liên kết — nhờ thế, hai người trở nên cần thiết và duy nhất đối với nhau.","cao"],
-["Bí mật cáo tặng Hoàng tử bé khi chia tay là gì?","Những điều cốt yếu (như tình bạn) thì mắt thường không nhìn thấy — chỉ có trái tim mới nhìn rõ. Và ta phải chịu trách nhiệm với người mình đã thuần dưỡng.","cao"],
+["Theo cáo trong \"Hoàng tử bé\", \"cảm hóa\" nghĩa là gì?","Là tạo nên những mối dây liên kết — nhờ thế, hai người trở nên cần thiết và duy nhất đối với nhau.","cao"],
+["Bí mật cáo tặng Hoàng tử bé khi chia tay là gì?","Những điều cốt yếu (như tình bạn) thì mắt thường không nhìn thấy — chỉ có trái tim mới nhìn rõ. Và ta phải chịu trách nhiệm với người mình đã cảm hóa.","cao"],
 ["\"Chuyện cổ tích về loài người\" là thơ của ai? Ý tưởng chính của bài thơ là gì?","Của Xuân Quỳnh. Ý tưởng: mọi vật, mọi người trên đời đều sinh ra vì trẻ em — để yêu thương, chăm sóc và dạy dỗ trẻ em.","emoji:🌍"],
 ["Trong bài thơ, mẹ sinh ra để làm gì cho trẻ?","Để bế bồng, chăm sóc và cho trẻ tình yêu cùng những lời ru — điều quý giá đầu tiên trong đời mỗi em bé.","emoji:🤱"],
 ["\"Mây và sóng\" là của nhà thơ nào, người nước nào?","Của Ta-go (Rabindranath Tagore), nhà thơ Ấn Độ.","song"],
@@ -756,8 +1442,8 @@ const CARDS=[
 ["Ca dao là gì?","Là thơ ca dân gian truyền miệng qua nhiều đời, thường dùng thể lục bát, diễn tả đời sống và tình cảm của nhân dân lao động.","lua"],
 ["Vì sao tre được coi là biểu tượng của con người Việt Nam?","Vì tre thẳng, dẻo dai, sống thành lũy đoàn kết và xanh tốt quanh năm — giống phẩm chất kiên cường, đoàn kết, thủy chung của dân tộc.","tre"],
 ["\"Cô Tô\" là tác phẩm của ai, thuộc thể loại gì?","Của Nguyễn Tuân, thuộc thể kí — ghi lại cảnh và người trên đảo Cô Tô sau trận bão.","dao"],
-["Cảnh Cô Tô sau cơn bão được tả bằng câu văn nổi tiếng nào?","\"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo và sáng sủa.\"","dao"],
-["Hang Én nằm ở đâu? Điều gì kì thú nhất của hang?","Ở Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình). Hang khổng lồ: bên trong có sông ngầm, bãi cát, cả một khu rừng — và là nhà của hàng vạn con chim én.","hang"],
+["Cảnh Cô Tô sau cơn bão được tả bằng câu văn nổi tiếng nào?","\"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo, sáng sủa.\"","dao"],
+["Hang Én nằm ở đâu? Điều gì kì thú nhất của hang?","Ở Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình). Hang khổng lồ: bên trong có sông ngầm, bãi cát rộng — và là nhà của hàng vạn con chim én.","hang"],
 ["\"Hang Én\" là văn bản của tác giả nào?","Của Hà My — một bài du kí ghi lại hành trình khám phá hang động.","hang"],
 ["\"Cửu Long Giang ta ơi\" viết về dòng sông nào? Tác giả là ai?","Về sông Cửu Long ở đồng bằng Nam Bộ; tác giả là nhà thơ Nguyên Hồng.","mekong"],
 ["Dạng viết chính của Bài 5 là gì?","Viết bài văn tả cảnh sinh hoạt: quan sát kĩ, tả bao quát rồi tả hoạt động tiêu biểu, kèm cảm nghĩ của người viết.","mekong"]
@@ -773,40 +1459,87 @@ function faceMedia(c){
   if(c[2] && c[2].indexOf('emoji:')===0){return '<div class="emj">'+c[2].substring(6)+'</div>';}
   return '<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">';
 }
-function mountDeck(box){
-  var spec=box.getAttribute('data-cards');
-  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
-  idxs.sort(function(a,b){return (known[a]?1:0)-(known[b]?1:0);});
-  var order=idxs.slice(),pos=0,flipped=false;
-  box.innerHTML='<div class="fc-card"><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
-    +'<div class="fc-btns"><button class="btn gray" data-a="prev">⬅ Trước</button><button class="btn" data-a="flip">🔄 Lật thẻ</button><button class="btn gray" data-a="next">Tiếp ➡</button></div>'
-    +'<div class="fc-btns"><button class="btn green" data-a="ok">✅ Đã thuộc</button><button class="btn red" data-a="no">🔁 Chưa thuộc</button><button class="btn gray" data-a="shuffle">🔀 Xáo trộn</button></div>'
-    +'<div class="fc-prog"></div><div class="fc-stat"></div>';
-  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat');
-  function render(){
-    var ci=order[pos],c=CARDS[ci];
-    front.innerHTML=faceMedia(c)+'<div>'+c[0]+'</div><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>';
-    back.innerHTML='<div style="font-size:26px;margin-bottom:6px">💡</div><div>'+c[1]+'</div>';
-    card.classList.toggle('flipped',flipped);
-    prog.textContent='Thẻ '+(pos+1)+' / '+order.length;
-    var k=idxs.filter(function(i){return known[i];}).length;
-    stat.textContent='Bộ này đã thuộc '+k+'/'+idxs.length+' thẻ • Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   Cach dung: 1 the tai 1 thoi diem; the chua thuoc xep truoc.
+   Bam vao the de lat (xoay 3D). Tick "Da thuoc": dau tick nay pop + the truot phai;
+   tick "Chua thuoc": the truot trai + ve cuoi hang doi de gap lai trong phien.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
   }
-  function go(d){pos=(pos+d+order.length)%order.length;flipped=false;render();}
-  card.addEventListener('click',function(){flipped=!flipped;render();});
-  box.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
-    var a=b.getAttribute('data-a'),ci=order[pos];
-    if(a==='flip'){flipped=!flipped;render();}
-    else if(a==='prev'){go(-1);}
-    else if(a==='next'){go(1);}
-    else if(a==='ok'){known[ci]=true;saveKnown();go(1);}
-    else if(a==='no'){known[ci]=false;saveKnown();go(1);}
-    else if(a==='shuffle'){for(var i=order.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=order[i];order[i]=order[j];order[j]=t;}pos=0;flipped=false;render();}
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
   });});
   render();
 }
-document.querySelectorAll('.fcbox').forEach(mountDeck);
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){var c=CARDS[ci];
+    return {id:ci,
+      front:faceMedia(c)+'<div>'+c[0]+'</div><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>',
+      back:'<div style="font-size:26px;margin-bottom:6px">💡</div><div>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+});
 </script>
 <script>
 /* ===== Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" — lưu ở localStorage nguvan_view_mode ===== */
@@ -859,6 +1592,91 @@ document.querySelectorAll('.fcbox').forEach(mountDeck);
     ITEMS.forEach(function(it,i){if(it.id===hid) cur=i;});
   }
   render();
+})();
+</script>
+<script>
+/* ===== Nghe đọc bài đọc bằng speechSynthesis (giọng vi-VN nếu có) =====
+   Đọc theo từng câu/đoạn ngắn nối tiếp để tránh lỗi trình duyệt cắt ngang với văn bản dài. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.rb-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  function pickVoice(){
+    var vs=synth.getVoices()||[];
+    for(var i=0;i<vs.length;i++){ if(vs[i].lang && vs[i].lang.toLowerCase().indexOf('vi')===0){ viVoice=vs[i]; break; } }
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null;
+  function chunksOf(body){
+    var chunks=[];
+    body.querySelectorAll('p').forEach(function(p){
+      if(p.classList.contains('read-note')||p.classList.contains('gap')) return;
+      if(p.classList.contains('tho')){
+        (p.innerText||p.textContent||'').split('\n').forEach(function(line){ line=line.replace(/\s+/g,' ').trim(); if(line) chunks.push(line); });
+        return;
+      }
+      var t=(p.innerText||p.textContent||'').replace(/\s+/g,' ').trim();
+      if(!t) return;
+      var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], buf='';
+      parts.forEach(function(s){ s=s.trim(); if(!s) return; if(buf && (buf+' '+s).length>170){ chunks.push(buf); buf=s; } else { buf=buf?buf+' '+s:s; } });
+      if(buf) chunks.push(buf);
+    });
+    return chunks;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.rb-listen').forEach(function(b){ b.classList.remove('reading'); if(b.getAttribute('data-orig')) b.textContent=b.getAttribute('data-orig'); });
+    document.querySelectorAll('.rb-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc…'; st.stopBtn.hidden=false; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    setBtn(null);
+  }
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.chunks.length){ stopRead(); return; }
+    var u=new SpeechSynthesisUtterance(st.chunks[st.idx]);
+    u.lang='vi-VN'; u.rate=0.95;
+    if(viVoice) u.voice=viVoice;
+    u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
+    u.onerror=function(e){ if(cur===st&&!st.dead&&e.error!=='canceled'&&e.error!=='interrupted'){ st.idx++; speakNext(st); } };
+    synth.speak(u);
+  }
+  function startRead(box){
+    stopRead();
+    var chunks=chunksOf(box.querySelector('.read-body'));
+    if(!chunks.length) return;
+    if(!box.classList.contains('open')){
+      box.classList.add('open');
+      var tg=box.querySelector('.rb-toggle'); if(tg) tg.textContent='Thu gọn ▴';
+    }
+    pickVoice();
+    if(!viVoice){ var note=box.querySelector('.rb-note'); if(note) note.hidden=false; }
+    var st={box:box,chunks:chunks,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false};
+    cur=st; setBtn(st); speakNext(st);
+  }
+  document.querySelectorAll('.readbox').forEach(function(box){
+    var lb=box.querySelector('.rb-listen');
+    lb.setAttribute('data-orig',lb.textContent);
+    lb.addEventListener('click',function(){ if(cur&&cur.box===box){ stopRead(); } else { startRead(box); } });
+    box.querySelector('.rb-stop').addEventListener('click',function(){ stopRead(); });
+    var tg=box.querySelector('.rb-toggle');
+    tg.addEventListener('click',function(){
+      var open=box.classList.toggle('open');
+      tg.textContent=open?'Thu gọn ▴':'Mở bài đọc ▾';
+      if(!open&&cur&&cur.box===box) stopRead();
+    });
+  });
+  /* Chuyển văn bản/bài hoặc đổi chế độ xem thì dừng đọc */
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    if(t&&t.closest&&t.closest('.modebtn,.nv-chip,.nv-pn,a.next')) stopRead();
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
 })();
 </script>
 </body>

@@ -64,6 +64,28 @@ Trang Ngữ văn (nguvan/index.html) tham chiếu các hình này qua đường 
 | bai10-thanh-dia-my-son.jpg | Bài 10 + flashcard (myson) | Wikimedia Commons: My_Son_Sanctuary_Vietnam_06.jpg |
 | bai10-angkor-wat.jpg | Bài 10 + flashcard (angkor) | Wikimedia Commons: Angkor_Wat_with_its_reflection_(cropped).jpg |
 
+### Tranh minh họa AI gen bổ sung (21/10/2026 — đợt làm phong phú hình ảnh)
+
+15 tranh cảnh sinh hoạt/sự kiện vẽ bằng AI (phong cách màu nước sách truyện, không chữ trong hình, resize 400px, WebP q72, 25–37 KB/tấm). Gắn vào gallery bài học và/hoặc làm hình mặt hỏi flashcard (khoá IMG mới); chú thích trên trang ghi rõ "(Tranh minh họa do AI vẽ)". Ảnh thật hiện vật/di tích giữ nguyên.
+
+| File | Dùng ở | Nội dung cảnh |
+|---|---|---|
+| minh-hoa-bao-tang.webp | Bài 1 (gallery) | Học sinh tham quan bảo tàng, ngắm trống đồng |
+| minh-hoa-khao-co.webp | Flashcard Bài 1 (khoá khaoco — thẻ "3 loại tư liệu") | Nhà khảo cổ khai quật, chải hiện vật |
+| minh-hoa-quan-sat-troi.webp | Bài 2 (gallery) | Người xưa ngắm Mặt Trời/Mặt Trăng, khắc vạch đếm ngày |
+| minh-hoa-hang-da.webp | Bài 3 (gallery) + flashcard (khoá hangda) | Gia đình người tinh khôn sinh hoạt trong hang |
+| minh-hoa-san-bat.webp | Bài 4 (gallery) + flashcard (khoá sanbat — thẻ "Bầy người nguyên thủy") | Bầy người săn bắt – hái lượm trong rừng |
+| minh-hoa-lang-ban.webp | Bài 5 (gallery) + flashcard (khoá langban — thẻ phân hóa giàu nghèo) | Làng bản nông nghiệp, đúc đồng, trữ lúa |
+| minh-hoa-xay-kim-tu-thap.webp | Bài 6 (gallery) + flashcard (khoá xayktt) | Công nhân kéo đá xây kim tự tháp |
+| minh-hoa-song-nin.webp | Bài 6 (gallery) | Nông dân Ai Cập làm ruộng bên sông Nin |
+| minh-hoa-an-do-co.webp | Bài 7 (gallery) + flashcard (khoá andoco, 2 thẻ) | Chợ búa Ấn Độ cổ bên sông Ấn, voi thồ hàng |
+| minh-hoa-phat-giang-dao.webp | Flashcard Bài 7 (khoá phatgiao) | Phật giảng đạo dưới cây bồ đề |
+| minh-hoa-con-duong-to-lua.webp | Bài 8 (gallery) + flashcard (khoá tolua) | Đoàn lạc đà chở lụa vượt sa mạc |
+| minh-hoa-cho-hy-lap.webp | Bài 9 (gallery) + flashcard (khoá chohylap — thẻ A-ten) | Chợ a-go-ra nhộn nhịp, triết gia tranh luận |
+| minh-hoa-olympic.webp | Bài 9 (gallery) + flashcard (khoá olympic) | Vận động viên thi chạy tại Ô-lim-pích cổ |
+| minh-hoa-giac-dau.webp | Flashcard Bài 9 (khoá giacdau — thẻ Cô-li-dê) | Võ sĩ giác đấu trong đấu trường La Mã |
+| minh-hoa-lang-dong-nam-a.webp | Bài 10 (gallery) + flashcard (khoá langdna — thẻ Óc Eo) | Làng nhà sàn, chợ thuyền ven sông Đông Nam Á cổ |
+
 ## khtn/ — Khoa học tự nhiên 6 (13 hình, ~1478 KB) — ảnh thật tải về (địa phương hoá 21/10/2026)
 
 Ảnh bài học + ảnh flashcard của trang KHTN trước đây hotlink Wikimedia Commons; nay đã tải về thành file thật, trang trỏ `../hinh-anh/khtn/<file>`. Các sơ đồ flashcard tự vẽ dạng SVG inline (FC_SVG) không đổi.

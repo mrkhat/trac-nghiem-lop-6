@@ -11,7 +11,7 @@ Ngữ văn là môn **tự luận là chính** — module này KHÔNG phải kho
 Mỗi bài (chủ điểm) là 1 khối nối tiếp gồm:
 
 1. **Giới thiệu bài** — chủ đề/cảm xúc chính, 2 hình minh họa khớp nội dung (đã đối chiếu mô tả file Commons)
-2. **Văn bản chính** — tóm tắt theo bố cục bằng lời dễ hiểu + 1 trích đoạn ngắn tiêu biểu (ghi nguồn tác giả)
+2. **Văn bản chính** — **khối "📖 Bài đọc — đọc trước khi học"** đặt ngay dưới tiêu đề từng văn bản (xem mục riêng bên dưới), rồi mới đến tóm tắt theo bố cục bằng lời dễ hiểu + 1 trích đoạn ngắn tiêu biểu (ghi nguồn tác giả)
 3. **Sơ đồ tư duy của bài** (HTML/CSS thuần) — trung tâm = tên bài, nhánh = văn bản/ý nghĩa
 4. **Học từ khó** — 5 thẻ/bài: từ + nghĩa dễ hiểu + ví dụ đặt câu đời thường
 5. **Câu hỏi gợi nhớ** — 4–5 câu/bài, bấm hiện đáp án ngắn (có câu hỏi theo hình, có câu đọc-hiểu nhanh)
@@ -19,6 +19,41 @@ Mỗi bài (chủ điểm) là 1 khối nối tiếp gồm:
 7. **Flashcard riêng của bài** — 6 thẻ/bài, mặt trước có hình gợi nhớ, mặt sau chỉ có đáp án (không lặp lại hình của mặt trước); Đã thuộc/Chưa thuộc lưu `localStorage` khoá `nguvan_flash_v1`
 
 Cuối trang: **Phần Tổng kết** — sơ đồ tư duy tổng HK1 + mục *Luyện viết theo chủ đề* (4 dạng viết của HK1, mỗi dạng 1 dàn ý khung + bí quyết) + flashcard tổng ôn gộp 30 thẻ.
+
+## Phần bài đọc + Nghe đọc (bổ sung 21/10/2026)
+
+Mỗi văn bản trong 14 văn bản của 5 bài có một khối **"📖 Bài đọc — đọc trước khi học"** đặt **ngay dưới tiêu đề văn bản, trước** phần tóm tắt/sơ đồ/câu hỏi, để bé **đọc trực tiếp nguyên văn trên trang** trước khi học. Nguyên tắc cứng: văn bản lấy **nguyên văn từ nguồn công khai đăng tải văn bản SGK** (mỗi khối đều có dòng "Nguồn văn bản" ghi rõ), **không viết lại theo trí nhớ**; chỗ nào nguồn đăng thiếu thì đánh dấu **(…)** ngay trong bài đọc và ghi chú đọc tiếp trong SGK giấy — không tự chế nối văn.
+
+- **Gấp/mở:** nút "Mở bài đọc ▾ / Thu gọn ▴"; mặc định **MỞ** ở văn bản đầu tiên của mỗi bài (Dế Mèn, Chuyện cổ tích về loài người, Cô bé bán diêm, Chùm ca dao, Cô Tô), các văn bản còn lại gấp gọn.
+- **Nghe đọc:** mỗi khối có nút **"🔊 Nghe đọc bài này"** + **"⏹ Dừng"**, dùng `speechSynthesis` của trình duyệt, `lang='vi-VN'`, tốc độ 0.95. Bài đọc được **chia thành từng câu/đoạn ngắn và đọc nối tiếp** (tránh lỗi trình duyệt cắt ngang với văn bản dài); thơ đọc theo từng dòng. Đang đọc thì nút đổi nhãn "🔊 Đang đọc…" và hiện nút Dừng; bấm nghe ở văn bản khác, thu gọn khối đang đọc, chuyển bài hoặc đổi chế độ xem thì **tự dừng**. Nếu thiết bị không có giọng tiếng Việt: vẫn đọc bằng giọng mặc định và hiện dòng lưu ý *"Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định."* — **Giới hạn:** chất lượng giọng phụ thuộc hoàn toàn vào thiết bị/trình duyệt (Chrome/Android thường có giọng Việt; một số máy không có sẽ đọc giọng Anh nghe khá khó hiểu); không có file audio riêng.
+- **Trình bày:** chữ 18px/1.8 như chuẩn trang; thơ giữ nguyên ngắt dòng (`white-space:pre-line`); nút bấm ≥44px.
+
+### Nguồn văn bản từng bài (đối chiếu 21/10/2026)
+
+| Văn bản | Nguồn nguyên văn | Trạng thái |
+|---|---|---|
+| Bài học đường đời đầu tiên | thohay.vn (toàn văn *Dế Mèn phiêu lưu ký*) + đề đọc hiểu trích SGK | Trọn phần trích chương I trong SGK |
+| Nếu cậu muốn có một người bạn… | olm.vn (trích nguyên văn SGK, ghi nguồn dịch Nguyễn Tấn Đại) | Có **3 chỗ (…)** đúng vị trí nguồn lược — đọc tiếp SGK giấy |
+| Chuyện cổ tích về loài người | thohay.vn (đối chiếu chéo 3 nguồn) | Trọn bài (19 khổ) |
+| Mây và sóng | hoctot.nam.name.vn + baigiang.violet.vn + giaoanketnoitrithuc.com | Trọn bài |
+| Bức tranh của em gái tôi | lazi.vn (mục "Đọc tác phẩm", ghi nguồn *Bản nhạc con đà điểu*, Kim Đồng 2016, tr.45–50) | Trọn truyện |
+| Cô bé bán diêm | giaibaitap123.com (bản in SGK, dịch Nguyễn Văn Hải – Vũ Minh Toàn) | Trích (SGK ghi "trích gần hết truyện"); mở đầu in dạng tóm tắt ngoặc đơn ngay trong SGK |
+| Gió lạnh đầu mùa | thohay.vn | Trọn truyện |
+| Con chào mào | thohay.vn (+ hoc247.net đối chiếu) | Trọn bài |
+| Chùm ca dao về quê hương đất nước | vietjack.com (soạn KNTT) | Trọn 3 bài ca dao trong SGK |
+| Chuyện cổ nước mình | thohay.vn (bản lớp 6/KNTT) | Trọn bài theo bản lớp 6 (có khổ cuối, khác bản lớp 4) |
+| Cây tre Việt Nam | giaibaitap123.com (bản in SGK) | Trọn văn, giữ cả dấu (…) in sẵn trong sách |
+| Cô Tô | thohay.vn (phần sau bão) + trích dẫn nguyên văn SGK trên hoc24.vn/xaydungso.vn (hai đoạn tả bão) | Trích phần cuối bài kí; **1 chỗ (…)** ở đoạn chuyển cảnh trong phần bão |
+| Hang Én | tuyensinh247.com (kèm chú thích + dòng nguồn SGK) | Gần trọn; **1 chỗ (…)** đúng chỗ nguồn lược |
+| Cửu Long Giang ta ơi | thohay.vn (theo *Trời xanh*, NXB Văn học 1960, tr.5–9) | Trọn bài |
+
+Các bản điện tử đều có ít nhiều lỗi OCR/gõ; khi đưa vào trang chỉ dọn các lỗi rõ ràng (sai chính tả kiểu "Sauk hi", "ánh sang", chữ rác của trang sách) sau khi đối chiếu chéo — không đổi lời văn.
+
+### Sửa lệch SGK phát hiện khi đối chiếu (đã sửa trong đợt này)
+
+- **"Cô Tô":** câu trích nổi tiếng sửa *"trong trẻo **và** sáng sủa"* → *"trong trẻo, sáng sủa"* (đúng nguyên văn SGK) ở cả 4 chỗ: khối trích dẫn, câu hỏi gợi nhớ, đoạn mẫu và flashcard.
+- **"Hoàng tử bé":** toàn trang trước đây dùng thuật ngữ **"thuần dưỡng"** (của một bản dịch khác) — SGK KNTT dùng bản dịch Nguyễn Tấn Đại với thuật ngữ **"cảm hóa"**. Đã thay toàn bộ 12 chỗ (tóm tắt, chú thích ảnh, thẻ từ khó, câu hỏi, đoạn mẫu, sơ đồ, flashcard) cho khớp SGK; câu kết của cáo trong khối bài đọc cũng là nguyên văn bản dịch này: *"Người ta chỉ thấy rõ với trái tim. Điều cốt lõi vô hình trong mắt trần."*
+- Danh sách 14 văn bản + thứ tự + tác giả đã đối chiếu mục lục SGK KNTT: **khớp**, không phải sửa. (Lưu ý: *Cửu Long Giang ta ơi* là văn bản **Thực hành đọc** của Bài 5, trang trình bày chung như văn bản 3 của bài.)
 
 ## Hai chế độ hiển thị
 
@@ -65,10 +100,11 @@ Nguồn ảnh bổ sung đã được duyệt (Smithsonian Open Access, Met Open
 ## Số liệu tự kiểm (chạy thật trên file)
 
 - 5 khối bài + 1 mục Tổng kết; 21 câu hỏi gợi nhớ; 15 khối Góc tự luận (mỗi khối 1 dàn ý + 1 đoạn mẫu); 25 thẻ từ khó; 6 sơ đồ tư duy (5 bài + 1 tổng); 30 flashcard (6/bài) + 1 bộ tổng ôn; 2 thanh chuyển chế độ xem.
-- JS: `node --check` đạt cho cả 2 khối script; http.server: `/nguvan/` trả 200.
+- **14 khối bài đọc + 14 nút "Nghe đọc" + 14 nút "Dừng" + 14 nút gấp/mở** (đếm trên file); thơ kiểm chứng ngắt dòng theo nguồn (Xuân Quỳnh 19 khổ × 4 dòng; ca dao 3 bài; Cửu Long Giang đủ từ "Ngày xưa ta đi học" đến "…ca dao bát ngát…").
+- JS: `node --check` đạt cho cả 3 khối script (gồm script nghe đọc mới); http.server: `/nguvan/` trả 200.
 
 ## Điểm chưa chắc — cần đối chiếu
 
 1. **Phạm vi giữa kì 1:** phổ biến là hết Bài 2 (đề thi giữa kì trên VietJack cũng đặt sau Bài 2), một số trường lấy sang đầu Bài 3. Trang đã gắn nhãn từng bài để dễ đối chiếu.
 2. **Sách trường bé dùng:** module bám KNTT; nếu trường dùng Cánh diều/Chân trời sáng tạo thì danh sách văn bản sẽ khác.
-3. **Trích đoạn nguyên văn** (lời Dế Choắt; thơ Xuân Quỳnh; "Chuyện cổ nước mình"; câu mở đầu "Gió lạnh đầu mùa"; câu văn trong "Cô Tô") chọn các câu rất nổi tiếng và ổn định giữa các bản in, nhưng vẫn nên đối chiếu 1 lượt với SGK giấy thật trước khi cho bé học thuộc.
+3. **Nguyên văn bài đọc:** 14 khối bài đọc đã lấy từ các nguồn đăng văn bản SGK liệt kê ở mục "Phần bài đọc + Nghe đọc" và đối chiếu chéo; vẫn còn vài điểm nên soát 1 lượt với SGK giấy thật khi tiện: (a) hai đoạn tả bão ở đầu "Cô Tô" ghép từ các trích dẫn SGK rời (có 1 chỗ đánh dấu (…)); (b) một vài từ ở bản điện tử "Dế Mèn" bị lỗi gõ (đã chuẩn hoá theo các bản in phổ biến: "chỉ tổ đem thân", "trên vòm cỏ", "nằm im thin thít"); (c) phần mở đầu "Cô bé bán diêm" — bản in SGK dùng đoạn tóm tắt trong ngoặc đơn, trang giữ đúng dạng đó.

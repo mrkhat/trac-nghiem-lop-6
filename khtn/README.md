@@ -43,7 +43,7 @@ Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗ
 2. **Điểm cần nhớ** — hộp tóm tắt các mốc/số liệu trọng tâm.
 3. **Sơ đồ tư duy của bài** — 1 sơ đồ/bài làm bằng HTML/CSS thuần (không thư viện ngoài): trung tâm là tên bài, các nhánh là ý chính/khái niệm lớn, từ khóa ngắn.
 4. **Câu hỏi gợi nhớ riêng của bài** — 3–5 câu/bài (bấm hiện đáp án), trong đó mỗi bài có ít nhất 1 câu hỏi dựa trên hình minh họa của bài.
-5. **Flashcard riêng của bài** — 4–6 thẻ/bài, **100% thẻ có hình gợi nhớ** (ảnh của chính bài học, hoặc sơ đồ SVG tự vẽ trong trang cho khái niệm trừu tượng), bấm lật thẻ, nút Đã thuộc/Chưa thuộc, nút lọc "Chỉ xem thẻ chưa thuộc", tiến độ lưu `localStorage` khoá `khtn_flash_v1`.
+5. **Flashcard riêng của bài** — 4–6 thẻ/bài, **100% thẻ có hình gợi nhớ** (bộ hình riêng cho flashcard: tranh AI gen theo đúng cụm nội dung của từng thẻ/nhóm thẻ, ảnh thật giữ cho các thẻ cần chính xác, và sơ đồ SVG tự vẽ trong trang cho khái niệm trừu tượng/quá trình), bấm lật thẻ, nút Đã thuộc/Chưa thuộc, nút lọc "Chỉ xem thẻ chưa thuộc", tiến độ lưu `localStorage` khoá `khtn_flash_v1`.
 6. **Khối chuyển tiếp** sang bài tiếp theo.
 
 **Phần Tổng kết** (sau Bài 13, trước Phần 2): sơ đồ tư duy TỔNG "KHTN 6 — Học kì 1" với 5 nhánh nhóm bài (Mở đầu & đo lường / Chất / Oxygen–không khí / Tế bào / Lực) + bộ flashcard TỔNG ÔN gộp toàn bộ 64 thẻ (dùng chung trạng thái Đã thuộc với các bộ theo bài).
@@ -74,12 +74,12 @@ Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗ
 | 13. Lực và lực kế | 5 | 6 |
 | **Tổng** | **56** | **64** |
 
-**Hình gợi nhớ cho flashcard:** 38 thẻ dùng ảnh của chính bài học (Wikimedia, bảng nguồn bên dưới); 26 thẻ dùng **sơ đồ SVG tự vẽ ngay trong trang** cho các khái niệm trừu tượng, bám đúng nội dung SGK của bài: sơ đồ hạt của 3 thể rắn/lỏng/khí (Bài 9), sơ đồ tế bào có nhãn màng tế bào – chất tế bào – nhân (Bài 12), nhiệt kế hai mốc 0°/100° (Bài 8), đồng hồ (Bài 7), thước có vạch chia (Bài 5), cân đòn hai đĩa (Bài 6), biểu đồ tỉ lệ N₂/O₂ (Bài 11), lò xo lực kế (Bài 13), mũi tên chuyển thể rắn → lỏng (Bài 9). Đợt này không dùng 3D và không thêm nguồn ảnh ngoài Wikimedia/tự vẽ.
+**Hình gợi nhớ cho flashcard (làm phong phú 2026-10-21):** trước đây cả bài chỉ dùng chung 1 ảnh của bài học cho mọi thẻ — rất đơn điệu. Nay đã gen riêng **25 tranh AI** (phong cách tranh màu nước sách giáo khoa thiếu nhi, cảnh sinh động có hoạt động, không chữ trong hình; resize 400px, WebP, 13–36 KB/tấm) lưu tại `hinh-anh/khtn/fc-bai<N>-*.webp`, gán cho **35 thẻ** theo đúng cụm nội dung (vd Bài 1: nghiên cứu khoa học / vật sống / các lĩnh vực; Bài 3: cấu tạo kính lúp / soi lá / xem tem; Bài 13: kéo co–đẩy thùng / táo rơi trọng lực / kéo giãn dây chun). Sau khi gán lại: 64 thẻ dùng **39 hình khác nhau**, mỗi ảnh raster tối đa 2 thẻ dùng chung. Các thẻ còn lại giữ hình đang hợp: ảnh thật cho thẻ cần chính xác (biểu tượng GHS — Bài 2; biểu tượng tái chế — Bài 10; ảnh kính hiển vi và ảnh lực kế thật) và **sơ đồ SVG tự vẽ ngay trong trang** cho khái niệm trừu tượng/quá trình, bám đúng nội dung SGK của bài: sơ đồ hạt của 3 thể rắn/lỏng/khí (Bài 9), sơ đồ tế bào có nhãn màng tế bào – chất tế bào – nhân (Bài 12), nhiệt kế hai mốc 0°/100° (Bài 8), đồng hồ (Bài 7), thước có vạch chia (Bài 5), cân đòn hai đĩa (Bài 6), biểu đồ tỉ lệ N₂/O₂ (Bài 11), lò xo lực kế (Bài 13), mũi tên chuyển thể rắn → lỏng (Bài 9). Hình trong thân bài học (figure) không thay đổi đợt này.
 
 **Mặt trước flashcard ĐỘNG (bổ sung 2026-10-21):** các thẻ về quá trình/chuyển động dùng **sơ đồ SVG tự vẽ được animate bằng CSS thuần** ngay trên mặt câu hỏi (mặt đáp án vẫn tĩnh, chỉ có chữ như trước; thẻ về vật thể tĩnh — thước, cân đòn, tế bào, biểu đồ tỉ lệ — giữ sơ đồ tĩnh):
 - `states` (Bài 9 — thẻ b9c1, b9c4, b9c5): hạt **rắn rung tại chỗ**, hạt **lỏng trượt qua lại**, hạt **khí bay loạn** — mỗi hạt có độ trễ riêng cho tự nhiên.
 - `change` (Bài 9 — thẻ b9c2, nóng chảy): giọt nước **nhỏ giọt rơi** từ khối rắn, mũi tên chuyển thể **đẩy nhịp**, giọt lỏng **nhấp nhô**.
-- `spring` (Bài 13 — thẻ b13c4, b13c5, b13c6): lò xo **giãn ra – co lại** theo chu kì, quả nặng treo phía dưới chuyển động đồng bộ.
+- `spring` (Bài 13 — thẻ b13c4, b13c6): lò xo **giãn ra – co lại** theo chu kì, quả nặng treo phía dưới chuyển động đồng bộ. (Thẻ b13c5 về GHĐ/ĐCNN của lực kế nay dùng ảnh lực kế thật thay cho sơ đồ.)
 - `thermo` (Bài 8 — thẻ b8c1–b8c4): cột thủy ngân đỏ **dâng lên – hạ xuống** trong ống nhiệt kế.
 - `clock` (Bài 7 — thẻ b7c1, b7c2, b7c4): kim đồng hồ **quay liên tục** quanh tâm.
 - Có `@media (prefers-reduced-motion: reduce)` tắt toàn bộ chuyển động cho thiết bị/người dùng đã chọn giảm chuyển động.
