@@ -135,6 +135,55 @@ img,svg{max-width:100%}
   .emojifig .big{font-size:48px}
 }
 </style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+<style>
+/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
+.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
+.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
+.fc-face svg{max-width:100%;height:auto}
+.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
+.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
+.fc-stat{text-align:center;color:#455a64;font-size:14px}
+.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
+.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
+@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
+@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
+@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
+@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
+@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
+.fc-out-r{animation:fcOutR .28s forwards}
+.fc-out-l{animation:fcOutL .28s forwards}
+.fc-in-r{animation:fcInR .25s}
+.fc-in-l{animation:fcInL .25s}
+.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
+.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
+.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
+.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
+[data-fc]{display:block!important}
+.fc-tools{display:none!important}
+</style>
 </head>
 <body data-mode="single">
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
@@ -773,40 +822,87 @@ function faceMedia(c){
   if(c[2] && c[2].indexOf('emoji:')===0){return '<div class="emj">'+c[2].substring(6)+'</div>';}
   return '<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">';
 }
-function mountDeck(box){
-  var spec=box.getAttribute('data-cards');
-  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
-  idxs.sort(function(a,b){return (known[a]?1:0)-(known[b]?1:0);});
-  var order=idxs.slice(),pos=0,flipped=false;
-  box.innerHTML='<div class="fc-card"><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
-    +'<div class="fc-btns"><button class="btn gray" data-a="prev">⬅ Trước</button><button class="btn" data-a="flip">🔄 Lật thẻ</button><button class="btn gray" data-a="next">Tiếp ➡</button></div>'
-    +'<div class="fc-btns"><button class="btn green" data-a="ok">✅ Đã thuộc</button><button class="btn red" data-a="no">🔁 Chưa thuộc</button><button class="btn gray" data-a="shuffle">🔀 Xáo trộn</button></div>'
-    +'<div class="fc-prog"></div><div class="fc-stat"></div>';
-  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat');
-  function render(){
-    var ci=order[pos],c=CARDS[ci];
-    front.innerHTML=faceMedia(c)+'<div>'+c[0]+'</div><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>';
-    back.innerHTML='<div style="font-size:26px;margin-bottom:6px">💡</div><div>'+c[1]+'</div>';
-    card.classList.toggle('flipped',flipped);
-    prog.textContent='Thẻ '+(pos+1)+' / '+order.length;
-    var k=idxs.filter(function(i){return known[i];}).length;
-    stat.textContent='Bộ này đã thuộc '+k+'/'+idxs.length+' thẻ • Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   Cach dung: 1 the tai 1 thoi diem; the chua thuoc xep truoc.
+   Bam vao the de lat (xoay 3D). Tick "Da thuoc": dau tick nay pop + the truot phai;
+   tick "Chua thuoc": the truot trai + ve cuoi hang doi de gap lai trong phien.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
   }
-  function go(d){pos=(pos+d+order.length)%order.length;flipped=false;render();}
-  card.addEventListener('click',function(){flipped=!flipped;render();});
-  box.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
-    var a=b.getAttribute('data-a'),ci=order[pos];
-    if(a==='flip'){flipped=!flipped;render();}
-    else if(a==='prev'){go(-1);}
-    else if(a==='next'){go(1);}
-    else if(a==='ok'){known[ci]=true;saveKnown();go(1);}
-    else if(a==='no'){known[ci]=false;saveKnown();go(1);}
-    else if(a==='shuffle'){for(var i=order.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=order[i];order[i]=order[j];order[j]=t;}pos=0;flipped=false;render();}
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
   });});
   render();
 }
-document.querySelectorAll('.fcbox').forEach(mountDeck);
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){var c=CARDS[ci];
+    return {id:ci,
+      front:faceMedia(c)+'<div>'+c[0]+'</div><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>',
+      back:'<div style="font-size:26px;margin-bottom:6px">💡</div><div>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+});
 </script>
 <script>
 /* ===== Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" — lưu ở localStorage nguvan_view_mode ===== */

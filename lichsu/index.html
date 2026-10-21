@@ -128,6 +128,55 @@ h1{font-size:26px}
 *{animation:none!important;transition:none!important}
 }
 </style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+<style>
+/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
+.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
+.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
+.fc-face svg{max-width:100%;height:auto}
+.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
+.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
+.fc-stat{text-align:center;color:#455a64;font-size:14px}
+.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
+.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
+@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
+@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
+@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
+@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
+@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
+.fc-out-r{animation:fcOutR .28s forwards}
+.fc-out-l{animation:fcOutL .28s forwards}
+.fc-in-r{animation:fcInR .25s}
+.fc-in-l{animation:fcInL .25s}
+.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
+.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
+.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
+.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
+[data-fc]{display:block!important}
+.fc-tools{display:none!important}
+</style>
 </head>
 <body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
@@ -176,6 +225,10 @@ h1{font-size:26px}
       <img src="../hinh-anh/lichsu/bai1-bia-tien-si.jpg" alt="Bia Tiến sĩ ở Văn Miếu" loading="lazy">
       <figcaption>🪨 <b>Bia Tiến sĩ ở Văn Miếu</b> (Hà Nội) — tư liệu <b>chữ viết</b> khắc trên đá, ghi tên những người đỗ đạt từ hàng trăm năm trước. Nhớ là: chữ khắc trên đá thì "sống" rất lâu! (Wikimedia Commons, CC BY-SA 3.0)</figcaption>
     </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-bao-tang.webp" alt="Học sinh tham quan bảo tàng lịch sử ngắm trống đồng" loading="lazy">
+      <figcaption>🏛️ <b>Tham quan bảo tàng lịch sử</b> — tận mắt ngắm hiện vật như trống đồng là cách "gặp gỡ" quá khứ sống động nhất. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ:</b> Ba loại tư liệu = <b>"Hiện – Chữ – Miệng"</b>: đồ vật còn <b>hiện</b> ra trước mắt, <b>chữ</b> viết để đọc, chuyện <b>miệng</b> kể cho nhau nghe.</div>
   <div class="wow">🤩 <b>Bí mật thú vị:</b> Trên mặt trống đồng có khắc hình người nhảy múa, nhà sàn, chim, thuyền… — giống như một "cuốn truyện tranh bằng đồng" kể về đời sống người Việt cổ!</div>
@@ -222,6 +275,10 @@ h1{font-size:26px}
     <figure>
       <img src="../hinh-anh/lichsu/bai2-dong-ho-mat-troi.jpg" alt="Đồng hồ mặt trời" loading="lazy">
       <figcaption>☀️ <b>Đồng hồ mặt trời</b> — bóng của chiếc kim đổ về đâu thì là giờ đó. Nhớ là: cái bóng chính là "kim giờ" của người xưa! (Wikimedia Commons, CC BY-SA 3.0)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-quan-sat-troi.webp" alt="Người xưa quan sát Mặt Trời và Mặt Trăng để tính thời gian" loading="lazy">
+      <figcaption>🔭 <b>Người xưa ngắm trời để tính thời gian</b> — theo dấu Mặt Trời mọc lặn, Mặt Trăng tròn khuyết mà khắc vạch đếm ngày. (Tranh minh họa do AI vẽ)</figcaption>
     </figure>
   </div>
   <figure>
@@ -323,6 +380,10 @@ h1{font-size:26px}
       <img src="../hinh-anh/lichsu/bai4-tranh-hang-lascaux.jpg" alt="Tranh hang động Lascaux" loading="lazy">
       <figcaption>🎨 <b>Tranh vẽ trong hang Lascaux</b> (Pháp) — tác phẩm của người tinh khôn. Nhớ là: biết vẽ tranh = đã có đời sống tinh thần phong phú! (Wikimedia Commons, Public domain)</figcaption>
     </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-hang-da.webp" alt="Gia đình người tinh khôn sinh hoạt trong hang đá" loading="lazy">
+      <figcaption>🔥 <b>Gia đình người tinh khôn trong hang</b> — người vẽ tranh lên vách, người nướng thức ăn bên lửa, trẻ con chơi đùa: hang vừa là nhà, vừa là "phòng tranh" đá. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ</b> (đọc như câu vè): <b>"Tối cổ đi thẳng — Khéo léo làm đá — Đứng thẳng nhóm lửa — Tinh khôn vẽ hang"</b>. Bốn chặng, bốn việc, thuộc ngay!</div>
   <div class="wow">🤩 <b>Bí mật thú vị:</b> Bộ xương người tối cổ nổi tiếng nhất thế giới có tên là <b>"Lucy"</b> — vì khi khai quật được nó, các nhà khoa học đang nghe bài hát "Lucy in the Sky with Diamonds" của ban nhạc The Beatles!</div>
@@ -376,6 +437,10 @@ h1{font-size:26px}
       <img src="../hinh-anh/lichsu/bai4-bo-rung-altamira.jpg" alt="Tranh bò rừng trong hang Altamira" loading="lazy">
       <figcaption>🦬 <b>Tranh bò rừng trong hang Altamira</b> (Tây Ban Nha) — người nguyên thủy vẽ con vật mình săn bắt ngay trên vách hang nơi ở. (Wikimedia Commons, Public domain)</figcaption>
     </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-san-bat.webp" alt="Bầy người nguyên thủy săn bắt và hái lượm" loading="lazy">
+      <figcaption>🏹 <b>Bầy người săn bắt – hái lượm</b> — người đuổi theo thú rừng, người hái quả, nhặt hạt: ai cũng có việc, cùng làm cùng hưởng. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ:</b> Thị tộc chỉ cần nhớ 4 chữ: <b>"Làm chung – Hưởng chung"</b>. Còn phân biệt công cụ: <b>"Ghè thì cũ – Mài thì mới"</b>!</div>
   <div class="wow">🤩 <b>Bí mật thú vị:</b> Người nguyên thủy chôn người chết cùng đồ vật (gọi là <b>đồ tùy táng</b>) — vì họ tin rằng người mất sang "thế giới bên kia" vẫn cần dùng đến những thứ đó.</div>
@@ -423,6 +488,10 @@ h1{font-size:26px}
     <figure>
       <img src="../hinh-anh/lichsu/bai4-ruong-bac-thang.jpg" alt="Ruộng bậc thang trồng lúa" loading="lazy">
       <figcaption>🌾 <b>Ruộng lúa bậc thang</b> — khi biết trồng trọt giỏi và có công cụ tốt, con người tự làm ra lương thực dồi dào, bắt đầu có của để dành. (Wikimedia Commons, CC BY 4.0)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-lang-ban.webp" alt="Làng bản nông nghiệp thời chuyển biến xã hội nguyên thủy" loading="lazy">
+      <figcaption>🏘️ <b>Làng bản buổi đầu nông nghiệp</b> — đúc đồng, cày ruộng, trữ lúa... ai làm giỏi, tích lũy giỏi thì dần khấm khá hơn: giàu – nghèo bắt đầu xuất hiện từ đây. (Tranh minh họa do AI vẽ)</figcaption>
     </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ</b> — chuỗi 3 mũi tên: <b>Đồng đến → Thừa ra → Giàu nghèo chia đôi</b>. Thuộc chuỗi này là thuộc cả bài!</div>
@@ -481,6 +550,14 @@ h1{font-size:26px}
       <img src="../hinh-anh/lichsu/ban-do-ai-cap-luong-ha.svg" alt="Bản đồ Ai Cập và Lưỡng Hà cổ đại" loading="lazy">
       <figcaption>🗺️ <b>Sơ đồ Ai Cập và Lưỡng Hà</b> khoảng năm 1450 TCN — hai cái nôi văn minh nằm cạnh nhau: <b>Ai Cập</b> ôm sông Nin ở phía tây, <b>Lưỡng Hà</b> nằm giữa sông Ti-grơ và sông Ơ-phrát ở phía đông. (Sơ đồ tự vẽ, nhãn tiếng Việt — sơ đồ minh họa đơn giản hoá)</figcaption>
     </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-xay-kim-tu-thap.webp" alt="Công nhân Ai Cập cổ kéo đá xây kim tự tháp" loading="lazy">
+      <figcaption>🔺 <b>Xây kim tự tháp</b> — hàng nghìn người kéo những khối đá khổng lồ lên dốc, thuyền chở đá xuôi dòng sông Nin. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-song-nin.webp" alt="Nông dân Ai Cập cổ làm ruộng bên sông Nin" loading="lazy">
+      <figcaption>🌾 <b>Nông dân bên sông Nin</b> — cày bừa, kéo nước, gặt lúa vàng: dòng sông hiền hòa nuôi cả nền văn minh Ai Cập. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ:</b> <b>"Ai Cập vẽ hình bên Nin — Lưỡng Hà ấn nêm đếm 60"</b>. Và luật thì nhớ tên vua: <b>Ha-mu-ra-bi</b> — đọc vui như "Ha! Muốn ra… luật!"</div>
   <div class="wow">🤩 <b>Bí mật thú vị:</b> Kim tự tháp Kê-ốp dùng khoảng <b>2,3 triệu khối đá</b>, có khối nặng bằng cả một con voi — vậy mà người Ai Cập không hề có máy móc hiện đại, và công trình vẫn đứng vững gần 4.500 năm!</div>
@@ -532,6 +609,10 @@ h1{font-size:26px}
     <figure>
       <img src="../hinh-anh/lichsu/bai7-tuong-phat-gandhara.jpg" alt="Tượng Phật cổ vùng Gandhara" loading="lazy">
       <figcaption>🙏 <b>Tượng Phật cổ</b> từ vùng Gan-đa-ra — Phật giáo ra đời ở Ấn Độ vào thế kỉ VI TCN rồi lan ra khắp châu Á, trong đó có Việt Nam. (Wikimedia Commons, Public domain)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-an-do-co.webp" alt="Chợ búa nhộn nhịp ở Ấn Độ cổ đại" loading="lazy">
+      <figcaption>🐘 <b>Chợ búa Ấn Độ cổ</b> — thương nhân buôn vải vóc, gia vị rực rỡ bên sông Ấn; voi thồ hàng đi qua phố gạch nung. (Tranh minh họa do AI vẽ)</figcaption>
     </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ</b> 4 đẳng cấp, đọc từ cao xuống thấp: <b>"Môn ngồi cao — Vương cầm kiếm — Dân làm lụng — Nô phục dịch"</b> (Bà La Môn, Sát-đế-lị, Vai-sơ, Su-đra).</div>
@@ -585,6 +666,10 @@ h1{font-size:26px}
     <figure>
       <img src="../hinh-anh/lichsu/bai8-doi-quan-dat-nung.jpg" alt="Đội quân đất nung của Tần Thủy Hoàng" loading="lazy">
       <figcaption>🗿 <b>Đội quân đất nung</b> trong lăng Tần Thủy Hoàng — hàng nghìn tượng lính bằng đất nung, mỗi tượng một khuôn mặt khác nhau! (Wikimedia Commons, CC BY 2.0)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-con-duong-to-lua.webp" alt="Đoàn lạc đà chở lụa trên Con đường tơ lụa" loading="lazy">
+      <figcaption>🐫 <b>Con đường tơ lụa</b> — đoàn lạc đà chở những cuộn lụa óng ánh vượt sa mạc, nối Trung Quốc với phương Tây xa xôi. (Tranh minh họa do AI vẽ)</figcaption>
     </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ</b> hai mốc vàng: <b>"221 — Tần gom thiên hạ; 618 — Đường lên rực rỡ"</b>. (221 TCN Tần Thủy Hoàng thống nhất; 618 nhà Đường thành lập.)</div>
@@ -641,6 +726,14 @@ h1{font-size:26px}
       <img src="../hinh-anh/lichsu/bai9-dau-truong-colosseum.jpg" alt="Đấu trường Colosseum ở Rome" loading="lazy">
       <figcaption>🏟️ <b>Đấu trường Cô-li-dê</b> ở Rô-ma — sân vận động khổng lồ của La Mã cổ đại, chứa được hàng chục nghìn khán giả xem giác đấu. (Wikimedia Commons, CC BY-SA 2.5)</figcaption>
     </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-cho-hy-lap.webp" alt="Chợ a-go-ra nhộn nhịp ở A-ten cổ" loading="lazy">
+      <figcaption>🏺 <b>Chợ a-go-ra ở A-ten</b> — người mua ô liu, nho, đồ gốm; góc kia hai triết gia đang tranh luận sôi nổi, trên đồi là đền Pác-tê-nông. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-olympic.webp" alt="Vận động viên thi đấu tại Thế vận hội Ô-lim-pích cổ" loading="lazy">
+      <figcaption>🏃 <b>Thế vận hội Ô-lim-pích</b> — vận động viên chạy đua trên sân đất, người thắng được đội vòng lá ô liu. (Tranh minh họa do AI vẽ)</figcaption>
+    </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ:</b> <b>"Hy Lạp NGHĨ và CHƠI (dân chủ, thần thoại, Olympic) — La Mã XÂY và TRỊ (đường, luật, đấu trường)"</b>.</div>
   <div class="wow">🤩 <b>Bí mật thú vị:</b> Thời Olympic cổ đại, các thành bang Hy Lạp đang đánh nhau cũng phải <b>ngừng chiến tranh</b> để thi đấu — và vận động viên thi đấu… không mặc gì cả, bôi dầu ô-liu khắp người!</div>
@@ -693,6 +786,10 @@ h1{font-size:26px}
     <figure>
       <img src="../hinh-anh/lichsu/bai10-angkor-wat.jpg" alt="Đền Angkor Wat ở Campuchia" loading="lazy">
       <figcaption>🏯 <b>Ăng-co Vát</b> (Campuchia) — ngôi đền đá khổng lồ nổi tiếng thế giới, di sản của vương quốc Ăng-co ở Đông Nam Á. (Wikimedia Commons, CC BY-SA 4.0)</figcaption>
+    </figure>
+    <figure>
+      <img src="../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp" alt="Làng quê ven sông ở Đông Nam Á cổ" loading="lazy">
+      <figcaption>🛶 <b>Làng quê Đông Nam Á cổ</b> — nhà sàn ven sông, thuyền buôn lúa gạo và đồ gốm, ruộng lúa xanh rờn: bức tranh văn minh lúa nước từ buổi đầu. (Tranh minh họa do AI vẽ)</figcaption>
     </figure>
   </div>
   <div class="meo">💡 <b>Mẹo nhớ</b> — ba chìa khóa của Đông Nam Á cổ: <b>"Gió mùa – Lúa nước – Nhà sàn"</b>. Thêm một cảng: <b>"Óc Eo bán buôn, tàu xa cũng đến"</b>!</div>
@@ -830,12 +927,11 @@ discobolus:"../hinh-anh/lichsu/bai9-tuong-nem-dia.jpg",
 colosseum:"../hinh-anh/lichsu/bai9-dau-truong-colosseum.jpg",
 oceo:"../hinh-anh/lichsu/bai10-hat-chuoi-oc-eo.jpg",
 myson:"../hinh-anh/lichsu/bai10-thanh-dia-my-son.jpg",
-angkor:"../hinh-anh/lichsu/bai10-angkor-wat.jpg"
-};
+angkor:"../hinh-anh/lichsu/bai10-angkor-wat.jpg",khaoco:"../hinh-anh/lichsu/minh-hoa-khao-co.webp",sanbat:"../hinh-anh/lichsu/minh-hoa-san-bat.webp",hangda:"../hinh-anh/lichsu/minh-hoa-hang-da.webp",langban:"../hinh-anh/lichsu/minh-hoa-lang-ban.webp",xayktt:"../hinh-anh/lichsu/minh-hoa-xay-kim-tu-thap.webp",andoco:"../hinh-anh/lichsu/minh-hoa-an-do-co.webp",phatgiao:"../hinh-anh/lichsu/minh-hoa-phat-giang-dao.webp",tolua:"../hinh-anh/lichsu/minh-hoa-con-duong-to-lua.webp",chohylap:"../hinh-anh/lichsu/minh-hoa-cho-hy-lap.webp",olympic:"../hinh-anh/lichsu/minh-hoa-olympic.webp",giacdau:"../hinh-anh/lichsu/minh-hoa-giac-dau.webp",langdna:"../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp"};
 /* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ] — 100% thẻ đều có hình */
 const CARDS=[
 ["Lịch sử là gì?","Là tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người.","dongson","kb"],
-["Kể tên 3 loại tư liệu lịch sử.","Tư liệu hiện vật – tư liệu chữ viết – tư liệu truyền miệng.","stele"],
+["Kể tên 3 loại tư liệu lịch sử.","Tư liệu hiện vật – tư liệu chữ viết – tư liệu truyền miệng.","khaoco"],
 ["Trống đồng, rìu đá thuộc loại tư liệu nào?","Tư liệu hiện vật — đồ vật còn lại đến ngày nay.","dongson","kb"],
 ["Học lịch sử giúp em điều gì?","Biết cội nguồn của mình, rút bài học từ quá khứ và thêm yêu quê hương, đất nước.","stele"],
 ["Tư liệu truyền miệng là gì? Cho một ví dụ.","Chuyện được kể lại bằng miệng qua nhiều đời, ví dụ: truyền thuyết Sơn Tinh – Thủy Tinh.","campfire","flick"],
@@ -849,37 +945,37 @@ const CARDS=[
 ["Người đứng thẳng (Homo erectus) gắn với điều kì diệu nào?","Biết dùng lửa: nấu chín thức ăn, sưởi ấm, xua đuổi thú dữ.","evo3","kb"],
 ["Người tinh khôn (Homo sapiens) có gì khác biệt nhất?","Bộ não lớn, cơ thể gần như người ngày nay; biết mài đá, vẽ tranh trong hang.","evo4"],
 ["Dấu tích người tối cổ ở Việt Nam được tìm thấy ở đâu?","Ở hang Thẩm Khuyên và Thẩm Hai (Lạng Sơn) — những chiếc răng hóa thạch.","handaxe"],
-["Bầy người nguyên thủy là gì?","Nhóm vài chục người sống chung với nhau, cùng săn bắt – hái lượm để kiếm ăn.","altamira"],
+["Bầy người nguyên thủy là gì?","Nhóm vài chục người sống chung với nhau, cùng săn bắt – hái lượm để kiếm ăn.","sanbat"],
 ["Ở công xã thị tộc, mọi người LÀM … và HƯỞNG …?","Làm chung – hưởng chung: cùng lao động, chia đều sản phẩm, không ai giàu hơn ai.","terraces","kb"],
 ["Vì sao xã hội nguyên thủy theo chế độ mẫu hệ?","Vì phụ nữ hái lượm ổn định, lại nuôi dạy con trẻ nên là trung tâm của thị tộc.","altamira"],
 ["'Cách mạng đá mới' nghĩa là gì?","Con người biết trồng trọt, chăn nuôi và mài đá làm công cụ — không còn chỉ phụ thuộc vào săn bắt, hái lượm.","polishedaxe"],
-["Người nguyên thủy thường sống ở đâu và kiếm sống bằng cách nào?","Sống trong hang động, mái đá gần sông suối; kiếm sống bằng săn bắt và hái lượm.","lascaux"],
+["Người nguyên thủy thường sống ở đâu và kiếm sống bằng cách nào?","Sống trong hang động, mái đá gần sông suối; kiếm sống bằng săn bắt và hái lượm.","hangda"],
 ["Kim loại đầu tiên con người biết sử dụng là gì?","Là đồng — mở đầu thời đại đồ đồng.","dagger"],
-["Vì sao xã hội nguyên thủy dần phân hóa giàu – nghèo?","Nhờ công cụ kim loại, sản xuất có của dư thừa; của dư rơi vào tay một số người → sinh tư hữu, giàu – nghèo.","dagger"],
+["Vì sao xã hội nguyên thủy dần phân hóa giàu – nghèo?","Nhờ công cụ kim loại, sản xuất có của dư thừa; của dư rơi vào tay một số người → sinh tư hữu, giàu – nghèo.","langban"],
 ["Chế độ phụ hệ thay thế mẫu hệ khi nào?","Khi nam giới trở thành lực lượng chính trong sản xuất (cày bừa, chăn nuôi, rèn đúc) và giữ vai trò chủ chốt trong gia đình.","terraces","kb"],
 ["Cuối thời nguyên thủy, xã hội chuyển biến thành xã hội gì?","Xã hội có giai cấp — nhà nước sắp ra đời.","dagger"],
 ["Văn minh Ai Cập cổ đại hình thành bên dòng sông nào?","Sông Nin — con sông dài, hiền hòa, bồi đắp phù sa màu mỡ.","pyramids"],
-["Kim tự tháp được xây để làm gì? Kim tự tháp lớn nhất tên là gì?","Là lăng mộ cho các Pha-ra-ông; lớn nhất là kim tự tháp Kê-ốp.","pyramids"],
+["Kim tự tháp được xây để làm gì? Kim tự tháp lớn nhất tên là gì?","Là lăng mộ cho các Pha-ra-ông; lớn nhất là kim tự tháp Kê-ốp.","xayktt"],
 ["Người Ai Cập và người Lưỡng Hà viết chữ gì?","Ai Cập: chữ tượng hình; Lưỡng Hà: chữ hình nêm (khắc trên đất sét).","hieroglyphs"],
 ["Lưỡng Hà nằm giữa hai con sông nào? Nay thuộc nước nào?","Giữa sông Ti-grơ và sông Ơ-phrát; nay là I-rắc.","map"],
 ["Vua Ha-mu-ra-bi nổi tiếng vì điều gì?","Ban hành bộ luật thành văn nổi tiếng, vào thế kỉ XVIII TCN.","hammurabi"],
 ["Văn minh Ấn Độ cổ đại hình thành bên hai sông nào?","Sông Ấn và sông Hằng.","ganges"],
-["Trong xã hội Ấn Độ cổ, đẳng cấp cao nhất và thấp nhất là gì?","Cao nhất: Bà La Môn; thấp nhất: Su-đra (người lao động, phục dịch).","mohenjo"],
-["Phật giáo do ai sáng lập, vào khoảng thế kỉ nào?","Do Thích Ca Mâu Ni sáng lập, vào thế kỉ VI TCN.","buddha"],
+["Trong xã hội Ấn Độ cổ, đẳng cấp cao nhất và thấp nhất là gì?","Cao nhất: Bà La Môn; thấp nhất: Su-đra (người lao động, phục dịch).","andoco"],
+["Phật giáo do ai sáng lập, vào khoảng thế kỉ nào?","Do Thích Ca Mâu Ni sáng lập, vào thế kỉ VI TCN.","phatgiao"],
 ["Thành tựu toán học nổi tiếng nhất của Ấn Độ cổ đại là gì?","Sáng tạo ra các chữ số (mà ta dùng ngày nay) và số 0, cùng hệ đếm thập phân.","mohenjo"],
-["Hai thành phố cổ nổi tiếng của văn minh sông Ấn tên là gì?","Mô-hen-giô Đa-rô và Ha-ráp-pa.","mohenjo"],
+["Hai thành phố cổ nổi tiếng của văn minh sông Ấn tên là gì?","Mô-hen-giô Đa-rô và Ha-ráp-pa.","andoco"],
 ["Văn minh Trung Quốc cổ đại hình thành ở lưu vực sông nào?","Sông Hoàng Hà (sau mở rộng xuống lưu vực Trường Giang).","greatwall"],
 ["Năm 221 TCN, Trung Quốc có sự kiện lớn nào?","Tần Thủy Hoàng thống nhất Trung Quốc, lập nhà Tần.","terracotta"],
 ["Vạn Lí Trường Thành được xây dựng để làm gì?","Để phòng thủ, ngăn quân du mục từ phương Bắc xâm nhập.","greatwall"],
 ["Chữ viết cổ nhất của Trung Quốc được khắc trên gì?","Trên giáp cốt — xương thú và mai rùa (gọi là chữ giáp cốt).","oraclebone"],
-["Con đường tơ lụa nối Trung Quốc với những đâu?","Nối Trung Quốc với Trung Á và phương Tây — đường buôn bán tơ lụa, gia vị, gốm sứ.","greatwall"],
-["Thế vận hội Olympic bắt nguồn từ đâu, bắt đầu từ năm nào?","Từ Hy Lạp cổ đại, bắt đầu năm 776 TCN.","discobolus"],
-["Thành bang A-ten (Hy Lạp) nổi tiếng vì điều gì?","Vì chế độ dân chủ cổ đại — người dân được bàn bạc việc chung.","parthenon"],
+["Con đường tơ lụa nối Trung Quốc với những đâu?","Nối Trung Quốc với Trung Á và phương Tây — đường buôn bán tơ lụa, gia vị, gốm sứ.","tolua"],
+["Thế vận hội Olympic bắt nguồn từ đâu, bắt đầu từ năm nào?","Từ Hy Lạp cổ đại, bắt đầu năm 776 TCN.","olympic"],
+["Thành bang A-ten (Hy Lạp) nổi tiếng vì điều gì?","Vì chế độ dân chủ cổ đại — người dân được bàn bạc việc chung.","chohylap"],
 ["Hai bộ sử thi nổi tiếng của Hy Lạp cổ đại là gì?","I-li-át và Ô-đi-xê (của Hô-me).","parthenon"],
-["Đấu trường Cô-li-dê là công trình của nền văn minh nào?","Của La Mã cổ đại — nơi tổ chức các cuộc đấu võ, biểu diễn.","colosseum"],
+["Đấu trường Cô-li-dê là công trình của nền văn minh nào?","Của La Mã cổ đại — nơi tổ chức các cuộc đấu võ, biểu diễn.","giacdau"],
 ["Vị thần đứng đầu trong thần thoại Hy Lạp sống ở đâu?","Thần Dớt (Zeus) — sống trên đỉnh Ô-lim-pơ.","parthenon"],
 ["Vương quốc Phù Nam nằm ở khu vực nào?","Ở hạ lưu sông Mê Công — vùng phía nam Việt Nam và Campuchia ngày nay.","oceo"],
-["Óc Eo là gì?","Là thương cảng (bến cảng buôn bán) sầm uất của vương quốc Phù Nam.","oceo"],
+["Óc Eo là gì?","Là thương cảng (bến cảng buôn bán) sầm uất của vương quốc Phù Nam.","langdna"],
 ["Thánh địa Mỹ Sơn là di tích của vương quốc cổ nào?","Của vương quốc Chăm-pa ở miền Trung Việt Nam.","myson"],
 ["Nền văn minh đặc trưng của cư dân Đông Nam Á cổ là gì?","Văn minh lúa nước — trồng lúa ở vùng khí hậu gió mùa nóng ẩm, mưa nhiều.","angkor"]
 ];
@@ -890,44 +986,91 @@ var LSKEY='lichsu_flash_v2';
 var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
 function saveKnown(){try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
 function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
-function mountDeck(box){
-  var spec=box.getAttribute('data-cards');
-  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
-  idxs.sort(function(a,b){return (known[a]?1:0)-(known[b]?1:0);});
-  var order=idxs.slice(),pos=0,flipped=false;
-  box.innerHTML='<div class="fc-card"><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
-    +'<div class="fc-btns"><button class="btn gray" data-a="prev">⬅ Trước</button><button class="btn" data-a="flip">🔄 Lật thẻ</button><button class="btn gray" data-a="next">Tiếp ➡</button></div>'
-    +'<div class="fc-btns"><button class="btn green" data-a="ok">✅ Đã thuộc</button><button class="btn red" data-a="no">🔁 Chưa thuộc</button><button class="btn gray" data-a="shuffle">🔀 Xáo trộn</button></div>'
-    +'<div class="fc-prog"></div><div class="fc-stat"></div>';
-  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat');
-  function render(){
-    var ci=order[pos],c=CARDS[ci];
-    if(c[3]==='strip'){
-      front.innerHTML='<div class="fc-strip"><img src="'+IMG.evo1+'" alt="Chặng 1: người tối cổ"><img src="'+IMG.evo2+'" alt="Chặng 2: người khéo léo"><img src="'+IMG.evo3+'" alt="Chặng 3: người đứng thẳng"><img src="'+IMG.evo4+'" alt="Chặng 4: người tinh khôn"></div><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   Cach dung: 1 the tai 1 thoi diem; the chua thuoc xep truoc.
+   Bam vao the de lat (xoay 3D). Tick "Da thuoc": dau tick nay pop + the truot phai;
+   tick "Chua thuoc": the truot trai + ve cuoi hang doi de gap lai trong phien.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
     } else {
-      front.innerHTML='<img'+(c[3]?' class="anim-'+c[3]+'"':'')+' src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
     }
-    back.innerHTML='<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>';
-    card.classList.toggle('flipped',flipped);
-    prog.textContent='Thẻ '+(pos+1)+' / '+order.length;
-    var k=idxs.filter(function(i){return known[i];}).length;
-    stat.textContent='Bộ này đã thuộc '+k+'/'+idxs.length+' thẻ • Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
   }
-  function go(d){pos=(pos+d+order.length)%order.length;flipped=false;render();}
-  card.addEventListener('click',function(){flipped=!flipped;render();});
-  box.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
-    var a=b.getAttribute('data-a'),ci=order[pos];
-    if(a==='flip'){flipped=!flipped;render();}
-    else if(a==='prev'){go(-1);}
-    else if(a==='next'){go(1);}
-    else if(a==='ok'){known[ci]=true;saveKnown();go(1);}
-    else if(a==='no'){delete known[ci];saveKnown();go(1);}
-    else if(a==='shuffle'){for(var i=order.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=order[i];order[i]=order[j];order[j]=t;}pos=0;flipped=false;render();}
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
   });});
   render();
 }
-document.querySelectorAll('.fcbox').forEach(mountDeck);
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){
+    var c=CARDS[ci],front;
+    if(c[3]==='strip'){
+      front='<div class="fc-strip"><img src="'+IMG.evo1+'" alt="Chặng 1: người tối cổ"><img src="'+IMG.evo2+'" alt="Chặng 2: người khéo léo"><img src="'+IMG.evo3+'" alt="Chặng 3: người đứng thẳng"><img src="'+IMG.evo4+'" alt="Chặng 4: người tinh khôn"></div><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    } else {
+      front='<img'+(c[3]?' class="anim-'+c[3]+'"':'')+' src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    }
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+});
 /* Trò chơi sắp xếp sự kiện */
 var EVENTS=[
 ["≈ 4 triệu năm trước","Người tối cổ xuất hiện ở Đông Phi"],

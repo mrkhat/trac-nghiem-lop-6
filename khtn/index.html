@@ -117,6 +117,55 @@ figure img,img,svg{max-width:100%}
 .card{overflow-wrap:break-word}
 @media (max-width:480px){h1{font-size:24px}.prevnext button{padding:10px 10px}.chip{padding:10px 12px}}
 </style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+<style>
+/* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
+.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
+.fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
+.fc-face svg{max-width:100%;height:auto}
+.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
+.fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
+.fc-stat{text-align:center;color:#455a64;font-size:14px}
+.fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
+.fc-bar-in{height:100%;background:#43a047;width:0;transition:width .4s}
+@keyframes fcOutR{to{transform:translateX(70px);opacity:0}}
+@keyframes fcOutL{to{transform:translateX(-70px);opacity:0}}
+@keyframes fcInR{from{transform:translateX(50px);opacity:0}}
+@keyframes fcInL{from{transform:translateX(-50px);opacity:0}}
+@keyframes fcPopK{0%{transform:scale(.4);opacity:0}45%{transform:scale(1.3);opacity:1}100%{transform:scale(1.05);opacity:0}}
+.fc-out-r{animation:fcOutR .28s forwards}
+.fc-out-l{animation:fcOutL .28s forwards}
+.fc-in-r{animation:fcInR .25s}
+.fc-in-l{animation:fcInL .25s}
+.fc-pop{position:absolute;inset:0;display:none;align-items:center;justify-content:center;font-size:96px;font-weight:bold;pointer-events:none;z-index:5;animation:fcPopK .5s forwards;text-shadow:0 2px 10px rgba(255,255,255,.9)}
+.fc-pop.ok{color:#2e7d32}.fc-pop.no{color:#ef6c00}
+.fc-done{text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:14px;padding:22px;font-size:19px;max-width:560px;margin:6px auto}
+.fc-restart{margin-top:12px;min-height:44px;padding:10px 18px;font-size:17px;border-radius:10px;border:1.5px solid #2e7d32;background:#fff;color:#2e7d32;cursor:pointer;font-family:inherit}
+[data-fc]{display:block!important}
+.fc-tools{display:none!important}
+</style>
 </head>
 <body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
@@ -557,7 +606,7 @@ document.querySelectorAll('.chk-btn').forEach(b=>b.onclick=()=>{
 </script>
 <script>
 // ---------- Flashcard theo bài + Tổng ôn ----------
-const FLASH={"bai1": [{"id": "b1c1", "img": "../hinh-anh/khtn/bai1-phong-thi-nghiem.webp", "svg": "", "f": "Nghiên cứu khoa học là gì?", "b": "Hoạt động tìm tòi, khám phá ra cái mới bằng quan sát, thí nghiệm có phương pháp."}, {"id": "b1c2", "img": "../hinh-anh/khtn/bai1-phong-thi-nghiem.webp", "svg": "", "f": "Vật sống có những dấu hiệu nào?", "b": "Trao đổi chất, sinh trưởng, sinh sản và cảm ứng."}, {"id": "b1c3", "img": "../hinh-anh/khtn/bai1-phong-thi-nghiem.webp", "svg": "", "f": "Than củi, hòn đá thuộc loại vật gì?", "b": "Vật không sống — không có các hoạt động sống."}, {"id": "b1c4", "img": "../hinh-anh/khtn/bai1-phong-thi-nghiem.webp", "svg": "", "f": "KHTN gồm những lĩnh vực nào?", "b": "Vật lí học, Hóa học, Sinh học, Thiên văn học, Khoa học Trái Đất."}, {"id": "b1c5", "img": "../hinh-anh/khtn/bai1-phong-thi-nghiem.webp", "svg": "", "f": "Hiện tượng nước sôi thuộc lĩnh vực nào?", "b": "Vật lí học (sự chuyển thể của chất)."}], "bai2": [{"id": "b2c1", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Sau khi làm thí nghiệm xong phải làm gì?", "b": "Rửa sạch tay bằng xà phòng."}, {"id": "b2c2", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Làm vỡ nhiệt kế thủy ngân thì xử lí thế nào?", "b": "Đóng kín cửa • đeo khẩu trang + găng tay • gom bằng chổi mềm • báo giáo viên."}, {"id": "b2c3", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Hóa chất đổ ra sàn thì làm gì?", "b": "Báo giáo viên và trải giấy thấm lên để ngăn hóa chất lan rộng."}, {"id": "b2c4", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Kí hiệu trong hình cảnh báo điều gì?", "b": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng."}, {"id": "b2c5", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Hai việc tuyệt đối cấm trong phòng thực hành?", "b": "Ăn uống trong phòng; nếm hay ngửi trực tiếp hóa chất."}], "bai3": [{"id": "b3c1", "img": "../hinh-anh/khtn/bai3-kinh-lup.webp", "svg": "", "f": "Bộ phận chính của kính lúp là gì?", "b": "Một thấu kính lồi gắn trong khung có tay cầm."}, {"id": "b3c2", "img": "../hinh-anh/khtn/bai3-kinh-lup.webp", "svg": "", "f": "Số bội giác (3x, 5x…) cho biết điều gì?", "b": "Khả năng phóng to ảnh của vật của kính lúp."}, {"id": "b3c3", "img": "../hinh-anh/khtn/bai3-kinh-lup.webp", "svg": "", "f": "Kính lúp phóng to khoảng bao nhiêu lần?", "b": "Khoảng 3 đến 20 lần."}, {"id": "b3c4", "img": "../hinh-anh/khtn/bai3-kinh-lup.webp", "svg": "", "f": "Cách dùng kính lúp đúng?", "b": "Điều chỉnh khoảng cách giữa kính và vật đến khi nhìn ảnh rõ nét nhất."}, {"id": "b3c5", "img": "../hinh-anh/khtn/bai3-kinh-lup.webp", "svg": "", "f": "Bảo quản kính lúp thế nào?", "b": "Lau bằng khăn mềm, cất nơi khô ráo, tránh rơi vỡ/trầy xước."}], "bai4": [{"id": "b4c1", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?", "b": "Khoảng 40 đến 3000 lần."}, {"id": "b4c2", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Kính hiển vi gồm hai bộ phận thấu kính nào?", "b": "Vật kính và thị kính."}, {"id": "b4c3", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Độ phóng đại của kính hiển vi tính thế nào?", "b": "Độ phóng đại vật kính × độ phóng đại thị kính."}, {"id": "b4c4", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Khi nào phải dùng kính hiển vi thay cho kính lúp?", "b": "Khi vật quá nhỏ (tế bào, vi khuẩn) — kính lúp chỉ phóng to 3–20 lần, không đủ."}], "bai5": [{"id": "b5c1", "img": "", "svg": "ruler", "f": "Đơn vị đo độ dài hợp pháp của nước ta?", "b": "Mét (m)."}, {"id": "b5c2", "img": "", "svg": "ruler", "f": "GHĐ của thước là gì?", "b": "Độ dài lớn nhất mà thước đo được."}, {"id": "b5c3", "img": "", "svg": "ruler", "f": "ĐCNN của thước là gì?", "b": "Khoảng cách giữa hai vạch chia liên tiếp trên thước."}, {"id": "b5c4", "img": "../hinh-anh/khtn/bai5-thuoc-thep.webp", "svg": "", "f": "1 mL bằng bao nhiêu cm³?", "b": "1 mL = 1 cm³."}, {"id": "b5c5", "img": "../hinh-anh/khtn/bai5-thuoc-thep.webp", "svg": "", "f": "Khi đọc kết quả đo, đặt mắt thế nào?", "b": "Mắt nhìn vuông góc với vạch chia của thước."}], "bai6": [{"id": "b6c1", "img": "../hinh-anh/khtn/bai6-can.webp", "svg": "", "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?", "b": "Khối lượng của sữa trong hộp (khối lượng tịnh)."}, {"id": "b6c2", "img": "", "svg": "balance", "f": "0,2 tạ bằng bao nhiêu kg?", "b": "20 kg (vì 1 tạ = 100 kg)."}, {"id": "b6c3", "img": "", "svg": "balance", "f": "1 lạng bằng bao nhiêu?", "b": "100 g = 0,1 kg."}, {"id": "b6c4", "img": "../hinh-anh/khtn/bai6-can.webp", "svg": "", "f": "Trước khi cân phải làm gì với cân?", "b": "Hiệu chỉnh cân về vạch 0."}, {"id": "b6c5", "img": "", "svg": "balance", "f": "Cân 257,5 g thì chọn những quả cân nào?", "b": "200 g + 50 g + 5 g + 2 g + 500 mg."}], "bai7": [{"id": "b7c1", "img": "", "svg": "clock", "f": "Đơn vị đo thời gian là gì?", "b": "Giây (s)."}, {"id": "b7c2", "img": "", "svg": "clock", "f": "1 ngày bằng bao nhiêu giờ?", "b": "24 giờ."}, {"id": "b7c3", "img": "../hinh-anh/khtn/bai7-dong-ho-bam-giay.webp", "svg": "", "f": "Đo thời gian chạy 100 m dùng đồng hồ nào?", "b": "Đồng hồ bấm giây."}, {"id": "b7c4", "img": "", "svg": "clock", "f": "1 giờ bằng bao nhiêu giây?", "b": "3600 giây."}], "bai8": [{"id": "b8c1", "img": "", "svg": "thermo", "f": "Nhiệt độ nước đá đang tan là bao nhiêu °C?", "b": "0 °C."}, {"id": "b8c2", "img": "", "svg": "thermo", "f": "Nhiệt độ nước đang sôi theo thang °F?", "b": "212 °F."}, {"id": "b8c3", "img": "", "svg": "thermo", "f": "Công thức đổi °C sang °F?", "b": "°F = °C × 1,8 + 32."}, {"id": "b8c4", "img": "", "svg": "thermo", "f": "22 °C đổi sang °F bằng bao nhiêu?", "b": "71,6 °F."}], "bai9": [{"id": "b9c1", "img": "", "svg": "states", "f": "Chất có những thể nào?", "b": "Ba thể: rắn, lỏng, khí."}, {"id": "b9c2", "img": "", "svg": "change", "f": "Nóng chảy là sự chuyển thể nào?", "b": "Từ thể rắn sang thể lỏng."}, {"id": "b9c3", "img": "../hinh-anh/khtn/bai9-da-tan.webp", "svg": "", "f": "Mây được tạo thành do hiện tượng gì?", "b": "Hơi nước ngưng tụ trên cao."}, {"id": "b9c4", "img": "", "svg": "states", "f": "Sôi khác bay hơi ở điểm nào?", "b": "Sôi xảy ra ở một nhiệt độ xác định; bay hơi xảy ra ở mọi nhiệt độ, chỉ trên bề mặt."}, {"id": "b9c5", "img": "", "svg": "states", "f": "Thể khí có đặc điểm gì nổi bật?", "b": "Không có hình dạng và thể tích xác định, lan tỏa theo mọi hướng."}], "bai10": [{"id": "b10c1", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Tính chất hóa học của chất là gì?", "b": "Khả năng biến đổi thành chất khác (tạo ra chất mới)."}, {"id": "b10c2", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Đun đường đến cháy đen thể hiện tính chất gì?", "b": "Tính chất hóa học — vì có chất mới tạo thành."}, {"id": "b10c3", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Mô hình 3R gồm những gì?", "b": "Reduce (giảm thiểu) – Reuse (tái sử dụng) – Recycle (tái chế)."}, {"id": "b10c4", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Gang và thép đều được chế biến từ đâu?", "b": "Từ quặng sắt."}, {"id": "b10c5", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Gang khác thép ở điểm nào quan trọng?", "b": "Gang cứng nhưng giòn hơn thép."}], "bai11": [{"id": "b11c1", "img": "", "svg": "pie", "f": "Oxygen chiếm khoảng bao nhiêu % không khí?", "b": "Khoảng 21%."}, {"id": "b11c2", "img": "", "svg": "pie", "f": "Nitrogen chiếm khoảng bao nhiêu % không khí?", "b": "Khoảng 78%."}, {"id": "b11c3", "img": "../hinh-anh/khtn/bai11-binh-oxygen.webp", "svg": "", "f": "Can xăng bốc cháy thì dập lửa bằng gì?", "b": "Dùng cát đổ trùm lên (hoặc bình chữa cháy) — không dùng nước."}, {"id": "b11c4", "img": "../hinh-anh/khtn/bai11-binh-oxygen.webp", "svg": "", "f": "Vì sao không dùng nước dập cháy xăng?", "b": "Xăng nhẹ hơn nước và không tan, nước làm xăng loang ra, cháy lan rộng hơn."}, {"id": "b11c5", "img": "../hinh-anh/khtn/bai11-binh-oxygen.webp", "svg": "", "f": "Dùng bếp gas sao cho tiết kiệm?", "b": "Điều chỉnh ngọn lửa phù hợp với nồi và nhu cầu đun nấu."}], "bai12": [{"id": "b12c1", "img": "", "svg": "cell", "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?", "b": "Tế bào."}, {"id": "b12c2", "img": "", "svg": "cell", "f": "Trung tâm điều khiển mọi hoạt động của tế bào?", "b": "Nhân tế bào."}, {"id": "b12c3", "img": "../hinh-anh/khtn/bai12-te-bao-hanh.webp", "svg": "", "f": "Kể hai sinh vật đơn bào.", "b": "Tảo lục và vi khuẩn lam."}, {"id": "b12c4", "img": "", "svg": "cell", "f": "Các cấp độ tổ chức của cơ thể theo thứ tự?", "b": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể."}, {"id": "b12c5", "img": "../hinh-anh/khtn/bai12-te-bao-hanh.webp", "svg": "", "f": "Thực vật có hai hệ cơ quan nào?", "b": "Hệ chồi và hệ rễ."}, {"id": "b12c6", "img": "", "svg": "cell", "f": "\"Vùng nhân\" là đặc điểm của tế bào loại nào?", "b": "Tế bào nhân sơ (tế bào nhân thực không có vùng nhân)."}], "bai13": [{"id": "b13c1", "img": "../hinh-anh/khtn/bai13-luc-ke.webp", "svg": "", "f": "Lực là gì?", "b": "Tác dụng đẩy, kéo của vật này lên vật khác."}, {"id": "b13c2", "img": "../hinh-anh/khtn/bai13-luc-ke.webp", "svg": "", "f": "Trọng lực luôn có chiều thế nào?", "b": "Hướng xuống dưới, về phía Trái Đất."}, {"id": "b13c3", "img": "../hinh-anh/khtn/bai13-luc-ke.webp", "svg": "", "f": "Hai lực cân bằng cần đủ điều kiện gì?", "b": "Cùng tác dụng lên một vật, cùng phương, ngược chiều, cùng độ lớn."}, {"id": "b13c4", "img": "", "svg": "spring", "f": "Đơn vị đo lực là gì?", "b": "Niutơn (N)."}, {"id": "b13c5", "img": "", "svg": "spring", "f": "Lực kế thường dùng có GHĐ và ĐCNN bao nhiêu?", "b": "GHĐ 10 N, ĐCNN 0,2 N."}, {"id": "b13c6", "img": "", "svg": "spring", "f": "Treo 150 g kim chỉ vạch 3, treo 100 g chỉ vạch mấy?", "b": "Vạch thứ 2 (mỗi vạch ứng với 50 g)."}]};
+const FLASH={"bai1": [{"id": "b1c1", "img": "../hinh-anh/khtn/fc-bai1-nghien-cuu.webp", "svg": "", "f": "Nghiên cứu khoa học là gì?", "b": "Hoạt động tìm tòi, khám phá ra cái mới bằng quan sát, thí nghiệm có phương pháp."}, {"id": "b1c2", "img": "../hinh-anh/khtn/fc-bai1-vat-song.webp", "svg": "", "f": "Vật sống có những dấu hiệu nào?", "b": "Trao đổi chất, sinh trưởng, sinh sản và cảm ứng."}, {"id": "b1c3", "img": "../hinh-anh/khtn/fc-bai1-vat-song.webp", "svg": "", "f": "Than củi, hòn đá thuộc loại vật gì?", "b": "Vật không sống — không có các hoạt động sống."}, {"id": "b1c4", "img": "../hinh-anh/khtn/fc-bai1-linh-vuc.webp", "svg": "", "f": "KHTN gồm những lĩnh vực nào?", "b": "Vật lí học, Hóa học, Sinh học, Thiên văn học, Khoa học Trái Đất."}, {"id": "b1c5", "img": "../hinh-anh/khtn/fc-bai1-linh-vuc.webp", "svg": "", "f": "Hiện tượng nước sôi thuộc lĩnh vực nào?", "b": "Vật lí học (sự chuyển thể của chất)."}], "bai2": [{"id": "b2c1", "img": "../hinh-anh/khtn/fc-bai2-rua-tay.webp", "svg": "", "f": "Sau khi làm thí nghiệm xong phải làm gì?", "b": "Rửa sạch tay bằng xà phòng."}, {"id": "b2c2", "img": "../hinh-anh/khtn/fc-bai2-an-toan.webp", "svg": "", "f": "Làm vỡ nhiệt kế thủy ngân thì xử lí thế nào?", "b": "Đóng kín cửa • đeo khẩu trang + găng tay • gom bằng chổi mềm • báo giáo viên."}, {"id": "b2c3", "img": "../hinh-anh/khtn/fc-bai2-an-toan.webp", "svg": "", "f": "Hóa chất đổ ra sàn thì làm gì?", "b": "Báo giáo viên và trải giấy thấm lên để ngăn hóa chất lan rộng."}, {"id": "b2c4", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Kí hiệu trong hình cảnh báo điều gì?", "b": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng."}, {"id": "b2c5", "img": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png", "svg": "", "f": "Hai việc tuyệt đối cấm trong phòng thực hành?", "b": "Ăn uống trong phòng; nếm hay ngửi trực tiếp hóa chất."}], "bai3": [{"id": "b3c1", "img": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp", "svg": "", "f": "Bộ phận chính của kính lúp là gì?", "b": "Một thấu kính lồi gắn trong khung có tay cầm."}, {"id": "b3c2", "img": "../hinh-anh/khtn/fc-bai3-quan-sat-la.webp", "svg": "", "f": "Số bội giác (3x, 5x…) cho biết điều gì?", "b": "Khả năng phóng to ảnh của vật của kính lúp."}, {"id": "b3c3", "img": "../hinh-anh/khtn/fc-bai3-quan-sat-la.webp", "svg": "", "f": "Kính lúp phóng to khoảng bao nhiêu lần?", "b": "Khoảng 3 đến 20 lần."}, {"id": "b3c4", "img": "../hinh-anh/khtn/fc-bai3-xem-tem.webp", "svg": "", "f": "Cách dùng kính lúp đúng?", "b": "Điều chỉnh khoảng cách giữa kính và vật đến khi nhìn ảnh rõ nét nhất."}, {"id": "b3c5", "img": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp", "svg": "", "f": "Bảo quản kính lúp thế nào?", "b": "Lau bằng khăn mềm, cất nơi khô ráo, tránh rơi vỡ/trầy xước."}], "bai4": [{"id": "b4c1", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?", "b": "Khoảng 40 đến 3000 lần."}, {"id": "b4c2", "img": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp", "svg": "", "f": "Kính hiển vi gồm hai bộ phận thấu kính nào?", "b": "Vật kính và thị kính."}, {"id": "b4c3", "img": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp", "svg": "", "f": "Độ phóng đại của kính hiển vi tính thế nào?", "b": "Độ phóng đại vật kính × độ phóng đại thị kính."}, {"id": "b4c4", "img": "../hinh-anh/khtn/fc-bai4-quan-sat-mau.webp", "svg": "", "f": "Khi nào phải dùng kính hiển vi thay cho kính lúp?", "b": "Khi vật quá nhỏ (tế bào, vi khuẩn) — kính lúp chỉ phóng to 3–20 lần, không đủ."}], "bai5": [{"id": "b5c1", "img": "", "svg": "ruler", "f": "Đơn vị đo độ dài hợp pháp của nước ta?", "b": "Mét (m)."}, {"id": "b5c2", "img": "", "svg": "ruler", "f": "GHĐ của thước là gì?", "b": "Độ dài lớn nhất mà thước đo được."}, {"id": "b5c3", "img": "", "svg": "ruler", "f": "ĐCNN của thước là gì?", "b": "Khoảng cách giữa hai vạch chia liên tiếp trên thước."}, {"id": "b5c4", "img": "../hinh-anh/khtn/fc-bai5-ong-dong.webp", "svg": "", "f": "1 mL bằng bao nhiêu cm³?", "b": "1 mL = 1 cm³."}, {"id": "b5c5", "img": "../hinh-anh/khtn/fc-bai5-do-ban-tay.webp", "svg": "", "f": "Khi đọc kết quả đo, đặt mắt thế nào?", "b": "Mắt nhìn vuông góc với vạch chia của thước."}], "bai6": [{"id": "b6c1", "img": "../hinh-anh/khtn/fc-bai6-can-hang.webp", "svg": "", "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?", "b": "Khối lượng của sữa trong hộp (khối lượng tịnh)."}, {"id": "b6c2", "img": "", "svg": "balance", "f": "0,2 tạ bằng bao nhiêu kg?", "b": "20 kg (vì 1 tạ = 100 kg)."}, {"id": "b6c3", "img": "", "svg": "balance", "f": "1 lạng bằng bao nhiêu?", "b": "100 g = 0,1 kg."}, {"id": "b6c4", "img": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp", "svg": "", "f": "Trước khi cân phải làm gì với cân?", "b": "Hiệu chỉnh cân về vạch 0."}, {"id": "b6c5", "img": "", "svg": "balance", "f": "Cân 257,5 g thì chọn những quả cân nào?", "b": "200 g + 50 g + 5 g + 2 g + 500 mg."}], "bai7": [{"id": "b7c1", "img": "", "svg": "clock", "f": "Đơn vị đo thời gian là gì?", "b": "Giây (s)."}, {"id": "b7c2", "img": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp", "svg": "", "f": "1 ngày bằng bao nhiêu giờ?", "b": "24 giờ."}, {"id": "b7c3", "img": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp", "svg": "", "f": "Đo thời gian chạy 100 m dùng đồng hồ nào?", "b": "Đồng hồ bấm giây."}, {"id": "b7c4", "img": "", "svg": "clock", "f": "1 giờ bằng bao nhiêu giây?", "b": "3600 giây."}], "bai8": [{"id": "b8c1", "img": "", "svg": "thermo", "f": "Nhiệt độ nước đá đang tan là bao nhiêu °C?", "b": "0 °C."}, {"id": "b8c2", "img": "", "svg": "thermo", "f": "Nhiệt độ nước đang sôi theo thang °F?", "b": "212 °F."}, {"id": "b8c3", "img": "", "svg": "thermo", "f": "Công thức đổi °C sang °F?", "b": "°F = °C × 1,8 + 32."}, {"id": "b8c4", "img": "", "svg": "thermo", "f": "22 °C đổi sang °F bằng bao nhiêu?", "b": "71,6 °F."}], "bai9": [{"id": "b9c1", "img": "", "svg": "states", "f": "Chất có những thể nào?", "b": "Ba thể: rắn, lỏng, khí."}, {"id": "b9c2", "img": "", "svg": "change", "f": "Nóng chảy là sự chuyển thể nào?", "b": "Từ thể rắn sang thể lỏng."}, {"id": "b9c3", "img": "../hinh-anh/khtn/bai9-da-tan.webp", "svg": "", "f": "Mây được tạo thành do hiện tượng gì?", "b": "Hơi nước ngưng tụ trên cao."}, {"id": "b9c4", "img": "", "svg": "states", "f": "Sôi khác bay hơi ở điểm nào?", "b": "Sôi xảy ra ở một nhiệt độ xác định; bay hơi xảy ra ở mọi nhiệt độ, chỉ trên bề mặt."}, {"id": "b9c5", "img": "", "svg": "states", "f": "Thể khí có đặc điểm gì nổi bật?", "b": "Không có hình dạng và thể tích xác định, lan tỏa theo mọi hướng."}], "bai10": [{"id": "b10c1", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Tính chất hóa học của chất là gì?", "b": "Khả năng biến đổi thành chất khác (tạo ra chất mới)."}, {"id": "b10c2", "img": "../hinh-anh/khtn/fc-bai10-duong-chay.webp", "svg": "", "f": "Đun đường đến cháy đen thể hiện tính chất gì?", "b": "Tính chất hóa học — vì có chất mới tạo thành."}, {"id": "b10c3", "img": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png", "svg": "", "f": "Mô hình 3R gồm những gì?", "b": "Reduce (giảm thiểu) – Reuse (tái sử dụng) – Recycle (tái chế)."}, {"id": "b10c4", "img": "../hinh-anh/khtn/fc-bai10-lo-ren.webp", "svg": "", "f": "Gang và thép đều được chế biến từ đâu?", "b": "Từ quặng sắt."}, {"id": "b10c5", "img": "../hinh-anh/khtn/fc-bai10-lo-ren.webp", "svg": "", "f": "Gang khác thép ở điểm nào quan trọng?", "b": "Gang cứng nhưng giòn hơn thép."}], "bai11": [{"id": "b11c1", "img": "", "svg": "pie", "f": "Oxygen chiếm khoảng bao nhiêu % không khí?", "b": "Khoảng 21%."}, {"id": "b11c2", "img": "", "svg": "pie", "f": "Nitrogen chiếm khoảng bao nhiêu % không khí?", "b": "Khoảng 78%."}, {"id": "b11c3", "img": "../hinh-anh/khtn/fc-bai11-bep-gas.webp", "svg": "", "f": "Can xăng bốc cháy thì dập lửa bằng gì?", "b": "Dùng cát đổ trùm lên (hoặc bình chữa cháy) — không dùng nước."}, {"id": "b11c4", "img": "../hinh-anh/khtn/fc-bai11-khong-khi.webp", "svg": "", "f": "Vì sao không dùng nước dập cháy xăng?", "b": "Xăng nhẹ hơn nước và không tan, nước làm xăng loang ra, cháy lan rộng hơn."}, {"id": "b11c5", "img": "../hinh-anh/khtn/fc-bai11-bep-gas.webp", "svg": "", "f": "Dùng bếp gas sao cho tiết kiệm?", "b": "Điều chỉnh ngọn lửa phù hợp với nồi và nhu cầu đun nấu."}], "bai12": [{"id": "b12c1", "img": "", "svg": "cell", "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?", "b": "Tế bào."}, {"id": "b12c2", "img": "", "svg": "cell", "f": "Trung tâm điều khiển mọi hoạt động của tế bào?", "b": "Nhân tế bào."}, {"id": "b12c3", "img": "../hinh-anh/khtn/fc-bai12-sinh-vat-don-bao.webp", "svg": "", "f": "Kể hai sinh vật đơn bào.", "b": "Tảo lục và vi khuẩn lam."}, {"id": "b12c4", "img": "../hinh-anh/khtn/fc-bai12-co-the.webp", "svg": "", "f": "Các cấp độ tổ chức của cơ thể theo thứ tự?", "b": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể."}, {"id": "b12c5", "img": "../hinh-anh/khtn/fc-bai12-co-the.webp", "svg": "", "f": "Thực vật có hai hệ cơ quan nào?", "b": "Hệ chồi và hệ rễ."}, {"id": "b12c6", "img": "../hinh-anh/khtn/fc-bai12-sinh-vat-don-bao.webp", "svg": "", "f": "\"Vùng nhân\" là đặc điểm của tế bào loại nào?", "b": "Tế bào nhân sơ (tế bào nhân thực không có vùng nhân)."}], "bai13": [{"id": "b13c1", "img": "../hinh-anh/khtn/fc-bai13-day-keo.webp", "svg": "", "f": "Lực là gì?", "b": "Tác dụng đẩy, kéo của vật này lên vật khác."}, {"id": "b13c2", "img": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp", "svg": "", "f": "Trọng lực luôn có chiều thế nào?", "b": "Hướng xuống dưới, về phía Trái Đất."}, {"id": "b13c3", "img": "../hinh-anh/khtn/fc-bai13-keo-co-gian.webp", "svg": "", "f": "Hai lực cân bằng cần đủ điều kiện gì?", "b": "Cùng tác dụng lên một vật, cùng phương, ngược chiều, cùng độ lớn."}, {"id": "b13c4", "img": "", "svg": "spring", "f": "Đơn vị đo lực là gì?", "b": "Niutơn (N)."}, {"id": "b13c5", "img": "../hinh-anh/khtn/bai13-luc-ke.webp", "svg": "", "f": "Lực kế thường dùng có GHĐ và ĐCNN bao nhiêu?", "b": "GHĐ 10 N, ĐCNN 0,2 N."}, {"id": "b13c6", "img": "", "svg": "spring", "f": "Treo 150 g kim chỉ vạch 3, treo 100 g chỉ vạch mấy?", "b": "Vạch thứ 2 (mỗi vạch ứng với 50 g)."}]};
 
 const FC_SVG={
 clock:'<svg viewBox="0 0 100 64"><circle cx="50" cy="32" r="24" fill="#fff" stroke="#283593" stroke-width="3"/><g class="fc-rot"><line x1="50" y1="32" x2="50" y2="14" stroke="#283593" stroke-width="3"/></g><line x1="50" y1="32" x2="63" y2="40" stroke="#e8710a" stroke-width="3"/><circle cx="50" cy="32" r="2.5" fill="#283593"/><circle cx="50" cy="11" r="3" fill="none" stroke="#283593" stroke-width="2"/></svg>',
@@ -574,37 +623,85 @@ pie:'<svg viewBox="0 0 100 64"><circle cx="36" cy="32" r="24" fill="#90caf9"/><p
 let FCST={}; try{FCST=JSON.parse(localStorage.getItem('khtn_flash_v1')||'{}')}catch(e){FCST={}}
 const FCFILT={};
 function fcSave(){try{localStorage.setItem('khtn_flash_v1',JSON.stringify(FCST))}catch(e){}}
-function fcCard(c){
-  const st=FCST[c.id];
-  const vis=c.svg?FC_SVG[c.svg]:('<img src="'+c.img+'" alt="" loading="lazy">');
-  return '<div class="fc'+(st===1?' known':st===0?' unknown':'')+'" data-cid="'+c.id+'">'
-    +'<div class="fc-in"><div class="fc-f">'+vis+'<div class="fc-q">'+c.f+'</div><div class="fc-hint">'+(c.svg?'👆 bấm để lật xem đáp án • sơ đồ minh họa, không theo tỉ lệ':'👆 bấm vào thẻ để lật xem đáp án')+'</div></div>'
-    +'<div class="fc-b"><div>'+c.b+'</div></div></div>'
-    +'<div class="fc-btns"><button class="ok" data-mark="1">✔ Đã thuộc</button><button class="no" data-mark="0">↺ Chưa thuộc</button></div></div>';
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   Cach dung: 1 the tai 1 thoi diem; the chua thuoc xep truoc.
+   Bam vao the de lat (xoay 3D). Tick "Da thuoc": dau tick nay pop + the truot phai;
+   tick "Chua thuoc": the truot trai + ve cuoi hang doi de gap lai trong phien.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
+  }
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
 }
-function fcRenderAll(){
-  document.querySelectorAll('[data-fc]').forEach(g=>{
-    const key=g.getAttribute('data-fc');
-    let cards = key==='all' ? Object.keys(FLASH).flatMap(k=>FLASH[k]) : FLASH[key];
-    if(FCFILT[key]) cards=cards.filter(c=>FCST[c.id]!==1);
-    g.innerHTML=cards.map(fcCard).join('')||'<p style="font-size:16px;color:#1e7d32">🎉 Tất cả thẻ ở đây em đã thuộc hết rồi!</p>';
+
+document.querySelectorAll('[data-fc]').forEach(function(box){
+  var key=box.getAttribute('data-fc');
+  var cards=(key==='all')?Object.keys(FLASH).flatMap(function(k){return FLASH[k];}):(FLASH[key]||[]);
+  var items=cards.map(function(c){
+    var vis=c.svg?FC_SVG[c.svg]:('<img src="'+c.img+'" alt="" loading="lazy">');
+    return {id:c.id,front:vis+'<div class="fc-q">'+c.f+'</div><div class="fc-hint">👆 bấm vào thẻ để lật xem đáp án'+(c.svg?' • sơ đồ minh họa, không theo tỉ lệ':'')+'</div>',back:'<div>'+c.b+'</div>'};
   });
-  document.querySelectorAll('[data-prog]').forEach(p=>{
-    const key=p.getAttribute('data-prog');
-    let cards = key==='all' ? Object.keys(FLASH).flatMap(k=>FLASH[k]) : FLASH[key];
-    const known=cards.filter(c=>FCST[c.id]===1).length;
-    p.textContent='Đã thuộc: '+known+'/'+cards.length+' thẻ';
-  });
-}
-document.addEventListener('click',e=>{
-  const mb=e.target.closest('[data-mark]');
-  if(mb){const fc=mb.closest('.fc');FCST[fc.getAttribute('data-cid')]=+mb.getAttribute('data-mark');fcSave();fcRenderAll();return;}
-  const fb=e.target.closest('[data-filter]');
-  if(fb){const k=fb.getAttribute('data-filter');FCFILT[k]=!FCFILT[k];fb.classList.toggle('on',FCFILT[k]);fcRenderAll();return;}
-  const fin=e.target.closest('.fc-in');
-  if(fin){fin.parentElement.classList.toggle('flip');}
+  fcDeck(box,{items:items,
+    isKnown:function(id){return FCST[id]===1;},
+    setKnown:function(id,v){FCST[id]=v?1:0;fcSave();}});
 });
-fcRenderAll();
 </script>
 <script>
 // ---------- Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" ----------
