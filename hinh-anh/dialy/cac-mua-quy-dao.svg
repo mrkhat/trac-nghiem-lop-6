@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 660">
+<ellipse cx="580" cy="320" rx="290" ry="155" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="9 6"/>
+<path d="M 330 235 A 290 155 0 0 1 470 185" fill="none" stroke="#059669" stroke-width="4"/>
+<polygon points="470,178 486,196 458,200" fill="#059669"/>
+<circle cx="580" cy="320" r="36" fill="#fbbf24" stroke="#f59e0b" stroke-width="4"/>
+<text x="580" y="392" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Mặt Trời</text>
+<line x1="274" y1="357" x2="306" y2="283" stroke="#dc2626" stroke-width="3.5"/><circle cx="290" cy="320" r="27" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/><path d="M 263 320 A 27 27 0 0 1 317 320 Z" fill="#1e40af" opacity="0.35"/>
+<line x1="854" y1="357" x2="886" y2="283" stroke="#dc2626" stroke-width="3.5"/><circle cx="870" cy="320" r="27" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/><path d="M 843 320 A 27 27 0 0 1 897 320 Z" fill="#1e40af" opacity="0.35"/>
+<line x1="564" y1="202" x2="596" y2="128" stroke="#dc2626" stroke-width="3.5"/><circle cx="580" cy="165" r="27" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/><path d="M 553 165 A 27 27 0 0 1 607 165 Z" fill="#1e40af" opacity="0.35"/>
+<line x1="564" y1="512" x2="596" y2="438" stroke="#dc2626" stroke-width="3.5"/><circle cx="580" cy="475" r="27" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/><path d="M 553 475 A 27 27 0 0 1 607 475 Z" fill="#1e40af" opacity="0.35"/>
+<text x="252" y="290" font-size="23" font-weight="700" fill="#b45309" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">HẠ CHÍ (21/6)</text>
+<text x="252" y="318" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">Bán cầu Bắc: mùa hạ,</text>
+<text x="252" y="342" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">ngày dài hơn đêm</text>
+<text x="908" y="290" font-size="23" font-weight="700" fill="#1d4ed8" font-family="'Be Vietnam Pro',Arial,sans-serif">ĐÔNG CHÍ (22/12)</text>
+<text x="908" y="318" font-size="20" fill="#1f2937" font-family="'Be Vietnam Pro',Arial,sans-serif">Bán cầu Bắc: mùa đông,</text>
+<text x="908" y="342" font-size="20" fill="#1f2937" font-family="'Be Vietnam Pro',Arial,sans-serif">đêm dài hơn ngày</text>
+<text x="580" y="96" font-size="23" font-weight="700" fill="#059669" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">XUÂN PHÂN (21/3) — ngày dài bằng đêm</text>
+<text x="580" y="566" font-size="23" font-weight="700" fill="#059669" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">THU PHÂN (23/9) — ngày dài bằng đêm</text>
+<text x="580" y="622" font-size="19" fill="#475569" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Trục Trái Đất (vạch đỏ) luôn nghiêng 23,5° và hướng về một phía → hai bán cầu thay nhau nhận nhiều nắng → sinh ra các mùa. (Sơ đồ đơn giản hoá.)</text>
+</svg>

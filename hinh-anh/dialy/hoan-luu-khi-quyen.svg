@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580">
+<defs>
+<marker id="ao" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#ea580c"/></marker>
+<marker id="at" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#0d9488"/></marker>
+<marker id="ap" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#7c3aed"/></marker>
+<clipPath id="gc"><circle cx="320" cy="290" r="200"/></clipPath>
+</defs>
+<circle cx="320" cy="290" r="200" fill="#dbeafe" stroke="#0369a1" stroke-width="3"/>
+<g clip-path="url(#gc)"><line x1="220" y1="117" x2="420" y2="117" stroke="#64748b" stroke-width="1.6" stroke-dasharray="6 5"/><line x1="147" y1="190" x2="493" y2="190" stroke="#64748b" stroke-width="1.6" stroke-dasharray="6 5"/><line x1="120" y1="290" x2="520" y2="290" stroke="#64748b" stroke-width="1.6" stroke-dasharray="6 5"/><line x1="147" y1="390" x2="493" y2="390" stroke="#64748b" stroke-width="1.6" stroke-dasharray="6 5"/><line x1="220" y1="463" x2="420" y2="463" stroke="#64748b" stroke-width="1.6" stroke-dasharray="6 5"/>
+<path d="M 470 200 Q 430 245 415 278" fill="none" stroke="#ea580c" stroke-width="4.5" marker-end="url(#ao)"/>
+<path d="M 470 380 Q 430 335 415 302" fill="none" stroke="#ea580c" stroke-width="4.5" marker-end="url(#ao)"/>
+<path d="M 400 182 Q 470 140 505 122" fill="none" stroke="#0d9488" stroke-width="4.5" marker-end="url(#at)"/>
+<path d="M 400 398 Q 470 440 505 458" fill="none" stroke="#0d9488" stroke-width="4.5" marker-end="url(#at)"/>
+<path d="M 330 96 Q 400 105 455 128" fill="none" stroke="#7c3aed" stroke-width="4.5" marker-end="url(#ap)"/>
+<path d="M 330 484 Q 400 475 455 452" fill="none" stroke="#7c3aed" stroke-width="4.5" marker-end="url(#ap)"/>
+</g>
+<text x="105" y="70" font-size="20" font-weight="700" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">Cực Bắc</text><text x="105" y="124" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">60°B</text><text x="105" y="197" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">30°B</text><text x="105" y="297" font-size="20" font-weight="700" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">0° Xích đạo</text><text x="105" y="397" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">30°N</text><text x="105" y="470" font-size="20" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">60°N</text><text x="105" y="522" font-size="20" font-weight="700" fill="#1f2937" text-anchor="end" font-family="'Be Vietnam Pro',Arial,sans-serif">Cực Nam</text>
+<text x="545" y="196" font-size="22" font-weight="700" fill="#b45309" font-family="'Be Vietnam Pro',Arial,sans-serif">Áp cao chí tuyến (khoảng 30°B và 30°N)</text>
+<text x="545" y="282" font-size="22" font-weight="700" fill="#dc2626" font-family="'Be Vietnam Pro',Arial,sans-serif">Áp thấp xích đạo (0°)</text>
+<text x="545" y="308" font-size="19" fill="#1f2937" font-family="'Be Vietnam Pro',Arial,sans-serif">không khí nóng bốc lên cao → hay mưa</text>
+<text x="545" y="392" font-size="21" font-weight="700" fill="#ea580c" font-family="'Be Vietnam Pro',Arial,sans-serif">➜ Gió Tín phong: thổi về Xích đạo</text>
+<text x="545" y="428" font-size="21" font-weight="700" fill="#0d9488" font-family="'Be Vietnam Pro',Arial,sans-serif">➜ Gió Tây ôn đới: thổi về phía cực</text>
+<text x="545" y="464" font-size="21" font-weight="700" fill="#7c3aed" font-family="'Be Vietnam Pro',Arial,sans-serif">➜ Gió Đông cực: thổi từ cực xuống ôn đới</text>
+<text x="545" y="512" font-size="18" fill="#475569" font-family="'Be Vietnam Pro',Arial,sans-serif">Gió luôn thổi từ nơi áp cao đến nơi áp thấp. (Sơ đồ đơn giản hoá, nhìn một phía của Trái Đất.)</text>
+</svg>
