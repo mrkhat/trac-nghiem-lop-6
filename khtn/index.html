@@ -3,150 +3,353 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KHTN 6 - Giữa kì 1</title>
+<title>KHTN 6 — Giữa kì 1 | Học tập & Trắc nghiệm</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5}
-h1{text-align:center;color:#1a73e8;margin-bottom:8px}
-.sub{text-align:center;color:#666;margin-bottom:20px}
-.mode-btns{display:flex;gap:12px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
-.mode-btns button{padding:14px 28px;font-size:16px;border:none;border-radius:8px;cursor:pointer;color:#fff}
-#btnPractice{background:#34a853}
-#btnExam{background:#ea8600}
-#btnStudy{background:#1a73e8}
-#btnHome{background:#666;color:#fff;padding:8px 16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px}
-.q{background:#fff;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.q p{font-weight:bold;margin-bottom:10px}
-.opt{display:block;width:100%;text-align:left;padding:10px 12px;margin:6px 0;border:1px solid #ddd;border-radius:6px;background:#fafafa;cursor:pointer;font-size:15px}
-.opt:hover{background:#e8f0fe}
-.opt.correct{background:#d4edda;border-color:#28a745;color:#155724}
-.opt.wrong{background:#f8d7da;border-color:#dc3545;color:#721c24}
-.opt:disabled{cursor:default;opacity:.9}
-.exp{margin-top:8px;padding:8px;background:#fff3cd;border-radius:6px;font-size:14px;display:none}
-.exp.show{display:block}
-#progress{text-align:center;margin-bottom:12px;font-weight:bold}
-#result{background:#fff;padding:20px;border-radius:8px;text-align:center}
-#result h2{margin-bottom:12px}
-.r-item{text-align:left;padding:8px;border-bottom:1px solid #eee;font-size:14px}
-.r-ok{color:#28a745}.r-no{color:#dc3545}
-#nextBtn{display:block;margin:16px auto;padding:12px 40px;font-size:16px;background:#1a73e8;color:#fff;border:none;border-radius:8px;cursor:pointer}
-.hidden{display:none}
+body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
+h1{text-align:center;color:#1a73e8;margin:10px 0 4px}
+.sub{text-align:center;color:#666;margin-bottom:14px}
+.topnav{text-align:center;margin-bottom:16px}
+.topnav a{color:#1a73e8;text-decoration:none;font-size:14px}
+.part{border-radius:12px;padding:14px 16px;margin:22px 0 12px;color:#fff}
+.part1{background:#1a73e8}
+.part2{background:#ea8600}
+.part h2{font-size:20px}
+.part p{font-size:13px;opacity:.92;margin-top:2px}
+.card{background:#fff;padding:16px;border-radius:10px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.card h3{color:#1a73e8;margin-bottom:8px;font-size:17px}
+.card ul{margin:0 0 8px 20px;line-height:1.55;font-size:15px}
+.card li{margin-bottom:4px}
+.goal{background:#e8f0fe;border-left:4px solid #1a73e8;padding:8px 12px;border-radius:6px;font-size:14px;margin-bottom:10px;line-height:1.5}
+.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:14px;margin:10px 0;line-height:1.5}
+figure{margin:10px 0 4px;text-align:center}
+figure img{max-width:100%;height:auto;border-radius:8px}
+figcaption{font-size:12px;color:#777;margin-top:5px;line-height:1.45}
+.quizlink{display:block;text-align:center;background:#ea8600;color:#fff;font-size:18px;font-weight:bold;padding:18px;border-radius:10px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.quizlink small{display:block;font-weight:normal;font-size:13px;margin-top:4px;opacity:.95}
+.road{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px}
+.road a{font-size:13px;background:#e8f0fe;color:#174ea6;border:1px solid #1a73e8;border-radius:20px;padding:5px 11px;text-decoration:none}
+.road a:hover{background:#d2e3fc}
+.chk{border:1px dashed #bbb;border-radius:8px;padding:10px 12px;margin:8px 0;background:#fafafa;font-size:14px}
+.chk p{margin-bottom:6px;line-height:1.5}
+.chk-btn{padding:6px 12px;border:none;border-radius:6px;background:#1a73e8;color:#fff;cursor:pointer;font-size:13px}
+.chk-a{display:none;margin-top:8px;padding:8px;background:#d4edda;border-radius:6px;line-height:1.5}
+.chk-a.show{display:block}
+.note{font-size:13px;color:#666;text-align:center;line-height:1.6;margin:14px 0}
+footer{font-size:11px;color:#999;line-height:1.6;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
+footer a{color:#888}
 </style>
 </head>
 <body>
-<h1>📚 KHTN 6 - Giữa kì 1</h1>
-<p class="sub">67 câu trắc nghiệm</p>
-<div id="home">
-  <div class="mode-btns">
-    <button id="btnPractice">📝 Luyện tập<br><small style="font-size:12px">biết ngay đúng/sai từng câu</small></button>
-    <button id="btnExam">⏱️ Thi thử<br><small style="font-size:12px">20 câu ngẫu nhiên, chấm cuối bài</small></button>
-    <button id="btnStudy">📖 Học tập<br><small style="font-size:12px">xem toàn bộ câu hỏi + đáp án</small></button>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>🔬 Khoa học tự nhiên 6 — Giữa kì 1</h1>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Học theo lộ trình từng bài cho hiểu trước, rồi mới làm trắc nghiệm nhé!</p>
+
+<div class="part part1"><h2>📖 Phần 1 — Học tập</h2><p>Đi lần lượt theo lộ trình 13 bài dưới đây. Mỗi bài có mục tiêu, ý chính, hình minh họa và câu tự kiểm tra nhanh. Học xong hãy sang Phần 2.</p></div>
+
+<div class="card">
+  <h3>🗺️ Lộ trình học giữa kì 1</h3>
+  <div class="road">
+    <a href="#bai1">1. Giới thiệu KHTN</a>
+    <a href="#bai2">2. An toàn phòng thực hành</a>
+    <a href="#bai3">3. Kính lúp</a>
+    <a href="#bai4">4. Kính hiển vi</a>
+    <a href="#bai5">5. Đo chiều dài</a>
+    <a href="#bai6">6. Đo khối lượng</a>
+    <a href="#bai7">7. Đo thời gian</a>
+    <a href="#bai8">8. Đo nhiệt độ</a>
+    <a href="#bai9">9. Các thể của chất</a>
+    <a href="#bai10">10. Chất và vật liệu</a>
+    <a href="#bai11">11. Oxygen và không khí</a>
+    <a href="#bai12">12. Tế bào</a>
+    <a href="#bai13">13. Lực và lực kế</a>
   </div>
 </div>
-<div id="quizArea" class="hidden">
-  <button id="btnHome">← Chọn lại chế độ</button>
-  <div id="progress"></div>
-  <div id="quiz"></div>
-  <button id="nextBtn" class="hidden">Câu tiếp theo →</button>
-  <div id="result" class="hidden"></div>
+
+<!-- BÀI 1 -->
+<div class="card" id="bai1">
+  <h3>Bài 1. Giới thiệu về Khoa học tự nhiên</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> thế nào là hoạt động nghiên cứu khoa học; phân biệt vật sống – vật không sống; kể được các lĩnh vực của Khoa học tự nhiên.</div>
+  <ul>
+    <li><b>Khoa học tự nhiên</b> nghiên cứu các sự vật, hiện tượng của thế giới tự nhiên và tìm ra quy luật của chúng.</li>
+    <li><b>Hoạt động nghiên cứu khoa học</b> là hoạt động tìm tòi, khám phá ra cái mới bằng quan sát, thí nghiệm có phương pháp — ví dụ: <b>nghiên cứu vaccine trong phòng thí nghiệm</b>. Thả diều, cho mèo ăn, lấy đất trồng cây… <b>không</b> phải nghiên cứu khoa học.</li>
+    <li><b>Vật sống</b> có các hoạt động sống: trao đổi chất, sinh trưởng, sinh sản, cảm ứng. <b>Vật không sống</b> (hòn đá, than củi, bàn ghế…) không có các hoạt động đó.</li>
+    <li>KHTN gồm các lĩnh vực: <b>Vật lí học, Hóa học, Sinh học, Thiên văn học, Khoa học Trái Đất</b>. Ví dụ: nước sôi là hiện tượng thuộc <b>Vật lí học</b> (sự chuyển thể).</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_group_of_scientists_working_in_a_laboratory_Esculab.jpg?width=900" alt="Các nhà khoa học làm việc trong phòng thí nghiệm" loading="lazy">
+    <figcaption>Các nhà khoa học đang làm thí nghiệm trong phòng lab — hình ảnh quen thuộc của hoạt động nghiên cứu khoa học. (Ảnh: Wikimedia Commons, CC0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Nghiên cứu vaccine = nghiên cứu khoa học • Vật sống có trao đổi chất, sinh trưởng, sinh sản • Nước sôi → lĩnh vực Vật lí học.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Hoạt động nào sau đây là hoạt động nghiên cứu khoa học: thả diều, cho mèo ăn, hay nghiên cứu vaccine phòng virus trong phòng thí nghiệm?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Nghiên cứu vaccine trong phòng thí nghiệm — vì đó là hoạt động thí nghiệm, tìm tòi có phương pháp để khám phá ra cái mới.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Than củi có phải là vật sống không? Vì sao?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Không. Than củi không có các hoạt động sống như trao đổi chất, sinh trưởng hay sinh sản nên là vật không sống.</div></div>
 </div>
+
+<!-- BÀI 2 -->
+<div class="card" id="bai2">
+  <h3>Bài 2. An toàn trong phòng thực hành</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> các quy tắc an toàn khi làm thí nghiệm và cách xử lí những tai nạn thường gặp.</div>
+  <ul>
+    <li>Đọc kĩ hướng dẫn, làm đúng chỉ dẫn của giáo viên; đeo kính bảo hộ, găng tay khi thí nghiệm cần; không ăn uống, không nếm hay ngửi trực tiếp hóa chất.</li>
+    <li>Nhận biết các <b>kí hiệu cảnh báo nguy hiểm</b> trên nhãn hóa chất (độc, dễ cháy, ăn mòn…) để biết cách phòng tránh.</li>
+    <li>Sau khi làm thí nghiệm xong phải <b>rửa sạch tay bằng xà phòng</b> — vừa loại bỏ hóa chất (có thể ăn mòn da) vừa tránh vi khuẩn nguy hại.</li>
+    <li>Làm vỡ <b>nhiệt kế thủy ngân</b>: thủy ngân rất độc → đóng kín cửa phòng, đeo khẩu trang và găng tay, dùng chổi mềm quét gom cẩn thận và báo giáo viên. Tuyệt đối không dùng tay trần nhặt.</li>
+    <li>Hóa chất bị đổ/vỡ ra sàn: giữ bình tĩnh, báo giáo viên và <b>trải giấy thấm lên dung dịch bị đổ</b> để ngăn hóa chất lan rộng.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/GHS-pictogram-silhouette.svg?width=900" alt="Kí hiệu cảnh báo nguy hại cho sức khỏe theo hệ thống GHS" loading="lazy">
+    <figcaption>Kí hiệu cảnh báo "nguy hại cho sức khỏe" trong hệ thống GHS — loại kí hiệu em sẽ gặp trên nhãn các lọ hóa chất trong phòng thực hành. Gặp kí hiệu lạ, hãy đọc kĩ và hỏi giáo viên trước khi dùng. (Ảnh: Wikimedia Commons, Public domain)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Xong thí nghiệm → rửa tay bằng xà phòng • Vỡ nhiệt kế thủy ngân → bảo hộ, gom cẩn thận, báo giáo viên • Hóa chất đổ → giấy thấm + báo giáo viên.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Vì sao sau khi làm thí nghiệm xong cần rửa sạch tay bằng xà phòng?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Để loại bỏ hóa chất có thể ăn mòn da tay và tránh vi khuẩn nguy hại còn bám trên tay.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Không may làm vỡ ống hóa chất xuống sàn, em cần làm gì?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Báo ngay cho giáo viên và trải giấy thấm lên dung dịch bị đổ để ngăn hóa chất lan ra xung quanh.</div></div>
+</div>
+
+<!-- BÀI 3 -->
+<div class="card" id="bai3">
+  <h3>Bài 3. Sử dụng kính lúp</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> kính lúp phóng to được bao nhiêu lần, ý nghĩa số ghi trên vành kính và cách dùng, cách bảo quản kính lúp.</div>
+  <ul>
+    <li>Kính lúp gồm một <b>thấu kính lồi</b> gắn trong khung có tay cầm, dùng để quan sát các vật nhỏ.</li>
+    <li>Số ghi trên vành kính như <b>3x, 5x…</b> là <b>số bội giác</b> — cho biết khả năng phóng to ảnh của vật. Kính lúp thường phóng to ảnh khoảng <b>3 đến 20 lần</b>.</li>
+    <li><b>Cách dùng đúng:</b> đặt kính ở khoảng cách sao cho nhìn thấy vật <b>rõ nét</b> nhất, mắt nhìn qua kính; từ từ điều chỉnh khoảng cách giữa kính và vật đến khi ảnh rõ.</li>
+    <li><b>Bảo quản:</b> lau kính bằng khăn mềm với nước sạch hoặc nước rửa kính chuyên dụng; cất nơi khô ráo, tránh làm rơi, vỡ hay trầy xước mặt kính.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Magnifying_glass2.jpg?width=900" alt="Kính lúp cầm tay" loading="lazy">
+    <figcaption>Kính lúp cầm tay — thấu kính lồi giúp ta nhìn rõ những chi tiết nhỏ mà mắt thường khó thấy. (Ảnh: Wikimedia Commons, Public domain)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Số 3x, 5x = số bội giác (khả năng phóng to) • Kính lúp phóng to khoảng 3–20 lần • Dùng: điều chỉnh khoảng cách cho ảnh rõ nét.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Trên vành một kính lúp ghi "5x". Số đó có ý nghĩa gì?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Đó là số bội giác — cho biết kính có khả năng phóng to ảnh của vật lên 5 lần.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Cách bảo quản kính lúp nào là đúng: chùi mặt kính bằng giấy nhám cho sạch, hay lau bằng khăn mềm và cất nơi khô ráo?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Lau bằng khăn mềm (với nước sạch hoặc nước rửa kính chuyên dụng) và cất nơi khô ráo. Giấy nhám sẽ làm xước mặt kính.</div></div>
+</div>
+
+<!-- BÀI 4 -->
+<div class="card" id="bai4">
+  <h3>Bài 4. Kính hiển vi quang học</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> kính hiển vi quang học phóng to được bao nhiêu lần và dùng để quan sát những vật như thế nào.</div>
+  <ul>
+    <li>Những vật quá nhỏ (như tế bào) mắt thường và kính lúp đều không nhìn thấy — ta cần <b>kính hiển vi quang học</b>.</li>
+    <li>Kính hiển vi dùng hệ thống thấu kính gồm <b>vật kính</b> và <b>thị kính</b>; độ phóng đại của kính bằng độ phóng đại của vật kính nhân với thị kính.</li>
+    <li>Kính hiển vi quang học có thể phóng to ảnh của vật được quan sát khoảng <b>40 đến 3000 lần</b> — lớn hơn kính lúp rất nhiều.</li>
+    <li>Nhờ kính hiển vi, con người quan sát được tế bào, vi khuẩn và cấu tạo bên trong của lá, máu… mở ra cả một thế giới vi mô.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dark_Cool_Optical_Microscope.png?width=900" alt="Kính hiển vi quang học" loading="lazy">
+    <figcaption>Kính hiển vi quang học — công cụ giúp quan sát thế giới vi mô: tế bào, vi sinh vật… mà mắt thường không thấy được. (Ảnh: Wikimedia Commons, CC BY-SA 4.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Kính hiển vi quang học phóng to khoảng <b>40–3000 lần</b> • Gồm vật kính + thị kính • So sánh: kính lúp chỉ 3–20 lần.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Kính hiển vi quang học có thể phóng to ảnh của vật được quan sát khoảng bao nhiêu lần?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Khoảng từ 40 đến 3000 lần.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Muốn quan sát tế bào lá hành, em dùng kính lúp hay kính hiển vi? Vì sao?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Dùng kính hiển vi, vì tế bào rất nhỏ; kính lúp chỉ phóng to 3–20 lần, không đủ để nhìn thấy tế bào.</div></div>
+</div>
+
+<!-- BÀI 5 -->
+<div class="card" id="bai5">
+  <h3>Bài 5. Đo chiều dài</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> đơn vị đo độ dài hợp pháp, cách chọn thước và đọc kết quả đo đúng cách.</div>
+  <ul>
+    <li>Đơn vị đo độ dài hợp pháp của nước ta là <b>mét (m)</b> — đơn vị chuẩn trong hệ SI. Các đơn vị khác: km, dm, cm, mm… (1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm).</li>
+    <li>Mỗi thước có <b>giới hạn đo (GHĐ)</b> — độ dài lớn nhất thước đo được — và <b>độ chia nhỏ nhất (ĐCNN)</b> — khoảng cách giữa hai vạch chia liên tiếp.</li>
+    <li>Khi đo: chọn thước có GHĐ và ĐCNN phù hợp; đặt thước dọc theo chiều dài cần đo, vạch 0 trùng với một đầu của vật; mắt nhìn vuông góc với vạch chia; đọc và ghi kết quả theo ĐCNN.</li>
+    <li>Nhớ thêm: <b>1 mL = 1 cm³</b> — đổi qua lại giữa thể tích và dung tích.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Steel_ruler_closeup.jpg?width=900" alt="Thước thép với các vạch chia" loading="lazy">
+    <figcaption>Thước thép với các vạch chia li — hãy chú ý khoảng cách giữa hai vạch liên tiếp, đó chính là độ chia nhỏ nhất của thước. (Ảnh: Wikimedia Commons, CC BY-SA 4.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Đơn vị hợp pháp = mét (m) • GHĐ = giá trị lớn nhất thước đo được • ĐCNN = khoảng cách 2 vạch liên tiếp • 1 mL = 1 cm³.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Đơn vị nào là đơn vị đo độ dài hợp pháp của nước ta?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Mét (m).</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Một thước có các vạch chia cách nhau 1 mm. ĐCNN của thước là bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ ĐCNN = 1 mm — bằng khoảng cách giữa hai vạch chia liên tiếp trên thước.</div></div>
+</div>
+
+<!-- BÀI 6 -->
+<div class="card" id="bai6">
+  <h3>Bài 6. Đo khối lượng</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> cách đo khối lượng bằng cân đúng quy trình, cách chọn quả cân và đổi đơn vị khối lượng.</div>
+  <ul>
+    <li>Đơn vị khối lượng là <b>kilôgam (kg)</b>. Số ghi trên bao bì, ví dụ hộp sữa ghi <b>380 g</b>, là <b>khối lượng của sữa trong hộp</b> (khối lượng tịnh).</li>
+    <li><b>Các bước đo khối lượng bằng cân:</b> ước lượng khối lượng vật cần đo → chọn cân có GHĐ và ĐCNN phù hợp → hiệu chỉnh cân về vạch 0 → đặt vật <b>nhẹ nhàng</b> lên đĩa cân → đặt quả cân nhẹ nhàng → đọc kết quả. Không chọn cân "bất kì mình thích" và không đặt vật dứt khoát, mạnh tay.</li>
+    <li>Đổi đơn vị: <b>1 tấn = 1000 kg; 1 tạ = 100 kg; 1 yến = 10 kg; 1 lạng = 100 g = 0,1 kg</b>. Ví dụ: 0,2 tạ = 20 kg (không phải 200 kg); 600 g = 0,6 kg.</li>
+    <li>Mẹo chọn quả cân: cộng dần các quả cân sao cho tổng đúng khối lượng cần cân — ví dụ cân 257,5 g dùng: 200 g + 50 g + 5 g + 2 g + 500 mg.</li>
+    <li>ĐCNN của cân đọc từ kết quả đo: cân được 15 634 g (lẻ đến 1 g) → ĐCNN của cân là <b>1 g</b>.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cent-o-gram-311.jpg?width=900" alt="Cân đòn ba thang đo trong phòng thí nghiệm" loading="lazy">
+    <figcaption>Cân đòn trong phòng thí nghiệm — khi cân, phải hiệu chỉnh về 0 trước và đặt vật thật nhẹ nhàng lên đĩa cân. (Ảnh: Wikimedia Commons, Public domain)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Ước lượng → chọn cân phù hợp → hiệu chỉnh 0 → đặt nhẹ nhàng → đọc kết quả • 1 tấn = 1000 kg; 1 lạng = 0,1 kg.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Có 20 túi đường, mỗi túi 1 kg, cho thêm vào mỗi túi 2 lạng. Khối lượng của 20 túi là bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Mỗi túi nặng 1 kg + 0,2 kg = 1,2 kg. Vậy 20 túi nặng 1,2 × 20 = <b>24 kg</b>.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Hai phát biểu sau, phát biểu nào sai: (1) "Chọn cân nào mình thích cũng được"; (2) "Phải hiệu chỉnh cân về vạch 0 trước khi cân"?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Phát biểu (1) sai — phải chọn cân có GHĐ và ĐCNN phù hợp với vật cần đo. Phát biểu (2) đúng.</div></div>
+</div>
+
+<!-- BÀI 7 -->
+<div class="card" id="bai7">
+  <h3>Bài 7. Đo thời gian</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> đơn vị thời gian và chọn được loại đồng hồ phù hợp cho từng việc đo.</div>
+  <ul>
+    <li>Đơn vị đo thời gian là <b>giây (s)</b>. Các đơn vị khác: phút, giờ, ngày… <b>1 ngày = 24 giờ</b>; 1 giờ = 60 phút; 1 phút = 60 giây.</li>
+    <li>Đo khoảng thời gian <b>ngắn</b> và cần chính xác (như thời gian chạy 100 m) → dùng <b>đồng hồ bấm giây</b>.</li>
+    <li>Đo khoảng thời gian dài hoặc xem giờ hằng ngày → đồng hồ treo tường, đồng hồ đeo tay là đủ.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stoppuhr_hanhart.jpg?width=900" alt="Đồng hồ bấm giây" loading="lazy">
+    <figcaption>Đồng hồ bấm giây — dụng cụ đo thời gian chạy, bơi, thí nghiệm… chính xác đến từng phần nhỏ của giây. (Ảnh: Wikimedia Commons, Public domain)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Đơn vị thời gian = giây (s) • 1 ngày = 24 giờ • Đo thời gian ngắn (chạy 100 m) → đồng hồ bấm giây.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Để đo thời gian chạy 100 m của học sinh, dùng đồng hồ nào hợp lí nhất: đồng hồ treo tường, đồng hồ đeo tay hay đồng hồ bấm giây?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Đồng hồ bấm giây — vì khoảng thời gian chạy rất ngắn, cần đo chính xác.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Cách đổi đơn vị nào đúng: 1 ngày = 12 giờ, hay 1 ngày = 24 giờ?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 1 ngày = 24 giờ.</div></div>
+</div>
+
+<!-- BÀI 8 -->
+<div class="card" id="bai8">
+  <h3>Bài 8. Đo nhiệt độ</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> hai thang nhiệt độ Xen-xi-ớt (°C) và Fa-ren-hai (°F) và công thức chuyển đổi giữa chúng.</div>
+  <ul>
+    <li>Nhiệt độ được đo bằng <b>nhiệt kế</b>. Thang <b>Xen-xi-ớt (°C)</b>: nước đá đang tan ở 0 °C, nước đang sôi ở 100 °C.</li>
+    <li>Thang <b>Fa-ren-hai (°F)</b> dùng ở một số nước như Mỹ: nước đang sôi ở <b>212 °F</b>.</li>
+    <li><b>Công thức chuyển đổi:</b> T(°F) = T(°C) × 1,8 + 32. Ví dụ: 22 °C = 22 × 1,8 + 32 = <b>71,6 °F</b>.</li>
+    <li>Lưu ý an toàn: nhiệt kế thủy ngân khi vỡ rất nguy hiểm — ôn lại cách xử lí ở Bài 2 nhé.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/CelsiusKelvinThermometer.jpg?width=900" alt="Nhiệt kế với hai thang đo" loading="lazy">
+    <figcaption>Một nhiệt kế có thể in nhiều thang đo khác nhau. Khi đọc nhiệt độ, em phải chú ý xem đang đọc theo thang nào — °C hay °F. (Ảnh: Wikimedia Commons, CC BY-SA 3.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> °F = °C × 1,8 + 32 • Nước sôi = 100 °C = <b>212 °F</b> • Nước đá tan = 0 °C.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Đổi 22 °C ra độ F.</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 22 × 1,8 + 32 = 39,6 + 32 = <b>71,6 °F</b>.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Trong thang Fa-ren-hai, nhiệt độ của nước đang sôi là bao nhiêu?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 212 °F.</div></div>
+</div>
+
+<!-- BÀI 9 -->
+<div class="card" id="bai9">
+  <h3>Bài 9. Các thể của chất và sự chuyển thể</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> ba thể của chất, tên gọi các sự chuyển thể và phân biệt được bay hơi với sôi.</div>
+  <ul>
+    <li>Chất có 3 thể: <b>rắn, lỏng, khí</b>. Thể rắn có hình dạng và thể tích xác định; thể lỏng có thể tích xác định nhưng hình dạng theo vật chứa; thể khí không có hình dạng và thể tích xác định, <b>lan tỏa theo mọi hướng</b> trong không gian (vì vậy ta ngửi thấy mùi hoa hồng từ xa).</li>
+    <li>Các sự chuyển thể: <b>nóng chảy</b> (rắn → lỏng), <b>đông đặc</b> (lỏng → rắn), <b>bay hơi</b> (lỏng → khí), <b>ngưng tụ</b> (khí → lỏng), <b>sôi</b> (lỏng → khí trong lòng chất lỏng).</li>
+    <li><b>Hơi nước ngưng tụ</b> trên cao tạo thành <b>mây</b>; ngưng tụ gần mặt đất tạo thành sương.</li>
+    <li>Phân biệt quan trọng: <b>sôi</b> xảy ra ở một <b>nhiệt độ xác định</b> (nhiệt độ sôi); còn <b>bay hơi</b> xảy ra ở <b>mọi nhiệt độ</b>, chỉ trên bề mặt chất lỏng, nhanh hơn khi trời nắng nóng và có gió — nghề làm muối thuận lợi vào những ngày nắng nóng vì nước biển bay hơi nhanh.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Melting_-_Flickr_-_Trinity.jpg?width=900" alt="Đá đang tan chảy thành nước" loading="lazy">
+    <figcaption>Đá (thể rắn) đang tan thành nước (thể lỏng) — hiện tượng nóng chảy em gặp hằng ngày. (Ảnh: Wikimedia Commons, CC BY-SA 2.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Ngưng tụ → tạo mây • Sôi: nhiệt độ xác định • Bay hơi: mọi nhiệt độ, trên bề mặt thoáng • Khí lan tỏa mọi hướng.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Hiện tượng tự nhiên nào sau đây do hơi nước ngưng tụ: tạo thành mây, hay nước đá tan thành nước?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Tạo thành mây — hơi nước trong không khí ngưng tụ thành những giọt nước li ti. Nước đá tan là nóng chảy.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> "Bay hơi xảy ra ở một nhiệt độ xác định" — phát biểu này đúng hay sai? Vì sao?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Sai. Bay hơi xảy ra ở mọi nhiệt độ; chỉ có sự sôi mới xảy ra ở một nhiệt độ xác định (nhiệt độ sôi).</div></div>
+</div>
+
+<!-- BÀI 10 -->
+<div class="card" id="bai10">
+  <h3>Bài 10. Sự đa dạng của chất — Tính chất của chất và vật liệu</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> phân biệt tính chất vật lí và tính chất hóa học của chất; thế nào là vật liệu, nguyên liệu; ý nghĩa mô hình 3R.</div>
+  <ul>
+    <li><b>Tính chất vật lí:</b> màu, mùi, vị, tính dẫn điện, dẫn nhiệt, nhiệt độ sôi/nóng chảy… quan sát được mà chất không biến đổi thành chất khác. Ví dụ: <b>kim loại dẫn điện tốt</b>.</li>
+    <li><b>Tính chất hóa học:</b> khả năng biến đổi thành chất khác — ví dụ đun đường đến khi <b>cháy đen</b> (tạo ra chất mới), sắt bị gỉ.</li>
+    <li><b>Vật liệu</b> là một chất hoặc hỗn hợp được dùng làm <b>nguyên liệu đầu vào</b> để sản xuất sản phẩm. <b>Nguyên liệu</b> ví dụ: đất sét làm gạch ngói, gỗ làm giấy. Chú ý: xe đạp là <b>sản phẩm/vật thể</b>, không phải vật liệu.</li>
+    <li>Gang và thép đều chế biến từ <b>quặng sắt</b>. Gang cứng nhưng <b>giòn hơn thép</b> nên ít dùng trong xây dựng. Khai thác quặng cần có kế hoạch, tránh khai thác thủ công kém hiệu quả và lãng phí tài nguyên.</li>
+    <li><b>Mô hình 3R</b> bảo vệ môi trường: <b>Reduce</b> (giảm thiểu) – <b>Reuse</b> (tái sử dụng) – <b>Recycle</b> (tái chế).</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Recycling_symbol.svg?width=900" alt="Biểu tượng tái chế" loading="lazy">
+    <figcaption>Biểu tượng tái chế quen thuộc — nhắc ta thực hành 3R: giảm thiểu rác thải, tái sử dụng và tái chế vật liệu để bảo vệ môi trường. (Ảnh: Wikimedia Commons, Public domain)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Tạo chất mới = tính chất hóa học (đường cháy đen) • Kim loại dẫn điện tốt • 3R = Giảm thiểu – Tái sử dụng – Tái chế • Gang, thép ← quặng sắt.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Quá trình nào thể hiện tính chất hóa học: nước bay hơi, hay đun nóng đường đến khi xuất hiện chất màu đen?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Đun nóng đường đến khi cháy đen — vì có chất mới được tạo thành. Bay hơi chỉ là chuyển thể, tính chất vật lí.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Mô hình 3R có nghĩa là gì?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 3R = Reduce (giảm thiểu) – Reuse (tái sử dụng) – Recycle (tái chế).</div></div>
+</div>
+
+<!-- BÀI 11 -->
+<div class="card" id="bai11">
+  <h3>Bài 11. Oxygen và không khí</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> thành phần của không khí, vai trò của oxygen và cách dùng gas, xử lí cháy xăng an toàn.</div>
+  <ul>
+    <li>Không khí là hỗn hợp khí: <b>nitrogen chiếm khoảng 78%</b>, <b>oxygen chiếm khoảng 21%</b> thể tích, còn lại là các khí khác (carbon dioxide, hơi nước…).</li>
+    <li><b>Oxygen</b> rất cần cho sự sống (hô hấp) và duy trì sự cháy. Trong y tế, oxygen được nén trong các bình thép để hỗ trợ bệnh nhân thở.</li>
+    <li>Dùng gas tiết kiệm: <b>điều chỉnh ngọn lửa phù hợp</b> với nhu cầu và kích thước nồi, không để lửa cháy lãng phí quá to.</li>
+    <li>Can xăng bốc cháy: <b>không dùng nước</b> (xăng nhẹ hơn nước, sẽ loang ra và cháy lan) — cách phù hợp là <b>dùng cát đổ trùm lên</b> để cách li oxygen, hoặc dùng bình chữa cháy.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/BOC_Medical_oxygen_tanks_Royal_Women%27s_Hospital.jpg?width=900" alt="Các bình oxygen y tế" loading="lazy">
+    <figcaption>Các bình oxygen y tế tại bệnh viện — oxygen chiếm 21% không khí và là khí duy trì sự sống, được nén vào bình để cấp cho bệnh nhân khi cần. (Ảnh: Wikimedia Commons, CC BY-SA 4.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Không khí: nitrogen ≈ 78%, oxygen ≈ 21% • Cháy xăng → cát trùm lên, tuyệt đối không dùng nước.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Trong không khí, oxygen và nitrogen chiếm khoảng bao nhiêu phần trăm thể tích?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Oxygen khoảng 21%, nitrogen khoảng 78%.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Can xăng bốc cháy, vì sao không nên dùng nước để dập?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Vì xăng nhẹ hơn nước và không tan trong nước, đổ nước sẽ làm xăng loang ra, cháy lan rộng hơn. Cách đúng: dùng cát đổ trùm lên để cách li oxygen.</div></div>
+</div>
+
+<!-- BÀI 12 -->
+<div class="card" id="bai12">
+  <h3>Bài 12. Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> tế bào là đơn vị cấu tạo của mọi sinh vật; phân biệt sinh vật đơn bào – đa bào; các cấp độ tổ chức của cơ thể.</div>
+  <ul>
+    <li><b>Mọi sinh vật đều được cấu tạo từ tế bào</b> — tế bào là đơn vị cơ bản của sự sống. Hầu hết tế bào rất nhỏ, phải dùng kính hiển vi mới quan sát được (ôn lại Bài 4).</li>
+    <li><b>Nhân tế bào</b> là trung tâm <b>điều khiển mọi hoạt động</b> của tế bào. Lưu ý dễ nhầm: tế bào nhân thực có nhân hoàn chỉnh; <b>"vùng nhân"</b> là đặc điểm của tế bào <b>nhân sơ</b>, không có ở tế bào nhân thực.</li>
+    <li>Cơ thể lớn lên nhờ tế bào <b>sinh trưởng và phân chia (sinh sản)</b> — ví dụ quả táo trên cây to dần sau nhiều ngày. Tế bào cũ chết đi cũng được thay thế liên tục: nếu dạ dày không thay thế tế bào, thành dạ dày sẽ bị acid ăn mòn gây viêm loét.</li>
+    <li><b>Sinh vật đơn bào</b>: cơ thể chỉ gồm một tế bào — ví dụ <b>tảo lục, vi khuẩn lam</b>. Sinh vật đa bào gồm nhiều tế bào: cây thông, con bướm…</li>
+    <li><b>Các cấp độ tổ chức:</b> tế bào → mô → cơ quan → hệ cơ quan → cơ thể. Ví dụ dạ dày là một <b>cơ quan</b>, được cấu tạo từ <b>tế bào và mô</b>.</li>
+    <li>Ở thực vật có hai hệ cơ quan: <b>hệ chồi</b> (thân, lá, hoa, quả) và <b>hệ rễ</b>.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Onion_Epidermis_Cells_W.M._40x_-_132.jpg?width=900" alt="Tế bào biểu bì hành dưới kính hiển vi" loading="lazy">
+    <figcaption>Tế bào biểu bì hành nhìn qua kính hiển vi quang học — từng "ô" nhỏ xếp khít nhau chính là từng tế bào, đơn vị cấu tạo nên mọi sinh vật. (Ảnh: Wikimedia Commons, CC BY 2.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Mọi sinh vật ← tế bào • Nhân = trung tâm điều khiển • Đơn bào: tảo lục, vi khuẩn lam • Thực vật: hệ chồi + hệ rễ • Tế bào → mô → cơ quan → hệ cơ quan → cơ thể.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Trong các sinh vật: tảo lục, vi khuẩn lam, con bướm, cây thông — sinh vật nào là sinh vật đơn bào?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Tảo lục và vi khuẩn lam — cơ thể của chúng chỉ gồm một tế bào duy nhất.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Thành phần nào dưới đây <b>không</b> có ở tế bào nhân thực: nhân tế bào, hay vùng nhân?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Vùng nhân — đó là đặc điểm của tế bào nhân sơ. Tế bào nhân thực có nhân hoàn chỉnh, là trung tâm điều khiển tế bào.</div></div>
+</div>
+
+<!-- BÀI 13 -->
+<div class="card" id="bai13">
+  <h3>Bài 13. Lực là gì? Đo lực bằng lực kế</h3>
+  <div class="goal">🎯 <b>Học xong bài này em biết:</b> lực là gì, tác dụng của lực, lực hút của Trái Đất và cách đo lực bằng lực kế lò xo.</div>
+  <ul>
+    <li><b>Lực</b> là tác dụng đẩy, kéo của vật này lên vật khác. Lực có thể làm vật <b>biến dạng</b>, <b>thay đổi chuyển động</b> (nhanh/chậm dần, đổi hướng) hoặc cả hai.</li>
+    <li>Mỗi lực có <b>phương và chiều</b> xác định. Ví dụ: thợ xây kéo bao xi măng lên cao → lực kéo có phương thẳng đứng, chiều từ dưới lên trên — <b>cùng phương nhưng ngược chiều với trọng lực</b>.</li>
+    <li><b>Lực hút của Trái Đất (trọng lực)</b> tác dụng lên mọi vật, luôn hướng xuống dưới: quả bưởi rụng xuống, quả bóng thả ra rơi càng lúc càng nhanh đều do trọng lực.</li>
+    <li><b>Hai lực cân bằng:</b> cùng tác dụng lên <b>một vật</b>, cùng phương, ngược chiều, cùng độ lớn → vật đứng yên. Quả bóng để trên bàn đứng yên vì trọng lực và lực nâng của bàn cân bằng nhau (bạn Lan nói đúng). Ngược lại, VĐV nhảy cao đạp chân xuống đất: chân tác dụng lực lên đất và đất tác dụng lực lên chân — hai lực này tác dụng lên <b>hai vật khác nhau</b> nên <b>không</b> phải hai lực cân bằng.</li>
+    <li>Khối lượng như nhau thì trọng lượng như nhau: quyển sách 100 g và quả cân sắt 100 g có trọng lượng bằng nhau — nhưng nói "hai vật có cùng thể tích" là <b>sai</b>, vì khác chất thì thể tích khác nhau.</li>
+    <li><b>Lực kế lò xo</b> dùng để đo lực, đơn vị là <b>niutơn (N)</b>. Lực kế thường dùng có <b>GHĐ 10 N, ĐCNN 0,2 N</b>. Đọc độ dãn của lò xo để biết độ lớn của lực: treo quả cân 150 g kim chỉ vạch thứ 3 → mỗi vạch ứng với 50 g, nên 100 g sẽ chỉ vạch thứ 2.</li>
+  </ul>
+  <figure>
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Photo_dynamometres_charges.jpg?width=900" alt="Lực kế lò xo đang đo lực" loading="lazy">
+    <figcaption>Lực kế lò xo đang treo vật — lò xo dãn ra bao nhiêu, ta đọc được độ lớn của lực bấy nhiêu trên thang chia vạch. (Ảnh: Wikimedia Commons, CC BY-SA 3.0)</figcaption>
+  </figure>
+  <div class="moc">📌 <b>Điểm cần nhớ:</b> Trọng lực luôn hướng xuống • Hai lực cân bằng phải cùng tác dụng lên một vật • Lực kế: đơn vị N, GHĐ 10 N, ĐCNN 0,2 N.</div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Quả bóng đặt yên trên bàn: Bình nói "không có lực nào tác dụng", Lan nói "có hai lực cân bằng tác dụng". Ai đúng?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Lan đúng. Quả bóng chịu trọng lực (hướng xuống) và lực nâng của mặt bàn (hướng lên); hai lực cân bằng nên bóng đứng yên.</div></div>
+  <div class="chk"><p>❓ <b>Tự kiểm tra:</b> Treo quả cân 150 g vào lực kế thì kim chỉ vạch thứ 3. Treo quả cân 100 g thì kim chỉ vạch thứ mấy?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ 150 g ứng với 3 vạch → mỗi vạch 50 g → 100 g ứng với vạch thứ 2.</div></div>
+</div>
+
+<div class="part part2"><h2>✍️ Phần 2 — Trắc nghiệm</h2><p>Học xong Phần 1 rồi thì vào làm bài kiểm tra thử sức nhé.</p></div>
+<a class="quizlink" href="quiz.html">▶ Vào làm trắc nghiệm KHTN 6 — Giữa kì 1
+  <small>67 câu • 3 chế độ: Học tập (bấm chọn, hiện đáp án ngay) • Luyện tập • Thi thử 20 câu chấm cuối bài</small>
+</a>
+<p class="note">⚠️ Đáp án trắc nghiệm do người soạn biên soạn từ kiến thức sách giáo khoa, <b>chưa đối chiếu đáp án chính thức</b>. Nếu gặp câu nào thấy chưa đúng, hãy hỏi lại thầy cô nhé.</p>
+
+<footer>
+  <b>Nguồn hình ảnh</b> (toàn bộ từ Wikimedia Commons qua liên kết ổn định Special:FilePath, giấy phép tự do — không dùng ảnh sách giáo khoa):<br>
+  • Bài 1 (phòng thí nghiệm) — File "A group of scientists working in a laboratory Esculab.jpg" (CC0)<br>
+  • Bài 2 (kí hiệu GHS) — File "GHS-pictogram-silhouette.svg" (Public domain)<br>
+  • Bài 3 (kính lúp) — File "Magnifying glass2.jpg" (Public domain)<br>
+  • Bài 4 (kính hiển vi) — File "Dark Cool Optical Microscope.png" (CC BY-SA 4.0)<br>
+  • Bài 5 (thước thép) — File "Steel ruler closeup.jpg" (CC BY-SA 4.0)<br>
+  • Bài 6 (cân đòn) — File "Cent-o-gram-311.jpg" (Public domain)<br>
+  • Bài 7 (đồng hồ bấm giây) — File "Stoppuhr hanhart.jpg" (Public domain)<br>
+  • Bài 8 (nhiệt kế) — File "CelsiusKelvinThermometer.jpg" (CC BY-SA 3.0)<br>
+  • Bài 9 (đá tan) — File "Melting - Flickr - Trinity.jpg" (CC BY-SA 2.0)<br>
+  • Bài 10 (tái chế) — File "Recycling symbol.svg" (Public domain)<br>
+  • Bài 11 (bình oxygen) — File "BOC Medical oxygen tanks Royal Women's Hospital.jpg" (CC BY-SA 4.0)<br>
+  • Bài 12 (tế bào hành) — File "Onion Epidermis Cells W.M. 40x - 132.jpg" (CC BY 2.0)<br>
+  • Bài 13 (lực kế) — File "Photo dynamometres charges.jpg" (CC BY-SA 3.0)<br>
+  Bảng nguồn chi tiết: xem file README.md trong thư mục môn học.
+</footer>
+
 <script>
-let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
-fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;});
-
-document.getElementById('btnPractice').onclick=()=>start('practice');
-document.getElementById('btnExam').onclick=()=>start('exam');
-document.getElementById('btnStudy').onclick=()=>start('study');
-document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
-
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-
-function start(m){
-  mode=m;
-  document.getElementById('home').classList.add('hidden');
-  document.getElementById('quizArea').classList.remove('hidden');
-  document.getElementById('result').classList.add('hidden');
-  idx=0;score=0;answers=[];
-  if(m==='study'){ renderStudy(); return; }
-  quizQ = m==='exam' ? shuffle([...allQ]).slice(0,20) : shuffle([...allQ]);
-  document.getElementById('nextBtn').classList.toggle('hidden', m!=='practice');
-  renderQ();
-}
-function renderStudy(){
-  // Chế độ học tập: hiện toàn bộ câu hỏi, bấm chọn đáp án từng câu như chế độ thi
-  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${allQ.length} câu hỏi (bấm chọn đáp án từng câu)`;
-  document.getElementById('nextBtn').classList.add('hidden');
-  const qd=document.getElementById('quiz');
-  qd.innerHTML=allQ.map((q,i)=>
-    `<div class="q" id="sq${i}"><p>Câu ${i+1}: ${q.question}</p>`+
-    q.options.map((o,oi)=>`<button class="opt" data-q="${i}" data-o="${oi}">${o}</button>`).join('')+
-    `<div class="exp" id="sexp${i}"></div></div>`
-  ).join('');
-  window._studyQ=allQ;
-  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>studyAnswer(parseInt(b.dataset.q),parseInt(b.dataset.o)));
-}
-function studyAnswer(qi, oi){
-  const q=window._studyQ[qi], ok=(oi===q.answer);
-  const box=document.querySelector(`#sq${qi}`);
-  box.querySelectorAll('.opt').forEach((b,bi)=>{
-    b.disabled=true;
-    if(bi===q.answer)b.classList.add('correct');
-    else if(bi===oi)b.classList.add('wrong');
-  });
-  const exp=document.getElementById(`sexp${qi}`);
-  exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Sai.</b> ')+`Đáp án đúng: ${q.options[q.answer]}<br>💡 ${q.explanation}`;
-  exp.classList.add('show');
-}
-function renderQ(){
-  const q=quizQ[idx], qd=document.getElementById('quiz');
-  document.getElementById('progress').textContent=`Câu ${idx+1}/${quizQ.length}`+(mode==='exam'?' (chế độ thi)':' (luyện tập)');
-  qd.innerHTML=`<div class="q"><p>Câu ${idx+1}: ${q.question}</p>`+
-    q.options.map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')+
-    `<div class="exp" id="exp"></div></div>`;
-  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(parseInt(b.dataset.i)));
-  document.getElementById('nextBtn').classList.add('hidden');
-}
-function answer(i){
-  const q=quizQ[idx], ok=(i===q.answer);
-  answers.push({q, picked:i, ok});
-  if(ok)score++;
-  const btns=document.querySelectorAll('.opt');
-  btns.forEach((b,bi)=>{
-    b.disabled=true;
-    if(bi===q.answer)b.classList.add('correct');
-    else if(bi===i)b.classList.add('wrong');
-  });
-  const exp=document.getElementById('exp');
-  if(mode==='practice'){
-    exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Sai.</b> ')+q.explanation;
-    exp.classList.add('show');
-    document.getElementById('nextBtn').classList.remove('hidden');
-  } else {
-    // chế độ thi: qua câu tiếp theo luôn
-    setTimeout(next, 400);
-  }
-}
-document.getElementById('nextBtn').onclick=next;
-function next(){
-  idx++;
-  if(idx<quizQ.length)renderQ();
-  else showResult();
-}
-function showResult(){
-  document.getElementById('quiz').innerHTML='';
-  document.getElementById('progress').textContent='';
-  document.getElementById('nextBtn').classList.add('hidden');
-  const r=document.getElementById('result');
-  r.classList.remove('hidden');
-  let html=`<h2>Kết quả: ${score}/${quizQ.length} (${Math.round(score/quizQ.length*100)}%)</h2>`;
-  html+= score/quizQ.length>=0.8 ? '<p>🎉 Xuất sắc!</p>' : score/quizQ.length>=0.5 ? '<p>👍 Khá, cố thêm nhé!</p>' : '<p>💪 Cần ôn thêm!</p>';
-  answers.forEach((a,i)=>{
-    html+=`<div class="r-item"><span class="${a.ok?'r-ok':'r-no'}">${a.ok?'✅':'❌'} Câu ${i+1}:</span> ${a.q.question}<br><small>Bạn chọn: ${a.q.options[a.picked]}<br>Đáp án đúng: ${a.q.options[a.q.answer]}<br><i>${a.q.explanation}</i></small></div>`;
-  });
-  html+=`<br><button id="btnHome2" style="padding:10px 24px;background:#1a73e8;color:#fff;border:none;border-radius:6px;cursor:pointer">Làm lại</button>`;
-  r.innerHTML=html;
-  document.getElementById('btnHome2').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
-}
+// ---------- Tự kiểm tra nhanh: bấm hiện đáp án ----------
+document.querySelectorAll('.chk-btn').forEach(b=>b.onclick=()=>{
+  const a=b.nextElementSibling;
+  a.classList.toggle('show');
+  b.textContent=a.classList.contains('show')?'Ẩn đáp án':'Xem đáp án';
+});
 </script>
 </body>
 </html>
