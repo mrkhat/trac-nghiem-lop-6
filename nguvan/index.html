@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ngữ văn 6 — Học kì 1 | Hiểu bài &amp; Tự viết</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;max-width:820px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937}
+h1{text-align:center;color:#6a1b9a;margin:10px 0 4px;font-size:30px;line-height:1.3}
+.sub{text-align:center;color:#444;margin-bottom:14px;line-height:1.65}
+.topnav{text-align:center;margin-bottom:16px}
+.topnav a{color:#1a73e8;text-decoration:none;font-size:16px}
+.part{border-radius:12px;padding:14px 16px;margin:22px 0 12px;color:#fff}
+.part1{background:#6a1b9a}.partsum{background:#5e35b1}
+.part h2{font-size:25px;line-height:1.35}
+.part p{font-size:16px;opacity:.95;margin-top:2px;line-height:1.6}
+.lesson{background:#fff;border-radius:12px;margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.12);overflow:hidden;border-top:10px solid var(--c,#6a1b9a)}
+.lesson .body{padding:16px}
+.lesson h3{color:var(--c,#6a1b9a);font-size:23px;margin-bottom:6px;line-height:1.35}
+.badge{display:inline-block;font-size:14px;font-weight:bold;color:#fff;background:var(--c,#6a1b9a);border-radius:20px;padding:3px 10px;margin-bottom:8px}
+.badge.gk{background:#2e7d32}.badge.sau{background:#ef6c00}
+.hook{background:#fff8e1;border-left:4px solid #ffb300;border-radius:6px;padding:10px 12px;font-size:18px;line-height:1.7;margin:10px 0}
+.lesson ul{margin:0 0 8px 20px;line-height:1.7;font-size:18px}
+.lesson li{margin-bottom:5px}
+.hl{background:#fff176;padding:0 4px;border-radius:3px;font-weight:bold}
+.hl2{background:#e1bee7;padding:0 4px;border-radius:3px;font-weight:bold}
+.moc{background:#fff3cd;border-left:4px solid #ea8600;padding:9px 12px;border-radius:6px;font-size:17px;margin:10px 0;line-height:1.65}
+.meo{background:#e8f5e9;border:2px dashed #43a047;border-radius:8px;padding:10px 12px;font-size:17px;margin:10px 0;line-height:1.65}
+figure{margin:10px 0 4px;text-align:center}
+figure img{max-width:100%;height:auto;border-radius:8px}
+figcaption{font-size:14px;color:#444;margin-top:5px;line-height:1.6}
+.gallery{display:flex;gap:10px;flex-wrap:wrap}
+.gallery figure{flex:1 1 230px;margin:6px 0}
+.emojifig{flex:1 1 230px;margin:6px 0;background:#e3f2fd;border-radius:10px;padding:18px 10px;text-align:center}
+.emojifig .big{font-size:64px;line-height:1.2}
+.emojifig .cap{font-size:14px;color:#444;margin-top:6px;line-height:1.6}
+.txttl{font-size:20px;font-weight:bold;color:var(--c,#6a1b9a);margin:16px 0 4px;line-height:1.4}
+.txttl .au{font-weight:normal;font-size:15px;color:#444}
+.quote{background:#f3e5f5;border-left:4px solid #8e24aa;border-radius:6px;padding:10px 12px;font-size:18px;font-style:italic;line-height:1.75;margin:10px 0;white-space:pre-line}
+.quote .src{display:block;font-style:normal;font-size:14px;color:#444;margin-top:5px;line-height:1.6}
+.mmap{background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;padding:12px;margin:14px 0}
+.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:17px}
+.mm-center{background:var(--c,#5e35b1);color:#fff;font-weight:bold;text-align:center;border-radius:8px;padding:9px;font-size:17px;margin-bottom:10px;line-height:1.45}
+.mm-branch{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-size:16px;line-height:1.6}
+.mm-b{flex:none;background:var(--c,#5e35b1);color:#fff;border-radius:6px;padding:3px 8px;font-weight:bold;font-size:15px;margin-top:1px}
+.mm-k{flex:1}
+.vgrid{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.vcard{flex:1 1 220px;background:#fffde7;border:1.5px solid #fbc02d;border-radius:8px;padding:9px 11px;font-size:17px;line-height:1.65}
+.vcard b.tu{color:#8d6e00;font-size:18px}
+.vcard .vd{display:block;color:#444;font-size:16px;margin-top:3px;line-height:1.6}
+.qa{border:1.5px solid #ce93d8;border-radius:8px;margin:8px 0;overflow:hidden}
+.qa-q{width:100%;text-align:left;background:#f3e5f5;border:none;padding:11px 12px;font-size:17px;cursor:pointer;line-height:1.6;color:#4a148c;font-family:inherit}
+.qa-q::after{content:"👉 Bấm để xem đáp án / gợi ý";display:block;font-size:14px;color:#444;margin-top:3px}
+.qa.open .qa-q::after{content:"👇 Mở ra nè:"}
+.qa-a{display:none;background:#f1f8e9;padding:10px 12px;font-size:17px;line-height:1.7}
+.qa.open .qa-a{display:block}
+.secttl{font-size:19px;font-weight:bold;color:var(--c,#6a1b9a);margin:16px 0 4px;line-height:1.4}
+.write{background:#e8f5e9;border:2px solid #43a047;border-radius:10px;padding:12px;margin:12px 0}
+.write .wq{font-weight:bold;font-size:18px;line-height:1.65}
+.lvl{display:inline-block;font-size:13px;font-weight:bold;color:#fff;border-radius:12px;padding:2px 9px;margin-right:6px;vertical-align:2px}
+.lvl.de{background:#66bb6a}.lvl.vua{background:#ffa726}.lvl.kho{background:#ef5350}
+.sample{background:#fff;border:1.5px dashed #888;border-radius:6px;padding:9px 11px;font-size:17px;line-height:1.7;margin-top:8px}
+.sample .sl{font-weight:bold;color:#2e7d32;font-size:15px;display:block;margin-bottom:4px}
+.warnote{font-size:16px;color:#b71c1c;margin-top:6px;line-height:1.6}
+.fcbox{text-align:center;background:#fafafa;border:1.5px solid #ddd;border-radius:10px;padding:12px;margin-top:8px}
+.fc-card{height:300px;perspective:800px;cursor:pointer;margin:8px auto;max-width:520px}
+.fc-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;font-size:17px;line-height:1.6;box-shadow:0 2px 8px rgba(0,0,0,.15);overflow:hidden}
+.fc-front{background:#f3e5f5;border:2px solid #8e24aa;color:#4a148c}
+.fc-back{background:#d4edda;border:2px solid #28a745;color:#155724;transform:rotateY(180deg);font-size:17px}
+.fc-face img{max-width:100%;max-height:130px;object-fit:cover;border-radius:8px;margin-bottom:10px}
+.fc-face .emj{font-size:64px;line-height:1.15;margin-bottom:8px}
+.fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.btn{padding:9px 15px;border:none;border-radius:8px;cursor:pointer;color:#fff;font-size:16px;background:#6a1b9a;font-family:inherit}
+.btn.gray{background:#666}.btn.green{background:#34a853}.btn.red{background:#dc3545}
+.fc-prog{font-size:16px;color:#444;margin-top:4px}
+.fc-stat{font-size:14px;color:#444;line-height:1.6}
+.next{display:block;text-align:center;background:var(--c,#6a1b9a);color:#fff;text-decoration:none;font-weight:bold;font-size:17px;padding:13px;border-radius:0}
+.card{background:#fff;padding:16px;border-radius:10px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.card h3{color:#5e35b1;margin-bottom:8px;font-size:20px;line-height:1.4}
+.card ul{margin:0 0 8px 20px;line-height:1.7;font-size:18px}
+.card li{margin-bottom:5px}
+.viewbar{background:#fff;border:1.5px solid #8e24aa;border-radius:10px;padding:10px 12px;margin:12px 0;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.viewbar .vt{font-weight:bold;color:#4a148c;font-size:17px;margin-bottom:8px}
+.modebtn{padding:8px 14px;border:2px solid #6a1b9a;background:#f3e5f5;color:#4a148c;border-radius:20px;cursor:pointer;font-size:16px;font-weight:bold;margin:0 3px;font-family:inherit}
+.modebtn.on{background:#6a1b9a;color:#fff}
+.nv-nav{display:none;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin-top:10px}
+body[data-mode="single"] .nv-nav{display:flex}
+.nv-chip{padding:7px 12px;border:2px solid #8e24aa;background:#fff;color:#4a148c;border-radius:20px;cursor:pointer;font-size:16px;font-weight:bold;font-family:inherit}
+.nv-chip.on{background:#6a1b9a;color:#fff;border-color:#6a1b9a}
+.nv-pn{padding:7px 13px;border:none;border-radius:20px;background:#8e24aa;color:#fff;cursor:pointer;font-size:16px;font-weight:bold;font-family:inherit}
+.nv-pn:disabled{background:#bbb;cursor:default}
+.note{font-size:16px;color:#444;text-align:center;line-height:1.65;margin:14px 0}
+footer{font-size:14px;color:#444;line-height:1.65;margin:20px 0 8px;border-top:1px solid #ddd;padding-top:10px}
+footer a{color:#444}
+/* ===== Chuẩn responsive: điện thoại 375px / iPad 768px / máy tính — vùng chạm ≥44px, chữ thân bài ≥16px, giãn dòng ≥1.6, sơ đồ không tràn ngang ===== */
+.lesson ul{font-size:18px}
+.hook{font-size:18px;line-height:1.7}
+.moc{font-size:17px;line-height:1.65}
+.quote{font-size:18px;line-height:1.75}
+.qa-q{font-size:17px;min-height:48px}
+.qa-a{font-size:17px;line-height:1.7}
+.vcard{font-size:17px;line-height:1.65}
+.sample{font-size:17px;line-height:1.7}
+.write .wq{font-size:18px}
+.card ul{font-size:18px}
+.fc-back{font-size:17px}
+.mm-branch{line-height:1.55}
+.mm-k{font-size:16px}
+.btn{min-height:44px;padding:10px 16px}
+.modebtn{min-height:44px}
+.nv-chip{min-height:44px;padding:9px 14px}
+.nv-pn{min-height:44px;padding:9px 14px}
+.next{min-height:48px}
+.topnav a{display:inline-block;padding:10px 6px}
+.fc-face{overflow-y:auto}
+img,svg{max-width:100%}
+@media(max-width:768px){
+  body{padding:12px}
+  h1{font-size:26px}
+  .part h2{font-size:21px}
+}
+@media(max-width:480px){
+  body{padding:10px}
+  h1{font-size:24px}
+  .lesson .body{padding:12px}
+  .lesson h3{font-size:20px}
+  .fc-card{height:340px}
+  .mm-branch{flex-direction:column;gap:3px}
+  .emojifig .big{font-size:48px}
+}
+</style>
+</head>
+<body data-mode="single">
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>📖 Ngữ văn 6 — Học kì 1</h1>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Môn Văn là môn <b>tự luận</b>, nên trang này không cho chép văn mẫu — trang này giúp em <b>hiểu thật kĩ từng bài</b> rồi <b>tự viết bằng lời của mình</b>: đọc tóm tắt → xem sơ đồ → học từ khó → trả lời câu hỏi gợi nhớ → vào <b>Góc tự luận</b> để tự viết.</p>
+
+<div class="part part1"><h2>📚 Phần học tập — Học từng bài</h2><p>Nhãn trên mỗi bài: <b>Ôn giữa kì 1</b> = Bài 1–2 (phạm vi thi giữa kì phổ biến; một số trường lấy sang đầu Bài 3 — học theo lớp của em nhé) • <b>Sau giữa kì</b> = Bài 3–5.</p></div>
+
+<div class="viewbar" id="viewbar-top">
+  <div class="vt">👀 Chế độ xem (trang sẽ nhớ lựa chọn của em):</div>
+  <button class="modebtn" data-m="single">📄 Từng bài</button>
+  <button class="modebtn" data-m="all">📚 Xem tất cả</button>
+  <div class="nv-nav">
+    <button class="nv-pn" data-pn="prev">⬅ Trước</button>
+    <span class="nv-chips"></span>
+    <button class="nv-pn" data-pn="next">Sau ➡</button>
+  </div>
+</div>
+
+<!-- ================= BÀI 1 ================= -->
+<div class="lesson" id="bai1" style="--c:#1565c0">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 1. Tôi và các bạn</h3>
+  <div class="hook">🤝 Bài này học về <b>tình bạn</b> — thứ ai cũng có mà không phải ai cũng biết giữ. Em sẽ gặp một chú dế kiêu căng phải trả giá đắt cho tính xấu của mình, và một chú cáo nhỏ dạy ta thế nào mới là "có một người bạn" thật sự.</div>
+  <div class="gallery">
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gryllus_campestris_MHNT.jpg?width=900" alt="Con dế" loading="lazy">
+      <figcaption>🦗 <b>Con dế</b> — "nguyên mẫu" của Dế Mèn ngoài đời: nhỏ bé vậy thôi mà trong truyện, Dế Mèn tự coi mình là "chàng dế thanh niên cường tráng" đấy! (Wikimedia Commons)</figcaption>
+    </figure>
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg?width=900" alt="Con cáo" loading="lazy">
+      <figcaption>🦊 <b>Con cáo</b> — nhân vật đã dạy Hoàng tử bé bài học về tình bạn: muốn có bạn thì phải "thuần dưỡng" nhau, tức là tạo nên mối dây gắn bó. (Wikimedia Commons)</figcaption>
+    </figure>
+  </div>
+
+  <div class="txttl">📖 Văn bản 1: Bài học đường đời đầu tiên <span class="au">— Tô Hoài (trích truyện "Dế Mèn phiêu lưu ký")</span></div>
+  <ul>
+    <li><b>Phần 1 — Dế Mèn tự kể về mình:</b> Dế Mèn là chàng dế trẻ <span class="hl2">cường tráng, đẹp mã</span>: càng mẫm bóng, cánh dài, râu dài cong vút. Nhưng càng tự hào, Mèn càng <span class="hl">kiêu căng, xốc nổi</span>, coi thường mọi người xung quanh, nhất là Dế Choắt gầy gò, yếu ớt ở hang bên.</li>
+    <li><b>Phần 2 — Cái giá của tính kiêu căng:</b> Để ra oai, Dế Mèn bày trò <b>trêu chị Cốc</b> rồi chui tọt vào hang sâu trốn. Chị Cốc tưởng Dế Choắt trêu mình nên mổ cho Choắt những nhát chí mạng. Dế Choắt chết. Trước khi chết, Choắt còn <b>tha thứ</b> và dặn Mèn một câu thấm thía. Dế Mèn ân hận, chôn cất bạn và rút ra <b>bài học đường đời đầu tiên</b>: không được hung hăng, kiêu ngạo mà phải biết nghĩ trước khi làm.</li>
+  </ul>
+  <div class="quote">"Ở đời mà có thói hung hăng bậy bạ, có óc mà không biết nghĩ, sớm muộn rồi cũng mang vạ vào mình đấy."<span class="src">— Lời Dế Choắt dặn Dế Mèn trước khi mất (trích "Dế Mèn phiêu lưu ký", Tô Hoài)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/de-men.webp" alt="Tranh minh họa Dế Mèn đứng trên lá cỏ buổi sớm" loading="lazy">
+    <figcaption>🦗 <b>Dế Mèn</b> — chàng dế trẻ cường tráng mà kiêu căng, nhân vật chính của truyện. (Tranh minh họa do AI vẽ — bản thử nghiệm, chỉ gợi không khí truyện)</figcaption>
+  </figure>
+  <figure>
+    <img src="../hinh-anh/nguvan/de-men-kieu-cang.webp" alt="Dế Mèn kiêu căng nhìn xuống Dế Choắt" loading="lazy">
+    <figcaption>🦗 <b>Kiêu căng là gì?</b> — Dế Mèn ưỡn ngực, ngẩng cao đầu, coi thường Dế Choắt gầy yếu bên cạnh: dáng vẻ của sự kiêu căng, xốc nổi. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <figure>
+    <img src="../hinh-anh/nguvan/an-han-mo-de-choat.webp" alt="Dế Mèn ân hận bên mộ Dế Choắt" loading="lazy">
+    <figcaption>💧 <b>Ân hận là gì?</b> — Dế Mèn cúi đầu buồn bã bên mộ Dế Choắt lúc hoàng hôn: ân hận là khi ta biết mình đã sai và day dứt vì việc mình làm. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+
+  <div class="txttl">📖 Văn bản 2: Nếu cậu muốn có một người bạn… <span class="au">— Ăng-toan đơ Xanh-tơ Ê-xu-pe-ri (trích "Hoàng tử bé")</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/hoang-tu-be-va-cao.webp" alt="Hoàng tử bé và con cáo trên đồng lúa mì" loading="lazy">
+    <figcaption>🦊 <b>Hoàng tử bé và con cáo</b> — tình bạn bắt đầu khi ta biết "thuần dưỡng" nhau: dành thời gian cho nhau và chịu trách nhiệm về nhau. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Hoàng tử bé gặp <b>con cáo</b>. Cáo nói: nếu muốn có một người bạn, hãy <span class="hl2">"thuần dưỡng"</span> cáo đi — nghĩa là <b>tạo nên những mối dây liên kết</b> giữa hai bên.</li>
+    <li>Khi đã thuần dưỡng nhau, hai người trở thành <span class="hl">duy nhất</span> đối với nhau: đồng lúa mì vàng sẽ làm cáo nhớ tới mái tóc vàng của Hoàng tử bé.</li>
+    <li>Lúc chia tay, cáo tặng một bí mật: những điều quan trọng nhất — như tình bạn — thì <b>mắt thường không nhìn thấy</b>, chỉ có <b>trái tim</b> mới nhìn rõ. Và ta phải <b>chịu trách nhiệm</b> với người bạn mình đã thuần dưỡng (như bông hồng của Hoàng tử bé).</li>
+  </ul>
+  <div class="moc">📌 <b>Bài 1 còn có</b> bài thơ <b>"Bắt nạt"</b> (Nguyễn Thế Hoàng Linh): lên án việc bắt nạt bạn bè — bạn bè là để yêu thương, bênh vực nhau, không phải để chê bai, hiếp đáp.</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy — Bài 1</div>
+    <div class="mm-center">Bài 1: Tôi và các bạn — TÌNH BẠN</div>
+    <div class="mm-branch"><span class="mm-b">Dế Mèn</span><span class="mm-k">cường tráng nhưng KIÊU CĂNG → trêu chị Cốc → Dế Choắt chết → ÂN HẬN, nhận bài học đầu đời</span></div>
+    <div class="mm-branch"><span class="mm-b">Hoàng tử bé &amp; cáo</span><span class="mm-k">THUẦN DƯỠNG = tạo liên kết → trở thành DUY NHẤT của nhau → nhìn bằng TRÁI TIM, chịu trách nhiệm về bạn</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài học chung</span><span class="mm-k">khiêm tốn, biết nghĩ trước khi làm; trân trọng, giữ gìn tình bạn</span></div>
+  </div>
+
+  <div class="secttl">🔤 Học từ khó — Bài 1</div>
+  <div class="vgrid">
+    <div class="vcard"><b class="tu">kiêu căng</b> — tự cho mình giỏi, coi thường người khác.<span class="vd">Ví dụ: Giỏi mà kiêu căng thì bạn bè cũng xa lánh dần.</span></div>
+    <div class="vcard"><b class="tu">xốc nổi</b> — nóng vội, làm việc thiếu suy nghĩ chín chắn.<span class="vd">Ví dụ: Vì một phút xốc nổi, cậu ấy đã nói lời làm bạn tổn thương.</span></div>
+    <div class="vcard"><b class="tu">ân hận</b> — day dứt, tiếc nuối vì việc mình đã làm sai.<span class="vd">Ví dụ: Sau khi lỡ tay làm vỡ lọ hoa của mẹ, em ân hận mãi.</span></div>
+    <div class="vcard"><b class="tu">thuần dưỡng</b> — làm cho gần gũi, gắn bó với mình (trong truyện: tạo nên mối liên kết tình cảm).<span class="vd">Ví dụ: Chăm sóc chú mèo hoang mỗi ngày, dần dần em đã thuần dưỡng được nó.</span></div>
+    <div class="vcard"><b class="tu">cốt yếu</b> — quan trọng nhất, là cái chính.<span class="vd">Ví dụ: Điều cốt yếu trong tình bạn là sự chân thành.</span></div>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 1</div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Dế Mèn có những tính cách nào nổi bật ở đầu truyện?</button><div class="qa-a">Dế Mèn <b>cường tráng, khỏe đẹp</b> nhưng <b>kiêu căng, xốc nổi</b>, hay coi thường người khác — nhất là Dế Choắt yếu ớt bên cạnh.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Việc làm nào của Dế Mèn đã gây ra cái chết của Dế Choắt?</button><div class="qa-a">Dế Mèn <b>bày trò trêu chị Cốc</b> rồi trốn vào hang; chị Cốc mổ nhầm <b>Dế Choắt</b>. Choắt bị thương nặng và qua đời.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình con cáo ở trên: theo cáo, "thuần dưỡng" nghĩa là gì?</button><div class="qa-a">Là <b>tạo nên những mối dây liên kết</b> — nhờ đó hai người trở nên cần thiết và <b>duy nhất</b> đối với nhau.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Bài học đường đời đầu tiên của Dế Mèn là gì?</button><div class="qa-a">Không được <b>hung hăng, kiêu ngạo</b>; có óc thì phải <b>biết suy nghĩ</b> trước khi hành động, kẻo mang vạ vào mình và làm khổ người khác.</div></div>
+
+  <div class="secttl">✍️ Góc tự luận — Bài 1 (tự viết nhé!)</div>
+  <div class="write">
+    <div class="wq"><span class="lvl de">DỄ</span>Kể lại một lần em mắc lỗi và bài học em rút ra được từ lần đó.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đầu:</b> Giới thiệu sự việc trong một câu (lỗi gì, xảy ra khi nào).<br><b>Thân bài:</b> Kể lại diễn biến theo thứ tự: chuyện gì xảy ra → hậu quả thế nào → lúc đó em cảm thấy gì (sợ, ân hận…).<br><b>Kết bài:</b> Bài học em rút ra — viết thành một câu rõ ràng, giống như "bài học đường đời" của riêng em.</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Hôm đó, vì mải chơi game, em quên hẳn buổi hẹn kèm bạn học bài như đã hứa. Nhìn bạn đứng đợi một mình trước cổng trường giữa trưa nắng, em vừa xấu hổ vừa ân hận. Từ lần đó, em hiểu rằng một lời hứa dù nhỏ cũng phải giữ, vì sau lưng lời hứa là niềm tin của bạn dành cho mình."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tự viết bằng sự việc và lời văn của mình nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl vua">VỪA</span>Viết một đoạn văn (khoảng 5–7 câu) nêu cảm nghĩ của em về nhân vật Dế Mèn.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Câu mở đoạn:</b> Nêu cảm nghĩ chung (em vừa thương vừa trách Dế Mèn…).<br><b>Thân đoạn:</b> Đưa 2 dẫn chứng từ truyện: (1) Mèn kiêu căng, trêu chị Cốc; (2) Mèn ân hận, chôn cất Dế Choắt tử tế. Mỗi dẫn chứng kèm một câu cảm nghĩ của em.<br><b>Câu kết:</b> Em học được gì từ nhân vật này?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Em vừa trách vừa thương Dế Mèn. Trách vì tính kiêu căng, xốc nổi của Mèn đã gây ra cái chết oan uổng cho Dế Choắt. Nhưng em cũng thương Mèn, vì sau lỗi lầm, Mèn biết ân hận và tự rút ra bài học cho mình. Ai cũng có lúc sai, quan trọng là biết nhận lỗi và sửa mình."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — cảm nghĩ phải là của con, dẫn chứng con tự chọn nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Từ câu chuyện của cáo và Hoàng tử bé, theo em, thế nào là một người bạn tốt?</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đầu:</b> Trả lời thẳng câu hỏi bằng 1–2 câu (bạn tốt là người…).<br><b>Thân bài:</b> Nêu 2–3 ý, mỗi ý gắn một dẫn chứng: biết gắn bó và dành thời gian cho nhau (cáo chờ Hoàng tử bé mỗi ngày); biết chịu trách nhiệm với bạn; nhìn nhau bằng trái tim — tức quan tâm thật lòng chứ không chỉ nhìn bề ngoài.<br><b>Kết bài:</b> Liên hệ với bản thân: em muốn làm một người bạn như thế nào?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Theo em, bạn tốt không phải là người chỉ vui chơi cùng ta lúc vui. Bạn tốt là người dành thời gian cho ta, nhớ những điều nhỏ nhặt về ta và ở bên ta khi ta buồn. Như cáo đã dạy, tình bạn phải được 'thuần dưỡng' bằng sự chân thành mỗi ngày."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy viết bằng suy nghĩ của mình nhé!</div>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của Bài 1</div>
+  <div class="fcbox" data-cards="0,1,2,3,4,5"></div>
+  </div>
+  <a class="next" href="#bai2">✔ Xong Bài 1 → Sang Bài 2: Gõ cửa trái tim ⬇</a>
+</div>
+
+<!-- ================= BÀI 2 ================= -->
+<div class="lesson" id="bai2" style="--c:#c2185b">
+  <div class="body">
+  <span class="badge gk">⭐ Ôn giữa kì 1</span>
+  <h3>Bài 2. Gõ cửa trái tim</h3>
+  <div class="hook">💗 Nếu Bài 1 mở cánh cửa tình bạn thì Bài 2 gõ vào cánh cửa <b>trái tim và gia đình</b>: vì sao mọi thứ trên đời dường như sinh ra là để dành cho trẻ em, và vì sao không chuyến phiêu lưu nào thắng nổi vòng tay của mẹ.</div>
+  <div class="gallery">
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_waves_crashing_up_on_rocks.jpg?width=900" alt="Sóng biển" loading="lazy">
+      <figcaption>🌊 <b>Sóng biển</b> — trong bài thơ "Mây và sóng", những người "trong sóng" mời em bé đi chơi khắp nơi, nhưng em bé vẫn chọn ở nhà với mẹ. (Wikimedia Commons)</figcaption>
+  <figure>
+    <img src="../hinh-anh/nguvan/may-va-song.webp" alt="Em bé tưởng tượng bay cùng mây và sóng" loading="lazy">
+    <figcaption>☁️ <b>Mây và sóng</b> — em bé mơ bay cùng mây, lướt cùng sóng, nhưng nơi vui nhất vẫn là bên mẹ. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+    </figure>
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sailing_boat_at_sunset%2C_Ionian_Sea%2C_Albania.jpg?width=900" alt="Cánh buồm trên biển lúc hoàng hôn" loading="lazy">
+      <figcaption>⛵ <b>Những cánh buồm</b> (văn bản đọc thêm của bài) — hình ảnh người cha dắt con đi trên bãi cát và những ước mơ tuổi thơ bay xa như cánh buồm. (Wikimedia Commons)</figcaption>
+    </figure>
+  </div>
+
+  <div class="txttl">📖 Văn bản 1: Chuyện cổ tích về loài người <span class="au">— Xuân Quỳnh (thơ)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/chuyen-co-tich-loai-nguoi.webp" alt="Mẹ bế em bé bên bếp lửa thuở sơ khai" loading="lazy">
+    <figcaption>🌍 <b>Thuở loài người sơ khai</b> — mọi thứ trên đời như được sinh ra vì trẻ em: có mẹ bồng bế, có bà kể chuyện, có mặt trời sưởi ấm. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Bài thơ tưởng tượng về buổi đầu của thế giới theo một cách thật lạ: <b>trên trái đất ban đầu chỉ toàn là trẻ con</b>, chưa có cây cỏ, màu sắc, âm thanh.</li>
+    <li>Lần lượt, mọi thứ sinh ra <b>đều vì trẻ em</b>: mặt trời, cây cỏ, hoa thơm, tiếng chim… là để trẻ nhìn, trẻ nghe, trẻ khám phá.</li>
+    <li><b>Mẹ</b> sinh ra để cho trẻ <span class="hl">tình yêu và lời ru</span>; <b>bà</b> sinh ra để kể cho trẻ nghe truyện cổ; <b>bố</b> sinh ra để dạy trẻ hiểu biết; rồi có <b>trường lớp, thầy giáo</b> để trẻ được học hành.</li>
+    <li>Ý nghĩa: cả thế giới yêu thương, chăm sóc trẻ em — và trẻ em chính là <span class="hl2">trung tâm của yêu thương</span>.</li>
+  </ul>
+  <div class="quote">"Trời sinh ra trước nhất
+Chỉ toàn là trẻ con
+Trên trái đất trụi trần
+Không dáng cây ngọn cỏ"<span class="src">— Mở đầu bài thơ "Chuyện cổ tích về loài người", Xuân Quỳnh</span></div>
+
+  <div class="txttl">📖 Văn bản 2: Mây và sóng <span class="au">— Ta-go (Rabindranath Tagore, Ấn Độ)</span></div>
+  <ul>
+    <li>Bài thơ gồm hai cuộc trò chuyện. Những người <b>trên mây</b> mời em bé lên chơi từ bình minh đến tối; những người <b>trong sóng</b> mời em bé đi hát ca khắp chốn.</li>
+    <li>Cả hai lần, em bé đều <b>từ chối</b>: vì "mẹ mình đang đợi ở nhà" — làm sao có thể rời mẹ mà đi được!</li>
+    <li>Thay vào đó, em bé nghĩ ra trò chơi của riêng mình ngay bên mẹ: con sẽ là mây, là sóng; còn mẹ sẽ là <span class="hl">mặt trăng</span>, là <span class="hl">bờ biển</span> ôm con vào lòng.</li>
+    <li>Ý nghĩa: ca ngợi <span class="hl2">tình mẫu tử thiêng liêng</span> — hạnh phúc lớn nhất của tuổi thơ là được ở trong vòng tay yêu thương của mẹ.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 3: Bức tranh của em gái tôi <span class="au">— Tạ Duy Anh (truyện ngắn)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/buc-tranh-em-gai.webp" alt="Em gái vẽ tranh con mèo" loading="lazy">
+    <figcaption>🎨 <b>Em gái vẽ tranh</b> — bức tranh con mèo của Kiều Phương khiến người anh ngỡ ngàng và tự nhìn lại lòng mình. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Người anh kể chuyện: em gái (biệt danh là Mèo) rất mê vẽ và vẽ ngày càng giỏi. Thấy em được mọi người khen, người anh <b>ghen tị</b>, hay cau có, bí mật xem trộm tranh của em.</li>
+    <li>Đỉnh điểm: bức tranh của Mèo đoạt giải và được treo trang trọng. Khi đứng trước bức tranh em gái vẽ <b>chân dung chính mình</b> — một người anh hiền lành, đẹp đẽ trong mắt em — người anh <b>sững sờ, xấu hổ</b>.</li>
+    <li>Anh nhận ra mình đã nhỏ nhen trước tấm lòng trong sáng của em, và thầm hứa sẽ yêu thương, tự hào về em gái mình.</li>
+  </ul>
+  <div class="moc">📌 <b>Điểm cần nhớ của Bài 2:</b> Cả ba văn bản cùng nói về <b>tình cảm gia đình</b> — tình mẹ con, tình bà cháu, tình anh em. Yêu thương đôi khi cần ta biết <b>nhận lỗi</b> và <b>trân trọng</b> người thân ngay khi họ còn ở bên.</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy — Bài 2</div>
+    <div class="mm-center">Bài 2: Gõ cửa trái tim — TÌNH CẢM GIA ĐÌNH</div>
+    <div class="mm-branch"><span class="mm-b">Chuyện cổ tích về loài người</span><span class="mm-k">thế giới sinh ra VÌ TRẺ EM • mẹ cho TÌNH YÊU + LỜI RU • bà kể truyện cổ • bố + thầy dạy hiểu biết</span></div>
+    <div class="mm-branch"><span class="mm-b">Mây và sóng</span><span class="mm-k">mây gọi — sóng gọi → em bé TỪ CHỐI → chọn ở bên MẸ = hạnh phúc lớn nhất</span></div>
+    <div class="mm-branch"><span class="mm-b">Bức tranh của em gái tôi</span><span class="mm-k">anh GHEN TỊ với em → bức tranh chân dung → XẤU HỔ, nhận ra tấm lòng của em</span></div>
+  </div>
+
+  <div class="secttl">🔤 Học từ khó — Bài 2</div>
+  <div class="vgrid">
+    <div class="vcard"><b class="tu">thiêng liêng</b> — cao quý, đáng trân trọng đến mức không gì thay thế được.<span class="vd">Ví dụ: Tình mẹ con là tình cảm thiêng liêng nhất.</span></div>
+    <div class="vcard"><b class="tu">trữ tình</b> — giàu cảm xúc, thể hiện tình cảm sâu lắng (thường nói về thơ).<span class="vd">Ví dụ: Bài thơ trữ tình làm người đọc rưng rưng.</span></div>
+    <div class="vcard"><b class="tu">tự sự</b> — kể lại sự việc, câu chuyện theo diễn biến.<span class="vd">Ví dụ: Yếu tố tự sự trong bài thơ là phần em bé kể lại cuộc trò chuyện với mây và sóng.</span></div>
+    <div class="vcard"><b class="tu">triết lí</b> — ý nghĩa sâu xa về cuộc sống được rút ra từ câu chuyện, bài thơ.<span class="vd">Ví dụ: Triết lí của "Mây và sóng" là: hạnh phúc ở ngay bên người ta yêu thương.</span></div>
+    <div class="vcard"><b class="tu">ghen tị</b> — khó chịu, không vui khi thấy người khác có điều tốt hơn mình.<span class="vd">Ví dụ: Ghen tị với bạn sẽ làm tình bạn rạn nứt.</span></div>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 2</div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Trong "Chuyện cổ tích về loài người", mẹ sinh ra để làm gì cho trẻ?</button><div class="qa-a">Để <b>bế bồng, chăm sóc</b> và cho trẻ <b>tình yêu và lời ru</b> — những điều đầu tiên và quý nhất mà một em bé cần.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Vì sao em bé trong "Mây và sóng" từ chối cả mây lẫn sóng?</button><div class="qa-a">Vì <b>mẹ đang đợi ở nhà</b>. Với em bé, không nơi nào vui và hạnh phúc bằng ở bên mẹ.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình cánh buồm: văn bản đọc thêm của Bài 2 nhắc đến cánh buồm là bài nào, nói về tình cảm gì?</button><div class="qa-a">Bài thơ <b>"Những cánh buồm"</b> (Hoàng Trung Thông) — nói về <b>tình cha con</b> và những ước mơ của tuổi thơ mà người cha gửi gắm vào con.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Điều gì khiến người anh trong "Bức tranh của em gái tôi" thay đổi?</button><div class="qa-a">Khi nhìn thấy <b>bức tranh em gái vẽ chân dung mình</b> với tất cả yêu thương, người anh xấu hổ vì đã ghen tị, nhỏ nhen với em, và nhận ra tấm lòng của em gái.</div></div>
+  <div class="qa"><button class="qa-q">Đọc-hiểu nhanh: Điểm chung của cả ba văn bản trong Bài 2 là gì?</button><div class="qa-a">Cùng ca ngợi <b>tình cảm gia đình</b>: tình mẹ con, tình thân nhiều thế hệ và tình anh em.</div></div>
+
+  <div class="secttl">✍️ Góc tự luận — Bài 2 (tự viết nhé!)</div>
+  <div class="write">
+    <div class="wq"><span class="lvl de">DỄ</span>Viết đoạn văn ghi lại cảm xúc của em về bài thơ "Mây và sóng". <i>(Đây chính là dạng viết của Bài 2 trong sách đấy!)</i></div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Giới thiệu bài thơ + tác giả + cảm xúc chung của em (xúc động, ấm áp…).<br><b>Thân đoạn:</b> Chọn chi tiết em thích nhất — ví dụ chi tiết em bé từ chối mây và sóng — và nói vì sao chi tiết đó làm em xúc động.<br><b>Kết đoạn:</b> Liên hệ bản thân: em nhớ tới mẹ/bố của mình ở điểm nào?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Đọc 'Mây và sóng', em thấy lòng mình ấm lại. Chi tiết làm em nhớ nhất là khi em bé từ chối cả mây và sóng vì mẹ đang đợi ở nhà. Tự nhiên em nghĩ đến mẹ em — người cũng vẫn chờ em sau mỗi buổi học. Hóa ra, nơi hạnh phúc nhất không phải ở đâu xa, mà là ở ngay trong ngôi nhà của mình."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy viết cảm xúc thật của mình, chọn chi tiết mình thích nhất nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl vua">VỪA</span>Kể lại một kỉ niệm của em với một người thân trong gia đình khiến em nhớ mãi.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đầu:</b> Giới thiệu người thân và kỉ niệm đó trong 1–2 câu.<br><b>Thân bài:</b> Kể lại sự việc theo trình tự, chọn 1–2 chi tiết đắt nhất (một câu nói, một hành động của người thân).<br><b>Kết bài:</b> Kỉ niệm đó dạy em điều gì về tình cảm gia đình?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Lần em ốm sốt cao, bà thức gần như trắng đêm để chườm khăn và kể chuyện cho em nghe. Giọng kể của bà nhỏ dần, nhỏ dần theo cơn sốt của em. Đến giờ, mỗi khi nghe ai kể truyện cổ, em lại nhớ đến đêm hôm ấy và bàn tay gầy gò của bà."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — kỉ niệm phải là kỉ niệm thật của con nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Vì sao trong "Chuyện cổ tích về loài người", nhà thơ lại tưởng tượng rằng mọi vật, mọi người đều sinh ra vì trẻ em?</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đầu:</b> Nêu ý tưởng lạ của bài thơ: trẻ em xuất hiện đầu tiên, mọi thứ đến sau.<br><b>Thân bài:</b> Phân tích theo trình tự bài thơ: thiên nhiên sinh ra để trẻ khám phá → mẹ, bà sinh ra để yêu thương, dạy dỗ → bố, thầy giáo sinh ra để trẻ hiểu biết. Từ đó rút ra ý nghĩa: người lớn và cả thế giới luôn hướng về, chăm lo cho trẻ em.<br><b>Kết bài:</b> Suy nghĩ của em: trẻ em cần làm gì để xứng đáng với tình yêu thương đó?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Cách tưởng tượng của Xuân Quỳnh tuy 'ngược đời' mà rất có lí. Đúng là khi một em bé chào đời, cả nhà như xoay quanh em: mẹ ru, bà kể chuyện, bố dạy em những điều đầu tiên. Bài thơ nhắc người lớn rằng mọi điều tốt đẹp nhất phải dành cho trẻ em — và nhắc chúng em biết ơn vì điều đó."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tự phân tích theo cách hiểu của mình nhé!</div>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của Bài 2</div>
+  <div class="fcbox" data-cards="6,7,8,9,10,11"></div>
+  </div>
+  <a class="next" href="#bai3">✔ Xong Bài 2 → Sang Bài 3: Yêu thương và chia sẻ ⬇</a>
+</div>
+
+<!-- ================= BÀI 3 ================= -->
+<div class="lesson" id="bai3" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge sau">🌿 Sau giữa kì</span>
+  <h3>Bài 3. Yêu thương và chia sẻ</h3>
+  <figure>
+    <img src="../hinh-anh/nguvan/bat-nat-va-se-chia.webp" alt="Bạn học an ủi bạn buồn ở sân trường" loading="lazy">
+    <figcaption>🤝 <b>Đừng để ai bị bỏ lại một mình</b> — khi thấy bạn bị trêu chọc, cô lập, một lời an ủi và việc đứng về phía bạn là cách yêu thương và chia sẻ thiết thực nhất. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <div class="hook">🕯️ Bài này sẽ làm em muốn… ôm ai đó một cái. Một cô bé bán diêm run rẩy trong đêm giao thừa, một chiếc áo bông được nhường cho bạn nghèo — những câu chuyện nhỏ mà dạy ta bài học lớn: <b>thấy người khổ hơn mình, hãy chia sẻ</b>.</div>
+  <div class="gallery">
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matchstick_in_the_Dark_%28Unsplash%29.jpg?width=900" alt="Que diêm cháy trong bóng tối" loading="lazy">
+      <figcaption>🔥 <b>Que diêm cháy</b> — với cô bé bán diêm, mỗi que diêm quẹt lên là một ước mơ ấm áp vụt sáng rồi tắt. Em còn nhớ em bé đã nhìn thấy những gì không? (Wikimedia Commons)</figcaption>
+    </figure>
+    <div class="emojifig"><div class="big">🧣❄️</div><div class="cap"><b>Gió lạnh đầu mùa</b> — buổi sáng mùa đông "đột nhiên đến, không báo trước". Một chiếc áo bông được nhường đi đã sưởi ấm cả câu chuyện.</div></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/gio-lanh-dau-mua.webp" alt="Chị khoác áo ấm cho em trong gió lạnh đầu mùa" loading="lazy">
+    <figcaption>🧣 <b>Gió lạnh đầu mùa</b> — cơn gió đầu đông và tấm lòng của người chị dành cho em nhỏ. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  </div>
+
+  <div class="txttl">📖 Văn bản 1: Cô bé bán diêm <span class="au">— An-đéc-xen (Hans Christian Andersen, Đan Mạch)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/co-be-ban-diem.webp" alt="Cô bé bán diêm quẹt diêm trong đêm tuyết" loading="lazy">
+    <figcaption>🕯️ <b>Cô bé bán diêm</b> — giữa đêm tuyết lạnh, mỗi que diêm quẹt lên là một ước mơ ấm áp hiện ra. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li><b>Hoàn cảnh:</b> Đêm <span class="hl">giao thừa</span>, trời rét buốt, tuyết rơi. Cô bé nghèo, đầu trần, chân đất, ôm gói diêm đi bán cả ngày mà <b>không bán được bao nào</b>, không dám về nhà vì sợ bị đánh.</li>
+    <li><b>Các lần quẹt diêm — những mộng tưởng đẹp:</b> diêm cháy lần 1: thấy <b>lò sưởi</b> ấm áp; lần 2: thấy <b>bàn ăn</b> thịnh soạn với con ngỗng quay; lần 3: thấy <b>cây thông Nô-en</b> rực rỡ; những lần sau: thấy <b>bà ngoại</b> — người em yêu quý nhất đã mất. Em quẹt hết cả bao diêm để giữ bà ở lại bên mình.</li>
+    <li><b>Kết thúc:</b> Sáng hôm sau, người ta thấy em bé đã chết cóng trong góc tường, nhưng <b>đôi má vẫn hồng và đôi môi đang mỉm cười</b> — em đã theo bà về nơi không còn đói, rét và khổ đau.</li>
+    <li><b>Ý nghĩa:</b> Truyện đối lập giữa <span class="hl2">thực tế phũ phàng</span> và <span class="hl2">mộng tưởng đẹp đẽ</span> để tố cáo sự thờ ơ của xã hội và nhắn nhủ: hãy <b>yêu thương, đùm bọc trẻ em bất hạnh</b>.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 2: Gió lạnh đầu mùa <span class="au">— Thạch Lam (truyện ngắn)</span></div>
+  <div class="quote">"Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước."<span class="src">— Câu mở đầu truyện "Gió lạnh đầu mùa", Thạch Lam</span></div>
+  <ul>
+    <li>Buổi sáng đầu đông, chị em <b>Sơn</b> được mặc áo ấm mới, ra chợ chơi cùng các bạn nhỏ con nhà nghèo trong xóm.</li>
+    <li>Thấy bé <b>Hiên</b> co ro trong manh áo rách mỏng, chị em Sơn động lòng: hai chị em chạy về nhà lấy <b>chiếc áo bông cũ</b> — kỉ vật của người em gái đã mất — cho Hiên mặc.</li>
+    <li>Kết thúc ấm áp: mẹ của Sơn biết chuyện nhưng <b>không trách mắng</b>, còn giúp đỡ mẹ con Hiên. Một chiếc áo nhỏ đã nối hai gia đình bằng tình người.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 3: Con chào mào <span class="au">— Mai Văn Phấn (thơ)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/con-chao-mao.webp" alt="Chim chào mào đậu trên cành cây buổi sớm" loading="lazy">
+    <figcaption>🐦 <b>Con chào mào</b> — chú chim mào đỏ rực đậu trên cành cây trong buổi sáng trong lành. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Bài thơ là lời của một em bé (hoặc người kể) ngắm con <b>chào mào</b> hót trên cành cây trước nhà, say mê tiếng hót trong trẻo của nó.</li>
+    <li>Có lúc người ngắm muốn <b>giữ chim lại cho riêng mình</b>, nhưng rồi nhận ra: chim thuộc về bầu trời và cây xanh; yêu thiên nhiên là để thiên nhiên được <span class="hl">tự do</span>.</li>
+    <li>Ý nghĩa: tình yêu thiên nhiên gắn với sự <b>tôn trọng sự sống</b> của muôn loài.</li>
+  </ul>
+  <div class="moc">📌 <b>Điểm cần nhớ của Bài 3:</b> Yêu thương không phải là lời nói suông — đó là <b>hành động chia sẻ cụ thể</b>, dù chỉ là một que diêm, một chiếc áo, hay việc trả tự do cho một chú chim.</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy — Bài 3</div>
+    <div class="mm-center">Bài 3: Yêu thương và chia sẻ</div>
+    <div class="mm-branch"><span class="mm-b">Cô bé bán diêm</span><span class="mm-k">đêm giao thừa rét buốt → quẹt diêm thấy LÒ SƯỞI – BÀN ĂN – CÂY THÔNG – BÀ NGOẠI → ra đi trong nụ cười • thực tế LẠNH ↔ mộng tưởng ẤM</span></div>
+    <div class="mm-branch"><span class="mm-b">Gió lạnh đầu mùa</span><span class="mm-k">chị em Sơn NHƯỜNG ÁO BÔNG cho Hiên → mẹ không trách, còn giúp đỡ → ấm áp tình người</span></div>
+    <div class="mm-branch"><span class="mm-b">Con chào mào</span><span class="mm-k">yêu tiếng chim hót → THẢ CHIM VỀ TRỜI → yêu thiên nhiên là tôn trọng tự do của muôn loài</span></div>
+  </div>
+
+  <div class="secttl">🔤 Học từ khó — Bài 3</div>
+  <div class="vgrid">
+    <div class="vcard"><b class="tu">giao thừa</b> — thời khắc chuyển giao giữa năm cũ và năm mới (đêm 30 Tết).<span class="vd">Ví dụ: Đêm giao thừa, cả nhà em quây quần chờ pháo hoa.</span></div>
+    <div class="vcard"><b class="tu">mộng tưởng</b> — những hình ảnh đẹp chỉ có trong tưởng tượng, không có thật.<span class="vd">Ví dụ: Trong ánh lửa que diêm, em bé chìm vào mộng tưởng ấm áp.</span></div>
+    <div class="vcard"><b class="tu">bất hạnh</b> — không may mắn, gặp nhiều khổ sở.<span class="vd">Ví dụ: Cô bé bán diêm là một đứa trẻ bất hạnh cần được giúp đỡ.</span></div>
+    <div class="vcard"><b class="tu">khắc nghiệt</b> — (thời tiết, hoàn cảnh) dữ dội, khó chịu đựng nổi.<span class="vd">Ví dụ: Cái rét khắc nghiệt của đêm đông làm tay em tê cóng.</span></div>
+    <div class="vcard"><b class="tu">sẻ chia</b> — chia bớt phần của mình (vật chất hay tình cảm) cho người khác.<span class="vd">Ví dụ: Sẻ chia một chiếc áo ấm cũng là cách yêu thương.</span></div>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 3</div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình que diêm: mỗi lần quẹt diêm, cô bé bán diêm nhìn thấy những gì?</button><div class="qa-a">Lần lượt: <b>lò sưởi ấm áp</b>, <b>bàn ăn có ngỗng quay</b>, <b>cây thông Nô-en</b> và cuối cùng là <b>bà ngoại</b> — tất cả những gì em đang thiếu thốn và khao khát nhất.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Vì sao cô bé bán diêm không dám về nhà dù trời rét buốt?</button><div class="qa-a">Vì cả ngày em <b>không bán được que diêm nào</b>, về nhà chắc chắn sẽ bị bố đánh; nhà em cũng lạnh lẽo, trống trải chẳng ấm hơn ngoài đường.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Chị em Sơn đã làm gì cho bé Hiên trong "Gió lạnh đầu mùa"?</button><div class="qa-a">Hai chị em lấy <b>chiếc áo bông cũ</b> (kỉ vật của em gái đã mất) cho Hiên mặc để chống rét — một hành động sẻ chia tự nhiên, không tính toán.</div></div>
+  <div class="qa"><button class="qa-q">Đọc-hiểu nhanh: Hai truyện "Cô bé bán diêm" và "Gió lạnh đầu mùa" giống nhau ở thông điệp nào?</button><div class="qa-a">Cùng nhắn nhủ: hãy <b>yêu thương và sẻ chia</b> với những người kém may mắn hơn mình — đặc biệt là trẻ em.</div></div>
+
+  <div class="secttl">✍️ Góc tự luận — Bài 3 (tự viết nhé!)</div>
+  <div class="write">
+    <div class="wq"><span class="lvl de">DỄ</span>Nếu được gặp cô bé bán diêm trong đêm giao thừa, em sẽ nói gì và làm gì cho em bé?</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Nêu tình huống: nếu gặp em bé, em sẽ…<br><b>Thân đoạn:</b> Nêu 2–3 việc cụ thể (mua hết diêm cho em, mời em về nhà ăn bữa cơm ấm, tặng em chiếc áo ấm…) kèm lí do.<br><b>Kết đoạn:</b> Em mong điều gì cho những bạn nhỏ bất hạnh?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Nếu gặp cô bé bán diêm đêm ấy, em sẽ mua hết những bao diêm của em bé và mời em về nhà mình. Em sẽ nhường cho bạn chiếc áo len ấm nhất của em, vì em nghĩ: một chiếc áo mình ít mặc tới có thể là cả mùa đông ấm áp của một người khác."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy viết việc làm của chính mình nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl vua">VỪA</span>Kể lại một trải nghiệm của em khi giúp đỡ một người khác. <i>(Đây là dạng viết kể trải nghiệm của Bài 3!)</i></div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở bài:</b> Giới thiệu trải nghiệm: em đã giúp ai, trong hoàn cảnh nào.<br><b>Thân bài:</b> Kể diễn biến theo thứ tự: em thấy gì → em đã làm gì → phản ứng của người được giúp → cảm xúc của em lúc đó và sau đó.<br><b>Kết bài:</b> Trải nghiệm đó làm em thay đổi suy nghĩ thế nào?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Chiều hôm ấy trời đổ mưa bất chợt, em thấy một cụ già đứng nép dưới mái hiên với gánh rau còn đầy. Em chạy lại, che ô cho cụ và phụ cụ đẩy gánh rau về đầu ngõ. Cụ cười, dúi vào tay em một quả ổi. Quà nhỏ thôi, mà em thấy vui hơn cả khi được điểm mười."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — trải nghiệm phải là của con, đừng bịa một câu chuyện "cho hay" nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Viết đoạn văn nêu cảm nghĩ của em về kết thúc truyện "Cô bé bán diêm": em bé ra đi mà đôi môi vẫn mỉm cười.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Nêu chi tiết kết thúc và cảm xúc đầu tiên của em (xót thương? nhẹ nhõm?).<br><b>Thân đoạn:</b> Phân tích: vì sao em bé mỉm cười (được theo bà, thoát khỏi đói rét) → chi tiết này vừa làm ta đau xót vì xã hội thờ ơ, vừa an ủi vì em bé không còn khổ.<br><b>Kết đoạn:</b> Thông điệp em nhận được từ cái kết này là gì?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Nụ cười trên môi cô bé bán diêm làm em vừa thương vừa nghẹn ngào. Em bé chỉ được hạnh phúc trong mộng tưởng và khi đã ra đi — đó là lời trách nhẹ nhàng mà đau đớn dành cho những người lớn thờ ơ đi qua em trong đêm giao thừa. Đọc xong truyện, em tự hứa sẽ không bao giờ đi qua một người cần giúp đỡ mà không dừng lại."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — cảm nghĩ phải là cảm nghĩ thật của con nhé!</div>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của Bài 3</div>
+  <div class="fcbox" data-cards="12,13,14,15,16,17"></div>
+  </div>
+  <a class="next" href="#bai4">✔ Xong Bài 3 → Sang Bài 4: Quê hương yêu dấu ⬇</a>
+</div>
+
+<!-- ================= BÀI 4 ================= -->
+<div class="lesson" id="bai4" style="--c:#2e7d32">
+  <div class="body">
+  <span class="badge sau">🌿 Sau giữa kì</span>
+  <h3>Bài 4. Quê hương yêu dấu</h3>
+  <div class="hook">🌾 Quê hương là gì? Là chùm khế ngọt, là lũy tre xanh, là lời ru của bà và những câu chuyện cổ nghe từ thuở nằm nôi. Bài này đưa em về với <b>quê hương, đất nước</b> — bằng ca dao, bằng thơ và bằng cây tre Việt Nam.</div>
+  <div class="gallery">
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_and_rattan_village_Phu_Vinh%2CChuong_My%2CHa_Noi%2CViet_Nam.jpg?width=900" alt="Làng nghề mây tre đan Phú Vinh, Hà Nội" loading="lazy">
+      <figcaption>🎋 <b>Làng nghề mây tre đan Phú Vinh</b> (Chương Mỹ, Hà Nội) — từ cây tre, cây mây, bàn tay người thợ Việt làm ra bao nhiêu đồ dùng đẹp và bền. Tre không chỉ mọc thành lũy quanh làng — tre còn đi vào từng vật dụng trong nhà! (Wikimedia Commons, CC BY-SA 4.0)</figcaption>
+    </figure>
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Man_Harvesting_Rice_-_Khang_Ninh_Commune_-_Ba_Be_-_Vietnam_-_01_%2848107680932%29.jpg?width=900" alt="Người nông dân gặt lúa ở Việt Nam" loading="lazy">
+      <figcaption>🌾 <b>Mùa gặt trên đồng quê</b> — ca dao quê hương thường mở ra đúng khung cảnh này: cánh đồng, giọt mồ hôi và niềm vui được mùa của người nông dân. (Wikimedia Commons)</figcaption>
+    </figure>
+  </div>
+
+  <div class="txttl">📖 Văn bản 1: Chùm ca dao về quê hương đất nước <span class="au">— Ca dao dân gian</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/que-huong-luy-tre.webp" alt="Làng quê Việt Nam với lũy tre và đồng lúa" loading="lazy">
+    <figcaption>🌾 <b>Quê hương trong ca dao</b> — lũy tre, đồng lúa, cánh diều: những hình ảnh thân thương nhất của làng quê Việt Nam. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li><b>Ca dao</b> là thơ ca dân gian, được truyền miệng qua nhiều thế hệ, thường dùng thể <span class="hl2">lục bát</span> — là tiếng lòng của người lao động.</li>
+    <li>Chùm ca dao trong bài ngợi ca <b>vẻ đẹp của quê hương đất nước</b>: ruộng đồng bát ngát, cảnh vật thanh bình và công sức lao động của con người làm nên vẻ đẹp ấy.</li>
+    <li>Đọc ca dao, em nhớ: sau mỗi câu hát êm đềm là <span class="hl">tình yêu quê hương</span> và niềm tự hào của nhân dân về nơi mình sinh ra, lớn lên.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 2: Chuyện cổ nước mình <span class="au">— Lâm Thị Mỹ Dạ (thơ lục bát)</span></div>
+  <div class="quote">"Tôi yêu truyện cổ nước tôi
+Vừa nhân hậu lại tuyệt vời sâu xa"<span class="src">— Mở đầu bài thơ "Chuyện cổ nước mình", Lâm Thị Mỹ Dạ</span></div>
+  <ul>
+    <li>Nhà thơ yêu truyện cổ vì truyện cổ <b>nhân hậu</b>: luôn đứng về phía người hiền lành, người yếu thế; kẻ ác dù mạnh đến đâu cuối cùng cũng bị trừng phạt.</li>
+    <li>Truyện cổ dạy ta những bài học làm người: <b>ở hiền gặp lành</b>, biết thương người, biết sống ngay thẳng.</li>
+    <li>Vì vậy, nhà thơ "mang theo truyện cổ" đi vào cuộc sống hôm nay — như mang theo <b>tiếng nói hiền hòa của cha ông</b> để soi đường cho mình.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 3: Cây tre Việt Nam <span class="au">— Thép Mới (tùy bút)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/cay-tre-viet-nam.webp" alt="Lũy tre xanh vươn thẳng" loading="lazy">
+    <figcaption>🎋 <b>Cây tre Việt Nam</b> — tre mọc thẳng, mọc thành lũy, tượng trưng cho sức sống và tinh thần đoàn kết của người Việt. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Tre gắn bó với người Việt <b>từ bao đời nay</b>: tre làm nhà, làm giường, làm đũa, làm nôi ru em bé; tre làm hàng rào, làm vũ khí đánh giặc giữ làng.</li>
+    <li>Tre có những phẩm chất đáng quý: <b>thẳng thắn</b> (mọc thẳng), <b>dẻo dai</b> (gió bão khó quật ngã), <b>đoàn kết</b> (sống thành lũy, thành khóm), xanh tốt quanh năm, rễ bám sâu vào đất.</li>
+    <li>Vì thế, tre trở thành <span class="hl2">biểu tượng của con người Việt Nam</span>: kiên cường, cần cù, đoàn kết và thủy chung với quê hương.</li>
+  </ul>
+  <div class="moc">📌 <b>Bài 4 còn dạy em</b> hai kĩ năng viết quan trọng của học kì: <b>tập làm thơ lục bát</b> và <b>viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát</b> — xem ngay ở Góc tự luận bên dưới nhé!</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy — Bài 4</div>
+    <div class="mm-center">Bài 4: Quê hương yêu dấu</div>
+    <div class="mm-branch"><span class="mm-b">Ca dao quê hương</span><span class="mm-k">tiếng lòng của nhân dân lao động • ngợi ca cảnh đẹp + công sức con người</span></div>
+    <div class="mm-branch"><span class="mm-b">Chuyện cổ nước mình</span><span class="mm-k">truyện cổ NHÂN HẬU, SÂU XA • ở hiền gặp lành • mang theo truyện cổ vào cuộc sống</span></div>
+    <div class="mm-branch"><span class="mm-b">Cây tre Việt Nam</span><span class="mm-k">tre gắn bó mọi mặt đời sống • THẲNG – DẺO DAI – ĐOÀN KẾT → biểu tượng phẩm chất người Việt</span></div>
+  </div>
+
+  <div class="secttl">🔤 Học từ khó — Bài 4</div>
+  <div class="vgrid">
+    <div class="vcard"><b class="tu">ca dao</b> — thơ ca dân gian truyền miệng, thường theo thể lục bát, diễn tả đời sống và tình cảm của nhân dân.<span class="vd">Ví dụ: Lời ru của bà thường là những câu ca dao êm đềm.</span></div>
+    <div class="vcard"><b class="tu">lục bát</b> — thể thơ truyền thống Việt Nam: câu trên 6 tiếng (câu lục), câu dưới 8 tiếng (câu bát), có luật bằng trắc và vần chân.<span class="vd">Ví dụ: Truyện Kiều của Nguyễn Du được viết bằng thơ lục bát.</span></div>
+    <div class="vcard"><b class="tu">nhân hậu</b> — hiền lành, giàu lòng thương người.<span class="vd">Ví dụ: Bà em là người nhân hậu, ai khó khăn bà cũng giúp.</span></div>
+    <div class="vcard"><b class="tu">biểu tượng</b> — hình ảnh dùng để gợi tới một ý nghĩa lớn hơn chính nó.<span class="vd">Ví dụ: Cây tre là biểu tượng của sức sống và phẩm chất người Việt.</span></div>
+    <div class="vcard"><b class="tu">thủy chung</b> — trước sau như một, không thay lòng đổi dạ.<span class="vd">Ví dụ: Người quê em thủy chung với mảnh đất đã nuôi mình lớn lên.</span></div>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 4</div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Ca dao là gì? Ca dao thường được viết theo thể thơ nào?</button><div class="qa-a">Ca dao là <b>thơ ca dân gian truyền miệng</b> của nhân dân lao động, thường dùng thể thơ <b>lục bát</b>.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Vì sao nhà thơ Lâm Thị Mỹ Dạ yêu truyện cổ nước mình?</button><div class="qa-a">Vì truyện cổ <b>nhân hậu và sâu xa</b>: luôn bênh vực người hiền, dạy ta ở hiền gặp lành, biết thương người và sống ngay thẳng.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình lũy tre: cây tre đã giúp người Việt những việc gì trong đời sống?</button><div class="qa-a">Tre làm <b>nhà cửa, đồ dùng</b> (giường, đũa, nôi…), làm <b>hàng rào</b> bao làng và làm <b>vũ khí chống giặc</b> — tre là người bạn thân thiết của nhà nông Việt Nam.</div></div>
+  <div class="qa"><button class="qa-q">Đọc-hiểu nhanh: Thơ lục bát có đặc điểm gì về số tiếng?</button><div class="qa-a">Một cặp lục bát gồm câu <b>6 tiếng</b> (câu lục) và câu <b>8 tiếng</b> (câu bát), gieo vần ở tiếng thứ 6 của câu lục với tiếng thứ 6 của câu bát.</div></div>
+
+  <div class="secttl">✍️ Góc tự luận — Bài 4 (tự viết nhé!)</div>
+  <div class="write">
+    <div class="wq"><span class="lvl de">DỄ</span>Viết đoạn văn thể hiện cảm xúc của em về bài thơ "Chuyện cổ nước mình". <i>(Dạng viết chính của Bài 4!)</i></div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Giới thiệu bài thơ, tác giả và ấn tượng chung.<br><b>Thân đoạn:</b> Nêu câu thơ em thích nhất (ví dụ hai câu mở đầu) và cảm xúc nó gợi lên; nhớ tới một truyện cổ em yêu thích và bài học từ truyện đó.<br><b>Kết đoạn:</b> Em sẽ "mang theo truyện cổ" vào cuộc sống của mình như thế nào?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Đọc 'Chuyện cổ nước mình', em như nghe lại giọng kể của bà ngày còn bé. Em thích nhất ý thơ rằng truyện cổ rất nhân hậu — người hiền bao giờ cũng được hưởng hạnh phúc. Nhờ truyện cổ, em tin rằng cứ sống tử tế, điều tốt đẹp sẽ đến với mình."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — cảm xúc và truyện cổ con chọn phải là của con nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl vua">VỪA</span>Tập làm thơ lục bát: viết 4 câu thơ lục bát (2 cặp) về quê hương em.</div>
+    <div class="qa"><button class="qa-q">📋 Xem mẹo làm thơ lục bát trước khi viết</button><div class="qa-a"><b>Cách làm:</b> Câu 1 viết 6 tiếng, câu 2 viết 8 tiếng. <b>Tiếng thứ 6 của câu 6</b> phải gieo vần với <b>tiếng thứ 6 của câu 8</b>; rồi tiếng thứ 8 của câu 8 lại gieo vần với tiếng thứ 6 của câu 6 tiếp theo.<br><b>Gợi ý đề tài:</b> dòng sông quê, cánh đồng, lũy tre, mái trường, con đường đi học.<br><b>Mẹo:</b> Cứ đọc thành tiếng — nghe "trôi" là thơ đã ổn một nửa rồi!</div></div>
+    <div class="sample"><span class="sl">✏️ Bài thơ mẫu ngắn (chỉ để học cách viết):</span>"Quê em có lũy tre xanh,<br>Có dòng sông nhỏ uốn quanh xóm làng.<br>Chiều về khói bếp bay ngang,<br>Nghe câu ru mẹ dịu dàng trong tim."<br><i>(Chú ý vần: xanh – quanh – ngang – dàng… đọc lên nghe liền mạch là đạt!)</i></div>
+    <div class="warnote">⚠️ Bài mẫu là để học <b>cách gieo vần</b> thôi — con hãy tự làm bài thơ của mình, vụng một chút cũng quý hơn chép thơ hay nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Vì sao cây tre được coi là biểu tượng của con người Việt Nam? Viết đoạn văn trả lời câu hỏi đó.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Trả lời thẳng: tre là biểu tượng vì tre có những phẩm chất giống phẩm chất của người Việt.<br><b>Thân đoạn:</b> Chứng minh bằng 2–3 cặp ý: tre mọc thẳng → con người ngay thẳng, chính trực; tre dẻo dai trước bão → con người kiên cường; tre sống thành lũy → tinh thần đoàn kết.<br><b>Kết đoạn:</b> Em muốn học phẩm chất nào của cây tre nhất?</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Cây tre được coi là biểu tượng của người Việt vì tre và người có chung những phẩm chất quý. Tre mọc thẳng giữa trời như con người ngay thẳng. Tre mảnh mai mà bão giông khó quật ngã, như dân tộc ta nhỏ bé mà kiên cường. Và tre không bao giờ mọc một mình — tre sống thành lũy, che chở cho nhau như người Việt đoàn kết một lòng."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tự chọn phẩm chất và tự diễn đạt nhé!</div>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của Bài 4</div>
+  <div class="fcbox" data-cards="18,19,20,21,22,23"></div>
+  </div>
+  <a class="next" href="#bai5">✔ Xong Bài 4 → Sang Bài 5: Những nẻo đường xứ sở ⬇</a>
+</div>
+
+<!-- ================= BÀI 5 ================= -->
+<div class="lesson" id="bai5" style="--c:#ef6c00">
+  <div class="body">
+  <span class="badge sau">🌿 Sau giữa kì</span>
+  <h3>Bài 5. Những nẻo đường xứ sở</h3>
+  <div class="hook">🧭 Bài cuối của học kì đưa em đi <b>du lịch qua trang sách</b>: ra đảo Cô Tô ngắm bình minh trên biển, chui vào Hang Én khổng lồ ở Quảng Bình, rồi xuôi về đồng bằng sông Cửu Long trù phú. Đọc xong, em sẽ biết cách <b>tả một cảnh sinh hoạt</b> thật sinh động.</div>
+  <figure>
+    <img src="../hinh-anh/nguvan/hang-en.webp" alt="Đàn én bay trong hang Én" loading="lazy">
+    <figcaption>🦅 <b>Hang Én</b> — đàn én bay trong luồng sáng giữa lòng hang khổng lồ ở Quảng Bình. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <figure>
+    <img src="../hinh-anh/nguvan/bien-dao-co-to.webp" alt="Bình minh trên biển Cô Tô" loading="lazy">
+    <figcaption>🌅 <b>Cô Tô</b> — mặt trời mọc trên mặt biển trong xanh như ngọc của đảo Cô Tô. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <div class="gallery">
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ha_Long_Bay%2C_Vietnam%2C_Islands.jpg?width=900" alt="Biển đảo Việt Nam" loading="lazy">
+      <figcaption>🏝️ <b>Biển đảo quê hương</b> — đảo Cô Tô (Quảng Ninh) trong bài của Nguyễn Tuân cũng đẹp như thế này: biển trong, trời sáng, đời sống ngư dân rộn ràng từ sớm tinh mơ. (Wikimedia Commons)</figcaption>
+    </figure>
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Son_Doong_Cave_DB_%281%29.jpg?width=900" alt="Bên trong một hang động khổng lồ" loading="lazy">
+      <figcaption>🦇 <b>Hang Sơn Đoòng</b> (Quảng Bình) — hang động lớn hàng đầu thế giới, cùng vùng đất với <b>Hang Én</b> trong bài học: trong hang có cả rừng xanh và dòng sông ngầm! (Wikimedia Commons)</figcaption>
+    </figure>
+    <figure>
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mekong_Floating_Market.jpg?width=900" alt="Chợ nổi trên sông ở đồng bằng sông Cửu Long" loading="lazy">
+      <figcaption>🛶 <b>Chợ nổi miền Tây</b> — cảnh sinh hoạt trên sông Cửu Long: ghe thuyền tấp nập từ tờ mờ sáng, mua bán ngay trên mặt nước. (Wikimedia Commons)</figcaption>
+    </figure>
+  </div>
+
+  <div class="txttl">📖 Văn bản 1: Cô Tô <span class="au">— Nguyễn Tuân (kí)</span></div>
+  <div class="quote">"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo và sáng sủa."<span class="src">— Trích văn bản "Cô Tô", Nguyễn Tuân</span></div>
+  <ul>
+    <li>Văn bản ghi lại cảnh đảo Cô Tô (Quảng Ninh) <b>sau trận bão</b>: trời quang, biển trong, mặt trời mọc rực rỡ trên mặt biển như một bức tranh.</li>
+    <li>Tác giả tả kĩ <b>đời sống lao động</b> trên đảo: ngư dân gánh nước ở giếng nước ngọt, chuẩn bị ra khơi, chợ cá nhộn nhịp — đảo xa mà đầy sức sống.</li>
+    <li>Nghệ thuật nổi bật: ngôn ngữ <span class="hl2">giàu hình ảnh, tinh tế đến từng chi tiết</span>; mỗi cảnh đều được nhìn bằng con mắt của một "nghệ sĩ của chữ nghĩa".</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 2: Hang Én <span class="au">— Hà My (du kí)</span></div>
+  <ul>
+    <li>Văn bản kể lại hành trình khám phá <b>Hang Én</b> — một hang động khổng lồ trong Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình), nơi có hàng vạn con <span class="hl">chim én</span> làm tổ.</li>
+    <li>Hang rộng lớn đến mức bên trong có cả <b>dòng sông ngầm, bãi cát và một khu rừng</b> đón nắng qua cửa hang; ánh sáng chiếu xuống tạo nên cảnh tượng vừa hùng vĩ vừa bí ẩn.</li>
+    <li>Đọc văn bản, em học được cách <b>quan sát và ghi lại</b> một chuyến đi: đi đến đâu, thấy gì, cảm xúc ra sao — đó chính là thể <span class="hl2">du kí</span>.</li>
+  </ul>
+
+  <div class="txttl">📖 Văn bản 3: Cửu Long Giang ta ơi <span class="au">— Nguyên Hồng (thơ)</span></div>
+  <figure>
+    <img src="../hinh-anh/nguvan/cuu-long-giang.webp" alt="Sông Cửu Long mênh mông" loading="lazy">
+    <figcaption>🚤 <b>Cửu Long Giang</b> — dòng sông mẹ mênh mông chở nặng phù sa và thuyền trái cây của miền Tây. (Tranh minh họa do AI vẽ)</figcaption>
+  </figure>
+  <ul>
+    <li>Bài thơ là tiếng lòng tự hào của nhà thơ với dòng <b>sông Cửu Long</b> (đoạn sông Mê Kông chảy qua Việt Nam) và vùng đồng bằng Nam Bộ.</li>
+    <li>Con sông gắn với tuổi thơ, với phù sa bồi đắp ruộng đồng, với vườn cây trái trù phú và con người miền Tây hào sảng, chất phác.</li>
+    <li>Ý nghĩa: mỗi vùng đất đều có một dòng sông "mẹ" — yêu quê hương là yêu từ dòng sông, cánh đồng nơi mình sinh ra.</li>
+  </ul>
+  <div class="moc">📌 <b>Điểm cần nhớ của Bài 5:</b> Thể loại chung của bài là <b>kí / du kí</b> — ghi lại những điều tai nghe mắt thấy trong các chuyến đi, kèm cảm xúc của người đi. Dạng viết của bài: <b>bài văn tả cảnh sinh hoạt</b>.</div>
+
+  <div class="mmap">
+    <div class="mm-title">🧠 Sơ đồ tư duy — Bài 5</div>
+    <div class="mm-center">Bài 5: Những nẻo đường xứ sở — ĐI VÀ GHI LẠI</div>
+    <div class="mm-branch"><span class="mm-b">Cô Tô</span><span class="mm-k">Nguyễn Tuân • đảo sau bão TRONG TRẺO, SÁNG SỦA • bình minh trên biển + đời sống ngư dân</span></div>
+    <div class="mm-branch"><span class="mm-b">Hang Én</span><span class="mm-k">Hà My • hang KHỔNG LỒ ở Phong Nha – Kẻ Bàng • sông ngầm, rừng trong hang, vạn chim én</span></div>
+    <div class="mm-branch"><span class="mm-b">Cửu Long Giang ta ơi</span><span class="mm-k">Nguyên Hồng • tự hào sông Cửu Long + đồng bằng trù phú, con người hào sảng</span></div>
+    <div class="mm-branch"><span class="mm-b">Kĩ năng</span><span class="mm-k">quan sát kĩ → chọn chi tiết tiêu biểu → viết bài văn TẢ CẢNH SINH HOẠT</span></div>
+  </div>
+
+  <div class="secttl">🔤 Học từ khó — Bài 5</div>
+  <div class="vgrid">
+    <div class="vcard"><b class="tu">du kí</b> — văn ghi lại những điều thấy nghe được trong một chuyến đi, kèm cảm xúc của người kể.<span class="vd">Ví dụ: "Hang Én" là một bài du kí về chuyến thám hiểm hang động.</span></div>
+    <div class="vcard"><b class="tu">trong trẻo</b> — trong và sáng, không chút vẩn đục (nói về trời, nước, giọng hát…).<span class="vd">Ví dụ: Sau cơn bão, bầu trời Cô Tô trong trẻo lạ thường.</span></div>
+    <div class="vcard"><b class="tu">hùng vĩ</b> — to lớn, rộng lớn và gây ấn tượng mạnh (nói về thiên nhiên).<span class="vd">Ví dụ: Khung cảnh trong hang động thật hùng vĩ.</span></div>
+    <div class="vcard"><b class="tu">trù phú</b> — giàu có, dồi dào về sản vật, cuộc sống sung túc.<span class="vd">Ví dụ: Đồng bằng sông Cửu Long là vùng đất trù phú nhất nước ta.</span></div>
+    <div class="vcard"><b class="tu">cảnh sinh hoạt</b> — cảnh con người đang sống và làm việc hằng ngày (khác với cảnh thiên nhiên tĩnh).<span class="vd">Ví dụ: Cảnh sinh hoạt ở chợ nổi bắt đầu từ khi trời còn tối.</span></div>
+  </div>
+
+  <div class="secttl">❓ Câu hỏi gợi nhớ — Bài 5</div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: Cảnh đảo Cô Tô sau trận bão được Nguyễn Tuân tả bằng những từ nào?</button><div class="qa-a">Một ngày <b>"trong trẻo và sáng sủa"</b> — trời quang đãng, mặt biển đẹp, mặt trời mọc rực rỡ, đảo hồi sinh đầy sức sống sau bão.</div></div>
+  <div class="qa"><button class="qa-q">🖼️ Nhìn hình hang động: Hang Én có những điều kì thú nào bên trong?</button><div class="qa-a">Hang khổng lồ đến mức có cả <b>dòng sông ngầm, bãi cát và một khu rừng</b> mọc nhờ ánh nắng lọt qua cửa hang; và đó là nhà của <b>hàng vạn con chim én</b>.</div></div>
+  <div class="qa"><button class="qa-q">Nhớ lại xem: "Cửu Long Giang ta ơi" viết về dòng sông nào, ở vùng nào của nước ta?</button><div class="qa-a">Về <b>sông Cửu Long</b> ở <b>đồng bằng Nam Bộ</b> — vùng đất phù sa trù phú, vườn trái xum xuê và con người hào sảng.</div></div>
+  <div class="qa"><button class="qa-q">Đọc-hiểu nhanh: Ba văn bản của Bài 5 giống nhau ở điểm nào?</button><div class="qa-a">Đều thuộc thể <b>kí / du kí</b>: ghi lại cảnh đẹp và đời sống con người ở các vùng đất của Việt Nam mà tác giả đã đi qua, kèm cảm xúc tự hào, yêu mến.</div></div>
+
+  <div class="secttl">✍️ Góc tự luận — Bài 5 (tự viết nhé!)</div>
+  <div class="write">
+    <div class="wq"><span class="lvl de">DỄ</span>Viết bài văn tả một cảnh sinh hoạt nơi em sống (chợ quê, bến sông, sân trường giờ ra chơi, đường phố buổi sáng…). <i>(Dạng viết chính của Bài 5!)</i></div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở bài:</b> Giới thiệu cảnh sinh hoạt em sẽ tả: ở đâu, vào lúc nào.<br><b>Thân bài:</b> Tả bao quát khung cảnh trước (âm thanh, màu sắc, không khí chung) → tả 1–2 hoạt động tiêu biểu nhất với chi tiết cụ thể (người ta đang làm gì, nói gì).<br><b>Kết bài:</b> Cảm nghĩ của em về cảnh sinh hoạt đó.</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Chợ quê em họp từ lúc trời còn mờ sương. Tiếng gọi nhau í ới, tiếng gà gáy trong lồng, mùi rau thơm và mùi bánh cuốn nóng quyện vào nhau. Em thích nhất hàng của bà cụ bán xôi — tay bà thoăn thoắt, miệng cười hiền, ai đi qua bà cũng chào một câu thật to. Cái chợ nhỏ vậy thôi mà chứa cả một buổi sáng quê hương."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tả cảnh sinh hoạt thật quanh mình, bằng mắt mình nhìn nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl vua">VỪA</span>Tưởng tượng em vừa đi thăm đảo Cô Tô (hoặc Hang Én), hãy viết đoạn văn tả lại một cảnh đẹp nhất mà em "nhìn thấy".</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Nêu cảnh em chọn tả (mặt trời mọc trên biển Cô Tô / ánh nắng trong Hang Én).<br><b>Thân đoạn:</b> Tả theo trình tự từ xa đến gần hoặc từ trên xuống dưới; dùng 1–2 so sánh để cảnh hiện lên rõ (mặt trời như lòng đỏ trứng gà…).<br><b>Kết đoạn:</b> Cảm xúc của em trước cảnh đẹp đó.</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Mặt trời lên chậm rãi từ phía chân biển, tròn và đỏ như một lòng đỏ trứng gà khổng lồ. Mặt nước lấp lánh hàng nghìn mảnh vàng vỡ. Đứng trên bãi cát lúc ấy, em hiểu vì sao Nguyễn Tuân gọi buổi sáng ở Cô Tô là 'trong trẻo và sáng sủa' — mọi thứ như vừa được gột rửa sạch bong sau trận bão."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — con hãy tả bằng tưởng tượng và ngôn ngữ của mình nhé!</div>
+  </div>
+  <div class="write">
+    <div class="wq"><span class="lvl kho">KHÓ HƠN</span>Viết một đoạn giới thiệu về một cảnh đẹp của quê hương em để gửi cho một người bạn ở xa chưa từng đến.</div>
+    <div class="qa"><button class="qa-q">📋 Xem gợi ý dàn ý trước khi viết</button><div class="qa-a"><b>Mở đoạn:</b> Chào bạn và giới thiệu ngay cảnh đẹp đó là gì, ở đâu.<br><b>Thân đoạn:</b> Giới thiệu 2–3 nét đặc sắc nhất (cảnh vật, con người, món ăn hoặc một kỉ niệm) — nhớ: bạn chưa từng đến, nên phải tả sao cho bạn hình dung được.<br><b>Kết đoạn:</b> Mời bạn một lần ghé thăm và nói lí do em tự hào về nơi đó.</div></div>
+    <div class="sample"><span class="sl">✏️ Đoạn mẫu ngắn (chỉ để học cách viết):</span>"Bạn thân mến, nếu có dịp về quê mình, mình sẽ dẫn bạn ra con đê đầu làng vào buổi chiều. Từ trên đê nhìn xuống, cánh đồng lúa chín vàng rực như một tấm thảm khổng lồ, gió thổi làm lúa gợn sóng đuổi nhau đến tận chân trời. Quê mình không có nhà cao tầng, nhưng có những buổi chiều đẹp đến mức chỉ muốn ngồi im mà ngắm."</div>
+    <div class="warnote">⚠️ Đoạn mẫu là để học <b>cách viết</b> thôi — cảnh đẹp phải là của quê con, lời giới thiệu là của con nhé!</div>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của Bài 5</div>
+  <div class="fcbox" data-cards="24,25,26,27,28,29"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Bài 5 → Xuống Phần Tổng kết ⬇</a>
+</div>
+
+<!-- ================= TỔNG KẾT ================= -->
+<div id="tongket-wrap">
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 5 bài rồi! Giờ nhìn lại bức tranh lớn: sơ đồ tổng → các dạng viết của học kì → lật lại toàn bộ flashcard một lượt.</p></div>
+
+<div class="card">
+  <div class="mmap" style="--c:#5e35b1">
+    <div class="mm-title">🧠 Sơ đồ tư duy TỔNG — Ngữ văn 6, Học kì 1</div>
+    <div class="mm-center">NGỮ VĂN 6 — HỌC KÌ 1</div>
+    <div class="mm-branch"><span class="mm-b">Bài 1 • Tình bạn</span><span class="mm-k">Dế Mèn học bài học đầu đời • cáo dạy "thuần dưỡng" — khiêm tốn, trân trọng bạn bè</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài 2 • Gia đình</span><span class="mm-k">mọi thứ sinh ra vì trẻ em • tình mẫu tử trong "Mây và sóng" • biết nhận lỗi như người anh trong "Bức tranh của em gái tôi"</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài 3 • Chia sẻ</span><span class="mm-k">cô bé bán diêm • chiếc áo bông cho bạn nghèo — yêu thương bằng HÀNH ĐỘNG</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài 4 • Quê hương</span><span class="mm-k">ca dao • truyện cổ nhân hậu • cây tre = biểu tượng người Việt</span></div>
+    <div class="mm-branch"><span class="mm-b">Bài 5 • Xứ sở</span><span class="mm-k">Cô Tô — Hang Én — sông Cửu Long: đi, quan sát và ghi lại (kí/du kí)</span></div>
+    <div class="mm-branch"><span class="mm-b">Kĩ năng viết</span><span class="mm-k">kể lại trải nghiệm • ghi cảm xúc về bài thơ • làm thơ lục bát • tả cảnh sinh hoạt</span></div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>✍️ Luyện viết theo chủ đề — Các dạng viết của học kì 1</h3>
+  <ul>
+    <li><b>1. Kể lại một trải nghiệm</b> (Bài 1, Bài 3): Mở bài giới thiệu sự việc → Thân bài kể lại diễn biến theo thứ tự thời gian, xen cảm xúc của em → Kết bài nêu bài học hoặc điều em nhớ nhất. <i>Bí quyết: kể chuyện thật của mình, chọn 1–2 chi tiết đắt nhất, đừng kể lan man.</i></li>
+    <li><b>2. Viết đoạn văn ghi lại cảm xúc về một bài thơ</b> (Bài 2, Bài 4): Mở đoạn nêu tên bài thơ + cảm xúc chung → Thân đoạn chọn hình ảnh/câu thơ ấn tượng nhất, giải thích vì sao em xúc động → Kết đoạn liên hệ với bản thân. <i>Bí quyết: cảm xúc phải thật — thích câu nào, vì sao thích, nói rõ ra.</i></li>
+    <li><b>3. Tập làm thơ lục bát</b> (Bài 4): Câu 6 tiếng, câu 8 tiếng; tiếng thứ 6 của câu lục gieo vần với tiếng thứ 6 của câu bát; viết về quê hương, gia đình, thiên nhiên. <i>Bí quyết: đọc thành tiếng để kiểm tra vần và nhịp.</i></li>
+    <li><b>4. Viết bài văn tả cảnh sinh hoạt</b> (Bài 5): Mở bài giới thiệu cảnh → Thân bài tả bao quát rồi tả các hoạt động tiêu biểu (gần → xa hoặc theo thời gian) → Kết bài nêu cảm nghĩ. <i>Bí quyết: tả cảnh sinh hoạt là tả CON NGƯỜI đang hoạt động, không chỉ tả cảnh vật.</i></li>
+  </ul>
+  <p style="font-size:17px;line-height:1.7">Mỗi dạng viết ở trên đều có bài tập mẫu ở <b>Góc tự luận</b> của từng bài — học xong bài nào, quay lại bài đó viết thử ngay một bài cho nóng nhé!</p>
+</div>
+
+<div class="card">
+  <h3>🃏 Flashcard tổng ôn — Cả học kì 1 (30 thẻ)</h3>
+  <div class="fcbox" data-cards="all"></div>
+</div>
+</div><!-- /tongket-wrap -->
+
+<div class="viewbar" id="viewbar-bottom">
+  <div class="vt">👀 Chế độ xem (trang sẽ nhớ lựa chọn của em):</div>
+  <button class="modebtn" data-m="single">📄 Từng bài</button>
+  <button class="modebtn" data-m="all">📚 Xem tất cả</button>
+  <div class="nv-nav">
+    <button class="nv-pn" data-pn="prev">⬅ Trước</button>
+    <span class="nv-chips"></span>
+    <button class="nv-pn" data-pn="next">Sau ➡</button>
+  </div>
+</div>
+
+<p class="note">📌 Nhắc lại cách học môn Văn: đọc kĩ văn bản trong sách → dùng trang này để nhớ ý chính và từ khó → tự viết ở Góc tự luận. Đoạn mẫu chỉ để học cách viết — <b>bài của con phải là lời của con</b> mới là học giỏi Văn thật sự!</p>
+
+<footer>
+  Nguồn ảnh minh họa: Wikimedia Commons (giấy phép tự do), kiểm chứng link ngày 21/10/2026: ảnh con dế (Gryllus campestris), cáo đỏ, sóng biển, thuyền buồm lúc hoàng hôn, que diêm trong bóng tối, làng nghề mây tre đan Phú Vinh (Hà Nội), gặt lúa ở Bắc Kạn, vịnh Hạ Long, hang Sơn Đoòng, chợ nổi Mê Kông. Các trích đoạn ngắn thuộc về tác giả được ghi rõ trong từng bài (Tô Hoài, Xuân Quỳnh, Lâm Thị Mỹ Dạ, Thạch Lam, Nguyễn Tuân…) — chỉ trích ngắn phục vụ học tập. Nội dung tóm tắt và dàn ý do Muse soạn theo SGK Ngữ văn 6 Kết nối tri thức, phụ huynh/bé nên đối chiếu lại với sách thật, nhất là các đoạn trích.
+</footer>
+
+<script>
+const IMG={
+de:"https://commons.wikimedia.org/wiki/Special:FilePath/Gryllus_campestris_MHNT.jpg?width=900",
+cao:"https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg?width=900",
+song:"https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_waves_crashing_up_on_rocks.jpg?width=900",
+buom:"https://commons.wikimedia.org/wiki/Special:FilePath/Sailing_boat_at_sunset%2C_Ionian_Sea%2C_Albania.jpg?width=900",
+diem:"https://commons.wikimedia.org/wiki/Special:FilePath/Matchstick_in_the_Dark_%28Unsplash%29.jpg?width=900",
+tre:"https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_and_rattan_village_Phu_Vinh%2CChuong_My%2CHa_Noi%2CViet_Nam.jpg?width=900",
+lua:"https://commons.wikimedia.org/wiki/Special:FilePath/Man_Harvesting_Rice_-_Khang_Ninh_Commune_-_Ba_Be_-_Vietnam_-_01_%2848107680932%29.jpg?width=900",
+dao:"https://commons.wikimedia.org/wiki/Special:FilePath/Ha_Long_Bay%2C_Vietnam%2C_Islands.jpg?width=900",
+hang:"https://commons.wikimedia.org/wiki/Special:FilePath/Son_Doong_Cave_DB_%281%29.jpg?width=900",
+mekong:"https://commons.wikimedia.org/wiki/Special:FilePath/Mekong_Floating_Market.jpg?width=900"
+};
+/* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ (khoá ảnh hoặc "emoji:...")] — thẻ nào cũng có hình/trích gợi nhớ */
+const CARDS=[
+["Dế Mèn là nhân vật trong tác phẩm nào? Của tác giả nào?","Trong truyện \"Dế Mèn phiêu lưu ký\" của nhà văn Tô Hoài — bài học trong sách là phần trích \"Bài học đường đời đầu tiên\".","de"],
+["Tính cách ban đầu của Dế Mèn là gì?","Cường tráng, khỏe mạnh, đẹp mã — nhưng kiêu căng, xốc nổi và coi thường mọi người xung quanh.","de"],
+["Dế Mèn đã vô tình gây ra hậu quả đau lòng nào?","Trêu chị Cốc rồi trốn đi, khiến chị Cốc mổ nhầm Dế Choắt; Dế Choắt qua đời, Dế Mèn ân hận vô cùng.","de"],
+["Bài học đường đời đầu tiên của Dế Mèn là gì?","\"Ở đời mà có thói hung hăng bậy bạ, có óc mà không biết nghĩ, sớm muộn rồi cũng mang vạ vào mình đấy.\"","de"],
+["Theo cáo trong \"Hoàng tử bé\", \"thuần dưỡng\" nghĩa là gì?","Là tạo nên những mối dây liên kết — nhờ thế, hai người trở nên cần thiết và duy nhất đối với nhau.","cao"],
+["Bí mật cáo tặng Hoàng tử bé khi chia tay là gì?","Những điều cốt yếu (như tình bạn) thì mắt thường không nhìn thấy — chỉ có trái tim mới nhìn rõ. Và ta phải chịu trách nhiệm với người mình đã thuần dưỡng.","cao"],
+["\"Chuyện cổ tích về loài người\" là thơ của ai? Ý tưởng chính của bài thơ là gì?","Của Xuân Quỳnh. Ý tưởng: mọi vật, mọi người trên đời đều sinh ra vì trẻ em — để yêu thương, chăm sóc và dạy dỗ trẻ em.","emoji:🌍"],
+["Trong bài thơ, mẹ sinh ra để làm gì cho trẻ?","Để bế bồng, chăm sóc và cho trẻ tình yêu cùng những lời ru — điều quý giá đầu tiên trong đời mỗi em bé.","emoji:🤱"],
+["\"Mây và sóng\" là của nhà thơ nào, người nước nào?","Của Ta-go (Rabindranath Tagore), nhà thơ Ấn Độ.","song"],
+["Vì sao em bé trong \"Mây và sóng\" từ chối đi cùng mây và sóng?","Vì mẹ đang đợi ở nhà. Em bé tự nghĩ ra trò chơi bên mẹ: con là mây, là sóng; mẹ là mặt trăng, là bờ biển.","song"],
+["Người anh trong \"Bức tranh của em gái tôi\" đã thay đổi như thế nào?","Từ ghen tị, cau có với em gái → khi thấy bức tranh em vẽ chân dung mình đầy yêu thương, anh sững sờ, xấu hổ và biết trân trọng em hơn.","emoji:🎨"],
+["\"Mây và sóng\" thuộc thể loại gì?","Thơ văn xuôi (thơ tự do) — kết hợp yếu tố tự sự (kể chuyện) và biểu cảm (bộc lộ tình cảm).","song"],
+["Cô bé bán diêm phải đi bán diêm vào đêm nào, trong hoàn cảnh ra sao?","Vào đêm giao thừa, trời rét buốt, tuyết rơi; em đầu trần chân đất, cả ngày không bán được que diêm nào nên không dám về nhà.","diem"],
+["Mỗi lần quẹt diêm, cô bé bán diêm nhìn thấy những gì?","Lò sưởi ấm áp → bàn ăn với ngỗng quay → cây thông Nô-en rực rỡ → bà ngoại yêu quý.","diem"],
+["Truyện \"Cô bé bán diêm\" gửi gắm thông điệp gì?","Hãy yêu thương và sẻ chia với trẻ em bất hạnh; đừng thờ ơ trước nỗi khổ của người khác.","diem"],
+["\"Gió lạnh đầu mùa\" là truyện của ai? Nhớ câu mở đầu nổi tiếng của truyện.","Của Thạch Lam. Câu mở đầu: \"Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước.\"","emoji:🧣"],
+["Chị em Sơn trong \"Gió lạnh đầu mùa\" đã làm gì cho bé Hiên?","Lấy chiếc áo bông cũ (kỉ vật của em gái đã mất) cho Hiên mặc chống rét — sẻ chia một cách tự nhiên, chân thành.","emoji:🧣"],
+["Bài thơ \"Con chào mào\" (Mai Văn Phấn) dạy ta điều gì về thiên nhiên?","Yêu thiên nhiên là tôn trọng tự do của muôn loài — đừng chiếm giữ thiên nhiên làm của riêng.","emoji:🐦"],
+["\"Chuyện cổ nước mình\" viết theo thể thơ nào? Tác giả là ai?","Thơ lục bát, của nhà thơ Lâm Thị Mỹ Dạ.","lua"],
+["Đọc thuộc hai câu mở đầu \"Chuyện cổ nước mình\".","\"Tôi yêu truyện cổ nước tôi / Vừa nhân hậu lại tuyệt vời sâu xa.\"","lua"],
+["Theo bài thơ, truyện cổ dạy ta những bài học gì?","Ở hiền gặp lành, biết thương người, sống ngay thẳng — và thêm tự hào về văn hóa của dân tộc mình.","tre"],
+["\"Cây tre Việt Nam\" là tác phẩm của ai?","Của nhà văn Thép Mới (thể loại tùy bút).","tre"],
+["Ca dao là gì?","Là thơ ca dân gian truyền miệng qua nhiều đời, thường dùng thể lục bát, diễn tả đời sống và tình cảm của nhân dân lao động.","lua"],
+["Vì sao tre được coi là biểu tượng của con người Việt Nam?","Vì tre thẳng, dẻo dai, sống thành lũy đoàn kết và xanh tốt quanh năm — giống phẩm chất kiên cường, đoàn kết, thủy chung của dân tộc.","tre"],
+["\"Cô Tô\" là tác phẩm của ai, thuộc thể loại gì?","Của Nguyễn Tuân, thuộc thể kí — ghi lại cảnh và người trên đảo Cô Tô sau trận bão.","dao"],
+["Cảnh Cô Tô sau cơn bão được tả bằng câu văn nổi tiếng nào?","\"Ngày thứ năm trên đảo Cô Tô là một ngày trong trẻo và sáng sủa.\"","dao"],
+["Hang Én nằm ở đâu? Điều gì kì thú nhất của hang?","Ở Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình). Hang khổng lồ: bên trong có sông ngầm, bãi cát, cả một khu rừng — và là nhà của hàng vạn con chim én.","hang"],
+["\"Hang Én\" là văn bản của tác giả nào?","Của Hà My — một bài du kí ghi lại hành trình khám phá hang động.","hang"],
+["\"Cửu Long Giang ta ơi\" viết về dòng sông nào? Tác giả là ai?","Về sông Cửu Long ở đồng bằng Nam Bộ; tác giả là nhà thơ Nguyên Hồng.","mekong"],
+["Dạng viết chính của Bài 5 là gì?","Viết bài văn tả cảnh sinh hoạt: quan sát kĩ, tả bao quát rồi tả hoạt động tiêu biểu, kèm cảm nghĩ của người viết.","mekong"]
+];
+/* Câu hỏi gợi nhớ + dàn ý: bấm để hiện/ẩn */
+document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+/* Flashcard */
+var LSKEY='nguvan_flash_v1';
+var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
+function saveKnown(){try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
+function faceMedia(c){
+  if(c[2] && c[2].indexOf('emoji:')===0){return '<div class="emj">'+c[2].substring(6)+'</div>';}
+  return '<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">';
+}
+function mountDeck(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  idxs.sort(function(a,b){return (known[a]?1:0)-(known[b]?1:0);});
+  var order=idxs.slice(),pos=0,flipped=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+    +'<div class="fc-btns"><button class="btn gray" data-a="prev">⬅ Trước</button><button class="btn" data-a="flip">🔄 Lật thẻ</button><button class="btn gray" data-a="next">Tiếp ➡</button></div>'
+    +'<div class="fc-btns"><button class="btn green" data-a="ok">✅ Đã thuộc</button><button class="btn red" data-a="no">🔁 Chưa thuộc</button><button class="btn gray" data-a="shuffle">🔀 Xáo trộn</button></div>'
+    +'<div class="fc-prog"></div><div class="fc-stat"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat');
+  function render(){
+    var ci=order[pos],c=CARDS[ci];
+    front.innerHTML=faceMedia(c)+'<div>'+c[0]+'</div><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem đáp án)</div>';
+    back.innerHTML='<div style="font-size:26px;margin-bottom:6px">💡</div><div>'+c[1]+'</div>';
+    card.classList.toggle('flipped',flipped);
+    prog.textContent='Thẻ '+(pos+1)+' / '+order.length;
+    var k=idxs.filter(function(i){return known[i];}).length;
+    stat.textContent='Bộ này đã thuộc '+k+'/'+idxs.length+' thẻ • Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';
+  }
+  function go(d){pos=(pos+d+order.length)%order.length;flipped=false;render();}
+  card.addEventListener('click',function(){flipped=!flipped;render();});
+  box.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a'),ci=order[pos];
+    if(a==='flip'){flipped=!flipped;render();}
+    else if(a==='prev'){go(-1);}
+    else if(a==='next'){go(1);}
+    else if(a==='ok'){known[ci]=true;saveKnown();go(1);}
+    else if(a==='no'){known[ci]=false;saveKnown();go(1);}
+    else if(a==='shuffle'){for(var i=order.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=order[i];order[i]=order[j];order[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
+}
+document.querySelectorAll('.fcbox').forEach(mountDeck);
+</script>
+<script>
+/* ===== Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" — lưu ở localStorage nguvan_view_mode ===== */
+(function(){
+  var ITEMS=[{id:'bai1',label:'Bài 1'},{id:'bai2',label:'Bài 2'},{id:'bai3',label:'Bài 3'},{id:'bai4',label:'Bài 4'},{id:'bai5',label:'Bài 5'},{id:'tongket-wrap',label:'🏁 Tổng kết'}];
+  var LS='nguvan_view_mode';
+  var mode='single'; try{mode=localStorage.getItem(LS)||'single';}catch(e){}
+  if(mode!=='all') mode='single';
+  var cur=0;
+  function el(id){return document.getElementById(id);}
+  function render(){
+    document.body.setAttribute('data-mode',mode);
+    document.querySelectorAll('.modebtn').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-m')===mode);});
+    ITEMS.forEach(function(it,i){
+      var n=el(it.id); if(!n) return;
+      n.style.display=(mode==='all'||i===cur)?'':'none';
+    });
+    document.querySelectorAll('.nv-chip').forEach(function(c){c.classList.toggle('on',Number(c.getAttribute('data-i'))===cur);});
+    document.querySelectorAll('[data-pn="prev"]').forEach(function(b){b.disabled=(cur===0);});
+    document.querySelectorAll('[data-pn="next"]').forEach(function(b){b.disabled=(cur===ITEMS.length-1);});
+  }
+  function show(i,scroll){
+    cur=Math.max(0,Math.min(ITEMS.length-1,i)); render();
+    if(scroll){var t=el('viewbar-top'); if(t) t.scrollIntoView(); window.scrollBy(0,-6);}
+  }
+  function setMode(m){mode=m; try{localStorage.setItem(LS,m);}catch(e){} render();}
+  document.querySelectorAll('.nv-chips').forEach(function(box){
+    ITEMS.forEach(function(it,i){
+      var c=document.createElement('button'); c.className='nv-chip'; c.textContent=it.label; c.setAttribute('data-i',i);
+      c.addEventListener('click',function(){show(i,true);});
+      box.appendChild(c);
+    });
+  });
+  document.querySelectorAll('.modebtn').forEach(function(b){b.addEventListener('click',function(){setMode(b.getAttribute('data-m'));});});
+  document.querySelectorAll('[data-pn="prev"]').forEach(function(b){b.addEventListener('click',function(){show(cur-1,true);});});
+  document.querySelectorAll('[data-pn="next"]').forEach(function(b){b.addEventListener('click',function(){show(cur+1,true);});});
+  /* Nút "Sang Bài ..." cuối mỗi bài: ở chế độ Từng bài thì chuyển mục thay vì nhảy neo */
+  document.querySelectorAll('a.next').forEach(function(a){
+    a.addEventListener('click',function(e){
+      if(mode!=='single') return;
+      var h=a.getAttribute('href')||'';
+      var id=(h==='#tongket')?'tongket-wrap':h.substring(1);
+      var idx=-1; ITEMS.forEach(function(it,i){if(it.id===id) idx=i;});
+      if(idx>=0){e.preventDefault(); show(idx,true);}
+    });
+  });
+  /* Mở trang kèm #bai3 / #tongket thì hiện đúng mục đó ở chế độ Từng bài */
+  if(mode==='single' && location.hash){
+    var hid=location.hash.substring(1); if(hid==='tongket') hid='tongket-wrap';
+    ITEMS.forEach(function(it,i){if(it.id===hid) cur=i;});
+  }
+  render();
+})();
+</script>
+</body>
+</html>
