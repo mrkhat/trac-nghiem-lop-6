@@ -530,11 +530,11 @@
    "Chu vi: (15 + 8) × 2 = 23 × 2 = 46 (m)",
    "Diện tích: 15 × 8 = 120 (m²)"
   ],
-  "svg": "<svg viewBox=\"0 0 320 200\" style=\"max-width:340px;width:100%\"><rect x=\"50\" y=\"45\" width=\"220\" height=\"110\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"160\" y=\"32\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">15 m</text><text x=\"278\" y=\"105\" font-size=\"16\" fill=\"#333\">8 m</text></svg>",
+  "svg": "<svg viewBox=\"0 0 320 200\" style=\"max-width:340px;width:100%\"><rect x=\"50\" y=\"45\" width=\"220\" height=\"110\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"160\" y=\"32\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">15 m</text><text x=\"278\" y=\"105\" font-size=\"16\" fill=\"#333\">8 m</text><text class=\"avtx\" data-v=\"A\" x=\"35\" y=\"168\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"285\" y=\"168\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"285\" y=\"42\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"35\" y=\"42\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 50,155 L 50.0,129.0 A 26,26 0 0 1 76.0,155.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"50\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"270\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 270,155 L 244.0,155.0 A 26,26 0 0 1 270.0,129.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"50\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"270\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 270,45 L 270.0,71.0 A 26,26 0 0 1 244.0,45.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"270\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"50\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 50,45 L 76.0,45.0 A 26,26 0 0 1 50.0,71.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"270\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"50\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"45\" r=\"16\"/></g></svg>",
   "text": "Một mảnh vườn hình chữ nhật có chiều dài 15 m và chiều rộng 8 m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.",
   "title": "Bài 11: Mảnh vườn hình chữ nhật",
   "topic": "Hình chữ nhật",
-  "theory": "Hình chữ nhật ABCD: Chu vi P = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.",
+  "theory": "Hình chữ nhật ABCD: Chu vi C = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.",
   "kw": [
    {
     "t": "chiều dài 15 m",
@@ -587,11 +587,11 @@
    "Chu vi: 9 × 4 = 36 (m)",
    "Diện tích: 9 × 9 = 81 (m²)"
   ],
-  "svg": "<svg viewBox=\"0 0 240 210\" style=\"max-width:260px;width:100%\"><rect x=\"45\" y=\"35\" width=\"150\" height=\"150\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"120\" y=\"22\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text></svg>",
+  "svg": "<svg viewBox=\"0 0 240 210\" style=\"max-width:260px;width:100%\"><rect x=\"45\" y=\"35\" width=\"150\" height=\"150\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"120\" y=\"22\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text class=\"avtx\" data-v=\"A\" x=\"33\" y=\"202\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"202\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"207\" y=\"28\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"28\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 45,185 L 45.0,159.0 A 26,26 0 0 1 71.0,185.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"45\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"195\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 195,185 L 169.0,185.0 A 26,26 0 0 1 195.0,159.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"45\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"195\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 195,35 L 195.0,61.0 A 26,26 0 0 1 169.0,35.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"195\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"45\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"35\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 45,35 L 71.0,35.0 A 26,26 0 0 1 45.0,61.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"195\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"45\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"35\" r=\"16\"/></g></svg>",
   "text": "Một sân chơi hình vuông có cạnh 9 m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.",
   "title": "Bài 12: Sân chơi hình vuông",
   "topic": "Hình vuông",
-  "theory": "Hình vuông: Chu vi P = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.",
+  "theory": "Hình vuông: Chu vi C = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.",
   "kw": [
    {
     "t": "cạnh 9 m",
@@ -633,11 +633,11 @@
   "solution": [
    "Chu vi: 30 × 3 = 90 (cm)"
   ],
-  "svg": "<svg viewBox=\"0 0 200 195\" style=\"max-width:230px;width:100%\"><polygon points=\"100,20 180,160 20,160\" fill=\"#fff8e1\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"100\" y=\"185\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">30 cm</text></svg>",
+  "svg": "<svg viewBox=\"0 0 200 195\" style=\"max-width:230px;width:100%\"><polygon points=\"100,20 180,160 20,160\" fill=\"#fff8e1\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"100\" y=\"185\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">30 cm</text><text class=\"avtx\" data-v=\"A\" x=\"100\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"5\" y=\"174\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"195\" y=\"174\" text-anchor=\"middle\">C</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc BAC = 60° — đỉnh A, hai cạnh AB và AC. Tam giác đều có 3 góc bằng nhau, mỗi góc 60°\"><path class=\"ang-w\" d=\"M 100,20 L 85.1,46.0 A 30,30 0 0 0 114.9,46.0 Z\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"100\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 60° — đỉnh B, hai cạnh BA và BC\"><path class=\"ang-w\" d=\"M 20,160 L 34.9,134.0 A 30,30 0 0 1 50.0,160.0 Z\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"100\" y2=\"20\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"20\" cy=\"160\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCA = 60° — đỉnh C, hai cạnh CB và CA\"><path class=\"ang-w\" d=\"M 180,160 L 150.0,160.0 A 30,30 0 0 1 165.1,134.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"100\" y2=\"20\"/><circle class=\"ang-w\" cx=\"180\" cy=\"160\" r=\"16\"/></g></svg>",
   "text": "Một biển báo giao thông có dạng tam giác đều với cạnh dài 30 cm. Tính chu vi của biển báo đó.",
   "title": "Bài 13: Biển báo tam giác đều",
   "topic": "Tam giác đều",
-  "theory": "Tam giác đều: Chu vi P = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).",
+  "theory": "Tam giác đều: Chu vi C = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).",
   "kw": [
    {
     "t": "tam giác đều",
@@ -680,7 +680,7 @@
   "solution": [
    "Chu vi: 12 + 8 + 5 + 5 = 30 (cm)"
   ],
-  "svg": "<svg viewBox=\"0 0 260 175\" style=\"max-width:300px;width:100%\"><polygon points=\"30,130 230,130 180,40 80,40\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"130\" y=\"158\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">12 cm</text><text x=\"130\" y=\"30\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"18\" y=\"88\" font-size=\"16\" fill=\"#333\">5 cm</text></svg>",
+  "svg": "<svg viewBox=\"0 0 260 175\" style=\"max-width:300px;width:100%\"><polygon points=\"30,130 230,130 180,40 80,40\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"130\" y=\"158\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">12 cm</text><text x=\"130\" y=\"30\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"18\" y=\"88\" font-size=\"16\" fill=\"#333\">5 cm</text><text class=\"avtx\" data-v=\"A\" x=\"14\" y=\"142\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"246\" y=\"142\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"193\" y=\"34\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"67\" y=\"34\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc này bằng góc ABC (hai góc kề cùng đáy lớn) và bù với góc CDA (tổng 180°)\"><path class=\"ang-w\" d=\"M 30,130 L 42.6,107.3 A 26,26 0 0 1 56.0,130.0 Z\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"80\" y2=\"40\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"230\" y2=\"130\"/><circle class=\"ang-w\" cx=\"30\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc DAB và bù với góc BCD (tổng 180°)\"><path class=\"ang-w\" d=\"M 230,130 L 204.0,130.0 A 26,26 0 0 1 217.4,107.3 Z\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"30\" y2=\"130\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"180\" y2=\"40\"/><circle class=\"ang-w\" cx=\"230\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc CDA (hai góc kề cùng đáy nhỏ)\"><path class=\"ang-w\" d=\"M 180,40 L 192.6,62.7 A 26,26 0 0 1 154.0,40.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"230\" y2=\"130\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"80\" y2=\"40\"/><circle class=\"ang-w\" cx=\"180\" cy=\"40\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc BCD và bù với góc DAB (tổng 180°)\"><path class=\"ang-w\" d=\"M 80,40 L 106.0,40.0 A 26,26 0 0 1 67.4,62.7 Z\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"180\" y2=\"40\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"30\" y2=\"130\"/><circle class=\"ang-w\" cx=\"80\" cy=\"40\" r=\"16\"/></g></svg>",
   "text": "Mặt bàn có dạng hình thang cân với đáy lớn 12 cm, đáy nhỏ 8 cm và cạnh bên 5 cm. Tính chu vi của mặt bàn.",
   "title": "Bài 14: Mặt bàn hình thang cân",
   "topic": "Hình thang cân",
@@ -736,7 +736,7 @@
   "solution": [
    "Diện tích: (6 × 8) : 2 = 48 : 2 = 24 (cm²)"
   ],
-  "svg": "<svg viewBox=\"0 0 240 205\" style=\"max-width:260px;width:100%\"><polygon points=\"120,20 190,100 120,180 50,100\" fill=\"#f3e5f5\" stroke=\"#6a1b9a\" stroke-width=\"2\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"180\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><line x1=\"50\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><text x=\"130\" y=\"60\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"132\" y=\"92\" font-size=\"16\" fill=\"#333\">6 cm</text></svg>",
+  "svg": "<svg viewBox=\"0 0 240 205\" style=\"max-width:260px;width:100%\"><polygon points=\"120,20 190,100 120,180 50,100\" fill=\"#f3e5f5\" stroke=\"#6a1b9a\" stroke-width=\"2\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"180\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><line x1=\"50\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><text x=\"130\" y=\"60\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"132\" y=\"92\" font-size=\"16\" fill=\"#333\">6 cm</text><text class=\"avtx\" data-v=\"A\" x=\"120\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"105\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"120\" y=\"202\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"105\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc đối của nó là góc BCD, hai góc đối bằng nhau. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,20 L 102.9,39.6 A 26,26 0 0 0 137.1,39.6 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"50\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"190\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc đối của nó là góc CDA. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 190,100 L 172.9,80.4 A 26,26 0 0 0 172.9,119.6 Z\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"20\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"180\"/><circle class=\"ang-w\" cx=\"190\" cy=\"100\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc đối của nó là góc DAB. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,180 L 137.1,160.4 A 26,26 0 0 0 102.9,160.4 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"190\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"50\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"180\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc đối của nó là góc ABC. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 50,100 L 67.1,119.6 A 26,26 0 0 0 67.1,80.4 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"180\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"20\"/><circle class=\"ang-w\" cx=\"50\" cy=\"100\" r=\"16\"/></g></svg>",
   "text": "Một viên gạch trang trí hình thoi có hai đường chéo dài 6 cm và 8 cm. Tính diện tích của viên gạch.",
   "title": "Bài 15: Diện tích hình thoi",
   "topic": "Hình thoi",
@@ -777,7 +777,7 @@
   "solution": [
    "Diện tích: 9 × 5 = 45 (m²)"
   ],
-  "svg": "<svg viewBox=\"0 0 260 185\" style=\"max-width:300px;width:100%\"><polygon points=\"40,140 200,140 235,45 75,45\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"75\" y1=\"45\" x2=\"75\" y2=\"140\" stroke=\"#1565c0\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"166\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text x=\"84\" y=\"98\" font-size=\"16\" fill=\"#333\">5 m</text></svg>",
+  "svg": "<svg viewBox=\"0 0 260 185\" style=\"max-width:300px;width:100%\"><polygon points=\"40,140 200,140 235,45 75,45\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"75\" y1=\"45\" x2=\"75\" y2=\"140\" stroke=\"#1565c0\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"166\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text x=\"84\" y=\"98\" font-size=\"16\" fill=\"#333\">5 m</text><text class=\"avtx\" data-v=\"A\" x=\"25\" y=\"152\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"214\" y=\"155\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"250\" y=\"43\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"61\" y=\"40\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Hai góc đối trong hình bình hành bằng nhau: góc này bằng góc BCD; góc kề với nó (ABC, CDA) bù nhau, tổng 180°\"><path class=\"ang-w\" d=\"M 40,140 L 49.0,115.6 A 26,26 0 0 1 66.0,140.0 Z\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"75\" y2=\"45\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"200\" y2=\"140\"/><circle class=\"ang-w\" cx=\"40\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc CDA (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 200,140 L 174.0,140.0 A 26,26 0 0 1 209.0,115.6 Z\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"40\" y2=\"140\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"235\" y2=\"45\"/><circle class=\"ang-w\" cx=\"200\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc DAB (hai góc đối)\"><path class=\"ang-w\" d=\"M 235,45 L 226.0,69.4 A 26,26 0 0 1 209.0,45.0 Z\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"200\" y2=\"140\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"75\" y2=\"45\"/><circle class=\"ang-w\" cx=\"235\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc ABC (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 75,45 L 101.0,45.0 A 26,26 0 0 1 66.0,69.4 Z\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"235\" y2=\"45\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"40\" y2=\"140\"/><circle class=\"ang-w\" cx=\"75\" cy=\"45\" r=\"16\"/></g></svg>",
   "text": "Một mảnh đất hình bình hành có cạnh đáy 9 m và chiều cao tương ứng 5 m. Tính diện tích của mảnh đất.",
   "title": "Bài 16: Diện tích hình bình hành",
   "topic": "Hình bình hành",
@@ -862,5 +862,184 @@
    }
   ],
   "template": "axisTriple"
+ },
+ {
+  "id": "p18",
+  "chapter": 2,
+  "topic": "Dấu hiệu chia hết",
+  "title": "Số chia hết cho 3",
+  "text": "Trong các số 24, 35, 46, 57, 68, số lớn nhất chia hết cho 3 là số nào?",
+  "analysis": {
+   "given": [
+    "Các số: 24, 35, 46, 57, 68",
+    "Dấu hiệu chia hết cho 3: tổng các chữ số chia hết cho 3"
+   ],
+   "ask": "Số lớn nhất trong các số đã cho chia hết cho 3",
+   "plan": "Tính tổng các chữ số của từng số, giữ lại các số có tổng chia hết cho 3, rồi chọn số lớn nhất."
+  },
+  "hint": "24 có tổng chữ số 6, 57 có tổng chữ số 12 — cả hai đều chia hết cho 3.",
+  "theory": "Dấu hiệu chia hết (Bài 9): một số chia hết cho 3 khi tổng các chữ số của nó chia hết cho 3; chia hết cho 9 khi tổng các chữ số chia hết cho 9; chia hết cho 2 khi tận cùng là 0, 2, 4, 6, 8; chia hết cho 5 khi tận cùng là 0 hoặc 5.",
+  "kw": [
+   {
+    "t": "chia hết cho 3",
+    "type": "method",
+    "why": "Điều kiện lọc số: tổng các chữ số phải chia hết cho 3."
+   },
+   {
+    "t": "số lớn nhất",
+    "type": "ask",
+    "why": "Điều cần tìm: chọn số lớn nhất trong các số thỏa mãn."
+   },
+   {
+    "t": "57",
+    "type": "data",
+    "why": "Một trong các số cần kiểm tra."
+   }
+  ],
+  "parts": [
+   {
+    "label": "Số lớn nhất chia hết cho 3",
+    "answer": "57",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "24: 2 + 4 = 6 chia hết cho 3 → 24 chia hết cho 3",
+   "57: 5 + 7 = 12 chia hết cho 3 → 57 chia hết cho 3",
+   "Các số còn lại (35, 46, 68) có tổng chữ số không chia hết cho 3",
+   "Số lớn nhất chia hết cho 3 là 57"
+  ],
+  "template": "divRule"
+ },
+ {
+  "id": "p19",
+  "chapter": 3,
+  "topic": "Phép nhân số nguyên",
+  "title": "Nhân hai số nguyên khác dấu",
+  "text": "Tính: (-4) × 5 + 12",
+  "analysis": {
+   "given": [
+    "Biểu thức có phép nhân và phép cộng",
+    "Quy tắc dấu: tích của hai số nguyên khác dấu là số âm"
+   ],
+   "ask": "Giá trị của biểu thức",
+   "plan": "Làm phép nhân trước: (-4) × 5 = -20, sau đó cộng 12."
+  },
+  "hint": "(-4) × 5: khác dấu nên kết quả âm, 4 × 5 = 20 → -20. Rồi lấy -20 + 12.",
+  "theory": "Phép nhân số nguyên (Bài 16): tích của hai số nguyên khác dấu là số âm; tích của hai số nguyên cùng dấu là số dương. Khi có cả nhân và cộng, làm phép nhân trước.",
+  "kw": [
+   {
+    "t": "(-4) × 5",
+    "type": "method",
+    "why": "Phép nhân hai số nguyên khác dấu — làm trước phép cộng."
+   }
+  ],
+  "parts": [
+   {
+    "label": "Kết quả",
+    "answer": "-8",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "(-4) × 5 = -20 (khác dấu nên kết quả âm)",
+   "-20 + 12 = -8"
+  ],
+  "template": "intMul"
+ },
+ {
+  "id": "p20",
+  "chapter": 5,
+  "topic": "Tâm đối xứng",
+  "title": "Hình nào có tâm đối xứng",
+  "text": "Trong các hình sau, có bao nhiêu hình có tâm đối xứng?\na) Hình bình hành\nb) Tam giác đều\nc) Hình chữ nhật",
+  "analysis": {
+   "given": [
+    "Tâm đối xứng là điểm mà khi quay hình 180° quanh điểm đó, hình trùng với chính nó",
+    "Hình bình hành và hình chữ nhật có hai đường chéo cắt nhau tại trung điểm của mỗi đường"
+   ],
+   "ask": "Số hình có tâm đối xứng trong 3 hình đã cho",
+   "plan": "Hình bình hành: có tâm là giao điểm hai đường chéo. Tam giác đều: không có tâm đối xứng. Hình chữ nhật: có tâm là giao điểm hai đường chéo."
+  },
+  "hint": "Tam giác đều chỉ có trục đối xứng, không có tâm đối xứng.",
+  "theory": "Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho quay hình 180° quanh O thì hình trùng với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.",
+  "kw": [
+   {
+    "t": "bao nhiêu hình có tâm đối xứng",
+    "type": "ask",
+    "why": "Điều cần tìm: đếm số hình có tâm đối xứng."
+   },
+   {
+    "t": "Hình bình hành",
+    "type": "data",
+    "why": "Hình cần xét."
+   },
+   {
+    "t": "Tam giác đều",
+    "type": "data",
+    "why": "Hình cần xét."
+   },
+   {
+    "t": "Hình chữ nhật",
+    "type": "data",
+    "why": "Hình cần xét."
+   }
+  ],
+  "parts": [
+   {
+    "label": "Số hình có tâm đối xứng",
+    "answer": "2",
+    "unit": "hình"
+   }
+  ],
+  "solution": [
+   "Hình bình hành: có tâm đối xứng",
+   "Tam giác đều: không có tâm đối xứng",
+   "Hình chữ nhật: có tâm đối xứng",
+   "Vậy có 2 hình có tâm đối xứng"
+  ],
+  "template": "centerWord"
+ },
+ {
+  "id": "p21",
+  "chapter": 1,
+  "topic": "Số La Mã",
+  "title": "Đọc số La Mã",
+  "text": "Số La Mã XXIV viết trong hệ thập phân là số nào?",
+  "analysis": {
+   "given": [
+    "Số La Mã XXIV",
+    "Ký hiệu: X = 10, V = 5, I = 1; IV là cặp trừ: 5 − 1 = 4"
+   ],
+   "ask": "Giá trị của XXIV trong hệ thập phân",
+   "plan": "Tách XXIV = XX + IV = 20 + 4 rồi cộng lại."
+  },
+  "hint": "XX = 20, còn IV = 4 (I đứng trước V nghĩa là lấy 5 trừ 1).",
+  "theory": "Cách ghi số La Mã (Bài 2): I = 1, V = 5, X = 10, L = 50. Ký hiệu nhỏ đứng trước ký hiệu lớn hơn để chỉ phép trừ: IV = 4, IX = 9, XL = 40.",
+  "kw": [
+   {
+    "t": "XXIV",
+    "type": "data",
+    "why": "Số La Mã cần đổi."
+   },
+   {
+    "t": "hệ thập phân",
+    "type": "method",
+    "why": "Đích cần đổi sang: cách ghi số thông thường."
+   }
+  ],
+  "parts": [
+   {
+    "label": "Số thập phân tương ứng",
+    "answer": "24",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "XX = 10 + 10 = 20",
+   "IV = 5 − 1 = 4",
+   "XXIV = 20 + 4 = 24"
+  ],
+  "template": "romanWord"
  }
 ]
