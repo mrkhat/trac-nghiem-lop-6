@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Toán 6 - Tự luận Học kì 1</title>
+<script src="https://js.puter.com/v2/"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
@@ -69,6 +70,15 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
 .streak{text-align:center;font-size:15px;margin-bottom:14px;color:#555}
 .streak b{color:#e65100}
 .r-item{text-align:left;padding:10px;border-bottom:1px solid #eee;font-size:14px;line-height:1.5}
+.panel-ai{background:#e8f5e9;border:1px solid #a5d6a7}
+.chatlog{max-height:280px;overflow-y:auto;margin:8px 0;padding:4px}
+.msg{border-radius:10px;padding:8px 12px;margin:6px 0;font-size:15px;line-height:1.55;white-space:pre-line;max-width:92%}
+.msg-u{background:#c8e6c9;margin-left:auto;text-align:left}
+.msg-a{background:#fff;border:1px solid #c8e6c9}
+.ai-row{display:flex;gap:6px;margin-top:8px}
+.ai-row input{flex:1;padding:10px;font-size:15px;border:2px solid #a5d6a7;border-radius:8px}
+.qbtn{padding:7px 12px;font-size:13.5px;border:1px solid #2e7d32;border-radius:16px;background:#fff;color:#2e7d32;cursor:pointer;margin:2px}
+.qbtn:hover{background:#e8f5e9}
 </style>
 </head>
 <body>
@@ -125,6 +135,21 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
       <button class="btn btn-a" id="btnAna">🔍 Phân tích đề</button>
       <button class="btn btn-h" id="btnHint">💡 Gợi ý</button>
       <button class="btn btn-s" id="btnSol">📖 Lời giải</button>
+      <button class="btn btn-c" id="btnAI">🤖 Hỏi AI</button>
+    </div>
+    <div class="panel panel-ai" id="aiPanel">
+      <h3>🤖 Gia sư AI — hỏi về bài này</h3>
+      <div>
+        <button class="qbtn" data-q="Hãy phân tích đề bài này giúp em: đề cho biết gì, đề hỏi gì?">🔍 Phân tích đề giúp em</button>
+        <button class="qbtn" data-q="Trong đề bài này, những từ khóa nào quan trọng nhất và vì sao?">🔦 Từ khóa quan trọng</button>
+        <button class="qbtn" data-q="Em chưa biết bắt đầu từ đâu, gợi ý cho em bước đầu tiên, đừng cho đáp án nhé.">💡 Gợi ý bước đầu</button>
+      </div>
+      <div class="chatlog" id="chatLog"></div>
+      <div class="ai-row">
+        <input id="aiInput" placeholder="Nhập câu hỏi của em về bài này...">
+        <button class="btn btn-c" id="btnAiSend">Gửi</button>
+      </div>
+      <p style="font-size:12.5px;color:#777;margin-top:6px">AI hướng dẫn theo kiểu gợi mở, không làm bài hộ. Nếu AI yêu cầu đăng nhập Puter thì đó là tài khoản miễn phí của nền tảng AI.</p>
     </div>
     <div class="panel panel-a" id="anaPanel"></div>
     <div class="panel panel-h" id="hintPanel"></div>
@@ -269,7 +294,8 @@ function openProbObj(p,mode){
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
   document.getElementById('solPanel').innerHTML=`<h3>📖 Lời giải chi tiết</h3><ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
-  ['anaPanel','hintPanel','solPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
+  ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
+  aiHistory=[];document.getElementById('chatLog').innerHTML='';
   const fb=document.getElementById('feedback');fb.textContent='';fb.className='fb';
   document.getElementById('ansArea').innerHTML=p.parts.map((pt,j)=>
     `<div class="ans-row"><label>${pt.label}:</label><input id="inp${j}" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit">${pt.unit||''}</span></div>`
@@ -430,6 +456,63 @@ document.getElementById('btnTCheck').onclick=()=>{
   fb.textContent=ok?'🎉 Đúng rồi! Bạn đã nắm được lý thuyết hình này.':'❌ Chưa đúng. Bấm vào các yếu tố trên hình để ôn lại nhé!';
   fb.className='fb '+(ok?'ok':'no');
 };
+
+// ===== Gia su AI (Puter.js - mien phi, khong can API key) =====
+let aiHistory=[],aiBusy=false;
+function aiSystem(){
+  const p=curProb;
+  if(!p)return 'Bạn là gia sư Toán lớp 6, trả lời bằng tiếng Việt, ngắn gọn, dễ hiểu.';
+  return `Bạn là gia sư Toán lớp 6 (Việt Nam), đang hướng dẫn một học sinh làm bài tự luận học kì 1.
+Quy tắc bắt buộc:
+1. Trả lời bằng tiếng Việt, ngắn gọn, thân thiện, phù hợp học sinh lớp 6.
+2. Hướng dẫn theo kiểu GỢI MỞ: đặt câu hỏi dẫn dắt, gợi ý từng bước. KHÔNG đưa đáp án số cuối cùng ngay khi học sinh chưa thử làm. Chỉ trình bày lời giải đầy đủ khi học sinh xin lời giải hoặc đã thử nhiều lần.
+3. Khi được hỏi về từ khóa, hãy chỉ ra các từ/cụm từ quan trọng trong đề và giải thích vì sao chúng quan trọng.
+4. Bám sát đề bài dưới đây, không tự bịa số liệu khác.
+ĐỀ BÀI: ${p.text}
+Phân tích tham khảo (chỉ để bạn định hướng khi hướng dẫn, đừng đọc nguyên văn cho học sinh): Đề cho: ${p.analysis.given.join('; ')}. Đề hỏi: ${p.analysis.ask}. Hướng làm: ${p.analysis.plan}
+Lý thuyết liên quan: ${p.theory||''}
+Đáp án đúng (chỉ để bạn kiểm tra ngầm, tuyệt đối không nói ra trừ khi học sinh xin lời giải): ${p.parts.map(pt=>pt.label+' = '+pt.answer+' '+(pt.unit||'')).join('; ')}`;
+}
+function aiAppend(cls,text){
+  const log=document.getElementById('chatLog');
+  const d=document.createElement('div');
+  d.className='msg '+cls;d.textContent=text;
+  log.appendChild(d);log.scrollTop=log.scrollHeight;
+  return d;
+}
+async function aiSend(text){
+  text=(text||'').trim();
+  if(!text||aiBusy)return;
+  if(typeof puter==='undefined'||!puter.ai){
+    aiAppend('msg-a','⚠️ Chưa tải được AI (kiểm tra kết nối mạng rồi thử lại).');
+    return;
+  }
+  aiBusy=true;
+  aiAppend('msg-u',text);
+  aiHistory.push({role:'user',content:text});
+  const wait=aiAppend('msg-a','🤔 AI đang suy nghĩ...');
+  try{
+    const resp=await puter.ai.chat([{role:'system',content:aiSystem()},...aiHistory]);
+    let out='';
+    if(resp&&resp.message&&resp.message.content)out=resp.message.content;
+    else if(resp&&typeof resp.text==='string')out=resp.text;
+    else if(typeof resp==='string')out=resp;
+    else out=''+resp;
+    wait.textContent=out;
+    aiHistory.push({role:'assistant',content:out});
+  }catch(e){
+    wait.textContent='⚠️ AI chưa trả lời được (có thể cần đăng nhập Puter miễn phí, hoặc mạng đang chậm). Em thử lại sau một chút nhé.';
+  }
+  aiBusy=false;
+  const log=document.getElementById('chatLog');log.scrollTop=log.scrollHeight;
+}
+document.getElementById('btnAI').onclick=()=>document.getElementById('aiPanel').classList.toggle('show');
+document.getElementById('btnAiSend').onclick=()=>{
+  const inp=document.getElementById('aiInput');
+  aiSend(inp.value);inp.value='';
+};
+document.getElementById('aiInput').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('btnAiSend').click();});
+document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q));
 </script>
 </body>
 </html>
