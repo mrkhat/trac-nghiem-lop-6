@@ -73,6 +73,8 @@ svg text{stroke:none!important}
 line.nm-on{stroke:#ff6d00!important;stroke-width:5!important;opacity:.95!important}
 circle.nm-on{fill:#ff6d00!important;opacity:.45!important}
 polygon.nm-on{fill:#ff6d00!important;opacity:.55!important}
+svg text.nm-on{fill:#e65100!important}
+svg text.lit{fill:#e65100!important}
 #tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:15.5px;margin:8px 0;min-height:42px}
 .fact{cursor:pointer}
 .frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
@@ -461,6 +463,48 @@ function linkifyFact(text,links){
   ph.forEach(({key,L})=>{ out=out.split(key).join(`<span class="nmword" data-act="${L.act}" data-label="${L.label}">${L.t}</span>`); });
   return out;
 }
+function tagNames(){
+  document.querySelectorAll('#tFig [data-f="0"] text').forEach(t=>{
+    t.classList.add('nm'); t.dataset.nm='Đỉnh '+t.textContent.trim();
+  });
+  curTheory.facts.forEach((f,j)=>{
+    const lines=[];
+    document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(e=>{
+      if(e.tagName==='line')lines.push(e);
+      else e.querySelectorAll('line').forEach(l=>lines.push(l));
+    });
+    if(/^Hai đường chéo/.test(f)){
+      const names=['Đường chéo AC — nối 2 đỉnh đối diện A và C','Đường chéo BD — nối 2 đỉnh đối diện B và D'];
+      lines.slice(0,2).forEach((l,i)=>{ l.classList.add('nm'); l.dataset.nm=names[i]; });
+    }else if(f.includes('trục đối xứng')){
+      const lbl=curTheory.id==='tam-giac-deu'?'Trục đối xứng — cũng là đường cao của tam giác đều':'Trục đối xứng';
+      lines.forEach(l=>{ l.classList.add('nm'); l.dataset.nm=lbl; });
+    }
+  });
+}
+function activateAngle(fullName){
+  const meta=(curTheory.angles||[]).find(a=>a.name===fullName);
+  if(!meta)return;
+  const wedge=[...document.querySelectorAll('#tFig polygon.nm')].find(x=>x.dataset.nm.startsWith('Góc '+fullName));
+  const wasOn=wedge&&wedge.classList.contains('nm-on');
+  clearHighlights();
+  if(wasOn){
+    document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
+    return;
+  }
+  if(wedge)wedge.classList.add('nm-on');
+  meta.sides.forEach(sd=>{
+    const ln=[...document.querySelectorAll('#tFig line.nm')].find(x=>x.dataset.nm.startsWith('Cạnh '+sd));
+    if(ln)ln.classList.add('nm-on');
+  });
+  fullName.split('').forEach(ch=>{
+    const t=[...document.querySelectorAll('#tFig [data-f="0"] text')].find(x=>x.textContent.trim()===ch);
+    if(t)t.classList.add('lit');
+    const c=[...document.querySelectorAll('#tFig circle.nm')].find(x=>x.dataset.nm==='Đỉnh '+ch);
+    if(c)c.classList.add('nm-on');
+  });
+  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">Góc '+fullName+'</b> — đọc: '+fullName.split('').join('-')+', đỉnh '+meta.v+' ở giữa. Hai cạnh tạo thành góc này: cạnh '+meta.sides.join(' và cạnh ');
+}
 function activateNm(el,label){
   const wasOn=el&&el.classList.contains('nm-on');
   clearHighlights();
@@ -485,9 +529,7 @@ document.getElementById('tFacts').addEventListener('click',e=>{
     const el=[...document.querySelectorAll('#tFig line.nm')].find(x=>x.dataset.nm.startsWith('Cạnh '+sd));
     activateNm(el,label);
   }else if(act.startsWith('angle:')){
-    const an=act.slice(6);
-    const el=[...document.querySelectorAll('#tFig polygon.nm')].find(x=>x.dataset.nm.startsWith('Góc '+an));
-    activateNm(el,label);
+    activateAngle(act.slice(6));
   }else if(act.startsWith('fact:')){
     selectFact(parseInt(act.slice(5)));
     document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
@@ -513,6 +555,7 @@ function openTheory(i){
   document.getElementById('tName').textContent='📐 '+curTheory.name;
   document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
   document.getElementById('tFig').innerHTML=curTheory.svg;
+  tagNames();
   document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${j===0?linkifyFact(f,curTheory.links):f}</div>`).join('');
   document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
   document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
@@ -532,6 +575,7 @@ function clearHighlights(){
   document.querySelectorAll('#tFig .hot').forEach(x=>x.classList.remove('on'));
   document.querySelectorAll('#tFacts .fact').forEach(x=>x.classList.remove('on'));
   document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+  document.querySelectorAll('#tFig text.lit').forEach(x=>x.classList.remove('lit'));
   document.querySelectorAll('#tFig .ovl').forEach(g=>g.style.display='none');
   document.querySelectorAll('.frow').forEach(r=>r.classList.remove('on'));
   ovlActive=-1;
@@ -545,9 +589,11 @@ function selectFact(j){
   if(f)f.classList.add('on');
 }
 document.getElementById('tFig').addEventListener('click',e=>{
-  const nmEl=e.target.closest?e.target.closest('.nm'):null;
+  const nmEl=e.target.closest?e.target.closest('[data-nm]'):null;
   if(!nmEl)return;
-  activateNm(nmEl,nmEl.dataset.nm);
+  const nm=nmEl.dataset.nm;
+  if(nm.startsWith('Góc ')){ activateAngle(nm.split(' ')[1]); return; }
+  activateNm(nmEl,nm);
 });
 document.getElementById('btnTCheck').onclick=()=>{
   const v=parseNum(document.getElementById('tCheckInp').value);

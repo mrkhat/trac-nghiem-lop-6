@@ -57,6 +57,32 @@
     "act": "side:CA",
     "label": "Cạnh CA"
    }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "BAC",
+    "sides": [
+     "CA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "ACB",
+    "sides": [
+     "BC",
+     "CA"
+    ]
+   }
   ]
  },
  {
@@ -132,6 +158,40 @@
     "t": "DA",
     "act": "side:DA",
     "label": "Cạnh DA"
+   }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "DAB",
+    "sides": [
+     "DA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDA",
+    "sides": [
+     "CD",
+     "DA"
+    ]
    }
   ]
  },
@@ -224,6 +284,56 @@
     "act": "side:FA",
     "label": "Cạnh FA"
    }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "FAB",
+    "sides": [
+     "FA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDE",
+    "sides": [
+     "CD",
+     "DE"
+    ]
+   },
+   {
+    "v": "E",
+    "name": "DEF",
+    "sides": [
+     "DE",
+     "EF"
+    ]
+   },
+   {
+    "v": "F",
+    "name": "EFA",
+    "sides": [
+     "EF",
+     "FA"
+    ]
+   }
   ]
  },
  {
@@ -299,6 +409,40 @@
     "t": "DA",
     "act": "side:DA",
     "label": "Cạnh DA"
+   }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "DAB",
+    "sides": [
+     "DA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDA",
+    "sides": [
+     "CD",
+     "DA"
+    ]
    }
   ]
  },
@@ -383,6 +527,40 @@
     "t": "BD",
     "act": "fact:2",
     "label": "Hai đường chéo AC và BD"
+   }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "DAB",
+    "sides": [
+     "DA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDA",
+    "sides": [
+     "CD",
+     "DA"
+    ]
    }
   ]
  },
@@ -469,6 +647,40 @@
     "act": "fact:2",
     "label": "Hai đường chéo AC và BD"
    }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "DAB",
+    "sides": [
+     "DA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDA",
+    "sides": [
+     "CD",
+     "DA"
+    ]
+   }
   ]
  },
  {
@@ -549,6 +761,40 @@
     "t": "AD",
     "act": "side:DA",
     "label": "Cạnh DA — cạnh bên"
+   }
+  ],
+  "angles": [
+   {
+    "v": "A",
+    "name": "DAB",
+    "sides": [
+     "DA",
+     "AB"
+    ]
+   },
+   {
+    "v": "B",
+    "name": "ABC",
+    "sides": [
+     "AB",
+     "BC"
+    ]
+   },
+   {
+    "v": "C",
+    "name": "BCD",
+    "sides": [
+     "BC",
+     "CD"
+    ]
+   },
+   {
+    "v": "D",
+    "name": "CDA",
+    "sides": [
+     "CD",
+     "DA"
+    ]
    }
   ]
  }
