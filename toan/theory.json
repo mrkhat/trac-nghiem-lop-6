@@ -115,7 +115,8 @@
   ],
   "check": {
    "q": "Tam giác thường có mấy trục đối xứng?",
-   "a": 0
+   "answer": "0",
+   "unit": "trục"
   },
   "links": [
    {
@@ -227,7 +228,8 @@
   ],
   "check": {
    "q": "Tam giác vuông có mấy góc vuông?",
-   "a": 1
+   "answer": "1",
+   "unit": "góc"
   },
   "links": [
    {

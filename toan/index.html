@@ -205,7 +205,7 @@ svg text.lit{fill:#e65100!important}
   </div>
 </div>
 
-<script src="gen.js"></script>
+<script src="gen.js?v=20261021d"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -217,7 +217,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json').then(r=>r.json()),fetch('theory.json').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021d').then(r=>r.json()),fetch('theory.json?v=20261021d').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
