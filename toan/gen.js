@@ -84,7 +84,7 @@ buyWord:{chapter:1,topic:'Bài toán thực tế',gen(l){
    theory:'Muốn tính tổng số tiền: trước hết tính tổng số lượng = số phần × số lượng trong mỗi phần; rồi lấy tổng số lượng × giá của 1 đơn vị.',
    kw:[{t:t1,type:'data',why:`Đề cho: có ${t1}.`},{t:t2,type:'op',why:`Từ khóa "mỗi": 1 phần chứa ${m} cái. Muốn tìm tổng số thì nhân ${n} × ${m}.`},{t:t3,type:'data',why:`Đề cho: giá của 1 ${ctx.item}.`},{t:'bao nhiêu tiền',type:'ask',why:'Điều cần tìm: tổng số tiền phải trả.'}],
    parts:[{label:'Số tiền phải trả',answer:''+money,unit:'đồng'}],
-   solution:[`Tổng số ${ctx.item}: ${n} × ${m} = ${total}`,`Số tiền phải trả: ${total} × ${fmt(ctx.price)} = ${fmt(money)} (đồng)`]};
+   solution:[`Bước 1) Tổng số ${ctx.item} mua được là: ${n} × ${m} = ${total}.`,`Bước 2) Số tiền phải trả là: ${total} × ${fmt(ctx.price)} = ${fmt(money)} (đồng).`,`Đáp số: ${fmt(money)} đồng.`]};
 }},
 gcdWord:{chapter:2,topic:'Ước chung lớn nhất',gen(l){
   const g=pick([6,8,9,10,12,14,15,16,18,20,24]),pr=pick([[2,3],[3,4],[2,5],[3,5],[4,5],[5,6],[3,7],[4,7]]);
@@ -98,7 +98,7 @@ gcdWord:{chapter:2,topic:'Ước chung lớn nhất',gen(l){
    theory:'ƯCLN của hai số là số lớn nhất trong các ước chung của chúng. Bài toán chia đều thành các phần giống hệt nhau và muốn số phần nhiều nhất → tìm ƯCLN.',
    kw:[{t:ctx.b,type:'data',why:`Đề cho: tổng số là ${ctx.b}.`},{t:ctx.c,type:'data',why:`Đề cho: tổng số là ${ctx.c}.`},{t:'giống hệt nhau',type:'op',why:'Từ khóa: các phần phải bằng nhau, nên số phần là ước chung của hai số đã cho.'},{t:'không thừa',type:'op',why:'Phải chia hết hoàn toàn — số phần phải là ước của cả hai số.'},{t:'nhiều nhất',type:'ask',why:'Từ khóa "nhiều nhất": số phần lớn nhất có thể → tìm ƯCLN.'}],
    parts:[{label:'a) '+ctx.q1,answer:''+g,unit:ctx.u1},{label:`b) Số ${ctx.pb} mỗi phần`,answer:''+(A/g),unit:''},{label:`b) Số ${ctx.pc} mỗi phần`,answer:''+(B/g),unit:''}],
-   solution:[`Số phần chia được phải là ước chung của ${A} và ${B}`,`ƯCLN(${A}; ${B}) = ${g} nên chia được nhiều nhất ${g} phần`,`Mỗi phần có: ${A} : ${g} = ${A/g} (${ctx.pb}) và ${B} : ${g} = ${B/g} (${ctx.pc})`]};
+   solution:[`Bước 1) Vì các phần phải giống hệt nhau và chia hết, không thừa món nào nên số phần phải là ước chung của ${A} và ${B}. Muốn chia được nhiều phần nhất, ta lấy số phần là ước chung lớn nhất của ${A} và ${B}: ƯCLN(${A}; ${B}) = ${g}.`,`Bước 2) Số ${ctx.pb} trong mỗi phần là: ${A} : ${g} = ${A/g} (${ctx.pb.split(' ')[0]}).`,`Bước 3) Số ${ctx.pc} trong mỗi phần là: ${B} : ${g} = ${B/g} (${ctx.pc.split(' ')[0]}).`,`Đáp số: ${g} ${ctx.u1}; mỗi phần có ${A/g} ${ctx.pb} và ${B/g} ${ctx.pc}.`]};
 }},
 lcmWord:{chapter:2,topic:'Bội chung nhỏ nhất',gen(l){
   let a=R(4,12),b=R(4,12),tries=0;
@@ -113,7 +113,7 @@ lcmWord:{chapter:2,topic:'Bội chung nhỏ nhất',gen(l){
    theory:'BCNN của hai số là số nhỏ nhất khác 0 trong các bội chung của chúng. Bài toán "khi nào hai việc lặp lại cùng lúc" → tìm BCNN.',
    kw:[{t:ctx.kw1,type:'data',why:`Đề cho: chu kỳ thứ nhất là ${a} ${ctx.q}.`},{t:ctx.kw2,type:'data',why:`Đề cho: chu kỳ thứ hai là ${b} ${ctx.q}.`},{t:'cùng',type:'op',why:'Từ khóa "cùng": hai chu kỳ gặp nhau — số cần tìm là bội chung của hai chu kỳ.'},{t:'ít nhất bao nhiêu',type:'ask',why:'Điều cần tìm + từ khóa "ít nhất": giá trị nhỏ nhất → tìm BCNN.'}],
    parts:[{label:'Sau ít nhất',answer:''+L,unit:ctx.q}],
-   solution:[`Số cần tìm là bội chung của ${a} và ${b}`,`BCNN(${a}; ${b}) = ${L}`,`Vậy sau ít nhất ${L} ${ctx.q} nữa`]};
+   solution:[`Bước 1) Số ${ctx.q} cần tìm phải chia hết cho cả ${a} và ${b}, tức là bội chung của ${a} và ${b}. Vì cần số ${ctx.q} ít nhất nên số đó là bội chung nhỏ nhất của ${a} và ${b}: BCNN(${a}; ${b}) = ${L}.`,`Đáp số: ${L} ${ctx.q}.`]};
 }},
 rangeWord:{chapter:2,topic:'Bài toán bội chung',gen(l){
   const s=pick([{d1:10,d2:12,lo:100,hi:130,ans:120,L:60},{d1:12,d2:16,lo:80,hi:110,ans:96,L:48},{d1:9,d2:12,lo:90,hi:120,ans:108,L:36}]);
@@ -123,7 +123,7 @@ rangeWord:{chapter:2,topic:'Bài toán bội chung',gen(l){
    theory:'Số chia hết cho hai số cho trước là bội chung của chúng. Liệt kê bội của BCNN rồi chọn số thuộc khoảng đề cho.',
    kw:[{t:`từ ${s.lo} đến ${s.hi} em`,type:'data',why:`Đề cho: số học sinh nằm trong khoảng ${s.lo}–${s.hi}.`},{t:`xếp hàng ${s.d1} hoặc hàng ${s.d2}`,type:'op',why:`Số học sinh chia hết cho cả ${s.d1} và ${s.d2} → là bội chung của hai số này.`},{t:'đều vừa đủ, không thừa em nào',type:'op',why:'Chia hết hoàn toàn, không dư.'},{t:'bao nhiêu học sinh',type:'ask',why:'Điều cần tìm: số học sinh khối 6.'}],
    parts:[{label:'Số học sinh khối 6',answer:''+s.ans,unit:'em'}],
-   solution:[`Số học sinh là bội chung của ${s.d1} và ${s.d2}`,`BCNN(${s.d1}; ${s.d2}) = ${s.L} nên số học sinh thuộc {${s.L}; ${s.L*2}; ${s.L*3}; ...}`,`Chỉ có ${s.ans} nằm trong khoảng ${s.lo}–${s.hi}. Vậy khối 6 có ${s.ans} học sinh`]};
+   solution:[`Bước 1) Vì xếp hàng ${s.d1} hoặc hàng ${s.d2} đều vừa đủ nên số học sinh khối 6 là bội chung của ${s.d1} và ${s.d2}. Bội chung nhỏ nhất của ${s.d1} và ${s.d2} là: BCNN(${s.d1}; ${s.d2}) = ${s.L}.`,`Bước 2) Các bội chung của ${s.d1} và ${s.d2} là các bội của ${s.L}: ${s.L}; ${s.L*2}; ${s.L*3}; ... Trong các số đó, chỉ có ${s.ans} nằm trong khoảng từ ${s.lo} đến ${s.hi}.`,`Đáp số: ${s.ans} học sinh.`]};
 }},
 tempWord:{chapter:3,topic:'Cộng, trừ số nguyên',gen(l){
   const place=pick(['Sa Pa','Đà Lạt','Mẫu Sơn','Hà Giang']);
@@ -134,7 +134,7 @@ tempWord:{chapter:3,topic:'Cộng, trừ số nguyên',gen(l){
    theory:'Nhiệt độ tăng thêm → phép cộng; nhiệt độ giảm đi → phép trừ. Số âm chỉ nhiệt độ dưới 0°C.',
    kw:[{t:`${s}°C`,type:'data',why:'Đề cho: nhiệt độ buổi sáng.'},{t:`tăng thêm ${u}°C`,type:'op',why:'Từ khóa "tăng thêm" → phép cộng.'},{t:`giảm ${d}°C`,type:'op',why:'Từ khóa "giảm" → phép trừ.'},{t:'Nhiệt độ buổi trưa là bao nhiêu',type:'ask',why:'Điều cần tìm (ý a): nhiệt độ buổi trưa.'},{t:'Nhiệt độ buổi tối là bao nhiêu',type:'ask',why:'Điều cần tìm (ý b): nhiệt độ buổi tối.'}],
    parts:[{label:'a) Nhiệt độ buổi trưa',answer:''+noon,unit:'°C'},{label:'b) Nhiệt độ buổi tối',answer:''+eve,unit:'°C'}],
-   solution:[`Nhiệt độ buổi trưa: ${s} + ${u} = ${noon} (°C)`,`Nhiệt độ buổi tối: ${noon} − ${d} = ${eve} (°C)`]};
+   solution:[`Bước 1) Nhiệt độ buổi trưa là: ${s} + ${u} = ${noon} (°C).`,`Bước 2) Nhiệt độ buổi tối là: ${noon} − ${d} = ${eve} (°C).`,`Đáp số: Buổi trưa ${noon}°C; buổi tối ${eve}°C.`]};
 }},
 intExpr:{chapter:3,topic:'Tính biểu thức số nguyên',gen(l){
   const a=R(11,l===1?30:60),b=R(20,60),c=R(5,35),ans=-a+b-c;
@@ -169,7 +169,7 @@ moneyWord:{chapter:3,topic:'Bài toán thực tế với số nguyên',gen(l){
    theory:'Chi tiền (mua đồ) → phép trừ; nhận thêm tiền → phép cộng. Ghi các khoản theo thứ tự xảy ra rồi tính lần lượt.',
    kw:[{t:`có ${fmt(S)} đồng`,type:'data',why:'Đề cho: số tiền ban đầu.'},{t:`mua vở hết ${fmt(x)} đồng`,type:'op',why:'Từ khóa "mua... hết": chi tiền → phép trừ.'},{t:`cho thêm ${fmt(y)} đồng`,type:'op',why:'Từ khóa "thêm": nhận thêm tiền → phép cộng.'},{t:`mua bút hết ${fmt(z)} đồng`,type:'op',why:'Từ khóa "mua... hết": chi tiền → phép trừ.'},{t:'còn lại bao nhiêu tiền',type:'ask',why:'Điều cần tìm: số tiền còn lại.'}],
    parts:[{label:'Nam còn lại',answer:''+ans,unit:'đồng'}],
-   solution:[`Số tiền còn lại: ${fmt(S)} − ${fmt(x)} + ${fmt(y)} − ${fmt(z)}`,`= ${fmt(S-x)} + ${fmt(y)} − ${fmt(z)} = ${fmt(ans)} (đồng)`]};
+   solution:[`Bước 1) Số tiền còn lại của Nam là: ${fmt(S)} − ${fmt(x)} + ${fmt(y)} − ${fmt(z)} = ${fmt(S-x)} + ${fmt(y)} − ${fmt(z)} = ${fmt(ans)} (đồng).`,`Đáp số: ${fmt(ans)} đồng.`]};
 }},
 rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
   const L=R(8,l===1?15:24),W=R(4,L-2),P=(L+W)*2,A=L*W;
@@ -181,7 +181,7 @@ rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
    theory:'Hình chữ nhật ABCD: Chu vi C = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.',
    kw:[{t:`chiều dài ${L} m`,type:'data',why:'Đề cho: chiều dài mảnh vườn.'},{t:`chiều rộng ${W} m`,type:'data',why:'Đề cho: chiều rộng mảnh vườn.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi mảnh vườn.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích mảnh vườn.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
-   solution:[`Chu vi: (${L} + ${W}) × 2 = ${L+W} × 2 = ${P} (m)`,`Diện tích: ${L} × ${W} = ${A} (m²)`]};
+   solution:[`Bước 1) Chu vi của mảnh vườn là: (${L} + ${W}) × 2 = ${L+W} × 2 = ${P} (m).`,`Bước 2) Diện tích của mảnh vườn là: ${L} × ${W} = ${A} (m²).`,`Đáp số: Chu vi ${P} m; diện tích ${A} m².`]};
 }},
 squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
   const s=R(5,l===1?12:20),P=s*4,A=s*s,px=s*11;
@@ -192,7 +192,7 @@ squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
    theory:'Hình vuông: Chu vi C = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.',
    kw:[{t:`cạnh ${s} m`,type:'data',why:'Đề cho: cạnh hình vuông (cả 4 cạnh đều bằng nhau).'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi của sân.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích của sân.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
-   solution:[`Chu vi: ${s} × 4 = ${P} (m)`,`Diện tích: ${s} × ${s} = ${A} (m²)`]};
+   solution:[`Bước 1) Chu vi của sân chơi là: ${s} × 4 = ${P} (m).`,`Bước 2) Diện tích của sân chơi là: ${s} × ${s} = ${A} (m²).`,`Đáp số: Chu vi ${P} m; diện tích ${A} m².`]};
 }},
 triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
   const s=R(12,45),P=s*3;
@@ -203,7 +203,7 @@ triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
    theory:'Tam giác đều: Chu vi P = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).',
    kw:[{t:'tam giác đều',type:'op',why:'Từ khóa: tam giác đều có 3 cạnh bằng nhau → chu vi = cạnh × 3.'},{t:`cạnh dài ${s} cm`,type:'data',why:'Đề cho: mỗi cạnh dài bấy nhiêu.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm: chu vi của biển báo.'}],
    parts:[{label:'Chu vi',answer:''+P,unit:'cm'}],
-   solution:[`Chu vi: ${s} × 3 = ${P} (cm)`]};
+   solution:[`Bước 1) Biển báo có dạng tam giác đều nên ba cạnh của nó bằng nhau. Chu vi của biển báo là: ${s} × 3 = ${P} (cm).`,`Đáp số: ${P} cm.`]};
 }},
 trapGeo:{chapter:4,topic:'Hình thang cân',gen(l){
   const DL=R(11,18),DN=R(6,DL-3),leg=R(4,9),P=DL+DN+2*leg;
@@ -214,7 +214,7 @@ trapGeo:{chapter:4,topic:'Hình thang cân',gen(l){
    theory:'Chu vi của một hình bằng tổng độ dài tất cả các cạnh. Hình thang: Diện tích S = (a + b) × h : 2 (a là đáy lớn, b là đáy nhỏ, h là chiều cao). Hình thang cân có 2 cạnh bên bằng nhau.',
    kw:[{t:'hình thang cân',type:'op',why:'Từ khóa: hình thang cân có 2 cạnh bên bằng nhau.'},{t:`đáy lớn ${DL} cm`,type:'data',why:'Đề cho: đáy lớn.'},{t:`đáy nhỏ ${DN} cm`,type:'data',why:'Đề cho: đáy nhỏ.'},{t:`cạnh bên ${leg} cm`,type:'data',why:'Đề cho: mỗi cạnh bên, mà hình có 2 cạnh bên.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm: chu vi mặt bàn = tổng 4 cạnh.'}],
    parts:[{label:'Chu vi',answer:''+P,unit:'cm'}],
-   solution:[`Chu vi: ${DL} + ${DN} + ${leg} + ${leg} = ${P} (cm)`]};
+   solution:[`Bước 1) Hình thang cân có hai cạnh bên bằng nhau nên chu vi của mặt bàn là tổng độ dài bốn cạnh: ${DL} + ${DN} + ${leg} + ${leg} = ${P} (cm).`,`Đáp số: ${P} cm.`]};
 }},
 rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
   let d1=pick([6,8,10,12,14,16]),d2=pick([4,6,8,10,12,14]);
@@ -227,7 +227,7 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
    theory:'Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).',
    kw:[{t:`hai đường chéo dài ${d2} cm và ${d1} cm`,type:'data',why:'Đề cho: độ dài hai đường chéo của hình thoi.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích viên gạch (hình thoi).'}],
    parts:[{label:'Diện tích',answer:''+A,unit:'cm²'}],
-   solution:[`Diện tích: (${d2} × ${d1}) : 2 = ${d2*d1} : 2 = ${A} (cm²)`]};
+   solution:[`Bước 1) Diện tích của viên gạch hình thoi là: (${d2} × ${d1}) : 2 = ${d2*d1} : 2 = ${A} (cm²).`,`Đáp số: ${A} cm².`]};
 }},
 paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
   const base=R(6,16),h=R(3,base-1),A=base*h;
@@ -238,7 +238,7 @@ paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
    theory:'Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.',
    kw:[{t:`cạnh đáy ${base} m`,type:'data',why:'Đề cho: cạnh đáy hình bình hành.'},{t:`chiều cao tương ứng ${h} m`,type:'data',why:'Đề cho: chiều cao ứng với cạnh đáy đó — phải ghép đúng cặp đáy × chiều cao.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích mảnh đất.'}],
    parts:[{label:'Diện tích',answer:''+A,unit:'m²'}],
-   solution:[`Diện tích: ${base} × ${h} = ${A} (m²)`]};
+   solution:[`Bước 1) Diện tích của mảnh đất hình bình hành là: ${base} × ${h} = ${A} (m²).`,`Đáp số: ${A} m².`]};
 }},
 romanWord:{chapter:1,topic:'Số La Mã (Bài 2)',gen(l){
   const table=[[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];
