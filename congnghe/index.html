@@ -14,6 +14,7 @@
 .rb-listen{min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid var(--c,#0277bd);background:#e3f2fd;color:#0d47a1;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit}
 .rb-listen.reading{background:#ffe082}
 .rb-stop{min-height:44px;padding:10px 14px;border-radius:10px;border:2px solid #c62828;background:#fff;color:#c62828;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit}
+.rb-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid var(--c,#0277bd);background:#fff;color:#0d47a1;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit}
 .rb-note{flex-basis:100%;font-size:15px;color:#7a5200;background:#fff8e1;border:1px dashed #ffb300;border-radius:8px;padding:8px 10px;line-height:1.55;margin:4px 0 0}
 .rdsrc.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
 .mmsvg{width:100%;height:auto;display:block;background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;margin:6px 0}
@@ -63,7 +64,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge gk">⭐ Ôn giữa kì 1</span>
   <h3>Bài 1. Khái quát về nhà ở</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">🏠 Mỗi ngày em đều về nhà. Nhà là nơi em ăn cơm. Nhà là nơi em ngủ. Nhà còn che mưa, che nắng cho cả nhà. Hôm nay mình tìm hiểu: nhà ở quan trọng thế nào nhé!</div>
   <ul><li class="rdsrc"><span class="hl2">Nhà ở</span> là <b>công trình để ở</b>. Công trình là thứ con người xây nên.</li><li class="rdsrc">Nhà giúp <b>che chở</b> em: tránh mưa, tránh nắng, tránh gió bão.</li><li class="rdsrc">Nhà còn tránh những điều xấu bên ngoài. Ví dụ: tránh trộm, tránh thú dữ.</li><li class="rdsrc">Nhà là nơi cả nhà <b>sinh hoạt</b>. Sinh hoạt là các việc hằng ngày: ăn cơm, ngủ, học bài.</li></ul>
   <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Nhà ở giúp em tránh được những gì?</button><div class="qa-a">Tránh mưa, nắng, gió bão. Và tránh những nguy hiểm ở bên ngoài.</div></div>
@@ -98,7 +99,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge gk">⭐ Ôn giữa kì 1</span>
   <h3>Bài 2. Xây dựng nhà ở</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">🧱 Em có biết một ngôi nhà được xây thế nào không? Trước hết phải vẽ bản vẽ. Sau đó thợ xây từng bước một. Mình cùng xem các bước nhé!</div>
   <ul><li class="rdsrc">Muốn xây nhà, cần nhiều <b>vật liệu</b>. Vật liệu là đồ dùng để xây.</li><li class="rdsrc"><b>Gạch, ngói</b>: để xây tường và lợp mái.</li><li class="rdsrc"><b>Xi măng, cát, đá</b>: trộn với nước thành <b>bê tông</b> rất cứng.</li><li class="rdsrc"><b>Thép</b>: đặt bên trong bê tông cho nhà chắc hơn. Ta gọi là <b>bê tông cốt thép</b>.</li><li class="rdsrc"><b>Gỗ, kính, sơn</b>: làm cửa, làm đồ trong nhà, sơn cho đẹp.</li></ul>
   <figure><img src="../hinh-anh/congnghe/bai2-vat-lieu.webp" alt="Các vật liệu xây dựng nhà ở" loading="lazy"><figcaption>🧱 Các vật liệu xây nhà hay gặp: gạch, xi măng, cát, thép, gỗ. (Tranh minh họa do AI vẽ)</figcaption></figure>
@@ -132,7 +133,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge gk">⭐ Ôn giữa kì 1</span>
   <h3>Bài 3. Ngôi nhà thông minh</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">📱 Em tưởng tượng nhé: em chưa về đến nhà mà đèn đã tự sáng. Em bấm điện thoại là cửa tự mở. Đó chính là <b>nhà thông minh</b> đấy!</div>
   <ul><li class="rdsrc"><span class="hl2">Ngôi nhà thông minh</span> là nhà có nhiều <b>thiết bị thông minh</b>. Thiết bị là máy móc, đồ dùng.</li><li class="rdsrc">Các thiết bị <b>tự làm việc</b>. Hoặc em <b>điều khiển từ xa</b>.</li><li class="rdsrc">Điều khiển bằng <b>điện thoại thông minh</b>, <b>máy tính bảng</b> có mạng in-tơ-net.</li><li class="rdsrc">Nhà thông minh giúp em sống <b>dễ chịu hơn</b>, <b>an toàn hơn</b>, <b>ít tốn điện hơn</b>.</li></ul>
   <figure><img src="../hinh-anh/congnghe/bai3-nha-thong-minh.webp" alt="Ngôi nhà thông minh buổi tối" loading="lazy"><figcaption>🏡 Ngôi nhà thông minh: đèn tự sáng, có pin mặt trời trên mái. (Tranh minh họa do AI vẽ)</figcaption></figure>
@@ -167,7 +168,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge sau">📚 Sau giữa kì 1</span>
   <h3>Bài 4. Thực phẩm và dinh dưỡng</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">🍚 Bữa cơm nhà em hôm nay có gì? Cơm, cá, rau, canh... Mỗi món giúp cơ thể một việc khác nhau. Mình cùng tìm hiểu 5 nhóm thực phẩm nhé!</div>
   <figure class="dfig"><img src="../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg" alt="Sơ đồ 5 nhóm thực phẩm chính" loading="lazy"><figcaption>🎨 Sơ đồ 5 nhóm thực phẩm. Mỗi nhóm một màu. Cơ thể em cần cả 5 nhóm đấy!</figcaption></figure>
   <ul><li class="rdsrc">Thực phẩm chia thành <b>5 nhóm chính</b>.</li><li class="rdsrc">Nhóm <b>tinh bột, đường và chất xơ</b>: cơm, bánh mì, khoai. Nhóm này cho em <b>năng lượng</b>. Năng lượng là sức để em học và chơi. Đây là nguồn sức chính.</li><li class="rdsrc">Chất xơ giúp <b>tiêu hóa tốt</b>. Tiêu hóa là việc bụng xử lí thức ăn. Có chất xơ, em không bị táo bón.</li><li class="rdsrc">Nhóm <b>chất đạm</b>: thịt, cá, trứng, sữa, đậu. Đạm giúp cơ thể <b>lớn lên</b>. Đạm như 'gạch' xây nên cơ bắp.</li><li class="rdsrc">Nhóm <b>chất béo</b>: dầu ăn, mỡ, bơ, lạc. Béo cho em năng lượng dự trữ. Béo còn giữ ấm cho cơ thể.</li><li class="rdsrc">Nhóm <b>vi-ta-min</b>: rau xanh, trái cây. Vi-ta-min giúp em <b>ít ốm</b>. Người ta gọi là tăng sức đề kháng.</li><li class="rdsrc">Nhóm <b>chất khoáng</b>: sữa, tôm, cua, cá nhỏ. Khoáng giúp <b>xương và răng chắc khỏe</b>. Khoáng còn giúp tạo máu.</li></ul>
@@ -201,7 +202,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge sau">📚 Sau giữa kì 1</span>
   <h3>Bài 5. Phương pháp bảo quản và chế biến thực phẩm</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">🐟 Cá mua về, không ăn ngay sẽ bị ươn. Rau để ngoài trời nóng thì mau héo. Vậy làm sao giữ thực phẩm lâu hư? Đó là việc <b>bảo quản thực phẩm</b>.</div>
   <ul><li class="rdsrc"><b>Bảo quản</b> là giữ cho thực phẩm <b>lâu hư</b>. Thực phẩm giữ được ngon và an toàn.</li><li class="rdsrc">Thực phẩm bị hư do <b>vi sinh vật</b>. Vi sinh vật là sinh vật rất nhỏ. Mắt thường không nhìn thấy được.</li><li class="rdsrc">Trời càng nóng, vi sinh vật càng sinh sôi nhanh. Đồ ăn càng mau ôi thiu.</li><li class="rdsrc">Bảo quản tốt giúp <b>giữ chất dinh dưỡng</b>. Và <b>không lãng phí</b> đồ ăn.</li></ul>
   <div class="qa mini"><button class="qa-q">✋ Kiểm tra nhanh: Vì sao thực phẩm để lâu ngoài trời nóng dễ bị hư?</button><div class="qa-a">Vì trời nóng làm <b>vi sinh vật sinh sôi nhanh</b>. Chúng làm thực phẩm ôi thiu, hỏng.</div></div>
@@ -235,7 +236,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge sau">📚 Sau giữa kì 1</span>
   <h3>Bài 6. Dự án: Bữa ăn kết nối yêu thương</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">💗 Hôm nay em làm một việc đặc biệt: <b>tự tay chuẩn bị một bữa ăn</b> cho cả nhà. Đó là dự án 'Bữa ăn kết nối yêu thương'.</div>
   <figure class="dfig"><img src="../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg" alt="Sơ đồ 5 bước của dự án bữa ăn" loading="lazy"><figcaption>🔢 Dự án có 5 bước. Em làm lần lượt từ bước 1 đến bước 5 nhé!</figcaption></figure>
   <ul><li class="rdsrc"><b>Bước 1 – Lên thực đơn.</b> Thực đơn là danh sách các món sẽ làm. Chọn món đủ chất. Chọn món cả nhà đều thích.</li><li class="rdsrc"><b>Bước 2 – Đi chợ.</b> Chọn thực phẩm <b>tươi, sạch</b>. Nhìn giá trước khi mua nhé.</li></ul>
@@ -269,7 +270,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge mr">🌿 Mở rộng học kì 1</span>
   <h3>Bài 7. Trang phục trong đời sống</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">👕 Sáng nay em mặc gì đi học? Đồng phục! Trang phục không chỉ để che người. Nó còn giúp em đẹp hơn. Và cho mọi người biết em là ai.</div>
   <ul><li class="rdsrc"><b>Trang phục</b> là quần áo và những đồ em mặc trên người.</li><li class="rdsrc">Việc thứ nhất: <b>bảo vệ cơ thể</b>. Chống nắng, chống lạnh, tránh côn trùng đốt.</li><li class="rdsrc">Việc thứ hai: <b>làm đẹp</b> cho con người.</li><li class="rdsrc">Việc thứ ba: <b>cho biết em là ai</b>. Đồng phục cho biết em học trường nào. Áo bác sĩ cho biết người đó làm nghề y.</li></ul>
   <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai7-trang-phuc-vai.webp" alt="Tủ quần áo nhiều loại trang phục" loading="lazy"><figcaption>👗 Tủ quần áo có rất nhiều loại trang phục khác nhau. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai7-dong-phuc.webp" alt="Các nghề với đồng phục khác nhau" loading="lazy"><figcaption>👮 Nhìn trang phục là biết nghề: học sinh, bác sĩ, đầu bếp, công an. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
@@ -302,7 +303,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge mr">🌿 Mở rộng học kì 1</span>
   <h3>Bài 8. Sử dụng và bảo quản trang phục</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">🧺 Quần áo mặc xong thì phải giặt. Áo đẹp mà bẩn và nhàu thì không đẹp nữa. Hôm nay em học cách dùng và giữ quần áo cho bền đẹp nhé!</div>
   <ul><li class="rdsrc">Chọn trang phục phải <b>hợp với em</b>: vừa người, em thấy thích.</li><li class="rdsrc">Phải hợp với <b>việc em làm</b>: đi học mặc đồng phục. Chơi thể thao mặc đồ thể thao.</li><li class="rdsrc">Phải hợp với <b>tiền của gia đình</b>: không đòi mua đồ quá đắt tiền.</li></ul>
   <figure><img src="../hinh-anh/congnghe/bai8-chon-trang-phuc.webp" alt="Bé chọn trang phục trước gương" loading="lazy"><figcaption>🪞 Chọn đồ hợp với mình và hợp với việc sắp làm. (Tranh minh họa do AI vẽ)</figcaption></figure>
@@ -336,7 +337,7 @@ figure.dfig img{width:100%;height:auto}
   <div class="body">
   <span class="badge mr">🌿 Mở rộng học kì 1</span>
   <h3>Bài 9. Thời trang</h3>
-  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><p class="rb-note" hidden></p></div>
+  <div class="listenbar"><button type="button" class="rb-listen">🔊 Nghe bài này</button><button type="button" class="rb-stop" hidden>⏹ Dừng đọc</button><select class="rb-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select><p class="rb-note" hidden></p></div>
   <div class="hook rdsrc">✨ Có thời, mọi người thích mặc quần ống loe. Sau này lại thích quần ống hẹp. Cách ăn mặc được nhiều người thích ở một lúc — người ta gọi là <b>thời trang</b>.</div>
   <ul><li class="rdsrc"><span class="hl2">Thời trang</span> là cách ăn mặc được <b>nhiều người ưa chuộng</b>. Ưa chuộng là được nhiều người thích.</li><li class="rdsrc">Thời trang chỉ đúng trong <b>một khoảng thời gian</b> và một nơi nhất định.</li><li class="rdsrc">Thời trang <b>luôn thay đổi</b>. Năm này thích kiểu này. Vài năm sau lại thích kiểu khác.</li><li class="rdsrc">Kiểu cũ có khi <b>quay trở lại</b> sau nhiều năm.</li></ul>
   <div class="gallery"><figure><img src="../hinh-anh/congnghe/bai9-thoi-trang.webp" alt="Các bạn trẻ với trang phục thời trang" loading="lazy"><figcaption>👗 Thời trang: cách ăn mặc được nhiều người thích ở một lúc. (Tranh minh họa do AI vẽ)</figcaption></figure><figure><img src="../hinh-anh/congnghe/bai9-thay-doi.webp" alt="Trang phục xưa và nay" loading="lazy"><figcaption>🕰️ Trang phục xưa và nay khác nhau nhiều — thời trang luôn thay đổi. (Tranh minh họa do AI vẽ)</figcaption></figure></div>
@@ -425,10 +426,30 @@ document.querySelectorAll('.minicard').forEach(function(c){
     return;
   }
   var synth=window.speechSynthesis, viVoice=null;
+  var RATEKEY='congnghe_read_rate', readRate=0.92;
+  try{ var savedRate=parseFloat(localStorage.getItem(RATEKEY)); if([0.78,0.92,1.08].indexOf(savedRate)>=0) readRate=savedRate; }catch(e){}
+  function syncRates(source){
+    document.querySelectorAll('.rb-rate').forEach(function(sel){ if(sel!==source) sel.value=String(readRate); });
+  }
+  document.querySelectorAll('.rb-rate').forEach(function(sel){
+    sel.value=String(readRate);
+    sel.addEventListener('change',function(){
+      var v=parseFloat(sel.value);
+      if([0.78,0.92,1.08].indexOf(v)<0) v=0.92;
+      readRate=v; sel.value=String(v);
+      try{ localStorage.setItem(RATEKEY,String(v)); }catch(e){}
+      syncRates(sel);
+    });
+  });
   function pickVoice(){
-    var vs=synth.getVoices()||[];
+    var vs=synth.getVoices()||[], fallback=null;
     viVoice=null;
-    for(var i=0;i<vs.length;i++){ if(vs[i].lang && vs[i].lang.toLowerCase().indexOf('vi')===0){ viVoice=vs[i]; break; } }
+    for(var i=0;i<vs.length;i++){
+      var lang=(vs[i].lang||'').toLowerCase().replace('_','-');
+      if(lang==='vi-vn'){ viVoice=vs[i]; break; }
+      if(!fallback && lang.indexOf('vi')===0) fallback=vs[i];
+    }
+    if(!viVoice) viVoice=fallback;
   }
   pickVoice();
   if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
@@ -441,11 +462,27 @@ document.querySelectorAll('.minicard').forEach(function(c){
     var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
     if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
   }
-  function chunks(t){
-    var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[], buf='';
-    parts.forEach(function(x){ x=x.trim(); if(!x) return; if(buf&&(buf+' '+x).length>200){ out.push(buf); buf=x; } else { buf=buf?buf+' '+x:x; } });
-    if(buf) out.push(buf);
+  function splitText(t){
+    var sents=(t||'').match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[];
+    function pushPiece(piece){
+      piece=(piece||'').trim();
+      while(piece.length>140){
+        var cut=piece.lastIndexOf(',',139);
+        if(cut<40) cut=piece.lastIndexOf(';',139);
+        if(cut<40) cut=piece.lastIndexOf(':',139);
+        if(cut<40) cut=piece.lastIndexOf(' ',139);
+        if(cut<40){ cut=140; }
+        else if(piece[cut]!==' '){ cut+=1; }
+        out.push(piece.slice(0,cut).trim());
+        piece=piece.slice(cut).trim();
+      }
+      if(piece) out.push(piece);
+    }
+    sents.forEach(pushPiece);
     return out;
+  }
+  function chunks(t){
+    return splitText(t);
   }
   function prepare(box){
     if(box._units) return box._units;
@@ -463,21 +500,36 @@ document.querySelectorAll('.minicard').forEach(function(c){
     document.querySelectorAll('.rb-stop').forEach(function(b){ b.hidden=true; });
     if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc…'; st.stopBtn.hidden=false; }
   }
+  function clearTimers(st){
+    if(!st) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    if(st.keepAlive){ clearInterval(st.keepAlive); st.keepAlive=null; }
+  }
   function stopRead(){
-    if(cur){ cur.dead=true; cur=null; }
+    if(cur){ cur.dead=true; clearTimers(cur); cur=null; }
     try{ synth.cancel(); }catch(e){}
     hi(null); setBtn(null);
+  }
+  function advanceChunk(st,token){
+    if(cur!==st || st.dead || st.chunkToken!==token) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    st.idx++; speakNext(st);
   }
   function speakNext(st){
     if(!st||cur!==st||st.dead) return;
     if(st.idx>=st.units.length){ stopRead(); return; }
-    hi(st.units[st.idx].el);
-    var u=new SpeechSynthesisUtterance(st.units[st.idx].t);
-    u.lang='vi-VN'; u.rate=0.95;
-    if(viVoice) u.voice=viVoice;
-    u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
-    u.onerror=function(e){ if(cur===st&&!st.dead&&e.error!=='canceled'&&e.error!=='interrupted'){ st.idx++; speakNext(st); } };
-    synth.speak(u);
+    var unit=st.units[st.idx], token=(st.chunkToken||0)+1;
+    st.chunkToken=token;
+    hi(unit.el);
+    pickVoice();
+    var u=new SpeechSynthesisUtterance(unit.t);
+    u.lang='vi-VN'; u.rate=readRate;
+    if(viVoice){ u.voice=viVoice; u.lang=viVoice.lang||u.lang; }
+    var estimatedMs=Math.min(30000,Math.max(9000,Math.ceil(unit.t.length/(11*readRate)*1000)+5000));
+    st.watchdog=setTimeout(function(){ advanceChunk(st,token); },estimatedMs);
+    u.onend=function(){ advanceChunk(st,token); };
+    u.onerror=function(e){ if(e.error!=='canceled'&&e.error!=='interrupted') advanceChunk(st,token); };
+    try{ synth.speak(u); }catch(e){ advanceChunk(st,token); }
   }
   function startRead(box){
     stopRead();
@@ -493,8 +545,10 @@ document.querySelectorAll('.minicard').forEach(function(c){
         note.hidden=false;
       }
     }
-    var st={box:box,units:units,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false};
-    cur=st; setBtn(st); speakNext(st);
+    var st={box:box,units:units,idx:0,btn:box.querySelector('.rb-listen'),stopBtn:box.querySelector('.rb-stop'),dead:false,chunkToken:0,watchdog:null,keepAlive:null};
+    cur=st; setBtn(st);
+    st.keepAlive=setInterval(function(){ if(cur===st&&!st.dead&&synth.paused){ try{ synth.resume(); }catch(e){} } },4000);
+    speakNext(st);
   }
   document.querySelectorAll('.lesson').forEach(function(box){
     var lb=box.querySelector('.rb-listen'); if(!lb) return;

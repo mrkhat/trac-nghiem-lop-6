@@ -14,6 +14,7 @@
 .ls-listen,.ls-stop{min-height:44px;padding:10px 16px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;border:2px solid #00838f;background:#e0f2f1;color:#00695c}
 .ls-listen.reading{background:#00838f;color:#fff}
 .ls-stop{background:#fff3e0;border-color:#ef6c00;color:#e65100}
+.ls-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid #00838f;background:#fff;color:#00695c;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
 .ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
 .rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
 .rd{border-radius:4px}
@@ -71,7 +72,7 @@
   <div class="hook rd">🎬 Sáng mùng một Tết, cả nhà Lan quây quần bên bàn thờ. Ông nội thắp hương. Bố kể chuyện ngày xưa của dòng họ. Lan nghe mà thấy ấm lòng. Gia đình em có những chuyện xưa nào hay như thế không?</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -174,7 +175,7 @@
   <div class="hook rd">🎬 Trên đường đi học, Tuấn thấy một bà cụ xách túi rất nặng. Cụ đi rất chậm. Tuấn chạy tới: “Bà ơi, cháu xách giúp bà nhé!” Cụ cười thật hiền. Chỉ một việc nhỏ thôi, mà cả hai người đều vui.</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -276,7 +277,7 @@
   <div class="hook rd">🎬 Bạn Rùa thì chậm chạp. Bạn Thỏ chạy rất nhanh. Nhưng Rùa cứ đi, đi mãi, không nghỉ. Còn Thỏ mải ngủ quên dưới gốc cây. Kết quả: Rùa về đích trước! Vì sao thế nhỉ?</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -378,7 +379,7 @@
   <div class="hook rd">🎬 Minh làm vỡ chậu hoa của lớp. Không ai nhìn thấy cả. Cô giáo hỏi: “Ai làm vỡ chậu hoa?” Cả lớp im lặng. Minh run run giơ tay: “Thưa cô, em ạ. Em xin lỗi cô.” Theo em, Minh làm vậy có dũng cảm không?</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -480,7 +481,7 @@
   <div class="hook rd">🎬 Trước đây, sáng nào mẹ cũng buộc giày, xách cặp cho Tùng. Nay khác rồi: Tùng tự buộc giày, tự xách cặp. Mẹ chỉ đứng nhìn và cười. Tùng thấy mình “lớn” hẳn lên! (Nhìn hình trước – sau ở dưới nhé.)</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -582,7 +583,7 @@
   <div class="hook rd">🎬 Hoa vẽ rất đẹp. Nhưng Hoa hát chưa hay. Tùng đá bóng rất giỏi. Nhưng Tùng viết văn còn chậm. Bạn nào cũng có việc giỏi và việc chưa giỏi. Còn em thì sao? Em giỏi việc gì nhất?</div>
   <div class="lsbox">
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
-    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
   </div>
 
@@ -964,20 +965,56 @@ showPage(curPage,false);
     return;
   }
   var synth=window.speechSynthesis, viVoice=null;
+  var RATEKEY='gdcd_read_rate', readRate=0.92;
+  try{ var savedRate=parseFloat(localStorage.getItem(RATEKEY)); if([0.78,0.92,1.08].indexOf(savedRate)>=0) readRate=savedRate; }catch(e){}
+  function syncRates(source){
+    document.querySelectorAll('.ls-rate').forEach(function(sel){ if(sel!==source) sel.value=String(readRate); });
+  }
+  document.querySelectorAll('.ls-rate').forEach(function(sel){
+    sel.value=String(readRate);
+    sel.addEventListener('change',function(){
+      var v=parseFloat(sel.value);
+      if([0.78,0.92,1.08].indexOf(v)<0) v=0.92;
+      readRate=v; sel.value=String(v);
+      try{ localStorage.setItem(RATEKEY,String(v)); }catch(e){}
+      syncRates(sel);
+    });
+  });
   function pickVoice(){
-    var vs=synth.getVoices()||[];
+    var vs=synth.getVoices()||[], fallback=null;
     viVoice=null;
-    for(var i=0;i<vs.length;i++){ if(vs[i].lang && vs[i].lang.toLowerCase().indexOf('vi')===0){ viVoice=vs[i]; break; } }
+    for(var i=0;i<vs.length;i++){
+      var lang=(vs[i].lang||'').toLowerCase().replace('_','-');
+      if(lang==='vi-vn'){ viVoice=vs[i]; break; }
+      if(!fallback && lang.indexOf('vi')===0) fallback=vs[i];
+    }
+    if(!viVoice) viVoice=fallback;
   }
   pickVoice();
   if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
   var cur=null;
   function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function splitText(t){
+    var sents=(t||'').match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[];
+    function pushPiece(piece){
+      piece=(piece||'').trim();
+      while(piece.length>140){
+        var cut=piece.lastIndexOf(',',139);
+        if(cut<40) cut=piece.lastIndexOf(';',139);
+        if(cut<40) cut=piece.lastIndexOf(':',139);
+        if(cut<40) cut=piece.lastIndexOf(' ',139);
+        if(cut<40){ cut=140; }
+        else if(piece[cut]!==' '){ cut+=1; }
+        out.push(piece.slice(0,cut).trim());
+        piece=piece.slice(cut).trim();
+      }
+      if(piece) out.push(piece);
+    }
+    sents.forEach(pushPiece);
+    return out;
+  }
   function pushLong(units,t,el){
-    if(t.length<=220){ units.push({t:t,el:el}); return; }
-    var parts=t.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], buf='';
-    parts.forEach(function(x){ x=x.trim(); if(!x) return; if(buf&&(buf+' '+x).length>200){ units.push({t:buf,el:el}); buf=x; } else { buf=buf?buf+' '+x:x; } });
-    if(buf) units.push({t:buf,el:el});
+    splitText(t).forEach(function(x){ units.push({t:x,el:el}); });
   }
   var lastEl=null;
   function hi(el){
@@ -1007,22 +1044,37 @@ showPage(curPage,false);
     document.querySelectorAll('.ls-stop').forEach(function(b){ b.hidden=true; });
     if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc… (bấm để dừng)'; st.stopBtn.hidden=false; }
   }
+  function clearTimers(st){
+    if(!st) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    if(st.keepAlive){ clearInterval(st.keepAlive); st.keepAlive=null; }
+  }
   function stopRead(){
-    if(cur){ cur.dead=true; cur=null; }
+    if(cur){ cur.dead=true; clearTimers(cur); cur=null; }
     try{ synth.cancel(); }catch(e){}
     hi(null); setBtn(null);
   }
   window.__stopRead=stopRead;
+  function advanceChunk(st,token){
+    if(cur!==st || st.dead || st.chunkToken!==token) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    st.idx++; speakNext(st);
+  }
   function speakNext(st){
     if(!st||cur!==st||st.dead) return;
     if(st.idx>=st.units.length){ stopRead(); return; }
-    hi(st.units[st.idx].el);
-    var u=new SpeechSynthesisUtterance(st.units[st.idx].t);
-    u.lang='vi-VN'; u.rate=0.95;
-    if(viVoice) u.voice=viVoice;
-    u.onend=function(){ if(cur===st&&!st.dead){ st.idx++; speakNext(st); } };
-    u.onerror=function(e){ if(cur===st&&!st.dead&&e.error!=='canceled'&&e.error!=='interrupted'){ st.idx++; speakNext(st); } };
-    synth.speak(u);
+    var unit=st.units[st.idx], token=(st.chunkToken||0)+1;
+    st.chunkToken=token;
+    hi(unit.el);
+    pickVoice();
+    var u=new SpeechSynthesisUtterance(unit.t);
+    u.lang='vi-VN'; u.rate=readRate;
+    if(viVoice){ u.voice=viVoice; u.lang=viVoice.lang||u.lang; }
+    var estimatedMs=Math.min(30000,Math.max(9000,Math.ceil(unit.t.length/(11*readRate)*1000)+5000));
+    st.watchdog=setTimeout(function(){ advanceChunk(st,token); },estimatedMs);
+    u.onend=function(){ advanceChunk(st,token); };
+    u.onerror=function(e){ if(e.error!=='canceled'&&e.error!=='interrupted') advanceChunk(st,token); };
+    try{ synth.speak(u); }catch(e){ advanceChunk(st,token); }
   }
   function startRead(lesson){
     stopRead();
@@ -1039,8 +1091,10 @@ showPage(curPage,false);
         note.hidden=false;
       }
     }
-    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false};
-    cur=st; setBtn(st); speakNext(st);
+    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false,chunkToken:0,watchdog:null,keepAlive:null};
+    cur=st; setBtn(st);
+    st.keepAlive=setInterval(function(){ if(cur===st&&!st.dead&&synth.paused){ try{ synth.resume(); }catch(e){} } },4000);
+    speakNext(st);
   }
   document.querySelectorAll('.lesson').forEach(function(lesson){
     var lb=lesson.querySelector('.ls-listen');
