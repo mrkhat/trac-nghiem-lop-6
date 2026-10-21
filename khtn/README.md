@@ -21,6 +21,22 @@ Lộ trình bám đúng phạm vi mà bộ 67 câu trắc nghiệm đang kiểm 
 | 12 | Tế bào và các cấp độ tổ chức cơ thể | 11, 12, 13, 14, 15, 17, 18, 19, 20 |
 | 13 | Lực là gì? Lực kế | 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 |
 
+## Kiểm tra độ bao phủ kiến thức (2026-10-21)
+Đã đối chiếu **từng câu trong 67 câu** với toàn bộ nội dung dạy trên trang (nội dung chính + Điểm cần nhớ + sơ đồ tư duy + câu hỏi gợi nhớ + flashcard):
+- **Trước đợt này: 62/67 câu** có mọi kiến thức cần thiết được dạy trực tiếp trên trang.
+- **5 câu thiếu một mảnh kiến thức** (kiến thức nằm ngoài phần cốt lõi đã trình bày) — đã bổ sung bằng **5 hộp "➕ Kiến thức bổ sung"** (khung xanh lá, viền đứt nét, đặt cuối phần nội dung chính của đúng bài liên quan, trước hình minh họa):
+
+| Bài | Câu liên quan | Kiến thức đã bổ sung |
+|---|---|---|
+| 6 | 48 | Quy trình cân gồm đúng **6 bước**; khi đọc kết quả, nhìn **vạch chia mà đầu kim chỉ tới** |
+| 9 | 67 | Sự bay hơi **không nhìn thấy được** bằng mắt thường (chỉ thấy mực chất lỏng vơi dần) |
+| 10 | 61 | Khai thác quặng: chế biến thành sản phẩm có giá trị, phải **tiết kiệm, có kế hoạch, tránh ô nhiễm môi trường** |
+| 12 | 11 | Tế bào **có nhiều hình dạng khác nhau** (cầu, đĩa, sợi, đa giác…) — nhận định "mọi tế bào đều hình đa giác" là sai |
+| 13 | 23 | **Mọi vật có khối lượng đều hút nhau** bằng lực hấp dẫn (không chỉ Trái Đất) |
+
+- **Sau bổ sung: 67/67 câu** đều có đủ kiến thức được dạy trên trang (số liệu trong hộp bổ sung khớp đáp án bộ câu hỏi — bộ câu hỏi không đổi).
+- ⚠️ **2 câu cần lưu ý** (đã báo agent chính, không tự sửa câu hỏi): **Câu 48** — phát biểu (6) "đọc kết quả đo ở vạch bên phải của đầu kim" diễn đạt không chuẩn và không có trong SGK (cách đọc đúng đã đưa vào hộp bổ sung Bài 6); đáp án "2 phát biểu sai" chỉ đứng vững nếu coi phát biểu (6) là đúng. **Câu 19** — phương án B ("Mô là cấp độ nhỏ hơn để xây dựng lên hệ cơ quan") diễn đạt dễ gây tranh cãi, dù đáp án D vẫn rõ ràng đúng theo nội dung đã dạy.
+
 ## Phần 1 — Học tập (`index.html`) — cấu trúc TỪNG BÀI KHÉP KÍN (cập nhật 2026-10-21)
 Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗi bài là một khối khép kín theo đúng thứ tự:
 1. **Nội dung bài** — mục tiêu "học xong bài này em biết", ý chính gạch đầu dòng, 1 hình minh họa Wikimedia (xem bảng nguồn ở cuối).
@@ -59,6 +75,14 @@ Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗ
 | **Tổng** | **56** | **64** |
 
 **Hình gợi nhớ cho flashcard:** 38 thẻ dùng ảnh của chính bài học (Wikimedia, bảng nguồn bên dưới); 26 thẻ dùng **sơ đồ SVG tự vẽ ngay trong trang** cho các khái niệm trừu tượng, bám đúng nội dung SGK của bài: sơ đồ hạt của 3 thể rắn/lỏng/khí (Bài 9), sơ đồ tế bào có nhãn màng tế bào – chất tế bào – nhân (Bài 12), nhiệt kế hai mốc 0°/100° (Bài 8), đồng hồ (Bài 7), thước có vạch chia (Bài 5), cân đòn hai đĩa (Bài 6), biểu đồ tỉ lệ N₂/O₂ (Bài 11), lò xo lực kế (Bài 13), mũi tên chuyển thể rắn → lỏng (Bài 9). Đợt này không dùng 3D và không thêm nguồn ảnh ngoài Wikimedia/tự vẽ.
+
+**Mặt trước flashcard ĐỘNG (bổ sung 2026-10-21):** các thẻ về quá trình/chuyển động dùng **sơ đồ SVG tự vẽ được animate bằng CSS thuần** ngay trên mặt câu hỏi (mặt đáp án vẫn tĩnh, chỉ có chữ như trước; thẻ về vật thể tĩnh — thước, cân đòn, tế bào, biểu đồ tỉ lệ — giữ sơ đồ tĩnh):
+- `states` (Bài 9 — thẻ b9c1, b9c4, b9c5): hạt **rắn rung tại chỗ**, hạt **lỏng trượt qua lại**, hạt **khí bay loạn** — mỗi hạt có độ trễ riêng cho tự nhiên.
+- `change` (Bài 9 — thẻ b9c2, nóng chảy): giọt nước **nhỏ giọt rơi** từ khối rắn, mũi tên chuyển thể **đẩy nhịp**, giọt lỏng **nhấp nhô**.
+- `spring` (Bài 13 — thẻ b13c4, b13c5, b13c6): lò xo **giãn ra – co lại** theo chu kì, quả nặng treo phía dưới chuyển động đồng bộ.
+- `thermo` (Bài 8 — thẻ b8c1–b8c4): cột thủy ngân đỏ **dâng lên – hạ xuống** trong ống nhiệt kế.
+- `clock` (Bài 7 — thẻ b7c1, b7c2, b7c4): kim đồng hồ **quay liên tục** quanh tâm.
+- Có `@media (prefers-reduced-motion: reduce)` tắt toàn bộ chuyển động cho thiết bị/người dùng đã chọn giảm chuyển động.
 
 ## Phần 2 — Trắc nghiệm (`quiz.html` + `questions.json`)
 - 67 câu trắc nghiệm giữa kì 1 — **giữ nguyên văn** bản đang chạy trên GitHub (tải về 2026-10-21), không sửa nội dung câu nào.
