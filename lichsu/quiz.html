@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lịch sử 6 - Giữa kì 1</title>
+<title>Lịch sử 6 - Học kì 1</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5}
@@ -34,7 +34,7 @@ h1{text-align:center;color:#1a73e8;margin-bottom:8px}
 </style>
 </head>
 <body>
-<h1>📚 Lịch sử 6 - Giữa kì 1</h1>
+<h1>📚 Lịch sử 6 - Học kì 1</h1>
 <p class="sub" id="qcount">Đang tải câu hỏi…</p>
 <p class="sub">⚠️ Đáp án do người soạn biên soạn, <b>chưa đối chiếu đáp án chính thức</b> — dùng để ôn tập, nếu gặp câu chưa rõ hãy hỏi thầy cô.</p>
 <div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang Lịch sử 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
@@ -54,7 +54,7 @@ h1{text-align:center;color:#1a73e8;margin-bottom:8px}
 </div>
 <script>
 let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
-fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Giữa kì 1 • sách Kết nối tri thức';});
+fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Học kì 1 • sách Kết nối tri thức';});
 
 document.getElementById('btnPractice').onclick=()=>start('practice');
 document.getElementById('btnExam').onclick=()=>start('exam');
