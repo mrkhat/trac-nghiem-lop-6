@@ -66,6 +66,12 @@ select{padding:10px;font-size:15px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
 svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
 svg g.hot.on text{fill:#e65100!important}
+.nm{cursor:pointer}
+line.nm-on{stroke:#ff6d00!important;stroke-width:5!important;opacity:.95!important}
+circle.nm-on{fill:#ff6d00!important;opacity:.45!important}
+polygon.nm-on{fill:#ff6d00!important;opacity:.55!important}
+#tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:15.5px;margin:8px 0;min-height:42px}
+.fact{cursor:pointer}
 .frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
 .frow:hover{background:#fff8e1}
 .frow.on{background:#ffe0b2;border-color:#ea8600}
@@ -175,6 +181,7 @@ svg g.hot.on text{fill:#e65100!important}
   <div class="card">
     <h2 id="tName"></h2>
     <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh; góc tại đỉnh A gọi là <b>góc A</b>.</p>
+    <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).</div>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
     <div class="theory-box" id="tFormulas" style="margin-top:10px"></div>
@@ -457,6 +464,7 @@ function openTheory(i){
   document.getElementById('home').classList.add('hidden');
   document.getElementById('theoryArea').classList.remove('hidden');
   document.getElementById('tName').textContent='📐 '+curTheory.name;
+  document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
   document.getElementById('tFig').innerHTML=curTheory.svg;
   document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${f}</div>`).join('');
   document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
@@ -466,16 +474,27 @@ function openTheory(i){
   document.getElementById('tCheckInp').value='';
   const fb=document.getElementById('tFeedback');fb.textContent='';fb.className='fb';
   document.querySelectorAll('#tFig .hot').forEach(el=>{
-    el.onclick=()=>{
-      document.querySelectorAll('#tFig .hot').forEach(x=>x.classList.remove('on'));
-      el.classList.add('on');
-      document.querySelectorAll('.fact').forEach(x=>x.classList.remove('on'));
-      const f=document.getElementById('fact'+el.dataset.f);
-      if(f){f.classList.add('on');f.scrollIntoView({block:'nearest',behavior:'smooth'});}
-    };
+    el.onclick=()=>selectFact(parseInt(el.dataset.f));
+  });
+  document.querySelectorAll('#tFacts .fact').forEach(f=>{
+    f.onclick=()=>selectFact(parseInt(f.id.replace('fact','')));
   });
   window.scrollTo(0,0);
 }
+function selectFact(j){
+  document.querySelectorAll('#tFig .hot').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('#tFig [data-f="'+j+'"]').forEach(x=>x.classList.add('on'));
+  document.querySelectorAll('.fact').forEach(x=>x.classList.remove('on'));
+  const f=document.getElementById('fact'+j);
+  if(f)f.classList.add('on');
+}
+document.getElementById('tFig').addEventListener('click',e=>{
+  const nmEl=e.target.closest?e.target.closest('.nm'):null;
+  if(!nmEl)return;
+  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+  nmEl.classList.add('nm-on');
+  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+nmEl.dataset.nm+'</b>';
+});
 document.getElementById('btnTCheck').onclick=()=>{
   const v=parseNum(document.getElementById('tCheckInp').value);
   const want=parseNum(curTheory.check.answer);
