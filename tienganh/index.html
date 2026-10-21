@@ -556,7 +556,7 @@ footer{font-size:13px;color:#444}
 <p class="note">📌 Lưu ý: module này bám theo sách <b>Tiếng Anh 6 Global Success</b>. Nếu trường của em dùng bộ sách khác (ví dụ i-Learn Smart World), hãy báo lại để được chỉnh nội dung cho khớp nhé.</p>
 
 <footer>
-  <b>Nguồn ảnh (Wikimedia Commons, giấy phép tự do):</b> <span id="imgcredits">đang tổng hợp…</span><br>
+  <b>Nguồn ảnh:</b> <span id="imgcredits">Toàn bộ hình thẻ từ là tranh minh họa do AI vẽ.</span><br>
   Nội dung từ vựng/ngữ pháp bám theo SGK Tiếng Anh 6 — bộ Global Success. Các từ không có ảnh phù hợp dùng hình emoji minh họa. Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
 </footer>
 
@@ -922,6 +922,10 @@ function fcDeck(box, cfg){
   render();
 }
 
+/* Nút 🔊 trên flashcard đã được xử lý bởi bộ lắng nghe click toàn trang cho [data-speak]
+   (xem phần NGHE PHÁT ÂM) nên bindSpeak chỉ cần tồn tại để onRender của fcDeck gọi an toàn. */
+function bindSpeak(){}
+
 document.querySelectorAll('.fcbox').forEach(function(box){
   var u=box.getAttribute('data-unit');
   var idxs=[];
@@ -944,7 +948,7 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 });
 /* ===== GHI NGUỒN ẢNH ===== */
 var cr=document.getElementById('imgcredits');
-if(cr){ cr.textContent='Wikimedia Commons: School building (CC BY-SA 4.0) • Casio fx-991ES Calculator (CC BY-SA 3.0) • Zirkel — com-pa (CC BY-SA 3.0) • Reading room, National Library of Israel (CC BY 3.0) • Living room (CC BY-SA 3.0) • Bedroom (CC BY-SA 3.0) • Keukenhof garden (CC BY-SA 3.0) • Sofa (CC BY-SA 3.0) • Table lamp (CC BY-SA 4.0) • Fridge (CC BY-SA 3.0) • Hyde Park, London (CC BY-SA 3.0) • Ballarat Railway Station (Public domain) • Red Square, Moscow (Public domain) • Fansipan (CC BY-SA 4.0) • Ha Long Bay (CC BY 2.5) • Waterfall, Scotland (CC BY 2.5) • Beach, Kingsgate (CC BY-SA 3.0) • Postojna Cave (CC BY 2.0) • Forest, Sweden (Public domain) • Sahara, Algeria (CC BY-SA 3.0) • Boat, San Francisco Bay (CC BY-SA 3.0) • Fireworks, Torino (CC BY-SA 3.0) • Peach blossom (CC BY-SA 3.0) • Kumquat (CC BY-SA 3.0) • Banh chung (CC BY 2.0) • Temple of Literature, Hanoi (CC BY-SA 2.0). Pexels (giấy phép Pexels, dùng miễn phí): Kitchen — Jean van der Meulen • Bathroom — Max Vakhtbovych • Backpack, hai em học sinh đeo ba lô đi học — Thang Nguyen.'; }
+if(cr){ cr.textContent='Toàn bộ hình thẻ từ là tranh minh họa do AI vẽ.'; }
 /* ===== HAI CHẾ ĐỘ HIỂN THỊ: theo từng Unit (mặc định) / xem tất cả ===== */
 var SECTIONS=['unit1','unit2','unit3','unit4','unit5','unit6','sumsec'];
 var NAMES=['Unit 1','Unit 2','Unit 3','Unit 4','Unit 5','Unit 6','Tổng kết'];
