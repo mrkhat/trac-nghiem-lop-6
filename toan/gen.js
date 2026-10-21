@@ -11,7 +11,7 @@ function sup(n){return (''+n).replace('2','²').replace('3','³');}
 const T={
 mixedCalc:{chapter:1,topic:'Thứ tự thực hiện phép tính',gen(l){
   const mx=l===1?9:(l===2?15:25);
-  const a=R(3,mx),b=R(3,9),d=R(2,9),q=R(2,9),e=R(4,30),c=d*q,ab=a*b,ans=ab+q-e;
+  const a=R(3,mx),b=R(3,9),d=R(2,9),q=R(2,9),c=d*q,ab=a*b,e=R(4,Math.min(30,ab+q-2)),ans=ab+q-e;
   const ex=`${a} × ${b} + ${c} : ${d} − ${e}`;
   return{title:'Tính giá trị biểu thức',text:`Tính giá trị của biểu thức:\n${ex}`,
    analysis:{given:['Biểu thức có nhân, chia, cộng, trừ và không có dấu ngoặc'],ask:'Tính giá trị của biểu thức',plan:'Làm phép nhân và chia trước (từ trái sang phải), sau đó cộng và trừ.'},
@@ -139,7 +139,7 @@ rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
   return{title:'Mảnh vườn hình chữ nhật',text:`Một mảnh vườn hình chữ nhật có chiều dài ${L} m và chiều rộng ${W} m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.`,svg,
    analysis:{given:[`Hình chữ nhật: chiều dài ${L} m, chiều rộng ${W} m`],ask:'Chu vi và diện tích mảnh vườn',plan:'Chu vi hình chữ nhật: (dài + rộng) × 2. Diện tích hình chữ nhật: dài × rộng.'},
    hint:`${L} + ${W} = ${L+W}.`,
-   theory:'Hình chữ nhật ABCD: Chu vi P = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.',
+   theory:'Hình chữ nhật ABCD: Chu vi C = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.',
    kw:[{t:`chiều dài ${L} m`,type:'data',why:'Đề cho: chiều dài mảnh vườn.'},{t:`chiều rộng ${W} m`,type:'data',why:'Đề cho: chiều rộng mảnh vườn.'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi mảnh vườn.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích mảnh vườn.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Chu vi: (${L} + ${W}) × 2 = ${L+W} × 2 = ${P} (m)`,`Diện tích: ${L} × ${W} = ${A} (m²)`]};
@@ -150,7 +150,7 @@ squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
   return{title:'Sân chơi hình vuông',text:`Một sân chơi hình vuông có cạnh ${s} m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.`,svg,
    analysis:{given:[`Hình vuông có cạnh ${s} m (4 cạnh bằng nhau)`],ask:'Chu vi và diện tích của sân',plan:'Chu vi hình vuông: cạnh × 4. Diện tích hình vuông: cạnh × cạnh.'},
    hint:`${s} × 4 = ${P} và ${s} × ${s} = ${A}.`,
-   theory:'Hình vuông: Chu vi P = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.',
+   theory:'Hình vuông: Chu vi C = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.',
    kw:[{t:`cạnh ${s} m`,type:'data',why:'Đề cho: cạnh hình vuông (cả 4 cạnh đều bằng nhau).'},{t:'Tính chu vi',type:'ask',why:'Điều cần tìm (ý a): chu vi của sân.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm (ý b): diện tích của sân.'}],
    parts:[{label:'a) Chu vi',answer:''+P,unit:'m'},{label:'b) Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Chu vi: ${s} × 4 = ${P} (m)`,`Diện tích: ${s} × ${s} = ${A} (m²)`]};
@@ -201,6 +201,80 @@ paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
    parts:[{label:'Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Diện tích: ${base} × ${h} = ${A} (m²)`]};
 }},
+romanWord:{chapter:1,topic:'Số La Mã (Bài 2)',gen(l){
+  const table=[[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];
+  const toRoman=n=>{let r='';for(const [v,sm] of table){while(n>=v){r+=sm;n-=v;}}return r;};
+  const maxN=l===1?19:(l===2?39:89);
+  const n=R(4,maxN), r=toRoman(n);
+  return{title:'Đọc số La Mã',text:`Số La Mã ${r} viết trong hệ thập phân là số nào?`,
+   analysis:{given:[`Số La Mã ${r}`, 'Các ký hiệu: I = 1, V = 5, X = 10, L = 50; ký hiệu nhỏ đứng trước ký hiệu lớn thì trừ (IV = 4, IX = 9, XL = 40)'],ask:'Giá trị của số La Mã trong hệ thập phân',plan:'Cộng giá trị các ký hiệu từ trái sang phải; gặp cặp trừ (IV, IX, XL) thì tính cặp đó trước.'},
+   hint:'Nhớ: I = 1, V = 5, X = 10, L = 50. Ví dụ XIV = 10 + 4 = 14.',
+   theory:'Cách ghi số La Mã (Bài 2): I = 1, V = 5, X = 10, L = 50. Ký hiệu nhỏ đứng trước ký hiệu lớn hơn để chỉ phép trừ: IV = 4, IX = 9, XL = 40.',
+   kw:[{t:r,type:'data',why:'Số La Mã cần đổi sang hệ thập phân.'},{t:'hệ thập phân',type:'method',why:'Đích cần đổi sang: cách ghi số thường dùng hằng ngày.'}],
+   parts:[{label:'Số thập phân tương ứng',answer:''+n,unit:''}],
+   solution:[`Đổi từng phần của ${r} rồi cộng lại được ${n}`]};
+}},
+divRule:{chapter:2,topic:'Dấu hiệu chia hết (Bài 9)',gen(l){
+  const d=pick(l===1?[2,5]:(l===2?[3,9]:[2,3,5,9]));
+  const base=R(20,90);
+  let nums=new Set();
+  while(nums.size<4)nums.add(base+R(0,60));
+  nums=[...nums];
+  const ok=nums.filter(x=>x%d===0);
+  const ans=Math.max(...ok);
+  const rule={2:'số có chữ số tận cùng là 0, 2, 4, 6, 8',5:'số có chữ số tận cùng là 0 hoặc 5',3:'số có tổng các chữ số chia hết cho 3',9:'số có tổng các chữ số chia hết cho 9'}[d];
+  return{title:'Dấu hiệu chia hết',text:`Trong các số ${nums.join(', ')}, số lớn nhất chia hết cho ${d} là số nào?`,
+   analysis:{given:[`Các số: ${nums.join(', ')}`,`Dấu hiệu chia hết cho ${d}: ${rule}`],ask:`Số lớn nhất trong các số đã cho chia hết cho ${d}`,plan:`Kiểm tra từng số bằng dấu hiệu chia hết cho ${d}, rồi chọn số lớn nhất trong các số thỏa mãn.`},
+   hint:`Dùng dấu hiệu: một số chia hết cho ${d} khi ${rule}.`,
+   theory:'Dấu hiệu chia hết (Bài 9): chia hết cho 2 — tận cùng 0, 2, 4, 6, 8; cho 5 — tận cùng 0, 5; cho 3 — tổng các chữ số chia hết cho 3; cho 9 — tổng các chữ số chia hết cho 9.',
+   kw:[{t:'chia hết cho '+d,type:'method',why:'Điều kiện để lọc các số: dùng dấu hiệu chia hết tương ứng.'},{t:'số lớn nhất',type:'ask',why:'Điều cần tìm: trong các số thỏa mãn, chọn số lớn nhất.'},...nums.map(x=>({t:''+x,type:'data',why:'Số cần kiểm tra.'}))],
+   parts:[{label:'Số lớn nhất chia hết cho '+d,answer:''+ans,unit:''}],
+   solution:[`Các số chia hết cho ${d} là: ${ok.join(', ')}`,`Số lớn nhất trong chúng là ${ans}`]};
+}},
+primeFactor:{chapter:2,topic:'Số nguyên tố (Bài 10)',gen(l){
+  const primes=[2,3,5,7];
+  const p1=pick(primes), p2=pick(primes.filter(x=>x!==p1));
+  const a=l===1?R(2,3):R(2,4), b=R(1,2);
+  const n=Math.pow(p1,a)*Math.pow(p2,b);
+  return{title:'Phân tích ra thừa số nguyên tố',text:`Phân tích số ${n} ra thừa số nguyên tố được ${n} = ${p1}^x × ${p2}^${b}. Hỏi x bằng bao nhiêu? (dấu ^ nghĩa là lũy thừa)`,
+   analysis:{given:[`Số ${n}`,`Dạng phân tích: ${p1}^x × ${p2}^${b}`],ask:'Số mũ x của thừa số '+p1,plan:`Chia ${n} cho ${p2}^${b} để được lũy thừa của ${p1}, rồi đếm số lần chia cho ${p1}.`},
+   hint:`Lấy ${n} chia cho ${p2}^${b} = ${Math.pow(p2,b)} trước, phần còn lại là lũy thừa của ${p1}.`,
+   theory:'Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó. Mọi số tự nhiên lớn hơn 1 đều phân tích được ra thừa số nguyên tố (Bài 10).',
+   kw:[{t:''+n,type:'data',why:'Số cần phân tích.'},{t:'thừa số nguyên tố',type:'method',why:'Cách làm: chia liên tiếp cho các số nguyên tố 2, 3, 5, 7...'}],
+   parts:[{label:'x',answer:''+a,unit:''}],
+   solution:[`${n} : ${Math.pow(p2,b)} = ${Math.pow(p1,a)} = ${p1}^${a}`,`Vậy x = ${a}`]};
+}},
+intMul:{chapter:3,topic:'Phép nhân số nguyên (Bài 16)',gen(l){
+  const a=(l===1?R(2,9):R(3,15))*(pick([-1,1])||1);
+  let A=a===0?-3:a;
+  const B=(l===1?R(2,9):R(3,12))*pick([-1,-1,1]);
+  const c=l===3?R(2,9)*pick([-1,1]):null;
+  const prod=A*B, total=c===null?prod:prod+c;
+  const expr=c===null?`(${A}) × (${B})`:`(${A}) × (${B}) + (${c})`;
+  return{title:'Nhân số nguyên',text:`Tính: ${expr}`,
+   analysis:{given:['Quy tắc dấu: cùng dấu cho kết quả dương, khác dấu cho kết quả âm'],ask:'Giá trị của biểu thức',plan:'Nhân hai số nguyên trước (xác định dấu, rồi nhân hai giá trị tuyệt đối), sau đó mới cộng/trừ tiếp nếu có.'},
+   hint:'Cùng dấu → dấu +; khác dấu → dấu −. Nhân phần số như số tự nhiên rồi đặt dấu.',
+   theory:'Phép nhân số nguyên (Bài 16): tích của hai số nguyên cùng dấu là số dương; tích của hai số nguyên khác dấu là số âm. Quy tắc dấu ngoặc (Bài 15): bỏ ngoặc có dấu − đằng trước thì đổi dấu các số hạng trong ngoặc.',
+   kw:[{t:'('+A+') × ('+B+')',type:'method',why:'Phép nhân hai số nguyên: chú ý dấu của hai thừa số.'}],
+   parts:[{label:'Kết quả',answer:''+total,unit:''}],
+   solution:[`(${A}) × (${B}) = ${prod} (${A<0!==B<0?'khác dấu nên kết quả âm':'cùng dấu nên kết quả dương'})`,...(c===null?[]:[`${prod} + (${c}) = ${total}`])]};
+}},
+centerWord:{chapter:5,topic:'Tâm đối xứng (Bài 22)',gen(l){
+  const all=[
+    {n:'Hình vuông',c:1},{n:'Hình chữ nhật',c:1},{n:'Hình thoi',c:1},{n:'Hình bình hành',c:1},{n:'Lục giác đều',c:1},
+    {n:'Tam giác đều',c:0},{n:'Hình thang cân',c:0}];
+  const chosen=[...all].sort(()=>Math.random()-0.5).slice(0,3);
+  const ans=chosen.reduce((s2,x)=>s2+x.c,0);
+  const labels=['a) ','b) ','c) '];
+  return{title:'Đếm hình có tâm đối xứng',text:'Trong các hình sau, có bao nhiêu hình có tâm đối xứng?\n'+chosen.map((x,i)=>labels[i]+x.n).join('\n'),
+   analysis:{given:['Tâm đối xứng là điểm mà khi quay hình 180° quanh điểm đó, hình trùng với chính nó'],ask:'Số hình có tâm đối xứng trong 3 hình đã cho',plan:'Nhớ: hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng (chính là giao điểm hai đường chéo / tâm hình). Tam giác đều và hình thang cân không có tâm đối xứng.'},
+   hint:'Hình nào có hai đường chéo cắt nhau tại trung điểm của mỗi đường thường có tâm đối xứng tại giao điểm đó.',
+   theory:'Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho khi quay hình nửa vòng (180°) quanh O, hình trùng khít với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.',
+   kw:[{t:'bao nhiêu hình có tâm đối xứng',type:'ask',why:'Điều cần tìm: đếm số hình có tâm đối xứng.'},...chosen.map(x=>({t:x.n,type:'data',why:'Hình cần xét.'}))],
+   parts:[{label:'Số hình có tâm đối xứng',answer:''+ans,unit:'hình'}],
+   solution:chosen.map(x=>`${x.n}: ${x.c?'có':'không có'} tâm đối xứng`)};
+}},
+
 axisTriple:{chapter:5,topic:'Trục đối xứng',gen(l){
   const all=[
     {n:'Hình vuông',a:4},{n:'Hình chữ nhật',a:2},{n:'Tam giác đều',a:3},
@@ -235,7 +309,7 @@ axisWord:{chapter:5,topic:'Trục đối xứng',gen(l){
 }}
 };
 window.GEN={templates:T,
- chapters:{1:'Chương 1 · Tập hợp và số tự nhiên',2:'Chương 2 · Tính chia hết',3:'Chương 3 · Số nguyên',4:'Chương 4 · Một số hình phẳng trong thực tiễn',5:'Chương 5 · Tính đối xứng của hình phẳng'},
+ chapters:{1:'Chương 1 · Tập hợp các số tự nhiên',2:'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên',3:'Chương 3 · Số nguyên',4:'Chương 4 · Một số hình phẳng trong thực tiễn',5:'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên'},
  make(chapter,lvl){
    const keys=Object.keys(T).filter(k=>T[k].chapter===chapter);
    const k=pick(keys);
