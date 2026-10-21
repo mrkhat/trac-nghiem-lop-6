@@ -7,7 +7,31 @@ function gcd(a,b){return b?gcd(b,a%b):a;}
 function lcm(a,b){return a*b/gcd(a,b);}
 function fmt(n){return (''+n).replace(/\B(?=(\d{3})+(?!\d))/g,' ');}
 function sup(n){return (''+n).replace('2','²').replace('3','³');}
+function angG(V,P1,P2,name,info,r){
+  r=r||26;
+  function pt(P){var dx=P[0]-V[0],dy=P[1]-V[1],L=Math.hypot(dx,dy);return [V[0]+dx/L*r,V[1]+dy/L*r];}
+  var u1=pt(P1),u2=pt(P2);
+  var cross=(u1[0]-V[0])*(u2[1]-V[1])-(u1[1]-V[1])*(u2[0]-V[0]);
+  var sw=cross>0?1:0;
+  function f(n){return Math.round(n*10)/10;}
+  return '<g class="ang" data-v="'+name[1]+'" data-info="'+info+'"><path class="ang-w" d="M '+V[0]+','+V[1]+' L '+f(u1[0])+','+f(u1[1])+' A '+r+','+r+' 0 0 '+sw+' '+f(u2[0])+','+f(u2[1])+' Z"/><line class="ang-s" x1="'+V[0]+'" y1="'+V[1]+'" x2="'+P1[0]+'" y2="'+P1[1]+'"/><line class="ang-s" x1="'+V[0]+'" y1="'+V[1]+'" x2="'+P2[0]+'" y2="'+P2[1]+'"/><circle class="ang-w" cx="'+V[0]+'" cy="'+V[1]+'" r="16"/></g>';
+}
+function vtxL(V,C,letter){
+  var dx=V[0]-C[0],dy=V[1]-C[1],L=Math.hypot(dx,dy)||1;
+  var x=V[0]+dx/L*17,y=V[1]+dy/L*17;
+  return '<text class="avtx" data-v="'+letter+'" x="'+Math.round(x)+'" y="'+(Math.round(y)+5)+'" text-anchor="middle">'+letter+'</text>';
+}
+function quadAng(A,B,Cc,D,infos){
+  var C=[(A[0]+B[0]+Cc[0]+D[0])/4,(A[1]+B[1]+Cc[1]+D[1])/4];
+  return vtxL(A,C,'A')+vtxL(B,C,'B')+vtxL(Cc,C,'C')+vtxL(D,C,'D')
+    +angG(A,D,B,'DAB',infos[0])+angG(B,A,Cc,'ABC',infos[1])+angG(Cc,B,D,'BCD',infos[2])+angG(D,Cc,A,'CDA',infos[3]);
+}
 
+
+const TRAPI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Góc này bằng góc ABC (hai góc kề cùng đáy lớn) và bù với góc CDA (tổng 180°)','Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc DAB và bù với góc BCD (tổng 180°)','Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc CDA (hai góc kề cùng đáy nhỏ)','Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc BCD và bù với góc DAB (tổng 180°)'];
+const RHOI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Góc đối của nó là góc BCD, hai góc đối bằng nhau. Đường chéo AC là tia phân giác của góc này','Góc ABC — đỉnh B, hai cạnh BA và BC. Góc đối của nó là góc CDA. Đường chéo BD là tia phân giác của góc này','Góc BCD — đỉnh C, hai cạnh CB và CD. Góc đối của nó là góc DAB. Đường chéo AC là tia phân giác của góc này','Góc CDA — đỉnh D, hai cạnh DC và DA. Góc đối của nó là góc ABC. Đường chéo BD là tia phân giác của góc này'];
+const PARAI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Hai góc đối trong hình bình hành bằng nhau: góc này bằng góc BCD; góc kề với nó (ABC, CDA) bù nhau, tổng 180°','Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc CDA (hai góc đối), bù với góc DAB','Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc DAB (hai góc đối)','Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc ABC (hai góc đối), bù với góc DAB'];
+const RECTI=['Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD','Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC','Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD','Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA'];
 const T={
 mixedCalc:{chapter:1,topic:'Thứ tự thực hiện phép tính',gen(l){
   const mx=l===1?9:(l===2?15:25);
@@ -135,7 +159,7 @@ moneyWord:{chapter:3,topic:'Bài toán thực tế với số nguyên',gen(l){
 rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
   const L=R(8,l===1?15:24),W=R(4,L-2),P=(L+W)*2,A=L*W;
   const wpx=L*10,hpx=W*10;
-  const svg=`<svg viewBox="0 0 ${wpx+95} ${hpx+75}" style="max-width:360px;width:100%"><rect x="40" y="38" width="${wpx}" height="${hpx}" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="${40+wpx/2}" y="24" text-anchor="middle" font-size="16" fill="#333">${L} m</text><text x="${48+wpx}" y="${38+hpx/2+5}" font-size="16" fill="#333">${W} m</text></svg>`;
+  const svg=`<svg viewBox="0 0 ${wpx+95} ${hpx+75}" style="max-width:360px;width:100%"><rect x="40" y="38" width="${wpx}" height="${hpx}" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="${40+wpx/2}" y="24" text-anchor="middle" font-size="16" fill="#333">${L} m</text><text x="${48+wpx}" y="${38+hpx/2+5}" font-size="16" fill="#333">${W} m</text>${quadAng([40,38+hpx],[40+wpx,38+hpx],[40+wpx,38],[40,38],RECTI)}</svg>`;
   return{title:'Mảnh vườn hình chữ nhật',text:`Một mảnh vườn hình chữ nhật có chiều dài ${L} m và chiều rộng ${W} m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.`,svg,
    analysis:{given:[`Hình chữ nhật: chiều dài ${L} m, chiều rộng ${W} m`],ask:'Chu vi và diện tích mảnh vườn',plan:'Chu vi hình chữ nhật: (dài + rộng) × 2. Diện tích hình chữ nhật: dài × rộng.'},
    hint:`${L} + ${W} = ${L+W}.`,
@@ -146,7 +170,7 @@ rectGeo:{chapter:4,topic:'Hình chữ nhật',gen(l){
 }},
 squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
   const s=R(5,l===1?12:20),P=s*4,A=s*s,px=s*11;
-  const svg=`<svg viewBox="0 0 ${px+55} ${px+45}" style="max-width:280px;width:100%"><rect x="25" y="32" width="${px}" height="${px}" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="${25+px/2}" y="20" text-anchor="middle" font-size="16" fill="#333">${s} m</text></svg>`;
+  const svg=`<svg viewBox="0 0 ${px+55} ${px+45}" style="max-width:280px;width:100%"><rect x="25" y="32" width="${px}" height="${px}" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="${25+px/2}" y="20" text-anchor="middle" font-size="16" fill="#333">${s} m</text>${quadAng([25,32+px],[25+px,32+px],[25+px,32],[25,32],RECTI)}</svg>`;
   return{title:'Sân chơi hình vuông',text:`Một sân chơi hình vuông có cạnh ${s} m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.`,svg,
    analysis:{given:[`Hình vuông có cạnh ${s} m (4 cạnh bằng nhau)`],ask:'Chu vi và diện tích của sân',plan:'Chu vi hình vuông: cạnh × 4. Diện tích hình vuông: cạnh × cạnh.'},
    hint:`${s} × 4 = ${P} và ${s} × ${s} = ${A}.`,
@@ -157,7 +181,7 @@ squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
 }},
 triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
   const s=R(12,45),P=s*3;
-  const svg=`<svg viewBox="0 0 200 195" style="max-width:230px;width:100%"><polygon points="100,20 180,160 20,160" fill="#fff8e1" stroke="#e65100" stroke-width="2"/><text x="100" y="185" text-anchor="middle" font-size="16" fill="#333">${s} cm</text></svg>`;
+  const svg=`<svg viewBox="0 0 200 195" style="max-width:230px;width:100%"><polygon points="100,20 180,160 20,160" fill="#fff8e1" stroke="#e65100" stroke-width="2"/><text x="100" y="185" text-anchor="middle" font-size="16" fill="#333">${s} cm</text>${vtxL([100,20],[100,113],'A')+vtxL([20,160],[100,113],'B')+vtxL([180,160],[100,113],'C')+angG([100,20],[20,160],[180,160],'BAC','Góc BAC = 60° — đỉnh A, hai cạnh AB và AC. Tam giác đều có 3 góc bằng nhau, mỗi góc 60°',30)+angG([20,160],[100,20],[180,160],'ABC','Góc ABC = 60° — đỉnh B, hai cạnh BA và BC',30)+angG([180,160],[20,160],[100,20],'BCA','Góc BCA = 60° — đỉnh C, hai cạnh CB và CA',30)}</svg>`;
   return{title:'Biển báo tam giác đều',text:`Một biển báo giao thông có dạng tam giác đều với cạnh dài ${s} cm. Tính chu vi của biển báo đó.`,svg,
    analysis:{given:['Tam giác đều: 3 cạnh bằng nhau, mỗi cạnh '+s+' cm'],ask:'Chu vi của biển báo',plan:'Chu vi là tổng độ dài 3 cạnh. Vì 3 cạnh bằng nhau nên lấy cạnh × 3.'},
    hint:`Tam giác đều có 3 cạnh bằng nhau: ${s} × 3.`,
@@ -168,7 +192,7 @@ triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
 }},
 trapGeo:{chapter:4,topic:'Hình thang cân',gen(l){
   const DL=R(11,18),DN=R(6,DL-3),leg=R(4,9),P=DL+DN+2*leg;
-  const svg=`<svg viewBox="0 0 260 175" style="max-width:300px;width:100%"><polygon points="30,130 230,130 180,40 80,40" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="130" y="158" text-anchor="middle" font-size="16" fill="#333">${DL} cm</text><text x="130" y="30" text-anchor="middle" font-size="16" fill="#333">${DN} cm</text><text x="14" y="88" font-size="16" fill="#333">${leg} cm</text></svg>`;
+  const svg=`<svg viewBox="0 0 260 175" style="max-width:300px;width:100%"><polygon points="30,130 230,130 180,40 80,40" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="130" y="158" text-anchor="middle" font-size="16" fill="#333">${DL} cm</text><text x="130" y="30" text-anchor="middle" font-size="16" fill="#333">${DN} cm</text><text x="14" y="88" font-size="16" fill="#333">${leg} cm</text>${quadAng([30,130],[230,130],[180,40],[80,40],TRAPI)}</svg>`;
   return{title:'Mặt bàn hình thang cân',text:`Mặt bàn có dạng hình thang cân với đáy lớn ${DL} cm, đáy nhỏ ${DN} cm và cạnh bên ${leg} cm. Tính chu vi của mặt bàn.`,svg,
    analysis:{given:[`Hình thang cân: đáy lớn ${DL} cm, đáy nhỏ ${DN} cm`,`Hình thang cân có 2 cạnh bên bằng nhau, mỗi cạnh ${leg} cm`],ask:'Chu vi của mặt bàn',plan:`Chu vi = đáy lớn + đáy nhỏ + cạnh bên + cạnh bên = ${DL} + ${DN} + ${leg} + ${leg}.`},
    hint:`Hình thang cân có hai cạnh bên bằng nhau: ${DL} + ${DN} + ${leg} × 2.`,
@@ -181,7 +205,7 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
   let d1=pick([6,8,10,12,14,16]),d2=pick([4,6,8,10,12,14]);
   if(d1===d2)d2=d1+2;
   const A=d1*d2/2;
-  const svg=`<svg viewBox="0 0 240 205" style="max-width:260px;width:100%"><polygon points="120,20 190,100 120,180 50,100" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/><line x1="120" y1="20" x2="120" y2="180" stroke="#6a1b9a" stroke-dasharray="5 4"/><line x1="50" y1="100" x2="190" y2="100" stroke="#6a1b9a" stroke-dasharray="5 4"/><text x="130" y="60" font-size="16" fill="#333">${d1} cm</text><text x="132" y="92" font-size="16" fill="#333">${d2} cm</text></svg>`;
+  const svg=`<svg viewBox="0 0 240 205" style="max-width:260px;width:100%"><polygon points="120,20 190,100 120,180 50,100" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/><line x1="120" y1="20" x2="120" y2="180" stroke="#6a1b9a" stroke-dasharray="5 4"/><line x1="50" y1="100" x2="190" y2="100" stroke="#6a1b9a" stroke-dasharray="5 4"/><text x="130" y="60" font-size="16" fill="#333">${d1} cm</text><text x="132" y="92" font-size="16" fill="#333">${d2} cm</text>${quadAng([120,20],[190,100],[120,180],[50,100],RHOI)}</svg>`;
   return{title:'Diện tích hình thoi',text:`Một viên gạch trang trí hình thoi có hai đường chéo dài ${d2} cm và ${d1} cm. Tính diện tích của viên gạch.`,svg,
    analysis:{given:[`Hình thoi có hai đường chéo ${d2} cm và ${d1} cm`],ask:'Diện tích viên gạch',plan:`Diện tích hình thoi bằng một nửa tích hai đường chéo: (${d2} × ${d1}) : 2.`},
    hint:`${d2} × ${d1} = ${d2*d1}, rồi chia cho 2.`,
@@ -192,7 +216,7 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
 }},
 paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
   const base=R(6,16),h=R(3,base-1),A=base*h;
-  const svg=`<svg viewBox="0 0 260 185" style="max-width:300px;width:100%"><polygon points="40,140 200,140 235,45 75,45" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><line x1="75" y1="45" x2="75" y2="140" stroke="#1565c0" stroke-dasharray="5 4"/><text x="120" y="166" text-anchor="middle" font-size="16" fill="#333">${base} m</text><text x="84" y="98" font-size="16" fill="#333">${h} m</text></svg>`;
+  const svg=`<svg viewBox="0 0 260 185" style="max-width:300px;width:100%"><polygon points="40,140 200,140 235,45 75,45" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><line x1="75" y1="45" x2="75" y2="140" stroke="#1565c0" stroke-dasharray="5 4"/><text x="120" y="166" text-anchor="middle" font-size="16" fill="#333">${base} m</text><text x="84" y="98" font-size="16" fill="#333">${h} m</text>${quadAng([40,140],[200,140],[235,45],[75,45],PARAI)}</svg>`;
   return{title:'Diện tích hình bình hành',text:`Một mảnh đất hình bình hành có cạnh đáy ${base} m và chiều cao tương ứng ${h} m. Tính diện tích của mảnh đất.`,svg,
    analysis:{given:[`Hình bình hành: cạnh đáy ${base} m, chiều cao ứng với cạnh đáy đó là ${h} m`],ask:'Diện tích mảnh đất',plan:'Diện tích hình bình hành = cạnh đáy × chiều cao tương ứng.'},
    hint:`Lấy cạnh đáy nhân với chiều cao: ${base} × ${h}.`,

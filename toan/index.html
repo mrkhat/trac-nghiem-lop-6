@@ -79,6 +79,13 @@ polygon.nm-on{fill:#ff6d00!important;opacity:.32!important}
 svg text.halo{stroke:rgba(255,255,255,.92)!important;stroke-width:3px;paint-order:stroke}
 svg text.nm-on{fill:#e65100!important}
 svg text.lit{fill:#e65100!important}
+svg .ang-w{fill:rgba(255,152,0,0);cursor:pointer;pointer-events:all}
+svg .ang.on .ang-w{fill:rgba(255,152,0,.45)}
+svg .ang-s{stroke:#ef6c00;stroke-width:4;opacity:0;pointer-events:none}
+svg .ang.on .ang-s{opacity:1}
+svg text.avtx{font-size:15px;font-weight:bold;fill:#37474f}
+svg text.avtx.on{fill:#e65100}
+.figRead{font-size:16.5px;color:#4e342e;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:7px 10px;margin-top:6px}
 #tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:17px;margin:8px 0;min-height:42px;line-height:1.6}
 .fact{cursor:pointer}
 .frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
@@ -210,7 +217,7 @@ small{line-height:1.6}
   </div>
 </div>
 
-<script src="gen.js?v=20261021e"></script>
+<script src="gen.js?v=20261021f"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -222,7 +229,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021e').then(r=>r.json()),fetch('theory.json?v=20261021e').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021f').then(r=>r.json()),fetch('theory.json?v=20261021f').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
@@ -308,14 +315,14 @@ function openProbObj(p,mode){
   renderText(p,false);
   document.getElementById('kwLegend').classList.remove('show');
   document.getElementById('kwInfo').classList.remove('show');
-  document.getElementById('pFig').innerHTML=p.svg||'';
+  document.getElementById('pFig').innerHTML=(p.svg||'')+(p.svg?'<div class="figRead">👆 Bấm vào một góc trên hình để xem tên góc.</div>':'');
   document.getElementById('anaPanel').innerHTML=
     `<h3>🔍 Phân tích đề</h3>`+
     `<div><span class="lbl">Đề cho biết:</span><br>• ${p.analysis.given.join('<br>• ')}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Đề hỏi:</span> ${p.analysis.ask}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Hướng làm:</span> ${p.analysis.plan}</div>`;
   let hintHtml=`<h3>💡 Gợi ý</h3>`;
-  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Hình của bài toán: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
+  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
   if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
   if(p.shape){
     const sh=(typeof theory!=='undefined')?theory.find(s=>s.id===p.shape):null;
@@ -324,7 +331,7 @@ function openProbObj(p,mode){
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
   let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
-  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Đối chiếu từng bước giải với số đo trên hình.</p>`;
+  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; đối chiếu từng bước giải với số đo trên hình.</p>`;
   solHtml+=`<ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
   document.getElementById('solPanel').innerHTML=solHtml;
   ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
@@ -640,6 +647,23 @@ document.getElementById('btnTCheck').onclick=()=>{
   fb.textContent=ok?'🎉 Đúng rồi! Bạn đã nắm được lý thuyết hình này.':'❌ Chưa đúng. Bấm vào các yếu tố trên hình để ôn lại nhé!';
   fb.className='fb '+(ok?'ok':'no');
 };
+
+/* ===== Bam vao goc tren hinh bai toan: sang goc + 2 canh ke + chu dinh, doc ten goc ===== */
+document.addEventListener('click',e=>{
+  const g=e.target.closest('.ang'); if(!g)return;
+  const svg=g.closest('svg'); if(!svg)return;
+  const wasOn=g.classList.contains('on');
+  svg.querySelectorAll('.ang.on').forEach(x=>x.classList.remove('on'));
+  svg.querySelectorAll('text.avtx.on').forEach(x=>x.classList.remove('on'));
+  const wrap=svg.parentElement;
+  let rd=wrap.querySelector('.figRead');
+  if(!rd){rd=document.createElement('div');rd.className='figRead';svg.after(rd);}
+  if(wasOn){rd.textContent='👆 Bấm vào một góc trên hình để xem tên góc.';return;}
+  g.classList.add('on');
+  const t=svg.querySelector('text.avtx[data-v="'+g.getAttribute('data-v')+'"]');
+  if(t)t.classList.add('on');
+  rd.textContent=g.getAttribute('data-info');
+});
 
 // ===== Gia su AI (Puter.js - mien phi, khong can API key) =====
 let aiHistory=[],aiBusy=false;
