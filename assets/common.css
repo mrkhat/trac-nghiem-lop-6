@@ -144,7 +144,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 @media(max-width:480px){body{padding:12px}h1{font-size:26px}}
 
 /* ===== CHUAN FLASHCARD THONG NHAT (tat ca cac mon) ===== */
-.fc-card{position:relative;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
+.fc-card{position:relative;height:auto;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
 .fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
 .fc-card.flipped .fc-inner{transform:rotateY(180deg)}
 .fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
