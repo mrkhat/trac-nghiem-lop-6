@@ -43,6 +43,8 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .panel h3{font-size:18px;margin-bottom:6px}
 .panel .lbl{font-weight:bold;color:#1565c0}
 .panel ol{margin-left:20px}
+.solsteps{margin:6px 0}
+.solstep{margin:0 0 6px 0;line-height:1.65}
 .panel li{margin:4px 0}
 .theory-box{background:#fff;border:1px dashed #ea8600;border-radius:6px;padding:8px 10px;margin:8px 0}
 .kw{border-radius:4px;padding:1px 4px;cursor:pointer;font-weight:bold;border:1.5px solid transparent}
@@ -69,6 +71,9 @@ select{padding:10px;font-size:16px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
 svg .hot.on{stroke:#f57c00!important}
 svg g.hot.on text{fill:#e65100!important}
+svg .nlp{cursor:pointer}
+svg .nlp.on circle{fill:#ffe0b2!important;stroke:#e65100!important;stroke-width:3}
+svg .nlp.on text{fill:#e65100!important}
 svg text{stroke:none!important}
 .nmword{color:#0d47a1;font-weight:bold;text-decoration:underline dotted #0d47a1;cursor:pointer;padding:0 1px}
 .nmword:active{color:#e65100}
@@ -154,8 +159,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
     </div>
   </div>
   <div class="sec">
-    <h2>📐 Lý thuyết hình học</h2>
-    <p class="desc">Bấm vào từng yếu tố trên hình (cạnh, góc, đường chéo, trục đối xứng...) để xem đặc điểm, kèm công thức chu vi và diện tích của từng hình.</p>
+    <h2>📐 Thẻ lý thuyết tương tác</h2>
+    <p class="desc">Bấm vào từng yếu tố trên hình để xem đặc điểm tương ứng: các hình học (cạnh, góc, đường chéo, trục đối xứng, công thức chu vi và diện tích), tập hợp, tia số và trục số — kèm câu hỏi tự kiểm tra.</p>
     <div class="shape-grid" id="shapeGrid"></div>
   </div>
   <div class="sec">
@@ -214,7 +219,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   <button class="btn btn-g" id="btnList2">← Về trang chính</button>
   <div class="card">
     <h2 id="tName"></h2>
-    <p style="color:#444;font-size:17px;margin-bottom:6px;line-height:1.65">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
+    <p id="tIntro" style="color:#444;font-size:17px;margin-bottom:6px;line-height:1.65">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
     <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).</div>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
@@ -233,7 +238,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   </div>
 </div>
 
-<script src="gen.js?v=20261021f"></script>
+<script src="gen.js?v=20261021g"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -245,7 +250,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021f').then(r=>r.json()),fetch('theory.json?v=20261021f').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021g').then(r=>r.json()),fetch('theory.json?v=20261021g').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
@@ -267,7 +272,10 @@ function renderHome(){
    'hinh-chu-nhat':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="3" y="8" width="34" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
    'hinh-thoi':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,2 35,16 20,30 5,16" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/></svg>',
    'hinh-binh-hanh':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="11,6 35,6 29,26 5,26" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
-   'hinh-thang-can':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,5 28,5 37,27 3,27" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>'};
+   'hinh-thang-can':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,5 28,5 37,27 3,27" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
+   'tap-hop':'<svg width="46" height="36" viewBox="0 0 40 32"><ellipse cx="17" cy="16" rx="14" ry="11" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><circle cx="12" cy="13" r="2" fill="#1565c0"/><circle cx="20" cy="19" r="2" fill="#1565c0"/><circle cx="23" cy="11" r="2" fill="#1565c0"/><circle cx="34" cy="16" r="2.5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/></svg>',
+   'tia-so':'<svg width="46" height="36" viewBox="0 0 40 32"><line x1="3" y1="18" x2="33" y2="18" stroke="#1565c0" stroke-width="2"/><polygon points="33,13 39,18 33,23" fill="#1565c0"/><circle cx="8" cy="18" r="3" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/><circle cx="18" cy="18" r="3" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/><circle cx="28" cy="18" r="3" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/></svg>',
+   'truc-so-nguyen':'<svg width="46" height="36" viewBox="0 0 40 32"><line x1="5" y1="18" x2="35" y2="18" stroke="#6a1b9a" stroke-width="2"/><polygon points="5,13 -1,18 5,23" fill="#6a1b9a"/><polygon points="35,13 41,18 35,23" fill="#6a1b9a"/><circle cx="11" cy="18" r="3" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5"/><circle cx="20" cy="18" r="3" fill="#fff59d" stroke="#f57c00" stroke-width="1.5"/><circle cx="29" cy="18" r="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/></svg>'};
   sg.innerHTML=theory.map((s,i)=>`<div class="shape-card" onclick="openTheory(${i})">${ICONS[s.id]||'📐'}<br><b>${s.name}</b></div>`).join('');
   const doneCount=problems.filter(p=>done[p.id]).length;
   let html=`<p style="color:#444;font-size:16px">Đã làm đúng: <b>${doneCount}/${problems.length}</b> bài mẫu</p>`;
@@ -331,14 +339,14 @@ function openProbObj(p,mode){
   renderText(p,false);
   document.getElementById('kwLegend').classList.remove('show');
   document.getElementById('kwInfo').classList.remove('show');
-  document.getElementById('pFig').innerHTML=(p.svg||'')+(p.svg?'<div class="figRead">👆 Bấm vào một góc trên hình để xem tên góc.</div>':'');
+  document.getElementById('pFig').innerHTML=(p.svg||'')+(p.svg?'<div class="figRead">'+(p.figNote||'👆 Bấm vào một góc trên hình để xem tên góc.')+'</div>':'');
   document.getElementById('anaPanel').innerHTML=
     `<h3>🔍 Phân tích đề</h3>`+
     `<div><span class="lbl">Đề cho biết:</span><br>• ${p.analysis.given.join('<br>• ')}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Đề hỏi:</span> ${p.analysis.ask}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Hướng làm:</span> ${p.analysis.plan}</div>`;
   let hintHtml=`<h3>💡 Gợi ý</h3>`;
-  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
+  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">${p.figNote||'👆 Bấm vào một góc trên hình để xem tên góc; chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.'}</p>`;
   if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
   if(p.shape){
     const sh=(typeof theory!=='undefined')?theory.find(s=>s.id===p.shape):null;
@@ -347,8 +355,8 @@ function openProbObj(p,mode){
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
   let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
-  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Bấm vào một góc trên hình để xem tên góc; đối chiếu từng bước giải với số đo trên hình.</p>`;
-  solHtml+=`<ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">${p.figNote||'👆 Bấm vào một góc trên hình để xem tên góc; đối chiếu từng bước giải với số đo trên hình.'}</p>`;
+  solHtml+=`<div class="solsteps">${p.solution.map(s=>`<div class="solstep">${s}</div>`).join('')}</div>`;
   document.getElementById('solPanel').innerHTML=solHtml;
   ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
   aiHistory=[];document.getElementById('chatLog').innerHTML='';
@@ -594,6 +602,8 @@ function showOvl(i,row){
   }
 }
 let curTheory=null;
+const DEF_TINTRO=document.getElementById('tIntro')?document.getElementById('tIntro').innerHTML:'';
+const DEF_TINFO='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
 let theoryFromProb=false;
 function openTheoryById(id){
   const i=theory.findIndex(s=>s.id===id);
@@ -609,7 +619,8 @@ function openTheory(i){
   document.getElementById('probArea').classList.add('hidden');
   document.getElementById('theoryArea').classList.remove('hidden');
   document.getElementById('tName').textContent='📐 '+curTheory.name;
-  document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).';
+  document.getElementById('tNameInfo').innerHTML=curTheory.info||DEF_TINFO;
+  const tI=document.getElementById('tIntro'); if(tI)tI.innerHTML=curTheory.intro||DEF_TINTRO;
   document.getElementById('tFig').innerHTML=curTheory.svg;
   tagNames();
   document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>{
@@ -679,6 +690,20 @@ document.addEventListener('click',e=>{
   const t=svg.querySelector('text.avtx[data-v="'+g.getAttribute('data-v')+'"]');
   if(t)t.classList.add('on');
   rd.textContent=g.getAttribute('data-info');
+});
+
+/* ===== Bam vao diem tren tia so / truc so trong bai toan: sang diem + hien giai thich ===== */
+document.addEventListener('click',e=>{
+  const pt=e.target.closest?e.target.closest('.nlp'):null; if(!pt)return;
+  const svg=pt.closest('svg'); if(!svg)return;
+  const wasOn=pt.classList.contains('on');
+  svg.querySelectorAll('.nlp.on').forEach(x=>x.classList.remove('on'));
+  const wrap=svg.parentElement;
+  let rd=wrap?wrap.querySelector('.figRead'):null;
+  if(!rd){rd=document.createElement('div');rd.className='figRead';svg.after(rd);}
+  if(wasOn){rd.textContent='👆 Bấm vào một điểm trên hình để xem giải thích.';return;}
+  pt.classList.add('on');
+  rd.textContent=pt.getAttribute('data-info');
 });
 
 // ===== Gia su AI (Puter.js - mien phi, khong can API key) =====

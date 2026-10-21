@@ -1,6 +1,70 @@
 [
  {
   "analysis": {
+   "ask": "Số phần tử của A; tổng của phần tử lớn nhất và phần tử nhỏ nhất; số số thuộc A trong ba số 2; 5; 8",
+   "given": [
+    "Tập hợp A gồm các số tự nhiên lẻ nhỏ hơn 10",
+    "Viết theo cách liệt kê: A = {1; 3; 5; 7; 9}"
+   ],
+   "plan": "Đếm các số đã liệt kê trong dấu { }. Phần tử lớn nhất là 9, nhỏ nhất là 1. Số nào có mặt trong A thì số đó thuộc A."
+  },
+  "chapter": 1,
+  "hint": "Mỗi số viết trong dấu { } là một phần tử. Số 5 có mặt trong A nên 5 thuộc A.",
+  "id": "p22",
+  "kw": [
+   {
+    "t": "tập hợp A",
+    "type": "data",
+    "why": "Đề cho: A là tập hợp cần xét trong bài."
+   },
+   {
+    "t": "{1; 3; 5; 7; 9}",
+    "type": "data",
+    "why": "Cách viết liệt kê: các số nằm trong dấu { } chính là các phần tử của A."
+   },
+   {
+    "t": "bao nhiêu phần tử",
+    "type": "ask",
+    "why": "Điều cần tìm (ý a): đếm số phần tử của A."
+   },
+   {
+    "t": "thuộc tập hợp A",
+    "type": "ask",
+    "why": "Điều cần tìm (ý c): số nào có mặt trong A thì số đó thuộc A, ký hiệu ∈."
+   }
+  ],
+  "parts": [
+   {
+    "answer": "5",
+    "label": "a) Số phần tử của A",
+    "unit": "phần tử"
+   },
+   {
+    "answer": "10",
+    "label": "b) Tổng phần tử lớn nhất và phần tử nhỏ nhất",
+    "unit": ""
+   },
+   {
+    "answer": "1",
+    "label": "c) Số số thuộc A trong ba số 2; 5; 8",
+    "unit": "số"
+   }
+  ],
+  "shape": "tap-hop",
+  "solution": [
+   "Bước 1) Đọc tập hợp A theo cách liệt kê: A = {1; 3; 5; 7; 9}. Các số 1; 3; 5; 7; 9 là các phần tử của A.",
+   "Bước 2) Ý a) Đếm số phần tử: A có 5 phần tử.",
+   "Bước 3) Ý b) Phần tử lớn nhất là 9, phần tử nhỏ nhất là 1. Tổng của chúng: 9 + 1 = 10.",
+   "Bước 4) Ý c) Kiểm tra từng số: 2 không có trong A (2 ∉ A); 5 có trong A (5 ∈ A); 8 không có trong A (8 ∉ A). Vậy chỉ có 1 số thuộc A."
+  ],
+  "template": "setBasics",
+  "text": "Cho tập hợp A là tập hợp các số tự nhiên lẻ nhỏ hơn 10.\nViết theo cách liệt kê: A = {1; 3; 5; 7; 9}.\na) Tập hợp A có bao nhiêu phần tử?\nb) Tính tổng của phần tử lớn nhất và phần tử nhỏ nhất của A.\nc) Trong ba số 2; 5; 8, có bao nhiêu số thuộc tập hợp A?",
+  "theory": "Tập hợp (Bài 1): mỗi đối tượng trong tập hợp gọi là một phần tử. Ký hiệu ∈ đọc là 'thuộc': 5 ∈ A đọc là '5 thuộc A'. Ký hiệu ∉ đọc là 'không thuộc': 2 ∉ A đọc là '2 không thuộc A'. Viết tập hợp bằng cách liệt kê: để các phần tử trong dấu { }, ngăn cách bằng dấu chấm phẩy, mỗi phần tử viết một lần.",
+  "title": "Tập hợp và phần tử",
+  "topic": "Tập hợp (Bài 1)"
+ },
+ {
+  "analysis": {
    "ask": "Tính giá trị của biểu thức",
    "given": [
     "Biểu thức có cả phép nhân, chia, cộng, trừ và không có dấu ngoặc"
@@ -10,21 +74,6 @@
   "chapter": 1,
   "hint": "36 : 6 = 6 và 25 × 4 = 100. Thay vào rồi tính tiếp.",
   "id": "p1",
-  "parts": [
-   {
-    "answer": "96",
-    "label": "Kết quả",
-    "unit": ""
-   }
-  ],
-  "solution": [
-   "25 × 4 + 36 : 6 − 10 = 100 + 6 − 10",
-   "= 106 − 10 = 96"
-  ],
-  "text": "Tính giá trị của biểu thức:\n25 × 4 + 36 : 6 − 10",
-  "title": "Bài 1: Tính giá trị biểu thức",
-  "topic": "Thứ tự thực hiện phép tính",
-  "theory": "Thứ tự thực hiện phép tính (không có dấu ngoặc): lũy thừa → nhân và chia (từ trái sang phải) → cộng và trừ.",
   "kw": [
    {
     "t": "Tính giá trị của biểu thức",
@@ -37,7 +86,22 @@
     "why": "Số liệu đề cho: biểu thức gồm phép nhân, chia, cộng, trừ — phải làm nhân/chia trước."
    }
   ],
-  "template": "mixedCalc"
+  "parts": [
+   {
+    "answer": "96",
+    "label": "Kết quả",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "25 × 4 + 36 : 6 − 10 = 100 + 6 − 10",
+   "= 106 − 10 = 96"
+  ],
+  "template": "mixedCalc",
+  "text": "Tính giá trị của biểu thức:\n25 × 4 + 36 : 6 − 10",
+  "theory": "Thứ tự thực hiện phép tính (không có dấu ngoặc): lũy thừa → nhân và chia (từ trái sang phải) → cộng và trừ.",
+  "title": "Bài 1: Tính giá trị biểu thức",
+  "topic": "Thứ tự thực hiện phép tính"
  },
  {
   "analysis": {
@@ -50,21 +114,6 @@
   "chapter": 1,
   "hint": "2³ = 8 và 4² = 16.",
   "id": "p2",
-  "parts": [
-   {
-    "answer": "56",
-    "label": "Kết quả",
-    "unit": ""
-   }
-  ],
-  "solution": [
-   "2³ = 2 × 2 × 2 = 8;  4² = 4 × 4 = 16",
-   "2³ × 5 + 4² = 8 × 5 + 16 = 40 + 16 = 56"
-  ],
-  "text": "Tính giá trị của biểu thức:\n2³ × 5 + 4²",
-  "title": "Bài 2: Tính biểu thức có lũy thừa",
-  "topic": "Lũy thừa",
-  "theory": "Lũy thừa aⁿ là tích của n thừa số bằng nhau, mỗi thừa số bằng a. Ví dụ 2³ = 2 × 2 × 2 = 8. Khi tính biểu thức: tính lũy thừa trước, rồi nhân/chia, rồi cộng/trừ.",
   "kw": [
    {
     "t": "Tính giá trị của biểu thức",
@@ -77,7 +126,22 @@
     "why": "Số liệu đề cho: có lũy thừa 2³ và 4² — tính lũy thừa trước tiên."
    }
   ],
-  "template": "powerCalc"
+  "parts": [
+   {
+    "answer": "56",
+    "label": "Kết quả",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "2³ = 2 × 2 × 2 = 8;  4² = 4 × 4 = 16",
+   "2³ × 5 + 4² = 8 × 5 + 16 = 40 + 16 = 56"
+  ],
+  "template": "powerCalc",
+  "text": "Tính giá trị của biểu thức:\n2³ × 5 + 4²",
+  "theory": "Lũy thừa aⁿ là tích của n thừa số bằng nhau, mỗi thừa số bằng a. Ví dụ 2³ = 2 × 2 × 2 = 8. Khi tính biểu thức: tính lũy thừa trước, rồi nhân/chia, rồi cộng/trừ.",
+  "title": "Bài 2: Tính biểu thức có lũy thừa",
+  "topic": "Lũy thừa"
  },
  {
   "analysis": {
@@ -87,26 +151,11 @@
     "Mỗi hộp có 12 cây bút",
     "Mỗi cây bút giá 5 000 đồng"
    ],
-   "plan": "Bước 1: tính tổng số cây bút = số hộp × số bút trong 1 hộp. Bước 2: lấy tổng số bút × giá 1 cây."
+   "plan": "Bước 1) tính tổng số cây bút = số hộp × số bút trong 1 hộp. Bước 2) lấy tổng số bút × giá 1 cây."
   },
   "chapter": 1,
   "hint": "Tổng số bút là 15 × 12 = 180 cây.",
   "id": "p3",
-  "parts": [
-   {
-    "answer": "900000",
-    "label": "Số tiền cô phải trả",
-    "unit": "đồng"
-   }
-  ],
-  "solution": [
-   "Tổng số cây bút: 15 × 12 = 180 (cây)",
-   "Số tiền phải trả: 180 × 5 000 = 900 000 (đồng)"
-  ],
-  "text": "Cô giáo mua 15 hộp bút để thưởng cho học sinh. Mỗi hộp có 12 cây bút, mỗi cây bút giá 5 000 đồng. Hỏi cô giáo phải trả bao nhiêu tiền?",
-  "title": "Bài 3: Mua bút cho lớp",
-  "topic": "Bài toán thực tế",
-  "theory": "Muốn tính tổng số tiền: trước hết tính tổng số lượng = số phần × số lượng trong mỗi phần; rồi lấy tổng số lượng × giá của 1 đơn vị.",
   "kw": [
    {
     "t": "15 hộp bút",
@@ -129,7 +178,22 @@
     "why": "Điều cần tìm: tổng số tiền cô giáo phải trả."
    }
   ],
-  "template": "buyWord"
+  "parts": [
+   {
+    "answer": "900000",
+    "label": "Số tiền cô phải trả",
+    "unit": "đồng"
+   }
+  ],
+  "solution": [
+   "Tổng số cây bút: 15 × 12 = 180 (cây)",
+   "Số tiền phải trả: 180 × 5 000 = 900 000 (đồng)"
+  ],
+  "template": "buyWord",
+  "text": "Cô giáo mua 15 hộp bút để thưởng cho học sinh. Mỗi hộp có 12 cây bút, mỗi cây bút giá 5 000 đồng. Hỏi cô giáo phải trả bao nhiêu tiền?",
+  "theory": "Muốn tính tổng số tiền: trước hết tính tổng số lượng = số phần × số lượng trong mỗi phần; rồi lấy tổng số lượng × giá của 1 đơn vị.",
+  "title": "Bài 3: Mua bút cho lớp",
+  "topic": "Bài toán thực tế"
  },
  {
   "analysis": {
@@ -143,21 +207,6 @@
   "chapter": 1,
   "hint": "3 × x = 48 − 15 = 33.",
   "id": "p4",
-  "parts": [
-   {
-    "answer": "11",
-    "label": "x =",
-    "unit": ""
-   }
-  ],
-  "solution": [
-   "3 × x = 48 − 15 = 33",
-   "x = 33 : 3 = 11"
-  ],
-  "text": "Tìm số tự nhiên x, biết:\n3 × x + 15 = 48",
-  "title": "Bài 4: Tìm x",
-  "topic": "Tìm số chưa biết",
-  "theory": "Cách tìm thành phần chưa biết: muốn tìm số hạng, lấy tổng trừ số hạng đã biết; muốn tìm thừa số, lấy tích chia cho thừa số đã biết.",
   "kw": [
    {
     "t": "Tìm số tự nhiên x",
@@ -170,7 +219,85 @@
     "why": "Đề cho: đẳng thức chứa x. Coi 3 × x là một số hạng chưa biết."
    }
   ],
-  "template": "findX"
+  "parts": [
+   {
+    "answer": "11",
+    "label": "x =",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "3 × x = 48 − 15 = 33",
+   "x = 33 : 3 = 11"
+  ],
+  "template": "findX",
+  "text": "Tìm số tự nhiên x, biết:\n3 × x + 15 = 48",
+  "theory": "Cách tìm thành phần chưa biết: muốn tìm số hạng, lấy tổng trừ số hạng đã biết; muốn tìm thừa số, lấy tích chia cho thừa số đã biết.",
+  "title": "Bài 4: Tìm x",
+  "topic": "Tìm số chưa biết"
+ },
+ {
+  "analysis": {
+   "ask": "Số ước của 24 trong các số đã cho; giá trị của (18 + 24) : 6; số bội của 4 trong các số đã cho",
+   "given": [
+    "Ước của 24: các số tự nhiên mà 24 chia hết cho chúng",
+    "18 chia hết cho 6 và 24 cũng chia hết cho 6",
+    "Bội của 4: các số chia hết cho 4"
+   ],
+   "plan": "Ý a) và ý c): thử chia từng số. Ý b): cả hai số hạng đều chia hết cho 6 nên tổng cũng chia hết cho 6; lấy từng số hạng chia cho 6 rồi cộng hai kết quả."
+  },
+  "chapter": 2,
+  "hint": "24 : 4 = 6; 24 : 6 = 4; 24 : 8 = 3 — đều là phép chia hết. Còn 24 : 5 = 4 dư 4.",
+  "id": "p24",
+  "kw": [
+   {
+    "t": "ước của 24",
+    "type": "data",
+    "why": "Điều cần kiểm tra (ý a): số nào mà 24 chia hết cho nó thì số đó là ước của 24."
+   },
+   {
+    "t": "tính chất chia hết của một tổng",
+    "type": "op",
+    "why": "Từ khóa cách làm (ý b): mỗi số hạng đều chia hết cho 6 thì tổng cũng chia hết cho 6."
+   },
+   {
+    "t": "bội của 4",
+    "type": "data",
+    "why": "Điều cần kiểm tra (ý c): số nào chia hết cho 4 thì số đó là bội của 4."
+   },
+   {
+    "t": "có bao nhiêu số",
+    "type": "ask",
+    "why": "Điều cần tìm: đếm số lượng số thỏa mãn điều kiện."
+   }
+  ],
+  "parts": [
+   {
+    "answer": "3",
+    "label": "a) Số ước của 24 trong các số đã cho",
+    "unit": "số"
+   },
+   {
+    "answer": "7",
+    "label": "b) (18 + 24) : 6",
+    "unit": ""
+   },
+   {
+    "answer": "3",
+    "label": "c) Số bội của 4 trong các số đã cho",
+    "unit": "số"
+   }
+  ],
+  "solution": [
+   "Bước 1) Ý a) Thử chia 24 cho từng số: 24 : 4 = 6 (chia hết); 24 : 5 = 4 dư 4 (không chia hết); 24 : 6 = 4 (chia hết); 24 : 8 = 3 (chia hết). Có 3 số là ước của 24, đó là 4; 6; 8.",
+   "Bước 2) Ý b) Vì 18 chia hết cho 6 và 24 chia hết cho 6 nên tổng 18 + 24 cũng chia hết cho 6. Ta tính: (18 + 24) : 6 = 18 : 6 + 24 : 6 = 3 + 4 = 7.",
+   "Bước 3) Ý c) Thử chia từng số cho 4: 12 : 4 = 3 (chia hết); 15 : 4 = 3 dư 3 (không chia hết); 20 : 4 = 5 (chia hết); 28 : 4 = 7 (chia hết). Có 3 số là bội của 4, đó là 12; 20; 28."
+  ],
+  "template": "divProp",
+  "text": "a) Trong các số 4; 5; 6; 8, có bao nhiêu số là ước của 24?\nb) Tính (18 + 24) : 6 bằng cách dùng tính chất chia hết của một tổng.\nc) Trong các số 12; 15; 20; 28, có bao nhiêu số là bội của 4?",
+  "theory": "Quan hệ chia hết (Bài 8): số tự nhiên a chia hết cho số tự nhiên b (b khác 0) khi có số tự nhiên q sao cho a = b × q. Khi đó a là bội của b, còn b là ước của a. Tính chất: nếu mỗi số hạng của một tổng đều chia hết cho cùng một số thì tổng cũng chia hết cho số đó.",
+  "title": "Chia hết, ước và bội",
+  "topic": "Quan hệ chia hết và tính chất (Bài 8)"
  },
  {
   "analysis": {
@@ -184,32 +311,6 @@
   "chapter": 2,
   "hint": "24 = 2³ × 3 và 36 = 2² × 3², nên ƯCLN(24; 36) = 2² × 3 = 12.",
   "id": "p5",
-  "parts": [
-   {
-    "answer": "12",
-    "label": "a) Số phần nhiều nhất",
-    "unit": "phần"
-   },
-   {
-    "answer": "2",
-    "label": "b) Số bút trong mỗi phần",
-    "unit": "cây"
-   },
-   {
-    "answer": "3",
-    "label": "b) Số vở trong mỗi phần",
-    "unit": "quyển"
-   }
-  ],
-  "solution": [
-   "Số phần chia được phải là ước chung của 24 và 36",
-   "ƯCLN(24; 36) = 12 nên chia được nhiều nhất 12 phần",
-   "Mỗi phần có: 24 : 12 = 2 cây bút và 36 : 12 = 3 quyển vở"
-  ],
-  "text": "Thầy giáo có 24 cây bút và 36 quyển vở. Thầy muốn chia thành các phần thưởng giống hệt nhau (mỗi phần có cả bút và vở) sao cho chia hết, không thừa món nào.\na) Hỏi thầy chia được nhiều nhất bao nhiêu phần thưởng?\nb) Mỗi phần có bao nhiêu cây bút và bao nhiêu quyển vở?",
-  "title": "Bài 5: Chia phần thưởng",
-  "topic": "Ước chung lớn nhất",
-  "theory": "ƯCLN của hai số là số lớn nhất trong các ước chung của chúng. Bài toán chia đều thành các phần giống hệt nhau và muốn số phần nhiều nhất → tìm ƯCLN.",
   "kw": [
    {
     "t": "24 cây bút",
@@ -237,7 +338,33 @@
     "why": "Điều cần tìm + từ khóa \"nhiều nhất\": số phần lớn nhất có thể → tìm ƯCLN(24; 36)."
    }
   ],
-  "template": "gcdWord"
+  "parts": [
+   {
+    "answer": "12",
+    "label": "a) Số phần nhiều nhất",
+    "unit": "phần"
+   },
+   {
+    "answer": "2",
+    "label": "b) Số bút trong mỗi phần",
+    "unit": "cây"
+   },
+   {
+    "answer": "3",
+    "label": "b) Số vở trong mỗi phần",
+    "unit": "quyển"
+   }
+  ],
+  "solution": [
+   "Số phần chia được phải là ước chung của 24 và 36",
+   "ƯCLN(24; 36) = 12 nên chia được nhiều nhất 12 phần",
+   "Mỗi phần có: 24 : 12 = 2 cây bút và 36 : 12 = 3 quyển vở"
+  ],
+  "template": "gcdWord",
+  "text": "Thầy giáo có 24 cây bút và 36 quyển vở. Thầy muốn chia thành các phần thưởng giống hệt nhau (mỗi phần có cả bút và vở) sao cho chia hết, không thừa món nào.\na) Hỏi thầy chia được nhiều nhất bao nhiêu phần thưởng?\nb) Mỗi phần có bao nhiêu cây bút và bao nhiêu quyển vở?",
+  "theory": "ƯCLN của hai số là số lớn nhất trong các ước chung của chúng. Bài toán chia đều thành các phần giống hệt nhau và muốn số phần nhiều nhất → tìm ƯCLN.",
+  "title": "Bài 5: Chia phần thưởng",
+  "topic": "Ước chung lớn nhất"
  },
  {
   "analysis": {
@@ -252,22 +379,6 @@
   "chapter": 2,
   "hint": "6 = 2 × 3 và 8 = 2³, nên BCNN(6; 8) = 2³ × 3.",
   "id": "p6",
-  "parts": [
-   {
-    "answer": "24",
-    "label": "Sau ít nhất",
-    "unit": "ngày"
-   }
-  ],
-  "solution": [
-   "Số ngày cần tìm là bội chung của 6 và 8",
-   "BCNN(6; 8) = 24",
-   "Vậy sau ít nhất 24 ngày hai bạn lại cùng trực nhật"
-  ],
-  "text": "An cứ 6 ngày trực nhật một lần, Bình cứ 8 ngày trực nhật một lần. Hôm nay hai bạn cùng trực nhật. Hỏi sau ít nhất bao nhiêu ngày nữa thì hai bạn lại cùng trực nhật?",
-  "title": "Bài 6: Lịch trực nhật",
-  "topic": "Bội chung nhỏ nhất",
-  "theory": "BCNN của hai số là số nhỏ nhất khác 0 trong các bội chung của chúng. Bài toán \"khi nào hai việc lặp lại cùng lúc\" → tìm BCNN.",
   "kw": [
    {
     "t": "6 ngày trực nhật một lần",
@@ -290,7 +401,23 @@
     "why": "Điều cần tìm + từ khóa \"ít nhất\": số ngày nhỏ nhất → tìm BCNN(6; 8)."
    }
   ],
-  "template": "lcmWord"
+  "parts": [
+   {
+    "answer": "24",
+    "label": "Sau ít nhất",
+    "unit": "ngày"
+   }
+  ],
+  "solution": [
+   "Số ngày cần tìm là bội chung của 6 và 8",
+   "BCNN(6; 8) = 24",
+   "Vậy sau ít nhất 24 ngày hai bạn lại cùng trực nhật"
+  ],
+  "template": "lcmWord",
+  "text": "An cứ 6 ngày trực nhật một lần, Bình cứ 8 ngày trực nhật một lần. Hôm nay hai bạn cùng trực nhật. Hỏi sau ít nhất bao nhiêu ngày nữa thì hai bạn lại cùng trực nhật?",
+  "theory": "BCNN của hai số là số nhỏ nhất khác 0 trong các bội chung của chúng. Bài toán \"khi nào hai việc lặp lại cùng lúc\" → tìm BCNN.",
+  "title": "Bài 6: Lịch trực nhật",
+  "topic": "Bội chung nhỏ nhất"
  },
  {
   "analysis": {
@@ -304,22 +431,6 @@
   "chapter": 2,
   "hint": "BCNN(10; 12) = 60. Các bội của 60 là 60; 120; 180; ...",
   "id": "p7",
-  "parts": [
-   {
-    "answer": "120",
-    "label": "Số học sinh khối 6",
-    "unit": "em"
-   }
-  ],
-  "solution": [
-   "Số học sinh là bội chung của 10 và 12",
-   "BCNN(10; 12) = 60 nên số học sinh thuộc {60; 120; 180; ...}",
-   "Chỉ có 120 nằm trong khoảng 100–130. Vậy khối 6 có 120 học sinh"
-  ],
-  "text": "Số học sinh khối 6 của một trường trong khoảng từ 100 đến 130 em. Khi xếp hàng 10 hoặc hàng 12 thì đều vừa đủ, không thừa em nào. Hỏi khối 6 có bao nhiêu học sinh?",
-  "title": "Bài 7: Xếp hàng",
-  "topic": "Bài toán bội chung",
-  "theory": "Số chia hết cho cả 10 và 12 là bội chung của 10 và 12. Liệt kê bội của BCNN rồi chọn số thuộc khoảng đề cho.",
   "kw": [
    {
     "t": "từ 100 đến 130 em",
@@ -342,7 +453,88 @@
     "why": "Điều cần tìm: số học sinh khối 6."
    }
   ],
-  "template": "rangeWord"
+  "parts": [
+   {
+    "answer": "120",
+    "label": "Số học sinh khối 6",
+    "unit": "em"
+   }
+  ],
+  "solution": [
+   "Số học sinh là bội chung của 10 và 12",
+   "BCNN(10; 12) = 60 nên số học sinh thuộc {60; 120; 180; ...}",
+   "Chỉ có 120 nằm trong khoảng 100–130. Vậy khối 6 có 120 học sinh"
+  ],
+  "template": "rangeWord",
+  "text": "Số học sinh khối 6 của một trường trong khoảng từ 100 đến 130 em. Khi xếp hàng 10 hoặc hàng 12 thì đều vừa đủ, không thừa em nào. Hỏi khối 6 có bao nhiêu học sinh?",
+  "theory": "Số chia hết cho cả 10 và 12 là bội chung của 10 và 12. Liệt kê bội của BCNN rồi chọn số thuộc khoảng đề cho.",
+  "title": "Bài 7: Xếp hàng",
+  "topic": "Bài toán bội chung"
+ },
+ {
+  "analysis": {
+   "ask": "Số đối của −7; số số nguyên nằm giữa −3 và 2; số số nguyên âm trong các số đã cho",
+   "given": [
+    "Trục số: điểm 0 ở giữa, bên phải số 0 là các số nguyên dương, bên trái số 0 là các số nguyên âm",
+    "Các số cần xét ở ý c): −5; 0; 3; −1; 4"
+   ],
+   "plan": "Số đối của một số nằm ở phía bên kia của điểm 0 và cách đều 0. Đếm các số nguyên nằm giữa hai số bằng cách liệt kê. Số nguyên âm là số nhỏ hơn 0, có dấu trừ ở phía trước."
+  },
+  "chapter": 3,
+  "figNote": "👆 Bấm vào các điểm tròn trên trục số để xem số đó là số nguyên âm, số nguyên dương hay là số đối của nhau.",
+  "hint": "Số đối của −7 nằm bên phải điểm 0, cách 0 đúng 7 đơn vị. Các số nguyên nằm giữa −3 và 2 là: −2; −1; 0; 1.",
+  "id": "p25",
+  "kw": [
+   {
+    "t": "trục số",
+    "type": "data",
+    "why": "Đề cho: hình trục số giúp nhìn rõ vị trí của các số nguyên."
+   },
+   {
+    "t": "Số đối",
+    "type": "op",
+    "why": "Từ khóa: số đối nằm ở phía bên kia của điểm 0 và cách đều 0. Ví dụ: số đối của 3 là −3."
+   },
+   {
+    "t": "nằm giữa −3 và 2",
+    "type": "ask",
+    "why": "Điều cần tìm (ý b): các số nguyên lớn hơn −3 và nhỏ hơn 2, không kể −3 và 2."
+   },
+   {
+    "t": "số nguyên âm",
+    "type": "ask",
+    "why": "Điều cần tìm (ý c): các số nhỏ hơn 0, viết với dấu trừ ở phía trước."
+   }
+  ],
+  "parts": [
+   {
+    "answer": "7",
+    "label": "a) Số đối của −7",
+    "unit": ""
+   },
+   {
+    "answer": "4",
+    "label": "b) Số số nguyên nằm giữa −3 và 2",
+    "unit": "số"
+   },
+   {
+    "answer": "2",
+    "label": "c) Số số nguyên âm trong các số đã cho",
+    "unit": "số"
+   }
+  ],
+  "shape": "truc-so-nguyen",
+  "solution": [
+   "Bước 1) Ý a) Số đối của −7 nằm ở phía đối diện qua điểm 0 và cách 0 đúng 7 đơn vị: đó là số 7.",
+   "Bước 2) Ý b) Liệt kê các số nguyên lớn hơn −3 và nhỏ hơn 2: −2; −1; 0; 1. Đếm được 4 số.",
+   "Bước 3) Ý c) Các số nguyên âm là các số có dấu trừ ở phía trước: trong các số đã cho có −5 và −1. Vậy có 2 số nguyên âm."
+  ],
+  "svg": "<svg viewBox=\"0 0 470 74\"><line x1=\"16\" y1=\"38\" x2=\"440\" y2=\"38\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"16,32 2,38 16,44\" fill=\"#37474f\"/><polygon points=\"440,32 454,38 440,44\" fill=\"#37474f\"/><line x1=\"60\" y1=\"32\" x2=\"60\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"60\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−5</text><circle cx=\"60\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"96\" y1=\"32\" x2=\"96\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"96\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−4</text><g class=\"nlp\" data-info=\"Số −4 là số nguyên âm: nó nằm bên trái điểm 0 nên nhỏ hơn 0. Đọc là 'âm bốn'.\"><circle cx=\"96\" cy=\"38\" r=\"10\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"96\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#37474f\">−4</text></g><line x1=\"132\" y1=\"32\" x2=\"132\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"132\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−3</text><g class=\"nlp\" data-info=\"Số −3 và số 3 là hai số đối nhau: chúng nằm ở hai phía của điểm 0 và cùng cách 0 ba đơn vị.\"><circle cx=\"132\" cy=\"38\" r=\"10\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"132\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#37474f\">−3</text></g><line x1=\"168\" y1=\"32\" x2=\"168\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"168\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−2</text><circle cx=\"168\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"204\" y1=\"32\" x2=\"204\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"204\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">−1</text><circle cx=\"204\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"240\" y1=\"32\" x2=\"240\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><g class=\"nlp\" data-info=\"Điểm 0 là gốc của trục số. Số 0 không phải số nguyên âm, cũng không phải số nguyên dương.\"><circle cx=\"240\" cy=\"38\" r=\"10\" fill=\"#fff59d\" stroke=\"#f57c00\" stroke-width=\"2\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#37474f\">0</text></g><line x1=\"276\" y1=\"32\" x2=\"276\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"276\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"276\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"312\" y1=\"32\" x2=\"312\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"312\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle cx=\"312\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"348\" y1=\"32\" x2=\"348\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"348\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><g class=\"nlp\" data-info=\"Số 3 là số nguyên dương. Số đối của 3 là −3, nằm ở phía bên trái và cũng cách 0 ba đơn vị.\"><circle cx=\"348\" cy=\"38\" r=\"10\" fill=\"#c8e6c9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"348\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#37474f\">3</text></g><line x1=\"384\" y1=\"32\" x2=\"384\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"384\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"384\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"420\" y1=\"32\" x2=\"420\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"420\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle cx=\"420\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/></svg>",
+  "template": "intSet",
+  "text": "Quan sát trục số ở hình dưới và trả lời:\na) Số đối của −7 là số nào?\nb) Có bao nhiêu số nguyên nằm giữa −3 và 2?\nc) Trong các số −5; 0; 3; −1; 4, có bao nhiêu số nguyên âm?",
+  "theory": "Tập hợp các số nguyên (Bài 13): gồm các số nguyên âm (…; −3; −2; −1), số 0 và các số nguyên dương (1; 2; 3; …). Trên trục số, hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0. Số đối của 0 là 0.",
+  "title": "Số nguyên và số đối",
+  "topic": "Tập hợp các số nguyên (Bài 13)"
  },
  {
   "analysis": {
@@ -357,26 +549,6 @@
   "chapter": 3,
   "hint": "−3 + 8 = 5.",
   "id": "p8",
-  "parts": [
-   {
-    "answer": "5",
-    "label": "a) Nhiệt độ buổi trưa",
-    "unit": "°C"
-   },
-   {
-    "answer": "0",
-    "label": "b) Nhiệt độ buổi tối",
-    "unit": "°C"
-   }
-  ],
-  "solution": [
-   "Nhiệt độ buổi trưa: −3 + 8 = 5 (°C)",
-   "Nhiệt độ buổi tối: 5 − 5 = 0 (°C)"
-  ],
-  "text": "Buổi sáng, nhiệt độ ở Sa Pa là −3°C. Đến trưa, nhiệt độ tăng thêm 8°C. Đến tối, nhiệt độ giảm 5°C so với buổi trưa.\na) Nhiệt độ buổi trưa là bao nhiêu?\nb) Nhiệt độ buổi tối là bao nhiêu?",
-  "title": "Bài 8: Nhiệt độ",
-  "topic": "Cộng, trừ số nguyên",
-  "theory": "Nhiệt độ tăng thêm → phép cộng; nhiệt độ giảm đi → phép trừ. Số âm chỉ nhiệt độ dưới 0°C.",
   "kw": [
    {
     "t": "−3°C",
@@ -404,7 +576,27 @@
     "why": "Điều cần tìm (ý b): nhiệt độ buổi tối."
    }
   ],
-  "template": "tempWord"
+  "parts": [
+   {
+    "answer": "5",
+    "label": "a) Nhiệt độ buổi trưa",
+    "unit": "°C"
+   },
+   {
+    "answer": "0",
+    "label": "b) Nhiệt độ buổi tối",
+    "unit": "°C"
+   }
+  ],
+  "solution": [
+   "Nhiệt độ buổi trưa: −3 + 8 = 5 (°C)",
+   "Nhiệt độ buổi tối: 5 − 5 = 0 (°C)"
+  ],
+  "template": "tempWord",
+  "text": "Buổi sáng, nhiệt độ ở Sa Pa là −3°C. Đến trưa, nhiệt độ tăng thêm 8°C. Đến tối, nhiệt độ giảm 5°C so với buổi trưa.\na) Nhiệt độ buổi trưa là bao nhiêu?\nb) Nhiệt độ buổi tối là bao nhiêu?",
+  "theory": "Nhiệt độ tăng thêm → phép cộng; nhiệt độ giảm đi → phép trừ. Số âm chỉ nhiệt độ dưới 0°C.",
+  "title": "Bài 8: Nhiệt độ",
+  "topic": "Cộng, trừ số nguyên"
  },
  {
   "analysis": {
@@ -417,20 +609,6 @@
   "chapter": 3,
   "hint": "(−25) + 40 = 15.",
   "id": "p9",
-  "parts": [
-   {
-    "answer": "2",
-    "label": "Kết quả",
-    "unit": ""
-   }
-  ],
-  "solution": [
-   "(−25) + 40 − 13 = 15 − 13 = 2"
-  ],
-  "text": "Tính giá trị của biểu thức:\n(−25) + 40 − 13",
-  "title": "Bài 9: Tính giá trị biểu thức",
-  "topic": "Tính biểu thức số nguyên",
-  "theory": "Cộng hai số nguyên khác dấu: lấy số có giá trị lớn hơn trừ số nhỏ hơn, kết quả mang dấu của số lớn hơn. Sau đó tính tiếp từ trái sang phải.",
   "kw": [
    {
     "t": "Tính giá trị của biểu thức",
@@ -443,7 +621,21 @@
     "why": "Số liệu đề cho: biểu thức số nguyên, tính từ trái sang phải."
    }
   ],
-  "template": "intExpr"
+  "parts": [
+   {
+    "answer": "2",
+    "label": "Kết quả",
+    "unit": ""
+   }
+  ],
+  "solution": [
+   "(−25) + 40 − 13 = 15 − 13 = 2"
+  ],
+  "template": "intExpr",
+  "text": "Tính giá trị của biểu thức:\n(−25) + 40 − 13",
+  "theory": "Cộng hai số nguyên khác dấu: lấy số có giá trị lớn hơn trừ số nhỏ hơn, kết quả mang dấu của số lớn hơn. Sau đó tính tiếp từ trái sang phải.",
+  "title": "Bài 9: Tính giá trị biểu thức",
+  "topic": "Tính biểu thức số nguyên"
  },
  {
   "analysis": {
@@ -459,21 +651,6 @@
   "chapter": 3,
   "hint": "50 000 − 35 000 = 15 000.",
   "id": "p10",
-  "parts": [
-   {
-    "answer": "20000",
-    "label": "Nam còn lại",
-    "unit": "đồng"
-   }
-  ],
-  "solution": [
-   "Số tiền còn lại: 50 000 − 35 000 + 20 000 − 15 000",
-   "= 15 000 + 20 000 − 15 000 = 20 000 (đồng)"
-  ],
-  "text": "Nam có 50 000 đồng. Nam mua vở hết 35 000 đồng, sau đó được mẹ cho thêm 20 000 đồng, rồi mua bút hết 15 000 đồng. Hỏi Nam còn lại bao nhiêu tiền?",
-  "title": "Bài 10: Tiền tiêu vặt",
-  "topic": "Bài toán thực tế với số nguyên",
-  "theory": "Chi tiền (mua đồ) → phép trừ; nhận thêm tiền → phép cộng. Ghi các khoản theo thứ tự xảy ra rồi tính lần lượt.",
   "kw": [
    {
     "t": "có 50 000 đồng",
@@ -501,7 +678,22 @@
     "why": "Điều cần tìm: số tiền còn lại của Nam."
    }
   ],
-  "template": "moneyWord"
+  "parts": [
+   {
+    "answer": "20000",
+    "label": "Nam còn lại",
+    "unit": "đồng"
+   }
+  ],
+  "solution": [
+   "Số tiền còn lại: 50 000 − 35 000 + 20 000 − 15 000",
+   "= 15 000 + 20 000 − 15 000 = 20 000 (đồng)"
+  ],
+  "template": "moneyWord",
+  "text": "Nam có 50 000 đồng. Nam mua vở hết 35 000 đồng, sau đó được mẹ cho thêm 20 000 đồng, rồi mua bút hết 15 000 đồng. Hỏi Nam còn lại bao nhiêu tiền?",
+  "theory": "Chi tiền (mua đồ) → phép trừ; nhận thêm tiền → phép cộng. Ghi các khoản theo thứ tự xảy ra rồi tính lần lượt.",
+  "title": "Bài 10: Tiền tiêu vặt",
+  "topic": "Bài toán thực tế với số nguyên"
  },
  {
   "analysis": {
@@ -514,27 +706,6 @@
   "chapter": 4,
   "hint": "15 + 8 = 23.",
   "id": "p11",
-  "parts": [
-   {
-    "answer": "46",
-    "label": "a) Chu vi",
-    "unit": "m"
-   },
-   {
-    "answer": "120",
-    "label": "b) Diện tích",
-    "unit": "m²"
-   }
-  ],
-  "solution": [
-   "Chu vi: (15 + 8) × 2 = 23 × 2 = 46 (m)",
-   "Diện tích: 15 × 8 = 120 (m²)"
-  ],
-  "svg": "<svg viewBox=\"0 0 320 200\" style=\"max-width:340px;width:100%\"><rect x=\"50\" y=\"45\" width=\"220\" height=\"110\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"160\" y=\"32\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">15 m</text><text x=\"278\" y=\"105\" font-size=\"16\" fill=\"#333\">8 m</text><text class=\"avtx\" data-v=\"A\" x=\"35\" y=\"168\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"285\" y=\"168\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"285\" y=\"42\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"35\" y=\"42\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 50,155 L 50.0,129.0 A 26,26 0 0 1 76.0,155.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"50\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"270\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 270,155 L 244.0,155.0 A 26,26 0 0 1 270.0,129.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"50\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"270\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 270,45 L 270.0,71.0 A 26,26 0 0 1 244.0,45.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"270\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"50\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 50,45 L 76.0,45.0 A 26,26 0 0 1 50.0,71.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"270\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"50\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"45\" r=\"16\"/></g></svg>",
-  "text": "Một mảnh vườn hình chữ nhật có chiều dài 15 m và chiều rộng 8 m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.",
-  "title": "Bài 11: Mảnh vườn hình chữ nhật",
-  "topic": "Hình chữ nhật",
-  "theory": "Hình chữ nhật ABCD: Chu vi C = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.",
   "kw": [
    {
     "t": "chiều dài 15 m",
@@ -557,8 +728,29 @@
     "why": "Điều cần tìm (ý b): diện tích mảnh vườn."
    }
   ],
+  "parts": [
+   {
+    "answer": "46",
+    "label": "a) Chu vi",
+    "unit": "m"
+   },
+   {
+    "answer": "120",
+    "label": "b) Diện tích",
+    "unit": "m²"
+   }
+  ],
+  "shape": "hinh-chu-nhat",
+  "solution": [
+   "Chu vi: (15 + 8) × 2 = 23 × 2 = 46 (m)",
+   "Diện tích: 15 × 8 = 120 (m²)"
+  ],
+  "svg": "<svg viewBox=\"0 0 320 200\" style=\"max-width:340px;width:100%\"><rect x=\"50\" y=\"45\" width=\"220\" height=\"110\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"160\" y=\"32\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">15 m</text><text x=\"278\" y=\"105\" font-size=\"16\" fill=\"#333\">8 m</text><text class=\"avtx\" data-v=\"A\" x=\"35\" y=\"168\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"285\" y=\"168\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"285\" y=\"42\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"35\" y=\"42\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 50,155 L 50.0,129.0 A 26,26 0 0 1 76.0,155.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"50\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"155\" x2=\"270\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 270,155 L 244.0,155.0 A 26,26 0 0 1 270.0,129.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"50\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"155\" x2=\"270\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"155\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 270,45 L 270.0,71.0 A 26,26 0 0 1 244.0,45.0 Z\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"270\" y2=\"155\"/><line class=\"ang-s\" x1=\"270\" y1=\"45\" x2=\"50\" y2=\"45\"/><circle class=\"ang-w\" cx=\"270\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 50,45 L 76.0,45.0 A 26,26 0 0 1 50.0,71.0 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"270\" y2=\"45\"/><line class=\"ang-s\" x1=\"50\" y1=\"45\" x2=\"50\" y2=\"155\"/><circle class=\"ang-w\" cx=\"50\" cy=\"45\" r=\"16\"/></g></svg>",
   "template": "rectGeo",
-  "shape": "hinh-chu-nhat"
+  "text": "Một mảnh vườn hình chữ nhật có chiều dài 15 m và chiều rộng 8 m.\na) Tính chu vi của mảnh vườn.\nb) Tính diện tích của mảnh vườn.",
+  "theory": "Hình chữ nhật ABCD: Chu vi C = (a + b) × 2; Diện tích S = a × b. Trong đó a là chiều dài, b là chiều rộng.",
+  "title": "Bài 11: Mảnh vườn hình chữ nhật",
+  "topic": "Hình chữ nhật"
  },
  {
   "analysis": {
@@ -571,27 +763,6 @@
   "chapter": 4,
   "hint": "9 × 4 = 36 và 9 × 9 = 81.",
   "id": "p12",
-  "parts": [
-   {
-    "answer": "36",
-    "label": "a) Chu vi",
-    "unit": "m"
-   },
-   {
-    "answer": "81",
-    "label": "b) Diện tích",
-    "unit": "m²"
-   }
-  ],
-  "solution": [
-   "Chu vi: 9 × 4 = 36 (m)",
-   "Diện tích: 9 × 9 = 81 (m²)"
-  ],
-  "svg": "<svg viewBox=\"0 0 240 210\" style=\"max-width:260px;width:100%\"><rect x=\"45\" y=\"35\" width=\"150\" height=\"150\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"120\" y=\"22\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text class=\"avtx\" data-v=\"A\" x=\"33\" y=\"202\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"202\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"207\" y=\"28\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"28\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 45,185 L 45.0,159.0 A 26,26 0 0 1 71.0,185.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"45\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"195\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 195,185 L 169.0,185.0 A 26,26 0 0 1 195.0,159.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"45\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"195\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 195,35 L 195.0,61.0 A 26,26 0 0 1 169.0,35.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"195\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"45\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"35\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 45,35 L 71.0,35.0 A 26,26 0 0 1 45.0,61.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"195\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"45\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"35\" r=\"16\"/></g></svg>",
-  "text": "Một sân chơi hình vuông có cạnh 9 m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.",
-  "title": "Bài 12: Sân chơi hình vuông",
-  "topic": "Hình vuông",
-  "theory": "Hình vuông: Chu vi C = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.",
   "kw": [
    {
     "t": "cạnh 9 m",
@@ -609,8 +780,29 @@
     "why": "Điều cần tìm (ý b): diện tích của sân."
    }
   ],
+  "parts": [
+   {
+    "answer": "36",
+    "label": "a) Chu vi",
+    "unit": "m"
+   },
+   {
+    "answer": "81",
+    "label": "b) Diện tích",
+    "unit": "m²"
+   }
+  ],
+  "shape": "hinh-vuong",
+  "solution": [
+   "Chu vi: 9 × 4 = 36 (m)",
+   "Diện tích: 9 × 9 = 81 (m²)"
+  ],
+  "svg": "<svg viewBox=\"0 0 240 210\" style=\"max-width:260px;width:100%\"><rect x=\"45\" y=\"35\" width=\"150\" height=\"150\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"120\" y=\"22\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text class=\"avtx\" data-v=\"A\" x=\"33\" y=\"202\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"202\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"207\" y=\"28\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"28\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD\"><path class=\"ang-w\" d=\"M 45,185 L 45.0,159.0 A 26,26 0 0 1 71.0,185.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"45\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"185\" x2=\"195\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC\"><path class=\"ang-w\" d=\"M 195,185 L 169.0,185.0 A 26,26 0 0 1 195.0,159.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"45\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"185\" x2=\"195\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"185\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD\"><path class=\"ang-w\" d=\"M 195,35 L 195.0,61.0 A 26,26 0 0 1 169.0,35.0 Z\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"195\" y2=\"185\"/><line class=\"ang-s\" x1=\"195\" y1=\"35\" x2=\"45\" y2=\"35\"/><circle class=\"ang-w\" cx=\"195\" cy=\"35\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA\"><path class=\"ang-w\" d=\"M 45,35 L 71.0,35.0 A 26,26 0 0 1 45.0,61.0 Z\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"195\" y2=\"35\"/><line class=\"ang-s\" x1=\"45\" y1=\"35\" x2=\"45\" y2=\"185\"/><circle class=\"ang-w\" cx=\"45\" cy=\"35\" r=\"16\"/></g></svg>",
   "template": "squareGeo",
-  "shape": "hinh-vuong"
+  "text": "Một sân chơi hình vuông có cạnh 9 m.\na) Tính chu vi của sân.\nb) Tính diện tích của sân.",
+  "theory": "Hình vuông: Chu vi C = a × 4; Diện tích S = a × a. Trong đó a là độ dài cạnh.",
+  "title": "Bài 12: Sân chơi hình vuông",
+  "topic": "Hình vuông"
  },
  {
   "analysis": {
@@ -623,21 +815,6 @@
   "chapter": 4,
   "hint": "Tam giác đều có 3 cạnh bằng nhau.",
   "id": "p13",
-  "parts": [
-   {
-    "answer": "90",
-    "label": "Chu vi",
-    "unit": "cm"
-   }
-  ],
-  "solution": [
-   "Chu vi: 30 × 3 = 90 (cm)"
-  ],
-  "svg": "<svg viewBox=\"0 0 200 195\" style=\"max-width:230px;width:100%\"><polygon points=\"100,20 180,160 20,160\" fill=\"#fff8e1\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"100\" y=\"185\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">30 cm</text><text class=\"avtx\" data-v=\"A\" x=\"100\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"5\" y=\"174\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"195\" y=\"174\" text-anchor=\"middle\">C</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc BAC = 60° — đỉnh A, hai cạnh AB và AC. Tam giác đều có 3 góc bằng nhau, mỗi góc 60°\"><path class=\"ang-w\" d=\"M 100,20 L 85.1,46.0 A 30,30 0 0 0 114.9,46.0 Z\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"100\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 60° — đỉnh B, hai cạnh BA và BC\"><path class=\"ang-w\" d=\"M 20,160 L 34.9,134.0 A 30,30 0 0 1 50.0,160.0 Z\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"100\" y2=\"20\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"20\" cy=\"160\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCA = 60° — đỉnh C, hai cạnh CB và CA\"><path class=\"ang-w\" d=\"M 180,160 L 150.0,160.0 A 30,30 0 0 1 165.1,134.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"100\" y2=\"20\"/><circle class=\"ang-w\" cx=\"180\" cy=\"160\" r=\"16\"/></g></svg>",
-  "text": "Một biển báo giao thông có dạng tam giác đều với cạnh dài 30 cm. Tính chu vi của biển báo đó.",
-  "title": "Bài 13: Biển báo tam giác đều",
-  "topic": "Tam giác đều",
-  "theory": "Tam giác đều: Chu vi C = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).",
   "kw": [
    {
     "t": "tam giác đều",
@@ -655,8 +832,23 @@
     "why": "Điều cần tìm: chu vi của biển báo."
    }
   ],
+  "parts": [
+   {
+    "answer": "90",
+    "label": "Chu vi",
+    "unit": "cm"
+   }
+  ],
+  "shape": "tam-giac-deu",
+  "solution": [
+   "Chu vi: 30 × 3 = 90 (cm)"
+  ],
+  "svg": "<svg viewBox=\"0 0 200 195\" style=\"max-width:230px;width:100%\"><polygon points=\"100,20 180,160 20,160\" fill=\"#fff8e1\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"100\" y=\"185\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">30 cm</text><text class=\"avtx\" data-v=\"A\" x=\"100\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"5\" y=\"174\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"195\" y=\"174\" text-anchor=\"middle\">C</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc BAC = 60° — đỉnh A, hai cạnh AB và AC. Tam giác đều có 3 góc bằng nhau, mỗi góc 60°\"><path class=\"ang-w\" d=\"M 100,20 L 85.1,46.0 A 30,30 0 0 0 114.9,46.0 Z\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"100\" y1=\"20\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"100\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC = 60° — đỉnh B, hai cạnh BA và BC\"><path class=\"ang-w\" d=\"M 20,160 L 34.9,134.0 A 30,30 0 0 1 50.0,160.0 Z\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"100\" y2=\"20\"/><line class=\"ang-s\" x1=\"20\" y1=\"160\" x2=\"180\" y2=\"160\"/><circle class=\"ang-w\" cx=\"20\" cy=\"160\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCA = 60° — đỉnh C, hai cạnh CB và CA\"><path class=\"ang-w\" d=\"M 180,160 L 150.0,160.0 A 30,30 0 0 1 165.1,134.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"20\" y2=\"160\"/><line class=\"ang-s\" x1=\"180\" y1=\"160\" x2=\"100\" y2=\"20\"/><circle class=\"ang-w\" cx=\"180\" cy=\"160\" r=\"16\"/></g></svg>",
   "template": "triGeo",
-  "shape": "tam-giac-deu"
+  "text": "Một biển báo giao thông có dạng tam giác đều với cạnh dài 30 cm. Tính chu vi của biển báo đó.",
+  "theory": "Tam giác đều: Chu vi C = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).",
+  "title": "Bài 13: Biển báo tam giác đều",
+  "topic": "Tam giác đều"
  },
  {
   "analysis": {
@@ -670,21 +862,6 @@
   "chapter": 4,
   "hint": "Hình thang cân có hai cạnh bên bằng nhau.",
   "id": "p14",
-  "parts": [
-   {
-    "answer": "30",
-    "label": "Chu vi",
-    "unit": "cm"
-   }
-  ],
-  "solution": [
-   "Chu vi: 12 + 8 + 5 + 5 = 30 (cm)"
-  ],
-  "svg": "<svg viewBox=\"0 0 260 175\" style=\"max-width:300px;width:100%\"><polygon points=\"30,130 230,130 180,40 80,40\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"130\" y=\"158\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">12 cm</text><text x=\"130\" y=\"30\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"18\" y=\"88\" font-size=\"16\" fill=\"#333\">5 cm</text><text class=\"avtx\" data-v=\"A\" x=\"14\" y=\"142\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"246\" y=\"142\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"193\" y=\"34\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"67\" y=\"34\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc này bằng góc ABC (hai góc kề cùng đáy lớn) và bù với góc CDA (tổng 180°)\"><path class=\"ang-w\" d=\"M 30,130 L 42.6,107.3 A 26,26 0 0 1 56.0,130.0 Z\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"80\" y2=\"40\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"230\" y2=\"130\"/><circle class=\"ang-w\" cx=\"30\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc DAB và bù với góc BCD (tổng 180°)\"><path class=\"ang-w\" d=\"M 230,130 L 204.0,130.0 A 26,26 0 0 1 217.4,107.3 Z\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"30\" y2=\"130\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"180\" y2=\"40\"/><circle class=\"ang-w\" cx=\"230\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc CDA (hai góc kề cùng đáy nhỏ)\"><path class=\"ang-w\" d=\"M 180,40 L 192.6,62.7 A 26,26 0 0 1 154.0,40.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"230\" y2=\"130\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"80\" y2=\"40\"/><circle class=\"ang-w\" cx=\"180\" cy=\"40\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc BCD và bù với góc DAB (tổng 180°)\"><path class=\"ang-w\" d=\"M 80,40 L 106.0,40.0 A 26,26 0 0 1 67.4,62.7 Z\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"180\" y2=\"40\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"30\" y2=\"130\"/><circle class=\"ang-w\" cx=\"80\" cy=\"40\" r=\"16\"/></g></svg>",
-  "text": "Mặt bàn có dạng hình thang cân với đáy lớn 12 cm, đáy nhỏ 8 cm và cạnh bên 5 cm. Tính chu vi của mặt bàn.",
-  "title": "Bài 14: Mặt bàn hình thang cân",
-  "topic": "Hình thang cân",
-  "theory": "Hình thang: Diện tích S = (a + b) × h : 2. Trong đó a là đáy lớn, b là đáy nhỏ, h là chiều cao. Chu vi bằng tổng độ dài tất cả các cạnh.",
   "kw": [
    {
     "t": "hình thang cân",
@@ -712,8 +889,23 @@
     "why": "Điều cần tìm: chu vi mặt bàn = tổng 4 cạnh."
    }
   ],
+  "parts": [
+   {
+    "answer": "30",
+    "label": "Chu vi",
+    "unit": "cm"
+   }
+  ],
+  "shape": "hinh-thang-can",
+  "solution": [
+   "Chu vi: 12 + 8 + 5 + 5 = 30 (cm)"
+  ],
+  "svg": "<svg viewBox=\"0 0 260 175\" style=\"max-width:300px;width:100%\"><polygon points=\"30,130 230,130 180,40 80,40\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><text x=\"130\" y=\"158\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">12 cm</text><text x=\"130\" y=\"30\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"18\" y=\"88\" font-size=\"16\" fill=\"#333\">5 cm</text><text class=\"avtx\" data-v=\"A\" x=\"14\" y=\"142\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"246\" y=\"142\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"193\" y=\"34\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"67\" y=\"34\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc này bằng góc ABC (hai góc kề cùng đáy lớn) và bù với góc CDA (tổng 180°)\"><path class=\"ang-w\" d=\"M 30,130 L 42.6,107.3 A 26,26 0 0 1 56.0,130.0 Z\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"80\" y2=\"40\"/><line class=\"ang-s\" x1=\"30\" y1=\"130\" x2=\"230\" y2=\"130\"/><circle class=\"ang-w\" cx=\"30\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc DAB và bù với góc BCD (tổng 180°)\"><path class=\"ang-w\" d=\"M 230,130 L 204.0,130.0 A 26,26 0 0 1 217.4,107.3 Z\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"30\" y2=\"130\"/><line class=\"ang-s\" x1=\"230\" y1=\"130\" x2=\"180\" y2=\"40\"/><circle class=\"ang-w\" cx=\"230\" cy=\"130\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc CDA (hai góc kề cùng đáy nhỏ)\"><path class=\"ang-w\" d=\"M 180,40 L 192.6,62.7 A 26,26 0 0 1 154.0,40.0 Z\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"230\" y2=\"130\"/><line class=\"ang-s\" x1=\"180\" y1=\"40\" x2=\"80\" y2=\"40\"/><circle class=\"ang-w\" cx=\"180\" cy=\"40\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc BCD và bù với góc DAB (tổng 180°)\"><path class=\"ang-w\" d=\"M 80,40 L 106.0,40.0 A 26,26 0 0 1 67.4,62.7 Z\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"180\" y2=\"40\"/><line class=\"ang-s\" x1=\"80\" y1=\"40\" x2=\"30\" y2=\"130\"/><circle class=\"ang-w\" cx=\"80\" cy=\"40\" r=\"16\"/></g></svg>",
   "template": "trapGeo",
-  "shape": "hinh-thang-can"
+  "text": "Mặt bàn có dạng hình thang cân với đáy lớn 12 cm, đáy nhỏ 8 cm và cạnh bên 5 cm. Tính chu vi của mặt bàn.",
+  "theory": "Hình thang: Diện tích S = (a + b) × h : 2. Trong đó a là đáy lớn, b là đáy nhỏ, h là chiều cao. Chu vi bằng tổng độ dài tất cả các cạnh.",
+  "title": "Bài 14: Mặt bàn hình thang cân",
+  "topic": "Hình thang cân"
  },
  {
   "analysis": {
@@ -726,21 +918,6 @@
   "chapter": 4,
   "hint": "6 × 8 = 48, rồi chia cho 2.",
   "id": "p15",
-  "parts": [
-   {
-    "answer": "24",
-    "label": "Diện tích",
-    "unit": "cm²"
-   }
-  ],
-  "solution": [
-   "Diện tích: (6 × 8) : 2 = 48 : 2 = 24 (cm²)"
-  ],
-  "svg": "<svg viewBox=\"0 0 240 205\" style=\"max-width:260px;width:100%\"><polygon points=\"120,20 190,100 120,180 50,100\" fill=\"#f3e5f5\" stroke=\"#6a1b9a\" stroke-width=\"2\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"180\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><line x1=\"50\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><text x=\"130\" y=\"60\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"132\" y=\"92\" font-size=\"16\" fill=\"#333\">6 cm</text><text class=\"avtx\" data-v=\"A\" x=\"120\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"105\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"120\" y=\"202\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"105\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc đối của nó là góc BCD, hai góc đối bằng nhau. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,20 L 102.9,39.6 A 26,26 0 0 0 137.1,39.6 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"50\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"190\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc đối của nó là góc CDA. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 190,100 L 172.9,80.4 A 26,26 0 0 0 172.9,119.6 Z\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"20\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"180\"/><circle class=\"ang-w\" cx=\"190\" cy=\"100\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc đối của nó là góc DAB. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,180 L 137.1,160.4 A 26,26 0 0 0 102.9,160.4 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"190\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"50\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"180\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc đối của nó là góc ABC. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 50,100 L 67.1,119.6 A 26,26 0 0 0 67.1,80.4 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"180\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"20\"/><circle class=\"ang-w\" cx=\"50\" cy=\"100\" r=\"16\"/></g></svg>",
-  "text": "Một viên gạch trang trí hình thoi có hai đường chéo dài 6 cm và 8 cm. Tính diện tích của viên gạch.",
-  "title": "Bài 15: Diện tích hình thoi",
-  "topic": "Hình thoi",
-  "theory": "Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).",
   "kw": [
    {
     "t": "hai đường chéo dài 6 cm và 8 cm",
@@ -753,8 +930,23 @@
     "why": "Điều cần tìm: diện tích viên gạch (hình thoi)."
    }
   ],
+  "parts": [
+   {
+    "answer": "24",
+    "label": "Diện tích",
+    "unit": "cm²"
+   }
+  ],
+  "shape": "hinh-thoi",
+  "solution": [
+   "Diện tích: (6 × 8) : 2 = 48 : 2 = 24 (cm²)"
+  ],
+  "svg": "<svg viewBox=\"0 0 240 205\" style=\"max-width:260px;width:100%\"><polygon points=\"120,20 190,100 120,180 50,100\" fill=\"#f3e5f5\" stroke=\"#6a1b9a\" stroke-width=\"2\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"180\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><line x1=\"50\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#6a1b9a\" stroke-dasharray=\"5 4\"/><text x=\"130\" y=\"60\" font-size=\"16\" fill=\"#333\">8 cm</text><text x=\"132\" y=\"92\" font-size=\"16\" fill=\"#333\">6 cm</text><text class=\"avtx\" data-v=\"A\" x=\"120\" y=\"8\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"207\" y=\"105\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"120\" y=\"202\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"33\" y=\"105\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Góc đối của nó là góc BCD, hai góc đối bằng nhau. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,20 L 102.9,39.6 A 26,26 0 0 0 137.1,39.6 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"50\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"20\" x2=\"190\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"20\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc đối của nó là góc CDA. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 190,100 L 172.9,80.4 A 26,26 0 0 0 172.9,119.6 Z\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"20\"/><line class=\"ang-s\" x1=\"190\" y1=\"100\" x2=\"120\" y2=\"180\"/><circle class=\"ang-w\" cx=\"190\" cy=\"100\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc đối của nó là góc DAB. Đường chéo AC là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 120,180 L 137.1,160.4 A 26,26 0 0 0 102.9,160.4 Z\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"190\" y2=\"100\"/><line class=\"ang-s\" x1=\"120\" y1=\"180\" x2=\"50\" y2=\"100\"/><circle class=\"ang-w\" cx=\"120\" cy=\"180\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc đối của nó là góc ABC. Đường chéo BD là tia phân giác của góc này\"><path class=\"ang-w\" d=\"M 50,100 L 67.1,119.6 A 26,26 0 0 0 67.1,80.4 Z\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"180\"/><line class=\"ang-s\" x1=\"50\" y1=\"100\" x2=\"120\" y2=\"20\"/><circle class=\"ang-w\" cx=\"50\" cy=\"100\" r=\"16\"/></g></svg>",
   "template": "rhombusGeo",
-  "shape": "hinh-thoi"
+  "text": "Một viên gạch trang trí hình thoi có hai đường chéo dài 6 cm và 8 cm. Tính diện tích của viên gạch.",
+  "theory": "Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).",
+  "title": "Bài 15: Diện tích hình thoi",
+  "topic": "Hình thoi"
  },
  {
   "analysis": {
@@ -767,21 +959,6 @@
   "chapter": 4,
   "hint": "Lấy cạnh đáy nhân với chiều cao: 9 × 5.",
   "id": "p16",
-  "parts": [
-   {
-    "answer": "45",
-    "label": "Diện tích",
-    "unit": "m²"
-   }
-  ],
-  "solution": [
-   "Diện tích: 9 × 5 = 45 (m²)"
-  ],
-  "svg": "<svg viewBox=\"0 0 260 185\" style=\"max-width:300px;width:100%\"><polygon points=\"40,140 200,140 235,45 75,45\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"75\" y1=\"45\" x2=\"75\" y2=\"140\" stroke=\"#1565c0\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"166\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text x=\"84\" y=\"98\" font-size=\"16\" fill=\"#333\">5 m</text><text class=\"avtx\" data-v=\"A\" x=\"25\" y=\"152\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"214\" y=\"155\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"250\" y=\"43\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"61\" y=\"40\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Hai góc đối trong hình bình hành bằng nhau: góc này bằng góc BCD; góc kề với nó (ABC, CDA) bù nhau, tổng 180°\"><path class=\"ang-w\" d=\"M 40,140 L 49.0,115.6 A 26,26 0 0 1 66.0,140.0 Z\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"75\" y2=\"45\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"200\" y2=\"140\"/><circle class=\"ang-w\" cx=\"40\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc CDA (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 200,140 L 174.0,140.0 A 26,26 0 0 1 209.0,115.6 Z\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"40\" y2=\"140\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"235\" y2=\"45\"/><circle class=\"ang-w\" cx=\"200\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc DAB (hai góc đối)\"><path class=\"ang-w\" d=\"M 235,45 L 226.0,69.4 A 26,26 0 0 1 209.0,45.0 Z\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"200\" y2=\"140\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"75\" y2=\"45\"/><circle class=\"ang-w\" cx=\"235\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc ABC (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 75,45 L 101.0,45.0 A 26,26 0 0 1 66.0,69.4 Z\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"235\" y2=\"45\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"40\" y2=\"140\"/><circle class=\"ang-w\" cx=\"75\" cy=\"45\" r=\"16\"/></g></svg>",
-  "text": "Một mảnh đất hình bình hành có cạnh đáy 9 m và chiều cao tương ứng 5 m. Tính diện tích của mảnh đất.",
-  "title": "Bài 16: Diện tích hình bình hành",
-  "topic": "Hình bình hành",
-  "theory": "Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.",
   "kw": [
    {
     "t": "cạnh đáy 9 m",
@@ -799,8 +976,23 @@
     "why": "Điều cần tìm: diện tích mảnh đất."
    }
   ],
+  "parts": [
+   {
+    "answer": "45",
+    "label": "Diện tích",
+    "unit": "m²"
+   }
+  ],
+  "shape": "hinh-binh-hanh",
+  "solution": [
+   "Diện tích: 9 × 5 = 45 (m²)"
+  ],
+  "svg": "<svg viewBox=\"0 0 260 185\" style=\"max-width:300px;width:100%\"><polygon points=\"40,140 200,140 235,45 75,45\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"75\" y1=\"45\" x2=\"75\" y2=\"140\" stroke=\"#1565c0\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"166\" text-anchor=\"middle\" font-size=\"16\" fill=\"#333\">9 m</text><text x=\"84\" y=\"98\" font-size=\"16\" fill=\"#333\">5 m</text><text class=\"avtx\" data-v=\"A\" x=\"25\" y=\"152\" text-anchor=\"middle\">A</text><text class=\"avtx\" data-v=\"B\" x=\"214\" y=\"155\" text-anchor=\"middle\">B</text><text class=\"avtx\" data-v=\"C\" x=\"250\" y=\"43\" text-anchor=\"middle\">C</text><text class=\"avtx\" data-v=\"D\" x=\"61\" y=\"40\" text-anchor=\"middle\">D</text><g class=\"ang\" data-v=\"A\" data-info=\"Góc DAB — đỉnh A, hai cạnh AB và AD. Hai góc đối trong hình bình hành bằng nhau: góc này bằng góc BCD; góc kề với nó (ABC, CDA) bù nhau, tổng 180°\"><path class=\"ang-w\" d=\"M 40,140 L 49.0,115.6 A 26,26 0 0 1 66.0,140.0 Z\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"75\" y2=\"45\"/><line class=\"ang-s\" x1=\"40\" y1=\"140\" x2=\"200\" y2=\"140\"/><circle class=\"ang-w\" cx=\"40\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"B\" data-info=\"Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc CDA (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 200,140 L 174.0,140.0 A 26,26 0 0 1 209.0,115.6 Z\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"40\" y2=\"140\"/><line class=\"ang-s\" x1=\"200\" y1=\"140\" x2=\"235\" y2=\"45\"/><circle class=\"ang-w\" cx=\"200\" cy=\"140\" r=\"16\"/></g><g class=\"ang\" data-v=\"C\" data-info=\"Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc DAB (hai góc đối)\"><path class=\"ang-w\" d=\"M 235,45 L 226.0,69.4 A 26,26 0 0 1 209.0,45.0 Z\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"200\" y2=\"140\"/><line class=\"ang-s\" x1=\"235\" y1=\"45\" x2=\"75\" y2=\"45\"/><circle class=\"ang-w\" cx=\"235\" cy=\"45\" r=\"16\"/></g><g class=\"ang\" data-v=\"D\" data-info=\"Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc ABC (hai góc đối), bù với góc DAB\"><path class=\"ang-w\" d=\"M 75,45 L 101.0,45.0 A 26,26 0 0 1 66.0,69.4 Z\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"235\" y2=\"45\"/><line class=\"ang-s\" x1=\"75\" y1=\"45\" x2=\"40\" y2=\"140\"/><circle class=\"ang-w\" cx=\"75\" cy=\"45\" r=\"16\"/></g></svg>",
   "template": "paraGeo",
-  "shape": "hinh-binh-hanh"
+  "text": "Một mảnh đất hình bình hành có cạnh đáy 9 m và chiều cao tương ứng 5 m. Tính diện tích của mảnh đất.",
+  "theory": "Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.",
+  "title": "Bài 16: Diện tích hình bình hành",
+  "topic": "Hình bình hành"
  },
  {
   "analysis": {
@@ -813,32 +1005,6 @@
   "chapter": 5,
   "hint": "Hình chữ nhật có ít trục đối xứng hơn hình vuông.",
   "id": "p17",
-  "parts": [
-   {
-    "answer": "4",
-    "label": "a) Hình vuông",
-    "unit": "trục"
-   },
-   {
-    "answer": "2",
-    "label": "b) Hình chữ nhật",
-    "unit": "trục"
-   },
-   {
-    "answer": "3",
-    "label": "c) Tam giác đều",
-    "unit": "trục"
-   }
-  ],
-  "solution": [
-   "Hình vuông: 4 trục (2 đường chéo và 2 đường nối trung điểm hai cạnh đối)",
-   "Hình chữ nhật: 2 trục (2 đường nối trung điểm hai cạnh đối)",
-   "Tam giác đều: 3 trục (3 đường từ đỉnh vuông góc xuống cạnh đối diện)"
-  ],
-  "text": "Mỗi hình sau có bao nhiêu trục đối xứng?\na) Hình vuông\nb) Hình chữ nhật\nc) Tam giác đều",
-  "title": "Bài 17: Đếm trục đối xứng",
-  "topic": "Trục đối xứng",
-  "theory": "Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.",
   "kw": [
    {
     "t": "bao nhiêu trục đối xứng",
@@ -861,24 +1027,46 @@
     "why": "Hình cần xét (ý c)."
    }
   ],
-  "template": "axisTriple"
+  "parts": [
+   {
+    "answer": "4",
+    "label": "a) Hình vuông",
+    "unit": "trục"
+   },
+   {
+    "answer": "2",
+    "label": "b) Hình chữ nhật",
+    "unit": "trục"
+   },
+   {
+    "answer": "3",
+    "label": "c) Tam giác đều",
+    "unit": "trục"
+   }
+  ],
+  "solution": [
+   "Hình vuông: 4 trục (2 đường chéo và 2 đường nối trung điểm hai cạnh đối)",
+   "Hình chữ nhật: 2 trục (2 đường nối trung điểm hai cạnh đối)",
+   "Tam giác đều: 3 trục (3 đường từ đỉnh vuông góc xuống cạnh đối diện)"
+  ],
+  "template": "axisTriple",
+  "text": "Mỗi hình sau có bao nhiêu trục đối xứng?\na) Hình vuông\nb) Hình chữ nhật\nc) Tam giác đều",
+  "theory": "Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.",
+  "title": "Bài 17: Đếm trục đối xứng",
+  "topic": "Trục đối xứng"
  },
  {
-  "id": "p18",
-  "chapter": 2,
-  "topic": "Dấu hiệu chia hết",
-  "title": "Số chia hết cho 3",
-  "text": "Trong các số 24, 35, 46, 57, 68, số lớn nhất chia hết cho 3 là số nào?",
   "analysis": {
+   "ask": "Số lớn nhất trong các số đã cho chia hết cho 3",
    "given": [
     "Các số: 24, 35, 46, 57, 68",
     "Dấu hiệu chia hết cho 3: tổng các chữ số chia hết cho 3"
    ],
-   "ask": "Số lớn nhất trong các số đã cho chia hết cho 3",
    "plan": "Tính tổng các chữ số của từng số, giữ lại các số có tổng chia hết cho 3, rồi chọn số lớn nhất."
   },
+  "chapter": 2,
   "hint": "24 có tổng chữ số 6, 57 có tổng chữ số 12 — cả hai đều chia hết cho 3.",
-  "theory": "Dấu hiệu chia hết (Bài 9): một số chia hết cho 3 khi tổng các chữ số của nó chia hết cho 3; chia hết cho 9 khi tổng các chữ số chia hết cho 9; chia hết cho 2 khi tận cùng là 0, 2, 4, 6, 8; chia hết cho 5 khi tận cùng là 0 hoặc 5.",
+  "id": "p18",
   "kw": [
    {
     "t": "chia hết cho 3",
@@ -898,8 +1086,8 @@
   ],
   "parts": [
    {
-    "label": "Số lớn nhất chia hết cho 3",
     "answer": "57",
+    "label": "Số lớn nhất chia hết cho 3",
     "unit": ""
    }
   ],
@@ -909,24 +1097,24 @@
    "Các số còn lại (35, 46, 68) có tổng chữ số không chia hết cho 3",
    "Số lớn nhất chia hết cho 3 là 57"
   ],
-  "template": "divRule"
+  "template": "divRule",
+  "text": "Trong các số 24, 35, 46, 57, 68, số lớn nhất chia hết cho 3 là số nào?",
+  "theory": "Dấu hiệu chia hết (Bài 9): một số chia hết cho 3 khi tổng các chữ số của nó chia hết cho 3; chia hết cho 9 khi tổng các chữ số chia hết cho 9; chia hết cho 2 khi tận cùng là 0, 2, 4, 6, 8; chia hết cho 5 khi tận cùng là 0 hoặc 5.",
+  "title": "Số chia hết cho 3",
+  "topic": "Dấu hiệu chia hết"
  },
  {
-  "id": "p19",
-  "chapter": 3,
-  "topic": "Phép nhân số nguyên",
-  "title": "Nhân hai số nguyên khác dấu",
-  "text": "Tính: (-4) × 5 + 12",
   "analysis": {
+   "ask": "Giá trị của biểu thức",
    "given": [
     "Biểu thức có phép nhân và phép cộng",
     "Quy tắc dấu: tích của hai số nguyên khác dấu là số âm"
    ],
-   "ask": "Giá trị của biểu thức",
    "plan": "Làm phép nhân trước: (-4) × 5 = -20, sau đó cộng 12."
   },
+  "chapter": 3,
   "hint": "(-4) × 5: khác dấu nên kết quả âm, 4 × 5 = 20 → -20. Rồi lấy -20 + 12.",
-  "theory": "Phép nhân số nguyên (Bài 16): tích của hai số nguyên khác dấu là số âm; tích của hai số nguyên cùng dấu là số dương. Khi có cả nhân và cộng, làm phép nhân trước.",
+  "id": "p19",
   "kw": [
    {
     "t": "(-4) × 5",
@@ -936,8 +1124,8 @@
   ],
   "parts": [
    {
-    "label": "Kết quả",
     "answer": "-8",
+    "label": "Kết quả",
     "unit": ""
    }
   ],
@@ -945,24 +1133,82 @@
    "(-4) × 5 = -20 (khác dấu nên kết quả âm)",
    "-20 + 12 = -8"
   ],
-  "template": "intMul"
+  "template": "intMul",
+  "text": "Tính: (-4) × 5 + 12",
+  "theory": "Phép nhân số nguyên (Bài 16): tích của hai số nguyên khác dấu là số âm; tích của hai số nguyên cùng dấu là số dương. Khi có cả nhân và cộng, làm phép nhân trước.",
+  "title": "Nhân hai số nguyên khác dấu",
+  "topic": "Phép nhân số nguyên"
  },
  {
-  "id": "p20",
-  "chapter": 5,
-  "topic": "Tâm đối xứng",
-  "title": "Hình nào có tâm đối xứng",
-  "text": "Trong các hình sau, có bao nhiêu hình có tâm đối xứng?\na) Hình bình hành\nb) Tam giác đều\nc) Hình chữ nhật",
   "analysis": {
+   "ask": "Kết quả của hai phép chia và số ước là số nguyên của 6",
+   "given": [
+    "Phép chia hai số nguyên khác dấu cho kết quả là số nguyên âm",
+    "Phép chia hai số nguyên cùng dấu cho kết quả là số nguyên dương",
+    "Ước của một số nguyên gồm cả số nguyên âm và số nguyên dương"
+   ],
+   "plan": "Chia hai số như với số tự nhiên, rồi đặt dấu: khác dấu thì kết quả âm, cùng dấu thì kết quả dương. Tìm ước là số nguyên của 6 bằng cách liệt kê cả ước dương và ước âm."
+  },
+  "chapter": 3,
+  "hint": "24 : 6 = 4, hai số (−24) và 6 khác dấu nên kết quả là −4. Các ước dương của 6 là 1; 2; 3; 6 — đừng quên các ước âm tương ứng.",
+  "id": "p26",
+  "kw": [
+   {
+    "t": "(−24) : 6",
+    "type": "data",
+    "why": "Phép chia (ý a): hai số khác dấu nên kết quả mang dấu âm."
+   },
+   {
+    "t": "35 : (−5)",
+    "type": "data",
+    "why": "Phép chia (ý b): hai số khác dấu nên kết quả mang dấu âm."
+   },
+   {
+    "t": "bao nhiêu ước là số nguyên",
+    "type": "ask",
+    "why": "Điều cần tìm (ý c): đếm cả ước âm và ước dương của 6."
+   }
+  ],
+  "parts": [
+   {
+    "answer": "-4",
+    "label": "a) (−24) : 6",
+    "unit": ""
+   },
+   {
+    "answer": "-7",
+    "label": "b) 35 : (−5)",
+    "unit": ""
+   },
+   {
+    "answer": "8",
+    "label": "c) Số ước là số nguyên của 6",
+    "unit": "ước"
+   }
+  ],
+  "solution": [
+   "Bước 1) Ý a) Chia phần số trước: 24 : 6 = 4. Hai số (−24) và 6 khác dấu nên kết quả là số âm: (−24) : 6 = −4.",
+   "Bước 2) Ý b) Chia phần số trước: 35 : 5 = 7. Hai số 35 và (−5) khác dấu nên kết quả là số âm: 35 : (−5) = −7.",
+   "Bước 3) Ý c) Các ước dương của 6 là 1; 2; 3; 6. Thêm các ước âm tương ứng: −1; −2; −3; −6. Vậy số 6 có tất cả 8 ước là số nguyên."
+  ],
+  "template": "intDiv",
+  "text": "Tính:\na) (−24) : 6\nb) 35 : (−5)\nc) Số 6 có bao nhiêu ước là số nguyên?",
+  "theory": "Phép chia hết của một số nguyên (Bài 17): khi số nguyên a chia hết cho số nguyên b (b khác 0) thì thương a : b là một số nguyên; khi đó a là bội của b, còn b là ước của a. Ước của một số nguyên gồm cả số nguyên âm và số nguyên dương: ước của 6 là −6; −3; −2; −1; 1; 2; 3; 6.",
+  "title": "Chia hết trong số nguyên",
+  "topic": "Phép chia hết của một số nguyên (Bài 17)"
+ },
+ {
+  "analysis": {
+   "ask": "Số hình có tâm đối xứng trong 3 hình đã cho",
    "given": [
     "Tâm đối xứng là điểm mà khi quay hình 180° quanh điểm đó, hình trùng với chính nó",
     "Hình bình hành và hình chữ nhật có hai đường chéo cắt nhau tại trung điểm của mỗi đường"
    ],
-   "ask": "Số hình có tâm đối xứng trong 3 hình đã cho",
    "plan": "Hình bình hành: có tâm là giao điểm hai đường chéo. Tam giác đều: không có tâm đối xứng. Hình chữ nhật: có tâm là giao điểm hai đường chéo."
   },
+  "chapter": 5,
   "hint": "Tam giác đều chỉ có trục đối xứng, không có tâm đối xứng.",
-  "theory": "Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho quay hình 180° quanh O thì hình trùng với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.",
+  "id": "p20",
   "kw": [
    {
     "t": "bao nhiêu hình có tâm đối xứng",
@@ -987,8 +1233,8 @@
   ],
   "parts": [
    {
-    "label": "Số hình có tâm đối xứng",
     "answer": "2",
+    "label": "Số hình có tâm đối xứng",
     "unit": "hình"
    }
   ],
@@ -998,24 +1244,24 @@
    "Hình chữ nhật: có tâm đối xứng",
    "Vậy có 2 hình có tâm đối xứng"
   ],
-  "template": "centerWord"
+  "template": "centerWord",
+  "text": "Trong các hình sau, có bao nhiêu hình có tâm đối xứng?\na) Hình bình hành\nb) Tam giác đều\nc) Hình chữ nhật",
+  "theory": "Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho quay hình 180° quanh O thì hình trùng với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.",
+  "title": "Hình nào có tâm đối xứng",
+  "topic": "Tâm đối xứng"
  },
  {
-  "id": "p21",
-  "chapter": 1,
-  "topic": "Số La Mã",
-  "title": "Đọc số La Mã",
-  "text": "Số La Mã XXIV viết trong hệ thập phân là số nào?",
   "analysis": {
+   "ask": "Giá trị của XXIV trong hệ thập phân",
    "given": [
     "Số La Mã XXIV",
     "Ký hiệu: X = 10, V = 5, I = 1; IV là cặp trừ: 5 − 1 = 4"
    ],
-   "ask": "Giá trị của XXIV trong hệ thập phân",
    "plan": "Tách XXIV = XX + IV = 20 + 4 rồi cộng lại."
   },
+  "chapter": 1,
   "hint": "XX = 20, còn IV = 4 (I đứng trước V nghĩa là lấy 5 trừ 1).",
-  "theory": "Cách ghi số La Mã (Bài 2): I = 1, V = 5, X = 10, L = 50. Ký hiệu nhỏ đứng trước ký hiệu lớn hơn để chỉ phép trừ: IV = 4, IX = 9, XL = 40.",
+  "id": "p21",
   "kw": [
    {
     "t": "XXIV",
@@ -1030,8 +1276,8 @@
   ],
   "parts": [
    {
-    "label": "Số thập phân tương ứng",
     "answer": "24",
+    "label": "Số thập phân tương ứng",
     "unit": ""
    }
   ],
@@ -1040,6 +1286,75 @@
    "IV = 5 − 1 = 4",
    "XXIV = 20 + 4 = 24"
   ],
-  "template": "romanWord"
+  "template": "romanWord",
+  "text": "Số La Mã XXIV viết trong hệ thập phân là số nào?",
+  "theory": "Cách ghi số La Mã (Bài 2): I = 1, V = 5, X = 10, L = 50. Ký hiệu nhỏ đứng trước ký hiệu lớn hơn để chỉ phép trừ: IV = 4, IX = 9, XL = 40.",
+  "title": "Đọc số La Mã",
+  "topic": "Số La Mã"
+ },
+ {
+  "analysis": {
+   "ask": "Số liền sau của 7; số liền trước của 10; số số tự nhiên nằm giữa 4 và 9",
+   "given": [
+    "Tia số: các số tự nhiên được biểu diễn bằng các điểm cách đều nhau, tăng dần từ trái sang phải: 0; 1; 2; 3; ..."
+   ],
+   "plan": "Trên tia số, số đứng bên phải lớn hơn số đứng bên trái. Số liền sau đứng ngay bên phải, hơn số đó 1 đơn vị. Số liền trước đứng ngay bên trái, kém số đó 1 đơn vị."
+  },
+  "chapter": 1,
+  "figNote": "👆 Bấm vào các điểm tròn màu xanh trên tia số để xem vị trí và cách so sánh hai số.",
+  "hint": "Số liền sau hơn số đã cho đúng 1. Các số nằm giữa 4 và 9 là: 5; 6; 7; 8.",
+  "id": "p23",
+  "kw": [
+   {
+    "t": "tia số",
+    "type": "data",
+    "why": "Đề cho: hình tia số biểu diễn các số tự nhiên."
+   },
+   {
+    "t": "liền sau",
+    "type": "op",
+    "why": "Từ khóa: số đứng ngay sau, hơn số đã cho 1 đơn vị."
+   },
+   {
+    "t": "liền trước",
+    "type": "op",
+    "why": "Từ khóa: số đứng ngay trước, kém số đã cho 1 đơn vị."
+   },
+   {
+    "t": "nằm giữa 4 và 9",
+    "type": "ask",
+    "why": "Điều cần tìm (ý c): các số lớn hơn 4 và nhỏ hơn 9, không kể 4 và 9."
+   }
+  ],
+  "parts": [
+   {
+    "answer": "8",
+    "label": "a) Số liền sau của 7",
+    "unit": ""
+   },
+   {
+    "answer": "9",
+    "label": "b) Số liền trước của 10",
+    "unit": ""
+   },
+   {
+    "answer": "4",
+    "label": "c) Số số tự nhiên nằm giữa 4 và 9",
+    "unit": "số"
+   }
+  ],
+  "shape": "tia-so",
+  "solution": [
+   "Bước 1) Nhớ cách đọc tia số: đi từ trái sang phải, các số tăng dần. Số đứng bên phải thì lớn hơn số đứng bên trái.",
+   "Bước 2) Ý a) Số liền sau của 7 là số đứng ngay bên phải 7: đó là số 8.",
+   "Bước 3) Ý b) Số liền trước của 10 là số đứng ngay bên trái 10: đó là số 9.",
+   "Bước 4) Ý c) Các số nằm giữa 4 và 9 là 5; 6; 7; 8. Đếm được 4 số."
+  ],
+  "svg": "<svg viewBox=\"0 0 470 74\"><line x1=\"22\" y1=\"38\" x2=\"442\" y2=\"38\" stroke=\"#37474f\" stroke-width=\"2\"/><polygon points=\"442,32 456,38 442,44\" fill=\"#37474f\"/><line x1=\"48\" y1=\"32\" x2=\"48\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"48\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">0</text><g class=\"nlp\" data-info=\"Điểm 0 là gốc của tia số — điểm bắt đầu. Mọi số tự nhiên khác đều nằm ở bên phải điểm 0.\"><circle cx=\"48\" cy=\"38\" r=\"10\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"48\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">0</text></g><line x1=\"86\" y1=\"32\" x2=\"86\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"86\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">1</text><circle cx=\"86\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"124\" y1=\"32\" x2=\"124\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"124\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">2</text><circle cx=\"124\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"162\" y1=\"32\" x2=\"162\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"162\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">3</text><g class=\"nlp\" data-info=\"Điểm 3 nằm bên trái điểm 8 nên 3 nhỏ hơn 8. Ta viết 3 &lt; 8, đọc là '3 bé hơn 8'.\"><circle cx=\"162\" cy=\"38\" r=\"10\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"162\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">3</text></g><line x1=\"200\" y1=\"32\" x2=\"200\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"200\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">4</text><circle cx=\"200\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"238\" y1=\"32\" x2=\"238\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"238\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">5</text><circle cx=\"238\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"276\" y1=\"32\" x2=\"276\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"276\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">6</text><circle cx=\"276\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"314\" y1=\"32\" x2=\"314\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"314\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">7</text><circle cx=\"314\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"352\" y1=\"32\" x2=\"352\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"352\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">8</text><g class=\"nlp\" data-info=\"Điểm 8 nằm bên phải điểm 3 nên 8 lớn hơn 3. Ta viết 8 &gt; 3, đọc là '8 lớn hơn 3'.\"><circle cx=\"352\" cy=\"38\" r=\"10\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"352\" y=\"20\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#0d47a1\">8</text></g><line x1=\"390\" y1=\"32\" x2=\"390\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"390\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">9</text><circle cx=\"390\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/><line x1=\"428\" y1=\"32\" x2=\"428\" y2=\"44\" stroke=\"#37474f\" stroke-width=\"1.5\"/><text x=\"428\" y=\"60\" text-anchor=\"middle\" font-size=\"13\" fill=\"#37474f\">10</text><circle cx=\"428\" cy=\"38\" r=\"3\" fill=\"#90a4ae\"/></svg>",
+  "template": "numOrder",
+  "text": "Quan sát tia số ở hình dưới và trả lời:\na) Số liền sau của 7 là số nào?\nb) Số liền trước của 10 là số nào?\nc) Có bao nhiêu số tự nhiên nằm giữa 4 và 9?",
+  "theory": "Tia số (Bài 3): mỗi số tự nhiên được biểu diễn bằng một điểm trên tia số. Số ở bên phải lớn hơn số ở bên trái. Số liền sau của a là a + 1; số liền trước của a (với a lớn hơn 0) là a − 1.",
+  "title": "Thứ tự trên tia số",
+  "topic": "Thứ tự trong tập hợp các số tự nhiên (Bài 3)"
  }
 ]

@@ -7,6 +7,9 @@ function gcd(a,b){return b?gcd(b,a%b):a;}
 function lcm(a,b){return a*b/gcd(a,b);}
 function fmt(n){return (''+n).replace(/\B(?=(\d{3})+(?!\d))/g,' ');}
 function sup(n){return (''+n).replace('2','²').replace('3','³');}
+function seq(a,b){const r=[];for(let i=a;i<=b;i++)r.push(i);return r.join('; ');}
+function posDiv(n){const r=[];for(let d=1;d<=n;d++)if(n%d===0)r.push(d);return r.join('; ');}
+function sgn(n){return n<0?'('+n+')':''+n;}
 function angG(V,P1,P2,name,info,r){
   r=r||26;
   function pt(P){var dx=P[0]-V[0],dy=P[1]-V[1],L=Math.hypot(dx,dy);return [V[0]+dx/L*r,V[1]+dy/L*r];}
@@ -76,7 +79,7 @@ buyWord:{chapter:1,topic:'Bài toán thực tế',gen(l){
   const n=R(6,l===1?15:30),m=R(8,15),total=n*m,money=total*ctx.price;
   const t1=`${n} ${ctx.n1}`,t2=`${ctx.per} ${m} ${ctx.item}`,t3=`mỗi ${ctx.item} giá ${fmt(ctx.price)} đồng`;
   return{title:'Bài toán mua hàng',text:`${ctx.who} mua ${t1}. ${t2}, ${t3}. Hỏi ${ctx.who==='Cửa hàng'?'cửa hàng':ctx.who.toLowerCase()} phải trả bao nhiêu tiền?`,
-   analysis:{given:[`Có ${t1}`,`${ctx.per} ${m} ${ctx.item}`,`Mỗi ${ctx.item} giá ${fmt(ctx.price)} đồng`],ask:'Tổng số tiền phải trả',plan:'Bước 1: tính tổng số lượng = số phần × số lượng trong 1 phần. Bước 2: lấy tổng số lượng × giá 1 cái.'},
+   analysis:{given:[`Có ${t1}`,`${ctx.per} ${m} ${ctx.item}`,`Mỗi ${ctx.item} giá ${fmt(ctx.price)} đồng`],ask:'Tổng số tiền phải trả',plan:'Bước 1) Tính tổng số lượng = số phần × số lượng trong 1 phần. Bước 2) Lấy tổng số lượng × giá 1 cái.'},
    hint:`Tổng số ${ctx.item}: ${n} × ${m} = ${total}.`,
    theory:'Muốn tính tổng số tiền: trước hết tính tổng số lượng = số phần × số lượng trong mỗi phần; rồi lấy tổng số lượng × giá của 1 đơn vị.',
    kw:[{t:t1,type:'data',why:`Đề cho: có ${t1}.`},{t:t2,type:'op',why:`Từ khóa "mỗi": 1 phần chứa ${m} cái. Muốn tìm tổng số thì nhân ${n} × ${m}.`},{t:t3,type:'data',why:`Đề cho: giá của 1 ${ctx.item}.`},{t:'bao nhiêu tiền',type:'ask',why:'Điều cần tìm: tổng số tiền phải trả.'}],
@@ -307,7 +310,7 @@ axisTriple:{chapter:5,topic:'Trục đối xứng',gen(l){
   const labels=['a) ','b) ','c) '];
   return{title:'Đếm trục đối xứng',text:'Mỗi hình sau có bao nhiêu trục đối xứng?\n'+shuffled.map((s,i)=>labels[i]+s.n).join('\n'),
    analysis:{given:['Trục đối xứng là đường thẳng chia hình thành hai phần giống hệt nhau khi gấp lại'],ask:'Số trục đối xứng của từng hình',plan:'Tưởng tượng gấp hình theo các đường khác nhau: hình vuông gấp được theo 2 đường chéo và 2 đường giữa; hình chữ nhật chỉ gấp theo 2 đường giữa; tam giác đều gấp theo 3 đường từ đỉnh xuống cạnh đối diện; hình bình hành thường không gấp trùng theo đường nào.'},
-   hint:'Xem lại các thẻ ở mục Lý thuyết hình học: hình nào càng đều thì càng nhiều trục đối xứng.',
+   hint:'Xem lại các thẻ ở mục Thẻ lý thuyết tương tác: hình nào càng đều thì càng nhiều trục đối xứng.',
    theory:'Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.',
    kw:[{t:'bao nhiêu trục đối xứng',type:'ask',why:'Điều cần tìm: số trục đối xứng của từng hình.'},...shuffled.map(s=>({t:s.n,type:'data',why:'Hình cần xét.'}))],
    parts:shuffled.map((s,i)=>({label:labels[i]+s.n,answer:''+s.a,unit:'trục'})),
@@ -325,11 +328,88 @@ axisWord:{chapter:5,topic:'Trục đối xứng',gen(l){
   const s=pick(pool);
   return{title:'Đếm trục đối xứng',text:`${s.n} có bao nhiêu trục đối xứng?`,
    analysis:{given:['Trục đối xứng là đường thẳng chia hình thành hai phần giống hệt nhau khi gấp lại'],ask:`Số trục đối xứng của ${s.n.toLowerCase()}`,plan:'Tưởng tượng gấp hình theo các đường khác nhau và kiểm tra hai nửa có trùng khít không.'},
-   hint:'Hãy nhớ lại thẻ lý thuyết của hình này ở mục Lý thuyết hình học.',
+   hint:'Hãy nhớ lại thẻ lý thuyết của hình này ở mục Thẻ lý thuyết tương tác.',
    theory:'Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.',
    kw:[{t:'bao nhiêu trục đối xứng',type:'ask',why:'Điều cần tìm: số trục đối xứng của hình.'},{t:s.n,type:'data',why:'Hình cần xét.'}],
    parts:[{label:'Số trục đối xứng',answer:''+s.a,unit:'trục'}],
    solution:[s.e]};
+}},
+setBasics:{chapter:1,topic:'Tập hợp (Bài 1)',gen(l){
+  const mode=R(0,2);
+  let elems=[],desc='';
+  if(mode===0){const n=R(6,9);for(let x=1;x<n;x++)elems.push(x);desc=`các số tự nhiên nhỏ hơn ${n}`;}
+  else if(mode===1){const n=R(9,15);for(let x=0;x<n;x+=2)elems.push(x);desc=`các số tự nhiên chẵn nhỏ hơn ${n}`;}
+  else{const n=R(10,16);for(let x=1;x<n;x+=2)elems.push(x);desc=`các số tự nhiên lẻ nhỏ hơn ${n}`;}
+  const cand=[],pool=new Set();
+  while(cand.length<3){const v=R(0,16);if(!pool.has(v)){pool.add(v);cand.push(v);}}
+  const inside=cand.filter(v=>elems.includes(v)).length;
+  const sum=elems.reduce((s,v)=>s+v,0);
+  return{title:'Tập hợp và phần tử',text:`Cho tập hợp A là tập hợp ${desc}.\nViết theo cách liệt kê: A = {${elems.join('; ')}}.\na) Tập hợp A có bao nhiêu phần tử?\nb) Tính tổng tất cả các phần tử của A.\nc) Trong ba số ${cand.join('; ')}, có bao nhiêu số thuộc tập hợp A?`,
+   analysis:{given:[`Tập hợp A gồm ${desc}`,`Viết theo cách liệt kê: A = {${elems.join('; ')}}`],ask:'Số phần tử của A; tổng tất cả các phần tử của A; số số thuộc A trong ba số đã cho',plan:'Đếm các số đã liệt kê trong dấu { }. Cộng lần lượt các phần tử. Số nào có mặt trong A thì số đó thuộc A.'},
+   hint:'Mỗi số viết trong dấu { } là một phần tử. Đếm chậm từng số, mỗi dấu chấm phẩy ngăn cách hai phần tử.',
+   theory:'Tập hợp (Bài 1): mỗi đối tượng trong tập hợp gọi là một phần tử. Ký hiệu ∈ đọc là "thuộc", ký hiệu ∉ đọc là "không thuộc". Viết tập hợp bằng cách liệt kê các phần tử trong dấu { }, ngăn cách bằng dấu chấm phẩy.',
+   kw:[{t:'tập hợp A',type:'data',why:'Tập hợp cần xét trong bài.'},{t:'bao nhiêu phần tử',type:'ask',why:'Điều cần tìm (ý a): đếm số phần tử của A.'},{t:'thuộc tập hợp A',type:'ask',why:'Điều cần tìm (ý c): số có mặt trong A thì thuộc A.'}],
+   parts:[{label:'a) Số phần tử của A',answer:''+elems.length,unit:'phần tử'},{label:'b) Tổng tất cả các phần tử của A',answer:''+sum,unit:''},{label:'c) Số số thuộc A trong ba số đã cho',answer:''+inside,unit:'số'}],
+   solution:[`Bước 1) Đọc tập hợp A theo cách liệt kê: A = {${elems.join('; ')}}.`,`Bước 2) Ý a) Đếm số phần tử: A có ${elems.length} phần tử.`,`Bước 3) Ý b) Cộng các phần tử: ${elems.join(' + ')} = ${sum}.`,`Bước 4) Ý c) Kiểm tra từng số: ${cand.map(v=>v+(elems.includes(v)?' thuộc A':' không thuộc A')).join('; ')}. Vậy có ${inside} số thuộc A.`]};
+}},
+numOrder:{chapter:1,topic:'Thứ tự trong tập hợp các số tự nhiên (Bài 3)',gen(l){
+  const mx=l===1?15:(l===2?40:80);
+  const x=R(2,mx),y=R(x+3,x+9),u=R(1,mx),v=u+R(3,7);
+  return{title:'Thứ tự trên tia số',text:`Dựa vào tia số (số ở bên phải lớn hơn số ở bên trái), trả lời:\na) Số liền sau của ${x} là số nào?\nb) Số liền trước của ${y} là số nào?\nc) Có bao nhiêu số tự nhiên nằm giữa ${u} và ${v}?`,
+   analysis:{given:['Tia số: các số tự nhiên tăng dần từ trái sang phải'],ask:'Số liền sau của một số; số liền trước của một số; số số tự nhiên nằm giữa hai số',plan:'Số liền sau hơn số đã cho 1 đơn vị. Số liền trước kém số đã cho 1 đơn vị. Liệt kê các số nằm giữa hai số rồi đếm.'},
+   hint:`Số liền sau của ${x} đứng ngay bên phải ${x}. Các số nằm giữa ${u} và ${v} bắt đầu từ ${u+1}.`,
+   theory:'Tia số (Bài 3): số ở bên phải lớn hơn số ở bên trái. Số liền sau của a là a + 1; số liền trước của a (với a lớn hơn 0) là a − 1.',
+   kw:[{t:'liền sau',type:'op',why:'Số đứng ngay sau, hơn số đã cho 1 đơn vị.'},{t:'liền trước',type:'op',why:'Số đứng ngay trước, kém số đã cho 1 đơn vị.'},{t:'nằm giữa',type:'ask',why:'Các số lớn hơn số nhỏ và nhỏ hơn số lớn, không kể hai số ở hai đầu.'}],
+   parts:[{label:`a) Số liền sau của ${x}`,answer:''+(x+1),unit:''},{label:`b) Số liền trước của ${y}`,answer:''+(y-1),unit:''},{label:`c) Số số tự nhiên nằm giữa ${u} và ${v}`,answer:''+(v-u-1),unit:'số'}],
+   solution:[`Bước 1) Ý a) Số liền sau hơn số đã cho 1 đơn vị: ${x} + 1 = ${x+1}.`,`Bước 2) Ý b) Số liền trước kém số đã cho 1 đơn vị: ${y} − 1 = ${y-1}.`,`Bước 3) Ý c) Các số nằm giữa ${u} và ${v} là ${seq(u+1,v-1)}. Đếm được ${v-u-1} số.`]};
+}},
+divProp:{chapter:2,topic:'Quan hệ chia hết và tính chất (Bài 8)',gen(l){
+  const N=pick([24,30,36,40,42,48,60]);
+  const candSet=new Set();while(candSet.size<4)candSet.add(R(3,12));
+  const cand=[...candSet];
+  const divs=[];for(let dd=3;dd<=12;dd++)if(N%dd===0)divs.push(dd);
+  if(!cand.some(v=>N%v===0))cand[0]=pick(divs);
+  const uc=cand.filter(v=>N%v===0);
+  const d=pick([3,4,5,6]),m1=R(2,9),m2=R(2,9),A=d*m1,B=d*m2;
+  const k=pick([3,4,5,6]);
+  const cand2Set=new Set();while(cand2Set.size<4)cand2Set.add(R(8,40));
+  const cand2=[...cand2Set];
+  if(!cand2.some(v=>v%k===0))cand2[0]=k*R(2,6);
+  const boi=cand2.filter(v=>v%k===0);
+  return{title:'Chia hết, ước và bội',text:`a) Trong các số ${cand.join('; ')}, có bao nhiêu số là ước của ${N}?\nb) Tính (${A} + ${B}) : ${d} bằng cách dùng tính chất chia hết của một tổng.\nc) Trong các số ${cand2.join('; ')}, có bao nhiêu số là bội của ${k}?`,
+   analysis:{given:[`Ước của ${N}: các số tự nhiên mà ${N} chia hết cho chúng`,`${A} và ${B} đều chia hết cho ${d}`,`Bội của ${k}: các số chia hết cho ${k}`],ask:`Số ước của ${N} trong các số đã cho; giá trị của (${A} + ${B}) : ${d}; số bội của ${k} trong các số đã cho`,plan:`Ý a) và ý c): thử chia từng số. Ý b): cả hai số hạng đều chia hết cho ${d} nên tổng cũng chia hết cho ${d}; lấy từng số hạng chia cho ${d} rồi cộng.`},
+   hint:`Ý b): ${A} : ${d} = ${m1} và ${B} : ${d} = ${m2}. Ý a): thử chia ${N} cho lần lượt từng số.`,
+   theory:'Quan hệ chia hết (Bài 8): số tự nhiên a chia hết cho số tự nhiên b (b khác 0) khi có số tự nhiên q sao cho a = b × q. Khi đó a là bội của b, còn b là ước của a. Tính chất: nếu mỗi số hạng của một tổng đều chia hết cho cùng một số thì tổng cũng chia hết cho số đó.',
+   kw:[{t:`ước của ${N}`,type:'data',why:`Số mà ${N} chia hết cho nó thì là ước của ${N}.`},{t:'tính chất chia hết của một tổng',type:'op',why:`Cách làm ý b): mỗi số hạng đều chia hết cho ${d} thì tổng cũng chia hết cho ${d}.`},{t:`bội của ${k}`,type:'data',why:`Số chia hết cho ${k} thì là bội của ${k}.`}],
+   parts:[{label:`a) Số ước của ${N} trong các số đã cho`,answer:''+uc.length,unit:'số'},{label:`b) (${A} + ${B}) : ${d}`,answer:''+(m1+m2),unit:''},{label:`c) Số bội của ${k} trong các số đã cho`,answer:''+boi.length,unit:'số'}],
+   solution:[`Bước 1) Ý a) Thử chia ${N} cho từng số: ${cand.map(v=>N%v===0?`${N} : ${v} = ${N/v} (chia hết)`:`${N} : ${v} không chia hết`).join('; ')}. Có ${uc.length} số là ước của ${N}: ${uc.join('; ')}.`,`Bước 2) Ý b) Vì ${A} chia hết cho ${d} và ${B} chia hết cho ${d} nên tổng cũng chia hết cho ${d}. Tính: (${A} + ${B}) : ${d} = ${A} : ${d} + ${B} : ${d} = ${m1} + ${m2} = ${m1+m2}.`,`Bước 3) Ý c) Các số chia hết cho ${k} trong các số đã cho: ${boi.length?boi.join('; '):'không có số nào'}. Vậy có ${boi.length} số là bội của ${k}.`]};
+}},
+intSet:{chapter:3,topic:'Tập hợp các số nguyên (Bài 13)',gen(l){
+  const x=R(2,12),neg=-x;
+  const u=-R(2,8),v=u+R(4,9);
+  const list=[],used=new Set();
+  while(list.length<5){const val=R(-9,9);if(!used.has(val)){used.add(val);list.push(val);}}
+  const negs=list.filter(n=>n<0);
+  return{title:'Số nguyên và số đối',text:`Dựa vào trục số (số ở bên phải lớn hơn số ở bên trái), trả lời:\na) Số đối của ${neg} là số nào?\nb) Có bao nhiêu số nguyên nằm giữa ${u} và ${v}?\nc) Trong các số ${list.join('; ')}, có bao nhiêu số nguyên âm?`,
+   analysis:{given:['Trục số: điểm 0 ở giữa, bên phải số 0 là các số nguyên dương, bên trái số 0 là các số nguyên âm',`Các số cần xét ở ý c): ${list.join('; ')}`],ask:'Số đối của một số nguyên âm; số số nguyên nằm giữa hai số; số số nguyên âm trong các số đã cho',plan:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0. Liệt kê các số nguyên nằm giữa hai số rồi đếm. Số nguyên âm là số nhỏ hơn 0.'},
+   hint:`Số đối của ${neg} nằm bên phải điểm 0, cách 0 đúng ${x} đơn vị.`,
+   theory:'Tập hợp các số nguyên (Bài 13): gồm các số nguyên âm, số 0 và các số nguyên dương. Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0. Số đối của 0 là 0.',
+   kw:[{t:'số đối',type:'op',why:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0.'},{t:'nằm giữa',type:'ask',why:'Các số lớn hơn số nhỏ và nhỏ hơn số lớn, không kể hai số ở hai đầu.'},{t:'số nguyên âm',type:'ask',why:'Các số nhỏ hơn 0, có dấu trừ ở phía trước.'}],
+   parts:[{label:`a) Số đối của ${neg}`,answer:''+x,unit:''},{label:`b) Số số nguyên nằm giữa ${u} và ${v}`,answer:''+(v-u-1),unit:'số'},{label:'c) Số số nguyên âm trong các số đã cho',answer:''+negs.length,unit:'số'}],
+   solution:[`Bước 1) Ý a) Số đối của ${neg} nằm ở phía đối diện qua điểm 0 và cách 0 đúng ${x} đơn vị: đó là số ${x}.`,`Bước 2) Ý b) Các số nguyên nằm giữa ${u} và ${v} là ${seq(u+1,v-1)}. Đếm được ${v-u-1} số.`,`Bước 3) Ý c) Các số nguyên âm trong các số đã cho: ${negs.length?negs.join('; '):'không có số nào'}. Vậy có ${negs.length} số nguyên âm.`]};
+}},
+intDiv:{chapter:3,topic:'Phép chia hết của một số nguyên (Bài 17)',gen(l){
+  function mkq(){const dd=R(2,9)*(Math.random()<0.5?-1:1);const qq=R(2,9)*(Math.random()<0.5?-1:1);return{a:dd*qq,d:dd,q:qq};}
+  const p1=mkq();let p2=mkq();let guard=0;while(p2.d===p1.d&&guard<20){p2=mkq();guard++;}
+  const N=pick([6,8,12,18,20]);
+  let cnt=0;for(let dd=-N;dd<=N;dd++){if(dd!==0&&N%dd===0)cnt++;}
+  return{title:'Chia hết trong số nguyên',text:`Tính:\na) ${sgn(p1.a)} : ${sgn(p1.d)}\nb) ${sgn(p2.a)} : ${sgn(p2.d)}\nc) Số ${N} có bao nhiêu ước là số nguyên?`,
+   analysis:{given:['Phép chia hai số nguyên khác dấu cho kết quả là số nguyên âm','Phép chia hai số nguyên cùng dấu cho kết quả là số nguyên dương','Ước của một số nguyên gồm cả số nguyên âm và số nguyên dương'],ask:`Kết quả của hai phép chia và số ước là số nguyên của ${N}`,plan:'Chia hai số như với số tự nhiên, rồi đặt dấu: khác dấu thì kết quả âm, cùng dấu thì kết quả dương. Liệt kê các ước dương của '+N+' rồi thêm các ước âm tương ứng.'},
+   hint:`Ý a): ${Math.abs(p1.a)} : ${Math.abs(p1.d)} = ${Math.abs(p1.q)}; hai số ${p1.a<0!==p1.d<0?'khác dấu nên kết quả là số âm':'cùng dấu nên kết quả là số dương'}.`,
+   theory:'Phép chia hết của một số nguyên (Bài 17): thương của hai số nguyên cùng dấu là số dương, khác dấu là số âm. Ước của một số nguyên gồm cả ước âm và ước dương.',
+   kw:[{t:'ước là số nguyên',type:'ask',why:'Điều cần tìm (ý c): đếm cả ước âm và ước dương.'}],
+   parts:[{label:`a) ${sgn(p1.a)} : ${sgn(p1.d)}`,answer:''+p1.q,unit:''},{label:`b) ${sgn(p2.a)} : ${sgn(p2.d)}`,answer:''+p2.q,unit:''},{label:`c) Số ước là số nguyên của ${N}`,answer:''+cnt,unit:'ước'}],
+   solution:[`Bước 1) Ý a) Chia phần số: ${Math.abs(p1.a)} : ${Math.abs(p1.d)} = ${Math.abs(p1.q)}. Hai số ${p1.a} và ${p1.d} ${(p1.a<0)!==(p1.d<0)?'khác dấu':'cùng dấu'} nên (${p1.a}) : ${p1.d} = ${p1.q}.`,`Bước 2) Ý b) Chia phần số: ${Math.abs(p2.a)} : ${Math.abs(p2.d)} = ${Math.abs(p2.q)}. Hai số ${p2.a} và ${p2.d} ${(p2.a<0)!==(p2.d<0)?'khác dấu':'cùng dấu'} nên (${p2.a}) : ${p2.d} = ${p2.q}.`,`Bước 3) Ý c) Các ước dương của ${N} là ${posDiv(N)}. Thêm các ước âm tương ứng, số ước là số nguyên gấp đôi số ước dương: tất cả ${cnt} ước.`]};
 }}
 };
 window.GEN={templates:T,
@@ -342,7 +422,7 @@ window.GEN={templates:T,
  makeFrom(k,lvl){
    const p=T[k].gen(lvl||2);
    p.gen=true;p.template=k;p.chapter=T[k].chapter;p.topic=T[k].topic;
-   const SHAPE={rectGeo:'hinh-chu-nhat',squareGeo:'hinh-vuong',triGeo:'tam-giac-deu',trapGeo:'hinh-thang-can',rhombusGeo:'hinh-thoi',paraGeo:'hinh-binh-hanh'};
+   const SHAPE={rectGeo:'hinh-chu-nhat',squareGeo:'hinh-vuong',triGeo:'tam-giac-deu',trapGeo:'hinh-thang-can',rhombusGeo:'hinh-thoi',paraGeo:'hinh-binh-hanh',setBasics:'tap-hop',numOrder:'tia-so',intSet:'truc-so-nguyen'};
    if(SHAPE[k])p.shape=SHAPE[k];
    return p;
  }};
