@@ -111,7 +111,7 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
   </div>
   <div class="sec">
     <h2>📐 Lý thuyết hình học</h2>
-    <p class="desc">Bấm vào từng yếu tố trên hình (cạnh, góc, đường chéo...) để xem đặc điểm của hình.</p>
+    <p class="desc">Bấm vào từng yếu tố trên hình (cạnh, góc, đường chéo, trục đối xứng...) để xem đặc điểm, kèm công thức chu vi và diện tích của từng hình.</p>
     <div class="shape-grid" id="shapeGrid"></div>
   </div>
   <div class="sec">
@@ -170,9 +170,10 @@ svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
   <button class="btn btn-g" id="btnList2">← Về trang chính</button>
   <div class="card">
     <h2 id="tName"></h2>
-    <p style="color:#666;font-size:14px;margin-bottom:6px">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng</p>
+    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.</p>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
+    <div class="theory-box" id="tFormulas" style="margin-top:10px"></div>
     <div class="ans-row"><label id="tCheckQ"></label><input id="tCheckInp" inputmode="decimal" placeholder="Nhập đáp án"><span class="unit" id="tCheckUnit"></span></div>
     <button class="btn btn-c" id="btnTCheck">✔ Kiểm tra</button>
     <div class="fb" id="tFeedback"></div>
@@ -438,6 +439,7 @@ function openTheory(i){
   document.getElementById('tName').textContent='📐 '+curTheory.name;
   document.getElementById('tFig').innerHTML=curTheory.svg;
   document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${f}</div>`).join('');
+  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ:</b>'+(curTheory.formulas||[]).map(f=>`<div style="margin-top:5px">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
   document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
   document.getElementById('tCheckUnit').textContent=curTheory.check.unit||'';
   document.getElementById('tCheckInp').value='';

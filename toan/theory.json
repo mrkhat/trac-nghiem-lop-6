@@ -1,1 +1,184 @@
-[{"check":{"answer":"3","q":"Tam giác đều có bao nhiêu trục đối xứng?","unit":"trục"},"facts":["Ba cạnh bằng nhau (các dấu gạch giống nhau trên 3 cạnh đánh dấu các cạnh bằng nhau)","Ba góc bằng nhau, mỗi góc bằng 60°","Có 3 trục đối xứng"],"id":"tam-giac-deu","name":"Tam giác đều","svg":"<svg viewBox=\"0 0 240 210\"><polygon points=\"120,25 35,175 205,175\" fill=\"#fff8e1\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"120\" y1=\"25\" x2=\"35\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"120\" y1=\"25\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"175\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"70\" y1=\"93\" x2=\"84\" y2=\"107\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"156\" y1=\"107\" x2=\"170\" y2=\"93\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"120\" y1=\"168\" x2=\"120\" y2=\"182\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"120\" y1=\"25\" x2=\"120\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text class=\"hot\" data-f=\"1\" x=\"112\" y=\"58\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"1\" x=\"44\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"1\" x=\"172\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text></svg>"},{"check":{"answer":"4","q":"Hình vuông có bao nhiêu trục đối xứng?","unit":"trục"},"facts":["Bốn cạnh bằng nhau","Bốn góc đều là góc vuông (90°) — ký hiệu ô vuông nhỏ ở mỗi góc","Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường"],"id":"hinh-vuong","name":"Hình vuông","svg":"<svg viewBox=\"0 0 240 215\"><polygon points=\"60,35 200,35 200,175 60,175\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"60\" y1=\"35\" x2=\"200\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"200\" y1=\"35\" x2=\"200\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"200\" y1=\"175\" x2=\"60\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"60\" y1=\"175\" x2=\"60\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"28\" x2=\"130\" y2=\"42\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"193\" y1=\"105\" x2=\"207\" y2=\"105\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"130\" y1=\"168\" x2=\"130\" y2=\"182\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"53\" y1=\"105\" x2=\"67\" y2=\"105\" stroke=\"#e65100\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,35 72,47 60,47\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"188,35 188,47 200,47\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"188,175 188,163 200,163\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,175 72,163 60,163\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"60\" y1=\"35\" x2=\"200\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"200\" y1=\"35\" x2=\"60\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/></svg>"},{"check":{"answer":"6","q":"Lục giác đều có bao nhiêu cạnh?","unit":"cạnh"},"facts":["Sáu cạnh bằng nhau","Khi nối tâm với các đỉnh, lục giác đều được chia thành 6 tam giác đều","Sáu góc bằng nhau, mỗi góc bằng 120°"],"id":"luc-giac-deu","name":"Lục giác đều","svg":"<svg viewBox=\"0 0 240 215\"><polygon class=\"hot\" data-f=\"0\" points=\"198,108 159,176 81,176 42,108 81,41 159,41\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"42\" y1=\"108\" x2=\"198\" y2=\"108\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"81\" y1=\"41\" x2=\"159\" y2=\"176\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"159\" y1=\"41\" x2=\"81\" y2=\"176\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"120\" cy=\"108\" r=\"3.5\" fill=\"#c62828\"/><text class=\"hot\" data-f=\"2\" x=\"160\" y=\"100\" font-size=\"13\" fill=\"#c62828\">120°</text><text class=\"hot\" data-f=\"2\" x=\"52\" y=\"100\" font-size=\"13\" fill=\"#c62828\">120°</text></svg>"},{"check":{"answer":"2","q":"Hình chữ nhật có bao nhiêu trục đối xứng?","unit":"trục"},"facts":["Các cạnh đối bằng nhau (2 cạnh dài bằng nhau, 2 cạnh ngắn bằng nhau — chú ý ký hiệu gạch khác nhau)","Bốn góc đều là góc vuông (90°)","Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường"],"id":"hinh-chu-nhat","name":"Hình chữ nhật","svg":"<svg viewBox=\"0 0 250 200\"><polygon points=\"35,50 215,50 215,145 35,145\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"50\" x2=\"215\" y2=\"50\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"215\" y1=\"50\" x2=\"215\" y2=\"145\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"215\" y1=\"145\" x2=\"35\" y2=\"145\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"145\" x2=\"35\" y2=\"50\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"117\" y1=\"43\" x2=\"117\" y2=\"57\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"129\" y1=\"43\" x2=\"129\" y2=\"57\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"117\" y1=\"138\" x2=\"117\" y2=\"152\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"129\" y1=\"138\" x2=\"129\" y2=\"152\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"28\" y1=\"97\" x2=\"42\" y2=\"97\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"208\" y1=\"97\" x2=\"222\" y2=\"97\" stroke=\"#e65100\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"47,50 47,62 35,62\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"203,50 203,62 215,62\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"203,145 203,133 215,133\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"47,145 47,133 35,133\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"35\" y1=\"50\" x2=\"215\" y2=\"145\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"215\" y1=\"50\" x2=\"35\" y2=\"145\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/></svg>"},{"check":{"answer":"4","q":"Hình thoi có bao nhiêu cạnh bằng nhau?","unit":"cạnh"},"facts":["Bốn cạnh đều bằng nhau","Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường (chú ý ô vuông nhỏ ở giao điểm)"],"id":"hinh-thoi","name":"Hình thoi","svg":"<svg viewBox=\"0 0 240 212\"><polygon class=\"hot\" data-f=\"0\" points=\"120,18 198,105 120,192 42,105\" fill=\"#f3e5f5\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"152\" y1=\"54\" x2=\"166\" y2=\"68\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"166\" y1=\"142\" x2=\"152\" y2=\"156\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"88\" y1=\"156\" x2=\"74\" y2=\"142\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"74\" y1=\"68\" x2=\"88\" y2=\"54\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"1\" x1=\"120\" y1=\"18\" x2=\"120\" y2=\"192\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"42\" y1=\"105\" x2=\"198\" y2=\"105\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><polyline points=\"132,105 132,117 120,117\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/></svg>"},{"check":{"answer":"2","q":"Hình bình hành có bao nhiêu cặp cạnh đối song song?","unit":"cặp"},"facts":["Các cạnh đối song song và bằng nhau","Hai đường chéo cắt nhau tại trung điểm của mỗi đường","Có tâm đối xứng là giao điểm của hai đường chéo (chấm đỏ ở giữa)"],"id":"hinh-binh-hanh","name":"Hình bình hành","svg":"<svg viewBox=\"0 0 270 200\"><polygon class=\"hot\" data-f=\"0\" points=\"55,150 190,150 225,55 90,55\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"116\" y1=\"143\" x2=\"116\" y2=\"157\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"128\" y1=\"143\" x2=\"128\" y2=\"157\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"151\" y1=\"48\" x2=\"151\" y2=\"62\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"163\" y1=\"48\" x2=\"163\" y2=\"62\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"66\" y1=\"95\" x2=\"79\" y2=\"109\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"201\" y1=\"109\" x2=\"214\" y2=\"95\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"1\" x1=\"55\" y1=\"150\" x2=\"225\" y2=\"55\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"90\" y1=\"55\" x2=\"190\" y2=\"150\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle class=\"hot\" data-f=\"2\" cx=\"140\" cy=\"102\" r=\"5\" fill=\"#c62828\"/></svg>"},{"check":{"answer":"1","q":"Hình thang cân có bao nhiêu trục đối xứng?","unit":"trục"},"facts":["Hai cạnh bên bằng nhau","Hai góc kề một cạnh đáy bằng nhau","Hai đường chéo bằng nhau","Có đúng 1 trục đối xứng (đường thẳng đi qua trung điểm hai đáy)"],"id":"hinh-thang-can","name":"Hình thang cân","svg":"<svg viewBox=\"0 0 240 200\"><polygon points=\"35,155 205,155 168,60 72,60\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"205\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"47\" y1=\"100\" x2=\"60\" y2=\"114\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"180\" y1=\"114\" x2=\"193\" y2=\"100\" stroke=\"#e65100\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"1\" d=\"M62,155 A27,27 0 0 0 49,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"1\" d=\"M178,155 A27,27 0 0 1 191,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"35\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"205\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"3\" x1=\"120\" y1=\"45\" x2=\"120\" y2=\"170\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/></svg>"}]
+[
+ {
+  "check": {
+   "answer": "3",
+   "q": "Tam giác đều có bao nhiêu trục đối xứng?",
+   "unit": "trục"
+  },
+  "facts": [
+   "Ba cạnh bằng nhau (các dấu gạch giống nhau trên 3 cạnh đánh dấu các cạnh bằng nhau)",
+   "Ba góc bằng nhau, mỗi góc bằng 60°",
+   "Có 3 trục đối xứng (hình vẽ mới vẽ 1 trục). Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau"
+  ],
+  "id": "tam-giac-deu",
+  "name": "Tam giác đều",
+  "svg": "<svg viewBox=\"0 0 240 210\"><polygon points=\"120,25 35,175 205,175\" fill=\"#fff8e1\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"120\" y1=\"25\" x2=\"35\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"120\" y1=\"25\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"175\" x2=\"205\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"70\" y1=\"93\" x2=\"84\" y2=\"107\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"156\" y1=\"107\" x2=\"170\" y2=\"93\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"120\" y1=\"168\" x2=\"120\" y2=\"182\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"120\" y1=\"25\" x2=\"120\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text class=\"hot\" data-f=\"1\" x=\"112\" y=\"58\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"1\" x=\"44\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text><text class=\"hot\" data-f=\"1\" x=\"172\" y=\"166\" font-size=\"13\" fill=\"#c62828\">60°</text></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = a × 3",
+    "note": "a là độ dài cạnh"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "4",
+   "q": "Hình vuông có bao nhiêu trục đối xứng?",
+   "unit": "trục"
+  },
+  "facts": [
+   "Bốn cạnh bằng nhau",
+   "Bốn góc đều là góc vuông (90°) — ký hiệu ô vuông nhỏ ở mỗi góc",
+   "Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường",
+   "Có 4 trục đối xứng (đường đứt nét màu xanh ngọc + 2 đường chéo): gấp hình theo các đường này, hai nửa trùng khít lên nhau"
+  ],
+  "id": "hinh-vuong",
+  "name": "Hình vuông",
+  "svg": "<svg viewBox=\"0 0 240 215\"><polygon points=\"60,35 200,35 200,175 60,175\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"60\" y1=\"35\" x2=\"200\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"200\" y1=\"35\" x2=\"200\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"200\" y1=\"175\" x2=\"60\" y2=\"175\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"60\" y1=\"175\" x2=\"60\" y2=\"35\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"28\" x2=\"130\" y2=\"42\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"193\" y1=\"105\" x2=\"207\" y2=\"105\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"130\" y1=\"168\" x2=\"130\" y2=\"182\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"53\" y1=\"105\" x2=\"67\" y2=\"105\" stroke=\"#e65100\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,35 72,47 60,47\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"188,35 188,47 200,47\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"188,175 188,163 200,163\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,175 72,163 60,163\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"60\" y1=\"35\" x2=\"200\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"200\" y1=\"35\" x2=\"60\" y2=\"175\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"3\" x1=\"130\" y1=\"35\" x2=\"130\" y2=\"175\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/><line class=\"hot\" data-f=\"3\" x1=\"60\" y1=\"105\" x2=\"200\" y2=\"105\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = a × 4",
+    "note": "a là độ dài cạnh"
+   },
+   {
+    "label": "Diện tích",
+    "f": "S = a × a",
+    "note": "a là độ dài cạnh"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "6",
+   "q": "Lục giác đều có bao nhiêu cạnh?",
+   "unit": "cạnh"
+  },
+  "facts": [
+   "Sáu cạnh bằng nhau",
+   "Khi nối tâm với các đỉnh, lục giác đều được chia thành 6 tam giác đều",
+   "Sáu góc bằng nhau, mỗi góc bằng 120°",
+   "Có 6 trục đối xứng: 3 đường nối hai đỉnh đối diện và 3 đường nối trung điểm hai cạnh đối diện (đường đứt nét)"
+  ],
+  "id": "luc-giac-deu",
+  "name": "Lục giác đều",
+  "svg": "<svg viewBox=\"0 0 240 215\"><polygon class=\"hot\" data-f=\"0\" points=\"198,108 159,176 81,176 42,108 81,41 159,41\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"1\" x1=\"42\" y1=\"108\" x2=\"198\" y2=\"108\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"81\" y1=\"41\" x2=\"159\" y2=\"176\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"159\" y1=\"41\" x2=\"81\" y2=\"176\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"120\" cy=\"108\" r=\"3.5\" fill=\"#c62828\"/><text class=\"hot\" data-f=\"2\" x=\"160\" y=\"100\" font-size=\"13\" fill=\"#c62828\">120°</text><text class=\"hot\" data-f=\"2\" x=\"52\" y=\"100\" font-size=\"13\" fill=\"#c62828\">120°</text><line class=\"hot\" data-f=\"3\" x1=\"120\" y1=\"41\" x2=\"120\" y2=\"176\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/><line class=\"hot\" data-f=\"3\" x1=\"61\" y1=\"74\" x2=\"179\" y2=\"142\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/><line class=\"hot\" data-f=\"3\" x1=\"179\" y1=\"74\" x2=\"61\" y2=\"142\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = a × 6",
+    "note": "a là độ dài cạnh"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "2",
+   "q": "Hình chữ nhật có bao nhiêu trục đối xứng?",
+   "unit": "trục"
+  },
+  "facts": [
+   "Các cạnh đối bằng nhau (2 cạnh dài bằng nhau, 2 cạnh ngắn bằng nhau — chú ý ký hiệu gạch khác nhau)",
+   "Bốn góc đều là góc vuông (90°)",
+   "Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường",
+   "Có 2 trục đối xứng (đường đứt nét màu xanh ngọc): là 2 đường nối trung điểm các cạnh đối diện. Lưu ý: đường chéo KHÔNG phải trục đối xứng của hình chữ nhật"
+  ],
+  "id": "hinh-chu-nhat",
+  "name": "Hình chữ nhật",
+  "svg": "<svg viewBox=\"0 0 250 200\"><polygon points=\"35,50 215,50 215,145 35,145\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"50\" x2=\"215\" y2=\"50\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"215\" y1=\"50\" x2=\"215\" y2=\"145\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"215\" y1=\"145\" x2=\"35\" y2=\"145\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"145\" x2=\"35\" y2=\"50\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"117\" y1=\"43\" x2=\"117\" y2=\"57\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"129\" y1=\"43\" x2=\"129\" y2=\"57\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"117\" y1=\"138\" x2=\"117\" y2=\"152\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"129\" y1=\"138\" x2=\"129\" y2=\"152\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"28\" y1=\"97\" x2=\"42\" y2=\"97\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"208\" y1=\"97\" x2=\"222\" y2=\"97\" stroke=\"#e65100\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"47,50 47,62 35,62\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"203,50 203,62 215,62\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"203,145 203,133 215,133\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><polyline class=\"hot\" data-f=\"1\" points=\"47,145 47,133 35,133\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"35\" y1=\"50\" x2=\"215\" y2=\"145\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"215\" y1=\"50\" x2=\"35\" y2=\"145\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"3\" x1=\"125\" y1=\"50\" x2=\"125\" y2=\"145\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/><line class=\"hot\" data-f=\"3\" x1=\"35\" y1=\"98\" x2=\"215\" y2=\"98\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = (a + b) × 2",
+    "note": "a là chiều dài, b là chiều rộng"
+   },
+   {
+    "label": "Diện tích",
+    "f": "S = a × b",
+    "note": "a là chiều dài, b là chiều rộng"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "4",
+   "q": "Hình thoi có bao nhiêu cạnh bằng nhau?",
+   "unit": "cạnh"
+  },
+  "facts": [
+   "Bốn cạnh đều bằng nhau",
+   "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường (chú ý ô vuông nhỏ ở giao điểm). Hai đường chéo này cũng chính là 2 trục đối xứng của hình thoi"
+  ],
+  "id": "hinh-thoi",
+  "name": "Hình thoi",
+  "svg": "<svg viewBox=\"0 0 240 212\"><polygon class=\"hot\" data-f=\"0\" points=\"120,18 198,105 120,192 42,105\" fill=\"#f3e5f5\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"152\" y1=\"54\" x2=\"166\" y2=\"68\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"166\" y1=\"142\" x2=\"152\" y2=\"156\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"88\" y1=\"156\" x2=\"74\" y2=\"142\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"74\" y1=\"68\" x2=\"88\" y2=\"54\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"1\" x1=\"120\" y1=\"18\" x2=\"120\" y2=\"192\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"42\" y1=\"105\" x2=\"198\" y2=\"105\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><polyline points=\"132,105 132,117 120,117\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = a × 4",
+    "note": "a là độ dài cạnh"
+   },
+   {
+    "label": "Diện tích",
+    "f": "S = (m × n) : 2",
+    "note": "m và n là độ dài hai đường chéo"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "2",
+   "q": "Hình bình hành có bao nhiêu cặp cạnh đối song song?",
+   "unit": "cặp"
+  },
+  "facts": [
+   "Các cạnh đối song song và bằng nhau",
+   "Hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+   "Có tâm đối xứng là giao điểm của hai đường chéo (chấm đỏ ở giữa). Lưu ý: hình bình hành thường KHÔNG có trục đối xứng"
+  ],
+  "id": "hinh-binh-hanh",
+  "name": "Hình bình hành",
+  "svg": "<svg viewBox=\"0 0 270 200\"><polygon class=\"hot\" data-f=\"0\" points=\"55,150 190,150 225,55 90,55\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"116\" y1=\"143\" x2=\"116\" y2=\"157\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"128\" y1=\"143\" x2=\"128\" y2=\"157\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"151\" y1=\"48\" x2=\"151\" y2=\"62\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"163\" y1=\"48\" x2=\"163\" y2=\"62\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"66\" y1=\"95\" x2=\"79\" y2=\"109\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"201\" y1=\"109\" x2=\"214\" y2=\"95\" stroke=\"#e65100\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"1\" x1=\"55\" y1=\"150\" x2=\"225\" y2=\"55\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"1\" x1=\"90\" y1=\"55\" x2=\"190\" y2=\"150\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle class=\"hot\" data-f=\"2\" cx=\"140\" cy=\"102\" r=\"5\" fill=\"#c62828\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = (a + b) × 2",
+    "note": "a và b là độ dài hai cạnh kề nhau"
+   },
+   {
+    "label": "Diện tích",
+    "f": "S = a × h",
+    "note": "a là cạnh đáy, h là chiều cao tương ứng"
+   }
+  ]
+ },
+ {
+  "check": {
+   "answer": "1",
+   "q": "Hình thang cân có bao nhiêu trục đối xứng?",
+   "unit": "trục"
+  },
+  "facts": [
+   "Hai cạnh bên bằng nhau",
+   "Hai góc kề một cạnh đáy bằng nhau",
+   "Hai đường chéo bằng nhau",
+   "Có đúng 1 trục đối xứng (đường đứt nét màu xanh ngọc, đi qua trung điểm hai đáy): gấp hình theo đường này, hai nửa trùng khít lên nhau"
+  ],
+  "id": "hinh-thang-can",
+  "name": "Hình thang cân",
+  "svg": "<svg viewBox=\"0 0 240 200\"><polygon points=\"35,155 205,155 168,60 72,60\" fill=\"#e8f5e9\" stroke=\"#999\" stroke-width=\"1.5\"/><line class=\"hot\" data-f=\"0\" x1=\"35\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"0\" x1=\"205\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line x1=\"47\" y1=\"100\" x2=\"60\" y2=\"114\" stroke=\"#e65100\" stroke-width=\"2\"/><line x1=\"180\" y1=\"114\" x2=\"193\" y2=\"100\" stroke=\"#e65100\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"1\" d=\"M62,155 A27,27 0 0 0 49,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><path class=\"hot\" data-f=\"1\" d=\"M178,155 A27,27 0 0 1 191,131\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><line class=\"hot\" data-f=\"2\" x1=\"35\" y1=\"155\" x2=\"168\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"2\" x1=\"205\" y1=\"155\" x2=\"72\" y2=\"60\" stroke=\"#6a1b9a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line class=\"hot\" data-f=\"3\" x1=\"120\" y1=\"45\" x2=\"120\" y2=\"170\" stroke=\"#00838f\" stroke-width=\"2\" stroke-dasharray=\"3 4\"/></svg>",
+  "formulas": [
+   {
+    "label": "Chu vi",
+    "f": "P = a + b + c × 2",
+    "note": "a là đáy lớn, b là đáy nhỏ, c là cạnh bên"
+   },
+   {
+    "label": "Diện tích",
+    "f": "S = (a + b) × h : 2",
+    "note": "a là đáy lớn, b là đáy nhỏ, h là chiều cao"
+   }
+  ]
+ }
+]
