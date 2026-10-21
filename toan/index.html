@@ -5,39 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Toán 6 - Tự luận Học kì 1</title>
 <script src="https://js.puter.com/v2/"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
-h1{text-align:center;color:#2e7d32;margin-bottom:6px}
-.sub{text-align:center;color:#666;margin-bottom:6px}
-.steps{text-align:center;color:#2e7d32;font-size:14px;margin-bottom:16px}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5;color:#1f2937}
+h1{text-align:center;color:#2e7d32;margin-bottom:6px;font-size:30px;line-height:1.3}
+.sub{text-align:center;color:#444;margin-bottom:6px}
+.steps{text-align:center;color:#2e7d32;font-size:16px;margin-bottom:16px}
 a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12px}
 .sec{background:#fff;border-radius:10px;padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.sec>h2{font-size:18px;color:#2e7d32;margin-bottom:6px}
-.sec .desc{color:#666;font-size:14px;margin-bottom:10px}
-.chap-t{font-weight:bold;color:#1565c0;margin:12px 0 4px;font-size:15px}
-.p-item{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;padding:11px 12px;border:1px solid #ddd;border-radius:8px;background:#fafafa;cursor:pointer;font-size:15px;margin:5px 0}
+.sec>h2{font-size:25px;color:#2e7d32;margin-bottom:6px;line-height:1.35}
+.sec .desc{color:#444;font-size:16px;margin-bottom:10px;line-height:1.6}
+.chap-t{font-weight:bold;color:#1565c0;margin:12px 0 4px;font-size:18px}
+.p-item{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;padding:11px 12px;border:1px solid #ddd;border-radius:8px;background:#fafafa;cursor:pointer;font-size:17px;line-height:1.6;margin:5px 0}
 .p-item:hover{background:#e8f5e9}
 .p-item .done{color:#2e7d32;font-weight:bold}
 .p-item .todo{color:#bbb}
 .shape-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
-.shape-card{border:1px solid #ddd;border-radius:8px;background:#fafafa;padding:12px;cursor:pointer;text-align:center;font-size:15px}
+.shape-card{border:1px solid #ddd;border-radius:8px;background:#fafafa;padding:12px;cursor:pointer;text-align:center;font-size:17px;line-height:1.55}
 .shape-card:hover{background:#e8f5e9}
-.tag{display:inline-block;background:#e8f5e9;color:#2e7d32;border-radius:10px;padding:2px 10px;font-size:12px;margin-bottom:10px}
+.tag{display:inline-block;background:#e8f5e9;color:#2e7d32;border-radius:10px;padding:2px 10px;font-size:14px;margin-bottom:10px}
 .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1);margin-bottom:14px}
-.card h2{font-size:18px;margin-bottom:10px}
-.ptext{white-space:pre-line;font-size:16px;line-height:1.6;margin-bottom:8px}
+.card h2{font-size:24px;margin-bottom:10px;line-height:1.35}
+.ptext{white-space:pre-line;font-size:18px;line-height:1.7;margin-bottom:8px}
 .fig{text-align:center;margin:10px 0}
 .fig svg{max-width:100%}
-.btn{padding:10px 16px;font-size:15px;border:none;border-radius:8px;cursor:pointer;color:#fff;margin:4px 4px 4px 0}
+.btn{padding:10px 16px;font-size:16px;border:none;border-radius:8px;cursor:pointer;color:#fff;margin:4px 4px 4px 0}
 .btn-a{background:#1a73e8}.btn-h{background:#ea8600}.btn-s{background:#6a1b9a}.btn-c{background:#2e7d32}.btn-g{background:#666}.btn-k{background:#00838f}
 .btn:disabled{opacity:.45;cursor:default}
-.panel{border-radius:8px;padding:12px 14px;margin:10px 0;display:none;font-size:15px;line-height:1.55}
+.panel{border-radius:8px;padding:12px 14px;margin:10px 0;display:none;font-size:17px;line-height:1.65}
 .panel.show{display:block}
 .panel-a{background:#e3f2fd;border:1px solid #90caf9}
 .panel-h{background:#fff3cd;border:1px solid #ffe082}
 .panel-s{background:#f3e5f5;border:1px solid #ce93d8}
-.panel h3{font-size:15px;margin-bottom:6px}
+.panel h3{font-size:18px;margin-bottom:6px}
 .panel .lbl{font-weight:bold;color:#1565c0}
 .panel ol{margin-left:20px}
 .panel li{margin:4px 0}
@@ -46,23 +49,23 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .kw-data{background:#42a5f5;color:#fff;border-color:#1565c0}
 .kw-op{background:#ff9800;color:#fff;border-color:#e65100}
 .kw-ask{background:#e53935;color:#fff;border-color:#b71c1c}
-.kw-legend{font-size:13px;color:#555;margin:6px 0;display:none}
+.kw-legend{font-size:16px;color:#444;margin:6px 0;display:none;line-height:1.6}
 .kw-legend.show{display:block}
 .kw-legend span{border-radius:4px;padding:1px 6px;font-weight:bold;color:#fff}
-#kwInfo{background:#e0f2f1;border:1px solid #80cbc4;border-radius:8px;padding:10px 12px;font-size:14px;margin:8px 0;display:none;line-height:1.5}
+#kwInfo{background:#e0f2f1;border:1px solid #80cbc4;border-radius:8px;padding:10px 12px;font-size:16px;margin:8px 0;display:none;line-height:1.65}
 #kwInfo.show{display:block}
 .ans-row{display:flex;align-items:center;gap:8px;margin:10px 0;flex-wrap:wrap}
-.ans-row label{font-size:15px;min-width:170px}
-.ans-row input{padding:10px;font-size:16px;border:2px solid #bbb;border-radius:8px;width:150px}
+.ans-row label{font-size:17px;min-width:170px}
+.ans-row input{padding:10px;font-size:17px;border:2px solid #bbb;border-radius:8px;width:150px}
 .ans-row input.ok{border-color:#2e7d32;background:#e8f5e9}
 .ans-row input.no{border-color:#dc3545;background:#fdecea}
-.ans-row .unit{color:#555}
-.fb{font-size:15px;margin:8px 0;min-height:20px}
+.ans-row .unit{color:#444}
+.fb{font-size:17px;margin:8px 0;min-height:20px;line-height:1.6}
 .fb.ok{color:#2e7d32;font-weight:bold}.fb.no{color:#dc3545}
 .nav{display:flex;justify-content:space-between;margin-top:6px;flex-wrap:wrap;gap:6px}
 .hidden{display:none}
 .sel-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
-select{padding:10px;font-size:15px;border:1px solid #bbb;border-radius:8px}
+select{padding:10px;font-size:16px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
 svg .hot.on{stroke:#f57c00!important}
 svg g.hot.on text{fill:#e65100!important}
@@ -76,25 +79,27 @@ polygon.nm-on{fill:#ff6d00!important;opacity:.32!important}
 svg text.halo{stroke:rgba(255,255,255,.92)!important;stroke-width:3px;paint-order:stroke}
 svg text.nm-on{fill:#e65100!important}
 svg text.lit{fill:#e65100!important}
-#tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:15.5px;margin:8px 0;min-height:42px}
+#tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:17px;margin:8px 0;min-height:42px;line-height:1.6}
 .fact{cursor:pointer}
 .frow{padding:8px 10px;border-radius:6px;cursor:pointer;margin-top:4px;border:1px solid transparent}
 .frow:hover{background:#fff8e1}
 .frow.on{background:#ffe0b2;border-color:#ea8600}
-.fact{padding:8px 10px;border-radius:6px;margin:5px 0;background:#fafafa;border:1px solid #eee;font-size:15px;line-height:1.5}
+.fact{padding:8px 10px;border-radius:6px;margin:5px 0;background:#fafafa;border:1px solid #eee;font-size:17px;line-height:1.65}
 .fact.on{background:#fff3cd;border-color:#ea8600}
-.streak{text-align:center;font-size:15px;margin-bottom:14px;color:#555}
+.streak{text-align:center;font-size:16px;margin-bottom:14px;color:#444}
 .streak b{color:#e65100}
-.r-item{text-align:left;padding:10px;border-bottom:1px solid #eee;font-size:14px;line-height:1.5}
+.r-item{text-align:left;padding:10px;border-bottom:1px solid #eee;font-size:16px;line-height:1.65}
 .panel-ai{background:#e8f5e9;border:1px solid #a5d6a7}
 .chatlog{max-height:280px;overflow-y:auto;margin:8px 0;padding:4px}
-.msg{border-radius:10px;padding:8px 12px;margin:6px 0;font-size:15px;line-height:1.55;white-space:pre-line;max-width:92%}
+.msg{border-radius:10px;padding:8px 12px;margin:6px 0;font-size:17px;line-height:1.65;white-space:pre-line;max-width:92%}
 .msg-u{background:#c8e6c9;margin-left:auto;text-align:left}
 .msg-a{background:#fff;border:1px solid #c8e6c9}
 .ai-row{display:flex;gap:6px;margin-top:8px}
-.ai-row input{flex:1;padding:10px;font-size:15px;border:2px solid #a5d6a7;border-radius:8px}
-.qbtn{padding:7px 12px;font-size:13.5px;border:1px solid #2e7d32;border-radius:16px;background:#fff;color:#2e7d32;cursor:pointer;margin:2px}
+.ai-row input{flex:1;padding:10px;font-size:16px;border:2px solid #a5d6a7;border-radius:8px}
+.qbtn{padding:7px 12px;font-size:16px;border:1px solid #2e7d32;border-radius:16px;background:#fff;color:#2e7d32;cursor:pointer;margin:2px}
 .qbtn:hover{background:#e8f5e9}
+button{font-family:inherit}
+small{line-height:1.6}
 </style>
 </head>
 <body>
@@ -165,7 +170,7 @@ svg text.lit{fill:#e65100!important}
         <input id="aiInput" placeholder="Nhập câu hỏi của em về bài này...">
         <button class="btn btn-c" id="btnAiSend">Gửi</button>
       </div>
-      <p style="font-size:12.5px;color:#777;margin-top:6px">AI hướng dẫn theo kiểu gợi mở, không làm bài hộ. Nếu AI yêu cầu đăng nhập Puter thì đó là tài khoản miễn phí của nền tảng AI.</p>
+      <p style="font-size:14px;color:#444;margin-top:6px;line-height:1.6">AI hướng dẫn theo kiểu gợi mở, không làm bài hộ. Nếu AI yêu cầu đăng nhập Puter thì đó là tài khoản miễn phí của nền tảng AI.</p>
     </div>
     <div class="panel panel-a" id="anaPanel"></div>
     <div class="panel panel-h" id="hintPanel"></div>
@@ -186,7 +191,7 @@ svg text.lit{fill:#e65100!important}
   <button class="btn btn-g" id="btnList2">← Về trang chính</button>
   <div class="card">
     <h2 id="tName"></h2>
-    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
+    <p style="color:#444;font-size:17px;margin-bottom:6px;line-height:1.65">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
     <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc BAC).</div>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
@@ -205,7 +210,7 @@ svg text.lit{fill:#e65100!important}
   </div>
 </div>
 
-<script src="gen.js?v=20261021d"></script>
+<script src="gen.js?v=20261021e"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 let problems=[],theory=[],cur=-1,curProb=null,curMode='sample';
@@ -217,7 +222,7 @@ function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(str
 function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
 function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
 
-Promise.all([fetch('problems.json?v=20261021d').then(r=>r.json()),fetch('theory.json?v=20261021d').then(r=>r.json())]).then(([p,t])=>{
+Promise.all([fetch('problems.json?v=20261021e').then(r=>r.json()),fetch('theory.json?v=20261021e').then(r=>r.json())]).then(([p,t])=>{
   problems=p;theory=t;renderHome();
 });
 
@@ -242,13 +247,13 @@ function renderHome(){
    'hinh-thang-can':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,5 28,5 37,27 3,27" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>'};
   sg.innerHTML=theory.map((s,i)=>`<div class="shape-card" onclick="openTheory(${i})">${ICONS[s.id]||'📐'}<br><b>${s.name}</b></div>`).join('');
   const doneCount=problems.filter(p=>done[p.id]).length;
-  let html=`<p style="color:#555;font-size:14px">Đã làm đúng: <b>${doneCount}/${problems.length}</b> bài mẫu</p>`;
+  let html=`<p style="color:#444;font-size:16px">Đã làm đúng: <b>${doneCount}/${problems.length}</b> bài mẫu</p>`;
   Object.keys(CHAPTERS).forEach(cn=>{
     const list=problems.map((p,i)=>({...p,_i:i})).filter(p=>p.chapter==cn);
     if(!list.length)return;
     html+=`<div class="chap-t">${CHAPTERS[cn]}</div>`;
     list.forEach(p=>{
-      html+=`<button class="p-item" onclick="openSample(${p._i})"><span>${p.title} <small style="color:#888">(${p.topic})</small></span><span class="${done[p.id]?'done':'todo'}">${done[p.id]?'✅':'○'}</span></button>`;
+      html+=`<button class="p-item" onclick="openSample(${p._i})"><span>${p.title} <small style="color:#444;font-size:16px">(${p.topic})</small></span><span class="${done[p.id]?'done':'todo'}">${done[p.id]?'✅':'○'}</span></button>`;
     });
   });
   document.getElementById('sampleList').innerHTML=html;
@@ -310,7 +315,7 @@ function openProbObj(p,mode){
     `<div style="margin-top:6px"><span class="lbl">Đề hỏi:</span> ${p.analysis.ask}</div>`+
     `<div style="margin-top:6px"><span class="lbl">Hướng làm:</span> ${p.analysis.plan}</div>`;
   let hintHtml=`<h3>💡 Gợi ý</h3>`;
-  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">👆 Hình của bài toán: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
+  if(p.svg)hintHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Hình của bài toán: chú ý các số đo ghi trên hình và ghép đúng với công thức bên dưới.</p>`;
   if(p.theory)hintHtml+=`<div class="theory-box"><b>📐 Lý thuyết liên quan:</b> ${p.theory}</div>`;
   if(p.shape){
     const sh=(typeof theory!=='undefined')?theory.find(s=>s.id===p.shape):null;
@@ -319,7 +324,7 @@ function openProbObj(p,mode){
   hintHtml+=`<div>${p.hint}</div>`;
   document.getElementById('hintPanel').innerHTML=hintHtml;
   let solHtml=`<h3>📖 Lời giải chi tiết</h3>`;
-  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:14px;color:#555">👆 Đối chiếu từng bước giải với số đo trên hình.</p>`;
+  if(p.svg)solHtml+=`<div class="fig">${p.svg}</div><p style="font-size:16px;color:#444">👆 Đối chiếu từng bước giải với số đo trên hình.</p>`;
   solHtml+=`<ol>${p.solution.map(s=>`<li>${s}</li>`).join('')}</ol>`;
   document.getElementById('solPanel').innerHTML=solHtml;
   ['anaPanel','hintPanel','solPanel','aiPanel'].forEach(id=>document.getElementById(id).classList.remove('show'));
@@ -588,7 +593,7 @@ function openTheory(i){
     const fl=(curTheory.links||[]).filter(L=>(L.fact||0)===j);
     return `<div class="fact" id="fact${j}">• ${fl.length?linkifyFact(f,fl):f}</div>`;
   }).join('');
-  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
+  document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#444;font-size:16px">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:18px">${f.f}</span> <small style="color:#444;font-size:16px">(${f.note})</small></div>`).join('');
   document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
   document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
   document.getElementById('tCheckUnit').textContent=curTheory.check.unit||'';
