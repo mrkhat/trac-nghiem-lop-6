@@ -1,0 +1,74 @@
+# Ngữ văn 6 — Học kì 1 (Kết nối tri thức)
+
+Module học Ngữ văn 6 cho web quiz lớp 6: `nguvan/index.html` (1 file HTML tĩnh duy nhất, không cần server riêng — mở qua http.server/GitHub Pages đều chạy).
+
+## Mục tiêu thiết kế
+
+Ngữ văn là môn **tự luận là chính** — module này KHÔNG phải kho văn mẫu để chép. Mục tiêu: trẻ **thấm bài, theo kịp bài trên lớp** và **tự viết bằng lời của mình**. Vì vậy phần trọng tâm là *Góc tự luận*: mỗi câu hỏi chỉ cho **dàn ý gợi mở** (bấm xem sau khi tự nghĩ) + **1 đoạn mẫu ngắn 3–5 câu** để học cách diễn đạt, kèm cảnh báo "hãy tự viết bằng lời của mình". Không có bài văn hoàn chỉnh viết thay trẻ, và không làm quiz trắc nghiệm riêng cho Văn.
+
+## Cấu trúc trang — mạch từng bài khép kín
+
+Mỗi bài (chủ điểm) là 1 khối nối tiếp gồm:
+
+1. **Giới thiệu bài** — chủ đề/cảm xúc chính, 2 hình minh họa khớp nội dung (đã đối chiếu mô tả file Commons)
+2. **Văn bản chính** — tóm tắt theo bố cục bằng lời dễ hiểu + 1 trích đoạn ngắn tiêu biểu (ghi nguồn tác giả)
+3. **Sơ đồ tư duy của bài** (HTML/CSS thuần) — trung tâm = tên bài, nhánh = văn bản/ý nghĩa
+4. **Học từ khó** — 5 thẻ/bài: từ + nghĩa dễ hiểu + ví dụ đặt câu đời thường
+5. **Câu hỏi gợi nhớ** — 4–5 câu/bài, bấm hiện đáp án ngắn (có câu hỏi theo hình, có câu đọc-hiểu nhanh)
+6. **Góc tự luận** — 3 câu/bài theo mức Dễ → Vừa → Khó hơn, mỗi câu có dàn ý gợi ý + đoạn mẫu ngắn
+7. **Flashcard riêng của bài** — 6 thẻ/bài, mặt trước có hình gợi nhớ, mặt sau chỉ có đáp án (không lặp lại hình của mặt trước); Đã thuộc/Chưa thuộc lưu `localStorage` khoá `nguvan_flash_v1`
+
+Cuối trang: **Phần Tổng kết** — sơ đồ tư duy tổng HK1 + mục *Luyện viết theo chủ đề* (4 dạng viết của HK1, mỗi dạng 1 dàn ý khung + bí quyết) + flashcard tổng ôn gộp 30 thẻ.
+
+## Hai chế độ hiển thị
+
+- **"Từng bài" (mặc định):** chỉ hiện 1 bài; thanh chip chọn Bài 1–5 + 🏁 Tổng kết, nút Trước/Sau ở cả thanh trên và thanh dưới; Tổng kết là mục riêng; nút "Sang Bài…" cuối mỗi bài chuyển mục trong chế độ này.
+- **"Xem tất cả":** hiện toàn bộ trang (show all).
+- Nút chuyển chế độ ở **đầu và cuối trang**; lựa chọn lưu `localStorage` khoá `nguvan_view_mode`; mở trang kèm `#bai3`/`#tongket` sẽ hiện đúng mục đó.
+
+## Responsive (chuẩn bắt buộc)
+
+- Mobile-first: kiểm tra bố cục ở 375px (điện thoại), 768px (iPad) và desktop (trang giới hạn max-width 820px).
+- Vùng chạm ≥ 44px: nút bấm, chip chọn bài, nút Trước/Sau, nút mở đáp án/dàn ý, link "Sang Bài…".
+- Chữ thân bài ≥ 16px, giãn dòng ≥ 1.6 (môn Văn nhiều chữ); chú thích ảnh/nhãn phụ nhỏ hơn có chủ đích.
+- Sơ đồ tư duy co giãn: trên màn hình ≤480px các nhánh xếp dọc; ảnh `max-width:100%`, không tràn ngang; thẻ flashcard tăng chiều cao trên điện thoại và mặt thẻ cuộn được khi đáp án dài.
+
+## Danh sách bài (SGK Ngữ văn 6 KNTT, tập 1) và văn bản đọc chính
+
+| Bài | Tên bài | Văn bản chính | Phạm vi |
+|---|---|---|---|
+| 1 | Tôi và các bạn | Bài học đường đời đầu tiên (Tô Hoài) • Nếu cậu muốn có một người bạn… (Saint-Exupéry) • Bắt nạt (Nguyễn Thế Hoàng Linh) | Ôn giữa kì 1 |
+| 2 | Gõ cửa trái tim | Chuyện cổ tích về loài người (Xuân Quỳnh) • Mây và sóng (Tagore) • Bức tranh của em gái tôi (Tạ Duy Anh) | Ôn giữa kì 1 |
+| 3 | Yêu thương và chia sẻ | Cô bé bán diêm (Andersen) • Gió lạnh đầu mùa (Thạch Lam) • Con chào mào (Mai Văn Phấn) | Sau giữa kì |
+| 4 | Quê hương yêu dấu | Chùm ca dao về quê hương đất nước • Chuyện cổ nước mình (Lâm Thị Mỹ Dạ) • Cây tre Việt Nam (Thép Mới) | Sau giữa kì |
+| 5 | Những nẻo đường xứ sở | Cô Tô (Nguyễn Tuân) • Hang Én (Hà My) • Cửu Long Giang ta ơi (Nguyên Hồng) | Sau giữa kì |
+
+Nguồn đối chiếu mục lục: mục "Soạn văn 6 Tập 1" của VietJack (http://vietjack.com/soan-van-6/soan-van-6-tap-1.jsp) và bài giới thiệu SGK Ngữ văn 6 KNTT trên o-study.net; cấu trúc soạn bài tham khảo cách tổ chức phổ biến của VietJack/Loigiaihay (tìm hiểu chung → bố cục/nội dung theo phần → nghệ thuật/ý nghĩa → câu hỏi) nhưng nội dung tóm tắt, dàn ý, đoạn mẫu đều tự soạn theo khuôn của site, không sao chép lời văn của các trang đó.
+
+## Hình ảnh (Wikimedia Commons — Special:FilePath?width=900, đã curl kiểm chứng 200 + image/jpeg, đối chiếu mô tả file)
+
+| Khoá | File | Dùng cho | Ghi chú khớp nội dung |
+|---|---|---|---|
+| de | Gryllus campestris MHNT.jpg | Bài 1 — Dế Mèn | Ảnh con dế đồng (mô tả Commons: field cricket) |
+| cao | Portrait of a red fox in Rautas fjällurskog.jpg | Bài 1 — cáo trong Hoàng tử bé | Chân dung cáo đỏ |
+| song | Ocean waves crashing up on rocks.jpg | Bài 2 — Mây và sóng | Sóng biển vỗ đá |
+| buom | Sailing boat at sunset, Ionian Sea, Albania.jpg | Bài 2 — Những cánh buồm | Thuyền buồm lúc hoàng hôn |
+| diem | Matchstick in the Dark (Unsplash).jpg | Bài 3 — Cô bé bán diêm | Que diêm cháy trong bóng tối |
+| tre | Bamboo and rattan village Phu Vinh,Chuong My,Ha Noi,Viet Nam.jpg | Bài 4 — Cây tre Việt Nam | Làng nghề mây tre đan Phú Vinh, Hà Nội (CC BY-SA 4.0) — đã thay cho ảnh rừng tre Kyoto vì lệch địa danh/nội dung |
+| lua | Man Harvesting Rice - Khang Ninh Commune - Ba Be - Vietnam - 01 (48107680932).jpg | Bài 4 — ca dao quê hương | Gặt lúa ở Ba Bể, Bắc Kạn |
+| dao | Ha Long Bay, Vietnam, Islands.jpg | Bài 5 — Cô Tô | Biển đảo VN (chú thích ghi rõ là hình minh họa biển đảo, không mạo nhận là đảo Cô Tô) |
+| hang | Son Doong Cave DB (1).jpg | Bài 5 — Hang Én | Hang Sơn Đoòng, cùng vùng Phong Nha – Kẻ Bàng với Hang Én (chú thích ghi rõ) |
+| mekong | Mekong Floating Market.jpg | Bài 5 — Cửu Long Giang | Chợ nổi trên sông Mê Kông |
+
+Nguồn ảnh bổ sung đã được duyệt (Smithsonian Open Access, Met Open Access — CC0; Pexels/Unsplash) nhưng bản này chưa cần dùng: các vị trí yếu nhất đã xử lý trong Commons (ảnh tre Phú Vinh). Khi tra Pexels qua công cụ tìm kiếm chỉ thu được link qua các trang tổng hợp (aggregator) — không dùng theo quy định tránh hotlink blog/trang tổng hợp; nếu sau này lấy được URL ảnh trực tiếp từ pexels.com/unsplash.com và curl kiểm chứng đạt, có thể bổ sung.
+
+## Số liệu tự kiểm (chạy thật trên file)
+
+- 5 khối bài + 1 mục Tổng kết; 21 câu hỏi gợi nhớ; 15 khối Góc tự luận (mỗi khối 1 dàn ý + 1 đoạn mẫu); 25 thẻ từ khó; 6 sơ đồ tư duy (5 bài + 1 tổng); 30 flashcard (6/bài) + 1 bộ tổng ôn; 2 thanh chuyển chế độ xem.
+- JS: `node --check` đạt cho cả 2 khối script; http.server: `/nguvan/` trả 200.
+
+## Điểm chưa chắc — cần đối chiếu
+
+1. **Phạm vi giữa kì 1:** phổ biến là hết Bài 2 (đề thi giữa kì trên VietJack cũng đặt sau Bài 2), một số trường lấy sang đầu Bài 3. Trang đã gắn nhãn từng bài để dễ đối chiếu.
+2. **Sách trường bé dùng:** module bám KNTT; nếu trường dùng Cánh diều/Chân trời sáng tạo thì danh sách văn bản sẽ khác.
+3. **Trích đoạn nguyên văn** (lời Dế Choắt; thơ Xuân Quỳnh; "Chuyện cổ nước mình"; câu mở đầu "Gió lạnh đầu mùa"; câu văn trong "Cô Tô") chọn các câu rất nổi tiếng và ổn định giữa các bản in, nhưng vẫn nên đối chiếu 1 lượt với SGK giấy thật trước khi cho bé học thuộc.
