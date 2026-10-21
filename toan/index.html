@@ -66,6 +66,9 @@ select{padding:10px;font-size:15px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
 svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
 svg g.hot.on text{fill:#e65100!important}
+svg text{stroke:none!important}
+.nmword{color:#0d47a1;font-weight:bold;text-decoration:underline dotted #0d47a1;cursor:pointer;padding:0 1px}
+.nmword:active{color:#e65100}
 .nm{cursor:pointer}
 line.nm-on{stroke:#ff6d00!important;stroke-width:5!important;opacity:.95!important}
 circle.nm-on{fill:#ff6d00!important;opacity:.45!important}
@@ -180,7 +183,7 @@ polygon.nm-on{fill:#ff6d00!important;opacity:.55!important}
   <button class="btn btn-g" id="btnList2">← Về trang chính</button>
   <div class="card">
     <h2 id="tName"></h2>
-    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh; góc tại đỉnh A gọi là <b>góc A</b>.</p>
+    <p style="color:#555;font-size:14.5px;margin-bottom:6px;line-height:1.55">👆 Bấm vào các yếu tố trên hình để xem đặc điểm tương ứng.<br>💡 <b>Trục đối xứng</b> là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình <b>trùng khít</b> lên nhau — trên hình, trục đối xứng được vẽ bằng đường đứt nét màu xanh ngọc.<br>📌 <b>Phân biệt ký hiệu:</b> chữ <b>IN HOA</b> (A, B, C, D) là tên các <b>đỉnh</b>; cạnh nối 2 đỉnh đọc bằng 2 chữ hoa (cạnh <b>AB</b>); <b>góc</b> đọc bằng <b>3 chữ hoa</b>, chữ ở giữa là đỉnh của góc (góc <b>BAC</b> là góc ở đỉnh A); chữ <b>thường</b> (a, b, c) là <b>độ dài</b> của cạnh.</p>
     <div id="tNameInfo">🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).</div>
     <div class="fig" id="tFig"></div>
     <div id="tFacts"></div>
@@ -445,6 +448,47 @@ function showExamResult(){
   window.scrollTo(0,0);
 }
 
+function linkifyFact(text,links){
+  if(!links||!links.length)return text;
+  let out=text; const ph=[];
+  [...links].sort((a,b)=>b.t.length-a.t.length).forEach((L,i)=>{
+    if(out.includes(L.t)){
+      const key='\u0001'+i+'\u0002';
+      out=out.split(L.t).join(key);
+      ph.push({key,L});
+    }
+  });
+  ph.forEach(({key,L})=>{ out=out.split(key).join(`<span class="nmword" data-act="${L.act}" data-label="${L.label}">${L.t}</span>`); });
+  return out;
+}
+function activateNm(el,label){
+  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+  if(el)el.classList.add('nm-on');
+  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+}
+document.getElementById('tFacts').addEventListener('click',e=>{
+  const w=e.target.closest?e.target.closest('.nmword'):null;
+  if(!w)return;
+  e.stopPropagation();
+  const act=w.dataset.act, label=w.dataset.label;
+  if(act==='shape'){
+    document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
+    document.querySelectorAll('#tFig circle.nm').forEach(x=>x.classList.add('nm-on'));
+    document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+  }else if(act.startsWith('side:')){
+    const sd=act.slice(5);
+    const el=[...document.querySelectorAll('#tFig line.nm')].find(x=>x.dataset.nm.startsWith('Cạnh '+sd));
+    activateNm(el,label);
+  }else if(act.startsWith('angle:')){
+    const an=act.slice(6);
+    const el=[...document.querySelectorAll('#tFig polygon.nm')].find(x=>x.dataset.nm.startsWith('Góc '+an));
+    activateNm(el,label);
+  }else if(act.startsWith('fact:')){
+    selectFact(parseInt(act.slice(5)));
+    document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+label+'</b>';
+  }
+  document.getElementById('tFig').scrollIntoView({block:'center',behavior:'smooth'});
+});
 let ovlActive=-1;
 function showOvl(i,row){
   const groups=document.querySelectorAll('#tFig .ovl');
@@ -466,7 +510,7 @@ function openTheory(i){
   document.getElementById('tName').textContent='📐 '+curTheory.name;
   document.getElementById('tNameInfo').innerHTML='🔤 Bấm vào từng <b>đỉnh</b>, <b>cạnh</b> hoặc <b>góc</b> trên hình để biết tên gọi của chúng (ví dụ: Đỉnh A, Cạnh AB, Góc B).';
   document.getElementById('tFig').innerHTML=curTheory.svg;
-  document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${f}</div>`).join('');
+  document.getElementById('tFacts').innerHTML=curTheory.facts.map((f,j)=>`<div class="fact" id="fact${j}">• ${j===0?linkifyFact(f,curTheory.links):f}</div>`).join('');
   document.getElementById('tFormulas').innerHTML='<b>🧮 Công thức cần nhớ</b> <small style="color:#666">(👆 bấm vào công thức để hiện ký hiệu độ dài a, b, c... trên hình)</small>'+(curTheory.formulas||[]).map((f,i)=>`<div class="frow" data-fi="${i}">• <b>${f.label}:</b> <span style="font-size:16.5px">${f.f}</span> <small style="color:#666">(${f.note})</small></div>`).join('');
   document.querySelectorAll('.frow').forEach(r=>r.onclick=()=>showOvl(parseInt(r.dataset.fi),r));
   document.getElementById('tCheckQ').textContent='✍️ Tự kiểm tra: '+curTheory.check.q;
@@ -491,9 +535,7 @@ function selectFact(j){
 document.getElementById('tFig').addEventListener('click',e=>{
   const nmEl=e.target.closest?e.target.closest('.nm'):null;
   if(!nmEl)return;
-  document.querySelectorAll('#tFig .nm').forEach(x=>x.classList.remove('nm-on'));
-  nmEl.classList.add('nm-on');
-  document.getElementById('tNameInfo').innerHTML='🔤 Đây là: <b style="font-size:17px;color:#e65100">'+nmEl.dataset.nm+'</b>';
+  activateNm(nmEl,nmEl.dataset.nm);
 });
 document.getElementById('btnTCheck').onclick=()=>{
   const v=parseNum(document.getElementById('tCheckInp').value);
