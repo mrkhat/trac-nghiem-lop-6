@@ -167,6 +167,48 @@ added more translations by WikiForMen | CC BY-SA 3.0 |
 Sơ đồ tự vẽ trong trang (không dùng ảnh ngoài): lược đồ trí nhớ (Bài 5), lát cắt địa hình (Bài 14),
 các tầng khí quyển (Bài 15), sơ đồ quỹ đạo 4 vị trí (Bài 8), sơ đồ động ngày/đêm (Bài 7), pha Mặt Trăng (Bài 6), sơ đồ tư duy tổng (Tổng kết).
 
+## Rà soát chữ nước ngoài trong hình (21/10/2026)
+
+Quy tắc của user: hạn chế tối đa chữ tiếng Anh/ngôn ngữ khác trong hình bài học thường (trẻ lớp 6 không đọc được);
+ngoại lệ chỉ cho ký hiệu/đơn vị quốc tế thuộc nội dung bài (°C, km, vĩ độ…), tên riêng địa danh trên bản đồ thật,
+và chữ nhỏ ở vị trí phụ trong ảnh chụp thật. Đã tải và **xem trực tiếp toàn bộ 48 URL ảnh** của trang (gồm ảnh bài học, flashcard, ảnh dự phòng 3D).
+
+**Kết quả: 27 ảnh sạch (không có chữ) — giữ nguyên; 21 ảnh có chữ nước ngoài — đã xử lý hết:**
+
+*Vẽ lại thành SVG nhãn TIẾNG VIỆT (lưu ở `dialy/img/`, tham chiếu tương đối, ghi chú "sơ đồ tự vẽ minh họa (đơn giản hoá)") — 11 file, thay 13 ảnh cũ:*
+
+| SVG mới | Thay cho ảnh cũ | Dùng ở |
+|---|---|---|
+| `img/hoa-huong.svg` | Compass Rose North.svg (chữ N/E/S/W + 16 hướng viết tắt Anh — dễ nhầm: N tiếng Anh = Bắc, N tiếng Việt = Nam) | Bài 2, 4, 5 + flashcard (14 chỗ) |
+| `img/vi-tuyen.svg` | Latitude lines color.svg (NORTH POLE / EQUATOR / North / South) | Bài 1 + flashcard |
+| `img/he-mat-troi.svg` | Solar System graphic by NASA.png (tên hành tinh tiếng Anh) | Bài 6 + ảnh dự phòng mô hình 3D + flashcard |
+| `img/cac-pha-trang.svg` | Moon phases en.jpg (New Moon / Full Moon…) | Bài 6 + flashcard |
+| `img/nhat-thuc-nguyet-thuc.svg` | Geometry of Solar eclipses and Lunar eclipses.svg (Sun / Moon / Earth…) | Bài 6 |
+| `img/ngay-dem.svg` | Rotating earth for twilight.png ("Rays of sunlight", điểm P/N) | Bài 7 + flashcard |
+| `img/cac-mua-quy-dao.svg` | ChangingSeasons NH 01.png (ASTRONOMICAL SPRING / Summer Solstice…) | Bài 8 + flashcard |
+| `img/hoan-luu-khi-quyen.svg` | Earth Global Circulation - en.svg (Westerlies / HIGH / Trades…) | Bài 13 + flashcard |
+| `img/cac-tang-dat.svg` | Generalized Soil Profile.png VÀ Soil profile.jpg ("Horizons", O/A/B/C, độ sâu bằng inch) | Bài 23 + flashcard |
+| `img/bieu-do-khi-hau-gio-mua.svg` | Ghosi Climate-Graph.png (tiêu đề "Altitude / Climate: Csa", trục °F) | Bài 14 + flashcard |
+| `img/bieu-do-khi-hau-on-doi.svg` | Klimadiagramm Bsp 01.jpg (tháng ghi J F M A… kiểu Đức) | Bài 14 + flashcard |
+
+*Thay bằng bản tương đương không có chữ (cách 1):*
+- **Vòng tuần hoàn của nước (Bài 17):** bỏ sơ đồ NASA toàn chữ Anh (The Water Cycle SVS30580) → dùng chính sơ đồ `Water cycle diagram-vi.svg` (chữ tiếng Việt: mưa, bốc hơi, nước ngầm…) đã có trong module.
+- **Bản đồ khí hậu Köppen (Bài 15):** đổi sang bản **no borders** cùng bộ dữ liệu Beck et al. — bản này không có tiêu đề/chú giải chữ, chỉ còn màu; figcaption đã bổ sung hướng dẫn đọc nhanh theo màu bằng tiếng Việt (đỏ–cam = khô nóng, xanh dương đậm = xích đạo mưa nhiều, xanh lá/lam = ôn đới, tím–xám = cực lạnh).
+
+*Giữ nguyên kèm chú thích tiếng Việt (cách 3):*
+- **Bản đồ các mảng kiến tạo (Bài 10):** không có bản trắng/bản tiếng Việt tương đương trên Commons → giữ bản đồ 2022, figcaption bổ sung bảng đối chiếu tên 15 mảng Anh → Việt (Pacific = Thái Bình Dương, Eurasian = Á–Âu…).
+
+*Giữ nguyên theo ngoại lệ (ghi rõ lý do):*
+- **2 bản đồ địa hình USGS (Stowe, tỉ lệ 1:24 000) + bản đồ sông Kaweah (Bài 3, 4):** bản đồ thật — chữ trên bản đồ là *tên riêng địa danh* (Stowe, Cady Hill…), điểm học là đường đồng mức/kí hiệu, chú thích tiếng Việt đã giải thích sẵn.
+- **Ảnh trạm quan trắc thời tiết (Bài 12):** chữ rất nhỏ trên mặt 3 đồng hồ đo thật (nhiệt kế/khí áp kế/ẩm kế), ở vị trí phụ; alt + bài học đã giải thích bằng tiếng Việt.
+- **Ảnh la bàn cổ (Bài 2):** chữ cái chỉ hướng trên mặt la bàn là một phần của vật thật trong ảnh chụp, nhỏ và mờ, không phải điểm nhìn chính.
+- **Ảnh động đất Fukui 1948 (Bài 10):** một chữ Hán nhỏ trên biển hiệu ở mép phải ảnh tư liệu đen trắng — vị trí phụ, ảnh lịch sử.
+- **Sơ đồ cấu tạo Trái Đất (Earth-cutaway-schematic-numbered.svg):** chỉ có số liệu "2900 km / 5100 km" — đơn vị km là ký hiệu quốc tế thuộc nội dung bài.
+- **Sơ đồ núi lửa (Volcano scheme.svg):** chỉ đánh số 1–15, không có chữ; **sơ đồ quỹ đạo (Orbital relations…svg):** file gốc không chứa phần tử chữ nào (đã kiểm tra mã nguồn SVG) — cả hai giữ nguyên.
+- **Sơ đồ vòng tuần hoàn -vi (Bài 12)** vốn đã là tiếng Việt — giữ làm mẫu.
+
+Sau đợt này: 35 URL ảnh ngoài còn lại đều đã kiểm chứng tải được (HTTP 200, đúng loại image); 11 SVG tự vẽ phục vụ 200 `image/svg+xml` qua máy chủ kiểm thử; `questions.json` và `quiz.html` không thay đổi; toàn bộ JS qua `node --check`.
+
 ## Ghi chú về đáp án
 Đáp án trắc nghiệm và câu hỏi gợi nhớ do người soạn biên soạn theo SGK Địa lí 6 (Kết nối tri thức),
 **chưa đối chiếu với đáp án chính thức** — trang trắc nghiệm có ghi rõ dòng này.

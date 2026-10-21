@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#0b1c30"/>
+<text x="480" y="42" font-size="25" font-weight="700" fill="#fde68a" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">NHẬT THỰC — Mặt Trăng nằm giữa Mặt Trời và Trái Đất</text>
+<circle cx="120" cy="140" r="44" fill="#fbbf24"/>
+<text x="120" y="212" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Mặt Trời</text>
+<polygon points="300,118 300,162 640,178 640,102" fill="#94a3b8" opacity="0.45"/>
+<circle cx="300" cy="140" r="16" fill="#cbd5e1"/>
+<text x="300" y="212" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Mặt Trăng</text>
+<circle cx="660" cy="140" r="30" fill="#3b82f6"/>
+<text x="660" y="212" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Trái Đất</text>
+<text x="830" y="148" font-size="19" fill="#fca5a5" font-family="'Be Vietnam Pro',Arial,sans-serif">vùng bị che tối</text>
+<line x1="40" y1="262" x2="920" y2="262" stroke="#475569" stroke-width="1.5"/>
+<text x="480" y="308" font-size="25" font-weight="700" fill="#fca5a5" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">NGUYỆT THỰC — Trái Đất nằm giữa Mặt Trời và Mặt Trăng</text>
+<circle cx="120" cy="406" r="44" fill="#fbbf24"/>
+<text x="120" y="478" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Mặt Trời</text>
+<circle cx="430" cy="406" r="30" fill="#3b82f6"/>
+<text x="430" y="478" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Trái Đất</text>
+<polygon points="460,384 460,428 700,442 700,370" fill="#94a3b8" opacity="0.45"/>
+<circle cx="712" cy="406" r="16" fill="#b91c1c"/>
+<text x="712" y="478" font-size="20" fill="#fff" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Mặt Trăng</text>
+<text x="480" y="528" font-size="17" fill="#cbd5e1" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Hình minh họa đơn giản hoá, không theo tỉ lệ. Nguyệt thực: Mặt Trăng đi vào bóng của Trái Đất nên tối đi (thường ngả màu đỏ).</text>
+</svg>
