@@ -64,15 +64,16 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .sel-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
 select{padding:10px;font-size:15px;border:1px solid #bbb;border-radius:8px}
 svg .hot{cursor:pointer}
-svg .hot.on{stroke:#e65100!important;stroke-width:5!important}
+svg .hot.on{stroke:#f57c00!important}
 svg g.hot.on text{fill:#e65100!important}
 svg text{stroke:none!important}
 .nmword{color:#0d47a1;font-weight:bold;text-decoration:underline dotted #0d47a1;cursor:pointer;padding:0 1px}
 .nmword:active{color:#e65100}
 .nm{cursor:pointer}
-line.nm-on{stroke:#ff6d00!important;stroke-width:5!important;opacity:.95!important}
+line.nm-on{stroke:#ff6d00!important;stroke-width:4!important;opacity:.95!important}
 circle.nm-on{fill:#ff6d00!important;opacity:.45!important}
-polygon.nm-on{fill:#ff6d00!important;opacity:.55!important}
+polygon.nm-on{fill:#ff6d00!important;opacity:.32!important}
+svg text.halo{stroke:rgba(255,255,255,.92)!important;stroke-width:3px;paint-order:stroke}
 svg text.nm-on{fill:#e65100!important}
 svg text.lit{fill:#e65100!important}
 #tNameInfo{background:#fff3e0;border:1.5px solid #ff9800;border-radius:8px;padding:9px 12px;font-size:15.5px;margin:8px 0;min-height:42px}
@@ -231,6 +232,8 @@ function renderHome(){
   const sg=document.getElementById('shapeGrid');
   const ICONS={
    'tam-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="20,3 37,29 3,29" fill="#fff8e1" stroke="#e65100" stroke-width="2"/></svg>',
+   'tam-giac-thuong':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="23,4 38,24 5,28" fill="#fff8e1" stroke="#e65100" stroke-width="2"/></svg>',
+   'tam-giac-vuong':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="6,28 36,28 6,6" fill="#fff8e1" stroke="#e65100" stroke-width="2"/><polyline points="6,19 15,19 15,28" fill="none" stroke="#c62828" stroke-width="2"/></svg>',
    'hinh-vuong':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="9" y="3" width="22" height="22" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
    'luc-giac-deu':'<svg width="46" height="36" viewBox="0 0 40 32"><polygon points="12,3 28,3 37,16 28,29 12,29 3,16" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/></svg>',
    'hinh-chu-nhat':'<svg width="46" height="36" viewBox="0 0 40 32"><rect x="3" y="8" width="34" height="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/></svg>',
