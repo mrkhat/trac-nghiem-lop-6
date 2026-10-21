@@ -72,6 +72,44 @@ Phần Tổng kết có thêm **1 sơ đồ tư duy tổng toàn HK1** theo 6 ch
   và đã **đối chiếu trang mô tả file trên Commons** để chú thích khớp đúng nội dung ảnh (đã loại 1 ảnh hoa hướng chữ Macedonia không khớp, sửa các chú thích ảnh lệch).
 - Một số tác phẩm của NASA/NOAA/USGS (public domain) được lấy qua Wikimedia để giữ một cơ chế link + ghi nguồn thống nhất.
 
+## Kiểm tra độ bao phủ kiến thức (21/10/2026)
+
+Đối chiếu từng câu trong 168 câu trắc nghiệm với kiến thức đã dạy trong đúng bài của nó
+(nội dung chính + Điểm cần nhớ + sơ đồ tư duy + câu hỏi gợi nhớ + flashcard):
+
+- **Trước đợt bổ sung: 162/168 câu (≈96%)** — 6 câu đòi kiến thức bài học chưa dạy kĩ.
+- Đã bổ sung 5 hộp **“➕ Kiến thức bổ sung — biết thêm để làm được bài tập”**
+  (viền đứt nét màu cam, đặt sau Mẹo nhớ của bài, tách bạch với cốt lõi SGK):
+
+| Bài | Kiến thức đã bổ sung | Phục vụ câu |
+|---|---|---|
+| Bài 12 | Nguyên tắc an toàn khi động đất: bảo vệ đầu, ra nơi trống trải, tránh xa nhà cao, không dùng thang máy | Q91 |
+| Bài 13 | Hai đồng bằng lớn của Việt Nam: sông Hồng và sông Cửu Long (nguồn gốc phù sa, vựa lúa) | Q98 |
+| Bài 14 | Định nghĩa **khoảng cao đều** + ví dụ chênh 50 m | Q104 |
+| Bài 15 | Dụng cụ đo khí áp: khí áp kế (phong vũ biểu), đơn vị hPa; hướng thổi cố định của Tín phong / Tây ôn đới / Đông cực | Q110, Q112 |
+| Bài 16 | Cơ chế biển điều hòa nhiệt độ (nước biển nóng lên và nguội chậm hơn đất liền) | Q118 |
+
+- **Sau bổ sung: 168/168 câu (100%)** — mọi câu đều có kiến thức tương ứng đã dạy trong bài.
+  `questions.json` không hề sửa (md5 giữ nguyên `9414cdeae1da045fadc6febb3950a89b`, phân bố đáp án 42/42/42/42).
+
+## Flashcard động ở mặt câu hỏi (21/10/2026)
+
+Chọn lọc **17/120 thẻ** thuộc nhóm quá trình/chuyển động: mặt hỏi hiện **SVG động vẽ inline**
+(SMIL, nhẹ, không cần file ngoài) làm hình gợi mở; khi lật sang mặt đáp án, thẻ trở lại
+**ảnh tĩnh vốn có** — đúng chuẩn “hình câu hỏi ≠ hình đáp án”. Thẻ hiện vật/địa danh tĩnh giữ nguyên.
+
+| Loại động | Thẻ (theo chỉ số trong `CARDS`) | Nội dung gợi mở |
+|---|---|---|
+| `spin` | 35–39 (Bài 7) | Trái Đất tự quay, chấm Việt Nam chạy qua vùng NGÀY/ĐÊM |
+| `orbit` | 40–44 (Bài 8) | Trái Đất chạy trên quỹ đạo quanh Mặt Trời, trục nghiêng |
+| `moon` | 33 (Bài 6) | Phần sáng Mặt Trăng phình/xẹp → các pha trăng |
+| `wind` | 58 (Bài 11), 78–79 (Bài 15) | Mũi tên gió chảy từ Áp CAO → Áp THẤP |
+| `cycle` | 97–98 (Bài 19) | Bốc hơi → mây → mưa → chảy về biển |
+| `wave` | 108 (Bài 21) | Hai lớp sóng cuộn trên mặt biển |
+
+Đợt này **không tạo sơ đồ SVG tĩnh mới** (các hộp bổ sung là chữ; phần động giữ inline theo chỉ đạo)
+nên không phát sinh file trong `img/`.
+
 ## Nguồn ảnh
 
 | File (Wikimedia Commons) | Tác giả | Giấy phép |

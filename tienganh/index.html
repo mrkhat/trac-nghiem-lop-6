@@ -72,6 +72,12 @@ h1{text-align:center;color:#1a73e8;margin:10px 0 4px}
 .fc-back{background:#d4edda;border:2px solid #28a745;color:#155724;transform:rotateY(180deg);font-size:15.5px}
 .fc-face img{max-width:100%;max-height:125px;object-fit:cover;border-radius:8px;margin-bottom:10px}
 .fcem{font-size:64px;line-height:1.15;margin-bottom:6px}
+.fcem.anim-run{display:inline-block;animation:fcRun .9s ease-in-out infinite}
+.fcem.anim-pop{display:inline-block;animation:fcPop 1.6s ease-in-out infinite}
+.fcem.anim-twinkle{display:inline-block;animation:fcTw 2.2s ease-in-out infinite}
+@keyframes fcRun{0%,100%{transform:translateX(-7px) translateY(0) rotate(-5deg)}50%{transform:translateX(7px) translateY(-7px) rotate(5deg)}}
+@keyframes fcPop{0%,100%{transform:scale(1)}50%{transform:scale(1.2) rotate(-7deg)}}
+@keyframes fcTw{0%,100%{opacity:1;transform:translateY(0)}50%{opacity:.5;transform:translateY(-6px)}}
 .fcword{font-size:24px;font-weight:bold}
 .fcipa{font-size:15px;color:#666}
 .fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
@@ -541,6 +547,7 @@ W("English","/ˈɪŋɡlɪʃ/","môn Tiếng Anh","","🔤","We speak English in 
 W("calculator","/ˈkælkjuleɪtə/","máy tính cầm tay",CM+"Casio_fx-991ES_Calculator.jpg?width=900","","I use a calculator in maths lessons.","Mình dùng máy tính cầm tay trong giờ Toán."),
 W("compass","/ˈkʌmpəs/","com-pa (để vẽ hình tròn)",CM+"Zirkel.jpg?width=900","","I draw a circle with a compass.","Mình vẽ hình tròn bằng com-pa."),
 W("pencil case","/ˈpensl keɪs/","hộp bút","","✏️","My pencil case is blue.","Hộp bút của mình màu xanh dương."),
+W("ruler","/ˈruːlə/","thước kẻ","","📏","I draw a line with a ruler.","Mình kẻ đường thẳng bằng thước kẻ."),
 W("library","/ˈlaɪbrəri/","thư viện",CM+"Reading_room.jpg?width=900","","I read books in the library.","Mình đọc sách trong thư viện."),
 W("uniform","/ˈjuːnɪfɔːm/","đồng phục","","👕","We wear uniforms at school.","Chúng mình mặc đồng phục ở trường."),
 W("playground","/ˈpleɪɡraʊnd/","sân chơi (của trường)","","🛝","We play in the playground.","Chúng mình chơi ở sân chơi.")
@@ -791,8 +798,12 @@ var LSKEY='tienganh_flash_v1';
 var known={}; try{ known=JSON.parse(localStorage.getItem(LSKEY)||'{}'); }catch(e){ known={}; }
 function saveKnown(){ try{ localStorage.setItem(LSKEY,JSON.stringify(known)); }catch(e){} }
 function totalKnown(){ var n=0; for(var k in known){ if(known[k])n++; } return n; }
+/* Chỉ vài thẻ động từ/hành động mới có emoji động ở mặt hỏi (thẻ tĩnh giữ nguyên cho khỏi rối) */
+var ANIMW={'active':'anim-run','celebrate':'anim-pop','wish':'anim-twinkle'};
 function frontMedia(x){
-  return x.img ? '<img src="'+x.img+'" alt="'+x.w+'" loading="lazy">' : '<div class="fcem" aria-hidden="true">'+x.em+'</div>';
+  if(x.img) return '<img src="'+x.img+'" alt="'+x.w+'" loading="lazy">';
+  var ac=ANIMW[x.w]?' '+ANIMW[x.w]:'';
+  return '<div class="fcem'+ac+'" aria-hidden="true">'+x.em+'</div>';
 }
 function mountDeck(box){
   var spec=box.getAttribute('data-unit');

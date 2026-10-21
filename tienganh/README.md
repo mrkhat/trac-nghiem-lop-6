@@ -15,7 +15,7 @@ Mỗi Unit là một khối khép kín theo đúng thứ tự:
 5. **Luyện tập tự làm** (tự luận là chính): Bài A điền từ (4 câu, tự chấm, sai thì hiện đáp án + gợi ý), Bài B sắp xếp từ thành câu (2 câu, tự chấm), Bài viết nhỏ theo **khung mẫu có chỗ trống** thay thông tin của mình — bài mẫu chỉ mở khi bấm xem, sau khi trẻ đã tự viết.
 6. **Hỏi — đáp giao tiếp**: 3–4 cặp hỏi–đáp mẫu của Unit, bấm hiện đáp án, có nút nghe đọc cả câu hỏi và câu trả lời.
 
-**Phần Tổng kết** (cuối trang, là 1 mục riêng): flashcard tổng ôn gộp 72 thẻ → bảng tổng hợp ngữ pháp HK1 dạng 6 thẻ sơ đồ → danh sách chủ đề nói/viết đã học → link sang trắc nghiệm.
+**Phần Tổng kết** (cuối trang, là 1 mục riêng): flashcard tổng ôn gộp 73 thẻ → bảng tổng hợp ngữ pháp HK1 dạng 6 thẻ sơ đồ → danh sách chủ đề nói/viết đã học → link sang trắc nghiệm.
 
 **Phần 2 — Trắc nghiệm** (`quiz.html` + `questions.json`): 48 câu, engine 3 chế độ Học tập / Luyện tập / Thi thử clone từ module Lịch sử, đáp án đúng phân bố đều **12A/12B/12C/12D**, mọi câu có explanation tiếng Việt dễ hiểu.
 
@@ -34,7 +34,7 @@ Mobile-first: dùng tốt ở 375px (điện thoại), 768px (iPad) và desktop.
 
 | Unit | Chủ đề | Từ vựng trọng tâm trong module | Ngữ pháp chính |
 |---|---|---|---|
-| 1 | My New School | trường học, môn học, đồ dùng học tập (12 từ) | Hiện tại đơn + trạng từ tần suất |
+| 1 | My New School | trường học, môn học, đồ dùng học tập (13 từ) | Hiện tại đơn + trạng từ tần suất |
 | 2 | My House | phòng, đồ đạc trong nhà, giới từ nơi chốn (12 từ) | There is/are, giới từ nơi chốn, sở hữu cách 's |
 | 3 | My Friends | tính cách, ngoại hình (12 từ) | Hiện tại tiếp diễn (be + V-ing) |
 | 4 | My Neighbourhood | địa điểm trong khu phố, chỉ đường (12 từ) | So sánh hơn của tính từ |
@@ -48,7 +48,7 @@ Từ vựng và phiên âm đối chiếu theo danh mục từ vựng SGK tổng
 | Hạng mục | Số lượng |
 |---|---|
 | Unit | 6 |
-| Thẻ từ vựng (= flashcard) | 72 (12/Unit) — 29 ảnh thật + 43 emoji minh họa |
+| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 29 ảnh thật + 44 emoji minh họa |
 | Cặp hỏi–đáp giao tiếp | 20 (U1: 4, U2: 4, U3–U6: 3) |
 | Bài tập điền từ + sắp xếp câu | 36 câu tự chấm (mỗi Unit 4 + 2) + 6 bài viết theo mẫu |
 | Câu trắc nghiệm | 48 (8/Unit), phân bố đáp án 12/12/12/12 |
@@ -78,6 +78,24 @@ Mọi URL ảnh đều được **curl kiểm chứng HTTP 200 + content-type im
 | Flashcard | ≥ 17px (từ ở mặt trước 24px) |
 | Nút bấm, chip chọn Unit | 16px |
 | Chú thích nhỏ nhất | 14px, màu #444 trở lên (không cỡ nào dưới 13px; footer 13px) |
+
+## Kiểm tra độ bao phủ & flashcard động (21/10/2026)
+
+**Độ bao phủ:** đối chiếu từng câu trong 48 câu trắc nghiệm với thẻ từ + sơ đồ ngữ pháp + bài tập
+điền từ/sắp xếp câu + cặp hỏi–đáp của đúng Unit đó. Kết quả: **48/48 câu kiểm tra đúng kiến thức đã dạy**
+(gần như mọi câu đều có "bản sao" trong bài tập tự luyện, ví dụ “She studies English every day”,
+“He ___ TV → watches”, “I ___ my homework now → am doing”…). Một điểm chưa trọn vẹn đã xử lý:
+câu 3 dùng từ gây nhiễu **“ruler”** (thước kẻ) chưa có thẻ từ — đã **thêm thẻ từ “ruler” 📏 vào Unit 1**
+(từ này cũng thuộc nhóm đồ dùng học tập của SGK Unit 1) nên Unit 1 có 13 thẻ, tổng 73 thẻ.
+**Không có câu nào lạc chương trình — không đề xuất bỏ câu nào.** `questions.json` không sửa
+(md5 giữ nguyên `40de2c024bd03ccb367e45025d116719`, phân bố đáp án 12/12/12/12).
+
+**Flashcard động (áp dụng hạn chế):** bộ từ của 6 Unit gần như không có động từ hành động đứng riêng
+(không có thẻ swim/run/fly/cook), nên chỉ **3 thẻ** có emoji động bằng CSS ở mặt trước flashcard —
+`active` 🏃 (chạy nhấp nhô), `celebrate` 🎉 (nảy), `wish` 🌠 (sao băng nhấp nháy) — qua bảng `ANIMW`
+trong `frontMedia()`. Lưới thẻ từ vựng và mọi thẻ danh từ/tính từ tĩnh giữ nguyên để khỏi rối mắt.
+Mặt sau flashcard vốn không có hình (chỉ nghĩa + ví dụ) nên vẫn đúng chuẩn “hình câu hỏi ≠ hình đáp án”.
+Đợt này không tạo sơ đồ SVG tĩnh mới nên không phát sinh file trong `img/`.
 
 ## Điểm chưa chắc
 
