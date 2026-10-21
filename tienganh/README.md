@@ -48,7 +48,7 @@ Từ vựng và phiên âm đối chiếu theo danh mục từ vựng SGK tổng
 | Hạng mục | Số lượng |
 |---|---|
 | Unit | 6 |
-| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 29 ảnh thật + 44 emoji minh họa |
+| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 38 thẻ có hình (22 ảnh thật + 16 tranh minh họa gen AI) + 35 emoji minh họa |
 | Cặp hỏi–đáp giao tiếp | 20 (U1: 4, U2: 4, U3–U6: 3) |
 | Bài tập điền từ + sắp xếp câu | 36 câu tự chấm (mỗi Unit 4 + 2) + 6 bài viết theo mẫu |
 | Câu trắc nghiệm | 48 (8/Unit), phân bố đáp án 12/12/12/12 |
@@ -107,3 +107,39 @@ Mặt sau flashcard vốn không có hình (chỉ nghĩa + ví dụ) nên vẫn 
 ## Địa phương hoá ảnh (21/10/2026)
 
 Toàn bộ 29 ảnh thẻ từ vựng + flashcard trước đây dựng bằng tiền tố URL Wikimedia Commons (biến `CM`) và 3 URL Pexels nay đã **tải về thành file thật** trong thư mục chuyên hình ảnh **`hinh-anh/tienganh/`** ở gốc repo; biến `CM` giờ trỏ vào `../hinh-anh/tienganh/`, tên file = chính từ vựng (vd `backpack.jpg`), 3 ảnh Pexels (kitchen, bathroom, backpack) trỏ thẳng vào file nội bộ. Ghi nguồn đầy đủ vẫn ở mục "Nguồn ảnh" cuối trang. Danh mục file → từ vựng → nguồn gốc: xem `hinh-anh/README.md`. Đã kiểm chứng HTTP 200 cho mọi đường dẫn nội bộ; `questions.json` giữ nguyên md5 `40de2c02…`.
+
+## Rà soát khớp hình–nội dung flashcard/thẻ từ (21/10/2026)
+
+Đã xem trực tiếp toàn bộ 29 ảnh + 44 emoji của 73 thẻ (flashcard dùng chung dữ liệu `WORDS` nên áp cho cả thẻ từ và flashcard). Kết quả: **17 mục sửa**, còn lại khớp.
+
+**Ảnh thật sai/yếu → thay bằng tranh gen AI (400px WebP, 9–31 KB, `hinh-anh/tienganh/sua-*.webp`):**
+
+| Từ | Ảnh trước | Vấn đề | Ảnh sau |
+|---|---|---|---|
+| beach | beach.jpg | Chỉ là cận cảnh bọt sóng trên cát — trừu tượng, trẻ không nhận ra bãi biển | sua-beach.webp (cát + biển + ô che nắng) |
+| boat | boat.jpg | Phà chở khách cỡ lớn — dễ đọc thành "tàu lớn/ship" | sua-boat.webp (thuyền gỗ nhỏ trên mặt nước) |
+| kumquat tree | kumquat-tree.jpg | Chỉ chụp QUẢ quất (2 quả + 1 quả bổ đôi), không có cây | sua-kumquat-tree.webp (cây quất trong chậu, đầy quả) |
+| lamp | lamp.jpg | Đèn bị khuất gần hết, chủ thể là quyển sách trong bóng tối | sua-lamp.webp (đèn bàn trên bàn học) |
+| railway station | railway-station.jpg | Chỉ có mặt tiền tháp đồng hồ, không tàu/sân ga | sua-railway-station.webp (tàu đỏ ở sân ga) |
+| waterfall | waterfall.jpg | Dòng suối chảy tràn trên đá thấp — giống suối hơn thác | sua-waterfall.webp (thác đổ từ vách đá cao) |
+| peach blossom | peach-blossom.jpg | Cành đào ít hoa, lẫn đồ trang trí đỏ — khó nhận ra hoa đào | sua-peach-blossom.webp (cành hoa đào hồng nở rộ) |
+
+**Emoji sai/yếu → thay bằng tranh gen AI:**
+
+| Từ | Trước | Vấn đề | Sau |
+|---|---|---|---|
+| pencil case | ✏️ | Chỉ là cây bút chì, không phải HỘP bút | sua-pencil-case.webp |
+| uniform | 👕 | Áo thun trơn — không ra đồng phục | sua-uniform.webp (áo trắng + khăn quàng đỏ + quần xanh) |
+| wardrobe | 🗄️ | Là tủ hồ sơ văn phòng, không phải tủ quần áo | sua-wardrobe.webp |
+| next to | ↔️ | Hai mũi tên rời nhau — không diễn tả "kề bên" | sua-next-to.webp (đèn đứng sát cạnh sô-pha) |
+| between | 🎯 | Bia ngắm — sai khái niệm "ở giữa hai vật" | sua-between.webp (bóng đỏ giữa hai thùng) |
+| bakery | 🍞 | Chỉ là ổ bánh — không phải TIỆM bánh | sua-bakery.webp (mặt tiền tiệm bánh) |
+| narrow | 🛤️ | Đường ray xe lửa — không phải đường hẹp | sua-narrow.webp (ngõ hẹp giữa hai dãy nhà) |
+| decorate | 🎀 | Chỉ là chiếc nơ — không thấy hành động trang trí | sua-decorate.webp (gia đình treo đèn lồng trang trí Tết) |
+| relative | 👵 | Chỉ một bà cụ — "họ hàng" là nhiều người | sua-relative.webp (đại gia đình nhiều thế hệ) |
+
+**Đổi emoji:** confident 🌟 → 😎 (🌟 trùng ý "ngôi sao" với famous ⭐, gây nhầm).
+
+**Giữ nguyên (đã khớp):** 22 ảnh thật (school, calculator, compass — đúng com-pa vẽ hình, library, living room, kitchen, bedroom, bathroom, garden, sofa, fridge, mountain, island, cave, forest, desert, park, square, fireworks, chung cake, temple, backpack) và 35 emoji đúng ý (teacher 👩‍🏫, maths 🔢, English 🔤, ruler 📏, playground 🛝, house 🏠, các tính từ Unit 3 trừ confident, cinema 🎬, hospital 🏥, post office 📮, quiet 🤫, noisy 🔊, famous ⭐, suncream 🧴, lucky money 🧧…). Ba mục ở mức "một phần" nhưng chấp nhận được và giữ nguyên: subject 📚, careful 🔍, busy 🏙️, slim 🧍 (emoji chỉ gợi ý tương đối, nghĩa chính do từ + câu ví dụ mang).
+
+16 tranh mới gen theo lưới 2×2 rồi cắt lẻ, phong cách màu nước sách truyện thống nhất, không chữ trong hình. Tự kiểm sau sửa: node --check đạt, đủ 73 thẻ từ, 38/38 đường dẫn hình trả 200. Các file ảnh cũ bị thay (beach.jpg, boat.jpg, kumquat-tree.jpg, lamp.jpg, railway-station.jpg, waterfall.jpg, peach-blossom.jpg) vẫn còn trong `hinh-anh/tienganh/` nhưng không còn trang nào tham chiếu.

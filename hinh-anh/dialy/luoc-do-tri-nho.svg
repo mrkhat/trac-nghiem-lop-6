@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290">
+<rect width="420" height="290" rx="14" fill="#fffbeb"/>
+<text x="210" y="32" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Lược đồ trí nhớ (vẽ phác từ trí nhớ)</text>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif">
+<path d="M52,238 C120,200 150,210 205,168 C250,134 300,140 356,96" fill="none" stroke="#b45309" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 0" opacity="0.85"/>
+<path d="M60,120 C130,150 210,140 268,168 C310,188 340,180 372,196" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+<text x="300" y="160" font-size="14" fill="#0369a1" font-style="italic">sông nhỏ</text>
+<g>
+<rect x="56" y="196" width="52" height="38" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2.5"/>
+<polygon points="48,198 82,172 116,198" fill="#dc2626" stroke="#7f1d1d" stroke-width="2.5"/>
+<text x="82" y="256" font-size="15" font-weight="700" fill="#7f1d1d" text-anchor="middle">Nhà em</text>
+</g>
+<g>
+<rect x="318" y="56" width="62" height="40" fill="#bfdbfe" stroke="#1e40af" stroke-width="2.5"/>
+<polygon points="310,58 349,34 388,58" fill="#2563eb" stroke="#1e40af" stroke-width="2.5"/>
+<text x="349" y="118" font-size="15" font-weight="700" fill="#1e40af" text-anchor="middle">Trường học</text>
+</g>
+<g>
+<circle cx="180" cy="96" r="17" fill="#4ade80" stroke="#15803d" stroke-width="2.5"/>
+<rect x="176" y="110" width="8" height="16" fill="#92400e"/>
+<text x="180" y="146" font-size="13.5" fill="#14532d" text-anchor="middle">cây đa</text>
+</g>
+<g>
+<rect x="196" y="216" width="46" height="30" fill="#fde68a" stroke="#92400e" stroke-width="2.5"/>
+<text x="219" y="262" font-size="14" font-weight="700" fill="#92400e" text-anchor="middle">Chợ</text>
+</g>
+<text x="150" y="196" font-size="13.5" fill="#92400e" font-style="italic">đường đi</text>
+<g>
+<line x1="36" y1="76" x2="36" y2="44" stroke="#dc2626" stroke-width="4"/>
+<polygon points="36,32 29,48 43,48" fill="#dc2626"/>
+<text x="36" y="94" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">Bắc</text>
+</g>
+<text x="210" y="282" font-size="13" fill="#78716c" text-anchor="middle">(Vẽ tay đơn giản — không cần đúng tỉ lệ, chỉ cần đúng vị trí và hướng)</text>
+</g>
+</svg>

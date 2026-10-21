@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+<rect width="420" height="300" rx="14" fill="#eff6ff"/>
+<text x="210" y="32" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Các tầng của khí quyển</text>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif">
+<rect x="20" y="46" width="380" height="42" fill="#c7d2fe"/>
+<rect x="20" y="88" width="380" height="42" fill="#a5b4fc"/>
+<rect x="20" y="130" width="380" height="42" fill="#93c5fd"/>
+<rect x="20" y="172" width="380" height="52" fill="#7dd3fc"/>
+<path d="M20,262 L400,262 L400,300 L20,300 Z" fill="#86efac"/>
+<path d="M20,262 C110,246 300,246 400,262 L400,300 L20,300 Z" fill="#4ade80"/>
+<text x="34" y="73" font-size="15.5" font-weight="700" fill="#312e81">Tầng ngoài</text>
+<text x="34" y="115" font-size="15.5" font-weight="700" fill="#312e81">Tầng nhiệt</text>
+<text x="34" y="157" font-size="15.5" font-weight="700" fill="#1e3a8a">Tầng trung lưu</text>
+<text x="34" y="193" font-size="15.5" font-weight="700" fill="#0c4a6e">Tầng bình lưu</text>
+<text x="270" y="193" font-size="13" fill="#0c4a6e">(có tầng ô-dôn)</text>
+<text x="34" y="217" font-size="15.5" font-weight="700" fill="#0c4a6e">Tầng đối lưu</text>
+<text x="180" y="217" font-size="13" fill="#0c4a6e">— nơi ta sống, có mây và mưa</text>
+<g fill="#ffffff" opacity="0.95">
+<ellipse cx="320" cy="208" rx="30" ry="10"/>
+<ellipse cx="342" cy="202" rx="20" ry="8"/>
+<ellipse cx="96" cy="212" rx="24" ry="8"/>
+</g>
+<text x="56" y="286" font-size="14" fill="#14532d">mặt đất — núi, nhà, cây…</text>
+<text x="330" y="70" font-size="13" fill="#4338ca">rất loãng…</text>
+<text x="318" y="112" font-size="13" fill="#4338ca">rất nóng</text>
+</g>
+</svg>

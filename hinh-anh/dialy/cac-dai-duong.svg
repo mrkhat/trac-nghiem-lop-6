@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260">
+<rect width="440" height="260" rx="14" fill="#0e7490"/>
+<rect x="6" y="6" width="428" height="248" rx="12" fill="#38bdf8"/>
+<g fill="#fde68a" stroke="#d97706" stroke-width="1.5">
+<path d="M52,52 C70,36 104,38 112,56 C118,70 104,76 96,88 C86,102 92,118 78,124 C62,130 50,112 52,96 C54,80 44,64 52,52 Z"/>
+<path d="M96,132 C110,128 122,140 118,156 C114,174 122,190 108,200 C96,208 84,192 88,174 C91,158 86,136 96,132 Z"/>
+<path d="M196,58 C214,44 240,52 238,68 C236,82 224,84 220,96 C216,110 200,112 192,98 C184,84 184,66 196,58 Z"/>
+<path d="M238,86 C258,76 282,88 278,106 C275,120 288,128 282,142 C276,156 254,154 246,140 C238,124 228,94 238,86 Z"/>
+<path d="M252,44 C300,28 372,36 388,58 C400,74 380,84 372,96 C364,112 380,120 368,132 C354,146 320,138 306,126 C292,114 268,118 258,102 C248,86 234,52 252,44 Z"/>
+<path d="M330,168 C346,160 364,170 360,184 C356,198 338,202 330,190 C324,180 320,174 330,168 Z"/>
+<path d="M30,228 L410,228 L410,244 L30,244 Z" fill="#e0f2fe" stroke="#7dd3fc"/>
+</g>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif" font-weight="700" fill="#ffffff" text-anchor="middle">
+<text x="52" y="105" font-size="15">THÁI BÌNH</text>
+<text x="52" y="124" font-size="15">DƯƠNG</text>
+<text x="392" y="105" font-size="15">THÁI BÌNH</text>
+<text x="392" y="124" font-size="15">DƯƠNG</text>
+<text x="168" y="120" font-size="14.5">ĐẠI TÂY</text>
+<text x="168" y="139" font-size="14.5">DƯƠNG</text>
+<text x="300" y="196" font-size="14.5">ẤN ĐỘ DƯƠNG</text>
+<text x="220" y="26" font-size="14.5">BẮC BĂNG DƯƠNG</text>
+<text x="220" y="240" font-size="12.5" fill="#0369a1">châu Nam Cực (băng tuyết)</text>
+</g>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif" font-size="11.5" fill="#713f12" text-anchor="middle">
+<text x="80" y="80">Bắc Mĩ</text>
+<text x="104" y="168">Nam Mĩ</text>
+<text x="258" y="122">châu Phi</text>
+<text x="330" y="76">châu Á</text>
+<text x="222" y="70">châu Âu</text>
+<text x="345" y="186">châu Đại Dương</text>
+</g>
+</svg>

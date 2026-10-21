@@ -2,7 +2,7 @@
 
 Thư mục chuyên hình ảnh của repo. Mỗi môn một thư mục con. Phong cách thống nhất toàn site: tranh màu nước kiểu sách truyện thiếu nhi, sống động, vui nhộn, KHÔNG có chữ trong hình. Tên file: chữ thường không dấu, nối bằng gạch ngang, đuôi .webp (đã nén ~90–220 KB/tấm).
 
-## nguvan/ — Ngữ văn 6 (16 hình)
+## nguvan/ — Ngữ văn 6 (21 hình)
 
 | File | Gắn ở | Nội dung |
 |---|---|---|
@@ -22,6 +22,11 @@ Thư mục chuyên hình ảnh của repo. Mỗi môn một thư mục con. Phon
 | bien-dao-co-to.webp | Bài 5 · Cô Tô | Bình minh trên biển Cô Tô |
 | hang-en.webp | Bài 5 · Hang Én | Đàn én bay trong hang Én |
 | cuu-long-giang.webp | Bài 5 · Cửu Long Giang ta ơi | Sông Mekong, thuyền trái cây |
+| fc-cao.webp | Flashcard Hoàng tử bé | Con cáo ngồi trong đồng lúa mì |
+| fc-buom.webp | (dự phòng, chưa gán thẻ) | Cánh buồm trên biển |
+| fc-lua.webp | Flashcard Chuyện cổ nước mình / Ca dao | Nông dân gặt lúa ruộng bậc thang |
+| fc-dao.webp | Flashcard Cô Tô | Vịnh biển núi đá, thuyền gỗ |
+| fc-sua-me-be.webp | Flashcard Chuyện cổ tích về loài người (thẻ "mẹ sinh ra…") | Mẹ bế bồng ru em bé (gen bổ sung 2026-10-21 khi rà soát khớp hình–nội dung) |
 
 Trang Ngữ văn (nguvan/index.html) tham chiếu các hình này qua đường dẫn ../hinh-anh/nguvan/<file>.
 

@@ -218,6 +218,16 @@ Toàn bộ ảnh của module đã về thư mục chuyên hình ảnh `hinh-anh
 - **11 sơ đồ SVG tự vẽ** đã chuyển từ `dialy/img/` sang `hinh-anh/dialy/` (thư mục `dialy/img/` để trống); mọi tham chiếu `img/<ten>.svg` đã đổi thành `../hinh-anh/dialy/<ten>.svg`.
 - URL ngoài còn lại trong `index.html` chỉ là hạ tầng chữ/script, không phải ảnh: Google Fonts (font Be Vietnam Pro), CDN cdnjs của three.js r128, và khai báo namespace `http://www.w3.org/2000/svg` trong các SVG inline. `questions.json`, `quiz.html`, cơ chế 3D, flashcard động SMIL, hộp Kiến thức bổ sung, font và 2 chế độ xem không thay đổi.
 
+## Rà soát khớp hình–câu hỏi flashcard (21/10/2026)
+
+Rà soát toàn bộ 120 thẻ theo chuẩn: **hình mặt hỏi phải gợi đúng khái niệm của chính thẻ đó**; không dùng một ảnh đại diện cho nhiều thẻ khác nội dung.
+
+**Trước khi sửa — 8 ảnh dùng chung cho ≥3 thẻ thuộc ≥2 nhóm nội dung khác nhau** (44 lượt thẻ): `hoa-huong.svg` ×11 thẻ (hướng trên bản đồ / lược đồ trí nhớ / sao Bắc Cực / chữ E la bàn), `ban-do-dia-hinh-cat.jpg` ×8 (chú giải–kí hiệu + đường đồng mức), `trai-dat-apollo-17.jpg` ×6 (mở đầu + biển/đại dương), `ban-do-dia-hinh-viet-nam.jpg` ×5 (mở đầu + bản đồ + tỉ lệ), `hoan-luu-khi-quyen.svg` ×5 (thành phần khí / tầng khí quyển / khí áp–gió), `cac-tang-dat.svg` ×5 (tầng đất + nhân tố + loại đất), `vong-tuan-hoan-nuoc.svg` ×4 (không khí nóng lên + thủy quyển), `ban-do-khi-hau-koppen.png` ×3 (thời tiết + khí hậu). Ngoài ra 7 thẻ gắn hình **sai/ngược khái niệm**: lợi ích núi lửa ← ảnh đổ nát động đất; than đá/dầu mỏ ← ảnh thạch anh; không khí nóng lên ← vòng tuần hoàn nước; VN đới nóng ← ảnh savan Kenya; giảm biến đổi khí hậu ← ảnh savan; nước ngầm ← ảnh sông băng; đài nguyên ← ảnh cồn cát sa mạc.
+
+**Đã sửa 36 thẻ:** gen 14 tranh mới `sua-*.webp` (400px, WebP q72, 10–33 KB: đất màu mỡ chân núi lửa, than đá, hơi nóng bốc lên, đài nguyên tuyết, 4 dạng địa hình, bình minh, sao Bắc Cực, mẹo dang tay, trồng cây, câu hỏi vàng, Thái Bình Dương từ vũ trụ, bé học Địa lí, nhân tố đất, đất phe-ra-lít); tự vẽ 8 sơ đồ SVG tiếng Việt mới (`ti-le-ban-do`, `ki-hieu-ban-do`, `luoc-do-tri-nho`, `la-ban-quoc-te`, `thanh-phan-khi-quyen`, `cac-tang-khi-quyen`, `nuoc-ngam`, `cac-dai-duong`); gán lại hình sẵn có cho 5 thẻ (hình dạng Trái Đất → ảnh Trái Đất Apollo 17; núi cao lạnh → đỉnh Everest; thời tiết → trạm thời tiết; VN đới nóng → rừng mưa nhiệt đới; Biển Đông → bản đồ Việt Nam).
+
+**Sau khi sửa:** không còn ảnh nào phục vụ ≥3 thẻ *khác nội dung*. Các ảnh còn dùng chung đều là các nhóm **cùng một khái niệm/hình** (chính hình đó là đối tượng được hỏi): hoa hướng ×5 (các hướng/mũi tên Bắc), bản đồ đường đồng mức ×5, sơ đồ ngày–đêm ×5 (tự quay + trục nghiêng 23,5° có ngay trong sơ đồ), bản đồ VN ×4 (mọi câu đều hỏi về bản đồ), tỉ lệ ×4, bảng chú giải ×4, lược đồ mẫu ×4, kinh–vĩ tuyến ×3, quỹ đạo–mùa ×3, cấu trúc Trái Đất ×3, núi lửa ×3, hoàn lưu (áp–gió) ×3, trạm thời tiết ×3, rừng mưa nhiệt đới ×3 (đới nóng/sinh vật), biểu đồ khí hậu ×3, vòng tuần hoàn nước ×3, tầng đất ×3. Chữ của 120 thẻ giữ nguyên 100% (chỉ đổi trường `img`); `node --check` đạt; 66/66 đường dẫn hình trả 200; mô hình 3D và tương tác khác không đổi.
+
 ## Ghi chú về đáp án
 Đáp án trắc nghiệm và câu hỏi gợi nhớ do người soạn biên soạn theo SGK Địa lí 6 (Kết nối tri thức),
 **chưa đối chiếu với đáp án chính thức** — trang trắc nghiệm có ghi rõ dòng này.

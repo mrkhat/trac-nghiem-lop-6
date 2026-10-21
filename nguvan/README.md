@@ -103,6 +103,17 @@ Nguồn ảnh bổ sung đã được duyệt (Smithsonian Open Access, Met Open
 - **14 khối bài đọc + 14 nút "Nghe đọc" + 14 nút "Dừng" + 14 nút gấp/mở** (đếm trên file); thơ kiểm chứng ngắt dòng theo nguồn (Xuân Quỳnh 19 khổ × 4 dòng; ca dao 3 bài; Cửu Long Giang đủ từ "Ngày xưa ta đi học" đến "…ca dao bát ngát…").
 - JS: `node --check` đạt cho cả 3 khối script (gồm script nghe đọc mới); http.server: `/nguvan/` trả 200.
 
+## Rà soát khớp hình–nội dung flashcard (2026-10-21)
+
+Đã xem trực tiếp từng tranh và đối chiếu với từng câu hỏi của 30 thẻ. Kết quả: 21 thẻ KHỚP giữ nguyên, 9 thẻ được gán lại hình (chữ thẻ không đổi):
+
+- **SAI rõ (khác văn bản):** thẻ "Theo bài thơ, truyện cổ dạy ta những bài học gì?" (thuộc *Chuyện cổ nước mình*) vốn gán tranh cây tre (của *Cây tre Việt Nam*) → đổi sang tranh gặt lúa quê hương (`lua`).
+- **Yếu — dùng emoji dù đã có tranh riêng của văn bản:** thẻ *Chuyện cổ tích về loài người* (🌍 → tranh gia đình sơ khai `cotich`), thẻ *Bức tranh của em gái tôi* (🎨 → tranh em gái vẽ `emgai`), 2 thẻ *Gió lạnh đầu mùa* (🧣 → tranh khoác áo giữa gió lạnh `giolanh`), thẻ *Con chào mào* (🐦 → tranh chào mào trên cành `chaomao`).
+- **Yếu — đúng nhân vật nhưng chưa gợi đúng ý hỏi:** thẻ "Tính cách ban đầu của Dế Mèn" → tranh Dế Mèn kiêu căng coi thường Dế Choắt (`kieucang`); thẻ "hậu quả đau lòng" → tranh Dế Mèn bên mộ Dế Choắt (`anhan`).
+- **Thiếu tranh:** thẻ "Mẹ sinh ra để làm gì cho trẻ?" → gen mới `fc-sua-me-be.webp` (mẹ bế bồng ru bé, màu nước, 400px, 20KB).
+
+Sau rà soát: cả 30 thẻ đều dùng tranh (không còn thẻ emoji), mọi tranh đều thuộc đúng văn bản của câu hỏi.
+
 ## Điểm chưa chắc — cần đối chiếu
 
 1. **Phạm vi giữa kì 1:** phổ biến là hết Bài 2 (đề thi giữa kì trên VietJack cũng đặt sau Bài 2), một số trường lấy sang đầu Bài 3. Trang đã gắn nhãn từng bài để dễ đối chiếu.

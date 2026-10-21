@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+<rect width="420" height="300" rx="14" fill="#f8fafc"/>
+<text x="210" y="34" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">La bàn quốc tế: N — E — S — W</text>
+<circle cx="150" cy="168" r="98" fill="#dbeafe" stroke="#93c5fd" stroke-width="3"/>
+<polygon points="150,84 141,150 150,168 159,150" fill="#dc2626"/>
+<polygon points="234,168 168,159 150,168 168,177" fill="#f59e0b"/>
+<polygon points="150,252 159,186 150,168 141,186" fill="#f59e0b"/>
+<polygon points="66,168 132,177 150,168 132,159" fill="#f59e0b"/>
+<circle cx="150" cy="168" r="11" fill="#fff7ed" stroke="#92400e" stroke-width="2.5"/>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif" text-anchor="middle">
+<text x="150" y="66" font-size="27" font-weight="700" fill="#b91c1c">N</text>
+<text x="264" y="177" font-size="27" font-weight="700" fill="#1f2937">E</text>
+<text x="150" y="288" font-size="27" font-weight="700" fill="#1f2937">S</text>
+<text x="36" y="177" font-size="27" font-weight="700" fill="#1f2937">W</text>
+</g>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif" font-size="16.5" fill="#1f2937">
+<text x="282" y="120"><tspan font-weight="700" fill="#b91c1c">N</tspan> = Bắc (North)</text>
+<text x="282" y="156"><tspan font-weight="700">E</tspan> = Đông (East)</text>
+<text x="282" y="192"><tspan font-weight="700">S</tspan> = Nam (South)</text>
+<text x="282" y="228"><tspan font-weight="700">W</tspan> = Tây (West)</text>
+</g>
+</svg>

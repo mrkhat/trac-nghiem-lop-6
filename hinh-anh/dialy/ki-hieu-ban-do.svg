@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270">
+<rect width="420" height="270" rx="14" fill="#f8fafc"/>
+<text x="210" y="34" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle" font-family="'Be Vietnam Pro',Arial,sans-serif">Bảng chú giải — 3 loại kí hiệu bản đồ</text>
+<g font-family="'Be Vietnam Pro',Arial,sans-serif">
+<rect x="24" y="52" width="372" height="60" rx="9" fill="#fee2e2" stroke="#fca5a5" stroke-width="2"/>
+<circle cx="58" cy="82" r="9" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/>
+<polygon points="112,68 118,78 129,79 121,86 124,97 112,91 101,97 104,86 96,79 107,78" fill="#f59e0b" stroke="#92400e" stroke-width="1.5"/>
+<text x="150" y="76" font-size="16.5" font-weight="700" fill="#7f1d1d">Kí hiệu điểm</text>
+<text x="150" y="99" font-size="14" fill="#334155">thành phố ● — thủ đô ★ — sân bay, bến cảng…</text>
+<rect x="24" y="122" width="372" height="60" rx="9" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+<path d="M34,152 C60,140 78,164 104,152 C118,146 128,150 140,154" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M34,168 L140,168" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+<text x="150" y="146" font-size="16.5" font-weight="700" fill="#1e40af">Kí hiệu đường</text>
+<text x="150" y="169" font-size="14" fill="#334155">sông (đường xanh uốn lượn) — đường giao thông…</text>
+<rect x="24" y="192" width="372" height="60" rx="9" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+<path d="M36,232 C48,208 74,204 92,214 C106,222 104,240 88,246 C64,254 40,250 36,232 Z" fill="#22c55e" stroke="#15803d" stroke-width="2"/>
+<path d="M96,238 C110,222 132,224 138,236 C143,247 130,254 116,252 C102,250 91,247 96,238 Z" fill="#38bdf8" stroke="#0369a1" stroke-width="2"/>
+<text x="150" y="216" font-size="16.5" font-weight="700" fill="#14532d">Kí hiệu diện (mảng màu)</text>
+<text x="150" y="239" font-size="14" fill="#334155">rừng (mảng xanh lá) — biển, hồ (mảng xanh dương)…</text>
+</g>
+</svg>
