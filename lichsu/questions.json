@@ -1,73 +1,925 @@
 [
-{"answer": 3, "explanation": "Lịch sử là toàn bộ những gì đã diễn ra trong quá khứ của loài người, được con người ghi chép, lưu truyền và tìm hiểu lại.", "id": 1, "options": ["A. Những câu chuyện tưởng tượng về tương lai", "B. Tên gọi khác của môn Địa lí", "C. Chỉ những sự kiện xảy ra trong năm nay", "D. Tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người"], "question": "Lịch sử là gì?"},
-{"answer": 0, "explanation": "Học lịch sử giúp hiểu quá khứ, biết cội nguồn dân tộc, từ đó rút ra bài học kinh nghiệm cho hiện tại và tương lai.", "id": 2, "options": ["A. Biết được cội nguồn của bản thân, gia đình, dân tộc và rút ra bài học cho hiện tại", "B. Chỉ để ghi nhớ thật nhiều con số năm tháng", "C. Đoán trước chính xác mọi việc trong tương lai", "D. Không có ích gì cho cuộc sống hôm nay"], "question": "Học lịch sử giúp chúng ta điều gì?"},
-{"answer": 2, "explanation": "Những đồ vật do người xưa để lại như trống đồng, công cụ đá, đồ gốm là tư liệu hiện vật.", "id": 3, "options": ["A. Tư liệu truyền miệng", "B. Tư liệu chữ viết", "C. Tư liệu hiện vật", "D. Không phải tư liệu lịch sử"], "question": "Trống đồng, rìu đá, đồ gốm cổ thuộc loại tư liệu lịch sử nào?"},
-{"answer": 1, "explanation": "Truyền thuyết được cha ông kể lại qua nhiều thế hệ bằng lời nói nên thuộc tư liệu truyền miệng.", "id": 4, "options": ["A. Tư liệu hiện vật", "B. Tư liệu truyền miệng", "C. Tư liệu chữ viết trên bia đá", "D. Tư liệu hình ảnh chụp bằng máy ảnh"], "question": "Truyền thuyết Sơn Tinh – Thủy Tinh thuộc loại tư liệu lịch sử nào?"},
-{"answer": 2, "explanation": "Sử sách, bia đá khắc chữ, văn bản cổ là tư liệu chữ viết — nguồn thông tin quan trọng để tìm hiểu lịch sử.", "id": 5, "options": ["A. Một chiếc rìu đá", "B. Câu chuyện dân gian kể miệng", "C. Cuốn sử sách, tấm bia đá có khắc chữ", "D. Một bài hát ru"], "question": "Đâu là tư liệu chữ viết?"},
-{"answer": 0, "explanation": "Đọc sách lịch sử, đến bảo tàng và di tích là cách trực tiếp tìm hiểu về quá khứ.", "id": 6, "options": ["A. Đọc sách lịch sử và tham quan bảo tàng, di tích", "B. Xem phim hoạt hình giải trí", "C. Chơi thể thao ngoài sân", "D. Ngủ trưa sau giờ học"], "question": "Việc làm nào sau đây là tìm hiểu lịch sử?"},
-{"answer": 1, "explanation": "Di tích là chứng tích thật của quá khứ; giữ gìn di tích là giữ gìn tư liệu lịch sử và truyền thống dân tộc.", "id": 7, "options": ["A. Vì di tích chỉ để trang trí cho đẹp", "B. Vì di tích là tư liệu quý giúp hiểu về quá khứ và giáo dục truyền thống", "C. Vì di tích không liên quan gì đến lịch sử", "D. Vì đó là nơi cất giữ đồ đạc của nhà trường"], "question": "Vì sao chúng ta phải giữ gìn, bảo vệ các di tích lịch sử?"},
-{"answer": 2, "explanation": "Thập kỉ = 10 năm; thế kỉ = 100 năm; thiên niên kỉ = 1000 năm.", "id": 8, "options": ["A. 5 năm", "B. 100 năm", "C. 10 năm", "D. 1000 năm"], "question": "Một thập kỉ bằng bao nhiêu năm?"},
-{"answer": 3, "explanation": "Thiên niên kỉ là khoảng thời gian 1000 năm.", "id": 9, "options": ["A. 10 năm", "B. 100 năm", "C. 500 năm", "D. 1000 năm"], "question": "Một thiên niên kỉ bằng bao nhiêu năm?"},
-{"answer": 1, "explanation": "Thế kỉ XXI gồm các năm từ 2001 đến 2100, nên năm 2026 thuộc thế kỉ XXI.", "id": 10, "options": ["A. Thế kỉ XX", "B. Thế kỉ XXI", "C. Thế kỉ XIX", "D. Thế kỉ XXII"], "question": "Năm 2026 thuộc thế kỉ nào?"},
-{"answer": 0, "explanation": "Thế kỉ I tính từ năm 1 đến hết năm 100. Cứ 100 năm là một thế kỉ.", "id": 11, "options": ["A. Từ năm 1 đến năm 100", "B. Từ năm 100 đến năm 200", "C. Từ năm 0 đến năm 99", "D. Từ năm 1000 đến năm 1100"], "question": "Thế kỉ I Công nguyên gồm các năm nào?"},
-{"answer": 2, "explanation": "Năm 938 nằm trong khoảng 901–1000 nên thuộc thế kỉ X.", "id": 12, "options": ["A. Thế kỉ VIII", "B. Thế kỉ IX", "C. Thế kỉ X", "D. Thế kỉ XI"], "question": "Năm 938 — Ngô Quyền chiến thắng quân Nam Hán trên sông Bạch Đằng — thuộc thế kỉ nào?"},
-{"answer": 3, "explanation": "Với các năm trước Công nguyên (TCN), số càng lớn thì càng xa về quá khứ, tức là xảy ra càng sớm: 500 TCN trước 200 TCN.", "id": 13, "options": ["A. Năm 200 TCN", "B. Không xác định được", "C. Hai năm xảy ra cùng lúc", "D. Năm 500 TCN"], "question": "Trong hai năm 500 TCN và 200 TCN, năm nào xảy ra TRƯỚC?"},
-{"answer": 1, "explanation": "Dương lịch dựa vào thời gian Trái Đất quay quanh Mặt Trời (khoảng 365 ngày); còn âm lịch dựa vào Mặt Trăng quay quanh Trái Đất.", "id": 14, "options": ["A. Chu kì Mặt Trăng quay quanh Trái Đất", "B. Chu kì Trái Đất quay quanh Mặt Trời", "C. Chu kì các mùa mưa nắng", "D. Chu kì thủy triều lên xuống"], "question": "Dương lịch được tính dựa theo chu kì nào?"},
-{"answer": 2, "explanation": "Cách tính thời gian phổ biến lấy năm 1 Công nguyên làm mốc: các năm trước đó gọi là trước Công nguyên (TCN).", "id": 15, "options": ["A. Năm con người biết dùng lửa", "B. Năm loài người chế tạo ra kim loại", "C. Năm được coi là năm Chúa Giê-su ra đời (năm 1 Công nguyên)", "D. Năm thành lập nhà nước đầu tiên"], "question": "Người ta lấy mốc nào để chia thời gian thành 'trước Công nguyên' và 'sau Công nguyên'?"},
-{"answer": 2, "explanation": "Những dấu tích sớm nhất của người tối cổ được tìm thấy ở Đông Phi (và một số nơi khác ở châu Phi).", "id": 16, "options": ["A. Châu Âu", "B. Châu Mĩ", "C. Đông Phi", "D. Đông Nam Á"], "question": "Người tối cổ xuất hiện đầu tiên ở đâu trên Trái Đất?"},
-{"answer": 3, "explanation": "Người tối cổ xuất hiện cách đây khoảng 4 triệu năm — một khoảng thời gian vô cùng dài so với lịch sử có nhà nước.", "id": 17, "options": ["A. Khoảng 4 nghìn năm", "B. Khoảng 4 vạn năm", "C. Khoảng 40 vạn năm", "D. Khoảng 4 triệu năm"], "question": "Người tối cổ xuất hiện cách ngày nay khoảng bao lâu?"},
-{"answer": 1, "explanation": "Loài người tiến hóa từ vượn người thành người tối cổ, rồi dần thành người tinh khôn có cấu tạo như người ngày nay.", "id": 18, "options": ["A. Người tinh khôn → người tối cổ → vượn người", "B. Vượn người → người tối cổ → người tinh khôn", "C. Người tối cổ → vượn người → người tinh khôn", "D. Vượn người → người tinh khôn → người tối cổ"], "question": "Thứ tự tiến hóa đúng của loài người là:"},
-{"answer": 0, "explanation": "Người tối cổ biết ghè đẽo đá thành công cụ thô sơ (như rìu đá) để chặt cây, săn bắt và tự vệ.", "id": 19, "options": ["A. Ghè đẽo đá để làm công cụ lao động", "B. Đúc trống đồng", "C. Xây kim tự tháp", "D. Viết chữ trên giấy"], "question": "Người tối cổ đã biết làm gì?"},
-{"answer": 3, "explanation": "Người tinh khôn có bộ não lớn, cấu tạo cơ thể như người hiện đại và chế tạo được công cụ bằng đá mài sắc, nhẵn.", "id": 20, "options": ["A. Sống hoàn toàn như loài vượn", "B. Vẫn đi bằng bốn chân", "C. Không biết sử dụng công cụ", "D. Có cấu tạo cơ thể và bộ não phát triển như người ngày nay, biết chế tác công cụ tinh xảo"], "question": "Người tinh khôn khác người tối cổ ở điểm nào nổi bật nhất?"},
-{"answer": 0, "explanation": "Tại các hang Thẩm Khuyên, Thẩm Hai ở Lạng Sơn, các nhà khảo cổ đã tìm thấy răng của người tối cổ.", "id": 21, "options": ["A. Hang Thẩm Khuyên, Thẩm Hai (Lạng Sơn)", "B. Hoàng thành Thăng Long (Hà Nội)", "C. Cố đô Huế", "D. Địa đạo Củ Chi"], "question": "Ở Việt Nam, dấu tích của người tối cổ được tìm thấy ở đâu?"},
-{"answer": 3, "explanation": "Công cụ đầu tiên là đá ghè đẽo thô — chỉ cần đập, ghè cho đá có cạnh sắc là dùng được.", "id": 22, "options": ["A. Bằng đồng, đúc rất tinh xảo", "B. Bằng nhựa và gỗ ép", "C. Bằng sắt, rèn sắc bén", "D. Bằng đá, ghè đẽo thô sơ"], "question": "Công cụ lao động đầu tiên của người tối cổ được làm bằng chất liệu gì và như thế nào?"},
-{"answer": 2, "explanation": "Người tối cổ sống thành từng bầy gồm vài chục người — gọi là bầy người nguyên thủy.", "id": 23, "options": ["A. Công xã thị tộc", "B. Nhà nước", "C. Bầy người nguyên thủy", "D. Làng xã phong kiến"], "question": "Hình thức tổ chức xã hội đầu tiên của người nguyên thủy là gì?"},
-{"answer": 1, "explanation": "Khi chưa biết trồng trọt, chăn nuôi, con người sống nhờ săn bắt và hái lượm những gì thiên nhiên có sẵn.", "id": 24, "options": ["A. Buôn bán với các nước khác", "B. Săn bắt thú rừng và hái lượm hoa quả, rau củ", "C. Trồng lúa nước quy mô lớn", "D. Làm việc trong nhà máy"], "question": "Người trong bầy người nguyên thủy sống chủ yếu bằng cách nào?"},
-{"answer": 0, "explanation": "Thị tộc gồm nhiều gia đình có quan hệ huyết thống, ở cùng nhau, làm chung và chia nhau sản phẩm — 'làm chung, hưởng chung'.", "id": 25, "options": ["A. Những người cùng huyết thống, sống chung, cùng làm việc và hưởng thụ chung", "B. Những người xa lạ từ nhiều nơi đến", "C. Chỉ gồm một gia đình nhỏ", "D. Chỉ gồm các thương nhân giàu có"], "question": "Công xã thị tộc gồm những người như thế nào?"},
-{"answer": 1, "explanation": "Săn bắt bấp bênh (có hôm được, hôm không) còn hái lượm đều đặn hơn, nên phụ nữ giữ vai trò trung tâm — xã hội theo chế độ mẫu hệ.", "id": 26, "options": ["A. Vì phụ nữ là người đi săn giỏi nhất", "B. Vì việc hái lượm do phụ nữ đảm nhiệm mang lại nguồn thức ăn ổn định, và họ nuôi dưỡng con cái", "C. Vì phụ nữ biết đúc kim loại", "D. Vì phụ nữ là người viết sử sách"], "question": "Trong xã hội nguyên thủy, vì sao người phụ nữ có vai trò rất quan trọng trong thị tộc?"},
-{"answer": 3, "explanation": "Ở thời đá mới, con người biết mài đá làm công cụ và đặc biệt là biết trồng trọt, chăn nuôi — tự sản xuất ra thức ăn thay vì chỉ dựa vào thiên nhiên.", "id": 27, "options": ["A. Biết dùng lửa lần đầu tiên", "B. Biết chế tạo vũ khí bằng sắt", "C. Biết xây dựng nhà nước", "D. Biết trồng trọt và chăn nuôi, công cụ đá được mài nhẵn, sắc bén"], "question": "'Cách mạng đá mới' là bước tiến nào của con người thời nguyên thủy?"},
-{"answer": 0, "explanation": "Tranh hang động, đồ tùy táng trong mộ cho thấy người nguyên thủy đã có đời sống tinh thần phong phú và niềm tin vào thế giới bên kia.", "id": 28, "options": ["A. Họ đã có đời sống tinh thần: biết nghệ thuật và có tín ngưỡng", "B. Họ đã biết viết chữ", "C. Họ đã xây được thành phố", "D. Họ không quan tâm đến người đã mất"], "question": "Những bức tranh vẽ trong hang đá và việc chôn cất người chết cùng đồ vật cho thấy điều gì ở người nguyên thủy?"},
-{"answer": 1, "explanation": "Người nguyên thủy ở hang động, mái đá, lều tạm — thường gần sông, suối để tiện lấy nước và tìm thức ăn.", "id": 29, "options": ["A. Trong các tòa nhà cao tầng", "B. Trong hang động, mái đá hoặc lều gần nguồn nước", "C. Trên các con tàu lớn", "D. Trong các cung điện bằng đá"], "question": "Người nguyên thủy thường sống ở đâu?"},
-{"answer": 2, "explanation": "Ai Cập cổ đại nằm ở Đông Bắc châu Phi, hình thành dọc theo sông Nin — một trong những con sông dài nhất thế giới.", "id": 30, "options": ["A. Sông Hoàng Hà", "B. Sông Ấn", "C. Sông Nin", "D. Sông Mê Công"], "question": "Nền văn minh Ai Cập cổ đại hình thành ở lưu vực con sông nào?"},
-{"answer": 2, "explanation": "Lũ sông Nin (khoảng tháng 7 đến tháng 10) để lại lớp phù sa đen màu mỡ, giúp người Ai Cập trồng trọt tốt giữa vùng khô hạn.", "id": 31, "options": ["A. Vì sông Nin có nhiều vàng bạc", "B. Vì sông Nin ngăn được mọi kẻ thù", "C. Vì hằng năm nước lũ sông Nin dâng lên đem theo phù sa màu mỡ và nước tưới cho đồng ruộng", "D. Vì sông Nin chảy qua giữa kinh đô"], "question": "Vì sao sông Nin được coi là 'món quà' đối với người Ai Cập cổ đại?"},
-{"answer": 0, "explanation": "Pharaoh là vua của Ai Cập cổ đại, nắm quyền tối cao về mọi mặt và được thần dân tôn thờ như một vị thần.", "id": 32, "options": ["A. Pharaoh — vị vua nắm mọi quyền hành, được coi như thần thánh", "B. Hội đồng trưởng lão do dân bầu", "C. Các thương nhân giàu có", "D. Tướng lĩnh quân đội luân phiên nhau"], "question": "Đứng đầu nhà nước Ai Cập cổ đại là ai?"},
-{"answer": 1, "explanation": "Kim tự tháp là lăng mộ khổng lồ của các Pharaoh; lớn nhất là kim tự tháp Kê-ốp (Khufu).", "id": 33, "options": ["A. Làm kho chứa lương thực", "B. Làm lăng mộ cho các Pharaoh", "C. Làm nơi buôn bán, chợ búa", "D. Làm đài quan sát thiên văn cho nông dân"], "question": "Kim tự tháp ở Ai Cập cổ đại được xây dựng để làm gì?"},
-{"answer": 3, "explanation": "Người Ai Cập sáng tạo chữ tượng hình — dùng hình vẽ con vật, đồ vật để ghi lại ý nghĩ, khắc trên đá và viết trên giấy làm từ cây papyrus (cói).", "id": 34, "options": ["A. Chữ hình nêm", "B. Chữ Hán", "C. Chữ Quốc ngữ", "D. Chữ tượng hình (vẽ hình để biểu ý)"], "question": "Người Ai Cập cổ đại dùng loại chữ viết nào?"},
-{"answer": 0, "explanation": "'Lưỡng Hà' nghĩa là vùng đất nằm giữa hai sông Ti-grơ (Tigris) và Ơ-phrát (Euphrates), thuộc lãnh thổ I-rắc ngày nay.", "id": 35, "options": ["A. Vùng đất giữa hai con sông Ti-grơ và Ơ-phrát, ngày nay thuộc I-rắc", "B. Vùng đất hai bên bờ sông Nin, ngày nay thuộc Ai Cập", "C. Vùng đất giữa hai dãy núi ở Trung Quốc", "D. Đồng bằng giữa hai con sông ở Ấn Độ"], "question": "'Lưỡng Hà' có nghĩa là gì và nằm ở đâu ngày nay?"},
-{"answer": 3, "explanation": "Người Lưỡng Hà (Xu-me, Babylon...) sáng tạo chữ hình nêm, hệ đếm 60 còn dùng đến ngày nay khi đo thời gian và góc; vua Ha-mu-ra-bi ban hành bộ luật thành văn nổi tiếng.", "id": 36, "options": ["A. La bàn và thuốc súng", "B. Vạn lí trường thành", "C. Kim tự tháp và tượng nhân sư", "D. Chữ hình nêm viết trên bảng đất sét, phép đếm theo hệ 60 (chia 1 giờ = 60 phút, vòng tròn 360 độ) và bộ luật Ha-mu-ra-bi"], "question": "Người Lưỡng Hà cổ đại nổi tiếng với thành tựu nào sau đây?"},
-{"answer": 0, "explanation": "Công cụ kim loại giúp làm ra nhiều của cải hơn nhu cầu; của dư thừa bị một số người chiếm hữu, từ đó xuất hiện giàu – nghèo.", "id": 37, "options": ["A. Nhờ công cụ bằng kim loại, sản xuất tạo ra của dư thừa", "B. Do người nguyên thủy trở nên lười lao động", "C. Do khí hậu Trái Đất lạnh đi", "D. Do con người ngừng trồng trọt, chăn nuôi"], "question": "Nguyên nhân chính khiến xã hội nguyên thủy dần phân hóa thành giàu – nghèo là gì?"},
-{"answer": 1, "explanation": "Đồng là kim loại đầu tiên con người biết dùng (thời đại đồ đồng), sau đó mới đến sắt.", "id": 38, "options": ["A. Sắt", "B. Đồng", "C. Nhôm", "D. Thép"], "question": "Kim loại đầu tiên con người biết sử dụng để chế tạo công cụ là gì?"},
-{"answer": 2, "explanation": "Của dư thừa là mầm mống của tư hữu: ai giữ được nhiều của dư sẽ giàu lên, xã hội mất dần sự bình đẳng ban đầu.", "id": 39, "options": ["A. Mọi người trở nên bình đẳng tuyệt đối mãi mãi", "B. Thị tộc tan rã ngay vì thiếu lương thực", "C. Một số người chiếm hữu của dư, xã hội phân hóa giàu – nghèo", "D. Con người quay lại sống hoàn toàn trong hang động"], "question": "Khi sản xuất xuất hiện 'của dư thừa', điều gì sẽ xảy ra trong xã hội nguyên thủy?"},
-{"answer": 3, "explanation": "Khi cày bừa, chăn nuôi lớn, rèn đúc phát triển, nam giới là lực lượng sản xuất chính nên vai trò của người đàn ông tăng lên — chế độ phụ hệ hình thành.", "id": 40, "options": ["A. Phụ nữ không còn muốn lao động", "B. Trẻ em trở thành người đứng đầu thị tộc", "C. Nhà vua ra lệnh bắt buộc phải thay đổi", "D. Nam giới trở thành lực lượng sản xuất chính và giữ vai trò chủ chốt trong gia đình, xã hội"], "question": "Chế độ phụ hệ thay thế chế độ mẫu hệ chủ yếu vì lí do nào?"},
-{"answer": 0, "explanation": "Phân hóa là sự tách ra thành các nhóm có của cải, địa vị khác nhau — bước chuyển từ xã hội nguyên thủy sang xã hội có giai cấp.", "id": 41, "options": ["A. Xã hội tách dần thành người giàu và người nghèo, không còn bình đẳng như trước", "B. Xã hội chia thành nhiều thị tộc sống xa nhau", "C. Mọi người cùng chuyển lên ở nhà sàn", "D. Con người chia nhau đi săn ở nhiều khu rừng"], "question": "'Phân hóa xã hội' ở cuối thời nguyên thủy nghĩa là gì?"},
-{"answer": 1, "explanation": "Rìu, cuốc, cày bằng kim loại sắc và bền hơn đồ đá rất nhiều, giúp con người sản xuất hiệu quả hơn hẳn.", "id": 42, "options": ["A. Bay lên bầu trời", "B. Khai phá thêm đất hoang, tăng năng suất lao động", "C. Không cần ăn uống nữa", "D. Giao tiếp được với muông thú"], "question": "Công cụ lao động bằng kim loại giúp con người làm được điều gì mới?"},
-{"answer": 2, "explanation": "Giàu – nghèo xuất hiện, kẻ giàu có thế lực đứng ra cai quản — xã hội có giai cấp ra đời và nhà nước sắp xuất hiện.", "id": 43, "options": ["A. Xã hội công nghiệp", "B. Xã hội thông tin", "C. Xã hội có giai cấp", "D. Xã hội tư bản"], "question": "Cuối thời nguyên thủy, xã hội dần chuyển biến thành xã hội nào?"},
-{"answer": 3, "explanation": "Đúng như tên gọi, Ấn Độ gắn với sông Ấn và sông Hằng — hai dòng sông lớn nuôi dưỡng nền văn minh này.", "id": 44, "options": ["A. Sông Nin và sông Ti-grơ", "B. Sông Hoàng Hà và sông Trường Giang", "C. Sông Mê Công và sông Hồng", "D. Sông Ấn và sông Hằng"], "question": "Văn minh Ấn Độ cổ đại hình thành ở lưu vực hai con sông nào?"},
-{"answer": 0, "explanation": "Mô-hen-giô Đa-rô và Ha-ráp-pa là hai đô thị cổ quy hoạch rất ngăn nắp bên sông Ấn, có từ khoảng thiên niên kỉ III TCN.", "id": 45, "options": ["A. Mô-hen-giô Đa-rô và Ha-ráp-pa", "B. Ba-bi-lon và Tê-bê", "C. A-ten và Xpác", "D. Huế và Hội An"], "question": "Hai thành phố cổ nổi tiếng của văn minh sông Ấn là"},
-{"answer": 1, "explanation": "Bốn đẳng cấp (Varna) xếp từ cao xuống thấp: Bà La Môn (tăng lữ) – Sát-đế-lị (vua, quý tộc) – Vệ-xá (thương nhân, nông dân) – Su-đra (người lao động).", "id": 46, "options": ["A. Sát-đế-lị", "B. Bà La Môn", "C. Vệ-xá", "D. Su-đra"], "question": "Đẳng cấp cao nhất trong xã hội Ấn Độ cổ đại là"},
-{"answer": 2, "explanation": "Thích Ca Mâu Ni sáng lập Phật giáo ở Ấn Độ vào thế kỉ VI TCN; về sau Phật giáo lan truyền sang nhiều nước châu Á, trong đó có Việt Nam.", "id": 47, "options": ["A. Thế kỉ I, do Khổng Tử sáng lập", "B. Thế kỉ X, do Tần Thủy Hoàng sáng lập", "C. Thế kỉ VI TCN, do Thích Ca Mâu Ni sáng lập", "D. Thế kỉ VI TCN, do Hô-me sáng lập"], "question": "Phật giáo ra đời ở Ấn Độ vào khoảng thời gian nào và do ai sáng lập?"},
-{"answer": 3, "explanation": "Các chữ số 0–9 và cách đếm theo hệ thập phân mà cả thế giới dùng ngày nay bắt nguồn từ Ấn Độ cổ đại.", "id": 48, "options": ["A. Phát minh ra la bàn", "B. Chế tạo ra thuốc súng", "C. Xây dựng kim tự tháp", "D. Sáng tạo ra các chữ số và số 0, cùng hệ đếm thập phân"], "question": "Thành tựu toán học nổi tiếng nhất của người Ấn Độ cổ đại là gì?"},
-{"answer": 0, "explanation": "Ma-ha-bha-ra-ta và Ra-ma-ya-na là hai bộ sử thi đồ sộ, là kho tàng văn học – văn hóa của Ấn Độ cổ đại.", "id": 49, "options": ["A. Ma-ha-bha-ra-ta và Ra-ma-ya-na", "B. I-li-át và Ô-đi-xê", "C. Tam Quốc diễn nghĩa và Tây du kí", "D. Thần thoại Hy Lạp và Kinh Thi"], "question": "Hai bộ sử thi nổi tiếng của Ấn Độ cổ đại là"},
-{"answer": 1, "explanation": "Su-đra là đẳng cấp thấp nhất trong bốn đẳng cấp Varna, gồm những người lao động, phục dịch.", "id": 50, "options": ["A. Bà La Môn", "B. Su-đra", "C. Sát-đế-lị", "D. Vệ-xá"], "question": "Đẳng cấp thấp nhất trong xã hội Ấn Độ cổ đại, chuyên lao động phục dịch, là"},
-{"answer": 2, "explanation": "Những nhà nước đầu tiên của Trung Quốc xuất hiện ở lưu vực sông Hoàng Hà, sau mở rộng xuống lưu vực Trường Giang.", "id": 51, "options": ["A. Sông Hằng", "B. Sông Nin", "C. Sông Hoàng Hà", "D. Sông Mê Công"], "question": "Văn minh Trung Quốc cổ đại hình thành đầu tiên ở lưu vực con sông nào?"},
-{"answer": 3, "explanation": "Năm 221 TCN, Tần Thủy Hoàng thôn tính các nước, thống nhất Trung Quốc và lập ra nhà Tần.", "id": 52, "options": ["A. Phật giáo ra đời", "B. Thế vận hội Olympic đầu tiên", "C. Nhà nước Ai Cập ra đời", "D. Tần Thủy Hoàng thống nhất Trung Quốc"], "question": "Năm 221 TCN ở Trung Quốc diễn ra sự kiện lớn nào?"},
-{"answer": 0, "explanation": "Trường Thành là bức tường phòng thủ khổng lồ ở biên giới phía Bắc, xây qua nhiều triều đại để ngăn các bộ tộc du mục xâm nhập.", "id": 53, "options": ["A. Phòng thủ, ngăn chặn quân du mục từ phương Bắc", "B. Làm con đường cho khách du lịch", "C. Chia ruộng đất cho nông dân", "D. Dẫn nước từ sông vào ruộng"], "question": "Vạn Lí Trường Thành được xây dựng chủ yếu để làm gì?"},
-{"answer": 1, "explanation": "Chữ giáp cốt là chữ khắc trên xương và mai rùa thời nhà Thương — loại chữ cổ nhất được biết của Trung Quốc.", "id": 54, "options": ["A. Bảng đất sét nung", "B. Xương thú và mai rùa (chữ giáp cốt)", "C. Cuộn giấy dó", "D. Lá cọ khô"], "question": "Chữ viết cổ nhất của Trung Quốc được khắc trên vật liệu gì?"},
-{"answer": 2, "explanation": "Khổng Tử (thế kỉ VI–V TCN) là nhà tư tưởng lớn, sáng lập Nho giáo — học thuyết ảnh hưởng sâu rộng ở Trung Quốc và nhiều nước Đông Á.", "id": 55, "options": ["A. Thích Ca Mâu Ni", "B. Tần Thủy Hoàng", "C. Khổng Tử", "D. Hô-me"], "question": "Nhà tư tưởng nổi tiếng, người sáng lập Nho giáo ở Trung Quốc cổ đại, là"},
-{"answer": 3, "explanation": "Con đường tơ lụa là tuyến buôn bán đường bộ nổi tiếng, đưa tơ lụa, gốm sứ Trung Quốc sang Trung Á và phương Tây.", "id": 56, "options": ["A. Châu Mỹ", "B. Phía nam châu Phi", "C. Các đảo ở châu Đại Dương", "D. Trung Á và phương Tây"], "question": "Con đường tơ lụa thời cổ đại nối Trung Quốc với khu vực nào?"},
-{"answer": 0, "explanation": "Năm 618, nhà Đường thành lập; đây là một trong những triều đại thịnh trị nhất của Trung Quốc phong kiến, kết thúc thời kì cổ đại trong sách giáo khoa.", "id": 57, "options": ["A. Năm 618", "B. Năm 221", "C. Năm 1368", "D. Năm 1911"], "question": "Nhà Đường — triều đại phong kiến thịnh trị nổi tiếng của Trung Quốc — được thành lập vào năm nào?"},
-{"answer": 1, "explanation": "Olympic bắt nguồn từ các lễ hội thi đấu thể thao ở Hy Lạp cổ đại; kì đại hội đầu tiên được ghi nhận vào năm 776 TCN.", "id": 58, "options": ["A. La Mã cổ đại, từ năm 100", "B. Hy Lạp cổ đại, từ năm 776 TCN", "C. Ai Cập cổ đại, từ năm 3200 TCN", "D. Ấn Độ cổ đại, từ thế kỉ VI TCN"], "question": "Thế vận hội Olympic có nguồn gốc từ đâu và bắt đầu từ năm nào?"},
-{"answer": 2, "explanation": "Ở A-ten, công dân nam được tham gia bàn bạc, biểu quyết việc chung — đó là nền dân chủ cổ đại sớm nhất được biết đến.", "id": 59, "options": ["A. Có kim tự tháp lớn nhất thế giới", "B. Phát minh ra chữ hình nêm", "C. Là quê hương của chế độ dân chủ cổ đại", "D. Xây dựng Vạn Lí Trường Thành"], "question": "Thành bang A-ten của Hy Lạp cổ đại nổi tiếng thế giới vì điều gì?"},
-{"answer": 3, "explanation": "Đền Pác-tê-nông nằm trên đồi Ác-rô-pô-lít ở A-ten, thờ nữ thần A-tê-na — biểu tượng của kiến trúc Hy Lạp cổ đại.", "id": 60, "options": ["A. La Mã cổ đại", "B. Ai Cập cổ đại", "C. Ấn Độ cổ đại", "D. Hy Lạp cổ đại"], "question": "Đền Pác-tê-nông (Parthenon) là công trình nổi tiếng của nền văn minh nào?"},
-{"answer": 0, "explanation": "Cô-li-dê ở Rô-ma là đấu trường khổng lồ của La Mã cổ đại, nơi tổ chức các cuộc đấu võ và biểu diễn cho hàng chục nghìn khán giả.", "id": 61, "options": ["A. La Mã cổ đại", "B. Hy Lạp cổ đại", "C. Lưỡng Hà cổ đại", "D. Trung Quốc cổ đại"], "question": "Đấu trường Cô-li-dê (Colosseum) là công trình của nền văn minh nào?"},
-{"answer": 1, "explanation": "Người Hy Lạp tin rằng thần Dớt và các vị thần sống trên đỉnh Ô-lim-pơ quanh năm phủ mây.", "id": 62, "options": ["A. Dưới đáy biển sâu", "B. Trên đỉnh núi Ô-lim-pơ", "C. Bên trong kim tự tháp", "D. Trên bờ sông Nin"], "question": "Trong thần thoại Hy Lạp, các vị thần được kể là sống ở đâu?"},
-{"answer": 2, "explanation": "I-li-át và Ô-đi-xê gắn với tên tuổi Hô-me, là hai bộ sử thi mở đầu cho văn học châu Âu.", "id": 63, "options": ["A. Ma-ha-bha-ra-ta và Ra-ma-ya-na", "B. Tam Quốc diễn nghĩa và Thủy Hử", "C. I-li-át và Ô-đi-xê", "D. Kinh Thi và Sở Từ"], "question": "Hai bộ sử thi nổi tiếng nhất của Hy Lạp cổ đại là"},
-{"answer": 3, "explanation": "Luật La Mã là nền tảng của nhiều hệ thống pháp luật hiện nay; chữ cái Latinh được rất nhiều nước sử dụng, trong đó có chữ Quốc ngữ của Việt Nam.", "id": 64, "options": ["A. Chữ tượng hình trên đá", "B. Kim tự tháp và xác ướp", "C. Lịch âm dựa vào Mặt Trăng", "D. Hệ thống luật pháp và bảng chữ cái Latinh"], "question": "Di sản nào của La Mã cổ đại còn ảnh hưởng rõ rệt đến ngày nay?"},
-{"answer": 0, "explanation": "Phù Nam hình thành vào thế kỉ I–II ở hạ lưu sông Mê Công, thuộc phía nam Việt Nam và Campuchia ngày nay.", "id": 65, "options": ["A. Hạ lưu sông Mê Công", "B. Lưu vực sông Hoàng Hà", "C. Bán đảo Hy Lạp", "D. Vùng Bắc Phi"], "question": "Vương quốc Phù Nam hình thành ở khu vực nào?"},
-{"answer": 1, "explanation": "Óc Eo (nay ở An Giang) là cảng buôn bán quốc tế nhộn nhịp, nơi tìm thấy cả tiền xu La Mã và hiện vật Ấn Độ.", "id": 66, "options": ["A. Kinh đô của Trung Quốc cổ đại", "B. Thương cảng sầm uất của vương quốc Phù Nam", "C. Nơi xây dựng kim tự tháp", "D. Đấu trường của La Mã cổ đại"], "question": "Óc Eo nổi tiếng trong lịch sử Đông Nam Á vì là"},
-{"answer": 2, "explanation": "Nhờ khí hậu gió mùa nóng ẩm, mưa nhiều, sông ngòi chằng chịt, cư dân Đông Nam Á sớm phát triển nghề trồng lúa nước.", "id": 67, "options": ["A. Chăn nuôi du mục trên thảo nguyên", "B. Đánh bắt cá ở biển xa", "C. Trồng lúa nước", "D. Khai thác và luyện thép"], "question": "Ngành sản xuất chính của cư dân Đông Nam Á thời cổ là gì?"},
-{"answer": 0, "explanation": "Tôn giáo, chữ viết, nghệ thuật từ Ấn Độ và Trung Quốc theo các thuyền buôn đến Đông Nam Á từ rất sớm.", "id": 68, "options": ["A. Ấn Độ và Trung Quốc", "B. Hy Lạp và La Mã", "C. Ai Cập và Lưỡng Hà", "D. Anh và Pháp"], "question": "Văn hóa của các quốc gia Đông Nam Á cổ tiếp nhận ảnh hưởng chủ yếu từ hai nền văn minh nào?"},
-{"answer": 1, "explanation": "Mỹ Sơn là khu đền tháp của vương quốc Chăm-pa — quốc gia sơ kì ở miền Trung Việt Nam, thờ thần Si-va của Ấn Độ giáo.", "id": 69, "options": ["A. Văn Lang", "B. Chăm-pa", "C. Âu Lạc", "D. Phù Nam"], "question": "Thánh địa Mỹ Sơn (Quảng Nam) là di tích của vương quốc cổ nào?"},
-{"answer": 2, "explanation": "Khí hậu gió mùa nóng ẩm, mưa nhiều là điều kiện lí tưởng cho cây lúa nước — nền tảng của văn minh Đông Nam Á.", "id": 70, "options": ["A. Khí hậu lạnh giá quanh năm", "B. Địa hình hoang mạc khô cằn", "C. Khí hậu gió mùa nóng ẩm, mưa nhiều, nhiều sông ngòi", "D. Núi cao phủ tuyết trắng"], "question": "Điều kiện tự nhiên nào giúp Đông Nam Á sớm phát triển nghề trồng lúa nước?"},
-{"answer": 3, "explanation": "Cư dân Đông Nam Á học hỏi tôn giáo, chữ viết, nghệ thuật của Ấn Độ, Trung Quốc nhưng chọn lọc và biến đổi cho phù hợp, giữ vững bản sắc riêng.", "id": 71, "options": ["A. Sao chép nguyên vẹn, không hề thay đổi", "B. Từ chối mọi ảnh hưởng từ bên ngoài", "C. Từ bỏ hẳn ngôn ngữ của dân tộc mình", "D. Tiếp thu có chọn lọc nhưng vẫn giữ được bản sắc văn hóa riêng"], "question": "Điểm đáng quý trong cách cư dân Đông Nam Á tiếp nhận văn hóa từ bên ngoài là gì?"}
+  {
+    "answer": 3,
+    "explanation": "Lịch sử là toàn bộ những gì đã diễn ra trong quá khứ của loài người, được con người ghi chép, lưu truyền và tìm hiểu lại.",
+    "id": 1,
+    "options": [
+      "A. Những câu chuyện tưởng tượng về tương lai",
+      "B. Tên gọi khác của môn Địa lí",
+      "C. Chỉ những sự kiện xảy ra trong năm nay",
+      "D. Tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người"
+    ],
+    "question": "Lịch sử là gì?",
+    "bai": 1
+  },
+  {
+    "answer": 0,
+    "explanation": "Học lịch sử giúp hiểu quá khứ, biết cội nguồn dân tộc, từ đó rút ra bài học kinh nghiệm cho hiện tại và tương lai.",
+    "id": 2,
+    "options": [
+      "A. Biết được cội nguồn của bản thân, gia đình, dân tộc và rút ra bài học cho hiện tại",
+      "B. Chỉ để ghi nhớ thật nhiều con số năm tháng",
+      "C. Đoán trước chính xác mọi việc trong tương lai",
+      "D. Không có ích gì cho cuộc sống hôm nay"
+    ],
+    "question": "Học lịch sử giúp chúng ta điều gì?",
+    "bai": 1
+  },
+  {
+    "answer": 2,
+    "explanation": "Những đồ vật do người xưa để lại như trống đồng, công cụ đá, đồ gốm là tư liệu hiện vật.",
+    "id": 3,
+    "options": [
+      "A. Tư liệu truyền miệng",
+      "B. Tư liệu chữ viết",
+      "C. Tư liệu hiện vật",
+      "D. Không phải tư liệu lịch sử"
+    ],
+    "question": "Trống đồng, rìu đá, đồ gốm cổ thuộc loại tư liệu lịch sử nào?",
+    "bai": 1
+  },
+  {
+    "answer": 1,
+    "explanation": "Truyền thuyết được cha ông kể lại qua nhiều thế hệ bằng lời nói nên thuộc tư liệu truyền miệng.",
+    "id": 4,
+    "options": [
+      "A. Tư liệu hiện vật",
+      "B. Tư liệu truyền miệng",
+      "C. Tư liệu chữ viết trên bia đá",
+      "D. Tư liệu hình ảnh chụp bằng máy ảnh"
+    ],
+    "question": "Truyền thuyết Sơn Tinh – Thủy Tinh thuộc loại tư liệu lịch sử nào?",
+    "bai": 1
+  },
+  {
+    "answer": 2,
+    "explanation": "Sử sách, bia đá khắc chữ, văn bản cổ là tư liệu chữ viết — nguồn thông tin quan trọng để tìm hiểu lịch sử.",
+    "id": 5,
+    "options": [
+      "A. Một chiếc rìu đá",
+      "B. Câu chuyện dân gian kể miệng",
+      "C. Cuốn sử sách, tấm bia đá có khắc chữ",
+      "D. Một bài hát ru"
+    ],
+    "question": "Đâu là tư liệu chữ viết?",
+    "bai": 1
+  },
+  {
+    "answer": 0,
+    "explanation": "Đọc sách lịch sử, đến bảo tàng và di tích là cách trực tiếp tìm hiểu về quá khứ.",
+    "id": 6,
+    "options": [
+      "A. Đọc sách lịch sử và tham quan bảo tàng, di tích",
+      "B. Xem phim hoạt hình giải trí",
+      "C. Chơi thể thao ngoài sân",
+      "D. Ngủ trưa sau giờ học"
+    ],
+    "question": "Việc làm nào sau đây là tìm hiểu lịch sử?",
+    "bai": 1
+  },
+  {
+    "answer": 1,
+    "explanation": "Di tích là chứng tích thật của quá khứ; giữ gìn di tích là giữ gìn tư liệu lịch sử và truyền thống dân tộc.",
+    "id": 7,
+    "options": [
+      "A. Vì di tích chỉ để trang trí cho đẹp",
+      "B. Vì di tích là tư liệu quý giúp hiểu về quá khứ và giáo dục truyền thống",
+      "C. Vì di tích không liên quan gì đến lịch sử",
+      "D. Vì đó là nơi cất giữ đồ đạc của nhà trường"
+    ],
+    "question": "Vì sao chúng ta phải giữ gìn, bảo vệ các di tích lịch sử?",
+    "bai": 1
+  },
+  {
+    "answer": 2,
+    "explanation": "Thập kỉ = 10 năm; thế kỉ = 100 năm; thiên niên kỉ = 1000 năm.",
+    "id": 8,
+    "options": [
+      "A. 5 năm",
+      "B. 100 năm",
+      "C. 10 năm",
+      "D. 1000 năm"
+    ],
+    "question": "Một thập kỉ bằng bao nhiêu năm?",
+    "bai": 2
+  },
+  {
+    "answer": 3,
+    "explanation": "Thiên niên kỉ là khoảng thời gian 1000 năm.",
+    "id": 9,
+    "options": [
+      "A. 10 năm",
+      "B. 100 năm",
+      "C. 500 năm",
+      "D. 1000 năm"
+    ],
+    "question": "Một thiên niên kỉ bằng bao nhiêu năm?",
+    "bai": 2
+  },
+  {
+    "answer": 1,
+    "explanation": "Thế kỉ XXI gồm các năm từ 2001 đến 2100, nên năm 2026 thuộc thế kỉ XXI.",
+    "id": 10,
+    "options": [
+      "A. Thế kỉ XX",
+      "B. Thế kỉ XXI",
+      "C. Thế kỉ XIX",
+      "D. Thế kỉ XXII"
+    ],
+    "question": "Năm 2026 thuộc thế kỉ nào?",
+    "bai": 2
+  },
+  {
+    "answer": 0,
+    "explanation": "Thế kỉ I tính từ năm 1 đến hết năm 100. Cứ 100 năm là một thế kỉ.",
+    "id": 11,
+    "options": [
+      "A. Từ năm 1 đến năm 100",
+      "B. Từ năm 100 đến năm 200",
+      "C. Từ năm 0 đến năm 99",
+      "D. Từ năm 1000 đến năm 1100"
+    ],
+    "question": "Thế kỉ I Công nguyên gồm các năm nào?",
+    "bai": 2
+  },
+  {
+    "answer": 2,
+    "explanation": "Năm 938 nằm trong khoảng 901–1000 nên thuộc thế kỉ X.",
+    "id": 12,
+    "options": [
+      "A. Thế kỉ VIII",
+      "B. Thế kỉ IX",
+      "C. Thế kỉ X",
+      "D. Thế kỉ XI"
+    ],
+    "question": "Năm 938 — Ngô Quyền chiến thắng quân Nam Hán trên sông Bạch Đằng — thuộc thế kỉ nào?",
+    "bai": 2
+  },
+  {
+    "answer": 3,
+    "explanation": "Với các năm trước Công nguyên (TCN), số càng lớn thì càng xa về quá khứ, tức là xảy ra càng sớm: 500 TCN trước 200 TCN.",
+    "id": 13,
+    "options": [
+      "A. Năm 200 TCN",
+      "B. Không xác định được",
+      "C. Hai năm xảy ra cùng lúc",
+      "D. Năm 500 TCN"
+    ],
+    "question": "Trong hai năm 500 TCN và 200 TCN, năm nào xảy ra TRƯỚC?",
+    "bai": 2
+  },
+  {
+    "answer": 1,
+    "explanation": "Dương lịch dựa vào thời gian Trái Đất quay quanh Mặt Trời (khoảng 365 ngày); còn âm lịch dựa vào Mặt Trăng quay quanh Trái Đất.",
+    "id": 14,
+    "options": [
+      "A. Chu kì Mặt Trăng quay quanh Trái Đất",
+      "B. Chu kì Trái Đất quay quanh Mặt Trời",
+      "C. Chu kì các mùa mưa nắng",
+      "D. Chu kì thủy triều lên xuống"
+    ],
+    "question": "Dương lịch được tính dựa theo chu kì nào?",
+    "bai": 2
+  },
+  {
+    "answer": 2,
+    "explanation": "Cách tính thời gian phổ biến lấy năm 1 Công nguyên làm mốc: các năm trước đó gọi là trước Công nguyên (TCN).",
+    "id": 15,
+    "options": [
+      "A. Năm con người biết dùng lửa",
+      "B. Năm loài người chế tạo ra kim loại",
+      "C. Năm được coi là năm Chúa Giê-su ra đời (năm 1 Công nguyên)",
+      "D. Năm thành lập nhà nước đầu tiên"
+    ],
+    "question": "Người ta lấy mốc nào để chia thời gian thành 'trước Công nguyên' và 'sau Công nguyên'?",
+    "bai": 2
+  },
+  {
+    "answer": 2,
+    "explanation": "Những dấu tích sớm nhất của người tối cổ được tìm thấy ở Đông Phi (và một số nơi khác ở châu Phi).",
+    "id": 16,
+    "options": [
+      "A. Châu Âu",
+      "B. Châu Mĩ",
+      "C. Đông Phi",
+      "D. Đông Nam Á"
+    ],
+    "question": "Người tối cổ xuất hiện đầu tiên ở đâu trên Trái Đất?",
+    "bai": 3
+  },
+  {
+    "answer": 3,
+    "explanation": "Người tối cổ xuất hiện cách đây khoảng 4 triệu năm — một khoảng thời gian vô cùng dài so với lịch sử có nhà nước.",
+    "id": 17,
+    "options": [
+      "A. Khoảng 4 nghìn năm",
+      "B. Khoảng 4 vạn năm",
+      "C. Khoảng 40 vạn năm",
+      "D. Khoảng 4 triệu năm"
+    ],
+    "question": "Người tối cổ xuất hiện cách ngày nay khoảng bao lâu?",
+    "bai": 3
+  },
+  {
+    "answer": 1,
+    "explanation": "Loài người tiến hóa từ vượn người thành người tối cổ, rồi dần thành người tinh khôn có cấu tạo như người ngày nay.",
+    "id": 18,
+    "options": [
+      "A. Người tinh khôn → người tối cổ → vượn người",
+      "B. Vượn người → người tối cổ → người tinh khôn",
+      "C. Người tối cổ → vượn người → người tinh khôn",
+      "D. Vượn người → người tinh khôn → người tối cổ"
+    ],
+    "question": "Thứ tự tiến hóa đúng của loài người là:",
+    "bai": 3
+  },
+  {
+    "answer": 0,
+    "explanation": "Người tối cổ biết ghè đẽo đá thành công cụ thô sơ (như rìu đá) để chặt cây, săn bắt và tự vệ.",
+    "id": 19,
+    "options": [
+      "A. Ghè đẽo đá để làm công cụ lao động",
+      "B. Đúc trống đồng",
+      "C. Xây kim tự tháp",
+      "D. Viết chữ trên giấy"
+    ],
+    "question": "Người tối cổ đã biết làm gì?",
+    "bai": 3
+  },
+  {
+    "answer": 3,
+    "explanation": "Người tinh khôn có bộ não lớn, cấu tạo cơ thể như người hiện đại và chế tạo được công cụ bằng đá mài sắc, nhẵn.",
+    "id": 20,
+    "options": [
+      "A. Sống hoàn toàn như loài vượn",
+      "B. Vẫn đi bằng bốn chân",
+      "C. Không biết sử dụng công cụ",
+      "D. Có cấu tạo cơ thể và bộ não phát triển như người ngày nay, biết chế tác công cụ tinh xảo"
+    ],
+    "question": "Người tinh khôn khác người tối cổ ở điểm nào nổi bật nhất?",
+    "bai": 3
+  },
+  {
+    "answer": 0,
+    "explanation": "Tại các hang Thẩm Khuyên, Thẩm Hai ở Lạng Sơn, các nhà khảo cổ đã tìm thấy răng của người tối cổ.",
+    "id": 21,
+    "options": [
+      "A. Hang Thẩm Khuyên, Thẩm Hai (Lạng Sơn)",
+      "B. Hoàng thành Thăng Long (Hà Nội)",
+      "C. Cố đô Huế",
+      "D. Địa đạo Củ Chi"
+    ],
+    "question": "Ở Việt Nam, dấu tích của người tối cổ được tìm thấy ở đâu?",
+    "bai": 3
+  },
+  {
+    "answer": 3,
+    "explanation": "Công cụ đầu tiên là đá ghè đẽo thô — chỉ cần đập, ghè cho đá có cạnh sắc là dùng được.",
+    "id": 22,
+    "options": [
+      "A. Bằng đồng, đúc rất tinh xảo",
+      "B. Bằng nhựa và gỗ ép",
+      "C. Bằng sắt, rèn sắc bén",
+      "D. Bằng đá, ghè đẽo thô sơ"
+    ],
+    "question": "Công cụ lao động đầu tiên của người tối cổ được làm bằng chất liệu gì và như thế nào?",
+    "bai": 3
+  },
+  {
+    "answer": 2,
+    "explanation": "Người tối cổ sống thành từng bầy gồm vài chục người — gọi là bầy người nguyên thủy.",
+    "id": 23,
+    "options": [
+      "A. Công xã thị tộc",
+      "B. Nhà nước",
+      "C. Bầy người nguyên thủy",
+      "D. Làng xã phong kiến"
+    ],
+    "question": "Hình thức tổ chức xã hội đầu tiên của người nguyên thủy là gì?",
+    "bai": 4
+  },
+  {
+    "answer": 1,
+    "explanation": "Khi chưa biết trồng trọt, chăn nuôi, con người sống nhờ săn bắt và hái lượm những gì thiên nhiên có sẵn.",
+    "id": 24,
+    "options": [
+      "A. Buôn bán với các nước khác",
+      "B. Săn bắt thú rừng và hái lượm hoa quả, rau củ",
+      "C. Trồng lúa nước quy mô lớn",
+      "D. Làm việc trong nhà máy"
+    ],
+    "question": "Người trong bầy người nguyên thủy sống chủ yếu bằng cách nào?",
+    "bai": 4
+  },
+  {
+    "answer": 0,
+    "explanation": "Thị tộc gồm nhiều gia đình có quan hệ huyết thống, ở cùng nhau, làm chung và chia nhau sản phẩm — 'làm chung, hưởng chung'.",
+    "id": 25,
+    "options": [
+      "A. Những người cùng huyết thống, sống chung, cùng làm việc và hưởng thụ chung",
+      "B. Những người xa lạ từ nhiều nơi đến",
+      "C. Chỉ gồm một gia đình nhỏ",
+      "D. Chỉ gồm các thương nhân giàu có"
+    ],
+    "question": "Công xã thị tộc gồm những người như thế nào?",
+    "bai": 4
+  },
+  {
+    "answer": 1,
+    "explanation": "Săn bắt bấp bênh (có hôm được, hôm không) còn hái lượm đều đặn hơn, nên phụ nữ giữ vai trò trung tâm — xã hội theo chế độ mẫu hệ.",
+    "id": 26,
+    "options": [
+      "A. Vì phụ nữ là người đi săn giỏi nhất",
+      "B. Vì việc hái lượm do phụ nữ đảm nhiệm mang lại nguồn thức ăn ổn định, và họ nuôi dưỡng con cái",
+      "C. Vì phụ nữ biết đúc kim loại",
+      "D. Vì phụ nữ là người viết sử sách"
+    ],
+    "question": "Trong xã hội nguyên thủy, vì sao người phụ nữ có vai trò rất quan trọng trong thị tộc?",
+    "bai": 4
+  },
+  {
+    "answer": 3,
+    "explanation": "Ở thời đá mới, con người biết mài đá làm công cụ và đặc biệt là biết trồng trọt, chăn nuôi — tự sản xuất ra thức ăn thay vì chỉ dựa vào thiên nhiên.",
+    "id": 27,
+    "options": [
+      "A. Biết dùng lửa lần đầu tiên",
+      "B. Biết chế tạo vũ khí bằng sắt",
+      "C. Biết xây dựng nhà nước",
+      "D. Biết trồng trọt và chăn nuôi, công cụ đá được mài nhẵn, sắc bén"
+    ],
+    "question": "'Cách mạng đá mới' là bước tiến nào của con người thời nguyên thủy?",
+    "bai": 4
+  },
+  {
+    "answer": 0,
+    "explanation": "Tranh hang động, đồ tùy táng trong mộ cho thấy người nguyên thủy đã có đời sống tinh thần phong phú và niềm tin vào thế giới bên kia.",
+    "id": 28,
+    "options": [
+      "A. Họ đã có đời sống tinh thần: biết nghệ thuật và có tín ngưỡng",
+      "B. Họ đã biết viết chữ",
+      "C. Họ đã xây được thành phố",
+      "D. Họ không quan tâm đến người đã mất"
+    ],
+    "question": "Những bức tranh vẽ trong hang đá và việc chôn cất người chết cùng đồ vật cho thấy điều gì ở người nguyên thủy?",
+    "bai": 4
+  },
+  {
+    "answer": 1,
+    "explanation": "Người nguyên thủy ở hang động, mái đá, lều tạm — thường gần sông, suối để tiện lấy nước và tìm thức ăn.",
+    "id": 29,
+    "options": [
+      "A. Trong các tòa nhà cao tầng",
+      "B. Trong hang động, mái đá hoặc lều gần nguồn nước",
+      "C. Trên các con tàu lớn",
+      "D. Trong các cung điện bằng đá"
+    ],
+    "question": "Người nguyên thủy thường sống ở đâu?",
+    "bai": 4
+  },
+  {
+    "answer": 2,
+    "explanation": "Ai Cập cổ đại nằm ở Đông Bắc châu Phi, hình thành dọc theo sông Nin — một trong những con sông dài nhất thế giới.",
+    "id": 30,
+    "options": [
+      "A. Sông Hoàng Hà",
+      "B. Sông Ấn",
+      "C. Sông Nin",
+      "D. Sông Mê Công"
+    ],
+    "question": "Nền văn minh Ai Cập cổ đại hình thành ở lưu vực con sông nào?",
+    "bai": 6
+  },
+  {
+    "answer": 2,
+    "explanation": "Lũ sông Nin (khoảng tháng 7 đến tháng 10) để lại lớp phù sa đen màu mỡ, giúp người Ai Cập trồng trọt tốt giữa vùng khô hạn.",
+    "id": 31,
+    "options": [
+      "A. Vì sông Nin có nhiều vàng bạc",
+      "B. Vì sông Nin ngăn được mọi kẻ thù",
+      "C. Vì hằng năm nước lũ sông Nin dâng lên đem theo phù sa màu mỡ và nước tưới cho đồng ruộng",
+      "D. Vì sông Nin chảy qua giữa kinh đô"
+    ],
+    "question": "Vì sao sông Nin được coi là 'món quà' đối với người Ai Cập cổ đại?",
+    "bai": 6
+  },
+  {
+    "answer": 0,
+    "explanation": "Pharaoh là vua của Ai Cập cổ đại, nắm quyền tối cao về mọi mặt và được thần dân tôn thờ như một vị thần.",
+    "id": 32,
+    "options": [
+      "A. Pharaoh — vị vua nắm mọi quyền hành, được coi như thần thánh",
+      "B. Hội đồng trưởng lão do dân bầu",
+      "C. Các thương nhân giàu có",
+      "D. Tướng lĩnh quân đội luân phiên nhau"
+    ],
+    "question": "Đứng đầu nhà nước Ai Cập cổ đại là ai?",
+    "bai": 6
+  },
+  {
+    "answer": 1,
+    "explanation": "Kim tự tháp là lăng mộ khổng lồ của các Pharaoh; lớn nhất là kim tự tháp Kê-ốp (Khufu).",
+    "id": 33,
+    "options": [
+      "A. Làm kho chứa lương thực",
+      "B. Làm lăng mộ cho các Pharaoh",
+      "C. Làm nơi buôn bán, chợ búa",
+      "D. Làm đài quan sát thiên văn cho nông dân"
+    ],
+    "question": "Kim tự tháp ở Ai Cập cổ đại được xây dựng để làm gì?",
+    "bai": 6
+  },
+  {
+    "answer": 3,
+    "explanation": "Người Ai Cập sáng tạo chữ tượng hình — dùng hình vẽ con vật, đồ vật để ghi lại ý nghĩ, khắc trên đá và viết trên giấy làm từ cây papyrus (cói).",
+    "id": 34,
+    "options": [
+      "A. Chữ hình nêm",
+      "B. Chữ Hán",
+      "C. Chữ Quốc ngữ",
+      "D. Chữ tượng hình (vẽ hình để biểu ý)"
+    ],
+    "question": "Người Ai Cập cổ đại dùng loại chữ viết nào?",
+    "bai": 6
+  },
+  {
+    "answer": 0,
+    "explanation": "'Lưỡng Hà' nghĩa là vùng đất nằm giữa hai sông Ti-grơ (Tigris) và Ơ-phrát (Euphrates), thuộc lãnh thổ I-rắc ngày nay.",
+    "id": 35,
+    "options": [
+      "A. Vùng đất giữa hai con sông Ti-grơ và Ơ-phrát, ngày nay thuộc I-rắc",
+      "B. Vùng đất hai bên bờ sông Nin, ngày nay thuộc Ai Cập",
+      "C. Vùng đất giữa hai dãy núi ở Trung Quốc",
+      "D. Đồng bằng giữa hai con sông ở Ấn Độ"
+    ],
+    "question": "'Lưỡng Hà' có nghĩa là gì và nằm ở đâu ngày nay?",
+    "bai": 6
+  },
+  {
+    "answer": 3,
+    "explanation": "Người Lưỡng Hà (Xu-me, Babylon...) sáng tạo chữ hình nêm, hệ đếm 60 còn dùng đến ngày nay khi đo thời gian và góc; vua Ha-mu-ra-bi ban hành bộ luật thành văn nổi tiếng.",
+    "id": 36,
+    "options": [
+      "A. La bàn và thuốc súng",
+      "B. Vạn lí trường thành",
+      "C. Kim tự tháp và tượng nhân sư",
+      "D. Chữ hình nêm viết trên bảng đất sét, phép đếm theo hệ 60 (chia 1 giờ = 60 phút, vòng tròn 360 độ) và bộ luật Ha-mu-ra-bi"
+    ],
+    "question": "Người Lưỡng Hà cổ đại nổi tiếng với thành tựu nào sau đây?",
+    "bai": 6
+  },
+  {
+    "answer": 0,
+    "explanation": "Công cụ kim loại giúp làm ra nhiều của cải hơn nhu cầu; của dư thừa bị một số người chiếm hữu, từ đó xuất hiện giàu – nghèo.",
+    "id": 37,
+    "options": [
+      "A. Nhờ công cụ bằng kim loại, sản xuất tạo ra của dư thừa",
+      "B. Do người nguyên thủy trở nên lười lao động",
+      "C. Do khí hậu Trái Đất lạnh đi",
+      "D. Do con người ngừng trồng trọt, chăn nuôi"
+    ],
+    "question": "Nguyên nhân chính khiến xã hội nguyên thủy dần phân hóa thành giàu – nghèo là gì?",
+    "bai": 5
+  },
+  {
+    "answer": 1,
+    "explanation": "Đồng là kim loại đầu tiên con người biết dùng (thời đại đồ đồng), sau đó mới đến sắt.",
+    "id": 38,
+    "options": [
+      "A. Sắt",
+      "B. Đồng",
+      "C. Nhôm",
+      "D. Thép"
+    ],
+    "question": "Kim loại đầu tiên con người biết sử dụng để chế tạo công cụ là gì?",
+    "bai": 5
+  },
+  {
+    "answer": 2,
+    "explanation": "Của dư thừa là mầm mống của tư hữu: ai giữ được nhiều của dư sẽ giàu lên, xã hội mất dần sự bình đẳng ban đầu.",
+    "id": 39,
+    "options": [
+      "A. Mọi người trở nên bình đẳng tuyệt đối mãi mãi",
+      "B. Thị tộc tan rã ngay vì thiếu lương thực",
+      "C. Một số người chiếm hữu của dư, xã hội phân hóa giàu – nghèo",
+      "D. Con người quay lại sống hoàn toàn trong hang động"
+    ],
+    "question": "Khi sản xuất xuất hiện 'của dư thừa', điều gì sẽ xảy ra trong xã hội nguyên thủy?",
+    "bai": 5
+  },
+  {
+    "answer": 3,
+    "explanation": "Khi cày bừa, chăn nuôi lớn, rèn đúc phát triển, nam giới là lực lượng sản xuất chính nên vai trò của người đàn ông tăng lên — chế độ phụ hệ hình thành.",
+    "id": 40,
+    "options": [
+      "A. Phụ nữ không còn muốn lao động",
+      "B. Trẻ em trở thành người đứng đầu thị tộc",
+      "C. Nhà vua ra lệnh bắt buộc phải thay đổi",
+      "D. Nam giới trở thành lực lượng sản xuất chính và giữ vai trò chủ chốt trong gia đình, xã hội"
+    ],
+    "question": "Chế độ phụ hệ thay thế chế độ mẫu hệ chủ yếu vì lí do nào?",
+    "bai": 5
+  },
+  {
+    "answer": 0,
+    "explanation": "Phân hóa là sự tách ra thành các nhóm có của cải, địa vị khác nhau — bước chuyển từ xã hội nguyên thủy sang xã hội có giai cấp.",
+    "id": 41,
+    "options": [
+      "A. Xã hội tách dần thành người giàu và người nghèo, không còn bình đẳng như trước",
+      "B. Xã hội chia thành nhiều thị tộc sống xa nhau",
+      "C. Mọi người cùng chuyển lên ở nhà sàn",
+      "D. Con người chia nhau đi săn ở nhiều khu rừng"
+    ],
+    "question": "'Phân hóa xã hội' ở cuối thời nguyên thủy nghĩa là gì?",
+    "bai": 5
+  },
+  {
+    "answer": 1,
+    "explanation": "Rìu, cuốc, cày bằng kim loại sắc và bền hơn đồ đá rất nhiều, giúp con người sản xuất hiệu quả hơn hẳn.",
+    "id": 42,
+    "options": [
+      "A. Bay lên bầu trời",
+      "B. Khai phá thêm đất hoang, tăng năng suất lao động",
+      "C. Không cần ăn uống nữa",
+      "D. Giao tiếp được với muông thú"
+    ],
+    "question": "Công cụ lao động bằng kim loại giúp con người làm được điều gì mới?",
+    "bai": 5
+  },
+  {
+    "answer": 2,
+    "explanation": "Giàu – nghèo xuất hiện, kẻ giàu có thế lực đứng ra cai quản — xã hội có giai cấp ra đời và nhà nước sắp xuất hiện.",
+    "id": 43,
+    "options": [
+      "A. Xã hội công nghiệp",
+      "B. Xã hội thông tin",
+      "C. Xã hội có giai cấp",
+      "D. Xã hội tư bản"
+    ],
+    "question": "Cuối thời nguyên thủy, xã hội dần chuyển biến thành xã hội nào?",
+    "bai": 5
+  },
+  {
+    "answer": 3,
+    "explanation": "Đúng như tên gọi, Ấn Độ gắn với sông Ấn và sông Hằng — hai dòng sông lớn nuôi dưỡng nền văn minh này.",
+    "id": 44,
+    "options": [
+      "A. Sông Nin và sông Ti-grơ",
+      "B. Sông Hoàng Hà và sông Trường Giang",
+      "C. Sông Mê Công và sông Hồng",
+      "D. Sông Ấn và sông Hằng"
+    ],
+    "question": "Văn minh Ấn Độ cổ đại hình thành ở lưu vực hai con sông nào?",
+    "bai": 7
+  },
+  {
+    "answer": 0,
+    "explanation": "Mô-hen-giô Đa-rô và Ha-ráp-pa là hai đô thị cổ quy hoạch rất ngăn nắp bên sông Ấn, có từ khoảng thiên niên kỉ III TCN.",
+    "id": 45,
+    "options": [
+      "A. Mô-hen-giô Đa-rô và Ha-ráp-pa",
+      "B. Ba-bi-lon và Tê-bê",
+      "C. A-ten và Xpác",
+      "D. Huế và Hội An"
+    ],
+    "question": "Hai thành phố cổ nổi tiếng của văn minh sông Ấn là",
+    "bai": 7
+  },
+  {
+    "answer": 1,
+    "explanation": "Bốn đẳng cấp (Varna) xếp từ cao xuống thấp: Bà La Môn (tăng lữ) – Sát-đế-lị (vua, quý tộc) – Vệ-xá (thương nhân, nông dân) – Su-đra (người lao động).",
+    "id": 46,
+    "options": [
+      "A. Sát-đế-lị",
+      "B. Bà La Môn",
+      "C. Vệ-xá",
+      "D. Su-đra"
+    ],
+    "question": "Đẳng cấp cao nhất trong xã hội Ấn Độ cổ đại là",
+    "bai": 7
+  },
+  {
+    "answer": 2,
+    "explanation": "Thích Ca Mâu Ni sáng lập Phật giáo ở Ấn Độ vào thế kỉ VI TCN; về sau Phật giáo lan truyền sang nhiều nước châu Á, trong đó có Việt Nam.",
+    "id": 47,
+    "options": [
+      "A. Thế kỉ I, do Khổng Tử sáng lập",
+      "B. Thế kỉ X, do Tần Thủy Hoàng sáng lập",
+      "C. Thế kỉ VI TCN, do Thích Ca Mâu Ni sáng lập",
+      "D. Thế kỉ VI TCN, do Hô-me sáng lập"
+    ],
+    "question": "Phật giáo ra đời ở Ấn Độ vào khoảng thời gian nào và do ai sáng lập?",
+    "bai": 7
+  },
+  {
+    "answer": 3,
+    "explanation": "Các chữ số 0–9 và cách đếm theo hệ thập phân mà cả thế giới dùng ngày nay bắt nguồn từ Ấn Độ cổ đại.",
+    "id": 48,
+    "options": [
+      "A. Phát minh ra la bàn",
+      "B. Chế tạo ra thuốc súng",
+      "C. Xây dựng kim tự tháp",
+      "D. Sáng tạo ra các chữ số và số 0, cùng hệ đếm thập phân"
+    ],
+    "question": "Thành tựu toán học nổi tiếng nhất của người Ấn Độ cổ đại là gì?",
+    "bai": 7
+  },
+  {
+    "answer": 0,
+    "explanation": "Ma-ha-bha-ra-ta và Ra-ma-ya-na là hai bộ sử thi đồ sộ, là kho tàng văn học – văn hóa của Ấn Độ cổ đại.",
+    "id": 49,
+    "options": [
+      "A. Ma-ha-bha-ra-ta và Ra-ma-ya-na",
+      "B. I-li-át và Ô-đi-xê",
+      "C. Tam Quốc diễn nghĩa và Tây du kí",
+      "D. Thần thoại Hy Lạp và Kinh Thi"
+    ],
+    "question": "Hai bộ sử thi nổi tiếng của Ấn Độ cổ đại là",
+    "bai": 7
+  },
+  {
+    "answer": 1,
+    "explanation": "Su-đra là đẳng cấp thấp nhất trong bốn đẳng cấp Varna, gồm những người lao động, phục dịch.",
+    "id": 50,
+    "options": [
+      "A. Bà La Môn",
+      "B. Su-đra",
+      "C. Sát-đế-lị",
+      "D. Vệ-xá"
+    ],
+    "question": "Đẳng cấp thấp nhất trong xã hội Ấn Độ cổ đại, chuyên lao động phục dịch, là",
+    "bai": 7
+  },
+  {
+    "answer": 2,
+    "explanation": "Những nhà nước đầu tiên của Trung Quốc xuất hiện ở lưu vực sông Hoàng Hà, sau mở rộng xuống lưu vực Trường Giang.",
+    "id": 51,
+    "options": [
+      "A. Sông Hằng",
+      "B. Sông Nin",
+      "C. Sông Hoàng Hà",
+      "D. Sông Mê Công"
+    ],
+    "question": "Văn minh Trung Quốc cổ đại hình thành đầu tiên ở lưu vực con sông nào?",
+    "bai": 8
+  },
+  {
+    "answer": 3,
+    "explanation": "Năm 221 TCN, Tần Thủy Hoàng thôn tính các nước, thống nhất Trung Quốc và lập ra nhà Tần.",
+    "id": 52,
+    "options": [
+      "A. Phật giáo ra đời",
+      "B. Thế vận hội Olympic đầu tiên",
+      "C. Nhà nước Ai Cập ra đời",
+      "D. Tần Thủy Hoàng thống nhất Trung Quốc"
+    ],
+    "question": "Năm 221 TCN ở Trung Quốc diễn ra sự kiện lớn nào?",
+    "bai": 8
+  },
+  {
+    "answer": 0,
+    "explanation": "Trường Thành là bức tường phòng thủ khổng lồ ở biên giới phía Bắc, xây qua nhiều triều đại để ngăn các bộ tộc du mục xâm nhập.",
+    "id": 53,
+    "options": [
+      "A. Phòng thủ, ngăn chặn quân du mục từ phương Bắc",
+      "B. Làm con đường cho khách du lịch",
+      "C. Chia ruộng đất cho nông dân",
+      "D. Dẫn nước từ sông vào ruộng"
+    ],
+    "question": "Vạn Lí Trường Thành được xây dựng chủ yếu để làm gì?",
+    "bai": 8
+  },
+  {
+    "answer": 1,
+    "explanation": "Chữ giáp cốt là chữ khắc trên xương và mai rùa thời nhà Thương — loại chữ cổ nhất được biết của Trung Quốc.",
+    "id": 54,
+    "options": [
+      "A. Bảng đất sét nung",
+      "B. Xương thú và mai rùa (chữ giáp cốt)",
+      "C. Cuộn giấy dó",
+      "D. Lá cọ khô"
+    ],
+    "question": "Chữ viết cổ nhất của Trung Quốc được khắc trên vật liệu gì?",
+    "bai": 8
+  },
+  {
+    "answer": 2,
+    "explanation": "Khổng Tử (thế kỉ VI–V TCN) là nhà tư tưởng lớn, sáng lập Nho giáo — học thuyết ảnh hưởng sâu rộng ở Trung Quốc và nhiều nước Đông Á.",
+    "id": 55,
+    "options": [
+      "A. Thích Ca Mâu Ni",
+      "B. Tần Thủy Hoàng",
+      "C. Khổng Tử",
+      "D. Hô-me"
+    ],
+    "question": "Nhà tư tưởng nổi tiếng, người sáng lập Nho giáo ở Trung Quốc cổ đại, là",
+    "bai": 8
+  },
+  {
+    "answer": 3,
+    "explanation": "Con đường tơ lụa là tuyến buôn bán đường bộ nổi tiếng, đưa tơ lụa, gốm sứ Trung Quốc sang Trung Á và phương Tây.",
+    "id": 56,
+    "options": [
+      "A. Châu Mỹ",
+      "B. Phía nam châu Phi",
+      "C. Các đảo ở châu Đại Dương",
+      "D. Trung Á và phương Tây"
+    ],
+    "question": "Con đường tơ lụa thời cổ đại nối Trung Quốc với khu vực nào?",
+    "bai": 8
+  },
+  {
+    "answer": 0,
+    "explanation": "Năm 618, nhà Đường thành lập; đây là một trong những triều đại thịnh trị nhất của Trung Quốc phong kiến, kết thúc thời kì cổ đại trong sách giáo khoa.",
+    "id": 57,
+    "options": [
+      "A. Năm 618",
+      "B. Năm 221",
+      "C. Năm 1368",
+      "D. Năm 1911"
+    ],
+    "question": "Nhà Đường — triều đại phong kiến thịnh trị nổi tiếng của Trung Quốc — được thành lập vào năm nào?",
+    "bai": 8
+  },
+  {
+    "answer": 1,
+    "explanation": "Olympic bắt nguồn từ các lễ hội thi đấu thể thao ở Hy Lạp cổ đại; kì đại hội đầu tiên được ghi nhận vào năm 776 TCN.",
+    "id": 58,
+    "options": [
+      "A. La Mã cổ đại, từ năm 100",
+      "B. Hy Lạp cổ đại, từ năm 776 TCN",
+      "C. Ai Cập cổ đại, từ năm 3200 TCN",
+      "D. Ấn Độ cổ đại, từ thế kỉ VI TCN"
+    ],
+    "question": "Thế vận hội Olympic có nguồn gốc từ đâu và bắt đầu từ năm nào?",
+    "bai": 9
+  },
+  {
+    "answer": 2,
+    "explanation": "Ở A-ten, công dân nam được tham gia bàn bạc, biểu quyết việc chung — đó là nền dân chủ cổ đại sớm nhất được biết đến.",
+    "id": 59,
+    "options": [
+      "A. Có kim tự tháp lớn nhất thế giới",
+      "B. Phát minh ra chữ hình nêm",
+      "C. Là quê hương của chế độ dân chủ cổ đại",
+      "D. Xây dựng Vạn Lí Trường Thành"
+    ],
+    "question": "Thành bang A-ten của Hy Lạp cổ đại nổi tiếng thế giới vì điều gì?",
+    "bai": 9
+  },
+  {
+    "answer": 3,
+    "explanation": "Đền Pác-tê-nông nằm trên đồi Ác-rô-pô-lít ở A-ten, thờ nữ thần A-tê-na — biểu tượng của kiến trúc Hy Lạp cổ đại.",
+    "id": 60,
+    "options": [
+      "A. La Mã cổ đại",
+      "B. Ai Cập cổ đại",
+      "C. Ấn Độ cổ đại",
+      "D. Hy Lạp cổ đại"
+    ],
+    "question": "Đền Pác-tê-nông (Parthenon) là công trình nổi tiếng của nền văn minh nào?",
+    "bai": 9
+  },
+  {
+    "answer": 0,
+    "explanation": "Cô-li-dê ở Rô-ma là đấu trường khổng lồ của La Mã cổ đại, nơi tổ chức các cuộc đấu võ và biểu diễn cho hàng chục nghìn khán giả.",
+    "id": 61,
+    "options": [
+      "A. La Mã cổ đại",
+      "B. Hy Lạp cổ đại",
+      "C. Lưỡng Hà cổ đại",
+      "D. Trung Quốc cổ đại"
+    ],
+    "question": "Đấu trường Cô-li-dê (Colosseum) là công trình của nền văn minh nào?",
+    "bai": 9
+  },
+  {
+    "answer": 1,
+    "explanation": "Người Hy Lạp tin rằng thần Dớt và các vị thần sống trên đỉnh Ô-lim-pơ quanh năm phủ mây.",
+    "id": 62,
+    "options": [
+      "A. Dưới đáy biển sâu",
+      "B. Trên đỉnh núi Ô-lim-pơ",
+      "C. Bên trong kim tự tháp",
+      "D. Trên bờ sông Nin"
+    ],
+    "question": "Trong thần thoại Hy Lạp, các vị thần được kể là sống ở đâu?",
+    "bai": 9
+  },
+  {
+    "answer": 2,
+    "explanation": "I-li-át và Ô-đi-xê gắn với tên tuổi Hô-me, là hai bộ sử thi mở đầu cho văn học châu Âu.",
+    "id": 63,
+    "options": [
+      "A. Ma-ha-bha-ra-ta và Ra-ma-ya-na",
+      "B. Tam Quốc diễn nghĩa và Thủy Hử",
+      "C. I-li-át và Ô-đi-xê",
+      "D. Kinh Thi và Sở Từ"
+    ],
+    "question": "Hai bộ sử thi nổi tiếng nhất của Hy Lạp cổ đại là",
+    "bai": 9
+  },
+  {
+    "answer": 3,
+    "explanation": "Luật La Mã là nền tảng của nhiều hệ thống pháp luật hiện nay; chữ cái Latinh được rất nhiều nước sử dụng, trong đó có chữ Quốc ngữ của Việt Nam.",
+    "id": 64,
+    "options": [
+      "A. Chữ tượng hình trên đá",
+      "B. Kim tự tháp và xác ướp",
+      "C. Lịch âm dựa vào Mặt Trăng",
+      "D. Hệ thống luật pháp và bảng chữ cái Latinh"
+    ],
+    "question": "Di sản nào của La Mã cổ đại còn ảnh hưởng rõ rệt đến ngày nay?",
+    "bai": 9
+  },
+  {
+    "answer": 0,
+    "explanation": "Phù Nam hình thành vào thế kỉ I–II ở hạ lưu sông Mê Công, thuộc phía nam Việt Nam và Campuchia ngày nay.",
+    "id": 65,
+    "options": [
+      "A. Hạ lưu sông Mê Công",
+      "B. Lưu vực sông Hoàng Hà",
+      "C. Bán đảo Hy Lạp",
+      "D. Vùng Bắc Phi"
+    ],
+    "question": "Vương quốc Phù Nam hình thành ở khu vực nào?",
+    "bai": 10
+  },
+  {
+    "answer": 1,
+    "explanation": "Óc Eo (nay ở An Giang) là cảng buôn bán quốc tế nhộn nhịp, nơi tìm thấy cả tiền xu La Mã và hiện vật Ấn Độ.",
+    "id": 66,
+    "options": [
+      "A. Kinh đô của Trung Quốc cổ đại",
+      "B. Thương cảng sầm uất của vương quốc Phù Nam",
+      "C. Nơi xây dựng kim tự tháp",
+      "D. Đấu trường của La Mã cổ đại"
+    ],
+    "question": "Óc Eo nổi tiếng trong lịch sử Đông Nam Á vì là",
+    "bai": 10
+  },
+  {
+    "answer": 2,
+    "explanation": "Nhờ khí hậu gió mùa nóng ẩm, mưa nhiều, sông ngòi chằng chịt, cư dân Đông Nam Á sớm phát triển nghề trồng lúa nước.",
+    "id": 67,
+    "options": [
+      "A. Chăn nuôi du mục trên thảo nguyên",
+      "B. Đánh bắt cá ở biển xa",
+      "C. Trồng lúa nước",
+      "D. Khai thác và luyện thép"
+    ],
+    "question": "Ngành sản xuất chính của cư dân Đông Nam Á thời cổ là gì?",
+    "bai": 10
+  },
+  {
+    "answer": 0,
+    "explanation": "Tôn giáo, chữ viết, nghệ thuật từ Ấn Độ và Trung Quốc theo các thuyền buôn đến Đông Nam Á từ rất sớm.",
+    "id": 68,
+    "options": [
+      "A. Ấn Độ và Trung Quốc",
+      "B. Hy Lạp và La Mã",
+      "C. Ai Cập và Lưỡng Hà",
+      "D. Anh và Pháp"
+    ],
+    "question": "Văn hóa của các quốc gia Đông Nam Á cổ tiếp nhận ảnh hưởng chủ yếu từ hai nền văn minh nào?",
+    "bai": 10
+  },
+  {
+    "answer": 1,
+    "explanation": "Mỹ Sơn là khu đền tháp của vương quốc Chăm-pa — quốc gia sơ kì ở miền Trung Việt Nam, thờ thần Si-va của Ấn Độ giáo.",
+    "id": 69,
+    "options": [
+      "A. Văn Lang",
+      "B. Chăm-pa",
+      "C. Âu Lạc",
+      "D. Phù Nam"
+    ],
+    "question": "Thánh địa Mỹ Sơn (Quảng Nam) là di tích của vương quốc cổ nào?",
+    "bai": 10
+  },
+  {
+    "answer": 2,
+    "explanation": "Khí hậu gió mùa nóng ẩm, mưa nhiều là điều kiện lí tưởng cho cây lúa nước — nền tảng của văn minh Đông Nam Á.",
+    "id": 70,
+    "options": [
+      "A. Khí hậu lạnh giá quanh năm",
+      "B. Địa hình hoang mạc khô cằn",
+      "C. Khí hậu gió mùa nóng ẩm, mưa nhiều, nhiều sông ngòi",
+      "D. Núi cao phủ tuyết trắng"
+    ],
+    "question": "Điều kiện tự nhiên nào giúp Đông Nam Á sớm phát triển nghề trồng lúa nước?",
+    "bai": 10
+  },
+  {
+    "answer": 3,
+    "explanation": "Cư dân Đông Nam Á học hỏi tôn giáo, chữ viết, nghệ thuật của Ấn Độ, Trung Quốc nhưng chọn lọc và biến đổi cho phù hợp, giữ vững bản sắc riêng.",
+    "id": 71,
+    "options": [
+      "A. Sao chép nguyên vẹn, không hề thay đổi",
+      "B. Từ chối mọi ảnh hưởng từ bên ngoài",
+      "C. Từ bỏ hẳn ngôn ngữ của dân tộc mình",
+      "D. Tiếp thu có chọn lọc nhưng vẫn giữ được bản sắc văn hóa riêng"
+    ],
+    "question": "Điểm đáng quý trong cách cư dân Đông Nam Á tiếp nhận văn hóa từ bên ngoài là gì?",
+    "bai": 10
+  }
 ]

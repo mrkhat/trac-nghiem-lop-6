@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "question": "“Bài học đường đời đầu tiên” là đoạn trích trong tác phẩm nào của nhà văn Tô Hoài?",
+    "options": [
+      "A. Vợ chồng A Phủ",
+      "B. Dế Mèn phiêu lưu ký",
+      "C. Đất rừng phương Nam",
+      "D. Quê người"
+    ],
+    "answer": 1,
+    "explanation": "Đoạn trích nằm trong truyện “Dế Mèn phiêu lưu ký” của Tô Hoài — câu chuyện về chú Dế Mèn từ lúc ra ở riêng.",
+    "bai": 1
+  },
+  {
+    "id": 2,
+    "question": "Trong truyện, Dế Mèn bày trò trêu chọc ai, khiến Dế Choắt bị vạ lây?",
+    "options": [
+      "A. Chị Cốc",
+      "B. Nhà Trò",
+      "C. Bọ Ngựa",
+      "D. Dế Trũi"
+    ],
+    "answer": 0,
+    "explanation": "Dế Mèn trêu chị Cốc; chị Cốc nổi giận, tưởng Dế Choắt trêu mình nên mổ Dế Choắt bị thương nặng.",
+    "bai": 1
+  },
+  {
+    "id": 3,
+    "question": "Lời trăn trối của Dế Choắt khuyên Dế Mèn điều gì?",
+    "options": [
+      "A. Phải sống độc lập từ thuở bé",
+      "B. Có óc thì phải biết nghĩ, bỏ thói hung hăng bậy bạ kẻo sớm muộn cũng mang vạ vào mình",
+      "C. Phải ăn thật nhiều cho khỏe",
+      "D. Nên đi phiêu lưu khắp nơi"
+    ],
+    "answer": 1,
+    "explanation": "Đó là bài học đường đời đầu tiên và đắt giá nhất của Dế Mèn: tính kiêu căng, nghịch ác sẽ gây hậu quả đau lòng.",
+    "bai": 1
+  },
+  {
+    "id": 4,
+    "question": "Trong “Nếu cậu muốn có một người bạn…”, con cáo dạy hoàng tử bé: muốn có một người bạn thì trước hết phải làm gì?",
+    "options": [
+      "A. Tặng bạn thật nhiều quà",
+      "B. Khen bạn thật hay",
+      "C. “Cảm hóa” nhau — tạo nên mối dây gắn bó thân thiết",
+      "D. Hẹn gặp bạn mỗi ngày"
+    ],
+    "answer": 2,
+    "explanation": "Theo cáo, “cảm hóa” nghĩa là tạo nên những mối dây gắn bó; có gắn bó thì hai người mới trở thành bạn của nhau.",
+    "bai": 1
+  },
+  {
+    "id": 5,
+    "question": "Theo con cáo, sau khi đã “cảm hóa” nhau, người bạn trở nên như thế nào đối với ta?",
+    "options": [
+      "A. Là duy nhất trên đời đối với ta",
+      "B. Giống như mọi người khác",
+      "C. Là người phải luôn nghe lời ta",
+      "D. Là người cho ta nhiều quà nhất"
+    ],
+    "answer": 0,
+    "explanation": "Cáo nói: khi đã cảm hóa nhau, mỗi người sẽ là duy nhất trên đời đối với người kia — đó là giá trị của tình bạn.",
+    "bai": 1
+  },
+  {
+    "id": 6,
+    "question": "Qua hai văn bản của Bài 1, bài học chung về tình bạn là gì?",
+    "options": [
+      "A. Bạn bè chỉ để cùng nhau vui chơi",
+      "B. Muốn có bạn tốt phải biết quý trọng, gắn bó và có trách nhiệm với bạn",
+      "C. Chỉ nên chơi với người mạnh hơn mình",
+      "D. Bạn bè không quan trọng bằng việc học"
+    ],
+    "answer": 1,
+    "explanation": "Cả Dế Mèn lẫn hoàng tử bé đều học được rằng tình bạn cần sự chân thành, gắn bó và trách nhiệm — không phải trò đùa hay sự tình cờ.",
+    "bai": 1
+  },
+  {
+    "id": 7,
+    "question": "Trong bài thơ “Chuyện cổ tích về loài người” (Xuân Quỳnh), thuở trời đất mới bắt đầu, trên trái đất chỉ toàn là gì?",
+    "options": [
+      "A. Cây cỏ xanh tươi",
+      "B. Trẻ con",
+      "C. Những con vật",
+      "D. Người lớn và bóng đêm"
+    ],
+    "answer": 1,
+    "explanation": "Bài thơ mở đầu: “Trời sinh ra trước nhất / Chỉ toàn là trẻ con” — mọi thứ về sau đều sinh ra vì trẻ em.",
+    "bai": 2
+  },
+  {
+    "id": 8,
+    "question": "Bài thơ “Chuyện cổ tích về loài người” thể hiện tình cảm chủ đạo nào của nhà thơ?",
+    "options": [
+      "A. Tình yêu thương, nâng niu dành cho trẻ em",
+      "B. Nỗi buồn nhớ quê",
+      "C. Niềm tự hào về các anh hùng",
+      "D. Tình yêu thiên nhiên hoang dã"
+    ],
+    "answer": 0,
+    "explanation": "Xuân Quỳnh kể mọi thứ trên đời — mặt trời, cây cỏ, bà, mẹ, thầy giáo — đều xuất hiện vì trẻ con, bằng tất cả yêu thương và trân trọng.",
+    "bai": 2
+  },
+  {
+    "id": 9,
+    "question": "Trong bài thơ “Mây và sóng” (Tago), những người “trong mây”, “trong sóng” rủ em bé làm gì?",
+    "options": [
+      "A. Đi học cùng họ",
+      "B. Đi ngủ cùng họ",
+      "C. Đi chơi cùng họ khắp nơi",
+      "D. Đi bắt cá cùng họ"
+    ],
+    "answer": 2,
+    "explanation": "Người trong mây rủ em bay đi chơi, người trong sóng rủ em lướt đi khắp chốn — những lời mời gọi đầy hấp dẫn với trẻ thơ.",
+    "bai": 2
+  },
+  {
+    "id": 10,
+    "question": "Vì sao em bé trong “Mây và sóng” cuối cùng không đi theo mây và sóng?",
+    "options": [
+      "A. Vì em sợ độ cao",
+      "B. Vì trời sắp mưa to",
+      "C. Vì em không muốn xa mẹ — mẹ đang chờ em ở nhà",
+      "D. Vì em bận làm bài tập"
+    ],
+    "answer": 2,
+    "explanation": "Dù lời rủ rê rất hấp dẫn, em bé vẫn chọn ở nhà với mẹ: tình cảm với mẹ thắng mọi cuộc phiêu lưu.",
+    "bai": 2
+  },
+  {
+    "id": 11,
+    "question": "Trong trò chơi tưởng tượng cuối bài “Mây và sóng”, em bé làm sóng thì mẹ là gì?",
+    "options": [
+      "A. Là vầng trăng",
+      "B. Là cơn gió",
+      "C. Là bến bờ",
+      "D. Là con thuyền"
+    ],
+    "answer": 2,
+    "explanation": "Em bé tưởng tượng: “Con là sóng, mẹ là bến bờ” — mẹ luôn ở đó, dịu dàng đón con về; còn khi con là mây thì mẹ là vầng trăng.",
+    "bai": 2
+  },
+  {
+    "id": 12,
+    "question": "Trong “Bức tranh của em gái tôi”, khi đứng trước bức tranh em gái vẽ chính mình, người anh cảm thấy thế nào?",
+    "options": [
+      "A. Tức giận vì bị vẽ xấu",
+      "B. Xấu hổ, hối hận vì lâu nay đã coi thường, ghen tị với em",
+      "C. Tự hào mang tranh đi khoe khắp nơi",
+      "D. Không có cảm xúc gì đặc biệt"
+    ],
+    "answer": 1,
+    "explanation": "Bức tranh vẽ người anh đẹp và trong sáng khiến anh lặng người: anh nhận ra sự nhỏ nhen của mình và tấm lòng thơm thảo của em gái.",
+    "bai": 2
+  },
+  {
+    "id": 13,
+    "question": "Cô bé bán diêm (An-đéc-xen) đi bán diêm vào thời điểm nào?",
+    "options": [
+      "A. Một trưa hè nắng gắt",
+      "B. Một sáng mùa xuân ấm áp",
+      "C. Đêm trung thu trăng sáng",
+      "D. Đêm giao thừa, trời rét mướt"
+    ],
+    "answer": 3,
+    "explanation": "Truyện mở đầu bằng đêm giao thừa rét buốt: cô bé đầu trần, chân đất, bụng đói, cả ngày không bán được bao diêm nào.",
+    "bai": 3
+  },
+  {
+    "id": 14,
+    "question": "Trong những lần quẹt diêm, cô bé bán diêm đã nhìn thấy những hình ảnh nào?",
+    "options": [
+      "A. Biển xanh và con thuyền",
+      "B. Trường học và bạn bè",
+      "C. Cung điện và nhà vua",
+      "D. Lò sưởi ấm, ngỗng quay, cây thông Nô-en và bà ngoại"
+    ],
+    "answer": 3,
+    "explanation": "Mỗi que diêm là một ước mơ ấm áp: lò sưởi, bữa ăn ngon, cây thông — và cuối cùng là bà ngoại, người thương em nhất.",
+    "bai": 3
+  },
+  {
+    "id": 15,
+    "question": "Sáng ngày mùng một, người ta phát hiện cô bé bán diêm trong tình trạng nào?",
+    "options": [
+      "A. Đã bán hết diêm và trở về nhà",
+      "B. Đang ngủ ngon bên một lò sưởi",
+      "C. Đã chết cóng, má hồng, miệng mỉm cười, bên cạnh là những que diêm đã cháy",
+      "D. Được một gia đình giàu có nhận nuôi"
+    ],
+    "answer": 2,
+    "explanation": "Cô bé ra đi trong đêm giao thừa với nụ cười trên môi — cái kết buồn khiến người đọc xót thương cho những em nhỏ bất hạnh.",
+    "bai": 3
+  },
+  {
+    "id": 16,
+    "question": "Trong “Gió lạnh đầu mùa” (Thạch Lam), chị em Sơn đã làm gì để giúp bé Hiên đỡ rét?",
+    "options": [
+      "A. Cho Hiên tiền mua áo mới",
+      "B. Đưa Hiên về nhà mình ở",
+      "C. Kêu gọi cả xóm quyên góp",
+      "D. Nhường cho Hiên chiếc áo bông để mặc"
+    ],
+    "answer": 3,
+    "explanation": "Thấy Hiên rét run trong chiếc áo rách, chị em Sơn đã lấy chiếc áo bông (của người em đã mất) cho Hiên mặc — một sự chia sẻ đầy cảm động.",
+    "bai": 3
+  },
+  {
+    "id": 17,
+    "question": "Khi biết các con đã cho Hiên chiếc áo bông, mẹ của Sơn xử sự như thế nào?",
+    "options": [
+      "A. Mắng các con một trận nên thân",
+      "B. Không mắng con, còn cho mẹ con Hiên vay tiền để mua áo",
+      "C. Sang nhà Hiên đòi lại áo ngay",
+      "D. Giả vờ như không biết chuyện"
+    ],
+    "answer": 1,
+    "explanation": "Mẹ Sơn hiểu và trân trọng tấm lòng của các con; bà còn giúp mẹ con Hiên thêm — người lớn cũng biết yêu thương và chia sẻ.",
+    "bai": 3
+  },
+  {
+    "id": 18,
+    "question": "Hai câu chuyện của Bài 3 gửi gắm thông điệp chung nào?",
+    "options": [
+      "A. Chỉ nên giúp đỡ người thân trong nhà",
+      "B. Thấy người khó khăn hơn mình, hãy biết đồng cảm và chia sẻ",
+      "C. Giúp người khác là lãng phí",
+      "D. Giàu nghèo là do số phận, không cần quan tâm"
+    ],
+    "answer": 1,
+    "explanation": "Từ cô bé bán diêm đến chiếc áo bông nhường bạn: biết thương người và chia sẻ là điều làm nên một trái tim đẹp.",
+    "bai": 3
+  },
+  {
+    "id": 19,
+    "question": "Câu ca dao “Gió đưa cành trúc la đà / Tiếng chuông Trấn Võ, canh gà Thọ Xương…” gợi cảnh đẹp của vùng đất nào?",
+    "options": [
+      "A. Cố đô Huế",
+      "B. Phố cổ Hội An",
+      "C. Thăng Long — Hà Nội",
+      "D. Đất mũi Cà Mau"
+    ],
+    "answer": 2,
+    "explanation": "Chuông Trấn Võ, canh gà Thọ Xương, mặt gương Tây Hồ đều là những hình ảnh của đất Thăng Long — Hà Nội xưa.",
+    "bai": 4
+  },
+  {
+    "id": 20,
+    "question": "Chùm ca dao về quê hương đất nước chủ yếu thể hiện tình cảm gì?",
+    "options": [
+      "A. Nỗi nhớ người yêu xa",
+      "B. Nỗi buồn vì chiến tranh",
+      "C. Ước mơ làm giàu",
+      "D. Tình yêu và niềm tự hào về cảnh đẹp quê hương, đất nước"
+    ],
+    "answer": 3,
+    "explanation": "Những câu ca dao đưa ta đi khắp ba miền, ngắm núi sông tươi đẹp — càng đọc càng yêu và tự hào về quê hương mình.",
+    "bai": 4
+  },
+  {
+    "id": 21,
+    "question": "Trong bài thơ “Chuyện cổ nước mình” (Lâm Thị Mỹ Dạ), tác giả yêu chuyện cổ nước mình trước hết vì điều gì?",
+    "options": [
+      "A. Vì chuyện cổ rất dài và hồi hộp",
+      "B. Vì chuyện cổ có nhiều phép thuật",
+      "C. Vì chuyện cổ dễ học thuộc",
+      "D. Vì chuyện cổ vừa nhân hậu lại tuyệt vời sâu xa, dạy ta cách làm người"
+    ],
+    "answer": 3,
+    "explanation": "Ngay đầu bài thơ, tác giả viết: “Tôi yêu chuyện cổ nước tôi / Vừa nhân hậu lại tuyệt vời sâu xa”.",
+    "bai": 4
+  },
+  {
+    "id": 22,
+    "question": "Chuyện cổ nước mình thường đề cao điều gì ở con người?",
+    "options": [
+      "A. Sự giàu sang, phú quý",
+      "B. Lòng nhân hậu, biết thương người, ở hiền gặp lành",
+      "C. Sức mạnh cơ bắp",
+      "D. Sự khôn ngoan hơn người khác"
+    ],
+    "answer": 1,
+    "explanation": "Từ Tấm Cám đến Thạch Sanh, chuyện cổ của cha ông luôn bênh vực người hiền lành, tử tế và lên án kẻ ác, kẻ tham lam.",
+    "bai": 4
+  },
+  {
+    "id": 23,
+    "question": "Trong bài “Cây tre Việt Nam” (Thép Mới), cây tre được gọi là gì của người nông dân Việt Nam?",
+    "options": [
+      "A. Người bạn thân thiết lâu đời",
+      "B. Vị thần bảo hộ làng",
+      "C. Kẻ thù của đồng ruộng",
+      "D. Chỉ là một thứ cây lấy gỗ"
+    ],
+    "answer": 0,
+    "explanation": "Tác giả viết cây tre là người bạn thân thiết lâu đời của người nông dân và của cả dân tộc Việt Nam.",
+    "bai": 4
+  },
+  {
+    "id": 24,
+    "question": "Hình ảnh cây tre trong bài văn là biểu tượng cho phẩm chất nào của con người Việt Nam?",
+    "options": [
+      "A. Giàu có, xa hoa",
+      "B. Mềm yếu, dễ khuất phục",
+      "C. Sức sống bền bỉ, tinh thần đoàn kết và kiên cường",
+      "D. Lặng lẽ cam chịu số phận"
+    ],
+    "answer": 2,
+    "explanation": "Tre mọc thành lũy, rễ bám chặt đất, thân thẳng mà dẻo dai — như chính con người Việt Nam qua bao thăng trầm của lịch sử.",
+    "bai": 4
+  },
+  {
+    "id": 25,
+    "question": "Bài kí “Cô Tô” (Nguyễn Tuân) miêu tả hòn đảo nổi bật nhất vào thời điểm nào?",
+    "options": [
+      "A. Giữa cơn bão dữ dội",
+      "B. Hoàng hôn mùa đông",
+      "C. Buổi sáng sau cơn bão — trời trong trẻo, biển xanh như ngọc",
+      "D. Đêm khuya tĩnh lặng"
+    ],
+    "answer": 2,
+    "explanation": "Sau bão, Cô Tô hiện lên trong trẻo lạ thường: bầu trời trong sáng, nước biển lam biếc, cát vàng, nắng giòn tan.",
+    "bai": 5
+  },
+  {
+    "id": 26,
+    "question": "Trong “Cô Tô”, cảnh mặt trời mọc trên biển được tác giả so sánh với hình ảnh nào?",
+    "options": [
+      "A. Một quả cầu lửa khổng lồ",
+      "B. Một chiếc đèn lồng đỏ",
+      "C. Một hòn than hồng",
+      "D. Lòng đỏ một quả trứng thiên nhiên đầy đặn, phúc hậu"
+    ],
+    "answer": 3,
+    "explanation": "Nguyễn Tuân viết mặt trời lên “tròn trĩnh phúc hậu như lòng đỏ một quả trứng thiên nhiên đầy đặn” — một so sánh vừa lạ vừa đẹp.",
+    "bai": 5
+  },
+  {
+    "id": 27,
+    "question": "Hang Én trong bài đọc cùng tên nằm ở địa phương nào?",
+    "options": [
+      "A. Quảng Ninh",
+      "B. Ninh Bình",
+      "C. Quảng Bình",
+      "D. Thừa Thiên Huế"
+    ],
+    "answer": 2,
+    "explanation": "Hang Én thuộc vùng Phong Nha — Kẻ Bàng, tỉnh Quảng Bình, một trong những hang động lớn nhất thế giới.",
+    "bai": 5
+  },
+  {
+    "id": 28,
+    "question": "Điều kì thú nhất của Hang Én là gì?",
+    "options": [
+      "A. Có bãi tắm trong hang",
+      "B. Trong hang có cả rừng xanh, dòng sông ngầm và hàng vạn con én sinh sống",
+      "C. Có nhiều vàng bạc châu báu",
+      "D. Có tượng đá hình người khổng lồ"
+    ],
+    "answer": 1,
+    "explanation": "Hang Én rộng lớn đến mức chứa được cả một khu rừng và dòng sông ngầm; đàn én bay lượn trong luồng sáng từ giếng trời là cảnh tượng có một không hai.",
+    "bai": 5
+  },
+  {
+    "id": 29,
+    "question": "“Cửu Long Giang ta ơi” (Nguyên Hồng) viết về con sông lớn nào của nước ta?",
+    "options": [
+      "A. Sông Hồng",
+      "B. Sông Hương",
+      "C. Sông Cửu Long",
+      "D. Sông Đồng Nai"
+    ],
+    "answer": 2,
+    "explanation": "Bài văn là lời ngợi ca đầy tự hào về dòng Cửu Long Giang — con sông mang phù sa về bồi đắp cho đồng bằng Nam Bộ.",
+    "bai": 5
+  },
+  {
+    "id": 30,
+    "question": "Vùng đồng bằng sông Cửu Long trong bài hiện lên với nét đặc trưng nào?",
+    "options": [
+      "A. Sông nước mênh mông, ghe thuyền và chợ nổi tấp nập, đất đai trù phú",
+      "B. Núi cao, thung lũng sâu",
+      "C. Sa mạc khô cằn",
+      "D. Rừng thông bạt ngàn"
+    ],
+    "answer": 0,
+    "explanation": "Sông nước, chợ nổi, vườn cây trái sum suê — đó là bức tranh trù phú và rất riêng của miền Tây Nam Bộ.",
+    "bai": 5
+  }
+]

@@ -58,6 +58,11 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <p class="sub">⚠️ Đáp án do người soạn biên soạn, <b>chưa đối chiếu đáp án chính thức</b> — dùng để ôn tập, nếu gặp câu chưa rõ hãy hỏi thầy cô.</p>
 <div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang Tiếng Anh 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
 <div id="home">
+  <div style="text-align:center;margin-bottom:16px">
+    <label for="lessonSel" style="font-weight:600">📚 Chọn bài để luyện: </label>
+    <select id="lessonSel" style="padding:10px 12px;border-radius:8px;border:1.5px solid #b0bec5;background:#fff;max-width:100%"></select>
+    <div style="font-size:15px;color:#555;margin-top:4px">Học xong bài nào, chọn đúng bài đó để tự kiểm tra — hoặc để "Tất cả" khi ôn tổng hợp.</div>
+  </div>
   <div class="mode-btns">
     <button id="btnPractice">📝 Luyện tập<br><small style="font-size:13px">biết ngay đúng/sai từng câu</small></button>
     <button id="btnExam">⏱️ Thi thử<br><small style="font-size:13px">20 câu ngẫu nhiên, chấm cuối bài</small></button>
@@ -73,13 +78,31 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 </div>
 <script>
 let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
-fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Học kì 1 • sách Global Success';});
+fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;buildLessonSel();document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Học kì 1 • sách Global Success';});
 
 document.getElementById('btnPractice').onclick=()=>start('practice');
 document.getElementById('btnExam').onclick=()=>start('exam');
 document.getElementById('btnStudy').onclick=()=>start('study');
 document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
 
+const LESSON_NAMES = [null,'Unit 1','Unit 2','Unit 3','Unit 4','Unit 5','Unit 6'];
+function lessonName(b){ if(LESSON_NAMES && LESSON_NAMES[b]) return LESSON_NAMES[b]; return 'Bài '+b; }
+function buildLessonSel(){
+  const sel=document.getElementById('lessonSel'); if(!sel) return;
+  const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
+  const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+keys.map(k=>'<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>').join('');
+}
+function getPool(){
+  const sel=document.getElementById('lessonSel');
+  if(!sel || sel.value==='all') return [...allQ];
+  return allQ.filter(q=>String(q.bai)===sel.value);
+}
+function scopeName(){
+  const sel=document.getElementById('lessonSel');
+  if(!sel || sel.value==='all') return '';
+  return lessonName(parseInt(sel.value));
+}
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 function start(m){
@@ -89,21 +112,21 @@ function start(m){
   document.getElementById('result').classList.add('hidden');
   idx=0;score=0;answers=[];
   if(m==='study'){ renderStudy(); return; }
-  quizQ = m==='exam' ? shuffle([...allQ]).slice(0,20) : shuffle([...allQ]);
+  const P=getPool(); quizQ = m==='exam' ? shuffle([...P]).slice(0,Math.min(20,P.length)) : shuffle([...P]);
   document.getElementById('nextBtn').classList.toggle('hidden', m!=='practice');
   renderQ();
 }
 function renderStudy(){
   // Chế độ học tập: hiện toàn bộ câu hỏi, bấm chọn đáp án từng câu như chế độ thi
-  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${allQ.length} câu hỏi (bấm chọn đáp án từng câu)`;
+  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${getPool().length} câu hỏi (bấm chọn đáp án từng câu)`;
   document.getElementById('nextBtn').classList.add('hidden');
   const qd=document.getElementById('quiz');
-  qd.innerHTML=allQ.map((q,i)=>
+  qd.innerHTML=getPool().map((q,i)=>
     `<div class="q" id="sq${i}"><p>Câu ${i+1}: ${q.question}</p>`+
     q.options.map((o,oi)=>`<button class="opt" data-q="${i}" data-o="${oi}">${o}</button>`).join('')+
     `<div class="exp" id="sexp${i}"></div></div>`
   ).join('');
-  window._studyQ=allQ;
+  window._studyQ=getPool();
   qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>studyAnswer(parseInt(b.dataset.q),parseInt(b.dataset.o)));
 }
 function studyAnswer(qi, oi){
@@ -120,7 +143,7 @@ function studyAnswer(qi, oi){
 }
 function renderQ(){
   const q=quizQ[idx], qd=document.getElementById('quiz');
-  document.getElementById('progress').textContent=`Câu ${idx+1}/${quizQ.length}`+(mode==='exam'?' (chế độ thi)':' (luyện tập)');
+  document.getElementById('progress').textContent=`Câu ${idx+1}/${quizQ.length}`+(mode==='exam'?' (chế độ thi)':' (luyện tập)')+(scopeName()?' • '+scopeName():'');
   qd.innerHTML=`<div class="q"><p>Câu ${idx+1}: ${q.question}</p>`+
     q.options.map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')+
     `<div class="exp" id="exp"></div></div>`;

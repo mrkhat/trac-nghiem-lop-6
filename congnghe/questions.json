@@ -9,7 +9,8 @@
       "D. Nơi bán hàng"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Nhà là nơi ở, che mưa che nắng và là nơi cả nhà sinh hoạt mỗi ngày."
+    "explanation": "Đúng rồi! Nhà là nơi ở, che mưa che nắng và là nơi cả nhà sinh hoạt mỗi ngày.",
+    "bai": 1
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "D. Phòng khách – bếp – sân"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Nhớ thứ tự từ dưới lên: móng đỡ nhà, thân là nhà, mái che nhà."
+    "explanation": "Đúng rồi! Nhớ thứ tự từ dưới lên: móng đỡ nhà, thân là nhà, mái che nhà.",
+    "bai": 1
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "D. Cửa sổ"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Móng nằm dưới đất, giống như chân giữ cho nhà đứng vững."
+    "explanation": "Đúng rồi! Móng nằm dưới đất, giống như chân giữ cho nhà đứng vững.",
+    "bai": 1
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "D. Vùng núi"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Nhà sàn ở vùng núi, sàn cao để tránh ẩm ướt và thú dữ."
+    "explanation": "Đúng rồi! Nhà sàn ở vùng núi, sàn cao để tránh ẩm ướt và thú dữ.",
+    "bai": 1
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "D. Rèm cửa"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Gạch là vật liệu chính để xây tường."
+    "explanation": "Đúng rồi! Gạch là vật liệu chính để xây tường.",
+    "bai": 1
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "D. Ngói"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Bê tông có thép bên trong thì rất cứng và chắc, gọi là bê tông cốt thép."
+    "explanation": "Đúng rồi! Bê tông có thép bên trong thì rất cứng và chắc, gọi là bê tông cốt thép.",
+    "bai": 1
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "D. Lát nền"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Phải vẽ bản vẽ và chuẩn bị trước, rồi mới xây được."
+    "explanation": "Đúng rồi! Phải vẽ bản vẽ và chuẩn bị trước, rồi mới xây được.",
+    "bai": 2
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "D. Dựng khung, xây tường, lợp mái"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Phần thô là phần 'xương' của ngôi nhà: khung, tường, mái."
+    "explanation": "Đúng rồi! Phần thô là phần 'xương' của ngôi nhà: khung, tường, mái.",
+    "bai": 2
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "D. Nhà có nhiều tầng"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Điểm đặc biệt của nhà thông minh là các thiết bị tự làm việc, điều khiển được từ xa."
+    "explanation": "Đúng rồi! Điểm đặc biệt của nhà thông minh là các thiết bị tự làm việc, điều khiển được từ xa.",
+    "bai": 3
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "D. Đài ra-đi-ô"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Chỉ cần điện thoại có mạng là em điều khiển được đèn, cửa trong nhà."
+    "explanation": "Đúng rồi! Chỉ cần điện thoại có mạng là em điều khiển được đèn, cửa trong nhà.",
+    "bai": 3
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "D. Rèm tự động"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Cảm biến khói 'ngửi' thấy khói là báo động ngay."
+    "explanation": "Đúng rồi! Cảm biến khói 'ngửi' thấy khói là báo động ngay.",
+    "bai": 3
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "D. Nhận lệnh → Xử lí → Chấp hành"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Nhớ như nghe lời mẹ dặn: nghe lệnh, nghĩ, rồi mới làm."
+    "explanation": "Đúng rồi! Nhớ như nghe lời mẹ dặn: nghe lệnh, nghĩ, rồi mới làm.",
+    "bai": 3
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "D. 6 nhóm"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Có 5 nhóm: tinh bột–đường & xơ, đạm, béo, vi-ta-min, chất khoáng."
+    "explanation": "Đúng rồi! Có 5 nhóm: tinh bột–đường & xơ, đạm, béo, vi-ta-min, chất khoáng.",
+    "bai": 4
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "D. Nhóm chất khoáng"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Nhóm này cho em năng lượng chính để học và chơi."
+    "explanation": "Đúng rồi! Nhóm này cho em năng lượng chính để học và chơi.",
+    "bai": 4
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "D. Nhóm nước uống"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Chất đạm như 'gạch' xây nên cơ thể: thịt, cá, trứng, sữa, đậu."
+    "explanation": "Đúng rồi! Chất đạm như 'gạch' xây nên cơ thể: thịt, cá, trứng, sữa, đậu.",
+    "bai": 4
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "D. Vi-ta-min"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Rau quả nhiều vi-ta-min, giúp em tăng sức đề kháng, ít ốm."
+    "explanation": "Đúng rồi! Rau quả nhiều vi-ta-min, giúp em tăng sức đề kháng, ít ốm.",
+    "bai": 4
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "D. Ăn hết thật nhanh"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Bảo quản giúp đồ ăn giữ được lâu, không bị hư."
+    "explanation": "Đúng rồi! Bảo quản giúp đồ ăn giữ được lâu, không bị hư.",
+    "bai": 5
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "D. Để ngoài trời mưa"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Phơi khô thì vi sinh vật khó sống, cá tôm để được lâu."
+    "explanation": "Đúng rồi! Phơi khô thì vi sinh vật khó sống, cá tôm để được lâu.",
+    "bai": 5
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "D. Hút chân không"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Dưa muối, cà muối là cách bảo quản muối chua của gia đình Việt Nam."
+    "explanation": "Đúng rồi! Dưa muối, cà muối là cách bảo quản muối chua của gia đình Việt Nam.",
+    "bai": 5
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "D. Nộm (gỏi)"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Nộm chỉ trộn rau củ với gia vị, không cần nấu trên lửa."
+    "explanation": "Đúng rồi! Nộm chỉ trộn rau củ với gia vị, không cần nấu trên lửa.",
+    "bai": 5
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "D. 6 bước"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! 5 bước: lên thực đơn, đi chợ, tính toán, chế biến, cả nhà cùng ăn."
+    "explanation": "Đúng rồi! 5 bước: lên thực đơn, đi chợ, tính toán, chế biến, cả nhà cùng ăn.",
+    "bai": 6
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "D. Ăn cơm"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Nghĩ món trước rồi mới đi chợ mua đúng thứ cần."
+    "explanation": "Đúng rồi! Nghĩ món trước rồi mới đi chợ mua đúng thứ cần.",
+    "bai": 6
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "D. Đồ đắt nhất chợ"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Chọn đồ tươi, sạch thì bữa ăn mới ngon và an toàn."
+    "explanation": "Đúng rồi! Chọn đồ tươi, sạch thì bữa ăn mới ngon và an toàn.",
+    "bai": 6
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "D. Món không dùng nhiệt như nộm, gỏi"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Món không dùng nhiệt an toàn cho em: không bếp lửa, không dầu sôi."
+    "explanation": "Đúng rồi! Món không dùng nhiệt an toàn cho em: không bếp lửa, không dầu sôi.",
+    "bai": 6
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "D. Cả 3 ý trên"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Trang phục có đủ 3 việc: bảo vệ cơ thể, làm đẹp, cho biết nghề nghiệp."
+    "explanation": "Đúng rồi! Trang phục có đủ 3 việc: bảo vệ cơ thể, làm đẹp, cho biết nghề nghiệp.",
+    "bai": 7
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "D. Rất đắt và khó tìm"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Vải bông mặc mát và dễ chịu, nhất là mùa hè."
+    "explanation": "Đúng rồi! Vải bông mặc mát và dễ chịu, nhất là mùa hè.",
+    "bai": 7
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "D. Chỉ có màu trắng"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Tơ tằm sang trọng nhưng giá cao và phải giữ gìn cẩn thận."
+    "explanation": "Đúng rồi! Tơ tằm sang trọng nhưng giá cao và phải giữ gìn cẩn thận.",
+    "bai": 7
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "D. Chỉ có một màu"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Vải hóa học bền, ít nhăn, nhưng mặc kém thoáng hơn vải thiên nhiên."
+    "explanation": "Đúng rồi! Vải hóa học bền, ít nhăn, nhưng mặc kém thoáng hơn vải thiên nhiên.",
+    "bai": 7
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "D. Xem ai tặng"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Nhãn mác có kí hiệu dặn cách giặt, cách là cho từng loại áo."
+    "explanation": "Đúng rồi! Nhãn mác có kí hiệu dặn cách giặt, cách là cho từng loại áo.",
+    "bai": 8
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "D. Để tiết kiệm điện"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Giặt chung, áo trắng có thể bị lem thành màu khác đấy."
+    "explanation": "Đúng rồi! Giặt chung, áo trắng có thể bị lem thành màu khác đấy.",
+    "bai": 8
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "D. Phơi trong phòng tắm"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Lộn trái giúp mặt phải của áo đỡ bị nắng làm phai màu."
+    "explanation": "Đúng rồi! Lộn trái giúp mặt phải của áo đỡ bị nắng làm phai màu.",
+    "bai": 8
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "D. Chỉnh nhiệt độ nhẹ, vừa với vải"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Vải mỏng mà là quá nóng sẽ bị cháy, hỏng áo."
+    "explanation": "Đúng rồi! Vải mỏng mà là quá nóng sẽ bị cháy, hỏng áo.",
+    "bai": 8
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "D. Quần áo cũ"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Thời trang là kiểu mặc được nhiều người thích ở một lúc nào đó."
+    "explanation": "Đúng rồi! Thời trang là kiểu mặc được nhiều người thích ở một lúc nào đó.",
+    "bai": 9
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "D. Chỉ có ở thành phố"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Thời trang đổi luôn luôn, kiểu cũ có khi còn quay lại."
+    "explanation": "Đúng rồi! Thời trang đổi luôn luôn, kiểu cũ có khi còn quay lại.",
+    "bai": 9
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "D. Áo vest, cà vạt"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Phong cách thể thao: khỏe khoắn, thoải mái, dễ vận động."
+    "explanation": "Đúng rồi! Phong cách thể thao: khỏe khoắn, thoải mái, dễ vận động.",
+    "bai": 9
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "D. Sạch sẽ, gọn gàng, hợp với mình"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Sạch sẽ và gọn gàng là đẹp nhất, không cần đắt tiền."
+    "explanation": "Đúng rồi! Sạch sẽ và gọn gàng là đẹp nhất, không cần đắt tiền.",
+    "bai": 9
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "D. Khu nấu ăn"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Khu sinh hoạt chung là nơi tiếp khách và cả nhà quây quần."
+    "explanation": "Đúng rồi! Khu sinh hoạt chung là nơi tiếp khách và cả nhà quây quần.",
+    "bai": 1
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "D. Để che mưa"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Công trường có nhiều vật rơi, đội mũ bảo hộ là để bảo vệ đầu."
+    "explanation": "Đúng rồi! Công trường có nhiều vật rơi, đội mũ bảo hộ là để bảo vệ đầu.",
+    "bai": 2
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "D. Tắt hết điện trong nhà"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Có đủ 4 cách báo: chuông, tin nhắn, đèn báo, cuộc gọi tự động."
+    "explanation": "Đúng rồi! Có đủ 4 cách báo: chuông, tin nhắn, đèn báo, cuộc gọi tự động.",
+    "bai": 3
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "D. Có đủ các nhóm thực phẩm, mỗi nhóm một lượng vừa phải"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Đủ nhóm và vừa phải thì cơ thể mới khỏe."
+    "explanation": "Đúng rồi! Đủ nhóm và vừa phải thì cơ thể mới khỏe.",
+    "bai": 4
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "D. Ngoài ban công"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Thịt để ngăn đá (ngăn đông), rau quả để ngăn mát nhé."
+    "explanation": "Đúng rồi! Thịt để ngăn đá (ngăn đông), rau quả để ngăn mát nhé.",
+    "bai": 5
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "D. Để ăn ít đi"
     ],
     "answer": 1,
-    "explanation": "Đúng rồi! Tính trước thì mua vừa tiền, đủ chất, không lãng phí."
+    "explanation": "Đúng rồi! Tính trước thì mua vừa tiền, đủ chất, không lãng phí.",
+    "bai": 6
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "D. Học sinh"
     ],
     "answer": 2,
-    "explanation": "Đúng rồi! Trang phục cho biết nghề nghiệp: đồng phục xanh có phù hiệu là công an."
+    "explanation": "Đúng rồi! Trang phục cho biết nghề nghiệp: đồng phục xanh có phù hiệu là công an.",
+    "bai": 7
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "D. Áo bị ẩm mốc, có mùi hôi"
     ],
     "answer": 3,
-    "explanation": "Đúng rồi! Còn ẩm là mốc ngay. Phải phơi thật khô mới cất nhé."
+    "explanation": "Đúng rồi! Còn ẩm là mốc ngay. Phải phơi thật khô mới cất nhé.",
+    "bai": 8
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "D. Giận bạn, không chơi nữa"
     ],
     "answer": 0,
-    "explanation": "Đúng rồi! Không chạy theo mốt. Đồ hợp với mình và vừa tiền mới là lựa chọn khôn ngoan."
+    "explanation": "Đúng rồi! Không chạy theo mốt. Đồ hợp với mình và vừa tiền mới là lựa chọn khôn ngoan.",
+    "bai": 9
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "D. Vì trên bờ không có đất nào"
     ],
     "answer": 1,
-    "explanation": "Giỏi lắm! Nhà nổi hợp với sống nước: nước lên nhà lên, đi lại bằng thuyền rất tiện."
+    "explanation": "Giỏi lắm! Nhà nổi hợp với sống nước: nước lên nhà lên, đi lại bằng thuyền rất tiện.",
+    "bai": 1
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "D. Thiết kế"
     ],
     "answer": 2,
-    "explanation": "Giỏi lắm! Trát, sơn, lát nền là những việc của giai đoạn hoàn thiện."
+    "explanation": "Giỏi lắm! Trát, sơn, lát nền là những việc của giai đoạn hoàn thiện.",
+    "bai": 2
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "D. Tắt đèn khi ra khỏi phòng và mở cửa đón ánh sáng trời"
     ],
     "answer": 3,
-    "explanation": "Giỏi lắm! Em làm được như nhà thông minh: tắt điện khi không dùng, tận dụng ánh sáng trời."
+    "explanation": "Giỏi lắm! Em làm được như nhà thông minh: tắt điện khi không dùng, tận dụng ánh sáng trời.",
+    "bai": 3
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "D. Nhóm chất béo"
     ],
     "answer": 0,
-    "explanation": "Giỏi lắm! Không có rau là thiếu vi-ta-min và chất xơ. Nhớ thêm rau vào bữa ăn nhé."
+    "explanation": "Giỏi lắm! Không có rau là thiếu vi-ta-min và chất xơ. Nhớ thêm rau vào bữa ăn nhé.",
+    "bai": 4
   },
   {
     "id": 50,
@@ -597,7 +646,8 @@
       "D. Uống một ít xem sao"
     ],
     "answer": 1,
-    "explanation": "Giỏi lắm! Đồ hết hạn, có mùi lạ là phải bỏ, ăn vào sẽ đau bụng, ngộ độc đấy."
+    "explanation": "Giỏi lắm! Đồ hết hạn, có mùi lạ là phải bỏ, ăn vào sẽ đau bụng, ngộ độc đấy.",
+    "bai": 5
   },
   {
     "id": 51,
@@ -609,7 +659,8 @@
       "D. Chỉ mua bánh kẹo"
     ],
     "answer": 2,
-    "explanation": "Giỏi lắm! Đó đúng là cách làm của dự án bữa ăn: đủ chất, vừa tiền, không lãng phí."
+    "explanation": "Giỏi lắm! Đó đúng là cách làm của dự án bữa ăn: đủ chất, vừa tiền, không lãng phí.",
+    "bai": 6
   },
   {
     "id": 52,
@@ -621,7 +672,8 @@
       "D. Vải bông"
     ],
     "answer": 3,
-    "explanation": "Giỏi lắm! Vải bông thoáng mát, thấm mồ hôi tốt — hợp nhất với mùa hè."
+    "explanation": "Giỏi lắm! Vải bông thoáng mát, thấm mồ hôi tốt — hợp nhất với mùa hè.",
+    "bai": 7
   },
   {
     "id": 53,
@@ -633,7 +685,8 @@
       "D. Mặc áo dài cả ngày"
     ],
     "answer": 0,
-    "explanation": "Giỏi lắm! Chọn trang phục phải hợp với từng việc: thể dục mặc đồ thể thao, chào cờ mặc đồng phục."
+    "explanation": "Giỏi lắm! Chọn trang phục phải hợp với từng việc: thể dục mặc đồ thể thao, chào cờ mặc đồng phục.",
+    "bai": 7
   },
   {
     "id": 54,
@@ -645,6 +698,7 @@
       "D. Thời trang không quan trọng với học sinh"
     ],
     "answer": 1,
-    "explanation": "Giỏi lắm! Em đã bắt được ý chính của cả bài: mốt thì đổi, sạch gọn và hợp với mình mới là đẹp nhất."
+    "explanation": "Giỏi lắm! Em đã bắt được ý chính của cả bài: mốt thì đổi, sạch gọn và hợp với mình mới là đẹp nhất.",
+    "bai": 9
   }
 ]
