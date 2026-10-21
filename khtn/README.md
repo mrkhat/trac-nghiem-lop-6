@@ -2,8 +2,8 @@
 
 Mục môn Khoa học tự nhiên 6 trong web trắc nghiệm Lớp 6, gồm **2 phần theo thứ tự học** (nâng cấp 2026-10-21 theo nguyên tắc chung: học tập theo lộ trình có hình ảnh làm trước, trắc nghiệm làm sau — cùng khuôn với mục Lịch sử 6):
 
-## Phần 1 — Học tập (`index.html`)
-Lộ trình 13 bài bám đúng phạm vi mà bộ 67 câu trắc nghiệm đang kiểm tra (suy ra từ chính nội dung `questions.json`):
+## Phạm vi 13 bài ↔ nhóm câu hỏi trong bộ 67 câu
+Lộ trình bám đúng phạm vi mà bộ 67 câu trắc nghiệm đang kiểm tra (suy ra từ chính nội dung `questions.json`):
 
 | Bài | Nội dung | Nhóm câu hỏi liên quan |
 |---|---|---|
@@ -21,7 +21,35 @@ Lộ trình 13 bài bám đúng phạm vi mà bộ 67 câu trắc nghiệm đang
 | 12 | Tế bào và các cấp độ tổ chức cơ thể | 11, 12, 13, 14, 15, 17, 18, 19, 20 |
 | 13 | Lực là gì? Lực kế | 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 |
 
-Mỗi bài gồm: mục tiêu "học xong bài này em biết", ý chính gạch đầu dòng, hộp "Điểm cần nhớ", 1 hình minh họa và 2 câu tự kiểm tra nhanh (bấm để hiện đáp án). Nội dung bài học được soạn khớp với đáp án/giải thích trong chính bộ câu hỏi (ví dụ: kính hiển vi quang học 40–3000 lần; lực kế GHĐ 10 N, ĐCNN 0,2 N; sinh vật đơn bào gồm tảo lục và vi khuẩn lam).
+## Phần 1 — Học tập (`index.html`) — cấu trúc TỪNG BÀI KHÉP KÍN (cập nhật 2026-10-21)
+Học nối tiếp từng bài, xong bài này mới sang bài tiếp theo. Mỗi bài là một khối khép kín theo đúng thứ tự:
+1. **Nội dung bài** — mục tiêu "học xong bài này em biết", ý chính gạch đầu dòng, 1 hình minh họa Wikimedia (xem bảng nguồn ở cuối).
+2. **Điểm cần nhớ** — hộp tóm tắt các mốc/số liệu trọng tâm.
+3. **Sơ đồ tư duy của bài** — 1 sơ đồ/bài làm bằng HTML/CSS thuần (không thư viện ngoài): trung tâm là tên bài, các nhánh là ý chính/khái niệm lớn, từ khóa ngắn.
+4. **Câu hỏi gợi nhớ riêng của bài** — 3–5 câu/bài (bấm hiện đáp án), trong đó mỗi bài có ít nhất 1 câu hỏi dựa trên hình minh họa của bài.
+5. **Flashcard riêng của bài** — 4–6 thẻ/bài, **100% thẻ có hình gợi nhớ** (ảnh của chính bài học, hoặc sơ đồ SVG tự vẽ trong trang cho khái niệm trừu tượng), bấm lật thẻ, nút Đã thuộc/Chưa thuộc, nút lọc "Chỉ xem thẻ chưa thuộc", tiến độ lưu `localStorage` khoá `khtn_flash_v1`.
+6. **Khối chuyển tiếp** sang bài tiếp theo.
+
+**Phần Tổng kết** (sau Bài 13, trước Phần 2): sơ đồ tư duy TỔNG "KHTN 6 — Học kì 1" với 5 nhánh nhóm bài (Mở đầu & đo lường / Chất / Oxygen–không khí / Tế bào / Lực) + bộ flashcard TỔNG ÔN gộp toàn bộ 64 thẻ (dùng chung trạng thái Đã thuộc với các bộ theo bài).
+
+| Bài | Câu hỏi gợi nhớ | Flashcard |
+|---|---|---|
+| 1. Giới thiệu KHTN | 4 | 5 |
+| 2. An toàn phòng thực hành | 4 | 5 |
+| 3. Kính lúp | 4 | 5 |
+| 4. Kính hiển vi quang học | 4 | 4 |
+| 5. Đo chiều dài | 4 | 5 |
+| 6. Đo khối lượng | 4 | 5 |
+| 7. Đo thời gian | 4 | 4 |
+| 8. Đo nhiệt độ | 4 | 4 |
+| 9. Các thể & sự chuyển thể | 5 | 5 |
+| 10. Chất và vật liệu | 5 | 5 |
+| 11. Oxygen và không khí | 4 | 5 |
+| 12. Tế bào | 5 | 6 |
+| 13. Lực và lực kế | 5 | 6 |
+| **Tổng** | **56** | **64** |
+
+**Hình gợi nhớ cho flashcard:** 38 thẻ dùng ảnh của chính bài học (Wikimedia, bảng nguồn bên dưới); 26 thẻ dùng **sơ đồ SVG tự vẽ ngay trong trang** cho các khái niệm trừu tượng, bám đúng nội dung SGK của bài: sơ đồ hạt của 3 thể rắn/lỏng/khí (Bài 9), sơ đồ tế bào có nhãn màng tế bào – chất tế bào – nhân (Bài 12), nhiệt kế hai mốc 0°/100° (Bài 8), đồng hồ (Bài 7), thước có vạch chia (Bài 5), cân đòn hai đĩa (Bài 6), biểu đồ tỉ lệ N₂/O₂ (Bài 11), lò xo lực kế (Bài 13), mũi tên chuyển thể rắn → lỏng (Bài 9). Đợt này không dùng 3D và không thêm nguồn ảnh ngoài Wikimedia/tự vẽ.
 
 ## Phần 2 — Trắc nghiệm (`quiz.html` + `questions.json`)
 - 67 câu trắc nghiệm giữa kì 1 — **giữ nguyên văn** bản đang chạy trên GitHub (tải về 2026-10-21), không sửa nội dung câu nào.
