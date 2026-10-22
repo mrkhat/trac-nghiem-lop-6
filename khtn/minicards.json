@@ -1,0 +1,184 @@
+[
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Cây xanh và con mèo khác hòn đá ở điểm nào?",
+  "a": "Chúng là vật sống: có trao đổi chất, sinh trưởng và sinh sản.",
+  "fi": "../hinh-anh/khtn/fc-bai1-vat-song.webp"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Nước sôi là hiện tượng thuộc lĩnh vực nào của KHTN?",
+  "a": "Vật lí học — vì đó là sự chuyển thể của chất.",
+  "fi": "../hinh-anh/khtn/fc-sua-nuoc-soi.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Làm xong thí nghiệm, việc đầu tiên em phải làm là gì?",
+  "a": "Rửa sạch tay bằng xà phòng.",
+  "fi": "../hinh-anh/khtn/fc-bai2-rua-tay.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Kí hiệu trong hình cảnh báo điều gì?",
+  "a": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng.",
+  "fi": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Bộ phận chính của kính lúp là gì?",
+  "a": "Một thấu kính lồi gắn trong khung có tay cầm.",
+  "fi": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Kính lúp phóng to được khoảng bao nhiêu lần?",
+  "a": "Khoảng 3 đến 20 lần.",
+  "fi": "../hinh-anh/khtn/fc-sua-phong-to.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?",
+  "a": "Khoảng 40 đến 3000 lần.",
+  "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Độ phóng đại của kính hiển vi được tính thế nào?",
+  "a": "Độ phóng đại vật kính × độ phóng đại thị kính.",
+  "fi": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Giá trị lớn nhất mà thước đo được gọi là gì?",
+  "a": "Giới hạn đo (GHĐ) của thước.",
+  "fi": "../hinh-anh/khtn/bai5-thuoc-thep.webp"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "1 mL bằng bao nhiêu cm³?",
+  "a": "1 mL = 1 cm³.",
+  "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Trước khi cân, phải làm gì với cân?",
+  "a": "Hiệu chỉnh cân về vạch 0.",
+  "fi": "../hinh-anh/khtn/fc-sua-chinh-can.webp"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?",
+  "a": "Khối lượng của sữa trong hộp (khối lượng tịnh).",
+  "fi": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Đo thời gian chạy 100 m thì dùng đồng hồ nào?",
+  "a": "Đồng hồ bấm giây.",
+  "fi": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Một ngày bằng bao nhiêu giờ?",
+  "a": "24 giờ.",
+  "fi": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Nhiệt kế trong hình có mấy thang đo?",
+  "a": "Hai thang: thang °C và thang °F.",
+  "fi": "../hinh-anh/khtn/bai8-nhiet-ke-hai-thang.jpg"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Nước đang sôi ở bao nhiêu °C?",
+  "a": "100 °C — tương ứng 212 °F.",
+  "fi": "../hinh-anh/khtn/mini-bai8-nuoc-soi.webp"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Mây trên trời được tạo thành nhờ hiện tượng gì?",
+  "a": "Hơi nước ngưng tụ trên cao.",
+  "fi": "../hinh-anh/khtn/fc-sua-may.webp"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Viên đá tan thành nước gọi là sự gì?",
+  "a": "Sự nóng chảy — chuyển từ thể rắn sang thể lỏng.",
+  "fi": "../hinh-anh/khtn/bai9-da-tan.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Đun đường đến cháy đen cho thấy tính chất gì của chất?",
+  "a": "Tính chất hóa học — vì có chất mới được tạo thành.",
+  "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Biểu tượng trong hình có ý nghĩa gì?",
+  "a": "Tái chế (Recycle) — một trong ba phần của mô hình 3R.",
+  "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Oxygen chiếm khoảng bao nhiêu phần trăm không khí?",
+  "a": "Khoảng 21%.",
+  "fi": "../hinh-anh/khtn/bai11-binh-oxygen.webp"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Can xăng bốc cháy thì dập lửa bằng gì?",
+  "a": "Đổ cát trùm lên (hoặc dùng bình chữa cháy) — tuyệt đối không dùng nước.",
+  "fi": "../hinh-anh/khtn/fc-sua-chay-xang-cat.webp"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
+  "a": "Tế bào.",
+  "fi": "../hinh-anh/khtn/bai12-te-bao-hanh.webp"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Bộ phận nào là trung tâm điều khiển của tế bào?",
+  "a": "Nhân tế bào.",
+  "fi": "../hinh-anh/khtn/fc-sua-te-bao-nhan-so.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Trọng lực luôn có chiều hướng về đâu?",
+  "a": "Hướng xuống dưới, về phía Trái Đất.",
+  "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Dụng cụ trong hình dùng để đo đại lượng nào?",
+  "a": "Đo lực — đó là lực kế, đơn vị niutơn (N).",
+  "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
+ }
+]

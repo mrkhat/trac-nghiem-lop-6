@@ -52,6 +52,37 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .next{font-size:17px}
 @media(max-width:480px){body{padding:12px}h1{font-size:26px}}
 </style>
+<link rel="stylesheet" href="../assets/fc-onluyen.css">
+
+<style>
+/* ===== TAB FLASHCARD TONG HOP ===== */
+#btnHomeF{background:#666;color:#fff;padding:8px 16px;font-size:16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px;min-height:44px;font-family:inherit}
+.fcwrap{max-width:560px;margin:0 auto}
+.fcbar{height:10px;background:#e0e0e0;border-radius:6px;overflow:hidden;margin:8px 0 4px}
+.fcbar>i{display:block;height:100%;background:#43a047;width:0%}
+.fcstat{text-align:center;font-size:15px;color:#555;margin-bottom:8px}
+.fcscene{perspective:1000px}
+.fccard{position:relative;width:100%;min-height:300px;cursor:pointer;transition:transform .25s,opacity .25s}
+.fcinner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .45s}
+.fccard.flip .fcinner{transform:rotateY(180deg)}
+.fcface{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b39ddb;border-radius:14px;padding:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:auto}
+.fcface.back{transform:rotateY(180deg);background:#f3e5f5;border-color:#7b1fa2}
+.fcface img{max-width:100%;max-height:170px;border-radius:8px;margin-bottom:10px}
+.fcface svg{max-width:100%;height:auto;max-height:190px;margin-bottom:8px}
+.fctext{font-size:18px;line-height:1.6;white-space:pre-line}
+.fctag{position:absolute;top:10px;left:12px;font-size:13px;font-weight:700;color:#7b1fa2;background:#ede7f6;padding:2px 8px;border-radius:20px}
+.fchint{position:absolute;bottom:8px;right:12px;font-size:13px;color:#999}
+.fcbtns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.fcbtns button{min-height:48px;padding:10px 16px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;border:1.5px solid #b0bec5;background:#fff}
+.fcbtns .ok{background:#43a047;border-color:#43a047;color:#fff;font-weight:700}
+.fcbtns .no{color:#e65100;border-color:#e65100;font-weight:700}
+.fcpop{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%) scale(.4);font-size:74px;opacity:0;pointer-events:none;z-index:5}
+.fcpop.go{animation:fcpopA .45s ease-out}
+@keyframes fcpopA{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}35%{opacity:1;transform:translate(-50%,-50%) scale(1.15)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.3)}}
+.fccard.outR{transform:translateX(60px);opacity:0}
+.fccard.outL{transform:translateX(-60px);opacity:0}
+.fcdone{background:#e8f5e9;border:1.5px solid #43a047;border-radius:14px;padding:22px;text-align:center;font-size:18px}
+</style>
 </head>
 <body>
 <h1>📚 Lịch sử 6 - Học kì 1</h1>
@@ -68,7 +99,19 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
     <button id="btnPractice">📝 Luyện tập<br><small style="font-size:14px">biết ngay đúng/sai từng câu</small></button>
     <button id="btnExam">⏱️ Thi thử<br><small style="font-size:14px">20 câu ngẫu nhiên, chấm cuối bài</small></button>
     <button id="btnStudy">📖 Học tập<br><small style="font-size:14px">xem toàn bộ câu hỏi + đáp án</small></button>
+    <button id="btnFlash" style="background:#7b1fa2">🃏 Flashcard<br><small style="font-size:14px">tổng hợp thẻ ghi nhớ của cả môn</small></button>
   </div>
+  <div class="mode-btns onl-btns">
+    <button id="btnOnFC">🃏 Ôn luyện Flashcard<br><small style="font-size:14px">tất cả <span id="onFCnt">…</span> thẻ ghi nhớ của môn</small></button>
+    <button id="btnOnNN">⚡ Ôn luyện Nhớ nhanh<br><small style="font-size:14px">tất cả <span id="onNCnt">…</span> thẻ học nhanh của môn</small></button>
+  </div>
+</div>
+<div id="onluyen" class="hidden">
+  <button id="btnOnBack">← Chọn lại chế độ</button>
+  <div class="onl-title" id="onlTitle"></div>
+  <p class="onl-sub" id="onlSub"></p>
+  <div id="onlDeckFC"></div>
+  <div id="onlDeckNN"></div>
 </div>
 <div id="quizArea" class="hidden">
   <button id="btnHome">← Chọn lại chế độ</button>
@@ -76,6 +119,11 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   <div id="quiz"></div>
   <button id="nextBtn" class="hidden">Câu tiếp theo →</button>
   <div id="result" class="hidden"></div>
+</div>
+<div id="flashArea" class="hidden">
+  <button id="btnHomeF">← Chọn lại chế độ</button>
+  <div id="fcHead" style="text-align:center;font-weight:600;margin:6px 0 10px"></div>
+  <div id="fcMount"></div>
 </div>
 <script>
 let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
@@ -193,5 +241,107 @@ function showResult(){
   document.getElementById('btnHome2').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
 }
 </script>
+
+<script src="cards-data.js"></script>
+<script src="../assets/fc-onluyen.js"></script>
+<script>
+/* ===== ÔN LUYỆN: gom toan bo flashcard + the Nho nhanh cua mon vao trang bai tap =====
+   Du lieu the lay tu cards-data.js (dung chung voi trang hoc) va the Nho nhanh
+   duoc gom truc tiep tu trang hoc — khong sao chep du lieu. */
+
+function buildFlashItems(){
+  return CARDS.map(function(c,ci){
+    var front;
+    if(c[3]==='strip'){
+      front='<div class="fc-strip"><img src="'+IMG.evo1+'" alt="Chặng 1: người tối cổ"><img src="'+IMG.evo2+'" alt="Chặng 2: người khéo léo"><img src="'+IMG.evo3+'" alt="Chặng 3: người đứng thẳng"><img src="'+IMG.evo4+'" alt="Chặng 4: người tinh khôn"></div><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    } else {
+      front='<img'+(c[3]?' class="anim-'+c[3]+'"':'')+' src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy"><div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    }
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+}
+onluyenBoot({lsKey:'onluyen_lichsu', subject:'Lịch sử 6', buildFlashItems:buildFlashItems});
+</script>
+
+<script>
+/* ===== TAB FLASHCARD: tong hop flashcard + the Nho nhanh cua ca mon, dung chung nguon cards-data.js voi trang hoc, loc theo bai dang chon o muc "Chon bai de luyen" ===== */
+const FC_BAI = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10];
+let fcAll=null, fcKnown={}, fcQueue=[], fcPos=0, fcFlip=false, fcPool=[];
+try{ fcKnown=JSON.parse(localStorage.getItem('lichsu_fcquiz_v1')||'{}'); }catch(e){ fcKnown={}; }
+function fcSave(){ try{ localStorage.setItem('lichsu_fcquiz_v1', JSON.stringify(fcKnown)); }catch(e){} }
+function fcBuildItems(){
+  const items=[];
+  if(typeof CARDS!=='undefined'){ CARDS.forEach((c,i)=>{ const it={b:FC_BAI[i],t:'fc',f:c[0]||'',a:c[1]||''}; if(c[2]&&typeof IMG!=='undefined'&&IMG[c[2]])it.fi=IMG[c[2]]; if(c[3]&&typeof IMG!=='undefined'&&IMG[c[3]])it.ai=IMG[c[3]]; items.push(it); }); }
+  return items;
+}
+async function fcLoadAll(){
+  if(fcAll) return fcAll;
+  const items=fcBuildItems();
+  try{ const mn=await (await fetch('minicards.json')).json(); mn.forEach(m=>items.push({b:m.b,t:'mn',f:m.f,a:m.a,fi:m.fi||''})); }catch(e){}
+  items.sort((x,y)=>(x.b-y.b)||(x.t===y.t?0:x.t==='fc'?-1:1));
+  items.forEach((it,i)=>it.uid=i);
+  fcAll=items; return items;
+}
+async function openFlash(){
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.add('hidden');
+  document.getElementById('flashArea').classList.remove('hidden');
+  const all=await fcLoadAll();
+  const sel=document.getElementById('lessonSel');
+  const scope=(sel && sel.value!=='all') ? parseInt(sel.value) : null;
+  fcPool = scope===null ? [...all] : all.filter(it=>it.b===scope);
+  fcQueue = fcPool.map(it=>it.uid);
+  fcQueue.sort((a,b)=>((fcKnown[a]?1:0)-(fcKnown[b]?1:0)));
+  fcPos=0; fcFlip=false;
+  const nFc=fcPool.filter(i=>i.t==='fc').length, nMn=fcPool.length-nFc;
+  document.getElementById('fcHead').textContent='\u{1F0CF} Flashcard \u2014 '+(scope===null?'T\u1EA5t c\u1EA3 c\u00E1c b\u00E0i':lessonName(scope))+' \u2022 '+fcPool.length+' th\u1EBB ('+nFc+' flashcard + '+nMn+' nh\u1EDB nhanh)';
+  fcRender();
+}
+function fcCur(){ return fcAll.find(it=>it.uid===fcQueue[fcPos]); }
+function fcRender(){
+  const m=document.getElementById('fcMount');
+  const poolTotal=fcPool.length;
+  const knownN=fcPool.filter(it=>fcKnown[it.uid]).length;
+  if(poolTotal===0 || knownN===poolTotal || fcPos>=fcQueue.length){
+    m.innerHTML='<div class="fcdone">\u{1F389} Em \u0111\u00E3 thu\u1ED9c h\u1EBFt '+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y!<br><br><button style="background:#43a047;color:#fff;border:none;min-height:48px;padding:10px 22px;border-radius:10px;font-size:16px;cursor:pointer;font-family:inherit" onclick="fcReset()">\u21BA H\u1ECDc l\u1EA1i t\u1EEB \u0111\u1EA7u</button></div>';
+    return;
+  }
+  const it=fcCur(); if(!it){ return; }
+  const badge = it.t==='mn' ? '\u26A1 Nh\u1EDB nhanh' : '\u{1F0CF} Flashcard';
+  m.innerHTML=
+   '<div class="fcwrap"><div class="fcbar"><i style="width:'+(poolTotal?Math.round(knownN/poolTotal*100):0)+'%"></i></div>'+
+   '<div class="fcstat">\u0110\u00E3 thu\u1ED9c '+knownN+'/'+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y \u2022 Th\u1EBB '+(fcPos+1)+'/'+fcQueue.length+'</div>'+
+   '<div class="fcscene"><div class="fccard" id="fcCard"><div class="fcinner">'+
+   '<div class="fcface front"><span class="fctag">'+badge+'</span>'+(it.fs||'')+(it.fi?'<img src="'+it.fi+'" alt="">':'')+'<div class="fctext"></div><span class="fchint">B\u1EA5m th\u1EBB \u0111\u1EC3 l\u1EADt \u{1F446}</span></div>'+
+   '<div class="fcface back"><span class="fctag">'+badge+'</span>'+(it.ai?'<img src="'+it.ai+'" alt="">':'')+'<div class="fctext"></div></div>'+
+   '</div></div></div>'+
+   '<div class="fcbtns"><button type="button" onclick="fcPrev()">\u2B05 Tr\u01B0\u1EDBc</button><button type="button" onclick="fcShuffle()">\u{1F500} X\u00E1o tr\u1ED9n</button><button type="button" onclick="fcNext()">Ti\u1EBFp \u27A1</button></div>'+
+   '<div class="fcbtns"><button type="button" class="no" onclick="fcTick(false)">\u21BA Ch\u01B0a thu\u1ED9c</button><button type="button" class="ok" onclick="fcTick(true)">\u2714 \u0110\u00E3 thu\u1ED9c</button></div>'+
+   '</div>';
+  const faces=m.querySelectorAll('.fctext'); faces[0].textContent=it.f; faces[1].textContent=it.a;
+  document.getElementById('fcCard').onclick=()=>{ fcFlip=!fcFlip; document.getElementById('fcCard').classList.toggle('flip',fcFlip); };
+}
+function fcTick(ok){
+  const it=fcCur(); if(!it) return;
+  const card=document.getElementById('fcCard');
+  const done=()=>{
+    if(ok){ fcKnown[it.uid]=1; fcSave(); fcPos++; }
+    else { delete fcKnown[it.uid]; fcSave(); const u=fcQueue.splice(fcPos,1)[0]; fcQueue.push(u); }
+    fcFlip=false; fcRender();
+  };
+  if(card){
+    const pop=document.createElement('div'); pop.className='fcpop go'; pop.textContent= ok?'\u2714':'\u21BA'; pop.style.color= ok?'#43a047':'#e65100'; card.appendChild(pop);
+    setTimeout(()=>{ card.classList.add(ok?'outR':'outL'); setTimeout(done,230); },180);
+  } else done();
+}
+function fcPrev(){ if(fcPos>0){ fcPos--; fcFlip=false; fcRender(); } }
+function fcNext(){ if(fcPos<fcQueue.length-1){ fcPos++; fcFlip=false; fcRender(); } }
+function fcShuffle(){ for(let i=fcQueue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=fcQueue[i]; fcQueue[i]=fcQueue[j]; fcQueue[j]=t; } fcPos=0; fcFlip=false; fcRender(); }
+function fcReset(){ fcPool.forEach(it=>{ delete fcKnown[it.uid]; }); fcSave(); openFlash(); }
+document.getElementById('btnFlash').onclick=openFlash;
+document.getElementById('btnHomeF').onclick=()=>{ document.getElementById('flashArea').classList.add('hidden'); document.getElementById('home').classList.remove('hidden'); };
+document.getElementById('lessonSel').addEventListener('change',()=>{ if(!document.getElementById('flashArea').classList.contains('hidden')) openFlash(); });
+</script>
+
 </body>
 </html>

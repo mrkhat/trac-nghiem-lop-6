@@ -1,0 +1,338 @@
+[
+ {
+  "b": 0,
+  "t": "mn",
+  "f": "Trái Đất nhìn từ vũ trụ có màu gì là chính?",
+  "a": "Xanh dương — vì đại dương chiếm khoảng 3/4 bề mặt Trái Đất.",
+  "fi": "../hinh-anh/dialy/trai-dat-apollo-17.jpg"
+ },
+ {
+  "b": 0,
+  "t": "mn",
+  "f": "Địa lí là môn học về điều gì?",
+  "a": "Bề mặt Trái Đất, thiên nhiên và con người sống trên đó.",
+  "fi": "../hinh-anh/dialy/sua-hoc-dia-li.webp"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Đường dọc nối hai cực Bắc – Nam là đường gì?",
+  "a": "Kinh tuyến.",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Vĩ tuyến gốc 0° tên là gì?",
+  "a": "Xích đạo — vĩ tuyến dài nhất.",
+  "fi": "../hinh-anh/dialy/vi-tuyen.svg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Trên bản đồ, phía trên thường là hướng nào?",
+  "a": "Hướng Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Nhìn bản đồ: biển Đông nằm ở phía nào của nước ta?",
+  "a": "Phía Đông.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-viet-nam.jpg"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Tỉ lệ 1 : 100 000 — 1 cm trên bản đồ bằng mấy km ngoài đời?",
+  "a": "1 km (vì 100 000 cm = 1 km).",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Bản đồ vẽ rất chi tiết một vùng nhỏ thì có tỉ lệ lớn hay nhỏ?",
+  "a": "Tỉ lệ lớn — càng chi tiết thì chỉ vẽ được khu vực càng hẹp.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh.png"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Sông và đường giao thông thuộc loại kí hiệu nào?",
+  "a": "Kí hiệu đường.",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Trên bản đồ, rừng được kí hiệu bằng gì?",
+  "a": "Một mảng màu xanh lá — kí hiệu diện.",
+  "fi": "../hinh-anh/dialy/rung-nhiet-doi-palawan.jpg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Lược đồ trí nhớ có cần vẽ đúng tỉ lệ không?",
+  "a": "Không cần đúng tỉ lệ, nhưng phải đúng vị trí tương đối và phương hướng.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Ở góc lược đồ, em phải vẽ thêm gì?",
+  "a": "Mũi tên chỉ hướng Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?",
+  "a": "Thứ 3 (Thủy – Kim – Trái Đất).",
+  "fi": "../hinh-anh/dialy/he-mat-troi.svg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Trăng tròn (rằm) vào khoảng ngày nào âm lịch?",
+  "a": "Khoảng ngày 14–15 âm lịch.",
+  "fi": "../hinh-anh/dialy/cac-pha-trang.svg"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Trái Đất tự quay theo hướng nào?",
+  "a": "Từ Tây sang Đông.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Vì sao mọi nơi có ngày và đêm luân phiên?",
+  "a": "Trái Đất hình cầu và tự quay, nên mọi nơi lần lượt được Mặt Trời chiếu sáng.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Trái Đất quay quanh Mặt Trời một vòng mất bao lâu?",
+  "a": "365 ngày 6 giờ (một năm).",
+  "fi": "../hinh-anh/dialy/quy-dao-va-cac-mua.svg"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Ngày 22/6, bán cầu Bắc đang là mùa gì?",
+  "a": "Mùa hạ — ngày dài hơn đêm (ngày Hạ chí).",
+  "fi": "../hinh-anh/dialy/cac-mua-quy-dao.svg"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Kim của la bàn trong hình luôn chỉ hướng nào?",
+  "a": "Hướng Bắc – Nam.",
+  "fi": "../hinh-anh/dialy/la-ban-co.jpg"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Ban đêm, tìm hướng Bắc nhờ ngôi sao nào?",
+  "a": "Sao Bắc Cực.",
+  "fi": "../hinh-anh/dialy/sua-sao-bac-cuc.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Trái Đất gồm mấy lớp chính?",
+  "a": "3 lớp: vỏ, manti (bao phủ) và nhân.",
+  "fi": "../hinh-anh/dialy/cau-truc-trai-dat.svg"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Vỏ Trái Đất bị nứt vỡ thành những mảng lớn gọi là gì?",
+  "a": "Các mảng kiến tạo — trôi rất chậm, vài cm mỗi năm.",
+  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Tầng đá bị uốn cong như sóng do lực từ đâu?",
+  "a": "Lực nội sinh — từ bên trong Trái Đất đẩy lên.",
+  "fi": "../hinh-anh/dialy/tang-da-uon-nep.jpg"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Hẻm núi bị nước khoét sâu dần là quá trình nào?",
+  "a": "Ngoại sinh — lực bên ngoài bào mòn, hạ thấp địa hình.",
+  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Macma khi phun ra ngoài bề mặt gọi là gì?",
+  "a": "Dung nham.",
+  "fi": "../hinh-anh/dialy/so-do-nui-lua.svg"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Tro núi lửa lâu ngày tạo ra loại đất gì tốt cho cây trồng?",
+  "a": "Đất bazan màu mỡ.",
+  "fi": "../hinh-anh/dialy/sua-nui-lua-dat-mau.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Có mấy dạng địa hình chính trên Trái Đất?",
+  "a": "4 dạng: núi – cao nguyên – đồi – đồng bằng.",
+  "fi": "../hinh-anh/dialy/sua-bon-dang-dia-hinh.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Đỉnh núi cao nhất thế giới tên gì, cao khoảng bao nhiêu?",
+  "a": "Ê-vơ-rét — khoảng 8 848 m.",
+  "fi": "../hinh-anh/dialy/dinh-everest.jpg"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Đường đồng mức sít nhau cho biết sườn núi thế nào?",
+  "a": "Sườn dốc.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Đường đồng mức thưa nhau cho biết sườn núi thế nào?",
+  "a": "Sườn thoải.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Khí nào chiếm nhiều nhất trong không khí?",
+  "a": "Ni-tơ (78%) — thứ hai là ô-xi (21%).",
+  "fi": "../hinh-anh/dialy/thanh-phan-khi-quyen.svg"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Gió thổi từ nơi áp thế nào đến nơi áp thế nào?",
+  "a": "Từ nơi áp cao đến nơi áp thấp.",
+  "fi": "../hinh-anh/dialy/hoan-luu-khi-quyen.svg"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Mây hình thành do hiện tượng gì?",
+  "a": "Hơi nước ngưng tụ khi gặp lạnh ở trên cao.",
+  "fi": "../hinh-anh/dialy/may-vu-tich.jpg"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Không khí nóng lên chủ yếu nhờ đâu?",
+  "a": "Mặt đất hấp thụ nắng rồi tỏa nhiệt lên.",
+  "fi": "../hinh-anh/dialy/sua-mat-dat-toa-nhiet.webp"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Có mấy đới khí hậu chính trên Trái Đất?",
+  "a": "5 đới: 1 nóng, 2 ôn hòa, 2 lạnh.",
+  "fi": "../hinh-anh/dialy/ban-do-khi-hau-koppen.png"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Việt Nam thuộc đới khí hậu nào?",
+  "a": "Đới nóng (nhiệt đới).",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Đường màu đỏ trên biểu đồ khí hậu thể hiện điều gì?",
+  "a": "Nhiệt độ trung bình các tháng (°C).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Các cột màu xanh trên biểu đồ thể hiện điều gì?",
+  "a": "Lượng mưa các tháng (mm).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-on-doi.svg"
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Nước tuần hoàn theo thứ tự nào?",
+  "a": "Bốc hơi → ngưng tụ thành mây → mưa → chảy về biển, lặp mãi.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg"
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Nước ngọt chỉ chiếm khoảng bao nhiêu phần trăm nước trên Trái Đất?",
+  "a": "Chỉ khoảng 2,5% — nên phải tiết kiệm nước ngọt.",
+  "fi": "../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg"
+ },
+ {
+  "b": 20,
+  "t": "mn",
+  "f": "Dòng nước chảy uốn khúc trên mặt đất gọi là gì?",
+  "a": "Sông.",
+  "fi": "../hinh-anh/dialy/song-uon-khuc-costa-rica.jpg"
+ },
+ {
+  "b": 20,
+  "t": "mn",
+  "f": "Băng hà chứa phần lớn lượng gì của Trái Đất?",
+  "a": "Phần lớn lượng nước ngọt.",
+  "fi": "../hinh-anh/dialy/song-bang-perito-moreno.jpg"
+ },
+ {
+  "b": 21,
+  "t": "mn",
+  "f": "Trên Trái Đất có mấy đại dương?",
+  "a": "4 đại dương.",
+  "fi": "../hinh-anh/dialy/cac-dai-duong.svg"
+ },
+ {
+  "b": 21,
+  "t": "mn",
+  "f": "Sóng là một dạng gì của nước biển?",
+  "a": "Vận động của nước biển (cùng với thủy triều và dòng biển).",
+  "fi": "../hinh-anh/dialy/song-bien.jpg"
+ },
+ {
+  "b": 22,
+  "t": "mn",
+  "f": "Tầng đất trên cùng, giàu dinh dưỡng nhất tên là gì?",
+  "a": "Tầng mùn.",
+  "fi": "../hinh-anh/dialy/cac-tang-dat.svg"
+ },
+ {
+  "b": 22,
+  "t": "mn",
+  "f": "Đất vùng nóng ẩm như Việt Nam thường là đất gì?",
+  "a": "Đất phe-ra-lít đỏ vàng.",
+  "fi": "../hinh-anh/dialy/sua-dat-pha-ra-lit.webp"
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Nơi nào giàu sinh vật nhất trên đất liền?",
+  "a": "Rừng mưa nhiệt đới.",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Đồng cỏ cao, ít cây lớn trong hình là cảnh quan gì?",
+  "a": "Xa-van nhiệt đới.",
+  "fi": "../hinh-anh/dialy/savan-kuruman.jpg"
+ }
+]
