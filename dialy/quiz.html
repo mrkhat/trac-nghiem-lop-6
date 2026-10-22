@@ -208,7 +208,9 @@ function renderQ(){
     q.options.map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')+
     `<div class="exp" id="exp"></div></div>`;
   qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(parseInt(b.dataset.i)));
-  document.getElementById('nextBtn').classList.add('hidden');
+  const nb0=document.getElementById('nextBtn');
+  nb0.classList.add('hidden');
+  nb0.textContent='Câu tiếp theo →';
 }
 function answer(i){
   const q=quizQ[idx], ok=(i===q.answer);
@@ -226,8 +228,12 @@ function answer(i){
     exp.classList.add('show');
     document.getElementById('nextBtn').classList.remove('hidden');
   } else {
-    // chế độ thi: qua câu tiếp theo luôn
-    setTimeout(next, 400);
+    // chế độ thi: hiện đúng/sai + giải thích ngay tại chỗ, bé bấm nút mới qua câu tiếp theo
+    exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Sai.</b> ')+(q.explanation||'');
+    exp.classList.add('show');
+    const nb=document.getElementById('nextBtn');
+    nb.textContent=(idx===quizQ.length-1)?'Xem kết quả 🏁':'Câu tiếp theo →';
+    nb.classList.remove('hidden');
   }
 }
 document.getElementById('nextBtn').onclick=next;
