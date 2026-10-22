@@ -746,92 +746,11 @@
 .mm-k{flex:1}
 </style>
 
+<script src="cards-data.js"></script>
 <script>
-const IMG={
-dongson:"../hinh-anh/lichsu/bai1-trong-dong-dong-son.jpg",
-stele:"../hinh-anh/lichsu/bai1-bia-tien-si.jpg",
-sandclock:"../hinh-anh/lichsu/bai2-dong-ho-cat.jpg",
-sundial:"../hinh-anh/lichsu/bai2-dong-ho-mat-troi.jpg",
-evo1:"../hinh-anh/lichsu/bai3-nguoi-toi-co.jpg",
-evo2:"../hinh-anh/lichsu/bai3-nguoi-kheo-leo.webp",
-evo3:"../hinh-anh/lichsu/bai3-nguoi-dung-thang.jpg",
-evo4:"../hinh-anh/lichsu/bai3-nguoi-tinh-khon.jpg",
-skulls:"../hinh-anh/lichsu/bai3-hop-so-so-sanh.jpg",
-lascaux:"../hinh-anh/lichsu/bai4-tranh-hang-lascaux.jpg",
-handaxe:"../hinh-anh/lichsu/bai4-riu-tay-ghe.jpg",
-altamira:"../hinh-anh/lichsu/bai4-bo-rung-altamira.jpg",
-polishedaxe:"../hinh-anh/lichsu/bai4-riu-da-mai.jpg",
-dagger:"../hinh-anh/lichsu/bai5-dao-gam-dong.jpg",
-terraces:"../hinh-anh/lichsu/bai4-ruong-bac-thang.jpg",
-campfire:"../hinh-anh/lichsu/bai4-lua-trai.jpg",
-pyramids:"../hinh-anh/lichsu/bai6-kim-tu-thap-giza.jpg",
-ziggurat:"../hinh-anh/lichsu/bai6-thap-ziggurat.jpg",
-hieroglyphs:"../hinh-anh/lichsu/bai6-bia-chu-tuong-hinh.jpg",
-map:"../hinh-anh/lichsu/ban-do-ai-cap-luong-ha.svg",
-hammurabi:"../hinh-anh/lichsu/bai6-bia-luat-hammurabi.jpg",
-mohenjo:"../hinh-anh/lichsu/bai7-mohenjo-daro.jpg",
-ganges:"../hinh-anh/lichsu/bai7-ben-song-hang.jpg",
-buddha:"../hinh-anh/lichsu/bai7-tuong-phat-gandhara.jpg",
-oraclebone:"../hinh-anh/lichsu/bai8-giap-cot.jpg",
-greatwall:"../hinh-anh/lichsu/bai8-van-ly-truong-thanh.jpg",
-terracotta:"../hinh-anh/lichsu/bai8-doi-quan-dat-nung.jpg",
-parthenon:"../hinh-anh/lichsu/bai9-den-parthenon.jpg",
-discobolus:"../hinh-anh/lichsu/bai9-tuong-nem-dia.jpg",
-colosseum:"../hinh-anh/lichsu/bai9-dau-truong-colosseum.jpg",
-oceo:"../hinh-anh/lichsu/bai10-hat-chuoi-oc-eo.jpg",
-myson:"../hinh-anh/lichsu/bai10-thanh-dia-my-son.jpg",
-angkor:"../hinh-anh/lichsu/bai10-angkor-wat.jpg",khaoco:"../hinh-anh/lichsu/minh-hoa-khao-co.webp",sanbat:"../hinh-anh/lichsu/minh-hoa-san-bat.webp",hangda:"../hinh-anh/lichsu/minh-hoa-hang-da.webp",langban:"../hinh-anh/lichsu/minh-hoa-lang-ban.webp",xayktt:"../hinh-anh/lichsu/minh-hoa-xay-kim-tu-thap.webp",andoco:"../hinh-anh/lichsu/minh-hoa-an-do-co.webp",phatgiao:"../hinh-anh/lichsu/minh-hoa-phat-giang-dao.webp",tolua:"../hinh-anh/lichsu/minh-hoa-con-duong-to-lua.webp",chohylap:"../hinh-anh/lichsu/minh-hoa-cho-hy-lap.webp",olympic:"../hinh-anh/lichsu/minh-hoa-olympic.webp",giacdau:"../hinh-anh/lichsu/minh-hoa-giac-dau.webp",langdna:"../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp",baotang:"../hinh-anh/lichsu/minh-hoa-bao-tang.webp",quansattroi:"../hinh-anh/lichsu/minh-hoa-quan-sat-troi.webp",songnin:"../hinh-anh/lichsu/minh-hoa-song-nin.webp",suahoathach:"../hinh-anh/lichsu/sua-hoa-thach-hang.webp",suahailuom:"../hinh-anh/lichsu/sua-phu-nu-hai-luom.webp",suagiaicap:"../hinh-anh/lichsu/sua-xa-hoi-giai-cap.webp",suchuviet:"../hinh-anh/lichsu/sua-chu-viet-hai-nen.webp",suadangcap:"../hinh-anh/lichsu/sua-dang-cap-an-do.webp",suatoanhoc:"../hinh-anh/lichsu/sua-toan-hoc-an-do.webp",suahoangha:"../hinh-anh/lichsu/sua-song-hoang-ha.webp",suasuthi:"../hinh-anh/lichsu/sua-su-thi-hy-lap.webp",suaolympus:"../hinh-anh/lichsu/sua-dinh-olympus.webp",sualuanuoc:"../hinh-anh/lichsu/sua-van-minh-lua-nuoc.webp",sualamchung:"../hinh-anh/lichsu/sua-lam-chung-huong-chung.webp"};
+
 /* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ] — 100% thẻ đều có hình */
-const CARDS=[
-["Lịch sử là gì?","Là tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người.","baotang","kb"],
-["Kể tên 3 loại tư liệu lịch sử.","Tư liệu hiện vật – tư liệu chữ viết – tư liệu truyền miệng.","khaoco"],
-["Trống đồng, rìu đá thuộc loại tư liệu nào?","Tư liệu hiện vật — đồ vật còn lại đến ngày nay.","dongson","kb"],
-["Học lịch sử giúp em điều gì?","Biết cội nguồn của mình, rút bài học từ quá khứ và thêm yêu quê hương, đất nước.","stele"],
-["Tư liệu truyền miệng là gì? Cho một ví dụ.","Chuyện được kể lại bằng miệng qua nhiều đời, ví dụ: truyền thuyết Sơn Tinh – Thủy Tinh.","campfire","flick"],
-["1 thập kỉ, 1 thế kỉ, 1 thiên niên kỉ bằng bao nhiêu năm?","Thập kỉ = 10 năm • Thế kỉ = 100 năm • Thiên niên kỉ = 1000 năm.","sandclock"],
-["Năm 2026 thuộc thế kỉ nào?","Thế kỉ XXI (21) — vì thế kỉ XXI kéo dài từ năm 2001 đến 2100.","sundial"],
-["Năm 500 TCN và năm 200 TCN, năm nào đến trước (xưa hơn)?","Năm 500 TCN — số TCN càng lớn thì càng xưa.","sandclock"],
-["Âm lịch và dương lịch được tính dựa vào đâu?","Âm lịch theo chuyển động của Mặt Trăng; dương lịch theo Trái Đất quay quanh Mặt Trời.","quansattroi"],
-["Xếp đúng thứ tự 4 chặng tiến hóa của loài người.","Người tối cổ → Người khéo léo → Người đứng thẳng → Người tinh khôn.","skulls","strip"],
-["Người tối cổ xuất hiện ở đâu, cách đây khoảng bao lâu?","Ở Đông Phi, cách đây khoảng 4 triệu năm.","evo1","kb"],
-["Người khéo léo (Homo habilis) nổi bật ở điểm nào?","Biết chế tạo công cụ bằng đá — công cụ đầu tiên của loài người.","evo2"],
-["Người đứng thẳng (Homo erectus) gắn với điều kì diệu nào?","Biết dùng lửa: nấu chín thức ăn, sưởi ấm, xua đuổi thú dữ.","evo3","kb"],
-["Người tinh khôn (Homo sapiens) có gì khác biệt nhất?","Bộ não lớn, cơ thể gần như người ngày nay; biết mài đá, vẽ tranh trong hang.","evo4"],
-["Dấu tích người tối cổ ở Việt Nam được tìm thấy ở đâu?","Ở hang Thẩm Khuyên và Thẩm Hai (Lạng Sơn) — những chiếc răng hóa thạch.","suahoathach"],
-["Bầy người nguyên thủy là gì?","Nhóm vài chục người sống chung với nhau, cùng săn bắt – hái lượm để kiếm ăn.","sanbat"],
-["Ở công xã thị tộc, mọi người LÀM … và HƯỞNG …?","Làm chung – hưởng chung: cùng lao động, chia đều sản phẩm, không ai giàu hơn ai.","sualamchung","kb"],
-["Vì sao xã hội nguyên thủy theo chế độ mẫu hệ?","Vì phụ nữ hái lượm ổn định, lại nuôi dạy con trẻ nên là trung tâm của thị tộc.","suahailuom"],
-["'Cách mạng đá mới' nghĩa là gì?","Con người biết trồng trọt, chăn nuôi và mài đá làm công cụ — không còn chỉ phụ thuộc vào săn bắt, hái lượm.","polishedaxe"],
-["Người nguyên thủy thường sống ở đâu và kiếm sống bằng cách nào?","Sống trong hang động, mái đá gần sông suối; kiếm sống bằng săn bắt và hái lượm.","hangda"],
-["Kim loại đầu tiên con người biết sử dụng là gì?","Là đồng — mở đầu thời đại đồ đồng.","dagger"],
-["Vì sao xã hội nguyên thủy dần phân hóa giàu – nghèo?","Nhờ công cụ kim loại, sản xuất có của dư thừa; của dư rơi vào tay một số người → sinh tư hữu, giàu – nghèo.","langban"],
-["Chế độ phụ hệ thay thế mẫu hệ khi nào?","Khi nam giới trở thành lực lượng chính trong sản xuất (cày bừa, chăn nuôi, rèn đúc) và giữ vai trò chủ chốt trong gia đình.","terraces","kb"],
-["Cuối thời nguyên thủy, xã hội chuyển biến thành xã hội gì?","Xã hội có giai cấp — nhà nước sắp ra đời.","suagiaicap"],
-["Văn minh Ai Cập cổ đại hình thành bên dòng sông nào?","Sông Nin — con sông dài, hiền hòa, bồi đắp phù sa màu mỡ.","songnin"],
-["Kim tự tháp được xây để làm gì? Kim tự tháp lớn nhất tên là gì?","Là lăng mộ cho các Pha-ra-ông; lớn nhất là kim tự tháp Kê-ốp.","xayktt"],
-["Người Ai Cập và người Lưỡng Hà viết chữ gì?","Ai Cập: chữ tượng hình; Lưỡng Hà: chữ hình nêm (khắc trên đất sét).","suchuviet"],
-["Lưỡng Hà nằm giữa hai con sông nào? Nay thuộc nước nào?","Giữa sông Ti-grơ và sông Ơ-phrát; nay là I-rắc.","map"],
-["Vua Ha-mu-ra-bi nổi tiếng vì điều gì?","Ban hành bộ luật thành văn nổi tiếng, vào thế kỉ XVIII TCN.","hammurabi"],
-["Văn minh Ấn Độ cổ đại hình thành bên hai sông nào?","Sông Ấn và sông Hằng.","ganges"],
-["Trong xã hội Ấn Độ cổ, đẳng cấp cao nhất và thấp nhất là gì?","Cao nhất: Bà La Môn; thấp nhất: Su-đra (người lao động, phục dịch).","suadangcap"],
-["Phật giáo do ai sáng lập, vào khoảng thế kỉ nào?","Do Thích Ca Mâu Ni sáng lập, vào thế kỉ VI TCN.","phatgiao"],
-["Thành tựu toán học nổi tiếng nhất của Ấn Độ cổ đại là gì?","Sáng tạo ra các chữ số (mà ta dùng ngày nay) và số 0, cùng hệ đếm thập phân.","suatoanhoc"],
-["Hai thành phố cổ nổi tiếng của văn minh sông Ấn tên là gì?","Mô-hen-giô Đa-rô và Ha-ráp-pa.","mohenjo"],
-["Văn minh Trung Quốc cổ đại hình thành ở lưu vực sông nào?","Sông Hoàng Hà (sau mở rộng xuống lưu vực Trường Giang).","suahoangha"],
-["Năm 221 TCN, Trung Quốc có sự kiện lớn nào?","Tần Thủy Hoàng thống nhất Trung Quốc, lập nhà Tần.","terracotta"],
-["Vạn Lí Trường Thành được xây dựng để làm gì?","Để phòng thủ, ngăn quân du mục từ phương Bắc xâm nhập.","greatwall"],
-["Chữ viết cổ nhất của Trung Quốc được khắc trên gì?","Trên giáp cốt — xương thú và mai rùa (gọi là chữ giáp cốt).","oraclebone"],
-["Con đường tơ lụa nối Trung Quốc với những đâu?","Nối Trung Quốc với Trung Á và phương Tây — đường buôn bán tơ lụa, gia vị, gốm sứ.","tolua"],
-["Thế vận hội Olympic bắt nguồn từ đâu, bắt đầu từ năm nào?","Từ Hy Lạp cổ đại, bắt đầu năm 776 TCN.","olympic"],
-["Thành bang A-ten (Hy Lạp) nổi tiếng vì điều gì?","Vì chế độ dân chủ cổ đại — người dân được bàn bạc việc chung.","chohylap"],
-["Hai bộ sử thi nổi tiếng của Hy Lạp cổ đại là gì?","I-li-át và Ô-đi-xê (của Hô-me).","suasuthi"],
-["Đấu trường Cô-li-dê là công trình của nền văn minh nào?","Của La Mã cổ đại — nơi tổ chức các cuộc đấu võ, biểu diễn.","giacdau"],
-["Vị thần đứng đầu trong thần thoại Hy Lạp sống ở đâu?","Thần Dớt (Zeus) — sống trên đỉnh Ô-lim-pơ.","suaolympus"],
-["Vương quốc Phù Nam nằm ở khu vực nào?","Ở hạ lưu sông Mê Công — vùng phía nam Việt Nam và Campuchia ngày nay.","oceo"],
-["Óc Eo là gì?","Là thương cảng (bến cảng buôn bán) sầm uất của vương quốc Phù Nam.","langdna"],
-["Thánh địa Mỹ Sơn là di tích của vương quốc cổ nào?","Của vương quốc Chăm-pa ở miền Trung Việt Nam.","myson"],
-["Nền văn minh đặc trưng của cư dân Đông Nam Á cổ là gì?","Văn minh lúa nước — trồng lúa ở vùng khí hậu gió mùa nóng ẩm, mưa nhiều.","sualuanuoc"]
-];
+/* Du lieu the (flashcard) da tach sang file cards-data.js — dung chung cho trang hoc va trang bai tap. */
 /* Câu hỏi gợi nhớ: bấm để hiện/ẩn đáp án */
 document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
 /* Flashcard */
@@ -1020,5 +939,71 @@ showPage(curPage,false);
 /* The lat mini "Nho nhanh": bam de lat, khong cham diem, khong luu trang thai */
 document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('click',function(){c.classList.toggle('flipped');});});
 </script>
+
+
+
+
+<script>
+/* ===== CHON BAI GON 2 DONG (v2): thay luoi nut chon bai bang o select "so bai".
+   - Nut trung (thanh tren/duoi) duoc gop theo ma bai (data-i hoac noi dung nut).
+   - Moi thanh dieu huong co mot o select rieng, cac o tu dong bo nhau.
+   - Select van goi click() cua nut bai goc nen giu nguyen logic chuyen bai cua trang. ===== */
+(function(){
+  function rawBtns(){
+    var sels=['#pickrow button','.viewctl .chip','.viewctl .vchip','.nv-chip'];
+    for(var i=0;i<sels.length;i++){ var b=document.querySelectorAll(sels[i]); if(b.length>1) return Array.prototype.slice.call(b); }
+    return [];
+  }
+  function keyOf(b){ var k=b.getAttribute('data-i'); return (k!==null&&k!=='') ? 'i'+k : 't'+b.textContent.replace(/\s+/g,' ').trim(); }
+  function init(){
+    var btns=rawBtns(); if(!btns.length) return false;
+    if(document.querySelector('.bai-sel')) return true;
+    var keys=[], firstByKey={}, containers=[];
+    btns.forEach(function(b){
+      var k=keyOf(b);
+      if(!(k in firstByKey)){ firstByKey[k]=b; keys.push(k); }
+      if(containers.indexOf(b.parentElement)<0) containers.push(b.parentElement);
+    });
+    function navBoxFor(box){
+      var pure=true;
+      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0) pure=false; });
+      if(!pure) return box;
+      var n=document.querySelector('#picker .navrow')||document.querySelector('.prevnext');
+      if(n && box!==n) return n;
+      var vb=box.parentElement.querySelector('.vnavb'); if(vb) return vb.parentElement;
+      return box;
+    }
+    var sels=[];
+    containers.forEach(function(box){
+      var target=navBoxFor(box);
+      var sel=document.createElement('select');
+      sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
+      keys.forEach(function(k){
+        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+      });
+      sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
+      if(target===box) box.insertBefore(sel, box.firstChild);
+      else target.insertBefore(sel, target.firstChild);
+      sels.push(sel);
+      if(target!==box) box.style.display='none';
+      else btns.forEach(function(b){ if(b.parentElement===box) b.style.display='none'; });
+    });
+    function syncAll(){
+      var cur=null;
+      btns.forEach(function(b){ if(b.classList.contains('on')) cur=keyOf(b); });
+      if(cur===null) return;
+      sels.forEach(function(s){ if(s.value!==cur) s.value=cur; });
+    }
+    new MutationObserver(function(){ setTimeout(syncAll,30); }).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class']});
+    syncAll();
+    return true;
+  }
+  if(!init()){
+    var n=0, iv=setInterval(function(){ n++; if(init()||n>20) clearInterval(iv); },300);
+    document.addEventListener('DOMContentLoaded', init);
+  }
+})();
+</script>
+
 </body>
 </html>

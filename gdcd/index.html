@@ -692,71 +692,11 @@
   Nội dung bám theo SGK “Giáo dục công dân 6” — bộ Kết nối tri thức với cuộc sống (học kì 1: Bài 1–6). Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
 </footer>
 
+<script src="cards-data.js"></script>
 <script>
-const IMG={
-sumvay:"../hinh-anh/gdcd/bai1-gia-dinh-sum-vay.webp",
-giapha:"../hinh-anh/gdcd/bai1-ong-ke-gia-pha.webp",
-banhchung:"../hinh-anh/gdcd/bai1-goi-banh-chung.webp",
-hieuhoc:"../hinh-anh/gdcd/bai1-hieu-hoc.webp",
-giupnha:"../hinh-anh/gdcd/bai1-giup-viec-nha.webp",
-giupba:"../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp",
-giupban:"../hinh-anh/gdcd/bai2-giup-ban-hoc.webp",
-chamob:"../hinh-anh/gdcd/bai2-cham-ong-ba.webp",
-quyengop:"../hinh-anh/gdcd/bai2-quyen-gop.webp",
-namtay:"../hinh-anh/gdcd/bai2-ban-be-nam-tay.webp",
-tuoicay:"../hinh-anh/gdcd/bai3-lam-viec-deu-dan.webp",
-tapxe:"../hinh-anh/gdcd/bai3-tap-xe-dap.webp",
-hocbai:"../hinh-anh/gdcd/bai3-hoc-bai.webp",
-caylon:"../hinh-anh/gdcd/bai3-cay-lon.webp",
-thorua:"../hinh-anh/gdcd/bai3-tho-va-rua.webp",
-nhanloi:"../hinh-anh/gdcd/bai4-nhan-loi.webp",
-thinghiem:"../hinh-anh/gdcd/bai4-thi-nghiem-tuc.webp",
-tracua:"../hinh-anh/gdcd/bai4-tra-cua-roi.webp",
-tintuong:"../hinh-anh/gdcd/bai4-duoc-tin-tuong.webp",
-chancuu:"../hinh-anh/gdcd/bai4-be-chan-cuu.webp",
-chuanbi:"../hinh-anh/gdcd/bai5-tu-chuan-bi.webp",
-donphong:"../hinh-anh/gdcd/bai5-don-phong.webp",
-trucnhat:"../hinh-anh/gdcd/bai5-truc-nhat.webp",
-tutin:"../hinh-anh/gdcd/bai5-tu-tin.webp",
-truocsau:"../hinh-anh/gdcd/bai5-truoc-sau.webp",
-guong:"../hinh-anh/gdcd/bai6-truoc-guong.webp",
-diemmanh:"../hinh-anh/gdcd/bai6-diem-manh.webp",
-langnghe:"../hinh-anh/gdcd/bai6-lang-nghe.webp",
-thusuc:"../hinh-anh/gdcd/bai6-thu-suc.webp",
-hocnhom:"../hinh-anh/gdcd/bai6-hoc-nhom.webp"};
+
 /* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ đúng khái niệm của thẻ] */
-const CARDS=[
-["Truyền thống gia đình là gì?","Những điều tốt đẹp của gia đình, được truyền từ đời này sang đời khác.","giapha"],
-["Ngày giỗ trong gia đình là dịp để làm gì?","Để con cháu tưởng nhớ ông bà, tổ tiên và sum họp cùng nhau.","sumvay"],
-["Cả nhà cùng gói bánh chưng ngày Tết là đang làm gì?","Đang giữ gìn và phát huy truyền thống tốt đẹp của gia đình, dân tộc.","banhchung"],
-["Truyền thống hiếu học nghĩa là gì?","Là truyền thống coi trọng việc học; con cháu trong nhà đều chăm học, ham học.","hieuhoc"],
-["Em làm việc gì để giữ truyền thống gia đình?","Học chăm, ngoan ngoãn, giúp việc nhà, nhớ ngày giỗ và ngày Tết của gia đình.","giupnha"],
-["Yêu thương con người là gì?","Là quan tâm, giúp đỡ và làm những điều tốt đẹp cho người khác.","giupba"],
-["Ở trường, việc nào thể hiện yêu thương bạn bè?","Giảng bài cho bạn chưa hiểu, đỡ bạn khi ngã, chia sẻ đồ dùng với bạn.","giupban"],
-["Khi ông bà bị ốm, em nên làm gì?","Chăm sóc ông bà: mang cháo, mang nước, hỏi thăm ông bà.","chamob"],
-["Quyên góp sách vở cho bạn vùng lũ là việc làm gì?","Là việc làm thể hiện yêu thương, chia sẻ với người gặp khó khăn.","quyengop"],
-["Câu ca dao nào dạy ta yêu thương con người?","“Thương người như thể thương thân” — thương người như thương chính mình.","namtay"],
-["Siêng năng là gì?","Là làm việc chăm chỉ, đều đặn mỗi ngày.","tuoicay"],
-["Kiên trì là gì?","Là quyết tâm làm đến cùng, gặp khó cũng không bỏ cuộc.","tapxe"],
-["Học sinh siêng năng, kiên trì biểu hiện thế nào trong học tập?","Làm bài mỗi ngày, chưa hiểu thì học lại và hỏi thầy cô, không bỏ dở.","hocbai"],
-["Siêng năng, kiên trì mang lại điều gì?","Giúp em làm được việc khó và đi đến thành công — như cây được chăm mỗi ngày sẽ trĩu quả.","caylon"],
-["Chuyện Thỏ và Rùa dạy em điều gì?","Phải kiên trì, không chủ quan, không bỏ cuộc — chậm mà đều vẫn thắng.","thorua"],
-["Tôn trọng sự thật là gì?","Là nói đúng sự thật, làm đúng sự thật và bảo vệ điều đúng.","nhanloi"],
-["Trong giờ kiểm tra, việc làm nào là tôn trọng sự thật?","Tự làm bài bằng sức mình, không chép bài bạn, không dùng phao.","thinghiem"],
-["Nhặt được của rơi, em nên làm gì?","Trả lại cho người mất hoặc nộp cho thầy cô, chú bảo vệ.","tracua"],
-["Vì sao người nói thật được mọi người quý mến?","Vì ai cũng tin tưởng người trung thực và yên tâm giao việc cho họ.","tintuong"],
-["Chuyện “Chú bé chăn cừu” dạy em bài học gì?","Không được nói dối: nói dối nhiều lần, khi nói thật cũng không ai tin.","chancuu"],
-["Tự lập là gì?","Là tự làm những việc của mình, không ỷ lại vào người khác.","chuanbi"],
-["Ở nhà, việc nào cho thấy em tự lập?","Tự gấp chăn, tự dọn phòng, tự chuẩn bị cặp sách cho hôm sau.","donphong"],
-["Ở trường, học sinh tự lập biểu hiện thế nào?","Tự làm bài tập, tự trực nhật, giữ gìn đồ dùng của mình.","trucnhat"],
-["Tự lập mang lại điều gì tốt cho em?","Giúp em tự tin, trưởng thành và được mọi người yên tâm, khen ngợi.","tutin"],
-["Nhìn hình trước – sau: bạn Tùng thay đổi thế nào?","Trước: mẹ làm thay mọi việc. Sau: Tùng tự buộc giày, tự xách cặp — đó là tự lập.","truocsau"],
-["Tự nhận thức bản thân là gì?","Là hiểu rõ về chính mình: mình giỏi việc gì, chưa giỏi việc gì, thích điều gì.","guong"],
-["Nhìn hình: bạn gái phát hiện điểm mạnh của mình là gì?","Bạn vẽ tranh đẹp — vẽ là điểm mạnh của bạn.","diemmanh"],
-["Lắng nghe góp ý của thầy cô, bạn bè giúp em điều gì?","Giúp em biết điểm nào mình chưa tốt để sửa — đó là một cách hiểu mình.","langnghe"],
-["Vì sao nên thử làm nhiều việc khác nhau?","Vì thử rồi em mới biết mình giỏi việc gì, hợp với việc gì.","thusuc"],
-["Em có thể nhờ ai giúp mình sửa điểm yếu?","Nhờ thầy cô và bạn bè giỏi hơn chỉ cho em; học cùng bạn là cách sửa điểm yếu rất tốt.","hocnhom"]
-];
+/* Du lieu the (flashcard) da tach sang file cards-data.js — dung chung cho trang hoc va trang bai tap. */
 /* Câu hỏi gợi nhớ + kiểm tra nhanh: bấm để hiện/ẩn đáp án */
 document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
 /* Thẻ lật mini ⚡ Nhớ nhanh: bấm để lật, không chấm điểm, không lưu trạng thái */
@@ -1056,5 +996,71 @@ showPage(curPage,false);
   window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
 })();
 </script>
+
+
+
+
+<script>
+/* ===== CHON BAI GON 2 DONG (v2): thay luoi nut chon bai bang o select "so bai".
+   - Nut trung (thanh tren/duoi) duoc gop theo ma bai (data-i hoac noi dung nut).
+   - Moi thanh dieu huong co mot o select rieng, cac o tu dong bo nhau.
+   - Select van goi click() cua nut bai goc nen giu nguyen logic chuyen bai cua trang. ===== */
+(function(){
+  function rawBtns(){
+    var sels=['#pickrow button','.viewctl .chip','.viewctl .vchip','.nv-chip'];
+    for(var i=0;i<sels.length;i++){ var b=document.querySelectorAll(sels[i]); if(b.length>1) return Array.prototype.slice.call(b); }
+    return [];
+  }
+  function keyOf(b){ var k=b.getAttribute('data-i'); return (k!==null&&k!=='') ? 'i'+k : 't'+b.textContent.replace(/\s+/g,' ').trim(); }
+  function init(){
+    var btns=rawBtns(); if(!btns.length) return false;
+    if(document.querySelector('.bai-sel')) return true;
+    var keys=[], firstByKey={}, containers=[];
+    btns.forEach(function(b){
+      var k=keyOf(b);
+      if(!(k in firstByKey)){ firstByKey[k]=b; keys.push(k); }
+      if(containers.indexOf(b.parentElement)<0) containers.push(b.parentElement);
+    });
+    function navBoxFor(box){
+      var pure=true;
+      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0) pure=false; });
+      if(!pure) return box;
+      var n=document.querySelector('#picker .navrow')||document.querySelector('.prevnext');
+      if(n && box!==n) return n;
+      var vb=box.parentElement.querySelector('.vnavb'); if(vb) return vb.parentElement;
+      return box;
+    }
+    var sels=[];
+    containers.forEach(function(box){
+      var target=navBoxFor(box);
+      var sel=document.createElement('select');
+      sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
+      keys.forEach(function(k){
+        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+      });
+      sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
+      if(target===box) box.insertBefore(sel, box.firstChild);
+      else target.insertBefore(sel, target.firstChild);
+      sels.push(sel);
+      if(target!==box) box.style.display='none';
+      else btns.forEach(function(b){ if(b.parentElement===box) b.style.display='none'; });
+    });
+    function syncAll(){
+      var cur=null;
+      btns.forEach(function(b){ if(b.classList.contains('on')) cur=keyOf(b); });
+      if(cur===null) return;
+      sels.forEach(function(s){ if(s.value!==cur) s.value=cur; });
+    }
+    new MutationObserver(function(){ setTimeout(syncAll,30); }).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class']});
+    syncAll();
+    return true;
+  }
+  if(!init()){
+    var n=0, iv=setInterval(function(){ n++; if(init()||n>20) clearInterval(iv); },300);
+    document.addEventListener('DOMContentLoaded', init);
+  }
+})();
+</script>
+
 </body>
 </html>

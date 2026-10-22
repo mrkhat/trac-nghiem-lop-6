@@ -187,3 +187,6 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 
 /* Tren man hinh nho (<=900px): thanh chon bai .viewbar khong dinh sticky nua de khoi che noi dung khi cuon — cung mot loi nhu .viewctl cua KHTN/Tieng Anh da sua 21/10 */
 @media (max-width:900px){.viewbar{position:static}}
+
+/* Chon bai gon 2 dong: o select so bai trong hang Truoc/Sau (thay luoi nut day 4-5 dong) */
+.bai-sel{flex:1 1 170px;min-height:48px;font-size:17px;font-family:inherit;border:2px solid #90a4ae;border-radius:10px;padding:8px;background:#fff;color:#263238}
