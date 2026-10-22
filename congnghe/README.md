@@ -43,5 +43,5 @@ Căn cứ phạm vi: khung kế hoạch dạy học mẫu (Phụ lục III, CV 5
 
 - **Trường của bé có đúng dùng bộ Kết nối tri thức không** — chưa xác nhận (nếu là Cánh diều/Chân trời sáng tạo thì chương mục khác).
 - Phạm vi giữa kì/cuối kì từng trường cắt khác nhau: nhãn GK ở đây theo mẫu phổ biến (giữa kì = Chương I). Chương III theo PPCT mẫu bắt đầu cuối HK1 và học tiếp đầu HK2 — trang gắn nhãn "Mở rộng học kì 1" cho Bài 7–9 để dùng được ở cả hai trường hợp.
-- Đáp án trắc nghiệm và nội dung tóm lược do người biên soạn tự làm theo SGK, **chưa đối chiếu đáp án chính thức**; một vài chi tiết diễn đạt cho trẻ dễ hiểu (ví dụ gọi bước xây nhà là "Vẽ – Móng – Thô – Đẹp – Ở") là cách nhớ phụ, không phải thuật ngữ SGK.
+- Đáp án trắc nghiệm và nội dung tóm lược do người biên soạn tự làm theo SGK, **chưa đối chiếu đáp án chính thức**; một vài chi tiết diễn đạt cho trẻ dễ hiểu (ví dụ gọi bước xây nhà là "Vẽ – Thô – Đẹp – Ở") là cách nhớ phụ, không phải thuật ngữ SGK.
 - `assets/common.css` do đợt thống nhất CSS tạo song song — đã kiểm tra tại thời điểm bàn giao: file tồn tại và chứa đủ mọi class module này dùng.
