@@ -184,3 +184,6 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .mini-back{background:#e8f5e9;border:2px solid #43a047;color:#14532d;transform:rotateY(180deg)}
 .mini-face img{max-width:100%;max-height:105px;border-radius:8px;margin-bottom:8px;object-fit:cover}
 .mini-tag{font-size:14px;font-weight:bold;color:#e65100;margin-bottom:4px}
+
+/* Tren man hinh nho (<=900px): thanh chon bai .viewbar khong dinh sticky nua de khoi che noi dung khi cuon — cung mot loi nhu .viewctl cua KHTN/Tieng Anh da sua 21/10 */
+@media (max-width:900px){.viewbar{position:static}}
