@@ -17,19 +17,19 @@
     "question": "Tại sao sau khi làm thí nghiệm xong cần phải rửa sạch tay bằng xà phòng?",
     "options": [
       "A. Loại bỏ những hóa chất gây ăn mòn vẫn bám trên tay.",
-      "B. Tránh gây nguy hiểm cho những người sau tiếp xúc làm việc trong phòng thí nghiệm.",
+      "B. Để tay sạch đẹp trước khi ra về.",
       "C. Tránh vi khuẩn nguy hại tới sức khỏe có thể dính trên tay khi làm thí nghiệm.",
       "D. Cả A và C đều đúng."
     ],
     "answer": 3,
-    "explanation": "Vừa loại bỏ hóa chất ăn mòn, vừa tránh vi khuẩn nguy hại.",
+    "explanation": "Vừa loại bỏ hóa chất ăn mòn, vừa tránh vi khuẩn nguy hại. Rửa tay chỉ làm sạch tay của chính người làm thí nghiệm, không làm sạch bàn, ghế, dụng cụ cho người sau.",
     "bai": 2
   },
   {
     "id": 3,
     "question": "Trên vành của mỗi loại kính lúp có ghi: 3x, 5x,… số chỉ đó có ý nghĩa gì?",
     "options": [
-      "A. Là số bội giác cho biết kích thước ảnh quan sát được trong kính.",
+      "A. Cho biết độ dày của thấu kính (đơn vị xăng-ti-mét).",
       "B. Là số bội giác cho biết độ lớn của vật.",
       "C. Là số bội giác cho biết vị trí của vật.",
       "D. Là số bội giác cho biết khả năng phóng to ảnh của một vật."
@@ -296,7 +296,7 @@
     ],
     "answer": 1,
     "explanation": "Cùng khối lượng nhưng khác chất nên thể tích khác nhau.",
-    "bai": 10
+    "bai": 13
   },
   {
     "id": 24,
@@ -326,7 +326,7 @@
   },
   {
     "id": 26,
-    "question": "Lực kế lò xo có độ chia nhỏ nhất và giới hạn đo là? (theo hình trong sách)",
+    "question": "Lực kế lò xo thường dùng trong phòng thực hành có giới hạn đo và độ chia nhỏ nhất là bao nhiêu?",
     "options": [
       "A. ĐCNN 0,2 N và GHĐ 10 N.",
       "B. ĐCNN 10 N và GHĐ 0,2 N.",
@@ -386,7 +386,7 @@
       "D. Nam châm hút những mạt sắt ở gần nó."
     ],
     "answer": 1,
-    "explanation": "Ấn chân xuống sàn chỉ làm sàn/bàn chân biến dạng, không chuyển động.",
+    "explanation": "Khi ấn mạnh, bàn chân và mặt sàn đều bị ép, biến dạng một chút (rất ít nên khó nhìn thấy) nhưng không có vật nào chuyển động đi đâu — nên đây là lực chỉ gây biến dạng.",
     "bai": 13
   },
   {
@@ -419,7 +419,7 @@
     "id": 33,
     "question": "Không may làm vỡ nhiệt kế thủy ngân, cần làm gì khi thu dọn?",
     "options": [
-      "A. Đóng kín cửa, đeo khẩu trang và găng tay, dùng chổi mềm quét dọn.",
+      "A. Đóng kín cửa, đeo khẩu trang và găng tay, dùng chổi mềm quét gom cẩn thận và báo ngay cho giáo viên.",
       "B. Mở toang cửa sổ cho thủy ngân bay hết.",
       "C. Lấy chổi hót nhanh, không đeo khẩu trang.",
       "D. Gọi cấp cứu y tế."
@@ -432,12 +432,12 @@
     "id": 34,
     "question": "Không may làm vỡ ống hóa chất xuống sàn, cần làm gì đầu tiên?",
     "options": [
-      "A. Lấy tay hót hóa chất vào ống khác.",
+      "A. Báo ngay cho giáo viên, rồi trải giấy thấm lên dung dịch bị đổ.",
       "B. Dùng tay nhặt ống vỡ vào thùng rác.",
       "C. Trải giấy thấm lên dung dịch bị đổ.",
       "D. Gọi cấp cứu y tế."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Trải giấy thấm để ngăn hóa chất lan ra.",
     "bai": 2
   },
@@ -482,15 +482,15 @@
   },
   {
     "id": 38,
-    "question": "Kính hiển vi quang học có thể phóng to ảnh:",
+    "question": "Độ phóng đại của kính hiển vi quang học được tính bằng cách nào?",
     "options": [
-      "A. Khoảng từ 3 đến 20 lần.",
-      "B. Khoảng từ 40 đến 3000 lần.",
-      "C. Khoảng từ 10 đến 1000 lần.",
-      "D. Khoảng từ 5 đến 2000 lần."
+      "A. Độ phóng đại của vật kính cộng với độ phóng đại của thị kính.",
+      "B. Độ phóng đại của vật kính nhân với độ phóng đại của thị kính.",
+      "C. Độ phóng đại của thị kính trừ đi độ phóng đại của vật kính.",
+      "D. Độ phóng đại của vật kính chia cho độ phóng đại của thị kính."
     ],
     "answer": 1,
-    "explanation": "Kính hiển vi quang học: 40 đến 3000 lần.",
+    "explanation": "Độ phóng đại của kính hiển vi bằng độ phóng đại của vật kính nhân với độ phóng đại của thị kính.",
     "bai": 4
   },
   {
@@ -549,7 +549,7 @@
     "id": 43,
     "question": "Để cân vật 257,5g với các quả cân 2g, 5g, 10g, 50g, 200g, 200mg, 500g, 500mg, dùng quả nào?",
     "options": [
-      "A. 200g, 200mg, 50g, 5g, 50g.",
+      "A. 200g, 50g, 5g, 2g, 200mg.",
       "B. 2g, 5g, 50g, 200g, 500mg.",
       "C. 2g, 5g, 10g, 200g, 500g.",
       "D. 2g, 5g, 10g, 200mg, 500mg."
@@ -599,7 +599,7 @@
   },
   {
     "id": 47,
-    "question": "Các phép đổi: (1) 1 tấn = 1000 kg (2) 600g = 6kg (3) 60kg = 6 tạ (4) 34,5 yến = 345kg (5) 12 lạng = 1,2kg (6) 0,2 tạ = 200kg. Số phép đúng là:",
+    "question": "Các phép đổi:<br>(1) 1 tấn = 1000 kg<br>(2) 600g = 6kg<br>(3) 60kg = 6 tạ<br>(4) 34,5 yến = 345kg<br>(5) 12 lạng = 1,2kg<br>(6) 0,2 tạ = 200kg.<br>Số phép đúng là:",
     "options": [
       "A. 1.",
       "B. 2.",
@@ -612,7 +612,7 @@
   },
   {
     "id": 48,
-    "question": "Các phát biểu về cách đo khối lượng: (1) 6 bước (2) ước lượng trước (3) chọn cân bất kì mình thích (4) đặt dứt khoát vật lên cân (5) hiệu chỉnh cân (6) đọc vạch bên phải đầu kim. Số phát biểu chưa đúng:",
+    "question": "Các phát biểu về cách đo khối lượng:<br>(1) 6 bước<br>(2) ước lượng trước<br>(3) chọn cân bất kì mình thích<br>(4) đặt dứt khoát vật lên cân<br>(5) hiệu chỉnh cân<br>(6) đọc kết quả theo vạch chia gần nhất với đầu kim.<br>Số phát biểu chưa đúng:",
     "options": [
       "A. 1.",
       "B. 2.",
@@ -620,7 +620,7 @@
       "D. 4."
     ],
     "answer": 1,
-    "explanation": "Sai: (3) phải chọn cân phù hợp; (4) phải đặt nhẹ nhàng.",
+    "explanation": "Chỉ có 2 phát biểu sai. Sai: (3) phải chọn cân có GHĐ và ĐCNN phù hợp với vật cần đo, không chọn cân tùy ý thích; (4) phải đặt vật nhẹ nhàng lên đĩa cân, đặt dứt khoát dễ làm hỏng cân. Các phát biểu còn lại đều đúng: quy trình đo gồm 6 bước (ước lượng → chọn cân → hiệu chỉnh → đặt vật → đặt quả cân → đọc kết quả), phải hiệu chỉnh cân trước khi đo và đọc kết quả theo vạch chia gần nhất với đầu kim.",
     "bai": 6
   },
   {
@@ -718,13 +718,13 @@
     "id": 56,
     "question": "Can xăng bốc cháy, cách chữa cháy phù hợp nhất?",
     "options": [
-      "A. Dùng bình chữa cháy gia đình phun vào",
+      "A. Dùng quạt thổi cho tắt lửa.",
       "B. Dùng cát đổ trùm lên.",
       "C. Phun nước.",
       "D. Dùng chăn khô đắp lên."
     ],
     "answer": 1,
-    "explanation": "Cát trùm lên để cách ly oxygen. Không dùng nước với xăng.",
+    "explanation": "Cát trùm lên để cách ly oxygen. Không dùng nước với xăng. Cát là cách sẵn có và phù hợp nhất ở đây.",
     "bai": 11
   },
   {
