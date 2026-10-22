@@ -711,7 +711,8 @@
    "Vùng biển đảo"
   ],
   "answer": 1,
-  "bai": 1
+  "bai": 1,
+  "explanation": "Nhà ba gian (thường có thêm hai chái) là kiểu nhà truyền thống quen thuộc ở vùng nông thôn Việt Nam từ xưa đến nay."
  },
  {
   "id": 56,
@@ -723,7 +724,8 @@
    "Rơm, tre, đất, nước"
   ],
   "answer": 2,
-  "bai": 2
+  "bai": 2,
+  "explanation": "Gạch, xi măng, cát và thép đều là vật liệu dùng để xây nhà. Các nhóm còn lại có giấy, vải, lá cây... không dùng để xây nhà được."
  },
  {
   "id": 57,
@@ -735,7 +737,8 @@
    "Tên của thợ xây nhà"
   ],
   "answer": 0,
-  "bai": 2
+  "bai": 2,
+  "explanation": "Bản vẽ thiết kế cho biết ngôi nhà sẽ có mấy phòng, cửa đặt ở đâu và kích thước từng phần, để thợ cứ theo đó mà xây."
  },
  {
   "id": 58,
@@ -747,7 +750,8 @@
    "Lợp mái nhà"
   ],
   "answer": 3,
-  "bai": 2
+  "bai": 2,
+  "explanation": "Ngói là vật liệu dùng để lợp lên mái nhà, giúp che mưa, che nắng cho ngôi nhà."
  },
  {
   "id": 59,
@@ -759,7 +763,8 @@
    "Mái nhà"
   ],
   "answer": 1,
-  "bai": 2
+  "bai": 2,
+  "explanation": "Kính trong, sáng nên thường được lắp vào cửa sổ để lấy ánh sáng và nhìn ra ngoài, không dùng làm móng, tường hay mái."
  },
  {
   "id": 60,
@@ -771,7 +776,8 @@
    "Mua nội thất trước"
   ],
   "answer": 2,
-  "bai": 2
+  "bai": 2,
+  "explanation": "Muốn xây nhà phải chuẩn bị đủ cả ba thứ: có đất để xây, có vật liệu để xây và có tiền để chi trả."
  },
  {
   "id": 61,
@@ -783,7 +789,8 @@
    "Mật khẩu điện thoại"
   ],
   "answer": 0,
-  "bai": 3
+  "bai": 3,
+  "explanation": "Khóa vân tay nhận ra dấu vân tay riêng của từng người trong nhà thì mới mở cửa, không cần chìa khóa như khóa thường."
  },
  {
   "id": 62,
@@ -795,7 +802,8 @@
    "Để quan sát, trông nhà và giữ an ninh"
   ],
   "answer": 3,
-  "bai": 3
+  "bai": 3,
+  "explanation": "Camera trong nhà thông minh giúp quan sát mọi việc trong nhà, trông nhà khi đi vắng và giữ an toàn, an ninh."
  },
  {
   "id": 63,
@@ -807,7 +815,8 @@
    "Truyền hình cáp"
   ],
   "answer": 1,
-  "bai": 3
+  "bai": 3,
+  "explanation": "Nhờ có kết nối in-tơ-net, điện thoại của em liên lạc được với các thiết bị ở nhà nên ở xa vẫn bật tắt, điều khiển được."
  },
  {
   "id": 64,
@@ -819,7 +828,8 @@
    "Rau xanh, trái cây"
   ],
   "answer": 2,
-  "bai": 4
+  "bai": 4,
+  "explanation": "Dầu ăn, mỡ, bơ và lạc (đậu phộng) là những thực phẩm chứa nhiều chất béo nhất. Cơm, bánh mì thuộc nhóm tinh bột; thịt, cá, trứng thuộc nhóm chất đạm."
  },
  {
   "id": 65,
@@ -831,7 +841,8 @@
    "Sáng mắt"
   ],
   "answer": 0,
-  "bai": 4
+  "bai": 4,
+  "explanation": "Chất xơ trong rau, củ, quả giúp ruột hoạt động tốt, tiêu hóa dễ dàng và tránh táo bón."
  },
  {
   "id": 66,
@@ -843,7 +854,8 @@
    "Ăn đúng bữa, uống đủ nước"
   ],
   "answer": 3,
-  "bai": 4
+  "bai": 4,
+  "explanation": "Ăn đúng bữa, đủ chất và uống đủ nước là thói quen ăn uống khoa học, giúp cơ thể khỏe mạnh. Bỏ bữa hay uống nước ngọt thay nước lọc đều có hại."
  },
  {
   "id": 67,
@@ -855,7 +867,8 @@
    "Trộn rau sống"
   ],
   "answer": 1,
-  "bai": 5
+  "bai": 5,
+  "explanation": "Kho cá là cách chế biến có dùng nhiệt vì phải đun nấu trên bếp cho cá chín. Nộm, sinh tố và trộn rau sống đều không dùng nhiệt."
  },
  {
   "id": 68,
@@ -867,7 +880,8 @@
    "Thực phẩm tự chín"
   ],
   "answer": 2,
-  "bai": 5
+  "bai": 5,
+  "explanation": "Bảo quản không đúng cách làm thực phẩm mau hư, mất chất dinh dưỡng và có thể gây đau bụng, ngộ độc khi ăn vào."
  },
  {
   "id": 69,
@@ -879,7 +893,8 @@
    "Đều làm từ thịt"
   ],
   "answer": 0,
-  "bai": 5
+  "bai": 5,
+  "explanation": "Nộm (gỏi), rau trộn và sinh tố đều là món chế biến không dùng nhiệt, thực phẩm được làm sạch, cắt nhỏ rồi trộn hoặc xay là ăn được."
  },
  {
   "id": 70,
@@ -891,7 +906,8 @@
    "Để cả nhà quây quần, thêm gắn kết yêu thương"
   ],
   "answer": 3,
-  "bai": 6
+  "bai": 6,
+  "explanation": "Dự án này để cả gia đình cùng làm và cùng ăn một bữa ăn, qua đó mọi người gần gũi, gắn kết và yêu thương nhau hơn."
  },
  {
   "id": 71,
@@ -903,7 +919,8 @@
    "Tính toán chi phí"
   ],
   "answer": 0,
-  "bai": 6
+  "bai": 6,
+  "explanation": "Sau khi lên thực đơn, đi chợ và nấu xong, bước cuối cùng của dự án là cả nhà cùng ngồi ăn bữa ăn do chính mình làm ra."
  },
  {
   "id": 72,
@@ -915,7 +932,8 @@
    "Chỉ nấu một món duy nhất"
   ],
   "answer": 1,
-  "bai": 6
+  "bai": 6,
+  "explanation": "Thực đơn cần có đủ các nhóm thực phẩm (tinh bột, đạm, béo, vitamin và chất xơ) thì bữa ăn mới đủ chất và tốt cho sức khỏe."
  },
  {
   "id": 73,
@@ -927,7 +945,8 @@
    "Mềm như tơ tằm"
   ],
   "answer": 2,
-  "bai": 7
+  "bai": 7,
+  "explanation": "Vải sợi hóa học có ưu điểm là bền, ít bị nhăn và mau khô, nên quần áo may bằng vải này dễ giặt, dễ bảo quản."
  },
  {
   "id": 74,
@@ -939,7 +958,8 @@
    "Bạn học giỏi môn gì"
   ],
   "answer": 0,
-  "bai": 7
+  "bai": 7,
+  "explanation": "Đồng phục có in tên và phù hiệu của trường nên nhìn vào là biết ngay bạn đó học trường nào."
  },
  {
   "id": 75,
@@ -951,7 +971,8 @@
    "Giống hệt bạn bè"
   ],
   "answer": 1,
-  "bai": 8
+  "bai": 8,
+  "explanation": "Chọn trang phục phải hợp với người mặc, hợp với việc mình làm và vừa với số tiền của gia đình, không phải cứ đắt là tốt."
  },
  {
   "id": 76,
@@ -963,7 +984,8 @@
    "Nơi thoáng gió"
   ],
   "answer": 3,
-  "bai": 8
+  "bai": 8,
+  "explanation": "Phơi quần áo ở nơi thoáng gió giúp quần áo mau khô và không bị ẩm mốc, hôi mùi như khi phơi ở nơi ẩm, kín."
  },
  {
   "id": 77,
@@ -975,7 +997,8 @@
    "Bỏ vào túi ni-lông kín ngay sau khi giặt"
   ],
   "answer": 0,
-  "bai": 8
+  "bai": 8,
+  "explanation": "Quần áo phải được giặt sạch và phơi thật khô rồi mới gấp cất vào tủ khô ráo, như vậy mới không bị ẩm mốc."
  },
  {
   "id": 78,
@@ -987,7 +1010,8 @@
    "Quần áo sản xuất năm nào"
   ],
   "answer": 1,
-  "bai": 8
+  "bai": 8,
+  "explanation": "Các kí hiệu trên nhãn mác hướng dẫn cách giặt và cách là (ủi) cho đúng với từng loại vải, để quần áo không bị hỏng."
  },
  {
   "id": 79,
@@ -999,7 +1023,8 @@
    "Chỉ người già mới mặc"
   ],
   "answer": 1,
-  "bai": 9
+  "bai": 9,
+  "explanation": "Thời trang hay quay vòng: kiểu đã cũ có thể sau một thời gian lại được nhiều người ưa chuộng và mặc trở lại."
  },
  {
   "id": 80,
@@ -1011,7 +1036,8 @@
    "Khỏe khoắn, thoải mái"
   ],
   "answer": 3,
-  "bai": 9
+  "bai": 9,
+  "explanation": "Trang phục phong cách thể thao chú trọng sự khỏe khoắn, thoải mái, dễ vận động, khác với phong cách lịch sự hay cầu kì."
  },
  {
   "id": 81,
@@ -1023,6 +1049,7 @@
    "Thời tiết nóng lên"
   ],
   "answer": 0,
-  "bai": 9
+  "bai": 9,
+  "explanation": "Thời trang thay đổi chủ yếu vì sở thích và cuộc sống của con người luôn thay đổi theo thời gian, nên kiểu quần áo cũng thay đổi theo."
  }
 ]
