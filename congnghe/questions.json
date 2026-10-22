@@ -14,14 +14,14 @@
  },
  {
   "id": 2,
-  "question": "Nhà ở gồm 3 phần chính nào?",
+  "question": "Nhà ở thường bao gồm các phần chính nào?",
   "options": [
-   "A. Cửa – tường – sân",
-   "B. Móng nhà – thân nhà – mái nhà",
-   "C. Gạch – ngói – gỗ",
-   "D. Phòng khách – bếp – sân"
+   "Chỉ có móng nhà và mái nhà",
+   "Móng nhà – thân nhà – mái nhà",
+   "Móng nhà, sàn nhà, khung nhà, tường nhà, mái nhà, cửa ra vào, cửa sổ",
+   "Phòng khách, phòng ngủ, bếp và nhà vệ sinh"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Đúng rồi! Nhớ thứ tự từ dưới lên: móng đỡ nhà, thân là nhà, mái che nhà.",
   "bai": 1
  },
@@ -75,7 +75,7 @@
   ],
   "answer": 1,
   "explanation": "Đúng rồi! Bê tông có thép bên trong thì rất cứng và chắc, gọi là bê tông cốt thép.",
-  "bai": 1
+  "bai": 2
  },
  {
   "id": 7,
@@ -986,7 +986,7 @@
    "Tên người may quần áo",
    "Quần áo sản xuất năm nào"
   ],
-  "answer": 2,
+  "answer": 1,
   "bai": 8
  },
  {

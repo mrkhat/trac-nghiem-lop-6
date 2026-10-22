@@ -1,20 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" font-family="Be Vietnam Pro, Arial, sans-serif">
-<rect width="840" height="470" fill="#f7f9fc"/>
-<!-- mái -->
-<polygon points="380,40 620,190 140,190" fill="#e57373" stroke="#b71c1c" stroke-width="3"/>
-<rect x="330" y="86" width="100" height="40" fill="#ef9a9a" stroke="#b71c1c" stroke-width="2"/>
-<!-- thân -->
-<rect x="190" y="190" width="380" height="160" fill="#ffe0b2" stroke="#e65100" stroke-width="3"/>
-<rect x="255" y="245" width="70" height="105" fill="#8d6e63"/>
-<rect x="435" y="245" width="70" height="70" fill="#b3e5fc" stroke="#0277bd" stroke-width="2"/>
-<!-- móng -->
-<rect x="160" y="350" width="440" height="46" fill="#90a4ae" stroke="#37474f" stroke-width="3"/>
-<line x1="60" y1="396" x2="700" y2="396" stroke="#795548" stroke-width="5"/>
-<!-- nhãn phải -->
-<g font-size="21" font-weight="bold">
-<line x1="520" y1="120" x2="640" y2="120" stroke="#b71c1c" stroke-width="2"/><text x="648" y="128" fill="#b71c1c">1. MÁI NHÀ</text>
-<line x1="570" y1="265" x2="640" y2="265" stroke="#e65100" stroke-width="2"/><text x="648" y="273" fill="#e65100">2. THÂN NHÀ</text>
-<line x1="600" y1="373" x2="640" y2="373" stroke="#37474f" stroke-width="2"/><text x="648" y="381" fill="#37474f">3. MÓNG NHÀ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" font-family="Be Vietnam Pro, Arial, sans-serif">
+<rect width="840" height="520" fill="#f7f9fc"/>
+<!-- mai nha -->
+<polygon points="430,55 602,205 258,205" fill="#e57373" stroke="#b71c1c" stroke-width="3"/>
+<!-- khung nha (cot + dam, phia trai) -->
+<rect x="280" y="193" width="132" height="13" fill="#1565c0"/>
+<rect x="292" y="205" width="13" height="145" fill="#1565c0"/>
+<rect x="392" y="205" width="13" height="145" fill="#1565c0"/>
+<!-- tuong nha (phia phai) -->
+<rect x="412" y="205" width="156" height="145" fill="#fff59d" stroke="#f9a825" stroke-width="3"/>
+<!-- cua so -->
+<rect x="522" y="234" width="36" height="40" fill="#b3e5fc" stroke="#0277bd" stroke-width="2"/>
+<line x1="540" y1="234" x2="540" y2="274" stroke="#0277bd" stroke-width="2"/>
+<line x1="522" y1="254" x2="558" y2="254" stroke="#0277bd" stroke-width="2"/>
+<!-- cua ra vao -->
+<rect x="466" y="270" width="48" height="80" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+<circle cx="505" cy="312" r="4" fill="#2e7d32"/>
+<!-- san nha -->
+<rect x="262" y="350" width="336" height="18" fill="#ffcc80" stroke="#e65100" stroke-width="3"/>
+<!-- mong nha -->
+<rect x="282" y="368" width="296" height="34" fill="#b0bec5" stroke="#37474f" stroke-width="3"/>
+<circle cx="330" cy="385" r="9" fill="#90a4ae"/><circle cx="395" cy="385" r="9" fill="#90a4ae"/><circle cx="460" cy="385" r="9" fill="#90a4ae"/><circle cx="525" cy="385" r="9" fill="#90a4ae"/>
+<!-- mat dat -->
+<line x1="60" y1="402" x2="780" y2="402" stroke="#795548" stroke-width="5"/>
+<!-- nhan trai -->
+<g font-size="20" font-weight="bold">
+<line x1="305" y1="118" x2="208" y2="118" stroke="#b71c1c" stroke-width="2"/><text x="200" y="126" text-anchor="end" fill="#b71c1c">Mái nhà</text>
+<line x1="292" y1="258" x2="208" y2="258" stroke="#1565c0" stroke-width="2"/><text x="200" y="266" text-anchor="end" fill="#1565c0">Khung nhà</text>
+<line x1="262" y1="359" x2="208" y2="359" stroke="#e65100" stroke-width="2"/><text x="200" y="367" text-anchor="end" fill="#e65100">Sàn nhà</text>
+<line x1="282" y1="386" x2="208" y2="386" stroke="#37474f" stroke-width="2"/><text x="200" y="394" text-anchor="end" fill="#37474f">Móng nhà</text>
 </g>
-<text x="380" y="445" text-anchor="middle" font-size="19" fill="#37474f">Nhà ở gồm 3 phần chính: móng ở dưới cùng, thân nhà ở giữa, mái che ở trên.</text>
+<!-- nhan phai -->
+<g font-size="20" font-weight="bold">
+<line x1="568" y1="220" x2="632" y2="220" stroke="#f9a825" stroke-width="2"/><text x="640" y="228" fill="#e65100">Tường nhà</text>
+<line x1="558" y1="254" x2="632" y2="254" stroke="#0277bd" stroke-width="2"/><text x="640" y="262" fill="#0277bd">Cửa sổ</text>
+<line x1="514" y1="314" x2="632" y2="314" stroke="#2e7d32" stroke-width="2"/><text x="640" y="322" fill="#2e7d32">Cửa ra vào</text>
+</g>
+<text x="420" y="452" text-anchor="middle" font-size="19" font-weight="bold" fill="#37474f">Nhà ở gồm 7 phần chính:</text>
+<text x="420" y="480" text-anchor="middle" font-size="18" fill="#37474f">móng nhà, sàn nhà, khung nhà, tường nhà, mái nhà, cửa ra vào, cửa sổ.</text>
 </svg>
