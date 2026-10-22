@@ -638,15 +638,15 @@
   },
   {
     "id": 50,
-    "question": "Trong các vật liệu sau, vật liệu nào dẫn điện tốt?",
+    "question": "Trong các vật liệu sau, vật liệu nào cách điện tốt?",
     "options": [
-      "A. Thủy tinh",
-      "B. Kim loại",
-      "C. Cao su",
-      "D. Gốm"
+      "A. Đồng",
+      "B. Nhôm",
+      "C. Nhựa",
+      "D. Sắt"
     ],
-    "answer": 1,
-    "explanation": "Kim loại dẫn điện tốt.",
+    "answer": 2,
+    "explanation": "Nhựa cách điện tốt.",
     "bai": 10
   },
   {
