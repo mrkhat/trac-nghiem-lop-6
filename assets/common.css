@@ -190,3 +190,9 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 
 /* Chon bai gon 2 dong: o select so bai trong hang Truoc/Sau (thay luoi nut day 4-5 dong) */
 .bai-sel{flex:1 1 170px;min-height:48px;font-size:17px;font-family:inherit;border:2px solid #90a4ae;border-radius:10px;padding:8px;background:#fff;color:#263238}
+
+/* Menu tren cung trang hoc: vao nhanh Bai tap & Thi / Flashcard */
+.topmenu{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.tm-btn{flex:1 1 200px;display:flex;align-items:center;justify-content:center;min-height:52px;padding:10px 14px;border-radius:12px;font-size:18px;font-weight:700;text-decoration:none;font-family:inherit}
+.tm-quiz{background:#1a73e8;color:#fff}
+.tm-flash{background:#7b1fa2;color:#fff}

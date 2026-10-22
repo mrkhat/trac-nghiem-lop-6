@@ -340,6 +340,7 @@ function fcReset(){ fcPool.forEach(it=>{ delete fcKnown[it.uid]; }); fcSave(); o
 document.getElementById('btnFlash').onclick=openFlash;
 document.getElementById('btnHomeF').onclick=()=>{ document.getElementById('flashArea').classList.add('hidden'); document.getElementById('home').classList.remove('hidden'); };
 document.getElementById('lessonSel').addEventListener('change',()=>{ if(!document.getElementById('flashArea').classList.contains('hidden')) openFlash(); });
+if(location.hash==='#flash'){ openFlash(); }
 </script>
 
 </body>
