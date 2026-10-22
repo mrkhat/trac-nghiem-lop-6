@@ -251,10 +251,10 @@
     "explanation": "Người tinh khôn có bộ não lớn, cấu tạo cơ thể như người hiện đại và chế tạo được công cụ bằng đá mài sắc, nhẵn.",
     "id": 20,
     "options": [
-      "A. Sống hoàn toàn như loài vượn",
-      "B. Vẫn đi bằng bốn chân",
-      "C. Không biết sử dụng công cụ",
-      "D. Có cấu tạo cơ thể và bộ não phát triển như người ngày nay, biết chế tác công cụ tinh xảo"
+      "A. Sống hoàn toàn như loài vượn, chưa hề tiến hóa",
+      "B. Vẫn đi bằng bốn chân như loài vượn",
+      "C. Không biết sử dụng bất kì công cụ nào",
+      "D. Có cơ thể và bộ não phát triển như người ngày nay"
     ],
     "question": "Người tinh khôn khác người tối cổ ở điểm nào nổi bật nhất?",
     "bai": 3
@@ -377,97 +377,6 @@
     "bai": 4
   },
   {
-    "answer": 2,
-    "explanation": "Ai Cập cổ đại nằm ở Đông Bắc châu Phi, hình thành dọc theo sông Nin — một trong những con sông dài nhất thế giới.",
-    "id": 30,
-    "options": [
-      "A. Sông Hoàng Hà",
-      "B. Sông Ấn",
-      "C. Sông Nin",
-      "D. Sông Mê Công"
-    ],
-    "question": "Nền văn minh Ai Cập cổ đại hình thành ở lưu vực con sông nào?",
-    "bai": 6
-  },
-  {
-    "answer": 2,
-    "explanation": "Lũ sông Nin (khoảng tháng 7 đến tháng 10) để lại lớp phù sa đen màu mỡ, giúp người Ai Cập trồng trọt tốt giữa vùng khô hạn.",
-    "id": 31,
-    "options": [
-      "A. Vì sông Nin có nhiều vàng bạc",
-      "B. Vì sông Nin ngăn được mọi kẻ thù",
-      "C. Vì hằng năm nước lũ sông Nin dâng lên đem theo phù sa màu mỡ và nước tưới cho đồng ruộng",
-      "D. Vì sông Nin chảy qua giữa kinh đô"
-    ],
-    "question": "Vì sao sông Nin được coi là 'món quà' đối với người Ai Cập cổ đại?",
-    "bai": 6
-  },
-  {
-    "answer": 0,
-    "explanation": "Pharaoh là vua của Ai Cập cổ đại, nắm quyền tối cao về mọi mặt và được thần dân tôn thờ như một vị thần.",
-    "id": 32,
-    "options": [
-      "A. Pharaoh — vị vua nắm mọi quyền hành, được coi như thần thánh",
-      "B. Hội đồng trưởng lão do dân bầu",
-      "C. Các thương nhân giàu có",
-      "D. Tướng lĩnh quân đội luân phiên nhau"
-    ],
-    "question": "Đứng đầu nhà nước Ai Cập cổ đại là ai?",
-    "bai": 6
-  },
-  {
-    "answer": 1,
-    "explanation": "Kim tự tháp là lăng mộ khổng lồ của các Pharaoh; lớn nhất là kim tự tháp Kê-ốp (Khufu).",
-    "id": 33,
-    "options": [
-      "A. Làm kho chứa lương thực",
-      "B. Làm lăng mộ cho các Pharaoh",
-      "C. Làm nơi buôn bán, chợ búa",
-      "D. Làm đài quan sát thiên văn cho nông dân"
-    ],
-    "question": "Kim tự tháp ở Ai Cập cổ đại được xây dựng để làm gì?",
-    "bai": 6
-  },
-  {
-    "answer": 3,
-    "explanation": "Người Ai Cập sáng tạo chữ tượng hình — dùng hình vẽ con vật, đồ vật để ghi lại ý nghĩ, khắc trên đá và viết trên giấy làm từ cây papyrus (cói).",
-    "id": 34,
-    "options": [
-      "A. Chữ hình nêm",
-      "B. Chữ Hán",
-      "C. Chữ Quốc ngữ",
-      "D. Chữ tượng hình (vẽ hình để biểu ý)"
-    ],
-    "question": "Người Ai Cập cổ đại dùng loại chữ viết nào?",
-    "bai": 6
-  },
-  {
-    "answer": 0,
-    "explanation": "'Lưỡng Hà' nghĩa là vùng đất nằm giữa hai sông Ti-grơ (Tigris) và Ơ-phrát (Euphrates), thuộc lãnh thổ I-rắc ngày nay.",
-    "id": 35,
-    "options": [
-      "A. Vùng đất giữa hai con sông Ti-grơ và Ơ-phrát, ngày nay thuộc I-rắc",
-      "B. Vùng đất hai bên bờ sông Nin, ngày nay thuộc Ai Cập",
-      "C. Vùng đất giữa hai dãy núi ở Trung Quốc",
-      "D. Đồng bằng giữa hai con sông ở Ấn Độ"
-    ],
-    "question": "'Lưỡng Hà' có nghĩa là gì và nằm ở đâu ngày nay?",
-    "bai": 6
-  },
-  {
-    "answer": 3,
-    "explanation": "Người Lưỡng Hà (Xu-me, Babylon...) sáng tạo chữ hình nêm, hệ đếm 60 còn dùng đến ngày nay khi đo thời gian và góc; vua Ha-mu-ra-bi ban hành bộ luật thành văn nổi tiếng.",
-    "id": 36,
-    "options": [
-      "A. La bàn và thuốc súng",
-      "B. Vạn lí trường thành",
-      "C. Kim tự tháp và tượng nhân sư",
-      "D. Chữ hình nêm viết trên bảng đất sét, phép đếm theo hệ 60 (chia 1 giờ = 60 phút, vòng tròn 360 độ) và bộ luật Ha-mu-ra-bi"
-    ],
-    "question": "Người Lưỡng Hà cổ đại nổi tiếng với thành tựu nào sau đây?",
-    "bai": 6
-  },
-  {
     "answer": 0,
     "explanation": "Công cụ kim loại giúp làm ra nhiều của cải hơn nhu cầu; của dư thừa bị một số người chiếm hữu, từ đó xuất hiện giàu – nghèo.",
     "id": 37,
@@ -557,6 +466,97 @@
     ],
     "question": "Cuối thời nguyên thủy, xã hội dần chuyển biến thành xã hội nào?",
     "bai": 5
+  },
+  {
+    "answer": 2,
+    "explanation": "Ai Cập cổ đại nằm ở Đông Bắc châu Phi, hình thành dọc theo sông Nin — một trong những con sông dài nhất thế giới.",
+    "id": 30,
+    "options": [
+      "A. Sông Hoàng Hà",
+      "B. Sông Ấn",
+      "C. Sông Nin",
+      "D. Sông Mê Công"
+    ],
+    "question": "Nền văn minh Ai Cập cổ đại hình thành ở lưu vực con sông nào?",
+    "bai": 6
+  },
+  {
+    "answer": 2,
+    "explanation": "Lũ sông Nin (khoảng tháng 7 đến tháng 10) để lại lớp phù sa đen màu mỡ, giúp người Ai Cập trồng trọt tốt giữa vùng khô hạn.",
+    "id": 31,
+    "options": [
+      "A. Vì sông Nin có nhiều vàng bạc",
+      "B. Vì sông Nin ngăn được mọi kẻ thù",
+      "C. Vì hằng năm nước lũ sông Nin dâng lên đem theo phù sa màu mỡ và nước tưới cho đồng ruộng",
+      "D. Vì sông Nin chảy qua giữa kinh đô"
+    ],
+    "question": "Vì sao sông Nin được coi là 'món quà' đối với người Ai Cập cổ đại?",
+    "bai": 6
+  },
+  {
+    "answer": 0,
+    "explanation": "Pharaoh là vua của Ai Cập cổ đại, nắm quyền tối cao về mọi mặt và được thần dân tôn thờ như một vị thần.",
+    "id": 32,
+    "options": [
+      "A. Pharaoh — vị vua nắm mọi quyền hành, được coi như thần thánh",
+      "B. Hội đồng trưởng lão do dân bầu",
+      "C. Các thương nhân giàu có",
+      "D. Tướng lĩnh quân đội luân phiên nhau"
+    ],
+    "question": "Đứng đầu nhà nước Ai Cập cổ đại là ai?",
+    "bai": 6
+  },
+  {
+    "answer": 1,
+    "explanation": "Kim tự tháp là lăng mộ khổng lồ của các Pharaoh; lớn nhất là kim tự tháp Kê-ốp (Khufu).",
+    "id": 33,
+    "options": [
+      "A. Làm kho chứa lương thực",
+      "B. Làm lăng mộ cho các Pharaoh",
+      "C. Làm nơi buôn bán, chợ búa",
+      "D. Làm đài quan sát thiên văn cho nông dân"
+    ],
+    "question": "Kim tự tháp ở Ai Cập cổ đại được xây dựng để làm gì?",
+    "bai": 6
+  },
+  {
+    "answer": 3,
+    "explanation": "Người Ai Cập sáng tạo chữ tượng hình — dùng hình vẽ con vật, đồ vật để ghi lại ý nghĩ, khắc trên đá và viết trên giấy làm từ cây papyrus (cói).",
+    "id": 34,
+    "options": [
+      "A. Chữ hình nêm",
+      "B. Chữ Hán",
+      "C. Chữ Quốc ngữ",
+      "D. Chữ tượng hình (vẽ hình để biểu ý)"
+    ],
+    "question": "Người Ai Cập cổ đại dùng loại chữ viết nào?",
+    "bai": 6
+  },
+  {
+    "answer": 0,
+    "explanation": "'Lưỡng Hà' nghĩa là vùng đất nằm giữa hai sông Ti-grơ (Tigris) và Ơ-phrát (Euphrates), thuộc lãnh thổ I-rắc ngày nay.",
+    "id": 35,
+    "options": [
+      "A. Vùng đất giữa hai con sông Ti-grơ và Ơ-phrát, ngày nay thuộc I-rắc",
+      "B. Vùng đất hai bên bờ sông Nin, ngày nay thuộc Ai Cập",
+      "C. Vùng đất giữa hai dãy núi ở Trung Quốc",
+      "D. Đồng bằng giữa hai con sông ở Ấn Độ"
+    ],
+    "question": "'Lưỡng Hà' có nghĩa là gì và nằm ở đâu ngày nay?",
+    "bai": 6
+  },
+  {
+    "answer": 3,
+    "explanation": "Người Lưỡng Hà (Xu-me, Babylon...) sáng tạo chữ hình nêm, hệ đếm 60 còn dùng đến ngày nay khi đo thời gian và góc; vua Ha-mu-ra-bi ban hành bộ luật thành văn nổi tiếng.",
+    "id": 36,
+    "options": [
+      "A. La bàn và thuốc súng",
+      "B. Vạn lí trường thành",
+      "C. Kim tự tháp và tượng nhân sư",
+      "D. Chữ hình nêm viết trên bảng đất sét"
+    ],
+    "question": "Người Lưỡng Hà cổ đại nổi tiếng với thành tựu nào sau đây?",
+    "bai": 6
   },
   {
     "answer": 3,
@@ -921,5 +921,187 @@
     ],
     "question": "Điểm đáng quý trong cách cư dân Đông Nam Á tiếp nhận văn hóa từ bên ngoài là gì?",
     "bai": 10
+  },
+  {
+    "answer": 1,
+    "explanation": "'Học lịch sử để vui' không phản ánh đúng ý nghĩa của việc học Lịch sử. Học lịch sử là để biết cội nguồn của tổ tiên, quê hương, đất nước và đúc rút bài học kinh nghiệm từ quá khứ phục vụ cho tương lai.",
+    "id": 72,
+    "options": [
+      "A. Học lịch sử để biết cội nguồn của tổ tiên, quê hương, đất nước.",
+      "B. Học Lịch sử để vui.",
+      "C. Học Lịch sử để đúc rút kinh nghiệm và bài học kinh nghiệm quá khứ phục vụ cho tương lai.",
+      "D. Học Lịch sử để biết tất cả những gì đã xảy ra trong quá khứ từ khi loài người xuất hiện."
+    ],
+    "question": "Ý nào sau đây không phản ánh đúng ý nghĩa của việc học Lịch sử?",
+    "bai": 1
+  },
+  {
+    "answer": 3,
+    "explanation": "Đây là câu nói nổi tiếng của Chủ tịch Hồ Chí Minh, nhắc nhở mỗi người dân Việt Nam phải hiểu biết lịch sử của nước nhà.",
+    "id": 73,
+    "options": [
+      "A. Hê-rô-đốt.",
+      "B. Xi-xê-rông.",
+      "C. Võ Nguyên Giáp.",
+      "D. Hồ Chí Minh."
+    ],
+    "question": "Câu nói: \"Dân ta phải biết sử ta. Cho tường gốc tích nước nhà Việt Nam.\" là câu nói của ai?",
+    "bai": 1
+  },
+  {
+    "answer": 1,
+    "explanation": "Những dấu tích vật chất người xưa còn giữ được trong lòng đất hay trên mặt đất (đồ vật, công trình kiến trúc...) chính là tư liệu hiện vật.",
+    "id": 74,
+    "options": [
+      "A. Tư liệu chữ viết.",
+      "B. Tư liệu hiện vật.",
+      "C. Tư liệu truyền miệng.",
+      "D. Tư liệu gốc."
+    ],
+    "question": "Điền từ vào chỗ trống: \"… là những dấu tích vật chất người xưa còn giữ được trong lòng đất hay trên mặt đất, các công trình kiến trúc,...\"",
+    "bai": 1
+  },
+  {
+    "answer": 3,
+    "explanation": "Tư liệu gốc là những thông tin đầu tiên và trực tiếp về một sự kiện lịch sử nào đó, là căn cứ tin cậy để tìm hiểu quá khứ.",
+    "id": 75,
+    "options": [
+      "A. Là những câu chuyện cổ tích, truyền thuyết lịch sử.",
+      "B. Là những di tích, danh thắng thiên nhiên, công trình kiến trúc của người xưa còn được bảo tồn đến ngày nay.",
+      "C. Là những đồ vật người xưa còn giữ.",
+      "D. Là những thông tin đầu tiên và trực tiếp về sự kiện hoặc lịch sử nào đó."
+    ],
+    "question": "Tư liệu gốc là gì?",
+    "bai": 1
+  },
+  {
+    "answer": 2,
+    "explanation": "Người xưa tính thời gian bằng đồng hồ cát, đồng hồ Mặt Trời và đồng hồ nước. Đồng hồ đeo tay là phát minh của thời kì hiện đại nên người xưa không sử dụng.",
+    "id": 76,
+    "options": [
+      "A. Đồng hồ Mặt Trời.",
+      "B. Đồng hồ cát.",
+      "C. Đồng hồ đeo tay.",
+      "D. Đồng hồ nước."
+    ],
+    "question": "Người xưa không sử dụng cách tính thời gian nào?",
+    "bai": 2
+  },
+  {
+    "answer": 2,
+    "explanation": "Các hóa thạch, răng và công cụ lao động ghè đẽo thô sơ của Người tối cổ được tìm thấy ở Đông Nam Á (như trên đảo Gia-va) là bằng chứng khoa học cho thấy con người đã xuất hiện sớm ở khu vực này.",
+    "id": 77,
+    "options": [
+      "A. Bức thư của Người tối cổ để lại.",
+      "B. Các di tích lịch sử, công trình kiến trúc của người Đông Nam Á.",
+      "C. Công cụ lao động, răng, hóa thạch của Người tối cổ.",
+      "D. Các công cụ lao động của Người tối cổ."
+    ],
+    "question": "Bằng chứng khoa học nào chứng tỏ Đông Nam Á là nơi con người xuất hiện sớm?",
+    "bai": 3
+  },
+  {
+    "answer": 1,
+    "explanation": "Thông qua lao động để kiếm sống, người nguyên thủy từng bước chinh phục và cải tạo thiên nhiên.",
+    "id": 78,
+    "options": [
+      "A. Sản xuất.",
+      "B. Lao động.",
+      "C. Giáo dục.",
+      "D. Chiến tranh."
+    ],
+    "question": "Người nguyên thủy thông qua gì để chinh phục thiên nhiên?",
+    "bai": 3
+  },
+  {
+    "answer": 0,
+    "explanation": "Người tinh khôn đã biết trồng trọt và chăn nuôi. Đây là cách thức lao động chính giúp họ chủ động tạo ra thức ăn thay vì chỉ dựa vào săn bắt, hái lượm.",
+    "id": 79,
+    "options": [
+      "A. Trồng trọt, chăn nuôi.",
+      "B. Săn bắt, hái lượm.",
+      "C. Trồng lúa nước.",
+      "D. Chế tác công cụ lao động."
+    ],
+    "question": "Cách thức lao động chính của người tinh khôn là?",
+    "bai": 3
+  },
+  {
+    "answer": 3,
+    "explanation": "Trong hang Đồng Nội, người nguyên thủy đã khắc vẽ mặt người — đây là một dấu tích nghệ thuật sớm của người xưa.",
+    "id": 80,
+    "options": [
+      "A. Hình ảnh các con vật.",
+      "B. Hình ảnh các công cụ lao động.",
+      "C. Hình ảnh lao động sản xuất.",
+      "D. Vẽ mặt người."
+    ],
+    "question": "Người nguyên thủy đã khắc hình gì trong hang Đồng Nội?",
+    "bai": 4
+  },
+  {
+    "answer": 0,
+    "explanation": "Văn hóa Bắc Sơn là văn hóa thời đá mới, thuộc địa phận tỉnh Lạng Sơn ngày nay.",
+    "id": 81,
+    "options": [
+      "A. Lạng Sơn.",
+      "B. Hòa Bình.",
+      "C. Quảng Ninh.",
+      "D. Nghệ An."
+    ],
+    "question": "Văn hóa Bắc Sơn thuộc địa phận tỉnh nào ngày nay?",
+    "bai": 4
+  },
+  {
+    "answer": 2,
+    "explanation": "Quá trình chuyển biến từ vượn cổ thành người có hai bước nhảy vọt: bước thứ nhất là từ vượn cổ thành người tối cổ, bước thứ hai là từ người tối cổ phát triển thành người tinh khôn.",
+    "id": 82,
+    "options": [
+      "A. Sự hình thành các chủng tộc trên thế giới.",
+      "B. Sự hình thành các quốc gia dân tộc trên thế giới.",
+      "C. Từ người tối cổ phát triển thành người tinh khôn.",
+      "D. Từ vượn cổ phát triển thành người."
+    ],
+    "question": "Bước nhảy vọt thứ hai của loài người sau quá trình chuyển biến từ vượn cổ thành người tối cổ là",
+    "bai": 3
+  },
+  {
+    "answer": 0,
+    "explanation": "Xã hội phương Đông gắn kết chặt chẽ bởi tính cộng đồng, do nhu cầu trị thủy, làm thủy lợi và chống ngoại xâm — khác với tính cá nhân, độc lập của xã hội phương Tây.",
+    "id": 83,
+    "options": [
+      "A. Tính cộng đồng.",
+      "B. Tính cá nhân.",
+      "C. Tính độc lập.",
+      "D. Tính tự do."
+    ],
+    "question": "Đặc điểm của xã hội phương Đông có gì khác phương Tây?",
+    "bai": 5
+  },
+  {
+    "answer": 1,
+    "explanation": "Ta tính: 938 − 690 = 248. Năm 248 là năm diễn ra cuộc khởi nghĩa của Bà Triệu.",
+    "id": 84,
+    "options": [
+      "A. Khởi nghĩa Phùng Hưng.",
+      "B. Khởi nghĩa Bà Triệu.",
+      "C. Khởi nghĩa Lí Bí.",
+      "D. Khởi nghĩa Mai Thúc Loan."
+    ],
+    "question": "Sự kiện lịch sử nào diễn ra trước chiến thắng lịch sử năm 938 của Ngô Quyền 690 năm?",
+    "bai": 2
+  },
+  {
+    "answer": 2,
+    "explanation": "Một thế kỉ bằng 100 năm. (Một thập kỉ bằng 10 năm, một thiên niên kỉ bằng 1000 năm.)",
+    "id": 85,
+    "options": [
+      "A. 1000 năm",
+      "B. 10 năm",
+      "C. 100 năm",
+      "D. 10000 năm"
+    ],
+    "question": "Một thế kỉ bằng bao nhiêu năm?",
+    "bai": 2
   }
 ]
