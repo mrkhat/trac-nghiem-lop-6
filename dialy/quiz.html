@@ -98,6 +98,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
     <button id="btnExam">⏱️ Thi thử<br><small style="font-size:14px">20 câu ngẫu nhiên, chấm cuối bài</small></button>
     <button id="btnStudy">📖 Học tập<br><small style="font-size:14px">xem toàn bộ câu hỏi + đáp án</small></button>
     <button id="btnFlash" style="background:#7b1fa2">🃏 Flashcard<br><small style="font-size:14px">tổng hợp thẻ ghi nhớ của cả môn</small></button>
+    <button id="btnGame" style="background:#00897b">🎮 Lật thẻ tìm cặp<br><small style="font-size:14px">ghép câu hỏi với đáp án đúng</small></button>
   </div>
   <div class="mode-btns onl-btns">
     <button id="btnOnFC">🃏 Ôn luyện Flashcard<br><small style="font-size:14px">tất cả <span id="onFCnt">…</span> thẻ ghi nhớ của môn</small></button>
@@ -117,6 +118,18 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   <div id="quiz"></div>
   <button id="nextBtn" class="hidden">Câu tiếp theo →</button>
   <div id="result" class="hidden"></div>
+</div>
+<div id="gameArea" class="hidden">
+  <h2 style="text-align:center">🎮 Lật thẻ tìm cặp</h2>
+  <p id="gmHead" style="text-align:center;font-weight:600"></p>
+  <p id="gmStats" style="text-align:center"></p>
+  <div id="gmBoard"></div>
+  <div id="gmWin" class="hidden" style="text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:12px;padding:14px;margin:12px 0"></div>
+  <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap">
+    <button id="gmNew" style="background:#00897b;flex:1;min-width:140px">🔀 Ván mới</button>
+    <button id="gmHome" style="background:#eceff1;color:#37474f;flex:1;min-width:140px">🏠 Về trang chính</button>
+  </div>
+  <p style="text-align:center;color:#666;font-size:15px">Lật 2 thẻ: một thẻ câu hỏi và một thẻ đáp án. Ghép đúng thì 2 thẻ ở lại. Thẻ được lấy theo ô "Chọn bài để luyện" ở trang chính.</p>
 </div>
 <div id="flashArea" class="hidden">
   <button id="btnHomeF">← Chọn lại chế độ</button>
@@ -339,5 +352,79 @@ document.getElementById('lessonSel').addEventListener('change',()=>{ if(!documen
 if(location.hash==='#flash'){ openFlash(); }
 </script>
 
+<style>
+#gmBoard{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+@media(min-width:640px){#gmBoard{grid-template-columns:repeat(4,1fr)}}
+.gm-tile{perspective:600px;min-height:106px;cursor:pointer}
+.gm-in{position:relative;width:100%;height:100%;min-height:106px;transform-style:preserve-3d;transition:transform .45s}
+.gm-tile.up .gm-in{transform:rotateY(180deg)}
+.gm-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;font-size:15px;line-height:1.35;overflow:hidden}
+.gm-down{background:#00897b;color:#fff;font-size:30px}
+.gm-up{background:#fff;border:2px solid #90a4ae;transform:rotateY(180deg);color:#263238}
+.gm-tile.done .gm-up{background:#e8f5e9;border-color:#43a047}
+.gm-tile.done{cursor:default}
+</style>
+<script>
+/* ===== TRO CHOI LAT THE TIM CAP: dung chung nguon the voi tab Flashcard ===== */
+let gmOpen=[], gmLock=false, gmPairs=0, gmDone=0, gmMoves=0;
+function gmTxt(h){ const d=document.createElement('div'); d.innerHTML=h||''; return (d.textContent||'').replace(/\s+/g,' ').trim(); }
+function gmPoolItems(all){
+  const sel=document.getElementById('lessonSel');
+  const scope=(sel && sel.value!=='all') ? parseInt(sel.value) : null;
+  let items=all.filter(it=> scope===null || it.b===scope).map(it=>({f:gmTxt(it.f), a:gmTxt(it.a)})).filter(it=>it.f && it.a && it.f!==it.a);
+  const seen=new Set(); items=items.filter(it=>{ if(seen.has(it.f)) return false; seen.add(it.f); return true; });
+  const tiers=[[70,90],[95,125],[125,175],[1e9,1e9]];
+  for(const t of tiers){ const p=items.filter(it=> it.f.length<=t[0] && it.a.length<=t[1]); if(p.length>=4) return {pool:p, scope:scope}; }
+  return {pool:items, scope:scope};
+}
+async function openGame(){
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.add('hidden');
+  document.getElementById('flashArea').classList.add('hidden');
+  document.getElementById('gameArea').classList.remove('hidden');
+  await fcLoadAll();
+  gmDeal();
+}
+function gmDeal(){
+  const r=gmPoolItems(fcAll||[]);
+  const pool=r.pool.slice();
+  for(let i=pool.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=pool[i]; pool[i]=pool[j]; pool[j]=t; }
+  const picks=pool.slice(0, Math.min(6, pool.length));
+  gmPairs=picks.length; gmDone=0; gmMoves=0; gmOpen=[]; gmLock=false;
+  let tiles=[];
+  picks.forEach((it,idx)=>{ tiles.push({k:idx,txt:it.f}); tiles.push({k:idx,txt:it.a}); });
+  for(let i=tiles.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=tiles[i]; tiles[i]=tiles[j]; tiles[j]=t; }
+  const board=document.getElementById('gmBoard'); board.innerHTML='';
+  tiles.forEach(t=>{
+    const d=document.createElement('div'); d.className='gm-tile'; d.dataset.k=t.k;
+    d.innerHTML='<div class="gm-in"><div class="gm-face gm-down">🎴</div><div class="gm-face gm-up"></div></div>';
+    d.querySelector('.gm-up').textContent=t.txt;
+    d.onclick=function(){ gmFlip(d); };
+    board.appendChild(d);
+  });
+  document.getElementById('gmWin').classList.add('hidden');
+  document.getElementById('gmHead').textContent='🎮 Lật thẻ tìm cặp — '+(r.scope===null?'Tất cả các bài':lessonName(r.scope))+' • '+gmPairs+' cặp';
+  gmStats();
+}
+function gmStats(){ document.getElementById('gmStats').textContent='Đã ghép: '+gmDone+'/'+gmPairs+' cặp • Lượt lật: '+gmMoves; }
+function gmFlip(d){
+  if(gmLock || d.classList.contains('up') || d.classList.contains('done')) return;
+  d.classList.add('up'); gmOpen.push(d);
+  if(gmOpen.length<2) return;
+  gmMoves++;
+  const a=gmOpen[0], b=gmOpen[1]; gmOpen=[];
+  if(a.dataset.k===b.dataset.k){
+    a.classList.add('done'); b.classList.add('done'); gmDone++; gmStats();
+    if(gmDone===gmPairs){ const w=document.getElementById('gmWin'); w.innerHTML='🎉 <b>Thắng rồi!</b> Em ghép đúng '+gmPairs+'/'+gmPairs+' cặp sau '+gmMoves+' lượt lật. Bấm "Ván mới" để chơi tiếp nhé!'; w.classList.remove('hidden'); }
+  } else {
+    gmLock=true; gmStats();
+    setTimeout(()=>{ a.classList.remove('up'); b.classList.remove('up'); gmLock=false; }, 950);
+  }
+}
+document.getElementById('btnGame').onclick=openGame;
+document.getElementById('gmNew').onclick=gmDeal;
+document.getElementById('gmHome').onclick=function(){ document.getElementById('gameArea').classList.add('hidden'); document.getElementById('home').classList.remove('hidden'); };
+document.getElementById('lessonSel').addEventListener('change',()=>{ if(!document.getElementById('gameArea').classList.contains('hidden')) gmDeal(); });
+</script>
 </body>
 </html>

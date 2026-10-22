@@ -882,6 +882,18 @@ body.tab-flash #tabFlash{display:block}
     </div>
     <div id="tfHead" style="text-align:center;font-weight:600;margin:6px 0 10px"></div>
     <div id="tfMount"></div>
+    <div style="text-align:center;margin:16px 0 4px"><button id="tgBtn" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:52px;padding:10px 22px;font-size:18px;font-weight:700;font-family:inherit;cursor:pointer">🎮 Chơi lật thẻ tìm cặp</button></div>
+    <div id="tgArea" style="display:none">
+      <p id="tgHead" style="text-align:center;font-weight:600"></p>
+      <p id="tgStats" style="text-align:center"></p>
+      <div id="tgBoard"></div>
+      <div id="tgWin" style="display:none;text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:12px;padding:14px;margin:12px 0"></div>
+      <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap">
+        <button id="tgNew" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:48px;padding:8px 18px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;flex:1;min-width:140px">🔀 Ván mới</button>
+        <button id="tgClose" style="background:#eceff1;color:#37474f;border:none;border-radius:10px;min-height:48px;padding:8px 18px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;flex:1;min-width:140px">✖ Đóng trò chơi</button>
+      </div>
+      <p style="text-align:center;color:#666;font-size:15px">Lật 2 thẻ: một thẻ câu hỏi và một thẻ đáp án. Ghép đúng thì 2 thẻ ở lại. Thẻ lấy theo Chương đang chọn ở trên.</p>
+    </div>
   </div>
 </div>
 <div id="tabKiemTra">
@@ -1895,5 +1907,67 @@ document.querySelectorAll('.tabbtn').forEach(b=>{ if(b.getAttribute('data-tab')=
 document.getElementById('tfChSel').addEventListener('change', tfOpen);
 </script>
 
+<style>
+#tgBoard{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+@media(min-width:640px){#tgBoard{grid-template-columns:repeat(4,1fr)}}
+.tg-tile{perspective:600px;min-height:106px;cursor:pointer}
+.tg-in{position:relative;width:100%;height:100%;min-height:106px;transform-style:preserve-3d;transition:transform .45s}
+.tg-tile.up .tg-in{transform:rotateY(180deg)}
+.tg-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;font-size:15px;line-height:1.35;overflow:hidden}
+.tg-down{background:#00897b;color:#fff;font-size:30px}
+.tg-up{background:#fff;border:2px solid #90a4ae;transform:rotateY(180deg);color:#263238}
+.tg-tile.done .tg-up{background:#e8f5e9;border-color:#43a047}
+.tg-tile.done{cursor:default}
+</style>
+<script>
+/* ===== TRO CHOI LAT THE TIM CAP (Toan): ghep cau hoi voi dap an dung tu QUIZ_BANK ===== */
+let tgOpen=[], tgLock=false, tgPairs=0, tgDone=0, tgMoves=0;
+function tgItems(){
+  const bank=(typeof QUIZ_BANK!=='undefined'&&QUIZ_BANK)||window.QUIZ_BANK||[];
+  const ch=document.getElementById('tfChSel').value;
+  let items=bank.filter(it=> ch==='all' || String(it.ch)===ch).map(it=>({f:(it.q||'').trim(), a:(it.options&&it.options[it.answer]||'').trim()})).filter(it=>it.f && it.a && it.f!==it.a);
+  const tiers=[[110,70],[150,90],[1e9,1e9]];
+  for(const t of tiers){ const p=items.filter(it=> it.f.length<=t[0] && it.a.length<=t[1]); if(p.length>=4) return p; }
+  return items;
+}
+function tgDeal(){
+  const pool=tgItems().slice();
+  if(!pool.length){ document.getElementById('tgHead').textContent='Đang tải dữ liệu... em bấm lại sau ít giây nhé.'; return; }
+  for(let i=pool.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=pool[i]; pool[i]=pool[j]; pool[j]=t; }
+  const picks=pool.slice(0, Math.min(6, pool.length));
+  tgPairs=picks.length; tgDone=0; tgMoves=0; tgOpen=[]; tgLock=false;
+  let tiles=[];
+  picks.forEach((it,idx)=>{ tiles.push({k:idx,txt:it.f}); tiles.push({k:idx,txt:it.a}); });
+  for(let i=tiles.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=tiles[i]; tiles[i]=tiles[j]; tiles[j]=t; }
+  const board=document.getElementById('tgBoard'); board.innerHTML='';
+  tiles.forEach(t=>{
+    const d=document.createElement('div'); d.className='tg-tile'; d.dataset.k=t.k;
+    d.innerHTML='<div class="tg-in"><div class="tg-face tg-down">🎴</div><div class="tg-face tg-up"></div></div>';
+    d.querySelector('.tg-up').textContent=t.txt;
+    d.onclick=function(){ tgFlip(d); };
+    board.appendChild(d);
+  });
+  document.getElementById('tgWin').style.display='none';
+  const ch=document.getElementById('tfChSel').value;
+  document.getElementById('tgHead').textContent='🎮 Lật thẻ tìm cặp — '+(ch==='all'?'Tất cả các chương':'Chương '+ch)+' • '+tgPairs+' cặp';
+  tgStats();
+}
+function tgStats(){ document.getElementById('tgStats').textContent='Đã ghép: '+tgDone+'/'+tgPairs+' cặp • Lượt lật: '+tgMoves; }
+function tgFlip(d){
+  if(tgLock || d.classList.contains('up') || d.classList.contains('done')) return;
+  d.classList.add('up'); tgOpen.push(d);
+  if(tgOpen.length<2) return;
+  tgMoves++;
+  const a=tgOpen[0], b=tgOpen[1]; tgOpen=[];
+  if(a.dataset.k===b.dataset.k){
+    a.classList.add('done'); b.classList.add('done'); tgDone++; tgStats();
+    if(tgDone===tgPairs){ const w=document.getElementById('tgWin'); w.innerHTML='🎉 <b>Thắng rồi!</b> Em ghép đúng '+tgPairs+'/'+tgPairs+' cặp sau '+tgMoves+' lượt lật. Bấm "Ván mới" để chơi tiếp nhé!'; w.style.display='block'; }
+  } else { tgLock=true; tgStats(); setTimeout(()=>{ a.classList.remove('up'); b.classList.remove('up'); tgLock=false; }, 950); }
+}
+document.getElementById('tgBtn').onclick=function(){ document.getElementById('tgArea').style.display='block'; tgDeal(); };
+document.getElementById('tgNew').onclick=tgDeal;
+document.getElementById('tgClose').onclick=function(){ document.getElementById('tgArea').style.display='none'; };
+document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.getElementById('tgArea').style.display!=='none') tgDeal(); });
+</script>
 </body>
 </html>
