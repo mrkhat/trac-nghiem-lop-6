@@ -95,9 +95,9 @@
    }
   ],
   "solution": [
-   "XX = 10 + 10 = 20",
-   "IV = 5 − 1 = 4",
-   "XXIV = 20 + 4 = 24"
+   "Bước 1) Tính XX trước: XX = 10 + 10 = 20.",
+   "Bước 2) Tính IV: IV = 5 − 1 = 4.",
+   "Bước 3) Cộng lại: XXIV = 20 + 4 = 24."
   ],
   "template": "romanWord",
   "text": "Số La Mã XXIV viết trong hệ thập phân là số nào?",
@@ -255,8 +255,8 @@
    }
   ],
   "solution": [
-   "3 × x = 48 − 15 = 33",
-   "x = 33 : 3 = 11"
+   "Bước 1) Tìm 3 × x trước: 3 × x = 48 − 15 = 33.",
+   "Bước 2) Tìm x: x = 33 : 3 = 11."
   ],
   "template": "findX",
   "text": "Tìm số tự nhiên x, biết:\n3 × x + 15 = 48",
@@ -295,8 +295,8 @@
    }
   ],
   "solution": [
-   "2³ = 2 × 2 × 2 = 8;  4² = 4 × 4 = 16",
-   "2³ × 5 + 4² = 8 × 5 + 16 = 40 + 16 = 56"
+   "Bước 1) Tính các lũy thừa trước: 2³ = 2 × 2 × 2 = 8 và 4² = 4 × 4 = 16.",
+   "Bước 2) Làm phép nhân rồi phép cộng: 2³ × 5 + 4² = 8 × 5 + 16 = 40 + 16 = 56."
   ],
   "template": "powerCalc",
   "text": "Tính giá trị của biểu thức:\n2³ × 5 + 4²",
@@ -335,8 +335,8 @@
    }
   ],
   "solution": [
-   "25 × 4 + 36 : 6 − 10 = 100 + 6 − 10",
-   "= 106 − 10 = 96"
+   "Bước 1) Làm phép nhân và phép chia trước: 25 × 4 + 36 : 6 − 10 = 100 + 6 − 10.",
+   "Bước 2) Tính từ trái sang phải: = 106 − 10 = 96."
   ],
   "template": "mixedCalc",
   "text": "Tính giá trị của biểu thức:\n25 × 4 + 36 : 6 − 10",
@@ -444,10 +444,10 @@
    }
   ],
   "solution": [
-   "24: 2 + 4 = 6 chia hết cho 3 → 24 chia hết cho 3",
-   "57: 5 + 7 = 12 chia hết cho 3 → 57 chia hết cho 3",
-   "Các số còn lại (35, 46, 68) có tổng chữ số không chia hết cho 3",
-   "Số lớn nhất chia hết cho 3 là 57"
+   "Bước 1) Kiểm tra số 24: 2 + 4 = 6 chia hết cho 3 nên 24 chia hết cho 3.",
+   "Bước 2) Kiểm tra số 57: 5 + 7 = 12 chia hết cho 3 nên 57 chia hết cho 3.",
+   "Bước 3) Kiểm tra các số còn lại: 35, 46, 68 có tổng chữ số không chia hết cho 3.",
+   "Bước 4) So sánh các số chia hết cho 3: số lớn nhất chia hết cho 3 là 57."
   ],
   "template": "divRule",
   "text": "Trong các số 24, 35, 46, 57, 68, số lớn nhất chia hết cho 3 là số nào?",
@@ -842,7 +842,8 @@
    }
   ],
   "solution": [
-   "(−25) + 40 − 13 = 15 − 13 = 2"
+   "Bước 1) Tính từ trái sang phải, làm (−25) + 40 trước: (−25) + 40 = 15.",
+   "Bước 2) Lấy kết quả trừ đi 13: 15 − 13 = 2."
   ],
   "template": "intExpr",
   "text": "Tính giá trị của biểu thức:\n(−25) + 40 − 13",
@@ -977,8 +978,8 @@
    }
   ],
   "solution": [
-   "(-4) × 5 = -20 (khác dấu nên kết quả âm)",
-   "-20 + 12 = -8"
+   "Bước 1) Làm phép nhân trước: (-4) × 5 = -20 (khác dấu nên kết quả âm).",
+   "Bước 2) Cộng tiếp số còn lại: -20 + 12 = -8."
   ],
   "template": "intMul",
   "text": "Tính: (-4) × 5 + 12",
@@ -1400,9 +1401,10 @@
    }
   ],
   "solution": [
-   "Hình vuông: 4 trục (2 đường chéo và 2 đường nối trung điểm hai cạnh đối)",
-   "Hình chữ nhật: 2 trục (2 đường nối trung điểm hai cạnh đối)",
-   "Tam giác đều: 3 trục (3 đường từ đỉnh vuông góc xuống cạnh đối diện)"
+   "Bước 1) Hình vuông: 4 trục (2 đường chéo và 2 đường nối trung điểm hai cạnh đối).",
+   "Bước 2) Hình chữ nhật: 2 trục (2 đường nối trung điểm hai cạnh đối).",
+   "Bước 3) Tam giác đều: 3 trục (mỗi trục đi qua một đỉnh và trung điểm của cạnh đối diện).",
+   "Vậy: Hình vuông có 4 trục, hình chữ nhật có 2 trục, tam giác đều có 3 trục đối xứng."
   ],
   "template": "axisTriple",
   "text": "Mỗi hình sau có bao nhiêu trục đối xứng?\na) Hình vuông\nb) Hình chữ nhật\nc) Tam giác đều",
@@ -1452,10 +1454,10 @@
    }
   ],
   "solution": [
-   "Hình bình hành: có tâm đối xứng",
-   "Tam giác đều: không có tâm đối xứng",
-   "Hình chữ nhật: có tâm đối xứng",
-   "Vậy có 2 hình có tâm đối xứng"
+   "Bước 1) Hình bình hành: có tâm đối xứng.",
+   "Bước 2) Tam giác đều: không có tâm đối xứng.",
+   "Bước 3) Hình chữ nhật: có tâm đối xứng.",
+   "Vậy: có 2 hình có tâm đối xứng."
   ],
   "template": "centerWord",
   "text": "Trong các hình sau, có bao nhiêu hình có tâm đối xứng?\na) Hình bình hành\nb) Tam giác đều\nc) Hình chữ nhật",

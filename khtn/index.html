@@ -91,6 +91,15 @@ button{font-family:inherit}
 .card{overflow-wrap:break-word}
 
 @media (max-width:640px){.chip{flex:1 1 30%;text-align:center}}
+
+/* ===== NGHE BÀI (mẫu GDCD/Ngữ văn) ===== */
+.lsbox{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.ls-listen,.ls-stop{min-height:44px;padding:10px 16px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;border:2px solid #00838f;background:#e0f2f1;color:#00695c}
+.ls-listen.reading{background:#00838f;color:#fff}
+.ls-stop{background:#fff3e0;border-color:#ef6c00;color:#e65100}
+.ls-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid #00838f;background:#fff;color:#00695c;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
+.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
 </style>
 
 
@@ -155,6 +164,11 @@ button{font-family:inherit}
 <!-- BÀI 1 -->
 <div class="card" id="bai1">
   <h3>Bài 1. Giới thiệu về Khoa học tự nhiên</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> thế nào là hoạt động nghiên cứu khoa học; phân biệt vật sống – vật không sống; kể được các lĩnh vực của Khoa học tự nhiên.</div>
   <ul>
     <li><b>Khoa học tự nhiên</b> nghiên cứu các sự vật, hiện tượng của thế giới tự nhiên và tìm ra quy luật của chúng.</li>
@@ -182,6 +196,11 @@ button{font-family:inherit}
 <!-- BÀI 2 -->
 <div class="card" id="bai2">
   <h3>Bài 2. An toàn trong phòng thực hành</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> các quy tắc an toàn khi làm thí nghiệm và cách xử lí những tai nạn thường gặp.</div>
   <ul>
     <li>Đọc kĩ hướng dẫn, làm đúng chỉ dẫn của giáo viên; đeo kính bảo hộ, găng tay khi thí nghiệm cần; không ăn uống, không nếm hay ngửi trực tiếp hóa chất.</li>
@@ -210,6 +229,11 @@ button{font-family:inherit}
 <!-- BÀI 3 -->
 <div class="card" id="bai3">
   <h3>Bài 3. Sử dụng kính lúp</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> kính lúp phóng to được bao nhiêu lần, ý nghĩa số ghi trên vành kính và cách dùng, cách bảo quản kính lúp.</div>
   <ul>
     <li>Kính lúp gồm một <b>thấu kính lồi</b> (miếng kính trong, phồng lên ở giữa — nhìn qua nó, vật sẽ to hơn) gắn trong khung có tay cầm, dùng để quan sát các vật nhỏ.</li>
@@ -237,6 +261,11 @@ button{font-family:inherit}
 <!-- BÀI 4 -->
 <div class="card" id="bai4">
   <h3>Bài 4. Kính hiển vi quang học</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> kính hiển vi quang học phóng to được bao nhiêu lần và dùng để quan sát những vật như thế nào.</div>
   <ul>
     <li>Những vật quá nhỏ (như tế bào) mắt thường và kính lúp đều không nhìn thấy — ta cần <b>kính hiển vi quang học</b>.</li>
@@ -264,6 +293,11 @@ button{font-family:inherit}
 <!-- BÀI 5 -->
 <div class="card" id="bai5">
   <h3>Bài 5. Đo chiều dài</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> đơn vị đo độ dài hợp pháp, cách chọn thước và đọc kết quả đo đúng cách.</div>
   <ul>
     <li>Đơn vị đo độ dài hợp pháp của nước ta là <b>mét (m)</b> — đơn vị chuẩn trong hệ SI. Các đơn vị khác: km, dm, cm, mm… (1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm).</li>
@@ -291,6 +325,11 @@ button{font-family:inherit}
 <!-- BÀI 6 -->
 <div class="card" id="bai6">
   <h3>Bài 6. Đo khối lượng</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> cách đo khối lượng bằng cân đúng quy trình, cách chọn quả cân và đổi đơn vị khối lượng.</div>
   <ul>
     <li>Đơn vị khối lượng là <b>kilôgam (kg)</b>. Số ghi trên bao bì, ví dụ hộp sữa ghi <b>380 g</b>, là <b>khối lượng của sữa trong hộp</b> (khối lượng tịnh).</li>
@@ -320,6 +359,11 @@ button{font-family:inherit}
 <!-- BÀI 7 -->
 <div class="card" id="bai7">
   <h3>Bài 7. Đo thời gian</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> đơn vị thời gian và chọn được loại đồng hồ phù hợp cho từng việc đo.</div>
   <ul>
     <li>Đơn vị đo thời gian là <b>giây (s)</b>. Các đơn vị khác: phút, giờ, ngày… <b>1 ngày = 24 giờ</b>; 1 giờ = 60 phút; 1 phút = 60 giây.</li>
@@ -346,6 +390,11 @@ button{font-family:inherit}
 <!-- BÀI 8 -->
 <div class="card" id="bai8">
   <h3>Bài 8. Đo nhiệt độ</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> hai thang nhiệt độ Xen-xi-ớt (°C) và Fa-ren-hai (°F) và công thức chuyển đổi giữa chúng.</div>
   <ul>
     <li>Nhiệt độ được đo bằng <b>nhiệt kế</b>. Thang <b>Xen-xi-ớt (°C)</b>: nước đá đang tan ở 0 °C, nước đang sôi ở 100 °C.</li>
@@ -373,12 +422,17 @@ button{font-family:inherit}
 <!-- BÀI 9 -->
 <div class="card" id="bai9">
   <h3>Bài 9. Các thể của chất và sự chuyển thể</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> ba thể của chất, tên gọi các sự chuyển thể và phân biệt được bay hơi với sôi.</div>
   <ul>
     <li>Chất có 3 thể: <b>rắn, lỏng, khí</b>. Thể rắn có hình dạng và thể tích xác định; thể lỏng có thể tích xác định nhưng hình dạng theo vật chứa; thể khí không có hình dạng và thể tích xác định, <b>lan tỏa theo mọi hướng</b> trong không gian (vì vậy ta ngửi thấy mùi hoa hồng từ xa).</li>
     <li>Các sự chuyển thể: <b>nóng chảy</b> (rắn → lỏng), <b>đông đặc</b> (lỏng → rắn), <b>bay hơi</b> (lỏng → khí), <b>ngưng tụ</b> (khí → lỏng), <b>sôi</b> (lỏng → khí trong lòng chất lỏng).</li>
     <li><b>Hơi nước ngưng tụ</b> trên cao tạo thành <b>mây</b>; ngưng tụ gần mặt đất tạo thành sương.</li>
-    <li>Phân biệt quan trọng: <b>sôi</b> xảy ra ở một <b>nhiệt độ xác định</b> (nhiệt độ sôi); còn <b>bay hơi</b> xảy ra ở <b>mọi nhiệt độ</b>, chỉ trên bề mặt chất lỏng, nhanh hơn khi trời nắng nóng và có gió — nghề làm muối thuận lợi vào những ngày nắng nóng vì nước biển bay hơi nhanh.</li>
+    <li>Phân biệt quan trọng: <b>sôi</b> xảy ra ở một <b>nhiệt độ xác định</b> (nhiệt độ sôi). Còn <b>bay hơi</b> xảy ra ở <b>mọi nhiệt độ</b>, chỉ trên bề mặt chất lỏng. Bay hơi nhanh hơn khi trời nắng nóng và có gió. Nghề làm muối thuận lợi vào những ngày nắng nóng vì nước biển bay hơi nhanh.</li>
   </ul>
   <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/khtn/fc-sua-may.webp" alt="Những đám mây trên bầu trời" loading="lazy"><div>Mây trên trời được tạo thành nhờ hiện tượng gì?</div></div><div class="mini-face mini-back">Hơi nước ngưng tụ trên cao.</div></div></div>
   <div class="sup">➕ <b>Kiến thức bổ sung — biết thêm để làm được bài tập:</b> Sự bay hơi diễn ra rất lặng lẽ trên mặt thoáng: mắt thường <b>không nhìn thấy được</b> quá trình nước biến thành hơi — ta chỉ nhận ra khi thấy mực chất lỏng vơi dần đi. Đó cũng là một đặc điểm nữa để nhận biết sự bay hơi.</div>
@@ -401,6 +455,11 @@ button{font-family:inherit}
 <!-- BÀI 10 -->
 <div class="card" id="bai10">
   <h3>Bài 10. Sự đa dạng của chất — Tính chất của chất và vật liệu</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> phân biệt tính chất vật lí và tính chất hóa học của chất; thế nào là vật liệu, nguyên liệu; ý nghĩa mô hình 3R.</div>
   <ul>
     <li><b>Tính chất vật lí:</b> màu, mùi, vị, tính dẫn điện, dẫn nhiệt, nhiệt độ sôi/nóng chảy… quan sát được mà chất không biến đổi thành chất khác. Ví dụ: <b>kim loại dẫn điện tốt</b>.</li>
@@ -430,6 +489,11 @@ button{font-family:inherit}
 <!-- BÀI 11 -->
 <div class="card" id="bai11">
   <h3>Bài 11. Oxygen và không khí</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> thành phần của không khí, vai trò của oxygen và cách dùng gas, xử lí cháy xăng an toàn.</div>
   <ul>
     <li>Không khí là hỗn hợp khí: <b>nitrogen chiếm khoảng 78%</b>, <b>oxygen chiếm khoảng 21%</b> thể tích, còn lại là các khí khác (carbon dioxide, hơi nước…).</li>
@@ -457,6 +521,11 @@ button{font-family:inherit}
 <!-- BÀI 12 -->
 <div class="card" id="bai12">
   <h3>Bài 12. Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> tế bào là đơn vị cấu tạo của mọi sinh vật; phân biệt sinh vật đơn bào – đa bào; các cấp độ tổ chức của cơ thể.</div>
   <ul>
     <li><b>Mọi sinh vật đều được cấu tạo từ tế bào</b> — tế bào là đơn vị cơ bản của sự sống. Hầu hết tế bào rất nhỏ, phải dùng kính hiển vi mới quan sát được (ôn lại Bài 4).</li>
@@ -487,6 +556,11 @@ button{font-family:inherit}
 <!-- BÀI 13 -->
 <div class="card" id="bai13">
   <h3>Bài 13. Lực là gì? Đo lực bằng lực kế</h3>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
   <div class="goal">🎯 <b>Học xong bài này em biết:</b> lực là gì, tác dụng của lực, lực hút của Trái Đất và cách đo lực bằng lực kế lò xo.</div>
   <ul>
     <li><b>Lực</b> là tác dụng đẩy, kéo của vật này lên vật khác. Lực có thể làm vật <b>biến dạng</b>, <b>thay đổi chuyển động</b> (nhanh/chậm dần, đổi hướng) hoặc cả hai.</li>
@@ -560,6 +634,7 @@ document.querySelectorAll('.chk-btn').forEach(b=>b.onclick=()=>{
 });
 </script>
 <script src="cards-data.js"></script>
+<script src="../assets/fc-state.js"></script>
 <script>
 // ---------- Flashcard theo bài + Tổng ôn ----------
 
@@ -567,8 +642,11 @@ document.querySelectorAll('.chk-btn').forEach(b=>b.onclick=()=>{
 /* Du lieu the (flashcard) da tach sang file cards-data.js — dung chung cho trang hoc va trang bai tap. */
 
 let FCST={}; try{FCST=JSON.parse(localStorage.getItem('khtn_flash_v1')||'{}')}catch(e){FCST={}}
+var FCIDMAP={}; if(typeof FLASH!=='undefined'){ Object.keys(FLASH).forEach(function(k){ (FLASH[k]||[]).forEach(function(c){ FCIDMAP[c.id]='f:'+c.id; }); }); }
+var FSTORE=null,FSNAP={};
+if(window.fcStore){ FSTORE=fcMigrateFlash('khtn'); var _mk={}; Object.keys(FCIDMAP).forEach(function(id){ if(FSTORE.isKnown(FCIDMAP[id])){ _mk[id]=1; FSNAP[FCIDMAP[id]]=1; } }); FCST=_mk; }
 const FCFILT={};
-function fcSave(){try{localStorage.setItem('khtn_flash_v1',JSON.stringify(FCST))}catch(e){}}
+function fcSave(){ if(FSTORE){ Object.keys(FCIDMAP).forEach(function(id){ var cid=FCIDMAP[id], inK=FCST[id]===1; if(inK&&!FSNAP[cid]){ FSTORE.setKnown(cid,true); FSNAP[cid]=1; } else if(!inK&&FSNAP[cid]){ FSTORE.setKnown(cid,false); delete FSNAP[cid]; } }); return; } try{localStorage.setItem('khtn_flash_v1',JSON.stringify(FCST))}catch(e){} }
 /* ===== ENGINE FLASHCARD THONG NHAT =====
    Cach dung: 1 the tai 1 thoi diem; the chua thuoc xep truoc.
    Bam vao the de lat (xoay 3D). Tick "Da thuoc": dau tick nay pop + the truot phai;
@@ -582,12 +660,14 @@ function fcDeck(box, cfg){
   box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
    +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
    +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-guide" style="text-align:center;font-size:16px;color:#37474f;margin:8px 0 2px">Bấm vào thẻ để lật xem đáp án. Nhớ rồi thì bấm ✔ Đã thuộc. Chưa nhớ thì bấm ↺ Chưa thuộc — thẻ sẽ quay lại cho em học tiếp, không bị trừ điểm đâu.</div><div class="fc-guardmsg" style="text-align:center;font-size:16px;font-weight:600;color:#b34700;min-height:24px"></div>'
    +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
   var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
   function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
   function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
   function render(dir){
+    if(guardMsg)guardMsg.textContent='';
     if(!queue.length){
       card.style.display='none';prog.textContent='';
       doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
@@ -605,13 +685,16 @@ function fcDeck(box, cfg){
       prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
     }
     var k=knownCount();
-    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    var tt=(cfg.totalText?cfg.totalText():'');
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(tt?(' • '+tt):'');
     bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
     if(cfg.onRender)cfg.onRender(box);
   }
   function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
   function tick(ok){
-    if(busy||!queue.length)return;busy=true;
+    if(busy||!queue.length)return;
+    if(!flipped){flipped=true;card.classList.add('flipped');if(guardMsg)guardMsg.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?';return;}
+    busy=true;
     var id=queue[pos];
     pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
     card.classList.add(ok?'fc-out-r':'fc-out-l');
@@ -646,7 +729,8 @@ document.querySelectorAll('[data-fc]').forEach(function(box){
   });
   fcDeck(box,{items:items,
     isKnown:function(id){return FCST[id]===1;},
-    setKnown:function(id,v){FCST[id]=v?1:0;fcSave();}});
+    setKnown:function(id,v){FCST[id]=v?1:0;fcSave();},
+    totalText:function(){ if(!window.FSTORE) return ''; var dn=FSTORE.countDue(Object.keys(FCIDMAP).map(function(k){return FCIDMAP[k];})); return dn>0?('Hôm nay ôn lại nhé: '+dn+' thẻ sắp quên'):''; }});
 });
 </script>
 <script>
@@ -767,5 +851,166 @@ vApply();
 })();
 </script>
 
+<script>
+/* ===== NGHE BÀI bằng speechSynthesis (giọng vi-VN nếu có) — mẫu của trang Ngữ văn =====
+   Đọc theo từng câu/ý ngắn nối tiếp, tô sáng phần đang đọc, có nút Dừng,
+   cảnh báo khi máy chưa có giọng đọc tiếng Việt. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  var RATEKEY='khtn_read_rate', readRate=0.92;
+  try{ var savedRate=parseFloat(localStorage.getItem(RATEKEY)); if([0.78,0.92,1.08].indexOf(savedRate)>=0) readRate=savedRate; }catch(e){}
+  function syncRates(source){
+    document.querySelectorAll('.ls-rate').forEach(function(sel){ if(sel!==source) sel.value=String(readRate); });
+  }
+  document.querySelectorAll('.ls-rate').forEach(function(sel){
+    sel.value=String(readRate);
+    sel.addEventListener('change',function(){
+      var v=parseFloat(sel.value);
+      if([0.78,0.92,1.08].indexOf(v)<0) v=0.92;
+      readRate=v; sel.value=String(v);
+      try{ localStorage.setItem(RATEKEY,String(v)); }catch(e){}
+      syncRates(sel);
+    });
+  });
+  function pickVoice(){
+    var vs=synth.getVoices()||[], fallback=null;
+    viVoice=null;
+    for(var i=0;i<vs.length;i++){
+      var lang=(vs[i].lang||'').toLowerCase().replace('_','-');
+      if(lang==='vi-vn'){ viVoice=vs[i]; break; }
+      if(!fallback && lang.indexOf('vi')===0) fallback=vs[i];
+    }
+    if(!viVoice) viVoice=fallback;
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null;
+  function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function splitText(t){
+    var sents=(t||'').match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[];
+    function pushPiece(piece){
+      piece=(piece||'').trim();
+      while(piece.length>140){
+        var cut=piece.lastIndexOf(',',139);
+        if(cut<40) cut=piece.lastIndexOf(';',139);
+        if(cut<40) cut=piece.lastIndexOf(':',139);
+        if(cut<40) cut=piece.lastIndexOf(' ',139);
+        if(cut<40){ cut=140; }
+        else if(piece[cut]!==' '){ cut+=1; }
+        out.push(piece.slice(0,cut).trim());
+        piece=piece.slice(cut).trim();
+      }
+      if(piece) out.push(piece);
+    }
+    sents.forEach(pushPiece);
+    return out;
+  }
+  function pushLong(units,t,el){
+    splitText(t).forEach(function(x){ units.push({t:x,el:el}); });
+  }
+  var lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+
+  function collectRd(lesson){
+    var rds=lesson.querySelectorAll('.rd');
+    if(rds.length) return rds;
+    var out=[];
+    lesson.querySelectorAll('.hook, .goal, .wow, ul li, .sup, .moc, .meo, .note, .key').forEach(function(el){
+      if(el.closest('.minicard,.fcbox,.fc-sec,.qa,.mmap,.gallery,.lsbox,figure')) return;
+      out.push(el);
+    });
+    return out.filter(function(el){ return !out.some(function(o){ return o!==el && o.contains(el); }); });
+  }
+  function prepare(lesson){
+    if(lesson._units) return lesson._units;
+    var units=[];
+    collectRd(lesson).forEach(function(el){
+      var txt=(el.textContent||'').replace(/\s+/g,' ').trim();
+      if(!txt) return;
+      if(el.querySelector('b,span,i,em,strong,ul')){ pushLong(units,txt,el); return; }
+      var sents=txt.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[txt];
+      el.innerHTML=sents.map(function(x){ return '<span class="rb-u">'+esc(x.trim())+'</span>'; }).join(' ');
+      el.querySelectorAll('.rb-u').forEach(function(sp){ pushLong(units,sp.textContent,sp); });
+    });
+    lesson._units=units;
+    return units;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.classList.remove('reading'); b.textContent='🔊 Nghe bài này'; });
+    document.querySelectorAll('.ls-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc… (bấm để dừng)'; st.stopBtn.hidden=false; }
+  }
+  function clearTimers(st){
+    if(!st) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    if(st.keepAlive){ clearInterval(st.keepAlive); st.keepAlive=null; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; clearTimers(cur); cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    hi(null); setBtn(null);
+  }
+  window.__stopRead=stopRead;
+  function advanceChunk(st,token){
+    if(cur!==st || st.dead || st.chunkToken!==token) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    st.idx++; speakNext(st);
+  }
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    var unit=st.units[st.idx], token=(st.chunkToken||0)+1;
+    st.chunkToken=token;
+    hi(unit.el);
+    pickVoice();
+    var u=new SpeechSynthesisUtterance(unit.t);
+    u.lang='vi-VN'; u.rate=readRate;
+    if(viVoice){ u.voice=viVoice; u.lang=viVoice.lang||u.lang; }
+    var estimatedMs=Math.min(30000,Math.max(9000,Math.ceil(unit.t.length/(11*readRate)*1000)+5000));
+    st.watchdog=setTimeout(function(){ advanceChunk(st,token); },estimatedMs);
+    u.onend=function(){ advanceChunk(st,token); };
+    u.onerror=function(e){ if(e.error!=='canceled'&&e.error!=='interrupted') advanceChunk(st,token); };
+    try{ synth.speak(u); }catch(e){ advanceChunk(st,token); }
+  }
+  function startRead(lesson){
+    stopRead();
+    var units;
+    try{ units=prepare(lesson); }catch(e){ units=[]; }
+    if(!units.length) return;
+    pickVoice();
+    var note=lesson.querySelector('.ls-note');
+    if(note){
+      if(viVoice){ note.hidden=true; }
+      else{
+        var dv=(synth.getVoices()||[])[0];
+        note.textContent='⚠️ Máy này chưa có giọng đọc tiếng Việt (đang đọc bằng giọng '+(dv?('"'+dv.name+'" '):'mặc định ')+') nên nghe sẽ không đúng tiếng Việt. Khắc phục: mở trang bằng trình duyệt Microsoft Edge, hoặc cài thêm giọng/gói ngôn ngữ Tiếng Việt trong phần cài đặt của máy.';
+        note.hidden=false;
+      }
+    }
+    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false,chunkToken:0,watchdog:null,keepAlive:null};
+    cur=st; setBtn(st);
+    st.keepAlive=setInterval(function(){ if(cur===st&&!st.dead&&synth.paused){ try{ synth.resume(); }catch(e){} } },4000);
+    speakNext(st);
+  }
+  document.querySelectorAll('.card').forEach(function(lesson){
+    var lb=lesson.querySelector('.ls-listen');
+    if(!lb) return;
+    lb.addEventListener('click',function(){ if(cur&&cur.lesson===lesson){ stopRead(); } else { startRead(lesson); } });
+    lesson.querySelector('.ls-stop').addEventListener('click',function(){ stopRead(); });
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
+})();
+</script>
 </body>
 </html>

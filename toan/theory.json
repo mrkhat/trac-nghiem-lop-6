@@ -722,7 +722,7 @@
    {
     "f": "S = a × h",
     "label": "Diện tích",
-    "note": "a là cạnh đáy, h là chiều cao tương ứng"
+    "note": "a là cạnh đáy, h là chiều cao từ một đỉnh đến cạnh đáy a"
    }
   ],
   "id": "hinh-binh-hanh",

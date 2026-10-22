@@ -432,12 +432,12 @@
     "question": "Đâu KHÔNG phải là loại kí hiệu thường được sử dụng trên bản đồ?",
     "options": [
       "A. Kí hiệu điểm",
-      "B. Kí hiệu hình ảnh",
+      "B. Kí hiệu âm thanh",
       "C. Kí hiệu đường",
       "D. Kí hiệu diện tích"
     ],
     "answer": 1,
-    "explanation": "Bản đồ thường dùng 3 loại kí hiệu: điểm, đường và diện tích. 'Kí hiệu hình ảnh' không phải là một loại kí hiệu bản đồ.",
+    "explanation": "Bản đồ thường dùng 3 loại kí hiệu: điểm, đường và diện tích. 'Kí hiệu âm thanh' không phải là một loại kí hiệu bản đồ.",
     "id": 34,
     "bai": 4
   },
@@ -1066,15 +1066,15 @@
     "bai": 9
   },
   {
-    "question": "Người ta xây dựng các đài quan sát ven biển chủ yếu để làm gì?",
+    "question": "Ban đêm, muốn tìm hướng Bắc, em có thể dựa vào ngôi sao nào?",
     "options": [
-      "A. Dự báo thời tiết",
-      "B. Bảo vệ biên giới",
-      "C. Mở rộng tầm nhìn ngoài khơi xa",
-      "D. Ngắm sao băng"
+      "A. Sao Mai",
+      "B. Sao Bắc Cực",
+      "C. Sao băng",
+      "D. Sao Hôm"
     ],
-    "answer": 2,
-    "explanation": "Đài quan sát ven biển được xây cao để nhìn được ra biển xa hơn, kịp thời phát hiện tàu thuyền và những hiện tượng ngoài khơi.",
+    "answer": 1,
+    "explanation": "Sao Bắc Cực luôn nằm ở phía Bắc trên bầu trời, nên ban đêm em có thể dựa vào nó để xác định hướng Bắc.",
     "id": 83,
     "bai": 9
   },
@@ -2089,7 +2089,7 @@
       "D. Thái Bình Dương"
     ],
     "answer": 3,
-    "explanation": "Thái Bình Dương chiếm gần nửa bề mặt Trái Đất.",
+    "explanation": "Thái Bình Dương chiếm khoảng 1/3 bề mặt Trái Đất — gần một nửa diện tích biển.",
     "bai": 21
   },
   {

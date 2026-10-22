@@ -27,7 +27,7 @@ Căn cứ phạm vi: khung kế hoạch dạy học mẫu (Phụ lục III, CV 5
 - 2 chế độ xem (Từng bài mặc định / Xem tất cả), khóa `localStorage: congnghe_view_mode`. CSS khung dùng chung qua `<link href="../assets/common.css">`; `<style>` nội bộ chỉ giữ phần đặc thù của môn (nghe đọc `.rb-*`, thẻ mini `.mini-*`, sơ đồ `.mmsvg`, kiểm tra nhanh `.qa.mini`).
 - **Nghe đọc**: mỗi bài có nút 🔊 — speechSynthesis giọng vi-VN, đọc theo từng câu ngắn, tô vàng dòng đang đọc (class `.rdsrc`/`.rb-on`), có nút ⏹ Dừng, tự dừng khi chuyển bài; máy không có giọng Việt thì hiện cảnh báo + cách khắc phục (mẫu như module nguvan).
 - **Chuẩn "mức dễ nhất" đã áp**: câu văn ngắn, một ý một dòng; thuật ngữ giải thích ngay bằng lời thường + ví dụ trong nhà; sau mỗi 1–2 đoạn có 1 câu kiểm tra siêu ngắn bấm hiện đáp án (tổng 19 câu chen giữa, trong đó mỗi bài đúng 1 câu **🎯 Bắt ý chính** dạng chọn ý chính/tóm đoạn/chi tiết quan trọng nhất trong hình–sơ đồ, có giải thích vì sao là ý chính); hộp ⭐ Điểm cần nhớ ≤4 ý; hình tươi vui + 7 sơ đồ tự vẽ dẫn dắt theo bước/số thứ tự (3 phần của nhà, 5 bước xây nhà, nguyên tắc nhà thông minh, 5 nhóm thực phẩm, 5 bước bảo quản tủ lạnh, 5 bước dự án bữa ăn, kí hiệu giặt–là).
-- `quiz.html` + `questions.json`: clone engine của khtn/quiz.html (3 chế độ Học tập – Luyện tập – Thi thử). **54 câu sắp từ dễ đến khó**: 36 câu rất dễ (nhận biết) → 9 câu vừa (thông hiểu) → 9 câu vận dụng tình huống; phân bố đáp án A/B/C/D = 14/14/13/13; giải thích ngắn, giọng động viên. Mọi kiến thức trong câu hỏi đều đã dạy trong bài học (2 ý nằm ngoài phần cốt lõi SGK — 4 hình thức báo động của nhà thông minh; không ăn thực phẩm hết hạn — đã bổ sung bằng hộp "➕ Kiến thức bổ sung" trong Bài 3 và Bài 5).
+- `quiz.html` + `questions.json`: clone engine của khtn/quiz.html (3 chế độ Học tập – Luyện tập – Thi thử). **81 câu trắc nghiệm**; phân bố đáp án A/B/C/D = 22/21/19/19; giải thích ngắn, giọng động viên. Mọi kiến thức trong câu hỏi đều đã dạy trong bài học (2 ý nằm ngoài phần cốt lõi SGK — 4 hình thức báo động của nhà thông minh; không ăn thực phẩm hết hạn — đã bổ sung bằng hộp "➕ Kiến thức bổ sung" trong Bài 3 và Bài 5).
 
 ## Hình ảnh (hinh-anh/congnghe/)
 
@@ -37,7 +37,7 @@ Căn cứ phạm vi: khung kế hoạch dạy học mẫu (Phụ lục III, CV 5
 
 ## Số liệu
 
-9 bài học · 19 kiểm tra nhanh chen giữa (9 câu 🎯 bắt ý chính) · 18 thẻ lật mini · 36 câu gợi nhớ · 46 flashcard · 10 sơ đồ tư duy SVG (9 bài + 1 tổng) · 7 sơ đồ SVG file · 43 tranh WebP · 54 câu trắc nghiệm.
+9 bài học · 19 kiểm tra nhanh chen giữa (9 câu 🎯 bắt ý chính) · 18 thẻ lật mini · 36 câu gợi nhớ · 46 flashcard · 10 sơ đồ tư duy SVG (9 bài + 1 tổng) · 7 sơ đồ SVG file · 43 tranh WebP · 81 câu trắc nghiệm.
 
 ## Điểm chưa chắc / lưu ý
 

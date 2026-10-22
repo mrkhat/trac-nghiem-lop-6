@@ -3,9 +3,9 @@
    trang bai tap (quiz.html) cua cac mon va trang Toan.
    - fcDeck: engine flashcard thong nhat, trich nguyen van tu
      trang hoc (ban chuan trong khtn/index.html).
-   - onluyenState: trang thai Da thuoc rieng cho On luyen,
-     luu o localStorage theo khoa onluyen_<mon> (khong dung chung
-     voi trang thai hoc theo bai o trang hoc).
+   - onluyenState: dung chung kho tien do thong nhat fc-state.js
+     (cung khoa <mon>_fcquiz_v1 voi trang hoc va tab Flashcard,
+     kem lich on lai cach quang 1-3-7 ngay).
    - onluyenMiniItems: gom the Nho nhanh tu trang hoc (index.html)
      cua cung thu muc — nguon duy nhat, khong sao chep du lieu.
    - onluyenBoot: gan nut/mo dong khu vuc On luyen o quiz.html.
@@ -23,12 +23,14 @@ function fcDeck(box, cfg){
   box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
    +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
    +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-guide" style="text-align:center;font-size:16px;color:#37474f;margin:8px 0 2px">Bấm vào thẻ để lật xem đáp án. Nhớ rồi thì bấm ✔ Đã thuộc. Chưa nhớ thì bấm ↺ Chưa thuộc — thẻ sẽ quay lại cho em học tiếp, không bị trừ điểm đâu.</div><div class="fc-guardmsg" style="text-align:center;font-size:16px;font-weight:600;color:#b34700;min-height:24px"></div>'
    +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
   var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
   function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
   function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
   function render(dir){
+    if(guardMsg)guardMsg.textContent='';
     if(!queue.length){
       card.style.display='none';prog.textContent='';
       doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
@@ -46,13 +48,16 @@ function fcDeck(box, cfg){
       prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
     }
     var k=knownCount();
-    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    var tt=(cfg.totalText?cfg.totalText():'');
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(tt?(' • '+tt):'');
     bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
     if(cfg.onRender)cfg.onRender(box);
   }
   function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
   function tick(ok){
-    if(busy||!queue.length)return;busy=true;
+    if(busy||!queue.length)return;
+    if(!flipped){flipped=true;card.classList.add('flipped');if(guardMsg)guardMsg.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?';return;}
+    busy=true;
     var id=queue[pos];
     pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
     card.classList.add(ok?'fc-out-r':'fc-out-l');
@@ -78,8 +83,20 @@ function fcDeck(box, cfg){
   render();
 }
 
-/* ---------- Trang thai rieng cua On luyen ---------- */
+/* ---------- Trang thai On luyen: dung CHUNG kho thong nhat fc-state.js ----------
+   (bai hoc / On luyen / tab Flashcard cung mot tien do + lich on 1-3-7 ngay;
+    khoa cu onluyen_<mon> duoc di tru dan boi fcMigrateOnluyen/fcMigrateFlash) */
 function onluyenState(lsKey){
+  var mon=String(lsKey||'').replace(/^onluyen_/,'');
+  if(window.fcStore){
+    var store=window.fcMigrateFlash?fcMigrateFlash(mon):fcStore(mon);
+    return {
+      isKnown:function(id){ return store.isKnown(id); },
+      isDue:function(id){ return store.isDue(id); },
+      setKnown:function(id,v){ store.setKnown(id, !!v); },
+      __store:store, __mon:mon
+    };
+  }
   var st={};
   try{ st=JSON.parse(localStorage.getItem(lsKey)||'{}'); }catch(e){ st={}; }
   return {
@@ -145,13 +162,17 @@ function onluyenBoot(cfg){
     if(built[kind]) return;
     built[kind]=true;
     if(kind==='fc'){
-      fcDeck(boxFC,{items:cfg.buildFlashItems(), isKnown:state.isKnown, setKnown:state.setKnown});
+      var fItems=cfg.buildFlashItems();
+      if(window.fcCidF){ fItems.forEach(function(it){ it.id=(typeof it.id==='number')?fcCidC(it.id):fcCidF(it.id); }); }
+      fcDeck(boxFC,{items:fItems, isKnown:state.isKnown, setKnown:state.setKnown, totalText:function(){ if(!state.__store) return ''; var d=state.__store.countDue(fItems.map(function(x){return x.id;})); return d>0?('Hôm nay ôn lại nhé: '+d+' thẻ sắp quên'):''; }});
     } else {
       boxNN.innerHTML='<p style="text-align:center">Đang tải thẻ…</p>';
       onluyenMiniItems('fetch').then(function(items){
         boxNN.innerHTML='';
         if(!items.length){ boxNN.innerHTML='<p style="text-align:center">Chưa tải được thẻ. Em thử tải lại trang nhé!</p>'; return; }
-        fcDeck(boxNN,{items:items, isKnown:state.isKnown, setKnown:state.setKnown});
+        if(window.fcMigrateOnluyen && state.__mon) fcMigrateOnluyen(state.__mon, items);
+        if(window.fcCidM){ items.forEach(function(it){ it.id=fcCidM(it.front); }); }
+        fcDeck(boxNN,{items:items, isKnown:state.isKnown, setKnown:state.setKnown, totalText:function(){ if(!state.__store) return ''; var d=state.__store.countDue(items.map(function(x){return x.id;})); return d>0?('Hôm nay ôn lại nhé: '+d+' thẻ sắp quên'):''; }});
       });
     }
   }

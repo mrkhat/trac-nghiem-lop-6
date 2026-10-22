@@ -1,0 +1,296 @@
+[
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Truyền thống gia đình là gì?",
+  "a": "Những điều tốt đẹp của gia đình, được truyền từ đời này sang đời khác.",
+  "fi": "../hinh-anh/gdcd/bai1-ong-ke-gia-pha.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Ngày giỗ trong gia đình là dịp để làm gì?",
+  "a": "Để con cháu tưởng nhớ ông bà, tổ tiên và sum họp cùng nhau.",
+  "fi": "../hinh-anh/gdcd/bai1-gia-dinh-sum-vay.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Cả nhà cùng gói bánh chưng ngày Tết là đang làm gì?",
+  "a": "Đang giữ gìn và phát huy truyền thống tốt đẹp của gia đình, dân tộc.",
+  "fi": "../hinh-anh/gdcd/bai1-goi-banh-chung.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Truyền thống hiếu học nghĩa là gì?",
+  "a": "Là truyền thống coi trọng việc học; con cháu trong nhà đều chăm học, ham học.",
+  "fi": "../hinh-anh/gdcd/bai1-hieu-hoc.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Em làm việc gì để giữ truyền thống gia đình?",
+  "a": "Học chăm, ngoan ngoãn, giúp việc nhà, nhớ ngày giỗ và ngày Tết của gia đình.",
+  "fi": "../hinh-anh/gdcd/bai1-giup-viec-nha.webp"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Truyền thống gia đình là gì?",
+  "a": "Là những điều tốt đẹp được truyền qua nhiều đời trong gia đình.",
+  "fi": "../hinh-anh/gdcd/bai1-ong-ke-gia-pha.webp"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Nhìn hình: cả nhà đang làm gì để giữ truyền thống ngày Tết?",
+  "a": "Cả nhà cùng gói bánh chưng — việc làm giữ nét đẹp truyền thống ngày Tết.",
+  "fi": "../hinh-anh/gdcd/bai1-goi-banh-chung.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Dắt bà cụ qua đường là việc làm thể hiện điều gì?",
+  "a": "Là quan tâm, giúp đỡ và làm những điều tốt đẹp cho người khác.",
+  "fi": "../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Ở trường, việc nào thể hiện yêu thương bạn bè?",
+  "a": "Giảng bài cho bạn chưa hiểu, đỡ bạn khi ngã, chia sẻ đồ dùng với bạn.",
+  "fi": "../hinh-anh/gdcd/bai2-giup-ban-hoc.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Khi ông bà bị ốm, em nên làm gì?",
+  "a": "Chăm sóc ông bà: mang cháo, mang nước, hỏi thăm ông bà.",
+  "fi": "../hinh-anh/gdcd/bai2-cham-ong-ba.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Quyên góp sách vở cho bạn vùng lũ là việc làm gì?",
+  "a": "Là việc làm thể hiện yêu thương, chia sẻ với người gặp khó khăn.",
+  "fi": "../hinh-anh/gdcd/bai2-quyen-gop.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Câu ca dao nào dạy ta yêu thương con người?",
+  "a": "“Thương người như thể thương thân” — thương người như thương chính mình.",
+  "fi": "../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Yêu thương con người là gì?",
+  "a": "Là quan tâm, giúp đỡ và làm điều tốt cho người khác.",
+  "fi": "../hinh-anh/gdcd/bai2-cham-ong-ba.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Nhìn hình: bạn nhỏ đang làm việc tốt gì?",
+  "a": "Dắt bà cụ qua đường — việc làm thể hiện yêu thương con người.",
+  "fi": "../hinh-anh/gdcd/bai2-giup-ba-qua-duong.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Siêng năng là gì?",
+  "a": "Là làm việc chăm chỉ, đều đặn mỗi ngày.",
+  "fi": "../hinh-anh/gdcd/bai3-lam-viec-deu-dan.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Kiên trì là gì?",
+  "a": "Là quyết tâm làm đến cùng, gặp khó cũng không bỏ cuộc.",
+  "fi": "../hinh-anh/gdcd/bai3-tap-xe-dap.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Học sinh siêng năng, kiên trì biểu hiện thế nào trong học tập?",
+  "a": "Làm bài mỗi ngày, chưa hiểu thì học lại và hỏi thầy cô, không bỏ dở.",
+  "fi": "../hinh-anh/gdcd/bai3-hoc-bai.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Siêng năng, kiên trì mang lại điều gì?",
+  "a": "Giúp em làm được việc khó và đi đến thành công — như cây được chăm mỗi ngày sẽ trĩu quả.",
+  "fi": "../hinh-anh/gdcd/bai3-cay-lon.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Chuyện Thỏ và Rùa dạy em điều gì?",
+  "a": "Phải kiên trì, không chủ quan, không bỏ cuộc — chậm mà đều vẫn thắng.",
+  "fi": "../hinh-anh/gdcd/bai3-tho-va-rua.webp"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Kiên trì nghĩa là gì?",
+  "a": "Là quyết tâm làm đến cùng, gặp khó không bỏ cuộc.",
+  "fi": "../hinh-anh/gdcd/bai3-tap-xe-dap.webp"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Nhìn hình: vì sao Rùa thắng Thỏ?",
+  "a": "Vì Rùa kiên trì, đi đều không nghỉ. Thỏ chủ quan, mải ngủ.",
+  "fi": "../hinh-anh/gdcd/bai3-tho-va-rua.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Bạn nhỏ làm vỡ đồ, rồi tự nhận lỗi với mẹ. Việc làm đó thể hiện đức tính gì?",
+  "a": "Là nói đúng sự thật, làm đúng sự thật và bảo vệ điều đúng.",
+  "fi": "../hinh-anh/gdcd/bai4-nhan-loi.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Trong giờ kiểm tra, việc làm nào là tôn trọng sự thật?",
+  "a": "Tự làm bài bằng sức mình, không chép bài bạn, không dùng phao.",
+  "fi": "../hinh-anh/gdcd/bai4-thi-nghiem-tuc.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Nhặt được của rơi, em nên làm gì?",
+  "a": "Trả lại cho người mất hoặc nộp cho thầy cô, chú bảo vệ.",
+  "fi": "../hinh-anh/gdcd/bai4-tra-cua-roi.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Vì sao người nói thật được mọi người quý mến?",
+  "a": "Vì ai cũng tin tưởng người trung thực và yên tâm giao việc cho họ.",
+  "fi": "../hinh-anh/gdcd/bai4-duoc-tin-tuong.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Chuyện “Chú bé chăn cừu” dạy em bài học gì?",
+  "a": "Không được nói dối: nói dối nhiều lần, khi nói thật cũng không ai tin.",
+  "fi": "../hinh-anh/gdcd/bai4-be-chan-cuu.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Tôn trọng sự thật là gì?",
+  "a": "Là nói đúng, làm đúng những gì có thật.",
+  "fi": "../hinh-anh/gdcd/bai4-nhan-loi.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Nhìn hình: bạn gái đang làm việc đúng gì?",
+  "a": "Trả lại ví nhặt được — việc làm trung thực, tôn trọng sự thật.",
+  "fi": "../hinh-anh/gdcd/bai4-tra-cua-roi.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Tự lập là gì?",
+  "a": "Là tự làm những việc của mình, không ỷ lại vào người khác.",
+  "fi": "../hinh-anh/gdcd/bai5-tu-chuan-bi.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Ở nhà, việc nào cho thấy em tự lập?",
+  "a": "Tự gấp chăn, tự dọn phòng, tự chuẩn bị cặp sách cho hôm sau.",
+  "fi": "../hinh-anh/gdcd/bai5-don-phong.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Ở trường, học sinh tự lập biểu hiện thế nào?",
+  "a": "Tự làm bài tập, tự trực nhật, giữ gìn đồ dùng của mình.",
+  "fi": "../hinh-anh/gdcd/bai5-truc-nhat.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Tự lập mang lại điều gì tốt cho em?",
+  "a": "Giúp em tự tin, trưởng thành và được mọi người yên tâm, khen ngợi.",
+  "fi": "../hinh-anh/gdcd/bai5-tu-tin.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Nhìn hình trước – sau: bạn Tùng thay đổi thế nào?",
+  "a": "Trước: mẹ làm thay mọi việc. Sau: Tùng tự buộc giày, tự xách cặp — đó là tự lập.",
+  "fi": "../hinh-anh/gdcd/bai5-truoc-sau.webp"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Tự lập là gì?",
+  "a": "Là tự làm những việc của mình, không chờ người khác làm thay.",
+  "fi": "../hinh-anh/gdcd/bai5-tu-chuan-bi.webp"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Nhìn hình: bạn nhỏ đang tự lập trong việc gì?",
+  "a": "Bạn đang tự gấp chăn, dọn phòng của mình.",
+  "fi": "../hinh-anh/gdcd/bai5-don-phong.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Tự nhận thức bản thân là gì?",
+  "a": "Là hiểu rõ về chính mình: mình giỏi việc gì, chưa giỏi việc gì, thích điều gì.",
+  "fi": "../hinh-anh/gdcd/bai6-truoc-guong.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Nhìn hình: bạn gái phát hiện điểm mạnh của mình là gì?",
+  "a": "Bạn vẽ tranh đẹp — vẽ là điểm mạnh của bạn.",
+  "fi": "../hinh-anh/gdcd/bai6-diem-manh.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Lắng nghe góp ý của thầy cô, bạn bè giúp em điều gì?",
+  "a": "Giúp em biết điểm nào mình chưa tốt để sửa — đó là một cách hiểu mình.",
+  "fi": "../hinh-anh/gdcd/bai6-lang-nghe.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Vì sao nên thử làm nhiều việc khác nhau?",
+  "a": "Vì thử rồi em mới biết mình giỏi việc gì, hợp với việc gì.",
+  "fi": "../hinh-anh/gdcd/bai6-thu-suc.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Em có thể nhờ ai giúp mình sửa điểm yếu?",
+  "a": "Nhờ thầy cô và bạn bè giỏi hơn chỉ cho em; học cùng bạn là cách sửa điểm yếu rất tốt.",
+  "fi": "../hinh-anh/gdcd/bai6-hoc-nhom.webp"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Điểm mạnh là gì? Điểm yếu là gì?",
+  "a": "Điểm mạnh là việc em làm giỏi. Điểm yếu là việc em làm chưa tốt.",
+  "fi": "../hinh-anh/gdcd/bai6-thu-suc.webp"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Nhìn hình: điểm mạnh của bạn gái là gì?",
+  "a": "Bạn vẽ tranh giỏi — vẽ là điểm mạnh của bạn.",
+  "fi": "../hinh-anh/gdcd/bai6-diem-manh.webp"
+ }
+]

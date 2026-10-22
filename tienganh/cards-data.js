@@ -29,10 +29,10 @@ W("bedroom","/ˈbedrʊm/","phòng ngủ",CM+"bedroom.jpg","","My bedroom is smal
 W("bathroom","/ˈbɑːθruːm/","phòng tắm","../hinh-anh/tienganh/bathroom.jpg","","There is a shower in the bathroom.","Có vòi sen trong phòng tắm."),
 W("garden","/ˈɡɑːdn/","khu vườn",CM+"garden.jpg","","There are flowers in the garden.","Có nhiều hoa trong vườn."),
 W("sofa","/ˈsəʊfə/","ghế sô-pha",CM+"sofa.jpg","","The cat is on the sofa.","Con mèo nằm trên ghế sô-pha."),
-W("lamp","/læmp/","đèn bàn",CM+"sua-lamp.webp","","The lamp is on the table.","Cái đèn ở trên bàn."),
+W("lamp","/læmp/","cái đèn",CM+"sua-lamp.webp","","The lamp is on the table.","Cái đèn ở trên bàn."),
 W("fridge","/frɪdʒ/","tủ lạnh",CM+"fridge.jpg","","The milk is in the fridge.","Sữa ở trong tủ lạnh."),
 W("wardrobe","/ˈwɔːdrəʊb/","tủ quần áo",CM+"sua-wardrobe.webp","","My clothes are in the wardrobe.","Quần áo của mình ở trong tủ."),
-W("next to","/ˈnekst tə/","ở bên cạnh",CM+"sua-next-to.webp","","The sofa is next to the TV.","Ghế sô-pha ở bên cạnh tivi."),
+W("next to","/ˈnekst tuː/","ở bên cạnh",CM+"sua-next-to.webp","","The sofa is next to the TV.","Ghế sô-pha ở bên cạnh tivi."),
 W("between","/bɪˈtwiːn/","ở giữa (hai vật)",CM+"sua-between.webp","","The lamp is between the sofa and the table.","Cái đèn ở giữa ghế sô-pha và cái bàn.")
 ],
 u3:[
@@ -73,7 +73,7 @@ W("forest","/ˈfɒrɪst/","khu rừng",CM+"forest.jpg","","There are many trees 
 W("desert","/ˈdezət/","sa mạc",CM+"desert.jpg","","The desert is hot and dry.","Sa mạc nóng và khô."),
 W("boat","/bəʊt/","con thuyền",CM+"sua-boat.webp","","We go by boat to the island.","Chúng mình đi thuyền ra đảo."),
 W("backpack","/ˈbækpæk/","ba lô","../hinh-anh/tienganh/backpack.jpg","","I put my books in my backpack.","Mình để sách vào ba lô."),
-W("suncream","/ˈsʌnkriːm/","kem chống nắng","","🧴","Wear suncream at the beach!","Hãy bôi kem chống nắng ở bãi biển!"),
+W("suncream","/ˈsʌnkriːm/","kem chống nắng","","🧴","Put on suncream at the beach!","Hãy bôi kem chống nắng ở bãi biển!"),
 W("amazing","/əˈmeɪzɪŋ/","tuyệt vời","","🤩","Ha Long Bay is amazing!","Vịnh Hạ Long thật tuyệt vời!"),
 W("natural wonder","/ˈnætʃrəl ˈwʌndə/","kì quan thiên nhiên","","🏞️","Ha Long Bay is a natural wonder.","Vịnh Hạ Long là một kì quan thiên nhiên.")
 ],
@@ -84,9 +84,9 @@ W("fireworks","/ˈfaɪəwɜːks/","pháo hoa",CM+"fireworks.jpg","","We watch fi
 W("decorate","/ˈdekəreɪt/","trang trí, trang hoàng",CM+"sua-decorate.webp","","We decorate our house before Tet.","Nhà mình trang trí nhà trước Tết."),
 W("peach blossom","/piːtʃ ˈblɒsəm/","hoa đào",CM+"sua-peach-blossom.webp","","Peach blossoms are pink.","Hoa đào có màu hồng."),
 W("kumquat tree","/ˈkʌmkwɒt triː/","cây quất",CM+"sua-kumquat-tree.webp","","There is a kumquat tree in my living room.","Có một cây quất trong phòng khách nhà mình."),
-W("chung cake","/tʃʌŋ keɪk/","bánh chưng",CM+"chung-cake.jpg","","My family makes chung cakes.","Gia đình mình gói bánh chưng."),
+W("chung cake","","bánh chưng",CM+"chung-cake.jpg","","My family makes chung cakes.","Gia đình mình gói bánh chưng."),
 W("family gathering","/ˈfæməli ˈɡæðərɪŋ/","sum họp gia đình","","👨‍👩‍👧‍👦","Tet is a time for family gatherings.","Tết là dịp sum họp gia đình."),
-W("temple","/ˈtempl/","ngôi đền, chùa",CM+"temple.jpg","","We go to the temple at Tet.","Chúng mình đi lễ đền, chùa vào dịp Tết."),
+W("temple","/ˈtempl/","ngôi đền",CM+"temple.jpg","","We go to the temple at Tet.","Chúng mình đi lễ đền vào dịp Tết."),
 W("wish","/wɪʃ/","chúc, điều ước","","🌠","I wish you a Happy New Year!","Mình chúc bạn năm mới vui vẻ!"),
 W("celebrate","/ˈselɪbreɪt/","tổ chức, kỉ niệm","","🎉","We celebrate Tet with our family.","Chúng mình đón Tết cùng gia đình."),
 W("relative","/ˈrelətɪv/","họ hàng",CM+"sua-relative.webp","","We visit our relatives at Tet.","Chúng mình thăm họ hàng vào dịp Tết.")

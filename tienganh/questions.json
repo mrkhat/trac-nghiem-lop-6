@@ -318,7 +318,7 @@
       "A. narrow",
       "B. narrowest",
       "C. narrower",
-      "D. more narrow"
+      "D. most narrow"
     ],
     "answer": 2,
     "explanation": "Có “than” → so sánh hơn. Tính từ ngắn “narrow” thêm -er: narrower.",
@@ -482,15 +482,15 @@
   },
   {
     "id": 38,
-    "question": "Từ “suncream” dùng để làm gì?",
+    "question": "Em đi biển nắng gắt, em cần mang theo gì để bảo vệ da?",
     "options": [
-      "A. chống nắng",
-      "B. đựng sách",
-      "C. chỉ hướng",
-      "D. giữ ấm"
+      "A. Kem chống nắng (suncream)",
+      "B. Hộp bút (pencil case)",
+      "C. Com-pa (compass)",
+      "D. Ba lô (backpack)"
     ],
     "answer": 0,
-    "explanation": "“Suncream” là kem chống nắng — bôi khi đi biển, leo núi.",
+    "explanation": "Suncream là kem chống nắng, bôi lên da để đỡ bị nắng làm rát da.",
     "bai": 5
   },
   {
@@ -599,7 +599,7 @@
   },
   {
     "id": 47,
-    "question": "There is ___ rice cake on the table. (Có một ít bánh chưng trên bàn.)",
+    "question": "There are ___ chung cakes on the table. (Có một ít bánh chưng trên bàn.)",
     "options": [
       "A. some",
       "B. any",
@@ -607,7 +607,7 @@
       "D. a few"
     ],
     "answer": 0,
-    "explanation": "Câu khẳng định dùng “some” (một ít). “Any” thường dùng trong câu phủ định và câu hỏi.",
+    "explanation": "Câu khẳng định dùng “some” (một ít). “Some” đi với danh từ số nhiều hoặc không đếm được (some + danh từ số nhiều hoặc không đếm được). “Any” thường dùng trong câu phủ định và câu hỏi.",
     "bai": 6
   },
   {

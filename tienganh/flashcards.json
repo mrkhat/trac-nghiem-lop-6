@@ -1,0 +1,562 @@
+[
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "school /skuːl/",
+  "a": "trường học\nMy school is big and new.",
+  "fi": "../hinh-anh/tienganh/school.jpg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "🧑‍🤝‍🧑 classmate /ˈklɑːsmeɪt/",
+  "a": "bạn cùng lớp\nLan is my classmate."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "👩‍🏫 teacher /ˈtiːtʃə/",
+  "a": "giáo viên\nMy teacher is kind."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "📚 subject /ˈsʌbdʒɪkt/",
+  "a": "môn học\nMaths is my favourite subject."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "🔢 maths /mæθs/",
+  "a": "môn Toán\nI study maths on Monday."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "🔤 English /ˈɪŋɡlɪʃ/",
+  "a": "môn Tiếng Anh\nWe speak English in class."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "calculator /ˈkælkjuleɪtə/",
+  "a": "máy tính cầm tay\nI use a calculator in maths lessons.",
+  "fi": "../hinh-anh/tienganh/calculator.jpg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "compass /ˈkʌmpəs/",
+  "a": "com-pa (để vẽ hình tròn)\nI draw a circle with a compass.",
+  "fi": "../hinh-anh/tienganh/compass.jpg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "pencil case /ˈpensl keɪs/",
+  "a": "hộp bút\nMy pencil case is blue.",
+  "fi": "../hinh-anh/tienganh/sua-pencil-case.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "📏 ruler /ˈruːlə/",
+  "a": "thước kẻ\nI draw a line with a ruler."
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "library /ˈlaɪbrəri/",
+  "a": "thư viện\nI read books in the library.",
+  "fi": "../hinh-anh/tienganh/library.jpg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "uniform /ˈjuːnɪfɔːm/",
+  "a": "đồng phục\nWe wear uniforms at school.",
+  "fi": "../hinh-anh/tienganh/sua-uniform.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "🛝 playground /ˈpleɪɡraʊnd/",
+  "a": "sân chơi (của trường)\nWe play in the playground."
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "compass/ˈkʌmpəs/com-pa🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/compass.jpg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "library/ˈlaɪbrəri/thư viện🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/library.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "🏠 house /haʊs/",
+  "a": "ngôi nhà\nThis is my house."
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "living room /ˈlɪvɪŋ ruːm/",
+  "a": "phòng khách\nWe watch TV in the living room.",
+  "fi": "../hinh-anh/tienganh/living-room.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "kitchen /ˈkɪtʃɪn/",
+  "a": "phòng bếp\nMy mother cooks in the kitchen.",
+  "fi": "../hinh-anh/tienganh/kitchen.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "bedroom /ˈbedrʊm/",
+  "a": "phòng ngủ\nMy bedroom is small.",
+  "fi": "../hinh-anh/tienganh/bedroom.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "bathroom /ˈbɑːθruːm/",
+  "a": "phòng tắm\nThere is a shower in the bathroom.",
+  "fi": "../hinh-anh/tienganh/bathroom.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "garden /ˈɡɑːdn/",
+  "a": "khu vườn\nThere are flowers in the garden.",
+  "fi": "../hinh-anh/tienganh/garden.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "sofa /ˈsəʊfə/",
+  "a": "ghế sô-pha\nThe cat is on the sofa.",
+  "fi": "../hinh-anh/tienganh/sofa.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "lamp /læmp/",
+  "a": "cái đèn\nThe lamp is on the table.",
+  "fi": "../hinh-anh/tienganh/sua-lamp.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "fridge /frɪdʒ/",
+  "a": "tủ lạnh\nThe milk is in the fridge.",
+  "fi": "../hinh-anh/tienganh/fridge.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "wardrobe /ˈwɔːdrəʊb/",
+  "a": "tủ quần áo\nMy clothes are in the wardrobe.",
+  "fi": "../hinh-anh/tienganh/sua-wardrobe.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "next to /ˈnekst tuː/",
+  "a": "ở bên cạnh\nThe sofa is next to the TV.",
+  "fi": "../hinh-anh/tienganh/sua-next-to.webp"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "between /bɪˈtwiːn/",
+  "a": "ở giữa (hai vật)\nThe lamp is between the sofa and the table.",
+  "fi": "../hinh-anh/tienganh/sua-between.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "fridge/frɪdʒ/tủ lạnh🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/fridge.jpg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "sofa/ˈsəʊfə/ghế sô-pha🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/sofa.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "😊 friendly /ˈfrendli/",
+  "a": "thân thiện\nAnna is friendly. She talks to everyone."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "😂 funny /ˈfʌni/",
+  "a": "hài hước, vui tính\nTom is funny. He makes me laugh."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "💗 kind /kaɪnd/",
+  "a": "tốt bụng\nMy best friend is kind."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🧠 clever /ˈklevə/",
+  "a": "thông minh, lanh lợi\nHe is clever. He is good at maths."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🙈 shy /ʃaɪ/",
+  "a": "nhút nhát\nShe is shy. She doesn't talk much."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🐝 hard-working /ˌhɑːd ˈwɜːkɪŋ/",
+  "a": "chăm chỉ\nMy father is hard-working."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🏃 active /ˈæktɪv/",
+  "a": "năng động\nThey are active. They play sports every day."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🔍 careful /ˈkeəfl/",
+  "a": "cẩn thận\nShe is careful with her homework."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🤗 caring /ˈkeərɪŋ/",
+  "a": "biết quan tâm, chu đáo\nMy grandmother is caring."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "😎 confident /ˈkɒnfɪdənt/",
+  "a": "tự tin\nHe is confident. He speaks in front of the class."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "👓 glasses /ˈɡlɑːsɪz/",
+  "a": "kính mắt\nShe wears glasses."
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "🧍 slim /slɪm/",
+  "a": "mảnh khảnh\nMy sister is slim and tall."
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "friendly/ˈfrendli/thân thiện🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/mini-friendly.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "park /pɑːk/",
+  "a": "công viên\nThere is a park near my house.",
+  "fi": "../hinh-anh/tienganh/park.jpg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "🎬 cinema /ˈsɪnəmə/",
+  "a": "rạp chiếu phim\nWe watch films at the cinema."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "🏥 hospital /ˈhɒspɪtl/",
+  "a": "bệnh viện\nMy aunt works in a hospital."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "bakery /ˈbeɪkəri/",
+  "a": "tiệm bánh\nI buy bread at the bakery.",
+  "fi": "../hinh-anh/tienganh/sua-bakery.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "📮 post office /ˈpəʊst ˌɒfɪs/",
+  "a": "bưu điện\nThe post office is next to the bank."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "railway station /ˈreɪlweɪ ˌsteɪʃn/",
+  "a": "ga tàu hỏa\nThe train is at the railway station.",
+  "fi": "../hinh-anh/tienganh/sua-railway-station.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "square /skweə/",
+  "a": "quảng trường\nThere is a big square in the city.",
+  "fi": "../hinh-anh/tienganh/square.jpg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "🏙️ busy /ˈbɪzi/",
+  "a": "nhộn nhịp, bận rộn\nThe city is busier than the countryside."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "🤫 quiet /ˈkwaɪət/",
+  "a": "yên tĩnh\nMy street is quieter than yours."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "🔊 noisy /ˈnɔɪzi/",
+  "a": "ồn ào\nThe market is noisier than the library."
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "narrow /ˈnærəʊ/",
+  "a": "hẹp\nThis street is narrower than that street.",
+  "fi": "../hinh-anh/tienganh/sua-narrow.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "⭐ famous /ˈfeɪməs/",
+  "a": "nổi tiếng\nHa Long Bay is famous."
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "bakery/ˈbeɪkəri/tiệm bánh🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/sua-bakery.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "park/pɑːk/công viên🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/park.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "mountain /ˈmaʊntən/",
+  "a": "ngọn núi\nFansipan is the highest mountain in Viet Nam.",
+  "fi": "../hinh-anh/tienganh/mountain.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "island /ˈaɪlənd/",
+  "a": "hòn đảo\nThere are many islands in Ha Long Bay.",
+  "fi": "../hinh-anh/tienganh/island.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "waterfall /ˈwɔːtəfɔːl/",
+  "a": "thác nước\nBan Gioc is a beautiful waterfall.",
+  "fi": "../hinh-anh/tienganh/sua-waterfall.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "beach /biːtʃ/",
+  "a": "bãi biển\nThe beach is sandy and clean.",
+  "fi": "../hinh-anh/tienganh/sua-beach.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "cave /keɪv/",
+  "a": "hang động\nPhong Nha is a famous cave.",
+  "fi": "../hinh-anh/tienganh/cave.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "forest /ˈfɒrɪst/",
+  "a": "khu rừng\nThere are many trees in the forest.",
+  "fi": "../hinh-anh/tienganh/forest.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "desert /ˈdezət/",
+  "a": "sa mạc\nThe desert is hot and dry.",
+  "fi": "../hinh-anh/tienganh/desert.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "boat /bəʊt/",
+  "a": "con thuyền\nWe go by boat to the island.",
+  "fi": "../hinh-anh/tienganh/sua-boat.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "backpack /ˈbækpæk/",
+  "a": "ba lô\nI put my books in my backpack.",
+  "fi": "../hinh-anh/tienganh/backpack.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "🧴 suncream /ˈsʌnkriːm/",
+  "a": "kem chống nắng\nPut on suncream at the beach!"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "🤩 amazing /əˈmeɪzɪŋ/",
+  "a": "tuyệt vời\nHa Long Bay is amazing!"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "🏞️ natural wonder /ˈnætʃrəl ˈwʌndə/",
+  "a": "kì quan thiên nhiên\nHa Long Bay is a natural wonder."
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "island/ˈaɪlənd/hòn đảo🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/island.jpg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "mountain/ˈmaʊntən/ngọn núi🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/mountain.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "🎊 Tet holiday /tet ˈhɒlədeɪ/",
+  "a": "kì nghỉ Tết\nTet is the biggest holiday in Viet Nam."
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "🧧 lucky money /ˈlʌki ˈmʌni/",
+  "a": "tiền lì xì\nChildren get lucky money at Tet."
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "fireworks /ˈfaɪəwɜːks/",
+  "a": "pháo hoa\nWe watch fireworks on New Year's Eve.",
+  "fi": "../hinh-anh/tienganh/fireworks.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "decorate /ˈdekəreɪt/",
+  "a": "trang trí, trang hoàng\nWe decorate our house before Tet.",
+  "fi": "../hinh-anh/tienganh/sua-decorate.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "peach blossom /piːtʃ ˈblɒsəm/",
+  "a": "hoa đào\nPeach blossoms are pink.",
+  "fi": "../hinh-anh/tienganh/sua-peach-blossom.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "kumquat tree /ˈkʌmkwɒt triː/",
+  "a": "cây quất\nThere is a kumquat tree in my living room.",
+  "fi": "../hinh-anh/tienganh/sua-kumquat-tree.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "chung cake",
+  "a": "bánh chưng\nMy family makes chung cakes.",
+  "fi": "../hinh-anh/tienganh/chung-cake.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "👨‍👩‍👧‍👦 family gathering /ˈfæməli ˈɡæðərɪŋ/",
+  "a": "sum họp gia đình\nTet is a time for family gatherings."
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "temple /ˈtempl/",
+  "a": "ngôi đền\nWe go to the temple at Tet.",
+  "fi": "../hinh-anh/tienganh/temple.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "🌠 wish /wɪʃ/",
+  "a": "chúc, điều ước\nI wish you a Happy New Year!"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "🎉 celebrate /ˈselɪbreɪt/",
+  "a": "tổ chức, kỉ niệm\nWe celebrate Tet with our family."
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "relative /ˈrelətɪv/",
+  "a": "họ hàng\nWe visit our relatives at Tet.",
+  "fi": "../hinh-anh/tienganh/sua-relative.webp"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "fireworks/ˈfaɪəwɜːks/pháo hoa🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/fireworks.jpg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "chung caketên riêng tiếng Việt — đọc như tiếng Việtbánh chưng🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/chung-cake.jpg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "relative/ˈrelətɪv/họ hàng🔊 Nghe từ",
+  "fi": "../hinh-anh/tienganh/sua-relative.webp"
+ }
+]

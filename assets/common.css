@@ -147,14 +147,15 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .fc-card{position:relative;height:auto;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
 .fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
 .fc-card.flipped .fc-inner{transform:rotateY(180deg)}
-.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;line-height:1.6;overflow:auto}
 .fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-front{background:#e8f0fe;border-color:#1a73e8;color:#174ea6}
 .fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
 .fc-face svg{max-width:100%;height:auto}
 .fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
 .fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
 .fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
-.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#b34700;border-color:#bf5700;font-weight:bold;min-width:150px}
 .fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
 .fc-stat{text-align:center;color:#455a64;font-size:14px}
 .fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
@@ -179,11 +180,11 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .minicard{max-width:430px;height:245px;margin:8px auto;perspective:900px;cursor:pointer}
 .mini-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
 .minicard.flipped .mini-inner{transform:rotateY(180deg)}
-.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.5;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
+.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.6;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
 .mini-front{background:#fff8e1;border:2px solid #f9a825;color:#4e342e}
 .mini-back{background:#e8f5e9;border:2px solid #43a047;color:#14532d;transform:rotateY(180deg)}
 .mini-face img{max-width:100%;max-height:105px;border-radius:8px;margin-bottom:8px;object-fit:cover}
-.mini-tag{font-size:14px;font-weight:bold;color:#e65100;margin-bottom:4px}
+.mini-tag{font-size:14px;font-weight:bold;color:#b34700;margin-bottom:4px}
 
 /* Tren man hinh nho (<=900px): thanh chon bai .viewbar khong dinh sticky nua de khoi che noi dung khi cuon — cung mot loi nhu .viewctl cua KHTN/Tieng Anh da sua 21/10 */
 @media (max-width:900px){.viewbar{position:static}}
@@ -196,3 +197,40 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .tm-btn{flex:1 1 200px;display:flex;align-items:center;justify-content:center;min-height:52px;padding:10px 14px;border-radius:12px;font-size:18px;font-weight:700;text-decoration:none;font-family:inherit}
 .tm-quiz{background:#1a73e8;color:#fff}
 .tm-flash{background:#7b1fa2;color:#fff}
+
+/* ============================================================
+   UI REVIEW 2026-10-22 — sua lech chuan thong nhat (khoi nay nam
+   CUOI file de thang cascade cac khoi cu, khong doi ten lop nao):
+   - overflow-x:clip tren body: chan tran ngang o 375px ma khong
+     pha position:sticky nhu overflow:hidden.
+   - .lesson:has(>.body): bo padding doi 18px (khoi chuan) + 16px
+     (.body) lam hep noi dung tren dien thoai; trinh duyet cu
+     khong ho tro :has thi giu nguyen nhu truoc.
+   - Cac nen cam trang chu: #ea8600 chi dat 2.66:1 (fail WCAG)
+     -> #b85c00 dat 4.60:1; .btn.green #2e9e4f 3.43:1 -> #1e7e34
+     5.14:1; .badge.sau #ef6c00 3.08:1 -> #bf5700 4.59:1.
+   - .badge mac dinh (nen var(--c) theo bai): phu lop den 22% de
+     cac mau nhat nhu #e65100 (3.79:1) dat >5.5:1; .badge.gk/.sau/.mr
+     khai bao background rieng (specificity cao hon) nen khong bi phu.
+   - .viewbar: khoi chuan bien no thanh flex ROW (cac hang vrow/
+     pickrow/navrow bi xep canh nhau) -> ep flex COLUMN xep chong.
+   ============================================================ */
+body{overflow-x:clip}
+img{height:auto}
+:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
+.lesson:has(>.body){padding:0}
+.part2{background:#b85c00}
+.quizlink{background:#b85c00}
+.btn.green{background:#1e7e34}
+.badge{background-image:linear-gradient(rgba(0,0,0,.22),rgba(0,0,0,.22))}
+.badge.sau{background:#bf5700}
+figcaption{font-size:15px}
+.qa-q::after{font-size:15px}
+.card{border-radius:12px}
+.card h3{color:var(--c,#5e35b1)}
+.tl b{color:var(--c,#5e35b1)}
+.viewbar{flex-direction:column;align-items:stretch}
+.qa,.chip,.slots{border-radius:10px}
+@media (max-width:480px){
+.fc-btns .fc-ok,.fc-btns .fc-no{min-width:0;flex:1 1 140px}
+}

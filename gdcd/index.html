@@ -552,7 +552,7 @@
     <li class="rd">Hiểu cả điều mình <b>thích</b> và điều mình chưa thích.</li>
   </ul>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai6-truoc-guong.webp" alt="Bạn gái soi gương và nghĩ về sở thích của mình" loading="lazy"><div>Điểm mạnh là gì? Điểm yếu là gì?</div></div><div class="mini-face mini-back">Điểm mạnh là việc em làm giỏi. Điểm yếu là việc em làm chưa tốt.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/gdcd/bai6-thu-suc.webp" alt="Bạn nhỏ thử sức làm nhiều việc khác nhau" loading="lazy"><div>Điểm mạnh là gì? Điểm yếu là gì?</div></div><div class="mini-face mini-back">Điểm mạnh là việc em làm giỏi. Điểm yếu là việc em làm chưa tốt.</div></div></div>
 
   <ul class="learn">
     <li class="rd"><b>Cách 1 — Tự ngẫm nghĩ:</b> ngẫm nghĩ là suy nghĩ kĩ về mình. Em tự hỏi: “Mình giỏi việc gì? Mình yếu việc gì?”</li>
@@ -632,7 +632,7 @@
 
 <!-- ================= TỔNG KẾT ================= -->
 <div id="sumwrap">
-<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 6 bài rồi, giỏi lắm! Giờ nhìn lại cả học kì: sơ đồ tổng → 6 điều tốt em đã học → lật lại toàn bộ flashcard một lượt → sang phần trắc nghiệm.</p></div>
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả học kì 1</h2><p>Học xong 6 bài rồi, giỏi lắm! Giờ nhìn lại cả học kì:</p><p>Bước 1) Xem sơ đồ tổng.<br>Bước 2) Nhớ lại 6 điều tốt em đã học.<br>Bước 3) Lật lại toàn bộ flashcard một lượt.<br>Bước 4) Sang phần trắc nghiệm.</p></div>
 
 <div class="card" style="--c:#5e35b1">
   <h3>🧠 Sơ đồ tư duy TỔNG — GDCD 6, Học kì 1</h3>
@@ -689,11 +689,14 @@
 </div>
 
 <footer>
+  <details><summary style="cursor:pointer;font-weight:600;min-height:44px;padding:10px 0">Nguồn hình ảnh (cho thầy cô và ba mẹ)</summary>
   <b>Nguồn ảnh:</b> toàn bộ hình minh họa trong trang là <b>tranh minh họa màu nước do AI vẽ</b> (30 hình: gia đình sum họp ngày giỗ, ông kể chuyện gia phả, gói bánh chưng, hiếu học, giúp việc nhà, giúp bà qua đường, giúp bạn học, chăm ông bà, quyên góp, bạn bè nắm tay, tưới vườn mỗi ngày, tập xe đạp, học bài, cây cam trĩu quả, Thỏ và Rùa, nhận lỗi, thi nghiêm túc, trả của rơi, được tin tưởng, cậu bé chăn cừu, tự chuẩn bị cặp sách, dọn phòng, trực nhật, tự đi xe đạp, trước–sau tự lập, soi gương nghĩ về mình, điểm mạnh vẽ tranh, lắng nghe góp ý, thử sức nhiều việc, học nhóm). Sơ đồ tư duy là hình SVG tự vẽ, nhãn tiếng Việt.<br>
+  </details>
   Nội dung bám theo SGK “Giáo dục công dân 6” — bộ Kết nối tri thức với cuộc sống (học kì 1: Bài 1–6). Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
 </footer>
 
 <script src="cards-data.js"></script>
+<script src="../assets/fc-state.js"></script>
 <script>
 
 /* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ đúng khái niệm của thẻ] */
@@ -705,7 +708,10 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
 /* Flashcard */
 var LSKEY='gdcd_flash_v1';
 var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
-function saveKnown(){try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+var FCIDMAP={}; if(typeof CARDS!=='undefined'){ CARDS.forEach(function(c,ci){ FCIDMAP[ci]='c:'+ci; }); }
+var FSTORE=null,FSNAP={};
+if(window.fcStore){ FSTORE=fcMigrateFlash('gdcd'); var _mk={}; Object.keys(FCIDMAP).forEach(function(id){ if(FSTORE.isKnown(FCIDMAP[id])){ _mk[id]=true; FSNAP[FCIDMAP[id]]=1; } }); known=_mk; }
+function saveKnown(){ if(FSTORE){ Object.keys(FCIDMAP).forEach(function(id){ var cid=FCIDMAP[id], inK=!!known[id]; if(inK&&!FSNAP[cid]){ FSTORE.setKnown(cid,true); FSNAP[cid]=1; } else if(!inK&&FSNAP[cid]){ FSTORE.setKnown(cid,false); delete FSNAP[cid]; } }); return; } try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
 function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
 /* ===== ENGINE FLASHCARD THONG NHAT =====
    1 the tai 1 thoi diem; the chua thuoc xep truoc. Bam vao the de lat (xoay 3D).
@@ -719,12 +725,14 @@ function fcDeck(box, cfg){
   box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
    +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
    +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-guide" style="text-align:center;font-size:16px;color:#37474f;margin:8px 0 2px">Bấm vào thẻ để lật xem đáp án. Nhớ rồi thì bấm ✔ Đã thuộc. Chưa nhớ thì bấm ↺ Chưa thuộc — thẻ sẽ quay lại cho em học tiếp, không bị trừ điểm đâu.</div><div class="fc-guardmsg" style="text-align:center;font-size:16px;font-weight:600;color:#b34700;min-height:24px"></div>'
    +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
   var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
-      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox');
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
   function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
   function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
   function render(dir){
+    if(guardMsg)guardMsg.textContent='';
     if(!queue.length){
       card.style.display='none';prog.textContent='';
       doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
@@ -742,13 +750,16 @@ function fcDeck(box, cfg){
       prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
     }
     var k=knownCount();
-    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(cfg.totalText?(' • '+cfg.totalText()):'');
+    var tt=(cfg.totalText?cfg.totalText():'');
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(tt?(' • '+tt):'');
     bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
     if(cfg.onRender)cfg.onRender(box);
   }
   function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
   function tick(ok){
-    if(busy||!queue.length)return;busy=true;
+    if(busy||!queue.length)return;
+    if(!flipped){flipped=true;card.classList.add('flipped');if(guardMsg)guardMsg.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?';return;}
+    busy=true;
     var id=queue[pos];
     pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
     card.classList.add(ok?'fc-out-r':'fc-out-l');
@@ -785,7 +796,7 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   fcDeck(box,{items:items,
     isKnown:function(id){return !!known[id];},
     setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
-    totalText:function(){return 'Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ';}});
+    totalText:function(){ var s='Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ'; if(window.FSTORE){ var dn=FSTORE.countDue(Object.keys(FCIDMAP).map(function(k){return FCIDMAP[k];})); if(dn>0) s+=' • Hôm nay ôn lại nhé: '+dn+' thẻ sắp quên'; } return s; }});
 });
 
 /* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */

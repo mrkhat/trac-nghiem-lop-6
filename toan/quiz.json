@@ -286,7 +286,7 @@
  },
  {
   "id": 20,
-  "q": "Nếu a ⋮ b thì a và b được gọi là gì của nhau?",
+  "q": "Nếu a ⋮ b (với b khác 0) thì a và b được gọi là gì của nhau?",
   "options": [
    "a và b đều là ước của nhau",
    "a là ước của b, còn b là bội của a",
@@ -804,7 +804,7 @@
    "Hình thoi có hai đường chéo bằng nhau"
   ],
   "answer": 1,
-  "explain": "Hình thoi có 4 cạnh đều bằng nhau và hai đường chéo vuông góc. Hình bình hành chỉ cần các cạnh đối bằng nhau, hai đường chéo không vuông góc.",
+  "explain": "Hình bình hành chỉ cần các cạnh đối bằng nhau, hai đường chéo của hình bình hành thường không vuông góc và không bằng nhau (trừ trường hợp đặc biệt như hình thoi, hình chữ nhật).",
   "ch": 4,
   "type": "a",
   "src": "Thẻ ⚡ Nhớ nhanh — Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân"

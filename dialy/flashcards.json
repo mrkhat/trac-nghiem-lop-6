@@ -1,0 +1,1195 @@
+[
+ {
+  "b": 0,
+  "t": "fc",
+  "f": "Địa lí là môn học về…?",
+  "a": "Bề mặt Trái Đất, thiên nhiên và con người sống trên đó.",
+  "fi": "../hinh-anh/dialy/sua-hoc-dia-li.webp"
+ },
+ {
+  "b": 0,
+  "t": "fc",
+  "f": "Hai công cụ chính của môn Địa lí?",
+  "a": "Bản đồ và quả địa cầu.",
+  "fi": "../hinh-anh/dialy/sua-hoc-dia-li.webp"
+ },
+ {
+  "b": 0,
+  "t": "fc",
+  "f": "Vì sao Trái Đất nhìn từ vũ trụ có màu xanh dương?",
+  "a": "Vì đại dương chiếm khoảng 3/4 bề mặt Trái Đất.",
+  "fi": "../hinh-anh/dialy/trai-dat-apollo-17.jpg"
+ },
+ {
+  "b": 0,
+  "t": "fc",
+  "f": "3 câu hỏi vàng của Địa lí?",
+  "a": "Ở đâu? — Như thế nào? — Vì sao?",
+  "fi": "../hinh-anh/dialy/sua-cau-hoi-vang.webp"
+ },
+ {
+  "b": 0,
+  "t": "fc",
+  "f": "Học Địa lí giúp em làm được gì?",
+  "a": "Đọc bản đồ, hiểu thời tiết, phòng tránh thiên tai, bảo vệ môi trường.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh.png"
+ },
+ {
+  "b": 0,
+  "t": "mn",
+  "f": "Trái Đất nhìn từ vũ trụ có màu gì là chính?",
+  "a": "Xanh dương — vì đại dương chiếm khoảng 3/4 bề mặt Trái Đất.",
+  "fi": "../hinh-anh/dialy/trai-dat-apollo-17.jpg"
+ },
+ {
+  "b": 0,
+  "t": "mn",
+  "f": "Địa lí là môn học về điều gì?",
+  "a": "Bề mặt Trái Đất, thiên nhiên và con người sống trên đó.",
+  "fi": "../hinh-anh/dialy/sua-hoc-dia-li.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Kinh tuyến là đường như thế nào?",
+  "a": "Đường dọc trên bề mặt Trái Đất, nối hai cực Bắc – Nam.",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Vĩ tuyến là đường như thế nào?",
+  "a": "Đường tròn ngang, song song với Xích đạo.",
+  "fi": "../hinh-anh/dialy/vi-tuyen.svg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Kinh tuyến gốc là kinh tuyến nào?",
+  "a": "Kinh tuyến 0°, đi qua Gờ-rin-uýt (Luân Đôn, Anh).",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Vĩ tuyến gốc là vĩ tuyến nào?",
+  "a": "Xích đạo (0°) — vĩ tuyến dài nhất.",
+  "fi": "../hinh-anh/dialy/vi-tuyen.svg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Tọa độ địa lí của một điểm gồm gì?",
+  "a": "Kinh độ và vĩ độ của điểm đó.",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Đường dọc nối hai cực Bắc – Nam là đường gì?",
+  "a": "Kinh tuyến.",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Vĩ tuyến gốc 0° tên là gì?",
+  "a": "Xích đạo — vĩ tuyến dài nhất.",
+  "fi": "../hinh-anh/dialy/vi-tuyen.svg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Trên bản đồ, phía trên thường là hướng…?",
+  "a": "Hướng Bắc (theo quy ước nếu không có mũi tên chỉ Bắc).",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Có tất cả bao nhiêu hướng chính trên bản đồ?",
+  "a": "8 hướng: 4 hướng chính và 4 hướng phụ.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Hướng ở giữa Bắc và Đông gọi là gì?",
+  "a": "Hướng Đông Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Bản đồ là gì?",
+  "a": "Hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng theo một tỉ lệ.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-viet-nam.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Muốn xác định hướng trên bản đồ, em nhìn vào đâu?",
+  "a": "Mũi tên chỉ hướng Bắc hoặc hoa hướng trên bản đồ.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Trên bản đồ, phía trên thường là hướng nào?",
+  "a": "Hướng Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Nhìn bản đồ: biển Đông nằm ở phía nào của nước ta?",
+  "a": "Phía Đông.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-viet-nam.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Tỉ lệ bản đồ cho biết điều gì?",
+  "a": "Mức độ thu nhỏ của bản đồ so với thực tế.",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Công thức tính khoảng cách thực tế?",
+  "a": "Khoảng cách trên bản đồ × mẫu số của tỉ lệ.",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "1 : 100 000 — 1 cm trên bản đồ bằng bao nhiêu ngoài đời?",
+  "a": "100 000 cm = 1 km.",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Có mấy dạng tỉ lệ bản đồ?",
+  "a": "2 dạng: tỉ lệ số và tỉ lệ thước.",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Bản đồ tỉ lệ lớn thì như thế nào?",
+  "a": "Chi tiết hơn, nhưng chỉ thể hiện được khu vực hẹp.",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Tỉ lệ 1 : 100 000 — 1 cm trên bản đồ bằng mấy km ngoài đời?",
+  "a": "1 km (vì 100 000 cm = 1 km).",
+  "fi": "../hinh-anh/dialy/ti-le-ban-do.svg"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Bản đồ vẽ rất chi tiết một vùng nhỏ thì có tỉ lệ lớn hay nhỏ?",
+  "a": "Tỉ lệ lớn — càng chi tiết thì chỉ vẽ được khu vực càng hẹp.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh.png"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Bảng chú giải dùng để làm gì?",
+  "a": "Giải thích ý nghĩa của các kí hiệu trên bản đồ.",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Sông, đường giao thông thuộc loại kí hiệu nào?",
+  "a": "Kí hiệu đường.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-kaweah.jpg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Thành phố, sân bay thuộc loại kí hiệu nào?",
+  "a": "Kí hiệu điểm.",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Rừng, biển thuộc loại kí hiệu nào?",
+  "a": "Kí hiệu diện (mảng màu).",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Trước khi đọc bản đồ, em nên đọc phần nào trước?",
+  "a": "Bảng chú giải.",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Sông và đường giao thông thuộc loại kí hiệu nào?",
+  "a": "Kí hiệu đường.",
+  "fi": "../hinh-anh/dialy/ki-hieu-ban-do.svg"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Trên bản đồ, rừng được kí hiệu bằng gì?",
+  "a": "Một mảng màu xanh lá — kí hiệu diện.",
+  "fi": "../hinh-anh/dialy/rung-nhiet-doi-palawan.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Lược đồ trí nhớ là gì?",
+  "a": "Hình vẽ đơn giản, phác họa từ trí nhớ về một khu vực quen thuộc.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Lược đồ trí nhớ có cần đúng tỉ lệ không?",
+  "a": "Không cần đúng tỉ lệ tuyệt đối, nhưng phải đúng vị trí tương đối và phương hướng.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Bước đầu tiên khi vẽ lược đồ trí nhớ?",
+  "a": "Chọn điểm mốc chính làm trung tâm.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Trên lược đồ cần có thêm gì ở góc hình?",
+  "a": "Mũi tên chỉ hướng Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Lược đồ trí nhớ giúp em điều gì?",
+  "a": "Ghi nhớ không gian quen thuộc và tìm đường dễ hơn.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Lược đồ trí nhớ có cần vẽ đúng tỉ lệ không?",
+  "a": "Không cần đúng tỉ lệ, nhưng phải đúng vị trí tương đối và phương hướng.",
+  "fi": "../hinh-anh/dialy/luoc-do-tri-nho.svg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Ở góc lược đồ, em phải vẽ thêm gì?",
+  "a": "Mũi tên chỉ hướng Bắc.",
+  "fi": "../hinh-anh/dialy/hoa-huong.svg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Trái Đất là hành tinh thứ mấy từ Mặt Trời?",
+  "a": "Thứ 3 (Thủy – Kim – Trái Đất).",
+  "fi": "../hinh-anh/dialy/he-mat-troi.svg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Trái Đất có hình dạng gì?",
+  "a": "Hình cầu, hơi dẹt ở hai cực, phình ở Xích đạo.",
+  "fi": "../hinh-anh/dialy/trai-dat-apollo-17.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Vệ tinh tự nhiên của Trái Đất là gì?",
+  "a": "Mặt Trăng.",
+  "fi": "../hinh-anh/dialy/cac-pha-trang.svg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Trăng tròn (rằm) vào khoảng ngày nào âm lịch?",
+  "a": "Khoảng ngày 14–15 âm lịch.",
+  "fi": "../hinh-anh/dialy/cac-pha-trang.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"36\" cy=\"34\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"292\" cy=\"26\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"270\" cy=\"130\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"52\" cy=\"140\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"110\" cy=\"20\" r=\"1.3\" fill=\"#fff\"/><circle cx=\"160\" cy=\"86\" r=\"44\" fill=\"#fdf6d8\" stroke=\"#d7ccc8\" stroke-width=\"2\"/><circle cx=\"146\" cy=\"74\" r=\"7\" fill=\"#e8dfc8\"/><circle cx=\"176\" cy=\"98\" r=\"5.4\" fill=\"#e8dfc8\"/><circle cx=\"150\" cy=\"104\" r=\"4.2\" fill=\"#e8dfc8\"/><ellipse cx=\"160\" cy=\"86\" ry=\"44\" fill=\"#263238\" opacity=\"0.88\"><animate attributeName=\"rx\" values=\"44;4;44\" dur=\"7s\" repeatCount=\"indefinite\"/></ellipse><text x=\"160\" y=\"168\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">Phần sáng của Mặt Trăng thay đổi → các pha trăng</text></svg>"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Hành tinh nào lớn nhất trong hệ Mặt Trời?",
+  "a": "Sao Mộc.",
+  "fi": "../hinh-anh/dialy/he-mat-troi.svg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?",
+  "a": "Thứ 3 (Thủy – Kim – Trái Đất).",
+  "fi": "../hinh-anh/dialy/he-mat-troi.svg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Trăng tròn (rằm) vào khoảng ngày nào âm lịch?",
+  "a": "Khoảng ngày 14–15 âm lịch.",
+  "fi": "../hinh-anh/dialy/cac-pha-trang.svg"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Trái Đất tự quay theo hướng nào?",
+  "a": "Từ Tây sang Đông.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Trái Đất quay một vòng quanh trục mất bao lâu?",
+  "a": "24 giờ (một ngày đêm).",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Hệ quả dễ thấy nhất của sự tự quay là gì?",
+  "a": "Ngày và đêm luân phiên nhau.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Trái Đất được chia thành bao nhiêu múi giờ?",
+  "a": "24 múi giờ. Việt Nam ở múi +7.",
+  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Trục Trái Đất nghiêng khoảng bao nhiêu độ?",
+  "a": "Khoảng 23,5°.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Trái Đất tự quay theo hướng nào?",
+  "a": "Từ Tây sang Đông.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Vì sao mọi nơi có ngày và đêm luân phiên?",
+  "a": "Trái Đất hình cầu và tự quay, nên mọi nơi lần lượt được Mặt Trời chiếu sáng.",
+  "fi": "../hinh-anh/dialy/ngay-dem.svg"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Trái Đất quay quanh Mặt Trời một vòng mất bao lâu?",
+  "a": "365 ngày 6 giờ (một năm).",
+  "fi": "../hinh-anh/dialy/quy-dao-va-cac-mua.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"60\" cy=\"28\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"286\" cy=\"40\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"250\" cy=\"158\" r=\"1.5\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"92\" rx=\"118\" ry=\"52\" fill=\"none\" stroke=\"#90caf9\" stroke-width=\"1.6\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/><circle cx=\"160\" cy=\"92\" r=\"24\" fill=\"#ffb300\" opacity=\"0.25\"/><circle cx=\"160\" cy=\"92\" r=\"16\" fill=\"#ffb300\"/><text x=\"160\" y=\"132\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><g><animateMotion dur=\"14s\" repeatCount=\"indefinite\" path=\"M42,92 a118,52 0 1,0 236,0 a118,52 0 1,0 -236,0\"/><line x1=\"-4\" y1=\"-15\" x2=\"4\" y2=\"15\" stroke=\"#fff\" stroke-width=\"2\"/><circle r=\"11\" fill=\"#42a5f5\"/><ellipse cx=\"-3\" cy=\"-3\" rx=\"5\" ry=\"3.4\" fill=\"#66bb6a\"/></g><text x=\"160\" y=\"170\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">1 vòng quanh Mặt Trời = 365 ngày 6 giờ</text></svg>"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Nguyên nhân sinh ra các mùa là gì?",
+  "a": "Trục Trái Đất luôn nghiêng và hướng về một phía khi quay quanh Mặt Trời.",
+  "fi": "../hinh-anh/dialy/cac-mua-quy-dao.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"60\" cy=\"28\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"286\" cy=\"40\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"250\" cy=\"158\" r=\"1.5\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"92\" rx=\"118\" ry=\"52\" fill=\"none\" stroke=\"#90caf9\" stroke-width=\"1.6\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/><circle cx=\"160\" cy=\"92\" r=\"24\" fill=\"#ffb300\" opacity=\"0.25\"/><circle cx=\"160\" cy=\"92\" r=\"16\" fill=\"#ffb300\"/><text x=\"160\" y=\"132\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><g><animateMotion dur=\"14s\" repeatCount=\"indefinite\" path=\"M42,92 a118,52 0 1,0 236,0 a118,52 0 1,0 -236,0\"/><line x1=\"-4\" y1=\"-15\" x2=\"4\" y2=\"15\" stroke=\"#fff\" stroke-width=\"2\"/><circle r=\"11\" fill=\"#42a5f5\"/><ellipse cx=\"-3\" cy=\"-3\" rx=\"5\" ry=\"3.4\" fill=\"#66bb6a\"/></g><text x=\"160\" y=\"170\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">1 vòng quanh Mặt Trời = 365 ngày 6 giờ</text></svg>"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Ngày Hạ chí là ngày nào? Bán cầu Bắc mùa gì?",
+  "a": "22/6 — mùa hạ, ngày dài hơn đêm.",
+  "fi": "../hinh-anh/dialy/quy-dao-va-cac-mua.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"60\" cy=\"28\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"286\" cy=\"40\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"250\" cy=\"158\" r=\"1.5\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"92\" rx=\"118\" ry=\"52\" fill=\"none\" stroke=\"#90caf9\" stroke-width=\"1.6\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/><circle cx=\"160\" cy=\"92\" r=\"24\" fill=\"#ffb300\" opacity=\"0.25\"/><circle cx=\"160\" cy=\"92\" r=\"16\" fill=\"#ffb300\"/><text x=\"160\" y=\"132\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><g><animateMotion dur=\"14s\" repeatCount=\"indefinite\" path=\"M42,92 a118,52 0 1,0 236,0 a118,52 0 1,0 -236,0\"/><line x1=\"-4\" y1=\"-15\" x2=\"4\" y2=\"15\" stroke=\"#fff\" stroke-width=\"2\"/><circle r=\"11\" fill=\"#42a5f5\"/><ellipse cx=\"-3\" cy=\"-3\" rx=\"5\" ry=\"3.4\" fill=\"#66bb6a\"/></g><text x=\"160\" y=\"170\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">1 vòng quanh Mặt Trời = 365 ngày 6 giờ</text></svg>"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Ngày Đông chí là ngày nào? Bán cầu Bắc mùa gì?",
+  "a": "22/12 — mùa đông, đêm dài hơn ngày.",
+  "fi": "../hinh-anh/dialy/quy-dao-va-cac-mua.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"60\" cy=\"28\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"286\" cy=\"40\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"250\" cy=\"158\" r=\"1.5\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"92\" rx=\"118\" ry=\"52\" fill=\"none\" stroke=\"#90caf9\" stroke-width=\"1.6\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/><circle cx=\"160\" cy=\"92\" r=\"24\" fill=\"#ffb300\" opacity=\"0.25\"/><circle cx=\"160\" cy=\"92\" r=\"16\" fill=\"#ffb300\"/><text x=\"160\" y=\"132\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><g><animateMotion dur=\"14s\" repeatCount=\"indefinite\" path=\"M42,92 a118,52 0 1,0 236,0 a118,52 0 1,0 -236,0\"/><line x1=\"-4\" y1=\"-15\" x2=\"4\" y2=\"15\" stroke=\"#fff\" stroke-width=\"2\"/><circle r=\"11\" fill=\"#42a5f5\"/><ellipse cx=\"-3\" cy=\"-3\" rx=\"5\" ry=\"3.4\" fill=\"#66bb6a\"/></g><text x=\"160\" y=\"170\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">1 vòng quanh Mặt Trời = 365 ngày 6 giờ</text></svg>"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Hai ngày phân là những ngày nào?",
+  "a": "21/3 (Xuân phân) và 23/9 (Thu phân) — ngày dài bằng đêm.",
+  "fi": "../hinh-anh/dialy/cac-mua-quy-dao.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"60\" cy=\"28\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"286\" cy=\"40\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"250\" cy=\"158\" r=\"1.5\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"92\" rx=\"118\" ry=\"52\" fill=\"none\" stroke=\"#90caf9\" stroke-width=\"1.6\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/><circle cx=\"160\" cy=\"92\" r=\"24\" fill=\"#ffb300\" opacity=\"0.25\"/><circle cx=\"160\" cy=\"92\" r=\"16\" fill=\"#ffb300\"/><text x=\"160\" y=\"132\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><g><animateMotion dur=\"14s\" repeatCount=\"indefinite\" path=\"M42,92 a118,52 0 1,0 236,0 a118,52 0 1,0 -236,0\"/><line x1=\"-4\" y1=\"-15\" x2=\"4\" y2=\"15\" stroke=\"#fff\" stroke-width=\"2\"/><circle r=\"11\" fill=\"#42a5f5\"/><ellipse cx=\"-3\" cy=\"-3\" rx=\"5\" ry=\"3.4\" fill=\"#66bb6a\"/></g><text x=\"160\" y=\"170\" fill=\"#fff\" font-size=\"13.5\" text-anchor=\"middle\">1 vòng quanh Mặt Trời = 365 ngày 6 giờ</text></svg>"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Trái Đất quay quanh Mặt Trời một vòng mất bao lâu?",
+  "a": "365 ngày 6 giờ (một năm).",
+  "fi": "../hinh-anh/dialy/quy-dao-va-cac-mua.svg"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Ngày 22/6, bán cầu Bắc đang là mùa gì?",
+  "a": "Mùa hạ — ngày dài hơn đêm (ngày Hạ chí).",
+  "fi": "../hinh-anh/dialy/cac-mua-quy-dao.svg"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Dụng cụ xác định phương hướng quen thuộc nhất?",
+  "a": "La bàn — kim luôn chỉ hướng Bắc – Nam.",
+  "fi": "../hinh-anh/dialy/la-ban-co.jpg"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Buổi sáng Mặt Trời ở hướng nào?",
+  "a": "Hướng Đông.",
+  "fi": "../hinh-anh/dialy/sua-mat-troi-moc.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Ban đêm tìm hướng Bắc nhờ ngôi sao nào?",
+  "a": "Sao Bắc Cực.",
+  "fi": "../hinh-anh/dialy/sua-sao-bac-cuc.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Chữ E trên la bàn quốc tế nghĩa là hướng gì?",
+  "a": "Hướng Đông (East).",
+  "fi": "../hinh-anh/dialy/la-ban-quoc-te.svg"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Mẹo dang tay: tay phải chỉ Đông thì mặt hướng nào?",
+  "a": "Hướng Bắc.",
+  "fi": "../hinh-anh/dialy/sua-dang-tay.webp"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Kim của la bàn trong hình luôn chỉ hướng nào?",
+  "a": "Hướng Bắc – Nam.",
+  "fi": "../hinh-anh/dialy/la-ban-co.jpg"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Ban đêm, tìm hướng Bắc nhờ ngôi sao nào?",
+  "a": "Sao Bắc Cực.",
+  "fi": "../hinh-anh/dialy/sua-sao-bac-cuc.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Trái Đất có mấy lớp chính?",
+  "a": "3 lớp: vỏ, lớp bao phủ (manti) và nhân.",
+  "fi": "../hinh-anh/dialy/cau-truc-trai-dat.svg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Lớp nào của Trái Đất mỏng nhất?",
+  "a": "Vỏ Trái Đất (5–70 km).",
+  "fi": "../hinh-anh/dialy/cau-truc-trai-dat.svg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Lớp nào của Trái Đất nóng nhất?",
+  "a": "Nhân — khoảng 6 000°C.",
+  "fi": "../hinh-anh/dialy/cau-truc-trai-dat.svg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Vỏ Trái Đất bị nứt thành những gì?",
+  "a": "Các mảng kiến tạo lớn nhỏ.",
+  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Các mảng kiến tạo trôi nhanh cỡ nào?",
+  "a": "Rất chậm, chỉ vài cm mỗi năm.",
+  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Trái Đất gồm mấy lớp chính?",
+  "a": "3 lớp: vỏ, manti (bao phủ) và nhân.",
+  "fi": "../hinh-anh/dialy/cau-truc-trai-dat.svg"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Vỏ Trái Đất bị nứt vỡ thành những mảng lớn gọi là gì?",
+  "a": "Các mảng kiến tạo — trôi rất chậm, vài cm mỗi năm.",
+  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Quá trình nội sinh là gì?",
+  "a": "Quá trình xảy ra bên trong lòng Trái Đất, làm nâng lên, uốn nếp bề mặt.",
+  "fi": "../hinh-anh/dialy/tang-da-uon-nep.jpg"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Quá trình ngoại sinh là gì?",
+  "a": "Quá trình xảy ra trên bề mặt do nắng, gió, nước… làm bào mòn, hạ thấp địa hình.",
+  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Núi hình thành khi nào?",
+  "a": "Khi hai mảng kiến tạo xô vào nhau, đất đá bị nén và đẩy cao lên.",
+  "fi": "../hinh-anh/dialy/tang-da-uon-nep.jpg"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Gió tạo đụn cát thuộc quá trình nào?",
+  "a": "Ngoại sinh.",
+  "fi": "../hinh-anh/dialy/con-cat-namib.jpg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#e3f2fd\"/><text x=\"28\" y=\"28\" fill=\"#c62828\" font-size=\"13.5\" font-weight=\"bold\">Áp CAO</text><text x=\"292\" y=\"28\" fill=\"#1565c0\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"end\">Áp THẤP</text><g stroke=\"#0288d1\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"12 9\"><path d=\"M25,58 C90,40 160,74 238,58\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" repeatCount=\"indefinite\"/></path><path d=\"M25,102 C90,84 160,118 238,102\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.35s\" repeatCount=\"indefinite\"/></path><path d=\"M25,146 C90,128 160,162 238,146\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.7s\" repeatCount=\"indefinite\"/></path></g><g fill=\"#0288d1\"><polygon points=\"240,50 260,58 240,66\"/><polygon points=\"240,94 260,102 240,110\"/><polygon points=\"240,138 260,146 240,154\"/></g><text x=\"160\" y=\"176\" fill=\"#01579b\" font-size=\"13.5\" text-anchor=\"middle\">Gió = không khí chuyển động từ áp cao → áp thấp</text></svg>"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Nội sinh và ngoại sinh có quan hệ thế nào?",
+  "a": "Đối nghịch nhau (xây lên – gọt xuống) nhưng xảy ra đồng thời.",
+  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Tầng đá bị uốn cong như sóng do lực từ đâu?",
+  "a": "Lực nội sinh — từ bên trong Trái Đất đẩy lên.",
+  "fi": "../hinh-anh/dialy/tang-da-uon-nep.jpg"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Hẻm núi bị nước khoét sâu dần là quá trình nào?",
+  "a": "Ngoại sinh — lực bên ngoài bào mòn, hạ thấp địa hình.",
+  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Núi lửa là hiện tượng gì?",
+  "a": "Macma trong lòng đất phun trào lên bề mặt qua khe nứt.",
+  "fi": "../hinh-anh/dialy/so-do-nui-lua.svg"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Macma khi phun ra ngoài gọi là gì?",
+  "a": "Dung nham.",
+  "fi": "../hinh-anh/dialy/so-do-nui-lua.svg"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Động đất là hiện tượng gì?",
+  "a": "Mặt đất rung lắc do vỏ Trái Đất nứt vỡ khi các mảng chuyển động.",
+  "fi": "../hinh-anh/dialy/dong-dat-fukui-1948.jpg"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "“Vành đai lửa” nằm quanh đại dương nào?",
+  "a": "Thái Bình Dương.",
+  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Một lợi ích bất ngờ của núi lửa?",
+  "a": "Tro núi lửa tạo đất bazan màu mỡ cho trồng trọt.",
+  "fi": "../hinh-anh/dialy/sua-nui-lua-dat-mau.webp"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Macma khi phun ra ngoài bề mặt gọi là gì?",
+  "a": "Dung nham.",
+  "fi": "../hinh-anh/dialy/so-do-nui-lua.svg"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Tro núi lửa lâu ngày tạo ra loại đất gì tốt cho cây trồng?",
+  "a": "Đất bazan màu mỡ.",
+  "fi": "../hinh-anh/dialy/sua-nui-lua-dat-mau.webp"
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Có mấy dạng địa hình chính? Kể tên.",
+  "a": "4 dạng: núi, cao nguyên, đồi, đồng bằng.",
+  "fi": "../hinh-anh/dialy/sua-bon-dang-dia-hinh.webp"
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Đỉnh núi cao nhất thế giới là đỉnh nào, cao bao nhiêu?",
+  "a": "Ê-vơ-rét, khoảng 8 848 m.",
+  "fi": "../hinh-anh/dialy/dinh-everest.jpg"
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Cao nguyên khác núi ở điểm nào?",
+  "a": "Cao nguyên cao nhưng bề mặt bằng phẳng; núi đỉnh nhọn, sườn dốc.",
+  "fi": "../hinh-anh/dialy/cao-nguyen-tay-tang.jpg"
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Khoáng sản là gì?",
+  "a": "Tích tụ tự nhiên của khoáng vật có ích trong lòng đất.",
+  "fi": "../hinh-anh/dialy/thach-anh-tibet.jpg"
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Than đá và dầu mỏ thuộc nhóm khoáng sản nào?",
+  "a": "Nhóm năng lượng.",
+  "fi": "../hinh-anh/dialy/sua-than-da.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Có mấy dạng địa hình chính trên Trái Đất?",
+  "a": "4 dạng: núi – cao nguyên – đồi – đồng bằng.",
+  "fi": "../hinh-anh/dialy/sua-bon-dang-dia-hinh.webp"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Đỉnh núi cao nhất thế giới tên gì, cao khoảng bao nhiêu?",
+  "a": "Ê-vơ-rét — khoảng 8 848 m.",
+  "fi": "../hinh-anh/dialy/dinh-everest.jpg"
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Đường đồng mức là gì?",
+  "a": "Đường nối các điểm có cùng độ cao.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Đường đồng mức sít nhau chứng tỏ điều gì?",
+  "a": "Sườn dốc.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Đường đồng mức thưa nhau chứng tỏ điều gì?",
+  "a": "Sườn thoải.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Lát cắt địa hình là gì?",
+  "a": "Hình mặt cắt của bề mặt đất dọc theo một đường thẳng.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Số ghi trên đường đồng mức cho biết gì?",
+  "a": "Độ cao của đường đó, đơn vị mét.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Đường đồng mức sít nhau cho biết sườn núi thế nào?",
+  "a": "Sườn dốc.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Đường đồng mức thưa nhau cho biết sườn núi thế nào?",
+  "a": "Sườn thoải.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-cat.jpg"
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Khí quyển gồm chủ yếu khí gì?",
+  "a": "Ni-tơ (78%) và ô-xi (21%).",
+  "fi": "../hinh-anh/dialy/thanh-phan-khi-quyen.svg"
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Tầng khí quyển nơi ta sống gọi là gì?",
+  "a": "Tầng đối lưu.",
+  "fi": "../hinh-anh/dialy/cac-tang-khi-quyen.svg"
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Khí áp là gì?",
+  "a": "Sức ép của không khí lên bề mặt Trái Đất.",
+  "fi": "../hinh-anh/dialy/cac-tang-khi-quyen.svg"
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Gió thổi từ đâu đến đâu?",
+  "a": "Từ nơi khí áp cao đến nơi khí áp thấp.",
+  "fi": "../hinh-anh/dialy/hoan-luu-khi-quyen.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#e3f2fd\"/><text x=\"28\" y=\"28\" fill=\"#c62828\" font-size=\"13.5\" font-weight=\"bold\">Áp CAO</text><text x=\"292\" y=\"28\" fill=\"#1565c0\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"end\">Áp THẤP</text><g stroke=\"#0288d1\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"12 9\"><path d=\"M25,58 C90,40 160,74 238,58\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" repeatCount=\"indefinite\"/></path><path d=\"M25,102 C90,84 160,118 238,102\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.35s\" repeatCount=\"indefinite\"/></path><path d=\"M25,146 C90,128 160,162 238,146\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.7s\" repeatCount=\"indefinite\"/></path></g><g fill=\"#0288d1\"><polygon points=\"240,50 260,58 240,66\"/><polygon points=\"240,94 260,102 240,110\"/><polygon points=\"240,138 260,146 240,154\"/></g><text x=\"160\" y=\"176\" fill=\"#01579b\" font-size=\"13.5\" text-anchor=\"middle\">Gió = không khí chuyển động từ áp cao → áp thấp</text></svg>"
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Kể tên 2 loại gió chính trên Trái Đất.",
+  "a": "Gió Tín phong và gió Tây ôn đới (còn có gió Đông cực).",
+  "fi": "../hinh-anh/dialy/hoan-luu-khi-quyen.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#e3f2fd\"/><text x=\"28\" y=\"28\" fill=\"#c62828\" font-size=\"13.5\" font-weight=\"bold\">Áp CAO</text><text x=\"292\" y=\"28\" fill=\"#1565c0\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"end\">Áp THẤP</text><g stroke=\"#0288d1\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"12 9\"><path d=\"M25,58 C90,40 160,74 238,58\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" repeatCount=\"indefinite\"/></path><path d=\"M25,102 C90,84 160,118 238,102\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.35s\" repeatCount=\"indefinite\"/></path><path d=\"M25,146 C90,128 160,162 238,146\"><animate attributeName=\"stroke-dashoffset\" from=\"42\" to=\"0\" dur=\"1.1s\" begin=\"-0.7s\" repeatCount=\"indefinite\"/></path></g><g fill=\"#0288d1\"><polygon points=\"240,50 260,58 240,66\"/><polygon points=\"240,94 260,102 240,110\"/><polygon points=\"240,138 260,146 240,154\"/></g><text x=\"160\" y=\"176\" fill=\"#01579b\" font-size=\"13.5\" text-anchor=\"middle\">Gió = không khí chuyển động từ áp cao → áp thấp</text></svg>"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Khí nào chiếm nhiều nhất trong không khí?",
+  "a": "Ni-tơ (78%) — thứ hai là ô-xi (21%).",
+  "fi": "../hinh-anh/dialy/thanh-phan-khi-quyen.svg"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Gió thổi từ nơi áp thế nào đến nơi áp thế nào?",
+  "a": "Từ nơi áp cao đến nơi áp thấp.",
+  "fi": "../hinh-anh/dialy/hoan-luu-khi-quyen.svg"
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Không khí nóng lên chủ yếu nhờ đâu?",
+  "a": "Nhờ mặt đất hấp thụ nắng rồi tỏa nhiệt lên.",
+  "fi": "../hinh-anh/dialy/sua-mat-dat-toa-nhiet.webp"
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Nhiệt độ trong ngày cao nhất vào khoảng mấy giờ?",
+  "a": "Khoảng 13–14 giờ.",
+  "fi": "../hinh-anh/dialy/tram-thoi-tiet.jpg"
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Mây hình thành do hiện tượng gì?",
+  "a": "Hơi nước ngưng tụ khi gặp lạnh ở trên cao.",
+  "fi": "../hinh-anh/dialy/may-vu-tich.jpg"
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Lượng mưa đo bằng dụng cụ gì?",
+  "a": "Vũ kế, đơn vị mm.",
+  "fi": "../hinh-anh/dialy/tram-thoi-tiet.jpg"
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Vì sao trên núi cao lạnh hơn dưới chân núi?",
+  "a": "Càng lên cao không khí càng loãng, càng xa nguồn nhiệt từ mặt đất.",
+  "fi": "../hinh-anh/dialy/dinh-everest.jpg"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Mây hình thành do hiện tượng gì?",
+  "a": "Hơi nước ngưng tụ khi gặp lạnh ở trên cao.",
+  "fi": "../hinh-anh/dialy/may-vu-tich.jpg"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Không khí nóng lên chủ yếu nhờ đâu?",
+  "a": "Mặt đất hấp thụ nắng rồi tỏa nhiệt lên.",
+  "fi": "../hinh-anh/dialy/sua-mat-dat-toa-nhiet.webp"
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Thời tiết là gì?",
+  "a": "Trạng thái khí quyển ngắn hạn, thay đổi liên tục ở một nơi.",
+  "fi": "../hinh-anh/dialy/tram-thoi-tiet.jpg"
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Khí hậu là gì?",
+  "a": "Trạng thái thời tiết lặp đi lặp lại trong nhiều năm ở một nơi.",
+  "fi": "../hinh-anh/dialy/ban-do-khi-hau-koppen.png"
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Có mấy đới khí hậu chính trên Trái Đất?",
+  "a": "5 đới: 1 đới nóng, 2 đới ôn hòa, 2 đới lạnh.",
+  "fi": "../hinh-anh/dialy/ban-do-khi-hau-koppen.png"
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Việt Nam thuộc đới khí hậu nào?",
+  "a": "Đới nóng (nhiệt đới).",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Một việc em làm được để giảm biến đổi khí hậu?",
+  "a": "Trồng cây xanh, tiết kiệm điện, đi xe đạp/xe buýt.",
+  "fi": "../hinh-anh/dialy/sua-trong-cay.webp"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Có mấy đới khí hậu chính trên Trái Đất?",
+  "a": "5 đới: 1 nóng, 2 ôn hòa, 2 lạnh.",
+  "fi": "../hinh-anh/dialy/ban-do-khi-hau-koppen.png"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Việt Nam thuộc đới khí hậu nào?",
+  "a": "Đới nóng (nhiệt đới).",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Đường trên biểu đồ khí hậu thể hiện gì?",
+  "a": "Nhiệt độ trung bình các tháng (°C).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Cột trên biểu đồ khí hậu thể hiện gì?",
+  "a": "Lượng mưa các tháng (mm).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Biên độ nhiệt là gì?",
+  "a": "Hiệu số giữa nhiệt độ tháng nóng nhất và tháng lạnh nhất.",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-on-doi.svg"
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Tổng lượng mưa năm tính bằng cách nào?",
+  "a": "Cộng lượng mưa của 12 tháng.",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Biểu đồ giúp nhận xét điều gì?",
+  "a": "Đặc điểm khí hậu: nóng/lạnh, mưa nhiều/ít, mùa mưa – mùa khô.",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-on-doi.svg"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Đường màu đỏ trên biểu đồ khí hậu thể hiện điều gì?",
+  "a": "Nhiệt độ trung bình các tháng (°C).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Các cột màu xanh trên biểu đồ thể hiện điều gì?",
+  "a": "Lượng mưa các tháng (mm).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-on-doi.svg"
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Thủy quyển là gì?",
+  "a": "Toàn bộ nước trên Trái Đất ở mọi dạng và mọi nơi.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg"
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Nước biển chiếm khoảng bao nhiêu % lượng nước?",
+  "a": "Khoảng 97,5%; nước ngọt chỉ ~2,5%.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg"
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Vòng tuần hoàn của nước gồm các giai đoạn nào?",
+  "a": "Bốc hơi → ngưng tụ → mưa → chảy về biển.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#e8f5e9\"/><circle cx=\"36\" cy=\"34\" r=\"14\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"2.6\" stroke-linecap=\"round\"><line x1=\"36\" y1=\"12\" x2=\"36\" y2=\"18\"/><line x1=\"36\" y1=\"50\" x2=\"36\" y2=\"56\"/><line x1=\"14\" y1=\"34\" x2=\"20\" y2=\"34\"/><line x1=\"52\" y1=\"34\" x2=\"58\" y2=\"34\"/></g><g stroke=\"#ef6c00\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"7 6\" stroke-linecap=\"round\"><path d=\"M92,132 L92,74\"><animate attributeName=\"stroke-dashoffset\" from=\"26\" to=\"0\" dur=\"1.2s\" repeatCount=\"indefinite\"/></path><path d=\"M120,132 L120,74\"><animate attributeName=\"stroke-dashoffset\" from=\"26\" to=\"0\" dur=\"1.2s\" begin=\"-0.6s\" repeatCount=\"indefinite\"/></path></g><polygon points=\"92,62 85,76 99,76\" fill=\"#ef6c00\"/><polygon points=\"120,62 113,76 127,76\" fill=\"#ef6c00\"/><text x=\"106\" y=\"50\" fill=\"#e65100\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Bốc hơi</text><g fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.6\"><circle cx=\"196\" cy=\"52\" r=\"17\"/><circle cx=\"222\" cy=\"46\" r=\"21\"/><circle cx=\"248\" cy=\"54\" r=\"15\"/></g><text x=\"222\" y=\"18\" fill=\"#37474f\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Ngưng tụ thành mây</text><g stroke=\"#1e88e5\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"192\" y1=\"80\" x2=\"188\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" repeatCount=\"indefinite\"/></line><line x1=\"222\" y1=\"80\" x2=\"218\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" begin=\"-0.45s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" begin=\"-0.45s\" repeatCount=\"indefinite\"/></line><line x1=\"252\" y1=\"80\" x2=\"248\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" begin=\"-0.9s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" begin=\"-0.9s\" repeatCount=\"indefinite\"/></line></g><text x=\"282\" y=\"98\" fill=\"#1565c0\" font-size=\"13.5\" font-weight=\"bold\">Mưa</text><path d=\"M0,142 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L320,180 L0,180 Z\" fill=\"#42a5f5\"/><path d=\"M262,128 C210,142 130,142 76,130\" stroke=\"#2e7d32\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"8 6\"><animate attributeName=\"stroke-dashoffset\" from=\"28\" to=\"0\" dur=\"1.3s\" repeatCount=\"indefinite\"/></path><polygon points=\"66,128 82,124 80,138\" fill=\"#2e7d32\"/><text x=\"160\" y=\"174\" fill=\"#1b5e20\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Nước chảy thành sông → về biển</text></svg>"
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Động lực chính của vòng tuần hoàn nước?",
+  "a": "Năng lượng Mặt Trời và trọng lực.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#e8f5e9\"/><circle cx=\"36\" cy=\"34\" r=\"14\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"2.6\" stroke-linecap=\"round\"><line x1=\"36\" y1=\"12\" x2=\"36\" y2=\"18\"/><line x1=\"36\" y1=\"50\" x2=\"36\" y2=\"56\"/><line x1=\"14\" y1=\"34\" x2=\"20\" y2=\"34\"/><line x1=\"52\" y1=\"34\" x2=\"58\" y2=\"34\"/></g><g stroke=\"#ef6c00\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"7 6\" stroke-linecap=\"round\"><path d=\"M92,132 L92,74\"><animate attributeName=\"stroke-dashoffset\" from=\"26\" to=\"0\" dur=\"1.2s\" repeatCount=\"indefinite\"/></path><path d=\"M120,132 L120,74\"><animate attributeName=\"stroke-dashoffset\" from=\"26\" to=\"0\" dur=\"1.2s\" begin=\"-0.6s\" repeatCount=\"indefinite\"/></path></g><polygon points=\"92,62 85,76 99,76\" fill=\"#ef6c00\"/><polygon points=\"120,62 113,76 127,76\" fill=\"#ef6c00\"/><text x=\"106\" y=\"50\" fill=\"#e65100\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Bốc hơi</text><g fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.6\"><circle cx=\"196\" cy=\"52\" r=\"17\"/><circle cx=\"222\" cy=\"46\" r=\"21\"/><circle cx=\"248\" cy=\"54\" r=\"15\"/></g><text x=\"222\" y=\"18\" fill=\"#37474f\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Ngưng tụ thành mây</text><g stroke=\"#1e88e5\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"192\" y1=\"80\" x2=\"188\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" repeatCount=\"indefinite\"/></line><line x1=\"222\" y1=\"80\" x2=\"218\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" begin=\"-0.45s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" begin=\"-0.45s\" repeatCount=\"indefinite\"/></line><line x1=\"252\" y1=\"80\" x2=\"248\" y2=\"94\"><animate attributeName=\"y1\" values=\"78;92;78\" dur=\"1.4s\" begin=\"-0.9s\" repeatCount=\"indefinite\"/><animate attributeName=\"y2\" values=\"92;106;92\" dur=\"1.4s\" begin=\"-0.9s\" repeatCount=\"indefinite\"/></line></g><text x=\"282\" y=\"98\" fill=\"#1565c0\" font-size=\"13.5\" font-weight=\"bold\">Mưa</text><path d=\"M0,142 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L320,180 L0,180 Z\" fill=\"#42a5f5\"/><path d=\"M262,128 C210,142 130,142 76,130\" stroke=\"#2e7d32\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"8 6\"><animate attributeName=\"stroke-dashoffset\" from=\"28\" to=\"0\" dur=\"1.3s\" repeatCount=\"indefinite\"/></path><polygon points=\"66,128 82,124 80,138\" fill=\"#2e7d32\"/><text x=\"160\" y=\"174\" fill=\"#1b5e20\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Nước chảy thành sông → về biển</text></svg>"
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Vì sao phải tiết kiệm nước ngọt?",
+  "a": "Nước ngọt rất ít (2,5%) và là nguồn sống của con người.",
+  "fi": "../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg"
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Nước tuần hoàn theo thứ tự nào?",
+  "a": "Bốc hơi → ngưng tụ thành mây → mưa → chảy về biển, lặp mãi.",
+  "fi": "../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg"
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Nước ngọt chỉ chiếm khoảng bao nhiêu phần trăm nước trên Trái Đất?",
+  "a": "Chỉ khoảng 2,5% — nên phải tiết kiệm nước ngọt.",
+  "fi": "../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg"
+ },
+ {
+  "b": 20,
+  "t": "fc",
+  "f": "Sông là gì?",
+  "a": "Dòng nước chảy thường xuyên, tương đối ổn định trên bề mặt đất.",
+  "fi": "../hinh-anh/dialy/song-uon-khuc-costa-rica.jpg"
+ },
+ {
+  "b": 20,
+  "t": "fc",
+  "f": "Hồ là gì?",
+  "a": "Vùng nước đọng trong chỗ trũng của bề mặt đất.",
+  "fi": "../hinh-anh/dialy/ho-baikal-mua-dong.jpg"
+ },
+ {
+  "b": 20,
+  "t": "fc",
+  "f": "Hồ nước ngọt sâu nhất thế giới là hồ nào?",
+  "a": "Hồ Bai-kan (ở Nga).",
+  "fi": "../hinh-anh/dialy/ho-baikal-mua-dong.jpg"
+ },
+ {
+  "b": 20,
+  "t": "fc",
+  "f": "Nước ngầm là gì?",
+  "a": "Nước nằm dưới bề mặt đất, trong lỗ rỗng và khe nứt của đất đá.",
+  "fi": "../hinh-anh/dialy/nuoc-ngam.svg"
+ },
+ {
+  "b": 20,
+  "t": "fc",
+  "f": "Băng hà chứa phần lớn lượng gì của Trái Đất?",
+  "a": "Phần lớn lượng nước ngọt.",
+  "fi": "../hinh-anh/dialy/song-bang-perito-moreno.jpg"
+ },
+ {
+  "b": 20,
+  "t": "mn",
+  "f": "Dòng nước chảy uốn khúc trên mặt đất gọi là gì?",
+  "a": "Sông.",
+  "fi": "../hinh-anh/dialy/song-uon-khuc-costa-rica.jpg"
+ },
+ {
+  "b": 20,
+  "t": "mn",
+  "f": "Băng hà chứa phần lớn lượng gì của Trái Đất?",
+  "a": "Phần lớn lượng nước ngọt.",
+  "fi": "../hinh-anh/dialy/song-bang-perito-moreno.jpg"
+ },
+ {
+  "b": 21,
+  "t": "fc",
+  "f": "Có bao nhiêu đại dương trên Trái Đất?",
+  "a": "4 đại dương.",
+  "fi": "../hinh-anh/dialy/cac-dai-duong.svg"
+ },
+ {
+  "b": 21,
+  "t": "fc",
+  "f": "Đại dương lớn nhất và sâu nhất?",
+  "a": "Thái Bình Dương.",
+  "fi": "../hinh-anh/dialy/sua-thai-binh-duong.webp"
+ },
+ {
+  "b": 21,
+  "t": "fc",
+  "f": "Độ muối trung bình của nước biển?",
+  "a": "Khoảng 35‰ (35 g muối/1 lít nước).",
+  "fi": "../hinh-anh/dialy/cac-dai-duong.svg"
+ },
+ {
+  "b": 21,
+  "t": "fc",
+  "f": "Kể 3 dạng vận động của nước biển.",
+  "a": "Sóng, thủy triều và dòng biển.",
+  "fi": "../hinh-anh/dialy/song-bien.jpg",
+  "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#b3e5fc\"/><circle cx=\"284\" cy=\"30\" r=\"14\" fill=\"#ffb300\"/><g><animateTransform attributeName=\"transform\" type=\"translate\" from=\"0 0\" to=\"-80 0\" dur=\"2.4s\" repeatCount=\"indefinite\"/><path d=\"M0,108 q20,-20 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L640,180 L0,180 Z\" fill=\"#0288d1\" opacity=\"0.75\"/></g><g><animateTransform attributeName=\"transform\" type=\"translate\" from=\"-80 0\" to=\"0 0\" dur=\"3.8s\" repeatCount=\"indefinite\"/><path d=\"M0,132 q20,-16 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L640,180 L0,180 Z\" fill=\"#01579b\" opacity=\"0.4\"/></g><text x=\"14\" y=\"30\" fill=\"#01579b\" font-size=\"13.5\" font-weight=\"bold\">Sóng do gió thổi trên mặt biển</text></svg>"
+ },
+ {
+  "b": 21,
+  "t": "fc",
+  "f": "Biển gần Việt Nam nhất tên là gì?",
+  "a": "Biển Đông.",
+  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-viet-nam.jpg"
+ },
+ {
+  "b": 21,
+  "t": "mn",
+  "f": "Trên Trái Đất có mấy đại dương?",
+  "a": "4 đại dương.",
+  "fi": "../hinh-anh/dialy/cac-dai-duong.svg"
+ },
+ {
+  "b": 21,
+  "t": "mn",
+  "f": "Sóng là một dạng gì của nước biển?",
+  "a": "Vận động của nước biển (cùng với thủy triều và dòng biển).",
+  "fi": "../hinh-anh/dialy/song-bien.jpg"
+ },
+ {
+  "b": 22,
+  "t": "fc",
+  "f": "Đất (thổ nhưỡng) là gì?",
+  "a": "Lớp vật chất mỏng, tơi xốp trên bề mặt lục địa.",
+  "fi": "../hinh-anh/dialy/cac-tang-dat.svg"
+ },
+ {
+  "b": 22,
+  "t": "fc",
+  "f": "Đất gồm những thành phần chính nào?",
+  "a": "Khoáng (đá phong hóa), mùn, nước và không khí.",
+  "fi": "../hinh-anh/dialy/cac-tang-dat.svg"
+ },
+ {
+  "b": 22,
+  "t": "fc",
+  "f": "Tầng đất giàu dinh dưỡng nhất tên là gì?",
+  "a": "Tầng mùn (tầng trên cùng).",
+  "fi": "../hinh-anh/dialy/cac-tang-dat.svg"
+ },
+ {
+  "b": 22,
+  "t": "fc",
+  "f": "Kể 2 nhân tố hình thành đất.",
+  "a": "Đá mẹ và khí hậu (còn: sinh vật, địa hình, thời gian).",
+  "fi": "../hinh-anh/dialy/sua-nhan-to-dat.webp"
+ },
+ {
+  "b": 22,
+  "t": "fc",
+  "f": "Đất ở vùng nóng ẩm như Việt Nam thường là loại đất nào?",
+  "a": "Đất phe-ra-lít đỏ vàng.",
+  "fi": "../hinh-anh/dialy/sua-dat-pha-ra-lit.webp"
+ },
+ {
+  "b": 22,
+  "t": "mn",
+  "f": "Tầng đất trên cùng, giàu dinh dưỡng nhất tên là gì?",
+  "a": "Tầng mùn.",
+  "fi": "../hinh-anh/dialy/cac-tang-dat.svg"
+ },
+ {
+  "b": 22,
+  "t": "mn",
+  "f": "Đất vùng nóng ẩm như Việt Nam thường là đất gì?",
+  "a": "Đất phe-ra-lít đỏ vàng.",
+  "fi": "../hinh-anh/dialy/sua-dat-pha-ra-lit.webp"
+ },
+ {
+  "b": 23,
+  "t": "fc",
+  "f": "Nhân tố chính quyết định phân bố sinh vật?",
+  "a": "Khí hậu (nhiệt độ và lượng mưa).",
+  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+ },
+ {
+  "b": 23,
+  "t": "fc",
+  "f": "Nơi nào giàu sinh vật nhất trên đất liền?",
+  "a": "Rừng mưa nhiệt đới.",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 23,
+  "t": "fc",
+  "f": "Xa-van là cảnh quan như thế nào?",
+  "a": "Đồng cỏ cao ở vùng nhiệt đới, có mùa mưa và mùa khô rõ rệt.",
+  "fi": "../hinh-anh/dialy/savan-kuruman.jpg"
+ },
+ {
+  "b": 23,
+  "t": "fc",
+  "f": "Vì sao sa mạc rất ít sinh vật?",
+  "a": "Vì quá khô hạn, thiếu nước.",
+  "fi": "../hinh-anh/dialy/con-cat-sa-mac.jpg"
+ },
+ {
+  "b": 23,
+  "t": "fc",
+  "f": "Đài nguyên ở đới lạnh có đặc điểm gì?",
+  "a": "Sinh vật nghèo nàn, cây thấp lùn sát mặt đất.",
+  "fi": "../hinh-anh/dialy/sua-dai-nguyen.webp"
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Nơi nào giàu sinh vật nhất trên đất liền?",
+  "a": "Rừng mưa nhiệt đới.",
+  "fi": "../hinh-anh/dialy/rung-mua-nhiet-doi.jpg"
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Đồng cỏ cao, ít cây lớn trong hình là cảnh quan gì?",
+  "a": "Xa-van nhiệt đới.",
+  "fi": "../hinh-anh/dialy/savan-kuruman.jpg"
+ }
+]

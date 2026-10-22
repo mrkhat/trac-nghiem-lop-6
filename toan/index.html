@@ -242,10 +242,11 @@ body.tab-flash #tabFlash{display:block}
 <a class="back" href="../">← Trang chủ các môn</a>
 <h1>🔢 Toán 6 — Tự luận</h1>
 <p class="sub">Học kì 1 • Đọc hiểu đề, phân tích và tự giải</p>
-<p class="steps">Đọc đề → 🔦 Soi từ khóa → 🔍 Phân tích → ✍️ Tự giải → ✔ Kiểm tra → 📖 Đối chiếu</p>
+<p class="steps">Cách làm một bài toán có lời văn:<br>Bước 1) Đọc đề.<br>Bước 2) 🔦 Tô đậm chữ quan trọng.<br>Bước 3) 🔍 Đề cho gì? Đề hỏi gì?<br>Bước 4) ✍️ Tự giải.<br>Bước 5) ✔ Kiểm tra lại.<br>Bước 6) 📖 Đối chiếu lời giải mẫu.</p>
 
 <div class="tabbar" id="tabbar"><button class="tabbtn on" type="button" data-tab="hoc">📖 Học tập</button><button class="tabbtn" type="button" data-tab="lythuyet">📐 Lý thuyết</button><button class="tabbtn" type="button" data-tab="luyen">✏️ Luyện tập</button><button class="tabbtn" type="button" data-tab="kiemtra">🧠 Kiểm tra</button>
     <button class="tabbtn" type="button" data-tab="flash">🃏 Flashcard</button></div>
+  <p class="desc" id="tabNow" style="text-align:center;margin:2px 0 10px"></p>
 <div id="home">
 <div id="tabHoc">
 <div class="partban partban1" id="part1"><h2>📖 Phần 1 — Học từng bài</h2><p>Học lần lượt theo đúng thứ tự sách giáo khoa Toán 6 (Kết nối tri thức với cuộc sống), học kì 1 — đủ 22 bài. Cuối mỗi bài có nút "📖 Xem bài mẫu" để mở bài mẫu của đúng bài đó ở tab ✏️ Luyện tập, và nút "🎲 Luyện ngay dạng này" để luyện ngay tại chỗ với một đề mới cùng dạng.</p></div>
@@ -867,6 +868,7 @@ body.tab-flash #tabFlash{display:block}
 </div>
 <div id="tabFlash">
   <div class="sec">
+    <p class="desc">Mỗi thẻ dưới đây thuộc một chương. Em chọn chương ở ô phía dưới để chỉ xem thẻ của chương đó nhé.</p>
     <h2>🃏 Flashcard tổng hợp</h2>
     <p class="desc">Toàn bộ thẻ ghi nhớ của môn Toán (gom từ thẻ ⚡ Nhớ nhanh, thẻ Đúng/Sai và thẻ lý thuyết trong các bài học) dồn vào một bộ thẻ lật. Chọn chương để ôn riêng từng chương, bấm vào thẻ để lật xem đáp án và giải thích.</p>
     <div class="sel-row">
@@ -886,13 +888,13 @@ body.tab-flash #tabFlash{display:block}
     <div id="tgArea" style="display:none">
       <p id="tgHead" style="text-align:center;font-weight:600"></p>
       <p id="tgStats" style="text-align:center"></p>
+      <p style="text-align:center;font-size:17px;color:#37474f;margin:8px 0">Cách chơi: 1) Bấm 1 thẻ để xem câu hỏi. 2) Bấm 1 thẻ nữa để xem đáp án. 3) Nếu hai thẻ là một cặp, hai thẻ ở lại. Em tìm hết các cặp là thắng.</p>
       <div id="tgBoard"></div>
       <div id="tgWin" style="display:none;text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:12px;padding:14px;margin:12px 0"></div>
       <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap">
         <button id="tgNew" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:48px;padding:8px 18px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;flex:1;min-width:140px">🔀 Ván mới</button>
         <button id="tgClose" style="background:#eceff1;color:#37474f;border:none;border-radius:10px;min-height:48px;padding:8px 18px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;flex:1;min-width:140px">✖ Đóng trò chơi</button>
       </div>
-      <p style="text-align:center;color:#666;font-size:15px">Lật 2 thẻ: một thẻ câu hỏi và một thẻ đáp án. Ghép đúng thì 2 thẻ ở lại. Thẻ lấy theo Chương đang chọn ở trên.</p>
     </div>
   </div>
 </div>
@@ -904,8 +906,7 @@ body.tab-flash #tabFlash{display:block}
   </div>
   <div class="sec">
     <h2>🧠 Kiểm tra trí nhớ lý thuyết</h2>
-    <p class="desc">Bài kiểm tra trắc nghiệm 10 câu rút ngẫu nhiên từ các thẻ ⚡ Nhớ nhanh, thẻ Đúng/Sai và thẻ lý thuyết của các bài học — toàn là lý thuyết, công thức và tính chất cần thuộc lòng. Mỗi câu một hàng riêng cho từng phương án, làm xong bấm Nộp bài là biết điểm ngay!</p>
-    <p class="desc">Điểm cao nhất của em: <b id="qzBest">—</b>/10</p>
+    <p class="desc">Bài kiểm tra có 10 câu.<br>Câu hỏi lấy từ các thẻ em đã học.<br>Làm xong, bấm Nộp bài là biết điểm ngay.</p>
     <div class="sel-row">
       <button class="btn btn-k" id="btnQzStart">▶ Bắt đầu bài kiểm tra</button>
       <button class="btn btn-c hidden" id="btnQzNew">🔀 Làm bài mới</button>
@@ -929,8 +930,8 @@ body.tab-flash #tabFlash{display:block}
     <div id="kwInfo"></div>
     <div class="fig" id="pFig"></div>
     <div>
-      <button class="btn btn-k" id="btnKw">🔦 Soi từ khóa</button>
-      <button class="btn btn-a" id="btnAna">🔍 Phân tích đề</button>
+      <button class="btn btn-k" id="btnKw">🔦 Tô đậm chữ quan trọng</button>
+      <button class="btn btn-a" id="btnAna">🔍 Đề cho gì? Đề hỏi gì?</button>
       <button class="btn btn-h" id="btnHint">💡 Gợi ý</button>
       <button class="btn btn-s" id="btnSol">📖 Lời giải</button>
       <button class="btn btn-c" id="btnAI">🤖 Hỏi AI</button>
@@ -997,8 +998,12 @@ let done={}; try{done=JSON.parse(localStorage.getItem('toan6_done')||'{}')}catch
 let streak={cur:0,best:0}; try{streak=JSON.parse(localStorage.getItem('toan6_streak')||'{"cur":0,"best":0}')}catch(e){}
 
 function saveStreak(){try{localStorage.setItem('toan6_streak',JSON.stringify(streak))}catch(e){}}
-function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur;} else streak.cur=0; saveStreak(); }
-function showStreak(){document.getElementById('streakBox').innerHTML=`🔥 Chuỗi đúng liên tiếp: <b>${streak.cur}</b> • Kỷ lục: <b>${streak.best}</b>`;}
+function todayKey(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+let todayCnt={date:'',n:0}; try{todayCnt=JSON.parse(localStorage.getItem('toan6_today')||'{"date":"","n":0}')}catch(e){todayCnt={date:'',n:0}}
+if(!todayCnt||todayCnt.date!==todayKey())todayCnt={date:todayKey(),n:0};
+function saveToday(){try{localStorage.setItem('toan6_today',JSON.stringify(todayCnt))}catch(e){}}
+function bumpStreak(ok){ if(ok){streak.cur++; if(streak.cur>streak.best)streak.best=streak.cur; if(todayCnt.date!==todayKey())todayCnt={date:todayKey(),n:0}; todayCnt.n++; saveToday();} else streak.cur=0; saveStreak(); }
+function showStreak(){var el=document.getElementById('streakBox');if(el)el.innerHTML=`⭐ Hôm nay em đã làm đúng: <b>${todayCnt.n}</b> bài`;}
 
 Promise.all([fetch('problems.json?v=20261021l').then(r=>r.json()),fetch('theory.json?v=20261021l').then(r=>r.json()),fetch('quiz.json?v=20261021l').then(r=>r.json()).catch(()=>[])]).then(([p,t,qz])=>{
   problems=p;theory=t;window.QUIZ_BANK=qz;renderHome();if(window.qzInit)window.qzInit();
@@ -1717,6 +1722,8 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     if(curTab!=='hoc') document.body.classList.add('tab-'+curTab);
     tabBtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-tab')===curTab); });
     try{ localStorage.setItem('toan6_tab',curTab); }catch(e){}
+    var tn=document.getElementById('tabNow');
+    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard'}; tn.textContent='Em đang ở mục '+(tnNames[curTab]||curTab)+'. Bấm một nút ở hàng trên để chuyển sang mục khác.'; }
   };
   var setToanTab=window.setToanTab;
   tabBtns.forEach(function(b){
@@ -1822,6 +1829,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
 
 </script>
 
+<script src="../assets/fc-state.js"></script>
 <script src="../assets/fc-onluyen.js"></script>
 <script>
 /* ===== ÔN LUYỆN TOÁN: gom toan bo the Nho nhanh (minicard) trong trang vao 1 bo the =====
@@ -1832,7 +1840,9 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
   onluyenMiniItems('dom').then(function(items){
     var cnt=document.getElementById('toanOnlCnt'); if(cnt) cnt.textContent=items.length;
     if(!items.length){ box.innerHTML='<p class="desc">Chưa có thẻ Nhớ nhanh nào.</p>'; return; }
-    fcDeck(box,{items:items,isKnown:state.isKnown,setKnown:state.setKnown});
+    if(window.fcMigrateOnluyen) fcMigrateOnluyen('toan', items);
+    if(window.fcCidM) items.forEach(function(it){ it.id=fcCidM(it.front); });
+    fcDeck(box,{items:items,isKnown:state.isKnown,setKnown:state.setKnown,totalText:function(){ if(!state.__store) return ''; var d=state.__store.countDue(items.map(function(x){return x.id;})); return d>0?('Hôm nay ôn lại nhé: '+d+' thẻ sắp quên'):''; }});
   });
 })();
 </script>
@@ -1841,11 +1851,16 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
 /* ===== TAB FLASHCARD TONG HOP (Toan): gom 72 the ghi nho tu ngan hang quiz.json (the Nho nhanh / Dung-Sai / ly thuyet), loc theo chuong ===== */
 let tfAll=null, tfKnown={}, tfQueue=[], tfPos=0, tfFlip=false, tfPool=[], tfTries=0;
 try{ tfKnown=JSON.parse(localStorage.getItem('toan6_fcquiz_v1')||'{}'); }catch(e){ tfKnown={}; }
-function tfSave(){ try{ localStorage.setItem('toan6_fcquiz_v1', JSON.stringify(tfKnown)); }catch(e){} }
+let tfStoreObj=null, tfSnap={};
+function tfStoreGet(){ if(!tfStoreObj){ tfStoreObj=window.fcMigrateFlash?fcMigrateFlash('toan'):fcStore('toan'); } return tfStoreObj; }
+function tfSyncFromStore(){ if(!window.fcStore||!tfAll) return; const st=tfStoreGet(); tfKnown={}; tfSnap={}; tfAll.forEach(it=>{ if(st.isKnown(it.cid)){ tfKnown[it.uid]=1; tfSnap[it.cid]=1; } }); }
+function tfSave(){ if(window.fcStore&&tfAll){ const st=tfStoreGet(); tfAll.forEach(it=>{ const inK=!!tfKnown[it.uid]; if(inK&&!tfSnap[it.cid]){ st.setKnown(it.cid,true); tfSnap[it.cid]=1; } else if(!inK&&tfSnap[it.cid]){ st.setKnown(it.cid,false); delete tfSnap[it.cid]; } }); return; } try{ localStorage.setItem('toan6_fcquiz_v1', JSON.stringify(tfKnown)); }catch(e){} }
 function tfBuild(){
   const bank=(typeof QUIZ_BANK!=='undefined'&&QUIZ_BANK)||window.QUIZ_BANK||[];
-  tfAll=bank.map(q=>({ c:q.ch, f:q.q, a:(q.options[q.answer]||'')+((q.explain)?'\n\u{1F4A1} '+q.explain:''), src:(q.src||'Th\u1EBB ghi nh\u1EDB').split('\u2014')[0].trim() }));
+  tfAll=bank.map(q=>({ cid:(window.fcCidQ?fcCidQ(q.q):'q:?'), c:q.ch, f:q.q, a:(q.options[q.answer]||'')+((q.explain)?'\n\u{1F4A1} '+q.explain:''), src:(q.src||'Th\u1EBB ghi nh\u1EDB').split('\u2014')[0].trim() }));
   tfAll.forEach((it,i)=>it.uid=i);
+  if(window.fcMigrateQuizUids) fcMigrateQuizUids('toan', tfAll);
+  tfSyncFromStore();
 }
 function tfOpen(){
   if(!tfAll){
@@ -1867,6 +1882,7 @@ function tfRender(){
   const m=document.getElementById('tfMount');
   const poolTotal=tfPool.length;
   const knownN=tfPool.filter(it=>tfKnown[it.uid]).length;
+  const dueN=(window.fcStore&&tfAll)?tfPool.filter(it=>tfStoreGet().isDue(it.cid)).length:0;
   if(poolTotal===0 || knownN===poolTotal || tfPos>=tfQueue.length){
     m.innerHTML='<div class="tfdone">\u{1F389} Em \u0111\u00E3 thu\u1ED9c h\u1EBFt '+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y!<br><br><button style="background:#43a047;color:#fff;border:none;min-height:48px;padding:10px 22px;border-radius:10px;font-size:16px;cursor:pointer;font-family:inherit" onclick="tfReset()">\u21BA H\u1ECDc l\u1EA1i t\u1EEB \u0111\u1EA7u</button></div>';
     return;
@@ -1874,7 +1890,7 @@ function tfRender(){
   const it=tfCur(); if(!it) return;
   m.innerHTML=
    '<div class="tfwrap"><div class="tfbar"><i style="width:'+(poolTotal?Math.round(knownN/poolTotal*100):0)+'%"></i></div>'+
-   '<div class="tfstat">\u0110\u00E3 thu\u1ED9c '+knownN+'/'+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y \u2022 Th\u1EBB '+(tfPos+1)+'/'+tfQueue.length+'</div>'+
+   '<div class="tfstat">\u0110\u00E3 thu\u1ED9c '+knownN+'/'+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y \u2022 Th\u1EBB '+(tfPos+1)+'/'+tfQueue.length+(dueN>0?' • Hôm nay ôn lại nhé: '+dueN+' thẻ sắp quên':'')+'</div>'+
    '<div class="tfscene"><div class="tfcard" id="tfCard"><div class="tfinner">'+
    '<div class="tfface front"><span class="tftag"></span><div class="tftext"></div><span class="tfhint">B\u1EA5m th\u1EBB \u0111\u1EC3 l\u1EADt \u{1F446}</span></div>'+
    '<div class="tfface back"><span class="tftag"></span><div class="tftext"></div></div>'+
@@ -1952,7 +1968,7 @@ function tgDeal(){
   document.getElementById('tgHead').textContent='🎮 Lật thẻ tìm cặp — '+(ch==='all'?'Tất cả các chương':'Chương '+ch)+' • '+tgPairs+' cặp';
   tgStats();
 }
-function tgStats(){ document.getElementById('tgStats').textContent='Đã ghép: '+tgDone+'/'+tgPairs+' cặp • Lượt lật: '+tgMoves; }
+function tgStats(){ document.getElementById('tgStats').textContent='Đã ghép: '+tgDone+'/'+tgPairs+' cặp • Số lần lật 2 thẻ: '+tgMoves; }
 function tgFlip(d){
   if(tgLock || d.classList.contains('up') || d.classList.contains('done')) return;
   d.classList.add('up'); tgOpen.push(d);
@@ -1961,7 +1977,7 @@ function tgFlip(d){
   const a=tgOpen[0], b=tgOpen[1]; tgOpen=[];
   if(a.dataset.k===b.dataset.k){
     a.classList.add('done'); b.classList.add('done'); tgDone++; tgStats();
-    if(tgDone===tgPairs){ const w=document.getElementById('tgWin'); w.innerHTML='🎉 <b>Thắng rồi!</b> Em ghép đúng '+tgPairs+'/'+tgPairs+' cặp sau '+tgMoves+' lượt lật. Bấm "Ván mới" để chơi tiếp nhé!'; w.style.display='block'; }
+    if(tgDone===tgPairs){ const w=document.getElementById('tgWin'); w.innerHTML='🎉 <b>Thắng rồi!</b> Em ghép đúng '+tgPairs+'/'+tgPairs+' cặp sau '+tgMoves+' lần lật 2 thẻ. Bấm "Ván mới" để chơi tiếp nhé!'; w.style.display='block'; }
   } else { tgLock=true; tgStats(); setTimeout(()=>{ a.classList.remove('up'); b.classList.remove('up'); tgLock=false; }, 950); }
 }
 document.getElementById('tgBtn').onclick=function(){ document.getElementById('tgArea').style.display='block'; tgDeal(); };

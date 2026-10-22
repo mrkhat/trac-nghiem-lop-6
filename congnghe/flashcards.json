@@ -9,8 +9,8 @@
  {
   "b": 1,
   "t": "fc",
-  "f": "Nhà ở gồm 3 phần chính nào?",
-  "a": "Móng nhà – thân nhà – mái nhà.",
+  "f": "Nhà ở thường gồm mấy phần chính? Kể tên các phần đó.",
+  "a": "7 phần chính: móng nhà, sàn nhà, khung nhà, tường nhà, mái nhà, cửa ra vào, cửa sổ.",
   "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
  },
  {
@@ -38,7 +38,7 @@
   "b": 1,
   "t": "mn",
   "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp án3 phần: móng – thân – mái.",
+  "a": "✅ Đáp án7 phần chính: móng, sàn, khung, tường, mái, cửa ra vào, cửa sổ.",
   "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
  },
  {
@@ -143,8 +143,7 @@
   "b": 3,
   "t": "mn",
   "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánCảm biến khói.",
-  "fi": "../hinh-anh/congnghe/bai3-cam-bien.webp"
+  "a": "✅ Đáp ánCảm biến khói."
  },
  {
   "b": 4,
@@ -205,8 +204,8 @@
  {
   "b": 5,
   "t": "fc",
-  "f": "Vì sao cần bảo quản thực phẩm?",
-  "a": "Để thực phẩm lâu hư, giữ được chất dinh dưỡng, ăn an toàn và không lãng phí.",
+  "f": "Một cách bảo quản thực phẩm là gì?",
+  "a": "Cho thực phẩm vào tủ lạnh (làm lạnh) để thực phẩm lâu hư hơn.",
   "fi": "../hinh-anh/congnghe/bai5-tu-lanh.webp"
  },
  {

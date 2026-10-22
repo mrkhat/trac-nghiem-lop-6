@@ -10,6 +10,8 @@ function sup(n){return (''+n).replace('2','²').replace('3','³');}
 function seq(a,b){const r=[];for(let i=a;i<=b;i++)r.push(i);return r.join('; ');}
 function posDiv(n){const r=[];for(let d=1;d<=n;d++)if(n%d===0)r.push(d);return r.join('; ');}
 function sgn(n){return n<0?'('+n+')':''+n;}
+function fmtN(n){return (''+n).replace(/-/g,'−');}
+const FIG_NOTE='<div style="font-size:14px;color:#666;margin-top:4px">(Hình minh họa, không theo tỉ lệ)</div>';
 function angG(V,P1,P2,name,info,r){
   r=r||26;
   function pt(P){var dx=P[0]-V[0],dy=P[1]-V[1],L=Math.hypot(dx,dy);return [V[0]+dx/L*r,V[1]+dy/L*r];}
@@ -46,7 +48,7 @@ mixedCalc:{chapter:1,topic:'Thứ tự thực hiện phép tính',gen(l){
    theory:'Thứ tự thực hiện phép tính (không có dấu ngoặc): lũy thừa → nhân và chia (từ trái sang phải) → cộng và trừ.',
    kw:[{t:'Tính giá trị của biểu thức',type:'ask',why:'Điều cần tìm: kết quả cuối cùng của biểu thức.'},{t:ex,type:'data',why:'Số liệu đề cho: biểu thức có cả nhân, chia, cộng, trừ — phải làm nhân/chia trước.'}],
    parts:[{label:'Kết quả',answer:''+ans,unit:''}],
-   solution:[`${a} × ${b} + ${c} : ${d} − ${e} = ${ab} + ${q} − ${e}`,`= ${ab+q} − ${e} = ${ans}`]};
+   solution:[`Bước 1) Làm phép nhân và phép chia trước: ${a} × ${b} = ${ab} và ${c} : ${d} = ${q}, biểu thức thành ${ab} + ${q} − ${e}.`,`Bước 2) Tính từ trái sang phải: ${ab} + ${q} − ${e} = ${ab+q} − ${e} = ${ans}.`]};
 }},
 powerCalc:{chapter:1,topic:'Lũy thừa',gen(l){
   const base=R(2,l===1?4:6),ex=R(2,3),k=R(2,9),b2=R(2,5);
@@ -58,7 +60,7 @@ powerCalc:{chapter:1,topic:'Lũy thừa',gen(l){
    theory:'Lũy thừa aⁿ là tích của n thừa số bằng nhau, mỗi thừa số bằng a. Khi tính biểu thức: tính lũy thừa trước, rồi nhân/chia, rồi cộng/trừ.',
    kw:[{t:'Tính giá trị của biểu thức',type:'ask',why:'Điều cần tìm: kết quả cuối cùng của biểu thức.'},{t:exs,type:'data',why:'Số liệu đề cho: có lũy thừa — tính lũy thừa trước tiên.'}],
    parts:[{label:'Kết quả',answer:''+ans,unit:''}],
-   solution:[`${base}${sup(ex)} = ${pw};  ${b2}² = ${sq}`,`${exs} = ${pw} × ${k} + ${sq} = ${pw*k} + ${sq} = ${ans}`]};
+   solution:[`Bước 1) Tính các lũy thừa trước: ${base}${sup(ex)} = ${pw} và ${b2}² = ${sq}.`,`Bước 2) Làm phép nhân rồi phép cộng: ${exs} = ${pw} × ${k} + ${sq} = ${pw*k} + ${sq} = ${ans}.`]};
 }},
 findX:{chapter:1,topic:'Tìm số chưa biết',gen(l){
   const a=R(2,9),x=R(3,l===1?12:(l===2?20:30)),b=R(3,40),c=a*x+b;
@@ -69,7 +71,7 @@ findX:{chapter:1,topic:'Tìm số chưa biết',gen(l){
    theory:'Cách tìm thành phần chưa biết: muốn tìm số hạng, lấy tổng trừ số hạng đã biết; muốn tìm thừa số, lấy tích chia cho thừa số đã biết.',
    kw:[{t:'Tìm số tự nhiên x',type:'ask',why:'Điều cần tìm: giá trị của x.'},{t:ex,type:'data',why:`Đề cho: đẳng thức chứa x. Coi ${a} × x là một số hạng chưa biết.`}],
    parts:[{label:'x =',answer:''+x,unit:''}],
-   solution:[`${a} × x = ${c} − ${b} = ${c-b}`,`x = ${c-b} : ${a} = ${x}`]};
+   solution:[`Bước 1) Tìm ${a} × x trước: ${a} × x = ${c} − ${b} = ${c-b}.`,`Bước 2) Tìm x: x = ${c-b} : ${a} = ${x}.`]};
 }},
 buyWord:{chapter:1,topic:'Bài toán thực tế',gen(l){
   const ctx=pick([
@@ -128,36 +130,36 @@ rangeWord:{chapter:2,topic:'Bài toán bội chung',gen(l){
 tempWord:{chapter:3,topic:'Cộng, trừ số nguyên',gen(l){
   const place=pick(['Sa Pa','Đà Lạt','Mẫu Sơn','Hà Giang']);
   const s=R(-6,4),u=R(5,12),d=R(3,9),noon=s+u,eve=noon-d;
-  return{title:'Nhiệt độ',text:`Buổi sáng, nhiệt độ ở ${place} là ${s}°C. Đến trưa, nhiệt độ tăng thêm ${u}°C. Đến tối, nhiệt độ giảm ${d}°C so với buổi trưa.\na) Nhiệt độ buổi trưa là bao nhiêu?\nb) Nhiệt độ buổi tối là bao nhiêu?`,
-   analysis:{given:[`Sáng: ${s}°C`,`Trưa: tăng ${u}°C so với sáng`,`Tối: giảm ${d}°C so với trưa`],ask:'Nhiệt độ buổi trưa và buổi tối',plan:'Tăng thì cộng, giảm thì trừ. Tính lần lượt từng buổi.'},
-   hint:`Nhiệt độ buổi trưa: ${s} + ${u} = ${noon} (°C).`,
+  return{title:'Nhiệt độ',text:`Buổi sáng, nhiệt độ ở ${place} là ${fmtN(s)}°C. Đến trưa, nhiệt độ tăng thêm ${u}°C. Đến tối, nhiệt độ giảm ${d}°C so với buổi trưa.\na) Nhiệt độ buổi trưa là bao nhiêu?\nb) Nhiệt độ buổi tối là bao nhiêu?`,
+   analysis:{given:[`Sáng: ${fmtN(s)}°C`,`Trưa: tăng ${u}°C so với sáng`,`Tối: giảm ${d}°C so với trưa`],ask:'Nhiệt độ buổi trưa và buổi tối',plan:'Tăng thì cộng, giảm thì trừ. Tính lần lượt từng buổi.'},
+   hint:`Nhiệt độ buổi trưa: ${fmtN(s)} + ${u} = ${fmtN(noon)} (°C).`,
    theory:'Nhiệt độ tăng thêm → phép cộng; nhiệt độ giảm đi → phép trừ. Số âm chỉ nhiệt độ dưới 0°C.',
-   kw:[{t:`${s}°C`,type:'data',why:'Đề cho: nhiệt độ buổi sáng.'},{t:`tăng thêm ${u}°C`,type:'op',why:'Từ khóa "tăng thêm" → phép cộng.'},{t:`giảm ${d}°C`,type:'op',why:'Từ khóa "giảm" → phép trừ.'},{t:'Nhiệt độ buổi trưa là bao nhiêu',type:'ask',why:'Điều cần tìm (ý a): nhiệt độ buổi trưa.'},{t:'Nhiệt độ buổi tối là bao nhiêu',type:'ask',why:'Điều cần tìm (ý b): nhiệt độ buổi tối.'}],
+   kw:[{t:`${fmtN(s)}°C`,type:'data',why:'Đề cho: nhiệt độ buổi sáng.'},{t:`tăng thêm ${u}°C`,type:'op',why:'Từ khóa "tăng thêm" → phép cộng.'},{t:`giảm ${d}°C`,type:'op',why:'Từ khóa "giảm" → phép trừ.'},{t:'Nhiệt độ buổi trưa là bao nhiêu',type:'ask',why:'Điều cần tìm (ý a): nhiệt độ buổi trưa.'},{t:'Nhiệt độ buổi tối là bao nhiêu',type:'ask',why:'Điều cần tìm (ý b): nhiệt độ buổi tối.'}],
    parts:[{label:'a) Nhiệt độ buổi trưa',answer:''+noon,unit:'°C'},{label:'b) Nhiệt độ buổi tối',answer:''+eve,unit:'°C'}],
-   solution:[`Bước 1) Nhiệt độ buổi trưa là: ${s} + ${u} = ${noon} (°C).`,`Bước 2) Nhiệt độ buổi tối là: ${noon} − ${d} = ${eve} (°C).`,`Đáp số: Buổi trưa ${noon}°C; buổi tối ${eve}°C.`]};
+   solution:[`Bước 1) Nhiệt độ buổi trưa là: ${fmtN(s)} + ${u} = ${fmtN(noon)} (°C).`,`Bước 2) Nhiệt độ buổi tối là: ${fmtN(noon)} − ${d} = ${fmtN(eve)} (°C).`,`Đáp số: Buổi trưa ${fmtN(noon)}°C; buổi tối ${fmtN(eve)}°C.`]};
 }},
 intExpr:{chapter:3,topic:'Tính biểu thức số nguyên',gen(l){
   const a=R(11,l===1?30:60),b=R(20,60),c=R(5,35),ans=-a+b-c;
   const ex=`(−${a}) + ${b} − ${c}`;
   return{title:'Tính giá trị biểu thức',text:`Tính giá trị của biểu thức:\n${ex}`,
    analysis:{given:['Biểu thức gồm các số nguyên âm và dương, chỉ có cộng và trừ'],ask:'Tính giá trị của biểu thức',plan:`Tính từ trái sang phải: (−${a}) + ${b} trước, lấy kết quả trừ đi ${c}.`},
-   hint:`(−${a}) + ${b} = ${-a+b}.`,
+   hint:`(−${a}) + ${b} = ${fmtN(-a+b)}.`,
    theory:'Cộng hai số nguyên khác dấu: lấy số có giá trị lớn hơn trừ số nhỏ hơn, kết quả mang dấu của số lớn hơn. Sau đó tính tiếp từ trái sang phải.',
    kw:[{t:'Tính giá trị của biểu thức',type:'ask',why:'Điều cần tìm: kết quả cuối cùng của biểu thức.'},{t:ex,type:'data',why:'Số liệu đề cho: biểu thức số nguyên, tính từ trái sang phải.'}],
    parts:[{label:'Kết quả',answer:''+ans,unit:''}],
-   solution:[`${ex} = ${-a+b} − ${c} = ${ans}`]};
+   solution:[`Bước 1) Tính từ trái sang phải, làm (−${a}) + ${b} trước: (−${a}) + ${b} = ${fmtN(-a+b)}.`,`Bước 2) Lấy kết quả trừ đi ${c}: ${fmtN(-a+b)} − ${c} = ${fmtN(ans)}.`]};
 }},
 intBracket:{chapter:3,topic:'Quy tắc dấu ngoặc (Bài 15)',gen(l){
   const a=R(l===1?25:35,l===1?50:70),b=R(8,40),c=b+R(3,25),d=R(4,30),s=pick(['−','+']);
   const inner=b-c, mid=a-inner, ans=s==='−'?mid-d:mid+d;
   const ex=`${a} − (${b} − ${c}) ${s} ${d}`;
   return{title:'Tính biểu thức có dấu ngoặc',text:`Tính giá trị của biểu thức:\n${ex}`,
-   analysis:{given:[`Biểu thức có dấu ngoặc, phía trước ngoặc là dấu trừ`,`Trong ngoặc: ${b} − ${c} cho kết quả là số âm`],ask:'Tính giá trị của biểu thức',plan:`Bước 1) Tính trong ngoặc trước. Bước 2) Bỏ dấu ngoặc theo quy tắc dấu ngoặc: ${a} − (${inner}) = ${a} + ${-inner}. Bước 3) Tính tiếp từ trái sang phải.`},
-   hint:`Trong ngoặc: ${b} − ${c} = ${inner}. Nhớ: trừ một số âm bằng cộng số dương.`,
+   analysis:{given:[`Biểu thức có dấu ngoặc, phía trước ngoặc là dấu trừ`,`Trong ngoặc: ${b} − ${c} cho kết quả là số âm`],ask:'Tính giá trị của biểu thức',plan:`Bước 1) Tính trong ngoặc trước. Bước 2) Bỏ dấu ngoặc theo quy tắc dấu ngoặc: ${a} − (${fmtN(inner)}) = ${a} + ${fmtN(-inner)}. Bước 3) Tính tiếp từ trái sang phải.`},
+   hint:`Trong ngoặc: ${b} − ${c} = ${fmtN(inner)}. Nhớ: trừ một số âm bằng cộng số dương.`,
    theory:'Quy tắc dấu ngoặc (Bài 15): khi bỏ dấu ngoặc có dấu + đằng trước, giữ nguyên dấu của các số hạng trong ngoặc; khi bỏ dấu ngoặc có dấu \u2212 đằng trước, phải đổi dấu mọi số hạng trong ngoặc. Trừ một số âm bằng cộng với số đối của nó.',
    kw:[{t:'Tính giá trị của biểu thức',type:'ask',why:'Điều cần tìm: kết quả cuối cùng của biểu thức.'},{t:ex,type:'data',why:'Số liệu đề cho: biểu thức có dấu ngoặc \u2014 tính trong ngoặc trước, bỏ ngoặc theo quy tắc dấu ngoặc.'}],
    parts:[{label:'Kết quả',answer:''+ans,unit:''}],
-   solution:[`Bước 1) Tính trong ngoặc trước: ${b} − ${c} = ${inner}. Biểu thức trở thành: ${a} − (${inner}) ${s} ${d}.`,`Bước 2) Bỏ dấu ngoặc: phía trước ngoặc là dấu trừ nên đổi dấu số hạng trong ngoặc: ${a} − (${inner}) = ${a} + ${-inner} = ${mid}.`,`Bước 3) Tính tiếp từ trái sang phải: ${mid} ${s} ${d} = ${ans}.`]};
+   solution:[`Bước 1) Tính trong ngoặc trước: ${b} − ${c} = ${fmtN(inner)}. Biểu thức trở thành: ${a} − (${fmtN(inner)}) ${s} ${d}.`,`Bước 2) Bỏ dấu ngoặc: phía trước ngoặc là dấu trừ nên đổi dấu số hạng trong ngoặc: ${a} − (${fmtN(inner)}) = ${a} + ${fmtN(-inner)} = ${fmtN(mid)}.`,`Bước 3) Tính tiếp từ trái sang phải: ${fmtN(mid)} ${s} ${d} = ${fmtN(ans)}.`]};
 }},
 moneyWord:{chapter:3,topic:'Bài toán thực tế với số nguyên',gen(l){
   const S=R(5,9)*10000,x=R(2,4)*5000,y=R(1,3)*10000;
@@ -197,7 +199,7 @@ squareGeo:{chapter:4,topic:'Hình vuông',gen(l){
 triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
   const s=R(12,45),P=s*3;
   const svg=`<svg viewBox="0 0 200 195" style="max-width:230px;width:100%"><polygon points="100,20 180,160 20,160" fill="#fff8e1" stroke="#e65100" stroke-width="2"/><text x="100" y="185" text-anchor="middle" font-size="16" fill="#333">${s} cm</text>${vtxL([100,20],[100,113],'A')+vtxL([20,160],[100,113],'B')+vtxL([180,160],[100,113],'C')+angG([100,20],[20,160],[180,160],'BAC','Góc BAC = 60° — đỉnh A, hai cạnh AB và AC. Tam giác đều có 3 góc bằng nhau, mỗi góc 60°',30)+angG([20,160],[100,20],[180,160],'ABC','Góc ABC = 60° — đỉnh B, hai cạnh BA và BC',30)+angG([180,160],[20,160],[100,20],'BCA','Góc BCA = 60° — đỉnh C, hai cạnh CB và CA',30)}</svg>`;
-  return{title:'Biển báo tam giác đều',text:`Một biển báo giao thông có dạng tam giác đều với cạnh dài ${s} cm. Tính chu vi của biển báo đó.`,svg,
+  return{title:'Biển báo tam giác đều',text:`Một biển báo giao thông có dạng tam giác đều với cạnh dài ${s} cm. Tính chu vi của biển báo đó.`,svg:svg+FIG_NOTE,
    analysis:{given:['Tam giác đều: 3 cạnh bằng nhau, mỗi cạnh '+s+' cm'],ask:'Chu vi của biển báo',plan:'Chu vi là tổng độ dài 3 cạnh. Vì 3 cạnh bằng nhau nên lấy cạnh × 3.'},
    hint:`Tam giác đều có 3 cạnh bằng nhau: ${s} × 3.`,
    theory:'Tam giác đều: Chu vi P = a × 3. Trong đó a là độ dài cạnh (3 cạnh bằng nhau, 3 góc đều bằng 60°).',
@@ -208,7 +210,7 @@ triGeo:{chapter:4,topic:'Tam giác đều',gen(l){
 trapGeo:{chapter:4,topic:'Hình thang cân',gen(l){
   const DL=R(11,18),DN=R(6,DL-3),leg=R(4,9),P=DL+DN+2*leg;
   const svg=`<svg viewBox="0 0 260 175" style="max-width:300px;width:100%"><polygon points="30,130 230,130 180,40 80,40" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><text x="130" y="158" text-anchor="middle" font-size="16" fill="#333">${DL} cm</text><text x="130" y="30" text-anchor="middle" font-size="16" fill="#333">${DN} cm</text><text x="14" y="88" font-size="16" fill="#333">${leg} cm</text>${quadAng([30,130],[230,130],[180,40],[80,40],TRAPI)}</svg>`;
-  return{title:'Mặt bàn hình thang cân',text:`Mặt bàn có dạng hình thang cân với đáy lớn ${DL} cm, đáy nhỏ ${DN} cm và cạnh bên ${leg} cm. Tính chu vi của mặt bàn.`,svg,
+  return{title:'Mặt bàn hình thang cân',text:`Mặt bàn có dạng hình thang cân với đáy lớn ${DL} cm, đáy nhỏ ${DN} cm và cạnh bên ${leg} cm. Tính chu vi của mặt bàn.`,svg:svg+FIG_NOTE,
    analysis:{given:[`Hình thang cân: đáy lớn ${DL} cm, đáy nhỏ ${DN} cm`,`Hình thang cân có 2 cạnh bên bằng nhau, mỗi cạnh ${leg} cm`],ask:'Chu vi của mặt bàn',plan:`Chu vi = đáy lớn + đáy nhỏ + cạnh bên + cạnh bên = ${DL} + ${DN} + ${leg} + ${leg}.`},
    hint:`Hình thang cân có hai cạnh bên bằng nhau: ${DL} + ${DN} + ${leg} × 2.`,
    theory:'Chu vi của một hình bằng tổng độ dài tất cả các cạnh. Hình thang: Diện tích S = (a + b) × h : 2 (a là đáy lớn, b là đáy nhỏ, h là chiều cao). Hình thang cân có 2 cạnh bên bằng nhau.',
@@ -220,8 +222,10 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
   let d1=pick([6,8,10,12,14,16]),d2=pick([4,6,8,10,12,14]);
   if(d1===d2)d2=d1+2;
   const A=d1*d2/2;
-  const svg=`<svg viewBox="0 0 240 205" style="max-width:260px;width:100%"><polygon points="120,20 190,100 120,180 50,100" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/><line x1="120" y1="20" x2="120" y2="180" stroke="#6a1b9a" stroke-dasharray="5 4"/><line x1="50" y1="100" x2="190" y2="100" stroke="#6a1b9a" stroke-dasharray="5 4"/><text x="130" y="60" font-size="16" fill="#333">${d1} cm</text><text x="132" y="92" font-size="16" fill="#333">${d2} cm</text>${quadAng([120,20],[190,100],[120,180],[50,100],RHOI)}</svg>`;
-  return{title:'Diện tích hình thoi',text:`Một viên gạch trang trí hình thoi có hai đường chéo dài ${d2} cm và ${d1} cm. Tính diện tích của viên gạch.`,svg,
+  const mxD=Math.max(d1,d2),hv=Math.round(80*d1/mxD),hh=Math.round(70*d2/mxD);
+  const pT=[120,100-hv],pR=[120+hh,100],pB=[120,100+hv],pL=[120-hh,100];
+  const svg=`<svg viewBox="0 0 240 205" style="max-width:260px;width:100%"><polygon points="${pT[0]},${pT[1]} ${pR[0]},${pR[1]} ${pB[0]},${pB[1]} ${pL[0]},${pL[1]}" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/><line x1="120" y1="${pT[1]}" x2="120" y2="${pB[1]}" stroke="#6a1b9a" stroke-dasharray="5 4"/><line x1="${pL[0]}" y1="100" x2="${pR[0]}" y2="100" stroke="#6a1b9a" stroke-dasharray="5 4"/><text x="130" y="${100-Math.round(hv/2)}" font-size="16" fill="#333">${d1} cm</text><text x="${120+Math.round(hh/2)-14}" y="92" font-size="16" fill="#333">${d2} cm</text>${quadAng(pT,pR,pB,pL,RHOI)}</svg>`;
+  return{title:'Diện tích hình thoi',text:`Một viên gạch trang trí hình thoi có hai đường chéo dài ${d2} cm và ${d1} cm. Tính diện tích của viên gạch.`,svg:svg+FIG_NOTE,
    analysis:{given:[`Hình thoi có hai đường chéo ${d2} cm và ${d1} cm`],ask:'Diện tích viên gạch',plan:`Diện tích hình thoi bằng một nửa tích hai đường chéo: (${d2} × ${d1}) : 2.`},
    hint:`${d2} × ${d1} = ${d2*d1}, rồi chia cho 2.`,
    theory:'Hình thoi: Diện tích S = (m × n) : 2. Trong đó m và n là độ dài hai đường chéo (hai đường chéo vuông góc với nhau).',
@@ -232,11 +236,11 @@ rhombusGeo:{chapter:4,topic:'Hình thoi',gen(l){
 paraGeo:{chapter:4,topic:'Hình bình hành',gen(l){
   const base=R(6,16),h=R(3,base-1),A=base*h;
   const svg=`<svg viewBox="0 0 260 185" style="max-width:300px;width:100%"><polygon points="40,140 200,140 235,45 75,45" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/><line x1="75" y1="45" x2="75" y2="140" stroke="#1565c0" stroke-dasharray="5 4"/><text x="120" y="166" text-anchor="middle" font-size="16" fill="#333">${base} m</text><text x="84" y="98" font-size="16" fill="#333">${h} m</text>${quadAng([40,140],[200,140],[235,45],[75,45],PARAI)}</svg>`;
-  return{title:'Diện tích hình bình hành',text:`Một mảnh đất hình bình hành có cạnh đáy ${base} m và chiều cao tương ứng ${h} m. Tính diện tích của mảnh đất.`,svg,
-   analysis:{given:[`Hình bình hành: cạnh đáy ${base} m, chiều cao ứng với cạnh đáy đó là ${h} m`],ask:'Diện tích mảnh đất',plan:'Diện tích hình bình hành = cạnh đáy × chiều cao tương ứng.'},
+  return{title:'Diện tích hình bình hành',text:`Một mảnh đất hình bình hành có cạnh đáy ${base} m và chiều cao từ đỉnh D đến cạnh đáy đó dài ${h} m. Tính diện tích của mảnh đất.`,svg:svg+FIG_NOTE,
+   analysis:{given:[`Hình bình hành: cạnh đáy ${base} m, chiều cao từ đỉnh D đến cạnh đáy đó là ${h} m`],ask:'Diện tích mảnh đất',plan:'Diện tích hình bình hành = cạnh đáy × chiều cao tương ứng.'},
    hint:`Lấy cạnh đáy nhân với chiều cao: ${base} × ${h}.`,
    theory:'Hình bình hành: Diện tích S = a × h. Trong đó a là độ dài cạnh đáy, h là chiều cao ứng với cạnh đáy đó.',
-   kw:[{t:`cạnh đáy ${base} m`,type:'data',why:'Đề cho: cạnh đáy hình bình hành.'},{t:`chiều cao tương ứng ${h} m`,type:'data',why:'Đề cho: chiều cao ứng với cạnh đáy đó — phải ghép đúng cặp đáy × chiều cao.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích mảnh đất.'}],
+   kw:[{t:`cạnh đáy ${base} m`,type:'data',why:'Đề cho: cạnh đáy hình bình hành.'},{t:`chiều cao từ đỉnh D đến cạnh đáy đó dài ${h} m`,type:'data',why:'Đề cho: chiều cao từ đỉnh D đến cạnh đáy đó — phải ghép đúng cặp đáy × chiều cao.'},{t:'Tính diện tích',type:'ask',why:'Điều cần tìm: diện tích mảnh đất.'}],
    parts:[{label:'Diện tích',answer:''+A,unit:'m²'}],
    solution:[`Bước 1) Diện tích của mảnh đất hình bình hành là: ${base} × ${h} = ${A} (m²).`,`Đáp số: ${A} m².`]};
 }},
@@ -245,13 +249,21 @@ romanWord:{chapter:1,topic:'Số La Mã (Bài 2)',gen(l){
   const toRoman=n=>{let r='';for(const [v,sm] of table){while(n>=v){r+=sm;n-=v;}}return r;};
   const maxN=l===1?19:(l===2?39:89);
   const n=R(4,maxN), r=toRoman(n);
+  const symVal={I:1,V:5,X:10,L:50,C:100,D:500,M:1000};
+  const rParts=[];let ri=0;
+  while(ri<r.length){
+    const curV=symVal[r[ri]],nxtV=ri+1<r.length?symVal[r[ri+1]]:0;
+    if(nxtV>curV){rParts.push({t:r.slice(ri,ri+2),v:nxtV-curV,sub:`${r[ri]} đứng trước ${r[ri+1]} nên lấy ${nxtV} − ${curV} = ${nxtV-curV}`});ri+=2;}
+    else{rParts.push({t:r[ri],v:curV});ri+=1;}
+  }
+  const rPartStr=rParts.map(p=>p.t+' = '+p.v+(p.sub?' ('+p.sub+')':'')).join(', ');
   return{title:'Đọc số La Mã',text:`Số La Mã ${r} viết trong hệ thập phân là số nào?`,
    analysis:{given:[`Số La Mã ${r}`, 'Các ký hiệu: I = 1, V = 5, X = 10, L = 50; ký hiệu nhỏ đứng trước ký hiệu lớn thì trừ (IV = 4, IX = 9, XL = 40)'],ask:'Giá trị của số La Mã trong hệ thập phân',plan:'Cộng giá trị các ký hiệu từ trái sang phải; gặp cặp trừ (IV, IX, XL) thì tính cặp đó trước.'},
    hint:'Nhớ: I = 1, V = 5, X = 10, L = 50. Ví dụ XIV = 10 + 4 = 14.',
    theory:'Cách ghi số La Mã (Bài 2): I = 1, V = 5, X = 10, L = 50. Ký hiệu nhỏ đứng trước ký hiệu lớn hơn để chỉ phép trừ: IV = 4, IX = 9, XL = 40.',
    kw:[{t:r,type:'data',why:'Số La Mã cần đổi sang hệ thập phân.'},{t:'hệ thập phân',type:'method',why:'Đích cần đổi sang: cách ghi số thường dùng hằng ngày.'}],
    parts:[{label:'Số thập phân tương ứng',answer:''+n,unit:''}],
-   solution:[`Đổi từng phần của ${r} rồi cộng lại được ${n}`]};
+   solution:[`Bước 1) Tách số La Mã thành từng phần: ${rPartStr}.`,`Bước 2) Cộng lại: ${rParts.map(p=>p.v).join(' + ')} = ${n}.`]};
 }},
 divRule:{chapter:2,topic:'Dấu hiệu chia hết (Bài 9)',gen(l){
   const d=pick(l===1?[2,5]:(l===2?[3,9]:[2,3,5,9]));
@@ -269,7 +281,7 @@ divRule:{chapter:2,topic:'Dấu hiệu chia hết (Bài 9)',gen(l){
    theory:'Dấu hiệu chia hết (Bài 9): chia hết cho 2 — tận cùng 0, 2, 4, 6, 8; cho 5 — tận cùng 0, 5; cho 3 — tổng các chữ số chia hết cho 3; cho 9 — tổng các chữ số chia hết cho 9.',
    kw:[{t:'chia hết cho '+d,type:'method',why:'Điều kiện để lọc các số: dùng dấu hiệu chia hết tương ứng.'},{t:'số lớn nhất',type:'ask',why:'Điều cần tìm: trong các số thỏa mãn, chọn số lớn nhất.'},...nums.map(x=>({t:''+x,type:'data',why:'Số cần kiểm tra.'}))],
    parts:[{label:'Số lớn nhất chia hết cho '+d,answer:''+ans,unit:''}],
-   solution:[`Các số chia hết cho ${d} là: ${ok.join(', ')}`,`Số lớn nhất trong chúng là ${ans}`]};
+   solution:[`Bước 1) Kiểm tra từng số bằng dấu hiệu chia hết cho ${d} (${rule}): các số chia hết cho ${d} là ${ok.join(', ')}.`,`Bước 2) Chọn số lớn nhất trong các số đó: ${ans}.`]};
 }},
 primeFactor:{chapter:2,topic:'Số nguyên tố (Bài 10)',gen(l){
   const primes=[2,3,5,7];
@@ -282,7 +294,7 @@ primeFactor:{chapter:2,topic:'Số nguyên tố (Bài 10)',gen(l){
    theory:'Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó. Mọi số tự nhiên lớn hơn 1 đều phân tích được ra thừa số nguyên tố (Bài 10).',
    kw:[{t:''+n,type:'data',why:'Số cần phân tích.'},{t:'thừa số nguyên tố',type:'method',why:'Cách làm: chia liên tiếp cho các số nguyên tố 2, 3, 5, 7...'}],
    parts:[{label:'x',answer:''+a,unit:''}],
-   solution:[`${n} : ${Math.pow(p2,b)} = ${Math.pow(p1,a)} = ${p1}^${a}`,`Vậy x = ${a}`]};
+   solution:[`Bước 1) Chia ${n} cho ${p2}^${b} = ${Math.pow(p2,b)} trước: ${n} : ${Math.pow(p2,b)} = ${Math.pow(p1,a)}.`,`Bước 2) Phần còn lại là lũy thừa của ${p1}: ${Math.pow(p1,a)} = ${p1}^${a}, vậy x = ${a}.`]};
 }},
 intMul:{chapter:3,topic:'Phép nhân số nguyên (Bài 16)',gen(l){
   const a=(l===1?R(2,9):R(3,15))*(pick([-1,1])||1);
@@ -290,14 +302,14 @@ intMul:{chapter:3,topic:'Phép nhân số nguyên (Bài 16)',gen(l){
   const B=(l===1?R(2,9):R(3,12))*pick([-1,-1,1]);
   const c=l===3?R(2,9)*pick([-1,1]):null;
   const prod=A*B, total=c===null?prod:prod+c;
-  const expr=c===null?`(${A}) × (${B})`:`(${A}) × (${B}) + (${c})`;
+  const expr=c===null?`${sgn(A)} × ${sgn(B)}`:`${sgn(A)} × ${sgn(B)} + ${sgn(c)}`;
   return{title:'Nhân số nguyên',text:`Tính: ${expr}`,
    analysis:{given:['Quy tắc dấu: cùng dấu cho kết quả dương, khác dấu cho kết quả âm'],ask:'Giá trị của biểu thức',plan:'Nhân hai số nguyên trước (xác định dấu, rồi nhân hai giá trị tuyệt đối), sau đó mới cộng/trừ tiếp nếu có.'},
    hint:'Cùng dấu → dấu +; khác dấu → dấu −. Nhân phần số như số tự nhiên rồi đặt dấu.',
    theory:'Phép nhân số nguyên (Bài 16): tích của hai số nguyên cùng dấu là số dương; tích của hai số nguyên khác dấu là số âm. Quy tắc dấu ngoặc (Bài 15): bỏ ngoặc có dấu − đằng trước thì đổi dấu các số hạng trong ngoặc.',
-   kw:[{t:'('+A+') × ('+B+')',type:'method',why:'Phép nhân hai số nguyên: chú ý dấu của hai thừa số.'}],
+   kw:[{t:sgn(A)+' × '+sgn(B),type:'method',why:'Phép nhân hai số nguyên: chú ý dấu của hai thừa số.'}],
    parts:[{label:'Kết quả',answer:''+total,unit:''}],
-   solution:[`(${A}) × (${B}) = ${prod} (${A<0!==B<0?'khác dấu nên kết quả âm':'cùng dấu nên kết quả dương'})`,...(c===null?[]:[`${prod} + (${c}) = ${total}`])]};
+   solution:[`Bước 1) Nhân hai số nguyên trước: ${sgn(A)} × ${sgn(B)} = ${fmtN(prod)} (${A<0!==B<0?'khác dấu nên kết quả âm':'cùng dấu nên kết quả dương'}).`,...(c===null?[]:[`Bước 2) Cộng tiếp số còn lại: ${fmtN(prod)} + ${sgn(c)} = ${fmtN(total)}.`])]};
 }},
 centerWord:{chapter:5,topic:'Tâm đối xứng (Bài 22)',gen(l){
   const all=[
@@ -312,7 +324,7 @@ centerWord:{chapter:5,topic:'Tâm đối xứng (Bài 22)',gen(l){
    theory:'Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho khi quay hình nửa vòng (180°) quanh O, hình trùng khít với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.',
    kw:[{t:'bao nhiêu hình có tâm đối xứng',type:'ask',why:'Điều cần tìm: đếm số hình có tâm đối xứng.'},...chosen.map(x=>({t:x.n,type:'data',why:'Hình cần xét.'}))],
    parts:[{label:'Số hình có tâm đối xứng',answer:''+ans,unit:'hình'}],
-   solution:chosen.map(x=>`${x.n}: ${x.c?'có':'không có'} tâm đối xứng`)};
+   solution:[...chosen.map((x,i)=>`Bước ${i+1}) ${x.n}: ${x.c?'có':'không có'} tâm đối xứng.`),`Vậy: có ${ans} hình có tâm đối xứng.`]};
 }},
 
 axisTriple:{chapter:5,topic:'Trục đối xứng',gen(l){
@@ -322,12 +334,12 @@ axisTriple:{chapter:5,topic:'Trục đối xứng',gen(l){
   const shuffled=[...all].sort(()=>Math.random()-0.5).slice(0,3);
   const labels=['a) ','b) ','c) '];
   return{title:'Đếm trục đối xứng',text:'Mỗi hình sau có bao nhiêu trục đối xứng?\n'+shuffled.map((s,i)=>labels[i]+s.n).join('\n'),
-   analysis:{given:['Trục đối xứng là đường thẳng chia hình thành hai phần giống hệt nhau khi gấp lại'],ask:'Số trục đối xứng của từng hình',plan:'Tưởng tượng gấp hình theo các đường khác nhau: hình vuông gấp được theo 2 đường chéo và 2 đường giữa; hình chữ nhật chỉ gấp theo 2 đường giữa; tam giác đều gấp theo 3 đường từ đỉnh xuống cạnh đối diện; hình bình hành thường không gấp trùng theo đường nào.'},
+   analysis:{given:['Trục đối xứng là đường thẳng chia hình thành hai phần giống hệt nhau khi gấp lại'],ask:'Số trục đối xứng của từng hình',plan:'Gấp thử từng hình trong đầu: '+shuffled.map(s=>s.n+' có '+s.a+' trục').join('; ')+'.'},
    hint:'Xem lại các thẻ ở mục Thẻ lý thuyết tương tác: hình nào càng đều thì càng nhiều trục đối xứng.',
    theory:'Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.',
    kw:[{t:'bao nhiêu trục đối xứng',type:'ask',why:'Điều cần tìm: số trục đối xứng của từng hình.'},...shuffled.map(s=>({t:s.n,type:'data',why:'Hình cần xét.'}))],
    parts:shuffled.map((s,i)=>({label:labels[i]+s.n,answer:''+s.a,unit:'trục'})),
-   solution:shuffled.map(s=>`${s.n}: ${s.a} trục đối xứng`)};
+   solution:shuffled.map((s,i)=>`Bước ${i+1}) ${s.n}: ${s.a} trục đối xứng.`)};
 }},
 axisWord:{chapter:5,topic:'Trục đối xứng',gen(l){
   const pool=[
@@ -345,12 +357,12 @@ axisWord:{chapter:5,topic:'Trục đối xứng',gen(l){
    theory:'Trục đối xứng là đường thẳng mà khi gấp hình theo đường đó, hai nửa của hình trùng khít lên nhau.',
    kw:[{t:'bao nhiêu trục đối xứng',type:'ask',why:'Điều cần tìm: số trục đối xứng của hình.'},{t:s.n,type:'data',why:'Hình cần xét.'}],
    parts:[{label:'Số trục đối xứng',answer:''+s.a,unit:'trục'}],
-   solution:[s.e]};
+   solution:[`Bước 1) Gấp thử hình trong đầu và kiểm tra hai nửa có trùng khít không: ${s.e}`,`Vậy: ${s.n} có ${s.a} trục đối xứng.`]};
 }},
 setBasics:{chapter:1,topic:'Tập hợp (Bài 1)',gen(l){
   const mode=R(0,2);
   let elems=[],desc='';
-  if(mode===0){const n=R(6,9);for(let x=1;x<n;x++)elems.push(x);desc=`các số tự nhiên nhỏ hơn ${n}`;}
+  if(mode===0){const n=R(6,9);for(let x=0;x<n;x++)elems.push(x);desc=`các số tự nhiên nhỏ hơn ${n}`;}
   else if(mode===1){const n=R(9,15);for(let x=0;x<n;x+=2)elems.push(x);desc=`các số tự nhiên chẵn nhỏ hơn ${n}`;}
   else{const n=R(10,16);for(let x=1;x<n;x+=2)elems.push(x);desc=`các số tự nhiên lẻ nhỏ hơn ${n}`;}
   const cand=[],pool=new Set();
@@ -403,13 +415,13 @@ intSet:{chapter:3,topic:'Tập hợp các số nguyên (Bài 13)',gen(l){
   const list=[],used=new Set();
   while(list.length<5){const val=R(-9,9);if(!used.has(val)){used.add(val);list.push(val);}}
   const negs=list.filter(n=>n<0);
-  return{title:'Số nguyên và số đối',text:`Dựa vào trục số (số ở bên phải lớn hơn số ở bên trái), trả lời:\na) Số đối của ${neg} là số nào?\nb) Có bao nhiêu số nguyên nằm giữa ${u} và ${v}?\nc) Trong các số ${list.join('; ')}, có bao nhiêu số nguyên âm?`,
-   analysis:{given:['Trục số: điểm 0 ở giữa, bên phải số 0 là các số nguyên dương, bên trái số 0 là các số nguyên âm',`Các số cần xét ở ý c): ${list.join('; ')}`],ask:'Số đối của một số nguyên âm; số số nguyên nằm giữa hai số; số số nguyên âm trong các số đã cho',plan:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0. Liệt kê các số nguyên nằm giữa hai số rồi đếm. Số nguyên âm là số nhỏ hơn 0.'},
-   hint:`Số đối của ${neg} nằm bên phải điểm 0, cách 0 đúng ${x} đơn vị.`,
+  return{title:'Số nguyên và số đối',text:`Dựa vào trục số (số ở bên phải lớn hơn số ở bên trái), trả lời:\na) Số đối của ${fmtN(neg)} là số nào?\nb) Có bao nhiêu số nguyên nằm giữa ${fmtN(u)} và ${fmtN(v)}?\nc) Trong các số ${fmtN(list.join('; '))}, có bao nhiêu số nguyên âm?`,
+   analysis:{given:['Trục số: điểm 0 ở giữa, bên phải số 0 là các số nguyên dương, bên trái số 0 là các số nguyên âm',`Các số cần xét ở ý c): ${fmtN(list.join('; '))}`],ask:'Số đối của một số nguyên âm; số số nguyên nằm giữa hai số; số số nguyên âm trong các số đã cho',plan:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0. Liệt kê các số nguyên nằm giữa hai số rồi đếm. Số nguyên âm là số nhỏ hơn 0.'},
+   hint:`Số đối của ${fmtN(neg)} nằm bên phải điểm 0, cách 0 đúng ${x} đơn vị.`,
    theory:'Tập hợp các số nguyên (Bài 13): gồm các số nguyên âm, số 0 và các số nguyên dương. Hai số đối nhau nằm ở hai phía của điểm 0 và cách đều 0. Số đối của 0 là 0.',
    kw:[{t:'Số đối',type:'op',why:'Số đối nằm ở phía bên kia của điểm 0 và cách đều 0.'},{t:'nằm giữa',type:'ask',why:'Các số lớn hơn số nhỏ và nhỏ hơn số lớn, không kể hai số ở hai đầu.'},{t:'số nguyên âm',type:'ask',why:'Các số nhỏ hơn 0, có dấu trừ ở phía trước.'}],
-   parts:[{label:`a) Số đối của ${neg}`,answer:''+x,unit:''},{label:`b) Số số nguyên nằm giữa ${u} và ${v}`,answer:''+(v-u-1),unit:'số'},{label:'c) Số số nguyên âm trong các số đã cho',answer:''+negs.length,unit:'số'}],
-   solution:[`Bước 1) Ý a) Số đối của ${neg} nằm ở phía đối diện qua điểm 0 và cách 0 đúng ${x} đơn vị: đó là số ${x}.`,`Bước 2) Ý b) Các số nguyên nằm giữa ${u} và ${v} là ${seq(u+1,v-1)}. Đếm được ${v-u-1} số.`,`Bước 3) Ý c) Các số nguyên âm trong các số đã cho: ${negs.length?negs.join('; '):'không có số nào'}. Vậy có ${negs.length} số nguyên âm.`]};
+   parts:[{label:`a) Số đối của ${fmtN(neg)}`,answer:''+x,unit:''},{label:`b) Số số nguyên nằm giữa ${fmtN(u)} và ${fmtN(v)}`,answer:''+(v-u-1),unit:'số'},{label:'c) Số số nguyên âm trong các số đã cho',answer:''+negs.length,unit:'số'}],
+   solution:[`Bước 1) Ý a) Số đối của ${fmtN(neg)} nằm ở phía đối diện qua điểm 0 và cách 0 đúng ${x} đơn vị: đó là số ${x}.`,`Bước 2) Ý b) Các số nguyên nằm giữa ${fmtN(u)} và ${fmtN(v)} là ${fmtN(seq(u+1,v-1))}. Đếm được ${v-u-1} số.`,`Bước 3) Ý c) Các số nguyên âm trong các số đã cho: ${negs.length?fmtN(negs.join('; ')):'không có số nào'}. Vậy có ${negs.length} số nguyên âm.`]};
 }},
 intDiv:{chapter:3,topic:'Phép chia hết của một số nguyên (Bài 17)',gen(l){
   function mkq(){const dd=R(2,9)*(Math.random()<0.5?-1:1);const qq=R(2,9)*(Math.random()<0.5?-1:1);return{a:dd*qq,d:dd,q:qq};}
@@ -422,7 +434,7 @@ intDiv:{chapter:3,topic:'Phép chia hết của một số nguyên (Bài 17)',ge
    theory:'Phép chia hết của một số nguyên (Bài 17): thương của hai số nguyên cùng dấu là số dương, khác dấu là số âm. Ước của một số nguyên gồm cả ước âm và ước dương.',
    kw:[{t:'ước là số nguyên',type:'ask',why:'Điều cần tìm (ý c): đếm cả ước âm và ước dương.'}],
    parts:[{label:`a) ${sgn(p1.a)} : ${sgn(p1.d)}`,answer:''+p1.q,unit:''},{label:`b) ${sgn(p2.a)} : ${sgn(p2.d)}`,answer:''+p2.q,unit:''},{label:`c) Số ước là số nguyên của ${N}`,answer:''+cnt,unit:'ước'}],
-   solution:[`Bước 1) Ý a) Chia phần số: ${Math.abs(p1.a)} : ${Math.abs(p1.d)} = ${Math.abs(p1.q)}. Hai số ${p1.a} và ${p1.d} ${(p1.a<0)!==(p1.d<0)?'khác dấu':'cùng dấu'} nên (${p1.a}) : ${p1.d} = ${p1.q}.`,`Bước 2) Ý b) Chia phần số: ${Math.abs(p2.a)} : ${Math.abs(p2.d)} = ${Math.abs(p2.q)}. Hai số ${p2.a} và ${p2.d} ${(p2.a<0)!==(p2.d<0)?'khác dấu':'cùng dấu'} nên (${p2.a}) : ${p2.d} = ${p2.q}.`,`Bước 3) Ý c) Các ước dương của ${N} là ${posDiv(N)}. Thêm các ước âm tương ứng, số ước là số nguyên gấp đôi số ước dương: tất cả ${cnt} ước.`]};
+   solution:[`Bước 1) Ý a) Chia phần số: ${Math.abs(p1.a)} : ${Math.abs(p1.d)} = ${Math.abs(p1.q)}. Hai số ${fmtN(p1.a)} và ${fmtN(p1.d)} ${(p1.a<0)!==(p1.d<0)?'khác dấu':'cùng dấu'} nên (${fmtN(p1.a)}) : ${fmtN(p1.d)} = ${fmtN(p1.q)}.`,`Bước 2) Ý b) Chia phần số: ${Math.abs(p2.a)} : ${Math.abs(p2.d)} = ${Math.abs(p2.q)}. Hai số ${fmtN(p2.a)} và ${fmtN(p2.d)} ${(p2.a<0)!==(p2.d<0)?'khác dấu':'cùng dấu'} nên (${fmtN(p2.a)}) : ${fmtN(p2.d)} = ${fmtN(p2.q)}.`,`Bước 3) Ý c) Các ước dương của ${N} là ${posDiv(N)}. Thêm các ước âm tương ứng, số ước là số nguyên gấp đôi số ước dương: tất cả ${cnt} ước.`]};
 }}
 };
 window.GEN={templates:T,

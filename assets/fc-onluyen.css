@@ -11,14 +11,15 @@
 .fc-card{position:relative;height:auto;perspective:1200px;cursor:pointer;margin:6px auto;max-width:560px}
 .fc-inner{position:relative;transition:transform .45s;transform-style:preserve-3d;min-height:320px}
 .fc-card.flipped .fc-inner{transform:rotateY(180deg)}
-.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;overflow:auto}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b0bec5;border-radius:14px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:19px;line-height:1.6;overflow:auto}
 .fc-back{transform:rotateY(180deg);background:#e8f5e9}
+.fc-front{background:#e8f0fe;border-color:#1a73e8;color:#174ea6}
 .fc-face img{max-width:100%;max-height:190px;border-radius:8px;margin-bottom:8px}
 .fc-face svg{max-width:100%;height:auto}
 .fc-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
 .fc-btns button{min-height:44px;padding:10px 16px;font-size:17px;border-radius:10px;border:1.5px solid #90a4ae;background:#fff;color:#37474f;cursor:pointer;font-family:inherit}
 .fc-btns .fc-ok{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:bold;min-width:150px}
-.fc-btns .fc-no{background:#fff;color:#e65100;border-color:#ef6c00;font-weight:bold;min-width:150px}
+.fc-btns .fc-no{background:#fff;color:#b34700;border-color:#bf5700;font-weight:bold;min-width:150px}
 .fc-prog{text-align:center;color:#00695c;font-size:15px;margin-top:2px}
 .fc-stat{text-align:center;color:#455a64;font-size:14px}
 .fc-bar{height:10px;background:#eceff1;border-radius:6px;overflow:hidden;max-width:560px;margin:6px auto}
@@ -43,11 +44,11 @@
 .minicard{max-width:430px;height:245px;margin:8px auto;perspective:900px;cursor:pointer}
 .mini-inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
 .minicard.flipped .mini-inner{transform:rotateY(180deg)}
-.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.5;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
+.mini-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;font-size:18px;line-height:1.6;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.13);overflow:hidden}
 .mini-front{background:#fff8e1;border:2px solid #f9a825;color:#4e342e}
 .mini-back{background:#e8f5e9;border:2px solid #43a047;color:#14532d;transform:rotateY(180deg)}
 .mini-face img{max-width:100%;max-height:105px;border-radius:8px;margin-bottom:8px;object-fit:cover}
-.mini-tag{font-size:14px;font-weight:bold;color:#e65100;margin-bottom:4px}
+.mini-tag{font-size:14px;font-weight:bold;color:#b34700;margin-bottom:4px}
 
 /* --- phu: Lich su (the co hinh dong nhe / dai tien hoa) --- */
 .fc-face img.anim-kb{animation:kb 7s ease-in-out infinite alternate}
@@ -72,13 +73,36 @@
 .fcem{font-size:64px;line-height:1.15;margin-bottom:6px}
 .fcword{font-size:24px;font-weight:bold}
 .fcipa{font-size:15px;color:#666}
-.spk{border:none;background:var(--c,#1a73e8);color:#fff;border-radius:20px;padding:5px 13px;cursor:pointer;font-size:13.5px;margin-top:6px}
+.spk{border:none;background:var(--c,#1a73e8);color:#fff;border-radius:10px;padding:10px 16px;cursor:pointer;font-size:17px;margin-top:6px;min-height:44px}
 
 /* --- Giao dien khu vuc On luyen --- */
 .onl-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:6px 0 20px}
-.onl-btns button{padding:14px 22px;font-size:17px;border:none;border-radius:8px;cursor:pointer;color:#fff;font-family:inherit;min-height:44px}
+.onl-btns button{padding:14px 22px;font-size:17px;border:none;border-radius:10px;cursor:pointer;color:#fff;font-family:inherit;min-height:44px}
 #btnOnFC{background:#7b1fa2}
-#btnOnNN{background:#ef6c00}
-#btnOnBack{background:#666;color:#fff;padding:8px 16px;min-height:44px;font-size:16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px;font-family:inherit}
+#btnOnNN{background:#bf5700}
+#btnOnBack{background:#666;color:#fff;padding:10px 16px;min-height:44px;font-size:16px;border:none;border-radius:10px;cursor:pointer;margin-bottom:12px;font-family:inherit}
 .onl-title{text-align:center;font-size:24px;font-weight:700;margin:6px 0 4px;color:#37474f}
 .onl-sub{text-align:center;color:#555;font-size:16px;margin-bottom:10px}
+
+/* ============================================================
+   UI REVIEW 2026-10-22 — bo sung an toan cho trang bai tap
+   (file nay duoc nap RIENG o quiz.html, khong co common.css di kem):
+   - prefers-reduced-motion: truoc day file khong co, trong khi
+     common.css da co — cac anim nhap nhay (flick/kb/run/pop/
+     twinkle) chay vo dieu kien o trang bai tap.
+   - overflow-x:clip: chan tran ngang 375px, khong pha sticky.
+   - :focus-visible: hien trang thai ban phim ro rang nhu common.css.
+   ============================================================ */
+body{overflow-x:clip}
+img{max-width:100%;height:auto}
+:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
+@media (max-width:480px){
+.fc-btns .fc-ok,.fc-btns .fc-no{min-width:0;flex:1 1 140px}
+}
+@media (prefers-reduced-motion: reduce){
+*{animation:none!important;transition:none!important}
+}
+
+/* UX REVIEW 2026-10-22 (UI-R5): hop trang thai hoan thanh bo the (JS dung class nay, truoc day chua co dinh nghia) */
+.fc-donebox{max-width:560px;margin:6px auto}
+.fc-donebox:empty{display:none}

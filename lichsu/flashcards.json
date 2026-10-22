@@ -1,0 +1,478 @@
+[
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Lịch sử là gì?",
+  "a": "Là tất cả những gì đã diễn ra trong quá khứ của con người và xã hội loài người.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-bao-tang.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Kể tên 3 loại tư liệu lịch sử.",
+  "a": "Tư liệu hiện vật – tư liệu chữ viết – tư liệu truyền miệng.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-khao-co.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Trống đồng, rìu đá thuộc loại tư liệu nào?",
+  "a": "Tư liệu hiện vật — đồ vật còn lại đến ngày nay.",
+  "fi": "../hinh-anh/lichsu/bai1-trong-dong-dong-son.jpg"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Học lịch sử giúp em điều gì?",
+  "a": "Biết cội nguồn của mình, rút bài học từ quá khứ và thêm yêu quê hương, đất nước.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-bao-tang.webp"
+ },
+ {
+  "b": 1,
+  "t": "fc",
+  "f": "Tư liệu truyền miệng là gì? Cho một ví dụ.",
+  "a": "Chuyện được kể lại bằng miệng qua nhiều đời, ví dụ: truyền thuyết Sơn Tinh – Thủy Tinh.",
+  "fi": "../hinh-anh/lichsu/bai4-lua-trai.jpg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Trống đồng Đông Sơn thuộc loại tư liệu lịch sử nào?",
+  "a": "Tư liệu HIỆN VẬT — đồ vật do người xưa làm ra, còn để lại đến ngày nay.",
+  "fi": "../hinh-anh/lichsu/bai1-trong-dong-dong-son.jpg"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Bia đá khắc chữ thuộc loại tư liệu lịch sử nào?",
+  "a": "Tư liệu CHỮ VIẾT — người xưa ghi chép lại bằng chữ khắc trên bia đá.",
+  "fi": "../hinh-anh/lichsu/bai1-bia-tien-si.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "1 thập kỉ, 1 thế kỉ, 1 thiên niên kỉ bằng bao nhiêu năm?",
+  "a": "Thập kỉ = 10 năm • Thế kỉ = 100 năm • Thiên niên kỉ = 1000 năm.",
+  "fi": "../hinh-anh/lichsu/bai2-dong-ho-cat.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Năm 2026 thuộc thế kỉ nào?",
+  "a": "Thế kỉ XXI (21) — vì thế kỉ XXI kéo dài từ năm 2001 đến 2100.",
+  "fi": "../hinh-anh/lichsu/bai2-dong-ho-mat-troi.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Năm 500 TCN và năm 200 TCN, năm nào đến trước (xưa hơn)?",
+  "a": "Năm 500 TCN — số TCN càng lớn thì càng xưa.",
+  "fi": "../hinh-anh/lichsu/bai2-dong-ho-cat.jpg"
+ },
+ {
+  "b": 2,
+  "t": "fc",
+  "f": "Âm lịch và dương lịch được tính dựa vào đâu?",
+  "a": "Âm lịch theo chuyển động của Mặt Trăng; dương lịch theo Trái Đất quay quanh Mặt Trời.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-quan-sat-troi.webp"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Người xưa dùng đồng hồ cát để làm gì?",
+  "a": "Để ĐO THỜI GIAN — cát chảy hết từ ngăn trên xuống ngăn dưới là hết một khoảng thời gian.",
+  "fi": "../hinh-anh/lichsu/bai2-dong-ho-cat.jpg"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Nhìn bóng nắng trên đồng hồ mặt trời, người xưa biết được điều gì?",
+  "a": "Biết GIỜ trong ngày — bóng của kim đổ dài, ngắn khác nhau theo vị trí của Mặt Trời.",
+  "fi": "../hinh-anh/lichsu/bai2-dong-ho-mat-troi.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Xếp đúng thứ tự 4 chặng tiến hóa của loài người.",
+  "a": "Người tối cổ → Người khéo léo → Người đứng thẳng → Người tinh khôn.",
+  "fi": "../hinh-anh/lichsu/bai3-hop-so-so-sanh.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Người tối cổ xuất hiện ở đâu, cách đây khoảng bao lâu?",
+  "a": "Ở Đông Phi, cách đây khoảng 4 triệu năm.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-toi-co.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Người khéo léo (Homo habilis) nổi bật ở điểm nào?",
+  "a": "Biết chế tạo công cụ bằng đá — công cụ đầu tiên của loài người.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-kheo-leo.webp"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Người đứng thẳng (Homo erectus) gắn với điều kì diệu nào?",
+  "a": "Biết dùng lửa: nấu chín thức ăn, sưởi ấm, xua đuổi thú dữ.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-dung-thang.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Người tinh khôn (Homo sapiens) có gì khác biệt nhất?",
+  "a": "Bộ não lớn, cơ thể gần như người ngày nay; biết mài đá, vẽ tranh trong hang.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-tinh-khon.jpg"
+ },
+ {
+  "b": 3,
+  "t": "fc",
+  "f": "Dấu tích người tối cổ ở Việt Nam được tìm thấy ở đâu?",
+  "a": "Ở hang Thẩm Khuyên và Thẩm Hai (Lạng Sơn) — những chiếc răng hóa thạch.",
+  "fi": "../hinh-anh/lichsu/sua-hoa-thach-hang.webp"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Người tối cổ xuất hiện ở đâu, khoảng bao lâu trước?",
+  "a": "Ở ĐÔNG PHI, khoảng 4 TRIỆU NĂM trước.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-toi-co.jpg"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Người đứng thẳng có bước tiến quan trọng nào?",
+  "a": "Biết DÙNG LỬA — để sưởi ấm, nấu chín thức ăn và xua đuổi thú dữ.",
+  "fi": "../hinh-anh/lichsu/bai3-nguoi-dung-thang.jpg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Bầy người nguyên thủy là gì?",
+  "a": "Nhóm vài chục người sống chung với nhau, cùng săn bắt – hái lượm để kiếm ăn.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-san-bat.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Ở công xã thị tộc, mọi người LÀM … và HƯỞNG …?",
+  "a": "Làm chung – hưởng chung: cùng lao động, chia đều sản phẩm, không ai giàu hơn ai.",
+  "fi": "../hinh-anh/lichsu/sua-lam-chung-huong-chung.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Vì sao xã hội nguyên thủy theo chế độ mẫu hệ?",
+  "a": "Vì phụ nữ hái lượm ổn định, lại nuôi dạy con trẻ nên là trung tâm của thị tộc.",
+  "fi": "../hinh-anh/lichsu/sua-phu-nu-hai-luom.webp"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "'Cách mạng đá mới' nghĩa là gì?",
+  "a": "Con người biết trồng trọt, chăn nuôi và mài đá làm công cụ — không còn chỉ phụ thuộc vào săn bắt, hái lượm.",
+  "fi": "../hinh-anh/lichsu/bai4-riu-da-mai.jpg"
+ },
+ {
+  "b": 4,
+  "t": "fc",
+  "f": "Người nguyên thủy thường sống ở đâu và kiếm sống bằng cách nào?",
+  "a": "Sống trong hang động, mái đá gần sông suối; kiếm sống bằng săn bắt và hái lượm.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-hang-da.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Trước cách mạng đá mới, người nguyên thủy kiếm ăn bằng cách nào?",
+  "a": "SĂN BẮT thú rừng và HÁI LƯỢM cây quả — hoàn toàn dựa vào thiên nhiên.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-san-bat.webp"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Rìu đá được MÀI nhẵn bóng là dấu hiệu của thời kì nào?",
+  "a": "Thời ĐÁ MỚI — con người biết mài đá, trồng trọt và chăn nuôi (cách mạng đá mới).",
+  "fi": "../hinh-anh/lichsu/bai4-riu-da-mai.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Kim loại đầu tiên con người biết sử dụng là gì?",
+  "a": "Là đồng — mở đầu thời đại đồ đồng.",
+  "fi": "../hinh-anh/lichsu/bai5-dao-gam-dong.jpg"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Vì sao xã hội nguyên thủy dần phân hóa giàu – nghèo?",
+  "a": "Nhờ công cụ kim loại, sản xuất có của dư thừa; của dư rơi vào tay một số người → sinh tư hữu, giàu – nghèo.",
+  "fi": "../hinh-anh/lichsu/sua-xa-hoi-giai-cap.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Chế độ phụ hệ thay thế mẫu hệ khi nào?",
+  "a": "Khi nam giới trở thành lực lượng chính trong sản xuất (cày bừa, chăn nuôi, rèn đúc) và giữ vai trò chủ chốt trong gia đình.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-lang-ban.webp"
+ },
+ {
+  "b": 5,
+  "t": "fc",
+  "f": "Cuối thời nguyên thủy, xã hội chuyển biến thành xã hội gì?",
+  "a": "Xã hội có giai cấp — nhà nước sắp ra đời.",
+  "fi": "../hinh-anh/lichsu/sua-xa-hoi-giai-cap.webp"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Kim loại đầu tiên con người biết chế tạo và sử dụng là gì?",
+  "a": "ĐỒNG — mở đầu thời đại kim loại, công cụ sắc bén và bền hơn hẳn đồ đá.",
+  "fi": "../hinh-anh/lichsu/bai5-dao-gam-dong.jpg"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Vì sao xã hội nguyên thủy bắt đầu chia thành người giàu – người nghèo?",
+  "a": "Vì sản xuất tạo ra của DƯ THỪA: có người chiếm được nhiều của cải hơn → xuất hiện giàu – nghèo và giai cấp.",
+  "fi": "../hinh-anh/lichsu/bai4-ruong-bac-thang.jpg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Văn minh Ai Cập cổ đại hình thành bên dòng sông nào?",
+  "a": "Sông Nin — con sông dài, hiền hòa, bồi đắp phù sa màu mỡ.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-song-nin.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Kim tự tháp được xây để làm gì? Kim tự tháp lớn nhất tên là gì?",
+  "a": "Là lăng mộ cho các Pha-ra-ông; lớn nhất là kim tự tháp Kê-ốp.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-xay-kim-tu-thap.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Người Ai Cập và người Lưỡng Hà viết chữ gì?",
+  "a": "Ai Cập: chữ tượng hình; Lưỡng Hà: chữ hình nêm (khắc trên đất sét).",
+  "fi": "../hinh-anh/lichsu/sua-chu-viet-hai-nen.webp"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Lưỡng Hà nằm giữa hai con sông nào? Nay thuộc nước nào?",
+  "a": "Giữa sông Ti-grơ và sông Ơ-phrát; nay là I-rắc.",
+  "fi": "../hinh-anh/lichsu/ban-do-ai-cap-luong-ha.svg"
+ },
+ {
+  "b": 6,
+  "t": "fc",
+  "f": "Vua Ha-mu-ra-bi nổi tiếng vì điều gì?",
+  "a": "Ban hành bộ luật thành văn nổi tiếng, vào thế kỉ XVIII TCN.",
+  "fi": "../hinh-anh/lichsu/bai6-bia-luat-hammurabi.jpg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Kim tự tháp là công trình của nền văn minh nào, bên bờ sông nào?",
+  "a": "AI CẬP cổ đại — bên bờ sông NIN.",
+  "fi": "../hinh-anh/lichsu/bai6-kim-tu-thap-giza.jpg"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Bộ luật thành văn nổi tiếng của Lưỡng Hà mang tên vị vua nào?",
+  "a": "Luật HA-MU-RA-BI (thế kỉ XVIII TCN) — khắc trên bia đá bazan đen.",
+  "fi": "../hinh-anh/lichsu/bai6-bia-luat-hammurabi.jpg"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Văn minh Ấn Độ cổ đại hình thành bên hai sông nào?",
+  "a": "Sông Ấn và sông Hằng.",
+  "fi": "../hinh-anh/lichsu/bai7-ben-song-hang.jpg"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Trong xã hội Ấn Độ cổ, đẳng cấp cao nhất và thấp nhất là gì?",
+  "a": "Cao nhất: Bà La Môn; thấp nhất: Su-đra (người lao động, phục dịch).",
+  "fi": "../hinh-anh/lichsu/sua-dang-cap-an-do.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Phật giáo do ai sáng lập, vào khoảng thế kỉ nào?",
+  "a": "Do Thích Ca Mâu Ni sáng lập, vào thế kỉ VI TCN.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-phat-giang-dao.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Thành tựu toán học nổi tiếng nhất của Ấn Độ cổ đại là gì?",
+  "a": "Sáng tạo ra các chữ số (mà ta dùng ngày nay) và số 0, cùng hệ đếm thập phân.",
+  "fi": "../hinh-anh/lichsu/sua-toan-hoc-an-do.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "Hai thành phố cổ nổi tiếng của văn minh sông Ấn tên là gì?",
+  "a": "Mô-hen-giô Đa-rô và Ha-ráp-pa.",
+  "fi": "../hinh-anh/lichsu/bai7-mohenjo-daro.jpg"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Di tích Mô-hen-giô Đa-rô thuộc nền văn minh sông nào?",
+  "a": "Văn minh sông ẤN — Ấn Độ cổ đại, hình thành khoảng 2500 TCN.",
+  "fi": "../hinh-anh/lichsu/bai7-mohenjo-daro.jpg"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Phật giáo ra đời ở đâu, vào khoảng thế kỉ nào?",
+  "a": "Ở ẤN ĐỘ, vào thế kỉ VI TCN.",
+  "fi": "../hinh-anh/lichsu/bai7-tuong-phat-gandhara.jpg"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Văn minh Trung Quốc cổ đại hình thành ở lưu vực sông nào?",
+  "a": "Sông Hoàng Hà (sau mở rộng xuống lưu vực Trường Giang).",
+  "fi": "../hinh-anh/lichsu/sua-song-hoang-ha.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Năm 221 TCN, Trung Quốc có sự kiện lớn nào?",
+  "a": "Tần Thủy Hoàng thống nhất Trung Quốc, lập nhà Tần.",
+  "fi": "../hinh-anh/lichsu/bai8-doi-quan-dat-nung.jpg"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Vạn Lí Trường Thành được xây dựng để làm gì?",
+  "a": "Để phòng thủ, ngăn quân du mục từ phương Bắc xâm nhập.",
+  "fi": "../hinh-anh/lichsu/bai8-van-ly-truong-thanh.jpg"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Chữ viết cổ nhất của Trung Quốc được khắc trên gì?",
+  "a": "Trên giáp cốt — xương thú và mai rùa (gọi là chữ giáp cốt).",
+  "fi": "../hinh-anh/lichsu/bai8-giap-cot.jpg"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "Con đường tơ lụa nối Trung Quốc với những đâu?",
+  "a": "Nối Trung Quốc với Trung Á và phương Tây — đường buôn bán tơ lụa, gia vị, gốm sứ.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-con-duong-to-lua.webp"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Chữ viết của Trung Quốc bắt đầu từ dạng chữ nào?",
+  "a": "Chữ GIÁP CỐT — khắc trên mai rùa và xương thú để bói toán.",
+  "fi": "../hinh-anh/lichsu/bai8-giap-cot.jpg"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Đội quân đất nung thuộc lăng mộ của vị vua nào?",
+  "a": "TẦN THỦY HOÀNG — người thống nhất Trung Quốc năm 221 TCN.",
+  "fi": "../hinh-anh/lichsu/bai8-doi-quan-dat-nung.jpg"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Thế vận hội Olympic bắt nguồn từ đâu, bắt đầu từ năm nào?",
+  "a": "Từ Hy Lạp cổ đại, bắt đầu năm 776 TCN.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-olympic.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Thành bang A-ten (Hy Lạp) nổi tiếng vì điều gì?",
+  "a": "Vì chế độ dân chủ cổ đại — người dân được bàn bạc việc chung.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-cho-hy-lap.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Hai bộ sử thi nổi tiếng của Hy Lạp cổ đại là gì?",
+  "a": "I-li-át và Ô-đi-xê (của Hô-me).",
+  "fi": "../hinh-anh/lichsu/sua-su-thi-hy-lap.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Đấu trường Cô-li-dê là công trình của nền văn minh nào?",
+  "a": "Của La Mã cổ đại — nơi tổ chức các cuộc đấu võ, biểu diễn.",
+  "fi": "../hinh-anh/lichsu/bai9-dau-truong-colosseum.jpg"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "Vị thần đứng đầu trong thần thoại Hy Lạp sống ở đâu?",
+  "a": "Thần Dớt (Zeus) — sống trên đỉnh Ô-lim-pơ.",
+  "fi": "../hinh-anh/lichsu/sua-dinh-olympus.webp"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Thế vận hội Olympic bắt đầu từ năm nào, ở đâu?",
+  "a": "Năm 776 TCN, ở HY LẠP cổ đại.",
+  "fi": "../hinh-anh/lichsu/bai9-tuong-nem-dia.jpg"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Đấu trường Cô-lô-dê là công trình của nền văn minh nào?",
+  "a": "LA MÃ cổ đại — đấu trường lớn nổi tiếng của đế chế La Mã.",
+  "fi": "../hinh-anh/lichsu/bai9-dau-truong-colosseum.jpg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Vương quốc Phù Nam nằm ở khu vực nào?",
+  "a": "Ở hạ lưu sông Mê Công — vùng phía nam Việt Nam và Campuchia ngày nay.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Óc Eo là gì?",
+  "a": "Là thương cảng (bến cảng buôn bán) sầm uất của vương quốc Phù Nam.",
+  "fi": "../hinh-anh/lichsu/bai10-hat-chuoi-oc-eo.jpg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Thánh địa Mỹ Sơn là di tích của vương quốc cổ nào?",
+  "a": "Của vương quốc Chăm-pa ở miền Trung Việt Nam.",
+  "fi": "../hinh-anh/lichsu/bai10-thanh-dia-my-son.jpg"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "Nền văn minh đặc trưng của cư dân Đông Nam Á cổ là gì?",
+  "a": "Văn minh lúa nước — trồng lúa ở vùng khí hậu gió mùa nóng ẩm, mưa nhiều.",
+  "fi": "../hinh-anh/lichsu/sua-van-minh-lua-nuoc.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Hạt chuỗi trong hình gắn với cảng thị nổi tiếng nào của vương quốc Phù Nam?",
+  "a": "Cảng ÓC EO — cảng thị giao thương sầm uất ở hạ lưu sông Mê Công.",
+  "fi": "../hinh-anh/lichsu/bai10-hat-chuoi-oc-eo.jpg"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Đặc trưng lớn nhất của văn minh Đông Nam Á là gì?",
+  "a": "VĂN MINH LÚA NƯỚC — trồng lúa nước là nghề chính, làng xóm mọc lên ven sông.",
+  "fi": "../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp"
+ }
+]
