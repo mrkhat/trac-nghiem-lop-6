@@ -1078,5 +1078,635 @@
   "ch": 5,
   "type": "b",
   "src": "Thẻ Đúng/Sai — Bài 22: Hình có tâm đối xứng"
- }
+ },
+{
+ "answer": 3,
+ "ch": 6,
+ "explain": "Nhân (hoặc chia) cả tử số và mẫu số cho cùng một số khác 0 thì được phân số bằng phân số đã cho.",
+ "id": 73,
+ "options": [
+  "Chỉ nhân tử số với 2",
+  "Chỉ nhân riêng mẫu số với 2, giữ nguyên tử số",
+  "Cộng 2 vào cả tử và mẫu",
+  "Nhân cả tử và mẫu với cùng một số khác 0"
+ ],
+ "q": "Muốn được phân số bằng 3/4, ta làm thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 23: Mở rộng phân số. Phân số bằng nhau",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 6,
+ "explain": "6/8 chia cả tử và mẫu cho 2 được 3/4. 6/9 chưa tối giản vì còn chia được cho 3.",
+ "id": 74,
+ "options": [
+  "Rút gọn là nhân cả tử và mẫu với 2",
+  "12/18 rút gọn được 6/9 là tối giản",
+  "6/8 = 3/4",
+  "6/8 = 6/4"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 23: Mở rộng phân số. Phân số bằng nhau",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 6,
+ "explain": "Hai phân số khác mẫu số thì quy đồng mẫu số trước, phân số nào có tử số lớn hơn thì lớn hơn.",
+ "id": 75,
+ "options": [
+  "Đổi cả hai thành hỗn số",
+  "Quy đồng mẫu số rồi so sánh tử số",
+  "So sánh tử số ngay, không cần quy đồng",
+  "So sánh mẫu số ngay"
+ ],
+ "q": "Muốn so sánh 2/3 và 5/6, ta làm thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 24: So sánh phân số. Hỗn số dương",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 6,
+ "explain": "2 1/3 = (2 × 3 + 1)/3 = 7/3.",
+ "id": 76,
+ "options": [
+  "2 1/3 = 7/3",
+  "2 1/3 = 6/3",
+  "2 1/3 = 2/3",
+  "Hỗn số không đổi được thành phân số"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 24: So sánh phân số. Hỗn số dương",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 6,
+ "explain": "Cộng hai phân số khác mẫu số thì quy đồng mẫu số trước: 1/2 = 3/6, 1/3 = 2/6, rồi cộng tử số.",
+ "id": 77,
+ "options": [
+  "Cộng tử với tử, mẫu với mẫu",
+  "Cộng 1 + 1 = 2",
+  "Nhân 2 với 3",
+  "Quy đồng mẫu số thành 6"
+ ],
+ "q": "Muốn tính 1/2 + 1/3, bước đầu tiên là gì?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 25: Phép cộng và phép trừ phân số",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 6,
+ "explain": "Trừ hai phân số khác mẫu số thì phải quy đồng mẫu số trước, không được trừ tử với tử và mẫu với mẫu.",
+ "id": 78,
+ "options": [
+  "Muốn trừ hai phân số khác mẫu thì trừ tử với tử, mẫu với mẫu",
+  "5/6 − 1/6 = 4/6 = 2/3",
+  "3/4 − 1/4 = 2/4 = 1/2",
+  "2/5 + 1/5 = 3/5 vì cùng mẫu số thì cộng tử số"
+ ],
+ "q": "Khẳng định nào SAI?",
+ "src": "Thẻ Đúng/Sai — Bài 25: Phép cộng và phép trừ phân số",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 6,
+ "explain": "Nhân hai phân số: tử nhân tử, mẫu nhân mẫu: 3/4 × 2/5 = 6/20 = 3/10.",
+ "id": 79,
+ "options": [
+  "Nhân chéo rồi cộng lại",
+  "Nhân tử với tử, mẫu với mẫu: (3 × 2)/(4 × 5)",
+  "Nhân tử số của phân số này với mẫu số của phân số kia",
+  "Cộng tử với tử, mẫu với mẫu"
+ ],
+ "q": "Muốn tính 3/4 × 2/5, ta làm thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 26: Phép nhân và phép chia phân số",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 6,
+ "explain": "Chia phân số cho số tự nhiên thì nhân mẫu số với số đó: 4/(5 × 2) = 4/10 = 2/5.",
+ "id": 80,
+ "options": [
+  "4/5 : 2 = 4/10 = 2/5",
+  "4/5 : 2 = 8/5",
+  "Chia phân số cho số tự nhiên thì chia tử số cho số đó",
+  "2/3 × 3 = 6/3 = 2 là sai"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 26: Phép nhân và phép chia phân số",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 6,
+ "explain": "Muốn tìm giá trị phân số của một số, ta lấy số đó nhân với phân số: 30 × 2/5 = 60/5 = 12.",
+ "id": 81,
+ "options": [
+  "30 : 2/5 = 75",
+  "30 + 2/5",
+  "30 − 2/5",
+  "30 × 2/5 = 12"
+ ],
+ "q": "Muốn tìm 2/5 của 30, ta tính thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 27: Hai bài toán về phân số",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 6,
+ "explain": "Muốn tìm số khi biết 3/4 của nó là 12, ta lấy 12 : 3/4 = 12 × 4/3 = 16.",
+ "id": 82,
+ "options": [
+  "Muốn tìm số khi biết giá trị phân số thì nhân giá trị đó với phân số",
+  "3/4 của 12 là 16",
+  "Biết 3/4 của một số là 12 thì số đó là 16",
+  "Biết 3/4 của một số là 12 thì số đó là 9"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 27: Hai bài toán về phân số",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 7,
+ "explain": "Phần nguyên là phần trước dấu phẩy (7), phần thập phân là phần sau dấu phẩy (08).",
+ "id": 83,
+ "options": [
+  "Phần nguyên 0, phần thập phân 708",
+  "Phần nguyên 7, phần thập phân 08",
+  "Phần nguyên 08, phần thập phân 7",
+  "Phần nguyên 7,08"
+ ],
+ "q": "Số thập phân 7,08 có phần nguyên và phần thập phân là gì?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 28: Số thập phân",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 7,
+ "explain": "0,9 có một chữ số sau dấu phẩy nên bằng 9/10. 0,09 = 9/100 và 1,5 > 1,05.",
+ "id": 84,
+ "options": [
+  "0,9 = 9/10",
+  "0,9 = 9/100",
+  "0,09 = 9/10",
+  "1,5 < 1,05"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 28: Số thập phân",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 7,
+ "explain": "Cộng hai số thập phân: đặt dấu phẩy thẳng cột rồi cộng như số tự nhiên, đặt dấu phẩy thẳng cột ở kết quả.",
+ "id": 85,
+ "options": [
+  "Cộng phần nguyên với phần thập phân riêng",
+  "Bỏ dấu phẩy rồi cộng, không đặt lại",
+  "Cộng từ trái sang phải",
+  "Đặt dấu phẩy thẳng cột rồi cộng như số tự nhiên"
+ ],
+ "q": "Muốn tính 3,6 + 2,45, ta đặt tính thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 29: Tính toán với số thập phân",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 7,
+ "explain": "2,5 × 4 = 10,0 = 10. Nhân như số tự nhiên (25 × 4 = 100) rồi đếm 1 chữ số thập phân: 10,0.",
+ "id": 86,
+ "options": [
+  "Muốn nhân số thập phân với số tự nhiên thì bỏ dấu phẩy luôn",
+  "1,2 + 3,4 = 4,8 là sai",
+  "2,5 × 4 = 10",
+  "2,5 × 4 = 8"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 29: Tính toán với số thập phân",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 7,
+ "explain": "Muốn làm tròn đến hàng phần mười, ta nhìn chữ số ngay sau nó (hàng phần trăm): 7 ≥ 5 nên tăng hàng phần mười thêm 1: 5,47 ≈ 5,5.",
+ "id": 87,
+ "options": [
+  "Không cần nhìn chữ số nào, cứ làm tròn lên",
+  "Chữ số ngay sau hàng phần mười, là 7",
+  "Chữ số hàng đơn vị",
+  "Chữ số hàng phần trăm là 4"
+ ],
+ "q": "Muốn làm tròn 5,47 đến hàng phần mười, ta nhìn chữ số nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 30: Làm tròn và ước lượng",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 7,
+ "explain": "Chữ số sau hàng đơn vị của 8,36 là 3, nhỏ hơn 5 nên giữ nguyên: 8,36 ≈ 8.",
+ "id": 88,
+ "options": [
+  "8,36 làm tròn đến hàng đơn vị được 8",
+  "8,36 làm tròn đến hàng đơn vị được 9",
+  "Làm tròn là bỏ hết phần thập phân",
+  "6,5 làm tròn đến hàng đơn vị được 6"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 30: Làm tròn và ước lượng",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 7,
+ "explain": "Tỉ số phần trăm của 15 so với 60 là 15 : 60 = 0,25, nhân với 100% được 25%.",
+ "id": 89,
+ "options": [
+  "15 × 60 × 100%",
+  "60 : 15 × 100%",
+  "15 + 60",
+  "15 : 60 × 100% = 25%"
+ ],
+ "q": "Muốn tìm tỉ số phần trăm của 15 so với 60, ta tính thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm",
+ "type": "a"
+},
+{
+ "answer": 1,
+ "ch": 7,
+ "explain": "Tỉ số phần trăm có thể lớn hơn 100% (ví dụ 120 so với 100 là 120%). 50% của 80 = 40 và 25% của 200 = 50 đều đúng.",
+ "id": 90,
+ "options": [
+  "Muốn tìm 10% của một số thì lấy số đó chia cho 10",
+  "Tỉ số phần trăm luôn nhỏ hơn 100%",
+  "50% của 80 là 40",
+  "25% của 200 là 50"
+ ],
+ "q": "Khẳng định nào SAI?",
+ "src": "Thẻ Đúng/Sai — Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 8,
+ "explain": "Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó.",
+ "id": 91,
+ "options": [
+  "Điểm cách AB 1 cm",
+  "Điểm nằm trên đường thẳng AB",
+  "Điểm nằm ngoài đường thẳng AB",
+  "Điểm bất kì trong mặt phẳng"
+ ],
+ "q": "Điểm nào thuộc đường thẳng AB?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 32: Điểm và đường thẳng",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 8,
+ "explain": "Qua hai điểm phân biệt chỉ có duy nhất một đường thẳng. Hai đường thẳng song song không có điểm chung nào.",
+ "id": 92,
+ "options": [
+  "Qua hai điểm phân biệt chỉ vẽ được một đường thẳng",
+  "Qua hai điểm vẽ được hai đường thẳng",
+  "Hai đường thẳng song song có một điểm chung",
+  "Hai đường thẳng trùng nhau không có điểm chung"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 32: Điểm và đường thẳng",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 8,
+ "explain": "Tia Ox có gốc là điểm O và kéo dài mãi về một phía, đi qua điểm x.",
+ "id": 93,
+ "options": [
+  "Hai điểm O và x, không kể phía kéo dài",
+  "Đoạn thẳng Ox kéo dài cả hai phía",
+  "Đường thẳng đi qua O và x",
+  "Điểm gốc O và một phía của đường thẳng"
+ ],
+ "q": "Tia Ox là hình gồm những gì?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 33: Điểm nằm giữa hai điểm. Tia",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 8,
+ "explain": "Hai tia đối nhau phải chung gốc và ngược hướng nhau. Điểm nằm giữa A và B phải thuộc đoạn AB.",
+ "id": 94,
+ "options": [
+  "Điểm nằm giữa A và B là điểm ngoài đoạn AB",
+  "Tia không có điểm gốc, kéo dài cả hai phía",
+  "Hai tia OA và OB đối nhau khi chung gốc O và ngược hướng",
+  "Hai tia chung gốc luôn đối nhau"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 33: Điểm nằm giữa hai điểm. Tia",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 8,
+ "explain": "Vì B nằm giữa A và C nên AC = AB + BC = 4 + 3 = 7 (cm).",
+ "id": 95,
+ "options": [
+  "4 cm",
+  "7 cm",
+  "1 cm",
+  "12 cm"
+ ],
+ "q": "Điểm B nằm giữa A và C, AB = 4 cm, BC = 3 cm. AC dài bao nhiêu?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 34: Đoạn thẳng. Độ dài đoạn thẳng",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 8,
+ "explain": "Độ dài đoạn thẳng AB là khoảng cách từ điểm A đến điểm B, đo bằng thước.",
+ "id": 96,
+ "options": [
+  "Độ dài đoạn thẳng là khoảng cách giữa hai đầu của nó",
+  "Đoạn thẳng dài hơn đường thẳng",
+  "Đoạn thẳng không có độ dài",
+  "Muốn đo đoạn thẳng thì chỉ cần đo từ giữa đoạn đến một đầu"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 34: Đoạn thẳng. Độ dài đoạn thẳng",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 8,
+ "explain": "M là trung điểm của AB khi M nằm giữa A và B và MA = MB, tức mỗi đoạn bằng một nửa AB.",
+ "id": 97,
+ "options": [
+  "MA = 2 × MB",
+  "MA + MB = 0",
+  "MA dài hơn MB",
+  "MA = MB = AB : 2"
+ ],
+ "q": "M là trung điểm của AB thì MA và MB thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 35: Trung điểm của đoạn thẳng",
+ "type": "a"
+},
+{
+ "answer": 1,
+ "ch": 8,
+ "explain": "Chỉ có một điểm duy nhất vừa nằm giữa vừa cách đều hai đầu mới là trung điểm, không phải điểm nào trên đoạn thẳng cũng là trung điểm.",
+ "id": 98,
+ "options": [
+  "Muốn tìm trung điểm thì lấy độ dài chia đôi",
+  "Mọi điểm trên đoạn thẳng đều là trung điểm",
+  "Trung điểm chia đoạn thẳng thành hai đoạn bằng nhau",
+  "Trung điểm nằm giữa hai đầu đoạn thẳng"
+ ],
+ "q": "Khẳng định nào SAI?",
+ "src": "Thẻ Đúng/Sai — Bài 35: Trung điểm của đoạn thẳng",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 8,
+ "explain": "Góc xOy gồm hai tia chung gốc O: đỉnh là điểm O (chữ ở giữa), hai cạnh là tia Ox và tia Oy.",
+ "id": 99,
+ "options": [
+  "Không có đỉnh",
+  "Đỉnh O, hai cạnh Ox và Oy",
+  "Đỉnh x, hai cạnh Oy và Ox",
+  "Đỉnh y, hai cạnh Ox và Oy"
+ ],
+ "q": "Góc xOy có đỉnh và cạnh là gì?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 36: Góc",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 8,
+ "explain": "Góc tù lớn hơn 90° và nhỏ hơn 180°, nên 120° là góc tù. Góc 90° là góc vuông, góc 180° là góc bẹt.",
+ "id": 100,
+ "options": [
+  "Góc 120° là góc tù",
+  "Góc 120° là góc nhọn",
+  "Góc 90° là góc tù",
+  "Góc 180° là góc vuông"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 36: Góc",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 8,
+ "explain": "Đặt tâm thước trùng với đỉnh O, vạch 0° trùng với một cạnh, rồi đọc số đo ở cạnh còn lại.",
+ "id": 101,
+ "options": [
+  "Tâm thước trùng cạnh Ox",
+  "Vạch 0 của thước trùng với đỉnh O",
+  "Đặt thước tùy ý ở đâu cũng được rồi đọc số",
+  "Tâm thước trùng đỉnh O, vạch 0 trùng một cạnh"
+ ],
+ "q": "Muốn đo góc xOy, ta đặt thước thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 37: Số đo góc",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 8,
+ "explain": "Khi tia Oy nằm giữa hai tia Ox và Oz thì góc lớn bằng tổng hai góc nhỏ. Đơn vị đo góc là độ, góc bẹt bằng 180°.",
+ "id": 102,
+ "options": [
+  "Số đo góc tính bằng xăng-ti-mét như độ dài",
+  "Góc bẹt bằng 90°",
+  "Tia Oy nằm giữa Ox và Oz thì góc xOz = góc xOy + góc yOz",
+  "Góc xOz = góc xOy − góc yOz"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 37: Số đo góc",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 9,
+ "explain": "Các cách thu thập dữ liệu thường dùng là quan sát, làm thí nghiệm, lập phiếu hỏi và tra cứu từ nguồn có sẵn.",
+ "id": 103,
+ "options": [
+  "Dữ liệu tự có sẵn trong sách, không cần thu thập",
+  "Quan sát, làm thí nghiệm, lập phiếu hỏi, tra cứu nguồn có sẵn",
+  "Chỉ bằng cách đoán mò, không cần hỏi ai",
+  "Chỉ bằng cách hỏi một người"
+ ],
+ "q": "Người ta thu thập dữ liệu bằng những cách nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 38: Dữ liệu và thu thập dữ liệu",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 9,
+ "explain": "Dữ liệu gồm cả số liệu (ví dụ số học sinh) và thông tin dạng chữ (ví dụ môn thể thao yêu thích), đều phải ghi chép lại cẩn thận.",
+ "id": 104,
+ "options": [
+  "Dữ liệu có thể là số hoặc chữ",
+  "Dữ liệu chỉ là số",
+  "Dữ liệu không cần ghi chép lại",
+  "Phiếu hỏi thu về càng ít càng tốt"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 38: Dữ liệu và thu thập dữ liệu",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 9,
+ "explain": "Muốn tìm số học sinh, ta lấy số biểu tượng nhân với số học sinh mỗi biểu tượng ứng với: 3 × 5 = 15.",
+ "id": 105,
+ "options": [
+  "3 học sinh",
+  "8 học sinh",
+  "5 học sinh",
+  "15 học sinh"
+ ],
+ "q": "Trong biểu đồ tranh, mỗi ⭐ ứng với 5 học sinh. Hàng có 3 ⭐ nghĩa là bao nhiêu học sinh?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 39: Bảng thống kê và biểu đồ tranh",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 9,
+ "explain": "Bảng thống kê phải ghi rõ tên hàng, tên cột để đọc đúng số liệu. Biểu đồ tranh phải có chú thích mỗi biểu tượng ứng với bao nhiêu đối tượng.",
+ "id": 106,
+ "options": [
+  "Biểu đồ tranh vẽ càng nhiều biểu tượng càng tốt, không cần chú thích",
+  "Muốn tìm tổng thì chỉ cần xem một hàng",
+  "Bảng thống kê ghi số liệu theo hàng và cột rõ ràng",
+  "Bảng thống kê không cần ghi tên các hàng, cột"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 39: Bảng thống kê và biểu đồ tranh",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 9,
+ "explain": "Cột càng cao thì số liệu càng lớn, vì chiều cao cột biểu diễn số lượng.",
+ "id": 107,
+ "options": [
+  "Không so sánh được",
+  "Cột cao hơn = số liệu lớn hơn",
+  "Cột cao hơn = số liệu nhỏ hơn",
+  "Cột bằng nhau = số liệu bằng nhau"
+ ],
+ "q": "Trong biểu đồ cột, cột nào cao hơn thì sao?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 40: Biểu đồ cột",
+ "type": "a"
+},
+{
+ "answer": 3,
+ "ch": 9,
+ "explain": "Muốn so sánh hai cột thì lấy số liệu cột cao trừ số liệu cột thấp, không phải cộng lại.",
+ "id": 108,
+ "options": [
+  "Trục ngang của biểu đồ cột ghi tên đối tượng",
+  "Trục dọc của biểu đồ cột ghi số lượng",
+  "Muốn đọc số liệu thì gióng đầu cột sang trục dọc",
+  "Muốn so sánh hai cột thì cộng số liệu của chúng lại"
+ ],
+ "q": "Khẳng định nào SAI?",
+ "src": "Thẻ Đúng/Sai — Bài 40: Biểu đồ cột",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 9,
+ "explain": "Biểu đồ cột kép vẽ hai cột cạnh nhau cho mỗi đối tượng để so sánh hai nhóm số liệu, và phải có chú thích màu nào ứng với nhóm nào.",
+ "id": 109,
+ "options": [
+  "Chỉ có một cột cho mỗi đối tượng",
+  "Không có trục dọc, chỉ ghi số lên trên cột",
+  "Không cần chú thích vì nhìn cột là biết",
+  "Mỗi đối tượng có hai cột đặt cạnh nhau để so sánh hai nhóm"
+ ],
+ "q": "Biểu đồ cột kép khác biểu đồ cột thường ở điểm nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 41: Biểu đồ cột kép",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 9,
+ "explain": "Phải xem chú thích để biết màu nào ứng với nhóm nào rồi mới đọc số. Cột kép so sánh được cả trong cùng một đối tượng và giữa các đối tượng.",
+ "id": 110,
+ "options": [
+  "Hai cột trong một nhóm luôn bằng nhau vì cùng một lớp",
+  "Biểu đồ cột kép chỉ dùng cho một lớp",
+  "Trước khi đọc biểu đồ cột kép phải xem chú thích màu",
+  "Cột kép không so sánh được giữa các lớp"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 41: Biểu đồ cột kép",
+ "type": "b"
+},
+{
+ "answer": 1,
+ "ch": 9,
+ "explain": "Vì hộp chỉ có bóng đỏ và bóng xanh nên khi lấy ngẫu nhiên, kết quả có thể là đỏ hoặc xanh.",
+ "id": 111,
+ "options": [
+  "Vàng",
+  "Đỏ hoặc xanh",
+  "Chỉ đỏ",
+  "Chỉ xanh"
+ ],
+ "q": "Trong hộp có 2 bóng đỏ và 3 bóng xanh. Lấy ngẫu nhiên 1 quả, các kết quả có thể về màu là gì?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 42: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm",
+ "type": "a"
+},
+{
+ "answer": 0,
+ "ch": 9,
+ "explain": "Sự kiện chắc chắn nhất định xảy ra, sự kiện không thể nhất định không xảy ra. Xúc xắc chỉ có các mặt 1 đến 6 chấm nên mặt 7 chấm không thể xuất hiện.",
+ "id": 112,
+ "options": [
+  "Sự kiện chắc chắn là sự kiện nhất định xảy ra",
+  "Sự kiện không thể là sự kiện có thể xảy ra",
+  "Gieo xúc xắc thì mặt 7 chấm có thể xuất hiện",
+  "Mọi sự kiện đều chắc chắn xảy ra"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 42: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm",
+ "type": "b"
+},
+{
+ "answer": 3,
+ "ch": 9,
+ "explain": "Xác suất thực nghiệm = số lần sự kiện xuất hiện : tổng số lần thực hiện thí nghiệm.",
+ "id": 113,
+ "options": [
+  "Tổng số lần thử chia cho số lần xuất hiện",
+  "Số lần xuất hiện cộng tổng số lần thử",
+  "Số lần xuất hiện trừ tổng số lần thử",
+  "Số lần sự kiện xuất hiện chia cho tổng số lần thử"
+ ],
+ "q": "Xác suất thực nghiệm của một sự kiện tính thế nào?",
+ "src": "Thẻ ⚡ Nhớ nhanh — Bài 43: Xác suất thực nghiệm",
+ "type": "a"
+},
+{
+ "answer": 2,
+ "ch": 9,
+ "explain": "Xác suất thực nghiệm mặt 5 chấm là 3/20. Thí nghiệm càng nhiều lần thì xác suất thực nghiệm càng gần với thực tế, và phải đếm đủ số lần.",
+ "id": 114,
+ "options": [
+  "Thí nghiệm càng ít lần thì xác suất thực nghiệm càng chính xác",
+  "Xác suất thực nghiệm không cần đếm số lần xuất hiện",
+  "Gieo xúc xắc 20 lần, mặt 5 chấm xuất hiện 3 lần thì xác suất thực nghiệm là 3/20",
+  "Xác suất thực nghiệm luôn bằng 1/2"
+ ],
+ "q": "Khẳng định nào ĐÚNG?",
+ "src": "Thẻ Đúng/Sai — Bài 43: Xác suất thực nghiệm",
+ "type": "b"
+}
 ]

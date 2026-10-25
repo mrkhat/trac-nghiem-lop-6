@@ -292,5 +292,299 @@
   "f": "Nhìn hình: điểm mạnh của bạn gái là gì?",
   "a": "Bạn vẽ tranh giỏi — vẽ là điểm mạnh của bạn.",
   "fi": "../hinh-anh/gdcd/bai6-diem-manh.webp"
- }
+ },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Tình huống nguy hiểm là gì?",
+    "a": "Là tình huống có thể gây hại cho em, ví dụ: cháy nhà, đuối nước, lũ lụt. Em cần bình tĩnh và tìm cách an toàn.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Khi có cháy trong nhà, em phải làm gì?",
+    "a": "Hô hoán báo mọi người rồi chạy ra ngoài theo lối thoát. Không quay lại lấy đồ, không dùng thang máy.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Gọi cứu hỏa, công an, cấp cứu bằng số nào?",
+    "a": "Cứu hỏa là 114, công an là 113, cấp cứu là 115. Gọi 111 khi trẻ em cần được bảo vệ.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Thấy bạn đuối nước mà em không biết bơi thì làm sao?",
+    "a": "Hô hoán gọi người lớn và ném phao hoặc dây cho bạn bám. Em không nhảy xuống vì sẽ bị đuối theo.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Người lạ rủ em đi theo thì em làm gì?",
+    "a": "Không nhận quà, không đi theo. Em chạy về chỗ đông người và báo người lớn ngay.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Nguyên tắc ứng phó nguy hiểm là gì?",
+    "a": "Bình tĩnh, tránh xa nguy hiểm, kêu cứu và báo người lớn. Ví dụ: có cháy thì chạy ra ngoài rồi mới gọi 114.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Bị lạc ở chợ thì làm gì?",
+    "a": "Đứng yên ở chỗ dễ thấy và nhờ cô bán hàng hoặc chú bảo vệ giúp gọi người nhà.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Tiết kiệm là gì?",
+    "a": "Là dùng vừa đủ, không lãng phí. Ví dụ: lấy cơm vừa ăn, tắt đèn khi ra khỏi phòng.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Tiết kiệm tiền là làm gì?",
+    "a": "Là để dành một phần và chỉ mua thứ mình cần. Ví dụ: tiền mừng tuổi để dành mua sách vở.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Tiết kiệm điện là làm gì?",
+    "a": "Là tắt đèn, quạt, ti vi khi không dùng. Làm vậy nhà em tốn ít tiền điện hơn.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Tiết kiệm thời gian là làm gì?",
+    "a": "Là làm việc đúng giờ, không để việc dồn lại. Ví dụ: làm bài xong rồi mới chơi.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Tiết kiệm khác keo kiệt thế nào?",
+    "a": "Tiết kiệm là dùng vừa đủ. Keo kiệt là không dám dùng cả khi rất cần, ví dụ ốm mà không dám mua thuốc.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Tiết kiệm nghĩa là gì?",
+    "a": "Dùng vừa đủ, không lãng phí. Ví dụ: tắt đèn khi ra khỏi phòng, lấy cơm vừa ăn.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Mỗi ngày em tiết kiệm được bằng cách nào?",
+    "a": "Tắt điện khi không dùng, khóa vòi nước ngay sau khi rửa, giữ gìn đồ dùng cho bền.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Công dân là gì?",
+    "a": "Là người có quốc tịch của một nước. Ví dụ: người có quốc tịch Việt Nam là công dân Việt Nam.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Quốc tịch là gì?",
+    "a": "Là sự gắn bó pháp lí của một người với một nước. Nhờ có quốc tịch, người đó được nước đó bảo vệ.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Trẻ em có phải là công dân không?",
+    "a": "Có. Trẻ em sinh ra có quốc tịch Việt Nam cũng là công dân Việt Nam, không chỉ người lớn mới là công dân.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Quyền của công dân là gì?",
+    "a": "Là điều công dân được hưởng theo pháp luật, ví dụ quyền đi học và quyền được bảo vệ.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Nghĩa vụ của công dân là gì?",
+    "a": "Là điều công dân phải làm theo pháp luật, ví dụ học tập tốt và chấp hành luật giao thông.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Công dân là ai?",
+    "a": "Là người có quốc tịch của một nước, ví dụ công dân Việt Nam là người có quốc tịch Việt Nam.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Quyền và nghĩa vụ đi với nhau thế nào?",
+    "a": "Quyền và nghĩa vụ đi đôi với nhau: em có quyền đi học thì cũng có nghĩa vụ học tập tốt.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Quyền cơ bản của công dân là gì?",
+    "a": "Là những điều công dân được hưởng theo pháp luật, ví dụ quyền học tập và quyền được bảo vệ thân thể.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Nghĩa vụ cơ bản của công dân là gì?",
+    "a": "Là những điều công dân phải làm theo pháp luật, ví dụ chấp hành luật giao thông và bảo vệ Tổ quốc.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Quyền học tập có nghĩa là gì?",
+    "a": "Là mọi công dân đều được đi học, không ai bị ngăn cấm. Nhà nước tạo điều kiện để trẻ em đến trường.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Nghĩa vụ bảo vệ môi trường là gì?",
+    "a": "Là giữ gìn môi trường sạch, ví dụ bỏ rác đúng nơi quy định và không xả rác xuống sông.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Quyền và nghĩa vụ quan hệ với nhau ra sao?",
+    "a": "Quyền và nghĩa vụ đi đôi với nhau: em có quyền được bảo vệ thì cũng không được xâm phạm người khác.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Quyền là gì?",
+    "a": "Quyền là điều mình được hưởng theo pháp luật, ví dụ quyền đi học và quyền được bảo vệ.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Nghĩa vụ là gì?",
+    "a": "Nghĩa vụ là điều mình phải làm theo pháp luật, ví dụ học tập chăm chỉ và giữ gìn tài sản công.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Trẻ em là người ở độ tuổi nào?",
+    "a": "Là người dưới 16 tuổi theo Luật Trẻ em. Trẻ em được hưởng các quyền riêng dành cho mình.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Quyền sống còn của trẻ em là gì?",
+    "a": "Là được sống, được chăm sóc sức khỏe và ăn uống đầy đủ. Ví dụ: khi ốm, trẻ em được đưa đi khám bệnh.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Quyền phát triển của trẻ em là gì?",
+    "a": "Là được học tập, vui chơi và phát triển tài năng. Ví dụ: trẻ em được đến trường và chơi thể thao.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Quyền bảo vệ của trẻ em là gì?",
+    "a": "Là không bị bạo lực, bóc lột hay xâm hại. Khi bị bắt nạt, em nói với người lớn tin cậy hoặc gọi 111.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Quyền tham gia của trẻ em là gì?",
+    "a": "Là được nói lên ý kiến về việc liên quan đến mình. Ví dụ: em được nói ý kiến khi lớp chọn hoạt động ngoại khóa.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Trẻ em là ai?",
+    "a": "Là người dưới 16 tuổi theo Luật Trẻ em, được hưởng các quyền riêng dành cho mình.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "4 nhóm quyền của trẻ em là gì?",
+    "a": "Là quyền sống còn, quyền phát triển, quyền bảo vệ và quyền tham gia.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Bổn phận là gì?",
+    "a": "Là điều mình phải làm, đi đôi với quyền được hưởng. Ví dụ: em được đi học thì phải học tập chăm chỉ.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Bổn phận của trẻ em với gia đình là gì?",
+    "a": "Là yêu quý, kính trọng ông bà, cha mẹ và giúp việc nhà vừa sức, ví dụ quét nhà và gấp quần áo.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Bổn phận của trẻ em ở trường là gì?",
+    "a": "Là tôn trọng thầy cô và đoàn kết với bạn bè. Lớp học vui khi mọi người tôn trọng nhau.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Khi quyền bị xâm phạm, trẻ em làm gì?",
+    "a": "Nói với người lớn tin cậy hoặc gọi tổng đài 111. Tổng đài 111 là số bảo vệ trẻ em, gọi miễn phí.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Trẻ em tham gia ý kiến bằng cách nào?",
+    "a": "Nói ý kiến của mình trong giờ sinh hoạt lớp. Ý kiến của trẻ em được lắng nghe và tôn trọng.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Quyền đi đôi với bổn phận nghĩa là gì?",
+    "a": "Là vừa được hưởng quyền, vừa phải làm tròn bổn phận, ví dụ được đi học thì phải học chăm chỉ.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Khi bị xâm phạm quyền thì làm gì?",
+    "a": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 để được bảo vệ.",
+    "fi": ""
+  }
 ]

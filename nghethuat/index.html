@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nghệ thuật 6 — Cả năm | Học từng bài & Trắc nghiệm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+/* ===== PHẦN RIÊNG CỦA NGHỆ THUẬT: Nghe bài + thẻ lật mini + kiểm tra nhanh ===== */
+.lsbox{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.ls-listen,.ls-stop{min-height:44px;padding:10px 16px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;border:2px solid #00838f;background:#e0f2f1;color:#00695c}
+.ls-listen.reading{background:#00838f;color:#fff}
+.ls-stop{background:#fff3e0;border-color:#ef6c00;color:#e65100}
+.ls-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid #00838f;background:#fff;color:#00695c;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
+.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
+.rd{border-radius:4px}
+.qmini{border-style:dashed;border-color:#ffb300;background:#fffde7}
+.qmini .qa-q{background:#fff8e1;color:#7b4d00;font-size:16px}
+.qmini .qa-a{background:#fffde7}
+.moc ul{margin:6px 0 0 20px}
+.moc li{margin-bottom:3px}
+.mmap{background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;padding:12px;margin:14px 0}
+.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:16px}
+.gdmap{width:100%;height:auto;display:block}
+.lesson-cover{width:100%;max-width:400px;height:auto;display:block;border-radius:12px;margin:0 auto 12px}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>🎨 Nghệ thuật 6 — Cả năm</h1>
+<div class="topmenu"><a class="tm-btn tm-quiz" href="quiz.html">📝 Bài tập &amp; Kiểm tra thử</a><a class="tm-btn tm-flash" href="quiz.html#flash">🃏 Flashcard tổng hợp</a></div>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Học <b>từng bài một</b>: đọc từng đoạn ngắn (hoặc bấm 🔊 nghe bài) → trả lời câu hỏi nhanh ngay trong bài → xem ⭐ Điểm cần nhớ → lật flashcard của bài. Môn gồm 2 phần: <b>Âm nhạc (8 chủ đề)</b> và <b>Mĩ thuật (16 bài)</b>, học theo thứ tự SGK, cả năm học. Học hết 24 bài mới xuống <b>Phần Tổng kết</b> ở cuối trang nhé!</p>
+
+<div class="part part1"><h2>📖 Phần 1 — Học tập (học từng bài)</h2><p>Phần <b>Âm nhạc</b> gồm Chủ đề 1–8 (SGK Âm nhạc không đánh số bài nên dùng tên Chủ đề). Phần <b>Mĩ thuật</b> gồm Bài 1–16. Mỗi bài đều có nút <b>🔊 Nghe bài</b> — em đọc chưa thạo cũng nghe và học được. Thẻ <b>⚡ Nhớ nhanh</b> bấm vào là lật xem đáp án ngay, không tính điểm đâu, cứ thoải mái thử!</p></div>
+
+<!-- ===== THANH CHẾ ĐỘ XEM ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CHỦ ĐỀ 1. TUỔI HỌC TRÒ ================= -->
+<div class="lesson" id="bai1" style="--c:#c2185b">
+  <div class="body">
+  <h3>Chủ đề 1. Tuổi học trò</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd1.webp" alt="Hình minh họa: Chủ đề 1. Tuổi học trò" loading="lazy">
+  <div class="hook rd">🎬 Ngày đầu vào lớp 6, Lan vừa hồi hộp vừa vui: trường mới, lớp mới, bạn mới. Tiếng hát vang lên trong lễ khai giảng làm Lan thấy ấm lòng. Âm nhạc gắn với tuổi học trò của em như thế nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 1</span> có bài hát <b>Con đường học trò</b> và bài nghe <b>Tháng năm học trò</b>.</li>
+    <li class="rd"><b>Đàn piano</b> là nhạc cụ phím: bấm phím trắng và phím đen để tạo ra tiếng đàn.</li>
+    <li class="rd">Âm thanh có tính nhạc có 4 thuộc tính: <b>cao độ</b> (cao/thấp), <b>trường độ</b> (dài/ngắn), <b>cường độ</b> (mạnh/nhẹ), <b>âm sắc</b> (màu âm).</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 1: bài hát và nhạc cụ chính là gì?</div></div><div class="mini-face mini-back">Bài hát Con đường học trò; đàn piano là nhạc cụ phím.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bài đọc nhạc số 1</b> luyện đọc các nốt nhạc trên khuông nhạc, từng bước một.</li>
+    <li class="rd">Hát bài về tuổi học trò với tình cảm <b>vui tươi, yêu trường lớp và bạn bè</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Đàn piano là nhạc cụ gì?</button><div class="qa-a">Piano là <b>nhạc cụ phím</b>: người chơi bấm các phím trắng và phím đen để tạo ra tiếng đàn.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>4 thuộc tính của âm thanh có tính nhạc là gì?</div></div><div class="mini-face mini-back">Cao độ = cao/thấp; trường độ = dài/ngắn; cường độ = mạnh/nhẹ; âm sắc = màu âm.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: 4 thuộc tính của âm thanh có tính nhạc là gì?</button><div class="qa-a">Là <b>cao độ</b> (cao/thấp), <b>trường độ</b> (dài/ngắn), <b>cường độ</b> (mạnh/nhẹ) và <b>âm sắc</b> (màu âm riêng của từng tiếng đàn, tiếng hát).</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Con đường học trò; nghe: Tháng năm học trò.</li>
+      <li>Piano là nhạc cụ phím.</li>
+      <li>4 thuộc tính: cao độ, trường độ, cường độ, âm sắc.</li>
+      <li>Bài đọc nhạc số 1: luyện đọc nốt trên khuông nhạc.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="0,1,2,3,4"></div>
+  </div>
+  <a class="next" href="#bai2">✔ Xong Chủ đề 1 Tuổi học trò → Sang Chủ đề 2: Cuộc sống tươi đẹp ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 2. CUỘC SỐNG TƯƠI ĐẸP ================= -->
+<div class="lesson" id="bai2" style="--c:#1565c0">
+  <div class="body">
+  <h3>Chủ đề 2. Cuộc sống tươi đẹp</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd2.webp" alt="Hình minh họa: Chủ đề 2. Cuộc sống tươi đẹp" loading="lazy">
+  <div class="hook rd">🎬 Em nghe một bản nhạc êm đềm, giai điệu trôi chảy như dòng sông. Đó là bản valse nổi tiếng về dòng sông Danube xanh. Cuộc sống tươi đẹp hiện lên trong âm nhạc ra sao?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 2</span> có bài hát <b>Đời sống không già vì có chúng em</b> và tác phẩm nghe <b>The Blue Danube</b> (Dòng sông Danube xanh).</li>
+    <li class="rd"><b>Valse</b> có nhịp 3 phách, nghe như đang xoay tròn nhẹ nhàng, uyển chuyển.</li>
+    <li class="rd">Kí hiệu âm bằng <b>chữ cái Latin</b>: Đô = C, Rê = D, Mi = E, Fa = F, Sol = G, La = A, Si = B.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 2: bài hát và tác phẩm nghe là gì?</div></div><div class="mini-face mini-back">Bài hát Đời sống không già vì có chúng em; nghe The Blue Danube.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Recorder</b> là sáo dọc: thổi hơi và bấm các lỗ để đổi nốt. <b>Kèn phím</b> vừa thổi hơi vừa bấm phím như đàn.</li>
+    <li class="rd">Nghe nhạc chăm chú, để ý giai điệu nhanh hay chậm, vui hay buồn, giúp em hiểu bài hơn.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nốt Đô và nốt La kí hiệu chữ cái Latin là gì?</button><div class="qa-a">Đô = <b>C</b>, La = <b>A</b>. Nhớ theo thứ tự: C Đô, D Rê, E Mi, F Fa, G Sol, A La, B Si.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Kí hiệu âm bằng chữ cái Latin như thế nào?</div></div><div class="mini-face mini-back">Đô = C, Rê = D, Mi = E, Fa = F, Sol = G, La = A, Si = B.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Recorder khác kèn phím ở điểm nào?</button><div class="qa-a">Recorder <b>thổi hơi và bấm lỗ</b>; kèn phím <b>vừa thổi hơi vừa bấm phím</b> như đàn.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Đời sống không già vì có chúng em.</li>
+      <li>Nghe: The Blue Danube, điệu valse nhịp 3 phách.</li>
+      <li>Kí hiệu Latin: C Đô, D Rê, E Mi, F Fa, G Sol, A La, B Si.</li>
+      <li>Nhạc cụ: recorder (sáo dọc), kèn phím.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="5,6,7,8,9"></div>
+  </div>
+  <a class="next" href="#bai3">✔ Xong Chủ đề 2 Cuộc sống tươi đẹp → Sang Chủ đề 3: Nhớ ơn thầy cô ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 3. NHỚ ƠN THẦY CÔ ================= -->
+<div class="lesson" id="bai3" style="--c:#2e7d32">
+  <div class="body">
+  <h3>Chủ đề 3. Nhớ ơn thầy cô</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd3.webp" alt="Hình minh họa: Chủ đề 3. Nhớ ơn thầy cô" loading="lazy">
+  <div class="hook rd">🎬 Ngày 20/11, lớp em hát tặng thầy cô. Tiếng hát chậm rãi, trân trọng. Thầy cô đã dạy em bao điều hay. Em nhớ ơn thầy cô bằng cách nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 3</span> có bài hát <b>Thầy cô là tất cả</b> và bài nghe <b>Nhớ ơn thầy cô</b>.</li>
+    <li class="rd"><b>Nhịp 4/4</b>: mỗi ô nhịp có 4 phách, phách 1 mạnh nhất, phách 3 mạnh vừa, phách 2 và 4 nhẹ.</li>
+    <li class="rd"><b>Hát bè</b> là nhiều nhóm hát các bè khác nhau cùng lúc mà hòa hợp với nhau.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 3: bài hát và nhịp học là gì?</div></div><div class="mini-face mini-back">Bài hát Thầy cô là tất cả; nhịp 4/4 có 4 phách, phách 1 mạnh nhất.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bài đọc nhạc số 2</b> luyện đọc nốt theo nhịp 4/4 đã học.</li>
+    <li class="rd">Nhớ ơn thầy cô bằng việc thật: <b>học chăm, ngoan ngoãn, lễ phép</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nhịp 4/4 có nghĩa là gì?</button><div class="qa-a">Mỗi ô nhịp có <b>4 phách</b>, phách 1 mạnh nhất, giúp em gõ nhịp đều tay.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Hát bè là gì?</div></div><div class="mini-face mini-back">Hát bè là nhiều bè cùng hát hòa hợp với nhau.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Hát bè là gì?</button><div class="qa-a">Là nhiều nhóm hát các <b>bè khác nhau cùng lúc</b> mà hòa hợp với nhau, nghe đầy đặn và hay hơn.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Thầy cô là tất cả; nghe: Nhớ ơn thầy cô.</li>
+      <li>Nhịp 4/4: 4 phách, phách 1 mạnh nhất.</li>
+      <li>Hát bè: nhiều bè cùng hát hòa hợp.</li>
+      <li>Nhớ ơn thầy cô: học chăm, ngoan, lễ phép.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="10,11,12,13,14"></div>
+  </div>
+  <a class="next" href="#bai4">✔ Xong Chủ đề 3 Nhớ ơn thầy cô → Sang Chủ đề 4: Ước mơ hòa bình ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 4. ƯỚC MƠ HÒA BÌNH ================= -->
+<div class="lesson" id="bai4" style="--c:#ef6c00">
+  <div class="body">
+  <h3>Chủ đề 4. Ước mơ hòa bình</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd4.webp" alt="Hình minh họa: Chủ đề 4. Ước mơ hòa bình" loading="lazy">
+  <div class="hook rd">🎬 Em ước một thế giới không có chiến tranh, trẻ em khắp nơi được đi học và vui chơi. Giai điệu Niềm vui vang lên như lời chúc hòa bình. Âm nhạc nói về hòa bình ra sao?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 4</span> có bài hát <b>những ước mơ</b> và trích đoạn chương IV <b>Giao hưởng số 9</b> của Beethoven với giai điệu <b>Niềm vui</b>.</li>
+    <li class="rd"><b>Beethoven</b> là nhạc sĩ người Đức, tác giả Giao hưởng số 9.</li>
+    <li class="rd">Chủ đề giới thiệu nhạc sĩ <b>Văn Kì</b> và <b>Bài ca hy vọng</b> về niềm tin vào ngày mai hòa bình, tươi sáng.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 4: bài hát và giai điệu chính là gì?</div></div><div class="mini-face mini-back">Bài hát những ước mơ; giai điệu Niềm vui của Beethoven.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Tập nhạc cụ (recorder hoặc kèn phím) cần <b>bấm đúng nốt, thổi đều hơi, giữ nhịp</b>.</li>
+    <li class="rd">Góp phần giữ hòa bình ở lớp: <b>lắng nghe, nhường nhịn, nói lời ôn hòa</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Giai điệu nổi tiếng trong chương IV Giao hưởng số 9 là gì?</button><div class="qa-a">Là giai điệu <b>Niềm vui (Ode to Joy)</b>, ca ngợi tình anh em và hòa bình.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Nhạc sĩ Văn Kì gắn với bài hát nào?</div></div><div class="mini-face mini-back">Nhạc sĩ Văn Kì và Bài ca hy vọng về hòa bình, tương lai tươi sáng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Bài ca hy vọng gửi gắm niềm tin gì?</button><div class="qa-a">Niềm tin vào <b>ngày mai hòa bình, tươi sáng</b>, mọi người sống chan hòa.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: những ước mơ.</li>
+      <li>Nghe: chương IV Giao hưởng số 9, giai điệu Niềm vui.</li>
+      <li>Nhạc sĩ Văn Kì và Bài ca hy vọng.</li>
+      <li>Giữ hòa bình: thân thiện, nhường nhịn, nói ôn hòa.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="15,16,17,18,19"></div>
+  </div>
+  <a class="next" href="#bai5">✔ Xong Chủ đề 4 Ước mơ hòa bình → Sang Chủ đề 5: Giai điệu quê hương ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 5. GIAI ĐIỆU QUÊ HƯƠNG ================= -->
+<div class="lesson" id="bai5" style="--c:#6a1b9a">
+  <div class="body">
+  <h3>Chủ đề 5. Giai điệu quê hương</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd5.webp" alt="Hình minh họa: Chủ đề 5. Giai điệu quê hương" loading="lazy">
+  <div class="hook rd">🎬 Tiếng khèn vang lên từ núi rừng, tiếng sáo trúc nhẹ nhàng như gió đồng. Đó là âm thanh quê hương Việt Nam. Nhạc cụ dân tộc có gì đặc biệt?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 5</span> có bài hát <b>Mưa rơi</b> và bản hòa tấu nhạc cụ dân tộc <b>Mừng hội hoa bông</b>.</li>
+    <li class="rd"><b>Khèn</b> là nhạc cụ hơi bằng các ống tre của đồng bào vùng núi phía Bắc.</li>
+    <li class="rd"><b>Sáo trúc</b> làm bằng tre, trúc, thổi hơi và bấm các lỗ để đổi nốt.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 5: bài hát và bản hòa tấu là gì?</div></div><div class="mini-face mini-back">Bài hát Mưa rơi; hòa tấu Mừng hội hoa bông.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Hòa tấu</b> là nhiều nhạc cụ cùng chơi, hòa hợp thành bản nhạc đầy đặn.</li>
+    <li class="rd">Nhạc cụ dân tộc thường làm từ vật liệu tự nhiên như <b>tre, trúc, gỗ</b>, gần gũi với đời sống.</li>
+    <li class="rd"><b>Bài đọc nhạc số 3</b> luyện đọc nốt theo giai điệu quê hương.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Hòa tấu nhạc cụ là gì?</button><div class="qa-a">Là nhiều nhạc cụ <b>cùng chơi một lúc</b>, các tiếng đàn hòa vào nhau thành bản nhạc đầy đặn.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Khèn và sáo trúc là nhạc cụ gì?</div></div><div class="mini-face mini-back">Khèn và sáo trúc là nhạc cụ hơi dân tộc làm bằng tre, trúc.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nghe nhạc dân tộc có ích gì?</button><div class="qa-a">Giúp em <b>hiểu và yêu thêm văn hóa, nhạc cụ dân tộc Việt Nam</b>.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Mưa rơi.</li>
+      <li>Hòa tấu: Mừng hội hoa bông.</li>
+      <li>Nhạc cụ dân tộc: khèn, sáo trúc (tre, trúc).</li>
+      <li>Bài đọc nhạc số 3: đọc nốt theo giai điệu quê hương.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="20,21,22,23,24"></div>
+  </div>
+  <a class="next" href="#bai6">✔ Xong Chủ đề 5 Giai điệu quê hương → Sang Chủ đề 6: Mẹ trong trái tim em ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 6. MẸ TRONG TRÁI TIM EM ================= -->
+<div class="lesson" id="bai6" style="--c:#00838f">
+  <div class="body">
+  <h3>Chủ đề 6. Mẹ trong trái tim em</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd6.webp" alt="Hình minh họa: Chủ đề 6. Mẹ trong trái tim em" loading="lazy">
+  <div class="hook rd">🎬 Lời ru của mẹ ngày bé vẫn còn trong tim em: chậm, nhẹ, êm. Chủ đề này hát về mẹ — người chỉ có một trên đời. Em yêu mẹ bằng việc nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 6</span> có bài hát <b>Chỉ có một trên đời</b> và nhạc sĩ <b>Brahms</b> với khúc hát ru <b>Lullaby</b>.</li>
+    <li class="rd"><b>Khúc hát ru</b> hát chậm, nhẹ, êm dịu như lời mẹ ru.</li>
+    <li class="rd"><b>Cung và nửa cung</b>: 1 cung = 2 nửa cung. Ví dụ: Đô lên Rê là 1 cung; Mi lên Fa là nửa cung.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 6: bài hát và nhạc sĩ là ai?</div></div><div class="mini-face mini-back">Bài hát Chỉ có một trên đời; Brahms và khúc hát ru Lullaby.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bài đọc nhạc số 4</b> luyện đọc nốt kết hợp kiến thức cung, nửa cung.</li>
+    <li class="rd">Yêu mẹ bằng việc thật: <b>ngoan ngoãn, học chăm, giúp mẹ việc nhà</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: 1 cung bằng bao nhiêu nửa cung? Mi lên Fa là bao nhiêu?</button><div class="qa-a">1 cung = <b>2 nửa cung</b>. Mi lên Fa chỉ là <b>nửa cung</b> vì hai nốt này nằm sát nhau.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Cung và nửa cung là gì?</div></div><div class="mini-face mini-back">1 cung = 2 nửa cung; Mi lên Fa là nửa cung.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Khúc hát ru Lullaby hát như thế nào?</button><div class="qa-a">Hát <b>chậm, nhẹ, êm dịu</b> như lời mẹ ru để dỗ trẻ ngủ ngon.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Chỉ có một trên đời.</li>
+      <li>Brahms và khúc hát ru Lullaby.</li>
+      <li>1 cung = 2 nửa cung; Mi–Fa = nửa cung.</li>
+      <li>Yêu mẹ: ngoan, học chăm, giúp việc nhà.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="25,26,27,28,29"></div>
+  </div>
+  <a class="next" href="#bai7">✔ Xong Chủ đề 6 Mẹ trong trái tim em → Sang Chủ đề 7: Âm nhạc nước ngoài ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 7. ÂM NHẠC NƯỚC NGOÀI ================= -->
+<div class="lesson" id="bai7" style="--c:#a16207">
+  <div class="body">
+  <h3>Chủ đề 7. Âm nhạc nước ngoài</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd7.webp" alt="Hình minh họa: Chủ đề 7. Âm nhạc nước ngoài" loading="lazy">
+  <div class="hook rd">🎬 Âm nhạc không có biên giới: một bài hát Scotland về tình bạn, một bài hát về mặt trời và hòa bình. Nghe nhạc nước ngoài, em học được gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 7</span> có bài hát <b>Hãy để mặt trời luôn chiếu sáng</b> và bài nghe <b>Auld Lang Syne</b> về tình bạn.</li>
+    <li class="rd"><b>Bậc chuyển hóa</b> là nốt nhạc bị đổi cao độ nhờ dấu hóa.</li>
+    <li class="rd"><b>Dấu thăng (#)</b> tăng nửa cung; <b>dấu giáng (b)</b> giảm nửa cung; <b>dấu bình (♮)</b> trả nốt về cao độ tự nhiên.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 7: bài hát và bài nghe là gì?</div></div><div class="mini-face mini-back">Bài hát Hãy để mặt trời luôn chiếu sáng; nghe Auld Lang Syne.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bài đọc nhạc số 5</b> luyện đọc nốt có dấu hóa (thăng, giáng, bình).</li>
+    <li class="rd">Nghe nhạc nước ngoài giúp em <b>hiểu thêm văn hóa các nước</b>, thấy âm nhạc gắn kết mọi người.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Dấu thăng, dấu giáng, dấu bình làm gì?</button><div class="qa-a">Thăng (#) <b>tăng nửa cung</b>; giáng (b) <b>giảm nửa cung</b>; bình (♮) <b>trả về cao độ ban đầu</b>.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Dấu hóa thăng, giáng, bình làm gì?</div></div><div class="mini-face mini-back">Thăng (#) tăng nửa cung; giáng (b) giảm nửa cung; bình (♮) trở về ban đầu.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Bài hát về mặt trời nên hát với tình cảm nào?</button><div class="qa-a">Hát <b>vui tươi, trong sáng, đầy hy vọng</b> về hòa bình.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Hãy để mặt trời luôn chiếu sáng.</li>
+      <li>Nghe: Auld Lang Syne.</li>
+      <li>Dấu hóa: thăng tăng, giáng giảm, bình trở về.</li>
+      <li>Bài đọc nhạc số 5: đọc nốt có dấu hóa.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="30,31,32,33,34"></div>
+  </div>
+  <a class="next" href="#bai8">✔ Xong Chủ đề 7 Âm nhạc nước ngoài → Sang Chủ đề 8: Bác Hồ với thiếu nhi ⬇</a>
+</div>
+
+<!-- ================= CHỦ ĐỀ 8. BÁC HỒ VỚI THIẾU NHI ================= -->
+<div class="lesson" id="bai8" style="--c:#d32f2f">
+  <div class="body">
+  <h3>Chủ đề 8. Bác Hồ với thiếu nhi</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-amnhac-cd8.webp" alt="Hình minh họa: Chủ đề 8. Bác Hồ với thiếu nhi" loading="lazy">
+  <div class="hook rd">🎬 Bác Hồ rất yêu thiếu nhi. Bài hát về Bác vang lên trang nghiêm và tự hào. Em học theo gương Bác bằng việc nào mỗi ngày?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Chủ đề 8</span> có bài hát <b>Bác Hồ – Người cho em tất cả</b>, bài nghe <b>Việt Nam quê hương tôi</b> và bài thưởng thức <b>Như có Bác trong ngày đại thắng</b>.</li>
+    <li class="rd">Bác Hồ <b>rất yêu thiếu nhi</b>, luôn mong các cháu ngoan ngoãn, chăm học.</li>
+    <li class="rd">Tập nhạc cụ tiếp tục luyện <b>recorder hoặc kèn phím</b>: bấm đúng nốt, thổi đều hơi, giữ nhịp.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề 8: bài hát và bài nghe là gì?</div></div><div class="mini-face mini-back">Bài hát Bác Hồ – Người cho em tất cả; nghe Việt Nam quê hương tôi.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Phần <b>Ôn tập cuối sách</b> giúp em nhắc lại các thuật ngữ âm nhạc đã học: cao độ, trường độ, nhịp, dấu hóa.</li>
+    <li class="rd">Học theo gương Bác: <b>ngoan ngoãn, lễ phép, học chăm, giúp đỡ bạn bè</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Bài hát thưởng thức ở Chủ đề 8 là gì?</button><div class="qa-a">Là bài hát <b>Như có Bác trong ngày đại thắng</b>, về niềm vui ngày đất nước thống nhất.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Bác Hồ với thiếu nhi như thế nào?</div></div><div class="mini-face mini-back">Bác Hồ rất yêu thiếu nhi; em học Bác bằng ngoan ngoãn, học chăm, giúp bạn.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Phần Ôn tập cuối sách giúp em làm gì?</button><div class="qa-a">Giúp em <b>nhắc lại các thuật ngữ và kiến thức âm nhạc đã học</b>.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bài hát: Bác Hồ – Người cho em tất cả.</li>
+      <li>Nghe: Việt Nam quê hương tôi.</li>
+      <li>Thưởng thức: Như có Bác trong ngày đại thắng.</li>
+      <li>Học Bác: ngoan, lễ phép, học chăm, giúp bạn.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="35,36,37,38,39"></div>
+  </div>
+  <a class="next" href="#bai9">✔ Xong Chủ đề 8 Bác Hồ với thiếu nhi → Sang Bài 1. Một số thể loại mĩ thuật ⬇</a>
+</div>
+
+<!-- ================= BÀI 1. MỘT SỐ THỂ LOẠI MĨ THUẬT ================= -->
+<div class="lesson" id="bai9" style="--c:#c2185b">
+  <div class="body">
+  <h3>Bài 1. Một số thể loại mĩ thuật</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai1.webp" alt="Hình minh họa: Bài 1. Một số thể loại mĩ thuật" loading="lazy">
+  <div class="hook rd">🎬 Em xem một bức tranh, một pho tượng, một ngôi nhà đẹp. Tất cả đều là mĩ thuật, nhưng mỗi thứ một thể loại. Mĩ thuật có những thể loại nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Thể loại mĩ thuật</span>: <b>tranh</b> (vẽ), <b>tượng</b> (nặn, đẽo), <b>đồ họa</b> (in), <b>kiến trúc</b> (thiết kế nhà cửa).</li>
+    <li class="rd"><b>Tranh</b> vẽ trên mặt phẳng như giấy, vải. <b>Tượng</b> có khối 3 chiều, nhìn được nhiều phía.</li>
+    <li class="rd"><b>Đồ họa</b> là khắc hình lên bản rồi in ra nhiều bản. <b>Kiến trúc</b> là thiết kế nhà cửa đẹp và dùng tốt.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mĩ thuật có những thể loại nào?</div></div><div class="mini-face mini-back">Tranh, tượng, đồ họa, kiến trúc.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Mĩ thuật ứng dụng</b> làm đẹp đồ dùng hằng ngày: cốc, áo, sách vở, bao bì.</li>
+    <li class="rd">Xem tác phẩm, em nên nhìn <b>bố cục, màu sắc và nội dung</b> tác phẩm muốn nói.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Tranh và tượng khác nhau thế nào?</button><div class="qa-a">Tranh vẽ trên <b>mặt phẳng</b>; tượng có <b>khối 3 chiều</b>, nhìn được nhiều phía.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tranh và tượng khác nhau thế nào?</div></div><div class="mini-face mini-back">Tranh vẽ trên mặt phẳng; tượng có khối, nhìn nhiều phía.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Mĩ thuật có ở đâu?</button><div class="qa-a">Mĩ thuật có <b>khắp nơi quanh em</b>: tranh trong sách, tượng ở công viên, nhà đẹp, áo đẹp.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thể loại: tranh, tượng, đồ họa, kiến trúc.</li>
+      <li>Đồ họa: khắc bản rồi in nhiều bản.</li>
+      <li>Kiến trúc: thiết kế nhà cửa đẹp, dùng tốt.</li>
+      <li>Mĩ thuật ứng dụng: làm đẹp đồ dùng hằng ngày.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="40,41,42,43,44"></div>
+  </div>
+  <a class="next" href="#bai10">✔ Xong Bài 1 Một số thể loại mĩ thuật → Sang Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề ⬇</a>
+</div>
+
+<!-- ================= BÀI 2. XÂY DỰNG Ý TƯỞNG TRONG SÁNG TÁC THEO CHỦ ĐỀ ================= -->
+<div class="lesson" id="bai10" style="--c:#1565c0">
+  <div class="body">
+  <h3>Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai2.webp" alt="Hình minh họa: Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề" loading="lazy">
+  <div class="hook rd">🎬 Trước khi vẽ, em nghĩ: mình vẽ gì? Vẽ về điều gì? Vẽ như thế nào? Nghĩ trước như vậy gọi là xây dựng ý tưởng. Các bước sáng tác gồm những gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Xây dựng ý tưởng</span> là nghĩ trước mình sẽ vẽ gì, vì sao vẽ và vẽ như thế nào.</li>
+    <li class="rd"><b>Quan sát kĩ</b> giúp em nhớ rõ hình dáng, màu sắc để vẽ đúng và sinh động.</li>
+    <li class="rd"><b>Phác thảo</b> là vẽ nháp nhanh bố cục để sửa trước khi vẽ thật.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Các bước sáng tác theo chủ đề là gì?</div></div><div class="mini-face mini-back">Nghĩ ý tưởng trước, rồi phác thảo, vẽ thật, hoàn thiện.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Chủ đề</b> là ý chính mà tác phẩm muốn nói. Ví dụ chủ đề “quê hương” thì mọi hình đều gắn với quê hương.</li>
+    <li class="rd">Thứ tự đúng: <b>quan sát, nghĩ ý tưởng, phác thảo, vẽ thật, hoàn thiện</b>, rồi trưng bày, chia sẻ.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Phác thảo là gì? Vì sao cần phác thảo?</button><div class="qa-a">Phác thảo là <b>vẽ nháp nhanh bố cục</b> để sửa trước khi vẽ thật, tránh vẽ sai phải làm lại.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chủ đề là gì?</div></div><div class="mini-face mini-back">Chủ đề là ý chính mà tác phẩm muốn nói.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Ý tưởng hay thường đến từ đâu?</button><div class="qa-a">Từ điều em <b>quan sát và yêu thích</b> trong cuộc sống, như gia đình, trường lớp, quê hương.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Xây dựng ý tưởng: nghĩ trước vẽ gì, vẽ thế nào.</li>
+      <li>Phác thảo: vẽ nháp bố cục để sửa trước.</li>
+      <li>Chủ đề: ý chính của tác phẩm.</li>
+      <li>Thứ tự: quan sát → ý tưởng → phác thảo → vẽ thật → hoàn thiện.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="45,46,47,48,49"></div>
+  </div>
+  <a class="next" href="#bai11">✔ Xong Bài 2 Xây dựng ý tưởng trong sáng tác theo chủ đề → Sang Bài 3. Tạo hình ngôi nhà ⬇</a>
+</div>
+
+<!-- ================= BÀI 3. TẠO HÌNH NGÔI NHÀ ================= -->
+<div class="lesson" id="bai11" style="--c:#2e7d32">
+  <div class="body">
+  <h3>Bài 3. Tạo hình ngôi nhà</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai3.webp" alt="Hình minh họa: Bài 3. Tạo hình ngôi nhà" loading="lazy">
+  <div class="hook rd">🎬 Ngôi nhà của em có thân nhà, mái nhà, cửa sổ, cửa chính và cây xanh quanh sân. Vẽ ngôi nhà sao cho đẹp và đúng? Em cần nhớ những gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Tạo hình ngôi nhà</span> là dùng hình khối, đường nét và màu sắc để tạo ra hình ngôi nhà.</li>
+    <li class="rd"><b>Thân nhà</b> thường hình hộp chữ nhật, <b>mái nhà</b> hình tam giác hoặc hình thang.</li>
+    <li class="rd"><b>Tỉ lệ</b> đúng giúp nhà trông thật: cửa nhỏ hơn thân nhà, mái vừa với thân nhà.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tạo hình ngôi nhà cần nhớ gì?</div></div><div class="mini-face mini-back">Thân nhà hình hộp, mái hình tam giác, tỉ lệ hợp lý.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Màu ấm</b> như đỏ, vàng, cam tạo cảm giác ấm áp, gần gũi cho ngôi nhà yêu thương.</li>
+    <li class="rd">Thêm <b>cây, sân, hàng rào</b> làm nhà sinh động, có không gian sống. <b>Mái nhà</b> che mưa nắng, làm hình nhà hoàn chỉnh.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Thân nhà và mái nhà thường có hình gì?</button><div class="qa-a">Thân nhà hình <b>hộp chữ nhật</b>, mái nhà hình <b>tam giác</b> hoặc hình thang.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Màu nào hợp với ngôi nhà yêu thương?</div></div><div class="mini-face mini-back">Màu ấm đỏ, vàng, cam tạo cảm giác ấm áp cho ngôi nhà.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vì sao cần chú ý tỉ lệ khi vẽ nhà?</button><div class="qa-a">Tỉ lệ đúng giúp ngôi nhà <b>trông thật</b>: các bộ phận vừa với nhau, không quá to hay quá nhỏ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tạo hình: dùng khối, nét, màu tạo hình nhà.</li>
+      <li>Thân hộp, mái tam giác, tỉ lệ hợp lý.</li>
+      <li>Màu ấm đỏ, vàng, cam: ấm áp.</li>
+      <li>Thêm cây, sân, hàng rào cho sinh động.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="50,51,52,53,54"></div>
+  </div>
+  <a class="next" href="#bai12">✔ Xong Bài 3 Tạo hình ngôi nhà → Sang Bài 4. Thiết kế quà lưu niệm ⬇</a>
+</div>
+
+<!-- ================= BÀI 4. THIẾT KẾ QUÀ LƯU NIỆM ================= -->
+<div class="lesson" id="bai12" style="--c:#ef6c00">
+  <div class="body">
+  <h3>Bài 4. Thiết kế quà lưu niệm</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai4.webp" alt="Hình minh họa: Bài 4. Thiết kế quà lưu niệm" loading="lazy">
+  <div class="hook rd">🎬 Sinh nhật bạn, em muốn tự làm một món quà nhỏ. Món quà nào vừa đẹp vừa có ý nghĩa? Thiết kế quà lưu niệm cần nhớ những gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Quà lưu niệm</span> là món đồ nhỏ xinh tặng nhau để nhắc nhớ kỉ niệm đẹp.</li>
+    <li class="rd"><b>Thiết kế</b> là tự nghĩ ý tưởng, chọn hình dáng, chất liệu và trang trí món quà.</li>
+    <li class="rd">Quà nên <b>nhỏ gọn, dễ mang, dễ giữ</b> vì người nhận thường mang theo hoặc trưng bày lâu dài.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Quà lưu niệm là gì?</div></div><div class="mini-face mini-back">Quà lưu niệm là món đồ nhỏ tặng nhau để nhớ kỉ niệm.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Trang trí <b>vừa phải, hài hòa</b>, không rối mắt, không che mất lời chúc.</li>
+    <li class="rd">Quà tự làm quý vì có <b>công sức và tình cảm</b> người tặng. Làm quà nhớ <b>an toàn</b>: dùng kéo, keo cẩn thận, nhờ người lớn khi cần.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Quà lưu niệm nên như thế nào?</button><div class="qa-a">Nên <b>nhỏ gọn, dễ mang, dễ giữ</b>, trang trí vừa phải, hài hòa.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Vì sao quà tự làm lại quý?</div></div><div class="mini-face mini-back">Quà tự làm quý vì có công sức và tình cảm người tặng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vì sao quà tự làm lại quý?</button><div class="qa-a">Vì quà tự làm có <b>công sức và tình cảm</b> của người tặng, dù vật liệu đơn giản.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Quà lưu niệm: đồ nhỏ tặng nhau nhớ kỉ niệm.</li>
+      <li>Thiết kế: nghĩ ý tưởng, chọn hình, trang trí.</li>
+      <li>Quà nhỏ gọn, dễ mang, dễ giữ.</li>
+      <li>An toàn: kéo, keo cẩn thận, nhờ người lớn.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="55,56,57,58,59"></div>
+  </div>
+  <a class="next" href="#bai13">✔ Xong Bài 4 Thiết kế quà lưu niệm → Sang Bài 5. Tạo hình hoạt động trong nhà trường ⬇</a>
+</div>
+
+<!-- ================= BÀI 5. TẠO HÌNH HOẠT ĐỘNG TRONG NHÀ TRƯỜNG ================= -->
+<div class="lesson" id="bai13" style="--c:#6a1b9a">
+  <div class="body">
+  <h3>Bài 5. Tạo hình hoạt động trong nhà trường</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai5.webp" alt="Hình minh họa: Bài 5. Tạo hình hoạt động trong nhà trường" loading="lazy">
+  <div class="hook rd">🎬 Giờ ra chơi, sân trường rộn ràng: bạn đá cầu, bạn nhảy dây, bạn đọc sách dưới gốc cây. Vẽ cảnh trường học sao cho sinh động?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Tạo hình hoạt động trong nhà trường</span> là vẽ, nặn cảnh học sinh học tập, vui chơi, lao động ở trường.</li>
+    <li class="rd"><b>Nhân vật chính</b> vẽ rõ, nổi bật ở vị trí chính. <b>Bố cục</b> là cách sắp xếp các hình trong tranh hợp lý.</li>
+    <li class="rd"><b>Dáng người đang hoạt động</b> (chạy, nhảy, giơ tay) giúp tranh sinh động vì người xem hiểu ngay đang làm gì.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Vẽ cảnh trường học cần nhớ gì?</div></div><div class="mini-face mini-back">Nhân vật chính vẽ rõ, nổi bật; bố cục sắp xếp hình hợp lý.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Hoạt động ở trường: <b>học tập, vui chơi, thể thao, văn nghệ, lao động</b>.</li>
+    <li class="rd">Vẽ cảnh trường học nên dùng <b>màu tươi sáng</b>, hợp với không khí vui vẻ, hồn nhiên.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Bố cục trong tranh là gì?</button><div class="qa-a">Bố cục là <b>cách sắp xếp các hình trong tranh</b>: hình chính rõ, hình phụ xung quanh, không chen chúc.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Hoạt động trong nhà trường gồm những gì?</div></div><div class="mini-face mini-back">Hoạt động ở trường: học tập, vui chơi, thể thao, văn nghệ, lao động.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Muốn vẽ cảnh trường sinh động, em nên làm gì trước?</button><div class="qa-a"><b>Quan sát thật</b> rồi vẽ — tranh sẽ đúng và sinh động hơn vẽ theo trí nhớ mờ nhạt.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tạo hình: vẽ, nặn cảnh học sinh ở trường.</li>
+      <li>Nhân vật chính vẽ rõ, nổi bật.</li>
+      <li>Bố cục: sắp xếp hình hợp lý.</li>
+      <li>Màu tươi sáng cho không khí vui vẻ.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="60,61,62,63,64"></div>
+  </div>
+  <a class="next" href="#bai14">✔ Xong Bài 5 Tạo hình hoạt động trong nhà trường → Sang Bài 6. Thiết kế đồ chơi ⬇</a>
+</div>
+
+<!-- ================= BÀI 6. THIẾT KẾ ĐỒ CHƠI ================= -->
+<div class="lesson" id="bai14" style="--c:#00838f">
+  <div class="body">
+  <h3>Bài 6. Thiết kế đồ chơi</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai6.webp" alt="Hình minh họa: Bài 6. Thiết kế đồ chơi" loading="lazy">
+  <div class="hook rd">🎬 Em thích tự làm đồ chơi: một chiếc diều giấy, một chiếc đèn lồng. Đồ chơi tự làm cần đẹp, vui và điều quan trọng nhất là gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Thiết kế đồ chơi</span> là nghĩ ý tưởng và làm ra đồ chơi đẹp, vui và <b>an toàn</b> cho trẻ em.</li>
+    <li class="rd"><b>Đồ chơi an toàn</b>: không có cạnh sắc, không có chi tiết nhỏ dễ nuốt, chất liệu không độc hại.</li>
+    <li class="rd"><b>Đồ chơi dân gian</b>: diều, đèn lồng, tò he, chong chóng — làm từ vật liệu đơn giản, gần gũi.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Đồ chơi tốt là đồ chơi như thế nào?</div></div><div class="mini-face mini-back">Đồ chơi đẹp, vui và an toàn: không sắc nhọn, không chi tiết nhỏ dễ nuốt.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Tò he</b> là đồ chơi nặn bằng bột màu thành hình ngộ nghĩnh, thường bán ở hội chợ.</li>
+    <li class="rd">Làm xong cần <b>thử chơi</b> để kiểm tra độ chắc chắn và an toàn. Đồ chơi từ <b>vật liệu tái chế</b> vừa tiết kiệm vừa bảo vệ môi trường.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Đồ chơi an toàn là gì?</button><div class="qa-a">Là đồ chơi <b>không sắc nhọn, không chi tiết nhỏ dễ nuốt</b>, chất liệu không độc hại.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Đồ chơi dân gian gồm những gì?</div></div><div class="mini-face mini-back">Đồ chơi dân gian: diều, đèn lồng, tò he, chong chóng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Tò he là gì?</button><div class="qa-a">Là đồ chơi <b>nặn bằng bột màu</b> thành hình con vật, nhân vật ngộ nghĩnh.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thiết kế: làm đồ chơi đẹp, vui, an toàn.</li>
+      <li>Đồ chơi dân gian: diều, đèn lồng, tò he.</li>
+      <li>Làm xong phải thử chơi kiểm tra an toàn.</li>
+      <li>Vật liệu tái chế: tiết kiệm, bảo vệ môi trường.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="65,66,67,68,69"></div>
+  </div>
+  <a class="next" href="#bai15">✔ Xong Bài 6 Thiết kế đồ chơi → Sang Bài 7. Mĩ thuật thế giới thời kì tiền sử ⬇</a>
+</div>
+
+<!-- ================= BÀI 7. MĨ THUẬT THẾ GIỚI THỜI KÌ TIỀN SỬ ================= -->
+<div class="lesson" id="bai15" style="--c:#a16207">
+  <div class="body">
+  <h3>Bài 7. Mĩ thuật thế giới thời kì tiền sử</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai7.webp" alt="Hình minh họa: Bài 7. Mĩ thuật thế giới thời kì tiền sử" loading="lazy">
+  <div class="hook rd">🎬 Hàng nghìn năm trước, người nguyên thủy đã vẽ lên vách hang những con thú săn. Họ vẽ bằng gì? Tranh của họ nói lên điều gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Mĩ thuật thời tiền sử</span> là nghệ thuật của người nguyên thủy trên vách hang, đá.</li>
+    <li class="rd">Tranh hang động thường vẽ <b>thú săn</b> như bò rừng, ngựa, hươu — con mồi quan trọng của người xưa.</li>
+    <li class="rd">Màu vẽ lấy từ <b>đất, đá, than tự nhiên</b> nên tranh có màu nâu đỏ, đen, vàng đất.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mĩ thuật tiền sử thế giới là gì?</div></div><div class="mini-face mini-back">Nghệ thuật người nguyên thủy trên vách hang, đá; vẽ thú săn.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Người xưa vẽ bằng <b>tay, que, lông thú</b> chấm màu tự nhiên, không có bút vẽ như ngày nay.</li>
+    <li class="rd">Hai hang nổi tiếng: <b>Lascaux ở Pháp</b> và <b>Altamira ở Tây Ban Nha</b>. Tranh tiền sử nét <b>đơn giản, khỏe, hình rõ ràng</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Tranh hang động nói lên điều gì về người tiền sử?</button><div class="qa-a">Người xưa <b>săn bắt thú để sống</b> và mong cuộc sống no đủ.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Màu và hang động tiền sử nổi tiếng là gì?</div></div><div class="mini-face mini-back">Màu tự nhiên từ đất, đá, than; hang Lascaux, Altamira nổi tiếng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vì sao cần bảo vệ di sản tiền sử?</button><div class="qa-a">Để <b>giữ gìn hang động, hình khắc</b> cho con cháu hiểu về tổ tiên và lịch sử loài người.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tiền sử: nghệ thuật người nguyên thủy trên hang, đá.</li>
+      <li>Vẽ thú săn: bò rừng, ngựa, hươu.</li>
+      <li>Màu từ đất, đá, than tự nhiên.</li>
+      <li>Hang nổi tiếng: Lascaux, Altamira.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="70,71,72,73,74"></div>
+  </div>
+  <a class="next" href="#bai16">✔ Xong Bài 7 Mĩ thuật thế giới thời kì tiền sử → Sang Bài 8. Mĩ thuật Việt Nam thời kì tiền sử ⬇</a>
+</div>
+
+<!-- ================= BÀI 8. MĨ THUẬT VIỆT NAM THỜI KÌ TIỀN SỬ ================= -->
+<div class="lesson" id="bai16" style="--c:#d32f2f">
+  <div class="body">
+  <h3>Bài 8. Mĩ thuật Việt Nam thời kì tiền sử</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai8.webp" alt="Hình minh họa: Bài 8. Mĩ thuật Việt Nam thời kì tiền sử" loading="lazy">
+  <div class="hook rd">🎬 Trên đất Việt Nam, người xưa đã mài đá thành rìu, nặn đất thành gốm. Những đồ vật ấy nói lên điều gì về tổ tiên em?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Mĩ thuật Việt Nam thời tiền sử</span> gồm <b>công cụ đá, đồ gốm thô, hình khắc đá</b>.</li>
+    <li class="rd"><b>Rìu đá mài</b> là công cụ lao động mài nhẵn để chặt cây, làm việc hiệu quả hơn.</li>
+    <li class="rd"><b>Đồ gốm</b> làm bằng đất sét nặn tay, nung lửa, dùng đựng nước và thức ăn.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mĩ thuật Việt Nam tiền sử gồm những gì?</div></div><div class="mini-face mini-back">Công cụ đá, đồ gốm thô, hình khắc đá.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Người xưa trang trí gốm bằng <b>vạch, chấm, đường sóng đơn giản</b>, vừa đẹp vừa dễ làm bằng tay.</li>
+    <li class="rd">Người Việt cổ sống bằng <b>săn bắt, hái lượm rồi trồng trọt, chăn nuôi</b>. Đồ cổ cần giữ trong <b>bảo tàng</b> để mọi người học hỏi.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Hình khắc trên đá cho thấy điều gì?</button><div class="qa-a">Người xưa đã biết <b>ghi lại cuộc sống bằng hình khắc</b> đơn giản.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Đồ gốm tiền sử làm bằng gì?</div></div><div class="mini-face mini-back">Gốm đất sét nặn tay, nung lửa, đựng nước và thức ăn.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Mĩ thuật Việt Nam tiền sử có đặc điểm gì?</button><div class="qa-a"><b>Đơn giản, mộc mạc</b>, làm từ vật liệu tự nhiên và công cụ thô sơ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tiền sử Việt Nam: đá, gốm thô, hình khắc đá.</li>
+      <li>Rìu đá mài: công cụ chặt cây, làm việc.</li>
+      <li>Gốm: đất sét nặn tay, nung lửa.</li>
+      <li>Đồ cổ giữ trong bảo tàng để học hỏi.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="75,76,77,78,79"></div>
+  </div>
+  <a class="next" href="#bai17">✔ Xong Bài 8 Mĩ thuật Việt Nam thời kì tiền sử → Sang Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian ⬇</a>
+</div>
+
+<!-- ================= BÀI 9. SÁNG TẠO MĨ THUẬT VỚI TRÒ CHƠI DÂN GIAN ================= -->
+<div class="lesson" id="bai17" style="--c:#c2185b">
+  <div class="body">
+  <h3>Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai9.webp" alt="Hình minh họa: Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian" loading="lazy">
+  <div class="hook rd">🎬 Kéo co, ô ăn quan, nhảy dây — những trò chơi ông bà em từng chơi. Lấy trò chơi làm ý tưởng vẽ, em cần vẽ đúng điều gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Sáng tạo với trò chơi dân gian</span> là lấy trò chơi làm ý tưởng để vẽ, nặn, thiết kế.</li>
+    <li class="rd">Trò chơi dân gian: <b>kéo co, ô ăn quan, nhảy dây, bịt mắt bắt dê, rồng rắn lên mây</b>.</li>
+    <li class="rd"><b>Kéo co</b>: hai đội cùng kéo dây, đội kéo đối phương qua vạch thì thắng.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Trò chơi dân gian gồm những trò nào?</div></div><div class="mini-face mini-back">Kéo co, ô ăn quan, nhảy dây, bịt mắt bắt dê.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Ô ăn quan</b>: chơi trên bàn ô quan, dùng sỏi đi quân theo luật, ai ăn được nhiều quan thì thắng.</li>
+    <li class="rd">Vẽ trò chơi cần vẽ <b>đúng động tác đặc trưng</b>: kéo co thì nghiêng người kéo dây, nhảy dây thì bật nhảy qua dây.</li>
+    <li class="rd">Chơi an toàn: <b>sân rộng, không chen lấn, mệt thì nghỉ</b>.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Trò chơi dân gian dạy em điều gì?</button><div class="qa-a">Dạy em <b>đoàn kết, khéo léo và tôn trọng luật chơi</b>, thắng không kiêu, thua không nản.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Vẽ và chơi trò dân gian cần nhớ gì?</div></div><div class="mini-face mini-back">Vẽ đúng động tác đặc trưng; chơi đoàn kết, tôn trọng luật.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Em giữ gìn trò chơi dân gian bằng cách nào?</button><div class="qa-a">Bằng cách <b>chơi, vẽ và kể lại</b> trò chơi cho bạn bè để trò chơi không bị lãng quên.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Sáng tạo: lấy trò chơi dân gian làm ý tưởng.</li>
+      <li>Kéo co: hai đội kéo dây qua vạch.</li>
+      <li>Ô ăn quan: đi quân bằng sỏi theo luật.</li>
+      <li>Vẽ đúng động tác; chơi an toàn, tôn trọng luật.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="80,81,82,83,84"></div>
+  </div>
+  <a class="next" href="#bai18">✔ Xong Bài 9 Sáng tạo mĩ thuật với trò chơi dân gian → Sang Bài 10. Thiết kế thiệp chúc mừng ⬇</a>
+</div>
+
+<!-- ================= BÀI 10. THIẾT KẾ THIỆP CHÚC MỪNG ================= -->
+<div class="lesson" id="bai18" style="--c:#1565c0">
+  <div class="body">
+  <h3>Bài 10. Thiết kế thiệp chúc mừng</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai10.webp" alt="Hình minh họa: Bài 10. Thiết kế thiệp chúc mừng" loading="lazy">
+  <div class="hook rd">🎬 Sinh nhật bạn sắp đến, em muốn tự làm thiệp. Một tấm thiệp đẹp gồm những gì? Lời chúc nên viết thế nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Thiệp chúc mừng</span> là tấm thiệp có hình trang trí đẹp và lời chúc tốt lành gửi tặng nhau vào dịp vui.</li>
+    <li class="rd">Thiệp gồm <b>mặt ngoài trang trí</b> và <b>mặt trong viết lời chúc</b>, ghi tên người tặng và người nhận.</li>
+    <li class="rd">Dịp tặng thiệp: <b>sinh nhật, Tết, ngày Nhà giáo 20/11</b>, ngày lễ.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thiệp chúc mừng gồm những gì?</div></div><div class="mini-face mini-back">Mặt ngoài trang trí, mặt trong viết lời chúc ngắn, chân thành.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thiết kế thiệp</b> là chọn hình, màu, bố cục và lời chúc phù hợp với dịp và người nhận.</li>
+    <li class="rd">Lời chúc nên <b>ngắn, chân thành, đúng dịp</b>. Trang trí <b>cân đối</b>: hình chính rõ, không che mất lời chúc.</li>
+    <li class="rd">Thiệp sinh nhật: bánh kem, nến, bóng bay. Thiệp Tết: hoa đào, hoa mai, bánh chưng.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Thiệp chúc mừng gồm những phần nào?</button><div class="qa-a">Gồm <b>mặt ngoài trang trí</b> và <b>mặt trong viết lời chúc</b>.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thiệp sinh nhật và thiệp Tết vẽ hình gì?</div></div><div class="mini-face mini-back">Thiệp sinh nhật: bánh kem, nến, bóng bay; thiệp Tết: đào, mai, bánh chưng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vì sao thiệp tự làm lại quý?</button><div class="qa-a">Vì thiệp tự làm có <b>công sức, tình cảm và sự sáng tạo riêng</b> của người tặng.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thiệp: hình đẹp + lời chúc tốt lành.</li>
+      <li>Mặt ngoài trang trí, mặt trong viết lời chúc.</li>
+      <li>Lời chúc ngắn, chân thành, đúng dịp.</li>
+      <li>Sinh nhật: bánh, nến; Tết: đào, mai, bánh chưng.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="85,86,87,88,89"></div>
+  </div>
+  <a class="next" href="#bai19">✔ Xong Bài 10 Thiết kế thiệp chúc mừng → Sang Bài 11. Hoà sắc trong tranh chủ đề lễ hội ⬇</a>
+</div>
+
+<!-- ================= BÀI 11. HOÀ SẮC TRONG TRANH CHỦ ĐỀ LỄ HỘI ================= -->
+<div class="lesson" id="bai19" style="--c:#2e7d32">
+  <div class="body">
+  <h3>Bài 11. Hoà sắc trong tranh chủ đề lễ hội</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai11.webp" alt="Hình minh họa: Bài 11. Hoà sắc trong tranh chủ đề lễ hội" loading="lazy">
+  <div class="hook rd">🎬 Tranh lễ hội rực rỡ sắc màu: đỏ, vàng, cam vui tươi. Phối màu sao cho đẹp mà không rối mắt? Bí quyết là hòa sắc.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Hòa sắc</span> là phối nhiều màu với nhau sao cho hợp, nhìn hài hòa, không chỏi nhau.</li>
+    <li class="rd"><b>Màu nóng</b>: đỏ, vàng, cam — gợi cảm giác vui tươi, náo nhiệt, hợp với tranh lễ hội.</li>
+    <li class="rd"><b>Màu lạnh</b>: xanh dương, xanh lá, tím — gợi cảm giác dịu mát, yên tĩnh.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Hòa sắc và màu nóng là gì?</div></div><div class="mini-face mini-back">Hòa sắc là phối màu hài hòa; màu nóng: đỏ, vàng, cam.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Lễ hội Việt Nam: <b>Tết Nguyên đán, Trung thu, hội làng, lễ hội hoa</b>. Đèn lồng đỏ, vàng là hình ảnh quen thuộc của <b>Tết Trung thu</b>.</li>
+    <li class="rd"><b>Màu chính</b> chiếm nhiều nhất, <b>màu phụ</b> điểm thêm để tranh sinh động mà không rối.</li>
+    <li class="rd">Vẽ tranh lễ hội cần vẽ <b>đúng hoạt động đặc trưng</b>: múa lân, rước đèn, gói bánh chưng.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Màu nóng và màu lạnh gồm những màu nào?</button><div class="qa-a">Màu nóng: <b>đỏ, vàng, cam</b>. Màu lạnh: <b>xanh dương, xanh lá, tím</b>.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Màu lạnh và màu tranh lễ hội là gì?</div></div><div class="mini-face mini-back">Màu lạnh: xanh dương, xanh lá, tím; tranh lễ hội dùng màu tươi, rộn ràng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Tranh lễ hội đẹp nhờ điều gì?</button><div class="qa-a">Nhờ <b>màu hài hòa, hoạt động rõ ràng</b> và thể hiện được niềm vui của mọi người.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Hòa sắc: phối màu hợp nhau, hài hòa.</li>
+      <li>Màu nóng: đỏ, vàng, cam; màu lạnh: xanh dương, xanh lá, tím.</li>
+      <li>Màu chính nhiều nhất, màu phụ điểm thêm.</li>
+      <li>Vẽ đúng hoạt động đặc trưng của lễ hội.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="90,91,92,93,94"></div>
+  </div>
+  <a class="next" href="#bai20">✔ Xong Bài 11 Hoà sắc trong tranh chủ đề lễ hội → Sang Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường ⬇</a>
+</div>
+
+<!-- ================= BÀI 12. MÀU SẮC LỄ HỘI TRONG THIẾT KẾ LỊCH TREO TƯỜNG ================= -->
+<div class="lesson" id="bai20" style="--c:#ef6c00">
+  <div class="body">
+  <h3>Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai12.webp" alt="Hình minh họa: Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường" loading="lazy">
+  <div class="hook rd">🎬 Trong nhà em có tờ lịch treo tường: trên là tranh đẹp, dưới là số ngày. Làm lịch theo chủ đề lễ hội thì mỗi tháng vẽ gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Lịch treo tường</span> gồm <b>phần tranh ảnh</b> và <b>phần số ngày, tháng</b> để xem ngày.</li>
+    <li class="rd"><b>Thiết kế lịch theo chủ đề lễ hội</b> là chọn ảnh lễ hội cho từng tháng, màu hợp với lễ hội đó.</li>
+    <li class="rd"><b>Số ngày, tháng phải rõ ràng, dễ đọc</b> vì đó là công dụng chính của lịch.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Lịch treo tường gồm những gì?</div></div><div class="mini-face mini-back">Lịch gồm tranh ảnh và số ngày, tháng; số phải rõ, dễ đọc.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bố cục lịch</b> cân đối: tranh và số ngày rõ ràng, không che nhau.</li>
+    <li class="rd">Tháng Tết: <b>hoa đào, hoa mai, bánh chưng</b>. Tháng Trung thu: <b>đèn lồng, bánh trung thu, chú Cuội</b>.</li>
+    <li class="rd">Làm lịch cần <b>cắt dán gọn gàng, chữ số ngay ngắn</b> thì lịch mới đẹp và dùng tốt.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Lịch treo tường dùng để làm gì?</button><div class="qa-a">Để <b>xem ngày, tháng, ngày lễ</b> và ghi chú việc quan trọng trong nhà.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Lịch lễ hội tháng Tết và Trung thu chọn ảnh gì?</div></div><div class="mini-face mini-back">Tháng Tết: đào, mai, bánh chưng; tháng Trung thu: đèn lồng, bánh trung thu.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Màu sắc lịch lễ hội nên như thế nào?</button><div class="qa-a">Nên <b>tươi sáng, hợp với lễ hội từng tháng</b>: tháng Tết dùng đỏ, vàng; tháng Trung thu dùng vàng, cam.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Lịch gồm: tranh ảnh + số ngày, tháng.</li>
+      <li>Số ngày phải rõ ràng, dễ đọc.</li>
+      <li>Bố cục cân đối, tranh và số không che nhau.</li>
+      <li>Tháng Tết: đào, mai; Trung thu: đèn lồng.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="95,96,97,98,99"></div>
+  </div>
+  <a class="next" href="#bai21">✔ Xong Bài 12 Màu sắc lễ hội trong thiết kế lịch treo tường → Sang Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống ⬇</a>
+</div>
+
+<!-- ================= BÀI 13. SÁNG TẠO MĨ THUẬT VỚI HÌNH ẢNH TRONG CUỘC SỐNG ================= -->
+<div class="lesson" id="bai21" style="--c:#6a1b9a">
+  <div class="body">
+  <h3>Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai13.webp" alt="Hình minh họa: Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống" loading="lazy">
+  <div class="hook rd">🎬 Chợ buổi sáng đông vui, đồng ruộng xanh ngát, bữa cơm gia đình ấm cúng. Cảnh đời thường cũng đẹp nếu em biết nhìn. Em sáng tác từ cuộc sống bằng cách nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Sáng tạo từ cuộc sống</span> là lấy cảnh chợ, đường phố, đồng ruộng, gia đình làm ý tưởng vẽ.</li>
+    <li class="rd"><b>Quan sát cuộc sống</b> giúp em thấy nhiều khoảnh khắc đẹp: mẹ nấu cơm, bạn đá cầu, chợ buổi sáng đông vui.</li>
+    <li class="rd"><b>Vẽ theo trí nhớ</b> là vẽ lại cảnh em đã thấy và nhớ, không cần nhìn trực tiếp lúc vẽ.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Sáng tạo từ cuộc sống là gì?</div></div><div class="mini-face mini-back">Lấy cảnh đời thường làm ý tưởng; quan sát giúp thấy khoảnh khắc đẹp.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Vẽ theo quan sát trực tiếp</b> là ngồi trước cảnh thật và vẽ ngay, giúp hình đúng và sinh động.</li>
+    <li class="rd"><b>Chọn khoảnh khắc đẹp</b> là chọn lúc cảnh vật, con người đang ở trạng thái hay nhất.</li>
+    <li class="rd">Tranh cuộc sống hay khi người xem <b>nhận ra cảnh quen thuộc và cảm được tình cảm</b> trong tranh.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vẽ theo trí nhớ và vẽ trực tiếp khác nhau thế nào?</button><div class="qa-a">Vẽ theo trí nhớ là <b>vẽ lại cảnh đã thấy và nhớ</b>; vẽ trực tiếp là <b>ngồi trước cảnh thật và vẽ ngay</b>.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Vẽ theo trí nhớ và vẽ trực tiếp khác nhau thế nào?</div></div><div class="mini-face mini-back">Vẽ theo trí nhớ là vẽ lại cảnh đã thấy; vẽ trực tiếp là vẽ trước cảnh thật.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vẽ cảnh chợ buổi sáng nên vẽ những gì?</button><div class="qa-a">Vẽ <b>người mua bán, hàng hóa, sạp hàng</b> để thấy được sự đông vui của chợ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Sáng tạo: lấy cảnh đời thường làm ý tưởng.</li>
+      <li>Quan sát giúp thấy khoảnh khắc đẹp.</li>
+      <li>Vẽ trí nhớ: vẽ lại cảnh đã thấy; vẽ trực tiếp: vẽ trước cảnh thật.</li>
+      <li>Tranh hay: gợi cảnh quen thuộc và tình cảm thật.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="100,101,102,103,104"></div>
+  </div>
+  <a class="next" href="#bai22">✔ Xong Bài 13 Sáng tạo mĩ thuật với hình ảnh trong cuộc sống → Sang Bài 14. Thiết kế thời gian biểu ⬇</a>
+</div>
+
+<!-- ================= BÀI 14. THIẾT KẾ THỜI GIAN BIỂU ================= -->
+<div class="lesson" id="bai22" style="--c:#00838f">
+  <div class="body">
+  <h3>Bài 14. Thiết kế thời gian biểu</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai14.webp" alt="Hình minh họa: Bài 14. Thiết kế thời gian biểu" loading="lazy">
+  <div class="hook rd">🎬 Mỗi ngày em có bao nhiêu việc: học, chơi, ăn, ngủ, giúp việc nhà. Làm sao để không quên việc nào? Một thời gian biểu sẽ giúp em.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Thời gian biểu</span> là bảng sắp xếp các việc trong ngày theo giờ: học, chơi, ăn, ngủ, giúp việc nhà.</li>
+    <li class="rd"><b>Thiết kế thời gian biểu</b> là tự làm bảng giờ giấc đẹp, rõ ràng, hợp với sinh hoạt của em.</li>
+    <li class="rd">Thời gian biểu tốt có đủ việc: <b>học, nghỉ ngơi, vui chơi, thể thao, giúp việc nhà</b> — không chỉ toàn học.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thời gian biểu là gì?</div></div><div class="mini-face mini-back">Bảng việc trong ngày theo giờ: học, chơi, nghỉ, giúp nhà.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Giờ giấc rõ ràng, theo thứ tự từ sáng đến tối</b> để em dễ theo dõi.</li>
+    <li class="rd">Trang trí <b>vừa phải, dễ nhìn, không rối mắt</b>. <b>Dán ở góc học tập</b> để nhìn thấy mỗi ngày và làm theo.</li>
+    <li class="rd">Thời gian biểu <b>có thể thay đổi</b> khi lịch học thay đổi, miễn là vẫn cân đối học, chơi, nghỉ.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Làm theo thời gian biểu có ích gì?</button><div class="qa-a">Giúp em <b>không quên việc, học đều</b> và có thời gian chơi, nghỉ hợp lý.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thời gian biểu tốt cần gì?</div></div><div class="mini-face mini-back">Giờ rõ ràng từ sáng đến tối; dán ở góc học tập để làm theo.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Chữ trên thời gian biểu nên viết thế nào?</button><div class="qa-a">Viết <b>chữ to, rõ, màu phân biệt từng việc</b> để đọc nhanh và làm đúng giờ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thời gian biểu: bảng việc trong ngày theo giờ.</li>
+      <li>Đủ học, nghỉ, chơi, thể thao, giúp nhà.</li>
+      <li>Giờ rõ ràng từ sáng đến tối.</li>
+      <li>Dán ở góc học tập; có thể đổi khi lịch đổi.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="105,106,107,108,109"></div>
+  </div>
+  <a class="next" href="#bai23">✔ Xong Bài 14 Thiết kế thời gian biểu → Sang Bài 15. Mĩ thuật thế giới thời kì cổ đại ⬇</a>
+</div>
+
+<!-- ================= BÀI 15. MĨ THUẬT THẾ GIỚI THỜI KÌ CỔ ĐẠI ================= -->
+<div class="lesson" id="bai23" style="--c:#a16207">
+  <div class="body">
+  <h3>Bài 15. Mĩ thuật thế giới thời kì cổ đại</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai15.webp" alt="Hình minh họa: Bài 15. Mĩ thuật thế giới thời kì cổ đại" loading="lazy">
+  <div class="hook rd">🎬 Kim tự tháp cao vút giữa sa mạc, đấu trường tròn khổng lồ ở La Mã. Người xưa đã xây nên những công trình ấy bằng gì? Nghệ thuật cổ đại có gì đặc biệt?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Mĩ thuật thời cổ đại</span> là nghệ thuật của các nền văn minh cổ như <b>Ai Cập, Hy Lạp, La Mã</b>.</li>
+    <li class="rd"><b>Kim tự tháp Ai Cập</b> là lăng mộ lớn bằng đá của các pharaoh, xây bằng hàng triệu khối đá xếp chồng.</li>
+    <li class="rd"><b>Tượng Nhân sư</b> có thân sư tử và đầu người, canh giữ kim tự tháp.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Kim tự tháp và Nhân sư là gì?</div></div><div class="mini-face mini-back">Kim tự tháp là lăng mộ đá của pharaoh; Nhân sư thân sư tử, đầu người.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd">Người <b>Hy Lạp cổ</b> vẽ hình tinh tế lên bình gốm và tạc tượng người tỉ lệ hài hòa, đẹp tự nhiên.</li>
+    <li class="rd"><b>Đấu trường Colosseum</b> ở La Mã cổ là nơi thi đấu, biểu diễn lớn hình tròn, chứa hàng vạn khán giả.</li>
+    <li class="rd">Mĩ thuật cổ đại làm bằng <b>đá, đồng, gốm bền vững</b> nên nhiều tác phẩm còn đến ngày nay.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Mĩ thuật cổ đại có ý nghĩa gì với ngày nay?</button><div class="qa-a">Nghệ thuật cổ đại <b>phản ánh đời sống, tín ngưỡng và ước mơ của người xưa</b>, là kho báu lịch sử.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Đấu trường Colosseum là gì?</div></div><div class="mini-face mini-back">Colosseum là đấu trường La Mã hình tròn chứa hàng vạn khán giả.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Cột đá Hy Lạp, La Mã có đặc điểm gì?</button><div class="qa-a">Cột đá <b>vừa chống đỡ công trình vừa trang trí rất đẹp</b>, ảnh hưởng đến kiến trúc sau này.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Cổ đại: Ai Cập, Hy Lạp, La Mã.</li>
+      <li>Kim tự tháp: lăng mộ đá của pharaoh.</li>
+      <li>Hy Lạp: bình gốm, tượng tỉ lệ hài hòa.</li>
+      <li>La Mã: đấu trường Colosseum hình tròn.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="110,111,112,113,114"></div>
+  </div>
+  <a class="next" href="#bai24">✔ Xong Bài 15 Mĩ thuật thế giới thời kì cổ đại → Sang Bài 16. Mĩ thuật Việt Nam thời kì cổ đại ⬇</a>
+</div>
+
+<!-- ================= BÀI 16. MĨ THUẬT VIỆT NAM THỜI KÌ CỔ ĐẠI ================= -->
+<div class="lesson" id="bai24" style="--c:#d32f2f">
+  <div class="body">
+  <h3>Bài 16. Mĩ thuật Việt Nam thời kì cổ đại</h3>
+  <img class="lesson-cover" src="../hinh-anh/nghethuat/nghethuat-mithuat-bai16.webp" alt="Hình minh họa: Bài 16. Mĩ thuật Việt Nam thời kì cổ đại" loading="lazy">
+  <div class="hook rd">🎬 Mặt trống đồng chạm hình mặt trời, chim bay, người múa. Đó là báu vật của người Việt cổ. Trống đồng kể chuyện gì về tổ tiên em?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><span class="hl2">Mĩ thuật Việt Nam thời cổ đại</span> gắn với <b>văn hóa Đông Sơn</b>: đồ đồng tinh xảo, nổi tiếng nhất là trống đồng.</li>
+    <li class="rd"><b>Trống đồng Đông Sơn</b> là trống bằng đồng, mặt trống chạm hình <b>mặt trời, chim Lạc, người múa</b>.</li>
+    <li class="rd"><b>Chim Lạc</b> là hình chim bay với mỏ dài, cánh xòe — hình ảnh quen thuộc của người Việt cổ.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mĩ thuật Việt cổ gắn với gì? Trống đồng ra sao?</div></div><div class="mini-face mini-back">Văn hóa Đông Sơn; trống đồng chạm mặt trời, chim Lạc, người múa.</div></div></div>
+
+  <ul class="learn">
+    <li class="rd"><b>Đồ đồng Đông Sơn</b> gồm trống, thạp, rìu, dao găm — đúc đồng khéo léo, hoa văn tinh tế.</li>
+    <li class="rd">Hoa văn trống đồng kể chuyện đời sống: <b>giã gạo, chèo thuyền, múa hát</b> trong lễ hội.</li>
+    <li class="rd">Gốm Việt cổ đã <b>mịn và đẹp hơn gốm tiền sử</b>. Bảo vệ đồ cổ: giữ trong <b>bảo tàng</b>, không mua bán, không làm hỏng.</li>
+  </ul>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Trống đồng có ý nghĩa gì với người Việt?</button><div class="qa-a">Trống đồng là <b>niềm tự hào</b>, thể hiện trình độ đúc đồng cao và đời sống văn hóa rực rỡ thời cổ đại.</div></div>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Bảo vệ trống đồng bằng cách nào?</div></div><div class="mini-face mini-back">Bảo vệ trống đồng: giữ trong bảo tàng, không mua bán, không làm hỏng.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Học mĩ thuật Việt cổ có ích gì?</button><div class="qa-a">Giúp em <b>hiểu tổ tiên khéo léo, sáng tạo ra sao</b>, từ đó thêm yêu quê hương.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Việt cổ: văn hóa Đông Sơn, đồ đồng.</li>
+      <li>Trống đồng: mặt trời, chim Lạc, người múa.</li>
+      <li>Hoa văn kể chuyện giã gạo, chèo thuyền, múa hát.</li>
+      <li>Bảo vệ đồ cổ trong bảo tàng.</li>
+    </ul>
+  </div>
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="115,116,117,118,119"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Bài 16 → Xuống Phần TỔNG KẾT ⬇</a>
+</div>
+
+<!-- ================= TỔNG KẾT ================= -->
+<div id="sumwrap">
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 24 bài rồi, giỏi lắm! Giờ nhìn lại cả năm:</p><p>Bước 1) Nhớ lại 8 chủ đề Âm nhạc: Tuổi học trò, Cuộc sống tươi đẹp, Nhớ ơn thầy cô, Ước mơ hòa bình, Giai điệu quê hương, Mẹ trong trái tim em, Âm nhạc nước ngoài, Bác Hồ với thiếu nhi.<br>Bước 2) Nhớ lại 8 chủ đề Mĩ thuật: ý tưởng sáng tác, ngôi nhà, trường học, tiền sử, trò chơi dân gian, lễ hội, cuộc sống, cổ đại.<br>Bước 3) Lật lại toàn bộ flashcard một lượt.<br>Bước 4) Sang phần trắc nghiệm.</p></div>
+<div class="card" style="--c:#6a1b9a">
+  <h3>🧠 Sơ đồ TỔNG — Nghệ thuật 6, cả năm</h3>
+  <p style="font-size:16px;line-height:1.6">Âm nhạc: hát – nghe nhạc – lí thuyết – đọc nhạc – nhạc cụ.<br>Mĩ thuật: thể loại – ý tưởng – tạo hình – thiết kế – lịch sử mĩ thuật.</p>
+</div>
+
+<div class="card">
+  <h3>🃏 Flashcard TỔNG ÔN — cả 120 thẻ của năm học</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="fcbox" data-cards="all"></div>
+</div>
+
+<a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm Nghệ thuật 6 (Cả năm)<small>216 câu hỏi • 3 chế độ: Học tập – Luyện tập – Kiểm tra thử • Câu hỏi xếp từ dễ đến khó, cứ từ từ làm nhé!</small></a>
+<p class="note">📌 Lưu ý: môn trình bày theo thứ tự SGK cả năm học, chưa chia Học kì 1 / Học kì 2 vì chưa có phân phối chương trình của trường bé. Âm nhạc dùng tên Chủ đề vì SGK Âm nhạc không đánh số bài. Môn chưa có ảnh minh họa nên thẻ để dạng chữ.</p>
+</div><!-- /#sumwrap -->
+
+<!-- ===== THANH CHẾ ĐỘ XEM (cuối trang) ===== -->
+<div class="viewbar viewbar-b">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+</div>
+
+<footer>
+  <details><summary style="cursor:pointer;font-weight:600;min-height:44px;padding:10px 0">Nguồn hình ảnh (cho thầy cô và ba mẹ)</summary>
+  <b>Nguồn ảnh:</b> môn này chưa có ảnh minh họa, các thẻ để dạng chữ, không dùng ảnh vỡ. Sơ đồ tư duy là hình SVG tự vẽ, nhãn tiếng Việt.<br>
+  </details>
+  Nội dung bám theo SGK “Âm nhạc 6” và “Mĩ thuật 6” — bộ Kết nối tri thức với cuộc sống (cả năm: Âm nhạc 8 chủ đề, Mĩ thuật 16 bài). Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
+</footer>
+
+<script src="cards-data.js"></script>
+<script src="../assets/fc-state.js"></script>
+<script>
+
+/* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ đúng khái niệm của thẻ] */
+/* Du lieu the (flashcard) da tach sang file cards-data.js — dung chung cho trang hoc va trang bai tap. */
+/* Câu hỏi gợi nhớ + kiểm tra nhanh: bấm để hiện/ẩn đáp án */
+document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+/* Thẻ lật mini ⚡ Nhớ nhanh: bấm để lật, không chấm điểm, không lưu trạng thái */
+document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('click',function(){c.classList.toggle('flipped');});});
+/* Flashcard */
+var LSKEY='nghethuat_flash_v1';
+var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
+var FCIDMAP={}; if(typeof CARDS!=='undefined'){ CARDS.forEach(function(c,ci){ FCIDMAP[ci]='c:'+ci; }); }
+var FSTORE=null,FSNAP={};
+if(window.fcStore){ FSTORE=fcMigrateFlash('nghethuat'); var _mk={}; Object.keys(FCIDMAP).forEach(function(id){ if(FSTORE.isKnown(FCIDMAP[id])){ _mk[id]=true; FSNAP[FCIDMAP[id]]=1; } }); known=_mk; }
+function saveKnown(){ if(FSTORE){ Object.keys(FCIDMAP).forEach(function(id){ var cid=FCIDMAP[id], inK=!!known[id]; if(inK&&!FSNAP[cid]){ FSTORE.setKnown(cid,true); FSNAP[cid]=1; } else if(!inK&&FSNAP[cid]){ FSTORE.setKnown(cid,false); delete FSNAP[cid]; } }); return; } try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   1 the tai 1 thoi diem; the chua thuoc xep truoc. Bam vao the de lat (xoay 3D).
+   Tick "Da thuoc": tick pop + the truot phai; "Chua thuoc": truot trai + ve cuoi hang doi.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-guide" style="text-align:center;font-size:16px;color:#37474f;margin:8px 0 2px">Bấm vào thẻ để lật xem đáp án. Nhớ rồi thì bấm ✔ Đã thuộc. Chưa nhớ thì bấm ↺ Chưa thuộc — thẻ sẽ quay lại cho em học tiếp, không bị trừ điểm đâu.</div><div class="fc-guardmsg" style="text-align:center;font-size:16px;font-weight:600;color:#b34700;min-height:24px"></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(guardMsg)guardMsg.textContent='';
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    var tt=(cfg.totalText?cfg.totalText():'');
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(tt?(' • '+tt):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
+  }
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;
+    if(!flipped){flipped=true;card.classList.add('flipped');if(guardMsg)guardMsg.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?';return;}
+    busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
+}
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){
+    var c=CARDS[ci];
+    var img=(c[2]&&typeof IMG!=='undefined'&&IMG[c[2]])?'<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">':'';
+    var front=img+'<div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){ var s='Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ'; if(window.FSTORE){ var dn=FSTORE.countDue(Object.keys(FCIDMAP).map(function(k){return FCIDMAP[k];})); if(dn>0) s+=' • Hôm nay ôn lại nhé: '+dn+' thẻ sắp quên'; } return s; }});
+});
+
+/* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
+var VMKEY='nghethuat_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','bai13','bai14','bai15','bai16','bai17','bai18','bai19','bai20','bai21','bai22','bai23','bai24','sum'];
+var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','Chủ đề 6','Chủ đề 7','Chủ đề 8','Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','Bài 15','Bài 16','🏁 Tổng kết'];
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+PLABELS.forEach(function(lb,i){
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button';
+  b.addEventListener('click',function(){showPage(i,true);});
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
+function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
+function showPage(i,scroll){
+  if(window.__stopRead) window.__stopRead();
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 24':'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='sum';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
+(function(){
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'sum':h);
+  if(ix>=0) curPage=ix;
+})();
+applyMode();
+showPage(curPage,false);
+</script>
+
+<script>
+/* ===== NGHE BÀI bằng speechSynthesis (giọng vi-VN nếu có) — mẫu của trang Ngữ văn =====
+   Đọc theo từng câu/ý ngắn nối tiếp, tô sáng phần đang đọc, có nút Dừng,
+   cảnh báo khi máy chưa có giọng đọc tiếng Việt. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  var RATEKEY='nghethuat_read_rate', readRate=0.92;
+  try{ var savedRate=parseFloat(localStorage.getItem(RATEKEY)); if([0.78,0.92,1.08].indexOf(savedRate)>=0) readRate=savedRate; }catch(e){}
+  function syncRates(source){
+    document.querySelectorAll('.ls-rate').forEach(function(sel){ if(sel!==source) sel.value=String(readRate); });
+  }
+  document.querySelectorAll('.ls-rate').forEach(function(sel){
+    sel.value=String(readRate);
+    sel.addEventListener('change',function(){
+      var v=parseFloat(sel.value);
+      if([0.78,0.92,1.08].indexOf(v)<0) v=0.92;
+      readRate=v; sel.value=String(v);
+      try{ localStorage.setItem(RATEKEY,String(v)); }catch(e){}
+      syncRates(sel);
+    });
+  });
+  function pickVoice(){
+    var vs=synth.getVoices()||[], fallback=null;
+    viVoice=null;
+    for(var i=0;i<vs.length;i++){
+      var lang=(vs[i].lang||'').toLowerCase().replace('_','-');
+      if(lang==='vi-vn'){ viVoice=vs[i]; break; }
+      if(!fallback && lang.indexOf('vi')===0) fallback=vs[i];
+    }
+    if(!viVoice) viVoice=fallback;
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null;
+  function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function splitText(t){
+    var sents=(t||'').match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[];
+    function pushPiece(piece){
+      piece=(piece||'').trim();
+      while(piece.length>140){
+        var cut=piece.lastIndexOf(',',139);
+        if(cut<40) cut=piece.lastIndexOf(';',139);
+        if(cut<40) cut=piece.lastIndexOf(':',139);
+        if(cut<40) cut=piece.lastIndexOf(' ',139);
+        if(cut<40){ cut=140; }
+        else if(piece[cut]!==' '){ cut+=1; }
+        out.push(piece.slice(0,cut).trim());
+        piece=piece.slice(cut).trim();
+      }
+      if(piece) out.push(piece);
+    }
+    sents.forEach(pushPiece);
+    return out;
+  }
+  function pushLong(units,t,el){
+    splitText(t).forEach(function(x){ units.push({t:x,el:el}); });
+  }
+  var lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+  function prepare(lesson){
+    if(lesson._units) return lesson._units;
+    var units=[];
+    lesson.querySelectorAll('.rd').forEach(function(el){
+      var txt=(el.textContent||'').replace(/\s+/g,' ').trim();
+      if(!txt) return;
+      if(el.querySelector('b,span,i,em,strong,ul')){ pushLong(units,txt,el); return; }
+      var sents=txt.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[txt];
+      el.innerHTML=sents.map(function(x){ return '<span class="rb-u">'+esc(x.trim())+'</span>'; }).join(' ');
+      el.querySelectorAll('.rb-u').forEach(function(sp){ pushLong(units,sp.textContent,sp); });
+    });
+    lesson._units=units;
+    return units;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.classList.remove('reading'); b.textContent='🔊 Nghe bài này'; });
+    document.querySelectorAll('.ls-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc… (bấm để dừng)'; st.stopBtn.hidden=false; }
+  }
+  function clearTimers(st){
+    if(!st) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    if(st.keepAlive){ clearInterval(st.keepAlive); st.keepAlive=null; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; clearTimers(cur); cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    hi(null); setBtn(null);
+  }
+  window.__stopRead=stopRead;
+  function advanceChunk(st,token){
+    if(cur!==st || st.dead || st.chunkToken!==token) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    st.idx++; speakNext(st);
+  }
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    var unit=st.units[st.idx], token=(st.chunkToken||0)+1;
+    st.chunkToken=token;
+    hi(unit.el);
+    pickVoice();
+    var u=new SpeechSynthesisUtterance(unit.t);
+    u.lang='vi-VN'; u.rate=readRate;
+    if(viVoice){ u.voice=viVoice; u.lang=viVoice.lang||u.lang; }
+    var estimatedMs=Math.min(30000,Math.max(9000,Math.ceil(unit.t.length/(11*readRate)*1000)+5000));
+    st.watchdog=setTimeout(function(){ advanceChunk(st,token); },estimatedMs);
+    u.onend=function(){ advanceChunk(st,token); };
+    u.onerror=function(e){ if(e.error!=='canceled'&&e.error!=='interrupted') advanceChunk(st,token); };
+    try{ synth.speak(u); }catch(e){ advanceChunk(st,token); }
+  }
+  function startRead(lesson){
+    stopRead();
+    var units;
+    try{ units=prepare(lesson); }catch(e){ units=[]; }
+    if(!units.length) return;
+    pickVoice();
+    var note=lesson.querySelector('.ls-note');
+    if(note){
+      if(viVoice){ note.hidden=true; }
+      else{
+        var dv=(synth.getVoices()||[])[0];
+        note.textContent='⚠️ Máy này chưa có giọng đọc tiếng Việt (đang đọc bằng giọng '+(dv?('"'+dv.name+'" '):'mặc định ')+') nên nghe sẽ không đúng tiếng Việt. Khắc phục: mở trang bằng trình duyệt Microsoft Edge, hoặc cài thêm giọng/gói ngôn ngữ Tiếng Việt trong phần cài đặt của máy.';
+        note.hidden=false;
+      }
+    }
+    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false,chunkToken:0,watchdog:null,keepAlive:null};
+    cur=st; setBtn(st);
+    st.keepAlive=setInterval(function(){ if(cur===st&&!st.dead&&synth.paused){ try{ synth.resume(); }catch(e){} } },4000);
+    speakNext(st);
+  }
+  document.querySelectorAll('.lesson').forEach(function(lesson){
+    var lb=lesson.querySelector('.ls-listen');
+    if(!lb) return;
+    lb.addEventListener('click',function(){ if(cur&&cur.lesson===lesson){ stopRead(); } else { startRead(lesson); } });
+    lesson.querySelector('.ls-stop').addEventListener('click',function(){ stopRead(); });
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
+})();
+</script>
+
+
+
+
+<script>
+/* ===== CHON BAI GON 2 DONG (v2): thay luoi nut chon bai bang o select "so bai".
+   - Nut trung (thanh tren/duoi) duoc gop theo ma bai (data-i hoac noi dung nut).
+   - Moi thanh dieu huong co mot o select rieng, cac o tu dong bo nhau.
+   - Select van goi click() cua nut bai goc nen giu nguyen logic chuyen bai cua trang. ===== */
+(function(){
+  function rawBtns(){
+    var sels=['#pickrow button','.viewctl .chip','.viewctl .vchip','.nv-chip'];
+    for(var i=0;i<sels.length;i++){ var b=document.querySelectorAll(sels[i]); if(b.length>1) return Array.prototype.slice.call(b); }
+    return [];
+  }
+  function keyOf(b){ var k=b.getAttribute('data-i'); return (k!==null&&k!=='') ? 'i'+k : 't'+b.textContent.replace(/\s+/g,' ').trim(); }
+  function init(){
+    var btns=rawBtns(); if(!btns.length) return false;
+    if(document.querySelector('.bai-sel')) return true;
+    var keys=[], firstByKey={}, containers=[];
+    btns.forEach(function(b){
+      var k=keyOf(b);
+      if(!(k in firstByKey)){ firstByKey[k]=b; keys.push(k); }
+      if(containers.indexOf(b.parentElement)<0) containers.push(b.parentElement);
+    });
+    function navBoxFor(box){
+      var pure=true;
+      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0) pure=false; });
+      if(!pure) return box;
+      var n=document.querySelector('#picker .navrow')||document.querySelector('.prevnext');
+      if(n && box!==n) return n;
+      var vb=box.parentElement.querySelector('.vnavb'); if(vb) return vb.parentElement;
+      return box;
+    }
+    var sels=[];
+    containers.forEach(function(box){
+      var target=navBoxFor(box);
+      var sel=document.createElement('select');
+      sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
+      keys.forEach(function(k){
+        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+      });
+      sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
+      if(target===box) box.insertBefore(sel, box.firstChild);
+      else target.insertBefore(sel, target.firstChild);
+      sels.push(sel);
+      if(target!==box) box.style.display='none';
+      else btns.forEach(function(b){ if(b.parentElement===box) b.style.display='none'; });
+    });
+    function syncAll(){
+      var cur=null;
+      btns.forEach(function(b){ if(b.classList.contains('on')) cur=keyOf(b); });
+      if(cur===null) return;
+      sels.forEach(function(s){ if(s.value!==cur) s.value=cur; });
+    }
+    new MutationObserver(function(){ setTimeout(syncAll,30); }).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class']});
+    syncAll();
+    return true;
+  }
+  if(!init()){
+    var n=0, iv=setInterval(function(){ n++; if(init()||n>20) clearInterval(iv); },300);
+    document.addEventListener('DOMContentLoaded', init);
+  }
+})();
+</script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-# GDCD 6 — Học kì 1 (module gdcd/)
+# GDCD 6 — Cả năm học (module gdcd/)
 
 Trang học + trắc nghiệm môn **Giáo dục công dân 6**, sách **Kết nối tri thức với cuộc sống**, theo đúng khuôn thống nhất của site (mẫu chuẩn: trang Lịch sử), dùng chung `../assets/common.css`.
 
@@ -9,9 +9,9 @@ Bài 1: Tự hào về truyền thống gia đình, dòng họ • Bài 2: Yêu 
 
 **Phân phối chương trình (PPCT) KNTT** — nguồn: bloghoctap.edu.vn và lop6.edu.vn (bảng PPCT GDCD 6 KNTT giống nhau ở hai nguồn):
 - Học kì 1 = **Bài 1–6** (tiết 1–18). Kiểm tra giữa kì 1 ở tiết 9, sau Bài 3 → **Ôn GK = Bài 1–3**, **Sau GK = Bài 4–6**.
-- Học kì 2 = Bài 7–12 → **chưa làm trong module này** (module chỉ phủ HK1, giống phạm vi các môn khác).
+- Học kì 2 = Bài 7–12 → **ĐÃ LÀM (đợt 25/10/2026)**: trang học đủ 12 bài, 108 câu trắc nghiệm, 60 thẻ flashcard, 24 thẻ nhớ nhanh.
 
-Trang gắn nhãn: Bài 1–3 badge "⭐ Ôn giữa kì 1", Bài 4–6 badge "📚 Sau giữa kì 1".
+Trang gắn nhãn: Bài 1–3 badge "⭐ Ôn giữa kì 1", Bài 4–6 badge "📚 Sau giữa kì 1", Bài 7–9 badge "⭐ Ôn giữa kì 2", Bài 10–12 badge "📚 Sau giữa kì 2". Nhãn kỳ theo thứ tự SGK, chưa xác nhận PPCT của trường bé.
 
 ## Chuẩn "mức dễ nhất" (theo chỉ đạo riêng cho đối tượng bé học yếu, mất căn bản, khó đọc hiểu)
 
@@ -28,21 +28,21 @@ Trang gắn nhãn: Bài 1–3 badge "⭐ Ôn giữa kì 1", Bài 4–6 badge "�
 
 | Hạng mục | Số lượng |
 |---|---|
-| Bài học HK1 | 6 (Bài 1–6 SGK) |
-| Hình minh họa | 30 (gen AI, màu nước sách truyện, 400px WebP q72, 21–37 KB) — mỗi bài 5 hình: 2 hình gallery + hình cho flashcard/thẻ mini |
-| Flashcard | 30 thẻ (5/bài), 100% có hình, mặt hỏi khớp đúng khái niệm của thẻ; khóa localStorage `gdcd_flash_v1` |
-| Thẻ lật mini ⚡ Nhớ nhanh | 12 (2/bài; 6 thẻ có hình, 6 thẻ chữ) |
-| Câu kiểm tra nhanh trong bài | 12 "✔ Vừa rồi…" + 6 "🎯 Bắt ý chính" (mỗi bài 1 câu 🎯) |
-| Câu hỏi gợi nhớ cuối bài | 30 (5/bài, mỗi bài có 1 câu 🖼 theo hình + 1 câu 🤔 tình huống vận dụng) |
-| Sơ đồ tư duy SVG tự vẽ nhãn Việt | 7 (6 bài + 1 tổng) |
-| Câu trắc nghiệm | 54 (9/bài), phân bố đáp án A/B/C/D = 13/14/14/13, mỗi câu có giải thích |
+| Bài học | 12 (Bài 1–12 SGK, cả năm học) |
+| Hình minh họa | 30 hình trong bài (gen AI, màu nước sách truyện, 400px WebP, 21–37 KB) + 6 ảnh bìa bài 1–6; bài HK2 chưa có hình, thẻ hiện dạng chữ (không ảnh vỡ) |
+| Flashcard | 60 thẻ (5/bài); 30 thẻ HK1 có hình, 30 thẻ HK2 dạng chữ (chưa có hình); khóa localStorage `gdcd_flash_v1` |
+| Thẻ lật mini ⚡ Nhớ nhanh | 24 (2/bài; 12 thẻ HK2 dạng chữ, chưa có hình) |
+| Câu kiểm tra nhanh trong bài | 24 "✔ Vừa rồi…" + 12 "🎯 Bắt ý chính" (mỗi bài 1 câu 🎯) |
+| Câu hỏi gợi nhớ cuối bài | 60 (5/bài, mỗi bài có 1 câu 🤔 tình huống vận dụng; bài HK1 có thêm 1 câu 🖼 theo hình) |
+| Sơ đồ tư duy SVG tự vẽ nhãn Việt | 14 (12 bài + 2 tổng HK1/HK2) |
+| Câu trắc nghiệm | 108 (9/bài), phân bố đáp án A/B/C/D = 28/28/27/25, mỗi câu có giải thích |
 | Chế độ xem | Từng bài (mặc định) / Xem tất cả, khóa `gdcd_view_mode` |
 
 Nguyên tắc bao phủ: mọi kiến thức trong 54 câu trắc nghiệm đều đã dạy trong bài học tương ứng (kể cả các chi tiết: ca dao "Thương người như thể thương thân", tục ngữ "Có công mài sắt, có ngày nên kim", truyện Thỏ và Rùa, truyện Chú bé chăn cừu, khái niệm gia phả/phao/trực nhật/tự kiêu/tự ti).
 
 ## Điểm chưa chắc — cần đối chiếu trường của bé
 
-1. **Phạm vi giữa kì 1**: PPCT phổ biến là Bài 1–3 (hai nguồn khớp nhau), nhưng từng trường có thể xê dịch (một số kế hoạch giáo viên mới gộp tiết khác, vẫn giữ mốc GK sau Bài 3). Nhãn trên trang chỉ là gợi ý.
-2. **Tên Bài 7**: các nguồn ghi hơi khác nhau ("Ứng phó với tình huống nguy hiểm" / "Ứng phó với các tình huống nguy hiểm") — bài này thuộc HK2, chưa làm, chỉ ghi nhận khi đối chiếu SGK giấy.
+1. **Phạm vi giữa kì**: PPCT phổ biến là Bài 1–3 (hai nguồn khớp nhau), nhưng từng trường có thể xê dịch. **Phạm vi giữa kì 2 (Bài 7–9) chỉ suy từ thứ tự SGK, chưa xác nhận PPCT** — khi có PPCT của trường bé thì đổi 3 số `max` trong `const PERIODS` của quiz.html. Nhãn trên trang chỉ là gợi ý.
+2. **Tên Bài 7**: các nguồn ghi hơi khác nhau ("Ứng phó với tình huống nguy hiểm" / "Ứng phó với các tình huống nguy hiểm") — đã dùng dạng thứ nhất theo mục lục đa số nguồn; đối chiếu SGK giấy khi có.
 3. Trường của bé có đúng dùng bộ **Kết nối tri thức** cho GDCD không (đa số trường dùng KNTT hoặc Chân trời sáng tạo — mục lục hai bộ gần giống nhau ở GDCD 6 nhưng thứ tự/số tiết có thể lệch).
 4. `assets/common.css` do đợt thống nhất CSS tạo song song: tại thời điểm kiểm, file đã có và chứa đủ class khung của trang này, trừ `.mmap`/`.mm-title` — hai class này được khai báo bổ sung trong `<style>` riêng của trang GDCD với đúng giá trị của trang Lịch sử, nên hiển thị khớp kể cả khi common.css thay đổi.

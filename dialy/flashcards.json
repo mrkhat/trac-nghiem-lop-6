@@ -123,7 +123,7 @@
   "t": "fc",
   "f": "Bản đồ là gì?",
   "a": "Hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng theo một tỉ lệ.",
-  "fi": "../hinh-anh/dialy/ban-do-dia-hinh-viet-nam.jpg"
+  "fi": "../hinh-anh/dialy/dialy-ban-do-la-gi.webp"
  },
  {
   "b": 2,
@@ -372,7 +372,7 @@
   "t": "fc",
   "f": "Trái Đất được chia thành bao nhiêu múi giờ?",
   "a": "24 múi giờ. Việt Nam ở múi +7.",
-  "fi": "../hinh-anh/dialy/kinh-do-vi-do.svg",
+  "fi": "../hinh-anh/dialy/dialy-mui-gio.webp",
   "fs": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Hình động gợi mở\"><rect width=\"320\" height=\"180\" fill=\"#0d2137\"/><circle cx=\"30\" cy=\"30\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"290\" cy=\"24\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"262\" cy=\"150\" r=\"1.8\" fill=\"#fff\"/><circle cx=\"96\" cy=\"160\" r=\"1.4\" fill=\"#fff\"/><circle cx=\"42\" cy=\"90\" r=\"19\" fill=\"#ffb300\"/><g stroke=\"#ffb300\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"42\" y1=\"58\" x2=\"42\" y2=\"66\"/><line x1=\"42\" y1=\"114\" x2=\"42\" y2=\"122\"/><line x1=\"10\" y1=\"90\" x2=\"18\" y2=\"90\"/><line x1=\"66\" y1=\"90\" x2=\"74\" y2=\"90\"/></g><text x=\"42\" y=\"142\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\" text-anchor=\"middle\">Mặt Trời</text><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"#2e7fc2\"/><g><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 195 90\" to=\"360 195 90\" dur=\"9s\" repeatCount=\"indefinite\"/><ellipse cx=\"176\" cy=\"72\" rx=\"17\" ry=\"10\" fill=\"#66bb6a\"/><ellipse cx=\"216\" cy=\"106\" rx=\"19\" ry=\"11\" fill=\"#66bb6a\"/><ellipse cx=\"182\" cy=\"112\" rx=\"12\" ry=\"8\" fill=\"#81c784\"/><circle cx=\"230\" cy=\"80\" r=\"5\" fill=\"#ff1744\" stroke=\"#fff\" stroke-width=\"1.6\"/></g><path d=\"M195,38 A52,52 0 0 1 195,142 Z\" fill=\"#10243e\" opacity=\"0.55\"/><circle cx=\"195\" cy=\"90\" r=\"52\" fill=\"none\" stroke=\"#eceff1\" stroke-width=\"2\"/><text x=\"163\" y=\"24\" fill=\"#ffe082\" font-size=\"13.5\" font-weight=\"bold\">NGÀY</text><text x=\"228\" y=\"24\" fill=\"#90caf9\" font-size=\"13.5\" font-weight=\"bold\">ĐÊM</text></svg>"
  },
  {
@@ -561,7 +561,7 @@
   "t": "fc",
   "f": "Quá trình ngoại sinh là gì?",
   "a": "Quá trình xảy ra trên bề mặt do nắng, gió, nước… làm bào mòn, hạ thấp địa hình.",
-  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+  "fi": "../hinh-anh/dialy/dialy-ngoai-sinh.webp"
  },
  {
   "b": 11,
@@ -583,7 +583,7 @@
   "t": "fc",
   "f": "Nội sinh và ngoại sinh có quan hệ thế nào?",
   "a": "Đối nghịch nhau (xây lên – gọt xuống) nhưng xảy ra đồng thời.",
-  "fi": "../hinh-anh/dialy/hiem-nui-grand-canyon.jpg"
+  "fi": "../hinh-anh/dialy/dialy-ngoai-sinh.webp"
  },
  {
   "b": 11,
@@ -625,7 +625,7 @@
   "t": "fc",
   "f": "“Vành đai lửa” nằm quanh đại dương nào?",
   "a": "Thái Bình Dương.",
-  "fi": "../hinh-anh/dialy/mang-kien-tao-2022.svg"
+  "fi": "../hinh-anh/dialy/dialy-vanh-dai-lua.webp"
  },
  {
   "b": 12,
@@ -830,7 +830,7 @@
   "t": "fc",
   "f": "Vì sao trên núi cao lạnh hơn dưới chân núi?",
   "a": "Càng lên cao không khí càng loãng, càng xa nguồn nhiệt từ mặt đất.",
-  "fi": "../hinh-anh/dialy/dinh-everest.jpg"
+  "fi": "../hinh-anh/dialy/dialy-nui-cao-lanh.webp"
  },
  {
   "b": 16,
@@ -1148,7 +1148,7 @@
   "t": "fc",
   "f": "Nhân tố chính quyết định phân bố sinh vật?",
   "a": "Khí hậu (nhiệt độ và lượng mưa).",
-  "fi": "../hinh-anh/dialy/bieu-do-khi-hau-gio-mua.svg"
+  "fi": "../hinh-anh/dialy/dialy-sinh-vat-khi-hau.webp"
  },
  {
   "b": 23,
@@ -1191,5 +1191,348 @@
   "f": "Đồng cỏ cao, ít cây lớn trong hình là cảnh quan gì?",
   "a": "Xa-van nhiệt đới.",
   "fi": "../hinh-anh/dialy/savan-kuruman.jpg"
+ },
+ {
+  "b": 24,
+  "t": "fc",
+  "f": "Rừng nhiệt đới ở đâu?",
+  "a": "Đới nóng, gần Xích đạo, nắng nhiều quanh năm.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "fc",
+  "f": "Khí hậu rừng nhiệt đới ra sao?",
+  "a": "Nóng ẩm quanh năm, mưa rất nhiều (hơn 1500 mm mỗi năm).",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "fc",
+  "f": "Rừng nhiệt đới có mấy tầng?",
+  "a": "3 tầng: vượt tán, tán, dưới tán.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "fc",
+  "f": "Vì sao gọi là “lá phổi xanh”?",
+  "a": "Vì cây hút khí CO2 và nhả khí ô-xi cho con người thở.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "fc",
+  "f": "Chặt phá rừng gây hại gì?",
+  "a": "Lũ lụt, xói mòn đất, nhiều loài mất nhà ở.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "mn",
+  "f": "Rừng nhiệt đới: ở đâu, khí hậu, mấy tầng?",
+  "a": "Đới nóng, mưa nhiều, 3 tầng cây.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "mn",
+  "f": "“Lá phổi xanh” nghĩa là gì?",
+  "a": "Hút CO2, nhả ô-xi.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "fc",
+  "f": "Đới thiên nhiên là gì?",
+  "a": "Vùng có khí hậu, đất và sinh vật giống nhau, ví dụ đới rừng nhiệt đới, đới sa mạc.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "fc",
+  "f": "Các đới phân bố theo quy luật nào?",
+  "a": "Theo vĩ độ: từ Xích đạo về hai cực, nhiệt độ giảm dần nên cảnh quan thay đổi.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "fc",
+  "f": "Nguyên nhân chính tạo ra các đới?",
+  "a": "Nhiệt độ và lượng mưa khác nhau theo vĩ độ.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "fc",
+  "f": "Xa-van là gì?",
+  "a": "Đồng cỏ cao ở đới nóng, có mùa mưa xanh tốt và mùa khô cỏ úa vàng.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "fc",
+  "f": "Đài nguyên là gì?",
+  "a": "Đới lạnh gần cực: lạnh giá, đất đóng băng, cây thấp lùn.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "mn",
+  "f": "Đới thiên nhiên phân bố theo quy luật nào?",
+  "a": "Theo vĩ độ, từ Xích đạo về cực.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "mn",
+  "f": "Lên núi cao, cảnh quan đổi ra sao?",
+  "a": "Càng lên cao càng lạnh, giống như đi về cực.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "fc",
+  "f": "Tìm hiểu môi trường địa phương để làm gì?",
+  "a": "Để biết địa hình, đất, nước, khí hậu, sinh vật nơi mình sống và mối quan hệ của chúng.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "fc",
+  "f": "Các bước tìm hiểu gồm gì?",
+  "a": "Xác định khu vực và chuẩn bị → quan sát, ghi chép → hỏi người lớn → sắp xếp thành báo cáo → trình bày trước lớp.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "fc",
+  "f": "Ghi chép quan sát cần ghi gì?",
+  "a": "Thời gian, địa điểm, địa hình, sông hồ, cây cối, động vật, thời tiết.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "fc",
+  "f": "Quy tắc an toàn khi đi thực địa?",
+  "a": "Đi cùng thầy cô, người lớn. Tránh sông sâu, núi dốc. Không hái, bắt sinh vật lạ.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "fc",
+  "f": "Quan sát xong phải làm gì?",
+  "a": "Sắp xếp thành bảng, viết báo cáo, trình bày trước lớp.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "mn",
+  "f": "Các bước tìm hiểu địa phương?",
+  "a": "Chuẩn bị → quan sát, ghi chép → hỏi người lớn → báo cáo, trình bày.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "mn",
+  "f": "An toàn khi đi thực địa?",
+  "a": "Đi cùng người lớn, tránh nơi nguy hiểm, không xả rác.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "fc",
+  "f": "Dân số thế giới hiện nay?",
+  "a": "Hơn 8 tỉ người (vượt 8 tỉ năm 2022).",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "fc",
+  "f": "Vì sao dân số tăng nhanh?",
+  "a": "Y tế tốt hơn, trẻ chết ít hơn, người sống lâu hơn.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "fc",
+  "f": "Dân cư phân bố ra sao?",
+  "a": "Không đều: đông ở Đông Á, Nam Á, châu Âu; thưa ở sa mạc, cực lạnh, núi cao.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "fc",
+  "f": "Mật độ dân số là gì?",
+  "a": "Số dân trung bình trên 1 km². Việt Nam khoảng 300 người/km².",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "fc",
+  "f": "Đô thị hóa là gì?",
+  "a": "Dân dồn về thành phố tìm việc làm, học hành.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "mn",
+  "f": "Dân số thế giới hiện nay?",
+  "a": "Hơn 8 tỉ người.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "mn",
+  "f": "Mật độ dân số là gì?",
+  "a": "Số dân / diện tích (người/km²).",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "fc",
+  "f": "Thiên nhiên cho con người những gì?",
+  "a": "Không khí, nước, lương thực, nguyên liệu, năng lượng.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "fc",
+  "f": "Con người tác động đến thiên nhiên bằng cách nào?",
+  "a": "Trồng trọt, xây nhà, làm đường, khai mỏ, làm thủy điện.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "fc",
+  "f": "Tác động tốt ví dụ?",
+  "a": "Trồng rừng, ruộng bậc thang giữ đất.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "fc",
+  "f": "Tác động xấu ví dụ?",
+  "a": "Chặt rừng gây lũ lụt; xả thải gây ô nhiễm; săn bắt quá mức làm mất loài.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "fc",
+  "f": "Sống hài hòa với thiên nhiên là gì?",
+  "a": "Dùng vừa đủ, bảo vệ và khôi phục thiên nhiên.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "mn",
+  "f": "Thiên nhiên cho con người những gì?",
+  "a": "Không khí, nước, lương thực, nguyên liệu, năng lượng.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "mn",
+  "f": "Rừng ngập mặn có ích gì?",
+  "a": "Chắn sóng, bảo vệ bờ biển.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "fc",
+  "f": "Tài nguyên thiên nhiên là gì?",
+  "a": "Của cải sẵn có trong tự nhiên như đất, nước, rừng, khoáng sản.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "fc",
+  "f": "Tài nguyên nào không tái tạo được?",
+  "a": "Than đá, dầu mỏ, khí đốt (hình thành hàng triệu năm, dùng hết là hết).",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "fc",
+  "f": "Khai thác thông minh là gì?",
+  "a": "Dùng tiết kiệm, đúng mức, tái chế, tìm vật liệu thay thế.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "fc",
+  "f": "Phát triển bền vững là gì?",
+  "a": "Đủ dùng hôm nay mà vẫn để dành cho mai sau.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "fc",
+  "f": "Vườn quốc gia để làm gì?",
+  "a": "Bảo vệ rừng và loài quý hiếm, ví dụ Cúc Phương.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "mn",
+  "f": "Không tái tạo được gồm gì?",
+  "a": "Than đá, dầu mỏ, khí đốt.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "mn",
+  "f": "Phát triển bền vững nghĩa là gì?",
+  "a": "Dùng sao cho con cháu vẫn còn mà dùng.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "fc",
+  "f": "Tìm hiểu quan hệ người – thiên nhiên để biết gì?",
+  "a": "Dân dùng thiên nhiên ra sao, thiên nhiên đổi tốt hay xấu.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "fc",
+  "f": "Phỏng vấn người dân cần chú ý gì?",
+  "a": "Xin phép, hỏi lịch sự, cảm ơn sau khi hỏi.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "fc",
+  "f": "Bảng kết quả có những cột nào?",
+  "a": "Việc làm, tác động tốt, tác động xấu.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "fc",
+  "f": "Tìm hiểu xong làm gì?",
+  "a": "Thảo luận, đề xuất giải pháp, trình bày, tuyên truyền.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "fc",
+  "f": "Phát hiện xưởng xả nước bẩn thì làm gì?",
+  "a": "Ghi chép, chụp ảnh, báo thầy cô và chính quyền.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "mn",
+  "f": "Các bước tìm hiểu quan hệ người – thiên nhiên?",
+  "a": "Xác định nội dung → quan sát, phỏng vấn → lập bảng → đề xuất, trình bày.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "mn",
+  "f": "Phỏng vấn cần chú ý gì?",
+  "a": "Xin phép, hỏi lịch sự, cảm ơn.",
+  "fi": ""
  }
 ]

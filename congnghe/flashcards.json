@@ -1,449 +1,694 @@
 [
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Nhà ở có vai trò quan trọng nào?",
-  "a": "Là nơi ở. Nhà che chở con người trước mưa nắng và nguy hiểm. Nhà là nơi cả nhà sinh hoạt.",
-  "fi": "../hinh-anh/congnghe/bai1-gia-dinh-sinh-hoat.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Nhà ở thường gồm mấy phần chính? Kể tên các phần đó.",
-  "a": "7 phần chính: móng nhà, sàn nhà, khung nhà, tường nhà, mái nhà, cửa ra vào, cửa sổ.",
-  "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Nhà ba gian là kiến trúc đặc trưng ở đâu?",
-  "a": "Ở vùng nông thôn Việt Nam.",
-  "fi": "../hinh-anh/congnghe/bai1-nha-ba-gian.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Nhà sàn thường gặp ở vùng nào? Vì sao?",
-  "a": "Ở vùng núi. Sàn cao giúp tránh ẩm ướt, thú dữ và nước lũ.",
-  "fi": "../hinh-anh/congnghe/bai1-nha-san.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Người dân vùng sông nước thường ở loại nhà nào?",
-  "a": "Nhà nổi — ngôi nhà dựng trên mặt sông.",
-  "fi": "../hinh-anh/congnghe/bai1-nha-noi.webp"
- },
- {
-  "b": 1,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp án7 phần chính: móng, sàn, khung, tường, mái, cửa ra vào, cửa sổ.",
-  "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
- },
- {
-  "b": 1,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánỞ vùng núi.",
-  "fi": "../hinh-anh/congnghe/bai1-nha-san.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Kể tên một số vật liệu xây dựng nhà ở.",
-  "a": "Gạch, ngói, xi măng, cát, đá, thép, gỗ, kính, sơn…",
-  "fi": "../hinh-anh/congnghe/bai2-vat-lieu.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Bước đầu tiên khi xây một ngôi nhà là gì?",
-  "a": "Thiết kế (vẽ bản vẽ) và chuẩn bị: đất, vật liệu, tiền.",
-  "fi": "../hinh-anh/congnghe/bai2-thiet-ke.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Xây dựng phần thô gồm những việc chính nào?",
-  "a": "Thi công thô gồm 8 việc: làm móng nhà, làm khung tường, xây tường, cán nền, làm mái, lắp khung cửa, làm hệ thống ống nước, làm đường điện.",
-  "fi": "../hinh-anh/congnghe/bai2-xay-tho.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Giai đoạn hoàn thiện gồm những việc gì?",
-  "a": "Trát, sơn tường, lát nền, lắp cửa.",
-  "fi": "../hinh-anh/congnghe/bai2-hoan-thien.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Vì sao thợ xây phải đội mũ bảo hộ?",
-  "a": "Để bảo vệ đầu, giữ an toàn khi làm việc ở công trường.",
-  "fi": "../hinh-anh/congnghe/bai2-an-toan.webp"
- },
- {
-  "b": 2,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánThiết kế — vẽ bản vẽ và chuẩn bị.",
-  "fi": "../hinh-anh/congnghe/bai2-thiet-ke.webp"
- },
- {
-  "b": 2,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánThi công thô gồm 8 việc: làm móng nhà, làm khung tường, xây tường, cán nền, làm mái, lắp khung cửa, làm hệ thống ống nước, làm đường điện.",
-  "fi": "../hinh-anh/congnghe/bai2-xay-tho.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Ngôi nhà thông minh là gì?",
-  "a": "Là nhà có thiết bị thông minh. Thiết bị tự làm việc hoặc điều khiển từ xa. Nhà giúp sống tiện nghi, an toàn, tiết kiệm điện.",
-  "fi": "../hinh-anh/congnghe/bai3-nha-thong-minh.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Ở xa nhà, em điều khiển đèn và cửa bằng gì?",
-  "a": "Bằng điện thoại thông minh, máy tính bảng có kết nối in-tơ-net.",
-  "fi": "../hinh-anh/congnghe/bai3-dieu-khien.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Hệ thống an ninh trong nhà thông minh có những thiết bị nào?",
-  "a": "Camera, khóa cửa vân tay, cảm biến khói báo cháy, cảm biến báo trộm…",
-  "fi": "../hinh-anh/congnghe/bai3-cam-bien.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Nguyên tắc hoạt động của nhà thông minh gồm 3 bước nào?",
-  "a": "Nhận lệnh → Xử lí → Chấp hành.",
-  "fi": "../hinh-anh/congnghe/bai3-nguyen-tac.svg"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Kể 2 việc em làm để tiết kiệm điện ở nhà.",
-  "a": "Tắt đèn khi ra khỏi phòng. Mở cửa sổ đón ánh sáng và gió trời.",
-  "fi": "../hinh-anh/congnghe/bai3-tiet-kiem-dien.webp"
- },
- {
-  "b": 3,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánNhận lệnh → Xử lí → Chấp hành.",
-  "fi": "../hinh-anh/congnghe/bai3-nguyen-tac.svg"
- },
- {
-  "b": 3,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánCảm biến khói."
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Có mấy nhóm thực phẩm chính? Kể tên.",
-  "a": "5 nhóm: tinh bột–đường & chất xơ; chất đạm; chất béo; vi-ta-min; chất khoáng.",
-  "fi": "../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Nhóm tinh bột, đường và chất xơ cho cơ thể điều gì?",
-  "a": "Cho năng lượng chính để hoạt động. Chất xơ giúp tiêu hóa tốt.",
-  "fi": "../hinh-anh/congnghe/bai4-tinh-bot.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Chất đạm có vai trò gì với cơ thể?",
-  "a": "Đạm như 'gạch' xây cơ thể. Đạm giúp em lớn lên, cơ bắp phát triển.",
-  "fi": "../hinh-anh/congnghe/bai4-dam.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Vi-ta-min giúp cơ thể điều gì?",
-  "a": "Giúp tăng sức đề kháng — em ít bị ốm hơn.",
-  "fi": "../hinh-anh/congnghe/bai4-vitamin.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Thế nào là bữa ăn hợp lí?",
-  "a": "Bữa ăn có đủ các nhóm thực phẩm, mỗi nhóm một lượng vừa phải.",
-  "fi": "../hinh-anh/congnghe/bai4-bua-an-hop-li.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Kể 4 thói quen ăn uống khoa học.",
-  "a": "Ăn đúng bữa. Ăn đúng cách. Ăn sạch, an toàn. Uống đủ nước.",
-  "fi": "../hinh-anh/congnghe/bai4-an-uong-khoa-hoc.webp"
- },
- {
-  "b": 4,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp án5 nhóm.",
-  "fi": "../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg"
- },
- {
-  "b": 4,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánNhóm tinh bột, đường và chất xơ.",
-  "fi": "../hinh-anh/congnghe/bai4-tinh-bot.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Một cách bảo quản thực phẩm là gì?",
-  "a": "Cho thực phẩm vào tủ lạnh (làm lạnh) để thực phẩm lâu hư hơn.",
-  "fi": "../hinh-anh/congnghe/bai5-tu-lanh.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Phơi, sấy khô thường dùng cho thực phẩm nào?",
-  "a": "Cá, tôm, mực, các loại hạt, trái cây. Khô thì vi sinh vật khó sống.",
-  "fi": "../hinh-anh/congnghe/bai5-phoi-kho.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Dưa muối, cà muối thuộc cách bảo quản nào?",
-  "a": "Cách muối chua.",
-  "fi": "../hinh-anh/congnghe/bai5-muoi-chua.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Kể các cách chế biến có dùng nhiệt.",
-  "a": "Luộc, hấp, kho, chiên, xào, nướng…",
-  "fi": "../hinh-anh/congnghe/bai5-che-bien-nhiet.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Món nào được chế biến không dùng nhiệt?",
-  "a": "Nộm (gỏi), rau trộn, dưa muối chua, sinh tố…",
-  "fi": "../hinh-anh/congnghe/bai5-nom-goi.webp"
- },
- {
-  "b": 5,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánLàm lạnh/đông – phơi sấy khô – muối chua.",
-  "fi": "../hinh-anh/congnghe/bai5-tu-lanh.webp"
- },
- {
-  "b": 5,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánKhông. Nộm là món không dùng nhiệt.",
-  "fi": "../hinh-anh/congnghe/bai5-nom-goi.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Dự án 'Bữa ăn kết nối yêu thương' gồm những bước chính nào?",
-  "a": "Lên thực đơn → đi chợ → tính toán → chế biến → cả nhà cùng ăn.",
-  "fi": "../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Khi đi chợ, em chọn thực phẩm thế nào?",
-  "a": "Chọn đồ tươi, sạch, còn mới. Không lấy đồ dập nát, có mùi lạ.",
-  "fi": "../hinh-anh/congnghe/bai6-di-cho.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Trong dự án, em tự làm món ăn nào?",
-  "a": "Món không dùng nhiệt, như nộm, gỏi, rau trộn — an toàn cho em.",
-  "fi": "../hinh-anh/congnghe/bai6-lam-nom.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Vì sao phải tính trước chi phí bữa ăn?",
-  "a": "Để số tiền mua đồ vừa với tiền em có. Đủ chất mà không lãng phí.",
-  "fi": "../hinh-anh/congnghe/bai6-tinh-chi-phi.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "'Bữa ăn kết nối yêu thương' có ý nghĩa gì?",
-  "a": "Bữa ăn em tự làm giúp cả nhà quây quần, thêm gắn kết, yêu thương.",
-  "fi": "../hinh-anh/congnghe/bai6-bua-an-gia-dinh.webp"
- },
- {
-  "b": 6,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánBước lên thực đơn.",
-  "fi": "../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg"
- },
- {
-  "b": 6,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánMón không dùng nhiệt, như nộm, gỏi.",
-  "fi": "../hinh-anh/congnghe/bai6-lam-nom.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Trang phục có những vai trò gì?",
-  "a": "Bảo vệ cơ thể. Làm đẹp. Cho biết nghề nghiệp, sở thích của người mặc.",
-  "fi": "../hinh-anh/congnghe/bai7-trang-phuc-vai.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Nhìn trang phục, em biết được gì về một người?",
-  "a": "Biết nghề nghiệp (bác sĩ, công an, đầu bếp…), trường học và sở thích.",
-  "fi": "../hinh-anh/congnghe/bai7-dong-phuc.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Vải sợi bông (cotton) có tính chất gì?",
-  "a": "Mềm, thoáng mát, thấm mồ hôi tốt. Mặc rất dễ chịu.",
-  "fi": "../hinh-anh/congnghe/bai7-vai-bong.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Vải tơ tằm có đặc điểm gì?",
-  "a": "Mềm mại, óng ánh, sang trọng. Nhưng đắt tiền và khó giặt giữ.",
-  "fi": "../hinh-anh/congnghe/bai7-vai-lua.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Vải sợi hóa học có ưu điểm và nhược điểm gì?",
-  "a": "Ưu điểm: bền, ít nhăn, mau khô. Nhược điểm: kém thoáng, ít thấm mồ hôi.",
-  "fi": "../hinh-anh/congnghe/bai7-vai-tong-hop.webp"
- },
- {
-  "b": 7,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánMát. Vì vải bông thấm mồ hôi tốt.",
-  "fi": "../hinh-anh/congnghe/bai7-vai-bong.webp"
- },
- {
-  "b": 7,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánNgười đó làm nghề y.",
-  "fi": "../hinh-anh/congnghe/bai7-dong-phuc.webp"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Chọn trang phục cần căn cứ vào những điều gì?",
-  "a": "Hợp với em. Hợp với việc em làm. Hợp với tiền của gia đình.",
-  "fi": "../hinh-anh/congnghe/bai8-chon-trang-phuc.webp"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Giặt xong nên phơi quần áo thế nào?",
-  "a": "Phơi nơi thoáng gió. Áo màu phơi nắng gắt thì lộn trái để giữ màu.",
-  "fi": "../hinh-anh/congnghe/bai8-giat-phoi.webp"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Nhãn mác trên quần áo cho em biết điều gì?",
-  "a": "Cho biết cách giặt, cách là nhờ các kí hiệu trên nhãn.",
-  "fi": "../hinh-anh/congnghe/bai8-ky-hieu-giat.svg"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Khi là (ủi) quần áo cần chú ý điều gì?",
-  "a": "Chỉnh nhiệt độ bàn là vừa với loại vải, kẻo cháy vải.",
-  "fi": "../hinh-anh/congnghe/bai8-la-ui.webp"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Cất quần áo thế nào để tránh ẩm mốc?",
-  "a": "Giặt sạch, phơi thật khô, gấp gọn vào tủ khô ráo, thoáng.",
-  "fi": "../hinh-anh/congnghe/bai8-cat-quan-ao.webp"
- },
- {
-  "b": 8,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánXem nhãn mác và các kí hiệu giặt – là.",
-  "fi": "../hinh-anh/congnghe/bai8-ky-hieu-giat.svg"
- },
- {
-  "b": 8,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánÁo bị ẩm mốc và có mùi hôi.",
-  "fi": "../hinh-anh/congnghe/bai8-cat-quan-ao.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Thời trang là gì?",
-  "a": "Là cách ăn mặc được nhiều người ưa chuộng trong một khoảng thời gian.",
-  "fi": "../hinh-anh/congnghe/bai9-thoi-trang.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Phong cách thể thao có đặc điểm gì?",
-  "a": "Khỏe khoắn, thoải mái: áo phông, quần soóc, giày thể thao.",
-  "fi": "../hinh-anh/congnghe/bai9-phong-cach-the-thao.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Vì sao thời trang luôn thay đổi theo thời gian?",
-  "a": "Vì sở thích và cuộc sống con người thay đổi. Kiểu cũ có khi quay lại.",
-  "fi": "../hinh-anh/congnghe/bai9-thay-doi.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Ăn mặc đẹp cần nhất điều gì?",
-  "a": "Sạch sẽ, gọn gàng, hợp với mình và hợp hoàn cảnh.",
-  "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Có nên chạy theo mốt bằng mọi giá không? Vì sao?",
-  "a": "Không nên. Rất tốn kém, lãng phí. Hãy chọn phong cách hợp với mình.",
-  "fi": "../hinh-anh/congnghe/bai9-tiet-kiem.webp"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánCách ăn mặc được nhiều người thích trong một lúc.",
-  "fi": "../hinh-anh/congnghe/bai9-thoi-trang.webp"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "(Bấm vào thẻ để lật)",
-  "a": "✅ Đáp ánSạch sẽ, gọn gàng, hợp với mình.",
-  "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
- }
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Nhà ở có vai trò quan trọng nào?",
+    "a": "Là nơi ở. Nhà che chở con người trước mưa nắng và nguy hiểm. Nhà là nơi cả nhà sinh hoạt.",
+    "fi": "../hinh-anh/congnghe/bai1-gia-dinh-sinh-hoat.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Nhà ở thường gồm mấy phần chính? Kể tên các phần đó.",
+    "a": "7 phần chính: móng nhà, sàn nhà, khung nhà, tường nhà, mái nhà, cửa ra vào, cửa sổ.",
+    "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Nhà ba gian là kiến trúc đặc trưng ở đâu?",
+    "a": "Ở vùng nông thôn Việt Nam.",
+    "fi": "../hinh-anh/congnghe/bai1-nha-ba-gian.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Nhà sàn thường gặp ở vùng nào? Vì sao?",
+    "a": "Ở vùng núi. Sàn cao giúp tránh ẩm ướt, thú dữ và nước lũ.",
+    "fi": "../hinh-anh/congnghe/bai1-nha-san.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Người dân vùng sông nước thường ở loại nhà nào?",
+    "a": "Nhà nổi — ngôi nhà dựng trên mặt sông.",
+    "fi": "../hinh-anh/congnghe/bai1-nha-noi.webp"
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Nhà có mấy phần chính? Là những phần nào?",
+    "a": "✅ Đáp án7 phần chính: móng, sàn, khung, tường, mái, cửa ra vào, cửa sổ.",
+    "fi": "../hinh-anh/congnghe/bai1-cau-truc-nha.svg"
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Nhà sàn thường có ở vùng nào?",
+    "a": "✅ Đáp ánỞ vùng núi.",
+    "fi": "../hinh-anh/congnghe/bai1-nha-san.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Kể tên một số vật liệu xây dựng nhà ở.",
+    "a": "Gạch, ngói, xi măng, cát, đá, thép, gỗ, kính, sơn…",
+    "fi": "../hinh-anh/congnghe/bai2-vat-lieu.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Bước đầu tiên khi xây một ngôi nhà là gì?",
+    "a": "Thiết kế (vẽ bản vẽ) và chuẩn bị: đất, vật liệu, tiền.",
+    "fi": "../hinh-anh/congnghe/bai2-thiet-ke.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Xây dựng phần thô gồm những việc chính nào?",
+    "a": "Thi công thô gồm 8 việc: làm móng nhà, làm khung tường, xây tường, cán nền, làm mái, lắp khung cửa, làm hệ thống ống nước, làm đường điện.",
+    "fi": "../hinh-anh/congnghe/bai2-xay-tho.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Giai đoạn hoàn thiện gồm những việc gì?",
+    "a": "Trát, sơn tường, lát nền, lắp cửa.",
+    "fi": "../hinh-anh/congnghe/bai2-hoan-thien.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Vì sao thợ xây phải đội mũ bảo hộ?",
+    "a": "Để bảo vệ đầu, giữ an toàn khi làm việc ở công trường.",
+    "fi": "../hinh-anh/congnghe/bai2-an-toan.webp"
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Bước đầu tiên khi xây nhà là gì?",
+    "a": "✅ Đáp ánThiết kế — vẽ bản vẽ và chuẩn bị.",
+    "fi": "../hinh-anh/congnghe/bai2-thiet-ke.webp"
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Xây phần thô gồm những việc gì?",
+    "a": "✅ Đáp ánThi công thô gồm 8 việc: làm móng nhà, làm khung tường, xây tường, cán nền, làm mái, lắp khung cửa, làm hệ thống ống nước, làm đường điện.",
+    "fi": "../hinh-anh/congnghe/bai2-xay-tho.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Ngôi nhà thông minh là gì?",
+    "a": "Là nhà có thiết bị thông minh. Thiết bị tự làm việc hoặc điều khiển từ xa. Nhà giúp sống tiện nghi, an toàn, tiết kiệm điện.",
+    "fi": "../hinh-anh/congnghe/bai3-nha-thong-minh.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Ở xa nhà, em điều khiển đèn và cửa bằng gì?",
+    "a": "Bằng điện thoại thông minh, máy tính bảng có kết nối in-tơ-net.",
+    "fi": "../hinh-anh/congnghe/bai3-dieu-khien.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Hệ thống an ninh trong nhà thông minh có những thiết bị nào?",
+    "a": "Camera, khóa cửa vân tay, cảm biến khói báo cháy, cảm biến báo trộm…",
+    "fi": "../hinh-anh/congnghe/bai3-cam-bien.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Nguyên tắc hoạt động của nhà thông minh gồm 3 bước nào?",
+    "a": "Nhận lệnh → Xử lí → Chấp hành.",
+    "fi": "../hinh-anh/congnghe/bai3-nguyen-tac.svg"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Kể 2 việc em làm để tiết kiệm điện ở nhà.",
+    "a": "Tắt đèn khi ra khỏi phòng. Mở cửa sổ đón ánh sáng và gió trời.",
+    "fi": "../hinh-anh/congnghe/bai3-tiet-kiem-dien.webp"
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "3 bước hoạt động của nhà thông minh là gì?",
+    "a": "✅ Đáp ánNhận lệnh → Xử lí → Chấp hành.",
+    "fi": "../hinh-anh/congnghe/bai3-nguyen-tac.svg"
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Thiết bị nào báo cháy trong nhà thông minh?",
+    "a": "✅ Đáp ánCảm biến khói."
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Có mấy nhóm thực phẩm chính? Kể tên.",
+    "a": "5 nhóm: tinh bột–đường & chất xơ; chất đạm; chất béo; vi-ta-min; chất khoáng.",
+    "fi": "../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Nhóm tinh bột, đường và chất xơ cho cơ thể điều gì?",
+    "a": "Cho năng lượng chính để hoạt động. Chất xơ giúp tiêu hóa tốt.",
+    "fi": "../hinh-anh/congnghe/bai4-tinh-bot.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Chất đạm có vai trò gì với cơ thể?",
+    "a": "Đạm như 'gạch' xây cơ thể. Đạm giúp em lớn lên, cơ bắp phát triển.",
+    "fi": "../hinh-anh/congnghe/bai4-dam.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Vi-ta-min giúp cơ thể điều gì?",
+    "a": "Giúp tăng sức đề kháng — em ít bị ốm hơn.",
+    "fi": "../hinh-anh/congnghe/bai4-vitamin.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Thế nào là bữa ăn hợp lí?",
+    "a": "Bữa ăn có đủ các nhóm thực phẩm, mỗi nhóm một lượng vừa phải.",
+    "fi": "../hinh-anh/congnghe/bai4-bua-an-hop-li.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Kể 4 thói quen ăn uống khoa học.",
+    "a": "Ăn đúng bữa. Ăn đúng cách. Ăn sạch, an toàn. Uống đủ nước.",
+    "fi": "../hinh-anh/congnghe/bai4-an-uong-khoa-hoc.webp"
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Có mấy nhóm thực phẩm chính?",
+    "a": "✅ Đáp án5 nhóm.",
+    "fi": "../hinh-anh/congnghe/bai4-5-nhom-thuc-pham.svg"
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Nhóm nào cho em năng lượng chính?",
+    "a": "✅ Đáp ánNhóm tinh bột, đường và chất xơ.",
+    "fi": "../hinh-anh/congnghe/bai4-tinh-bot.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Một cách bảo quản thực phẩm là gì?",
+    "a": "Cho thực phẩm vào tủ lạnh (làm lạnh) để thực phẩm lâu hư hơn.",
+    "fi": "../hinh-anh/congnghe/bai5-tu-lanh.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Phơi, sấy khô thường dùng cho thực phẩm nào?",
+    "a": "Cá, tôm, mực, các loại hạt, trái cây. Khô thì vi sinh vật khó sống.",
+    "fi": "../hinh-anh/congnghe/bai5-phoi-kho.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Dưa muối, cà muối thuộc cách bảo quản nào?",
+    "a": "Cách muối chua.",
+    "fi": "../hinh-anh/congnghe/bai5-muoi-chua.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Kể các cách chế biến có dùng nhiệt.",
+    "a": "Luộc, hấp, kho, chiên, xào, nướng…",
+    "fi": "../hinh-anh/congnghe/bai5-che-bien-nhiet.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Món nào được chế biến không dùng nhiệt?",
+    "a": "Nộm (gỏi), rau trộn, dưa muối chua, sinh tố…",
+    "fi": "../hinh-anh/congnghe/bai5-nom-goi.webp"
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Kể 3 cách bảo quản thực phẩm hay gặp.",
+    "a": "✅ Đáp ánLàm lạnh/đông – phơi sấy khô – muối chua.",
+    "fi": "../hinh-anh/congnghe/bai5-tu-lanh.webp"
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Món nộm (gỏi) có dùng nhiệt không?",
+    "a": "✅ Đáp ánKhông. Nộm là món không dùng nhiệt.",
+    "fi": "../hinh-anh/congnghe/bai5-nom-goi.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Dự án 'Bữa ăn kết nối yêu thương' gồm những bước chính nào?",
+    "a": "Lên thực đơn → đi chợ → tính toán → chế biến → cả nhà cùng ăn.",
+    "fi": "../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Khi đi chợ, em chọn thực phẩm thế nào?",
+    "a": "Chọn đồ tươi, sạch, còn mới. Không lấy đồ dập nát, có mùi lạ.",
+    "fi": "../hinh-anh/congnghe/bai6-di-cho.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Trong dự án, em tự làm món ăn nào?",
+    "a": "Món không dùng nhiệt, như nộm, gỏi, rau trộn — an toàn cho em.",
+    "fi": "../hinh-anh/congnghe/bai6-lam-nom.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Vì sao phải tính trước chi phí bữa ăn?",
+    "a": "Để số tiền mua đồ vừa với tiền em có. Đủ chất mà không lãng phí.",
+    "fi": "../hinh-anh/congnghe/bai6-tinh-chi-phi.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "'Bữa ăn kết nối yêu thương' có ý nghĩa gì?",
+    "a": "Bữa ăn em tự làm giúp cả nhà quây quần, thêm gắn kết, yêu thương.",
+    "fi": "../hinh-anh/congnghe/bai6-bua-an-gia-dinh.webp"
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Bước nào làm trước khi đi chợ?",
+    "a": "✅ Đáp ánBước lên thực đơn.",
+    "fi": "../hinh-anh/congnghe/bai6-cac-buoc-du-an.svg"
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Món em tự làm trong dự án là món thế nào?",
+    "a": "✅ Đáp ánMón không dùng nhiệt, như nộm, gỏi.",
+    "fi": "../hinh-anh/congnghe/bai6-lam-nom.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Trang phục có những vai trò gì?",
+    "a": "Bảo vệ cơ thể. Làm đẹp. Cho biết nghề nghiệp, sở thích của người mặc.",
+    "fi": "../hinh-anh/congnghe/bai7-trang-phuc-vai.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Nhìn trang phục, em biết được gì về một người?",
+    "a": "Biết nghề nghiệp (bác sĩ, công an, đầu bếp…), trường học và sở thích.",
+    "fi": "../hinh-anh/congnghe/bai7-dong-phuc.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Vải sợi bông (cotton) có tính chất gì?",
+    "a": "Mềm, thoáng mát, thấm mồ hôi tốt. Mặc rất dễ chịu.",
+    "fi": "../hinh-anh/congnghe/bai7-vai-bong.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Vải tơ tằm có đặc điểm gì?",
+    "a": "Mềm mại, óng ánh, sang trọng. Nhưng đắt tiền và khó giặt giữ.",
+    "fi": "../hinh-anh/congnghe/bai7-vai-lua.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Vải sợi hóa học có ưu điểm và nhược điểm gì?",
+    "a": "Ưu điểm: bền, ít nhăn, mau khô. Nhược điểm: kém thoáng, ít thấm mồ hôi.",
+    "fi": "../hinh-anh/congnghe/bai7-vai-tong-hop.webp"
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Vải bông mặc có mát không? Vì sao?",
+    "a": "✅ Đáp ánMát. Vì vải bông thấm mồ hôi tốt.",
+    "fi": "../hinh-anh/congnghe/bai7-vai-bong.webp"
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Nhìn áo trắng của bác sĩ, em biết điều gì?",
+    "a": "✅ Đáp ánNgười đó làm nghề y.",
+    "fi": "../hinh-anh/congnghe/bai7-dong-phuc.webp"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Chọn trang phục cần căn cứ vào những điều gì?",
+    "a": "Hợp với em. Hợp với việc em làm. Hợp với tiền của gia đình.",
+    "fi": "../hinh-anh/congnghe/bai8-chon-trang-phuc.webp"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Giặt xong nên phơi quần áo thế nào?",
+    "a": "Phơi nơi thoáng gió. Áo màu phơi nắng gắt thì lộn trái để giữ màu.",
+    "fi": "../hinh-anh/congnghe/bai8-giat-phoi.webp"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Nhãn mác trên quần áo cho em biết điều gì?",
+    "a": "Cho biết cách giặt, cách là nhờ các kí hiệu trên nhãn.",
+    "fi": "../hinh-anh/congnghe/bai8-ky-hieu-giat.svg"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Khi là (ủi) quần áo cần chú ý điều gì?",
+    "a": "Chỉnh nhiệt độ bàn là vừa với loại vải, kẻo cháy vải.",
+    "fi": "../hinh-anh/congnghe/bai8-la-ui.webp"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Cất quần áo thế nào để tránh ẩm mốc?",
+    "a": "Giặt sạch, phơi thật khô, gấp gọn vào tủ khô ráo, thoáng.",
+    "fi": "../hinh-anh/congnghe/bai8-cat-quan-ao.webp"
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Trước khi giặt, em xem gì trên quần áo?",
+    "a": "✅ Đáp ánXem nhãn mác và các kí hiệu giặt – là.",
+    "fi": "../hinh-anh/congnghe/bai8-ky-hieu-giat.svg"
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Áo chưa khô mà đã cất vào tủ thì sao?",
+    "a": "✅ Đáp ánÁo bị ẩm mốc và có mùi hôi.",
+    "fi": "../hinh-anh/congnghe/bai8-cat-quan-ao.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Thời trang là gì?",
+    "a": "Là cách ăn mặc được nhiều người ưa chuộng trong một khoảng thời gian.",
+    "fi": "../hinh-anh/congnghe/bai9-thoi-trang.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Phong cách thể thao có đặc điểm gì?",
+    "a": "Khỏe khoắn, thoải mái: áo phông, quần soóc, giày thể thao.",
+    "fi": "../hinh-anh/congnghe/bai9-phong-cach-the-thao.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Vì sao thời trang luôn thay đổi theo thời gian?",
+    "a": "Vì sở thích và cuộc sống con người thay đổi. Kiểu cũ có khi quay lại.",
+    "fi": "../hinh-anh/congnghe/bai9-thay-doi.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Ăn mặc đẹp cần nhất điều gì?",
+    "a": "Sạch sẽ, gọn gàng, hợp với mình và hợp hoàn cảnh.",
+    "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Có nên chạy theo mốt bằng mọi giá không? Vì sao?",
+    "a": "Không nên. Rất tốn kém, lãng phí. Hãy chọn phong cách hợp với mình.",
+    "fi": "../hinh-anh/congnghe/bai9-tiet-kiem.webp"
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Thời trang là gì?",
+    "a": "✅ Đáp ánCách ăn mặc được nhiều người thích trong một lúc.",
+    "fi": "../hinh-anh/congnghe/bai9-thoi-trang.webp"
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Mặc thế nào là đẹp nhất?",
+    "a": "✅ Đáp ánSạch sẽ, gọn gàng, hợp với mình.",
+    "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Đồ dùng điện trong gia đình là gì?",
+    "a": "Là đồ dùng biến điện năng thành dạng năng lượng khác. Ví dụ: đèn biến điện thành ánh sáng.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Đồ dùng điện có mấy nhóm chính?",
+    "a": "Có 3 nhóm: điện – quang (đèn), điện – nhiệt (nồi cơm, bếp) và điện – cơ (quạt, máy giặt).",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Điện áp định mức là gì?",
+    "a": "Là điện áp giúp đồ dùng hoạt động tốt nhất, ví dụ 220V. Điện nhà ở nước ta là 220V.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Công suất định mức là gì?",
+    "a": "Là mức điện năng đồ dùng tiêu thụ khi hoạt động, tính bằng oát (W). Công suất càng lớn càng tốn điện.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Vì sao phải dùng đúng điện áp định mức?",
+    "a": "Vì dùng đúng điện áp giúp đồ dùng bền và an toàn. Điện áp quá cao có thể làm cháy đồ dùng.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "3 nhóm đồ dùng điện là gì?",
+    "a": "Điện – quang (đèn), điện – nhiệt (nồi cơm, bếp) và điện – cơ (quạt, máy giặt).",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Trước khi dùng đồ điện cần xem gì?",
+    "a": "Xem điện áp và công suất định mức ghi trên đồ dùng để biết có hợp với điện nhà mình không.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Đèn sợi đốt phát sáng thế nào?",
+    "a": "Đèn đốt nóng dây tóc đến khi phát sáng. Vì phần lớn điện biến thành nhiệt nên đèn này tốn điện.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Đèn huỳnh quang là đèn gì?",
+    "a": "Là đèn dùng bột huỳnh quang phát sáng, tiết kiệm điện hơn đèn sợi đốt.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Đèn LED có ưu điểm gì?",
+    "a": "Đèn LED tiết kiệm điện nhất, bền và ít tỏa nhiệt. Vì vậy đèn LED được dùng nhiều trong gia đình.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Đèn nào tiết kiệm điện nhất?",
+    "a": "Đèn LED tiết kiệm điện nhất, sau đó đến đèn huỳnh quang, tốn điện nhất là đèn sợi đốt.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Thay bóng đèn hỏng phải làm gì trước?",
+    "a": "Ngắt điện rồi mới thay để tránh bị điện giật. Trẻ em nên nhờ người lớn thay giúp.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Có mấy loại đèn thường dùng trong nhà?",
+    "a": "Có 3 loại: đèn sợi đốt, đèn huỳnh quang và đèn LED.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Đèn nào tiết kiệm điện nhất và bền nhất?",
+    "a": "Đèn LED tiết kiệm điện nhất và bền nhất, lại ít tỏa nhiệt.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Nồi cơm điện thuộc nhóm nào?",
+    "a": "Thuộc nhóm điện – nhiệt vì nó biến điện năng thành nhiệt để nấu chín cơm.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Cấu tạo chính của nồi cơm điện gồm gì?",
+    "a": "Gồm vỏ nồi, nồi trong, mâm nhiệt, bộ điều khiển và dây nguồn. Mâm nhiệt là bộ phận làm nóng.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Nồi cơm điện nấu chín cơm thế nào?",
+    "a": "Điện làm mâm nhiệt nóng lên, nhiệt truyền vào nồi trong và nấu chín cơm. Cơm chín thì nồi tự chuyển sang giữ ấm.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Dùng nồi cơm điện đúng cách là gì?",
+    "a": "Lau khô mặt ngoài nồi trong, đậy kín nắp và không mở nắp nhiều lần khi đang nấu.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Dùng nồi cơm điện an toàn là gì?",
+    "a": "Tay khô mới cắm điện, không chạm vào mâm nhiệt nóng và rút phích sau khi dùng xong.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Bộ phận nào làm chín cơm trong nồi cơm điện?",
+    "a": "Mâm nhiệt ở đáy nồi làm nóng và nấu chín cơm.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Trước khi nấu cơm cần làm gì?",
+    "a": "Lau khô mặt ngoài nồi trong rồi mới đặt vào nồi, để nồi tiếp xúc tốt với mâm nhiệt và an toàn.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Bếp hồng ngoại nấu chín thức ăn thế nào?",
+    "a": "Bếp dùng tia hồng ngoại làm nóng mặt bếp và đáy nồi, nhờ đó thức ăn trong nồi được nấu chín.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Bếp hồng ngoại có kén nồi không?",
+    "a": "Không kén nồi, dùng được nồi inox, nồi nhôm hay nồi đất. Đây là ưu điểm của bếp hồng ngoại.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Sau khi nấu xong, mặt bếp hồng ngoại ra sao?",
+    "a": "Mặt bếp còn rất nóng, chạm tay vào sẽ bị bỏng. Em phải chờ bếp nguội hẳn.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Điều chỉnh nhiệt độ bếp hồng ngoại bằng cách nào?",
+    "a": "Điều chỉnh mức nhiệt trên bảng điều khiển: món xào cần lửa lớn, món canh cần lửa nhỏ.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Dùng bếp hồng ngoại an toàn là gì?",
+    "a": "Không chạm vào mặt bếp nóng, không để vật dễ cháy gần bếp và chỉ dùng khi có người lớn hướng dẫn.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Bếp hồng ngoại làm nóng bằng gì?",
+    "a": "Bằng tia hồng ngoại làm nóng mặt bếp và đáy nồi.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Khi nào mới được lau chùi bếp hồng ngoại?",
+    "a": "Khi bếp đã nguội hẳn và đã ngắt điện, lau khi còn nóng sẽ bị bỏng.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "An toàn điện đầu tiên cần nhớ là gì?",
+    "a": "Tay khô mới chạm vào đồ điện. Tay ướt chạm vào ổ điện rất dễ bị điện giật vì nước dẫn điện.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Đồ điện hỏng thì phải làm gì?",
+    "a": "Báo người lớn và gọi thợ sửa, không tự sửa. Tự sửa đồ điện rất dễ bị giật.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Tiết kiệm điện trong nhà là làm gì?",
+    "a": "Là tắt đèn, quạt khi ra khỏi phòng, dùng đèn LED và rút phích khi không dùng nữa.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Dự án kiểm tra an toàn điện gồm việc gì?",
+    "a": "Xem dây điện có hở không, ổ cắm có quá tải không rồi báo người lớn xử lí. Phát hiện sớm giúp nhà an toàn.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Khi có sự cố về điện thì làm gì?",
+    "a": "Không chạm vào chỗ sự cố, báo người lớn ngay. Người lớn sẽ ngắt điện và gọi thợ sửa.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "3 quy tắc an toàn điện cần nhớ là gì?",
+    "a": "Tay khô mới dùng điện, không chạm vào dây điện hở, đồ hỏng thì báo người lớn, không tự sửa.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "3 cách tiết kiệm điện trong nhà là gì?",
+    "a": "Tắt đèn khi ra khỏi phòng, dùng đèn LED và rút phích cắm khi không dùng nữa.",
+    "fi": ""
+  }
 ]

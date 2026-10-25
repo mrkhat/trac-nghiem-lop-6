@@ -115,7 +115,7 @@ Khi tải câu hỏi lỗi: hiện "Chưa tải được câu hỏi. Em kiểm t
 
 ### flashcards.json / minicards.json / cards-data.js
 
-- `flashcards.json`: mảng `{b, t:"fc", f, a, fi}` — `b` = số bài, `f` = mặt hỏi, `a` = mặt đáp án, `fi` = đường dẫn ảnh (có thể rỗng nếu thẻ không có ảnh).
+- `flashcards.json`: mảng `{b, t, f, a, fi}` — `b` = số bài, `t` = "fc" (flashcard) hoặc "mn" (thẻ ⚡ Nhớ nhanh; mặt trước của mục mn lấy verbatim từ `minicards.json` tương ứng), `f` = mặt hỏi, `a` = mặt đáp án, `fi` = đường dẫn ảnh (có thể rỗng nếu thẻ không có ảnh). Thực tế toàn site (kiểm định 25/10/2026): file này chứa cả fc và mn, không chỉ fc.
 - `minicards.json`: mảng `{b, t:"mn", f, a, fi}` — thẻ ⚡ Nhớ nhanh, đáp án ngắn hơn flashcard.
 - `cards-data.js` là nguồn duy nhất cho trang học + quiz:
   ```js
@@ -124,7 +124,7 @@ Khi tải câu hỏi lỗi: hiện "Chưa tải được câu hỏi. Em kiểm t
   ```
   Thứ tự `CARDS` quyết định `data-cards` ở trang học và `FC_BAI` ở quiz — đổi thứ tự là phải đổi cả hai chỗ, và ghi vào README.
 - Chuẩn số lượng cho môn mới (theo mẫu GDCD/Công nghệ): trắc nghiệm **9 câu/bài**, flashcard **5 thẻ/bài**, thẻ nhớ nhanh **2 thẻ/bài**. Môn có số bài khác thì giữ tỉ lệ này, không tự đặt số lẻ (ví dụ Công nghệ từng lệch: Bài 2 chỉ 4 câu, Bài 8 chỉ 5 câu — đã phải sửa lên 9 câu/bài).
-- Phạm vi mặc định: **Học kì 1** (các môn hiện tại đều chỉ làm HK1). Muốn làm HK2 thì làm thành đợt riêng, không trộn vào file HK1.
+- Phạm vi mặc định: **cả năm học** (từ đợt 25/10/2026 các môn đã đủ HK1 + HK2; trước đó chỉ làm HK1).
 
 ## 7. Flashcard + tiến độ — engine fcDeck (không sửa)
 

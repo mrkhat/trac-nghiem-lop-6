@@ -474,5 +474,446 @@
   "f": "Đặc trưng lớn nhất của văn minh Đông Nam Á là gì?",
   "a": "VĂN MINH LÚA NƯỚC — trồng lúa nước là nghề chính, làng xóm mọc lên ven sông.",
   "fi": "../hinh-anh/lichsu/minh-hoa-lang-dong-nam-a.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Vương quốc phong kiến là gì?",
+  "a": "Nhà nước do vua đứng đầu, quan lại giúp vua cai trị. Nông dân nộp thuế và đi lao dịch, tức làm việc không công cho nhà nước.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Vì sao từ thế kỉ VII, Đông Nam Á lập được vương quốc?",
+  "a": "Vì lúa nước cho của dư nuôi quan quân, buôn bán đường biển phát triển nên cần nhà nước quản lí và bảo vệ.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Sri-vi-giay-a ở đâu, giàu nhờ gì?",
+  "a": "Ở đảo Xu-ma-tra. Giàu nhờ làm chủ eo biển Ma-lắc-ca, thu thuế tàu buôn qua lại giữa Ấn Độ và Trung Quốc.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Văn hóa Ấn Độ truyền vào Đông Nam Á những gì?",
+  "a": "Đạo Hin-đu, đạo Phật, chữ Phạn và nghệ thuật xây đền tháp.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "Người Đông Nam Á giữ lại gì của mình?",
+  "a": "Tiếng nói, phong tục và cách trồng lúa nước của riêng mình.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Ai đứng đầu vương quốc phong kiến?",
+  "a": "Vua đứng đầu, quan lại giúp vua cai trị.",
+  "fi": ""
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Sri-vi-giay-a giàu nhờ gì?",
+  "a": "Buôn bán qua eo biển Ma-lắc-ca.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Giao lưu văn hóa là gì?",
+  "a": "Các dân tộc gặp gỡ, trao đổi và học hỏi lẫn nhau về tôn giáo, chữ viết, nghệ thuật.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Ấn Độ truyền sang Đông Nam Á những gì?",
+  "a": "Đạo Hin-đu, đạo Phật, chữ Phạn, nghệ thuật đền tháp và truyện Ra-ma-ya-na.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Người Đông Nam Á sáng tạo chữ viết riêng như thế nào?",
+  "a": "Học chữ Phạn rồi biến đổi cho hợp tiếng nói của mình, ví dụ chữ Khmer, chữ Chăm.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Bô-rô-bu-đua là gì, ở đâu?",
+  "a": "Ngôi đền Phật giáo lớn ở đảo Java (In-đô-nê-xi-a), xây theo kiểu tháp nhiều tầng.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "Vì sao văn hóa Đông Nam Á vừa giống Ấn Độ vừa khác?",
+  "a": "Vì người Đông Nam Á học văn hóa Ấn Độ nhưng vẫn giữ tiếng nói, phong tục và cách sống của mình.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Ấn Độ truyền vào Đông Nam Á những gì?",
+  "a": "Đạo Hin-đu, đạo Phật, chữ Phạn.",
+  "fi": ""
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Học mà vẫn giữ bản sắc nghĩa là gì?",
+  "a": "Tiếp thu có chọn lọc, giữ tiếng nói và phong tục riêng.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Nhà nước Văn Lang ra đời khi nào, ai đứng đầu?",
+  "a": "Khoảng thế kỉ VII trước Công nguyên, Hùng Vương đứng đầu, kinh đô ở Phong Châu.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Văn Lang chia thành mấy bộ, ai cai quản?",
+  "a": "15 bộ. Lạc hầu, Lạc tướng giúp vua, Bồ chính cai quản từng bộ.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Người Văn Lang sống bằng nghề gì?",
+  "a": "Trồng lúa nước và đúc đồng, nổi tiếng nhất là trống đồng Đông Sơn.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Nước Âu Lạc ra đời thế nào?",
+  "a": "Cuối thế kỉ III trước Công nguyên, An Dương Vương hợp nhất Văn Lang với lãnh thổ của mình, đóng đô ở Cổ Loa.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "fc",
+  "f": "Thành Cổ Loa có gì đặc biệt?",
+  "a": "Thành xây hình xoáy ốc nhiều vòng, vừa là kinh đô vừa là căn cứ phòng thủ.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Văn Lang: ai đứng đầu, kinh đô ở đâu, mấy bộ?",
+  "a": "Hùng Vương, kinh đô Phong Châu, 15 bộ.",
+  "fi": ""
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Âu Lạc: ai lập ra, kinh đô ở đâu?",
+  "a": "An Dương Vương, kinh đô Cổ Loa, thành xoáy ốc.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Chính quyền đô hộ chia nước ta thành gì?",
+  "a": "Các quận, huyện, đặt quan người Hán sang cai trị.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Đồng hóa là gì?",
+  "a": "Bắt người Việt theo tiếng nói, chữ viết, phong tục Hán để biến Âu Lạc thành một phần của Trung Quốc.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Thuế và lao dịch là gì?",
+  "a": "Thuế nặng bắt nộp tiền và sản vật quý. Lao dịch là làm việc không công như đắp thành, đào kênh.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Công cụ sắt thay đổi sản xuất ra sao?",
+  "a": "Cày sâu hơn, ruộng mở rộng, lúa làm ra nhiều hơn trước.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "fc",
+  "f": "Người Việt giữ được gì?",
+  "a": "Tiếng nói, phong tục, thờ cúng tổ tiên. Nhờ vậy không bị hòa tan.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Đồng hóa là gì?",
+  "a": "Bắt theo tiếng Hán, phong tục Hán để xóa dân tộc Việt.",
+  "fi": ""
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Người Việt vẫn giữ gì?",
+  "a": "Tiếng nói và phong tục riêng.",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Hai Bà Trưng khởi nghĩa năm nào, ở đâu?",
+  "a": "Năm 40 ở Hát Môn. Trưng Trắc lên làm vua.",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Bà Triệu là ai, khởi nghĩa khi nào?",
+  "a": "Nữ anh hùng ở Phú Điền (Thanh Hóa), khởi nghĩa năm 248, muốn cưỡi gió mạnh, đạp sóng dữ.",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Lý Bí lập nước nào?",
+  "a": "Năm 542 thắng lợi, lập nước Vạn Xuân, xưng Lý Nam Đế.",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Mai Thúc Loan và Phùng Hưng là ai?",
+  "a": "Mai Thúc Loan (713, Mai Hắc Đế). Phùng Hưng (cuối thế kỉ VIII, Bố Cái Đại Vương).",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "fc",
+  "f": "Khúc Thừa Dụ giành được gì năm 905?",
+  "a": "Quyền tự chủ: người Việt tự cai quản đất nước mình.",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Nhớ nhanh: Hai Bà Trưng – Bà Triệu – Lý Bí",
+  "a": "Năm 40 – năm 248 – năm 542 (Vạn Xuân).",
+  "fi": ""
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Khúc Thừa Dụ năm 905 giành được gì?",
+  "a": "Quyền tự chủ.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Bảo tồn văn hóa là gì?",
+  "a": "Giữ gìn tiếng nói, phong tục tốt đẹp của dân tộc mình.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Người Việt giữ tiếng nói bằng cách nào?",
+  "a": "Học chữ Hán nhưng ở nhà, trong làng vẫn nói tiếng Việt.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Phong tục Việt giữ được gồm gì?",
+  "a": "Ăn trầu, nhuộm răng, thờ cúng tổ tiên.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Chữ Nôm là gì?",
+  "a": "Chữ người Việt sáng tạo từ chữ Hán để ghi âm tiếng Việt.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "fc",
+  "f": "Vì sao đồng hóa nguy hiểm?",
+  "a": "Vì mất tiếng nói, phong tục thì dân tộc dễ bị hòa tan, không còn ý thức độc lập.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Giữ tiếng nói bằng cách nào?",
+  "a": "Học chữ Hán nhưng vẫn nói tiếng Việt ở nhà, trong làng.",
+  "fi": ""
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Chữ Nôm là gì?",
+  "a": "Ghi tiếng Việt bằng chữ sáng tạo từ chữ Hán.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Bước ngoặt đầu thế kỉ X là gì?",
+  "a": "Ngô Quyền thắng quân Nam Hán trên sông Bạch Đằng năm 938, mở ra thời độc lập hoàn toàn.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Kế đóng cọc là gì?",
+  "a": "Đóng cọc đầu bịt sắt xuống sông, chờ thủy triều xuống để cọc đâm thủng thuyền giặc.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Vì sao cọc phát huy tác dụng khi nước rút?",
+  "a": "Lúc nước lên cọc ngập nên giặc không thấy. Nước rút cọc nhô lên đâm thuyền.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Ngô Quyền làm gì năm 939?",
+  "a": "Xưng vương, đóng đô ở Cổ Loa, khẳng định nước độc lập.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "fc",
+  "f": "Bạch Đằng 938 chấm dứt thời kì nào?",
+  "a": "Hơn 1000 năm Bắc thuộc (từ 179 trước Công nguyên).",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Bạch Đằng 938 gắn với ai, kế gì?",
+  "a": "Ngô Quyền, kế đóng cọc, thắng quân Nam Hán.",
+  "fi": ""
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Năm 939, Ngô Quyền làm gì?",
+  "a": "Xưng vương, đóng đô ở Cổ Loa.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Chăm-pa hình thành khi nào, ở đâu?",
+  "a": "Từ thế kỉ II ở miền Trung Việt Nam, ban đầu gọi là Lâm Ấp.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Kinh đô Chăm-pa ở đâu?",
+  "a": "Đầu tiên là Trà Kiệu (Quảng Nam), sau dời về Vijaya (Bình Định).",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Tôn giáo chính của Chăm-pa?",
+  "a": "Hin-đu giáo, thờ thần Si-va. Trung tâm là thánh địa Mỹ Sơn.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Tháp Chăm có gì đặc biệt?",
+  "a": "Xây bằng gạch nung xếp khít, tháp nhọn nhiều tầng.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "fc",
+  "f": "Người Chăm giỏi gì?",
+  "a": "Đi biển, đóng thuyền và buôn bán. Sáng tạo chữ Chăm từ chữ Phạn.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Chăm-pa: hình thành khi nào, ở đâu, kinh đô đầu?",
+  "a": "Thế kỉ II, miền Trung, kinh đô Trà Kiệu.",
+  "fi": ""
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Mỹ Sơn là gì?",
+  "a": "Khu đền tháp thờ thần Si-va của Chăm-pa.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Phù Nam ở đâu, thịnh vượng khi nào?",
+  "a": "Hạ lưu sông Mê Công. Thịnh vượng từ thế kỉ I đến thế kỉ VI.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Óc Eo là gì?",
+  "a": "Thương cảng sầm uất của Phù Nam, ở An Giang ngày nay.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Vì sao Óc Eo sầm uất?",
+  "a": "Nằm trên đường biển nối Ấn Độ với Trung Quốc, tàu buôn hai nước đều ghé.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Người Phù Nam trị thủy bằng cách nào?",
+  "a": "Đào kênh dẫn nước, đắp bờ giữ nước để trồng lúa và đi thuyền.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "fc",
+  "f": "Phù Nam suy yếu vì sao?",
+  "a": "Bị Chân Lạp thôn tính và đường biển đổi hướng từ thế kỉ VI.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Phù Nam: ở đâu, khi nào, cảng nào?",
+  "a": "Hạ lưu Mê Công, thế kỉ I–VI, cảng Óc Eo.",
+  "fi": ""
+ },
+ {
+  "b": 19,
+  "t": "mn",
+  "f": "Óc Eo sầm uất nhờ gì?",
+  "a": "Đường biển Ấn Độ – Trung Quốc.",
+  "fi": ""
  }
 ]

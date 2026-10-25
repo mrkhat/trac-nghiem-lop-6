@@ -869,5 +869,4568 @@
     "answer": 3,
     "explanation": "Bay hơi xảy ra ở mọi nhiệt độ, còn sôi mới ở nhiệt độ xác định.",
     "bai": 9
+  },
+  {
+    "answer": 1,
+    "bai": 14,
+    "explanation": "Nguyên liệu là vật liệu lấy từ tự nhiên để sản xuất ra sản phẩm khác, ví dụ quặng sắt dùng để luyện gang, thép.",
+    "id": 68,
+    "options": [
+      "A. Sản phẩm đã làm xong, đóng gói cẩn thận để bán ra.",
+      "B. Vật liệu lấy từ tự nhiên để sản xuất sản phẩm khác.",
+      "C. Nhiên liệu dùng để đốt cháy lấy nhiệt để chạy máy.",
+      "D. Rác thải bỏ đi sau khi đã dùng xong các sản phẩm."
+    ],
+    "question": "Nguyên liệu là gì?"
+  },
+  {
+    "answer": 3,
+    "bai": 14,
+    "explanation": "Quặng sắt là nguyên liệu luyện gang, thép vì trong quặng có chứa sắt.",
+    "id": 69,
+    "options": [
+      "A. Cát.",
+      "B. Đá vôi.",
+      "C. Gạo.",
+      "D. Quặng sắt."
+    ],
+    "question": "Đâu là nguyên liệu để luyện gang, thép?"
+  },
+  {
+    "answer": 0,
+    "bai": 14,
+    "explanation": "Đá vôi nung nóng rồi nghiền sẽ thành xi măng, dùng để xây nhà.",
+    "id": 70,
+    "options": [
+      "A. Xi măng.",
+      "B. Giấy.",
+      "C. Vải.",
+      "D. Đường."
+    ],
+    "question": "Đá vôi là nguyên liệu chính để sản xuất gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 14,
+    "explanation": "Cát nung chảy ở nhiệt độ cao sẽ thành thủy tinh, dùng làm cốc, cửa kính.",
+    "id": 71,
+    "options": [
+      "A. Làm giấy.",
+      "B. Luyện thép.",
+      "C. Làm thủy tinh.",
+      "D. Làm xi măng."
+    ],
+    "question": "Cát là nguyên liệu chính để làm gì?"
+  },
+  {
+    "answer": 1,
+    "bai": 14,
+    "explanation": "Nguyên liệu tái tạo là nguyên liệu trồng lại hoặc tạo lại được, ví dụ gỗ từ rừng trồng có thể trồng cây mới thay thế.",
+    "id": 72,
+    "options": [
+      "A. Quặng sắt.",
+      "B. Gỗ từ rừng trồng.",
+      "C. Dầu mỏ.",
+      "D. Than đá."
+    ],
+    "question": "Nguyên liệu nào sau đây có thể tái tạo?"
+  },
+  {
+    "answer": 3,
+    "bai": 14,
+    "explanation": "Nhiều nguyên liệu như quặng, dầu mỏ không tái tạo được, khai thác nhiều sẽ cạn kiệt và phá môi trường.",
+    "id": 73,
+    "options": [
+      "A. Vì nguyên liệu rất rẻ nên cứ dùng thoải mái, không cần lo.",
+      "B. Vì nguyên liệu tự đầy lại ngay sau khi con người lấy đi.",
+      "C. Vì dùng nhiều nguyên liệu không ảnh hưởng gì tới môi trường.",
+      "D. Vì nhiều nguyên liệu không tái tạo, dùng nhiều sẽ cạn kiệt."
+    ],
+    "question": "Vì sao phải sử dụng nguyên liệu tiết kiệm?"
+  },
+  {
+    "answer": 0,
+    "bai": 14,
+    "explanation": "Khai thác bừa bãi lấy đi tài nguyên và phá rừng, phá đất, làm mất nơi sống của sinh vật.",
+    "id": 74,
+    "options": [
+      "A. Làm cạn kiệt tài nguyên và phá hoại môi trường sống.",
+      "B. Làm cho tài nguyên trong tự nhiên tăng lên nhanh chóng.",
+      "C. Làm cho đất đai trở nên tốt hơn và màu mỡ hơn.",
+      "D. Làm cho không khí trở nên sạch hơn và trong lành hơn."
+    ],
+    "question": "Khai thác nguyên liệu bừa bãi gây hại gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 14,
+    "explanation": "Rừng trồng chặt rồi trồng lại được, nên dùng gỗ rừng trồng giúp giữ rừng tự nhiên không bị phá.",
+    "id": 75,
+    "options": [
+      "A. Vì gỗ rừng trồng rẻ hơn nhiều so với gỗ tự nhiên.",
+      "B. Vì gỗ rừng trồng đẹp hơn và bền hơn gỗ tự nhiên.",
+      "C. Vì rừng trồng trồng lại được, giúp giữ rừng tự nhiên.",
+      "D. Vì gỗ rừng trồng nhẹ hơn nên dễ vận chuyển hơn."
+    ],
+    "question": "Nhà máy dùng gỗ rừng trồng thay vì gỗ rừng tự nhiên. Việc này tốt vì sao?"
+  },
+  {
+    "answer": 2,
+    "bai": 14,
+    "explanation": "Chiếc áo đã may xong là sản phẩm, không còn là nguyên liệu nữa; quặng đồng, mủ cao su, cây mía đều là nguyên liệu để sản xuất.",
+    "id": 76,
+    "options": [
+      "A. Quặng đồng.",
+      "B. Mủ cao su.",
+      "C. Chiếc áo đã may xong.",
+      "D. Cây mía."
+    ],
+    "question": "Đâu KHÔNG phải là nguyên liệu?"
+  },
+  {
+    "answer": 1,
+    "bai": 15,
+    "explanation": "Nhiên liệu là chất khi cháy sẽ tỏa ra năng lượng, chủ yếu là nhiệt, ví dụ than, xăng, gas cháy đều tỏa nhiệt để đun nấu, chạy máy.",
+    "id": 77,
+    "options": [
+      "A. Vật liệu cứng dùng để xây nhà và làm cầu đường.",
+      "B. Chất khi cháy tỏa ra năng lượng, chủ yếu là nhiệt.",
+      "C. Thức ăn hằng ngày giúp con người lớn lên, khỏe mạnh.",
+      "D. Nước sạch dùng để uống và sinh hoạt hằng ngày."
+    ],
+    "question": "Nhiên liệu là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 15,
+    "explanation": "Nhiên liệu rắn là nhiên liệu ở thể rắn, ví dụ than, củi.",
+    "id": 78,
+    "options": [
+      "A. Xăng.",
+      "B. Gas.",
+      "C. Than, củi.",
+      "D. Dầu hỏa."
+    ],
+    "question": "Đâu là nhiên liệu rắn?"
+  },
+  {
+    "answer": 0,
+    "bai": 15,
+    "explanation": "Nhiên liệu lỏng là nhiên liệu ở thể lỏng, ví dụ xăng, dầu hỏa.",
+    "id": 79,
+    "options": [
+      "A. Xăng.",
+      "B. Củi.",
+      "C. Than đá.",
+      "D. Khí gas."
+    ],
+    "question": "Đâu là nhiên liệu lỏng?"
+  },
+  {
+    "answer": 3,
+    "bai": 15,
+    "explanation": "Nhiên liệu khí là nhiên liệu ở thể khí, ví dụ khí gas, khí biogas.",
+    "id": 80,
+    "options": [
+      "A. Dầu diesel.",
+      "B. Than tổ ong.",
+      "C. Cồn khô.",
+      "D. Khí biogas."
+    ],
+    "question": "Đâu là nhiên liệu khí?"
+  },
+  {
+    "answer": 1,
+    "bai": 15,
+    "explanation": "Nhiên liệu hóa thạch hình thành từ xác sinh vật bị vùi lấp và biến đổi trong hàng triệu năm, ví dụ than đá, dầu mỏ, khí thiên nhiên.",
+    "id": 81,
+    "options": [
+      "A. Nhiên liệu làm từ cây trồng mới thu hoạch trong năm nay.",
+      "B. Nhiên liệu hình thành từ xác sinh vật bị vùi lấp hàng triệu năm.",
+      "C. Nhiên liệu làm từ nước sạch chảy trong sông, suối, ao hồ.",
+      "D. Nhiên liệu làm từ gió thổi mạnh trên biển và trên đồi cao."
+    ],
+    "question": "Nhiên liệu hóa thạch là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 15,
+    "explanation": "Than đá, dầu mỏ cần hàng triệu năm mới hình thành, nên con người dùng hết thì không có lại ngay được.",
+    "id": 82,
+    "options": [
+      "A. Vì chúng rất đắt nên ít người mua và sử dụng chúng.",
+      "B. Vì chúng khó đốt cháy nên ít người muốn dùng chúng.",
+      "C. Vì chúng hình thành rất lâu, dùng hết thì không có lại ngay.",
+      "D. Vì chúng chỉ có ở Việt Nam mà không có ở nước khác."
+    ],
+    "question": "Vì sao nói than đá, dầu mỏ là nhiên liệu không tái tạo?"
+  },
+  {
+    "answer": 1,
+    "bai": 15,
+    "explanation": "Đốt than, dầu thải ra khí gây ô nhiễm không khí và làm Trái Đất nóng lên dần.",
+    "id": 83,
+    "options": [
+      "A. Làm cho không khí sạch hơn và trong lành hơn nhiều.",
+      "B. Thải khí gây ô nhiễm không khí và làm Trái Đất nóng lên.",
+      "C. Làm cho cây xanh tốt hơn và phát triển nhanh hơn.",
+      "D. Không gây ra bất kỳ tác hại nào cho môi trường cả."
+    ],
+    "question": "Đốt nhiều nhiên liệu hóa thạch gây hại gì?"
+  },
+  {
+    "answer": 3,
+    "bai": 15,
+    "explanation": "Gas rò rỉ gặp lửa có thể gây cháy nổ, nên dùng bếp gas xong phải khóa van lại.",
+    "id": 84,
+    "options": [
+      "A. Để nguyên bếp như vậy cho tiện nấu lần sau.",
+      "B. Mở cửa sổ ra rồi đi ngủ như bình thường.",
+      "C. Đổ nước lạnh vào bếp để làm bếp nguội đi.",
+      "D. Khóa van gas để tránh rò rỉ gây cháy nổ."
+    ],
+    "question": "Đun nấu xong, em cần làm gì với bếp gas?"
+  },
+  {
+    "answer": 0,
+    "bai": 15,
+    "explanation": "Đi bộ, đi xe đạp hoặc đi chung xe sẽ dùng ít xăng hơn, vừa tiết kiệm nhiên liệu vừa đỡ ô nhiễm.",
+    "id": 85,
+    "options": [
+      "A. Đi bộ, đi xe đạp hoặc đi chung xe khi có thể.",
+      "B. Đi xe máy một mình mỗi ngày dù quãng đường ngắn.",
+      "C. Bật điều hòa cả ngày dù trời không quá nóng bức.",
+      "D. Đốt củi để sưởi ấm trong những ngày trời lạnh."
+    ],
+    "question": "Cách nào giúp tiết kiệm nhiên liệu khi đi học?"
+  },
+  {
+    "answer": 0,
+    "bai": 16,
+    "explanation": "Lương thực là thức ăn giàu tinh bột, dùng làm thức ăn chính hằng ngày, ví dụ gạo, ngô, khoai, sắn.",
+    "id": 86,
+    "options": [
+      "A. Thức ăn giàu tinh bột, dùng làm thức ăn chính hằng ngày.",
+      "B. Thức ăn chỉ để ăn vặt cho vui miệng lúc rảnh rỗi.",
+      "C. Nước uống hằng ngày giúp cơ thể không bị khát nước.",
+      "D. Thuốc dùng để chữa bệnh khi cơ thể bị ốm, bị đau."
+    ],
+    "question": "Lương thực là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 16,
+    "explanation": "Gạo giàu tinh bột và là thức ăn chính hằng ngày nên gạo là lương thực; thịt, cá là thực phẩm, rau là thực phẩm bổ sung.",
+    "id": 87,
+    "options": [
+      "A. Thịt lợn.",
+      "B. Cá.",
+      "C. Gạo.",
+      "D. Rau muống."
+    ],
+    "question": "Đâu là lương thực?"
+  },
+  {
+    "answer": 1,
+    "bai": 16,
+    "explanation": "Thực phẩm là tên gọi chung các thức ăn cung cấp chất dinh dưỡng cho cơ thể, ví dụ thịt, cá, trứng, rau, quả.",
+    "id": 88,
+    "options": [
+      "A. Chỉ có gạo, ngô, khoai dùng làm thức ăn chính.",
+      "B. Tên gọi chung các thức ăn cung cấp chất dinh dưỡng.",
+      "C. Chỉ có nước uống hằng ngày để giải khát mà thôi.",
+      "D. Chỉ có đồ ăn vặt như bánh kẹo và nước ngọt."
+    ],
+    "question": "Thực phẩm là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 16,
+    "explanation": "Chất đạm có nhiều trong thịt, cá, trứng, sữa, đậu và giúp cơ thể lớn lên, khỏe mạnh.",
+    "id": 89,
+    "options": [
+      "A. Gạo, ngô và khoai là những món ăn chính hằng ngày.",
+      "B. Dầu ăn và mỡ động vật dùng để chiên, xào thức ăn.",
+      "C. Thịt, cá, trứng, sữa, đậu.",
+      "D. Đường và các loại bánh kẹo ngọt để ăn tráng miệng."
+    ],
+    "question": "Chất đạm có nhiều trong thức ăn nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 16,
+    "explanation": "Chất bột đường có nhiều trong gạo, ngô, khoai, bánh mì và cho cơ thể năng lượng hoạt động.",
+    "id": 90,
+    "options": [
+      "A. Thịt bò và các loại thịt đỏ để nấu ăn hằng ngày.",
+      "B. Rau xanh các loại trồng trong vườn nhà em.",
+      "C. Quả cam và các loại quả chín ngọt trong vườn.",
+      "D. Gạo, ngô, khoai, bánh mì."
+    ],
+    "question": "Chất bột đường có nhiều trong thức ăn nào?"
+  },
+  {
+    "answer": 0,
+    "bai": 16,
+    "explanation": "Rau, quả tươi có nhiều vitamin và chất khoáng, giúp cơ thể khỏe mạnh và chống bệnh tật.",
+    "id": 91,
+    "options": [
+      "A. Rau, quả tươi.",
+      "B. Đường.",
+      "C. Mỡ lợn.",
+      "D. Muối."
+    ],
+    "question": "Vitamin và chất khoáng có nhiều trong thức ăn nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 16,
+    "explanation": "Mỗi nhóm chất có vai trò riêng: bột đường cho năng lượng, đạm giúp lớn lên, vitamin giúp chống bệnh, nên thiếu chất nào cơ thể cũng yếu đi.",
+    "id": 92,
+    "options": [
+      "A. Vì ăn một món cho nhanh, khỏi mất công nấu nhiều món.",
+      "B. Vì đồ ăn nhiều món sẽ ngon miệng hơn và vui hơn.",
+      "C. Vì ăn thật nhiều thì cơ thể sẽ cao lớn thật nhanh.",
+      "D. Vì mỗi nhóm chất có vai trò riêng, thiếu chất sẽ yếu đi."
+    ],
+    "question": "Vì sao cần ăn đủ các nhóm chất dinh dưỡng?"
+  },
+  {
+    "answer": 1,
+    "bai": 16,
+    "explanation": "Rau quả cung cấp vitamin và chất xơ giúp tiêu hóa tốt, nên không ăn rau quả sẽ thiếu chất và dễ táo bón, mệt mỏi.",
+    "id": 93,
+    "options": [
+      "A. Vì thịt lợn, thịt bò ngày nay bán với giá rất đắt.",
+      "B. Vì thiếu rau quả thì thiếu vitamin và chất xơ, dễ mệt.",
+      "C. Vì thịt hoàn toàn không có chất đạm cho cơ thể.",
+      "D. Vì rau quả thường rất khó ăn đối với trẻ em."
+    ],
+    "question": "Bạn chỉ ăn thịt, không ăn rau quả. Điều này chưa tốt vì sao?"
+  },
+  {
+    "answer": 0,
+    "bai": 16,
+    "explanation": "Thực phẩm an toàn là đồ tươi, còn hạn dùng, rõ nguồn gốc và rửa sạch trước khi ăn, vì đồ bẩn, hết hạn dễ gây đau bụng, ngộ độc.",
+    "id": 94,
+    "options": [
+      "A. Chọn đồ tươi, còn hạn dùng, rửa sạch trước khi ăn.",
+      "B. Mua đồ không rõ nguồn gốc vì thấy giá của nó rẻ.",
+      "C. Ăn đồ ăn đã ôi thiu vì tiếc tiền không muốn bỏ đi.",
+      "D. Không cần rửa rau quả trước khi ăn vì nhìn đã sạch."
+    ],
+    "question": "Để chọn thực phẩm an toàn, em cần làm gì?"
+  },
+  {
+    "answer": 1,
+    "bai": 17,
+    "explanation": "Hỗn hợp là hai hay nhiều chất trộn lẫn với nhau, mỗi chất vẫn giữ tính chất riêng, ví dụ nước muối gồm muối và nước.",
+    "id": 95,
+    "options": [
+      "A. Một chất tinh khiết duy nhất, không lẫn chất nào khác.",
+      "B. Hai hay nhiều chất trộn lẫn, mỗi chất giữ tính chất riêng.",
+      "C. Một chất hoàn toàn mới tạo ra sau phản ứng hóa học.",
+      "D. Nước tinh khiết đã lọc sạch mọi tạp chất trong nước."
+    ],
+    "question": "Hỗn hợp là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 17,
+    "explanation": "Nước muối gồm muối tan trong nước nên là hỗn hợp; nước cất, sắt nguyên chất, khí oxygen tinh khiết chỉ là một chất.",
+    "id": 96,
+    "options": [
+      "A. Nước cất tinh khiết.",
+      "B. Sắt nguyên chất.",
+      "C. Nước muối.",
+      "D. Khí oxygen tinh khiết."
+    ],
+    "question": "Đâu là hỗn hợp?"
+  },
+  {
+    "answer": 0,
+    "bai": 17,
+    "explanation": "Hỗn hợp đồng nhất là hỗn hợp trộn đều, không nhìn rõ từng chất riêng, ví dụ nước đường đã khuấy tan.",
+    "id": 97,
+    "options": [
+      "A. Hỗn hợp trộn đều, không nhìn rõ từng chất riêng.",
+      "B. Hỗn hợp nhìn rõ từng chất riêng rẽ trong hỗn hợp.",
+      "C. Hỗn hợp có màu sắc đẹp và bắt mắt khi nhìn vào.",
+      "D. Hỗn hợp có mùi thơm dễ chịu khi ngửi thấy nó."
+    ],
+    "question": "Hỗn hợp đồng nhất là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 17,
+    "explanation": "Nước đường đã khuấy tan thì đường tan đều trong nước, không nhìn rõ đường nữa nên là hỗn hợp đồng nhất.",
+    "id": 98,
+    "options": [
+      "A. Nước pha dầu.",
+      "B. Nước lẫn cát.",
+      "C. Nước đường đã khuấy tan.",
+      "D. Bột mì lẫn nước chưa khuấy."
+    ],
+    "question": "Đâu là hỗn hợp đồng nhất?"
+  },
+  {
+    "answer": 3,
+    "bai": 17,
+    "explanation": "Nước pha dầu nhìn rõ lớp dầu riêng, lớp nước riêng nên là hỗn hợp không đồng nhất.",
+    "id": 99,
+    "options": [
+      "A. Không khí.",
+      "B. Nước muối.",
+      "C. Nước đường.",
+      "D. Nước pha dầu ăn."
+    ],
+    "question": "Đâu là hỗn hợp không đồng nhất?"
+  },
+  {
+    "answer": 3,
+    "bai": 17,
+    "explanation": "Trong nước muối, muối tan ra nên muối là chất tan, nước là dung môi hòa tan muối.",
+    "id": 100,
+    "options": [
+      "A. Nước là chất tan, muối là dung môi.",
+      "B. Cả hai đều là chất tan trong hỗn hợp.",
+      "C. Cả hai đều là dung môi hòa tan nhau.",
+      "D. Muối là chất tan, nước là dung môi hòa tan muối."
+    ],
+    "question": "Trong nước muối, chất tan và dung môi là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 17,
+    "explanation": "Không khí gồm nhiều khí trộn lẫn với nhau, chủ yếu là nitrogen và oxygen, nên không khí là một hỗn hợp.",
+    "id": 101,
+    "options": [
+      "A. Vì không khí chỉ có duy nhất một khí là oxygen.",
+      "B. Vì không khí không có màu sắc gì khi nhìn vào.",
+      "C. Vì không khí gồm nhiều khí trộn lẫn: nitrogen, oxygen.",
+      "D. Vì không khí rất nhẹ nên bay lên cao dễ dàng."
+    ],
+    "question": "Không khí là hỗn hợp vì sao?"
+  },
+  {
+    "answer": 1,
+    "bai": 17,
+    "explanation": "Muối tan hết trong nước, không nhìn thấy muối nữa nên đây là hỗn hợp đồng nhất, còn gọi là dung dịch nước muối.",
+    "id": 102,
+    "options": [
+      "A. Hỗn hợp không đồng nhất vì muối vẫn còn trong nước.",
+      "B. Hỗn hợp đồng nhất, còn gọi là dung dịch nước muối.",
+      "C. Chất tinh khiết vì nước và muối đã thành một chất.",
+      "D. Hỗn hợp đã biến thành một chất hoàn toàn mới."
+    ],
+    "question": "Khuấy muối vào nước, muối tan hết, không nhìn thấy muối nữa. Đây là gì?"
+  },
+  {
+    "answer": 0,
+    "bai": 17,
+    "explanation": "Mỗi chất trong hỗn hợp vẫn giữ tính chất riêng của nó, ví dụ muối trong nước muối vẫn mặn.",
+    "id": 103,
+    "options": [
+      "A. Vì mỗi chất vẫn giữ tính chất riêng, ví dụ muối vẫn mặn.",
+      "B. Vì trộn các chất xong thì không tách chúng ra được nữa.",
+      "C. Vì mọi hỗn hợp đều có màu sắc đẹp và bắt mắt.",
+      "D. Vì mọi hỗn hợp đều luôn ở thể lỏng như nước lã."
+    ],
+    "question": "Vì sao nói các chất trong hỗn hợp vẫn giữ tính chất riêng?"
+  },
+  {
+    "answer": 2,
+    "bai": 18,
+    "explanation": "Cát không tan trong nước nên lọc qua giấy lọc sẽ giữ cát lại, chỉ cho nước chảy qua.",
+    "id": 104,
+    "options": [
+      "A. Cô cạn bằng cách đun nóng.",
+      "B. Dùng nam châm để hút.",
+      "C. Lọc qua giấy lọc.",
+      "D. Đun sôi thật lâu."
+    ],
+    "question": "Để tách cát khỏi nước, dùng cách nào?"
+  },
+  {
+    "answer": 1,
+    "bai": 18,
+    "explanation": "Giấy lọc có lỗ rất nhỏ, chỉ cho nước chảy qua và giữ cát lại trên giấy.",
+    "id": 105,
+    "options": [
+      "A. Vì cát tan hoàn toàn trong nước thành nước cát.",
+      "B. Vì giấy lọc giữ cát lại, chỉ cho nước chảy qua.",
+      "C. Vì cát nhẹ hơn nước nên nổi lên trên mặt nước.",
+      "D. Vì cát bay hơi cùng với nước khi để ngoài nắng."
+    ],
+    "question": "Vì sao lọc tách được cát khỏi nước?"
+  },
+  {
+    "answer": 0,
+    "bai": 18,
+    "explanation": "Cô cạn là đun nóng cho chất lỏng bay hơi, còn lại chất tan, ví dụ cô cạn nước muối thì nước bay hơi, muối ở lại.",
+    "id": 106,
+    "options": [
+      "A. Đun nóng cho chất lỏng bay hơi, còn lại chất tan.",
+      "B. Lọc chất rắn ra khỏi chất lỏng qua giấy lọc.",
+      "C. Dùng nam châm để hút chất có tính từ ra ngoài.",
+      "D. Để hỗn hợp lắng xuống rồi gạn lấy phần trong."
+    ],
+    "question": "Cô cạn là cách làm gì?"
+  },
+  {
+    "answer": 3,
+    "bai": 18,
+    "explanation": "Muối tan trong nước nên không lọc được, phải cô cạn: đun nóng cho nước bay hơi, muối ở lại.",
+    "id": 107,
+    "options": [
+      "A. Lọc qua giấy lọc.",
+      "B. Dùng nam châm hút.",
+      "C. Đổ thêm nước vào.",
+      "D. Cô cạn bằng cách đun nóng."
+    ],
+    "question": "Muốn lấy muối từ nước muối, dùng cách nào?"
+  },
+  {
+    "answer": 2,
+    "bai": 18,
+    "explanation": "Nam châm chỉ hút chất có tính từ như sắt, nên tách được mạt sắt ra khỏi cát hoặc bột lưu huỳnh.",
+    "id": 108,
+    "options": [
+      "A. Nước và dầu ăn trộn lẫn với nhau.",
+      "B. Muối và nước đã khuấy tan hoàn toàn.",
+      "C. Bột sắt lẫn trong cát hoặc bột lưu huỳnh.",
+      "D. Đường và nước đã khuấy tan hoàn toàn."
+    ],
+    "question": "Dùng nam châm tách được hỗn hợp nào?"
+  },
+  {
+    "answer": 1,
+    "bai": 18,
+    "explanation": "Dầu nhẹ hơn nước và không tan trong nước nên để yên dầu sẽ nổi lên trên, gạn lấy lớp dầu là tách được.",
+    "id": 109,
+    "options": [
+      "A. Lọc hỗn hợp qua giấy lọc như lọc nước lẫn cát.",
+      "B. Để yên cho dầu nổi lên rồi gạn lấy lớp dầu.",
+      "C. Cô cạn bằng cách đun nóng cho nước bay hơi hết.",
+      "D. Dùng nam châm để hút dầu ra khỏi nước."
+    ],
+    "question": "Tách dầu khỏi nước có thể dùng cách nào?"
+  },
+  {
+    "answer": 0,
+    "bai": 18,
+    "explanation": "Để lắng rồi lọc sẽ giữ bùn đất lại, cho nước trong chảy qua, nên đây là bước làm trong nước đầu tiên.",
+    "id": 110,
+    "options": [
+      "A. Để lắng rồi lọc qua vải hoặc giấy lọc.",
+      "B. Đun sôi nước ngay lập tức cho nhanh.",
+      "C. Cho thêm muối vào nước rồi khuấy đều lên.",
+      "D. Dùng nam châm để hút bùn đất ra khỏi nước."
+    ],
+    "question": "Nước sông lẫn bùn đất, muốn có nước trong, em làm gì trước?"
+  },
+  {
+    "answer": 1,
+    "bai": 18,
+    "explanation": "Khi đun nóng nước muối, nước bay hơi đi còn muối không bay hơi nên muối ở lại trong bát.",
+    "id": 111,
+    "options": [
+      "A. Muối bay hơi cùng với nước khi đun nóng.",
+      "B. Nước bay hơi, muối ở lại trong bát.",
+      "C. Cả muối và nước đều biến mất hoàn toàn.",
+      "D. Nước muối biến thành đường ngọt khi đun nóng."
+    ],
+    "question": "Khi cô cạn nước muối, điều gì xảy ra?"
+  },
+  {
+    "answer": 3,
+    "bai": 18,
+    "explanation": "Mỗi cách tách dựa vào một tính chất khác nhau: không tan thì lọc, tan thì cô cạn, bị nam châm hút thì dùng nam châm.",
+    "id": 112,
+    "options": [
+      "A. Dựa vào màu sắc bên ngoài của hỗn hợp đó.",
+      "B. Dựa vào mùi hương tỏa ra từ hỗn hợp đó.",
+      "C. Dựa vào giá tiền của hỗn hợp khi mua ngoài chợ.",
+      "D. Dựa vào tính chất khác nhau của các chất."
+    ],
+    "question": "Chọn cách tách phù hợp dựa vào đâu?"
+  },
+  {
+    "answer": 1,
+    "bai": 19,
+    "explanation": "Tế bào là đơn vị nhỏ nhất cấu tạo nên cơ thể sống và thực hiện chức năng sống, ví dụ cơ thể người gồm rất nhiều tế bào.",
+    "id": 113,
+    "options": [
+      "A. Một bộ phận lớn của cơ thể như tay, chân.",
+      "B. Đơn vị nhỏ nhất cấu tạo và thực hiện chức năng sống.",
+      "C. Một loại vi khuẩn nhỏ gây bệnh cho con người.",
+      "D. Một chất dinh dưỡng có trong thức ăn hằng ngày."
+    ],
+    "question": "Tế bào là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 19,
+    "explanation": "Màng tế bào bao bọc bên ngoài, bảo vệ tế bào và kiểm soát các chất đi ra, đi vào.",
+    "id": 114,
+    "options": [
+      "A. Nhân tế bào.",
+      "B. Chất tế bào.",
+      "C. Màng tế bào.",
+      "D. Lục lạp."
+    ],
+    "question": "Thành phần nào bao bọc và bảo vệ tế bào?"
+  },
+  {
+    "answer": 1,
+    "bai": 19,
+    "explanation": "Nhân điều khiển mọi hoạt động sống của tế bào và chứa thông tin di truyền của sinh vật.",
+    "id": 115,
+    "options": [
+      "A. Quang hợp tạo thức ăn.",
+      "B. Điều khiển mọi hoạt động sống của tế bào.",
+      "C. Chứa nước và chất thải.",
+      "D. Bảo vệ tế bào khỏi bên ngoài."
+    ],
+    "question": "Nhân tế bào có vai trò gì?"
+  },
+  {
+    "answer": 0,
+    "bai": 19,
+    "explanation": "Chất tế bào là nơi diễn ra các hoạt động sống của tế bào, như trao đổi chất và sinh trưởng.",
+    "id": 116,
+    "options": [
+      "A. Nơi diễn ra các hoạt động sống của tế bào.",
+      "B. Nơi chứa thông tin di truyền của sinh vật.",
+      "C. Lớp vỏ cứng bao bọc bên ngoài tế bào.",
+      "D. Nơi tạo ra màu xanh cho lá cây quang hợp."
+    ],
+    "question": "Chất tế bào là nơi nào?"
+  },
+  {
+    "answer": 2,
+    "bai": 19,
+    "explanation": "Lục lạp chứa chất diệp lục giúp cây quang hợp tạo thức ăn, chỉ có ở tế bào thực vật.",
+    "id": 117,
+    "options": [
+      "A. Nhân.",
+      "B. Màng tế bào.",
+      "C. Lục lạp.",
+      "D. Chất tế bào."
+    ],
+    "question": "Thành phần nào chỉ có ở tế bào thực vật, giúp cây quang hợp?"
+  },
+  {
+    "answer": 0,
+    "bai": 19,
+    "explanation": "Tế bào thực vật có thêm thành tế bào cứng và lục lạp để quang hợp, còn tế bào động vật không có hai thành phần này.",
+    "id": 118,
+    "options": [
+      "A. Tế bào thực vật có thành tế bào và lục lạp, động vật không có.",
+      "B. Tế bào động vật cũng có lục lạp để quang hợp như thực vật.",
+      "C. Tế bào thực vật không có nhân để điều khiển hoạt động sống.",
+      "D. Hai loại tế bào này giống nhau hoàn toàn ở mọi điểm."
+    ],
+    "question": "Tế bào thực vật khác tế bào động vật ở điểm nào?"
+  },
+  {
+    "answer": 0,
+    "bai": 19,
+    "explanation": "Tế bào rất nhỏ, mắt thường không nhìn thấy được nên phải dùng kính hiển vi phóng to lên mới quan sát được.",
+    "id": 119,
+    "options": [
+      "A. Vì tế bào rất nhỏ, mắt thường không nhìn thấy được.",
+      "B. Vì tế bào phát sáng trong bóng tối khó quan sát.",
+      "C. Vì tế bào ở rất xa mắt người không tới được.",
+      "D. Vì tế bào di chuyển rất nhanh khó nhìn kịp."
+    ],
+    "question": "Vì sao phải dùng kính hiển vi để quan sát tế bào?"
+  },
+  {
+    "answer": 3,
+    "bai": 19,
+    "explanation": "Không bào lớn chứa dịch tế bào có ở tế bào thực vật, còn tế bào động vật chỉ có không bào nhỏ.",
+    "id": 120,
+    "options": [
+      "A. Tế bào động vật.",
+      "B. Cả hai loại đều có không bào lớn.",
+      "C. Không có ở tế bào nào.",
+      "D. Tế bào thực vật."
+    ],
+    "question": "Không bào lớn chứa dịch tế bào có ở loại tế bào nào?"
+  },
+  {
+    "answer": 2,
+    "bai": 19,
+    "explanation": "Các hạt màu xanh trong tế bào lá là lục lạp, vì lục lạp chứa chất diệp lục tạo màu xanh và giúp quang hợp.",
+    "id": 121,
+    "options": [
+      "A. Nhân tế bào điều khiển hoạt động sống của tế bào.",
+      "B. Màng tế bào bao bọc và bảo vệ tế bào bên trong.",
+      "C. Lục lạp chứa chất diệp lục tạo màu xanh.",
+      "D. Không bào chứa dịch tế bào và các chất thải."
+    ],
+    "question": "Quan sát tế bào lá cây dưới kính hiển vi, em thấy các hạt màu xanh. Đó là gì?"
+  },
+  {
+    "answer": 3,
+    "bai": 20,
+    "explanation": "Tế bào lớn lên là tế bào tăng kích thước và khối lượng nhờ lấy chất dinh dưỡng từ môi trường.",
+    "id": 122,
+    "options": [
+      "A. Tế bào đổi màu sắc của mình theo môi trường.",
+      "B. Tế bào biến thành một loại tế bào hoàn toàn khác.",
+      "C. Tế bào di chuyển nhanh hơn trong cơ thể sống.",
+      "D. Tế bào tăng kích thước và khối lượng nhờ lấy chất dinh dưỡng."
+    ],
+    "question": "Tế bào lớn lên là gì?"
+  },
+  {
+    "answer": 1,
+    "bai": 20,
+    "explanation": "Tế bào sinh sản bằng cách phân chia: một tế bào mẹ phân chia thành hai tế bào con giống nhau.",
+    "id": 123,
+    "options": [
+      "A. Tế bào to ra mãi không ngừng.",
+      "B. Một tế bào mẹ phân chia thành hai tế bào con.",
+      "C. Hai tế bào chập lại thành một tế bào.",
+      "D. Tế bào biến mất rồi xuất hiện tế bào mới."
+    ],
+    "question": "Tế bào sinh sản bằng cách nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 20,
+    "explanation": "Khi phân chia, nhân tế bào phân chia trước, sau đó chất tế bào mới phân chia thành hai phần.",
+    "id": 124,
+    "options": [
+      "A. Màng tế bào.",
+      "B. Chất tế bào.",
+      "C. Không bào.",
+      "D. Nhân tế bào."
+    ],
+    "question": "Khi phân chia, phần nào phân chia trước?"
+  },
+  {
+    "answer": 1,
+    "bai": 20,
+    "explanation": "Tế bào con sinh ra sẽ lớn lên, rồi lại phân chia thành tế bào mới, cứ thế tiếp tục.",
+    "id": 125,
+    "options": [
+      "A. Nhỏ mãi không lớn lên được.",
+      "B. Lớn lên rồi lại phân chia thành tế bào mới.",
+      "C. Biến thành tế bào thực vật.",
+      "D. Chết ngay lập tức sau khi sinh ra."
+    ],
+    "question": "Tế bào con sau khi sinh ra sẽ thế nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 20,
+    "explanation": "Nhờ phân chia tế bào, cơ thể lớn lên và thay thế các tế bào già, tế bào hỏng.",
+    "id": 126,
+    "options": [
+      "A. Cơ thể nhỏ lại dần theo thời gian.",
+      "B. Cơ thể đổi màu da theo mùa.",
+      "C. Cơ thể không thay đổi gì cả.",
+      "D. Cơ thể lớn lên và thay thế tế bào già, hỏng."
+    ],
+    "question": "Nhờ phân chia tế bào, cơ thể có gì?"
+  },
+  {
+    "answer": 1,
+    "bai": 20,
+    "explanation": "Cơ thể đa bào bắt đầu từ một tế bào đầu tiên, rồi tế bào này phân chia nhiều lần thành nhiều tế bào.",
+    "id": 127,
+    "options": [
+      "A. Từ rất nhiều tế bào xuất hiện cùng một lúc.",
+      "B. Từ một tế bào đầu tiên rồi phân chia nhiều lần.",
+      "C. Từ một cơ quan hoàn chỉnh có sẵn trong cơ thể.",
+      "D. Từ nước và đất trộn lẫn với nhau ngoài vườn."
+    ],
+    "question": "Cơ thể đa bào bắt đầu từ đâu?"
+  },
+  {
+    "answer": 0,
+    "bai": 20,
+    "explanation": "Vết thương lành lại vì các tế bào xung quanh phân chia tạo tế bào mới thay thế tế bào hỏng.",
+    "id": 128,
+    "options": [
+      "A. Vì các tế bào phân chia tạo tế bào mới thay thế tế bào hỏng.",
+      "B. Vì da tự co lại và khép miệng vết thương mà không cần gì.",
+      "C. Vì máu tự khô lại thành vảy che kín vết thương hở.",
+      "D. Vì da vốn không cần thêm tế bào mới để lành lại."
+    ],
+    "question": "Vì sao vết thương ngoài da lành lại được?"
+  },
+  {
+    "answer": 0,
+    "bai": 20,
+    "explanation": "Cây cao lên nhờ các tế bào cây phân chia và lớn lên liên tục theo thời gian.",
+    "id": 129,
+    "options": [
+      "A. Nhờ tế bào cây phân chia và lớn lên liên tục.",
+      "B. Nhờ cây hút nước mưa từ trên trời xuống.",
+      "C. Nhờ lá cây đổi màu theo từng mùa trong năm.",
+      "D. Nhờ đất dưới gốc cây tự nở ra thêm."
+    ],
+    "question": "Cây lớn lên cao dần theo năm tháng. Điều này nhờ đâu?"
+  },
+  {
+    "answer": 2,
+    "bai": 20,
+    "explanation": "Tế bào con giống tế bào mẹ về thông tin di truyền trong nhân, vì nhân được chia đều cho hai tế bào con.",
+    "id": 130,
+    "options": [
+      "A. Giống nhau về kích thước mãi mãi không thay đổi.",
+      "B. Giống nhau về màu sắc của tế bào bên ngoài.",
+      "C. Giống nhau về thông tin di truyền trong nhân.",
+      "D. Giống nhau về nơi sống trong cơ thể sinh vật."
+    ],
+    "question": "Tế bào con giống tế bào mẹ ở điểm nào?"
+  },
+  {
+    "answer": 1,
+    "bai": 21,
+    "explanation": "Tế bào rất nhỏ, mắt thường không nhìn thấy được nên phải dùng kính hiển vi phóng to lên mới quan sát được.",
+    "id": 131,
+    "options": [
+      "A. Kính lúp cầm tay.",
+      "B. Kính hiển vi.",
+      "C. Ống nhòm.",
+      "D. Kính râm."
+    ],
+    "question": "Quan sát tế bào cần dụng cụ chính nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 21,
+    "explanation": "Biểu bì hành tây là lớp màng mỏng bóc từ củ hành, tế bào xếp sát nhau nên dễ quan sát dưới kính hiển vi.",
+    "id": 132,
+    "options": [
+      "A. Lá cây to hái ngoài vườn trường vào buổi sáng.",
+      "B. Vỏ cây khô bong ra từ thân cây cổ thụ.",
+      "C. Rễ cây dài đào dưới đất lên sau cơn mưa.",
+      "D. Biểu bì hành tây, lớp màng mỏng của củ hành."
+    ],
+    "question": "Mẫu thực vật thường dùng để quan sát tế bào là gì?"
+  },
+  {
+    "answer": 0,
+    "bai": 21,
+    "explanation": "Tế bào niêm mạc miệng lấy nhẹ ở mặt trong má, dễ lấy và an toàn khi thực hành.",
+    "id": 133,
+    "options": [
+      "A. Tế bào niêm mạc miệng (mặt trong má).",
+      "B. Tế bào máu trong cơ thể.",
+      "C. Tế bào xương cứng trong cơ thể.",
+      "D. Tế bào tóc trên đầu."
+    ],
+    "question": "Mẫu động vật thường dùng là tế bào nào?"
+  },
+  {
+    "answer": 2,
+    "bai": 21,
+    "explanation": "Đặt lamen nghiêng từ từ giúp không khí thoát ra ngoài, tránh bọt khí lọt vào làm mờ hình ảnh quan sát.",
+    "id": 134,
+    "options": [
+      "A. Đặt thẳng xuống thật nhanh cho tiết kiệm thời gian.",
+      "B. Không cần đậy lamen vẫn quan sát tốt bình thường.",
+      "C. Đặt nghiêng từ từ để tránh bọt khí lọt vào.",
+      "D. Đậy nhiều lamen chồng lên nhau cho mẫu chắc chắn."
+    ],
+    "question": "Khi đậy lamen, cần làm thế nào?"
+  },
+  {
+    "answer": 1,
+    "bai": 21,
+    "explanation": "Bắt đầu từ vật kính nhỏ nhất để tìm mẫu dễ dàng, sau đó tăng dần độ phóng đại để nhìn rõ hơn.",
+    "id": 135,
+    "options": [
+      "A. Vật kính có độ phóng đại lớn nhất để nhìn rõ ngay.",
+      "B. Vật kính có độ phóng đại nhỏ nhất rồi tăng dần.",
+      "C. Vật kính nào cũng được, dùng cái nào cũng như nhau.",
+      "D. Không cần dùng vật kính nào cả khi quan sát mẫu."
+    ],
+    "question": "Quan sát bằng kính hiển vi nên bắt đầu từ vật kính nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 21,
+    "explanation": "Tế bào biểu bì hành tây có hình đa giác xếp sát nhau như tổ ong khi nhìn dưới kính hiển vi.",
+    "id": 136,
+    "options": [
+      "A. Hình tròn rời rạc nhau, không dính vào nhau.",
+      "B. Hình que dài và mảnh như sợi chỉ nhỏ.",
+      "C. Hình ngôi sao có nhiều cánh xòe ra xung quanh.",
+      "D. Hình đa giác xếp sát nhau như tổ ong."
+    ],
+    "question": "Tế bào biểu bì hành tây có hình dạng thế nào?"
+  },
+  {
+    "answer": 0,
+    "bai": 21,
+    "explanation": "Tế bào thực vật có thành tế bào cứng bao ngoài, còn tế bào động vật không có thành tế bào, đó là điểm phân biệt rõ nhất.",
+    "id": 137,
+    "options": [
+      "A. Dựa vào thành tế bào: thực vật có, động vật không.",
+      "B. Dựa vào màu sắc của mẫu vật khi quan sát.",
+      "C. Dựa vào kích thước của lam kính dùng quan sát.",
+      "D. Dựa vào độ sáng của đèn kính hiển vi đang bật."
+    ],
+    "question": "Phân biệt tế bào thực vật và động vật khi quan sát, dựa vào đâu?"
+  },
+  {
+    "answer": 2,
+    "bai": 21,
+    "explanation": "Sau thực hành phải rửa tay sạch, dọn dẹp dụng cụ và báo thầy cô nếu lam kính vỡ, vì lam kính vỡ dễ làm đứt tay.",
+    "id": 138,
+    "options": [
+      "A. Vứt lam kính vỡ vào thùng rác thường như rác khác.",
+      "B. Để nguyên mẫu vật trên bàn rồi ra về luôn.",
+      "C. Rửa tay sạch, dọn dụng cụ, báo thầy cô nếu kính vỡ.",
+      "D. Mang mẫu vật đã quan sát về nhà để chơi tiếp."
+    ],
+    "question": "Sau khi thực hành xong, em cần làm gì?"
+  },
+  {
+    "answer": 1,
+    "bai": 21,
+    "explanation": "Ốc to và ốc nhỏ dùng để điều chỉnh khoảng cách, lấy nét cho hình ảnh rõ ràng khi quan sát.",
+    "id": 139,
+    "options": [
+      "A. Để mẫu vật không bị khô khi quan sát.",
+      "B. Để lấy nét cho hình ảnh rõ ràng.",
+      "C. Để đèn của kính sáng hơn bình thường.",
+      "D. Để mẫu vật đổi màu sắc khác nhau."
+    ],
+    "question": "Vì sao khi quan sát phải điều chỉnh ốc to, ốc nhỏ?"
+  },
+  {
+    "answer": 1,
+    "bai": 22,
+    "explanation": "Cơ thể đơn bào chỉ gồm một tế bào duy nhất nhưng vẫn thực hiện được mọi chức năng sống.",
+    "id": 140,
+    "options": [
+      "A. Cơ thể gồm rất nhiều tế bào.",
+      "B. Cơ thể chỉ gồm một tế bào duy nhất.",
+      "C. Cơ thể không có tế bào nào cả.",
+      "D. Cơ thể chỉ có ở dưới nước."
+    ],
+    "question": "Cơ thể đơn bào là gì?"
+  },
+  {
+    "answer": 2,
+    "bai": 22,
+    "explanation": "Trùng giày chỉ gồm một tế bào, còn cây lúa, con gà, con người đều gồm nhiều tế bào.",
+    "id": 141,
+    "options": [
+      "A. Cây lúa.",
+      "B. Con gà.",
+      "C. Trùng giày.",
+      "D. Con người."
+    ],
+    "question": "Đâu là sinh vật đơn bào?"
+  },
+  {
+    "answer": 1,
+    "bai": 22,
+    "explanation": "Cơ thể đa bào gồm nhiều tế bào phối hợp với nhau, mỗi tế bào làm một phần việc của cơ thể.",
+    "id": 142,
+    "options": [
+      "A. Cơ thể chỉ gồm duy nhất một tế bào mà thôi.",
+      "B. Cơ thể gồm nhiều tế bào phối hợp với nhau.",
+      "C. Cơ thể có nhiều đầu mọc ra khắp cơ thể.",
+      "D. Cơ thể sống dưới nước như cá và tôm cua."
+    ],
+    "question": "Cơ thể đa bào là gì?"
+  },
+  {
+    "answer": 3,
+    "bai": 22,
+    "explanation": "Cây ngô gồm nhiều tế bào phối hợp nên là sinh vật đa bào; vi khuẩn, trùng roi, trùng giày chỉ có một tế bào.",
+    "id": 143,
+    "options": [
+      "A. Vi khuẩn.",
+      "B. Trùng roi.",
+      "C. Trùng giày.",
+      "D. Cây ngô."
+    ],
+    "question": "Đâu là sinh vật đa bào?"
+  },
+  {
+    "answer": 2,
+    "bai": 22,
+    "explanation": "Trùng giày bơi bằng lông bơi rung động quanh cơ thể, đẩy cơ thể di chuyển trong nước.",
+    "id": 144,
+    "options": [
+      "A. Bằng chân chạy nhanh trên mặt nước.",
+      "B. Bằng cánh bay lượn trong không khí.",
+      "C. Bằng lông bơi rung động quanh cơ thể.",
+      "D. Bằng vây bơi quạt nước hai bên thân."
+    ],
+    "question": "Trùng giày di chuyển bằng gì?"
+  },
+  {
+    "answer": 0,
+    "bai": 22,
+    "explanation": "Trùng giày chỉ có một tế bào nhưng tế bào đó vẫn tự sống, lấy thức ăn và di chuyển được.",
+    "id": 145,
+    "options": [
+      "A. Vì nó chỉ có một tế bào nhưng vẫn sống, ăn, di chuyển được.",
+      "B. Vì nó rất nhỏ bé nên mắt thường khó nhìn thấy được.",
+      "C. Vì nó sống trong nước ao, hồ có nhiều thức ăn.",
+      "D. Vì nó có nhiều màu sắc đẹp và bắt mắt khi nhìn."
+    ],
+    "question": "Vì sao trùng giày được gọi là đơn bào?"
+  },
+  {
+    "answer": 0,
+    "bai": 22,
+    "explanation": "Cơ thể đa bào có nhiều loại tế bào, mỗi loại làm một nhiệm vụ riêng, còn đơn bào chỉ có một tế bào làm mọi việc.",
+    "id": 146,
+    "options": [
+      "A. Đa bào có nhiều loại tế bào, mỗi loại một nhiệm vụ.",
+      "B. Đa bào chỉ có một loại tế bào làm mọi việc.",
+      "C. Đơn bào lớn hơn đa bào rất nhiều lần về kích thước.",
+      "D. Hai loại sinh vật này giống nhau hoàn toàn mọi điểm."
+    ],
+    "question": "Cơ thể đa bào khác đơn bào ở điểm nào?"
+  },
+  {
+    "answer": 3,
+    "bai": 22,
+    "explanation": "Trùng giày sống trong nước ao, hồ có váng xanh hoặc rơm rạ ngâm, nên lấy mẫu nước đó để quan sát.",
+    "id": 147,
+    "options": [
+      "A. Nước biển khơi xa bờ và rất mặn.",
+      "B. Nước máy trong nhà đã lọc sạch hoàn toàn.",
+      "C. Nước mưa mới rơi xuống từ trên mái nhà.",
+      "D. Nước ao, hồ có váng xanh hoặc rơm rạ ngâm."
+    ],
+    "question": "Quan sát trùng giày, em lấy mẫu ở đâu?"
+  },
+  {
+    "answer": 1,
+    "bai": 22,
+    "explanation": "Mẫu nước ao có thể chứa vi khuẩn gây bệnh, nên không được uống mẫu nước và phải rửa tay sạch sau khi làm xong.",
+    "id": 148,
+    "options": [
+      "A. Uống thử mẫu nước để biết vị của nó ra sao.",
+      "B. Không uống mẫu nước, rửa tay sạch sau khi làm xong.",
+      "C. Đưa tay bẩn lên miệng sau khi làm xong thí nghiệm.",
+      "D. Đổ mẫu nước quan sát lên trên mặt bàn học."
+    ],
+    "question": "Khi quan sát mẫu nước ao, em cần chú ý an toàn gì?"
+  },
+  {
+    "id": 149,
+    "question": "Phân loại sinh vật chủ yếu dựa vào đâu?",
+    "options": [
+      "A. Màu sắc bên ngoài của sinh vật",
+      "B. Nơi em bắt gặp sinh vật đầu tiên",
+      "C. Đặc điểm chung về cấu tạo và hoạt động sống",
+      "D. Kích thước to hay nhỏ của sinh vật khi trưởng thành"
+    ],
+    "answer": 2,
+    "explanation": "Sinh vật giống nhau về cấu tạo và hoạt động sống thì xếp chung một nhóm, ví dụ cá đều có vây và sống dưới nước.",
+    "bai": 26
+  },
+  {
+    "id": 150,
+    "question": "Bậc phân loại lớn nhất trong các bậc chính là gì?",
+    "options": [
+      "A. Giới",
+      "B. Loài",
+      "C. Chi",
+      "D. Họ"
+    ],
+    "answer": 0,
+    "explanation": "Thứ tự từ lớn đến nhỏ là: giới, ngành, lớp, bộ, họ, chi, loài. Giới là bậc lớn nhất.",
+    "bai": 26
+  },
+  {
+    "id": 151,
+    "question": "Đơn vị phân loại nhỏ nhất và cơ bản nhất là gì?",
+    "options": [
+      "A. Giới",
+      "B. Loài",
+      "C. Ngành",
+      "D. Lớp"
+    ],
+    "answer": 1,
+    "explanation": "Loài là nhóm nhỏ nhất: các cá thể cùng loài giống nhau nhiều nhất và sinh sản được với nhau.",
+    "bai": 26
+  },
+  {
+    "id": 152,
+    "question": "Tên khoa học của một loài gồm mấy phần?",
+    "options": [
+      "A. 1 phần duy nhất",
+      "B. 3 phần: tên chi, tên họ và tên loài đầy đủ",
+      "C. 4 phần theo quê quán",
+      "D. 2 phần: tên chi và tên loài"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ người có tên khoa học Homo sapiens: Homo là tên chi, sapiens là tên loài.",
+    "bai": 26
+  },
+  {
+    "id": 153,
+    "question": "Tên khoa học của loài người là gì?",
+    "options": [
+      "A. Panthera tigris",
+      "B. Homo sapiens",
+      "C. Oryza sativa",
+      "D. Canis familiaris"
+    ],
+    "answer": 1,
+    "explanation": "Homo là tên chi, sapiens là tên loài. Tên khoa học viết bằng tiếng La-tinh, in nghiêng.",
+    "bai": 26
+  },
+  {
+    "id": 154,
+    "question": "Hiện nay sinh vật được chia thành mấy giới?",
+    "options": [
+      "A. 3 giới",
+      "B. 4 giới",
+      "C. 5 giới",
+      "D. 6 giới"
+    ],
+    "answer": 2,
+    "explanation": "5 giới là: Khởi sinh, Nguyên sinh, Nấm, Thực vật và Động vật.",
+    "bai": 26
+  },
+  {
+    "id": 155,
+    "question": "Vi khuẩn thuộc giới nào?",
+    "options": [
+      "A. Giới Khởi sinh",
+      "B. Giới Nguyên sinh",
+      "C. Giới Nấm",
+      "D. Giới Thực vật"
+    ],
+    "answer": 0,
+    "explanation": "Vi khuẩn là sinh vật đơn bào chưa có nhân hoàn chỉnh nên xếp vào giới Khởi sinh.",
+    "bai": 26
+  },
+  {
+    "id": 156,
+    "question": "Cây lúa thuộc giới nào?",
+    "options": [
+      "A. Giới Nấm",
+      "B. Giới Động vật",
+      "C. Giới Nguyên sinh",
+      "D. Giới Thực vật"
+    ],
+    "answer": 3,
+    "explanation": "Cây lúa tự tạo chất dinh dưỡng nhờ quang hợp nên thuộc giới Thực vật.",
+    "bai": 26
+  },
+  {
+    "id": 157,
+    "question": "Vì sao các nhà khoa học phải phân loại sinh vật?",
+    "options": [
+      "A. Để đếm xem có bao nhiêu con vật trong rừng, ngoài đồng và dưới nước mỗi năm",
+      "B. Để nhận biết, gọi tên và nghiên cứu sinh vật có hệ thống, không nhầm lẫn",
+      "C. Để chọn sinh vật đẹp nuôi làm cảnh",
+      "D. Để xếp sinh vật theo màu sắc cho dễ nhìn"
+    ],
+    "answer": 1,
+    "explanation": "Trái Đất có hàng triệu loài; không phân loại thì không thể gọi tên, tìm hiểu và bảo vệ chúng.",
+    "bai": 26
+  },
+  {
+    "id": 158,
+    "question": "Khóa lưỡng phân là gì?",
+    "options": [
+      "A. Bảng liệt kê tên tất cả các loài trên Trái Đất đã biết và chưa biết tới nay",
+      "B. Một loại kính hiển vi hai mắt",
+      "C. Sổ ghi chép các lần đi thực địa",
+      "D. Bảng gồm các cặp đặc điểm đối lập nhau, dùng để nhận biết sinh vật"
+    ],
+    "answer": 3,
+    "explanation": "Khóa lưỡng phân giúp gọi tên sinh vật lạ bằng cách so sánh đặc điểm của nó với từng cặp đặc điểm trong khóa.",
+    "bai": 27
+  },
+  {
+    "id": 159,
+    "question": "Mỗi bước của khóa lưỡng phân có mấy lựa chọn?",
+    "options": [
+      "A. 1 lựa chọn duy nhất, không có nhánh đối lập nào",
+      "B. 3 lựa chọn",
+      "C. 2 lựa chọn đối lập nhau",
+      "D. 4 lựa chọn"
+    ],
+    "answer": 2,
+    "explanation": "Vì vậy mới gọi là lưỡng phân: lưỡng nghĩa là hai, mỗi lần chia thành hai nhánh.",
+    "bai": 27
+  },
+  {
+    "id": 160,
+    "question": "Dùng khóa lưỡng phân như thế nào?",
+    "options": [
+      "A. Đọc từ bước cuối lên bước đầu rồi đoán tên loài theo trí nhớ của mình cho nhanh và tiện lợi nhất",
+      "B. Đọc từ bước đầu, chọn đặc điểm đúng với mẫu vật rồi theo số chỉ dẫn đi tiếp cho tới khi ra tên",
+      "C. Chọn ngẫu nhiên một nhánh bất kì",
+      "D. Đoán tên trước rồi mới đối chiếu"
+    ],
+    "answer": 1,
+    "explanation": "Đi đúng từng bước mới ra tên đúng; nhảy bước hay đoán mò dễ nhầm loài.",
+    "bai": 27
+  },
+  {
+    "id": 161,
+    "question": "Vì sao khóa lưỡng phân lại gọi là lưỡng phân?",
+    "options": [
+      "A. Vì mỗi bước chia thành hai nhánh đối lập nhau",
+      "B. Vì khóa nào cũng chỉ có hai bước",
+      "C. Vì chỉ dùng cho hai giới sinh vật",
+      "D. Vì do hai nhà khoa học cùng làm ra và đặt tên là lưỡng phân"
+    ],
+    "answer": 0,
+    "explanation": "Lưỡng là hai, phân là chia: mỗi bước cho hai đặc điểm ngược nhau để chọn một.",
+    "bai": 27
+  },
+  {
+    "id": 162,
+    "question": "Muốn dùng khóa lưỡng phân, trước hết em cần có gì?",
+    "options": [
+      "A. Tên khoa học của mẫu vật đã tra sẵn trong sách giáo khoa",
+      "B. Kính hiển vi điện tử",
+      "C. Bản đồ nơi bắt gặp mẫu vật",
+      "D. Mẫu vật thật hoặc mô tả đặc điểm của nó"
+    ],
+    "answer": 3,
+    "explanation": "Không quan sát được đặc điểm của mẫu vật thì không thể chọn nhánh nào.",
+    "bai": 27
+  },
+  {
+    "id": 163,
+    "question": "Khóa có bước 1: 1a. Có hoa; 1b. Không có hoa. Cây lúa thuộc nhánh nào?",
+    "options": [
+      "A. Nhánh 1b vì lúa không có hoa",
+      "B. Cả hai nhánh",
+      "C. Nhánh 1a vì lúa có hoa",
+      "D. Không thuộc nhánh nào"
+    ],
+    "answer": 2,
+    "explanation": "Lúa có hoa (hoa lúa nhỏ, mọc thành bông) nên chọn nhánh có hoa rồi đi tiếp.",
+    "bai": 27
+  },
+  {
+    "id": 164,
+    "question": "Chọn nhầm đặc điểm ở một bước của khóa thì kết quả ra sao?",
+    "options": [
+      "A. Vẫn ra tên đúng vì khóa tự sửa lỗi cho người dùng",
+      "B. Đi nhầm nhánh và ra tên loài sai",
+      "C. Khóa dừng lại và báo lỗi",
+      "D. Không ảnh hưởng gì"
+    ],
+    "answer": 1,
+    "explanation": "Mỗi bước dẫn tới một nhánh khác nhau nên chọn sai một bước là sai cả đường đi.",
+    "bai": 27
+  },
+  {
+    "id": 165,
+    "question": "Khóa lưỡng phân thường được dùng khi nào?",
+    "options": [
+      "A. Khi đi thực địa, muốn nhận biết cây hay con lạ gặp được",
+      "B. Khi muốn đếm số cá thể trong một quần thể ở ngoài thiên nhiên",
+      "C. Khi muốn đo chiều cao của cây",
+      "D. Khi muốn xác định tuổi của đất"
+    ],
+    "answer": 0,
+    "explanation": "Ngoài thiên nhiên gặp sinh vật chưa biết tên, dùng khóa để đối chiếu đặc điểm và gọi tên nó.",
+    "bai": 27
+  },
+  {
+    "id": 166,
+    "question": "Khóa lưỡng phân phân biệt sinh vật chủ yếu dựa vào đặc điểm nào?",
+    "options": [
+      "A. Đặc điểm hình thái bên ngoài dễ quan sát",
+      "B. Mùi vị khi nếm thử mẫu vật trực tiếp bằng miệng",
+      "C. Tiếng kêu khi sợ hãi",
+      "D. Tốc độ chạy trốn"
+    ],
+    "answer": 0,
+    "explanation": "Đặc điểm ngoài như có hoa hay không, lá đơn hay lá kép thì quan sát được ngay, an toàn và dễ làm.",
+    "bai": 27
+  },
+  {
+    "id": 167,
+    "question": "Vi khuẩn có cấu tạo tế bào như thế nào?",
+    "options": [
+      "A. Đơn bào, chưa có nhân hoàn chỉnh",
+      "B. Đa bào, có nhân hoàn chỉnh",
+      "C. Đơn bào, có nhân hoàn chỉnh như tế bào người",
+      "D. Không có tế bào"
+    ],
+    "answer": 0,
+    "explanation": "Vi khuẩn chỉ gồm một tế bào đơn giản, vật chất di truyền nằm trực tiếp trong tế bào chất.",
+    "bai": 28
+  },
+  {
+    "id": 168,
+    "question": "Kích thước của vi khuẩn như thế nào?",
+    "options": [
+      "A. To bằng hạt gạo",
+      "B. To bằng đầu kim, nhìn được bằng mắt thường không cần kính",
+      "C. To bằng con kiến",
+      "D. Rất nhỏ, phải dùng kính hiển vi mới nhìn thấy"
+    ],
+    "answer": 3,
+    "explanation": "Vi khuẩn chỉ dài khoảng vài micrômét, nhỏ hơn nhiều so với mắt thường nhìn được.",
+    "bai": 28
+  },
+  {
+    "id": 169,
+    "question": "Vi khuẩn sinh sản chủ yếu bằng cách nào?",
+    "options": [
+      "A. Đẻ trứng",
+      "B. Nảy chồi như nấm men rồi tách chồi thành tế bào mới",
+      "C. Phân đôi: một tế bào tách thành hai tế bào",
+      "D. Sinh sản bằng hạt"
+    ],
+    "answer": 2,
+    "explanation": "Mỗi vi khuẩn lớn lên rồi tách đôi, vì vậy số lượng vi khuẩn tăng rất nhanh khi đủ thức ăn.",
+    "bai": 28
+  },
+  {
+    "id": 170,
+    "question": "Vi khuẩn có những dạng hình nào?",
+    "options": [
+      "A. Chỉ có hình cầu",
+      "B. Hình cầu, hình que, hình xoắn",
+      "C. Hình vuông và hình tam giác",
+      "D. Hình ngôi sao và hình trái tim"
+    ],
+    "answer": 1,
+    "explanation": "Dựa vào hình dạng mà người ta gọi: cầu khuẩn, trực khuẩn (hình que), xoắn khuẩn.",
+    "bai": 28
+  },
+  {
+    "id": 171,
+    "question": "Vi khuẩn lactic có ích gì trong đời sống?",
+    "options": [
+      "A. Làm bánh mì nở và làm bánh phồng to khi nướng",
+      "B. Ủ rượu nho",
+      "C. Làm nước mắm",
+      "D. Làm sữa chua và muối dưa"
+    ],
+    "answer": 3,
+    "explanation": "Vi khuẩn lactic lên men đường trong sữa thành axit lactic, làm sữa chua chua và sánh lại.",
+    "bai": 28
+  },
+  {
+    "id": 172,
+    "question": "Vi khuẩn gây hại cho con người như thế nào?",
+    "options": [
+      "A. Gây bệnh như tả, lao và làm hỏng thức ăn",
+      "B. Làm cây quang hợp mạnh hơn và lớn nhanh hơn bình thường",
+      "C. Giúp tiêu hóa thức ăn",
+      "D. Tạo oxygen cho khí quyển"
+    ],
+    "answer": 0,
+    "explanation": "Không phải vi khuẩn nào cũng hại, nhưng một số loài gây bệnh và làm thiu thức ăn.",
+    "bai": 28
+  },
+  {
+    "id": 173,
+    "question": "Vi khuẩn sống ở những đâu?",
+    "options": [
+      "A. Chỉ sống trong phòng thí nghiệm, ngoài tự nhiên không có vi khuẩn",
+      "B. Chỉ sống ở vùng lạnh",
+      "C. Khắp nơi: đất, nước, không khí và cơ thể sinh vật",
+      "D. Chỉ sống trong cơ thể người bệnh"
+    ],
+    "answer": 2,
+    "explanation": "Vi khuẩn có mặt gần như mọi nơi, kể cả nơi khắc nghiệt, nhờ kích thước nhỏ và sinh sản nhanh.",
+    "bai": 28
+  },
+  {
+    "id": 174,
+    "question": "Để hạn chế vi khuẩn gây bệnh, em nên làm gì?",
+    "options": [
+      "A. Uống nước lã cho quen",
+      "B. Rửa tay, ăn chín uống sôi, bảo quản thức ăn đúng cách",
+      "C. Để thức ăn ngoài nắng cả ngày",
+      "D. Dùng chung khăn mặt với người bệnh để cơ thể quen dần với vi khuẩn"
+    ],
+    "answer": 1,
+    "explanation": "Vệ sinh và ăn chín làm giảm số vi khuẩn xâm nhập vào cơ thể qua tay và thức ăn.",
+    "bai": 28
+  },
+  {
+    "id": 175,
+    "question": "Vi khuẩn khác virus ở điểm cơ bản nào?",
+    "options": [
+      "A. Vi khuẩn to hơn con người",
+      "B. Virus có nhân hoàn chỉnh còn vi khuẩn thì không có nhân gì cả và cũng không có tế bào chất gì cả",
+      "C. Vi khuẩn là một tế bào hoàn chỉnh, tự phân đôi được; virus thì không phải tế bào",
+      "D. Vi khuẩn không gây bệnh bao giờ"
+    ],
+    "answer": 2,
+    "explanation": "Vi khuẩn có đủ bộ máy của một tế bào nên tự sinh sản được; virus phải nhờ tế bào chủ.",
+    "bai": 28
+  },
+  {
+    "id": 176,
+    "question": "Sữa chua được tạo ra nhờ hoạt động nào của vi khuẩn?",
+    "options": [
+      "A. Vi khuẩn quang hợp tạo đường",
+      "B. Vi khuẩn phân giải sữa thành nước và làm sữa loãng ra như nước lã",
+      "C. Nấm men làm sữa đông lại",
+      "D. Vi khuẩn lactic lên men đường trong sữa thành axit lactic"
+    ],
+    "answer": 3,
+    "explanation": "Axit lactic làm sữa chua có vị chua và sánh đặc lại.",
+    "bai": 29
+  },
+  {
+    "id": 177,
+    "question": "Vì sao sữa chua lại có vị chua?",
+    "options": [
+      "A. Vì người ta vắt chanh vào sữa",
+      "B. Vì có axit lactic do vi khuẩn lactic tạo ra",
+      "C. Vì sữa để lâu tự chua do không khí và nhiệt độ ngoài trời",
+      "D. Vì men sữa chua vốn chua sẵn"
+    ],
+    "answer": 1,
+    "explanation": "Trong quá trình ủ, vi khuẩn lactic biến đường trong sữa thành axit lactic.",
+    "bai": 29
+  },
+  {
+    "id": 178,
+    "question": "Ủ sữa chua cần nhiệt độ như thế nào?",
+    "options": [
+      "A. Càng nóng càng tốt, trên 80°C thì men càng hoạt động mạnh",
+      "B. Càng lạnh càng tốt, dưới 0°C",
+      "C. Ấm khoảng 40°C, ấm như nước tắm",
+      "D. Để ngoài nắng gắt cả ngày"
+    ],
+    "answer": 2,
+    "explanation": "Vi khuẩn lactic hoạt động tốt ở nhiệt độ ấm; quá nóng chúng chết, quá lạnh chúng lên men rất chậm.",
+    "bai": 29
+  },
+  {
+    "id": 179,
+    "question": "Muốn quan sát vi khuẩn, em cần dụng cụ gì?",
+    "options": [
+      "A. Kính hiển vi",
+      "B. Kính lúp cầm tay là đủ",
+      "C. Ống nhòm",
+      "D. Kính râm"
+    ],
+    "answer": 0,
+    "explanation": "Vi khuẩn quá nhỏ, kính lúp không đủ độ phóng đại; phải dùng kính hiển vi.",
+    "bai": 29
+  },
+  {
+    "id": 180,
+    "question": "Khi quan sát mẫu vi khuẩn, điều an toàn quan trọng nhất là gì?",
+    "options": [
+      "A. Nếm thử mẫu để biết chua hay ngọt và xem mẫu có ăn được không",
+      "B. Đưa mẫu lên mũi ngửi cho rõ",
+      "C. Dùng tay bốc mẫu trực tiếp",
+      "D. Không nếm, không ngửi mẫu; rửa tay sau khi làm"
+    ],
+    "answer": 3,
+    "explanation": "Mẫu quan sát có thể chứa vi khuẩn lạ gây bệnh nên tuyệt đối không đưa vào miệng, mũi.",
+    "bai": 29
+  },
+  {
+    "id": 181,
+    "question": "Sữa chua làm xong nên bảo quản ở đâu?",
+    "options": [
+      "A. Để ngoài nắng cho nhanh chua",
+      "B. Ngăn mát tủ lạnh",
+      "C. Để ở góc bếp nóng",
+      "D. Phơi ngoài sân"
+    ],
+    "answer": 1,
+    "explanation": "Lạnh làm vi khuẩn lên men chậm lại, sữa chua giữ được lâu và không chua gắt.",
+    "bai": 29
+  },
+  {
+    "id": 182,
+    "question": "Vì sao làm sữa chua phải dùng sữa, men và dụng cụ sạch?",
+    "options": [
+      "A. Để vi khuẩn lạ không làm hỏng sữa chua và gây đau bụng",
+      "B. Để sữa chua có màu trắng đẹp và mịn như kem ngoài cửa hàng",
+      "C. Để sữa chua đông nhanh hơn",
+      "D. Để khỏi tốn men"
+    ],
+    "answer": 0,
+    "explanation": "Dụng cụ bẩn mang vi khuẩn lạ vào, chúng tranh thức ăn với vi khuẩn lactic và có thể gây bệnh.",
+    "bai": 29
+  },
+  {
+    "id": 183,
+    "question": "Quan sát sữa chua dưới kính hiển vi, em sẽ thấy gì?",
+    "options": [
+      "A. Những con cá nhỏ bơi lội",
+      "B. Sợi nấm to như sợi chỉ",
+      "C. Nhiều vi khuẩn hình que nhỏ li ti",
+      "D. Hạt sữa hình tròn to bằng hạt đậu"
+    ],
+    "answer": 2,
+    "explanation": "Vi khuẩn lactic có dạng hình que, chỉ thấy rõ dưới kính hiển vi.",
+    "bai": 29
+  },
+  {
+    "id": 184,
+    "question": "Làm sữa chua là ứng dụng nào của vi khuẩn trong đời sống?",
+    "options": [
+      "A. Ứng dụng vi khuẩn để chữa bệnh",
+      "B. Ứng dụng vi khuẩn để làm sạch nước thải và nước bẩn ngoài môi trường",
+      "C. Ứng dụng vi khuẩn để nhuộm vải",
+      "D. Ứng dụng vi khuẩn có lợi để chế biến thực phẩm"
+    ],
+    "answer": 3,
+    "explanation": "Con người dùng vi khuẩn lactic có lợi để làm sữa chua, muối dưa, làm pho mát.",
+    "bai": 29
+  },
+  {
+    "id": 185,
+    "question": "Virus có phải là một tế bào không?",
+    "options": [
+      "A. Không, virus chưa có cấu tạo tế bào hoàn chỉnh",
+      "B. Có, virus là tế bào đơn giản nhất, nhỏ hơn mọi tế bào khác",
+      "C. Có, virus là tế bào nhân thực",
+      "D. Virus là tế bào đa bào"
+    ],
+    "answer": 0,
+    "explanation": "Virus chỉ gồm vỏ protein và lõi axit nucleic, không có đủ bộ máy của một tế bào.",
+    "bai": 30
+  },
+  {
+    "id": 186,
+    "question": "Virus được cấu tạo từ những thành phần nào?",
+    "options": [
+      "A. Màng tế bào và nhân hoàn chỉnh giống như tế bào của người",
+      "B. Vỏ protein bao ngoài và lõi là axit nucleic",
+      "C. Thành tế bào và lục lạp",
+      "D. Vỏ kitin và chất diệp lục"
+    ],
+    "answer": 1,
+    "explanation": "Lõi axit nucleic mang thông tin di truyền, vỏ protein bảo vệ lõi.",
+    "bai": 30
+  },
+  {
+    "id": 187,
+    "question": "Virus nhân lên bằng cách nào?",
+    "options": [
+      "A. Tự phân đôi như vi khuẩn",
+      "B. Nảy chồi trên mặt nước",
+      "C. Tự tổng hợp thức ăn rồi lớn lên như cây xanh quang hợp mỗi ngày",
+      "D. Xâm nhập vào tế bào chủ rồi nhờ tế bào chủ tạo ra virus mới"
+    ],
+    "answer": 3,
+    "explanation": "Virus không tự sinh sản được; nó dùng bộ máy của tế bào bị nhiễm để nhân lên.",
+    "bai": 30
+  },
+  {
+    "id": 188,
+    "question": "Ngoài tế bào chủ, virus có sinh sản được không?",
+    "options": [
+      "A. Có, virus sinh sản mọi nơi",
+      "B. Không, ngoài tế bào chủ virus không nhân lên được",
+      "C. Có, nhưng chậm hơn",
+      "D. Chỉ sinh sản trong không khí lạnh của mùa đông giá rét"
+    ],
+    "answer": 1,
+    "explanation": "Vì vậy virus bắt buộc phải sống kí sinh trong tế bào của sinh vật khác.",
+    "bai": 30
+  },
+  {
+    "id": 189,
+    "question": "Bệnh nào sau đây do virus gây ra?",
+    "options": [
+      "A. Tả và lao",
+      "B. Sốt rét",
+      "C. Cúm, sởi, COVID-19, thủy đậu",
+      "D. Bệnh giun đũa và các bệnh do giun sán kí sinh khác"
+    ],
+    "answer": 2,
+    "explanation": "Tả, lao do vi khuẩn; sốt rét do nguyên sinh vật; giun đũa là động vật kí sinh.",
+    "bai": 30
+  },
+  {
+    "id": 190,
+    "question": "Kháng sinh có diệt được virus không?",
+    "options": [
+      "A. Không, kháng sinh chỉ diệt vi khuẩn, không diệt virus",
+      "B. Có, kháng sinh diệt mọi mầm bệnh kể cả virus và vi khuẩn",
+      "C. Có, nhưng phải uống liều cao",
+      "D. Chỉ diệt được virus cúm"
+    ],
+    "answer": 0,
+    "explanation": "Cảm cúm do virus nên uống kháng sinh không khỏi mà còn gây hại do dùng thuốc sai.",
+    "bai": 30
+  },
+  {
+    "id": 191,
+    "question": "Phòng bệnh do virus bằng cách nào là đúng?",
+    "options": [
+      "A. Uống kháng sinh mỗi ngày để cơ thể quen thuốc và không bị bệnh gì nữa",
+      "B. Tắm nước lạnh mỗi sáng",
+      "C. Tránh ra ngoài cả năm",
+      "D. Tiêm vắc-xin, rửa tay, đeo khẩu trang khi cần, ăn uống đủ chất"
+    ],
+    "answer": 3,
+    "explanation": "Vắc-xin và vệ sinh giúp cơ thể chống virus; kháng sinh không phòng được bệnh virus.",
+    "bai": 30
+  },
+  {
+    "id": 192,
+    "question": "Vắc-xin giúp cơ thể chống virus như thế nào?",
+    "options": [
+      "A. Giết chết virus ngay trong lọ thuốc",
+      "B. Giúp cơ thể nhận biết và chống lại virus khi gặp virus thật",
+      "C. Làm cơ thể không bao giờ tiếp xúc virus trong suốt cả cuộc đời",
+      "D. Thay máu của cơ thể"
+    ],
+    "answer": 1,
+    "explanation": "Vắc-xin tập cho hệ miễn dịch nhận mặt virus trước, để khi gặp thật thì chống trả nhanh.",
+    "bai": 30
+  },
+  {
+    "id": 193,
+    "question": "Điểm khác nhau cơ bản giữa virus và vi khuẩn là gì?",
+    "options": [
+      "A. Virus to hơn vi khuẩn nhiều lần",
+      "B. Vi khuẩn không gây bệnh còn virus thì có",
+      "C. Virus không phải tế bào và phải sống trong tế bào chủ; vi khuẩn là tế bào và tự phân đôi được",
+      "D. Virus có nhân hoàn chỉnh còn vi khuẩn thì không có nhân hoàn chỉnh và cũng không có màng tế bào"
+    ],
+    "answer": 2,
+    "explanation": "Đây là ranh giới quan trọng nhất: vi khuẩn là sinh vật tế bào, virus thì chưa phải.",
+    "bai": 30
+  },
+  {
+    "id": 194,
+    "question": "Nguyên sinh vật có cấu tạo tế bào như thế nào?",
+    "options": [
+      "A. Đa bào, chưa có nhân",
+      "B. Đơn bào, chưa có nhân hoàn chỉnh giống như vi khuẩn",
+      "C. Đơn bào, có nhân hoàn chỉnh (tế bào nhân thực)",
+      "D. Không có tế bào"
+    ],
+    "answer": 2,
+    "explanation": "Mỗi nguyên sinh vật chỉ là một tế bào, nhưng tế bào đó đã có nhân hoàn chỉnh.",
+    "bai": 31
+  },
+  {
+    "id": 195,
+    "question": "Nguyên sinh vật thường sống ở đâu?",
+    "options": [
+      "A. Trên núi đá khô",
+      "B. Nước, đất ẩm và cơ thể sinh vật khác",
+      "C. Trong sa mạc cát nóng và khô, nơi không có nước đọng",
+      "D. Trên lá cây khô"
+    ],
+    "answer": 1,
+    "explanation": "Chúng cần môi trường ẩm ướt để sống, phổ biến nhất là ao, hồ, vũng nước.",
+    "bai": 31
+  },
+  {
+    "id": 196,
+    "question": "Trùng giày di chuyển bằng gì?",
+    "options": [
+      "A. Lông bơi phủ quanh cơ thể",
+      "B. Roi dài phía trước cơ thể để quẫy nước khi bơi",
+      "C. Chân giả",
+      "D. Vây đuôi"
+    ],
+    "answer": 0,
+    "explanation": "Hàng nghìn sợi lông bơi rung động nhịp nhàng đẩy trùng giày bơi trong nước.",
+    "bai": 31
+  },
+  {
+    "id": 197,
+    "question": "Trùng roi di chuyển bằng gì?",
+    "options": [
+      "A. Lông bơi phủ quanh cơ thể giống như trùng giày",
+      "B. Chân giả",
+      "C. Vây",
+      "D. Một chiếc roi dài"
+    ],
+    "answer": 3,
+    "explanation": "Trùng roi quẫy roi để bơi, khác với trùng giày dùng lông bơi.",
+    "bai": 31
+  },
+  {
+    "id": 198,
+    "question": "Tảo đơn bào có vai trò gì trong tự nhiên?",
+    "options": [
+      "A. Gây bệnh cho mọi loài cá",
+      "B. Làm nước đục và hôi vì tảo chết làm ô nhiễm nguồn nước",
+      "C. Quang hợp, tạo oxygen và làm thức ăn cho sinh vật nước",
+      "D. Hút hết oxygen trong nước"
+    ],
+    "answer": 2,
+    "explanation": "Tảo quang hợp tạo ra oxygen và là thức ăn đầu chuỗi cho nhiều sinh vật nước.",
+    "bai": 31
+  },
+  {
+    "id": 199,
+    "question": "Nguyên sinh vật nào gây bệnh sốt rét cho người?",
+    "options": [
+      "A. Trùng giày",
+      "B. Trùng sốt rét, lây qua muỗi đốt",
+      "C. Trùng roi xanh",
+      "D. Tảo lục đơn bào sống trôi nổi trong nước ao hồ"
+    ],
+    "answer": 1,
+    "explanation": "Muỗi Anopheles đốt người bệnh rồi đốt người lành, truyền trùng sốt rét sang.",
+    "bai": 31
+  },
+  {
+    "id": 200,
+    "question": "Nguyên sinh vật khác vi khuẩn ở điểm nào?",
+    "options": [
+      "A. Có nhân hoàn chỉnh và kích thước thường lớn hơn",
+      "B. Chưa có nhân còn vi khuẩn thì có",
+      "C. Sống trên cạn còn vi khuẩn sống dưới nước và trong đất ẩm",
+      "D. Không di chuyển được"
+    ],
+    "answer": 0,
+    "explanation": "Nguyên sinh vật là tế bào nhân thực, vi khuẩn là tế bào nhân sơ chưa có nhân.",
+    "bai": 31
+  },
+  {
+    "id": 201,
+    "question": "Vì sao nước ao tù thường có nhiều nguyên sinh vật?",
+    "options": [
+      "A. Vì ẩm ướt, có thức ăn và điều kiện sống phù hợp",
+      "B. Vì nước ao tù sạch hơn nước sông",
+      "C. Vì ao tù không có vi khuẩn",
+      "D. Vì ao tù nhiều ánh sáng mặt trời gắt chiếu suốt cả ngày"
+    ],
+    "answer": 0,
+    "explanation": "Nước tù đọng giàu chất hữu cơ là môi trường tốt cho nguyên sinh vật sinh sôi.",
+    "bai": 31
+  },
+  {
+    "id": 202,
+    "question": "Để phòng bệnh do nguyên sinh vật, em nên làm gì?",
+    "options": [
+      "A. Uống nước ao trực tiếp",
+      "B. Ngủ ngoài trời không màn",
+      "C. Ăn thức ăn để qua đêm ngoài trời cho tiện và khỏi mất công nấu nướng",
+      "D. Uống nước sạch, ngủ màn để tránh muỗi đốt"
+    ],
+    "answer": 3,
+    "explanation": "Nước sạch và màn chống muỗi ngăn trùng sốt rét và nhiều nguyên sinh vật gây bệnh khác.",
+    "bai": 31
+  },
+  {
+    "id": 203,
+    "question": "Muốn quan sát nguyên sinh vật, em lấy mẫu ở đâu?",
+    "options": [
+      "A. Nước máy vừa đun sôi",
+      "B. Nước ao, hồ hoặc vũng nước đọng có váng",
+      "C. Nước cất trong phòng thí nghiệm đã tiệt trùng hoàn toàn",
+      "D. Nước biển sâu ngoài khơi"
+    ],
+    "answer": 1,
+    "explanation": "Nước ao hồ tù đọng giàu sinh vật nhỏ, dễ lấy mẫu và dễ quan sát.",
+    "bai": 32
+  },
+  {
+    "id": 204,
+    "question": "Quan sát nguyên sinh vật cần dụng cụ gì?",
+    "options": [
+      "A. Kính lúp cầm tay là đủ vì nguyên sinh vật khá to",
+      "B. Ống nhòm",
+      "C. Kính hiển vi, nhỏ mẫu lên lam kính",
+      "D. Kính thiên văn"
+    ],
+    "answer": 2,
+    "explanation": "Nguyên sinh vật quá nhỏ, kính lúp không đủ độ phóng đại như kính hiển vi.",
+    "bai": 32
+  },
+  {
+    "id": 205,
+    "question": "Quan sát trùng giày, em sẽ thấy nó đang làm gì?",
+    "options": [
+      "A. Bơi bằng lông bơi và ăn các hạt nhỏ trong nước",
+      "B. Quang hợp tạo oxygen",
+      "C. Đẻ trứng thành chùm",
+      "D. Bò bằng chân trên cạn giống như các loài côn trùng nhỏ khác"
+    ],
+    "answer": 0,
+    "explanation": "Trùng giày bơi lượn bằng lông bơi và dùng rãnh miệng đưa thức ăn nhỏ vào cơ thể.",
+    "bai": 32
+  },
+  {
+    "id": 206,
+    "question": "Vì sao nên lấy mẫu nước có váng xanh hoặc hơi vẩn đục?",
+    "options": [
+      "A. Vì nước đó sạch nhất",
+      "B. Vì nước đó không có vi khuẩn hay sinh vật nhỏ nào khác",
+      "C. Vì nước đó uống được",
+      "D. Vì nơi đó có nhiều sinh vật nhỏ để quan sát"
+    ],
+    "answer": 3,
+    "explanation": "Váng và độ đục thường do tảo và sinh vật nhỏ tạo nên, mẫu sẽ phong phú hơn.",
+    "bai": 32
+  },
+  {
+    "id": 207,
+    "question": "Quan sát xong, em xử lí mẫu và dụng cụ thế nào?",
+    "options": [
+      "A. Đổ mẫu ra sân chơi",
+      "B. Giữ mẫu lại để uống",
+      "C. Đổ bỏ mẫu đúng chỗ, rửa tay và vệ sinh dụng cụ",
+      "D. Để nguyên dụng cụ bẩn cho lần sau dùng tiếp cho tiện"
+    ],
+    "answer": 2,
+    "explanation": "Mẫu nước ao có thể chứa mầm bệnh nên phải bỏ đúng chỗ và rửa tay sạch.",
+    "bai": 32
+  },
+  {
+    "id": 208,
+    "question": "Vẽ lại mẫu quan sát để làm gì?",
+    "options": [
+      "A. Để trang trí vở cho đẹp",
+      "B. Ghi lại đặc điểm để đối chiếu với sách và gọi tên sinh vật",
+      "C. Để thay cho việc quan sát vì vẽ đẹp thì không cần quan sát nữa",
+      "D. Để nộp bài lấy điểm vẽ"
+    ],
+    "answer": 1,
+    "explanation": "Bản vẽ ghi lại hình dạng, cách di chuyển giúp nhận biết sinh vật chính xác hơn.",
+    "bai": 32
+  },
+  {
+    "id": 209,
+    "question": "Quan sát mà không thấy sinh vật nào, nguyên nhân có thể là gì?",
+    "options": [
+      "A. Sinh vật đã bay đi hết",
+      "B. Kính hiển vi bị hỏng hoàn toàn",
+      "C. Nước ao không bao giờ có sinh vật nhỏ nào sinh sống được",
+      "D. Mẫu ít sinh vật hoặc chỉnh kính hiển vi chưa đúng"
+    ],
+    "answer": 3,
+    "explanation": "Thử lấy mẫu khác, nhỏ mẫu mỏng hơn và chỉnh lại độ sáng, độ nét của kính.",
+    "bai": 32
+  },
+  {
+    "id": 210,
+    "question": "Quan sát nguyên sinh vật giúp em biết điều gì?",
+    "options": [
+      "A. Chúng sống, di chuyển và kiếm ăn như thế nào",
+      "B. Chúng hát ra sao",
+      "C. Chúng bay nhanh cỡ nào",
+      "D. Chúng ngủ mấy giờ mỗi ngày và thức dậy vào lúc nào"
+    ],
+    "answer": 0,
+    "explanation": "Quan sát trực tiếp cho thấy trùng giày bơi bằng lông bơi, trùng roi bơi bằng roi.",
+    "bai": 32
+  },
+  {
+    "id": 211,
+    "question": "Lấy mẫu nước ao cần chú ý an toàn gì?",
+    "options": [
+      "A. Lội ra giữa ao lấy mẫu",
+      "B. Uống thử nước ao để kiểm tra xem nước có sạch không trước khi lấy mẫu",
+      "C. Đi cùng người lớn, không lội sâu, không uống nước mẫu",
+      "D. Đi một mình lúc trời tối"
+    ],
+    "answer": 2,
+    "explanation": "Bờ ao trơn trượt và nước ao có thể chứa mầm bệnh nên phải có người lớn đi cùng.",
+    "bai": 32
+  },
+  {
+    "id": 212,
+    "question": "Nấm có cấu tạo tế bào như thế nào?",
+    "options": [
+      "A. Tế bào nhân sơ, đơn bào",
+      "B. Tế bào nhân thực, đa bào, không quang hợp (trừ nấm men đơn bào)",
+      "C. Tế bào nhân thực, tự quang hợp giống như tế bào lá cây và thân cây",
+      "D. Không có tế bào"
+    ],
+    "answer": 1,
+    "explanation": "Nấm đã có nhân hoàn chỉnh nhưng không có chất diệp lục nên không tự tạo thức ăn như cây.",
+    "bai": 33
+  },
+  {
+    "id": 213,
+    "question": "Nấm lấy thức ăn bằng cách nào?",
+    "options": [
+      "A. Quang hợp như cây xanh nhờ có chất diệp lục trong tế bào",
+      "B. Ăn thịt động vật lớn",
+      "C. Hoại sinh, kí sinh hoặc cộng sinh với sinh vật khác",
+      "D. Hút nước mưa trực tiếp"
+    ],
+    "answer": 2,
+    "explanation": "Nấm hoại sinh phân giải xác sinh vật, nấm kí sinh sống nhờ sinh vật khác, nấm cộng sinh cùng có lợi.",
+    "bai": 33
+  },
+  {
+    "id": 214,
+    "question": "Nấm mũ gồm những bộ phận nào?",
+    "options": [
+      "A. Mũ, phiến dưới mũ, cuống và sợi nấm",
+      "B. Rễ, thân, lá và hoa giống như một cây xanh hoàn chỉnh",
+      "C. Mũ và hạt",
+      "D. Vỏ và ruột"
+    ],
+    "answer": 0,
+    "explanation": "Sợi nấm lan trong đất hoặc gỗ để hút chất dinh dưỡng nuôi cả cây nấm.",
+    "bai": 33
+  },
+  {
+    "id": 215,
+    "question": "Nấm sinh sản chủ yếu bằng gì?",
+    "options": [
+      "A. Hạt trong quả",
+      "B. Trứng",
+      "C. Chia đôi cơ thể thành hai cây nấm mới giống như vi khuẩn",
+      "D. Bào tử (nấm men thì nảy chồi)"
+    ],
+    "answer": 3,
+    "explanation": "Bào tử nằm ở phiến dưới mũ nấm, bay theo gió đến nơi mới rồi nảy mầm.",
+    "bai": 33
+  },
+  {
+    "id": 216,
+    "question": "Nấm men được dùng để làm gì?",
+    "options": [
+      "A. Làm sữa chua và muối dưa giống như vi khuẩn lactic",
+      "B. Làm bánh mì nở và ủ rượu",
+      "C. Nhuộm vải",
+      "D. Làm giấy"
+    ],
+    "answer": 1,
+    "explanation": "Nấm men lên men đường tạo khí carbon dioxide làm bánh phồng nở.",
+    "bai": 33
+  },
+  {
+    "id": 217,
+    "question": "Loại nấm nào sau đây ăn được?",
+    "options": [
+      "A. Nấm rơm, nấm hương, nấm mỡ",
+      "B. Mọi loại nấm mọc trong vườn",
+      "C. Nấm có màu sặc sỡ",
+      "D. Nấm mọc trên gỗ mục nào cũng ăn được"
+    ],
+    "answer": 0,
+    "explanation": "Chỉ ăn nấm đã biết rõ là ăn được và mua ở nơi tin cậy; nấm lạ tuyệt đối không ăn.",
+    "bai": 33
+  },
+  {
+    "id": 218,
+    "question": "Vì sao không được tự hái nấm lạ về ăn?",
+    "options": [
+      "A. Vì nấm lạ nào cũng đắng",
+      "B. Vì nấm lạ không có chất dinh dưỡng nên ăn vào không bổ gì cả mà còn phí công",
+      "C. Vì nhiều nấm độc trông giống nấm ăn, ăn nhầm gây ngộ độc chết người",
+      "D. Vì nấm lạ làm hỏng nồi nấu"
+    ],
+    "answer": 2,
+    "explanation": "Không thể phân biệt nấm độc bằng màu sắc hay mùi; chỉ chuyên gia mới nhận biết chắc chắn.",
+    "bai": 33
+  },
+  {
+    "id": 219,
+    "question": "Nấm mốc trên bánh mì là loại nấm gì?",
+    "options": [
+      "A. Nấm mũ ăn được",
+      "B. Nấm men làm bánh mì nở dùng trong làm bánh hằng ngày",
+      "C. Địa y cộng sinh",
+      "D. Nấm sợi sống hoại sinh, làm hỏng thức ăn"
+    ],
+    "answer": 3,
+    "explanation": "Nấm mốc tiết chất phân giải bánh mì để hút dinh dưỡng, khiến bánh mốc và hỏng.",
+    "bai": 33
+  },
+  {
+    "id": 220,
+    "question": "Nấm có vai trò gì trong tự nhiên?",
+    "options": [
+      "A. Tạo oxygen như cây xanh nhờ quang hợp vào ban ngày và ban đêm",
+      "B. Làm đất khô cằn",
+      "C. Ăn hết cây xanh",
+      "D. Phân giải xác sinh vật thành chất dinh dưỡng cho đất"
+    ],
+    "answer": 3,
+    "explanation": "Nhờ nấm phân giải, xác lá cây và động vật chết trở thành chất mùn nuôi cây mới.",
+    "bai": 33
+  },
+  {
+    "id": 221,
+    "question": "Quan sát nấm mũ, em thấy những bộ phận nào?",
+    "options": [
+      "A. Rễ, thân, lá, hoa giống như các bộ phận của cây xanh",
+      "B. Mũ, phiến dưới mũ và cuống",
+      "C. Hạt và quả",
+      "D. Vây và mang"
+    ],
+    "answer": 1,
+    "explanation": "Lật mũ nấm lên sẽ thấy các phiến mỏng xếp như nan quạt, nơi chứa bào tử.",
+    "bai": 34
+  },
+  {
+    "id": 222,
+    "question": "Quan sát nấm mốc trên bánh mì cần dụng cụ gì?",
+    "options": [
+      "A. Ống nhòm",
+      "B. Kính thiên văn",
+      "C. Mắt thường là đủ vì nấm mốc khá to và dễ nhìn thấy",
+      "D. Kính lúp hoặc kính hiển vi để thấy sợi nấm"
+    ],
+    "answer": 3,
+    "explanation": "Sợi nấm rất mảnh, mắt thường chỉ thấy lớp mốc mờ, phải phóng đại mới thấy rõ.",
+    "bai": 34
+  },
+  {
+    "id": 223,
+    "question": "Vì sao nấm thường mọc nhiều sau mưa?",
+    "options": [
+      "A. Vì mưa mang hạt nấm từ trời xuống đất để nấm mọc lên nhanh khắp nơi",
+      "B. Vì ẩm ướt thuận lợi cho bào tử nảy mầm và sợi nấm phát triển",
+      "C. Vì nấm cần ánh nắng gắt",
+      "D. Vì mưa làm đất nóng lên"
+    ],
+    "answer": 1,
+    "explanation": "Nấm ưa ẩm; sau mưa đất và gỗ ẩm là nơi bào tử dễ nảy mầm nhất.",
+    "bai": 34
+  },
+  {
+    "id": 224,
+    "question": "Quan sát nấm cần chú ý an toàn gì?",
+    "options": [
+      "A. Ăn thử một miếng nhỏ để kiểm tra xem nấm có ăn được không",
+      "B. Ngửi sát để nhận biết mùi",
+      "C. Không ăn thử, không ngửi sát, rửa tay sau khi quan sát",
+      "D. Bẻ nấm tung tóe cho vui"
+    ],
+    "answer": 2,
+    "explanation": "Nấm lạ có thể độc qua đường ăn và bào tử bay vào mũi nên chỉ quan sát bằng mắt.",
+    "bai": 34
+  },
+  {
+    "id": 225,
+    "question": "Sợi nấm có vai trò gì?",
+    "options": [
+      "A. Hút chất dinh dưỡng từ đất, gỗ hoặc thức ăn để nuôi nấm",
+      "B. Quang hợp tạo thức ăn nhờ ánh sáng mặt trời chiếu vào mỗi ngày",
+      "C. Giúp nấm di chuyển",
+      "D. Tạo bào tử"
+    ],
+    "answer": 0,
+    "explanation": "Sợi nấm lan rộng như rễ cây, hút chất hữu cơ về nuôi cả cây nấm.",
+    "bai": 34
+  },
+  {
+    "id": 226,
+    "question": "Phiến dưới mũ nấm chứa gì?",
+    "options": [
+      "A. Hạt giống",
+      "B. Mật hoa",
+      "C. Trứng côn trùng đẻ trên phiến nấm để nở thành ấu trùng",
+      "D. Bào tử để sinh sản"
+    ],
+    "answer": 3,
+    "explanation": "Bào tử rơi khỏi phiến, bay theo gió đến nơi mới và mọc thành nấm mới.",
+    "bai": 34
+  },
+  {
+    "id": 227,
+    "question": "Nấm mốc làm hỏng thức ăn vì sao?",
+    "options": [
+      "A. Vì nấm ăn hết oxygen trong hộp và làm thức ăn bị ngạt thở rồi hỏng dần",
+      "B. Vì nấm sống hoại sinh, tiết chất phân giải thức ăn để hút dinh dưỡng",
+      "C. Vì nấm làm thức ăn nóng lên",
+      "D. Vì nấm đẻ trứng vào thức ăn"
+    ],
+    "answer": 1,
+    "explanation": "Thức ăn bị nấm mốc phân giải sẽ đổi màu, đổi mùi và không ăn được nữa.",
+    "bai": 34
+  },
+  {
+    "id": 228,
+    "question": "Vẽ lại nấm vừa quan sát để làm gì?",
+    "options": [
+      "A. Để luyện vẽ cho đẹp",
+      "B. Để thay cho việc quan sát",
+      "C. Ghi lại đặc điểm hình dạng để nhận dạng và đối chiếu với sách",
+      "D. Để dán lên tường trang trí cho lớp học thêm đẹp và sinh động hơn"
+    ],
+    "answer": 2,
+    "explanation": "Bản vẽ ghi mũ, phiến, cuống và màu sắc giúp gọi tên nấm chính xác hơn.",
+    "bai": 34
+  },
+  {
+    "id": 229,
+    "question": "Có thể phân biệt nấm ăn được và nấm độc chỉ bằng mắt thường không?",
+    "options": [
+      "A. Không chắc chắn được, tuyệt đối không tự hái nấm lạ về ăn",
+      "B. Được, nấm độc nào cũng sặc sỡ",
+      "C. Được, nấm ăn được nào cũng trắng còn nấm độc thì có màu sặc sỡ",
+      "D. Được, ngửi là biết ngay"
+    ],
+    "answer": 0,
+    "explanation": "Nấm độc và nấm ăn có thể giống nhau như đúc; chỉ chuyên gia mới phân biệt chắc chắn.",
+    "bai": 34
+  },
+  {
+    "id": 230,
+    "question": "Thực vật có đặc điểm chung nào?",
+    "options": [
+      "A. Đa bào, nhân thực, tự dưỡng nhờ quang hợp",
+      "B. Đơn bào, dị dưỡng",
+      "C. Đa bào, ăn sinh vật khác giống như động vật ăn thịt",
+      "D. Nhân sơ, không quang hợp"
+    ],
+    "answer": 0,
+    "explanation": "Thực vật tự tạo thức ăn từ ánh sáng nên gọi là sinh vật tự dưỡng.",
+    "bai": 35
+  },
+  {
+    "id": 231,
+    "question": "Quang hợp là gì?",
+    "options": [
+      "A. Lá hút oxygen để tạo đường",
+      "B. Rễ hút thức ăn từ đất lên lá rồi lá biến thành đường và oxygen để nuôi cây lớn lên mỗi ngày",
+      "C. Hoa hút mật để tạo quả",
+      "D. Lá dùng ánh sáng tổng hợp chất dinh dưỡng từ nước và khí carbon dioxide, thải ra oxygen"
+    ],
+    "answer": 3,
+    "explanation": "Nhờ quang hợp, cây có thức ăn để lớn và thải oxygen cho sinh vật khác thở.",
+    "bai": 35
+  },
+  {
+    "id": 232,
+    "question": "Thực vật có hoa gồm những cơ quan nào?",
+    "options": [
+      "A. Vây, mang, đuôi",
+      "B. Mũ, phiến, cuống và sợi nấm giống như cây nấm ngoài vườn",
+      "C. Rễ, thân, lá, hoa, quả, hạt",
+      "D. Đầu, mình, chân"
+    ],
+    "answer": 2,
+    "explanation": "Rễ hút nước, thân vận chuyển, lá quang hợp, hoa tạo quả và hạt để sinh sản.",
+    "bai": 35
+  },
+  {
+    "id": 233,
+    "question": "Thực vật được chia thành mấy nhóm chính ở lớp 6?",
+    "options": [
+      "A. 2 nhóm: cây to và cây nhỏ",
+      "B. 4 nhóm: rêu, dương xỉ, hạt trần, hạt kín",
+      "C. 3 nhóm: rêu, cây ăn quả, cây lấy gỗ và cây làm thuốc",
+      "D. 5 nhóm theo màu hoa"
+    ],
+    "answer": 1,
+    "explanation": "Bốn nhóm này khác nhau ở rễ, thân, lá và cách sinh sản.",
+    "bai": 35
+  },
+  {
+    "id": 234,
+    "question": "Dương xỉ sinh sản bằng gì?",
+    "options": [
+      "A. Bào tử ở mặt dưới lá",
+      "B. Hạt trong quả giống như hạt của cây lúa và cây ngô",
+      "C. Hoa và mật",
+      "D. Chồi củ"
+    ],
+    "answer": 0,
+    "explanation": "Dương xỉ chưa có hoa và hạt; bào tử rơi xuống đất ẩm mọc thành cây mới.",
+    "bai": 35
+  },
+  {
+    "id": 235,
+    "question": "Hạt trần khác hạt kín ở điểm nào?",
+    "options": [
+      "A. Hạt trần to hơn hạt kín",
+      "B. Hạt trần có hoa còn hạt kín thì không có hoa gì cả mà chỉ có lá",
+      "C. Hạt trần sống dưới nước",
+      "D. Hạt trần: hạt nằm trần trên lá noãn; hạt kín: hạt nằm trong quả"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ hạt trần là cây thông, hạt kín là cây lúa, cây xoài.",
+    "bai": 35
+  },
+  {
+    "id": 236,
+    "question": "Thực vật có vai trò gì với đời sống?",
+    "options": [
+      "A. Chỉ để làm cảnh",
+      "B. Làm không khí nóng lên và làm Trái Đất ấm dần lên mỗi năm",
+      "C. Tạo oxygen, thức ăn, nơi ở cho sinh vật và giữ đất",
+      "D. Hút hết nước trong đất"
+    ],
+    "answer": 2,
+    "explanation": "Rừng còn chắn gió, giữ nước, chống xói mòn và lũ lụt.",
+    "bai": 35
+  },
+  {
+    "id": 237,
+    "question": "Thực vật cần những gì để sống?",
+    "options": [
+      "A. Thịt và cá",
+      "B. Ánh sáng, nước, khí carbon dioxide và chất khoáng",
+      "C. Đất khô và bóng tối trong góc nhà không có ánh sáng",
+      "D. Oxygen và muối ăn"
+    ],
+    "answer": 1,
+    "explanation": "Thiếu ánh sáng cây quang hợp kém, thiếu nước và khoáng cây còi cọc.",
+    "bai": 35
+  },
+  {
+    "id": 238,
+    "question": "Chặt phá rừng bừa bãi gây hại gì?",
+    "options": [
+      "A. Mất nơi ở của sinh vật, xói mòn đất, lũ lụt và thiếu oxygen",
+      "B. Làm đất tốt hơn",
+      "C. Giúp cây còn lại lớn nhanh vì được hưởng hết ánh sáng và nước",
+      "D. Không gây hại gì"
+    ],
+    "answer": 0,
+    "explanation": "Rừng mất đi thì đất trơ trọi, mưa cuốn đất xuống sông gây lũ và mất mùa.",
+    "bai": 35
+  },
+  {
+    "id": 239,
+    "question": "Rêu có đặc điểm nào?",
+    "options": [
+      "A. Cao to, có hoa và quả giống như cây ăn quả trong vườn nhà",
+      "B. Có hạt nằm trong quả",
+      "C. Nhỏ bé, chưa có rễ thật, sống nơi ẩm ướt",
+      "D. Sống ở sa mạc khô"
+    ],
+    "answer": 2,
+    "explanation": "Rêu chỉ có rễ giả bám vào mặt đất ẩm, thân thấp vì chưa có mạch dẫn.",
+    "bai": 36
+  },
+  {
+    "id": 240,
+    "question": "Dương xỉ có đặc điểm nào?",
+    "options": [
+      "A. Lá xẻ thùy, sinh sản bằng bào tử ở mặt dưới lá",
+      "B. Có hoa thơm và quả ngọt để chim và ong tới thụ phấn mỗi ngày",
+      "C. Hạt nằm trần trên lá noãn",
+      "D. Thân gỗ cao hàng chục mét"
+    ],
+    "answer": 0,
+    "explanation": "Nhìn mặt dưới lá dương xỉ sẽ thấy các đốm nâu là ổ túi bào tử.",
+    "bai": 36
+  },
+  {
+    "id": 241,
+    "question": "Cây thông thuộc nhóm nào?",
+    "options": [
+      "A. Hạt kín, vì hạt nằm trong quả giống như hạt lúa",
+      "B. Dương xỉ",
+      "C. Rêu",
+      "D. Hạt trần, vì hạt nằm trần trên lá noãn"
+    ],
+    "answer": 3,
+    "explanation": "Thông có lá hình kim và nón thông mang hạt nằm lộ ra, không có quả bao bọc.",
+    "bai": 36
+  },
+  {
+    "id": 242,
+    "question": "Cây lúa thuộc nhóm nào?",
+    "options": [
+      "A. Hạt trần, vì hạt nằm trần trên lá noãn như cây thông",
+      "B. Dương xỉ",
+      "C. Hạt kín, vì hạt nằm trong quả (hạt thóc)",
+      "D. Rêu"
+    ],
+    "answer": 2,
+    "explanation": "Lúa có hoa, sau khi thụ phấn tạo quả thóc bọc lấy hạt gạo bên trong.",
+    "bai": 36
+  },
+  {
+    "id": 243,
+    "question": "Phân biệt các nhóm thực vật dựa vào đâu?",
+    "options": [
+      "A. Màu sắc của chậu trồng",
+      "B. Rễ, thân, lá, hoa, quả, hạt và cách sinh sản",
+      "C. Chiều cao của người trồng và tuổi của cây khi quan sát",
+      "D. Mùi thơm của đất"
+    ],
+    "answer": 1,
+    "explanation": "Quan sát đủ các cơ quan mới xếp đúng nhóm, ví dụ có hoa và quả là hạt kín.",
+    "bai": 36
+  },
+  {
+    "id": 244,
+    "question": "Rêu thường sống ở đâu?",
+    "options": [
+      "A. Đỉnh núi đá khô nắng, nơi gió thổi mạnh quanh năm",
+      "B. Sa mạc cát",
+      "C. Ruộng lúa khô",
+      "D. Tường ẩm, gốc cây ẩm, bờ suối"
+    ],
+    "answer": 3,
+    "explanation": "Rêu cần nước để sinh sản nên chỉ sống tốt ở nơi ẩm ướt, râm mát.",
+    "bai": 36
+  },
+  {
+    "id": 245,
+    "question": "Bào tử của dương xỉ nằm ở đâu?",
+    "options": [
+      "A. Ổ túi bào tử ở mặt dưới lá",
+      "B. Trong quả giống như hạt của các cây có hoa khác",
+      "C. Trong hoa",
+      "D. Ở đầu rễ"
+    ],
+    "answer": 0,
+    "explanation": "Các đốm nâu mặt dưới lá chính là nơi chứa bào tử sinh sản.",
+    "bai": 36
+  },
+  {
+    "id": 246,
+    "question": "Vì sao rêu chỉ thấp bé?",
+    "options": [
+      "A. Vì rêu bị cây khác ăn mất ngọn nên không cao lên được nữa bao giờ trong đời",
+      "B. Vì rêu mới mọc hôm qua",
+      "C. Vì chưa có mạch dẫn và rễ thật nên không vươn cao, lại cần nước để sinh sản",
+      "D. Vì đất thiếu chất dinh dưỡng"
+    ],
+    "answer": 2,
+    "explanation": "Không có mạch dẫn mạnh và rễ thật, rêu không đưa nước lên cao được.",
+    "bai": 36
+  },
+  {
+    "id": 247,
+    "question": "Quan sát thực vật ngoài thiên nhiên cần chú ý gì?",
+    "options": [
+      "A. Nhổ cả cây mang về",
+      "B. Không nhổ phá, chỉ quan sát, ghi chép và chụp ảnh",
+      "C. Bẻ hết lá để xem",
+      "D. Đốn cây lấy gỗ làm mẫu để mang về lớp học trưng bày"
+    ],
+    "answer": 1,
+    "explanation": "Quan sát không phá hoại thì lần sau vẫn còn cây để học và thiên nhiên không bị tổn thương.",
+    "bai": 36
+  },
+  {
+    "id": 248,
+    "question": "Động vật có đặc điểm chung nào?",
+    "options": [
+      "A. Đơn bào, tự quang hợp",
+      "B. Đa bào, không di chuyển và sống cố định một chỗ suốt đời như cây xanh",
+      "C. Đa bào, nhân thực, dị dưỡng, có khả năng di chuyển và cảm ứng",
+      "D. Nhân sơ, sống cố định"
+    ],
+    "answer": 2,
+    "explanation": "Động vật không tự tạo thức ăn mà ăn sinh vật khác, và phản ứng lại kích thích từ môi trường.",
+    "bai": 37
+  },
+  {
+    "id": 249,
+    "question": "Nhóm động vật không xương sống gồm những loài nào?",
+    "options": [
+      "A. Giun, ốc, tôm, cua, côn trùng, nhện",
+      "B. Cá, ếch, rắn, chim và các loài có xương sống khác",
+      "C. Cá voi, dơi, mèo",
+      "D. Rùa, cá sấu, thằn lằn"
+    ],
+    "answer": 0,
+    "explanation": "Nhóm này không có cột sống, chiếm phần lớn số loài động vật.",
+    "bai": 37
+  },
+  {
+    "id": 250,
+    "question": "Động vật có xương sống gồm những lớp nào?",
+    "options": [
+      "A. Giun, thân mềm, chân khớp và các loài không xương sống khác",
+      "B. Rêu, dương xỉ, hạt kín",
+      "C. Nấm mũ, nấm men, nấm mốc",
+      "D. Cá, lưỡng cư, bò sát, chim, thú"
+    ],
+    "answer": 3,
+    "explanation": "Cả 5 lớp đều có cột sống chạy dọc cơ thể để nâng đỡ và bảo vệ tủy sống.",
+    "bai": 37
+  },
+  {
+    "id": 251,
+    "question": "Cá thích nghi với đời sống dưới nước nhờ đặc điểm nào?",
+    "options": [
+      "A. Cánh và lông vũ",
+      "B. Vây để bơi, mang để thở, thân thuôn giảm cản nước",
+      "C. Phổi và chân chạy nhanh giống như động vật sống trên cạn",
+      "D. Vú và lông mao"
+    ],
+    "answer": 1,
+    "explanation": "Vây giúp cá bơi lội, mang lấy oxygen trong nước, thân thuôn giúp lướt nước dễ dàng.",
+    "bai": 37
+  },
+  {
+    "id": 252,
+    "question": "Chim thích nghi với bay nhờ đặc điểm nào?",
+    "options": [
+      "A. Cánh, lông vũ, xương rỗng và nhẹ",
+      "B. Vây và mang",
+      "C. Chân màng và đuôi dẹt giống như các loài bơi dưới nước",
+      "D. Vỏ cứng và râu dài"
+    ],
+    "answer": 0,
+    "explanation": "Cánh tạo lực nâng, xương rỗng giảm trọng lượng giúp chim bay lâu mà ít tốn sức.",
+    "bai": 37
+  },
+  {
+    "id": 253,
+    "question": "Thú khác chim ở điểm nào?",
+    "options": [
+      "A. Thú có cánh còn chim thì không",
+      "B. Thú sống dưới nước còn chim sống trên cạn và bay trên trời",
+      "C. Thú đẻ con và nuôi con bằng sữa; chim đẻ trứng",
+      "D. Thú không có xương sống"
+    ],
+    "answer": 2,
+    "explanation": "Dơi là thú biết bay nhưng vẫn đẻ con và cho con bú, còn chim thì đẻ trứng.",
+    "bai": 37
+  },
+  {
+    "id": 254,
+    "question": "Lưỡng cư là động vật như thế nào?",
+    "options": [
+      "A. Chỉ sống dưới nước",
+      "B. Chỉ sống trên cây",
+      "C. Sống trong hang tối và ẩm ướt suốt cả cuộc đời của nó",
+      "D. Sống cả ở nước và ở cạn trong đời mình"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ ếch: nòng nọc sống dưới nước thở bằng mang, ếch trưởng thành sống trên cạn thở bằng phổi.",
+    "bai": 37
+  },
+  {
+    "id": 255,
+    "question": "Động vật có vai trò gì trong tự nhiên và đời sống?",
+    "options": [
+      "A. Chỉ gây hại cho con người và phá hoại mùa màng quanh năm",
+      "B. Không có vai trò gì",
+      "C. Chỉ để làm cảnh",
+      "D. Làm thức ăn, thụ phấn cho cây, giữ cân bằng sinh thái"
+    ],
+    "answer": 3,
+    "explanation": "Ong thụ phấn cho hoa, chim ăn sâu hại; nhưng cũng có loài hại như muỗi truyền bệnh, sâu phá lúa.",
+    "bai": 37
+  },
+  {
+    "id": 256,
+    "question": "Động vật di chuyển để làm gì?",
+    "options": [
+      "A. Để tập thể dục",
+      "B. Tìm thức ăn, tránh kẻ thù và tìm nơi ở phù hợp",
+      "C. Để khoe sức mạnh với các con vật khác trong bầy đàn",
+      "D. Để làm đất tơi xốp"
+    ],
+    "answer": 1,
+    "explanation": "Di chuyển giúp động vật sống sót: có ăn, tránh bị ăn thịt và tìm được chỗ sinh sản.",
+    "bai": 37
+  },
+  {
+    "id": 257,
+    "question": "Quan sát động vật ngoài thiên nhiên bằng cách nào là đúng?",
+    "options": [
+      "A. Bắt về nuôi rồi quan sát",
+      "B. Đuổi theo cho chúng chạy",
+      "C. Quan sát trực tiếp, ghi chép và chụp ảnh, không bắt giữ",
+      "D. Dùng ná bắn để xem phản ứng của con vật khi bị bắn trúng"
+    ],
+    "answer": 2,
+    "explanation": "Quan sát từ xa không làm động vật sợ hãi và giữ nguyên môi trường sống của chúng.",
+    "bai": 38
+  },
+  {
+    "id": 258,
+    "question": "Chim khác dơi ở điểm nào?",
+    "options": [
+      "A. Chim có lông vũ và đẻ trứng; dơi là thú, có lông mao và đẻ con",
+      "B. Chim bay nhanh hơn dơi",
+      "C. Dơi có mỏ còn chim thì không",
+      "D. Chim sống ban đêm còn dơi sống ban ngày và ngủ vào ban đêm trong hang tối"
+    ],
+    "answer": 0,
+    "explanation": "Dơi bay bằng màng da giữa các ngón, nhưng vẫn là thú vì đẻ con và cho con bú.",
+    "bai": 38
+  },
+  {
+    "id": 259,
+    "question": "Vì sao không nên bắt động vật hoang dã về nhà?",
+    "options": [
+      "A. Vì chúng hôi",
+      "B. Vì làm chúng sợ hãi, có thể chết và phá vỡ cân bằng tự nhiên",
+      "C. Vì chúng ăn nhiều và phá phách đồ đạc trong nhà mỗi ngày nên tốn kém",
+      "D. Vì nhà không đủ rộng"
+    ],
+    "answer": 1,
+    "explanation": "Nhiều loài còn được pháp luật bảo vệ; bắt giữ là vi phạm và làm giảm đa dạng sinh học.",
+    "bai": 38
+  },
+  {
+    "id": 260,
+    "question": "Quan sát côn trùng cần chú ý đặc điểm nào?",
+    "options": [
+      "A. Màu mắt",
+      "B. Tiếng kêu to hay nhỏ và âm thanh chúng phát ra khi bay",
+      "C. Tốc độ bay",
+      "D. Số chân (6 chân), cánh, râu và các đốt cơ thể"
+    ],
+    "answer": 3,
+    "explanation": "Côn trùng có 3 đôi chân, cơ thể 3 phần (đầu, ngực, bụng); nhện có 8 chân nên không phải côn trùng.",
+    "bai": 38
+  },
+  {
+    "id": 261,
+    "question": "Khi quan sát, em cần ghi chép những gì?",
+    "options": [
+      "A. Giá bán của con vật",
+      "B. Tên (nếu biết), nơi gặp, đặc điểm, số lượng và hành vi",
+      "C. Món ăn làm từ con vật",
+      "D. Cân nặng chính xác từng con và chiều dài cơ thể của chúng mỗi ngày"
+    ],
+    "answer": 1,
+    "explanation": "Ghi chép đầy đủ giúp đối chiếu với sách để xếp đúng nhóm và làm báo cáo.",
+    "bai": 38
+  },
+  {
+    "id": 262,
+    "question": "Thời điểm nào quan sát động vật ngoài thiên nhiên tốt nhất?",
+    "options": [
+      "A. Nửa đêm tối đen",
+      "B. Giữa trưa nắng gắt khi mặt trời lên cao nhất trong ngày và nóng nhất",
+      "C. Sáng sớm hoặc chiều mát, khi động vật hoạt động nhiều",
+      "D. Lúc mưa bão"
+    ],
+    "answer": 2,
+    "explanation": "Sáng sớm chim hót, côn trùng kiếm ăn; trưa nắng gắt nhiều loài trốn nắng nên khó thấy.",
+    "bai": 38
+  },
+  {
+    "id": 263,
+    "question": "Thấy tổ chim ngoài thiên nhiên, em nên làm gì?",
+    "options": [
+      "A. Đứng xa quan sát, không chạm vào tổ, không phá tổ",
+      "B. Trèo lên lấy trứng về ấp",
+      "C. Chọc tổ cho chim bay ra xem rồi chụp ảnh chim bay lên trời",
+      "D. Mang tổ về nhà trưng bày"
+    ],
+    "answer": 0,
+    "explanation": "Chạm vào tổ làm chim bố mẹ bỏ tổ, trứng và chim non sẽ chết.",
+    "bai": 38
+  },
+  {
+    "id": 264,
+    "question": "Quan sát giúp phân biệt các nhóm động vật nhờ vào đâu?",
+    "options": [
+      "A. Màu sắc yêu thích của em",
+      "B. Kích thước của tổ",
+      "C. Tiếng kêu dễ thương hay không và màu lông có đẹp hay không khi nhìn",
+      "D. Đặc điểm cơ thể như cánh, vây, lông vũ, lông mao, xương sống"
+    ],
+    "answer": 3,
+    "explanation": "Có vây và mang là cá, có lông vũ là chim, có vú và lông mao là thú.",
+    "bai": 38
+  },
+  {
+    "id": 265,
+    "question": "Đi quan sát động vật ngoài thiên nhiên cần chú ý an toàn gì?",
+    "options": [
+      "A. Đi một mình vào rừng sâu",
+      "B. Đi cùng người lớn, tránh thú dữ, rắn và tổ ong",
+      "C. Chọc phá tổ ong xem phản ứng của ong khi tổ bị phá vỡ",
+      "D. Đuổi theo rắn để chụp ảnh gần"
+    ],
+    "answer": 1,
+    "explanation": "Thiên nhiên có rắn, ong và địa hình trơn trượt nên phải có người lớn đi cùng và giữ khoảng cách.",
+    "bai": 38
+  },
+  {
+    "id": 266,
+    "question": "Đa dạng sinh học là gì?",
+    "options": [
+      "A. Số lượng cây trong một khu rừng và số cây to nhỏ khác nhau",
+      "B. Số loài chim biết hót",
+      "C. Diện tích rừng của một nước",
+      "D. Sự phong phú về số loài, số cá thể và môi trường sống"
+    ],
+    "answer": 3,
+    "explanation": "Nơi nào càng nhiều loài, nhiều môi trường sống khác nhau thì đa dạng sinh học càng cao.",
+    "bai": 39
+  },
+  {
+    "id": 267,
+    "question": "Việt Nam có đa dạng sinh học cao không?",
+    "options": [
+      "A. Không, Việt Nam ít loài và không có loài đặc hữu nào cả trên cả nước",
+      "B. Chỉ cao ở vùng biển",
+      "C. Có, rừng nhiệt đới Việt Nam có nhiều loài, kể cả loài đặc hữu",
+      "D. Chỉ cao ở đồng bằng"
+    ],
+    "answer": 2,
+    "explanation": "Voọc Cát Bà, sao la là những loài đặc hữu chỉ có ở Việt Nam.",
+    "bai": 39
+  },
+  {
+    "id": 268,
+    "question": "Nguyên nhân nào làm suy giảm đa dạng sinh học?",
+    "options": [
+      "A. Trồng thêm cây xanh và chăm sóc rừng cẩn thận mỗi ngày quanh năm",
+      "B. Phá rừng, ô nhiễm, săn bắt quá mức và biến đổi khí hậu",
+      "C. Lập khu bảo tồn",
+      "D. Giảm dùng túi ni lông"
+    ],
+    "answer": 1,
+    "explanation": "Rừng mất thì sinh vật mất nơi ở; ô nhiễm và săn bắt làm nhiều loài giảm nhanh.",
+    "bai": 39
+  },
+  {
+    "id": 269,
+    "question": "Mất đa dạng sinh học gây hại gì?",
+    "options": [
+      "A. Mất cân bằng sinh thái, mất nguồn gen và thiên tai tăng",
+      "B. Làm không khí trong lành hơn và giúp con người khỏe mạnh hơn",
+      "C. Giúp mùa màng tốt hơn",
+      "D. Không gây hại gì"
+    ],
+    "answer": 0,
+    "explanation": "Mỗi loài đều có vai trò trong lưới thức ăn; mất một loài có thể kéo theo nhiều loài khác suy giảm.",
+    "bai": 39
+  },
+  {
+    "id": 270,
+    "question": "Bảo vệ đa dạng sinh học bằng cách nào?",
+    "options": [
+      "A. Phá rừng làm nương",
+      "B. Săn bắt động vật hoang dã để bán lấy tiền và làm thức ăn hằng ngày cho gia đình",
+      "C. Xả rác xuống sông",
+      "D. Lập khu bảo tồn, vườn quốc gia, trồng rừng, cấm săn bắt loài quý hiếm"
+    ],
+    "answer": 3,
+    "explanation": "Khu bảo tồn giữ nguyên môi trường sống để sinh vật sinh sôi an toàn.",
+    "bai": 39
+  },
+  {
+    "id": 271,
+    "question": "Bản thân em có thể làm gì để bảo vệ đa dạng sinh học?",
+    "options": [
+      "A. Mua chim hoang dã về nuôi",
+      "B. Bẻ cành cây làm đồ chơi và làm đồ dùng trong nhà mỗi ngày cho vui",
+      "C. Không mua bán động vật hoang dã, không xả rác, trồng cây xanh",
+      "D. Đốt rác trong rừng"
+    ],
+    "answer": 2,
+    "explanation": "Việc nhỏ mỗi ngày như trồng cây, không xả rác cũng góp phần giữ thiên nhiên.",
+    "bai": 39
+  },
+  {
+    "id": 272,
+    "question": "Loài đặc hữu là gì?",
+    "options": [
+      "A. Loài sống ở mọi nơi",
+      "B. Loài chỉ sống ở một nơi nhất định, không có ở nơi khác",
+      "C. Loài mới nhập từ nước khác về nuôi và trồng trong nước ta hiện nay",
+      "D. Loài đã tuyệt chủng"
+    ],
+    "answer": 1,
+    "explanation": "Ví dụ voọc Cát Bà chỉ sống ở đảo Cát Bà, Việt Nam.",
+    "bai": 39
+  },
+  {
+    "id": 273,
+    "question": "Rừng có vai trò gì với đa dạng sinh học?",
+    "options": [
+      "A. Là nơi ở của nhiều loài, đồng thời giữ nước và giữ đất",
+      "B. Chỉ cung cấp gỗ",
+      "C. Làm đất khô đi",
+      "D. Không liên quan đến sinh vật mà chỉ liên quan đến con người"
+    ],
+    "answer": 0,
+    "explanation": "Rừng là mái nhà chung: chim, thú, côn trùng và cây cối cùng sống trong đó.",
+    "bai": 39
+  },
+  {
+    "id": 274,
+    "question": "Đa dạng sinh học được xét ở những mức nào?",
+    "options": [
+      "A. Nhiều loài, nhiều nguồn gen và nhiều hệ sinh thái",
+      "B. Chỉ xét số cây to",
+      "C. Chỉ xét số con vật lớn và bỏ qua các loài nhỏ khác",
+      "D. Chỉ xét diện tích rừng"
+    ],
+    "answer": 0,
+    "explanation": "Một khu rừng, một rạn san hô, một đồng ruộng đều là những hệ sinh thái khác nhau.",
+    "bai": 39
+  },
+  {
+    "id": 275,
+    "question": "Tìm hiểu sinh vật ngoài thiên nhiên gồm những bước nào?",
+    "options": [
+      "A. Chọn địa điểm, quan sát, ghi chép rồi làm báo cáo",
+      "B. Đoán tên trước rồi mới đi tìm theo tên đã đoán sẵn ở nhà",
+      "C. Bắt về nhà rồi mới quan sát",
+      "D. Chụp ảnh rồi xóa ngay"
+    ],
+    "answer": 0,
+    "explanation": "Làm đúng trình tự thì kết quả chính xác và không bỏ sót sinh vật gặp được.",
+    "bai": 40
+  },
+  {
+    "id": 276,
+    "question": "Khi tìm hiểu sinh vật ngoài thiên nhiên, em ghi chép những gì vào sổ?",
+    "options": [
+      "A. Giá tiền của sinh vật",
+      "B. Món ăn chế biến từ nó và cách nấu món ăn đó ngon nhất",
+      "C. Cân nặng từng con",
+      "D. Tên, nơi sống, đặc điểm và hành vi của sinh vật"
+    ],
+    "answer": 3,
+    "explanation": "Ghi chép đầy đủ giúp đối chiếu với sách và viết báo cáo sau chuyến đi.",
+    "bai": 40
+  },
+  {
+    "id": 277,
+    "question": "Gặp sinh vật không biết tên thì làm sao?",
+    "options": [
+      "A. Đặt tên mới tùy ý",
+      "B. Bỏ qua không ghi chép vì sinh vật lạ không quan trọng gì cả đối với bài học",
+      "C. Dùng khóa lưỡng phân, hỏi thầy cô hoặc người hiểu biết, đối chiếu với sách",
+      "D. Mang về nuôi rồi đoán"
+    ],
+    "answer": 2,
+    "explanation": "Khóa lưỡng phân và sách giúp gọi tên đúng thay vì đoán mò.",
+    "bai": 40
+  },
+  {
+    "id": 278,
+    "question": "Một bản báo cáo tìm hiểu sinh vật gồm những gì?",
+    "options": [
+      "A. Bài văn dài nhiều trang",
+      "B. Tên sinh vật, nơi gặp, đặc điểm và hình vẽ hoặc ảnh",
+      "C. Bảng giá các loài và giá bán của chúng trên thị trường hiện nay",
+      "D. Lời khen của thầy cô"
+    ],
+    "answer": 1,
+    "explanation": "Báo cáo ngắn gọn nhưng đủ thông tin để người khác hiểu em đã gặp và thấy gì.",
+    "bai": 40
+  },
+  {
+    "id": 279,
+    "question": "Vì sao phải ghi chép ngay khi quan sát?",
+    "options": [
+      "A. Vì thầy cô bắt buộc",
+      "B. Vì vở sẽ đẹp hơn",
+      "C. Vì ghi sau sẽ viết dài hơn và hay hơn ghi ngay lúc đó",
+      "D. Vì để lâu sẽ quên, số liệu không còn chính xác"
+    ],
+    "answer": 3,
+    "explanation": "Đặc điểm như số lượng, hành vi chỉ đúng lúc quan sát; ghi muộn dễ nhầm lẫn.",
+    "bai": 40
+  },
+  {
+    "id": 280,
+    "question": "Đi tìm hiểu sinh vật ngoài thiên nhiên cần chuẩn bị gì?",
+    "options": [
+      "A. Sổ, bút, kính lúp, máy ảnh, mũ và nước uống",
+      "B. Ná và lưới bắt chim để bắt mẫu vật mang về nghiên cứu",
+      "C. Thuốc trừ sâu",
+      "D. Lều ngủ qua đêm"
+    ],
+    "answer": 0,
+    "explanation": "Dụng cụ quan sát và ghi chép là đủ; không mang đồ bắt giữ hay phá hoại.",
+    "bai": 40
+  },
+  {
+    "id": 281,
+    "question": "Đi tìm hiểu ngoài thiên nhiên cần chú ý an toàn gì?",
+    "options": [
+      "A. Đi một mình vào rừng sâu",
+      "B. Chạm thử mọi sinh vật gặp được để biết chúng có độc hay không trước khi ghi chép",
+      "C. Đi cùng người lớn, không chạm vào sinh vật lạ, không lội nước sâu",
+      "D. Lội ao sâu để bắt mẫu"
+    ],
+    "answer": 2,
+    "explanation": "Sinh vật lạ có thể có độc, địa hình có thể nguy hiểm nên phải có người lớn đi cùng.",
+    "bai": 40
+  },
+  {
+    "id": 282,
+    "question": "Tìm hiểu sinh vật ngoài thiên nhiên giúp em điều gì?",
+    "options": [
+      "A. Biết cách bắt sinh vật về nuôi và chăm sóc chúng ở nhà mỗi ngày",
+      "B. Hiểu sinh vật sống ra sao, từ đó yêu và bảo vệ thiên nhiên",
+      "C. Biết cách làm sinh vật sợ",
+      "D. Biết giá bán sinh vật"
+    ],
+    "answer": 1,
+    "explanation": "Hiểu rồi mới yêu quý và bảo vệ; tìm hiểu không phải để bắt giữ.",
+    "bai": 40
+  },
+  {
+    "id": 283,
+    "question": "Vì sao khi tìm hiểu không được phá hoại môi trường?",
+    "options": [
+      "A. Vì sẽ bị phạt tiền",
+      "B. Vì mất thời gian và công sức của cả nhóm khi đi tìm hiểu ngoài trời nắng nóng cả buổi",
+      "C. Vì phá hoại làm sinh vật mất nơi sống và lần sau không còn gì để quan sát",
+      "D. Vì làm bẩn quần áo"
+    ],
+    "answer": 2,
+    "explanation": "Giữ nguyên môi trường thì sinh vật còn sống khỏe và chuyến đi sau vẫn quan sát được.",
+    "bai": 40
+  },
+  {
+    "id": 284,
+    "question": "Lực được mô tả đầy đủ bằng những yếu tố nào?",
+    "options": [
+      "A. Chỉ cần độ lớn",
+      "B. Chỉ cần phương và chiều",
+      "C. Chỉ cần điểm đặt và độ lớn, không cần phương và chiều",
+      "D. Điểm đặt, phương, chiều và độ lớn"
+    ],
+    "answer": 3,
+    "explanation": "Thiếu một yếu tố là chưa mô tả đúng lực: cùng độ lớn nhưng khác chiều thì tác dụng đã khác.",
+    "bai": 41
+  },
+  {
+    "id": 285,
+    "question": "Người ta biểu diễn lực bằng hình gì?",
+    "options": [
+      "A. Đoạn thẳng không có hướng",
+      "B. Mũi tên",
+      "C. Hình tròn",
+      "D. Hình vuông"
+    ],
+    "answer": 1,
+    "explanation": "Mũi tên vừa chỉ hướng vừa cho biết độ lớn qua độ dài của nó.",
+    "bai": 41
+  },
+  {
+    "id": 286,
+    "question": "Gốc của mũi tên biểu diễn lực cho biết gì?",
+    "options": [
+      "A. Độ lớn của lực",
+      "B. Phương của lực tác dụng lên vật theo chiều ngang",
+      "C. Điểm đặt của lực",
+      "D. Vận tốc của vật"
+    ],
+    "answer": 2,
+    "explanation": "Gốc mũi tên đặt tại điểm mà lực tác dụng lên vật.",
+    "bai": 41
+  },
+  {
+    "id": 287,
+    "question": "Hướng của mũi tên biểu diễn lực cho biết gì?",
+    "options": [
+      "A. Chiều của lực",
+      "B. Điểm đặt của lực",
+      "C. Độ lớn của lực",
+      "D. Khối lượng của vật"
+    ],
+    "answer": 0,
+    "explanation": "Mũi tên chỉ sang phải nghĩa là lực kéo sang phải, chỉ xuống dưới nghĩa là lực hướng xuống.",
+    "bai": 41
+  },
+  {
+    "id": 288,
+    "question": "Độ dài của mũi tên biểu diễn lực cho biết gì?",
+    "options": [
+      "A. Thời gian lực tác dụng",
+      "B. Quãng đường vật đi được khi chịu tác dụng của lực đó",
+      "C. Khối lượng của vật",
+      "D. Độ lớn của lực theo tỉ lệ xích đã chọn"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ tỉ lệ 1 cm ứng với 5 N thì lực 10 N vẽ mũi tên dài 2 cm.",
+    "bai": 41
+  },
+  {
+    "id": 289,
+    "question": "Tỉ lệ xích 1 cm ứng với 5 N. Lực 15 N thì vẽ mũi tên dài bao nhiêu?",
+    "options": [
+      "A. 1 cm",
+      "B. 3 cm",
+      "C. 5 cm",
+      "D. 15 cm"
+    ],
+    "answer": 1,
+    "explanation": "Độ dài mũi tên tỉ lệ với độ lớn: 15 N ÷ 5 N mỗi cm = 3 cm.",
+    "bai": 41
+  },
+  {
+    "id": 290,
+    "question": "Cùng một lực đẩy cửa, đẩy ở gần bản lề và đẩy ở xa bản lề khác nhau thế nào?",
+    "options": [
+      "A. Đẩy xa bản lề dễ mở cửa hơn, vì điểm đặt của lực khác nhau",
+      "B. Không khác nhau, vì cùng một lực nên mở cửa dễ như nhau mọi chỗ",
+      "C. Đẩy gần bản lề dễ hơn",
+      "D. Cửa chỉ mở được khi kéo"
+    ],
+    "answer": 0,
+    "explanation": "Điểm đặt khác nhau thì tác dụng khác nhau, vì vậy biểu diễn lực phải ghi rõ điểm đặt.",
+    "bai": 41
+  },
+  {
+    "id": 291,
+    "question": "Biểu diễn lực kéo hộp sang phải với độ lớn 10 N, mũi tên phải vẽ thế nào?",
+    "options": [
+      "A. Gốc ở xa hộp, hướng sang trái",
+      "B. Không cần gốc, chỉ cần hướng phải",
+      "C. Gốc tại hộp, hướng sang phải, độ dài theo tỉ lệ ứng với 10 N",
+      "D. Mũi tên càng dài càng tốt, không cần tỉ lệ hay điểm đặt gì cả"
+    ],
+    "answer": 2,
+    "explanation": "Đủ 4 yếu tố: gốc tại hộp, chiều sang phải, độ dài đúng tỉ lệ 10 N.",
+    "bai": 41
+  },
+  {
+    "id": 292,
+    "question": "Vì sao biểu diễn lực phải đủ cả 4 yếu tố?",
+    "options": [
+      "A. Vì vẽ thiếu sẽ không đẹp",
+      "B. Vì giáo viên yêu cầu vậy",
+      "C. Vì lực nào cũng có 4 yếu tố nên vẽ cho đủ, thiếu một cũng được, không sao cả",
+      "D. Vì thiếu một yếu tố thì người đọc hiểu sai về lực đang tác dụng"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ lực đẩy và lực kéo cùng độ lớn nhưng ngược chiều sẽ làm vật chuyển động khác nhau.",
+    "bai": 41
+  },
+  {
+    "id": 293,
+    "question": "Khi chịu lực kéo hoặc nén, lò xo sẽ thế nào?",
+    "options": [
+      "A. Biến dạng: dãn ra hoặc nén lại",
+      "B. Không thay đổi gì, lò xo vẫn giữ nguyên hình dạng ban đầu",
+      "C. Nóng chảy ra",
+      "D. Gãy ngay lập tức"
+    ],
+    "answer": 0,
+    "explanation": "Lò xo là vật đàn hồi nên thay đổi hình dạng khi có lực tác dụng.",
+    "bai": 42
+  },
+  {
+    "id": 294,
+    "question": "Biến dạng đàn hồi là gì?",
+    "options": [
+      "A. Vật biến dạng rồi giữ nguyên hình mới, không trở lại được nữa",
+      "B. Thôi tác dụng lực, vật trở lại hình dạng ban đầu",
+      "C. Vật biến dạng rồi vỡ ra",
+      "D. Vật biến dạng khi nóng lên"
+    ],
+    "answer": 1,
+    "explanation": "Lò xo kéo dãn rồi buông tay sẽ co lại như cũ, đó là biến dạng đàn hồi.",
+    "bai": 42
+  },
+  {
+    "id": 295,
+    "question": "Trong giới hạn đàn hồi, độ dãn của lò xo quan hệ với lực kéo thế nào?",
+    "options": [
+      "A. Độ dãn không đổi dù lực tăng",
+      "B. Độ dãn giảm khi lực tăng",
+      "C. Độ dãn gấp ba khi lực gấp đôi, tức tăng nhanh hơn lực kéo",
+      "D. Độ dãn tỉ lệ với lực kéo: lực gấp đôi thì dãn gấp đôi"
+    ],
+    "answer": 3,
+    "explanation": "Đây là tính chất quan trọng nhất của lò xo, dùng để chế tạo lực kế.",
+    "bai": 42
+  },
+  {
+    "id": 296,
+    "question": "Treo quả nặng càng nặng vào lò xo thì lò xo sẽ thế nào?",
+    "options": [
+      "A. Dãn càng ít",
+      "B. Dãn càng nhiều",
+      "C. Không dãn thêm",
+      "D. Co lại"
+    ],
+    "answer": 1,
+    "explanation": "Quả nặng hơn thì lực kéo lớn hơn, lò xo dãn ra nhiều hơn.",
+    "bai": 42
+  },
+  {
+    "id": 297,
+    "question": "Kéo lò xo vượt quá giới hạn đàn hồi thì sao?",
+    "options": [
+      "A. Lò xo trở lại như cũ nhanh hơn và dãn tốt hơn trước đây",
+      "B. Lò xo dãn ít hơn",
+      "C. Lò xo không trở lại được hình dạng ban đầu nữa",
+      "D. Không có gì xảy ra"
+    ],
+    "answer": 2,
+    "explanation": "Quá giới hạn, lò xo bị biến dạng vĩnh viễn, không dùng đo lực chính xác được nữa.",
+    "bai": 42
+  },
+  {
+    "id": 298,
+    "question": "Lực kế hoạt động dựa vào tính chất nào của lò xo?",
+    "options": [
+      "A. Độ dãn của lò xo tỉ lệ với lực tác dụng",
+      "B. Lò xo càng dài càng nặng và càng đo được lực lớn hơn",
+      "C. Lò xo có màu sáng",
+      "D. Lò xo làm bằng thép"
+    ],
+    "answer": 0,
+    "explanation": "Nhìn độ dãn trên bảng chia độ là biết lực lớn hay nhỏ.",
+    "bai": 42
+  },
+  {
+    "id": 299,
+    "question": "Lực kế gồm những bộ phận chính nào?",
+    "options": [
+      "A. Quả nặng và dây treo",
+      "B. Pin và bóng đèn để đo lực bằng điện thay cho lò xo",
+      "C. Thước kẻ và compa",
+      "D. Lò xo, kim chỉ và bảng chia độ theo niutơn"
+    ],
+    "answer": 3,
+    "explanation": "Móc vật vào lực kế, lò xo dãn ra kéo kim chỉ tới vạch tương ứng với độ lớn của lực.",
+    "bai": 42
+  },
+  {
+    "id": 300,
+    "question": "Treo vật 100 g, lò xo dãn 2 cm. Treo vật 200 g thì lò xo dãn bao nhiêu?",
+    "options": [
+      "A. 2 cm",
+      "B. 4 cm",
+      "C. 3 cm",
+      "D. 6 cm"
+    ],
+    "answer": 1,
+    "explanation": "Lực gấp đôi thì độ dãn gấp đôi: 2 cm × 2 = 4 cm, vì độ dãn tỉ lệ với lực.",
+    "bai": 42
+  },
+  {
+    "id": 301,
+    "question": "Vì sao lò xo làm được lực kế?",
+    "options": [
+      "A. Vì lò xo rất rẻ và dễ mua ở bất kì cửa hàng nào trên cả nước",
+      "B. Vì lò xo nhẹ",
+      "C. Vì độ dãn tỉ lệ với lực nên nhìn độ dãn là biết được lực",
+      "D. Vì lò xo đẹp"
+    ],
+    "answer": 2,
+    "explanation": "Tỉ lệ giữa độ dãn và lực giúp chia vạch bảng đo chính xác theo niutơn.",
+    "bai": 42
+  },
+  {
+    "id": 302,
+    "question": "Lực hấp dẫn là gì?",
+    "options": [
+      "A. Lực đẩy giữa các vật",
+      "B. Lực của lò xo khi bị kéo dãn hoặc nén lại",
+      "C. Lực hút giữa mọi vật có khối lượng",
+      "D. Lực ma sát"
+    ],
+    "answer": 2,
+    "explanation": "Trái Đất hút quả táo, Mặt Trời hút các hành tinh đều là lực hấp dẫn.",
+    "bai": 43
+  },
+  {
+    "id": 303,
+    "question": "Trọng lượng của một vật là gì?",
+    "options": [
+      "A. Khối lượng của vật",
+      "B. Độ lớn của lực hút mà Trái Đất tác dụng lên vật đó",
+      "C. Kích thước của vật to hay nhỏ khi đặt lên bàn cân để đo thử",
+      "D. Màu sắc của vật"
+    ],
+    "answer": 1,
+    "explanation": "Trọng lượng đo bằng niutơn, khác với khối lượng đo bằng kilôgam.",
+    "bai": 43
+  },
+  {
+    "id": 304,
+    "question": "Khối lượng và trọng lượng khác nhau thế nào?",
+    "options": [
+      "A. Khối lượng không đổi ở mọi nơi; trọng lượng thay đổi theo nơi đặt vật",
+      "B. Cả hai đều không đổi mọi nơi",
+      "C. Cả hai đều thay đổi theo nơi",
+      "D. Khối lượng thay đổi còn trọng lượng thì không thay đổi theo nơi đặt vật"
+    ],
+    "answer": 0,
+    "explanation": "Mang 1 kg gạo lên Mặt Trăng, khối lượng vẫn 1 kg nhưng trọng lượng nhẹ đi nhiều.",
+    "bai": 43
+  },
+  {
+    "id": 305,
+    "question": "Công thức tính trọng lượng gần đúng là gì?",
+    "options": [
+      "A. P = m ÷ 10",
+      "B. P = 100 × m (m tính bằng kg, P tính bằng niutơn giống công thức thật)",
+      "C. P = m + 10",
+      "D. P = 10 × m (m tính bằng kg, P tính bằng niutơn)"
+    ],
+    "answer": 3,
+    "explanation": "Vật 1 kg có trọng lượng khoảng 10 N trên Trái Đất.",
+    "bai": 43
+  },
+  {
+    "id": 306,
+    "question": "Vật có khối lượng 2 kg thì trọng lượng khoảng bao nhiêu?",
+    "options": [
+      "A. 2 N",
+      "B. 10 N",
+      "C. 20 N",
+      "D. 200 N"
+    ],
+    "answer": 2,
+    "explanation": "P = 10 × 2 = 20 N.",
+    "bai": 43
+  },
+  {
+    "id": 307,
+    "question": "Vì sao vật trên Mặt Trăng nhẹ hơn trên Trái Đất?",
+    "options": [
+      "A. Vì trên Mặt Trăng không có không khí nên vật nhẹ hơn hẳn và bay bổng lên",
+      "B. Vì lực hút của Mặt Trăng yếu hơn Trái Đất, chỉ khoảng 1/6",
+      "C. Vì vật trên Mặt Trăng mất khối lượng",
+      "D. Vì Mặt Trăng lạnh hơn"
+    ],
+    "answer": 1,
+    "explanation": "Lực hút yếu hơn nên trọng lượng nhỏ hơn, phi hành gia nhảy được cao và xa.",
+    "bai": 43
+  },
+  {
+    "id": 308,
+    "question": "Trọng lực có phương và chiều như thế nào?",
+    "options": [
+      "A. Phương thẳng đứng, chiều từ trên xuống dưới, hướng về Trái Đất",
+      "B. Phương ngang, chiều sang phải",
+      "C. Phương thẳng đứng, chiều từ dưới lên trên như lực kéo bao xi măng",
+      "D. Phương xiên, chiều tùy ý"
+    ],
+    "answer": 0,
+    "explanation": "Dây dọi luôn chỉ phương thẳng đứng vì trọng lực kéo vật về phía Trái Đất.",
+    "bai": 43
+  },
+  {
+    "id": 309,
+    "question": "Vì sao quả táo rời cành lại rơi xuống đất?",
+    "options": [
+      "A. Vì trọng lực hút quả táo về phía Trái Đất",
+      "B. Vì gió thổi quả xuống",
+      "C. Vì quả nặng hơn không khí nên rơi nhanh xuống mặt đất",
+      "D. Vì cành cây đẩy quả xuống"
+    ],
+    "answer": 0,
+    "explanation": "Mọi vật gần Trái Đất đều chịu trọng lực hướng xuống.",
+    "bai": 43
+  },
+  {
+    "id": 310,
+    "question": "Khối lượng đo bằng dụng cụ nào, trọng lượng đo bằng dụng cụ nào?",
+    "options": [
+      "A. Cả hai đều đo bằng cân bàn hoặc cân đồng hồ thông thường",
+      "B. Cả hai đều đo bằng lực kế",
+      "C. Khối lượng đo bằng thước, trọng lượng đo bằng cân",
+      "D. Khối lượng đo bằng cân, trọng lượng đo bằng lực kế"
+    ],
+    "answer": 3,
+    "explanation": "Cân cho số kilôgam, lực kế cho số niutơn.",
+    "bai": 43
+  },
+  {
+    "id": 311,
+    "question": "Lực ma sát là gì?",
+    "options": [
+      "A. Lực hút của Trái Đất",
+      "B. Lực cản xuất hiện khi hai vật tiếp xúc và chuyển động tương đối với nhau",
+      "C. Lực đẩy của lò xo khi lò xo bị nén lại rồi bung ra mạnh mẽ để đẩy vật đi xa",
+      "D. Lực của dòng nước"
+    ],
+    "answer": 1,
+    "explanation": "Kéo hộp trên sàn thấy nặng tay chính vì lực ma sát cản lại.",
+    "bai": 44
+  },
+  {
+    "id": 312,
+    "question": "Ma sát trượt xuất hiện khi nào?",
+    "options": [
+      "A. Khi vật lăn tròn",
+      "B. Khi vật đứng yên",
+      "C. Khi một vật trượt trên mặt của vật khác",
+      "D. Khi vật bay trong không khí và chịu lực cản của không khí"
+    ],
+    "answer": 2,
+    "explanation": "Ví dụ kéo thùng hàng trượt trên sàn nhà.",
+    "bai": 44
+  },
+  {
+    "id": 313,
+    "question": "Ma sát lăn xuất hiện khi nào và lớn hay nhỏ?",
+    "options": [
+      "A. Khi vật lăn trên mặt khác; ma sát lăn nhỏ hơn ma sát trượt",
+      "B. Khi vật trượt; lớn hơn ma sát trượt và lớn hơn cả ma sát nghỉ nữa",
+      "C. Khi vật đứng yên; lớn nhất",
+      "D. Khi vật bay; bằng không"
+    ],
+    "answer": 0,
+    "explanation": "Vì vậy người ta gắn bánh xe cho đồ nặng để đẩy nhẹ hơn là kéo lê.",
+    "bai": 44
+  },
+  {
+    "id": 314,
+    "question": "Ma sát nghỉ có tác dụng gì?",
+    "options": [
+      "A. Đẩy vật chuyển động nhanh hơn và làm vật trượt dài trên mặt sàn",
+      "B. Làm vật lăn tròn",
+      "C. Hút vật về phía Trái Đất",
+      "D. Giữ vật đứng yên, không bị trượt đi"
+    ],
+    "answer": 3,
+    "explanation": "Ví dụ quyển sách đặt trên mặt bàn nghiêng nhẹ mà không trượt xuống nhờ ma sát nghỉ.",
+    "bai": 44
+  },
+  {
+    "id": 315,
+    "question": "Lực ma sát có lợi trong trường hợp nào?",
+    "options": [
+      "A. Làm mòn lốp xe",
+      "B. Làm máy nóng lên và làm máy chạy nhanh hơn bình thường khi ma sát lớn",
+      "C. Đi lại không bị trượt ngã, phanh xe dừng được, cầm nắm đồ vật",
+      "D. Làm tốn xăng"
+    ],
+    "answer": 2,
+    "explanation": "Không có ma sát thì không đi được, xe không phanh được, tay không cầm được đồ.",
+    "bai": 44
+  },
+  {
+    "id": 316,
+    "question": "Lực ma sát có hại trong trường hợp nào?",
+    "options": [
+      "A. Giúp xe dừng lại",
+      "B. Làm mòn máy móc, lốp xe và tốn năng lượng",
+      "C. Giúp đi không ngã và giúp xe dừng lại nhanh chóng hơn",
+      "D. Giúp viết được chữ"
+    ],
+    "answer": 1,
+    "explanation": "Máy chạy lâu bị mòn các bộ phận chuyển động vì ma sát, phải tra dầu và thay thế.",
+    "bai": 44
+  },
+  {
+    "id": 317,
+    "question": "Muốn giảm ma sát, người ta làm gì?",
+    "options": [
+      "A. Làm mặt tiếp xúc nhám hơn để vật bám chặt vào mặt đường hơn",
+      "B. Tăng khối lượng của vật",
+      "C. Đổ cát lên mặt đường",
+      "D. Tra dầu bôi trơn, dùng ổ bi, làm mặt tiếp xúc nhẵn"
+    ],
+    "answer": 3,
+    "explanation": "Dầu và ổ bi làm mặt tiếp xúc trơn hơn nên vật chuyển động nhẹ nhàng hơn.",
+    "bai": 44
+  },
+  {
+    "id": 318,
+    "question": "Muốn tăng ma sát, người ta làm gì?",
+    "options": [
+      "A. Làm rãnh lốp xe, mặt đường nhám, giày đế gai",
+      "B. Tra dầu vào đế giày để giày trơn hơn và đi nhanh hơn",
+      "C. Làm mặt đường trơn bóng",
+      "D. Dùng bánh xe nhỏ"
+    ],
+    "answer": 0,
+    "explanation": "Rãnh lốp và đế gai bám đường tốt hơn, xe chạy và người đi ít bị trượt.",
+    "bai": 44
+  },
+  {
+    "id": 319,
+    "question": "Vì sao đi trên mặt đường ướt dễ bị ngã?",
+    "options": [
+      "A. Vì nước làm người nặng hơn",
+      "B. Vì nước đẩy người ngã khi bước chân lên mặt đường ướt",
+      "C. Vì nước làm ma sát giảm đi, chân dễ trượt",
+      "D. Vì đường ướt mềm hơn"
+    ],
+    "answer": 2,
+    "explanation": "Ma sát nhỏ thì chân không bám được mặt đường nên dễ trượt ngã.",
+    "bai": 44
+  },
+  {
+    "id": 320,
+    "question": "Lực cản của nước là gì?",
+    "options": [
+      "A. Lực nước đẩy vật nổi lên mặt nước giống như phao bơi cứu sinh",
+      "B. Lực nước tác dụng cản trở vật chuyển động trong nước",
+      "C. Lực hút của Trái Đất",
+      "D. Lực của sóng biển"
+    ],
+    "answer": 1,
+    "explanation": "Bơi trong nước thấy nặng và chậm hơn chạy trên cạn vì nước cản lại.",
+    "bai": 45
+  },
+  {
+    "id": 321,
+    "question": "Vật chuyển động trong nước càng nhanh thì lực cản thế nào?",
+    "options": [
+      "A. Càng nhỏ",
+      "B. Không đổi",
+      "C. Càng lớn",
+      "D. Bằng không"
+    ],
+    "answer": 2,
+    "explanation": "Bơi càng nhanh càng thấy nước cản mạnh, càng tốn sức.",
+    "bai": 45
+  },
+  {
+    "id": 322,
+    "question": "Vật chuyển động trong nước càng to thì lực cản thế nào?",
+    "options": [
+      "A. Càng lớn",
+      "B. Càng nhỏ",
+      "C. Không đổi",
+      "D. Tùy màu sắc"
+    ],
+    "answer": 0,
+    "explanation": "Vật chắn nước càng nhiều thì nước cản càng mạnh.",
+    "bai": 45
+  },
+  {
+    "id": 323,
+    "question": "Hình dạng nào giúp giảm lực cản của nước?",
+    "options": [
+      "A. Hình vuông góc cạnh với các cạnh thẳng và góc vuông rõ ràng",
+      "B. Hình phẳng rộng",
+      "C. Hình cầu gai",
+      "D. Hình thuôn dài như cá, tàu ngầm, thuyền"
+    ],
+    "answer": 3,
+    "explanation": "Đầu nhọn, thân thuôn giúp nước lướt qua dễ dàng, ít bị cản.",
+    "bai": 45
+  },
+  {
+    "id": 324,
+    "question": "Vì sao cá bơi rất nhanh trong nước?",
+    "options": [
+      "A. Vì cá khỏe hơn người",
+      "B. Vì thân thuôn, vây linh hoạt và da trơn làm giảm lực cản",
+      "C. Vì cá không cần thở mà vẫn sống khỏe dưới nước sâu quanh năm",
+      "D. Vì nước đẩy cá đi"
+    ],
+    "answer": 1,
+    "explanation": "Thân hình của cá là kết quả thích nghi để giảm lực cản của nước.",
+    "bai": 45
+  },
+  {
+    "id": 325,
+    "question": "Vì sao bơi trong nước khó hơn chạy trên cạn?",
+    "options": [
+      "A. Vì lực cản của nước lớn hơn lực cản của không khí nhiều",
+      "B. Vì nước lạnh hơn",
+      "C. Vì nước sâu hơn",
+      "D. Vì người không biết bơi nên cảm thấy nước cản mạnh hơn người biết bơi"
+    ],
+    "answer": 0,
+    "explanation": "Nước đặc hơn không khí rất nhiều nên mỗi động tác bơi đều phải thắng lực cản lớn.",
+    "bai": 45
+  },
+  {
+    "id": 326,
+    "question": "Tàu ngầm được thiết kế hình thuôn dài để làm gì?",
+    "options": [
+      "A. Để chở được nhiều người và hàng hóa nặng dưới nước sâu",
+      "B. Để nổi trên mặt nước",
+      "C. Giảm lực cản của nước, đi nhanh và ít tốn năng lượng",
+      "D. Để đẹp mắt"
+    ],
+    "answer": 2,
+    "explanation": "Hình thuôn giúp nước chảy quanh tàu êm, tàu ngầm di chuyển nhanh và êm.",
+    "bai": 45
+  },
+  {
+    "id": 327,
+    "question": "Người bơi mặc đồ ôm sát cơ thể để làm gì?",
+    "options": [
+      "A. Để giữ ấm",
+      "B. Để đẹp và hợp thời trang khi bơi thi đấu",
+      "C. Để nổi tốt hơn",
+      "D. Giảm lực cản của nước"
+    ],
+    "answer": 3,
+    "explanation": "Đồ bơi rộng tạo nếp gấp chắn nước, làm tăng lực cản và bơi chậm lại.",
+    "bai": 45
+  },
+  {
+    "id": 328,
+    "question": "Lực cản của nước lớn hơn hay nhỏ hơn lực cản của không khí?",
+    "options": [
+      "A. Nhỏ hơn nhiều vì không khí loãng hơn nước rất nhiều",
+      "B. Bằng nhau",
+      "C. Tùy vật",
+      "D. Lớn hơn nhiều, vì nước đặc hơn không khí"
+    ],
+    "answer": 3,
+    "explanation": "Cùng một vật, chạy trong nước tốn sức hơn chạy trong không khí rất nhiều.",
+    "bai": 45
+  },
+  {
+    "id": 329,
+    "question": "Năng lượng là gì?",
+    "options": [
+      "A. Khối lượng của vật",
+      "B. Khả năng thực hiện công: làm vật chuyển động, nóng lên hoặc phát sáng",
+      "C. Tốc độ của vật khi chuyển động nhanh hay chậm trên đường dài mỗi ngày liên tục",
+      "D. Màu sắc của vật"
+    ],
+    "answer": 1,
+    "explanation": "Vật có năng lượng thì có thể làm biến đổi vật khác, ví dụ nước chảy làm quay tua-bin.",
+    "bai": 46
+  },
+  {
+    "id": 330,
+    "question": "Đơn vị đo năng lượng là gì?",
+    "options": [
+      "A. Niutơn, kí hiệu N",
+      "B. Kilôgam, kí hiệu kg",
+      "C. Mét, kí hiệu m",
+      "D. Jun, kí hiệu J"
+    ],
+    "answer": 3,
+    "explanation": "Niutơn là đơn vị lực, jun là đơn vị năng lượng, hai đơn vị khác nhau.",
+    "bai": 46
+  },
+  {
+    "id": 331,
+    "question": "Năng lượng được truyền từ vật này sang vật khác bằng cách nào?",
+    "options": [
+      "A. Chỉ bằng cách đốt cháy",
+      "B. Qua đun nóng, chiếu sáng, va chạm, dòng điện",
+      "C. Chỉ bằng ánh sáng mặt trời chiếu vào vật mỗi ngày",
+      "D. Không truyền được"
+    ],
+    "answer": 1,
+    "explanation": "Bếp truyền năng lượng cho nồi nước, Mặt Trời truyền năng lượng cho Trái Đất bằng ánh sáng.",
+    "bai": 46
+  },
+  {
+    "id": 332,
+    "question": "Năng lượng có tự nhiên sinh ra hay mất đi không?",
+    "options": [
+      "A. Có, dùng hết là mất hẳn",
+      "B. Có, năng lượng tự sinh ra thêm mỗi khi ta sử dụng thiết bị điện và máy móc trong nhà mỗi ngày liên tục",
+      "C. Không, năng lượng chỉ chuyển từ dạng này sang dạng khác hoặc truyền từ vật này sang vật khác",
+      "D. Chỉ mất đi chứ không sinh ra"
+    ],
+    "answer": 2,
+    "explanation": "Đun nước: năng lượng của bếp không mất mà chuyển thành năng lượng làm nước nóng lên.",
+    "bai": 46
+  },
+  {
+    "id": 333,
+    "question": "Khi đun nước, năng lượng truyền từ đâu sang đâu?",
+    "options": [
+      "A. Từ bếp sang nồi rồi sang nước làm nước nóng lên",
+      "B. Từ nước sang bếp rồi từ bếp ra không khí xung quanh",
+      "C. Từ không khí sang bếp",
+      "D. Từ nồi sang bếp"
+    ],
+    "answer": 0,
+    "explanation": "Năng lượng đi từ vật nóng hơn sang vật lạnh hơn cho tới khi cân bằng.",
+    "bai": 46
+  },
+  {
+    "id": 334,
+    "question": "Pin trong đèn pin truyền năng lượng cho bộ phận nào?",
+    "options": [
+      "A. Vỏ đèn",
+      "B. Công tắc và dây dẫn điện nối pin với bóng đèn",
+      "C. Dây treo",
+      "D. Bóng đèn, để đèn phát sáng"
+    ],
+    "answer": 3,
+    "explanation": "Năng lượng trong pin chuyển thành năng lượng làm bóng đèn sáng.",
+    "bai": 46
+  },
+  {
+    "id": 335,
+    "question": "Mặt Trời truyền năng lượng cho Trái Đất bằng cách nào?",
+    "options": [
+      "A. Bằng dây dẫn",
+      "B. Bằng ánh sáng (bức xạ) qua không gian",
+      "C. Bằng gió thổi từ mặt trời tới trái đất mỗi ngày",
+      "D. Bằng nước chảy"
+    ],
+    "answer": 1,
+    "explanation": "Ánh sáng Mặt Trời mang năng lượng đi qua không gian tới Trái Đất, sưởi ấm và nuôi cây quang hợp.",
+    "bai": 46
+  },
+  {
+    "id": 336,
+    "question": "Một vật đang chuyển động có năng lượng không?",
+    "options": [
+      "A. Không, chỉ vật đứng yên mới có năng lượng vì vật chuyển động không có gì cả",
+      "B. Chỉ khi vật rất nặng",
+      "C. Có, vì nó có thể làm vật khác chuyển động khi va chạm",
+      "D. Chỉ khi vật phát sáng"
+    ],
+    "answer": 2,
+    "explanation": "Quả bóng đang lăn va vào chai làm chai đổ, nghĩa là bóng đã truyền năng lượng cho chai.",
+    "bai": 46
+  },
+  {
+    "id": 337,
+    "question": "Vì sao con người cần dùng năng lượng tiết kiệm?",
+    "options": [
+      "A. Vì nhiều nguồn năng lượng có hạn và khai thác chúng gây ô nhiễm",
+      "B. Vì năng lượng làm vật nặng thêm",
+      "C. Vì năng lượng gây tiếng ồn",
+      "D. Vì năng lượng làm Trái Đất quay chậm lại và ngày dài ra mỗi năm một ít"
+    ],
+    "answer": 0,
+    "explanation": "Than đá, dầu mỏ dùng hết sẽ không còn, lại thải khí gây ô nhiễm nên phải dùng tiết kiệm.",
+    "bai": 46
+  },
+  {
+    "id": 338,
+    "question": "Động năng là gì?",
+    "options": [
+      "A. Năng lượng do vật chuyển động mà có",
+      "B. Năng lượng do vật ở trên cao và chưa rơi xuống mặt đất",
+      "C. Năng lượng trong thức ăn",
+      "D. Năng lượng của ánh sáng"
+    ],
+    "answer": 0,
+    "explanation": "Xe đang chạy, nước đang chảy đều có động năng.",
+    "bai": 47
+  },
+  {
+    "id": 339,
+    "question": "Thế năng là gì?",
+    "options": [
+      "A. Năng lượng do vật chuyển động nhanh hay chậm trên đường",
+      "B. Năng lượng của dòng điện",
+      "C. Năng lượng của âm thanh",
+      "D. Năng lượng do vị trí của vật mà có"
+    ],
+    "answer": 3,
+    "explanation": "Gồm thế năng trọng trường (vật ở cao) và thế năng đàn hồi (lò xo bị nén hoặc dãn).",
+    "bai": 47
+  },
+  {
+    "id": 340,
+    "question": "Nhiệt năng là gì?",
+    "options": [
+      "A. Năng lượng do vật chuyển động và va chạm với vật khác",
+      "B. Năng lượng trong pin",
+      "C. Năng lượng do vật nóng lên mà có",
+      "D. Năng lượng ánh sáng"
+    ],
+    "answer": 2,
+    "explanation": "Nước sôi, bàn là nóng đều có nhiệt năng lớn.",
+    "bai": 47
+  },
+  {
+    "id": 341,
+    "question": "Hóa năng chứa ở đâu?",
+    "options": [
+      "A. Trong ánh sáng",
+      "B. Trong thức ăn, pin, xăng dầu và các chất đốt",
+      "C. Trong tiếng nói và âm thanh con người phát ra hằng ngày",
+      "D. Trong gió"
+    ],
+    "answer": 1,
+    "explanation": "Khi đốt củi hoặc ăn cơm, hóa năng được giải phóng thành nhiệt năng và năng lượng hoạt động.",
+    "bai": 47
+  },
+  {
+    "id": 342,
+    "question": "Quang năng là gì?",
+    "options": [
+      "A. Năng lượng của ánh sáng",
+      "B. Năng lượng của dòng điện",
+      "C. Năng lượng của gió",
+      "D. Năng lượng của tiếng động"
+    ],
+    "answer": 0,
+    "explanation": "Ánh sáng Mặt Trời mang quang năng giúp cây quang hợp và pin mặt trời phát điện.",
+    "bai": 47
+  },
+  {
+    "id": 343,
+    "question": "Điện năng là gì?",
+    "options": [
+      "A. Năng lượng của ánh sáng",
+      "B. Năng lượng trong thức ăn và nước uống hằng ngày của con người",
+      "C. Năng lượng của gió",
+      "D. Năng lượng của dòng điện, dùng cho quạt, đèn, tivi"
+    ],
+    "answer": 3,
+    "explanation": "Dòng điện chạy qua quạt làm quạt quay, qua bóng đèn làm đèn sáng.",
+    "bai": 47
+  },
+  {
+    "id": 344,
+    "question": "Vật ở càng cao thì thế năng trọng trường của nó thế nào?",
+    "options": [
+      "A. Càng nhỏ",
+      "B. Không đổi",
+      "C. Càng lớn",
+      "D. Bằng không"
+    ],
+    "answer": 2,
+    "explanation": "Quả nặng treo càng cao, rơi xuống càng mạnh vì thế năng càng lớn.",
+    "bai": 47
+  },
+  {
+    "id": 345,
+    "question": "Vật chuyển động càng nhanh thì động năng của nó thế nào?",
+    "options": [
+      "A. Càng nhỏ",
+      "B. Càng lớn",
+      "C. Không đổi",
+      "D. Bằng không"
+    ],
+    "answer": 1,
+    "explanation": "Xe chạy nhanh va chạm mạnh hơn xe chạy chậm vì động năng lớn hơn.",
+    "bai": 47
+  },
+  {
+    "id": 346,
+    "question": "Năng lượng của âm thanh gọi là gì?",
+    "options": [
+      "A. Âm năng",
+      "B. Quang năng",
+      "C. Nhiệt năng",
+      "D. Hóa năng"
+    ],
+    "answer": 0,
+    "explanation": "Loa phát nhạc mang âm năng truyền tới tai người nghe.",
+    "bai": 47
+  },
+  {
+    "id": 347,
+    "question": "Sự chuyển hóa năng lượng là gì?",
+    "options": [
+      "A. Năng lượng biến mất hoàn toàn",
+      "B. Năng lượng tự sinh thêm khi ta không sử dụng gì cả",
+      "C. Năng lượng chuyển từ dạng này sang dạng khác",
+      "D. Năng lượng đứng yên không đổi"
+    ],
+    "answer": 2,
+    "explanation": "Ví dụ đèn pin: hóa năng trong pin thành điện năng rồi thành quang năng.",
+    "bai": 48
+  },
+  {
+    "id": 348,
+    "question": "Trong đèn pin, năng lượng chuyển hóa thế nào?",
+    "options": [
+      "A. Hóa năng trong pin thành điện năng, rồi thành quang năng của bóng đèn",
+      "B. Quang năng thành hóa năng giống như cây quang hợp mỗi ngày dưới nắng mặt trời",
+      "C. Nhiệt năng thành động năng",
+      "D. Động năng thành thế năng"
+    ],
+    "answer": 0,
+    "explanation": "Pin chứa hóa năng, dòng điện mang năng lượng tới bóng đèn phát sáng.",
+    "bai": 48
+  },
+  {
+    "id": 349,
+    "question": "Xe đạp đang xuống dốc, năng lượng chuyển hóa thế nào?",
+    "options": [
+      "A. Động năng thành thế năng",
+      "B. Hóa năng thành quang năng",
+      "C. Nhiệt năng thành điện năng",
+      "D. Thế năng thành động năng"
+    ],
+    "answer": 3,
+    "explanation": "Xe ở cao có thế năng lớn, xuống dốc thế năng giảm dần và xe chạy nhanh dần, động năng tăng.",
+    "bai": 48
+  },
+  {
+    "id": 350,
+    "question": "Trong quang hợp, năng lượng chuyển hóa thế nào?",
+    "options": [
+      "A. Hóa năng thành quang năng",
+      "B. Điện năng thành nhiệt năng giống như bếp điện đun nấu mỗi ngày",
+      "C. Quang năng của ánh sáng thành hóa năng trong lá cây",
+      "D. Động năng thành thế năng"
+    ],
+    "answer": 2,
+    "explanation": "Lá cây dùng ánh sáng để tổng hợp chất dinh dưỡng, cất giữ năng lượng dưới dạng hóa năng.",
+    "bai": 48
+  },
+  {
+    "id": 351,
+    "question": "Quạt điện chuyển hóa năng lượng thế nào?",
+    "options": [
+      "A. Động năng thành điện năng giống như máy phát điện quay cả ngày lẫn đêm không ngừng",
+      "B. Điện năng thành động năng của cánh quạt (và một phần thành nhiệt năng)",
+      "C. Quang năng thành hóa năng",
+      "D. Hóa năng thành quang năng"
+    ],
+    "answer": 1,
+    "explanation": "Quạt quay là chính, nhưng động cơ quạt cũng hơi nóng lên vì một phần năng lượng thành nhiệt năng.",
+    "bai": 48
+  },
+  {
+    "id": 352,
+    "question": "Đốt củi, năng lượng chuyển hóa thế nào?",
+    "options": [
+      "A. Quang năng thành hóa năng",
+      "B. Điện năng thành động năng giống như quạt điện quay cả ngày",
+      "C. Thế năng thành động năng",
+      "D. Hóa năng trong củi thành nhiệt năng và quang năng"
+    ],
+    "answer": 3,
+    "explanation": "Lửa vừa nóng vừa sáng: củi cháy giải phóng năng lượng dưới dạng nhiệt và ánh sáng.",
+    "bai": 48
+  },
+  {
+    "id": 353,
+    "question": "Nhà máy thủy điện chuyển hóa năng lượng thế nào?",
+    "options": [
+      "A. Thế năng của nước thành động năng rồi thành điện năng",
+      "B. Điện năng thành thế năng giống như nước được bơm lên cao mỗi ngày",
+      "C. Hóa năng thành quang năng",
+      "D. Nhiệt năng thành động năng"
+    ],
+    "answer": 0,
+    "explanation": "Nước từ trên cao chảy xuống làm quay tua-bin, máy phát biến động năng thành điện năng.",
+    "bai": 48
+  },
+  {
+    "id": 354,
+    "question": "Cơ thể người chuyển hóa năng lượng thế nào?",
+    "options": [
+      "A. Quang năng thành hóa năng",
+      "B. Điện năng thành quang năng giống như bóng đèn phát sáng cả đêm trong nhà mỗi tối",
+      "C. Hóa năng trong thức ăn thành động năng hoạt động và nhiệt năng giữ ấm cơ thể",
+      "D. Thế năng thành hóa năng"
+    ],
+    "answer": 2,
+    "explanation": "Ăn cơm để có sức chạy nhảy và giữ thân nhiệt, đó là hóa năng thành động năng và nhiệt năng.",
+    "bai": 48
+  },
+  {
+    "id": 355,
+    "question": "Chuyển hóa năng lượng có làm tổng năng lượng mất đi không?",
+    "options": [
+      "A. Có, mất hết sau mỗi lần chuyển hóa",
+      "B. Không, tổng năng lượng không đổi, chỉ đổi dạng và một phần thành dạng hao phí",
+      "C. Có, nhưng chỉ mất một nửa",
+      "D. Không, năng lượng còn tăng thêm sau mỗi lần chuyển hóa liên tục không ngừng nghỉ"
+    ],
+    "answer": 1,
+    "explanation": "Năng lượng không tự sinh ra hay mất đi, chỉ chuyển từ dạng này sang dạng khác.",
+    "bai": 48
+  },
+  {
+    "id": 356,
+    "question": "Năng lượng hao phí là gì?",
+    "options": [
+      "A. Năng lượng làm vật chuyển động nhanh hay chậm tùy ý muốn của con người",
+      "B. Năng lượng được cất giữ",
+      "C. Năng lượng chuyển thành dạng không có ích trong quá trình sử dụng",
+      "D. Năng lượng của ánh sáng"
+    ],
+    "answer": 2,
+    "explanation": "Ví dụ quạt chạy: phần lớn điện năng thành động năng quay cánh, phần nhỏ thành nhiệt năng làm nóng động cơ là hao phí.",
+    "bai": 49
+  },
+  {
+    "id": 357,
+    "question": "Động cơ xe máy hao phí năng lượng ở đâu?",
+    "options": [
+      "A. Một phần năng lượng thành nhiệt năng làm nóng máy, không giúp xe chạy",
+      "B. Thành động năng của xe chạy trên đường dài mỗi ngày không ngừng nghỉ và nhanh dần",
+      "C. Thành điện năng của đèn",
+      "D. Thành quang năng"
+    ],
+    "answer": 0,
+    "explanation": "Máy xe chạy càng lâu càng nóng lên chính vì một phần năng lượng bị hao phí thành nhiệt.",
+    "bai": 49
+  },
+  {
+    "id": 358,
+    "question": "Bóng đèn dây tóc hao phí năng lượng thế nào?",
+    "options": [
+      "A. Hầu hết thành ánh sáng",
+      "B. Không hao phí gì vì đèn dây tóc biến hết điện thành ánh sáng mà không tỏa nhiệt",
+      "C. Thành động năng",
+      "D. Phần lớn điện năng thành nhiệt năng, chỉ một phần nhỏ thành ánh sáng"
+    ],
+    "answer": 3,
+    "explanation": "Vì vậy bóng đèn dây tóc vừa tốn điện vừa nóng, hiệu suất thấp.",
+    "bai": 49
+  },
+  {
+    "id": 359,
+    "question": "Ma sát gây hao phí năng lượng như thế nào?",
+    "options": [
+      "A. Ma sát tạo thêm động năng",
+      "B. Ma sát biến động năng thành nhiệt năng vô ích",
+      "C. Ma sát làm vật nhẹ đi",
+      "D. Ma sát không liên quan đến năng lượng mà chỉ liên quan đến chuyển động"
+    ],
+    "answer": 1,
+    "explanation": "Phanh xe nóng lên khi phanh gấp vì động năng của xe đã thành nhiệt năng do ma sát.",
+    "bai": 49
+  },
+  {
+    "id": 360,
+    "question": "Muốn giảm năng lượng hao phí, người ta làm gì?",
+    "options": [
+      "A. Bôi trơn để giảm ma sát, cách nhiệt để giữ nhiệt, dùng thiết bị hiệu suất cao",
+      "B. Tăng ma sát mọi chỗ để máy chạy chậm lại và đỡ hao phí hơn mỗi ngày khi sử dụng thường xuyên",
+      "C. Bỏ lớp cách nhiệt",
+      "D. Dùng thiết bị cũ kĩ"
+    ],
+    "answer": 0,
+    "explanation": "Tra dầu vào máy, đậy vung khi nấu, dùng đèn LED đều là cách giảm hao phí.",
+    "bai": 49
+  },
+  {
+    "id": 361,
+    "question": "Vì sao đèn LED tiết kiệm điện hơn đèn dây tóc?",
+    "options": [
+      "A. Vì đèn LED sáng yếu hơn",
+      "B. Vì đèn LED nhỏ hơn",
+      "C. Vì hầu hết điện năng thành quang năng, rất ít thành nhiệt năng",
+      "D. Vì đèn LED không cần điện mà tự phát sáng nhờ ánh sáng mặt trời chiếu vào"
+    ],
+    "answer": 2,
+    "explanation": "Cùng độ sáng, đèn LED tốn ít điện hơn vì hao phí ít hơn.",
+    "bai": 49
+  },
+  {
+    "id": 362,
+    "question": "Năng lượng hao phí có thể tránh hoàn toàn được không?",
+    "options": [
+      "A. Có, nếu dùng thiết bị tốt",
+      "B. Có, nếu dùng năng lượng mặt trời thì không còn hao phí gì nữa",
+      "C. Có, nếu tắt hết thiết bị",
+      "D. Không, mọi quá trình chuyển hóa đều có một phần hao phí"
+    ],
+    "answer": 3,
+    "explanation": "Người ta chỉ giảm được hao phí, không loại bỏ hoàn toàn được.",
+    "bai": 49
+  },
+  {
+    "id": 363,
+    "question": "Nấu ăn không đậy vung thì sao?",
+    "options": [
+      "A. Nấu nhanh hơn",
+      "B. Không ảnh hưởng gì vì nồi vẫn nấu chín thức ăn như thường mỗi ngày mà không tốn thêm gì",
+      "C. Thức ăn ngon hơn",
+      "D. Nhiệt năng hao phí ra ngoài nhiều nên nấu lâu hơn và tốn năng lượng hơn"
+    ],
+    "answer": 3,
+    "explanation": "Vung giữ nhiệt trong nồi, giảm hao phí nhiệt ra không khí.",
+    "bai": 49
+  },
+  {
+    "id": 364,
+    "question": "Hiệu suất của một thiết bị là gì (nói đơn giản)?",
+    "options": [
+      "A. Giá tiền của thiết bị",
+      "B. Tỉ lệ năng lượng có ích so với năng lượng đưa vào; hiệu suất cao thì hao phí ít",
+      "C. Kích thước của thiết bị to hay nhỏ khi đặt trong nhà bếp và phòng khách rộng rãi thoải mái",
+      "D. Độ bền của thiết bị"
+    ],
+    "answer": 1,
+    "explanation": "Thiết bị hiệu suất 80% nghĩa là 100 J điện vào thì 80 J thành phần có ích, 20 J hao phí.",
+    "bai": 49
+  },
+  {
+    "id": 365,
+    "question": "Năng lượng tái tạo là gì?",
+    "options": [
+      "A. Năng lượng từ than đá và dầu mỏ khai thác dưới lòng đất sâu mỗi năm",
+      "B. Năng lượng chỉ dùng một lần",
+      "C. Năng lượng từ nguồn tự nhiên được bổ sung liên tục, không cạn kiệt",
+      "D. Năng lượng từ pin đã hết"
+    ],
+    "answer": 2,
+    "explanation": "Gió, ánh sáng Mặt Trời, nước chảy đều tự có lại mỗi ngày nên không lo cạn kiệt.",
+    "bai": 50
+  },
+  {
+    "id": 366,
+    "question": "Pin mặt trời làm gì?",
+    "options": [
+      "A. Biến quang năng của ánh sáng Mặt Trời thành điện năng",
+      "B. Biến điện năng thành ánh sáng giống như bóng đèn trong nhà",
+      "C. Tích trữ nước mưa",
+      "D. Làm nóng không khí"
+    ],
+    "answer": 0,
+    "explanation": "Tấm pin trên mái nhà hứng ánh sáng và phát ra điện dùng trong nhà.",
+    "bai": 50
+  },
+  {
+    "id": 367,
+    "question": "Nhà máy điện gió hoạt động thế nào?",
+    "options": [
+      "A. Đốt gió để tạo điện",
+      "B. Gió thổi làm quay tua-bin, máy phát biến động năng thành điện năng",
+      "C. Dùng gió thổi bay tua-bin đi xa khỏi vị trí đặt ban đầu mỗi khi bão tới",
+      "D. Gió đẩy nước chạy máy phát"
+    ],
+    "answer": 1,
+    "explanation": "Cánh quạt gió càng lớn và gió càng mạnh thì phát được càng nhiều điện.",
+    "bai": 50
+  },
+  {
+    "id": 368,
+    "question": "Thủy điện nhỏ dùng nguồn năng lượng nào?",
+    "options": [
+      "A. Than đá",
+      "B. Dầu mỏ và than đá khai thác từ dưới lòng đất sâu",
+      "C. Gió",
+      "D. Nước chảy làm quay tua-bin phát điện"
+    ],
+    "answer": 3,
+    "explanation": "Nước từ suối, kênh chảy xuống làm quay tua-bin như nhà máy thủy điện lớn thu nhỏ.",
+    "bai": 50
+  },
+  {
+    "id": 369,
+    "question": "Ưu điểm của năng lượng tái tạo là gì?",
+    "options": [
+      "A. Rẻ hơn mọi loại năng lượng khác và không tốn tiền đầu tư gì cả",
+      "B. Không cạn kiệt, ít gây ô nhiễm và giảm khí thải",
+      "C. Dùng được mọi lúc mọi nơi",
+      "D. Không cần thiết bị gì"
+    ],
+    "answer": 1,
+    "explanation": "Gió và nắng không thải khói độc như đốt than, đốt dầu.",
+    "bai": 50
+  },
+  {
+    "id": 370,
+    "question": "Hạn chế của năng lượng tái tạo là gì?",
+    "options": [
+      "A. Gây ô nhiễm nặng",
+      "B. Nhanh cạn kiệt giống như than đá và dầu mỏ hiện nay trên thế giới",
+      "C. Phụ thuộc thời tiết và chi phí đầu tư ban đầu cao",
+      "D. Không tạo ra điện được"
+    ],
+    "answer": 2,
+    "explanation": "Không có nắng thì pin mặt trời ít điện, không có gió thì tua-bin đứng yên.",
+    "bai": 50
+  },
+  {
+    "id": 371,
+    "question": "Sinh khối là nguồn năng lượng từ đâu?",
+    "options": [
+      "A. Từ cây trồng, rác hữu cơ và phân động vật",
+      "B. Từ than đá và dầu mỏ đốt cháy để lấy điện mỗi ngày",
+      "C. Từ dầu mỏ",
+      "D. Từ kim loại"
+    ],
+    "answer": 0,
+    "explanation": "Đốt củi, ủ phân tạo khí sinh học để đun nấu đều là dùng năng lượng sinh khối.",
+    "bai": 50
+  },
+  {
+    "id": 372,
+    "question": "Năng lượng địa nhiệt là gì?",
+    "options": [
+      "A. Nhiệt từ bếp than",
+      "B. Nhiệt từ ánh nắng",
+      "C. Nhiệt từ máy điều hòa chạy cả ngày trong nhà kín và tỏa ra ngoài trời",
+      "D. Nhiệt từ lòng đất: nước nóng và hơi nóng dưới mặt đất"
+    ],
+    "answer": 3,
+    "explanation": "Nơi có suối nước nóng có thể dẫn hơi nóng lên chạy máy phát điện.",
+    "bai": 50
+  },
+  {
+    "id": 373,
+    "question": "Vì sao cần phát triển năng lượng tái tạo?",
+    "options": [
+      "A. Vì năng lượng tái tạo rẻ nhất",
+      "B. Vì than đá, dầu mỏ sắp cạn và gây ô nhiễm, còn năng lượng tái tạo bền vững hơn",
+      "C. Vì than đá không còn ai dùng",
+      "D. Vì năng lượng tái tạo không cần bảo trì hay sửa chữa gì thêm nữa trong suốt thời gian dùng"
+    ],
+    "answer": 1,
+    "explanation": "Dùng gió, nắng, nước thay dần than dầu giúp giữ môi trường và nguồn năng lượng lâu dài.",
+    "bai": 50
+  },
+  {
+    "id": 374,
+    "question": "Tiết kiệm năng lượng là gì?",
+    "options": [
+      "A. Không dùng năng lượng nữa",
+      "B. Dùng càng nhiều càng tốt để không lãng phí công suất của thiết bị điện",
+      "C. Chỉ dùng năng lượng mặt trời",
+      "D. Dùng ít năng lượng hơn mà vẫn đủ nhu cầu sinh hoạt và học tập"
+    ],
+    "answer": 3,
+    "explanation": "Tắt đèn khi ra khỏi phòng là tiết kiệm, còn ngồi trong bóng tối học bài thì không phải.",
+    "bai": 51
+  },
+  {
+    "id": 375,
+    "question": "Ở nhà, tiết kiệm điện bằng cách nào?",
+    "options": [
+      "A. Bật tất cả đèn cả ngày",
+      "B. Mở tủ lạnh cả ngày để hơi lạnh tỏa ra ngoài cho mát nhà",
+      "C. Tắt đèn, quạt khi ra khỏi phòng và dùng đèn LED",
+      "D. Để tivi chạy suốt đêm"
+    ],
+    "answer": 2,
+    "explanation": "Đèn LED sáng như đèn thường mà tốn ít điện hơn nhiều.",
+    "bai": 51
+  },
+  {
+    "id": 376,
+    "question": "Ban ngày, tiết kiệm điện chiếu sáng bằng cách nào?",
+    "options": [
+      "A. Đóng kín cửa và bật đèn cả ngày dù ngoài trời đang nắng sáng",
+      "B. Mở cửa sổ tận dụng ánh sáng tự nhiên thay vì bật đèn",
+      "C. Dùng đèn màu trang trí",
+      "D. Bật thêm đèn cho sáng"
+    ],
+    "answer": 1,
+    "explanation": "Ánh sáng tự nhiên miễn phí và tốt cho mắt, bật đèn ban ngày là lãng phí.",
+    "bai": 51
+  },
+  {
+    "id": 377,
+    "question": "Đi quãng đường ngắn, cách nào tiết kiệm năng lượng nhất?",
+    "options": [
+      "A. Đi bộ hoặc đi xe đạp thay cho xe máy",
+      "B. Đi xe máy một mình trên quãng đường ngắn gần nhà mỗi ngày",
+      "C. Đi ô tô một mình",
+      "D. Đi xe máy vòng xa hơn"
+    ],
+    "answer": 0,
+    "explanation": "Xe máy đốt xăng cho quãng ngắn rất lãng phí, đi bộ và xe đạp không tốn nhiên liệu.",
+    "bai": 51
+  },
+  {
+    "id": 378,
+    "question": "Dùng tủ lạnh tiết kiệm điện bằng cách nào?",
+    "options": [
+      "A. Mở cửa tủ thường xuyên",
+      "B. Cho nồi canh nóng vào tủ ngay để thức ăn nguội nhanh hơn",
+      "C. Để tủ sát tường nóng",
+      "D. Không mở cửa tủ lâu, không cho đồ nóng vào tủ"
+    ],
+    "answer": 3,
+    "explanation": "Mở cửa lâu làm hơi lạnh thoát ra, tủ phải chạy nhiều điện hơn để lạnh lại.",
+    "bai": 51
+  },
+  {
+    "id": 379,
+    "question": "Vì sao phải tiết kiệm năng lượng?",
+    "options": [
+      "A. Để nhà tối hơn",
+      "B. Để thiết bị nhanh hỏng và phải mua thiết bị mới tốn tiền hơn mỗi năm liên tục",
+      "C. Để giảm chi phí, giảm ô nhiễm và giữ nguồn năng lượng cho tương lai",
+      "D. Để tiết kiệm tiền mua đèn"
+    ],
+    "answer": 2,
+    "explanation": "Ít đốt than, dầu thì ít khói thải, không khí sạch hơn và nguồn năng lượng còn lâu hơn.",
+    "bai": 51
+  },
+  {
+    "id": 380,
+    "question": "Chọn đồ điện tiết kiệm bằng cách nào?",
+    "options": [
+      "A. Chọn loại rẻ nhất",
+      "B. Chọn loại có nhãn năng lượng nhiều sao",
+      "C. Chọn loại to nhất",
+      "D. Chọn loại có nhiều đèn màu và kiểu dáng đẹp mắt nhất"
+    ],
+    "answer": 1,
+    "explanation": "Nhãn năng lượng càng nhiều sao thì thiết bị càng ít tốn điện cho cùng công việc.",
+    "bai": 51
+  },
+  {
+    "id": 381,
+    "question": "Máy nước nóng năng lượng mặt trời tiết kiệm thế nào?",
+    "options": [
+      "A. Dùng ánh sáng Mặt Trời đun nước nên không tốn điện hay gas",
+      "B. Dùng điện nhiều hơn và tốn tiền điện hơn mỗi tháng khi dùng liên tục",
+      "C. Dùng gas nhiều hơn",
+      "D. Phải đun bằng củi"
+    ],
+    "answer": 0,
+    "explanation": "Tấm thu nhiệt trên mái nhà hứng nắng làm nóng nước, nhà không cần bật bình điện.",
+    "bai": 51
+  },
+  {
+    "id": 382,
+    "question": "Ở trường, em tiết kiệm năng lượng bằng cách nào?",
+    "options": [
+      "A. Tắt điện, quạt cuối giờ học và không mở quạt khi trời mát",
+      "B. Bật quạt cả giờ ra chơi để lớp học mát mẻ khi quay lại học tiếp",
+      "C. Mở tất cả đèn buổi sáng",
+      "D. Để máy chiếu chạy cả ngày"
+    ],
+    "answer": 0,
+    "explanation": "Lớp học cuối giờ không còn ai thì tắt điện, quạt là việc nhỏ nhưng tiết kiệm thật.",
+    "bai": 51
+  },
+  {
+    "id": 383,
+    "question": "Mặt Trời mọc ở hướng nào và lặn ở hướng nào?",
+    "options": [
+      "A. Mọc ở hướng đông, lặn ở hướng tây",
+      "B. Mọc ở hướng tây, lặn ở hướng đông",
+      "C. Mọc ở hướng nam, lặn ở hướng bắc",
+      "D. Mọc và lặn cùng một hướng"
+    ],
+    "answer": 0,
+    "explanation": "Người xưa dựa vào đó để định hướng khi chưa có la bàn.",
+    "bai": 52
+  },
+  {
+    "id": 384,
+    "question": "Vì sao ta thấy Mặt Trời mọc rồi lặn mỗi ngày?",
+    "options": [
+      "A. Vì Mặt Trời chạy quanh Trái Đất",
+      "B. Vì Trái Đất chạy quanh Mặt Trời mỗi ngày một vòng tròn lớn",
+      "C. Vì Mặt Trời tắt vào ban đêm",
+      "D. Vì Trái Đất tự quay quanh trục của nó từ tây sang đông"
+    ],
+    "answer": 3,
+    "explanation": "Trái Đất quay làm nơi ta đứng lần lượt hướng về phía Mặt Trời rồi quay đi, tạo ra ngày và đêm.",
+    "bai": 52
+  },
+  {
+    "id": 385,
+    "question": "Trái Đất tự quay một vòng hết bao lâu?",
+    "options": [
+      "A. Một tháng",
+      "B. Một năm, tức khoảng 365 ngày như một năm học dài",
+      "C. Một ngày, khoảng 24 giờ",
+      "D. Một giờ"
+    ],
+    "answer": 2,
+    "explanation": "Một vòng tự quay là một ngày đêm: nửa ngày sáng, nửa ngày tối.",
+    "bai": 52
+  },
+  {
+    "id": 386,
+    "question": "Ban ngày ở nơi em ở là khi nào?",
+    "options": [
+      "A. Khi Mặt Trời tắt",
+      "B. Khi nơi đó quay về phía Mặt Trời và nhận được ánh sáng",
+      "C. Khi Mặt Trăng mọc lên khỏi đường chân trời vào ban đêm mỗi tối",
+      "D. Khi Trái Đất ngừng quay"
+    ],
+    "answer": 1,
+    "explanation": "Nửa Trái Đất hướng về Mặt Trời là ban ngày, nửa còn lại là ban đêm.",
+    "bai": 52
+  },
+  {
+    "id": 387,
+    "question": "Thiên thể là gì?",
+    "options": [
+      "A. Các đám mây trên trời",
+      "B. Các loại chim bay trên trời cao vào ban ngày và ban đêm quanh năm không nghỉ",
+      "C. Các máy bay",
+      "D. Các vật thể trên bầu trời như sao, hành tinh, vệ tinh, sao chổi"
+    ],
+    "answer": 3,
+    "explanation": "Mặt Trời, Mặt Trăng, các hành tinh đều là thiên thể.",
+    "bai": 52
+  },
+  {
+    "id": 388,
+    "question": "Sao khác hành tinh ở điểm nào?",
+    "options": [
+      "A. Sao tự phát sáng; hành tinh không tự phát sáng mà phản chiếu ánh sáng của sao",
+      "B. Sao nhỏ hơn hành tinh và nhẹ hơn hành tinh rất nhiều lần trong vũ trụ bao la rộng lớn vô tận",
+      "C. Sao không chuyển động",
+      "D. Hành tinh tự phát sáng"
+    ],
+    "answer": 0,
+    "explanation": "Mặt Trời là sao nên tự sáng, còn Mặt Trăng và Trái Đất chỉ phản chiếu ánh sáng Mặt Trời.",
+    "bai": 52
+  },
+  {
+    "id": 389,
+    "question": "Vì sao ban ngày ta không thấy các ngôi sao?",
+    "options": [
+      "A. Vì ban ngày các sao tắt hết",
+      "B. Vì ban ngày các sao trốn sau Mặt Trăng và không dám hiện ra nữa",
+      "C. Vì ánh sáng Mặt Trời quá mạnh, át ánh sáng yếu của các sao",
+      "D. Vì mắt người ban ngày kém đi"
+    ],
+    "answer": 2,
+    "explanation": "Các sao vẫn ở đó cả ngày, chỉ là ánh sáng của chúng quá yếu so với ánh sáng Mặt Trời.",
+    "bai": 52
+  },
+  {
+    "id": 390,
+    "question": "Mặt Trời là sao hay hành tinh?",
+    "options": [
+      "A. Là hành tinh",
+      "B. Là sao, ngôi sao gần Trái Đất nhất",
+      "C. Là vệ tinh của Trái Đất quay quanh Trái Đất mỗi tháng",
+      "D. Là sao chổi"
+    ],
+    "answer": 1,
+    "explanation": "Mặt Trời tự phát sáng và tỏa nhiệt, đó là đặc điểm của sao.",
+    "bai": 52
+  },
+  {
+    "id": 391,
+    "question": "Trái Đất tự quay quanh trục theo hướng nào?",
+    "options": [
+      "A. Từ đông sang tây",
+      "B. Từ nam sang bắc",
+      "C. Từ tây sang đông",
+      "D. Từ bắc sang nam"
+    ],
+    "answer": 2,
+    "explanation": "Nhờ quay từ tây sang đông nên ta thấy Mặt Trời mọc ở đông và lặn ở tây.",
+    "bai": 52
+  },
+  {
+    "id": 392,
+    "question": "Mặt Trăng là gì của Trái Đất?",
+    "options": [
+      "A. Hành tinh gần Trái Đất nhất và quay quanh Trái Đất mỗi ngày",
+      "B. Ngôi sao gần Trái Đất nhất",
+      "C. Sao chổi của Trái Đất",
+      "D. Vệ tinh tự nhiên duy nhất của Trái Đất"
+    ],
+    "answer": 3,
+    "explanation": "Vệ tinh là thiên thể quay quanh một hành tinh; Mặt Trăng quay quanh Trái Đất.",
+    "bai": 53
+  },
+  {
+    "id": 393,
+    "question": "Mặt Trăng quay một vòng quanh Trái Đất hết bao lâu?",
+    "options": [
+      "A. 1 ngày",
+      "B. Khoảng 27,3 ngày",
+      "C. 7 ngày, tức đúng một tuần lễ như tuần học ở trường",
+      "D. 365 ngày"
+    ],
+    "answer": 1,
+    "explanation": "Gần một tháng, vì vậy ngày xưa người ta dùng Mặt Trăng để tính tháng âm lịch.",
+    "bai": 53
+  },
+  {
+    "id": 394,
+    "question": "Mặt Trăng có tự phát sáng không?",
+    "options": [
+      "A. Có, Mặt Trăng tự sáng như Mặt Trời",
+      "B. Có, nhưng chỉ sáng vào ban đêm",
+      "C. Không, Mặt Trăng phản chiếu ánh sáng Mặt Trời",
+      "D. Không, Mặt Trăng tối đen hoàn toàn và không phản chiếu ánh sáng nào cả"
+    ],
+    "answer": 2,
+    "explanation": "Phần Mặt Trăng được Mặt Trời chiếu sáng thì ta nhìn thấy, phần còn lại tối.",
+    "bai": 53
+  },
+  {
+    "id": 395,
+    "question": "Các pha của Mặt Trăng là gì?",
+    "options": [
+      "A. Hình dạng Mặt Trăng thay đổi: trăng non, lưỡi liềm, bán nguyệt, trăng tròn",
+      "B. Mặt Trăng đổi màu mỗi đêm từ trắng sang vàng rồi sang đỏ và xanh liên tục quanh năm",
+      "C. Mặt Trăng to nhỏ theo mùa",
+      "D. Mặt Trăng lúc gần lúc xa"
+    ],
+    "answer": 0,
+    "explanation": "Trong một tháng ta thấy Mặt Trăng lúc khuyết lúc tròn vì góc nhìn thay đổi.",
+    "bai": 53
+  },
+  {
+    "id": 396,
+    "question": "Trăng tròn (rằm) là khi nào?",
+    "options": [
+      "A. Khi Mặt Trăng ở giữa Trái Đất và Mặt Trời nên mặt sáng quay đi chỗ khác không hướng về ta",
+      "B. Khi Mặt Trăng bị mây che",
+      "C. Khi Mặt Trăng gần Trái Đất nhất",
+      "D. Khi Mặt Trăng ở phía đối diện Mặt Trời so với Trái Đất, ta thấy toàn bộ mặt sáng"
+    ],
+    "answer": 3,
+    "explanation": "Ngày rằm, Mặt Trời chiếu thẳng vào mặt Mặt Trăng hướng về Trái Đất nên thấy tròn đầy.",
+    "bai": 53
+  },
+  {
+    "id": 397,
+    "question": "Trăng non (đầu tháng) là khi nào?",
+    "options": [
+      "A. Khi Mặt Trăng biến mất khỏi bầu trời và không còn quay quanh Trái Đất nữa bao giờ trong vũ trụ",
+      "B. Khi Mặt Trăng ở giữa Trái Đất và Mặt Trời, mặt tối hướng về Trái Đất nên ta không thấy",
+      "C. Khi Mặt Trăng vỡ ra",
+      "D. Khi Mặt Trăng ở xa nhất"
+    ],
+    "answer": 1,
+    "explanation": "Mặt Trăng vẫn ở đó, chỉ là mặt sáng của nó quay đi hướng khác, không hướng về ta.",
+    "bai": 53
+  },
+  {
+    "id": 398,
+    "question": "Nguyệt thực là gì?",
+    "options": [
+      "A. Trái Đất che ánh sáng Mặt Trời tới Mặt Trăng, Mặt Trăng chìm trong bóng của Trái Đất",
+      "B. Mặt Trăng che Mặt Trời làm ban ngày tối sầm lại một lúc lâu trên cả nước và thế giới xung quanh",
+      "C. Mây che Mặt Trăng",
+      "D. Mặt Trăng ngừng quay"
+    ],
+    "answer": 0,
+    "explanation": "Nguyệt thực chỉ xảy ra vào đêm trăng tròn, khi ba thiên thể thẳng hàng.",
+    "bai": 53
+  },
+  {
+    "id": 399,
+    "question": "Nhật thực là gì?",
+    "options": [
+      "A. Trái Đất che Mặt Trăng làm Mặt Trăng tối đen hoàn toàn cả đêm dài không thấy gì",
+      "B. Mây đen che Mặt Trời",
+      "C. Mặt Trăng che ánh sáng Mặt Trời tới Trái Đất, ban ngày tối sầm một lúc",
+      "D. Mặt Trời tắt một lúc"
+    ],
+    "answer": 2,
+    "explanation": "Nhật thực xảy ra vào ngày trăng non, khi Mặt Trăng ở giữa Trái Đất và Mặt Trời.",
+    "bai": 53
+  },
+  {
+    "id": 400,
+    "question": "Vì sao Mặt Trăng lúc tròn lúc khuyết?",
+    "options": [
+      "A. Vì Mặt Trăng bị ăn mòn dần",
+      "B. Vì mây che lúc nhiều lúc ít nên ta thấy Mặt Trăng khi tròn khi khuyết tùy theo thời tiết mỗi đêm trong tháng liên tục không ngừng",
+      "C. Vì Mặt Trăng lúc gần lúc xa",
+      "D. Vì vị trí tương đối giữa Mặt Trời, Trái Đất và Mặt Trăng thay đổi, phần sáng ta nhìn thấy thay đổi theo"
+    ],
+    "answer": 3,
+    "explanation": "Mặt Trăng luôn tròn, chỉ là ta nhìn thấy phần được chiếu sáng nhiều hay ít khác nhau.",
+    "bai": 53
+  },
+  {
+    "id": 401,
+    "question": "Hệ Mặt Trời gồm những gì?",
+    "options": [
+      "A. Mặt Trời và các thiên thể quay quanh nó: 8 hành tinh, vệ tinh, sao chổi",
+      "B. Chỉ có Mặt Trời và Trái Đất",
+      "C. Chỉ có các ngôi sao",
+      "D. Chỉ có Mặt Trăng và các hành tinh quay quanh Mặt Trời mà thôi, không có gì khác"
+    ],
+    "answer": 0,
+    "explanation": "Mọi thiên thể trong hệ đều chịu lực hấp dẫn của Mặt Trời và quay quanh nó.",
+    "bai": 54
+  },
+  {
+    "id": 402,
+    "question": "Kể tên 8 hành tinh theo thứ tự từ gần Mặt Trời nhất.",
+    "options": [
+      "A. Kim, Mộc, Thủy, Thổ, Trái Đất, Hỏa, Hải Vương, Thiên Vương",
+      "B. Thủy, Kim, Trái Đất, Hỏa, Mộc, Thổ, Thiên Vương, Hải Vương",
+      "C. Trái Đất, Thủy, Kim, Hỏa, Thổ, Mộc, Hải Vương, Thiên Vương",
+      "D. Thủy, Trái Đất, Kim, Hỏa, Mộc, Thổ, Thiên Vương, Hải Vương"
+    ],
+    "answer": 1,
+    "explanation": "Nhớ bằng câu vần: Thủy Kim Trái Hỏa, Mộc Thổ Thiên Hải.",
+    "bai": 54
+  },
+  {
+    "id": 403,
+    "question": "Các hành tinh vòng trong có đặc điểm gì?",
+    "options": [
+      "A. Lớn và cấu tạo bằng khí giống như các hành tinh vòng ngoài xa xôi",
+      "B. Toàn là băng",
+      "C. Không có mặt đất rắn",
+      "D. Nhỏ và cấu tạo chủ yếu bằng đá"
+    ],
+    "answer": 3,
+    "explanation": "Thủy, Kim, Trái Đất, Hỏa đều nhỏ, rắn và gần Mặt Trời.",
+    "bai": 54
+  },
+  {
+    "id": 404,
+    "question": "Các hành tinh vòng ngoài có đặc điểm gì?",
+    "options": [
+      "A. Nhỏ và bằng đá",
+      "B. Lớn và cấu tạo chủ yếu bằng khí",
+      "C. Toàn là nước và băng lạnh bao phủ khắp bề mặt hành tinh",
+      "D. Không chuyển động"
+    ],
+    "answer": 1,
+    "explanation": "Mộc, Thổ, Thiên Vương, Hải Vương đều là hành tinh khí khổng lồ, ở xa Mặt Trời.",
+    "bai": 54
+  },
+  {
+    "id": 405,
+    "question": "Hành tinh nào đã biết có sự sống?",
+    "options": [
+      "A. Sao Hỏa, hành tinh đỏ gần Trái Đất nhất trong hệ",
+      "B. Sao Kim",
+      "C. Trái Đất",
+      "D. Sao Mộc"
+    ],
+    "answer": 2,
+    "explanation": "Trái Đất có nước lỏng, oxygen và nhiệt độ phù hợp nên sự sống phát triển được.",
+    "bai": 54
+  },
+  {
+    "id": 406,
+    "question": "Sao Thổ nổi bật vì đặc điểm nào?",
+    "options": [
+      "A. Có vành đai lớn bao quanh",
+      "B. Có màu đỏ",
+      "C. Lớn nhất hệ Mặt Trời và nặng hơn mọi hành tinh khác cộng lại",
+      "D. Gần Mặt Trời nhất"
+    ],
+    "answer": 0,
+    "explanation": "Vành đai của sao Thổ gồm vô số hạt băng và đá nhỏ quay quanh nó.",
+    "bai": 54
+  },
+  {
+    "id": 407,
+    "question": "Hành tinh lớn nhất trong Hệ Mặt Trời là hành tinh nào?",
+    "options": [
+      "A. Thổ tinh",
+      "B. Trái Đất",
+      "C. Hải Vương tinh, hành tinh xa Mặt Trời nhất trong hệ",
+      "D. Mộc tinh (sao Mộc)"
+    ],
+    "answer": 3,
+    "explanation": "Sao Mộc lớn tới mức chứa được hơn 1.000 Trái Đất bên trong.",
+    "bai": 54
+  },
+  {
+    "id": 408,
+    "question": "Trái Đất quay một vòng quanh Mặt Trời hết bao lâu?",
+    "options": [
+      "A. Một tháng",
+      "B. Một năm, khoảng 365 ngày",
+      "C. Một ngày, tức đúng 24 giờ như một ngày đêm bình thường",
+      "D. 10 năm"
+    ],
+    "answer": 1,
+    "explanation": "Một vòng quanh Mặt Trời là một năm, tạo ra các mùa trong năm.",
+    "bai": 54
+  },
+  {
+    "id": 409,
+    "question": "Vì sao các hành tinh quay quanh Mặt Trời mà không bay đi mất?",
+    "options": [
+      "A. Vì có dây vô hình buộc chúng",
+      "B. Vì chúng tự muốn quay quanh Mặt Trời mãi mãi không dừng lại",
+      "C. Vì lực hấp dẫn của Mặt Trời giữ chúng lại",
+      "D. Vì gió vũ trụ đẩy chúng"
+    ],
+    "answer": 2,
+    "explanation": "Lực hấp dẫn của Mặt Trời đủ mạnh để giữ các hành tinh trên quỹ đạo của chúng.",
+    "bai": 54
+  },
+  {
+    "id": 410,
+    "question": "Ngân Hà là gì?",
+    "options": [
+      "A. Một ngôi sao lớn",
+      "B. Một hành tinh của Hệ Mặt Trời quay quanh Mặt Trời mỗi năm một vòng tròn",
+      "C. Thiên hà chứa Hệ Mặt Trời, gồm hàng trăm tỉ ngôi sao, khí và bụi",
+      "D. Một đám mây trên trời"
+    ],
+    "answer": 2,
+    "explanation": "Hệ Mặt Trời chỉ là một phần rất nhỏ trong Ngân Hà.",
+    "bai": 55
+  },
+  {
+    "id": 411,
+    "question": "Nhìn từ xa, Ngân Hà có hình dạng gì?",
+    "options": [
+      "A. Hình tròn hoàn hảo như một chiếc đĩa tròn xoay đều quanh tâm",
+      "B. Hình xoắn ốc, giống chiếc đĩa xoắn",
+      "C. Hình vuông",
+      "D. Hình sợi thẳng"
+    ],
+    "answer": 1,
+    "explanation": "Các ngôi sao trong Ngân Hà tập trung thành nhiều nhánh xoắn quanh trung tâm.",
+    "bai": 55
+  },
+  {
+    "id": 412,
+    "question": "Hệ Mặt Trời nằm ở đâu trong Ngân Hà?",
+    "options": [
+      "A. Ở rìa một nhánh xoắn, cách trung tâm rất xa",
+      "B. Ở chính giữa Ngân Hà, nơi tập trung nhiều sao nhất",
+      "C. Ở ngoài Ngân Hà",
+      "D. Ở nhánh xoắn trong cùng"
+    ],
+    "answer": 0,
+    "explanation": "Từ vị trí này, nhìn lên trời đêm ta thấy dải Ngân Hà vắt ngang bầu trời.",
+    "bai": 55
+  },
+  {
+    "id": 413,
+    "question": "Năm ánh sáng là gì?",
+    "options": [
+      "A. Thời gian ánh sáng tồn tại từ khi phát ra đến khi tắt hẳn trong vũ trụ bao la rộng lớn vô tận",
+      "B. Tuổi của một ngôi sao",
+      "C. Tốc độ của ánh sáng",
+      "D. Quãng đường ánh sáng đi được trong một năm, dùng làm đơn vị đo khoảng cách trong vũ trụ"
+    ],
+    "answer": 3,
+    "explanation": "Vũ trụ quá rộng nên đo bằng kilômét sẽ ra số khổng lồ, người ta dùng năm ánh sáng cho gọn.",
+    "bai": 55
+  },
+  {
+    "id": 414,
+    "question": "Ngoài Ngân Hà, vũ trụ còn có gì?",
+    "options": [
+      "A. Chỉ còn bóng tối",
+      "B. Chỉ còn các hành tinh",
+      "C. Vô số thiên hà khác",
+      "D. Không còn gì nữa"
+    ],
+    "answer": 2,
+    "explanation": "Mỗi thiên hà lại chứa hàng tỉ ngôi sao như Ngân Hà của chúng ta.",
+    "bai": 55
+  },
+  {
+    "id": 415,
+    "question": "Dải sáng mờ vắt ngang bầu trời đêm là gì?",
+    "options": [
+      "A. Mây đêm",
+      "B. Ánh sáng gộp của vô số ngôi sao trong Ngân Hà nhìn từ Trái Đất",
+      "C. Khói bếp bay lên trời đêm từ các mái nhà trong làng quê mỗi tối liên tục",
+      "D. Ánh đèn thành phố"
+    ],
+    "answer": 1,
+    "explanation": "Mắt thường không tách được từng ngôi sao xa nên chỉ thấy một dải sáng mờ.",
+    "bai": 55
+  },
+  {
+    "id": 416,
+    "question": "Vũ trụ là gì?",
+    "options": [
+      "A. Tất cả không gian cùng mọi thiên hà, sao, hành tinh và vật chất trong đó",
+      "B. Chỉ Hệ Mặt Trời",
+      "C. Chỉ Ngân Hà",
+      "D. Chỉ bầu trời trên Trái Đất mà mắt người nhìn thấy được mỗi đêm không mây và đầy sao"
+    ],
+    "answer": 0,
+    "explanation": "Vũ trụ rộng lớn tới mức con người vẫn đang tiếp tục khám phá.",
+    "bai": 55
+  },
+  {
+    "id": 417,
+    "question": "Con người tìm hiểu vũ trụ bằng công cụ nào?",
+    "options": [
+      "A. Kính thiên văn, tàu vũ trụ và vệ tinh",
+      "B. Kính lúp cầm tay dùng để quan sát vật nhỏ gần mắt",
+      "C. Ống nhòm du lịch",
+      "D. Kính hiển vi"
+    ],
+    "answer": 0,
+    "explanation": "Kính thiên văn thu ánh sáng sao xa, tàu vũ trụ bay tới tận hành tinh khác để quan sát.",
+    "bai": 55
+  },
+  {
+    "id": 418,
+    "question": "Ngôi sao gần Trái Đất nhất là ngôi sao nào?",
+    "options": [
+      "A. Sao Bắc Cực",
+      "B. Sao Kim",
+      "C. Sao Thiên Lang",
+      "D. Mặt Trời"
+    ],
+    "answer": 3,
+    "explanation": "Mặt Trời là sao của Hệ Mặt Trời nên gần ta nhất; các sao khác xa hơn rất nhiều.",
+    "bai": 55
   }
 ]

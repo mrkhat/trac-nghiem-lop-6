@@ -1,4 +1,12 @@
-# Ngữ văn 6 — Học kì 1 (Kết nối tri thức)
+# Ngữ văn 6 — Cả năm học (Kết nối tri thức)
+
+## Học kì 2 (bổ sung 25/10/2026)
+
+- Thêm 5 bài tập 2: Bài 6 Chuyện kể về những người anh hùng, Bài 7 Thế giới cổ tích, Bài 8 Khác biệt và gần gũi, Bài 9 Trái Đất – ngôi nhà chung, Bài 10 Cuốn sách tôi yêu. Mỗi bài đủ khung rút gọn (không chép nguyên văn SGK): hook, tóm tắt ngắn gọn đủ ý, sơ đồ tư duy 3 nhánh, 2 thẻ ⚡ Nhớ nhanh, 4 câu hỏi gợi nhớ, 2 bài Góc tự luận (dàn ý 3 dòng + 2 câu gợi ý + bài tập 3–5 câu), ⭐ Điểm cần nhớ 4 ý, hộp 📚 Vốn từ hay (từ `vontu.json`, 36 từ cho 5 bài), flashcard của bài (5 thẻ/bài).
+- Số liệu mới: **75 câu trắc nghiệm** (9 câu/bài HK2, 6 câu/bài HK1), **55 flashcard** (5 thẻ/bài HK2, 6 thẻ/bài HK1), **20 thẻ nhớ nhanh** (2/bài), **41 câu hỏi gợi nhớ** (21 HK1 + 20 HK2). `quiz.html`: `FC_BAI` nối dài lên 55 mục (Bài 6–10 mỗi bài 5 thẻ); khối `PERIODS` giữ nguyên (Giữa HK2 = Bài 1–8, Cuối HK2 = tất cả); phân kỳ theo thứ tự SGK, **chưa xác nhận PPCT** của trường.
+- Ảnh tập làm văn HK1 đã gắn thật: 10 ảnh gợi ý `tlv-baiN-*.webp` thay các dòng “Tranh cần vẽ” trong khối Tập làm văn (mỗi bài 1 tả + 1 kể, đúng thứ tự), cộng 5 ảnh bìa khối `nguvan-taplamvan-baiN.webp` đặt sau đoạn mở đầu khối. Tất cả 400px, ≤50KB, chú thích ghi “(Tranh minh họa do AI vẽ)”.
+- **Chưa đối chiếu SGK giấy, chỉ tóm tắt ở mức chủ đề/kĩ năng và ghi “đọc tiếp trong SGK giấy”:** bài thơ “Ai ơi mồng 9 tháng 4” (Bài 6, chỉ xác minh tên + tác giả Anh Thư); “Vua chích chòe” và phần sau truyện Thạch Sanh (Bài 7); “Hai loài khác biệt”, “Bài tập làm văn”, “Tiếng cười không muốn nghe” (Bài 8); toàn bộ văn bản Bài 9 và Bài 10. Ngược lại, cốt truyện Thánh Gióng, Sơn Tinh – Thủy Tinh, Thạch Sanh (phần đầu), Cây khế, Sọ Dừa đã đối chiếu kĩ và dùng được cho tóm tắt.
+- Lưu ý khác với khung HK1: bài HK2 **không có khối “Thẻ từ khó” riêng** (từ khó đã nằm trong hộp “Vốn từ hay”, tránh trùng lặp — ở Bài 1 HK1 hai hộp này trùng nhau 5/7 từ); Góc tự luận HK2 dùng dạng dàn ý gọn, không có hộp chọn từ khóa tương tác như HK1.
 
 Module học Ngữ văn 6 cho web quiz lớp 6: `nguvan/index.html` (1 file HTML tĩnh duy nhất, không cần server riêng — mở qua http.server/GitHub Pages đều chạy).
 
@@ -18,7 +26,7 @@ Mỗi bài (chủ điểm) là 1 khối nối tiếp gồm:
 6. **Góc tự luận** — 3 câu/bài theo mức Dễ → Vừa → Khó hơn, mỗi câu có dàn ý gợi ý + đoạn mẫu ngắn
 7. **Flashcard riêng của bài** — 6 thẻ/bài, mặt trước có hình gợi nhớ, mặt sau chỉ có đáp án (không lặp lại hình của mặt trước); Đã thuộc/Chưa thuộc lưu `localStorage` khoá `nguvan_flash_v1`
 
-Cuối trang: **Phần Tổng kết** — sơ đồ tư duy tổng HK1 + mục *Luyện viết theo chủ đề* (4 dạng viết của HK1, mỗi dạng 1 dàn ý khung + bí quyết) + flashcard tổng ôn gộp 30 thẻ.
+Cuối trang: **Phần Tổng kết** — sơ đồ tư duy tổng cả năm học (10 bài) + mục *Luyện viết theo chủ đề* (9 dạng viết: 4 của HK1 + 5 của HK2, mỗi dạng 1 dàn ý khung + bí quyết) + flashcard tổng ôn gộp 55 thẻ.
 
 ## Phần bài đọc + Nghe đọc (bổ sung 21/10/2026)
 
@@ -99,7 +107,7 @@ Nguồn ảnh bổ sung đã được duyệt (Smithsonian Open Access, Met Open
 
 ## Số liệu tự kiểm (chạy thật trên file)
 
-- 5 khối bài + 1 mục Tổng kết; 21 câu hỏi gợi nhớ; 15 khối Góc tự luận (mỗi khối 1 dàn ý + 1 đoạn mẫu); 25 thẻ từ khó; 6 sơ đồ tư duy (5 bài + 1 tổng); 30 flashcard (6/bài) + 1 bộ tổng ôn; 2 thanh chuyển chế độ xem.
+- 10 khối bài + 1 mục Tổng kết; 41 câu hỏi gợi nhớ (21 HK1 + 20 HK2); 25 khối Góc tự luận (15 HK1 + 10 HK2, mỗi khối 1 dàn ý + câu gợi ý); 25 thẻ từ khó HK1 + 36 từ “Vốn từ hay” HK2; 11 sơ đồ tư duy (10 bài + 1 tổng); 55 flashcard (6/bài HK1, 5/bài HK2) + 1 bộ tổng ôn; 2 thanh chuyển chế độ xem.
 - **14 khối bài đọc + 14 nút "Nghe đọc" + 14 nút "Dừng" + 14 nút gấp/mở** (đếm trên file); thơ kiểm chứng ngắt dòng theo nguồn (Xuân Quỳnh 19 khổ × 4 dòng; ca dao 3 bài; Cửu Long Giang đủ từ "Ngày xưa ta đi học" đến "…ca dao bát ngát…").
 - JS: `node --check` đạt cho cả 3 khối script (gồm script nghe đọc mới); http.server: `/nguvan/` trả 200.
 

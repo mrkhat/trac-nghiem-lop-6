@@ -44,8 +44,17 @@ chuyển bài sau. Học hết 24 bài mới tới **Tổng kết** (sơ đồ t
 | Bài 21 | Biển và đại dương | Chương 5 | Sau giữa kì |
 | Bài 22 | Lớp đất trên Trái Đất | Chương 6 | Sau giữa kì |
 | Bài 23 | Sự sống trên Trái Đất | Chương 6 | Sau giữa kì |
+| Bài 24 | Rừng nhiệt đới | Chương 6 | Ôn giữa kì 2 |
+| Bài 25 | Sự phân bố các đới thiên nhiên trên Trái Đất | Chương 6 | Ôn giữa kì 2 |
+| Bài 26 | Thực hành: Tìm hiểu môi trường tự nhiên địa phương | Chương 6 | Ôn giữa kì 2 |
+| Bài 27 | Dân số và sự phân bố dân cư trên thế giới | Chương 7 | Ôn giữa kì 2 |
+| Bài 28 | Mối quan hệ giữa con người và thiên nhiên | Chương 7 | Sau giữa kì 2 |
+| Bài 29 | Bảo vệ tự nhiên và khai thác thông minh tài nguyên vì phát triển bền vững | Chương 7 | Sau giữa kì 2 |
+| Bài 30 | Thực hành: Tìm hiểu mối quan hệ giữa con người và thiên nhiên ở địa phương | Chương 7 | Sau giữa kì 2 |
 
-Tổng: **24 bài** (Bài mở đầu + Bài 1–23), **96 câu hỏi gợi nhớ**, **120 flashcard**, **168 câu trắc nghiệm**.
+Tổng: **31 bài** (Bài mở đầu + Bài 1–30), **124 câu hỏi gợi nhớ**, **155 flashcard**, **244 câu trắc nghiệm**.
+
+> Ghi chú tích hợp HK2 (2026-10-25): 7 bài HK2 (24–30) đã lên trang học + trang bài tập; thẻ HK2 hiện dạng chữ (chưa có ảnh, render có guard nên không vỡ ảnh); phân kỳ HK2 theo thứ tự SGK, chưa xác nhận PPCT của trường; trang quiz giữ nguyên khối PERIODS (Giữa HK1 max 13, Cuối HK1 max 23, Giữa HK2 max 27, Cuối HK2 tất cả).
 
 ## Nguồn đối chiếu giáo trình (Bước 0)
 - Phân phối chương trình Địa lí 6 sách Kết nối tri thức — hoatieu.vn:

@@ -1,0 +1,240 @@
+[
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Thông tin là gì?",
+    "a": "Điều em biết được về người, vật, sự việc quanh mình.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Dữ liệu là gì?",
+    "a": "Thông tin đã ghi lại bằng số, chữ, hình ảnh hoặc âm thanh.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Xử lý thông tin gồm mấy bước? Kể tên.",
+    "a": "4 bước: thu nhận, xử lý, lưu trữ, truyền thông tin.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Tính điểm trung bình thuộc bước nào?",
+    "a": "Bước xử lý, vì điểm được biến đổi thành kết quả mới có ích.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Bit nhận những giá trị nào?",
+    "a": "Chỉ 0 hoặc 1.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "1 byte bằng mấy bit?",
+    "a": "8 bit.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Mạng máy tính dùng để làm gì?",
+    "a": "Chia sẻ dữ liệu và dùng chung thiết bị.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Phòng máy của trường là loại mạng nào?",
+    "a": "Mạng LAN, vì chỉ trong một phòng, một trường.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Internet là gì?",
+    "a": "Mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Lên mạng cần giữ an toàn điều gì?",
+    "a": "Không cho người lạ biết mật khẩu, địa chỉ nhà, số điện thoại.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Web là gì?",
+    "a": "Hệ thống các trang web liên kết với nhau trên Internet.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Chữ gạch chân bấm vào thì sang trang khác gọi là gì?",
+    "a": "Liên kết (link).",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Từ khóa là gì?",
+    "a": "Từ hoặc cụm từ mô tả điều em cần tìm.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Tìm thông tin thì nên tin ngay trang đầu tiên không?",
+    "a": "Không, phải xem nguồn có đáng tin không và đối chiếu thêm nguồn khác.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Thư điện tử đến nơi trong bao lâu?",
+    "a": "Gần như ngay lập tức.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Muốn trả lời thư thì bấm gì?",
+    "a": "Bấm Trả lời, máy tự điền sẵn địa chỉ người gửi.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Thông tin cá nhân gồm những gì?",
+    "a": "Họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Mật khẩu nào mạnh hơn: “123456” hay “Mai@2026Hoc”?",
+    "a": "“Mai@2026Hoc” mạnh hơn vì dài và có đủ chữ hoa, chữ thường, số, ký tự đặc biệt.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Ý chính trong sơ đồ tư duy đặt ở đâu?",
+    "a": "Ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Sơ đồ tốt là sơ đồ thế nào?",
+    "a": "Nhìn vào hiểu ngay, chỉ ghi ý chính, không nhồi nhét mọi chữ.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Định dạng văn bản để làm gì?",
+    "a": "Để văn bản rõ ràng, dễ đọc và đẹp hơn.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Tiêu đề bài văn thường căn kiểu nào?",
+    "a": "Căn giữa và in đậm.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Hàng và cột trong bảng xếp theo hướng nào?",
+    "a": "Hàng xếp ngang, cột xếp dọc.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Muốn biết thứ Tư tiết 3 học gì thì tra bảng thế nào?",
+    "a": "Dò đúng hàng “Tiết 3” và cột “Thứ Tư”, ô giao nhau ghi môn học.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Tìm kiếm giúp gì khi văn bản rất dài?",
+    "a": "Tìm nhanh một từ mà không phải đọc hết cả bài.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Thay tất cả tiện nhưng có rủi ro gì?",
+    "a": "Đổi cả chỗ không muốn đổi, nên phải đọc lại kiểm tra.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "Sổ lưu niệm của lớp ghi lại những gì?",
+    "a": "Ảnh chụp, lời nhắn, những chuyện vui cả năm của lớp.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "Vì sao chỉ dùng ảnh bạn đã đồng ý chia sẻ?",
+    "a": "Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "mn",
+    "f": "Thuật toán là gì?",
+    "a": "Dãy các bước theo thứ tự để giải quyết một việc.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "mn",
+    "f": "Nêu ví dụ một thuật toán tính điểm trung bình.",
+    "a": "Nhập điểm các môn; cộng lại; chia cho số môn; hiện kết quả.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "mn",
+    "f": "Kể tên 3 cấu trúc điều khiển.",
+    "a": "Tuần tự, rẽ nhánh và lặp.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "mn",
+    "f": "“Nếu trời mưa thì mang áo mưa” thuộc cấu trúc nào?",
+    "a": "Rẽ nhánh, vì có điều kiện đúng/sai.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "mn",
+    "f": "Chương trình máy tính là gì?",
+    "a": "Tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "mn",
+    "f": "Scratch hợp với ai?",
+    "a": "Học sinh mới học lập trình, vì dùng khối lệnh kéo thả.",
+    "fi": ""
+  }
+]

@@ -9,32 +9,37 @@
  {
   "b": 1,
   "t": "fc",
-  "f": "🧑‍🤝‍🧑 classmate /ˈklɑːsmeɪt/",
-  "a": "bạn cùng lớp\nLan is my classmate."
+  "f": "classmate /ˈklɑːsmeɪt/",
+  "a": "bạn cùng lớp\nLan is my classmate.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-classmate.webp"
  },
  {
   "b": 1,
   "t": "fc",
-  "f": "👩‍🏫 teacher /ˈtiːtʃə/",
-  "a": "giáo viên\nMy teacher is kind."
+  "f": "teacher /ˈtiːtʃə/",
+  "a": "giáo viên\nMy teacher is kind.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-teacher.webp"
  },
  {
   "b": 1,
   "t": "fc",
-  "f": "📚 subject /ˈsʌbdʒɪkt/",
-  "a": "môn học\nMaths is my favourite subject."
+  "f": "subject /ˈsʌbdʒɪkt/",
+  "a": "môn học\nMaths is my favourite subject.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-subject.webp"
  },
  {
   "b": 1,
   "t": "fc",
-  "f": "🔢 maths /mæθs/",
-  "a": "môn Toán\nI study maths on Monday."
+  "f": "maths /mæθs/",
+  "a": "môn Toán\nI study maths on Monday.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-maths.webp"
  },
  {
   "b": 1,
   "t": "fc",
-  "f": "🔤 English /ˈɪŋɡlɪʃ/",
-  "a": "môn Tiếng Anh\nWe speak English in class."
+  "f": "English /ˈɪŋɡlɪʃ/",
+  "a": "môn Tiếng Anh\nWe speak English in class.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-english.webp"
  },
  {
   "b": 1,
@@ -60,8 +65,9 @@
  {
   "b": 1,
   "t": "fc",
-  "f": "📏 ruler /ˈruːlə/",
-  "a": "thước kẻ\nI draw a line with a ruler."
+  "f": "ruler /ˈruːlə/",
+  "a": "thước kẻ\nI draw a line with a ruler.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-ruler.webp"
  },
  {
   "b": 1,
@@ -80,8 +86,9 @@
  {
   "b": 1,
   "t": "fc",
-  "f": "🛝 playground /ˈpleɪɡraʊnd/",
-  "a": "sân chơi (của trường)\nWe play in the playground."
+  "f": "playground /ˈpleɪɡraʊnd/",
+  "a": "sân chơi (của trường)\nWe play in the playground.",
+  "fi": "../hinh-anh/tienganh/tienganh-u1-playground.webp"
  },
  {
   "b": 1,
@@ -100,8 +107,9 @@
  {
   "b": 2,
   "t": "fc",
-  "f": "🏠 house /haʊs/",
-  "a": "ngôi nhà\nThis is my house."
+  "f": "house /haʊs/",
+  "a": "ngôi nhà\nThis is my house.",
+  "fi": "../hinh-anh/tienganh/tienganh-u2-house.webp"
  },
  {
   "b": 2,
@@ -197,74 +205,86 @@
  {
   "b": 3,
   "t": "fc",
-  "f": "😊 friendly /ˈfrendli/",
-  "a": "thân thiện\nAnna is friendly. She talks to everyone."
+  "f": "friendly /ˈfrendli/",
+  "a": "thân thiện\nAnna is friendly. She talks to everyone.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-friendly.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "😂 funny /ˈfʌni/",
-  "a": "hài hước, vui tính\nTom is funny. He makes me laugh."
+  "f": "funny /ˈfʌni/",
+  "a": "hài hước, vui tính\nTom is funny. He makes me laugh.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-funny.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "💗 kind /kaɪnd/",
-  "a": "tốt bụng\nMy best friend is kind."
+  "f": "kind /kaɪnd/",
+  "a": "tốt bụng\nMy best friend is kind.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-kind.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🧠 clever /ˈklevə/",
-  "a": "thông minh, lanh lợi\nHe is clever. He is good at maths."
+  "f": "clever /ˈklevə/",
+  "a": "thông minh, lanh lợi\nHe is clever. He is good at maths.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-clever.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🙈 shy /ʃaɪ/",
-  "a": "nhút nhát\nShe is shy. She doesn't talk much."
+  "f": "shy /ʃaɪ/",
+  "a": "nhút nhát\nShe is shy. She doesn't talk much.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-shy.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🐝 hard-working /ˌhɑːd ˈwɜːkɪŋ/",
-  "a": "chăm chỉ\nMy father is hard-working."
+  "f": "hard-working /ˌhɑːd ˈwɜːkɪŋ/",
+  "a": "chăm chỉ\nMy father is hard-working.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-hard-working.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🏃 active /ˈæktɪv/",
-  "a": "năng động\nThey are active. They play sports every day."
+  "f": "active /ˈæktɪv/",
+  "a": "năng động\nThey are active. They play sports every day.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-active.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🔍 careful /ˈkeəfl/",
-  "a": "cẩn thận\nShe is careful with her homework."
+  "f": "careful /ˈkeəfl/",
+  "a": "cẩn thận\nShe is careful with her homework.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-careful.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🤗 caring /ˈkeərɪŋ/",
-  "a": "biết quan tâm, chu đáo\nMy grandmother is caring."
+  "f": "caring /ˈkeərɪŋ/",
+  "a": "biết quan tâm, chu đáo\nMy grandmother is caring.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-caring.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "😎 confident /ˈkɒnfɪdənt/",
-  "a": "tự tin\nHe is confident. He speaks in front of the class."
+  "f": "confident /ˈkɒnfɪdənt/",
+  "a": "tự tin\nHe is confident. He speaks in front of the class.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-confident.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "👓 glasses /ˈɡlɑːsɪz/",
-  "a": "kính mắt\nShe wears glasses."
+  "f": "glasses /ˈɡlɑːsɪz/",
+  "a": "kính mắt\nShe wears glasses.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-glasses.webp"
  },
  {
   "b": 3,
   "t": "fc",
-  "f": "🧍 slim /slɪm/",
-  "a": "mảnh khảnh\nMy sister is slim and tall."
+  "f": "slim /slɪm/",
+  "a": "mảnh khảnh\nMy sister is slim and tall.",
+  "fi": "../hinh-anh/tienganh/tienganh-u3-slim.webp"
  },
  {
   "b": 3,
@@ -283,14 +303,16 @@
  {
   "b": 4,
   "t": "fc",
-  "f": "🎬 cinema /ˈsɪnəmə/",
-  "a": "rạp chiếu phim\nWe watch films at the cinema."
+  "f": "cinema /ˈsɪnəmə/",
+  "a": "rạp chiếu phim\nWe watch films at the cinema.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-cinema.webp"
  },
  {
   "b": 4,
   "t": "fc",
-  "f": "🏥 hospital /ˈhɒspɪtl/",
-  "a": "bệnh viện\nMy aunt works in a hospital."
+  "f": "hospital /ˈhɒspɪtl/",
+  "a": "bệnh viện\nMy aunt works in a hospital.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-hospital.webp"
  },
  {
   "b": 4,
@@ -302,8 +324,9 @@
  {
   "b": 4,
   "t": "fc",
-  "f": "📮 post office /ˈpəʊst ˌɒfɪs/",
-  "a": "bưu điện\nThe post office is next to the bank."
+  "f": "post office /ˈpəʊst ˌɒfɪs/",
+  "a": "bưu điện\nThe post office is next to the bank.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-post-office.webp"
  },
  {
   "b": 4,
@@ -322,20 +345,23 @@
  {
   "b": 4,
   "t": "fc",
-  "f": "🏙️ busy /ˈbɪzi/",
-  "a": "nhộn nhịp, bận rộn\nThe city is busier than the countryside."
+  "f": "busy /ˈbɪzi/",
+  "a": "nhộn nhịp, bận rộn\nThe city is busier than the countryside.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-busy.webp"
  },
  {
   "b": 4,
   "t": "fc",
-  "f": "🤫 quiet /ˈkwaɪət/",
-  "a": "yên tĩnh\nMy street is quieter than yours."
+  "f": "quiet /ˈkwaɪət/",
+  "a": "yên tĩnh\nMy street is quieter than yours.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-quiet.webp"
  },
  {
   "b": 4,
   "t": "fc",
-  "f": "🔊 noisy /ˈnɔɪzi/",
-  "a": "ồn ào\nThe market is noisier than the library."
+  "f": "noisy /ˈnɔɪzi/",
+  "a": "ồn ào\nThe market is noisier than the library.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-noisy.webp"
  },
  {
   "b": 4,
@@ -347,8 +373,9 @@
  {
   "b": 4,
   "t": "fc",
-  "f": "⭐ famous /ˈfeɪməs/",
-  "a": "nổi tiếng\nHa Long Bay is famous."
+  "f": "famous /ˈfeɪməs/",
+  "a": "nổi tiếng\nHa Long Bay is famous.",
+  "fi": "../hinh-anh/tienganh/tienganh-u4-famous.webp"
  },
  {
   "b": 4,
@@ -430,20 +457,23 @@
  {
   "b": 5,
   "t": "fc",
-  "f": "🧴 suncream /ˈsʌnkriːm/",
-  "a": "kem chống nắng\nPut on suncream at the beach!"
+  "f": "suncream /ˈsʌnkriːm/",
+  "a": "kem chống nắng\nPut on suncream at the beach!",
+  "fi": "../hinh-anh/tienganh/tienganh-u5-suncream.webp"
  },
  {
   "b": 5,
   "t": "fc",
-  "f": "🤩 amazing /əˈmeɪzɪŋ/",
-  "a": "tuyệt vời\nHa Long Bay is amazing!"
+  "f": "amazing /əˈmeɪzɪŋ/",
+  "a": "tuyệt vời\nHa Long Bay is amazing!",
+  "fi": "../hinh-anh/tienganh/tienganh-u5-amazing.webp"
  },
  {
   "b": 5,
   "t": "fc",
-  "f": "🏞️ natural wonder /ˈnætʃrəl ˈwʌndə/",
-  "a": "kì quan thiên nhiên\nHa Long Bay is a natural wonder."
+  "f": "natural wonder /ˈnætʃrəl ˈwʌndə/",
+  "a": "kì quan thiên nhiên\nHa Long Bay is a natural wonder.",
+  "fi": "../hinh-anh/tienganh/tienganh-u5-natural-wonder.webp"
  },
  {
   "b": 5,
@@ -462,14 +492,16 @@
  {
   "b": 6,
   "t": "fc",
-  "f": "🎊 Tet holiday /tet ˈhɒlədeɪ/",
-  "a": "kì nghỉ Tết\nTet is the biggest holiday in Viet Nam."
+  "f": "Tet holiday /tet ˈhɒlədeɪ/",
+  "a": "kì nghỉ Tết\nTet is the biggest holiday in Viet Nam.",
+  "fi": "../hinh-anh/tienganh/tienganh-u6-tet-holiday.webp"
  },
  {
   "b": 6,
   "t": "fc",
-  "f": "🧧 lucky money /ˈlʌki ˈmʌni/",
-  "a": "tiền lì xì\nChildren get lucky money at Tet."
+  "f": "lucky money /ˈlʌki ˈmʌni/",
+  "a": "tiền lì xì\nChildren get lucky money at Tet.",
+  "fi": "../hinh-anh/tienganh/tienganh-u6-lucky-money.webp"
  },
  {
   "b": 6,
@@ -509,8 +541,9 @@
  {
   "b": 6,
   "t": "fc",
-  "f": "👨‍👩‍👧‍👦 family gathering /ˈfæməli ˈɡæðərɪŋ/",
-  "a": "sum họp gia đình\nTet is a time for family gatherings."
+  "f": "family gathering /ˈfæməli ˈɡæðərɪŋ/",
+  "a": "sum họp gia đình\nTet is a time for family gatherings.",
+  "fi": "../hinh-anh/tienganh/tienganh-u6-family-gathering.webp"
  },
  {
   "b": 6,
@@ -522,14 +555,16 @@
  {
   "b": 6,
   "t": "fc",
-  "f": "🌠 wish /wɪʃ/",
-  "a": "chúc, điều ước\nI wish you a Happy New Year!"
+  "f": "wish /wɪʃ/",
+  "a": "chúc, điều ước\nI wish you a Happy New Year!",
+  "fi": "../hinh-anh/tienganh/tienganh-u6-wish.webp"
  },
  {
   "b": 6,
   "t": "fc",
-  "f": "🎉 celebrate /ˈselɪbreɪt/",
-  "a": "tổ chức, kỉ niệm\nWe celebrate Tet with our family."
+  "f": "celebrate /ˈselɪbreɪt/",
+  "a": "tổ chức, kỉ niệm\nWe celebrate Tet with our family.",
+  "fi": "../hinh-anh/tienganh/tienganh-u6-celebrate.webp"
  },
  {
   "b": 6,
@@ -558,5 +593,566 @@
   "f": "Từ này là gì?",
   "a": "relative/ˈrelətɪv/họ hàng🔊 Nghe từ",
   "fi": "../hinh-anh/tienganh/sua-relative.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "television /ˈtelɪvɪʒn/",
+  "a": "tivi, máy truyền hình\nWe watch television in the evening.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-television.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "programme /ˈprəʊɡræm/",
+  "a": "chương trình truyền hình\nThis programme is about animals.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-programme.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "📡 channel /ˈtʃænl/",
+  "a": "kênh truyền hình\nI like this channel. It has many cartoons."
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "cartoon /kɑːˈtuːn/",
+  "a": "phim hoạt hình\nChildren love this cartoon.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-cartoon.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "news /njuːz/",
+  "a": "tin tức\nMy father watches the news every evening.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-news.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "viewer /ˈvjuːə/",
+  "a": "khán giả xem truyền hình\nThere are many viewers of this show.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-viewer.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "remote control /rɪˈməʊt kənˈtrəʊl/",
+  "a": "điều khiển từ xa\nWhere is the remote control? I want to change the channel.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-remote-control.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "character /ˈkærəktə/",
+  "a": "nhân vật (trong phim, truyện)\nMy favourite character is funny and kind.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-character.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "📚 educational /ˌedʒuˈkeɪʃənl/",
+  "a": "có tính giáo dục, bổ ích\nThis programme is educational. We learn many new things."
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "🥱 boring /ˈbɔːrɪŋ/",
+  "a": "chán, buồn tẻ\nThis show is boring. I don't want to watch it."
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "comedy /ˈkɒmədi/",
+  "a": "phim hài\nWe watch a comedy on Saturday.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-comedy.webp"
+ },
+ {
+  "b": 7,
+  "t": "fc",
+  "f": "show /ʃəʊ/",
+  "a": "chương trình, buổi biểu diễn\nThere is a talent show on TV tonight.",
+  "fi": "../hinh-anh/tienganh/tienganh-u7-show.webp"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "programme//ˈprəʊɡræm//chương trình truyền hình🔊 Nghe từ"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "remote control//rɪˈməʊt kənˈtrəʊl//điều khiển từ xa🔊 Nghe từ"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "football /ˈfʊtbɔːl/",
+  "a": "bóng đá\nWe play football after school.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-football.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "basketball /ˈbɑːskɪtbɔːl/",
+  "a": "bóng rổ\nMy brother plays basketball every Sunday.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-basketball.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "tennis /ˈtenɪs/",
+  "a": "quần vợt\nShe plays tennis with her friends.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-tennis.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "badminton /ˈbædmɪntən/",
+  "a": "cầu lông\nWe play badminton in the playground.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-badminton.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "chess /tʃes/",
+  "a": "cờ vua\nMy grandfather plays chess very well.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-chess.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "marathon /ˈmærəθən/",
+  "a": "cuộc chạy ma-ra-tông\nHe runs a marathon every year.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-marathon.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "aerobics /eəˈrəʊbɪks/",
+  "a": "thể dục nhịp điệu\nMy mother does aerobics in the morning.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-aerobics.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "racket /ˈrækɪt/",
+  "a": "cái vợt (cầu lông, quần vợt)\nI need a new racket for badminton.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-racket.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "player /ˈpleɪə/",
+  "a": "cầu thủ, người chơi\nHe is a good football player.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-player.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "competition /ˌkɒmpəˈtɪʃn/",
+  "a": "cuộc thi đấu\nOur school has a football competition.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-competition.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "score /skɔː/",
+  "a": "ghi bàn, tỉ số\nHe scores a goal for our team.",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-score.webp"
+ },
+ {
+  "b": 8,
+  "t": "fc",
+  "f": "goal /ɡəʊl/",
+  "a": "bàn thắng, khung thành\nThat was a beautiful goal!",
+  "fi": "../hinh-anh/tienganh/tienganh-u8-goal.webp"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "badminton//ˈbædmɪntən//cầu lông🔊 Nghe từ"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "competition//ˌkɒmpəˈtɪʃn//cuộc thi đấu🔊 Nghe từ"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "city /ˈsɪti/",
+  "a": "thành phố\nHa Noi is a big city.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-city.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "capital /ˈkæpɪtl/",
+  "a": "thủ đô\nHa Noi is the capital of Viet Nam.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-capital.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "palace /ˈpæləs/",
+  "a": "cung điện\nThis palace is very old and beautiful.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-palace.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "tower /ˈtaʊə/",
+  "a": "tháp, tòa tháp\nWe visit the tower in the morning.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-tower.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "museum /mjuːˈziːəm/",
+  "a": "bảo tàng\nThere are many old things in the museum.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-museum.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "statue /ˈstætʃuː/",
+  "a": "bức tượng\nThis statue is in the centre of the city.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-statue.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "symbol /ˈsɪmbl/",
+  "a": "biểu tượng\nThe lotus is a symbol of Viet Nam.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-symbol.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "🌸 beautiful /ˈbjuːtɪfl/",
+  "a": "đẹp, xinh đẹp\nDa Nang is a beautiful city."
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "crowded /ˈkraʊdɪd/",
+  "a": "đông đúc\nThe street is crowded on Sunday.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-crowded.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "🎉 exciting /ɪkˈsaɪtɪŋ/",
+  "a": "thú vị, hào hứng\nThe trip to the city is exciting."
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "modern /ˈmɒdn/",
+  "a": "hiện đại\nThis city has many modern buildings.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-modern.webp"
+ },
+ {
+  "b": 9,
+  "t": "fc",
+  "f": "historic /hɪˈstɒrɪk/",
+  "a": "có tính lịch sử, cổ kính\nHoi An is a historic town.",
+  "fi": "../hinh-anh/tienganh/tienganh-u9-historic.webp"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "capital//ˈkæpɪtl//thủ đô🔊 Nghe từ"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "museum//mjuːˈziːəm//bảo tàng🔊 Nghe từ"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "🔮 future /ˈfjuːtʃə/",
+  "a": "tương lai\nIn the future, houses will be very different."
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "villa /ˈvɪlə/",
+  "a": "biệt thự\nMy dream house is a villa by the sea.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-villa.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "apartment /əˈpɑːtmənt/",
+  "a": "căn hộ\nWe live in a small apartment in the city.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-apartment.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "motorhome /ˈməʊtəhəʊm/",
+  "a": "nhà di động (xe có chỗ ở)\nWe travel in a motorhome. We sleep in it, too.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-motorhome.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "skyscraper /ˈskaɪskreɪpə/",
+  "a": "nhà chọc trời\nThere are many skyscrapers in the city.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-skyscraper.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "machine /məˈʃiːn/",
+  "a": "cái máy\nThis machine can wash the dishes.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-machine.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "solar /ˈsəʊlə/",
+  "a": "(thuộc về) mặt trời\nWe use solar energy for our house.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-solar.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "📶 wireless /ˈwaɪələs/",
+  "a": "không dây\nThis TV is wireless. It has no wires."
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "🤖 automatic /ˌɔːtəˈmætɪk/",
+  "a": "tự động\nThe door is automatic. It opens by itself."
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "💻 hi-tech /ˌhaɪ ˈtek/",
+  "a": "công nghệ cao\nMy future house will be hi-tech."
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "underground /ˌʌndəˈɡraʊnd/",
+  "a": "dưới mặt đất\nSome houses will be underground in the future.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-underground.webp"
+ },
+ {
+  "b": 10,
+  "t": "fc",
+  "f": "view /vjuː/",
+  "a": "cảnh, tầm nhìn\nMy house has a beautiful view of the sea.",
+  "fi": "../hinh-anh/tienganh/tienganh-u10-view.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "villa//ˈvɪlə//biệt thự🔊 Nghe từ"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "solar//ˈsəʊlə//(thuộc về) mặt trời🔊 Nghe từ"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "🌍 environment /ɪnˈvaɪrənmənt/",
+  "a": "môi trường\nWe must protect the environment."
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "recycle /ˌriːˈsaɪkl/",
+  "a": "tái chế\nWe recycle plastic bottles and paper.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-recycle.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "reuse /ˌriːˈjuːz/",
+  "a": "tái sử dụng, dùng lại\nWe reuse shopping bags to save plastic.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-reuse.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "⬇️ reduce /rɪˈdjuːs/",
+  "a": "giảm, giảm bớt\nWe reduce rubbish to keep our school clean."
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "rubbish /ˈrʌbɪʃ/",
+  "a": "rác thải\nDon't throw rubbish on the street.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-rubbish.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "plastic /ˈplæstɪk/",
+  "a": "nhựa\nThis bag is made of plastic.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-plastic.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "plant /plɑːnt/",
+  "a": "trồng (cây), cây cối\nWe plant trees around our school.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-plant.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "grow /ɡrəʊ/",
+  "a": "trồng, mọc lên\nWe grow vegetables in the garden.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-grow.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "save /seɪv/",
+  "a": "tiết kiệm, cứu\nWe save water by turning off the tap.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-save.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "electricity /ɪˌlekˈtrɪsəti/",
+  "a": "điện\nTurn off the lights to save electricity.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-electricity.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "water /ˈwɔːtə/",
+  "a": "nước\nClean water is important for life.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-water.webp"
+ },
+ {
+  "b": 11,
+  "t": "fc",
+  "f": "pollution /pəˈluːʃn/",
+  "a": "sự ô nhiễm\nPollution is bad for our health.",
+  "fi": "../hinh-anh/tienganh/tienganh-u11-pollution.webp"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "recycle//ˌriːˈsaɪkl//tái chế🔊 Nghe từ"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "environment//ɪnˈvaɪrənmənt//môi trường🔊 Nghe từ"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "robot /ˈrəʊbɒt/",
+  "a": "rô-bốt\nA robot can help us at home.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-robot.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "space /speɪs/",
+  "a": "không gian, vũ trụ\nRobots can work in space.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-space.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "planet /ˈplænɪt/",
+  "a": "hành tinh\nMars is a planet. Robots can go there.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-planet.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "homework /ˈhəʊmwɜːk/",
+  "a": "bài tập về nhà\nA robot can help me with my homework.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-homework.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "guard /ɡɑːd/",
+  "a": "bảo vệ, canh gác\nA robot can guard our house at night.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-guard.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "worker /ˈwɜːkə/",
+  "a": "công nhân, người lao động\nRobots can work as workers in a factory.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-worker.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "teach /tiːtʃ/",
+  "a": "dạy học\nA robot can teach children English.",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-teach.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "cook /kʊk/",
+  "a": "nấu ăn\nCan a robot cook rice for us?",
+  "fi": "../hinh-anh/tienganh/tienganh-u12-cook.webp"
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "🤔 understand /ˌʌndəˈstænd/",
+  "a": "hiểu\nRobots can understand what we say."
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "👀 recognise /ˈrekəɡnaɪz/",
+  "a": "nhận ra\nThis robot can recognise my face."
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "🧠 intelligent /ɪnˈtelɪdʒənt/",
+  "a": "thông minh\nThis robot is very intelligent."
+ },
+ {
+  "b": 12,
+  "t": "fc",
+  "f": "🤝 helpful /ˈhelpfl/",
+  "a": "hữu ích, hay giúp đỡ\nRobots are helpful in our life."
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "robot//ˈrəʊbɒt//rô-bốt🔊 Nghe từ"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Từ này là gì?",
+  "a": "homework//ˈhəʊmwɜːk//bài tập về nhà🔊 Nghe từ"
  }
 ]

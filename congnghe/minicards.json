@@ -123,5 +123,75 @@
   "f": "Mặc thế nào là đẹp nhất?",
   "a": "✅ Đáp ánSạch sẽ, gọn gàng, hợp với mình.",
   "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
- }
+ },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "3 nhóm đồ dùng điện là gì?",
+    "a": "Điện – quang (đèn), điện – nhiệt (nồi cơm, bếp) và điện – cơ (quạt, máy giặt).",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Trước khi dùng đồ điện cần xem gì?",
+    "a": "Xem điện áp và công suất định mức ghi trên đồ dùng để biết có hợp với điện nhà mình không.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Có mấy loại đèn thường dùng trong nhà?",
+    "a": "Có 3 loại: đèn sợi đốt, đèn huỳnh quang và đèn LED.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Đèn nào tiết kiệm điện nhất và bền nhất?",
+    "a": "Đèn LED tiết kiệm điện nhất và bền nhất, lại ít tỏa nhiệt.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Bộ phận nào làm chín cơm trong nồi cơm điện?",
+    "a": "Mâm nhiệt ở đáy nồi làm nóng và nấu chín cơm.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Trước khi nấu cơm cần làm gì?",
+    "a": "Lau khô mặt ngoài nồi trong rồi mới đặt vào nồi, để nồi tiếp xúc tốt với mâm nhiệt và an toàn.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Bếp hồng ngoại làm nóng bằng gì?",
+    "a": "Bằng tia hồng ngoại làm nóng mặt bếp và đáy nồi.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Khi nào mới được lau chùi bếp hồng ngoại?",
+    "a": "Khi bếp đã nguội hẳn và đã ngắt điện, lau khi còn nóng sẽ bị bỏng.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "3 quy tắc an toàn điện cần nhớ là gì?",
+    "a": "Tay khô mới dùng điện, không chạm vào dây điện hở, đồ hỏng thì báo người lớn, không tự sửa.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "mn",
+    "f": "3 cách tiết kiệm điện trong nhà là gì?",
+    "a": "Tắt đèn khi ra khỏi phòng, dùng đèn LED và rút phích cắm khi không dùng nữa.",
+    "fi": ""
+  }
 ]

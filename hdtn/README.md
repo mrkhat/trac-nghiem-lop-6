@@ -28,7 +28,7 @@ Mỗi chủ đề: tình huống mở đầu → cách làm từng bước → 2
 | Thẻ ⚡ Nhớ nhanh | 18 (2/chủ đề) |
 | Câu hỏi nhanh trong bài | 9 (1/chủ đề) |
 | Chế độ xem | Từng chủ đề (mặc định) / Xem tất cả, khóa `hdtn_view_mode` |
-| Ảnh minh họa | Đang làm theo đợt (xem dưới) — thẻ chưa có ảnh để dạng chữ, không render `<img>` vỡ |
+| Ảnh minh họa | Đủ 45/45 thẻ (local, `hinh-anh/hdtn/`, ≤400px, ≤36KB/tấm) — chờ user up ảnh lên repo rồi mới push phần chữ gắn ảnh, để khỏi vỡ ảnh live |
 
 Kiểm tra độ dài đáp án (2026-10-25): đáp án đúng là phương án dài nhất ở 54/81 câu. Các phương án sai đều viết thành câu đầy đủ, nhưng tỉ lệ này vẫn cao hơn mức lý tưởng — cần một đợt biên tập rút gọn đáp án đúng trước khi dùng làm bài kiểm tra chống đoán mò. Nội dung học thì không bị ảnh hưởng.
 

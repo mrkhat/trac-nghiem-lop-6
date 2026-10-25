@@ -700,5 +700,707 @@
     "answer": 2,
     "explanation": "Ai cũng có điểm mạnh và điểm yếu riêng. Phát huy điểm mạnh, sửa dần điểm yếu — đó là cách em tiến bộ mỗi ngày.",
     "bai": 6
+  },
+  {
+    "id": 55,
+    "question": "Trong nhà bỗng có cháy, việc đầu tiên em nên làm là gì?",
+    "options": [
+      "A. Quay lại phòng lấy đồ chơi yêu thích",
+      "B. Hô hoán báo mọi người rồi chạy ra ngoài",
+      "C. Mở hết cửa sổ cho khói bay rồi mới chạy",
+      "D. Trốn vào tủ quần áo chờ người đến cứu"
+    ],
+    "answer": 1,
+    "explanation": "Khi có cháy, tính mạng là quan trọng nhất. Em hô hoán báo mọi người rồi chạy ra ngoài ngay, không quay lại lấy đồ.",
+    "bai": 7
+  },
+  {
+    "id": 56,
+    "question": "Số điện thoại gọi cứu hỏa là số nào?",
+    "options": [
+      "A. 113",
+      "B. 114",
+      "C. 115",
+      "D. 111"
+    ],
+    "answer": 1,
+    "explanation": "114 là số gọi cứu hỏa. Nhớ 113 là công an, 115 là cấp cứu, 111 là bảo vệ trẻ em.",
+    "bai": 7
+  },
+  {
+    "id": 57,
+    "question": "Bạn rủ em tắm sông khi không có người lớn đi cùng. Em nên làm gì?",
+    "options": [
+      "A. Từ chối, rủ bạn chơi trò khác an toàn",
+      "B. Đi tắm cùng bạn cho vui, có gì bạn cứu",
+      "C. Chỉ tắm ở chỗ nước nông thôi là được",
+      "D. Mặc áo phao vào rồi tắm là đủ an toàn"
+    ],
+    "answer": 0,
+    "explanation": "Tắm sông không có người lớn rất dễ đuối nước. Em từ chối và rủ bạn chơi trò khác an toàn hơn.",
+    "bai": 7
+  },
+  {
+    "id": 58,
+    "question": "Em thấy bạn bị đuối nước mà em không biết bơi. Em nên làm gì?",
+    "options": [
+      "A. Nhảy xuống cứu bạn ngay lập tức",
+      "B. Đứng xem rồi về kể người lớn nghe",
+      "C. Chạy đi tìm điện thoại để quay video",
+      "D. Gọi người lớn, ném phao cho bạn"
+    ],
+    "answer": 3,
+    "explanation": "Người không biết bơi nhảy xuống rất dễ bị đuối theo. Em hô hoán gọi người lớn và ném phao hoặc dây cho bạn bám vào.",
+    "bai": 7
+  },
+  {
+    "id": 59,
+    "question": "Người lạ cho em kẹo và rủ em đi theo họ. Em nên làm gì?",
+    "options": [
+      "A. Nhận kẹo rồi đi theo vì họ tốt bụng",
+      "B. Nhận kẹo nhưng nhất quyết không đi theo họ đâu",
+      "C. Không nhận, không đi theo, báo người lớn",
+      "D. Đi theo một đoạn ngắn rồi quay lại"
+    ],
+    "answer": 2,
+    "explanation": "Người lạ cho quà rồi rủ đi theo có thể là kẻ xấu. Em không nhận, không đi theo, chạy về chỗ đông người và báo người lớn ngay.",
+    "bai": 7
+  },
+  {
+    "id": 60,
+    "question": "Nhà em gần sông, nước lũ đang dâng cao. Em và gia đình nên làm gì?",
+    "options": [
+      "A. Lội nước lũ đi xem cho biết chuyện gì",
+      "B. Lên chỗ cao an toàn, nghe người lớn",
+      "C. Ở lại tầng thấp để trông giữ nhà cửa",
+      "D. Ra sông vớt đồ đạc đang trôi dạt"
+    ],
+    "answer": 1,
+    "explanation": "Nước lũ chảy mạnh rất nguy hiểm, có thể cuốn trôi người. Em cùng gia đình lên chỗ cao an toàn và nghe theo hướng dẫn của người lớn.",
+    "bai": 7
+  },
+  {
+    "id": 61,
+    "question": "Em bị lạc mẹ ở chợ đông người. Em nên làm gì?",
+    "options": [
+      "A. Chạy lung tung tìm mẹ khắp chợ đông",
+      "B. Đi theo người lạ nhờ dẫn đi tìm mẹ",
+      "C. Ngồi khóc ở một góc khuất trong chợ",
+      "D. Đứng yên chỗ dễ thấy, nhờ bảo vệ"
+    ],
+    "answer": 3,
+    "explanation": "Đứng yên ở chỗ dễ thấy giúp người nhà tìm em nhanh hơn. Em nhờ cô bán hàng hoặc chú bảo vệ giúp gọi người nhà.",
+    "bai": 7
+  },
+  {
+    "id": 62,
+    "question": "Em ngửi thấy mùi ga rò rỉ trong bếp. Em nên làm gì?",
+    "options": [
+      "A. Mở cửa cho thoáng, báo người lớn",
+      "B. Bật đèn lên xem chỗ nào đang rò ga",
+      "C. Bật quạt điện cho mùi ga bay đi hết",
+      "D. Dùng nến soi tìm chỗ ga bị rò rỉ"
+    ],
+    "answer": 0,
+    "explanation": "Ga gặp tia lửa điện hoặc lửa sẽ cháy nổ rất nguy hiểm. Em mở cửa cho thoáng, không bật điện hay bật lửa, rồi báo người lớn ngay.",
+    "bai": 7
+  },
+  {
+    "id": 63,
+    "question": "Bạn em bị điện giật, dây điện còn chạm vào bạn. Em nên làm gì?",
+    "options": [
+      "A. Nắm tay kéo bạn ra khỏi dây điện",
+      "B. Dội nước vào bạn cho bạn tỉnh lại",
+      "C. Ngắt cầu dao, gạt dây bằng gậy gỗ",
+      "D. Chờ bạn tự tỉnh lại rồi mới giúp đỡ"
+    ],
+    "answer": 2,
+    "explanation": "Chạm vào người bị điện giật sẽ làm em cũng bị giật theo. Em ngắt cầu dao hoặc dùng gậy gỗ khô gạt dây ra, rồi gọi người lớn và gọi 115.",
+    "bai": 7
+  },
+  {
+    "id": 64,
+    "question": "Tiết kiệm là gì?",
+    "options": [
+      "A. Dùng vừa đủ, không lãng phí thứ gì",
+      "B. Không dám dùng gì dù đang rất cần",
+      "C. Mua thật nhiều đồ khi đang giảm giá",
+      "D. Dùng đồ thật nhanh để mua đồ mới"
+    ],
+    "answer": 0,
+    "explanation": "Tiết kiệm là dùng vừa đủ với nhu cầu, không lãng phí. Ví dụ: lấy cơm vừa ăn, không bỏ thừa.",
+    "bai": 8
+  },
+  {
+    "id": 65,
+    "question": "Việc nào sau đây là tiết kiệm điện?",
+    "options": [
+      "A. Bật đèn cả ngày dù trời đang sáng",
+      "B. Tắt đèn và quạt khi ra khỏi phòng",
+      "C. Mở tủ lạnh thật lâu để chọn đồ ăn",
+      "D. Bật ti vi suốt ngày dù không ai xem"
+    ],
+    "answer": 1,
+    "explanation": "Tắt đèn và quạt khi không dùng sẽ bớt tốn điện. Tiền điện nhà em cũng giảm theo.",
+    "bai": 8
+  },
+  {
+    "id": 66,
+    "question": "Việc nào sau đây là tiết kiệm nước?",
+    "options": [
+      "A. Xả nước chơi cho mát vào ngày nóng",
+      "B. Để vòi chảy trong lúc đánh răng",
+      "C. Khóa vòi ngay sau khi rửa tay xong",
+      "D. Tắm vòi sen thật lâu cho thoải mái"
+    ],
+    "answer": 2,
+    "explanation": "Khóa vòi ngay sau khi dùng xong sẽ không để nước chảy lãng phí. Nước sạch không phải lúc nào cũng có sẵn.",
+    "bai": 8
+  },
+  {
+    "id": 67,
+    "question": "Em được mừng tuổi một ít tiền. Cách dùng tiền nào là tiết kiệm?",
+    "options": [
+      "A. Mua hết kẹo ăn trong một ngày duy nhất",
+      "B. Mua ngay món đồ chơi đắt tiền nhất",
+      "C. Cho bạn mượn hết để bạn mua đồ dùng",
+      "D. Để dành một phần, chỉ mua thứ cần"
+    ],
+    "answer": 3,
+    "explanation": "Để dành một phần và chỉ mua thứ cần là cách dùng tiền khôn ngoan. Khi cần mua đồ dùng học tập, em đã có tiền sẵn.",
+    "bai": 8
+  },
+  {
+    "id": 68,
+    "question": "Tiết kiệm khác keo kiệt ở điểm nào?",
+    "options": [
+      "A. Hai từ này giống hệt nhau, không khác gì nhau",
+      "B. Tiết kiệm vừa đủ, keo kiệt không dám dùng",
+      "C. Keo kiệt tốt hơn tiết kiệm, nên học theo",
+      "D. Tiết kiệm là không bao giờ mua sắm gì cả"
+    ],
+    "answer": 1,
+    "explanation": "Tiết kiệm là dùng vừa đủ, không lãng phí. Keo kiệt là không dám dùng cả khi rất cần, ví dụ ốm mà không dám mua thuốc.",
+    "bai": 8
+  },
+  {
+    "id": 69,
+    "question": "Em đã có một chiếc cặp còn tốt. Bạn rủ mua cặp mới cho giống bạn. Em nên làm gì?",
+    "options": [
+      "A. Mua cặp mới ngay cho giống bạn bè",
+      "B. Vứt cặp cũ đi rồi mua cặp mới ngay lập tức",
+      "C. Giữ cặp cũ còn tốt, để tiền mua thứ cần",
+      "D. Mượn tiền bạn để mua cặp mới ngay"
+    ],
+    "answer": 2,
+    "explanation": "Cặp cũ còn tốt thì dùng tiếp là tiết kiệm. Tiền để dành mua được thứ cần hơn, như sách vở.",
+    "bai": 8
+  },
+  {
+    "id": 70,
+    "question": "Việc nào sau đây là tiết kiệm thời gian?",
+    "options": [
+      "A. Làm bài tập đúng giờ rồi mới đi chơi",
+      "B. Chơi game quên làm bài tập về nhà",
+      "C. Vừa học bài vừa xem điện thoại liên tục",
+      "D. Để bài tập đến tối muộn mới bắt đầu"
+    ],
+    "answer": 0,
+    "explanation": "Làm bài đúng giờ rồi mới chơi giúp em xong việc và chơi thoải mái. Vừa học vừa chơi làm cả hai việc đều dở.",
+    "bai": 8
+  },
+  {
+    "id": 71,
+    "question": "Chai nhựa đã dùng hết, em nên làm gì để tiết kiệm?",
+    "options": [
+      "A. Vứt ngay chai vào thùng rác gần nhất",
+      "B. Bẻ nát chai rồi vứt đi cho gọn gàng",
+      "C. Đốt chai nhựa cho gọn và sạch sẽ",
+      "D. Rửa sạch chai để đựng đồ, tái chế"
+    ],
+    "answer": 3,
+    "explanation": "Rửa sạch chai nhựa để dùng lại là tiết kiệm và bảo vệ môi trường. Đốt nhựa còn gây khói độc.",
+    "bai": 8
+  },
+  {
+    "id": 72,
+    "question": "Tiết kiệm đồ dùng học tập là làm gì?",
+    "options": [
+      "A. Làm mất bút rồi mua bút mới liên tục hoài",
+      "B. Giữ gìn bút, sách cẩn thận để dùng lâu",
+      "C. Xé sách vở ra để gấp đồ chơi mới",
+      "D. Mượn đồ của bạn rồi không trả lại"
+    ],
+    "answer": 1,
+    "explanation": "Giữ gìn bút và sách cẩn thận giúp đồ dùng được lâu. Như vậy em không phải mua mới nhiều lần, đỡ tốn tiền.",
+    "bai": 8
+  },
+  {
+    "id": 73,
+    "question": "Công dân của một nước là người như thế nào?",
+    "options": [
+      "A. Người sống ở nước đó một thời gian ngắn",
+      "B. Người làm việc ở nước đó nhiều năm liền",
+      "C. Người có quốc tịch của nước đó",
+      "D. Người nói được tiếng của nước đó"
+    ],
+    "answer": 2,
+    "explanation": "Công dân là người có quốc tịch của một nước. Ví dụ: người có quốc tịch Việt Nam là công dân Việt Nam.",
+    "bai": 9
+  },
+  {
+    "id": 74,
+    "question": "Quốc tịch là gì?",
+    "options": [
+      "A. Sự gắn bó pháp lí của người với một nước",
+      "B. Giấy khen mà nhà trường trao cho học sinh",
+      "C. Nơi một người đang sinh sống hiện nay",
+      "D. Nghề nghiệp mà một người đang làm việc"
+    ],
+    "answer": 0,
+    "explanation": "Quốc tịch là sự gắn bó pháp lí của một người với một nước. Nhờ có quốc tịch, người đó được nước đó bảo vệ.",
+    "bai": 9
+  },
+  {
+    "id": 75,
+    "question": "Trẻ em sinh ra ở Việt Nam, có cha mẹ là người Việt Nam thì có phải công dân Việt Nam không?",
+    "options": [
+      "A. Không, phải đủ 18 tuổi mới là công dân",
+      "B. Không, trẻ em chưa đi học thì chưa phải",
+      "C. Chỉ khi trẻ em đi làm mới là công dân",
+      "D. Có, trẻ em cũng là công dân Việt Nam"
+    ],
+    "answer": 3,
+    "explanation": "Trẻ em sinh ra có quốc tịch Việt Nam cũng là công dân Việt Nam. Công dân không chỉ là người lớn.",
+    "bai": 9
+  },
+  {
+    "id": 76,
+    "question": "Học sinh thể hiện lòng yêu nước bằng việc nào sau đây?",
+    "options": [
+      "A. Chỉ khen nước mình và chê bai nước khác",
+      "B. Học tốt, giữ gìn truyền thống dân tộc",
+      "C. Không học lịch sử vì đã là chuyện cũ",
+      "D. Vẽ bậy lên tường của trường học mình"
+    ],
+    "answer": 1,
+    "explanation": "Học tập tốt và giữ gìn truyền thống tốt đẹp là cách học sinh thể hiện lòng yêu nước. Yêu nước thể hiện bằng việc làm cụ thể mỗi ngày.",
+    "bai": 9
+  },
+  {
+    "id": 77,
+    "question": "Mọi công dân Việt Nam trước pháp luật thì như thế nào?",
+    "options": [
+      "A. Người giàu được ưu tiên hơn người nghèo",
+      "B. Chỉ người lớn mới được bình đẳng thôi",
+      "C. Mọi công dân bình đẳng trước pháp luật",
+      "D. Học sinh nhỏ tuổi không cần bình đẳng"
+    ],
+    "answer": 2,
+    "explanation": "Mọi công dân đều bình đẳng trước pháp luật. Không ai được ưu tiên hay bị phân biệt vì giàu nghèo, trai gái.",
+    "bai": 9
+  },
+  {
+    "id": 78,
+    "question": "Việc nào sau đây thể hiện tôn trọng Tổ quốc?",
+    "options": [
+      "A. Đứng nghiêm khi chào cờ, hát Quốc ca",
+      "B. Cười đùa, chạy nhảy khi đang chào cờ",
+      "C. Vứt rác bừa bãi nơi công cộng đông người",
+      "D. Xé cờ Tổ quốc ra để làm đồ chơi"
+    ],
+    "answer": 0,
+    "explanation": "Đứng nghiêm trang khi chào cờ và hát Quốc ca là tôn trọng Tổ quốc. Quốc kỳ và Quốc ca là biểu tượng thiêng liêng của nước mình.",
+    "bai": 9
+  },
+  {
+    "id": 79,
+    "question": "Công dân Việt Nam khi ra nước ngoài thì được ai bảo vệ?",
+    "options": [
+      "A. Không có ai bảo vệ công dân ở xa",
+      "B. Nhà nước Việt Nam bảo vệ quyền lợi của họ",
+      "C. Chỉ gia đình của họ đứng ra bảo vệ họ mà thôi",
+      "D. Chỉ bạn bè của họ đứng ra bảo vệ"
+    ],
+    "answer": 1,
+    "explanation": "Nhà nước Việt Nam bảo vệ quyền lợi chính đáng của công dân Việt Nam ở nước ngoài. Đó là một quyền của công dân.",
+    "bai": 9
+  },
+  {
+    "id": 80,
+    "question": "Việc nào sau đây là giữ gìn tiếng Việt?",
+    "options": [
+      "A. Nói chen tiếng nước ngoài dù không cần",
+      "B. Viết tắt khó hiểu trong bài tập về nhà",
+      "C. Chê bai tiếng Việt của quê hương mình",
+      "D. Nói và viết tiếng Việt đúng, rõ ràng"
+    ],
+    "answer": 3,
+    "explanation": "Nói và viết tiếng Việt đúng, rõ ràng là giữ gìn tiếng Việt. Tiếng Việt là tài sản quý của dân tộc.",
+    "bai": 9
+  },
+  {
+    "id": 81,
+    "question": "Công dân có quyền nhưng cũng có gì đi kèm?",
+    "options": [
+      "A. Không cần làm gì cả, chỉ cần hưởng",
+      "B. Chỉ cần hưởng quyền thôi là đủ rồi",
+      "C. Có nghĩa vụ phải làm theo pháp luật",
+      "D. Có nhiều tiền thì không cần nghĩa vụ"
+    ],
+    "answer": 2,
+    "explanation": "Công dân vừa có quyền, vừa có nghĩa vụ. Ví dụ: em có quyền đi học thì cũng có nghĩa vụ học tập tốt.",
+    "bai": 9
+  },
+  {
+    "id": 82,
+    "question": "Quyền học tập của công dân là gì?",
+    "options": [
+      "A. Chỉ học sinh giỏi mới được đi học",
+      "B. Mọi người đều được đi học đầy đủ",
+      "C. Chỉ con nhà giàu mới được đi học",
+      "D. Học hay không tùy ý, không ai quan tâm"
+    ],
+    "answer": 1,
+    "explanation": "Mọi công dân đều có quyền đi học. Nhà nước tạo điều kiện để trẻ em được đến trường.",
+    "bai": 10
+  },
+  {
+    "id": 83,
+    "question": "Nghĩa vụ học tập của học sinh là gì?",
+    "options": [
+      "A. Học chăm chỉ, hoàn thành nhiệm vụ học tập",
+      "B. Học khi nào thích thì học, chán thì nghỉ luôn",
+      "C. Đi học để chơi với bạn bè là chính",
+      "D. Không cần làm bài tập về nhà mỗi ngày"
+    ],
+    "answer": 0,
+    "explanation": "Học sinh có nghĩa vụ học tập chăm chỉ và hoàn thành nhiệm vụ học tập. Quyền đi học đi kèm với nghĩa vụ học tốt.",
+    "bai": 10
+  },
+  {
+    "id": 84,
+    "question": "Quyền được bảo vệ về thân thể có nghĩa là gì?",
+    "options": [
+      "A. Ai khỏe hơn thì được đánh người yếu hơn",
+      "B. Bạn bè được đánh nhau trêu đùa cho vui",
+      "C. Không ai được đánh đập hay hành hạ ai",
+      "D. Người lớn được đánh trẻ em khi tức giận"
+    ],
+    "answer": 2,
+    "explanation": "Không ai được đánh đập hay hành hạ người khác. Thân thể của mỗi người đều được pháp luật bảo vệ.",
+    "bai": 10
+  },
+  {
+    "id": 85,
+    "question": "Nghĩa vụ chấp hành pháp luật là gì?",
+    "options": [
+      "A. Luật chỉ dành cho người lớn, trẻ em không cần",
+      "B. Ai thích thì theo luật, không thích thì thôi",
+      "C. Chỉ theo luật khi có công an nhìn thấy",
+      "D. Sống và làm việc theo đúng luật đã định"
+    ],
+    "answer": 3,
+    "explanation": "Chấp hành pháp luật là sống và làm việc theo đúng luật. Ví dụ: đi bộ đúng phần đường, không vượt đèn đỏ.",
+    "bai": 10
+  },
+  {
+    "id": 86,
+    "question": "Quyền và nghĩa vụ của công dân có quan hệ với nhau thế nào?",
+    "options": [
+      "A. Quyền và nghĩa vụ đi đôi với nhau",
+      "B. Có quyền thì không cần nghĩa vụ gì nữa",
+      "C. Có nghĩa vụ thì mất hết mọi quyền lợi",
+      "D. Quyền và nghĩa vụ không liên quan gì nhau"
+    ],
+    "answer": 0,
+    "explanation": "Quyền và nghĩa vụ đi đôi với nhau. Ví dụ: em có quyền được bảo vệ thì cũng có nghĩa vụ không xâm phạm người khác.",
+    "bai": 10
+  },
+  {
+    "id": 87,
+    "question": "Việc nào sau đây là thực hiện nghĩa vụ bảo vệ môi trường?",
+    "options": [
+      "A. Xả rác xuống sông cho nước trôi đi mất",
+      "B. Bẻ cành cây trong công viên mang về nhà",
+      "C. Bỏ rác đúng nơi quy định đã đặt sẵn",
+      "D. Vứt pin cũ vào thùng rác thường hàng ngày"
+    ],
+    "answer": 2,
+    "explanation": "Bỏ rác đúng nơi quy định là bảo vệ môi trường. Môi trường sạch giúp mọi người khỏe mạnh.",
+    "bai": 10
+  },
+  {
+    "id": 88,
+    "question": "Việc nào sau đây là thực hiện nghĩa vụ bảo vệ tài sản công?",
+    "options": [
+      "A. Vẽ bậy lên bàn học của lớp mình",
+      "B. Giữ gìn bàn ghế, sách vở ở trường",
+      "C. Làm hỏng vòi nước của trường đang dùng",
+      "D. Lấy đồ dùng chung của lớp về nhà mình"
+    ],
+    "answer": 1,
+    "explanation": "Giữ gìn bàn ghế và sách vở của trường là bảo vệ tài sản công. Tài sản công là của chung, ai cũng có trách nhiệm giữ gìn.",
+    "bai": 10
+  },
+  {
+    "id": 89,
+    "question": "Học sinh vi phạm luật giao thông thì sẽ ra sao?",
+    "options": [
+      "A. Không sao vì học sinh còn nhỏ tuổi",
+      "B. Được khen vì dám làm điều khác biệt",
+      "C. Chỉ bị nhắc khi gây ra tai nạn rồi",
+      "D. Bị nhắc nhở và xử lí theo quy định"
+    ],
+    "answer": 3,
+    "explanation": "Học sinh vi phạm luật giao thông sẽ bị nhắc nhở, giáo dục và có thể bị xử lí theo quy định. Luật giao thông bảo vệ an toàn cho mọi người.",
+    "bai": 10
+  },
+  {
+    "id": 90,
+    "question": "Bảo vệ Tổ quốc là nghĩa vụ của ai?",
+    "options": [
+      "A. Của mọi công dân, bằng việc phù hợp",
+      "B. Chỉ của bộ đội đang làm nhiệm vụ",
+      "C. Chỉ của người lớn đã đi làm việc",
+      "D. Chỉ của học sinh giỏi toàn diện nhất"
+    ],
+    "answer": 0,
+    "explanation": "Bảo vệ Tổ quốc là nghĩa vụ của mọi công dân. Học sinh bảo vệ Tổ quốc bằng cách học tốt và giữ gìn truyền thống dân tộc.",
+    "bai": 10
+  },
+  {
+    "id": 91,
+    "question": "Theo luật, trẻ em là người ở độ tuổi nào?",
+    "options": [
+      "A. Dưới 16 tuổi",
+      "B. Dưới 6 tuổi",
+      "C. Dưới 18 tuổi",
+      "D. Dưới 12 tuổi"
+    ],
+    "answer": 0,
+    "explanation": "Theo Luật Trẻ em, trẻ em là người dưới 16 tuổi. Trẻ em được hưởng các quyền riêng dành cho mình.",
+    "bai": 11
+  },
+  {
+    "id": 92,
+    "question": "Quyền sống còn của trẻ em là gì?",
+    "options": [
+      "A. Được mua mọi thứ mình thích mỗi ngày",
+      "B. Được chơi cả ngày không cần học hành",
+      "C. Được sống, chăm sóc sức khỏe, ăn đủ",
+      "D. Được làm mọi việc mình muốn bất cứ lúc"
+    ],
+    "answer": 2,
+    "explanation": "Quyền sống còn là được sống, được chăm sóc sức khỏe và ăn uống đầy đủ. Ví dụ: khi ốm, trẻ em được đưa đi khám bệnh.",
+    "bai": 11
+  },
+  {
+    "id": 93,
+    "question": "Quyền phát triển của trẻ em là gì?",
+    "options": [
+      "A. Được đi làm kiếm tiền từ khi còn nhỏ",
+      "B. Được học tập, vui chơi, phát triển tài năng",
+      "C. Được ở nhà một mình cả ngày không ai trông nom cả",
+      "D. Được tự ý bỏ học để đi chơi xa nhà"
+    ],
+    "answer": 1,
+    "explanation": "Quyền phát triển là được học tập, vui chơi và phát triển tài năng. Ví dụ: trẻ em được đến trường và tham gia các hoạt động thể thao.",
+    "bai": 11
+  },
+  {
+    "id": 94,
+    "question": "Quyền bảo vệ của trẻ em là gì?",
+    "options": [
+      "A. Không bao giờ bị ai nhắc nhở điều gì",
+      "B. Muốn làm gì cũng được, không ai cấm",
+      "C. Không phải làm bất cứ việc gì trong nhà",
+      "D. Không bị bạo lực, bóc lột hay xâm hại"
+    ],
+    "answer": 3,
+    "explanation": "Quyền bảo vệ là không bị bạo lực, bóc lột hay xâm hại. Nếu bị đánh đập hay bắt làm việc nặng, trẻ em cần nói với người lớn tin cậy.",
+    "bai": 11
+  },
+  {
+    "id": 95,
+    "question": "Quyền tham gia của trẻ em là gì?",
+    "options": [
+      "A. Được quyết định mọi việc trong gia đình",
+      "B. Được cãi lại người lớn bất cứ lúc nào",
+      "C. Được nói ý kiến về việc liên quan mình",
+      "D. Được bỏ qua ý kiến của người khác luôn"
+    ],
+    "answer": 2,
+    "explanation": "Quyền tham gia là được nói lên ý kiến về việc liên quan đến mình. Ví dụ: em được nói ý kiến khi lớp chọn hoạt động ngoại khóa.",
+    "bai": 11
+  },
+  {
+    "id": 96,
+    "question": "Trẻ em có quyền được khai sinh, có họ tên và quốc tịch. Điều này đúng hay sai?",
+    "options": [
+      "A. Đúng, đó là quyền của trẻ em",
+      "B. Sai, trẻ em chưa cần có họ tên riêng",
+      "C. Sai, chỉ người lớn mới có quốc tịch",
+      "D. Đúng nhưng chỉ khi trẻ em đi học rồi"
+    ],
+    "answer": 0,
+    "explanation": "Đúng, trẻ em có quyền được khai sinh, có họ tên và quốc tịch. Giấy khai sinh chứng minh em là ai và là công dân nước nào.",
+    "bai": 11
+  },
+  {
+    "id": 97,
+    "question": "Ai có trách nhiệm bảo vệ quyền trẻ em?",
+    "options": [
+      "A. Chỉ cha mẹ của trẻ em mà thôi",
+      "B. Gia đình, nhà trường và toàn xã hội",
+      "C. Chỉ thầy cô giáo ở trường học",
+      "D. Chỉ bản thân trẻ em tự bảo vệ mình thôi"
+    ],
+    "answer": 1,
+    "explanation": "Gia đình, nhà trường và toàn xã hội đều có trách nhiệm bảo vệ quyền trẻ em. Vì vậy khi gặp chuyện xấu, em hãy nói với người lớn tin cậy.",
+    "bai": 11
+  },
+  {
+    "id": 98,
+    "question": "Khi bị người khác bắt nạt, trẻ em nên làm gì?",
+    "options": [
+      "A. Im lặng chịu đựng một mình cho qua chuyện",
+      "B. Đánh lại người bắt nạt mạnh hơn trước",
+      "C. Bỏ học để tránh người bắt nạt mình",
+      "D. Nói với người lớn tin cậy hoặc gọi 111"
+    ],
+    "answer": 3,
+    "explanation": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 là cách đúng. Tổng đài 111 là số bảo vệ trẻ em, gọi miễn phí.",
+    "bai": 11
+  },
+  {
+    "id": 99,
+    "question": "Trẻ em có quyền vui chơi. Điều này có nghĩa là gì?",
+    "options": [
+      "A. Được chơi trò lành mạnh, an toàn sau giờ học",
+      "B. Được chơi game cả ngày không cần học",
+      "C. Không cần học, trẻ em chỉ cần chơi thôi",
+      "D. Được chơi trò nguy hiểm tùy thích mỗi ngày liền"
+    ],
+    "answer": 0,
+    "explanation": "Trẻ em được chơi các trò chơi lành mạnh và an toàn sau giờ học. Vui chơi giúp trẻ em khỏe mạnh và học tốt hơn.",
+    "bai": 11
+  },
+  {
+    "id": 100,
+    "question": "Bổn phận học tập của trẻ em là gì?",
+    "options": [
+      "A. Học hay không tùy ý thích của mình mỗi ngày",
+      "B. Học chăm chỉ, hoàn thành nhiệm vụ học tập",
+      "C. Đi học chỉ để chơi với bạn bè là chính",
+      "D. Chỉ học môn mình thích, bỏ các môn khác"
+    ],
+    "answer": 1,
+    "explanation": "Trẻ em có bổn phận học tập chăm chỉ và hoàn thành nhiệm vụ học tập. Học tập là con đường giúp em trưởng thành.",
+    "bai": 12
+  },
+  {
+    "id": 101,
+    "question": "Bổn phận của trẻ em đối với gia đình là gì?",
+    "options": [
+      "A. Kính trọng ông bà, cha mẹ, giúp việc nhà",
+      "B. Chỉ nhận tiền và quà từ gia đình cho mình",
+      "C. Không cần nghe lời người lớn trong nhà",
+      "D. Đòi gia đình mua mọi thứ mình thích ngay"
+    ],
+    "answer": 0,
+    "explanation": "Trẻ em có bổn phận yêu quý, kính trọng ông bà, cha mẹ và giúp việc nhà vừa sức. Ví dụ: em quét nhà, gấp quần áo giúp mẹ.",
+    "bai": 12
+  },
+  {
+    "id": 102,
+    "question": "Bổn phận của trẻ em ở trường là gì?",
+    "options": [
+      "A. Trêu chọc bạn yếu hơn trong lớp học",
+      "B. Không làm bài tập về nhà đã được giao",
+      "C. Tôn trọng thầy cô, đoàn kết với bạn bè",
+      "D. Nói chuyện riêng trong giờ học của lớp"
+    ],
+    "answer": 2,
+    "explanation": "Trẻ em có bổn phận tôn trọng thầy cô và đoàn kết với bạn bè. Lớp học vui khi mọi người tôn trọng nhau.",
+    "bai": 12
+  },
+  {
+    "id": 103,
+    "question": "Khi quyền của em bị xâm phạm, em nên làm gì?",
+    "options": [
+      "A. Im lặng vì sợ bị mắng thêm nữa",
+      "B. Tự giải quyết bằng cách đánh nhau lại với họ",
+      "C. Bỏ nhà đi nơi khác cho khuất mắt",
+      "D. Nói với người lớn tin cậy hoặc gọi 111"
+    ],
+    "answer": 3,
+    "explanation": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 là cách đúng. Người lớn sẽ giúp bảo vệ em.",
+    "bai": 12
+  },
+  {
+    "id": 104,
+    "question": "Trẻ em tham gia ý kiến vào việc của lớp bằng cách nào?",
+    "options": [
+      "A. Nói ý kiến mình trong giờ sinh hoạt lớp",
+      "B. Im lặng vì ý kiến trẻ em không quan trọng",
+      "C. Chỉ nghe theo ý kiến một bạn trong lớp",
+      "D. Bắt mọi người làm theo ý mình mọi lúc"
+    ],
+    "answer": 0,
+    "explanation": "Em nói ý kiến của mình trong giờ sinh hoạt lớp là thực hiện quyền tham gia. Ý kiến của trẻ em được lắng nghe và tôn trọng.",
+    "bai": 12
+  },
+  {
+    "id": 105,
+    "question": "Trẻ em có bổn phận giữ gìn vệ sinh và bảo vệ môi trường. Ví dụ nào sau đây là đúng?",
+    "options": [
+      "A. Xả rác bừa bãi trong sân trường học mỗi ngày",
+      "B. Vẽ bậy lên tường lớp học của mình",
+      "C. Bỏ rác đúng chỗ, giữ trường lớp sạch sẽ",
+      "D. Ngắt hoa trong công viên mang về nhà"
+    ],
+    "answer": 2,
+    "explanation": "Bỏ rác đúng nơi quy định và giữ trường lớp sạch sẽ là bổn phận của trẻ em. Trường sạch thì mọi người đều khỏe.",
+    "bai": 12
+  },
+  {
+    "id": 106,
+    "question": "Bạn em bị bạn khác bắt nạt. Em nên làm gì?",
+    "options": [
+      "A. Đứng xem cho vui, không can thiệp gì",
+      "B. Báo thầy cô, người lớn để giúp bạn",
+      "C. Cùng bắt nạt bạn cho vui với nhóm",
+      "D. Bảo bạn im lặng chịu đựng cho qua"
+    ],
+    "answer": 1,
+    "explanation": "Báo với thầy cô hoặc người lớn để giúp bạn là việc làm đúng. Người chứng kiến cũng góp phần bảo vệ bạn bị bắt nạt.",
+    "bai": 12
+  },
+  {
+    "id": 107,
+    "question": "Trẻ em có được làm công việc nguy hiểm, nặng nhọc không?",
+    "options": [
+      "A. Có, nếu được trả nhiều tiền công",
+      "B. Có, nếu trẻ em muốn làm việc đó",
+      "C. Có, vào dịp nghỉ hè rảnh rỗi dài ngày luôn",
+      "D. Không, trẻ em không làm việc nguy hiểm"
+    ],
+    "answer": 3,
+    "explanation": "Trẻ em không được làm việc nguy hiểm hay nặng nhọc. Pháp luật cấm bóc lột sức lao động của trẻ em để bảo vệ sức khỏe và việc học của em.",
+    "bai": 12
+  },
+  {
+    "id": 108,
+    "question": "Thực hiện quyền đi đôi với bổn phận có nghĩa là gì?",
+    "options": [
+      "A. Vừa hưởng quyền, vừa làm tròn bổn phận",
+      "B. Chỉ hưởng quyền, không cần làm gì cả",
+      "C. Chỉ làm bổn phận, không có quyền gì cả",
+      "D. Quyền và bổn phận không liên quan nhau"
+    ],
+    "answer": 0,
+    "explanation": "Thực hiện quyền đi đôi với bổn phận nghĩa là em vừa được hưởng quyền, vừa phải làm tròn bổn phận. Ví dụ: em được đi học thì phải học tập chăm chỉ.",
+    "bai": 12
   }
 ]

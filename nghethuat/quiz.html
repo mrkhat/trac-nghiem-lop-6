@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nghệ thuật 6 — Cả năm | Học từng bài & Trắc nghiệm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;color:#1f2937;max-width:800px;margin:0 auto;padding:16px;background:#f5f5f5}
+h1{text-align:center;color:#1a73e8;margin-bottom:8px;font-size:30px;line-height:1.3}
+.sub{text-align:center;color:#444;margin-bottom:20px}
+.mode-btns{display:flex;gap:12px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
+.mode-btns button{padding:14px 28px;font-size:17px;border:none;border-radius:8px;cursor:pointer;color:#fff}
+#btnPractice{background:#34a853}
+#btnExam{background:#ea8600}
+#btnStudy{background:#1a73e8}
+#btnHome{background:#666;color:#fff;min-height:44px;padding:8px 16px;font-size:16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px}
+.q{background:#fff;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.q p{font-weight:bold;margin-bottom:10px;font-size:19px;line-height:1.6}
+.opt{display:block;width:100%;text-align:left;padding:10px 12px;margin:6px 0;border:1px solid #ddd;border-radius:6px;background:#fafafa;cursor:pointer;font-size:17px;line-height:1.55;font-family:inherit}
+.opt:hover{background:#e8f0fe}
+.opt.correct{background:#d4edda;border-color:#28a745;color:#155724}
+.opt.wrong{background:#f8d7da;border-color:#dc3545;color:#721c24}
+.opt:disabled{cursor:default;opacity:.9}
+.exp{margin-top:8px;padding:8px;background:#fff3cd;border-radius:6px;font-size:16px;line-height:1.65;display:none}
+.exp.show{display:block}
+#progress{text-align:center;margin-bottom:12px;font-weight:bold}
+#result{background:#fff;padding:20px;border-radius:8px;text-align:center}
+#result h2{margin-bottom:12px;font-size:25px}
+.r-item{text-align:left;padding:8px;border-bottom:1px solid #eee;font-size:16px;line-height:1.65}
+.r-item small{font-size:16px;line-height:1.65}
+.r-ok{color:#28a745}.r-no{color:#dc3545}
+#nextBtn{display:block;margin:16px auto;padding:12px 40px;font-size:17px;background:#1a73e8;color:#fff;border:none;border-radius:8px;cursor:pointer}
+.hidden{display:none}
+</style>
+<style>
+/* ===== CHUAN GIAO DIEN CHUNG - LOP 6 (ap cho moi mon) ===== */
+body{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:18px;line-height:1.7;background:#f5f7fa;color:#212121;max-width:840px;margin:0 auto;padding:16px}
+h1{font-size:30px;line-height:1.3;text-align:center;margin:12px 0 6px;font-weight:700}
+h2{font-size:24px;line-height:1.35;margin:20px 0 10px}
+h3{font-size:20px;line-height:1.4;margin:16px 0 8px}
+img{max-width:100%}
+.lesson{background:#fff;border:1px solid #dfe3e6;border-radius:14px;padding:18px;margin:14px 0}
+.secttl{font-size:24px;font-weight:700;margin:18px 0 8px}
+.btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
+input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
+a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+.viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.next{font-size:17px}
+@media(max-width:480px){body{padding:12px}h1{font-size:26px}}
+</style>
+<link rel="stylesheet" href="../assets/fc-onluyen.css">
+
+<style>
+/* ===== TAB FLASHCARD TONG HOP ===== */
+#btnHomeF{background:#666;color:#fff;padding:8px 16px;font-size:16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px;min-height:44px;font-family:inherit}
+.fcwrap{max-width:560px;margin:0 auto}
+.fcbar{height:10px;background:#e0e0e0;border-radius:6px;overflow:hidden;margin:8px 0 4px}
+.fcbar>i{display:block;height:100%;background:#43a047;width:0%}
+.fcstat{text-align:center;font-size:15px;color:#555;margin-bottom:8px}
+.fcscene{perspective:1000px}
+.fccard{position:relative;width:100%;min-height:300px;cursor:pointer;transition:transform .25s,opacity .25s}
+.fcinner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .45s}
+.fccard.flip .fcinner{transform:rotateY(180deg)}
+.fcface{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b39ddb;border-radius:14px;padding:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:auto}
+.fcface.back{transform:rotateY(180deg);background:#f3e5f5;border-color:#7b1fa2}
+.fcface img{max-width:100%;max-height:170px;border-radius:8px;margin-bottom:10px}
+.fcface svg{max-width:100%;height:auto;max-height:190px;margin-bottom:8px}
+.fctext{font-size:18px;line-height:1.6;white-space:pre-line}
+.fctag{position:absolute;top:10px;left:12px;font-size:13px;font-weight:700;color:#7b1fa2;background:#ede7f6;padding:2px 8px;border-radius:20px}
+.fchint{position:absolute;bottom:8px;right:12px;font-size:13px;color:#999}
+.fcbtns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.fcbtns button{min-height:48px;padding:10px 16px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;border:1.5px solid #b0bec5;background:#fff}
+.fcbtns .ok{background:#43a047;border-color:#43a047;color:#fff;font-weight:700}
+.fcbtns .no{color:#e65100;border-color:#e65100;font-weight:700}
+.fcpop{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%) scale(.4);font-size:74px;opacity:0;pointer-events:none;z-index:5}
+.fcpop.go{animation:fcpopA .45s ease-out}
+@keyframes fcpopA{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}35%{opacity:1;transform:translate(-50%,-50%) scale(1.15)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.3)}}
+.fccard.outR{transform:translateX(60px);opacity:0}
+.fccard.outL{transform:translateX(-60px);opacity:0}
+.fcdone{background:#e8f5e9;border:1.5px solid #43a047;border-radius:14px;padding:22px;text-align:center;font-size:18px}
+</style>
+</head>
+<body>
+<h1>🎨 Nghệ thuật 6 — Cả năm</h1>
+<p class="sub" id="qcount">Đang tải câu hỏi…</p>
+<div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang Nghệ thuật 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
+<div id="home">
+  <div style="text-align:center;margin-bottom:16px">
+    <label for="lessonSel" style="font-weight:600">📚 Chọn bài để luyện: </label>
+    <select id="lessonSel" style="padding:10px 12px;border-radius:8px;border:1.5px solid #b0bec5;background:#fff;max-width:100%"></select>
+    <div style="margin-top:12px">
+      <label for="periodSel" style="font-weight:600">🏁 Ôn theo kỳ thi: </label>
+      <select id="periodSel" style="padding:10px 12px;border-radius:8px;border:1.5px solid #b0bec5;background:#fff;max-width:100%">
+        <option value="">Theo từng bài ở ô trên</option>
+        <option value="gk1">Giữa học kì 1</option>
+        <option value="ck1">Cuối học kì 1</option>
+        <option value="gk2">Giữa học kì 2</option>
+        <option value="ck2">Cuối học kì 2</option>
+      </select>
+      <div style="font-size:15px;color:#555;margin-top:4px">Chọn kỳ thi để luyện đúng phạm vi kỳ đó. Luyện tập làm hết câu trong kỳ; Kiểm tra thử lấy tối đa 20 câu ngẫu nhiên trong kỳ, không bấm giờ.<br>Khi đã chọn kỳ thi thì ô chọn bài ở trên tạm không dùng.<br>Nghệ thuật học cả năm theo thứ tự SGK nên các kỳ chia đều 24 đơn vị (Giữa HK1: 1–6, Cuối HK1: 1–12, Giữa HK2: 1–18, Cuối HK2: tất cả) — phân kỳ này chưa xác nhận theo thời khóa biểu của trường em, trường có thể chia khác.</div>
+    </div>
+    <div style="font-size:15px;color:#555;margin-top:4px">Học xong bài nào, em chọn đúng bài đó để luyện.<br>Muốn ôn tất cả thì chọn "Tất cả các bài".<br>Mỗi lần luyện 10 câu thôi. Làm xong là nghỉ cũng được.</div>
+  </div>
+  <div class="mode-btns">
+    <button id="btnPractice">📝 Luyện tập<br><small style="font-size:14px">biết ngay đúng/sai từng câu</small></button>
+    <button id="btnExam">🧠 Kiểm tra thử<br><small style="font-size:14px">20 câu. Biết đúng sai ngay từng câu. Không bấm giờ.</small></button>
+    <button id="btnStudy">📖 Học tập<br><small style="font-size:14px">xem toàn bộ câu hỏi + đáp án</small></button>
+    <button id="btnFlash" style="background:#7b1fa2">🃏 Thẻ của bài đang chọn<br><small style="font-size:14px">chỉ thẻ của bài em chọn ở ô trên</small></button>
+    <button id="btnGame" style="background:#00897b">🎮 Lật thẻ tìm cặp<br><small style="font-size:14px">ghép câu hỏi với đáp án đúng</small></button>
+  </div>
+  <div class="mode-btns onl-btns">
+    <button id="btnOnFC">🃏 Thẻ của cả môn<br><small style="font-size:14px">tất cả <span id="onFCnt">…</span> thẻ, bài nào cũng có</small></button>
+    <button id="btnOnNN">⚡ Thẻ nhớ nhanh của cả môn<br><small style="font-size:14px">tất cả <span id="onNCnt">…</span> thẻ ngắn, ôn rất nhanh</small></button>
+  </div>
+</div>
+<div id="onluyen" class="hidden">
+  <button id="btnOnBack">← Chọn lại chế độ</button>
+  <div class="onl-title" id="onlTitle"></div>
+  <p class="onl-sub" id="onlSub"></p>
+  <div id="onlDeckFC"></div>
+  <div id="onlDeckNN"></div>
+</div>
+<div id="quizArea" class="hidden">
+  <button id="btnHome">← Chọn lại chế độ</button>
+  <div id="progress"></div>
+  <div id="quiz"></div>
+  <button id="nextBtn" class="hidden">Câu tiếp theo →</button>
+  <div id="result" class="hidden"></div>
+</div>
+<div id="gameArea" class="hidden">
+  <h2 style="text-align:center">🎮 Lật thẻ tìm cặp</h2>
+  <p id="gmHead" style="text-align:center;font-weight:600"></p>
+  <p id="gmStats" style="text-align:center"></p>
+  <p style="text-align:center;font-size:17px;color:#37474f;margin:8px 0">Cách chơi: 1) Bấm 1 thẻ để xem câu hỏi. 2) Bấm 1 thẻ nữa để xem đáp án. 3) Nếu hai thẻ là một cặp, hai thẻ ở lại. Em tìm hết các cặp là thắng.</p>
+  <div id="gmBoard"></div>
+  <div id="gmWin" class="hidden" style="text-align:center;background:#e8f5e9;border:2px solid #43a047;border-radius:12px;padding:14px;margin:12px 0"></div>
+  <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap">
+    <button id="gmNew" style="background:#00897b;flex:1;min-width:140px">🔀 Ván mới</button>
+    <button id="gmHome" style="background:#eceff1;color:#37474f;flex:1;min-width:140px">🏠 Về trang chính</button>
+  </div>
+</div>
+<div id="flashArea" class="hidden">
+  <button id="btnHomeF">← Chọn lại chế độ</button>
+  <div id="fcHead" style="text-align:center;font-weight:600;margin:6px 0 10px"></div>
+  <div id="fcMount"></div>
+</div>
+<script>
+let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
+let sessRest=[];
+fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;buildLessonSel();document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Cả năm (Âm nhạc 8 chủ đề, Mĩ thuật 16 bài) • sách Kết nối tri thức';}).catch(function(){document.getElementById('qcount').innerHTML='Chưa tải được câu hỏi. Em kiểm tra mạng rồi bấm nút Tải lại nhé. <button type="button" onclick="location.reload()" style="min-height:44px;padding:10px 18px;border:none;border-radius:10px;background:#1a73e8;color:#fff;font-size:16px;font-family:inherit;cursor:pointer">🔄 Tải lại</button>';});
+
+document.getElementById('btnPractice').onclick=()=>start('practice');
+document.getElementById('btnExam').onclick=()=>start('exam');
+document.getElementById('btnStudy').onclick=()=>start('study');
+document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
+
+const LESSON_NAMES = ["", "Chủ đề 1. Tuổi học trò", "Chủ đề 2. Cuộc sống tươi đẹp", "Chủ đề 3. Nhớ ơn thầy cô", "Chủ đề 4. Ước mơ hòa bình", "Chủ đề 5. Giai điệu quê hương", "Chủ đề 6. Mẹ trong trái tim em", "Chủ đề 7. Âm nhạc nước ngoài", "Chủ đề 8. Bác Hồ với thiếu nhi", "Bài 1. Một số thể loại mĩ thuật", "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề", "Bài 3. Tạo hình ngôi nhà", "Bài 4. Thiết kế quà lưu niệm", "Bài 5. Tạo hình hoạt động trong nhà trường", "Bài 6. Thiết kế đồ chơi", "Bài 7. Mĩ thuật thế giới thời kì tiền sử", "Bài 8. Mĩ thuật Việt Nam thời kì tiền sử", "Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian", "Bài 10. Thiết kế thiệp chúc mừng", "Bài 11. Hoà sắc trong tranh chủ đề lễ hội", "Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường", "Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống", "Bài 14. Thiết kế thời gian biểu", "Bài 15. Mĩ thuật thế giới thời kì cổ đại", "Bài 16. Mĩ thuật Việt Nam thời kì cổ đại"];
+function lessonName(b){ if(LESSON_NAMES && LESSON_NAMES[b]) return LESSON_NAMES[b]; return 'Bài '+b; }
+function buildLessonSel(){
+  const sel=document.getElementById('lessonSel'); if(!sel) return;
+  const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
+  const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+keys.map(k=>'<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>').join('');
+}
+/* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (mẫu chung các môn) =====
+   Nghệ thuật cả năm, không chia kỳ theo SGK nên chia đều 24 đơn vị: gk1 max=6, ck1 max=12,
+   gk2 max=18, ck2 không giới hạn (tất cả). Phân kỳ này chưa xác nhận PPCT của trường.
+   Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó. Kỳ được chọn ưu tiên hơn ô chọn bài. */
+const PERIODS={gk1:{label:'Giữa học kì 1',max:6},ck1:{label:'Cuối học kì 1',max:12},gk2:{label:'Giữa học kì 2',max:18},ck2:{label:'Cuối học kì 2',max:null}};
+function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
+function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
+function showEmptyScope(){
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.remove('hidden');
+  document.getElementById('result').classList.add('hidden');
+  document.getElementById('nextBtn').classList.add('hidden');
+  document.getElementById('progress').textContent='';
+  document.getElementById('quiz').innerHTML='<div class="q" style="text-align:center"><p style="font-size:19px">📚 <b>Kỳ này chưa có câu hỏi.</b></p><p>Em chọn kỳ khác hoặc chọn "Tất cả các bài" nhé.</p><p><button type="button" id="btnEmptyBack" style="min-height:48px;padding:10px 22px;font-size:16px;background:#1a73e8;color:#fff;border:none;border-radius:10px;cursor:pointer;font-family:inherit">← Chọn lại</button></p></div>';
+  document.getElementById('btnEmptyBack').onclick=function(){ document.getElementById('home').classList.remove('hidden'); document.getElementById('quizArea').classList.add('hidden'); };
+}
+function getPool(){
+  const pk=periodKey();
+  if(pk && PERIODS[pk]){
+    const mx=PERIODS[pk].max;
+    return mx===null ? [...allQ] : allQ.filter(q=>Number(q.bai)<=mx);
+  }
+  const sel=document.getElementById('lessonSel');
+  if(!sel || sel.value==='all') return [...allQ];
+  return allQ.filter(q=>String(q.bai)===sel.value);
+}
+function scopeName(){
+  const pl=periodLabel();
+  if(pl) return pl;
+  const sel=document.getElementById('lessonSel');
+  if(!sel || sel.value==='all') return '';
+  return lessonName(parseInt(sel.value));
+}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function qLen(q){ return (q.question||'').length + (q.options||[]).join('').length; }
+function orderPractice(P){ const srt=[...P].sort((a,b)=>qLen(a)-qLen(b)); return [...srt.slice(0,3), ...shuffle(srt.slice(3))]; }
+function continueSession(){
+  const nb=document.getElementById('nextBtn'); nb.onclick=next;
+  quizQ=quizQ.concat(sessRest.slice(0,10)); sessRest=sessRest.slice(10);
+  renderQ();
+}
+function showRest(){
+  qsStop();
+  document.getElementById('progress').textContent='🌟 Nghỉ một lát';
+  const qd=document.getElementById('quiz');
+  qd.innerHTML='<div class="q" style="text-align:center"><p style="font-size:19px">🌟 <b>Em đã làm xong 10 câu rồi. Giỏi lắm!</b></p><p>Mắt mỏi thì nghỉ một lát nhé.</p><p>Em đã làm '+answers.length+' câu, đúng '+score+' câu.</p><p><button type="button" id="btnStopHere" style="min-height:48px;padding:10px 22px;font-size:16px;background:#fff;color:#1a73e8;border:1.5px solid #1a73e8;border-radius:10px;cursor:pointer;font-family:inherit">Dừng ở đây</button></p></div>';
+  const nb=document.getElementById('nextBtn');
+  nb.textContent='Làm tiếp 10 câu nữa →'; nb.classList.remove('hidden');
+  nb.onclick=continueSession;
+  document.getElementById('btnStopHere').onclick=function(){ nb.onclick=next; quizQ=quizQ.slice(0,answers.length); sessRest=[]; showResult(); };
+}
+function startWrong(){
+  const wrongs=answers.filter(a=>!a.ok).map(a=>a.q);
+  if(!wrongs.length) return;
+  mode='practice';
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.remove('hidden');
+  document.getElementById('result').classList.add('hidden');
+  idx=0; score=0; answers=[];
+  const ordered=orderPractice(wrongs);
+  quizQ=ordered.slice(0,10); sessRest=ordered.slice(10);
+  renderQ();
+}
+function start(m){
+  if(!allQ.length){document.getElementById('qcount').innerHTML='Chưa tải được câu hỏi. Em kiểm tra mạng rồi bấm nút Tải lại nhé. <button type="button" onclick="location.reload()" style="min-height:44px;padding:10px 18px;border:none;border-radius:10px;background:#1a73e8;color:#fff;font-size:16px;font-family:inherit;cursor:pointer">🔄 Tải lại</button>';window.scrollTo(0,0);return;}
+  mode=m;
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.remove('hidden');
+  document.getElementById('result').classList.add('hidden');
+  idx=0;score=0;answers=[];sessRest=[];
+  if(!getPool().length){ showEmptyScope(); return; }
+  if(m==='study'){ renderStudy(); return; }
+  const P=getPool();
+  if(m==='exam'){ quizQ=shuffle([...P]).slice(0,Math.min(20,P.length)); }
+  else { const ordered=orderPractice(P); quizQ=ordered.slice(0,10); sessRest=ordered.slice(10); }
+  document.getElementById('nextBtn').classList.toggle('hidden', m!=='practice');
+  renderQ();
+}
+function renderStudy(){
+  // Chế độ học tập: hiện toàn bộ câu hỏi, bấm chọn đáp án từng câu như chế độ thi
+  document.getElementById('progress').textContent=`📖 Chế độ học tập — ${getPool().length} câu hỏi (bấm chọn đáp án từng câu)`;
+  document.getElementById('nextBtn').classList.add('hidden');
+  const qd=document.getElementById('quiz');
+  qd.innerHTML=getPool().map((q,i)=>
+    `<div class="q" id="sq${i}"><p>Câu ${i+1}: ${q.question}</p>`+
+    q.options.map((o,oi)=>`<button class="opt" data-q="${i}" data-o="${oi}">${o}</button>`).join('')+
+    `<div class="exp" id="sexp${i}"></div></div>`
+  ).join('');
+  window._studyQ=getPool();
+  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>studyAnswer(parseInt(b.dataset.q),parseInt(b.dataset.o)));
+}
+function studyAnswer(qi, oi){
+  const q=window._studyQ[qi], ok=(oi===q.answer);
+  const box=document.querySelector(`#sq${qi}`);
+  box.querySelectorAll('.opt').forEach((b,bi)=>{
+    b.disabled=true;
+    if(bi===q.answer)b.classList.add('correct');
+    else if(bi===oi)b.classList.add('wrong');
+  });
+  const exp=document.getElementById(`sexp${qi}`);
+  exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Chưa đúng.</b> Em chọn: '+q.options[oi]+'. ')+`Đáp án đúng: ${q.options[q.answer]}<br>💡 ${q.explanation}`;
+  exp.classList.add('show');
+}
+
+/* ===== Nghe cau hoi bang speechSynthesis (giong vi-VN neu co, toc do vua cho tre) ===== */
+var qsBtn=null;
+function qsReset(){ if(qsBtn){ qsBtn.textContent='🔊 Nghe câu hỏi'; qsBtn=null; } }
+function qsStop(){ try{ if(window.speechSynthesis) window.speechSynthesis.cancel(); }catch(e){} qsReset(); }
+function qsPlain(h){ var d=document.createElement('div'); d.innerHTML=h||''; return (d.textContent||'').replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g,'').replace(/\s+/g,' ').trim(); }
+function qsSpeak(html,btn){
+  try{
+    if(!('speechSynthesis' in window)) return;
+    if(window.speechSynthesis.speaking){ qsStop(); return; }
+    var text=qsPlain(html); if(!text) return;
+    var parts=text.match(/[^.!?…]+(?:[.!?…]+)?/g)||[text], i=0, synth=window.speechSynthesis;
+    var vs=[]; try{ vs=synth.getVoices()||[]; }catch(e){}
+    var voice=null;
+    for(var k=0;k<vs.length;k++){ var lg=(vs[k].lang||'').toLowerCase().replace('_','-'); if(lg==='vi-vn'){ voice=vs[k]; break; } if(!voice && lg.indexOf('vi')===0) voice=vs[k]; }
+    qsBtn=btn; btn.textContent='🔊 Đang đọc… (bấm để dừng)';
+    (function next(){
+      if(i>=parts.length){ qsReset(); return; }
+      var u=new SpeechSynthesisUtterance(parts[i].trim());
+      u.lang='vi-VN'; u.rate=0.95; if(voice){ u.voice=voice; u.lang=voice.lang||u.lang; }
+      u.onend=function(){ i++; next(); };
+      u.onerror=function(){ qsReset(); };
+      try{ synth.speak(u); }catch(e){ qsReset(); }
+    })();
+  }catch(e){ qsReset(); }
+}
+window.addEventListener('beforeunload',function(){ try{ if(window.speechSynthesis) window.speechSynthesis.cancel(); }catch(e){} });
+
+function renderQ(){
+  qsStop();
+  const q=quizQ[idx], qd=document.getElementById('quiz');
+  document.getElementById('progress').textContent=`Câu ${idx+1}/${quizQ.length}`+(mode==='exam'?' (chế độ thi)':' (luyện tập)')+(scopeName()?' • '+scopeName():'');
+  qd.innerHTML=`<div class="q"><p>Câu ${idx+1}: ${q.question}</p><button type="button" class="spk qspk">🔊 Nghe câu hỏi</button>`+
+    q.options.map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')+
+    `<div class="exp" id="exp"></div></div>`;
+  qd.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(parseInt(b.dataset.i)));
+  const qb=qd.querySelector('.qspk'); if(qb){ qb.onclick=function(){ qsSpeak(q.question, qb); }; }
+  const nb0=document.getElementById('nextBtn');
+  nb0.classList.add('hidden');
+  nb0.textContent='Câu tiếp theo →';
+}
+function answer(i){
+  const q=quizQ[idx], ok=(i===q.answer);
+  answers.push({q, picked:i, ok});
+  if(ok)score++;
+  const btns=document.querySelectorAll('.opt');
+  btns.forEach((b,bi)=>{
+    b.disabled=true;
+    if(bi===q.answer)b.classList.add('correct');
+    else if(bi===i)b.classList.add('wrong');
+  });
+  const exp=document.getElementById('exp');
+  if(mode==='practice'){
+    exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Chưa đúng.</b> Em chọn: '+q.options[i]+'. Đáp án đúng là: '+q.options[q.answer]+'. ')+q.explanation;
+    exp.classList.add('show');
+    document.getElementById('nextBtn').classList.remove('hidden');
+  } else {
+    // chế độ thi: hiện đúng/sai + giải thích ngay tại chỗ, bé bấm nút mới qua câu tiếp theo
+    exp.innerHTML=(ok?'✅ <b>Đúng!</b> ':'❌ <b>Chưa đúng.</b> Em chọn: '+q.options[i]+'. Đáp án đúng là: '+q.options[q.answer]+'. ')+(q.explanation||'');
+    exp.classList.add('show');
+    const nb=document.getElementById('nextBtn');
+    nb.textContent=(idx===quizQ.length-1)?'Xem kết quả 🏁':'Câu tiếp theo →';
+    nb.classList.remove('hidden');
+  }
+}
+document.getElementById('nextBtn').onclick=next;
+function next(){
+  idx++;
+  if(idx<quizQ.length)renderQ();
+  else if(mode==='practice' && sessRest.length) showRest();
+  else showResult();
+}
+function showResult(){
+  qsStop();
+  document.getElementById('quiz').innerHTML='';
+  document.getElementById('progress').textContent='';
+  document.getElementById('nextBtn').classList.add('hidden');
+  const r=document.getElementById('result');
+  r.classList.remove('hidden');
+  let html=`<h2>Kết quả: ${score}/${quizQ.length} (${Math.round(score/quizQ.length*100)}%)</h2>`;
+  const _r=quizQ.length?score/quizQ.length:0;
+  html+= _r>=0.8 ? '<p>🎉 Xuất sắc! Em nhớ bài rất chắc.</p>' : _r>=0.5 ? '<p>👍 Khá tốt! Em xem lại mấy câu sai ở dưới rồi thử lại nhé.</p>' : _r>=0.3 ? '<p>💪 Em đã cố gắng làm hết bài rồi. Mình xem lại phần giải thích ở câu sai, rồi làm lại một lần nữa nhé.</p>' : '<p>🌱 Không sao đâu! Bài này hơi khó. Em quay lại đọc bài học một lần nữa, rồi mình làm lại từ đầu nhé.</p>';
+  answers.forEach((a,i)=>{
+    html+=`<div class="r-item" data-ok="${a.ok?1:0}"><span class="${a.ok?'r-ok':'r-no'}">${a.ok?'✅':'❌'} Câu ${i+1}:</span> ${a.q.question}<br><small>Em chọn: ${a.q.options[a.picked]}<br>Đáp án đúng: ${a.q.options[a.q.answer]}<br><i>${a.q.explanation}</i></small><br><a href="index.html#bai${a.q.bai}" style="font-size:15px">📖 Đọc lại Bài ${a.q.bai} trong bài học</a></div>`;
+  });
+  const wrongN=answers.filter(a=>!a.ok).length;
+  if(wrongN>0){
+    html+=`<p style="margin:14px 0 4px"><button id="btnWrongOnly" style="min-height:48px;padding:10px 20px;font-size:16px;background:#fff;color:#b34700;border:1.5px solid #b34700;border-radius:10px;cursor:pointer;font-family:inherit">Chỉ xem câu sai (${wrongN})</button> <button id="btnRetryWrong" style="min-height:48px;padding:10px 20px;font-size:16px;background:#ef6c00;color:#fff;border:none;border-radius:10px;cursor:pointer;font-family:inherit">Làm lại ${wrongN} câu sai</button></p>`;
+  }
+  html+=`<br><button id="btnRetry" style="min-height:48px;padding:10px 24px;font-size:16px;background:#43a047;color:#fff;border:none;border-radius:10px;cursor:pointer;font-family:inherit">🔁 Làm lại bài này</button> <button id="btnHome2" style="min-height:48px;padding:10px 24px;font-size:16px;background:#1a73e8;color:#fff;border:none;border-radius:10px;cursor:pointer;font-family:inherit">🏠 Về trang chính</button> <a href="./" style="display:inline-block;min-height:48px;padding:12px 24px;font-size:16px;background:#fff;color:#1a73e8;border:1.5px solid #1a73e8;border-radius:10px;text-decoration:none;box-sizing:border-box">📖 Đọc lại bài học</a>`;
+  r.innerHTML=html;
+  document.getElementById('btnHome2').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
+  document.getElementById('btnRetry').onclick=()=>{start(mode);};
+  const bw=document.getElementById('btnWrongOnly');
+  if(bw){ let onlyWrong=false; bw.onclick=()=>{ onlyWrong=!onlyWrong; r.querySelectorAll('.r-item').forEach(el=>{ el.style.display=(onlyWrong&&el.dataset.ok==='1')?'none':''; }); bw.textContent=onlyWrong?'Xem tất cả các câu':'Chỉ xem câu sai ('+wrongN+')'; }; }
+  const brw=document.getElementById('btnRetryWrong');
+  if(brw){ brw.onclick=()=>{ startWrong(); }; }
+}
+</script>
+
+<p class="sub" style="text-align:center;font-size:14px;color:#78909c;margin:20px 0 6px">Trang này để em tự ôn bài. Câu nào em chưa hiểu, em hỏi thầy cô nhé.</p>
+<script src="cards-data.js"></script>
+<script src="../assets/fc-state.js"></script>
+<script src="../assets/fc-onluyen.js"></script>
+<script>
+/* ===== ÔN LUYỆN: gom toan bo flashcard + the Nho nhanh cua mon vao trang bai tap =====
+   Du lieu the lay tu cards-data.js (dung chung voi trang hoc) va the Nho nhanh
+   duoc gom truc tiep tu trang hoc — khong sao chep du lieu. */
+
+function buildFlashItems(){
+  return CARDS.map(function(c,ci){
+    var img=(c[2]&&typeof IMG!=='undefined'&&IMG[c[2]])?'<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">':'';
+    var front=img+'<div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+}
+onluyenBoot({lsKey:'onluyen_nghethuat', subject:'Nghệ thuật 6', buildFlashItems:buildFlashItems});
+</script>
+
+<script>
+/* ===== TAB FLASHCARD: tong hop flashcard + the Nho nhanh cua ca mon, dung chung nguon cards-data.js voi trang hoc, loc theo bai dang chon o muc "Chon bai de luyen" ===== */
+const FC_BAI = [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24];
+let fcAll=null, fcQueue=[], fcPos=0, fcFlip=false, fcPool=[];
+const FC_MON='nghethuat';
+let fcStoreObj=null;
+function fcStoreGet(){ if(!fcStoreObj){ fcStoreObj=fcMigrateFlash(FC_MON); } return fcStoreObj; }
+function fcIsKnown(it){ return !!it && !!it.cid && fcStoreGet().isKnown(it.cid); }
+function fcBuildItems(){
+  const items=[];
+  if(typeof CARDS!=='undefined'){ CARDS.forEach((c,i)=>{ const it={b:FC_BAI[i],t:'fc',f:c[0]||'',a:c[1]||'',cid:fcCidC(i)}; if(c[2]&&typeof IMG!=='undefined'&&IMG[c[2]])it.fi=IMG[c[2]]; if(c[3]&&typeof IMG!=='undefined'&&IMG[c[3]])it.ai=IMG[c[3]]; items.push(it); }); }
+  return items;
+}
+async function fcLoadAll(){
+  if(fcAll) return fcAll;
+  const items=fcBuildItems();
+  try{ const mn=await (await fetch('minicards.json')).json(); mn.forEach(m=>items.push({b:m.b,t:'mn',f:m.f,a:m.a,fi:m.fi||'',cid:fcCidM(m.f)})); }catch(e){}
+  items.sort((x,y)=>(x.b-y.b)||(x.t===y.t?0:x.t==='fc'?-1:1));
+  items.forEach((it,i)=>it.uid=i);
+  fcMigrateQuizUids(FC_MON, items);
+  fcMigrateOnluyen(FC_MON, items.filter(x=>x.t==='mn'));
+  fcAll=items; return items;
+}
+async function openFlash(){
+  qsStop();
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.add('hidden');
+  document.getElementById('flashArea').classList.remove('hidden');
+  const all=await fcLoadAll();
+  const sel=document.getElementById('lessonSel');
+  const scope=(sel && sel.value!=='all') ? parseInt(sel.value) : null;
+  fcPool = scope===null ? [...all] : all.filter(it=>it.b===scope);
+  fcQueue = fcPool.map(it=>it.uid);
+  fcQueue.sort((a,b)=>((fcIsKnown(fcAll[a])?1:0)-(fcIsKnown(fcAll[b])?1:0)));
+  fcPos=0; fcFlip=false;
+  const nFc=fcPool.filter(i=>i.t==='fc').length, nMn=fcPool.length-nFc;
+  document.getElementById('fcHead').textContent='\u{1F0CF} Flashcard \u2014 '+(scope===null?'T\u1EA5t c\u1EA3 c\u00E1c b\u00E0i':lessonName(scope))+' \u2022 '+fcPool.length+' th\u1EBB ('+nFc+' flashcard + '+nMn+' nh\u1EDB nhanh)';
+  fcRender();
+}
+function fcCur(){ return fcAll.find(it=>it.uid===fcQueue[fcPos]); }
+function fcRender(){
+  const m=document.getElementById('fcMount');
+  const poolTotal=fcPool.length;
+  const knownN=fcPool.filter(it=>fcIsKnown(it)).length;
+  const dueN=fcPool.filter(it=>fcStoreGet().isDue(it.cid)).length;
+  if(poolTotal===0 || knownN===poolTotal || fcPos>=fcQueue.length){
+    m.innerHTML='<div class="fcdone">\u{1F389} Em \u0111\u00E3 thu\u1ED9c h\u1EBFt '+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y!<br><br><button style="background:#43a047;color:#fff;border:none;min-height:48px;padding:10px 22px;border-radius:10px;font-size:16px;cursor:pointer;font-family:inherit" onclick="fcReset()">\u21BA H\u1ECDc l\u1EA1i t\u1EEB \u0111\u1EA7u</button></div>';
+    return;
+  }
+  const it=fcCur(); if(!it){ return; }
+  const badge = it.t==='mn' ? '\u26A1 Nh\u1EDB nhanh' : '\u{1F0CF} Flashcard';
+  m.innerHTML=
+   '<div class="fcwrap"><div class="fcbar"><i style="width:'+(poolTotal?Math.round(knownN/poolTotal*100):0)+'%"></i></div>'+
+   '<div class="fcstat">\u0110\u00E3 thu\u1ED9c '+knownN+'/'+poolTotal+' th\u1EBB c\u1EE7a b\u1ED9 n\u00E0y \u2022 Th\u1EBB '+(fcPos+1)+'/'+fcQueue.length+(dueN>0?' • Hôm nay ôn lại nhé: '+dueN+' thẻ sắp quên':'')+'</div>'+
+   '<div class="fcscene"><div class="fccard" id="fcCard"><div class="fcinner">'+
+   '<div class="fcface front"><span class="fctag">'+badge+'</span>'+(it.fs||'')+(it.fi?'<img src="'+it.fi+'" alt="">':'')+'<div class="fctext"></div><span class="fchint">B\u1EA5m th\u1EBB \u0111\u1EC3 l\u1EADt \u{1F446}</span></div>'+
+   '<div class="fcface back"><span class="fctag">'+badge+'</span>'+(it.ai?'<img src="'+it.ai+'" alt="">':'')+'<div class="fctext"></div></div>'+
+   '</div></div></div>'+
+   '<div class="fcbtns"><button type="button" onclick="fcPrev()">\u2B05 Tr\u01B0\u1EDBc</button><button type="button" onclick="fcShuffle()">\u{1F500} X\u00E1o tr\u1ED9n</button><button type="button" onclick="fcNext()">Ti\u1EBFp \u27A1</button></div>'+
+   '<div class="fcbtns"><button type="button" class="no" onclick="fcTick(false)">\u21BA Ch\u01B0a thu\u1ED9c</button><button type="button" class="ok" onclick="fcTick(true)">\u2714 \u0110\u00E3 thu\u1ED9c</button></div>'+
+   '</div>';
+  const faces=m.querySelectorAll('.fctext'); faces[0].textContent=it.f; faces[1].textContent=it.a;
+  document.getElementById('fcCard').onclick=()=>{ fcFlip=!fcFlip; document.getElementById('fcCard').classList.toggle('flip',fcFlip); };
+}
+function fcTick(ok){
+  if(!fcFlip){ fcFlip=true; var _gc=document.getElementById('fcCard'); if(_gc)_gc.classList.add('flip'); var _gn=document.getElementById('fcGuardNote'); if(!_gn){ _gn=document.createElement('p'); _gn.id='fcGuardNote'; _gn.style.cssText='text-align:center;font-size:16px;font-weight:600;color:#b34700;margin:10px 0 0'; _gn.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?'; document.getElementById('fcMount').appendChild(_gn); } return; }
+  const it=fcCur(); if(!it) return;
+  const card=document.getElementById('fcCard');
+  const done=()=>{
+    if(ok){ fcStoreGet().setKnown(it.cid,true); fcPos++; }
+    else { fcStoreGet().setKnown(it.cid,false); const u=fcQueue.splice(fcPos,1)[0]; fcQueue.push(u); }
+    fcFlip=false; fcRender();
+  };
+  if(card){
+    const pop=document.createElement('div'); pop.className='fcpop go'; pop.textContent= ok?'\u2714':'\u21BA'; pop.style.color= ok?'#43a047':'#e65100'; card.appendChild(pop);
+    setTimeout(()=>{ card.classList.add(ok?'outR':'outL'); setTimeout(done,230); },180);
+  } else done();
+}
+function fcPrev(){ if(fcPos>0){ fcPos--; fcFlip=false; fcRender(); } }
+function fcNext(){ if(fcPos<fcQueue.length-1){ fcPos++; fcFlip=false; fcRender(); } }
+function fcShuffle(){ for(let i=fcQueue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=fcQueue[i]; fcQueue[i]=fcQueue[j]; fcQueue[j]=t; } fcPos=0; fcFlip=false; fcRender(); }
+function fcReset(){ fcStoreGet().clearPool(fcPool.map(it=>it.cid)); openFlash(); }
+document.getElementById('btnFlash').onclick=openFlash;
+document.getElementById('btnHomeF').onclick=()=>{ document.getElementById('flashArea').classList.add('hidden'); document.getElementById('home').classList.remove('hidden'); };
+document.getElementById('lessonSel').addEventListener('change',()=>{ if(!document.getElementById('flashArea').classList.contains('hidden')) openFlash(); });
+if(location.hash==='#flash'){ openFlash(); }
+</script>
+
+<style>
+#gmNew,#gmHome{min-height:48px;font-size:16px;font-family:inherit;border:none;border-radius:10px;cursor:pointer;padding:10px 16px;color:#fff}
+#gmHome{color:#37474f}
+#gmBoard{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+@media(min-width:640px){#gmBoard{grid-template-columns:repeat(4,1fr)}}
+.gm-tile{perspective:600px;min-height:106px;cursor:pointer}
+.gm-in{position:relative;width:100%;height:100%;min-height:106px;transform-style:preserve-3d;transition:transform .45s}
+.gm-tile.up .gm-in{transform:rotateY(180deg)}
+.gm-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;font-size:15px;line-height:1.35;overflow:hidden}
+.gm-down{background:#00897b;color:#fff;font-size:30px}
+.gm-up{background:#fff;border:2px solid #90a4ae;transform:rotateY(180deg);color:#263238;flex-direction:column;gap:4px}
+.gm-img{max-width:100%;max-height:54px;object-fit:contain;border-radius:6px}
+.gm-svg svg{max-width:100%;max-height:54px;width:auto;height:auto}
+.gm-tile.done .gm-up{background:#e8f5e9;border-color:#43a047}
+.gm-tile.done{cursor:default}
+</style>
+<script>
+/* ===== TRO CHOI LAT THE TIM CAP: dung chung nguon the voi tab Flashcard ===== */
+let gmOpen=[], gmLock=false, gmPairs=0, gmDone=0, gmMoves=0;
+function gmTxt(h){ const d=document.createElement('div'); d.innerHTML=h||''; return (d.textContent||'').replace(/\s+/g,' ').trim(); }
+function gmPoolItems(all){
+  const sel=document.getElementById('lessonSel');
+  const scope=(sel && sel.value!=='all') ? parseInt(sel.value) : null;
+  let items=all.filter(it=> scope===null || it.b===scope).map(it=>({f:gmTxt(it.f), a:gmTxt(it.a), fi:it.fi||'', fs:it.fs||''})).filter(it=> (it.f || it.fi || it.fs) && it.a && it.f!==it.a);
+  const seen=new Set(); items=items.filter(it=>{ const key=it.f+'|'+it.fi+'|'+(it.fs?it.fs.length:0); if(seen.has(key)) return false; seen.add(key); return true; });
+  const tiers=[[70,90],[95,125],[125,175],[1e9,1e9]];
+  for(const t of tiers){ const p=items.filter(it=> it.f.length<=t[0] && it.a.length<=t[1]); if(p.length>=4) return {pool:p, scope:scope}; }
+  return {pool:items, scope:scope};
+}
+async function openGame(){
+  qsStop();
+  document.getElementById('home').classList.add('hidden');
+  document.getElementById('quizArea').classList.add('hidden');
+  document.getElementById('flashArea').classList.add('hidden');
+  document.getElementById('gameArea').classList.remove('hidden');
+  await fcLoadAll();
+  gmDeal();
+}
+function gmDeal(){
+  const r=gmPoolItems(fcAll||[]);
+  const pool=r.pool.slice();
+  for(let i=pool.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=pool[i]; pool[i]=pool[j]; pool[j]=t; }
+  const picks=pool.slice(0, Math.min(6, pool.length));
+  gmPairs=picks.length; gmDone=0; gmMoves=0; gmOpen=[]; gmLock=false;
+  let tiles=[];
+  picks.forEach((it,idx)=>{ tiles.push({k:idx,txt:it.f,fi:it.fi,fs:it.fs}); tiles.push({k:idx,txt:it.a}); });
+  for(let i=tiles.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=tiles[i]; tiles[i]=tiles[j]; tiles[j]=t; }
+  const board=document.getElementById('gmBoard'); board.innerHTML='';
+  tiles.forEach(t=>{
+    const d=document.createElement('div'); d.className='gm-tile'; d.dataset.k=t.k;
+    d.innerHTML='<div class="gm-in"><div class="gm-face gm-down">🎴</div><div class="gm-face gm-up"></div></div>';
+    const up=d.querySelector('.gm-up');
+    if(t.fs){ const sp=document.createElement('span'); sp.className='gm-svg'; sp.innerHTML=t.fs; up.appendChild(sp); }
+    if(t.fi){ const im=document.createElement('img'); im.className='gm-img'; im.src=t.fi; im.alt=''; up.appendChild(im); }
+    const tx=document.createElement('span'); tx.textContent=t.txt; up.appendChild(tx);
+    d.onclick=function(){ gmFlip(d); };
+    board.appendChild(d);
+  });
+  document.getElementById('gmWin').classList.add('hidden');
+  document.getElementById('gmHead').textContent='🎮 Lật thẻ tìm cặp — '+(r.scope===null?'Tất cả các bài':lessonName(r.scope))+' • '+gmPairs+' cặp';
+  gmStats();
+}
+function gmStats(){ document.getElementById('gmStats').textContent='Đã ghép: '+gmDone+'/'+gmPairs+' cặp • Số lần lật 2 thẻ: '+gmMoves; }
+function gmFlip(d){
+  if(gmLock || d.classList.contains('up') || d.classList.contains('done')) return;
+  d.classList.add('up'); gmOpen.push(d);
+  if(gmOpen.length<2) return;
+  gmMoves++;
+  const a=gmOpen[0], b=gmOpen[1]; gmOpen=[];
+  if(a.dataset.k===b.dataset.k){
+    a.classList.add('done'); b.classList.add('done'); gmDone++; gmStats();
+    if(gmDone===gmPairs){ const w=document.getElementById('gmWin'); w.innerHTML='🎉 <b>Thắng rồi!</b> Em ghép đúng '+gmPairs+'/'+gmPairs+' cặp sau '+gmMoves+' lần lật 2 thẻ. Bấm "Ván mới" để chơi tiếp nhé!'; w.classList.remove('hidden'); }
+  } else {
+    gmLock=true; gmStats();
+    setTimeout(()=>{ a.classList.remove('up'); b.classList.remove('up'); gmLock=false; }, 950);
+  }
+}
+document.getElementById('btnGame').onclick=openGame;
+document.getElementById('gmNew').onclick=gmDeal;
+document.getElementById('gmHome').onclick=function(){ document.getElementById('gameArea').classList.add('hidden'); document.getElementById('home').classList.remove('hidden'); };
+document.getElementById('lessonSel').addEventListener('change',()=>{ if(!document.getElementById('gameArea').classList.contains('hidden')) gmDeal(); });
+</script>
+</body>
+</html>

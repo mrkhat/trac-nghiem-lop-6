@@ -37,6 +37,41 @@ const TRAPI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Góc này bằng gó
 const RHOI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Góc đối của nó là góc BCD, hai góc đối bằng nhau. Đường chéo AC là tia phân giác của góc này','Góc ABC — đỉnh B, hai cạnh BA và BC. Góc đối của nó là góc CDA. Đường chéo BD là tia phân giác của góc này','Góc BCD — đỉnh C, hai cạnh CB và CD. Góc đối của nó là góc DAB. Đường chéo AC là tia phân giác của góc này','Góc CDA — đỉnh D, hai cạnh DC và DA. Góc đối của nó là góc ABC. Đường chéo BD là tia phân giác của góc này'];
 const PARAI=['Góc DAB — đỉnh A, hai cạnh AB và AD. Hai góc đối trong hình bình hành bằng nhau: góc này bằng góc BCD; góc kề với nó (ABC, CDA) bù nhau, tổng 180°','Góc ABC — đỉnh B, hai cạnh BA và BC. Góc này bằng góc CDA (hai góc đối), bù với góc DAB','Góc BCD — đỉnh C, hai cạnh CB và CD. Góc này bằng góc DAB (hai góc đối)','Góc CDA — đỉnh D, hai cạnh DC và DA. Góc này bằng góc ABC (hai góc đối), bù với góc DAB'];
 const RECTI=['Góc DAB = 90° — góc vuông ở đỉnh A, hai cạnh là AB và AD','Góc ABC = 90° — góc vuông ở đỉnh B, hai cạnh là BA và BC','Góc BCD = 90° — góc vuông ở đỉnh C, hai cạnh là CB và CD','Góc CDA = 90° — góc vuông ở đỉnh D, hai cạnh là DC và DA'];
+// ===== HK2 helpers (bo sung 2026-10-25) =====
+function frR(n,d){const g=gcd(Math.abs(n),d);return [n/g,d/g];}
+function frS(n,d){const r=frR(n,d);return r[1]===1?''+r[0]:r[0]+'/'+r[1];}
+function decS(v,dp){const neg=v<0,a=Math.abs(v),base=Math.pow(10,dp),ip=Math.floor(a/base);let fp=String(a%base).padStart(dp,'0');while(fp.length>1&&fp.endsWith('0'))fp=fp.slice(0,-1);if(fp==='0')return (neg?'-':'')+ip;return (neg?'-':'')+ip+','+fp;}
+function angSvg(deg){
+  const rad=deg*Math.PI/180, x=Math.round(80+150*Math.cos(rad)), y=Math.round(150-150*Math.sin(rad));
+  return '<svg viewBox="0 0 320 200" style="max-width:300px;width:100%"><line x1="80" y1="150" x2="300" y2="150" stroke="#333" stroke-width="2"/><line x1="80" y1="150" x2="'+x+'" y2="'+y+'" stroke="#333" stroke-width="2"/><text x="292" y="140" font-size="16" fill="#333">x</text><text x="'+(x+6)+'" y="'+(y+6)+'" font-size="16" fill="#333">y</text><text x="70" y="172" font-size="16" fill="#333">O</text><text x="108" y="132" font-size="16" fill="#333">'+deg+'°</text></svg>';
+}
+function barSvg(items,colors){
+  const W=60*items.length+40;let s='<svg viewBox="0 0 '+W+' 175" style="max-width:360px;width:100%">';
+  items.forEach((it,i)=>{const h=Math.round(it.v*7),x=30+i*60,y=140-h;
+    s+='<rect x="'+x+'" y="'+y+'" width="34" height="'+h+'" fill="'+colors[i%colors.length]+'"/>';
+    s+='<text x="'+(x+17)+'" y="'+(y-4)+'" text-anchor="middle" font-size="13" fill="#333">'+it.v+'</text>';
+    s+='<text x="'+(x+17)+'" y="158" text-anchor="middle" font-size="12" fill="#333">'+it.n+'</text>';});
+  return s+'</svg>';
+}
+function dblSvg(a1,a2,b1,b2){
+  const sc=8;let s='<svg viewBox="0 0 300 185" style="max-width:320px;width:100%">';
+  const bars=[[60,a1,'#42a5f5'],[92,a2,'#ef6c00'],[180,b1,'#42a5f5'],[212,b2,'#ef6c00']];
+  bars.forEach(b=>{const h=b[1]*sc,y=140-h;s+='<rect x="'+b[0]+'" y="'+y+'" width="26" height="'+h+'" fill="'+b[2]+'"/><text x="'+(b[0]+13)+'" y="'+(y-4)+'" text-anchor="middle" font-size="13" fill="#333">'+b[1]+'</text>';});
+  s+='<text x="76" y="158" text-anchor="middle" font-size="13" fill="#333">6A</text><text x="196" y="158" text-anchor="middle" font-size="13" fill="#333">6B</text>';
+  s+='<rect x="30" y="170" width="14" height="10" fill="#42a5f5"/><text x="48" y="179" font-size="12" fill="#333">Học kì 1</text><rect x="130" y="170" width="14" height="10" fill="#ef6c00"/><text x="148" y="179" font-size="12" fill="#333">Học kì 2</text>';
+  return s+'</svg>';
+}
+function picSvg(rows){
+  let s='<svg viewBox="0 0 340 '+(42*rows.length+14)+'" style="max-width:360px;width:100%">';
+  rows.forEach((r,i)=>{s+='<text x="10" y="'+(30+i*42)+'" font-size="16" fill="#333">'+r.n+': '+('⭐'.repeat(r.s))+'</text>';});
+  return s+'</svg>';
+}
+function lineSvg(pts,lines){
+  let s='<svg viewBox="0 0 300 200" style="max-width:320px;width:100%">';
+  lines.forEach(L=>{s+='<line x1="'+L[0][0]+'" y1="'+L[0][1]+'" x2="'+L[1][0]+'" y2="'+L[1][1]+'" stroke="#333" stroke-width="2"/>';});
+  pts.forEach(P=>{s+='<circle cx="'+P[0]+'" cy="'+P[1]+'" r="4" fill="#1565c0"/><text x="'+(P[0]+8)+'" y="'+(P[1]-8)+'" font-size="16" fill="#333">'+P[2]+'</text>';});
+  return s+'</svg>';
+}
 const T={
 mixedCalc:{chapter:1,topic:'Thứ tự thực hiện phép tính',gen(l){
   const mx=l===1?9:(l===2?15:25);
@@ -436,9 +471,296 @@ intDiv:{chapter:3,topic:'Phép chia hết của một số nguyên (Bài 17)',ge
    parts:[{label:`a) ${sgn(p1.a)} : ${sgn(p1.d)}`,answer:''+p1.q,unit:''},{label:`b) ${sgn(p2.a)} : ${sgn(p2.d)}`,answer:''+p2.q,unit:''},{label:`c) Số ước là số nguyên của ${N}`,answer:''+cnt,unit:'ước'}],
    solution:[`Bước 1) Ý a) Chia phần số: ${Math.abs(p1.a)} : ${Math.abs(p1.d)} = ${Math.abs(p1.q)}. Hai số ${fmtN(p1.a)} và ${fmtN(p1.d)} ${(p1.a<0)!==(p1.d<0)?'khác dấu':'cùng dấu'} nên (${fmtN(p1.a)}) : ${fmtN(p1.d)} = ${fmtN(p1.q)}.`,`Bước 2) Ý b) Chia phần số: ${Math.abs(p2.a)} : ${Math.abs(p2.d)} = ${Math.abs(p2.q)}. Hai số ${fmtN(p2.a)} và ${fmtN(p2.d)} ${(p2.a<0)!==(p2.d<0)?'khác dấu':'cùng dấu'} nên (${fmtN(p2.a)}) : ${fmtN(p2.d)} = ${fmtN(p2.q)}.`,`Bước 3) Ý c) Các ước dương của ${N} là ${posDiv(N)}. Thêm các ước âm tương ứng, số ước là số nguyên gấp đôi số ước dương: tất cả ${cnt} ước.`]};
 }}
+,
+fracEqual:{chapter:6,topic:'Phân số bằng nhau',gen(l){
+  const b=R(3,9);let a=R(2,b-1);while(gcd(a,b)!==1)a=R(2,b-1);
+  const k=R(2,5),nb=b*k,na=a*k;
+  const d=R(3,9);let c=R(2,d-1);while(gcd(c,d)!==1)c=R(2,d-1);
+  const m=R(2,5),nc=c*m,nd=d*m;
+  let e=R(2,9),f=R(3,12),g=gcd(e,f);while(g===1||e===f){e=R(2,9);f=R(3,12);g=gcd(e,f);}
+  const re=e/g,rf=f/g;
+  return{title:'Viết lại và rút gọn phân số',text:`a) Viết phân số ${a}/${b} thành phân số có mẫu số là ${nb}. Tử số mới là bao nhiêu?\nb) Viết phân số ${c}/${d} thành phân số có tử số là ${nc}. Mẫu số mới là bao nhiêu?\nc) Rút gọn phân số ${e}/${f}. Phân số tối giản có tử số là bao nhiêu?`,
+   analysis:{given:[`Phân số ${a}/${b}`,`Phân số ${c}/${d}`,`Phân số ${e}/${f}`],ask:'Tử số mới; mẫu số mới; tử số sau khi rút gọn',plan:`Ý a) Tìm số nhân: ${nb} : ${b} = ${k}, rồi nhân cả tử và mẫu với ${k}. Ý b) Tìm số nhân: ${nc} : ${c} = ${m}, rồi nhân cả tử và mẫu với ${m}. Ý c) Chia cả tử và mẫu cho ƯCLN(${e}; ${f}) = ${g}.`},
+   hint:`${nb} : ${b} = ${k}; ${nc} : ${c} = ${m}; ƯCLN(${e}; ${f}) = ${g}.`,
+   theory:'Muốn được phân số bằng phân số đã cho, ta nhân (hoặc chia) cả tử số và mẫu số cho cùng một số khác 0. Rút gọn phân số là chia cả tử số và mẫu số cho ƯCLN của chúng.',
+   kw:[{t:`${a}/${b}`,type:'data',why:'Đề cho: phân số cần viết lại.'},{t:`mẫu số là ${nb}`,type:'op',why:`Muốn mẫu thành ${nb}: tìm ${nb} : ${b} = ${k} rồi nhân cả tử và mẫu với ${k}.`},{t:`tử số là ${nc}`,type:'op',why:`Muốn tử thành ${nc}: tìm ${nc} : ${c} = ${m} rồi nhân cả tử và mẫu với ${m}.`},{t:'Rút gọn',type:'ask',why:'Chia cả tử và mẫu cho ƯCLN của chúng.'}],
+   parts:[{label:`a) Tử số mới của ${a}/${b}`,answer:''+na,unit:''},{label:`b) Mẫu số mới của ${c}/${d}`,answer:''+nd,unit:''},{label:`c) Tử số sau khi rút gọn ${e}/${f}`,answer:''+re,unit:''}],
+   solution:[`Bước 1) Ý a) Vì ${nb} : ${b} = ${k} nên muốn mẫu số thành ${nb}, ta nhân cả tử số và mẫu số của ${a}/${b} với ${k}: ${a} × ${k} = ${na}, ${b} × ${k} = ${nb}. Vậy phân số mới là ${na}/${nb}, tử số mới là ${na}.`,`Bước 2) Ý b) Vì ${nc} : ${c} = ${m} nên ta nhân cả tử số và mẫu số của ${c}/${d} với ${m}: ${c} × ${m} = ${nc}, ${d} × ${m} = ${nd}. Vậy phân số mới là ${nc}/${nd}, mẫu số mới là ${nd}.`,`Bước 3) Ý c) Vì ƯCLN(${e}; ${f}) = ${g} nên ta chia cả tử số và mẫu số của ${e}/${f} cho ${g}: ${e} : ${g} = ${re}, ${f} : ${g} = ${rf}. Vậy phân số tối giản là ${re}/${rf}, tử số là ${re}.`,`Đáp số: a) ${na}; b) ${nd}; c) ${re}.`]};
+}},
+fracCompare:{chapter:6,topic:'So sánh phân số. Hỗn số dương',gen(l){
+  let b=R(3,9),d=R(3,9);while(d===b){d=R(3,9);}
+  const a=R(1,b-1),c=R(1,d-1),L=lcm(b,d),nb=a*L/b,nd=c*L/d;
+  if(nb===nd)return this.gen(l);
+  const big=nb>nd?{n:nb,f:`${a}/${b}`}:{n:nd,f:`${c}/${d}`};
+  const A=R(1,4),cc=R(2,9);let bb=R(1,cc-1);const num=A*cc+bb;
+  return{title:'So sánh phân số và đổi hỗn số',text:`a) Quy đồng mẫu số hai phân số ${a}/${b} và ${c}/${d}. Mẫu số chung là bao nhiêu?\nb) Sau khi quy đồng, phân số lớn hơn có tử số là bao nhiêu?\nc) Đổi hỗn số ${A} ${bb}/${cc} thành phân số. Tử số của phân số đó là bao nhiêu?`,
+   analysis:{given:[`Hai phân số ${a}/${b} và ${c}/${d}`,`Hỗn số ${A} ${bb}/${cc}`],ask:'Mẫu số chung; tử số của phân số lớn hơn; tử số sau khi đổi hỗn số',plan:`Quy đồng hai phân số về mẫu số chung ${L} rồi so sánh tử số. Đổi hỗn số: lấy phần nguyên nhân mẫu rồi cộng tử.`},
+   hint:`Mẫu chung của ${b} và ${d} là ${L}. ${A} ${bb}/${cc} = (${A} × ${cc} + ${bb})/${cc}.`,
+   theory:'Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh tử số. Muốn đổi hỗn số a b/c thành phân số, ta viết (a × c + b)/c.',
+   kw:[{t:`${a}/${b} và ${c}/${d}`,type:'data',why:'Hai phân số cần so sánh.'},{t:'Quy đồng mẫu số',type:'op',why:`Đưa hai phân số về cùng mẫu số ${L} rồi so sánh tử số.`},{t:`hỗn số ${A} ${bb}/${cc}`,type:'data',why:'Hỗn số cần đổi thành phân số.'}],
+   parts:[{label:'a) Mẫu số chung',answer:''+L,unit:''},{label:'b) Tử số của phân số lớn hơn',answer:''+big.n,unit:''},{label:'c) Tử số sau khi đổi hỗn số',answer:''+num,unit:''}],
+   solution:[`Bước 1) Ý a) Mẫu số chung nhỏ nhất của ${b} và ${d} là BCNN(${b}; ${d}) = ${L}.`,`Bước 2) Ý b) Quy đồng: ${a}/${b} = (${a} × ${L/b})/(${b} × ${L/b}) = ${nb}/${L}; ${c}/${d} = (${c} × ${L/d})/(${d} × ${L/d}) = ${nd}/${L}. Vì ${nb} ${nb>nd?'>':'<'} ${nd} nên phân số lớn hơn là ${big.f}, có tử số là ${big.n}.`,`Bước 3) Ý c) Đổi hỗn số: lấy phần nguyên ${A} nhân mẫu ${cc} rồi cộng tử ${bb}: (${A} × ${cc} + ${bb})/${cc} = ${num}/${cc}. Vậy tử số là ${num}.`,`Đáp số: a) ${L}; b) ${big.n}; c) ${num}.`]};
+}},
+fracAddSub:{chapter:6,topic:'Phép cộng và phép trừ phân số',gen(l){
+  const pairs=[[4,8],[5,10],[3,6],[4,6],[3,9],[6,8],[2,6],[5,15]];
+  const pr=pick(pairs),d1=pr[0],d2=pr[1],L=lcm(d1,d2);
+  let a=R(1,d1-1),b=R(1,d2-1);
+  const s1=a*L/d1+b*L/d2;
+  const pr2=pick(pairs),v=pr2[0],z=pr2[1],L2=lcm(v,z);
+  let u=R(1,v-1),w=R(1,z-1),bu=u*L2/v,bw=w*L2/z;
+  while(bu===bw){u=R(1,v-1);w=R(1,z-1);bu=u*L2/v;bw=w*L2/z;}
+  if(bu<bw){const tu=u,tw=w,tb=bu;u=w;w=tu;bu=bw;bw=tb;}
+  let rq,rr,sq,sr,rqL,rNum,sNum;
+  do{ rq=R(2,5); rr=R(1,rq-1); sq=rq*R(1,3); sr=R(1,sq-1); rqL=lcm(rq,sq); rNum=rqL/rq*rr; sNum=rqL/sq*sr; }while(rNum<=sNum);
+  const rem=frS(rNum-sNum,rqL);
+  return{title:'Cộng, trừ phân số',text:`Tính:\na) ${a}/${d1} + ${b}/${d2} = ? (viết đáp số dưới dạng phân số tối giản)\nb) ${u}/${v} − ${w}/${z} = ? (viết đáp số dưới dạng phân số tối giản)\nc) Một sợi dây dài ${rr}/${rq} m, người ta cắt đi ${sr}/${sq} m. Sợi dây còn lại dài bao nhiêu mét? (viết đáp số dưới dạng phân số tối giản)`,
+   analysis:{given:[`Phép cộng ${a}/${d1} + ${b}/${d2}`,`Phép trừ hai phân số cùng mẫu ${L}`,`Sợi dây dài ${rr}/${rq} m, cắt đi ${sr}/${sq} m`],ask:'Kết quả phép cộng; kết quả phép trừ; độ dài còn lại',plan:`Quy đồng mẫu số rồi cộng (trừ) tử số, giữ nguyên mẫu số, cuối cùng rút gọn nếu chưa tối giản.`},
+   hint:`${a}/${d1} = ${a*L/d1}/${L}; ${b}/${d2} = ${b*L/d2}/${L}; ${u}/${v} = ${bu}/${L2}; ${w}/${z} = ${bw}/${L2}; cắt đi nghĩa là trừ.`,
+   theory:'Muốn cộng (trừ) hai phân số khác mẫu số, ta quy đồng mẫu số rồi cộng (trừ) tử số, giữ nguyên mẫu số.',
+   kw:[{t:`${a}/${d1} + ${b}/${d2}`,type:'data',why:'Phép cộng hai phân số khác mẫu số.'},{t:'quy đồng mẫu số',type:'op',why:`Đưa về cùng mẫu số ${L} rồi mới cộng hoặc trừ tử số.`},{t:'cắt đi',type:'op',why:'Từ khóa "cắt đi": phép trừ.'}],
+   parts:[{label:'a) Kết quả phép cộng',answer:frS(s1,L),unit:''},{label:'b) Kết quả phép trừ',answer:frS(bu-bw,L2),unit:''},{label:'c) Độ dài còn lại',answer:rem,unit:'m'}],
+   solution:[`Bước 1) Ý a) Vì ${d1} và ${d2} có mẫu chung ${L} nên ta quy đồng ${a}/${d1} = ${a*L/d1}/${L} và ${b}/${d2} = ${b*L/d2}/${L}, rồi cộng tử số, giữ nguyên mẫu số: ${a*L/d1}/${L} + ${b*L/d2}/${L} = ${s1}/${L} = ${frS(s1,L)}.`,`Bước 2) Ý b) Quy đồng về mẫu ${L2}: ${u}/${v} = ${bu}/${L2} và ${w}/${z} = ${bw}/${L2}, rồi trừ tử số, giữ nguyên mẫu số: ${bu}/${L2} − ${bw}/${L2} = ${bu-bw}/${L2} = ${frS(bu-bw,L2)}.`,`Bước 3) Ý c) Vì cắt đi nghĩa là trừ nên độ dài còn lại là ${rr}/${rq} − ${sr}/${sq}. Quy đồng về mẫu ${rqL}: ${rNum}/${rqL} − ${sNum}/${rqL} = ${rNum-sNum}/${rqL} = ${rem} (m).`,`Đáp số: a) ${frS(s1,L)}; b) ${frS(bu-bw,L2)}; c) ${rem} m.`]};
+}},
+fracMulDiv:{chapter:6,topic:'Phép nhân và phép chia phân số',gen(l){
+  let a=R(1,5),b=R(2,9);while(gcd(a,b)!==1){a=R(1,5);b=R(2,9);}
+  const n=R(2,9);
+  let c=R(1,5),d=R(2,9);while(gcd(c,d)!==1){c=R(1,5);d=R(2,9);}
+  const m=R(2,6);
+  let e=R(1,5),f=R(2,9),g2=R(1,5),h=R(2,9);
+  return{title:'Nhân, chia phân số',text:`Tính:\na) ${a}/${b} × ${n} = ?\nb) ${c}/${d} : ${m} = ? (viết đáp số dưới dạng phân số tối giản)\nc) ${e}/${f} × ${g2}/${h} = ? (viết đáp số dưới dạng phân số tối giản)`,
+   analysis:{given:[`Phép nhân ${a}/${b} × ${n}`,`Phép chia ${c}/${d} : ${m}`,`Phép nhân ${e}/${f} × ${g2}/${h}`],ask:'Kết quả ba phép tính',plan:'Nhân phân số với số tự nhiên: nhân tử số với số đó, giữ nguyên mẫu số. Chia phân số cho số tự nhiên: nhân mẫu số với số đó. Nhân hai phân số: nhân tử với tử, mẫu với mẫu, rồi rút gọn.'},
+   hint:`${a}/${b} × ${n} = (${a} × ${n})/${b}; ${c}/${d} : ${m} = ${c}/(${d} × ${m}); ${e}/${f} × ${g2}/${h} = (${e} × ${g2})/(${f} × ${h}).`,
+   theory:'Muốn nhân hai phân số, ta nhân tử số với tử số, mẫu số với mẫu số. Muốn chia một phân số cho một số tự nhiên, ta nhân mẫu số với số đó.',
+   kw:[{t:`${a}/${b} × ${n}`,type:'data',why:'Nhân phân số với số tự nhiên: nhân tử số, giữ nguyên mẫu số.'},{t:`${c}/${d} : ${m}`,type:'op',why:'Chia phân số cho số tự nhiên: nhân mẫu số với số đó.'},{t:`${e}/${f} × ${g2}/${h}`,type:'op',why:'Nhân tử với tử, mẫu với mẫu, rồi rút gọn.'}],
+   parts:[{label:`a) Kết quả ${a}/${b} × ${n}`,answer:frS(a*n,b),unit:''},{label:`b) Kết quả ${c}/${d} : ${m}`,answer:frS(c,d*m),unit:''},{label:`c) Kết quả ${e}/${f} × ${g2}/${h}`,answer:frS(e*g2,f*h),unit:''}],
+   solution:[`Bước 1) Ý a) Nhân phân số với số tự nhiên: nhân tử số với ${n}, giữ nguyên mẫu số: (${a} × ${n})/${b} = ${a*n}/${b} = ${frS(a*n,b)}.`,`Bước 2) Ý b) Chia phân số cho số tự nhiên: nhân mẫu số với ${m}: ${c}/(${d} × ${m}) = ${c}/${d*m} = ${frS(c,d*m)}.`,`Bước 3) Ý c) Nhân tử với tử, mẫu với mẫu: (${e} × ${g2})/(${f} × ${h}) = ${e*g2}/${f*h} = ${frS(e*g2,f*h)}.`,`Đáp số: a) ${frS(a*n,b)}; b) ${frS(c,d*m)}; c) ${frS(e*g2,f*h)}.`]};
+}},
+fracWord:{chapter:6,topic:'Hai bài toán về phân số',gen(l){
+  const T=pick([30,40,45,60]);
+  const divs=[];for(let dd=2;dd<=6;dd++)if(T%dd===0)divs.push(dd);
+  const d1=pick(divs);let d2=pick(divs);while(d2===d1)d2=pick(divs);
+  const a=R(1,d1-1),b=R(1,d2-1);
+  const like=T/d1*a, done=T/d2*b, notDone=T-done;
+  const dd=R(2,5);let aa=R(1,dd-1);const mm=R(2,12),val=aa*mm,total=dd*mm;
+  return{title:'Hai bài toán về phân số',text:`Lớp 6A có ${T} học sinh.\na) ${a}/${d1} số học sinh của lớp thích bóng đá. Có bao nhiêu học sinh thích bóng đá?\nb) ${b}/${d2} số học sinh của lớp đã nộp bài tập. Có bao nhiêu học sinh chưa nộp bài tập?\nc) ${aa}/${dd} số bi của Hùng là ${val} viên. Hỏi Hùng có bao nhiêu viên bi?`,
+   analysis:{given:[`Lớp có ${T} học sinh`,`${a}/${d1} số học sinh thích bóng đá`,`${b}/${d2} số học sinh đã nộp bài`,`${aa}/${dd} số bi là ${val} viên`],ask:'Số học sinh thích bóng đá; số học sinh chưa nộp bài; tổng số bi của Hùng',plan:`Muốn tìm giá trị phân số của một số, lấy số đó nhân với phân số. Muốn tìm một số khi biết giá trị phân số của nó, lấy giá trị đó chia cho phân số.`},
+   hint:`${a}/${d1} của ${T} = ${T} × ${a}/${d1}; số chưa nộp = ${T} − số đã nộp; ${val} : ${aa}/${dd} = ${val} × ${dd}/${aa}.`,
+   theory:'Muốn tìm giá trị phân số của một số cho trước, ta lấy số đó nhân với phân số. Muốn tìm một số khi biết giá trị phân số của nó, ta lấy giá trị đó chia cho phân số.',
+   kw:[{t:`${a}/${d1} số học sinh`,type:'data',why:'Phân số của tổng số học sinh: lấy tổng nhân với phân số.'},{t:'chưa nộp',type:'ask',why:'Lấy tổng trừ đi số đã nộp.'},{t:`${aa}/${dd} số bi là ${val} viên`,type:'op',why:'Biết giá trị phân số: lấy giá trị chia cho phân số.'}],
+   parts:[{label:'a) Số học sinh thích bóng đá',answer:''+like,unit:'học sinh'},{label:'b) Số học sinh chưa nộp bài',answer:''+notDone,unit:'học sinh'},{label:'c) Tổng số bi của Hùng',answer:''+total,unit:'viên'}],
+   solution:[`Bước 1) Ý a) Muốn tìm ${a}/${d1} của ${T}, ta lấy ${T} nhân với ${a}/${d1}: ${T} × ${a}/${d1} = ${T*a}/${d1} = ${like} (học sinh).`,`Bước 2) Ý b) Số học sinh đã nộp là ${T} × ${b}/${d2} = ${T*b}/${d2} = ${done} (học sinh). Số học sinh chưa nộp là ${T} − ${done} = ${notDone} (học sinh).`,`Bước 3) Ý c) Muốn tìm tổng số bi khi biết ${aa}/${dd} của nó là ${val}, ta lấy ${val} chia cho ${aa}/${dd}, tức nhân với phân số nghịch đảo ${dd}/${aa}: ${val} × ${dd}/${aa} = ${val*dd}/${aa} = ${total} (viên).`,`Đáp số: a) ${like} học sinh; b) ${notDone} học sinh; c) ${total} viên.`]};
+}},
+decBasic:{chapter:7,topic:'Số thập phân',gen(l){
+  const I=R(2,9),fr=R(10,99),dec=decS(I*100+fr,2);
+  const n=R(1,9),dn=pick([10,100]),num=dn===10?n:n*10,dec2=decS(num*(dn===10?10:1),dn===10?2:2);
+  const a=R(1,9),big=decS(a,1),small=decS(a*10-1,2);
+  return{title:'Đọc, viết và so sánh số thập phân',text:`a) Số thập phân ${dec} có phần nguyên là bao nhiêu?\nb) Viết phân số ${num}/${dn} dưới dạng số thập phân rồi cho biết chữ số ở hàng phần mười là bao nhiêu?\nc) Trong hai số ${small} và ${big}, số lớn hơn gấp 10 lần thì được bao nhiêu?`,
+   analysis:{given:[`Số thập phân ${dec}`,`Phân số ${num}/${dn}`,`Hai số ${small} và ${big}`],ask:'Phần nguyên; chữ số hàng phần mười; 10 lần số lớn hơn',plan:'Phần nguyên là phần đứng trước dấu phẩy. Phân số thập phân viết thành số thập phân theo mẫu số. So sánh hai số thập phân rồi gấp 10 lần số lớn hơn.'},
+   hint:`${num}/${dn} = ${dec2}. Viết ${big} = 0,${a}0 rồi so sánh với ${small}.`,
+   theory:'Số thập phân gồm phần nguyên và phần thập phân, ngăn cách bằng dấu phẩy. Phân số thập phân (mẫu 10, 100, ...) viết được thành số thập phân.',
+   kw:[{t:`${dec}`,type:'data',why:'Số thập phân cần tìm phần nguyên.'},{t:`${num}/${dn}`,type:'op',why:'Phân số thập phân: mẫu 10 thì 1 chữ số sau dấu phẩy, mẫu 100 thì 2 chữ số.'},{t:'số lớn hơn',type:'ask',why:'So sánh hai số rồi gấp 10 lần số lớn hơn.'}],
+   parts:[{label:`a) Phần nguyên của ${dec}`,answer:''+I,unit:''},{label:`b) Chữ số hàng phần mười của ${dec2}`,answer:''+n,unit:''},{label:'c) 10 lần số lớn hơn',answer:''+a,unit:''}],
+   solution:[`Bước 1) Ý a) Phần nguyên là phần đứng trước dấu phẩy. Số ${dec} có phần nguyên là ${I}.`,`Bước 2) Ý b) Vì ${num}/${dn} có mẫu ${dn} nên viết thành số thập phân là ${dec2}. Chữ số ở hàng phần mười là ${n}.`,`Bước 3) Ý c) Viết ${big} = 0,${a}0 rồi so sánh với ${small}: ${a*10} > ${a*10-1} nên ${big} lớn hơn. Gấp 10 lần số đó: ${big} × 10 = ${a}.`,`Đáp số: a) ${I}; b) ${n}; c) ${a}.`]};
+}},
+decCalc:{chapter:7,topic:'Tính toán với số thập phân',gen(l){
+  let A=R(100,999),B=R(100,999);while(A%100===0)A=R(100,999);while(B%100===0||B===A)B=R(100,999);
+  let X=A,Y=B;if(Y>X){const t=X;X=Y;Y=t;}
+  let T1=R(11,99);while(T1%10===0)T1=R(11,99);const N=R(2,9);
+  return{title:'Cộng, trừ, nhân số thập phân',text:`Tính:\na) ${decS(A,2)} + ${decS(B,2)} = ?\nb) ${decS(X,2)} − ${decS(Y,2)} = ?\nc) ${decS(T1,1)} × ${N} = ?`,
+   analysis:{given:[`Phép cộng ${decS(A,2)} + ${decS(B,2)}`,`Phép trừ ${decS(X,2)} − ${decS(Y,2)}`,`Phép nhân ${decS(T1,1)} × ${N}`],ask:'Kết quả ba phép tính',plan:'Cộng (trừ) số thập phân: đặt dấu phẩy thẳng cột rồi tính như số tự nhiên. Nhân số thập phân với số tự nhiên: nhân như số tự nhiên rồi đếm chữ số thập phân để đặt dấu phẩy.'},
+   hint:`${decS(A,2)} = ${decS(A,2)} (giữ nguyên 2 chữ số sau dấu phẩy). ${decS(T1,1)} có 1 chữ số ở phần thập phân.`,
+   theory:'Muốn cộng (trừ) hai số thập phân, ta đặt dấu phẩy thẳng cột rồi tính như số tự nhiên. Muốn nhân số thập phân với số tự nhiên, ta nhân như số tự nhiên rồi đếm chữ số thập phân để đặt dấu phẩy.',
+   kw:[{t:`${decS(A,2)} + ${decS(B,2)}`,type:'data',why:'Cộng số thập phân: dấu phẩy thẳng cột.'},{t:`${decS(X,2)} − ${decS(Y,2)}`,type:'op',why:'Trừ số thập phân: dấu phẩy thẳng cột.'},{t:`${decS(T1,1)} × ${N}`,type:'op',why:'Nhân như số tự nhiên rồi đặt dấu phẩy theo số chữ số thập phân.'}],
+   parts:[{label:`a) Kết quả ${decS(A,2)} + ${decS(B,2)}`,answer:decS(A+B,2),unit:''},{label:`b) Kết quả ${decS(X,2)} − ${decS(Y,2)}`,answer:decS(X-Y,2),unit:''},{label:`c) Kết quả ${decS(T1,1)} × ${N}`,answer:decS(T1*N,1),unit:''}],
+   solution:[`Bước 1) Ý a) Đặt dấu phẩy thẳng cột rồi cộng như số tự nhiên: ${decS(A,2)} + ${decS(B,2)} = ${decS(A+B,2)}.`,`Bước 2) Ý b) Đặt dấu phẩy thẳng cột rồi trừ: ${decS(X,2)} − ${decS(Y,2)} = ${decS(X-Y,2)}.`,`Bước 3) Ý c) Nhân như số tự nhiên: ${T1} × ${N} = ${T1*N}. Vì ${decS(T1,1)} có 1 chữ số ở phần thập phân nên kết quả cũng có 1 chữ số sau dấu phẩy: ${decS(T1*N,1)}.`,`Đáp số: a) ${decS(A+B,2)}; b) ${decS(X-Y,2)}; c) ${decS(T1*N,1)}.`]};
+}},
+decRound:{chapter:7,topic:'Làm tròn và ước lượng',gen(l){
+  let n1=R(100,999);while(n1%100===0)n1=R(100,999);const t1=Math.floor(n1/10+0.5)/10;
+  let n2=R(1000,9999);while(n2%100===0)n2=R(1000,9999);const u2=Math.floor(n2/100+0.5);
+  let v1=R(1000,9999),v2=R(1000,9999);while(v1%100===0)v1=R(1000,9999);while(v2%100===0)v2=R(1000,9999);const r1=Math.floor(v1/100+0.5),r2=Math.floor(v2/100+0.5);
+  return{title:'Làm tròn và ước lượng',text:`a) Làm tròn số ${decS(n1,2)} đến hàng phần mười được bao nhiêu?\nb) Làm tròn số ${decS(n2,2)} đến hàng đơn vị được bao nhiêu?\nc) Ước lượng kết quả của ${decS(v1,2)} + ${decS(v2,2)} bằng cách làm tròn mỗi số đến hàng đơn vị rồi cộng lại. Kết quả ước lượng là bao nhiêu?`,
+   analysis:{given:[`Số ${decS(n1,2)}`,`Số ${decS(n2,2)}`,`Tổng ${decS(v1,2)} + ${decS(v2,2)}`],ask:'Số làm tròn đến hàng phần mười; số làm tròn đến hàng đơn vị; kết quả ước lượng',plan:'Nhìn chữ số ngay sau hàng làm tròn: từ 5 trở lên thì tăng hàng làm tròn thêm 1, nhỏ hơn 5 thì giữ nguyên. Ước lượng: làm tròn từng số rồi mới cộng.'},
+   hint:`Sau hàng phần mười của ${decS(n1,2)} là ${n1%10}. Sau hàng đơn vị của ${decS(n2,2)} là ${Math.floor(n2/10)%10}. ${decS(v1,2)} ≈ ${r1}; ${decS(v2,2)} ≈ ${r2}.`,
+   theory:'Muốn làm tròn một số đến một hàng, ta nhìn chữ số ngay sau hàng đó: từ 5 trở lên thì tăng hàng làm tròn thêm 1, nhỏ hơn 5 thì giữ nguyên hàng làm tròn.',
+   kw:[{t:`${decS(n1,2)}`,type:'data',why:'Số cần làm tròn đến hàng phần mười.'},{t:`${decS(n2,2)}`,type:'data',why:'Số cần làm tròn đến hàng đơn vị.'},{t:'Ước lượng',type:'op',why:'Làm tròn từng số đến hàng đơn vị rồi cộng lại.'}],
+   parts:[{label:`a) ${decS(n1,2)} làm tròn đến hàng phần mười`,answer:decS(Math.round(t1*10),1),unit:''},{label:`b) ${decS(n2,2)} làm tròn đến hàng đơn vị`,answer:''+u2,unit:''},{label:'c) Kết quả ước lượng',answer:''+(r1+r2),unit:''}],
+   solution:[`Bước 1) Ý a) Chữ số ngay sau hàng phần mười của ${decS(n1,2)} là ${n1%10}. Vì ${n1%10} ${n1%10>=5?'≥ 5 nên ta tăng hàng phần mười thêm 1':'< 5 nên ta giữ nguyên hàng phần mười'}. Vậy ${decS(n1,2)} ≈ ${decS(Math.round(t1*10),1)}.`,`Bước 2) Ý b) Chữ số ngay sau hàng đơn vị của ${decS(n2,2)} là ${Math.floor(n2/10)%10}. Vì ${Math.floor(n2/10)%10} ${Math.floor(n2/10)%10>=5?'≥ 5 nên ta tăng hàng đơn vị thêm 1':'< 5 nên ta giữ nguyên hàng đơn vị'}. Vậy ${decS(n2,2)} ≈ ${u2}.`,`Bước 3) Ý c) Làm tròn đến hàng đơn vị: ${decS(v1,2)} ≈ ${r1} và ${decS(v2,2)} ≈ ${r2}. Cộng lại: ${r1} + ${r2} = ${r1+r2}.`,`Đáp số: a) ${decS(Math.round(t1*10),1)}; b) ${u2}; c) ${r1+r2}.`]};
+}},
+ratioPercent:{chapter:7,topic:'Một số bài toán về tỉ số và tỉ số phần trăm',gen(l){
+  const T=pick([20,25,40,50,60,80]);
+  const pcts=[];for(let pp=5;pp<=95;pp+=5)if(T*pp%100===0)pcts.push(pp);
+  const p=pick(pcts),G=T*p/100;
+  const P=pick([50000,80000,120000,150000,200000,250000]),m=pick([10,15,20,25,30]);
+  const T2=pick([20,40,60,80]),m2=pick([10,25,50,75]);
+  return{title:'Tỉ số và tỉ số phần trăm',text:`a) Lớp 6A có ${T} học sinh, trong đó có ${G} học sinh giỏi. Tỉ số phần trăm của số học sinh giỏi so với cả lớp là bao nhiêu phần trăm?\nb) Một chiếc áo giá ${fmt(P)} đồng được giảm giá ${m}%. Số tiền được giảm là bao nhiêu đồng?\nc) Lớp 6B có ${T2} học sinh, ${m2}% số học sinh thích bóng đá. Có bao nhiêu học sinh thích bóng đá?`,
+   analysis:{given:[`Lớp 6A: ${T} học sinh, ${G} học sinh giỏi`,`Áo giá ${fmt(P)} đồng, giảm ${m}%`,`Lớp 6B: ${T2} học sinh, ${m2}% thích bóng đá`],ask:'Tỉ số phần trăm học sinh giỏi; số tiền được giảm; số học sinh thích bóng đá',plan:'Tỉ số phần trăm: lấy số học sinh giỏi chia cho cả lớp rồi nhân 100%. Tìm m% của một số: lấy số đó nhân m rồi chia 100.'},
+   hint:`${G} : ${T} = ${decS(G*100/T,2)}. ${m}% của ${fmt(P)} = ${fmt(P)} × ${m} : 100. ${m2}% của ${T2} = ${T2} × ${m2} : 100.`,
+   theory:'Muốn tìm tỉ số phần trăm của hai số a và b, ta lấy a : b rồi nhân với 100%. Muốn tìm m% của một số, ta lấy số đó nhân với m rồi chia cho 100.',
+   kw:[{t:`${G} học sinh giỏi`,type:'data',why:'Số học sinh giỏi cần tính tỉ số phần trăm.'},{t:`giảm ${m}%`,type:'op',why:`Tìm ${m}% của giá áo: nhân với ${m} rồi chia 100.`},{t:`${m2}% số học sinh`,type:'op',why:`Tìm ${m2}% của ${T2}: nhân với ${m2} rồi chia 100.`}],
+   parts:[{label:'a) Tỉ số phần trăm học sinh giỏi',answer:''+p,unit:'%'},{label:'b) Số tiền được giảm',answer:''+(P*m/100),unit:'đồng'},{label:'c) Số học sinh thích bóng đá',answer:''+(T2*m2/100),unit:'học sinh'}],
+   solution:[`Bước 1) Ý a) Muốn tìm tỉ số phần trăm, ta lấy ${G} : ${T} = ${decS(G*100/T,2)} rồi nhân với 100%: ${decS(G*100/T,2)} × 100% = ${p}%.`,`Bước 2) Ý b) Muốn tìm ${m}% của ${fmt(P)}, ta lấy ${fmt(P)} × ${m} : 100 = ${fmt(P*m)} : 100 = ${fmt(P*m/100)} (đồng).`,`Bước 3) Ý c) Muốn tìm ${m2}% của ${T2}, ta lấy ${T2} × ${m2} : 100 = ${T2*m2} : 100 = ${T2*m2/100} (học sinh).`,`Đáp số: a) ${p}%; b) ${fmt(P*m/100)} đồng; c) ${T2*m2/100} học sinh.`]};
+}},
+pointLine:{chapter:8,topic:'Điểm và đường thẳng',gen(l){
+  const P3=pick(['C','E']),P4=pick(['D','F']);
+  const svg=lineSvg([[40,100,'A'],[260,100,'B'],[150,100,P3],[210,40,P4]],[[[20,100],[280,100]],[[90,160],[210,40]]]);
+  return{title:'Điểm thuộc đường thẳng',text:`Trên hình có đường thẳng AB, điểm ${P3} thuộc đường thẳng AB, điểm ${P4} không thuộc đường thẳng AB, đường thẳng ${P3}${P4} cắt đường thẳng AB tại ${P3}.\na) Có bao nhiêu điểm trong các điểm A, B, ${P3} thuộc đường thẳng AB?\nb) Qua hai điểm A và B vẽ được bao nhiêu đường thẳng?\nc) Trên hình có bao nhiêu đường thẳng?`,svg:svg,figNote:`👆 Nhìn vào hình: điểm nào nằm trên đường thẳng AB, điểm nào nằm ngoài; đối chiếu từng bước giải với hình.`,
+   analysis:{given:[`Đường thẳng AB`,`Điểm ${P3} thuộc đường thẳng AB`,`Điểm ${P4} không thuộc đường thẳng AB`],ask:'Số điểm thuộc đường thẳng AB; số đường thẳng qua A và B; tổng số đường thẳng',plan:'Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Qua hai điểm phân biệt chỉ có một đường thẳng.'},
+   hint:`A, B, ${P3} đều nằm trên đường thẳng AB. Qua A và B chỉ có đường thẳng AB.`,
+   theory:'Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng.',
+   kw:[{t:`điểm ${P3} thuộc đường thẳng AB`,type:'data',why:'Điểm nằm trên đường thẳng thì thuộc đường thẳng đó.'},{t:`điểm ${P4} không thuộc`,type:'op',why:'Điểm nằm ngoài đường thẳng thì không thuộc đường thẳng đó.'},{t:'Qua hai điểm A và B',type:'ask',why:'Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng.'}],
+   parts:[{label:'a) Số điểm thuộc đường thẳng AB',answer:'3',unit:'điểm'},{label:'b) Số đường thẳng qua A và B',answer:'1',unit:'đường thẳng'},{label:'c) Tổng số đường thẳng trên hình',answer:'2',unit:'đường thẳng'}],
+   solution:[`Bước 1) Ý a) Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. A, B và ${P3} đều nằm trên đường thẳng AB nên có 3 điểm thuộc đường thẳng AB.`,`Bước 2) Ý b) Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng, nên qua A và B chỉ vẽ được 1 đường thẳng (chính là đường thẳng AB).`,`Bước 3) Ý c) Trên hình có đường thẳng AB và đường thẳng ${P3}${P4}, tức có 2 đường thẳng.`,`Đáp số: a) 3 điểm; b) 1 đường thẳng; c) 2 đường thẳng.`]};
+}},
+pointBetweenRay:{chapter:8,topic:'Điểm nằm giữa hai điểm. Tia',gen(l){
+  const L=R(10,20),OA=R(3,L-3),OB=L-OA;
+  const svg=lineSvg([[40,100,'A'],[150,100,'O'],[260,100,'B']],[[[20,100],[280,100]]]);
+  return{title:'Điểm nằm giữa và tia',text:`Trên đường thẳng xy có ba điểm A, O, B theo thứ tự đó (O nằm giữa A và B).\na) Điểm O chia đường thẳng xy thành bao nhiêu tia gốc O?\nb) Trên hình có bao nhiêu đoạn thẳng?\nc) Đoạn thẳng AB dài ${L} cm, OA dài ${OA} cm. Đoạn thẳng OB dài bao nhiêu xăng-ti-mét?`,svg:svg,figNote:'👆 Nhìn vào hình: O nằm giữa A và B; đối chiếu từng bước giải với các điểm trên hình.',
+   analysis:{given:['Đường thẳng xy có ba điểm A, O, B theo thứ tự đó',`AB dài ${L} cm, OA dài ${OA} cm`],ask:'Số tia gốc O; số đoạn thẳng; độ dài OB',plan:'Một điểm trên đường thẳng chia đường thẳng thành 2 tia đối nhau. Với 3 điểm, các đoạn thẳng là AO, OB và AB. Vì O nằm giữa nên OB = AB − OA.'},
+   hint:`Các đoạn thẳng là AO, OB và AB. OB = AB − OA.`,
+   theory:'Mỗi điểm trên đường thẳng chia đường thẳng thành hai tia đối nhau. Điểm M nằm giữa A và B thì AB = AM + MB.',
+   kw:[{t:'O nằm giữa A và B',type:'data',why:'O thuộc đoạn AB nên AB = OA + OB.'},{t:'tia gốc O',type:'ask',why:'Một điểm trên đường thẳng chia đường thẳng thành 2 tia gốc tại điểm đó.'},{t:'đoạn thẳng',type:'ask',why:'Với 3 điểm A, O, B: các đoạn là AO, OB, AB.'}],
+   parts:[{label:'a) Số tia gốc O',answer:'2',unit:'tia'},{label:'b) Số đoạn thẳng',answer:'3',unit:'đoạn thẳng'},{label:'c) Độ dài OB',answer:''+OB,unit:'cm'}],
+   solution:[`Bước 1) Ý a) Một điểm trên đường thẳng chia đường thẳng thành 2 tia đối nhau. Điểm O chia đường thẳng xy thành 2 tia gốc O là tia OA và tia OB.`,`Bước 2) Ý b) Với 3 điểm A, O, B, các đoạn thẳng tạo thành là AO, OB và AB. Vậy có 3 đoạn thẳng.`,`Bước 3) Ý c) Vì O nằm giữa A và B nên AB = OA + OB, suy ra OB = AB − OA = ${L} − ${OA} = ${OB} (cm).`,`Đáp số: a) 2 tia; b) 3 đoạn thẳng; c) ${OB} cm.`]};
+}},
+segmentLength:{chapter:8,topic:'Đoạn thẳng. Độ dài đoạn thẳng',gen(l){
+  const AB=R(3,12),BC=R(3,12),AC=AB+BC,AD=R(2,AC-2),DC=AC-AD,L=pick([8,10,12,14,16,20]);
+  const svg=lineSvg([[40,100,'A'],[150,100,'B'],[260,100,'C']],[[[20,100],[280,100]]]);
+  return{title:'Độ dài đoạn thẳng',text:`Điểm B nằm giữa hai điểm A và C. Biết AB = ${AB} cm, BC = ${BC} cm.\na) Đoạn thẳng AC dài bao nhiêu xăng-ti-mét?\nb) Điểm D nằm giữa A và C sao cho AD = ${AD} cm. Đoạn thẳng DC dài bao nhiêu xăng-ti-mét?\nc) Một sợi dây dài ${L} cm được cắt thành hai đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?`,svg:svg,figNote:'👆 Nhìn vào hình: B nằm giữa A và C; đối chiếu từng bước giải với các đoạn trên hình.',
+   analysis:{given:[`B nằm giữa A và C`,`AB = ${AB} cm, BC = ${BC} cm`,`D nằm giữa A và C, AD = ${AD} cm`],ask:'Độ dài AC; độ dài DC; độ dài mỗi đoạn dây',plan:'Khi B nằm giữa A và C thì AC = AB + BC. Tương tự DC = AC − AD. Cắt thành hai đoạn bằng nhau nghĩa là chia đôi.'},
+   hint:`AC = AB + BC = ${AB} + ${BC}. DC = AC − AD.`,
+   theory:'Khi điểm B nằm giữa hai điểm A và C thì AC = AB + BC.',
+   kw:[{t:'B nằm giữa A và C',type:'data',why:'B thuộc đoạn AC nên AC = AB + BC.'},{t:'D nằm giữa A và C',type:'op',why:'D thuộc đoạn AC nên AC = AD + DC.'},{t:'hai đoạn bằng nhau',type:'op',why:'Cắt thành hai đoạn bằng nhau nghĩa là chia đôi độ dài.'}],
+   parts:[{label:'a) Độ dài AC',answer:''+AC,unit:'cm'},{label:'b) Độ dài DC',answer:''+DC,unit:'cm'},{label:'c) Độ dài mỗi đoạn dây',answer:''+(L/2),unit:'cm'}],
+   solution:[`Bước 1) Ý a) Vì B nằm giữa A và C nên AC = AB + BC = ${AB} + ${BC} = ${AC} (cm).`,`Bước 2) Ý b) Vì D nằm giữa A và C nên AC = AD + DC, suy ra DC = AC − AD = ${AC} − ${AD} = ${DC} (cm).`,`Bước 3) Ý c) Cắt thành hai đoạn bằng nhau nghĩa là chia đôi: mỗi đoạn dài ${L} : 2 = ${L/2} (cm).`,`Đáp số: a) ${AC} cm; b) ${DC} cm; c) ${L/2} cm.`]};
+}},
+midpoint:{chapter:8,topic:'Trung điểm của đoạn thẳng',gen(l){
+  const AB=pick([8,10,12,14,16,18,20,24]),CN=R(3,12),PQ=pick([9,11,13,15]);
+  const svg=lineSvg([[40,100,'A'],[150,100,'M'],[260,100,'B']],[[[20,100],[280,100]]]);
+  return{title:'Trung điểm của đoạn thẳng',text:`a) Đoạn thẳng AB dài ${AB} cm, M là trung điểm của AB. Đoạn thẳng MA dài bao nhiêu xăng-ti-mét?\nb) Điểm N là trung điểm của đoạn thẳng CD, CN dài ${CN} cm. Đoạn thẳng CD dài bao nhiêu xăng-ti-mét?\nc) Đoạn thẳng PQ dài ${PQ} cm, I là trung điểm của PQ. Đoạn thẳng PI dài bao nhiêu xăng-ti-mét?`,svg:svg,figNote:'👆 Nhìn vào hình: M là trung điểm, MA = MB; đối chiếu từng bước giải với hình.',
+   analysis:{given:[`AB dài ${AB} cm, M là trung điểm của AB`,`N là trung điểm của CD, CN dài ${CN} cm`,`PQ dài ${PQ} cm, I là trung điểm của PQ`],ask:'Độ dài MA; độ dài CD; độ dài PI',plan:'Trung điểm chia đoạn thẳng thành hai đoạn bằng nhau: đoạn con bằng một nửa đoạn lớn; đoạn lớn gấp đôi đoạn con.'},
+   hint:`MA = AB : 2. CD = CN × 2. PI = PQ : 2.`,
+   theory:'Điểm M là trung điểm của đoạn thẳng AB khi M nằm giữa A và B và MA = MB. Khi đó MA = MB = AB : 2.',
+   kw:[{t:'trung điểm',type:'op',why:'Trung điểm nằm giữa và cách đều hai đầu đoạn thẳng.'},{t:`MA`,type:'ask',why:'M là trung điểm của AB nên MA bằng một nửa AB.'},{t:`CD`,type:'ask',why:'N là trung điểm của CD nên CD dài gấp đôi CN.'}],
+   parts:[{label:'a) Độ dài MA',answer:''+(AB/2),unit:'cm'},{label:'b) Độ dài CD',answer:''+(CN*2),unit:'cm'},{label:'c) Độ dài PI',answer:decS(PQ*5,1),unit:'cm'}],
+   solution:[`Bước 1) Ý a) Vì M là trung điểm của AB nên MA bằng một nửa AB: MA = ${AB} : 2 = ${AB/2} (cm).`,`Bước 2) Ý b) Vì N là trung điểm của CD nên CD dài gấp đôi CN: CD = ${CN} × 2 = ${CN*2} (cm).`,`Bước 3) Ý c) Vì I là trung điểm của PQ nên PI bằng một nửa PQ: PI = ${PQ} : 2 = ${decS(PQ*5,1)} (cm).`,`Đáp số: a) ${AB/2} cm; b) ${CN*2} cm; c) ${decS(PQ*5,1)} cm.`]};
+}},
+angleBasic:{chapter:8,topic:'Góc',gen(l){
+  const m=pick([30,45,60,75]),n=pick([120,135,150,165]);
+  const svg=angSvg(m);
+  return{title:'Nhận biết các loại góc',text:`Trên hình là góc xOy có số đo ${m}°.\na) Góc vuông có số đo bao nhiêu độ?\nb) Góc trong hình (${m}°) nhỏ hơn góc vuông bao nhiêu độ?\nc) Một góc có số đo ${n}°. Góc đó lớn hơn góc vuông bao nhiêu độ?`,svg:svg+FIG_NOTE,figNote:`👆 Nhìn vào hình: góc xOy có số đo ${m}°; đối chiếu từng bước giải với số đo trên hình.`,
+   analysis:{given:[`Góc xOy có số đo ${m}°`,`Góc cần xét có số đo ${n}°`],ask:'Số đo góc vuông; góc nhọn nhỏ hơn góc vuông bao nhiêu; góc tù lớn hơn góc vuông bao nhiêu',plan:'Góc vuông bằng 90°. Góc nhọn nhỏ hơn 90°, góc tù lớn hơn 90° và nhỏ hơn 180°. Lấy hiệu với 90°.'},
+   hint:`Góc vuông = 90°. 90 − ${m} = ${90-m}. ${n} − 90 = ${n-90}.`,
+   theory:'Góc vuông có số đo bằng 90°. Góc nhọn nhỏ hơn 90°, góc tù lớn hơn 90° và nhỏ hơn 180°, góc bẹt bằng 180°.',
+   kw:[{t:`góc xOy có số đo ${m}°`,type:'data',why:'Số đo của góc trong hình.'},{t:'Góc vuông',type:'op',why:'Góc vuông có số đo bằng 90°, dùng làm mốc so sánh.'},{t:`góc ${n}°`,type:'data',why:'Góc cần so sánh với góc vuông.'}],
+   parts:[{label:'a) Số đo góc vuông',answer:'90',unit:'độ'},{label:`b) ${m}° nhỏ hơn góc vuông`,answer:''+(90-m),unit:'độ'},{label:`c) ${n}° lớn hơn góc vuông`,answer:''+(n-90),unit:'độ'}],
+   solution:[`Bước 1) Ý a) Góc vuông là góc có số đo bằng 90°.`,`Bước 2) Ý b) Muốn biết góc ${m}° nhỏ hơn góc vuông bao nhiêu độ, ta lấy 90° − ${m}° = ${90-m}°. Vì ${m}° < 90° nên góc xOy là góc nhọn.`,`Bước 3) Ý c) Muốn biết góc ${n}° lớn hơn góc vuông bao nhiêu độ, ta lấy ${n}° − 90° = ${n-90}°. Vì 90° < ${n}° < 180° nên góc ${n}° là góc tù.`,`Đáp số: a) 90°; b) ${90-m}°; c) ${n-90}°.`]};
+}},
+angleMeasure:{chapter:8,topic:'Số đo góc',gen(l){
+  const m=pick([40,50,60,70,80]),a=pick([30,40,50,60]),b=pick([40,50,60,70]);
+  const svg=angSvg(m);
+  return{title:'Đo và tính số đo góc',text:`a) Dùng thước đo góc đo góc xOy được ${m}°. Số đo góc xOy là bao nhiêu độ?\nb) Tia Oy nằm giữa hai tia Ox và Oz, góc xOy = ${a}°, góc yOz = ${b}°. Góc xOz bằng bao nhiêu độ?\nc) Góc bẹt bằng 180°, góc vuông bằng 90°. Góc bẹt gấp góc vuông bao nhiêu lần?`,svg:svg+FIG_NOTE,figNote:'👆 Nhìn vào thước đo góc trên hình: tâm thước trùng đỉnh O, vạch 0 trùng cạnh Ox; đối chiếu từng bước giải với hình.',
+   analysis:{given:[`Góc xOy đo được ${m}°`,`Tia Oy nằm giữa Ox và Oz, góc xOy = ${a}°, góc yOz = ${b}°`,`Góc bẹt 180°, góc vuông 90°`],ask:'Số đo góc xOy; số đo góc xOz; góc bẹt gấp góc vuông bao nhiêu lần',plan:'Đọc trực tiếp số đo trên thước. Khi tia Oy nằm giữa thì góc xOz = góc xOy + góc yOz. Gấp bao nhiêu lần thì chia.'},
+   hint:`xOz = ${a}° + ${b}°. 180 : 90 = 2.`,
+   theory:'Khi tia Oy nằm giữa hai tia Ox và Oz thì góc xOz = góc xOy + góc yOz. Góc bẹt bằng 180°, gấp đôi góc vuông (90°).',
+   kw:[{t:`góc xOy = ${m}°`,type:'data',why:'Số đo đọc được trên thước đo góc.'},{t:'Tia Oy nằm giữa',type:'op',why:'Khi tia nằm giữa thì góc lớn bằng tổng hai góc nhỏ.'},{t:'gấp bao nhiêu lần',type:'ask',why:'Muốn biết gấp bao nhiêu lần thì chia hai số đo.'}],
+   parts:[{label:'a) Số đo góc xOy',answer:''+m,unit:'độ'},{label:'b) Số đo góc xOz',answer:''+(a+b),unit:'độ'},{label:'c) Góc bẹt gấp góc vuông',answer:'2',unit:'lần'}],
+   solution:[`Bước 1) Ý a) Thước đo góc chỉ ${m}° nên số đo góc xOy là ${m}°.`,`Bước 2) Ý b) Vì tia Oy nằm giữa hai tia Ox và Oz nên góc xOz = góc xOy + góc yOz = ${a}° + ${b}° = ${a+b}°.`,`Bước 3) Ý c) Muốn biết góc bẹt gấp góc vuông bao nhiêu lần, ta lấy 180° : 90° = 2 (lần).`,`Đáp số: a) ${m}°; b) ${a+b}°; c) 2 lần.`]};
+}},
+dataCollect:{chapter:9,topic:'Dữ liệu và thu thập dữ liệu',gen(l){
+  const T=pick([30,35,40,45]),F=R(10,T-5);
+  const S=pick([30,40,50]),Rr=R(S-8,S-1);
+  const pool=[3,4,5,6,7,8,9,10,12];
+  const tv=pick(pool);
+  let others=[];while(others.length<3){const v=pick(pool);if(v!==tv&&others.indexOf(v)<0)others.push(v);}
+  const k=pick([2,3]);
+  const arr=[];let placed=0;
+  const pos=[];
+  for(let i=0;i<5;i++){const remain=5-i,need=k-placed;let put=false;if(need>0&&(need===remain||Math.random()<0.5)){arr.push(tv);placed++;pos.push(i+1);put=true;}if(!put)arr.push(others[(arr.length)%others.length]);}
+  while(placed<k){for(let i=0;i<5&&placed<k;i++){if(arr[i]!==tv){arr[i]=tv;placed++;pos.push(i+1);}}}
+  pos.sort((x,y)=>x-y);
+  return{title:'Thu thập và đếm dữ liệu',text:`a) Lớp 6A có ${T} học sinh. Số học sinh thích bóng đá là ${F} bạn. Số học sinh còn lại (không thích bóng đá) là bao nhiêu bạn?\nb) Để thu thập dữ liệu, cô giáo phát ${S} phiếu hỏi và thu về ${Rr} phiếu. Số phiếu chưa thu về là bao nhiêu phiếu?\nc) Dãy dữ liệu về số bàn thắng là: ${arr.join('; ')}. Số ${tv} xuất hiện bao nhiêu lần trong dãy?`,
+   analysis:{given:[`Lớp 6A có ${T} học sinh, ${F} bạn thích bóng đá`,`Phát ${S} phiếu, thu về ${Rr} phiếu`,`Dãy dữ liệu: ${arr.join('; ')}`],ask:'Số học sinh còn lại; số phiếu chưa thu về; số lần xuất hiện của số '+tv,plan:'Số còn lại = tổng trừ đi số đã biết. Đếm số lần xuất hiện bằng cách rà từng số trong dãy.'},
+   hint:`${T} − ${F} = ${T-F}. ${S} − ${Rr} = ${S-Rr}. Rà dãy từ trái sang phải và đếm số ${tv}.`,
+   theory:'Dữ liệu là các số liệu, thông tin thu thập được. Người ta thu thập dữ liệu bằng cách quan sát, làm thí nghiệm, lập phiếu hỏi hoặc tra cứu từ nguồn có sẵn.',
+   kw:[{t:`${T} học sinh`,type:'data',why:'Tổng số học sinh của lớp.'},{t:'còn lại',type:'ask',why:'Lấy tổng trừ đi số đã biết.'},{t:`dãy ${arr.join('; ')}`,type:'data',why:'Dãy cần đếm số lần xuất hiện.'}],
+   parts:[{label:'a) Số học sinh còn lại',answer:''+(T-F),unit:'bạn'},{label:'b) Số phiếu chưa thu về',answer:''+(S-Rr),unit:'phiếu'},{label:`c) Số lần xuất hiện của số ${tv}`,answer:''+k,unit:'lần'}],
+   solution:[`Bước 1) Ý a) Số học sinh còn lại = tổng số học sinh trừ số học sinh thích bóng đá: ${T} − ${F} = ${T-F} (bạn).`,`Bước 2) Ý b) Số phiếu chưa thu về = số phiếu đã phát trừ số phiếu đã thu: ${S} − ${Rr} = ${S-Rr} (phiếu).`,`Bước 3) Ý c) Đếm trong dãy ${arr.join('; ')}: số ${tv} xuất hiện ở vị trí thứ ${pos.join(', ')}, tức xuất hiện ${k} lần.`,`Đáp số: a) ${T-F} bạn; b) ${S-Rr} phiếu; c) ${k} lần.`]};
+}},
+pictographTable:{chapter:9,topic:'Bảng thống kê và biểu đồ tranh',gen(l){
+  const sports=['Bóng đá','Cầu lông','Bơi','Chạy','Bóng rổ'];
+  const s1=pick(sports);let s2=pick(sports);while(s2===s1)s2=pick(sports);let s3=pick(sports);while(s3===s1||s3===s2)s3=pick(sports);
+  const a=R(1,4),b=R(1,4),c=R(1,4),k=pick([2,4,5]);
+  const svg=picSvg([{n:s1,s:a},{n:s2,s:b},{n:s3,s:c}]);
+  return{title:'Đọc biểu đồ tranh',text:`Biểu đồ tranh bên ghi số học sinh thích các môn thể thao. Mỗi ⭐ ứng với ${k} học sinh.\na) Có bao nhiêu học sinh thích ${s1.toLowerCase()}?\nb) Có bao nhiêu học sinh thích cả ba môn?\nc) Môn ${s3.toLowerCase()} có ${c*k} học sinh. Cần vẽ bao nhiêu ngôi sao cho môn ${s3.toLowerCase()}?`,svg:svg,figNote:`👆 Nhìn vào biểu đồ tranh: mỗi ⭐ ứng với ${k} học sinh; đối chiếu từng bước giải với số sao của mỗi môn.`,
+   analysis:{given:[`Mỗi ⭐ ứng với ${k} học sinh`,`${s1}: ${a} sao; ${s2}: ${b} sao; ${s3}: ${c} sao`],ask:`Số học sinh thích ${s1.toLowerCase()}; tổng số học sinh cả ba môn; số sao cần vẽ cho môn ${s3.toLowerCase()}`,plan:'Số học sinh = số sao × số học sinh mỗi sao. Tổng = tổng số sao × số học sinh mỗi sao. Số sao = số học sinh chia cho số học sinh mỗi sao.'},
+   hint:`${s1}: ${a} × ${k}. Tổng số sao là ${a} + ${b} + ${c} = ${a+b+c} sao.`,
+   theory:'Trong biểu đồ tranh, mỗi biểu tượng ứng với một số đối tượng nhất định. Muốn tìm số đối tượng, ta lấy số biểu tượng nhân với số đối tượng mà mỗi biểu tượng ứng với.',
+   kw:[{t:`mỗi ⭐ ứng với ${k} học sinh`,type:'data',why:'Chìa khóa đọc biểu đồ tranh: nhân số sao với số này.'},{t:`${s1}: ${a} sao`,type:'data',why:'Số sao của môn thứ nhất.'},{t:'cả ba môn',type:'ask',why:'Cộng số sao của ba môn rồi nhân với số học sinh mỗi sao.'}],
+   parts:[{label:`a) Số học sinh thích ${s1.toLowerCase()}`,answer:''+(a*k),unit:'học sinh'},{label:'b) Tổng số học sinh cả ba môn',answer:''+((a+b+c)*k),unit:'học sinh'},{label:`c) Số sao cần vẽ cho môn ${s3.toLowerCase()}`,answer:''+c,unit:'ngôi sao'}],
+   solution:[`Bước 1) Ý a) ${s1} có ${a} sao, mỗi sao ứng với ${k} học sinh nên số học sinh thích ${s1.toLowerCase()} là ${a} × ${k} = ${a*k} (học sinh).`,`Bước 2) Ý b) Tổng số sao của ba môn là ${a} + ${b} + ${c} = ${a+b+c} (sao). Tổng số học sinh là ${a+b+c} × ${k} = ${(a+b+c)*k} (học sinh).`,`Bước 3) Ý c) Muốn tìm số sao, ta lấy số học sinh chia cho ${k}: ${c*k} : ${k} = ${c} (ngôi sao).`,`Đáp số: a) ${a*k} học sinh; b) ${(a+b+c)*k} học sinh; c) ${c} ngôi sao.`]};
+}},
+barChart:{chapter:9,topic:'Biểu đồ cột',gen(l){
+  const names=['Bóng đá','Cầu lông','Bơi','Chạy'];
+  const vals=[];const pool=[4,6,8,10,12,14,16];
+  while(vals.length<4){const v=pick(pool);if(vals.indexOf(v)<0)vals.push(v);}
+  const items=names.map((n,i)=>({n,v:vals[i]}));
+  const mx=Math.max(...vals),mn=Math.min(...vals),tot=vals.reduce((s,v)=>s+v,0);
+  const svg=barSvg(items,['#42a5f5','#ef6c00','#43a047','#7b1fa2']);
+  return{title:'Đọc biểu đồ cột',text:`Biểu đồ cột bên ghi số học sinh thích các môn thể thao: bóng đá ${vals[0]}, cầu lông ${vals[1]}, bơi ${vals[2]}, chạy ${vals[3]}.\na) Số học sinh thích bóng đá là bao nhiêu bạn?\nb) Môn được thích nhiều nhất hơn môn được thích ít nhất bao nhiêu bạn?\nc) Tổng số học sinh thích cả bốn môn là bao nhiêu bạn?`,svg:svg,figNote:'👆 Nhìn vào biểu đồ cột: gióng đầu mỗi cột sang trục dọc để đọc số; đối chiếu từng bước giải với các cột.',
+   analysis:{given:[`Bóng đá ${vals[0]}, cầu lông ${vals[1]}, bơi ${vals[2]}, chạy ${vals[3]}`],ask:'Số học sinh thích bóng đá; môn nhiều nhất hơn môn ít nhất bao nhiêu; tổng số học sinh',plan:'Đọc số liệu bằng cách gióng đầu cột sang trục dọc. Nhiều nhất trừ ít nhất. Tổng = cộng cả bốn số.'},
+   hint:`Cột bóng đá cao tới ${vals[0]}. Nhiều nhất ${mx}, ít nhất ${mn}. Tổng: ${vals.join(' + ')}.`,
+   theory:'Trong biểu đồ cột, trục ngang ghi tên đối tượng, trục dọc ghi số lượng. Cột nào cao hơn thì số liệu lớn hơn.',
+   kw:[{t:'biểu đồ cột',type:'data',why:'Cột cao hơn thì số liệu lớn hơn.'},{t:'nhiều nhất',type:'ask',why:'Cột cao nhất trong bốn cột.'},{t:'ít nhất',type:'ask',why:'Cột thấp nhất trong bốn cột.'}],
+   parts:[{label:'a) Số học sinh thích bóng đá',answer:''+vals[0],unit:'bạn'},{label:'b) Nhiều nhất hơn ít nhất',answer:''+(mx-mn),unit:'bạn'},{label:'c) Tổng số học sinh cả bốn môn',answer:''+tot,unit:'bạn'}],
+   solution:[`Bước 1) Ý a) Gióng đầu cột bóng đá sang trục dọc, ta đọc được ${vals[0]}. Vậy có ${vals[0]} bạn thích bóng đá.`,`Bước 2) Ý b) Môn được thích nhiều nhất có ${mx} bạn, môn được thích ít nhất có ${mn} bạn. Nhiều hơn: ${mx} − ${mn} = ${mx-mn} (bạn).`,`Bước 3) Ý c) Tổng số học sinh là ${vals.join(' + ')} = ${tot} (bạn).`,`Đáp số: a) ${vals[0]} bạn; b) ${mx-mn} bạn; c) ${tot} bạn.`]};
+}},
+doubleBarChart:{chapter:9,topic:'Biểu đồ cột kép',gen(l){
+  const a1=R(5,10),a2=a1+R(1,4),b1=R(5,10),b2=b1+R(1,4);
+  const svg=dblSvg(a1,a2,b1,b2);
+  return{title:'Đọc biểu đồ cột kép',text:`Biểu đồ cột kép bên ghi số học sinh giỏi của lớp 6A và 6B trong học kì 1 (cột xanh) và học kì 2 (cột cam): 6A: ${a1} và ${a2}; 6B: ${b1} và ${b2}.\na) Lớp 6A học kì 2 có bao nhiêu học sinh giỏi?\nb) Lớp 6B tăng bao nhiêu học sinh giỏi từ học kì 1 sang học kì 2?\nc) Tổng số học sinh giỏi học kì 2 của hai lớp là bao nhiêu bạn?`,svg:svg,figNote:'👆 Nhìn vào biểu đồ cột kép: xanh là học kì 1, cam là học kì 2; đối chiếu từng bước giải với các cột.',
+   analysis:{given:[`6A: học kì 1 là ${a1}, học kì 2 là ${a2}`,`6B: học kì 1 là ${b1}, học kì 2 là ${b2}`],ask:'Học sinh giỏi HK2 của 6A; 6B tăng bao nhiêu; tổng HK2 của hai lớp',plan:'Xem chú thích để biết màu nào ứng với học kì nào, rồi đọc số. Tăng = số sau trừ số trước. Tổng = cộng hai số học kì 2.'},
+   hint:`Cột cam của 6A cao tới ${a2}. 6B: ${b2} − ${b1} = ${b2-b1}. Tổng HK2: ${a2} + ${b2}.`,
+   theory:'Trong biểu đồ cột kép, mỗi đối tượng có hai cột đặt cạnh nhau để so sánh hai nhóm số liệu. Trước khi đọc số, phải xem chú thích để biết màu nào ứng với nhóm nào.',
+   kw:[{t:'cột xanh',type:'data',why:'Chú thích: cột xanh là học kì 1.'},{t:'cột cam',type:'data',why:'Chú thích: cột cam là học kì 2.'},{t:'tăng bao nhiêu',type:'ask',why:'Lấy số học kì 2 trừ số học kì 1.'}],
+   parts:[{label:'a) Học sinh giỏi HK2 của 6A',answer:''+a2,unit:'bạn'},{label:'b) 6B tăng từ HK1 sang HK2',answer:''+(b2-b1),unit:'bạn'},{label:'c) Tổng học sinh giỏi HK2 của hai lớp',answer:''+(a2+b2),unit:'bạn'}],
+   solution:[`Bước 1) Ý a) Xem chú thích: cột cam là học kì 2. Cột cam của lớp 6A cao tới ${a2} nên lớp 6A học kì 2 có ${a2} học sinh giỏi.`,`Bước 2) Ý b) Lớp 6B từ ${b1} (học kì 1) lên ${b2} (học kì 2), tức tăng ${b2} − ${b1} = ${b2-b1} (học sinh giỏi).`,`Bước 3) Ý c) Tổng học kì 2 của hai lớp là ${a2} + ${b2} = ${a2+b2} (bạn).`,`Đáp số: a) ${a2} bạn; b) ${b2-b1} bạn; c) ${a2+b2} bạn.`]};
+}},
+possibleEvents:{chapter:9,topic:'Kết quả có thể và sự kiện trong trò chơi, thí nghiệm',gen(l){
+  const C=pick([2,3]),colors=C===2?['đỏ','xanh']:['đỏ','xanh','vàng'];
+  const counts=colors.map(()=>R(1,5));
+  const n=pick([4,6,8]);
+  const desc=colors.map((c,i)=>`${counts[i]} bóng ${c}`).join(', ');
+  return{title:'Kết quả có thể xảy ra',text:`a) Trong hộp có ${desc}. Lấy ngẫu nhiên 1 quả bóng. Có bao nhiêu kết quả có thể xảy ra về màu bóng?\nb) Quay một vòng quay chia thành ${n} ô bằng nhau, đánh số từ 1 đến ${n}. Có bao nhiêu kết quả có thể xảy ra về số ô dừng lại?\nc) Tung một đồng xu 1 lần. Có bao nhiêu kết quả có thể xảy ra?`,
+   analysis:{given:[`Hộp có ${desc}`,`Vòng quay có ${n} ô bằng nhau`,`Đồng xu có 2 mặt`],ask:'Số kết quả có thể về màu bóng; số kết quả có thể của vòng quay; số kết quả có thể khi tung đồng xu',plan:'Chỉ quan tâm đến màu (hoặc số ô, mặt đồng xu): mỗi màu (mỗi ô, mỗi mặt) là một kết quả có thể.'},
+   hint:`Bóng chỉ có ${C} màu. Vòng quay có ${n} ô. Đồng xu có 2 mặt.`,
+   theory:'Khi thực hiện một trò chơi hay thí nghiệm, các trường hợp có thể xảy ra gọi là các kết quả có thể. Sự kiện chắc chắn là sự kiện nhất định xảy ra; sự kiện không thể là sự kiện nhất định không xảy ra.',
+   kw:[{t:`${desc}`,type:'data',why:'Các màu bóng có trong hộp.'},{t:`${n} ô`,type:'data',why:'Số ô trên vòng quay.'},{t:'kết quả có thể',type:'ask',why:'Mỗi trường hợp có thể xảy ra là một kết quả có thể.'}],
+   parts:[{label:'a) Số kết quả có thể về màu bóng',answer:''+C,unit:'kết quả'},{label:'b) Số kết quả có thể của vòng quay',answer:''+n,unit:'kết quả'},{label:'c) Số kết quả có thể khi tung đồng xu',answer:'2',unit:'kết quả'}],
+   solution:[`Bước 1) Ý a) Vì chỉ quan tâm đến màu bóng nên các kết quả có thể là: ${colors.map(c=>'lấy được bóng '+c).join(', ')}. Vậy có ${C} kết quả có thể.`,`Bước 2) Ý b) Vòng quay có ${n} ô nên khi quay có ${n} ô có thể dừng lại, tức có ${n} kết quả có thể.`,`Bước 3) Ý c) Đồng xu có 2 mặt (sấp và ngửa) nên khi tung 1 lần có 2 kết quả có thể.`,`Đáp số: a) ${C}; b) ${n}; c) 2.`]};
+}},
+expProbability:{chapter:9,topic:'Xác suất thực nghiệm',gen(l){
+  const N1=pick([20,30,40,50,60]);
+  const qs=[];for(let qq=2;qq<=10;qq++)if(N1%qq===0)qs.push(qq);
+  const q1=pick(qs);let p1=R(1,q1-1);while(gcd(p1,q1)!==1)p1=R(1,q1-1);
+  const k1=p1*(N1/q1);
+  const N2=pick([20,40,50]);
+  const qs2=[];for(let qq=2;qq<=10;qq++)if(N2%qq===0)qs2.push(qq);
+  const q2=pick(qs2);let p2=R(1,q2-1);while(gcd(p2,q2)!==1)p2=R(1,q2-1);
+  const k2=p2*(N2/q2);
+  const g=pick([2,3,4,5]),q3=pick([2,3,4,5,6]);let p3=R(1,q3-1);while(gcd(p3,q3)!==1)p3=R(1,q3-1);
+  const face=pick([2,3,4,5,6]);
+  return{title:'Xác suất thực nghiệm',text:`a) Gieo một con xúc xắc ${N1} lần, mặt ${face} chấm xuất hiện ${k1} lần. Xác suất thực nghiệm xuất hiện mặt ${face} chấm là bao nhiêu? (viết đáp số dưới dạng phân số tối giản)\nb) Tung một đồng xu ${N2} lần, mặt sấp xuất hiện ${k2} lần. Xác suất thực nghiệm xuất hiện mặt sấp là bao nhiêu? (viết đáp số dưới dạng phân số tối giản)\nc) Gieo xúc xắc 30 lần, mặt 3 chấm xuất hiện 5 lần. Xác suất thực nghiệm xuất hiện mặt 3 chấm là 5/30. Rút gọn phân số này, tử số là bao nhiêu?`,
+   analysis:{given:[`Gieo xúc xắc ${N1} lần, mặt ${face} chấm xuất hiện ${k1} lần`,`Tung đồng xu ${N2} lần, mặt sấp xuất hiện ${k2} lần`,`Xác suất thực nghiệm mặt 3 chấm là 5/30`],ask:'Xác suất thực nghiệm mặt '+face+' chấm; xác suất thực nghiệm mặt sấp; tử số sau khi rút gọn 5/30',plan:'Xác suất thực nghiệm = số lần xuất hiện chia cho tổng số lần thử, rồi rút gọn phân số.'},
+   hint:`Xác suất thực nghiệm = số lần xuất hiện : tổng số lần thử. ${k1}/${N1} = ${p1}/${q1}; ${k2}/${N2} = ${p2}/${q2}.`,
+   theory:'Xác suất thực nghiệm của một sự kiện = số lần sự kiện đó xuất hiện : tổng số lần thực hiện thí nghiệm.',
+   kw:[{t:`${k1} lần`,type:'data',why:'Số lần mặt '+face+' chấm xuất hiện.'},{t:`${N1} lần`,type:'data',why:'Tổng số lần gieo xúc xắc.'},{t:'xác suất thực nghiệm',type:'op',why:'Bằng số lần xuất hiện chia cho tổng số lần thử, rồi rút gọn.'}],
+   parts:[{label:`a) Xác suất thực nghiệm mặt ${face} chấm`,answer:`${p1}/${q1}`,unit:''},{label:'b) Xác suất thực nghiệm mặt sấp',answer:`${p2}/${q2}`,unit:''},{label:'c) Tử số sau khi rút gọn 5/30',answer:'1',unit:''}],
+   solution:[`Bước 1) Ý a) Xác suất thực nghiệm = số lần xuất hiện chia cho tổng số lần gieo: ${k1}/${N1}. Rút gọn cho ${N1/q1}: ${k1}/${N1} = ${p1}/${q1}.`,`Bước 2) Ý b) Xác suất thực nghiệm mặt sấp là ${k2}/${N2}. Rút gọn cho ${N2/q2}: ${k2}/${N2} = ${p2}/${q2}.`,`Bước 3) Ý c) Xác suất thực nghiệm là 5/30. Rút gọn cho 5: 5/30 = 1/6. Vậy tử số sau khi rút gọn là 1.`,`Đáp số: a) ${p1}/${q1}; b) ${p2}/${q2}; c) 1.`]};
+}}
+
 };
 window.GEN={templates:T,
- chapters:{1:'Chương 1 · Tập hợp các số tự nhiên',2:'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên',3:'Chương 3 · Số nguyên',4:'Chương 4 · Một số hình phẳng trong thực tiễn',5:'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên'},
+ chapters:{1:'Chương 1 · Tập hợp các số tự nhiên',2:'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên',3:'Chương 3 · Số nguyên',4:'Chương 4 · Một số hình phẳng trong thực tiễn',5:'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên',6:'Chương 6 · Phân số',7:'Chương 7 · Số thập phân',8:'Chương 8 · Hình học cơ bản',9:'Chương 9 · Dữ liệu và xác suất thực nghiệm'},
  make(chapter,lvl){
    const keys=Object.keys(T).filter(k=>T[k].chapter===chapter);
    const k=pick(keys);
@@ -447,7 +769,7 @@ window.GEN={templates:T,
  makeFrom(k,lvl){
    const p=T[k].gen(lvl||2);
    p.gen=true;p.template=k;p.chapter=T[k].chapter;p.topic=T[k].topic;
-   const SHAPE={rectGeo:'hinh-chu-nhat',squareGeo:'hinh-vuong',triGeo:'tam-giac-deu',trapGeo:'hinh-thang-can',rhombusGeo:'hinh-thoi',paraGeo:'hinh-binh-hanh',setBasics:'tap-hop',numOrder:'tia-so',intSet:'truc-so-nguyen'};
+   const SHAPE={rectGeo:'hinh-chu-nhat',squareGeo:'hinh-vuong',triGeo:'tam-giac-deu',trapGeo:'hinh-thang-can',rhombusGeo:'hinh-thoi',paraGeo:'hinh-binh-hanh',setBasics:'tap-hop',numOrder:'tia-so',intSet:'truc-so-nguyen',fracEqual:'phan-so',fracCompare:'hon-so',pointLine:'diem-duong-thang',pointBetweenRay:'tia',segmentLength:'doan-thang-trung-diem',midpoint:'doan-thang-trung-diem',angleBasic:'goc',angleMeasure:'so-do-goc',barChart:'bieu-do-cot',doubleBarChart:'bieu-do-cot-kep'};
    if(SHAPE[k])p.shape=SHAPE[k];
    return p;
  }};

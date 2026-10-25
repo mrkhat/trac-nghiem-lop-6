@@ -1464,5 +1464,1369 @@
   "theory": "Hình có tâm đối xứng (Bài 22): tâm đối xứng là điểm O sao cho quay hình 180° quanh O thì hình trùng với chính nó. Hình vuông, hình chữ nhật, hình thoi, hình bình hành, lục giác đều có tâm đối xứng; tam giác đều và hình thang cân không có.",
   "title": "Hình nào có tâm đối xứng",
   "topic": "Tâm đối xứng"
- }
+ },
+{
+ "analysis": {
+  "ask": "Tử số mới; mẫu số mới; tử số tối giản",
+  "given": [
+   "Phân số 3/4 cần viết lại với mẫu số 20",
+   "Phân số 2/3 cần viết lại với tử số 10",
+   "Phân số 12/18 cần rút gọn"
+  ],
+  "plan": "Muốn mẫu số thành 20, ta tìm số nhân với 4 được 20 rồi nhân cả tử và mẫu với số đó. Tương tự với tử số. Muốn rút gọn, ta chia cả tử và mẫu cho ƯCLN của chúng."
+ },
+ "chapter": 6,
+ "hint": "20 : 4 = 5; 10 : 2 = 5; ƯCLN(12; 18) = 6.",
+ "id": "p29",
+ "kw": [
+  {
+   "t": "3/4",
+   "type": "data",
+   "why": "Đề cho: phân số cần viết lại với mẫu số 20."
+  },
+  {
+   "t": "mẫu số 20",
+   "type": "data",
+   "why": "Đề cho: mẫu số mới cần đạt được."
+  },
+  {
+   "t": "thành phân số có mẫu số 20",
+   "type": "op",
+   "why": "Từ khóa: phải nhân cả tử và mẫu với cùng một số để phân số không đổi giá trị."
+  },
+  {
+   "t": "rút gọn phân số 12/18",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): chia cả tử và mẫu cho ƯCLN(12; 18) = 6."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "15",
+   "label": "a) Tử số mới của 3/4",
+   "unit": ""
+  },
+  {
+   "answer": "15",
+   "label": "b) Mẫu số mới của 2/3",
+   "unit": ""
+  },
+  {
+   "answer": "2",
+   "label": "c) Tử số sau khi rút gọn 12/18",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Vì 20 : 4 = 5 nên muốn mẫu số thành 20, ta nhân cả tử số và mẫu số của 3/4 với 5 (nhân cả tử và mẫu với cùng một số thì phân số không đổi giá trị): 3 × 5 = 15, 4 × 5 = 20. Vậy phân số mới là 15/20, tử số mới là 15.",
+  "Bước 2) Ý b) Vì 10 : 2 = 5 nên ta nhân cả tử số và mẫu số của 2/3 với 5: 2 × 5 = 10, 3 × 5 = 15. Vậy phân số mới là 10/15, mẫu số mới là 15.",
+  "Bước 3) Ý c) Vì ƯCLN(12; 18) = 6 nên ta chia cả tử số và mẫu số của 12/18 cho 6: 12 : 6 = 2, 18 : 6 = 3. Vậy phân số tối giản là 2/3, tử số là 2.",
+  "Đáp số: a) 15; b) 15; c) 2."
+ ],
+ "template": "fracEqual",
+ "text": "a) Viết phân số 3/4 thành phân số có mẫu số là 20. Tử số mới là bao nhiêu?\nb) Viết phân số 2/3 thành phân số có tử số là 10. Mẫu số mới là bao nhiêu?\nc) Rút gọn phân số 12/18. Phân số tối giản có tử số là bao nhiêu?",
+ "theory": "Muốn được phân số bằng phân số đã cho, ta nhân (hoặc chia) cả tử số và mẫu số cho cùng một số khác 0. Rút gọn phân số là chia cả tử số và mẫu số cho ƯCLN của chúng.",
+ "title": "Viết lại và rút gọn phân số",
+ "topic": "Phân số bằng nhau"
+},
+{
+ "analysis": {
+  "ask": "Mẫu số chung; tử số của phân số lớn hơn sau quy đồng; tử số sau khi đổi hỗn số",
+  "given": [
+   "Hai phân số 3/5 và 4/7",
+   "Hỗn số 2 3/4"
+  ],
+  "plan": "Muốn so sánh hai phân số khác mẫu, ta quy đồng mẫu số rồi so sánh tử số. Muốn đổi hỗn số, lấy phần nguyên nhân mẫu cộng tử."
+ },
+ "chapter": 6,
+ "hint": "Mẫu chung của 5 và 7 là 35. 2 3/4 = (2 × 4 + 3)/4.",
+ "id": "p30",
+ "kw": [
+  {
+   "t": "3/5 và 4/7",
+   "type": "data",
+   "why": "Đề cho: hai phân số cần so sánh."
+  },
+  {
+   "t": "quy đồng mẫu số",
+   "type": "op",
+   "why": "Từ khóa: hai phân số khác mẫu số thì phải quy đồng trước khi so sánh."
+  },
+  {
+   "t": "hỗn số 2 3/4",
+   "type": "data",
+   "why": "Đề cho: hỗn số cần đổi thành phân số."
+  },
+  {
+   "t": "phân số lớn hơn",
+   "type": "ask",
+   "why": "Điều cần tìm (ý b): sau khi quy đồng, phân số nào có tử số lớn hơn thì lớn hơn."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "35",
+   "label": "a) Mẫu số chung",
+   "unit": ""
+  },
+  {
+   "answer": "21",
+   "label": "b) Tử số của phân số lớn hơn",
+   "unit": ""
+  },
+  {
+   "answer": "11",
+   "label": "c) Tử số sau khi đổi hỗn số",
+   "unit": ""
+  }
+ ],
+ "shape": "hon-so",
+ "solution": [
+  "Bước 1) Ý a) Vì 5 và 7 không có ước chung nào khác 1 nên mẫu số chung nhỏ nhất là 5 × 7 = 35.",
+  "Bước 2) Ý b) Quy đồng: 3/5 = (3 × 7)/(5 × 7) = 21/35; 4/7 = (4 × 5)/(7 × 5) = 20/35. Vì 21 > 20 nên 21/35 lớn hơn, tức phân số lớn hơn có tử số là 21.",
+  "Bước 3) Ý c) Đổi hỗn số: lấy phần nguyên 2 nhân mẫu 4 rồi cộng tử 3: (2 × 4 + 3)/4 = 11/4. Vậy tử số là 11.",
+  "Đáp số: a) 35; b) 21; c) 11."
+ ],
+ "template": "fracCompare",
+ "text": "a) Quy đồng mẫu số hai phân số 3/5 và 4/7. Mẫu số chung là bao nhiêu?\nb) Sau khi quy đồng, phân số lớn hơn có tử số là bao nhiêu?\nc) Đổi hỗn số 2 3/4 thành phân số. Tử số của phân số đó là bao nhiêu?",
+ "theory": "Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh tử số. Muốn đổi hỗn số a b/c thành phân số, ta viết (a × c + b)/c.",
+ "title": "So sánh phân số và đổi hỗn số",
+ "topic": "So sánh phân số. Hỗn số dương"
+},
+{
+ "analysis": {
+  "ask": "Kết quả các phép tính; độ dài còn lại",
+  "given": [
+   "Phép cộng 2/5 + 3/10",
+   "Phép trừ 3/4 − 1/2",
+   "Sợi dây dài 5/6 m, cắt đi 1/3 m"
+  ],
+  "plan": "Muốn cộng (trừ) hai phân số khác mẫu, ta quy đồng mẫu số rồi cộng (trừ) tử số, giữ nguyên mẫu số. Bài toán cắt dây là phép trừ."
+ },
+ "chapter": 6,
+ "hint": "2/5 = 4/10; 1/2 = 2/4; 1/3 = 2/6.",
+ "id": "p31",
+ "kw": [
+  {
+   "t": "2/5 + 3/10",
+   "type": "data",
+   "why": "Đề cho: phép cộng hai phân số khác mẫu số."
+  },
+  {
+   "t": "3/4 − 1/2",
+   "type": "data",
+   "why": "Đề cho: phép trừ hai phân số khác mẫu số."
+  },
+  {
+   "t": "cắt đi 1/3 m",
+   "type": "op",
+   "why": "Từ khóa: cắt đi nghĩa là trừ, nên độ dài còn lại là 5/6 − 1/3."
+  },
+  {
+   "t": "phân số tối giản",
+   "type": "ask",
+   "why": "Điều cần tìm: kết quả viết dưới dạng phân số tối giản."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "7/10",
+   "label": "a) Kết quả phép cộng",
+   "unit": ""
+  },
+  {
+   "answer": "1/4",
+   "label": "b) Kết quả phép trừ",
+   "unit": ""
+  },
+  {
+   "answer": "1/2",
+   "label": "c) Độ dài còn lại",
+   "unit": "m"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Vì 5 và 10 có mẫu chung 10 nên ta quy đồng 2/5 = 4/10, rồi cộng tử số, giữ nguyên mẫu số: 4/10 + 3/10 = 7/10. Phân số 7/10 đã tối giản.",
+  "Bước 2) Ý b) Quy đồng 1/2 = 2/4, rồi trừ tử số: 3/4 − 2/4 = 1/4.",
+  "Bước 3) Ý c) Vì cắt đi nghĩa là trừ nên độ dài còn lại là 5/6 − 1/3. Quy đồng 1/3 = 2/6, ta được 5/6 − 2/6 = 3/6 = 1/2 (m).",
+  "Đáp số: a) 7/10; b) 1/4; c) 1/2 m."
+ ],
+ "template": "fracAddSub",
+ "text": "Tính:\na) 2/5 + 3/10 = ? (viết đáp số dưới dạng phân số tối giản)\nb) 3/4 − 1/2 = ? (viết đáp số dưới dạng phân số tối giản)\nc) Một sợi dây dài 5/6 m, người ta cắt đi 1/3 m. Sợi dây còn lại dài bao nhiêu mét? (viết đáp số dưới dạng phân số tối giản)",
+ "theory": "Muốn cộng (trừ) hai phân số khác mẫu số, ta quy đồng mẫu số rồi cộng (trừ) tử số, giữ nguyên mẫu số.",
+ "title": "Cộng, trừ phân số",
+ "topic": "Phép cộng và phép trừ phân số"
+},
+{
+ "analysis": {
+  "ask": "Kết quả các phép nhân, chia",
+  "given": [
+   "Phép tính 2/3 × 9",
+   "Phép tính 4/5 : 2",
+   "Phép tính 3/4 × 8/9"
+  ],
+  "plan": "Muốn nhân phân số với số tự nhiên, ta nhân tử số với số đó, giữ nguyên mẫu số. Muốn chia phân số cho số tự nhiên, ta nhân mẫu số với số đó. Muốn nhân hai phân số, ta nhân tử với tử, mẫu với mẫu rồi rút gọn."
+ },
+ "chapter": 6,
+ "hint": "2/3 × 9 = (2 × 9)/3; 4/5 : 2 = 4/(5 × 2); 3/4 × 8/9 = 24/36.",
+ "id": "p32",
+ "kw": [
+  {
+   "t": "2/3 × 9",
+   "type": "data",
+   "why": "Đề cho: nhân phân số với số tự nhiên."
+  },
+  {
+   "t": "4/5 : 2",
+   "type": "data",
+   "why": "Đề cho: chia phân số cho số tự nhiên."
+  },
+  {
+   "t": "3/4 × 8/9",
+   "type": "data",
+   "why": "Đề cho: nhân hai phân số."
+  },
+  {
+   "t": "phân số tối giản",
+   "type": "ask",
+   "why": "Điều cần tìm: kết quả viết dưới dạng phân số tối giản."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "6",
+   "label": "a) Kết quả 2/3 × 9",
+   "unit": ""
+  },
+  {
+   "answer": "2/5",
+   "label": "b) Kết quả 4/5 : 2",
+   "unit": ""
+  },
+  {
+   "answer": "2/3",
+   "label": "c) Kết quả 3/4 × 8/9",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Nhân phân số với số tự nhiên: nhân tử số với 9, giữ nguyên mẫu số: (2 × 9)/3 = 18/3 = 6.",
+  "Bước 2) Ý b) Chia phân số cho số tự nhiên: nhân mẫu số với 2: 4/(5 × 2) = 4/10 = 2/5.",
+  "Bước 3) Ý c) Nhân tử với tử, mẫu với mẫu: (3 × 8)/(4 × 9) = 24/36. Rút gọn cho 12: 24/36 = 2/3.",
+  "Đáp số: a) 6; b) 2/5; c) 2/3."
+ ],
+ "template": "fracMulDiv",
+ "text": "Tính:\na) 2/3 × 9 = ?\nb) 4/5 : 2 = ? (viết đáp số dưới dạng phân số tối giản)\nc) 3/4 × 8/9 = ? (viết đáp số dưới dạng phân số tối giản)",
+ "theory": "Muốn nhân hai phân số, ta nhân tử số với tử số, mẫu số với mẫu số. Muốn chia một phân số cho một số tự nhiên, ta nhân mẫu số với số đó.",
+ "title": "Nhân, chia phân số",
+ "topic": "Phép nhân và phép chia phân số"
+},
+{
+ "analysis": {
+  "ask": "Số học sinh thích bóng đá; số học sinh chưa nộp bài; tổng số bi",
+  "given": [
+   "Lớp 6A có 45 học sinh",
+   "3/5 số học sinh thích bóng đá",
+   "2/3 số học sinh đã nộp bài",
+   "2/5 số bi của Hùng là 16 viên"
+  ],
+  "plan": "Muốn tìm giá trị phân số của một số, ta lấy số đó nhân với phân số. Muốn tìm một số khi biết giá trị phân số của nó, ta lấy giá trị đó chia cho phân số."
+ },
+ "chapter": 6,
+ "hint": "3/5 của 45 = 45 × 3/5; số chưa nộp = 45 − số đã nộp; 16 : 2/5 = 16 × 5/2.",
+ "id": "p33",
+ "kw": [
+  {
+   "t": "45 học sinh",
+   "type": "data",
+   "why": "Đề cho: tổng số học sinh của lớp 6A."
+  },
+  {
+   "t": "3/5 số học sinh",
+   "type": "op",
+   "why": "Từ khóa: tìm giá trị phân số của một số thì lấy số đó nhân với phân số."
+  },
+  {
+   "t": "2/5 số bi là 16 viên",
+   "type": "data",
+   "why": "Đề cho: giá trị phân số của tổng số bi."
+  },
+  {
+   "t": "tổng số bi",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): biết giá trị phân số thì lấy giá trị đó chia cho phân số."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "27",
+   "label": "a) Số học sinh thích bóng đá",
+   "unit": "học sinh"
+  },
+  {
+   "answer": "15",
+   "label": "b) Số học sinh chưa nộp bài",
+   "unit": "học sinh"
+  },
+  {
+   "answer": "40",
+   "label": "c) Tổng số bi của Hùng",
+   "unit": "viên"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Muốn tìm 3/5 của 45, ta lấy 45 nhân với 3/5: 45 × 3/5 = 135/5 = 27 (học sinh).",
+  "Bước 2) Ý b) Số học sinh đã nộp là 45 × 2/3 = 90/3 = 30 (học sinh). Số học sinh chưa nộp là 45 − 30 = 15 (học sinh).",
+  "Bước 3) Ý c) Muốn tìm tổng số bi khi biết 2/5 của nó là 16, ta lấy 16 chia cho 2/5, tức nhân với phân số nghịch đảo 5/2: 16 × 5/2 = 80/2 = 40 (viên).",
+  "Đáp số: a) 27 học sinh; b) 15 học sinh; c) 40 viên."
+ ],
+ "template": "fracWord",
+ "text": "Lớp 6A có 45 học sinh.\na) 3/5 số học sinh của lớp thích bóng đá. Có bao nhiêu học sinh thích bóng đá?\nb) 2/3 số học sinh của lớp đã nộp bài tập. Có bao nhiêu học sinh chưa nộp bài tập?\nc) 2/5 số bi của Hùng là 16 viên. Hỏi Hùng có bao nhiêu viên bi?",
+ "theory": "Muốn tìm giá trị phân số của một số cho trước, ta lấy số đó nhân với phân số. Muốn tìm một số khi biết giá trị phân số của nó, ta lấy giá trị đó chia cho phân số.",
+ "title": "Hai bài toán về phân số",
+ "topic": "Hai bài toán về phân số"
+},
+{
+ "analysis": {
+  "ask": "Phần nguyên; chữ số hàng phần mười; 10 lần số lớn hơn",
+  "given": [
+   "Số thập phân 3,45",
+   "Phân số 7/10",
+   "Hai số 0,59 và 0,6"
+  ],
+  "plan": "Phần nguyên là phần trước dấu phẩy. Phân số thập phân mẫu 10 viết thành số thập phân có 1 chữ số sau dấu phẩy. Muốn so sánh hai số thập phân, ta so sánh phần nguyên trước, rồi so sánh từng hàng ở phần thập phân."
+ },
+ "chapter": 7,
+ "hint": "7/10 = 0,7. Viết 0,6 = 0,60 rồi so sánh với 0,59.",
+ "id": "p34",
+ "kw": [
+  {
+   "t": "3,45",
+   "type": "data",
+   "why": "Đề cho: số thập phân cần tìm phần nguyên."
+  },
+  {
+   "t": "7/10",
+   "type": "data",
+   "why": "Đề cho: phân số thập phân cần viết thành số thập phân."
+  },
+  {
+   "t": "0,59 và 0,6",
+   "type": "data",
+   "why": "Đề cho: hai số thập phân cần so sánh."
+  },
+  {
+   "t": "số lớn hơn",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): so sánh rồi gấp 10 lần số lớn hơn."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "3",
+   "label": "a) Phần nguyên của 3,45",
+   "unit": ""
+  },
+  {
+   "answer": "7",
+   "label": "b) Chữ số hàng phần mười của 0,7",
+   "unit": ""
+  },
+  {
+   "answer": "6",
+   "label": "c) 10 lần số lớn hơn",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Phần nguyên là phần đứng trước dấu phẩy. Số 3,45 có phần nguyên là 3.",
+  "Bước 2) Ý b) Vì 7/10 có mẫu 10 nên viết thành số thập phân có một chữ số sau dấu phẩy: 0,7. Chữ số ở hàng phần mười là 7.",
+  "Bước 3) Ý c) Viết 0,6 = 0,60 rồi so sánh với 0,59: 60 > 59 nên 0,6 lớn hơn. Gấp 10 lần số đó: 0,6 × 10 = 6.",
+  "Đáp số: a) 3; b) 7; c) 6."
+ ],
+ "template": "decBasic",
+ "text": "a) Số thập phân 3,45 có phần nguyên là bao nhiêu?\nb) Viết phân số 7/10 dưới dạng số thập phân rồi cho biết chữ số ở hàng phần mười là bao nhiêu?\nc) Trong hai số 0,59 và 0,6, số lớn hơn gấp 10 lần thì được bao nhiêu?",
+ "theory": "Số thập phân gồm phần nguyên và phần thập phân, ngăn cách bằng dấu phẩy. Phân số thập phân (mẫu 10, 100, ...) viết được thành số thập phân.",
+ "title": "Đọc, viết và so sánh số thập phân",
+ "topic": "Số thập phân"
+},
+{
+ "analysis": {
+  "ask": "Kết quả các phép tính",
+  "given": [
+   "Phép tính 2,5 + 3,75",
+   "Phép tính 12,4 − 5,68",
+   "Phép tính 4,2 × 3"
+  ],
+  "plan": "Muốn cộng (trừ) hai số thập phân, ta viết sao cho các chữ số cùng hàng thẳng cột rồi cộng (trừ) như số tự nhiên, đặt dấu phẩy thẳng cột. Muốn nhân số thập phân với số tự nhiên, ta nhân như số tự nhiên rồi đếm chữ số ở phần thập phân để đặt dấu phẩy."
+ },
+ "chapter": 7,
+ "hint": "2,5 = 2,50. 12,4 = 12,40. 4,2 có 1 chữ số ở phần thập phân.",
+ "id": "p35",
+ "kw": [
+  {
+   "t": "2,5 + 3,75",
+   "type": "data",
+   "why": "Đề cho: phép cộng hai số thập phân."
+  },
+  {
+   "t": "12,4 − 5,68",
+   "type": "data",
+   "why": "Đề cho: phép trừ hai số thập phân."
+  },
+  {
+   "t": "4,2 × 3",
+   "type": "data",
+   "why": "Đề cho: phép nhân số thập phân với số tự nhiên."
+  },
+  {
+   "t": "dấu phẩy thẳng cột",
+   "type": "op",
+   "why": "Từ khóa: cộng, trừ số thập phân phải đặt dấu phẩy thẳng cột."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "6,25",
+   "label": "a) Kết quả 2,5 + 3,75",
+   "unit": ""
+  },
+  {
+   "answer": "6,72",
+   "label": "b) Kết quả 12,4 − 5,68",
+   "unit": ""
+  },
+  {
+   "answer": "12,6",
+   "label": "c) Kết quả 4,2 × 3",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Viết 2,5 thành 2,50 để hai số cùng có hai chữ số sau dấu phẩy, đặt dấu phẩy thẳng cột rồi cộng: 2,50 + 3,75 = 6,25.",
+  "Bước 2) Ý b) Viết 12,4 thành 12,40 rồi trừ, dấu phẩy thẳng cột: 12,40 − 5,68 = 6,72.",
+  "Bước 3) Ý c) Nhân như số tự nhiên: 42 × 3 = 126. Vì 4,2 có 1 chữ số ở phần thập phân nên kết quả cũng có 1 chữ số sau dấu phẩy: 12,6.",
+  "Đáp số: a) 6,25; b) 6,72; c) 12,6."
+ ],
+ "template": "decCalc",
+ "text": "Tính:\na) 2,5 + 3,75 = ?\nb) 12,4 − 5,68 = ?\nc) 4,2 × 3 = ?",
+ "theory": "Muốn cộng (trừ) hai số thập phân, ta đặt dấu phẩy thẳng cột rồi tính như số tự nhiên. Muốn nhân số thập phân với số tự nhiên, ta nhân như số tự nhiên rồi đếm chữ số thập phân để đặt dấu phẩy.",
+ "title": "Cộng, trừ, nhân số thập phân",
+ "topic": "Tính toán với số thập phân"
+},
+{
+ "analysis": {
+  "ask": "Kết quả làm tròn; kết quả ước lượng",
+  "given": [
+   "Số 3,76 cần làm tròn đến hàng phần mười",
+   "Số 42,38 cần làm tròn đến hàng đơn vị",
+   "Tổng 48,9 + 21,3 cần ước lượng"
+  ],
+  "plan": "Muốn làm tròn đến một hàng, ta nhìn chữ số ngay sau hàng đó: từ 5 trở lên thì tăng hàng làm tròn thêm 1, nhỏ hơn 5 thì giữ nguyên. Muốn ước lượng, ta làm tròn các số rồi tính với các số đã làm tròn."
+ },
+ "chapter": 7,
+ "hint": "Sau hàng phần mười của 3,76 là 6. Sau hàng đơn vị của 42,38 là 3. 48,9 ≈ 49; 21,3 ≈ 21.",
+ "id": "p36",
+ "kw": [
+  {
+   "t": "3,76",
+   "type": "data",
+   "why": "Đề cho: số cần làm tròn đến hàng phần mười."
+  },
+  {
+   "t": "42,38",
+   "type": "data",
+   "why": "Đề cho: số cần làm tròn đến hàng đơn vị."
+  },
+  {
+   "t": "48,9 + 21,3",
+   "type": "data",
+   "why": "Đề cho: tổng cần ước lượng."
+  },
+  {
+   "t": "ước lượng",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): làm tròn mỗi số đến hàng đơn vị rồi cộng lại."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "3,8",
+   "label": "a) 3,76 làm tròn đến hàng phần mười",
+   "unit": ""
+  },
+  {
+   "answer": "42",
+   "label": "b) 42,38 làm tròn đến hàng đơn vị",
+   "unit": ""
+  },
+  {
+   "answer": "70",
+   "label": "c) Kết quả ước lượng",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Chữ số ngay sau hàng phần mười của 3,76 là 6. Vì 6 ≥ 5 nên ta tăng hàng phần mười thêm 1: 7 thành 8. Vậy 3,76 ≈ 3,8.",
+  "Bước 2) Ý b) Chữ số ngay sau hàng đơn vị của 42,38 là 3. Vì 3 < 5 nên ta giữ nguyên hàng đơn vị: 42,38 ≈ 42.",
+  "Bước 3) Ý c) Làm tròn đến hàng đơn vị: 48,9 ≈ 49 (vì 9 ≥ 5) và 21,3 ≈ 21 (vì 3 < 5). Cộng lại: 49 + 21 = 70.",
+  "Đáp số: a) 3,8; b) 42; c) 70."
+ ],
+ "template": "decRound",
+ "text": "a) Làm tròn số 3,76 đến hàng phần mười được bao nhiêu?\nb) Làm tròn số 42,38 đến hàng đơn vị được bao nhiêu?\nc) Ước lượng kết quả của 48,9 + 21,3 bằng cách làm tròn mỗi số đến hàng đơn vị rồi cộng lại. Kết quả ước lượng là bao nhiêu?",
+ "theory": "Muốn làm tròn một số đến một hàng, ta nhìn chữ số ngay sau hàng đó: từ 5 trở lên thì tăng hàng làm tròn thêm 1, nhỏ hơn 5 thì giữ nguyên hàng làm tròn.",
+ "title": "Làm tròn và ước lượng",
+ "topic": "Làm tròn và ước lượng"
+},
+{
+ "analysis": {
+  "ask": "Tỉ số phần trăm học sinh giỏi; số tiền được giảm; số học sinh thích bóng đá",
+  "given": [
+   "Lớp 6A: 40 học sinh, 24 giỏi",
+   "Áo 150 000 đồng, giảm 20%",
+   "Lớp 6B: 40 học sinh, 25% thích bóng đá"
+  ],
+  "plan": "Muốn tìm tỉ số phần trăm của a so với b, ta lấy a : b rồi nhân với 100%. Muốn tìm m% của một số, ta lấy số đó nhân với m rồi chia cho 100."
+ },
+ "chapter": 7,
+ "hint": "24 : 40 = 0,6. 20% của 150 000 = 150 000 × 20 : 100. 25% của 40 = 40 × 25 : 100.",
+ "id": "p37",
+ "kw": [
+  {
+   "t": "24 học sinh giỏi trên 40 học sinh",
+   "type": "data",
+   "why": "Đề cho: số học sinh giỏi và tổng số học sinh lớp 6A."
+  },
+  {
+   "t": "giảm 20%",
+   "type": "op",
+   "why": "Từ khóa: tìm 20% của giá tiền thì lấy giá tiền nhân 20 rồi chia 100."
+  },
+  {
+   "t": "25% thích bóng đá",
+   "type": "data",
+   "why": "Đề cho: tỉ số phần trăm cần tìm số học sinh."
+  },
+  {
+   "t": "tỉ số phần trăm",
+   "type": "ask",
+   "why": "Điều cần tìm (ý a): 24 so với 40 bằng bao nhiêu phần trăm."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "60",
+   "label": "a) Tỉ số phần trăm học sinh giỏi",
+   "unit": "%"
+  },
+  {
+   "answer": "30000",
+   "label": "b) Số tiền được giảm",
+   "unit": "đồng"
+  },
+  {
+   "answer": "10",
+   "label": "c) Số học sinh thích bóng đá",
+   "unit": "học sinh"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Muốn tìm tỉ số phần trăm, ta lấy 24 : 40 = 0,6 rồi nhân với 100%: 0,6 × 100% = 60%.",
+  "Bước 2) Ý b) Muốn tìm 20% của 150 000, ta lấy 150 000 × 20 : 100 = 3 000 000 : 100 = 30 000 (đồng).",
+  "Bước 3) Ý c) Muốn tìm 25% của 40, ta lấy 40 × 25 : 100 = 1 000 : 100 = 10 (học sinh).",
+  "Đáp số: a) 60%; b) 30 000 đồng; c) 10 học sinh."
+ ],
+ "template": "ratioPercent",
+ "text": "a) Lớp 6A có 40 học sinh, trong đó có 24 học sinh giỏi. Tỉ số phần trăm của số học sinh giỏi so với cả lớp là bao nhiêu phần trăm?\nb) Một chiếc áo giá 150 000 đồng được giảm giá 20%. Số tiền được giảm là bao nhiêu đồng?\nc) Lớp 6B có 40 học sinh, 25% số học sinh thích bóng đá. Có bao nhiêu học sinh thích bóng đá?",
+ "theory": "Muốn tìm tỉ số phần trăm của hai số a và b, ta lấy a : b rồi nhân với 100%. Muốn tìm m% của một số, ta lấy số đó nhân với m rồi chia cho 100.",
+ "title": "Tỉ số và tỉ số phần trăm",
+ "topic": "Một số bài toán về tỉ số và tỉ số phần trăm"
+},
+{
+ "analysis": {
+  "ask": "Số điểm thuộc AB; số đường thẳng qua A, B; tổng số đường thẳng",
+  "given": [
+   "Điểm C thuộc đường thẳng AB",
+   "Điểm D không thuộc đường thẳng AB",
+   "Đường thẳng CD cắt AB tại C"
+  ],
+  "plan": "Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Qua hai điểm phân biệt chỉ có một đường thẳng. Đếm các đường thẳng có trên hình."
+ },
+ "chapter": 8,
+ "figNote": "👆 Nhìn vào hình: điểm nào nằm trên đường thẳng AB, điểm nào nằm ngoài; đối chiếu từng bước giải với hình.",
+ "hint": "A, B, C đều nằm trên đường thẳng AB. Qua A và B chỉ có đường thẳng AB.",
+ "id": "p38",
+ "kw": [
+  {
+   "t": "điểm C thuộc đường thẳng AB",
+   "type": "data",
+   "why": "Đề cho: C nằm trên đường thẳng AB."
+  },
+  {
+   "t": "điểm D không thuộc đường thẳng AB",
+   "type": "data",
+   "why": "Đề cho: D nằm ngoài đường thẳng AB."
+  },
+  {
+   "t": "qua hai điểm A và B",
+   "type": "op",
+   "why": "Từ khóa: qua hai điểm phân biệt chỉ vẽ được một đường thẳng."
+  },
+  {
+   "t": "bao nhiêu điểm thuộc đường thẳng AB",
+   "type": "ask",
+   "why": "Điều cần tìm (ý a): đếm các điểm nằm trên đường thẳng AB."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "3",
+   "label": "a) Số điểm thuộc đường thẳng AB",
+   "unit": "điểm"
+  },
+  {
+   "answer": "1",
+   "label": "b) Số đường thẳng qua A và B",
+   "unit": "đường thẳng"
+  },
+  {
+   "answer": "2",
+   "label": "c) Tổng số đường thẳng trên hình",
+   "unit": "đường thẳng"
+  }
+ ],
+ "shape": "diem-duong-thang",
+ "solution": [
+  "Bước 1) Ý a) Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. A, B và C đều nằm trên đường thẳng AB nên có 3 điểm thuộc đường thẳng AB.",
+  "Bước 2) Ý b) Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng, nên qua A và B chỉ vẽ được 1 đường thẳng (chính là đường thẳng AB).",
+  "Bước 3) Ý c) Trên hình có đường thẳng AB và đường thẳng CD, tức có 2 đường thẳng.",
+  "Đáp số: a) 3 điểm; b) 1 đường thẳng; c) 2 đường thẳng."
+ ],
+ "svg": "<svg viewBox='0 0 300 170' style='max-width:340px;width:100%'><line x1='15' y1='110' x2='285' y2='110' stroke='#37474f' stroke-width='2'/><line x1='120' y1='158' x2='180' y2='62' stroke='#1565c0' stroke-width='2'/><circle cx='60' cy='110' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle cx='150' cy='110' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='150' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>C</text><circle cx='240' cy='110' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><circle cx='180' cy='62' r='10' fill='#ffcdd2' stroke='#c62828' stroke-width='2'/><text x='180' y='50' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>D</text></svg>",
+ "template": "pointLine",
+ "text": "Trên hình có đường thẳng AB, điểm C thuộc đường thẳng AB, điểm D không thuộc đường thẳng AB, đường thẳng CD cắt đường thẳng AB tại C.\na) Có bao nhiêu điểm trong các điểm A, B, C thuộc đường thẳng AB?\nb) Qua hai điểm A và B vẽ được bao nhiêu đường thẳng?\nc) Trên hình có bao nhiêu đường thẳng?",
+ "theory": "Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng.",
+ "title": "Điểm thuộc đường thẳng",
+ "topic": "Điểm và đường thẳng"
+},
+{
+ "analysis": {
+  "ask": "Số tia gốc O; số đoạn thẳng; độ dài OB",
+  "given": [
+   "Ba điểm A, O, B theo thứ tự",
+   "O nằm giữa A và B",
+   "AB = 12 cm, OA = 5 cm"
+  ],
+  "plan": "Mỗi điểm trên đường thẳng chia đường thẳng thành 2 tia đối nhau gốc tại điểm đó. Các đoạn thẳng tạo bởi 3 điểm là AO, OB, AB. Vì O nằm giữa A và B nên AB = OA + OB, suy ra OB = AB − OA."
+ },
+ "chapter": 8,
+ "figNote": "👆 Nhìn vào hình: O nằm giữa A và B; đối chiếu từng bước giải với các điểm trên hình.",
+ "hint": "Các đoạn thẳng là AO, OB và AB. OB = AB − OA.",
+ "id": "p39",
+ "kw": [
+  {
+   "t": "O nằm giữa A và B",
+   "type": "data",
+   "why": "Đề cho: thứ tự ba điểm trên đường thẳng."
+  },
+  {
+   "t": "AB = 12 cm, OA = 5 cm",
+   "type": "data",
+   "why": "Đề cho: độ dài đoạn lớn và một đoạn nhỏ."
+  },
+  {
+   "t": "tia gốc O",
+   "type": "ask",
+   "why": "Điều cần tìm (ý a): một điểm chia đường thẳng thành 2 tia đối nhau."
+  },
+  {
+   "t": "O nằm giữa",
+   "type": "op",
+   "why": "Từ khóa: O nằm giữa A và B nên AB = OA + OB."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "2",
+   "label": "a) Số tia gốc O",
+   "unit": "tia"
+  },
+  {
+   "answer": "3",
+   "label": "b) Số đoạn thẳng",
+   "unit": "đoạn thẳng"
+  },
+  {
+   "answer": "7",
+   "label": "c) Độ dài OB",
+   "unit": "cm"
+  }
+ ],
+ "shape": "tia",
+ "solution": [
+  "Bước 1) Ý a) Một điểm trên đường thẳng chia đường thẳng thành 2 tia đối nhau. Điểm O chia đường thẳng xy thành 2 tia gốc O là tia OA và tia OB.",
+  "Bước 2) Ý b) Với 3 điểm A, O, B, các đoạn thẳng tạo thành là AO, OB và AB. Vậy có 3 đoạn thẳng.",
+  "Bước 3) Ý c) Vì O nằm giữa A và B nên AB = OA + OB, suy ra OB = AB − OA = 12 − 5 = 7 (cm).",
+  "Đáp số: a) 2 tia; b) 3 đoạn thẳng; c) 7 cm."
+ ],
+ "svg": "<svg viewBox='0 0 300 90' style='max-width:340px;width:100%'><line x1='15' y1='45' x2='285' y2='45' stroke='#37474f' stroke-width='2'/><circle cx='60' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle cx='150' cy='45' r='10' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><circle cx='240' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text></svg>",
+ "template": "pointBetweenRay",
+ "text": "Trên đường thẳng xy có ba điểm A, O, B theo thứ tự đó (O nằm giữa A và B).\na) Điểm O chia đường thẳng xy thành bao nhiêu tia gốc O?\nb) Trên hình có bao nhiêu đoạn thẳng?\nc) Đoạn thẳng AB dài 12 cm, OA dài 5 cm. Đoạn thẳng OB dài bao nhiêu xăng-ti-mét?",
+ "theory": "Mỗi điểm trên đường thẳng chia đường thẳng thành hai tia đối nhau. Điểm M nằm giữa A và B thì AB = AM + MB.",
+ "title": "Điểm nằm giữa và tia",
+ "topic": "Điểm nằm giữa hai điểm. Tia"
+},
+{
+ "analysis": {
+  "ask": "Độ dài AC; độ dài DC; độ dài mỗi đoạn dây",
+  "given": [
+   "B nằm giữa A và C",
+   "AB = 7 cm, BC = 5 cm",
+   "D nằm giữa A và C, AD = 3 cm",
+   "Sợi dây 12 cm cắt thành hai đoạn bằng nhau"
+  ],
+  "plan": "Khi B nằm giữa A và C thì AC = AB + BC. Tương tự AC = AD + DC nên DC = AC − AD. Cắt thành hai đoạn bằng nhau thì mỗi đoạn bằng một nửa độ dài ban đầu."
+ },
+ "chapter": 8,
+ "figNote": "👆 Nhìn vào hình: B nằm giữa A và C; đối chiếu từng bước giải với các đoạn trên hình.",
+ "hint": "AC = AB + BC = 7 + 5. DC = AC − AD.",
+ "id": "p40",
+ "kw": [
+  {
+   "t": "B nằm giữa A và C",
+   "type": "data",
+   "why": "Đề cho: thứ tự ba điểm trên đoạn thẳng."
+  },
+  {
+   "t": "AB = 7 cm, BC = 5 cm",
+   "type": "data",
+   "why": "Đề cho: độ dài hai đoạn nhỏ."
+  },
+  {
+   "t": "nằm giữa",
+   "type": "op",
+   "why": "Từ khóa: điểm nằm giữa thì độ dài đoạn lớn bằng tổng hai đoạn nhỏ."
+  },
+  {
+   "t": "hai đoạn bằng nhau",
+   "type": "op",
+   "why": "Từ khóa (ý c): cắt thành hai đoạn bằng nhau nghĩa là chia đôi."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "12",
+   "label": "a) Độ dài AC",
+   "unit": "cm"
+  },
+  {
+   "answer": "9",
+   "label": "b) Độ dài DC",
+   "unit": "cm"
+  },
+  {
+   "answer": "6",
+   "label": "c) Độ dài mỗi đoạn dây",
+   "unit": "cm"
+  }
+ ],
+ "shape": "doan-thang-trung-diem",
+ "solution": [
+  "Bước 1) Ý a) Vì B nằm giữa A và C nên AC = AB + BC = 7 + 5 = 12 (cm).",
+  "Bước 2) Ý b) Vì D nằm giữa A và C nên AC = AD + DC, suy ra DC = AC − AD = 12 − 3 = 9 (cm).",
+  "Bước 3) Ý c) Cắt thành hai đoạn bằng nhau nghĩa là chia đôi: mỗi đoạn dài 12 : 2 = 6 (cm).",
+  "Đáp số: a) 12 cm; b) 9 cm; c) 6 cm."
+ ],
+ "svg": "<svg viewBox='0 0 300 90' style='max-width:340px;width:100%'><line x1='30' y1='45' x2='270' y2='45' stroke='#37474f' stroke-width='2'/><circle cx='30' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='30' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle cx='150' cy='45' r='10' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><circle cx='270' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='270' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>C</text><text x='90' y='30' text-anchor='middle' font-size='14' fill='#333'>7 cm</text><text x='210' y='30' text-anchor='middle' font-size='14' fill='#333'>5 cm</text></svg>",
+ "template": "segmentLength",
+ "text": "Điểm B nằm giữa hai điểm A và C. Biết AB = 7 cm, BC = 5 cm.\na) Đoạn thẳng AC dài bao nhiêu xăng-ti-mét?\nb) Điểm D nằm giữa A và C sao cho AD = 3 cm. Đoạn thẳng DC dài bao nhiêu xăng-ti-mét?\nc) Một sợi dây dài 12 cm được cắt thành hai đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?",
+ "theory": "Khi điểm B nằm giữa hai điểm A và C thì AC = AB + BC.",
+ "title": "Độ dài đoạn thẳng",
+ "topic": "Đoạn thẳng. Độ dài đoạn thẳng"
+},
+{
+ "analysis": {
+  "ask": "Độ dài MA; độ dài CD; độ dài PI",
+  "given": [
+   "AB = 16 cm, M là trung điểm",
+   "CN = 6 cm, N là trung điểm của CD",
+   "PQ = 9 cm, I là trung điểm"
+  ],
+  "plan": "Khi M là trung điểm của AB thì MA = MB = AB : 2. Ngược lại, nếu biết một nửa thì đoạn thẳng dài gấp đôi nửa đó."
+ },
+ "chapter": 8,
+ "figNote": "👆 Nhìn vào hình: M là trung điểm, MA = MB; đối chiếu từng bước giải với hình.",
+ "hint": "MA = AB : 2. CD = CN × 2. PI = PQ : 2.",
+ "id": "p41",
+ "kw": [
+  {
+   "t": "M là trung điểm của AB",
+   "type": "data",
+   "why": "Đề cho: M vừa nằm giữa vừa cách đều hai đầu."
+  },
+  {
+   "t": "AB = 16 cm",
+   "type": "data",
+   "why": "Đề cho: độ dài đoạn thẳng cần chia đôi."
+  },
+  {
+   "t": "CN = 6 cm, N là trung điểm",
+   "type": "data",
+   "why": "Đề cho (ý b): biết một nửa thì đoạn thẳng dài gấp đôi."
+  },
+  {
+   "t": "trung điểm",
+   "type": "op",
+   "why": "Từ khóa: trung điểm thì hai đoạn nhỏ bằng nhau và bằng một nửa đoạn lớn."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "8",
+   "label": "a) Độ dài MA",
+   "unit": "cm"
+  },
+  {
+   "answer": "12",
+   "label": "b) Độ dài CD",
+   "unit": "cm"
+  },
+  {
+   "answer": "4,5",
+   "label": "c) Độ dài PI",
+   "unit": "cm"
+  }
+ ],
+ "shape": "doan-thang-trung-diem",
+ "solution": [
+  "Bước 1) Ý a) Vì M là trung điểm của AB nên MA bằng một nửa AB: MA = 16 : 2 = 8 (cm).",
+  "Bước 2) Ý b) Vì N là trung điểm của CD nên CD dài gấp đôi CN: CD = 6 × 2 = 12 (cm).",
+  "Bước 3) Ý c) Vì I là trung điểm của PQ nên PI bằng một nửa PQ: PI = 9 : 2 = 4,5 (cm).",
+  "Đáp số: a) 8 cm; b) 12 cm; c) 4,5 cm."
+ ],
+ "svg": "<svg viewBox='0 0 300 90' style='max-width:340px;width:100%'><line x1='30' y1='45' x2='270' y2='45' stroke='#37474f' stroke-width='2'/><line x1='148' y1='38' x2='152' y2='52' stroke='#c62828' stroke-width='2'/><circle cx='30' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='30' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle cx='150' cy='45' r='10' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>M</text><circle cx='270' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='270' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><text x='90' y='30' text-anchor='middle' font-size='14' fill='#333'>8 cm</text><text x='210' y='30' text-anchor='middle' font-size='14' fill='#333'>8 cm</text></svg>",
+ "template": "midpoint",
+ "text": "a) Đoạn thẳng AB dài 16 cm, M là trung điểm của AB. Đoạn thẳng MA dài bao nhiêu xăng-ti-mét?\nb) Điểm N là trung điểm của đoạn thẳng CD, CN dài 6 cm. Đoạn thẳng CD dài bao nhiêu xăng-ti-mét?\nc) Đoạn thẳng PQ dài 9 cm, I là trung điểm của PQ. Đoạn thẳng PI dài bao nhiêu xăng-ti-mét?",
+ "theory": "Điểm M là trung điểm của đoạn thẳng AB khi M nằm giữa A và B và MA = MB. Khi đó MA = MB = AB : 2.",
+ "title": "Trung điểm của đoạn thẳng",
+ "topic": "Trung điểm của đoạn thẳng"
+},
+{
+ "analysis": {
+  "ask": "Số đo góc vuông; 75° nhỏ hơn góc vuông bao nhiêu; 150° lớn hơn góc vuông bao nhiêu",
+  "given": [
+   "Góc xOy = 75°",
+   "Góc vuông = 90°",
+   "Một góc = 150°"
+  ],
+  "plan": "Góc vuông bằng 90°. Muốn biết góc này hơn (kém) góc kia bao nhiêu độ, ta lấy số đo lớn trừ số đo bé."
+ },
+ "chapter": 8,
+ "hint": "Góc vuông = 90°. 90 − 75 = 15. 150 − 90 = 60.",
+ "id": "p42",
+ "kw": [
+  {
+   "t": "góc xOy = 75°",
+   "type": "data",
+   "why": "Đề cho: số đo góc trong hình."
+  },
+  {
+   "t": "góc vuông",
+   "type": "data",
+   "why": "Đề cho: góc vuông bằng 90°, dùng làm mốc so sánh."
+  },
+  {
+   "t": "góc 150°",
+   "type": "data",
+   "why": "Đề cho (ý c): góc cần so sánh với góc vuông."
+  },
+  {
+   "t": "nhỏ hơn, lớn hơn bao nhiêu độ",
+   "type": "ask",
+   "why": "Điều cần tìm: lấy số đo lớn trừ số đo bé."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "90",
+   "label": "a) Số đo góc vuông",
+   "unit": "độ"
+  },
+  {
+   "answer": "15",
+   "label": "b) 75° nhỏ hơn góc vuông",
+   "unit": "độ"
+  },
+  {
+   "answer": "60",
+   "label": "c) 150° lớn hơn góc vuông",
+   "unit": "độ"
+  }
+ ],
+ "shape": "goc",
+ "solution": [
+  "Bước 1) Ý a) Góc vuông là góc có số đo bằng 90°.",
+  "Bước 2) Ý b) Muốn biết góc 75° nhỏ hơn góc vuông bao nhiêu độ, ta lấy 90° − 75° = 15°. Vì 75° < 90° nên góc xOy là góc nhọn.",
+  "Bước 3) Ý c) Muốn biết góc 150° lớn hơn góc vuông bao nhiêu độ, ta lấy 150° − 90° = 60°. Vì 90° < 150° < 180° nên góc 150° là góc tù.",
+  "Đáp số: a) 90°; b) 15°; c) 60°."
+ ],
+ "svg": "<svg viewBox='0 0 300 130' style='max-width:340px;width:100%'><line x1='60' y1='100' x2='260' y2='100' stroke='#37474f' stroke-width='2'/><line x1='60' y1='100' x2='140' y2='20' stroke='#37474f' stroke-width='2'/><g class='ang' data-v='O' data-info='Góc xOy — đỉnh O, hai cạnh Ox và Oy. Số đo 75° nên đây là góc nhọn'><path class='ang-w' d='M 60,100 L 90.0,100.0 A 30,30 0 0 0 72.0,73.0 Z'/><line class='ang-s' x1='60' y1='100' x2='260' y2='100'/><line class='ang-s' x1='60' y1='100' x2='140' y2='20'/><circle class='ang-w' cx='60' cy='100' r='16'/></g><text class='avtx' data-v='O' x='48' y='120' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><text x='265' y='105' font-size='16' fill='#333'>x</text><text x='145' y='15' font-size='16' fill='#333'>y</text><text x='100' y='92' font-size='14' fill='#c62828'>75°</text></svg>",
+ "template": "angleBasic",
+ "text": "Trên hình là góc xOy có số đo 75°.\na) Góc vuông có số đo bao nhiêu độ?\nb) Góc trong hình (75°) nhỏ hơn góc vuông bao nhiêu độ?\nc) Một góc có số đo 150°. Góc đó lớn hơn góc vuông bao nhiêu độ?",
+ "theory": "Góc vuông có số đo bằng 90°. Góc nhọn nhỏ hơn 90°, góc tù lớn hơn 90° và nhỏ hơn 180°, góc bẹt bằng 180°.",
+ "title": "Nhận biết các loại góc",
+ "topic": "Góc",
+ "figNote": "👆 Bấm vào góc xOy trên hình để xem tên góc; đối chiếu từng bước giải với số đo trên hình."
+},
+{
+ "analysis": {
+  "ask": "Số đo góc xOy; số đo góc xOz; góc bẹt gấp góc vuông bao nhiêu lần",
+  "given": [
+   "Góc xOy đo được 60°",
+   "Oy nằm giữa Ox và Oz, xOy = 50°, yOz = 70°",
+   "Góc bẹt 180°, góc vuông 90°"
+  ],
+  "plan": "Số đo đọc được trên thước chính là số đo góc. Khi tia Oy nằm giữa Ox và Oz thì góc xOz = góc xOy + góc yOz. Muốn biết góc này gấp góc kia bao nhiêu lần, ta lấy số đo lớn chia số đo bé."
+ },
+ "chapter": 8,
+ "hint": "xOz = 50° + 70°. 180 : 90 = 2.",
+ "id": "p43",
+ "kw": [
+  {
+   "t": "góc xOy = 60°",
+   "type": "data",
+   "why": "Đề cho: số đo đọc được trên thước."
+  },
+  {
+   "t": "Oy nằm giữa Ox và Oz",
+   "type": "op",
+   "why": "Từ khóa: tia nằm giữa thì góc lớn bằng tổng hai góc nhỏ."
+  },
+  {
+   "t": "xOy = 50°, yOz = 70°",
+   "type": "data",
+   "why": "Đề cho (ý b): hai góc nhỏ cần cộng lại."
+  },
+  {
+   "t": "gấp bao nhiêu lần",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): lấy số đo lớn chia số đo bé."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "60",
+   "label": "a) Số đo góc xOy",
+   "unit": "độ"
+  },
+  {
+   "answer": "120",
+   "label": "b) Số đo góc xOz",
+   "unit": "độ"
+  },
+  {
+   "answer": "2",
+   "label": "c) Góc bẹt gấp góc vuông",
+   "unit": "lần"
+  }
+ ],
+ "shape": "so-do-goc",
+ "solution": [
+  "Bước 1) Ý a) Thước đo góc chỉ 60° nên số đo góc xOy là 60°.",
+  "Bước 2) Ý b) Vì tia Oy nằm giữa hai tia Ox và Oz nên góc xOz = góc xOy + góc yOz = 50° + 70° = 120°.",
+  "Bước 3) Ý c) Muốn biết góc bẹt gấp góc vuông bao nhiêu lần, ta lấy 180° : 90° = 2 (lần).",
+  "Đáp số: a) 60°; b) 120°; c) 2 lần."
+ ],
+ "svg": "<svg viewBox='0 0 300 150' style='max-width:340px;width:100%'><path d='M 50,120 A 100,100 0 0 1 250,120 Z' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><line x1='50' y1='120' x2='250' y2='120' stroke='#1565c0' stroke-width='2'/><line x1='150' y1='120' x2='200' y2='33' stroke='#c62828' stroke-width='2'/><text x='150' y='140' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><text x='255' y='125' font-size='14' fill='#333'>0°</text><text x='205' y='28' font-size='14' fill='#333'>60°</text></svg>",
+ "template": "angleMeasure",
+ "text": "a) Dùng thước đo góc đo góc xOy được 60°. Số đo góc xOy là bao nhiêu độ?\nb) Tia Oy nằm giữa hai tia Ox và Oz, góc xOy = 50°, góc yOz = 70°. Góc xOz bằng bao nhiêu độ?\nc) Góc bẹt bằng 180°, góc vuông bằng 90°. Góc bẹt gấp góc vuông bao nhiêu lần?",
+ "theory": "Khi tia Oy nằm giữa hai tia Ox và Oz thì góc xOz = góc xOy + góc yOz. Góc bẹt bằng 180°, gấp đôi góc vuông (90°).",
+ "title": "Đo và tính số đo góc",
+ "topic": "Số đo góc",
+ "figNote": "👆 Nhìn vào thước đo góc trên hình: tâm thước trùng đỉnh O, vạch 0 trùng cạnh Ox; đối chiếu từng bước giải với hình."
+},
+{
+ "analysis": {
+  "ask": "Số học sinh còn lại; số phiếu chưa thu; số lần xuất hiện của số 8",
+  "given": [
+   "Lớp 6A có 40 học sinh, 15 bạn thích bóng đá",
+   "Phát 40 phiếu hỏi, thu về 38 phiếu",
+   "Dãy dữ liệu: 5; 8; 12; 8; 5"
+  ],
+  "plan": "Số còn lại = tổng số trừ số đã biết. Số phiếu chưa thu = số phiếu phát trừ số phiếu đã thu. Muốn đếm số lần xuất hiện, ta đếm từng số trong dãy."
+ },
+ "chapter": 9,
+ "hint": "40 − 15 = 25. 40 − 38 = 2. Trong dãy 5; 8; 12; 8; 5, số 8 có mặt 2 lần.",
+ "id": "p44",
+ "kw": [
+  {
+   "t": "40 học sinh, 15 bạn thích bóng đá",
+   "type": "data",
+   "why": "Đề cho: tổng số và số đã biết."
+  },
+  {
+   "t": "phát 40 phiếu, thu về 38 phiếu",
+   "type": "data",
+   "why": "Đề cho (ý b): số phiếu phát và số phiếu đã thu."
+  },
+  {
+   "t": "còn lại, chưa thu về",
+   "type": "op",
+   "why": "Từ khóa: số còn lại = tổng số trừ số đã biết."
+  },
+  {
+   "t": "dãy dữ liệu 5; 8; 12; 8; 5",
+   "type": "data",
+   "why": "Đề cho (ý c): dãy cần đếm số lần xuất hiện của số 8."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "25",
+   "label": "a) Số học sinh còn lại",
+   "unit": "bạn"
+  },
+  {
+   "answer": "2",
+   "label": "b) Số phiếu chưa thu về",
+   "unit": "phiếu"
+  },
+  {
+   "answer": "2",
+   "label": "c) Số lần xuất hiện của số 8",
+   "unit": "lần"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Số học sinh còn lại = tổng số học sinh trừ số học sinh thích bóng đá: 40 − 15 = 25 (bạn).",
+  "Bước 2) Ý b) Số phiếu chưa thu về = số phiếu đã phát trừ số phiếu đã thu: 40 − 38 = 2 (phiếu).",
+  "Bước 3) Ý c) Đếm trong dãy 5; 8; 12; 8; 5: số 8 xuất hiện ở vị trí thứ hai và vị trí thứ tư, tức xuất hiện 2 lần.",
+  "Đáp số: a) 25 bạn; b) 2 phiếu; c) 2 lần."
+ ],
+ "template": "dataCollect",
+ "text": "a) Lớp 6A có 40 học sinh. Số học sinh thích bóng đá là 15 bạn. Số học sinh còn lại (không thích bóng đá) là bao nhiêu bạn?\nb) Để thu thập dữ liệu, cô giáo phát 40 phiếu hỏi và thu về 38 phiếu. Số phiếu chưa thu về là bao nhiêu phiếu?\nc) Dãy dữ liệu về số bàn thắng là: 5; 8; 12; 8; 5. Số 8 xuất hiện bao nhiêu lần trong dãy?",
+ "theory": "Dữ liệu là các số liệu, thông tin thu thập được. Người ta thu thập dữ liệu bằng cách quan sát, làm thí nghiệm, lập phiếu hỏi hoặc tra cứu từ nguồn có sẵn.",
+ "title": "Thu thập và đếm dữ liệu",
+ "topic": "Dữ liệu và thu thập dữ liệu"
+},
+{
+ "analysis": {
+  "ask": "Số học sinh thích bóng đá; tổng số học sinh cả ba môn; số sao cần vẽ cho môn bơi",
+  "given": [
+   "Mỗi ⭐ ứng với 4 học sinh",
+   "Bóng đá: 3 sao; cầu lông: 2 sao; bơi: 1 sao"
+  ],
+  "plan": "Muốn tìm số học sinh, ta lấy số sao nhân với 4. Muốn tìm tổng, ta cộng số học sinh của ba môn. Muốn tìm số sao, ta lấy số học sinh chia cho 4."
+ },
+ "chapter": 9,
+ "figNote": "👆 Nhìn vào biểu đồ tranh: mỗi ⭐ ứng với 4 học sinh; đối chiếu từng bước giải với số sao của mỗi môn.",
+ "hint": "Bóng đá: 3 × 4. Tổng số sao là 3 + 2 + 1 = 6 sao.",
+ "id": "p45",
+ "kw": [
+  {
+   "t": "mỗi ⭐ ứng với 4 học sinh",
+   "type": "data",
+   "why": "Đề cho: chú thích của biểu đồ tranh."
+  },
+  {
+   "t": "bóng đá 3 sao",
+   "type": "data",
+   "why": "Đề cho: số sao của môn bóng đá."
+  },
+  {
+   "t": "tổng số học sinh cả ba môn",
+   "type": "ask",
+   "why": "Điều cần tìm (ý b): cộng số học sinh của ba môn."
+  },
+  {
+   "t": "cần vẽ bao nhiêu sao",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): lấy số học sinh chia cho 4."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "12",
+   "label": "a) Số học sinh thích bóng đá",
+   "unit": "học sinh"
+  },
+  {
+   "answer": "24",
+   "label": "b) Tổng số học sinh cả ba môn",
+   "unit": "học sinh"
+  },
+  {
+   "answer": "1",
+   "label": "c) Số sao cần vẽ cho môn bơi",
+   "unit": "ngôi sao"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Bóng đá có 3 sao, mỗi sao ứng với 4 học sinh nên số học sinh thích bóng đá là 3 × 4 = 12 (học sinh).",
+  "Bước 2) Ý b) Tổng số sao của ba môn là 3 + 2 + 1 = 6 (sao). Tổng số học sinh là 6 × 4 = 24 (học sinh).",
+  "Bước 3) Ý c) Muốn tìm số sao, ta lấy số học sinh chia cho 4: 4 : 4 = 1 (ngôi sao).",
+  "Đáp số: a) 12 học sinh; b) 24 học sinh; c) 1 ngôi sao."
+ ],
+ "svg": "<svg viewBox='0 0 300 130' style='max-width:340px;width:100%'><text x='10' y='35' font-size='15' fill='#333'>Bóng đá:</text><text x='110' y='35' font-size='18' fill='#e65100'>★ ★ ★</text><text x='10' y='70' font-size='15' fill='#333'>Cầu lông:</text><text x='110' y='70' font-size='18' fill='#e65100'>★ ★</text><text x='10' y='105' font-size='15' fill='#333'>Bơi:</text><text x='110' y='105' font-size='18' fill='#e65100'>★</text><text x='10' y='125' font-size='13' fill='#666'>Mỗi ★ ứng với 4 học sinh</text></svg>",
+ "template": "pictographTable",
+ "text": "Biểu đồ tranh bên ghi số học sinh thích các môn thể thao. Mỗi ⭐ ứng với 4 học sinh.\na) Có bao nhiêu học sinh thích bóng đá?\nb) Có bao nhiêu học sinh thích cả ba môn?\nc) Môn bơi có 4 học sinh. Cần vẽ bao nhiêu ngôi sao cho môn bơi?",
+ "theory": "Trong biểu đồ tranh, mỗi biểu tượng ứng với một số đối tượng nhất định. Muốn tìm số đối tượng, ta lấy số biểu tượng nhân với số đối tượng mà mỗi biểu tượng ứng với.",
+ "title": "Đọc biểu đồ tranh",
+ "topic": "Bảng thống kê và biểu đồ tranh"
+},
+{
+ "analysis": {
+  "ask": "Số học sinh thích bóng đá; chạy hơn bơi bao nhiêu; tổng số học sinh",
+  "given": [
+   "Bóng đá 14, cầu lông 10, bơi 6, chạy 12"
+  ],
+  "plan": "Muốn đọc số liệu, ta gióng đầu cột sang trục dọc. Muốn so sánh, ta lấy số lớn trừ số bé. Muốn tính tổng, ta cộng số liệu của bốn môn."
+ },
+ "chapter": 9,
+ "figNote": "👆 Nhìn vào biểu đồ cột: gióng đầu mỗi cột sang trục dọc để đọc số; đối chiếu từng bước giải với các cột.",
+ "hint": "Cột bóng đá cao tới 14. Chạy 12, bơi 6. Tổng: 14 + 10 + 6 + 12.",
+ "id": "p46",
+ "kw": [
+  {
+   "t": "bóng đá 14, cầu lông 10, bơi 6, chạy 12",
+   "type": "data",
+   "why": "Đề cho: số liệu đọc được từ biểu đồ cột."
+  },
+  {
+   "t": "nhiều hơn bao nhiêu",
+   "type": "op",
+   "why": "Từ khóa (ý b): so sánh thì lấy số lớn trừ số bé."
+  },
+  {
+   "t": "tổng số học sinh",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): cộng số liệu của bốn môn."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "14",
+   "label": "a) Số học sinh thích bóng đá",
+   "unit": "bạn"
+  },
+  {
+   "answer": "6",
+   "label": "b) Chạy nhiều hơn bơi",
+   "unit": "bạn"
+  },
+  {
+   "answer": "42",
+   "label": "c) Tổng số học sinh cả bốn môn",
+   "unit": "bạn"
+  }
+ ],
+ "shape": "bieu-do-cot",
+ "solution": [
+  "Bước 1) Ý a) Gióng đầu cột bóng đá sang trục dọc, ta đọc được 14. Vậy có 14 bạn thích bóng đá.",
+  "Bước 2) Ý b) Muốn biết chạy nhiều hơn bơi bao nhiêu bạn, ta lấy 12 − 6 = 6 (bạn).",
+  "Bước 3) Ý c) Tổng số học sinh là 14 + 10 + 6 + 12 = 42 (bạn).",
+  "Đáp số: a) 14 bạn; b) 6 bạn; c) 42 bạn."
+ ],
+ "svg": "<svg viewBox='0 0 300 170' style='max-width:340px;width:100%'><line x1='30' y1='140' x2='290' y2='140' stroke='#37474f' stroke-width='2'/><line x1='30' y1='140' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect x='55' y='20' width='40' height='120' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect x='115' y='40' width='40' height='100' fill='#66bb6a' stroke='#2e7d32' stroke-width='2'/><rect x='175' y='80' width='40' height='60' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect x='235' y='20' width='40' height='120' fill='#ab47bc' stroke='#6a1b9a' stroke-width='2'/><text x='75' y='158' text-anchor='middle' font-size='12' fill='#333'>Bóng đá 14</text><text x='135' y='158' text-anchor='middle' font-size='12' fill='#333'>Cầu lông 10</text><text x='195' y='158' text-anchor='middle' font-size='12' fill='#333'>Bơi 6</text><text x='255' y='158' text-anchor='middle' font-size='12' fill='#333'>Chạy 12</text></svg>",
+ "template": "barChart",
+ "text": "Biểu đồ cột bên ghi số học sinh thích các môn thể thao: bóng đá 14, cầu lông 10, bơi 6, chạy 12.\na) Số học sinh thích bóng đá là bao nhiêu bạn?\nb) Số học sinh thích chạy nhiều hơn số học sinh thích bơi bao nhiêu bạn?\nc) Tổng số học sinh thích cả bốn môn là bao nhiêu bạn?",
+ "theory": "Trong biểu đồ cột, trục ngang ghi tên đối tượng, trục dọc ghi số lượng. Cột nào cao hơn thì số liệu lớn hơn.",
+ "title": "Đọc biểu đồ cột",
+ "topic": "Biểu đồ cột"
+},
+{
+ "analysis": {
+  "ask": "Số học sinh giỏi HK2 của 6A; 6B tăng bao nhiêu; tổng HK2 của hai lớp",
+  "given": [
+   "6A: HK1 8, HK2 11",
+   "6B: HK1 6, HK2 9",
+   "Cột xanh = HK1, cột cam = HK2"
+  ],
+  "plan": "Xem chú thích để biết màu nào ứng với học kì nào rồi gióng đầu cột sang trục dọc. Muốn tìm mức tăng, ta lấy số sau trừ số trước. Muốn tìm tổng, ta cộng số liệu của hai lớp."
+ },
+ "chapter": 9,
+ "figNote": "👆 Nhìn vào biểu đồ cột kép: xanh là học kì 1, cam là học kì 2; đối chiếu từng bước giải với các cột.",
+ "hint": "Cột cam của 6A cao tới 11. 6B: 9 − 6 = 3. Tổng HK2: 11 + 9.",
+ "id": "p47",
+ "kw": [
+  {
+   "t": "6A: 8 và 11; 6B: 6 và 9",
+   "type": "data",
+   "why": "Đề cho: số liệu đọc được từ biểu đồ cột kép."
+  },
+  {
+   "t": "xanh = HK1, cam = HK2",
+   "type": "data",
+   "why": "Đề cho: chú thích màu của biểu đồ."
+  },
+  {
+   "t": "tăng bao nhiêu",
+   "type": "op",
+   "why": "Từ khóa (ý b): mức tăng = số sau trừ số trước."
+  },
+  {
+   "t": "tổng HK2 của hai lớp",
+   "type": "ask",
+   "why": "Điều cần tìm (ý c): cộng số HK2 của 6A và 6B."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "11",
+   "label": "a) Học sinh giỏi HK2 của 6A",
+   "unit": "bạn"
+  },
+  {
+   "answer": "3",
+   "label": "b) 6B tăng từ HK1 sang HK2",
+   "unit": "bạn"
+  },
+  {
+   "answer": "20",
+   "label": "c) Tổng học sinh giỏi HK2 của hai lớp",
+   "unit": "bạn"
+  }
+ ],
+ "shape": "bieu-do-cot-kep",
+ "solution": [
+  "Bước 1) Ý a) Xem chú thích: cột cam là học kì 2. Cột cam của lớp 6A cao tới 11 nên lớp 6A học kì 2 có 11 học sinh giỏi.",
+  "Bước 2) Ý b) Lớp 6B từ 6 (học kì 1) lên 9 (học kì 2), tức tăng 9 − 6 = 3 (học sinh giỏi).",
+  "Bước 3) Ý c) Tổng học kì 2 của hai lớp là 11 + 9 = 20 (bạn).",
+  "Đáp số: a) 11 bạn; b) 3 bạn; c) 20 bạn."
+ ],
+ "svg": "<svg viewBox='0 0 300 170' style='max-width:340px;width:100%'><line x1='30' y1='140' x2='290' y2='140' stroke='#37474f' stroke-width='2'/><line x1='30' y1='140' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect x='60' y='60' width='30' height='80' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect x='92' y='30' width='30' height='110' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect x='170' y='80' width='30' height='60' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect x='202' y='50' width='30' height='90' fill='#ffa726' stroke='#e65100' stroke-width='2'/><text x='91' y='158' text-anchor='middle' font-size='12' fill='#333'>6A: 8, 11</text><text x='201' y='158' text-anchor='middle' font-size='12' fill='#333'>6B: 6, 9</text></svg>",
+ "template": "doubleBarChart",
+ "text": "Biểu đồ cột kép bên ghi số học sinh giỏi của lớp 6A và 6B trong học kì 1 (cột xanh) và học kì 2 (cột cam): 6A: 8 và 11; 6B: 6 và 9.\na) Lớp 6A học kì 2 có bao nhiêu học sinh giỏi?\nb) Lớp 6B tăng bao nhiêu học sinh giỏi từ học kì 1 sang học kì 2?\nc) Tổng số học sinh giỏi học kì 2 của hai lớp là bao nhiêu bạn?",
+ "theory": "Trong biểu đồ cột kép, mỗi đối tượng có hai cột đặt cạnh nhau để so sánh hai nhóm số liệu. Trước khi đọc số, phải xem chú thích để biết màu nào ứng với nhóm nào.",
+ "title": "Đọc biểu đồ cột kép",
+ "topic": "Biểu đồ cột kép"
+},
+{
+ "analysis": {
+  "ask": "Số kết quả có thể trong mỗi trò chơi, thí nghiệm",
+  "given": [
+   "Hộp: 3 bóng đỏ, 2 bóng xanh",
+   "Xúc xắc 6 mặt",
+   "Đồng xu 2 mặt"
+  ],
+  "plan": "Kết quả có thể là các trường hợp có thể xảy ra. Với bóng, chỉ quan tâm đến màu nên có 2 kết quả: đỏ hoặc xanh. Xúc xắc có 6 mặt nên có 6 kết quả. Đồng xu có 2 mặt nên có 2 kết quả."
+ },
+ "chapter": 9,
+ "hint": "Bóng chỉ có 2 màu. Xúc xắc có 6 mặt. Đồng xu có 2 mặt.",
+ "id": "p48",
+ "kw": [
+  {
+   "t": "3 bóng đỏ, 2 bóng xanh",
+   "type": "data",
+   "why": "Đề cho: các màu bóng có trong hộp."
+  },
+  {
+   "t": "xúc xắc 6 mặt",
+   "type": "data",
+   "why": "Đề cho: các mặt có thể xuất hiện."
+  },
+  {
+   "t": "đồng xu 2 mặt",
+   "type": "data",
+   "why": "Đề cho: các mặt của đồng xu."
+  },
+  {
+   "t": "kết quả có thể",
+   "type": "ask",
+   "why": "Điều cần tìm: các trường hợp có thể xảy ra."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "2",
+   "label": "a) Số kết quả có thể về màu bóng",
+   "unit": "kết quả"
+  },
+  {
+   "answer": "6",
+   "label": "b) Số mặt có thể xuất hiện",
+   "unit": "mặt"
+  },
+  {
+   "answer": "2",
+   "label": "c) Số kết quả có thể khi tung đồng xu",
+   "unit": "kết quả"
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Vì chỉ quan tâm đến màu bóng nên các kết quả có thể là: lấy được bóng đỏ hoặc lấy được bóng xanh. Vậy có 2 kết quả có thể.",
+  "Bước 2) Ý b) Xúc xắc có 6 mặt (1, 2, 3, 4, 5, 6 chấm) nên khi gieo có 6 mặt có thể xuất hiện, tức có 6 kết quả có thể.",
+  "Bước 3) Ý c) Đồng xu có 2 mặt (sấp và ngửa) nên khi tung 1 lần có 2 kết quả có thể.",
+  "Đáp số: a) 2; b) 6; c) 2."
+ ],
+ "template": "possibleEvents",
+ "text": "a) Trong hộp có 3 bóng đỏ và 2 bóng xanh. Lấy ngẫu nhiên 1 quả bóng. Có bao nhiêu kết quả có thể xảy ra về màu bóng?\nb) Gieo một con xúc xắc 6 mặt. Có bao nhiêu mặt có thể xuất hiện?\nc) Tung một đồng xu 1 lần. Có bao nhiêu kết quả có thể xảy ra?",
+ "theory": "Khi thực hiện một trò chơi hay thí nghiệm, các trường hợp có thể xảy ra gọi là các kết quả có thể. Sự kiện chắc chắn là sự kiện nhất định xảy ra; sự kiện không thể là sự kiện nhất định không xảy ra.",
+ "title": "Kết quả có thể xảy ra",
+ "topic": "Kết quả có thể và sự kiện trong trò chơi, thí nghiệm"
+},
+{
+ "analysis": {
+  "ask": "Xác suất thực nghiệm các sự kiện",
+  "given": [
+   "Gieo xúc xắc 20 lần, mặt 6 chấm xuất hiện 4 lần",
+   "Tung đồng xu 40 lần, mặt sấp xuất hiện 18 lần",
+   "Gieo xúc xắc 30 lần, mặt 3 chấm xuất hiện 5 lần"
+  ],
+  "plan": "Xác suất thực nghiệm của một sự kiện = số lần sự kiện xuất hiện chia cho tổng số lần thực hiện thí nghiệm. Sau đó rút gọn phân số nếu được."
+ },
+ "chapter": 9,
+ "hint": "Xác suất thực nghiệm = số lần xuất hiện : tổng số lần thử. 4/20 = 1/5; 18/40 = 9/20.",
+ "id": "p49",
+ "kw": [
+  {
+   "t": "20 lần, mặt 6 chấm xuất hiện 4 lần",
+   "type": "data",
+   "why": "Đề cho: tổng số lần thử và số lần sự kiện xuất hiện."
+  },
+  {
+   "t": "40 lần, mặt sấp xuất hiện 18 lần",
+   "type": "data",
+   "why": "Đề cho (ý b): tổng số lần thử và số lần sự kiện xuất hiện."
+  },
+  {
+   "t": "xác suất thực nghiệm",
+   "type": "ask",
+   "why": "Điều cần tìm: số lần xuất hiện chia cho tổng số lần thử."
+  },
+  {
+   "t": "rút gọn phân số",
+   "type": "op",
+   "why": "Từ khóa: sau khi chia thì rút gọn phân số nếu được."
+  }
+ ],
+ "parts": [
+  {
+   "answer": "1/5",
+   "label": "a) Xác suất thực nghiệm mặt 6 chấm",
+   "unit": ""
+  },
+  {
+   "answer": "9/20",
+   "label": "b) Xác suất thực nghiệm mặt sấp",
+   "unit": ""
+  },
+  {
+   "answer": "1",
+   "label": "c) Tử số sau khi rút gọn 5/30",
+   "unit": ""
+  }
+ ],
+ "solution": [
+  "Bước 1) Ý a) Xác suất thực nghiệm = số lần xuất hiện chia cho tổng số lần gieo: 4/20. Rút gọn cho 4: 4/20 = 1/5.",
+  "Bước 2) Ý b) Xác suất thực nghiệm mặt sấp là 18/40. Rút gọn cho 2: 18/40 = 9/20.",
+  "Bước 3) Ý c) Xác suất thực nghiệm là 5/30. Rút gọn cho 5: 5/30 = 1/6. Vậy tử số sau khi rút gọn là 1.",
+  "Đáp số: a) 1/5; b) 9/20; c) 1."
+ ],
+ "template": "expProbability",
+ "text": "a) Gieo một con xúc xắc 20 lần, mặt 6 chấm xuất hiện 4 lần. Xác suất thực nghiệm xuất hiện mặt 6 chấm là bao nhiêu? (viết đáp số dưới dạng phân số tối giản)\nb) Tung một đồng xu 40 lần, mặt sấp xuất hiện 18 lần. Xác suất thực nghiệm xuất hiện mặt sấp là bao nhiêu? (viết đáp số dưới dạng phân số tối giản)\nc) Gieo xúc xắc 30 lần, mặt 3 chấm xuất hiện 5 lần. Xác suất thực nghiệm xuất hiện mặt 3 chấm là 5/30. Rút gọn phân số này, tử số là bao nhiêu?",
+ "theory": "Xác suất thực nghiệm của một sự kiện = số lần sự kiện đó xuất hiện : tổng số lần thực hiện thí nghiệm.",
+ "title": "Xác suất thực nghiệm",
+ "topic": "Xác suất thực nghiệm"
+}
 ]

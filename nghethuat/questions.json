@@ -1,0 +1,2810 @@
+[
+ {
+  "answer": 0,
+  "bai": 1,
+  "explanation": "Chủ đề 1 “Tuổi học trò” có bài hát Con đường học trò, hợp với tuổi học trò mới vào lớp 6.",
+  "id": 1,
+  "options": [
+   "A. Bài hát Con đường học trò",
+   "B. Bài hát Mưa rơi",
+   "C. Bài hát Chỉ có một trên đời",
+   "D. Bài hát Bác Hồ – Người cho em tất cả"
+  ],
+  "question": "Chủ đề 1 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 1,
+  "explanation": "Phần nghe nhạc của Chủ đề 1 là bài hát Tháng năm học trò, nói về thời học trò đáng nhớ.",
+  "id": 2,
+  "options": [
+   "A. Bài hát Mưa rơi",
+   "B. Bài hát Tháng năm học trò",
+   "C. Bài hát Thầy cô là tất cả",
+   "D. Bài hát Auld Lang Syne"
+  ],
+  "question": "Nghe nhạc ở Chủ đề 1, em được nghe bài hát nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 1,
+  "explanation": "Piano là nhạc cụ phím: người chơi bấm các phím trắng và phím đen để tạo ra tiếng đàn.",
+  "id": 3,
+  "options": [
+   "A. Nhạc cụ gõ",
+   "B. Nhạc cụ hơi",
+   "C. Nhạc cụ phím",
+   "D. Nhạc cụ dây gảy"
+  ],
+  "question": "Đàn piano thuộc nhóm nhạc cụ nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 1,
+  "explanation": "Cao độ cho biết âm cao hay thấp. Ví dụ: giọng em bé thường cao hơn giọng người lớn.",
+  "id": 4,
+  "options": [
+   "A. Âm sắc",
+   "B. Trường độ",
+   "C. Cường độ",
+   "D. Cao độ"
+  ],
+  "question": "Âm thanh có tính nhạc có thuộc tính nào nói về độ cao, thấp của âm?"
+ },
+ {
+  "answer": 0,
+  "bai": 1,
+  "explanation": "Trường độ là độ dài, ngắn của âm. Nhờ trường độ mà bài hát có nhịp điệu lúc nhanh, lúc chậm.",
+  "id": 5,
+  "options": [
+   "A. Trường độ",
+   "B. Cao độ",
+   "C. Âm sắc",
+   "D. Cường độ"
+  ],
+  "question": "Thuộc tính nào cho biết âm dài hay ngắn?"
+ },
+ {
+  "answer": 1,
+  "bai": 1,
+  "explanation": "Cường độ là độ mạnh, nhẹ của âm. Hát to là cường độ lớn, hát nhỏ là cường độ nhỏ.",
+  "id": 6,
+  "options": [
+   "A. Cao độ",
+   "B. Cường độ",
+   "C. Trường độ",
+   "D. Âm sắc"
+  ],
+  "question": "Thuộc tính nào cho biết âm mạnh hay nhẹ?"
+ },
+ {
+  "answer": 2,
+  "bai": 1,
+  "explanation": "Âm sắc là “màu” riêng của âm thanh, giúp em phân biệt tiếng piano với tiếng sáo dù cùng một nốt.",
+  "id": 7,
+  "options": [
+   "A. Độ dài của âm thanh",
+   "B. Độ cao của âm thanh",
+   "C. Màu sắc riêng của từng tiếng đàn, tiếng hát",
+   "D. Độ mạnh của âm thanh"
+  ],
+  "question": "Âm sắc là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 1,
+  "explanation": "Bài đọc nhạc số 1 luyện cho em đọc đúng tên nốt và cao độ trên khuông nhạc, từng bước một.",
+  "id": 8,
+  "options": [
+   "A. Luyện múa theo nhạc",
+   "B. Luyện chơi đàn piano",
+   "C. Luyện sáng tác bài hát mới",
+   "D. Luyện đọc các nốt nhạc trên khuông nhạc"
+  ],
+  "question": "Bài đọc nhạc số 1 giúp em luyện gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 1,
+  "explanation": "Bài hát về tuổi học trò nên hát vui tươi, trong sáng, thể hiện tình yêu trường lớp và bạn bè.",
+  "id": 9,
+  "options": [
+   "A. Buồn bã, chán nản",
+   "B. Giận dữ, khó chịu",
+   "C. Vui tươi, yêu trường lớp và bạn bè",
+   "D. Sợ hãi, rụt rè"
+  ],
+  "question": "Khi hát bài Con đường học trò, em nên thể hiện tình cảm nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 2,
+  "explanation": "Chủ đề 2 “Cuộc sống tươi đẹp” có bài hát Đời sống không già vì có chúng em.",
+  "id": 10,
+  "options": [
+   "A. Bài hát Mưa rơi",
+   "B. Bài hát Đời sống không già vì có chúng em",
+   "C. Bài hát Thầy cô là tất cả",
+   "D. Bài hát Chỉ có một trên đời"
+  ],
+  "question": "Chủ đề 2 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 2,
+  "explanation": "Chủ đề 2 cho em nghe tác phẩm The Blue Danube, một bản valse nổi tiếng, giai điệu trôi chảy như dòng sông.",
+  "id": 11,
+  "options": [
+   "A. Giao hưởng số 9 của Beethoven",
+   "B. Khúc hát ru Lullaby của Brahms",
+   "C. Tác phẩm The Blue Danube (Dòng sông Danube xanh)",
+   "D. Bản hòa tấu Mừng hội hoa bông"
+  ],
+  "question": "Tác phẩm nghe nhạc ở Chủ đề 2 là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 2,
+  "explanation": "Valse có nhịp 3 phách, nghe như đang xoay tròn nhẹ nhàng, rất hợp với dòng sông Danube xanh.",
+  "id": 12,
+  "options": [
+   "A. Không có nhịp, hát tự do",
+   "B. Nhịp 2 phách, mạnh và dứt khoát",
+   "C. Nhịp 4 phách, chậm và buồn",
+   "D. Nhịp 3 phách, quay tròn uyển chuyển"
+  ],
+  "question": "Valse là điệu nhạc có đặc điểm nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 2,
+  "explanation": "Theo hệ chữ cái Latin: Đô = C, Rê = D, Mi = E, Fa = F, Sol = G, La = A, Si = B.",
+  "id": 13,
+  "options": [
+   "A. Chữ C",
+   "B. Chữ B",
+   "C. Chữ A",
+   "D. Chữ D"
+  ],
+  "question": "Kí hiệu âm bằng hệ thống chữ cái Latin: nốt Đô được kí hiệu là chữ nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 2,
+  "explanation": "La = A trong hệ chữ cái Latin. Em nhớ theo thứ tự: C Đô, D Rê, E Mi, F Fa, G Sol, A La, B Si.",
+  "id": 14,
+  "options": [
+   "A. Chữ G",
+   "B. Chữ A",
+   "C. Chữ F",
+   "D. Chữ E"
+  ],
+  "question": "Nốt La được kí hiệu bằng chữ cái Latin nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 2,
+  "explanation": "Recorder là loại sáo dọc, người chơi thổi hơi vào miệng sáo và bấm các lỗ để đổi nốt.",
+  "id": 15,
+  "options": [
+   "A. Nhạc cụ phím",
+   "B. Nhạc cụ gõ",
+   "C. Nhạc cụ hơi, thổi bằng miệng",
+   "D. Nhạc cụ dây kéo"
+  ],
+  "question": "Recorder là nhạc cụ thuộc nhóm nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 2,
+  "explanation": "Kèn phím có bàn phím nhỏ: một tay thổi hơi, một tay bấm phím để tạo nốt nhạc.",
+  "id": 16,
+  "options": [
+   "A. Kèn phím thổi bằng miệng, không có phím",
+   "B. Kèn phím kéo bằng vĩ như đàn violin",
+   "C. Kèn phím chỉ gõ, không thổi",
+   "D. Kèn phím vừa thổi hơi vừa bấm phím như đàn"
+  ],
+  "question": "Kèn phím khác recorder ở điểm nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 2,
+  "explanation": "Bài hát ca ngợi tuổi thơ hồn nhiên làm cho cuộc sống thêm tươi đẹp, như trẻ mãi không già.",
+  "id": 17,
+  "options": [
+   "A. Cuộc sống luôn tươi trẻ nhờ có trẻ em hồn nhiên, vui vẻ",
+   "B. Người già không bao giờ ốm",
+   "C. Trẻ em không cần đi học",
+   "D. Cuộc sống chỉ toàn niềm vui, không có buồn"
+  ],
+  "question": "Bài hát Đời sống không già vì có chúng em nói về điều gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 2,
+  "explanation": "Nghe chăm chú và để ý giai điệu, nhịp điệu, tình cảm của bản nhạc giúp em hiểu và nhớ bài hơn.",
+  "id": 18,
+  "options": [
+   "A. Nghe lướt qua một lần rồi thôi",
+   "B. Chỉ nghe tiếng trống, bỏ qua giai điệu",
+   "C. Vừa nghe vừa nói chuyện to",
+   "D. Nghe chăm chú, để ý giai điệu nhanh hay chậm, vui hay buồn"
+  ],
+  "question": "Khi nghe một bản nhạc, em nên làm gì để hiểu bài hơn?"
+ },
+ {
+  "answer": 2,
+  "bai": 3,
+  "explanation": "Chủ đề 3 “Nhớ ơn thầy cô” có bài hát Thầy cô là tất cả, bày tỏ lòng biết ơn thầy cô.",
+  "id": 19,
+  "options": [
+   "A. Bài hát Con đường học trò",
+   "B. Bài hát Mưa rơi",
+   "C. Bài hát Thầy cô là tất cả",
+   "D. Bài hát Hãy để mặt trời luôn chiếu sáng"
+  ],
+  "question": "Chủ đề 3 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 3,
+  "explanation": "Chủ đề 3 cho em nghe bài hát Nhớ ơn thầy cô, cùng chủ đề tri ân thầy cô giáo.",
+  "id": 20,
+  "options": [
+   "A. Bài hát Auld Lang Syne",
+   "B. Bài hát Tháng năm học trò",
+   "C. Bài hát Việt Nam quê hương tôi",
+   "D. Bài hát Nhớ ơn thầy cô"
+  ],
+  "question": "Phần nghe nhạc ở Chủ đề 3 là bài hát nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 3,
+  "explanation": "Nhịp 4/4 nghĩa là mỗi ô nhịp có 4 phách, thường phách 1 mạnh nhất, giúp em gõ nhịp đều tay.",
+  "id": 21,
+  "options": [
+   "A. Mỗi ô nhịp có 4 phách",
+   "B. Mỗi bài hát có 4 câu",
+   "C. Mỗi nốt nhạc dài 4 giây",
+   "D. Mỗi bản nhạc chơi 4 lần"
+  ],
+  "question": "Nhịp 4/4 có nghĩa là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 3,
+  "explanation": "Trong nhịp 4/4, phách 1 mạnh nhất, phách 3 mạnh vừa, phách 2 và 4 nhẹ. Nhờ đó nhịp nghe vững vàng.",
+  "id": 22,
+  "options": [
+   "A. Phách 2",
+   "B. Phách 1",
+   "C. Phách 3",
+   "D. Phách 4"
+  ],
+  "question": "Trong nhịp 4/4, phách nào thường mạnh nhất?"
+ },
+ {
+  "answer": 2,
+  "bai": 3,
+  "explanation": "Hát bè là nhiều nhóm hát các bè khác nhau cùng lúc, các bè hòa vào nhau nghe đầy đặn và hay hơn.",
+  "id": 23,
+  "options": [
+   "A. Một người hát, cả lớp im lặng nghe",
+   "B. Hát thật to để át tiếng người khác",
+   "C. Nhiều bè cùng hát những giai điệu khác nhau mà hòa hợp với nhau",
+   "D. Hát mỗi người một bài khác nhau"
+  ],
+  "question": "Hát bè là hình thức hát như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 3,
+  "explanation": "Bài đọc nhạc số 2 gắn với nhịp 4/4 của Chủ đề 3, luyện đọc nốt đúng nhịp, đúng phách.",
+  "id": 24,
+  "options": [
+   "A. Múa phụ họa cho bài hát",
+   "B. Chơi đàn piano thành thạo",
+   "C. Sáng tác lời bài hát mới",
+   "D. Đọc nốt nhạc theo nhịp 4/4 đã học"
+  ],
+  "question": "Bài đọc nhạc số 2 giúp em luyện gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 3,
+  "explanation": "Nhớ ơn thầy cô thể hiện bằng việc làm thật: học chăm, ngoan ngoãn, lễ phép và cố gắng tiến bộ.",
+  "id": 25,
+  "options": [
+   "A. Học chăm, ngoan ngoãn, lễ phép với thầy cô",
+   "B. Không làm bài tập về nhà",
+   "C. Nói chuyện riêng trong giờ học",
+   "D. Quên lời thầy cô dặn"
+  ],
+  "question": "Việc nào thể hiện lòng nhớ ơn thầy cô?"
+ },
+ {
+  "answer": 1,
+  "bai": 3,
+  "explanation": "Bài hát tri ân thầy cô nên hát chậm rãi, trân trọng và tha thiết để bày tỏ lòng biết ơn.",
+  "id": 26,
+  "options": [
+   "A. Vui nhộn, cười đùa",
+   "B. Trân trọng, biết ơn, tha thiết",
+   "C. Buồn ngủ, uể oải",
+   "D. Tức giận, gay gắt"
+  ],
+  "question": "Khi hát bài về thầy cô, em nên hát với tình cảm nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 3,
+  "explanation": "Gõ nhịp 4/4 là gõ 4 phách đều nhau trong một ô nhịp, phách đầu mạnh hơn để giữ nhịp vững.",
+  "id": 27,
+  "options": [
+   "A. Gõ 4 tiếng đều nhau, tiếng đầu mạnh hơn",
+   "B. Gõ 3 tiếng rồi nghỉ",
+   "C. Gõ nhanh dần không theo nhịp",
+   "D. Gõ mỗi tiếng một kiểu khác nhau"
+  ],
+  "question": "Em gõ nhịp 4/4 bằng cách nào là đúng?"
+ },
+ {
+  "answer": 3,
+  "bai": 4,
+  "explanation": "Chủ đề 4 “Ước mơ hòa bình” có bài hát những ước mơ, nói về ước mơ hòa bình của trẻ em.",
+  "id": 28,
+  "options": [
+   "A. Bài hát Bác Hồ – Người cho em tất cả",
+   "B. Bài hát Mưa rơi",
+   "C. Bài hát Chỉ có một trên đời",
+   "D. Bài hát những ước mơ"
+  ],
+  "question": "Chủ đề 4 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 4,
+  "explanation": "Chương IV Giao hưởng số 9 có giai điệu Niềm vui nổi tiếng, ca ngợi tình anh em và hòa bình.",
+  "id": 29,
+  "options": [
+   "A. Giai điệu Niềm vui (Ode to Joy)",
+   "B. Giai điệu Khúc hát ru",
+   "C. Giai điệu Dòng sông Danube xanh",
+   "D. Giai điệu Auld Lang Syne"
+  ],
+  "question": "Trích đoạn chương IV bản Giao hưởng số 9 của Beethoven có giai điệu nổi tiếng nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 4,
+  "explanation": "Ludwig van Beethoven là nhạc sĩ vĩ đại người Đức, tác giả Giao hưởng số 9.",
+  "id": 30,
+  "options": [
+   "A. Nước Pháp",
+   "B. Nước Đức",
+   "C. Nước Ý",
+   "D. Nước Nga"
+  ],
+  "question": "Beethoven là nhạc sĩ người nước nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 4,
+  "explanation": "Chủ đề 4 giới thiệu nhạc sĩ Văn Kì và Bài ca hy vọng, bài hát về niềm tin và hòa bình.",
+  "id": 31,
+  "options": [
+   "A. Bài hát Tháng năm học trò",
+   "B. Bài hát Mưa rơi",
+   "C. Bài ca hy vọng",
+   "D. Bài hát Việt Nam quê hương tôi"
+  ],
+  "question": "Nhạc sĩ Văn Kì gắn với bài hát nào trong Chủ đề 4?"
+ },
+ {
+  "answer": 3,
+  "bai": 4,
+  "explanation": "Bài ca hy vọng gửi niềm tin vào tương lai hòa bình, tươi sáng, mọi người sống chan hòa.",
+  "id": 32,
+  "options": [
+   "A. Tin rằng chỉ mình em là giỏi nhất",
+   "B. Tin rằng chiến tranh là tốt",
+   "C. Tin rằng không cần học hành",
+   "D. Tin vào ngày mai hòa bình, tươi sáng"
+  ],
+  "question": "Bài ca hy vọng gửi gắm niềm tin gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 4,
+  "explanation": "Hòa bình bắt đầu từ việc nhỏ: thân thiện, giúp đỡ bạn bè, giải quyết mâu thuẫn bằng lời nói ôn hòa.",
+  "id": 33,
+  "options": [
+   "A. Sống thân thiện, giúp đỡ bạn bè, không gây gổ",
+   "B. Đánh nhau với bạn",
+   "C. Giành đồ chơi của bạn",
+   "D. Không chơi với ai cả"
+  ],
+  "question": "Ước mơ hòa bình của trẻ em thể hiện qua việc nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 4,
+  "explanation": "Chơi nhạc cụ cần bấm đúng nốt, thổi hơi đều và giữ đúng nhịp thì giai điệu mới hay và đúng.",
+  "id": 34,
+  "options": [
+   "A. Thổi thật mạnh cho to",
+   "B. Bấm đúng nốt, thổi đều hơi, giữ nhịp",
+   "C. Chơi càng nhanh càng tốt",
+   "D. Chỉ chơi nốt mình thích"
+  ],
+  "question": "Khi tập nhạc cụ recorder hoặc kèn phím, em cần chú ý gì nhất?"
+ },
+ {
+  "answer": 2,
+  "bai": 4,
+  "explanation": "Giai điệu bay bổng, nhẹ nhàng gợi cảm giác ước mơ đẹp đẽ, trong sáng, vươn xa như cánh chim.",
+  "id": 35,
+  "options": [
+   "A. Vì người hát buồn ngủ",
+   "B. Vì bài hát viết cho người lớn tuổi",
+   "C. Vì giai điệu nhẹ nhàng gợi cảm giác ước mơ đẹp, bay xa",
+   "D. Vì nhạc cụ bị hỏng"
+  ],
+  "question": "Vì sao bài hát về ước mơ thường có giai điệu bay bổng, nhẹ nhàng?"
+ },
+ {
+  "answer": 1,
+  "bai": 4,
+  "explanation": "Giữ hòa bình ở lớp bắt đầu từ em: lắng nghe, nhường nhịn và nói lời ôn hòa khi bất đồng.",
+  "id": 36,
+  "options": [
+   "A. Tranh cãi to tiếng khi bất đồng",
+   "B. Lắng nghe bạn, nhường nhịn, nói lời ôn hòa",
+   "C. Tẩy chay bạn mình không thích",
+   "D. Giấu đồ dùng của bạn"
+  ],
+  "question": "Em có thể làm gì để góp phần giữ hòa bình ở lớp học?"
+ },
+ {
+  "answer": 0,
+  "bai": 5,
+  "explanation": "Chủ đề 5 “Giai điệu quê hương” có bài hát Mưa rơi, giai điệu gắn với quê hương Việt Nam.",
+  "id": 37,
+  "options": [
+   "A. Bài hát Mưa rơi",
+   "B. Bài hát Con đường học trò",
+   "C. Bài hát Thầy cô là tất cả",
+   "D. Bài hát Auld Lang Syne"
+  ],
+  "question": "Chủ đề 5 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 5,
+  "explanation": "Chủ đề 5 cho em nghe bản hòa tấu nhạc cụ dân tộc Mừng hội hoa bông, nhiều nhạc cụ dân tộc cùng chơi hòa hợp.",
+  "id": 38,
+  "options": [
+   "A. Giao hưởng số 9",
+   "B. Bản hòa tấu nhạc cụ dân tộc Mừng hội hoa bông",
+   "C. Tác phẩm The Blue Danube",
+   "D. Khúc hát ru Lullaby"
+  ],
+  "question": "Bản hòa tấu nhạc cụ dân tộc ở Chủ đề 5 là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 5,
+  "explanation": "Khèn là nhạc cụ hơi của đồng bào vùng núi phía Bắc, thổi hơi qua nhiều ống tre tạo nên âm thanh vang.",
+  "id": 39,
+  "options": [
+   "A. Nhạc cụ phím có bàn phím",
+   "B. Nhạc cụ gõ bằng tay",
+   "C. Nhạc cụ hơi làm bằng các ống tre, thổi để tạo âm",
+   "D. Nhạc cụ dây kéo bằng vĩ"
+  ],
+  "question": "Khèn là nhạc cụ như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 5,
+  "explanation": "Sáo trúc làm bằng tre, trúc, người chơi thổi hơi ngang và bấm các lỗ để đổi cao độ của tiếng sáo.",
+  "id": 40,
+  "options": [
+   "A. Sáo trúc gõ bằng dùi",
+   "B. Sáo trúc bấm phím như đàn",
+   "C. Sáo trúc kéo bằng vĩ",
+   "D. Sáo trúc làm bằng tre, trúc và thổi hơi"
+  ],
+  "question": "Sáo trúc là nhạc cụ như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 5,
+  "explanation": "Nhạc cụ dân tộc thường làm từ vật liệu tự nhiên như tre, trúc, gỗ, nên tiếng đàn gần gũi với đời sống.",
+  "id": 41,
+  "options": [
+   "A. Nhạc cụ dân tộc thường làm bằng tre, trúc, gỗ",
+   "B. Nhạc cụ dân tộc làm bằng sắt thép",
+   "C. Nhạc cụ dân tộc làm bằng nhựa dẻo",
+   "D. Nhạc cụ dân tộc làm bằng đá quý"
+  ],
+  "question": "Nhạc cụ dân tộc Việt Nam thường làm bằng chất liệu gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 5,
+  "explanation": "Bài đọc nhạc số 3 luyện đọc nốt theo giai điệu quê hương của Chủ đề 5, đúng nhịp và đúng cao độ.",
+  "id": 42,
+  "options": [
+   "A. Sáng tác lời bài hát mới",
+   "B. Đọc nốt nhạc đúng nhịp, đúng cao độ",
+   "C. Chơi đàn piano thành thạo",
+   "D. Múa phụ họa cho bài hát"
+  ],
+  "question": "Bài đọc nhạc số 3 giúp em luyện gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 5,
+  "explanation": "Giai điệu quê hương thường nhẹ nhàng, thân thương, gợi nhớ hình ảnh làng quê, đồng ruộng, dòng sông.",
+  "id": 43,
+  "options": [
+   "A. Ồn ào, gấp gáp",
+   "B. Buồn thảm, sợ hãi",
+   "C. Nhẹ nhàng, thân thương, gợi nhớ làng quê",
+   "D. Giận dữ, gay gắt"
+  ],
+  "question": "Giai điệu quê hương thường có tính chất nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 5,
+  "explanation": "Hòa tấu là nhiều nhạc cụ cùng chơi một lúc, các tiếng đàn hòa vào nhau thành bản nhạc đầy đặn.",
+  "id": 44,
+  "options": [
+   "A. Nhạc cụ chơi không theo nhịp",
+   "B. Một nhạc cụ chơi một mình",
+   "C. Nhiều người cùng hát một bè",
+   "D. Nhiều nhạc cụ cùng chơi, hòa hợp thành bản nhạc"
+  ],
+  "question": "Hòa tấu nhạc cụ là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 5,
+  "explanation": "Nghe nhạc dân tộc là cách em hiểu và yêu thêm văn hóa quê hương, trân trọng nhạc cụ của dân tộc mình.",
+  "id": 45,
+  "options": [
+   "A. Giúp em chỉ thích nhạc nước ngoài",
+   "B. Giúp em quên quê hương",
+   "C. Giúp em hiểu và yêu thêm văn hóa, nhạc cụ dân tộc Việt Nam",
+   "D. Giúp em không cần học nhạc nữa"
+  ],
+  "question": "Nghe nhạc cụ dân tộc có ích gì cho em?"
+ },
+ {
+  "answer": 1,
+  "bai": 6,
+  "explanation": "Chủ đề 6 “Mẹ trong trái tim em” có bài hát Chỉ có một trên đời, ca ngợi tình mẹ duy nhất và thiêng liêng.",
+  "id": 46,
+  "options": [
+   "A. Bài hát Mưa rơi",
+   "B. Bài hát Chỉ có một trên đời",
+   "C. Bài hát những ước mơ",
+   "D. Bài hát Hãy để mặt trời luôn chiếu sáng"
+  ],
+  "question": "Chủ đề 6 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 6,
+  "explanation": "Chủ đề 6 giới thiệu nhạc sĩ Johannes Brahms và tác phẩm Lullaby, một khúc hát ru êm dịu.",
+  "id": 47,
+  "options": [
+   "A. Nhạc sĩ Văn Kì và Bài ca hy vọng",
+   "B. Nhạc sĩ Beethoven và Giao hưởng số 9",
+   "C. Nhạc sĩ Brahms và khúc hát ru Lullaby",
+   "D. Nhạc sĩ Strauss và The Blue Danube"
+  ],
+  "question": "Chủ đề 6 giới thiệu nhạc sĩ và tác phẩm nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 6,
+  "explanation": "Khúc hát ru hát chậm, nhẹ, êm để dỗ trẻ ngủ ngon, giống lời mẹ ru ngày bé.",
+  "id": 48,
+  "options": [
+   "A. Hát thật nhanh và to",
+   "B. Hát không theo nhịp",
+   "C. Hát giận dữ, gay gắt",
+   "D. Hát chậm, nhẹ, êm dịu như lời ru"
+  ],
+  "question": "Khúc hát ru Lullaby thường được hát như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 6,
+  "explanation": "Cung là khoảng cách 2 nửa cung. Ví dụ: từ Đô lên Rê là 1 cung vì giữa chúng có 2 nửa cung.",
+  "id": 49,
+  "options": [
+   "A. Cung bằng 2 nửa cung",
+   "B. Cung bằng 1 nửa cung",
+   "C. Cung bằng 3 nửa cung",
+   "D. Cung bằng 4 nửa cung"
+  ],
+  "question": "1 cung bằng bao nhiêu nửa cung?"
+ },
+ {
+  "answer": 1,
+  "bai": 6,
+  "explanation": "Từ Mi lên Fa chỉ cách nhau nửa cung, nghĩa là 2 nốt này nằm sát nhau, không có nốt nào ở giữa.",
+  "id": 50,
+  "options": [
+   "A. 1 cung",
+   "B. Nửa cung",
+   "C. 2 cung",
+   "D. 3 cung"
+  ],
+  "question": "Từ nốt Mi lên nốt Fa là bao nhiêu cung?"
+ },
+ {
+  "answer": 2,
+  "bai": 6,
+  "explanation": "Bài đọc nhạc số 4 luyện đọc nốt theo chủ đề về mẹ, kết hợp kiến thức cung và nửa cung vừa học.",
+  "id": 51,
+  "options": [
+   "A. Chơi đàn piano thành thạo",
+   "B. Sáng tác bài hát về mẹ",
+   "C. Đọc nốt nhạc kết hợp kiến thức cung, nửa cung",
+   "D. Múa phụ họa cho bài hát"
+  ],
+  "question": "Bài đọc nhạc số 4 giúp em luyện gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 6,
+  "explanation": "Brahms là nhạc sĩ người Đức, tác giả nhiều tác phẩm nổi tiếng, trong đó có khúc hát ru Lullaby.",
+  "id": 52,
+  "options": [
+   "A. Nước Pháp",
+   "B. Nước Áo",
+   "C. Nước Ý",
+   "D. Nước Đức"
+  ],
+  "question": "Nhạc sĩ Brahms là người nước nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 6,
+  "explanation": "Bài hát về mẹ nên hát chậm rãi, tình cảm, tha thiết để bày tỏ lòng yêu thương và biết ơn mẹ.",
+  "id": 53,
+  "options": [
+   "A. Vui nhộn, cười đùa",
+   "B. Nhanh và ồn ào",
+   "C. Chậm rãi, tình cảm, tha thiết",
+   "D. Buồn ngủ, uể oải"
+  ],
+  "question": "Khi hát bài về mẹ, em nên hát với tình cảm nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 6,
+  "explanation": "Yêu thương mẹ thể hiện bằng việc làm thật mỗi ngày: ngoan ngoãn, học chăm và giúp mẹ việc nhà.",
+  "id": 54,
+  "options": [
+   "A. Không nghe lời mẹ",
+   "B. Chỉ nói yêu mẹ mà không làm gì",
+   "C. Làm mẹ buồn lòng",
+   "D. Ngoan ngoãn, học chăm, giúp mẹ việc nhà"
+  ],
+  "question": "Việc nào thể hiện tình yêu thương mẹ?"
+ },
+ {
+  "answer": 2,
+  "bai": 7,
+  "explanation": "Chủ đề 7 “Âm nhạc nước ngoài” có bài hát Hãy để mặt trời luôn chiếu sáng, bài hát về hòa bình của thiếu nhi thế giới.",
+  "id": 55,
+  "options": [
+   "A. Bài hát Chỉ có một trên đời",
+   "B. Bài hát Mưa rơi",
+   "C. Bài hát Hãy để mặt trời luôn chiếu sáng",
+   "D. Bài hát Bác Hồ – Người cho em tất cả"
+  ],
+  "question": "Chủ đề 7 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 7,
+  "explanation": "Chủ đề 7 cho em nghe bài hát Auld Lang Syne, bài hát nổi tiếng về tình bạn và những ngày đã qua.",
+  "id": 56,
+  "options": [
+   "A. Bài hát Tháng năm học trò",
+   "B. Bài hát Nhớ ơn thầy cô",
+   "C. Bài hát Việt Nam quê hương tôi",
+   "D. Bài hát Auld Lang Syne"
+  ],
+  "question": "Bài hát nghe nhạc ở Chủ đề 7 là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 7,
+  "explanation": "Bậc chuyển hóa là bậc âm bị thay đổi cao độ bằng dấu hóa, như nốt Fa thăng cao hơn Fa thường nửa cung.",
+  "id": 57,
+  "options": [
+   "A. Nốt nhạc bị đổi cao độ nhờ dấu hóa",
+   "B. Nốt nhạc hát to hơn",
+   "C. Nốt nhạc hát chậm hơn",
+   "D. Nốt nhạc bị bỏ qua khi hát"
+  ],
+  "question": "Bậc chuyển hóa là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 7,
+  "explanation": "Dấu thăng (#) làm nốt nhạc cao lên nửa cung. Ví dụ: Fa thăng cao hơn Fa thường nửa cung.",
+  "id": 58,
+  "options": [
+   "A. Thấp xuống nửa cung",
+   "B. Cao lên nửa cung",
+   "C. Trở lại cao độ ban đầu",
+   "D. Dài gấp đôi"
+  ],
+  "question": "Dấu thăng (#) làm nốt nhạc thay đổi thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 7,
+  "explanation": "Dấu giáng (b) làm nốt nhạc thấp xuống nửa cung, ngược với dấu thăng.",
+  "id": 59,
+  "options": [
+   "A. Trở lại cao độ ban đầu",
+   "B. Cao lên nửa cung",
+   "C. Thấp xuống nửa cung",
+   "D. Ngắn đi một nửa"
+  ],
+  "question": "Dấu giáng (b) làm nốt nhạc thay đổi thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 7,
+  "explanation": "Dấu bình (♮) trả nốt đã thăng hoặc giáng về cao độ tự nhiên ban đầu của nó.",
+  "id": 60,
+  "options": [
+   "A. Tăng lên 1 cung",
+   "B. Kéo dài nốt gấp đôi",
+   "C. Giảm xuống 1 cung",
+   "D. Trả nốt về cao độ tự nhiên ban đầu"
+  ],
+  "question": "Dấu bình (♮) có tác dụng gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 7,
+  "explanation": "Bài đọc nhạc số 5 luyện đọc nốt có dấu hóa, giúp em đọc đúng nốt thăng, giáng trong bài.",
+  "id": 61,
+  "options": [
+   "A. Đọc nốt nhạc có dấu hóa (thăng, giáng, bình)",
+   "B. Đọc nốt nhạc không có dấu hóa",
+   "C. Sáng tác bài hát nước ngoài",
+   "D. Chơi đàn piano thành thạo"
+  ],
+  "question": "Bài đọc nhạc số 5 giúp em luyện gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 7,
+  "explanation": "Nghe nhạc nước ngoài giúp em hiểu thêm văn hóa các nước và thấy âm nhạc gắn kết mọi người khắp thế giới.",
+  "id": 62,
+  "options": [
+   "A. Quên nhạc Việt Nam",
+   "B. Hiểu thêm văn hóa các nước, thấy âm nhạc gắn kết mọi người",
+   "C. Chỉ thích nhạc nước ngoài",
+   "D. Không cần học nhạc Việt Nam nữa"
+  ],
+  "question": "Nghe nhạc nước ngoài có ích gì cho em?"
+ },
+ {
+  "answer": 0,
+  "bai": 7,
+  "explanation": "Bài hát về mặt trời và hòa bình nên hát vui tươi, trong sáng, tràn đầy hy vọng.",
+  "id": 63,
+  "options": [
+   "A. Vui tươi, trong sáng, đầy hy vọng",
+   "B. Buồn bã, sợ hãi",
+   "C. Giận dữ, gay gắt",
+   "D. Buồn ngủ, uể oải"
+  ],
+  "question": "Khi hát bài Hãy để mặt trời luôn chiếu sáng, em nên hát với tình cảm nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 8,
+  "explanation": "Chủ đề 8 “Bác Hồ với thiếu nhi” có bài hát Bác Hồ – Người cho em tất cả, ca ngợi tình yêu của Bác với thiếu nhi.",
+  "id": 64,
+  "options": [
+   "A. Bài hát Thầy cô là tất cả",
+   "B. Bài hát Mưa rơi",
+   "C. Bài hát Con đường học trò",
+   "D. Bài hát Bác Hồ – Người cho em tất cả"
+  ],
+  "question": "Chủ đề 8 Âm nhạc 6 có bài hát nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 8,
+  "explanation": "Chủ đề 8 cho em nghe bài hát Việt Nam quê hương tôi, bài hát về quê hương đất nước.",
+  "id": 65,
+  "options": [
+   "A. Bài hát Việt Nam quê hương tôi",
+   "B. Bài hát Tháng năm học trò",
+   "C. Bài hát Nhớ ơn thầy cô",
+   "D. Bài hát Auld Lang Syne"
+  ],
+  "question": "Bài hát nghe nhạc ở Chủ đề 8 là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 8,
+  "explanation": "Chủ đề 8 còn thưởng thức bài hát Như có Bác trong ngày đại thắng, bài hát về niềm vui ngày đất nước thống nhất.",
+  "id": 66,
+  "options": [
+   "A. Bài hát Mưa rơi",
+   "B. Bài hát Như có Bác trong ngày đại thắng",
+   "C. Bài hát những ước mơ",
+   "D. Bài hát Hãy để mặt trời luôn chiếu sáng"
+  ],
+  "question": "Bài hát thưởng thức âm nhạc ở Chủ đề 8 là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 8,
+  "explanation": "Bác Hồ rất yêu thiếu nhi, luôn mong các cháu ngoan ngoãn, chăm học và lớn lên xây dựng đất nước.",
+  "id": 67,
+  "options": [
+   "A. Bác chỉ yêu người lớn",
+   "B. Bác không quan tâm đến thiếu nhi",
+   "C. Bác luôn yêu thương và mong thiếu nhi ngoan, chăm học",
+   "D. Bác muốn thiếu nhi không đi học"
+  ],
+  "question": "Bác Hồ đối với thiếu nhi như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 8,
+  "explanation": "Học tập theo gương Bác bắt đầu từ việc nhỏ: ngoan ngoãn, lễ phép, học chăm và giúp đỡ bạn bè.",
+  "id": 68,
+  "options": [
+   "A. Không làm bài tập",
+   "B. Không nghe lời thầy cô",
+   "C. Nói chuyện riêng trong giờ",
+   "D. Ngoan ngoãn, lễ phép, học chăm, giúp bạn"
+  ],
+  "question": "Em học tập theo gương Bác bằng việc nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 8,
+  "explanation": "Bài hát về Bác Hồ nên hát trang nghiêm, tự hào và biết ơn, thể hiện lòng kính yêu Bác.",
+  "id": 69,
+  "options": [
+   "A. Trang nghiêm, tự hào, biết ơn",
+   "B. Vui nhộn, cười đùa",
+   "C. Buồn ngủ, uể oải",
+   "D. Tức giận, gay gắt"
+  ],
+  "question": "Khi hát bài về Bác Hồ, em nên hát với tình cảm nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 8,
+  "explanation": "Tập nhạc cụ ở Chủ đề 8 tiếp tục luyện recorder hoặc kèn phím: bấm đúng nốt, thổi đều hơi, giữ nhịp.",
+  "id": 70,
+  "options": [
+   "A. Thổi thật mạnh cho to",
+   "B. Bấm đúng nốt, thổi đều hơi, giữ nhịp",
+   "C. Chơi càng nhanh càng tốt",
+   "D. Chỉ chơi nốt mình thích"
+  ],
+  "question": "Khi tập nhạc cụ ở Chủ đề 8, em cần chú ý gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 8,
+  "explanation": "Chủ đề 8 giúp em hiểu tình yêu của Bác Hồ với thiếu nhi và niềm vui của ngày đất nước thống nhất.",
+  "id": 71,
+  "options": [
+   "A. Chỉ học cách hát to",
+   "B. Chỉ học cách chơi đàn",
+   "C. Tình yêu của Bác với thiếu nhi và niềm vui ngày thống nhất",
+   "D. Chỉ học tên các bài hát"
+  ],
+  "question": "Chủ đề 8 giúp em hiểu điều gì là chính?"
+ },
+ {
+  "answer": 1,
+  "bai": 8,
+  "explanation": "Ôn tập cuối sách giúp em nhắc lại các thuật ngữ âm nhạc đã học như cao độ, trường độ, nhịp, dấu hóa.",
+  "id": 72,
+  "options": [
+   "A. Học thêm bài hát mới hoàn toàn",
+   "B. Nhắc lại các thuật ngữ và kiến thức âm nhạc đã học",
+   "C. Thi hát một mình",
+   "D. Không cần ôn gì cả"
+  ],
+  "question": "Phần Ôn tập cuối sách Âm nhạc 6 giúp em làm gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 9,
+  "explanation": "Mĩ thuật có nhiều thể loại: tranh (vẽ), tượng (nặn, đẽo), đồ họa (in) và kiến trúc (thiết kế nhà cửa).",
+  "id": 73,
+  "options": [
+   "A. Tranh, tượng, đồ họa, kiến trúc",
+   "B. Chỉ có tranh vẽ",
+   "C. Chỉ có tượng đá",
+   "D. Chỉ có ảnh chụp"
+  ],
+  "question": "Mĩ thuật gồm những thể loại nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 9,
+  "explanation": "Tranh là tác phẩm vẽ trên mặt phẳng như giấy, vải, tường, bằng màu nước, sáp màu hoặc sơn.",
+  "id": 74,
+  "options": [
+   "A. Tác phẩm nặn bằng đất",
+   "B. Tác phẩm vẽ trên mặt phẳng như giấy, vải",
+   "C. Tác phẩm xây bằng gạch",
+   "D. Tác phẩm in bằng máy"
+  ],
+  "question": "Tranh trong mĩ thuật là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 9,
+  "explanation": "Tượng là tác phẩm có khối 3 chiều, em có thể nhìn từ nhiều phía, làm bằng cách nặn đất hoặc đẽo đá, gỗ.",
+  "id": 75,
+  "options": [
+   "A. Tác phẩm chỉ có màu đen trắng",
+   "B. Tác phẩm chỉ nhìn được một mặt",
+   "C. Tác phẩm có khối, nhìn được nhiều phía",
+   "D. Tác phẩm chỉ vẽ trên giấy"
+  ],
+  "question": "Tượng khác tranh ở điểm nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 9,
+  "explanation": "Đồ họa là nghệ thuật in: khắc hình lên bản rồi in ra nhiều bản giống nhau, như tranh khắc gỗ.",
+  "id": 76,
+  "options": [
+   "A. Vẽ tranh bằng màu nước",
+   "B. Xây nhà bằng gạch",
+   "C. Nặn tượng bằng đất sét",
+   "D. Khắc hình lên bản rồi in ra nhiều bản"
+  ],
+  "question": "Đồ họa là thể loại mĩ thuật như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 9,
+  "explanation": "Kiến trúc là nghệ thuật thiết kế và xây dựng nhà cửa, trường học, cầu đường sao cho đẹp và dùng tốt.",
+  "id": 77,
+  "options": [
+   "A. Thiết kế nhà cửa, công trình đẹp và dùng tốt",
+   "B. Vẽ tranh treo tường",
+   "C. Nặn tượng trang trí",
+   "D. Chụp ảnh phong cảnh"
+  ],
+  "question": "Kiến trúc trong mĩ thuật là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 9,
+  "explanation": "Mĩ thuật ứng dụng làm đẹp đồ dùng hằng ngày: cốc, áo, sách vở, bao bì đều có thể đẹp nhờ thiết kế.",
+  "id": 78,
+  "options": [
+   "A. Mĩ thuật ứng dụng chỉ làm tranh treo tường",
+   "B. Mĩ thuật ứng dụng làm đẹp đồ dùng hằng ngày",
+   "C. Mĩ thuật ứng dụng chỉ làm tượng lớn",
+   "D. Mĩ thuật ứng dụng không cần màu sắc"
+  ],
+  "question": "Mĩ thuật ứng dụng là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 9,
+  "explanation": "Xem tác phẩm mĩ thuật, em nên nhìn bố cục, màu sắc và xem tác phẩm muốn kể điều gì.",
+  "id": 79,
+  "options": [
+   "A. Chỉ xem tác phẩm đắt hay rẻ",
+   "B. Chỉ xem tác phẩm to hay nhỏ",
+   "C. Nhìn bố cục, màu sắc và nội dung tác phẩm",
+   "D. Chỉ xem tên tác giả"
+  ],
+  "question": "Khi xem một tác phẩm mĩ thuật, em nên quan sát điều gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 9,
+  "explanation": "Mĩ thuật có mặt khắp nơi: tranh trong sách, tượng ở công viên, nhà đẹp, áo đẹp đều là mĩ thuật.",
+  "id": 80,
+  "options": [
+   "A. Mĩ thuật chỉ có trong bảo tàng",
+   "B. Mĩ thuật chỉ dành cho họa sĩ",
+   "C. Mĩ thuật chỉ có ở nước ngoài",
+   "D. Mĩ thuật có ở khắp nơi quanh em"
+  ],
+  "question": "Mĩ thuật có ở đâu trong cuộc sống?"
+ },
+ {
+  "answer": 2,
+  "bai": 9,
+  "explanation": "Học mĩ thuật giúp em quan sát tinh hơn, tưởng tượng phong phú hơn và làm đồ vật đẹp hơn.",
+  "id": 81,
+  "options": [
+   "A. Giúp em chỉ vẽ giống hệt ảnh chụp",
+   "B. Giúp em không cần học các môn khác",
+   "C. Giúp em quan sát tinh hơn và sáng tạo hơn",
+   "D. Giúp em không cần tưởng tượng"
+  ],
+  "question": "Học mĩ thuật có ích gì cho em?"
+ },
+ {
+  "answer": 1,
+  "bai": 10,
+  "explanation": "Xây dựng ý tưởng là nghĩ trước mình sẽ vẽ gì, vì sao vẽ và vẽ như thế nào trước khi cầm bút.",
+  "id": 82,
+  "options": [
+   "A. Vẽ ngay không cần nghĩ",
+   "B. Nghĩ trước sẽ vẽ gì và vẽ như thế nào",
+   "C. Chép lại tranh của bạn",
+   "D. Chỉ chọn màu đẹp nhất"
+  ],
+  "question": "Xây dựng ý tưởng trong sáng tác nghĩa là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 10,
+  "explanation": "Quan sát thật kĩ giúp em nhớ rõ hình dáng, màu sắc của sự vật để vẽ đúng và sinh động.",
+  "id": 83,
+  "options": [
+   "A. Quan sát qua loa rồi vẽ",
+   "B. Không cần quan sát, cứ vẽ theo trí nhớ mờ",
+   "C. Quan sát kĩ hình dáng, màu sắc trước khi vẽ",
+   "D. Chỉ quan sát màu sắc, bỏ qua hình dáng"
+  ],
+  "question": "Vì sao trước khi vẽ theo chủ đề, em cần quan sát kĩ?"
+ },
+ {
+  "answer": 3,
+  "bai": 10,
+  "explanation": "Phác thảo là vẽ nháp nhanh bố cục và hình chính, để sửa trước khi vẽ thật, tránh vẽ sai phải làm lại.",
+  "id": 84,
+  "options": [
+   "A. Vẽ xong rồi mới nghĩ chủ đề",
+   "B. Vẽ thật ngay bằng màu đậm",
+   "C. Tô màu trước, vẽ hình sau",
+   "D. Vẽ nháp nhanh bố cục để sửa trước khi vẽ thật"
+  ],
+  "question": "Phác thảo trong sáng tác là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 10,
+  "explanation": "Chủ đề là ý chính của tác phẩm, ví dụ chủ đề “quê hương” thì mọi hình trong tranh đều gắn với quê hương.",
+  "id": 85,
+  "options": [
+   "A. Chủ đề là ý chính mà tác phẩm muốn nói",
+   "B. Chủ đề là màu chủ đạo của tranh",
+   "C. Chủ đề là khổ giấy vẽ",
+   "D. Chủ đề là tên người vẽ"
+  ],
+  "question": "Chủ đề của một tác phẩm mĩ thuật là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 10,
+  "explanation": "Chọn chất liệu phù hợp giúp ý tưởng thể hiện rõ: màu nước nhẹ nhàng, sáp màu tươi, đất nặn có khối.",
+  "id": 86,
+  "options": [
+   "A. Dùng chất liệu đắt nhất",
+   "B. Chọn màu, giấy, đất nặn phù hợp với ý tưởng",
+   "C. Dùng mọi chất liệu cùng lúc",
+   "D. Không cần chọn, dùng gì cũng được"
+  ],
+  "question": "Vì sao em cần chọn chất liệu phù hợp khi sáng tác?"
+ },
+ {
+  "answer": 2,
+  "bai": 10,
+  "explanation": "Sửa và hoàn thiện là xem lại tranh, chỉnh bố cục, màu sắc cho rõ ý rồi mới coi là xong.",
+  "id": 87,
+  "options": [
+   "A. Vẽ xong là xong, không cần xem lại",
+   "B. Xóa hết vẽ lại từ đầu",
+   "C. Xem lại, chỉnh bố cục và màu sắc cho rõ ý",
+   "D. Tô thêm thật nhiều màu cho rực rỡ"
+  ],
+  "question": "Bước hoàn thiện tác phẩm là làm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 10,
+  "explanation": "Trưng bày và chia sẻ giúp em nghe góp ý, học thêm và tự tin hơn với sáng tạo của mình.",
+  "id": 88,
+  "options": [
+   "A. Không cần trưng bày vì tranh đã xong",
+   "B. Giấu tác phẩm không cho ai xem",
+   "C. So sánh xem ai vẽ đẹp nhất để chê bai",
+   "D. Nghe góp ý và tự tin hơn với sáng tạo của mình"
+  ],
+  "question": "Vì sao sau khi sáng tác, em nên trưng bày và chia sẻ tác phẩm?"
+ },
+ {
+  "answer": 0,
+  "bai": 10,
+  "explanation": "Các bước sáng tác theo chủ đề: quan sát và nghĩ ý tưởng, phác thảo, chọn chất liệu, vẽ thật, hoàn thiện.",
+  "id": 89,
+  "options": [
+   "A. Quan sát, nghĩ ý tưởng, phác thảo, vẽ thật, hoàn thiện",
+   "B. Vẽ thật rồi mới nghĩ ý tưởng",
+   "C. Tô màu trước rồi phác thảo sau",
+   "D. Trưng bày trước rồi mới vẽ"
+  ],
+  "question": "Thứ tự đúng của các bước sáng tác theo chủ đề là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 10,
+  "explanation": "Ý tưởng hay thường đến từ điều em thật sự quan sát và yêu thích, như gia đình, trường lớp, quê hương.",
+  "id": 90,
+  "options": [
+   "A. Từ việc chỉ vẽ những gì đắt tiền",
+   "B. Từ việc chép tranh của người khác",
+   "C. Từ việc vẽ bừa không nghĩ",
+   "D. Từ điều em quan sát và yêu thích trong cuộc sống"
+  ],
+  "question": "Ý tưởng sáng tác hay thường đến từ đâu?"
+ },
+ {
+  "answer": 2,
+  "bai": 11,
+  "explanation": "Tạo hình ngôi nhà là dùng hình khối, đường nét và màu sắc để tạo ra hình ngôi nhà trên giấy hoặc bằng mô hình.",
+  "id": 91,
+  "options": [
+   "A. Viết đoạn văn tả ngôi nhà",
+   "B. Chụp ảnh ngôi nhà thật",
+   "C. Dùng hình khối, đường nét, màu sắc tạo hình ngôi nhà",
+   "D. Hát bài hát về ngôi nhà"
+  ],
+  "question": "Tạo hình ngôi nhà là làm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 11,
+  "explanation": "Thân nhà thường có dạng hình hộp chữ nhật, mái nhà dạng hình tam giác hoặc hình thang.",
+  "id": 92,
+  "options": [
+   "A. Thân nhà hình tròn, mái nhà hình vuông",
+   "B. Thân nhà không có hình dạng cố định",
+   "C. Thân nhà hình tam giác, mái nhà hình hộp",
+   "D. Thân nhà hình hộp, mái nhà hình tam giác"
+  ],
+  "question": "Ngôi nhà thường được tạo hình từ những khối nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 11,
+  "explanation": "Tỉ lệ đúng giúp ngôi nhà trông thật: cửa nhỏ hơn thân nhà, mái vừa với thân nhà, không quá to hay quá nhỏ.",
+  "id": 93,
+  "options": [
+   "A. Giữ tỉ lệ các bộ phận hợp lý với nhau",
+   "B. Vẽ cửa to bằng thân nhà",
+   "C. Vẽ mái nhỏ xíu so với thân nhà",
+   "D. Vẽ mọi bộ phận to bằng nhau"
+  ],
+  "question": "Vì sao khi tạo hình ngôi nhà em cần chú ý tỉ lệ?"
+ },
+ {
+  "answer": 1,
+  "bai": 11,
+  "explanation": "Màu ấm như đỏ, vàng, cam gợi cảm giác ấm áp, gần gũi, rất hợp với ngôi nhà yêu thương.",
+  "id": 94,
+  "options": [
+   "A. Chỉ dùng màu đen",
+   "B. Màu ấm như đỏ, vàng, cam tạo cảm giác ấm áp",
+   "C. Chỉ dùng màu trắng",
+   "D. Dùng màu thật tối"
+  ],
+  "question": "Màu nào tạo cảm giác ấm áp cho ngôi nhà?"
+ },
+ {
+  "answer": 2,
+  "bai": 11,
+  "explanation": "Thêm cây, sân, hàng rào, con đường làm ngôi nhà sinh động và có không gian sống quanh nó.",
+  "id": 95,
+  "options": [
+   "A. Xóa hết chi tiết xung quanh",
+   "B. Chỉ vẽ mỗi ngôi nhà, không vẽ gì thêm",
+   "C. Thêm cây, sân, hàng rào quanh nhà",
+   "D. Vẽ ngôi nhà thật nhỏ ở góc giấy"
+  ],
+  "question": "Vì sao khi tạo hình ngôi nhà, em nên vẽ thêm cảnh xung quanh?"
+ },
+ {
+  "answer": 3,
+  "bai": 11,
+  "explanation": "Ngôi nhà yêu thương là nơi gia đình sống bên nhau, nên tranh cần thể hiện sự ấm áp, sum họp.",
+  "id": 96,
+  "options": [
+   "A. Ngôi nhà thật to và đắt tiền",
+   "B. Ngôi nhà thật nhiều màu lòe loẹt",
+   "C. Ngôi nhà không có người ở",
+   "D. Ngôi nhà ấm áp, gia đình sum họp"
+  ],
+  "question": "Ngôi nhà yêu thương trong chủ đề này là ngôi nhà như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 11,
+  "explanation": "Tạo hình bằng mô hình là dùng giấy bìa, đất nặn, que gỗ xếp thành ngôi nhà có khối thật, sờ được.",
+  "id": 97,
+  "options": [
+   "A. Dùng bìa, đất nặn, que gỗ tạo ngôi nhà có khối thật",
+   "B. Chỉ vẽ ngôi nhà trên giấy",
+   "C. Chỉ tưởng tượng ngôi nhà trong đầu",
+   "D. Chụp ảnh ngôi nhà"
+  ],
+  "question": "Tạo hình ngôi nhà bằng mô hình là làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 11,
+  "explanation": "Cửa sổ và cửa chính giúp ngôi nhà trông như có người ở, sinh động và gần gũi hơn.",
+  "id": 98,
+  "options": [
+   "A. Cửa sổ làm nhà tối hơn",
+   "B. Cửa sổ, cửa chính làm nhà sinh động, như có người ở",
+   "C. Cửa sổ không cần thiết",
+   "D. Cửa sổ chỉ để trang trí cho vui"
+  ],
+  "question": "Cửa sổ, cửa chính có tác dụng gì trong hình ngôi nhà?"
+ },
+ {
+  "answer": 0,
+  "bai": 11,
+  "explanation": "Mái nhà che mưa nắng cho ngôi nhà, vẽ mái rõ ràng giúp hình nhà hoàn chỉnh và hợp lý.",
+  "id": 99,
+  "options": [
+   "A. Mái nhà che mưa nắng, làm hình nhà hoàn chỉnh",
+   "B. Mái nhà chỉ để trang trí",
+   "C. Mái nhà không cần thiết",
+   "D. Mái nhà làm nhà xấu đi"
+  ],
+  "question": "Mái nhà có vai trò gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 12,
+  "explanation": "Quà lưu niệm là món đồ nhỏ xinh để tặng nhau, nhắc nhớ kỉ niệm đẹp giữa người tặng và người nhận.",
+  "id": 100,
+  "options": [
+   "A. Món đồ không có ý nghĩa gì",
+   "B. Món đồ thật đắt tiền",
+   "C. Món đồ chỉ để dùng trong nhà",
+   "D. Món đồ nhỏ tặng nhau để nhớ kỉ niệm"
+  ],
+  "question": "Quà lưu niệm là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 12,
+  "explanation": "Thiết kế quà lưu niệm là nghĩ ý tưởng, chọn hình dáng, chất liệu và trang trí để món quà đẹp và có ý nghĩa.",
+  "id": 101,
+  "options": [
+   "A. Tự nghĩ ý tưởng, chọn hình dáng và trang trí món quà",
+   "B. Mua quà sẵn ở cửa hàng",
+   "C. Gói quà thật nhiều lớp giấy",
+   "D. Chỉ viết tên lên món quà"
+  ],
+  "question": "Thiết kế quà lưu niệm là làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 12,
+  "explanation": "Quà lưu niệm nên nhỏ gọn, dễ mang, dễ giữ, vì người nhận thường mang theo hoặc trưng bày lâu dài.",
+  "id": 102,
+  "options": [
+   "A. Thật to và nặng",
+   "B. Nhỏ gọn, dễ mang và dễ giữ",
+   "C. Dễ vỡ và khó giữ",
+   "D. Thật nhiều màu lòe loẹt"
+  ],
+  "question": "Quà lưu niệm nên có đặc điểm nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 12,
+  "explanation": "Trang trí quà cần vừa phải, hài hòa với món quà, để quà vẫn đẹp và không bị rối mắt.",
+  "id": 103,
+  "options": [
+   "A. Trang trí càng nhiều càng đẹp",
+   "B. Không trang trí gì cả",
+   "C. Trang trí vừa phải, hài hòa, không rối mắt",
+   "D. Trang trí kín hết món quà"
+  ],
+  "question": "Khi trang trí quà lưu niệm, em nên làm thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 12,
+  "explanation": "Quà tự làm quý vì có công sức và tình cảm của người tặng, dù vật liệu đơn giản như giấy, đất nặn.",
+  "id": 104,
+  "options": [
+   "A. Quà tự làm không ai thích",
+   "B. Quà tự làm không có giá trị",
+   "C. Quà tự làm chỉ đẹp khi đắt tiền",
+   "D. Quà tự làm quý vì có công sức và tình cảm người tặng"
+  ],
+  "question": "Vì sao quà lưu niệm tự làm lại quý?"
+ },
+ {
+  "answer": 0,
+  "bai": 12,
+  "explanation": "Chất liệu làm quà lưu niệm có thể là giấy bìa, đất nặn, gỗ, vải — miễn là an toàn và dễ tạo hình.",
+  "id": 105,
+  "options": [
+   "A. Giấy bìa, đất nặn, gỗ, vải đều được nếu an toàn",
+   "B. Chỉ làm bằng vàng bạc",
+   "C. Chỉ làm bằng nhựa",
+   "D. Chỉ làm bằng đá quý"
+  ],
+  "question": "Quà lưu niệm có thể làm bằng chất liệu nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 12,
+  "explanation": "Khi làm quà, an toàn là quan trọng: dùng kéo, keo cẩn thận và nhờ người lớn hướng dẫn khi cần.",
+  "id": 106,
+  "options": [
+   "A. Dùng dao nhọn một mình",
+   "B. Dùng kéo, keo cẩn thận, nhờ người lớn khi cần",
+   "C. Dùng keo bừa bãi",
+   "D. Không cần cẩn thận gì cả"
+  ],
+  "question": "Khi tự làm quà lưu niệm, em cần chú ý gì về an toàn?"
+ },
+ {
+  "answer": 2,
+  "bai": 12,
+  "explanation": "Tặng quà vào dịp sinh nhật, ngày lễ, chia tay là cách gửi tình cảm và chúc mừng người nhận.",
+  "id": 107,
+  "options": [
+   "A. Chỉ tặng quà khi được điểm cao",
+   "B. Chỉ tặng quà cho người lạ",
+   "C. Tặng quà vào dịp sinh nhật, ngày lễ để gửi tình cảm",
+   "D. Tặng quà để đòi quà lại"
+  ],
+  "question": "Người ta thường tặng quà lưu niệm vào dịp nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 12,
+  "explanation": "Viết lời chúc ngắn, chân thành lên quà làm món quà thêm ý nghĩa và người nhận nhớ lâu hơn.",
+  "id": 108,
+  "options": [
+   "A. Không viết gì cả",
+   "B. Viết lời chúc ngắn, chân thành lên quà",
+   "C. Viết thật dài kín món quà",
+   "D. Viết lời chê bai người nhận"
+  ],
+  "question": "Lời chúc có tác dụng gì với quà lưu niệm?"
+ },
+ {
+  "answer": 0,
+  "bai": 13,
+  "explanation": "Tạo hình hoạt động trong nhà trường là vẽ, nặn cảnh học sinh đang học tập, vui chơi, lao động ở trường.",
+  "id": 109,
+  "options": [
+   "A. Vẽ, nặn cảnh học sinh học tập, vui chơi ở trường",
+   "B. Chụp ảnh trường học",
+   "C. Viết bài văn tả trường",
+   "D. Hát bài hát về trường"
+  ],
+  "question": "Tạo hình hoạt động trong nhà trường là làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 13,
+  "explanation": "Nhân vật chính là người đang làm hoạt động chính, nên vẽ to, rõ và đặt ở vị trí nổi bật trong tranh.",
+  "id": 110,
+  "options": [
+   "A. Nhân vật chính vẽ nhỏ ở góc tranh",
+   "B. Nhân vật chính vẽ rõ, nổi bật ở vị trí chính",
+   "C. Không cần nhân vật chính",
+   "D. Mọi nhân vật vẽ mờ như nhau"
+  ],
+  "question": "Khi vẽ cảnh hoạt động ở trường, nhân vật chính nên vẽ thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 13,
+  "explanation": "Dáng người đang chạy, nhảy, giơ tay phát biểu giúp tranh sinh động vì người xem hiểu ngay đang làm gì.",
+  "id": 111,
+  "options": [
+   "A. Vẽ người không có tay chân",
+   "B. Vẽ mọi người đứng yên như tượng",
+   "C. Vẽ dáng người đang hoạt động rõ ràng",
+   "D. Vẽ người thật nhỏ khó thấy"
+  ],
+  "question": "Vì sao vẽ dáng người đang hoạt động lại làm tranh sinh động?"
+ },
+ {
+  "answer": 3,
+  "bai": 13,
+  "explanation": "Bố cục là cách sắp xếp hình trong tranh: hình chính rõ, hình phụ xung quanh, không chen chúc, không trống trải.",
+  "id": 112,
+  "options": [
+   "A. Bố cục là màu sắc của tranh",
+   "B. Bố cục là khổ giấy vẽ",
+   "C. Bố cục là tên tác giả",
+   "D. Bố cục là cách sắp xếp các hình trong tranh"
+  ],
+  "question": "Bố cục trong tranh là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 13,
+  "explanation": "Vẽ cảnh trường học từ quan sát thật giúp tranh đúng và sinh động hơn vẽ theo tưởng tượng mờ nhạt.",
+  "id": 113,
+  "options": [
+   "A. Quan sát thật rồi vẽ",
+   "B. Vẽ theo trí nhớ mờ nhạt",
+   "C. Chép tranh của bạn",
+   "D. Vẽ bừa không quan sát"
+  ],
+  "question": "Muốn vẽ cảnh trường học sinh động, em nên làm gì trước?"
+ },
+ {
+  "answer": 1,
+  "bai": 13,
+  "explanation": "Hoạt động trong nhà trường gồm học tập, vui chơi, thể thao, văn nghệ, lao động, chăm sóc cây xanh.",
+  "id": 114,
+  "options": [
+   "A. Chỉ có học tập",
+   "B. Học tập, vui chơi, thể thao, văn nghệ, lao động",
+   "C. Chỉ có vui chơi",
+   "D. Chỉ có thi cử"
+  ],
+  "question": "Hoạt động trong nhà trường gồm những gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 13,
+  "explanation": "Màu sắc tươi sáng hợp với không khí trường học vui vẻ, hồn nhiên của tuổi học trò.",
+  "id": 115,
+  "options": [
+   "A. Chỉ màu tối",
+   "B. Chỉ màu đen trắng",
+   "C. Màu tươi sáng, vui vẻ",
+   "D. Màu thật nhợt nhạt"
+  ],
+  "question": "Vẽ cảnh trường học nên dùng màu sắc như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 13,
+  "explanation": "Vẽ hoạt động tập thể cần nhiều nhân vật cùng làm một việc, như cả lớp cùng kéo co, cùng múa hát.",
+  "id": 116,
+  "options": [
+   "A. Chỉ vẽ một người",
+   "B. Không vẽ người nào cả",
+   "C. Vẽ mỗi người một việc khác nhau",
+   "D. Vẽ nhiều người cùng làm một hoạt động"
+  ],
+  "question": "Vẽ hoạt động tập thể khác vẽ một người ở điểm nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 13,
+  "explanation": "Tranh về trường học đẹp khi thể hiện được tình bạn, niềm vui học tập và sự chăm ngoan của học sinh.",
+  "id": 117,
+  "options": [
+   "A. Thể hiện cảnh đánh nhau",
+   "B. Thể hiện sự buồn chán",
+   "C. Thể hiện tình bạn, niềm vui học tập",
+   "D. Thể hiện trường học trống vắng"
+  ],
+  "question": "Tranh về trường học đẹp nhờ điều gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 14,
+  "explanation": "Thiết kế đồ chơi là nghĩ ý tưởng và làm ra đồ chơi đẹp, vui và an toàn cho trẻ em.",
+  "id": 118,
+  "options": [
+   "A. Mua đồ chơi sẵn ở cửa hàng",
+   "B. Nghĩ ý tưởng và làm đồ chơi đẹp, vui, an toàn",
+   "C. Chỉ vẽ hình đồ chơi",
+   "D. Chỉ chơi đồ chơi có sẵn"
+  ],
+  "question": "Thiết kế đồ chơi là làm gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 14,
+  "explanation": "Đồ chơi an toàn là đồ chơi không có cạnh sắc, không có chi tiết nhỏ dễ nuốt, chất liệu không độc hại.",
+  "id": 119,
+  "options": [
+   "A. Đồ chơi càng sắc càng tốt",
+   "B. Đồ chơi càng nặng càng tốt",
+   "C. Đồ chơi không sắc nhọn, không chi tiết nhỏ dễ nuốt",
+   "D. Đồ chơi càng nhiều pin càng tốt"
+  ],
+  "question": "Đồ chơi an toàn cho trẻ em là đồ chơi như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 14,
+  "explanation": "Đồ chơi dân gian Việt Nam gồm diều, đèn lồng, tò he, chong chóng — làm từ vật liệu đơn giản, gần gũi.",
+  "id": 120,
+  "options": [
+   "A. Xe hơi thật",
+   "B. Robot, máy bay điều khiển",
+   "C. Điện thoại, máy tính bảng",
+   "D. Diều, đèn lồng, tò he, chong chóng"
+  ],
+  "question": "Đồ chơi dân gian Việt Nam gồm những gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 14,
+  "explanation": "Tò he là đồ chơi nặn bằng bột màu thành hình con vật, nhân vật ngộ nghĩnh, thường bán ở hội chợ.",
+  "id": 121,
+  "options": [
+   "A. Đồ chơi nặn bằng bột màu thành hình ngộ nghĩnh",
+   "B. Đồ chơi chạy bằng pin",
+   "C. Đồ chơi bằng sắt nặng",
+   "D. Đồ chơi phát ra tiếng ồn lớn"
+  ],
+  "question": "Tò he là đồ chơi như thế nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 14,
+  "explanation": "Đồ chơi tốt giúp trẻ vận động, tưởng tượng và học hỏi, như xếp hình rèn tư duy, đá cầu rèn sức khỏe.",
+  "id": 122,
+  "options": [
+   "A. Chỉ để trẻ ngồi một chỗ",
+   "B. Giúp trẻ vận động, tưởng tượng và học hỏi",
+   "C. Chỉ để trẻ gây ồn ào",
+   "D. Không có tác dụng gì"
+  ],
+  "question": "Đồ chơi tốt có ích gì cho trẻ em?"
+ },
+ {
+  "answer": 2,
+  "bai": 14,
+  "explanation": "Khi làm đồ chơi, em cần thử chơi xem có chắc chắn, có an toàn không rồi mới coi là xong.",
+  "id": 123,
+  "options": [
+   "A. Làm xong là xong, không cần thử",
+   "B. Đem tặng ngay dù chưa thử",
+   "C. Thử chơi để kiểm tra độ chắc chắn và an toàn",
+   "D. Chỉ ngắm, không được chơi thử"
+  ],
+  "question": "Sau khi làm đồ chơi, em nên làm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 14,
+  "explanation": "Đồ chơi từ vật liệu tái chế như chai nhựa, hộp giấy vừa tiết kiệm vừa bảo vệ môi trường, lại sáng tạo.",
+  "id": 124,
+  "options": [
+   "A. Tốn nhiều tiền hơn",
+   "B. Làm đồ chơi xấu đi",
+   "C. Không ai thích đồ tái chế",
+   "D. Vừa tiết kiệm, vừa bảo vệ môi trường"
+  ],
+  "question": "Vì sao nên làm đồ chơi từ vật liệu tái chế?"
+ },
+ {
+  "answer": 0,
+  "bai": 14,
+  "explanation": "Màu sắc đồ chơi nên tươi sáng, vui mắt để hấp dẫn trẻ em và tạo cảm giác vui vẻ khi chơi.",
+  "id": 125,
+  "options": [
+   "A. Màu tươi sáng, vui mắt",
+   "B. Chỉ dùng màu tối",
+   "C. Không tô màu gì cả",
+   "D. Chỉ dùng một màu duy nhất"
+  ],
+  "question": "Đồ chơi nên có màu sắc như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 14,
+  "explanation": "Đồ chơi vừa tay, vừa sức với lứa tuổi giúp trẻ chơi thoải mái, không bị mệt hay nguy hiểm.",
+  "id": 126,
+  "options": [
+   "A. Càng phức tạp càng tốt",
+   "B. Càng to càng tốt",
+   "C. Càng nặng càng tốt",
+   "D. Vừa tay, vừa sức với lứa tuổi"
+  ],
+  "question": "Kích thước đồ chơi nên như thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 15,
+  "explanation": "Mĩ thuật thời kì tiền sử là nghệ thuật của người nguyên thủy, vẽ và khắc trên vách hang, đá từ hàng nghìn năm trước.",
+  "id": 127,
+  "options": [
+   "A. Nghệ thuật vẽ tranh sơn dầu",
+   "B. Nghệ thuật của người hiện đại",
+   "C. Nghệ thuật của người nguyên thủy trên vách hang, đá",
+   "D. Nghệ thuật chụp ảnh"
+  ],
+  "question": "Mĩ thuật thời kì tiền sử là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 15,
+  "explanation": "Tranh hang động nổi tiếng vẽ hình thú săn như bò rừng, ngựa, hươu — con mồi quan trọng của người xưa.",
+  "id": 128,
+  "options": [
+   "A. Hình nhà cao tầng",
+   "B. Hình chữ viết hiện đại",
+   "C. Hình xe hơi, máy bay",
+   "D. Hình thú săn như bò rừng, ngựa, hươu"
+  ],
+  "question": "Tranh hang động thời tiền sử thường vẽ gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 15,
+  "explanation": "Người tiền sử dùng màu từ đất, đá, than và nhựa cây, nên tranh có màu nâu đỏ, đen, vàng đất tự nhiên.",
+  "id": 129,
+  "options": [
+   "A. Màu từ đất, đá, than tự nhiên",
+   "B. Màu sơn công nghiệp",
+   "C. Màu dạ quang",
+   "D. Màu vẽ trên máy tính"
+  ],
+  "question": "Người tiền sử lấy màu vẽ từ đâu?"
+ },
+ {
+  "answer": 1,
+  "bai": 15,
+  "explanation": "Hình vẽ hang động cho thấy người xưa săn bắt thú để sống và mong săn được nhiều thú, cuộc sống no đủ.",
+  "id": 130,
+  "options": [
+   "A. Người xưa thích vẽ cho vui",
+   "B. Người xưa săn bắt thú và mong cuộc sống no đủ",
+   "C. Người xưa đã biết viết chữ",
+   "D. Người xưa sống trong thành phố"
+  ],
+  "question": "Tranh hang động nói lên điều gì về đời sống người tiền sử?"
+ },
+ {
+  "answer": 2,
+  "bai": 15,
+  "explanation": "Người tiền sử còn khắc hình lên đá và làm tượng nhỏ bằng đất, đá — những tác phẩm điêu khắc đầu tiên.",
+  "id": 131,
+  "options": [
+   "A. Vẽ tranh sơn dầu",
+   "B. Xây nhà cao tầng",
+   "C. Khắc hình lên đá, nặn tượng nhỏ",
+   "D. In tranh bằng máy"
+  ],
+  "question": "Ngoài vẽ hang động, người tiền sử còn làm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 15,
+  "explanation": "Hang Lascaux ở Pháp và hang Altamira ở Tây Ban Nha là hai hang động nổi tiếng có tranh vẽ thời tiền sử.",
+  "id": 132,
+  "options": [
+   "A. Hang Lascaux ở Pháp và hang Altamira ở Tây Ban Nha",
+   "B. Hang động trong thành phố lớn",
+   "C. Hang động dưới đáy biển sâu",
+   "D. Hang động ở mặt trăng"
+  ],
+  "question": "Hai hang động có tranh vẽ tiền sử nổi tiếng thế giới là hang nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 15,
+  "explanation": "Tranh tiền sử vẽ đơn giản, nét khỏe, hình thú rõ ràng, thể hiện sự quan sát tinh của người xưa.",
+  "id": 133,
+  "options": [
+   "A. Nét vẽ đơn giản, khỏe, hình rõ ràng",
+   "B. Nét vẽ cầu kì, nhiều chi tiết nhỏ",
+   "C. Vẽ bằng thước kẻ chính xác",
+   "D. Vẽ giống hệt ảnh chụp"
+  ],
+  "question": "Tranh vẽ thời tiền sử có đặc điểm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 15,
+  "explanation": "Bảo vệ di sản tiền sử là giữ gìn hang động, hình khắc để con cháu hiểu về tổ tiên và lịch sử loài người.",
+  "id": 134,
+  "options": [
+   "A. Vẽ thêm lên vách hang cũ",
+   "B. Giữ gìn hang động, hình khắc cho con cháu tìm hiểu",
+   "C. Đục đá mang về nhà",
+   "D. Không cần quan tâm"
+  ],
+  "question": "Vì sao em cần bảo vệ di sản mĩ thuật thời tiền sử?"
+ },
+ {
+  "answer": 0,
+  "bai": 15,
+  "explanation": "Người tiền sử vẽ bằng tay, que, lông thú chấm màu tự nhiên lên vách đá, không có bút vẽ như ngày nay.",
+  "id": 135,
+  "options": [
+   "A. Dùng tay, que, lông thú chấm màu tự nhiên",
+   "B. Dùng bút lông hiện đại",
+   "C. Dùng máy in",
+   "D. Dùng sơn phun"
+  ],
+  "question": "Người tiền sử vẽ tranh bằng dụng cụ gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 16,
+  "explanation": "Mĩ thuật Việt Nam thời tiền sử gồm công cụ đá, đồ gốm thô và hình khắc trên đá của người xưa trên đất Việt.",
+  "id": 136,
+  "options": [
+   "A. Ảnh chụp, phim ảnh",
+   "B. Tranh sơn dầu, tượng đồng lớn",
+   "C. Nhà cao tầng, cầu thép",
+   "D. Công cụ đá, đồ gốm thô, hình khắc đá"
+  ],
+  "question": "Mĩ thuật Việt Nam thời tiền sử gồm những gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 16,
+  "explanation": "Rìu đá mài là công cụ lao động của người xưa, mài nhẵn để chặt cây, làm việc hiệu quả hơn rìu đá thô.",
+  "id": 137,
+  "options": [
+   "A. Công cụ lao động mài nhẵn để chặt cây, làm việc",
+   "B. Đồ trang sức của vua",
+   "C. Vũ khí hiện đại",
+   "D. Đồ chơi trẻ em"
+  ],
+  "question": "Rìu đá mài thời tiền sử dùng để làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 16,
+  "explanation": "Gốm thời tiền sử làm bằng đất sét nặn tay, nung lửa, dùng đựng nước, thức ăn — gốm còn thô, dày, ít hoa văn.",
+  "id": 138,
+  "options": [
+   "A. Thủy tinh trong suốt",
+   "B. Đất sét nặn tay, nung lửa, dùng đựng nước và thức ăn",
+   "C. Nhựa dẻo nhiều màu",
+   "D. Sắt thép đúc sẵn"
+  ],
+  "question": "Đồ gốm thời tiền sử Việt Nam làm bằng gì, dùng để làm gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 16,
+  "explanation": "Hình khắc trên đá ở Việt Nam cho thấy người xưa đã biết ghi lại hình ảnh cuộc sống bằng nét khắc đơn giản.",
+  "id": 139,
+  "options": [
+   "A. Người xưa không biết vẽ",
+   "B. Người xưa đã biết viết chữ quốc ngữ",
+   "C. Người xưa đã biết ghi lại cuộc sống bằng hình khắc",
+   "D. Người xưa chỉ sống trong hang tối"
+  ],
+  "question": "Hình khắc trên đá thời tiền sử Việt Nam cho thấy điều gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 16,
+  "explanation": "Người Việt cổ sống bằng săn bắt, hái lượm rồi trồng trọt, chăn nuôi; công cụ đá và đồ gốm giúp cuộc sống tốt hơn.",
+  "id": 140,
+  "options": [
+   "A. Chỉ sống bằng đánh cá biển sâu",
+   "B. Sống trong thành phố hiện đại",
+   "C. Đi làm công ty, nhà máy",
+   "D. Săn bắt, hái lượm rồi trồng trọt, chăn nuôi"
+  ],
+  "question": "Người Việt cổ thời tiền sử sống bằng nghề gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 16,
+  "explanation": "Mĩ thuật tiền sử Việt Nam đơn giản, mộc mạc vì làm bằng vật liệu tự nhiên và công cụ thô sơ.",
+  "id": 141,
+  "options": [
+   "A. Đơn giản, mộc mạc, làm từ vật liệu tự nhiên",
+   "B. Cầu kì, bóng bẩy như đồ hiện đại",
+   "C. Giống hệt mĩ thuật châu Âu",
+   "D. Chỉ toàn màu vàng kim"
+  ],
+  "question": "Mĩ thuật Việt Nam thời tiền sử có đặc điểm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 16,
+  "explanation": "Tìm hiểu mĩ thuật tiền sử giúp em biết tổ tiên đã sống và sáng tạo ra sao từ buổi đầu dựng nước.",
+  "id": 142,
+  "options": [
+   "A. Biết cách làm đồ điện tử",
+   "B. Biết tổ tiên sống và sáng tạo ra sao từ buổi đầu",
+   "C. Biết cách xây nhà cao tầng",
+   "D. Biết cách lái xe hơi"
+  ],
+  "question": "Tìm hiểu mĩ thuật tiền sử Việt Nam có ích gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 16,
+  "explanation": "Đồ đá, đồ gốm cổ cần được giữ gìn trong bảo tàng để mọi người tham quan, học hỏi, không tự ý lấy về.",
+  "id": 143,
+  "options": [
+   "A. Tự ý lấy đồ cổ về nhà",
+   "B. Đập vỡ để xem bên trong",
+   "C. Giữ gìn trong bảo tàng để mọi người học hỏi",
+   "D. Bán cho người trả nhiều tiền"
+  ],
+  "question": "Em nên làm gì với đồ đá, đồ gốm cổ tìm được?"
+ },
+ {
+  "answer": 1,
+  "bai": 16,
+  "explanation": "Người xưa trang trí đồ gốm bằng vạch, chấm, đường sóng đơn giản, vừa đẹp vừa dễ làm bằng tay.",
+  "id": 144,
+  "options": [
+   "A. Hoa văn máy in tinh xảo",
+   "B. Vạch, chấm, đường sóng đơn giản",
+   "C. Hình vẽ 3D phức tạp",
+   "D. Chữ viết hiện đại"
+  ],
+  "question": "Người xưa trang trí đồ gốm bằng hoa văn nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 17,
+  "explanation": "Sáng tạo mĩ thuật với trò chơi dân gian là lấy trò chơi như kéo co, ô ăn quan làm ý tưởng để vẽ, nặn, thiết kế.",
+  "id": 145,
+  "options": [
+   "A. Lấy trò chơi dân gian làm ý tưởng sáng tác",
+   "B. Chỉ chơi trò chơi, không sáng tác",
+   "C. Chơi trò chơi điện tử",
+   "D. Xem người khác chơi"
+  ],
+  "question": "Sáng tạo mĩ thuật với trò chơi dân gian là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 17,
+  "explanation": "Trò chơi dân gian Việt Nam gồm kéo co, ô ăn quan, nhảy dây, bịt mắt bắt dê, rồng rắn lên mây.",
+  "id": 146,
+  "options": [
+   "A. Đá bóng điện tử, đua xe máy",
+   "B. Kéo co, ô ăn quan, nhảy dây, bịt mắt bắt dê",
+   "C. Chơi cờ vua quốc tế",
+   "D. Chơi game trên điện thoại"
+  ],
+  "question": "Trò chơi dân gian Việt Nam gồm những trò nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 17,
+  "explanation": "Kéo co cần hai đội cùng kéo một sợi dây, đội nào kéo được đối phương qua vạch thì thắng — trò chơi rèn sức mạnh và đồng đội.",
+  "id": 147,
+  "options": [
+   "A. Ai kéo dây đứt thì thắng",
+   "B. Một người kéo dây một mình",
+   "C. Hai đội cùng kéo dây, đội kéo đối phương qua vạch thì thắng",
+   "D. Kéo dây càng nhẹ càng thắng"
+  ],
+  "question": "Trò kéo co chơi như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 17,
+  "explanation": "Ô ăn quan chơi trên bàn vẽ ô quan và ô dân, dùng sỏi hoặc hạt để đi quân theo luật, ai ăn được nhiều quan thì thắng.",
+  "id": 148,
+  "options": [
+   "A. Chơi bằng bóng và lưới",
+   "B. Chơi bằng cách hát hay nhất",
+   "C. Chơi bằng cách chạy nhanh nhất",
+   "D. Chơi trên bàn ô quan, dùng sỏi đi quân theo luật"
+  ],
+  "question": "Trò ô ăn quan chơi như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 17,
+  "explanation": "Vẽ trò chơi dân gian nên vẽ đúng động tác đặc trưng: kéo co thì nghiêng người kéo dây, nhảy dây thì bật nhảy qua dây.",
+  "id": 149,
+  "options": [
+   "A. Vẽ đúng động tác đặc trưng của trò chơi",
+   "B. Vẽ người đứng yên không hoạt động",
+   "C. Vẽ trò chơi khác với tên gọi",
+   "D. Vẽ người không có dây, không có ô quan"
+  ],
+  "question": "Khi vẽ trò chơi dân gian, em cần chú ý gì nhất?"
+ },
+ {
+  "answer": 1,
+  "bai": 17,
+  "explanation": "Trò chơi dân gian dạy em đoàn kết, khéo léo và tôn trọng luật chơi, thắng không kiêu, thua không nản.",
+  "id": 150,
+  "options": [
+   "A. Trò chơi dân gian chỉ để thắng bằng mọi giá",
+   "B. Trò chơi dân gian dạy đoàn kết, khéo léo, tôn trọng luật",
+   "C. Trò chơi dân gian dạy gian lận",
+   "D. Trò chơi dân gian không có luật gì cả"
+  ],
+  "question": "Trò chơi dân gian dạy em điều gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 17,
+  "explanation": "Nặn tò he, làm diều, làm đèn lồng theo trò chơi dân gian là cách giữ gìn và sáng tạo từ văn hóa dân gian.",
+  "id": 151,
+  "options": [
+   "A. Chơi game điện tử",
+   "B. Mua đồ chơi nhập khẩu",
+   "C. Nặn tò he, làm diều, làm đèn lồng",
+   "D. Xem ti vi cả ngày"
+  ],
+  "question": "Sáng tạo từ trò chơi dân gian còn thể hiện qua việc nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 17,
+  "explanation": "Chơi trò chơi dân gian cần chơi an toàn: sân rộng, không chen lấn, dừng lại khi mệt, nghe theo luật chung.",
+  "id": 152,
+  "options": [
+   "A. Chơi ở đường xe chạy",
+   "B. Chơi không cần luật lệ",
+   "C. Chơi bằng cách xô đẩy bạn",
+   "D. Chơi an toàn: sân rộng, không chen lấn, mệt thì nghỉ"
+  ],
+  "question": "Khi chơi trò chơi dân gian, em cần chú ý gì về an toàn?"
+ },
+ {
+  "answer": 2,
+  "bai": 17,
+  "explanation": "Giữ gìn trò chơi dân gian là chơi, vẽ, kể lại cho bạn bè để trò chơi không bị lãng quên.",
+  "id": 153,
+  "options": [
+   "A. Chỉ chơi một mình, không rủ ai",
+   "B. Không bao giờ chơi nữa",
+   "C. Chơi, vẽ và kể lại trò chơi cho bạn bè",
+   "D. Quên hết các trò chơi cũ"
+  ],
+  "question": "Em góp phần giữ gìn trò chơi dân gian bằng cách nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 18,
+  "explanation": "Thiệp chúc mừng là tấm thiệp có hình trang trí đẹp và lời chúc tốt lành gửi tặng nhau vào dịp vui.",
+  "id": 154,
+  "options": [
+   "A. Tờ giấy trắng không có gì",
+   "B. Tấm thiệp có hình đẹp và lời chúc tốt lành",
+   "C. Quyển vở ghi bài",
+   "D. Tấm vé xem phim"
+  ],
+  "question": "Thiệp chúc mừng là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 18,
+  "explanation": "Thiệp chúc mừng gồm mặt ngoài trang trí và mặt trong viết lời chúc, ghi tên người tặng và người nhận.",
+  "id": 155,
+  "options": [
+   "A. Thiệp chỉ có một mặt",
+   "B. Thiệp không cần lời chúc",
+   "C. Thiệp có mặt ngoài trang trí và mặt trong viết lời chúc",
+   "D. Thiệp chỉ ghi tên người nhận"
+  ],
+  "question": "Một tấm thiệp chúc mừng thường gồm những phần nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 18,
+  "explanation": "Người ta tặng thiệp vào dịp sinh nhật, Tết, ngày Nhà giáo 20/11, ngày lễ để gửi lời chúc mừng.",
+  "id": 156,
+  "options": [
+   "A. Chỉ vào ngày mưa",
+   "B. Chỉ vào ngày buồn",
+   "C. Chỉ khi bị điểm kém",
+   "D. Sinh nhật, Tết, ngày Nhà giáo 20/11"
+  ],
+  "question": "Người ta thường tặng thiệp chúc mừng vào dịp nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 18,
+  "explanation": "Thiết kế thiệp là chọn hình, màu, bố cục và lời chúc phù hợp với dịp và người nhận thiệp.",
+  "id": 157,
+  "options": [
+   "A. Chọn hình, màu, bố cục và lời chúc phù hợp dịp",
+   "B. Lấy thiệp sẵn không cần nghĩ",
+   "C. Vẽ kín hết tấm thiệp",
+   "D. Viết lời chúc thật dài kín thiệp"
+  ],
+  "question": "Thiết kế thiệp chúc mừng là làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 18,
+  "explanation": "Lời chúc nên ngắn, chân thành và đúng dịp, ví dụ sinh nhật thì chúc khỏe mạnh, học giỏi, vui vẻ.",
+  "id": 158,
+  "options": [
+   "A. Lời chúc thật dài và khó hiểu",
+   "B. Lời chúc ngắn, chân thành, đúng dịp",
+   "C. Lời chúc chê bai người nhận",
+   "D. Không viết lời chúc gì cả"
+  ],
+  "question": "Lời chúc trên thiệp nên như thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 18,
+  "explanation": "Trang trí thiệp cần cân đối: hình chính rõ, khoảng trống vừa phải, màu hài hòa, không che mất lời chúc.",
+  "id": 159,
+  "options": [
+   "A. Dán kín hết thiệp bằng hình",
+   "B. Chỉ dùng một màu đen",
+   "C. Hình chính rõ, màu hài hòa, không che lời chúc",
+   "D. Vẽ hình thật nhỏ ở góc"
+  ],
+  "question": "Trang trí thiệp chúc mừng nên như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 18,
+  "explanation": "Thiệp sinh nhật thường có bánh kem, nến, bóng bay — những hình gợi niềm vui sinh nhật.",
+  "id": 160,
+  "options": [
+   "A. Hình bài tập khó",
+   "B. Hình bài kiểm tra",
+   "C. Hình mưa bão",
+   "D. Bánh kem, nến, bóng bay"
+  ],
+  "question": "Thiệp chúc mừng sinh nhật thường vẽ hình gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 18,
+  "explanation": "Thiệp Tết thường có hoa đào, hoa mai, bánh chưng, lì xì — hình ảnh Tết cổ truyền Việt Nam.",
+  "id": 161,
+  "options": [
+   "A. Hoa đào, hoa mai, bánh chưng, lì xì",
+   "B. Hình tuyết rơi, ông già Noel",
+   "C. Hình bài kiểm tra",
+   "D. Hình xe hơi"
+  ],
+  "question": "Thiệp chúc mừng năm mới (Tết) thường vẽ hình gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 18,
+  "explanation": "Thiệp tự làm quý vì có công sức, tình cảm và sự sáng tạo riêng của người tặng.",
+  "id": 162,
+  "options": [
+   "A. Thiệp tự làm không ai thích",
+   "B. Thiệp tự làm không có giá trị",
+   "C. Thiệp tự làm chỉ đẹp khi đắt tiền",
+   "D. Thiệp tự làm quý vì có công sức và tình cảm người tặng"
+  ],
+  "question": "Vì sao thiệp chúc mừng tự làm lại quý?"
+ },
+ {
+  "answer": 2,
+  "bai": 19,
+  "explanation": "Hòa sắc là cách phối nhiều màu với nhau sao cho hợp, nhìn hài hòa, không chỏi nhau.",
+  "id": 163,
+  "options": [
+   "A. Dùng màu thật chói và rối mắt",
+   "B. Chỉ dùng một màu duy nhất",
+   "C. Phối nhiều màu hợp nhau, nhìn hài hòa",
+   "D. Tô màu bừa bãi không theo ý"
+  ],
+  "question": "Hòa sắc trong tranh là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 19,
+  "explanation": "Màu nóng gồm đỏ, vàng, cam — gợi cảm giác vui tươi, náo nhiệt, rất hợp với tranh lễ hội.",
+  "id": 164,
+  "options": [
+   "A. Màu xanh dương, xanh lá",
+   "B. Màu trắng, kem",
+   "C. Màu đen, xám",
+   "D. Màu đỏ, vàng, cam"
+  ],
+  "question": "Màu nóng gồm những màu nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 19,
+  "explanation": "Màu lạnh gồm xanh dương, xanh lá, tím — gợi cảm giác dịu mát, yên tĩnh.",
+  "id": 165,
+  "options": [
+   "A. Xanh dương, xanh lá, tím",
+   "B. Đỏ, vàng, cam",
+   "C. Đen, nâu",
+   "D. Trắng, vàng nhạt"
+  ],
+  "question": "Màu lạnh gồm những màu nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 19,
+  "explanation": "Tranh lễ hội dùng nhiều màu nóng và màu tươi để thể hiện không khí vui, đông vui, rộn ràng.",
+  "id": 166,
+  "options": [
+   "A. Chỉ dùng màu tối, trầm",
+   "B. Dùng màu nóng, màu tươi cho không khí rộn ràng",
+   "C. Chỉ dùng màu trắng đen",
+   "D. Dùng màu thật nhạt"
+  ],
+  "question": "Tranh chủ đề lễ hội nên dùng màu sắc như thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 19,
+  "explanation": "Lễ hội Việt Nam có Tết Nguyên đán, Trung thu, hội làng, lễ hội hoa — mỗi lễ hội có màu sắc riêng.",
+  "id": 167,
+  "options": [
+   "A. Chỉ có sinh nhật",
+   "B. Chỉ có Tết",
+   "C. Tết, Trung thu, hội làng, lễ hội hoa",
+   "D. Chỉ có ngày khai giảng"
+  ],
+  "question": "Lễ hội ở Việt Nam gồm những lễ hội nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 19,
+  "explanation": "Đèn lồng đỏ, vàng là hình ảnh quen thuộc của Tết Trung thu, tạo không khí ấm áp, vui tươi.",
+  "id": 168,
+  "options": [
+   "A. Đèn lồng là hình ảnh ngày khai giảng",
+   "B. Đèn lồng không gắn với lễ hội nào",
+   "C. Đèn lồng là hình ảnh ngày thường",
+   "D. Đèn lồng đỏ, vàng là hình ảnh Tết Trung thu"
+  ],
+  "question": "Đèn lồng gắn với lễ hội nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 19,
+  "explanation": "Màu chính trong tranh lễ hội là màu chiếm nhiều nhất, màu phụ điểm thêm để tranh sinh động mà không rối.",
+  "id": 169,
+  "options": [
+   "A. Màu chính chiếm nhiều nhất, màu phụ điểm thêm",
+   "B. Mọi màu đều nhiều như nhau",
+   "C. Không có màu chính",
+   "D. Màu phụ chiếm nhiều nhất"
+  ],
+  "question": "Màu chính và màu phụ trong tranh lễ hội khác nhau thế nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 19,
+  "explanation": "Vẽ tranh lễ hội cần vẽ đúng hoạt động đặc trưng: múa lân, rước đèn, gói bánh chưng để người xem nhận ra lễ hội nào.",
+  "id": 170,
+  "options": [
+   "A. Vẽ hoạt động bất kì không liên quan",
+   "B. Vẽ đúng hoạt động đặc trưng của lễ hội",
+   "C. Vẽ người đứng yên không hoạt động",
+   "D. Vẽ lễ hội khác với tên tranh"
+  ],
+  "question": "Khi vẽ tranh lễ hội, em cần vẽ đúng điều gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 19,
+  "explanation": "Tranh lễ hội đẹp khi màu sắc hài hòa, hoạt động rõ ràng và thể hiện được niềm vui của mọi người.",
+  "id": 171,
+  "options": [
+   "A. Màu hài hòa, hoạt động rõ, niềm vui rõ",
+   "B. Màu rối mắt, hoạt động khó hiểu",
+   "C. Tranh không có người",
+   "D. Tranh chỉ toàn một màu"
+  ],
+  "question": "Tranh lễ hội đẹp nhờ điều gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 20,
+  "explanation": "Lịch treo tường gồm phần tranh ảnh đẹp và phần số ngày, tháng để xem ngày, rất tiện treo trong nhà.",
+  "id": 172,
+  "options": [
+   "A. Chỉ có dây treo",
+   "B. Chỉ có tranh ảnh",
+   "C. Chỉ có số ngày",
+   "D. Phần tranh ảnh và phần số ngày, tháng"
+  ],
+  "question": "Lịch treo tường gồm những phần nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 20,
+  "explanation": "Thiết kế lịch theo chủ đề lễ hội là chọn ảnh lễ hội cho từng tháng, trang trí màu sắc hợp với lễ hội đó.",
+  "id": 173,
+  "options": [
+   "A. Chọn ảnh lễ hội từng tháng, màu hợp với lễ hội",
+   "B. Chọn ảnh bất kì không theo chủ đề",
+   "C. Không cần ảnh, chỉ cần số",
+   "D. Dùng một ảnh cho cả năm"
+  ],
+  "question": "Thiết kế lịch treo tường theo chủ đề lễ hội là làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 20,
+  "explanation": "Số ngày, tháng trên lịch phải rõ ràng, dễ đọc vì đó là công dụng chính của lịch: xem ngày.",
+  "id": 174,
+  "options": [
+   "A. Số thật nhỏ, khó đọc",
+   "B. Số ngày, tháng rõ ràng, dễ đọc",
+   "C. Số viết loằng ngoằng",
+   "D. Không cần ghi số"
+  ],
+  "question": "Số ngày, tháng trên lịch cần như thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 20,
+  "explanation": "Bố cục lịch cần cân đối: tranh ở trên, số ngày ở dưới (hoặc ngược lại) rõ ràng, không che nhau.",
+  "id": 175,
+  "options": [
+   "A. Tranh che hết số ngày",
+   "B. Số ngày che hết tranh",
+   "C. Tranh và số ngày rõ ràng, không che nhau",
+   "D. Tranh và số lộn xộn"
+  ],
+  "question": "Bố cục lịch treo tường nên như thế nào?"
+ },
+ {
+  "answer": 3,
+  "bai": 20,
+  "explanation": "Màu sắc lễ hội trên lịch nên tươi sáng, hợp với từng tháng: tháng Tết dùng đỏ, vàng; tháng Trung thu dùng vàng, cam.",
+  "id": 176,
+  "options": [
+   "A. Dùng màu bừa bãi không theo tháng",
+   "B. Chỉ dùng màu đen",
+   "C. Dùng màu tối cho mọi tháng",
+   "D. Màu tươi sáng, hợp với lễ hội từng tháng"
+  ],
+  "question": "Màu sắc lịch lễ hội nên như thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 20,
+  "explanation": "Lịch treo tường dùng để xem ngày, tháng, ngày lễ và ghi chú việc quan trọng trong nhà.",
+  "id": 177,
+  "options": [
+   "A. Lịch để xem ngày, tháng và ghi chú việc quan trọng",
+   "B. Lịch chỉ để trang trí",
+   "C. Lịch để làm đồ chơi",
+   "D. Lịch để gói đồ"
+  ],
+  "question": "Lịch treo tường dùng để làm gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 20,
+  "explanation": "Tháng có Tết Nguyên đán nên chọn ảnh hoa đào, hoa mai, bánh chưng để đúng không khí Tết.",
+  "id": 178,
+  "options": [
+   "A. Hình tuyết rơi",
+   "B. Hoa đào, hoa mai, bánh chưng",
+   "C. Hình bài kiểm tra",
+   "D. Hình xe hơi"
+  ],
+  "question": "Tháng Tết trên lịch lễ hội nên chọn ảnh gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 20,
+  "explanation": "Tháng Trung thu nên chọn ảnh đèn lồng, bánh trung thu, chú Cuội, chị Hằng — hình ảnh quen thuộc của Trung thu.",
+  "id": 179,
+  "options": [
+   "A. Hình ông già Noel",
+   "B. Hình bài tập",
+   "C. Đèn lồng, bánh trung thu, chú Cuội",
+   "D. Hình mưa bão"
+  ],
+  "question": "Tháng Trung thu trên lịch nên chọn ảnh gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 20,
+  "explanation": "Làm lịch cần cẩn thận, cắt dán gọn gàng, chữ số ngay ngắn thì lịch mới đẹp và dùng tốt.",
+  "id": 180,
+  "options": [
+   "A. Cắt dán lem nhem",
+   "B. Cắt dán gọn gàng, chữ số ngay ngắn",
+   "C. Viết số nguệch ngoạc",
+   "D. Dán lệch, rách giấy"
+  ],
+  "question": "Khi tự làm lịch treo tường, em cần làm thế nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 21,
+  "explanation": "Sáng tạo mĩ thuật với hình ảnh trong cuộc sống là lấy cảnh chợ, đường phố, đồng ruộng, gia đình làm ý tưởng vẽ.",
+  "id": 181,
+  "options": [
+   "A. Lấy cảnh đời thường làm ý tưởng vẽ",
+   "B. Chỉ vẽ tranh tưởng tượng",
+   "C. Chỉ chép tranh có sẵn",
+   "D. Chỉ vẽ trong phòng kín"
+  ],
+  "question": "Sáng tạo mĩ thuật với hình ảnh trong cuộc sống là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 21,
+  "explanation": "Quan sát cuộc sống giúp em thấy nhiều khoảnh khắc đẹp: mẹ nấu cơm, bạn đá cầu, chợ buổi sáng đông vui.",
+  "id": 182,
+  "options": [
+   "A. Quan sát làm em chán",
+   "B. Quan sát giúp em thấy nhiều khoảnh khắc đẹp để vẽ",
+   "C. Quan sát không cần thiết",
+   "D. Quan sát chỉ làm mất thời gian"
+  ],
+  "question": "Quan sát cuộc sống có ích gì cho sáng tác?"
+ },
+ {
+  "answer": 2,
+  "bai": 21,
+  "explanation": "Vẽ theo trí nhớ là vẽ lại cảnh em đã thấy và nhớ, không cần nhìn trực tiếp lúc vẽ.",
+  "id": 183,
+  "options": [
+   "A. Chép tranh của bạn",
+   "B. Vẽ khi đang nhìn trực tiếp",
+   "C. Vẽ lại cảnh đã thấy và nhớ",
+   "D. Vẽ bừa không nhớ gì"
+  ],
+  "question": "Vẽ theo trí nhớ là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 21,
+  "explanation": "Vẽ theo quan sát trực tiếp là ngồi trước cảnh thật và vẽ ngay, giúp hình đúng và sinh động.",
+  "id": 184,
+  "options": [
+   "A. Vẽ theo tưởng tượng",
+   "B. Vẽ trong đầu không cần giấy",
+   "C. Vẽ lại tranh cũ",
+   "D. Ngồi trước cảnh thật và vẽ ngay"
+  ],
+  "question": "Vẽ theo quan sát trực tiếp là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 21,
+  "explanation": "Chọn khoảnh khắc đẹp là chọn lúc cảnh vật, con người đang ở trạng thái hay nhất, như lúc chợ đông vui buổi sáng.",
+  "id": 185,
+  "options": [
+   "A. Chọn lúc cảnh vật, con người đẹp và sinh động nhất",
+   "B. Chọn lúc cảnh vắng vẻ, buồn tẻ",
+   "C. Chọn lúc trời tối đen",
+   "D. Chọn bừa không cần chọn"
+  ],
+  "question": "Chọn khoảnh khắc đẹp để vẽ là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 21,
+  "explanation": "Tranh cuộc sống hay khi người xem nhận ra cảnh quen thuộc và cảm được tình cảm trong tranh.",
+  "id": 186,
+  "options": [
+   "A. Tranh càng lạ càng hay",
+   "B. Tranh gợi cảnh quen thuộc và tình cảm thật",
+   "C. Tranh càng rối càng hay",
+   "D. Tranh không cần có người"
+  ],
+  "question": "Tranh về cuộc sống hay nhờ điều gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 21,
+  "explanation": "Vẽ cảnh chợ cần vẽ người mua bán, hàng hóa, màu sắc sạp hàng để thấy được sự đông vui của chợ.",
+  "id": 187,
+  "options": [
+   "A. Vẽ chợ không có người",
+   "B. Vẽ chợ trống không",
+   "C. Vẽ người mua bán, hàng hóa, sạp hàng",
+   "D. Vẽ chợ toàn một màu"
+  ],
+  "question": "Vẽ cảnh chợ buổi sáng nên vẽ những gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 21,
+  "explanation": "Vẽ cảnh đồng ruộng nên vẽ lúa, người gặt, con trâu, bầu trời để thấy được cuộc sống nhà nông.",
+  "id": 188,
+  "options": [
+   "A. Vẽ toàn nhà cao tầng",
+   "B. Vẽ đồng ruộng không có gì",
+   "C. Vẽ toàn xe hơi",
+   "D. Vẽ lúa, người gặt, bầu trời"
+  ],
+  "question": "Vẽ cảnh đồng ruộng nên vẽ những gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 21,
+  "explanation": "Sáng tạo từ cuộc sống không cần cảnh đặc biệt: cảnh bình thường như bữa cơm gia đình cũng đẹp nếu em vẽ bằng tình cảm.",
+  "id": 189,
+  "options": [
+   "A. Cảnh bình thường không nên vẽ",
+   "B. Chỉ cảnh đặc biệt mới vẽ được",
+   "C. Cảnh bình thường cũng đẹp nếu vẽ bằng tình cảm",
+   "D. Chỉ vẽ cảnh nổi tiếng"
+  ],
+  "question": "Cảnh bình thường trong cuộc sống có vẽ được không?"
+ },
+ {
+  "answer": 1,
+  "bai": 22,
+  "explanation": "Thời gian biểu là bảng sắp xếp các việc trong ngày theo giờ: học, chơi, ăn, ngủ, giúp việc nhà.",
+  "id": 190,
+  "options": [
+   "A. Bảng điểm kiểm tra",
+   "B. Bảng sắp xếp việc trong ngày theo giờ",
+   "C. Bảng tên học sinh",
+   "D. Bảng thực đơn bữa ăn"
+  ],
+  "question": "Thời gian biểu là gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 22,
+  "explanation": "Thiết kế thời gian biểu là tự làm bảng giờ giấc đẹp, rõ ràng, hợp với sinh hoạt của em.",
+  "id": 191,
+  "options": [
+   "A. Nhờ người khác làm hộ",
+   "B. Viết giờ giấc bừa bãi",
+   "C. Tự làm bảng giờ giấc đẹp, rõ ràng, hợp với mình",
+   "D. Chỉ viết tên, không viết giờ"
+  ],
+  "question": "Thiết kế thời gian biểu là làm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 22,
+  "explanation": "Thời gian biểu tốt có đủ việc: học, nghỉ ngơi, vui chơi, thể thao, giúp việc nhà — không chỉ toàn học.",
+  "id": 192,
+  "options": [
+   "A. Chỉ toàn giờ ngủ",
+   "B. Đủ học, nghỉ, chơi, thể thao, giúp nhà",
+   "C. Chỉ toàn giờ chơi",
+   "D. Chỉ toàn giờ học"
+  ],
+  "question": "Thời gian biểu tốt nên gồm những việc nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 22,
+  "explanation": "Giờ giấc trên thời gian biểu cần rõ ràng, theo thứ tự từ sáng đến tối để em dễ theo dõi.",
+  "id": 193,
+  "options": [
+   "A. Giờ giấc rõ ràng, theo thứ tự sáng đến tối",
+   "B. Giờ giấc lộn xộn không theo thứ tự",
+   "C. Không ghi giờ, chỉ ghi việc",
+   "D. Ghi giờ sai với thực tế"
+  ],
+  "question": "Giờ giấc trên thời gian biểu cần như thế nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 22,
+  "explanation": "Trang trí thời gian biểu vừa phải, dùng hình, màu hợp với từng việc để bảng dễ nhìn, không rối mắt.",
+  "id": 194,
+  "options": [
+   "A. Trang trí kín hết bảng",
+   "B. Trang trí vừa phải, dễ nhìn, không rối mắt",
+   "C. Không trang trí gì cả",
+   "D. Trang trí che mất chữ"
+  ],
+  "question": "Trang trí thời gian biểu nên như thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 22,
+  "explanation": "Dán thời gian biểu ở góc học tập giúp em nhìn thấy mỗi ngày và làm theo đúng giờ giấc đã đặt.",
+  "id": 195,
+  "options": [
+   "A. Cất thời gian biểu trong cặp",
+   "B. Vứt thời gian biểu đi",
+   "C. Dán ở góc học tập để nhìn thấy mỗi ngày",
+   "D. Đưa thời gian biểu cho bạn giữ"
+  ],
+  "question": "Em nên đặt thời gian biểu ở đâu?"
+ },
+ {
+  "answer": 3,
+  "bai": 22,
+  "explanation": "Làm theo thời gian biểu giúp em không quên việc, học đều và có thời gian chơi, nghỉ hợp lý.",
+  "id": 196,
+  "options": [
+   "A. Không có tác dụng gì",
+   "B. Làm em mệt hơn",
+   "C. Làm em không được chơi",
+   "D. Giúp em không quên việc, học đều, chơi nghỉ hợp lý"
+  ],
+  "question": "Làm theo thời gian biểu có ích gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 22,
+  "explanation": "Thời gian biểu có thể thay đổi khi lịch học thay đổi, miễn là vẫn cân đối học, chơi, nghỉ.",
+  "id": 197,
+  "options": [
+   "A. Thời gian biểu có thể đổi khi lịch học thay đổi",
+   "B. Thời gian biểu không bao giờ được đổi",
+   "C. Thời gian biểu đổi mỗi ngày tùy thích",
+   "D. Thời gian biểu không cần theo nữa"
+  ],
+  "question": "Thời gian biểu có được thay đổi không?"
+ },
+ {
+  "answer": 3,
+  "bai": 22,
+  "explanation": "Viết thời gian biểu bằng chữ to, rõ, màu phân biệt từng việc giúp em đọc nhanh và làm đúng giờ.",
+  "id": 198,
+  "options": [
+   "A. Không viết chữ, chỉ vẽ hình",
+   "B. Chữ thật nhỏ, khó đọc",
+   "C. Chữ viết loằng ngoằng",
+   "D. Chữ to, rõ, màu phân biệt từng việc"
+  ],
+  "question": "Chữ trên thời gian biểu nên viết thế nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 23,
+  "explanation": "Mĩ thuật thời kì cổ đại là nghệ thuật của các nền văn minh cổ như Ai Cập, Hy Lạp, La Mã cách đây hàng nghìn năm.",
+  "id": 199,
+  "options": [
+   "A. Nghệ thuật hiện đại ngày nay",
+   "B. Nghệ thuật của người tiền sử",
+   "C. Nghệ thuật của Ai Cập, Hy Lạp, La Mã cổ đại",
+   "D. Nghệ thuật chụp ảnh"
+  ],
+  "question": "Mĩ thuật thời kì cổ đại là gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 23,
+  "explanation": "Kim tự tháp Ai Cập là lăng mộ lớn bằng đá của các pharaoh, xây bằng hàng triệu khối đá xếp chồng lên nhau.",
+  "id": 200,
+  "options": [
+   "A. Nhà ở của người dân Ai Cập",
+   "B. Trường học của Ai Cập",
+   "C. Chợ buôn bán của Ai Cập",
+   "D. Lăng mộ đá lớn của các pharaoh Ai Cập"
+  ],
+  "question": "Kim tự tháp Ai Cập là công trình gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 23,
+  "explanation": "Tượng Nhân sư Ai Cập có thân sư tử và đầu người, canh giữ kim tự tháp, thể hiện sức mạnh và trí tuệ.",
+  "id": 201,
+  "options": [
+   "A. Tượng thân sư tử, đầu người canh giữ kim tự tháp",
+   "B. Tượng thần mặt trời",
+   "C. Tượng con mèo nhà",
+   "D. Tượng người nông dân"
+  ],
+  "question": "Tượng Nhân sư Ai Cập là tượng như thế nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 23,
+  "explanation": "Người Hy Lạp cổ vẽ hình lên bình gốm: hình người, thần thoại, cuộc sống hằng ngày với nét vẽ tinh tế.",
+  "id": 202,
+  "options": [
+   "A. Người Hy Lạp chỉ xây nhà",
+   "B. Người Hy Lạp vẽ hình lên bình gốm rất tinh tế",
+   "C. Người Hy Lạp chỉ nặn tượng đất",
+   "D. Người Hy Lạp không biết vẽ"
+  ],
+  "question": "Mĩ thuật Hy Lạp cổ đại nổi tiếng với gì?"
+ },
+ {
+  "answer": 2,
+  "bai": 23,
+  "explanation": "Tượng Hy Lạp cổ tạc người với tỉ lệ cơ thể hài hòa, đẹp và tự nhiên, thể hiện vẻ đẹp con người.",
+  "id": 203,
+  "options": [
+   "A. Tượng chỉ toàn hình thú",
+   "B. Tượng người méo mó, kì dị",
+   "C. Tượng người tỉ lệ hài hòa, đẹp tự nhiên",
+   "D. Tượng không có hình người"
+  ],
+  "question": "Tượng Hy Lạp cổ đại có đặc điểm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 23,
+  "explanation": "Đấu trường Colosseum ở La Mã cổ là nơi thi đấu, biểu diễn lớn hình tròn, chứa hàng vạn khán giả.",
+  "id": 204,
+  "options": [
+   "A. Cung điện của vua La Mã",
+   "B. Trường học của La Mã",
+   "C. Chợ bán đồ cổ",
+   "D. Đấu trường lớn hình tròn chứa hàng vạn khán giả"
+  ],
+  "question": "Đấu trường Colosseum của La Mã cổ là gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 23,
+  "explanation": "Mĩ thuật cổ đại thế giới làm bằng đá, đồng, gốm — vật liệu bền nên nhiều tác phẩm còn đến ngày nay.",
+  "id": 205,
+  "options": [
+   "A. Đá, đồng, gốm bền vững",
+   "B. Giấy mỏng dễ rách",
+   "C. Nhựa dẻo hiện đại",
+   "D. Vải mềm dễ mục"
+  ],
+  "question": "Mĩ thuật cổ đại thường làm bằng chất liệu gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 23,
+  "explanation": "Nghệ thuật cổ đại phản ánh đời sống, tín ngưỡng và ước mơ của người xưa, nên là kho báu lịch sử.",
+  "id": 206,
+  "options": [
+   "A. Nghệ thuật cổ đại chỉ để trang trí",
+   "B. Nghệ thuật cổ đại phản ánh đời sống, tín ngưỡng người xưa",
+   "C. Nghệ thuật cổ đại không có ý nghĩa",
+   "D. Nghệ thuật cổ đại chỉ dành cho vua chúa xem"
+  ],
+  "question": "Mĩ thuật cổ đại có ý nghĩa gì với ngày nay?"
+ },
+ {
+  "answer": 0,
+  "bai": 23,
+  "explanation": "Cột đá Hy Lạp, La Mã có hoa văn đẹp, vừa chống đỡ công trình vừa trang trí, ảnh hưởng đến kiến trúc sau này.",
+  "id": 207,
+  "options": [
+   "A. Cột đá vừa chống đỡ vừa trang trí rất đẹp",
+   "B. Cột đá chỉ để chống đỡ, không đẹp",
+   "C. Cột đá không có tác dụng gì",
+   "D. Cột đá chỉ làm bằng gỗ"
+  ],
+  "question": "Cột đá Hy Lạp, La Mã có đặc điểm gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 24,
+  "explanation": "Mĩ thuật Việt Nam thời cổ đại gắn với văn hóa Đông Sơn: đồ đồng tinh xảo, nổi tiếng nhất là trống đồng.",
+  "id": 208,
+  "options": [
+   "A. Văn hóa nước ngoài du nhập",
+   "B. Văn hóa hiện đại",
+   "C. Văn hóa tiền sử hang động",
+   "D. Văn hóa Đông Sơn với đồ đồng, trống đồng"
+  ],
+  "question": "Mĩ thuật Việt Nam thời cổ đại gắn với nền văn hóa nào?"
+ },
+ {
+  "answer": 0,
+  "bai": 24,
+  "explanation": "Trống đồng Đông Sơn là trống bằng đồng, mặt trống chạm hình mặt trời, chim Lạc, người múa — biểu tượng văn hóa Việt cổ.",
+  "id": 209,
+  "options": [
+   "A. Trống đồng chạm mặt trời, chim Lạc, người múa",
+   "B. Trống bằng gỗ đánh trong lễ hội",
+   "C. Trống bằng nhựa hiện đại",
+   "D. Trống của nước ngoài"
+  ],
+  "question": "Trống đồng Đông Sơn là gì?"
+ },
+ {
+  "answer": 1,
+  "bai": 24,
+  "explanation": "Chim Lạc trên trống đồng là hình chim bay với mỏ dài, cánh xòe — hình ảnh quen thuộc của người Việt cổ.",
+  "id": 210,
+  "options": [
+   "A. Chim sẻ nhỏ trong vườn",
+   "B. Chim bay mỏ dài, cánh xòe",
+   "C. Chim cánh cụt",
+   "D. Chim đại bàng châu Âu"
+  ],
+  "question": "Chim Lạc trên trống đồng có hình dáng nào?"
+ },
+ {
+  "answer": 2,
+  "bai": 24,
+  "explanation": "Đồ đồng Đông Sơn gồm trống, thạp, rìu, dao găm — đúc đồng khéo léo, hoa văn tinh tế.",
+  "id": 211,
+  "options": [
+   "A. Chỉ có trống đồng",
+   "B. Chỉ có đồ gốm thô",
+   "C. Trống, thạp, rìu, dao găm đúc đồng khéo léo",
+   "D. Chỉ có công cụ đá"
+  ],
+  "question": "Đồ đồng Đông Sơn gồm những gì?"
+ },
+ {
+  "answer": 3,
+  "bai": 24,
+  "explanation": "Hoa văn trống đồng kể chuyện đời sống: người giã gạo, chèo thuyền, múa hát trong lễ hội của người Việt cổ.",
+  "id": 212,
+  "options": [
+   "A. Kể chuyện nước ngoài",
+   "B. Kể chuyện máy bay, xe hơi",
+   "C. Chỉ toàn hình tròn không nghĩa",
+   "D. Kể chuyện đời sống: giã gạo, chèo thuyền, múa hát"
+  ],
+  "question": "Hoa văn trên trống đồng kể về điều gì?"
+ },
+ {
+  "answer": 0,
+  "bai": 24,
+  "explanation": "Gốm Việt cổ thời Đông Sơn đã mịn và đẹp hơn gốm tiền sử, có hoa văn văn thừng, văn sóng.",
+  "id": 213,
+  "options": [
+   "A. Gốm Việt cổ mịn, đẹp hơn, có hoa văn",
+   "B. Gốm Việt cổ thô như gốm tiền sử",
+   "C. Gốm Việt cổ làm bằng nhựa",
+   "D. Gốm Việt cổ không có hoa văn"
+  ],
+  "question": "Gốm Việt Nam thời cổ đại khác gốm tiền sử ở điểm nào?"
+ },
+ {
+  "answer": 1,
+  "bai": 24,
+  "explanation": "Trống đồng là niềm tự hào của người Việt, thể hiện trình độ đúc đồng và đời sống văn hóa rực rỡ thời cổ đại.",
+  "id": 214,
+  "options": [
+   "A. Chỉ là đồ dùng bình thường",
+   "B. Niềm tự hào, trình độ đúc đồng cao",
+   "C. Không có giá trị gì",
+   "D. Là đồ của nước khác"
+  ],
+  "question": "Trống đồng có ý nghĩa gì với người Việt?"
+ },
+ {
+  "answer": 2,
+  "bai": 24,
+  "explanation": "Bảo vệ trống đồng và đồ cổ là giữ gìn trong bảo tàng, không mua bán, không làm hỏng di sản của dân tộc.",
+  "id": 215,
+  "options": [
+   "A. Mang trống đồng về nhà chơi",
+   "B. Đem trống đồng đi bán",
+   "C. Giữ gìn trong bảo tàng, không mua bán, không làm hỏng",
+   "D. Đục trống đồng để xem bên trong"
+  ],
+  "question": "Em nên làm gì để bảo vệ trống đồng và đồ cổ?"
+ },
+ {
+  "answer": 1,
+  "bai": 24,
+  "explanation": "Học mĩ thuật Việt cổ giúp em hiểu tổ tiên đã khéo léo và sáng tạo ra sao, từ đó thêm yêu quê hương.",
+  "id": 216,
+  "options": [
+   "A. Biết cách đúc đồng hiện đại",
+   "B. Hiểu tổ tiên khéo léo, sáng tạo và thêm yêu quê hương",
+   "C. Biết cách làm đồ nhựa",
+   "D. Biết cách xây nhà cao tầng"
+  ],
+  "question": "Học mĩ thuật Việt Nam thời cổ đại có ích gì cho em?"
+ }
+]

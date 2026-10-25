@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tin học 6 — Cả năm học | Học từng bài & Trắc nghiệm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+/* ===== PHẦN RIÊNG CỦA TIN HỌC: Nghe bài + thẻ lật mini + kiểm tra nhanh ===== */
+.lsbox{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.ls-listen,.ls-stop{min-height:44px;padding:10px 16px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit;border:2px solid #00838f;background:#e0f2f1;color:#00695c}
+.ls-listen.reading{background:#00838f;color:#fff}
+.ls-stop{background:#fff3e0;border-color:#ef6c00;color:#e65100}
+.ls-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid #00838f;background:#fff;color:#00695c;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
+.rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
+.rd{border-radius:4px}
+.qmini{border-style:dashed;border-color:#ffb300;background:#fffde7}
+.qmini .qa-q{background:#fff8e1;color:#7b4d00;font-size:16px}
+.qmini .qa-a{background:#fffde7}
+.moc ul{margin:6px 0 0 20px}
+.moc li{margin-bottom:3px}
+.mmap{background:#f7f7fb;border:1.5px dashed var(--c,#888);border-radius:10px;padding:12px;margin:14px 0}
+.mm-title{font-weight:bold;color:var(--c,#333);margin-bottom:8px;font-size:16px}
+.gdmap{width:100%;height:auto;display:block}
+.lesson-cover{max-width:400px;width:100%;height:auto;display:block;margin:12px auto;border-radius:12px}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>💻 Tin học 6 — Cả năm học</h1>
+<div class="topmenu"><a class="tm-btn tm-quiz" href="quiz.html">📝 Bài tập &amp; Thi thử</a><a class="tm-btn tm-flash" href="quiz.html#flash">🃏 Flashcard tổng hợp</a></div>
+<p class="sub">Sách <b>Kết nối tri thức</b> • Học <b>từng bài một</b>: đọc từng đoạn ngắn (hoặc bấm 🔊 nghe bài) → trả lời câu hỏi nhanh ngay trong bài → xem ⭐ Điểm cần nhớ → lật flashcard của bài. Học hết 17 bài mới xuống <b>Phần Tổng kết</b> ở cuối trang nhé!</p>
+
+<div class="part part1"><h2>📖 Phần 1 — Học tập (học từng bài)</h2><p>17 bài xếp theo thứ tự sách giáo khoa, cả năm học. Mỗi bài đều có nút <b>🔊 Nghe bài</b> — em đọc chưa thạo cũng nghe và học được. Thẻ <b>⚡ Nhớ nhanh</b> bấm vào là lật xem đáp án ngay, không tính điểm đâu, cứ thoải mái thử! Lưu ý: phân kỳ học kì 1 / học kì 2 chưa xác nhận theo PPCT của trường em, nên trang này không ghi bài nào thuộc học kì nào.</p></div>
+
+<!-- ===== THANH CHẾ ĐỘ XEM ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= BÀI 1 ================= -->
+<div class="lesson" id="bai1" style="--c:#1565c0">
+  <div class="body">
+  <span class="badge">Chủ đề 1: Máy tính và cộng đồng</span>
+  <h3>Bài 1. Thông tin và dữ liệu</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai1.webp" alt="Minh họa Bài 1. Thông tin và dữ liệu" loading="lazy">
+  <div class="hook rd">🎬 Sáng nay, Mai nhìn trời thấy nắng to. Mai bảo mẹ: “Hôm nay trời nắng, con mặc áo mỏng nhé!” Mai vừa dùng thông tin để quyết định việc mặc áo.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thông tin</b> là những gì em biết được về người, vật và sự việc quanh mình. Ví dụ: hôm nay trời nắng, lớp có 30 bạn, bạn Lan thích đọc sách.</li>
+    <li class="rd">Em nhận thông tin bằng các giác quan: mắt nhìn, tai nghe, mũi ngửi, tay sờ. Ví dụ: mắt thấy đèn đỏ thì em biết phải dừng lại.</li>
+    <li class="rd">Thông tin giúp em hiểu chuyện đang xảy ra và quyết định đúng. Ví dụ: nghe dự báo mưa thì em mang áo mưa đi học.</li>
+    <li class="rd"><b>Dữ liệu</b> là thông tin đã được ghi lại dưới dạng số, chữ, hình ảnh hoặc âm thanh. Ví dụ: số 30 ghi lại số bạn trong lớp, bức ảnh ghi lại cảnh lớp học.</li>
+    <li class="rd">Thông tin và dữ liệu khác nhau ở chỗ: thông tin là điều em hiểu được, dữ liệu là dạng ghi lại của thông tin để lưu và xử lý. Ví dụ: “Lớp có 30 bạn” là thông tin; con số 30 viết trong sổ là dữ liệu.</li>
+    <li class="rd">Cùng một dữ liệu có thể cho nhiều thông tin khác nhau. Ví dụ: bảng điểm của lớp vừa cho biết ai học tốt, vừa cho biết môn nào cả lớp còn yếu.</li>
+    <li class="rd">Dữ liệu có nhiều dạng: chữ viết, số, hình ảnh, âm thanh, video. Ví dụ: bài hát là dữ liệu âm thanh, bức tranh là dữ liệu hình ảnh.</li>
+    <li class="rd">Máy tính lưu trữ và xử lý dữ liệu để giúp con người làm việc nhanh hơn. Ví dụ: máy tính cộng điểm cả lớp trong vài giây, làm bằng tay sẽ rất lâu.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thông tin là gì?</div></div><div class="mini-face mini-back">Điều em biết được về người, vật, sự việc quanh mình.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Dữ liệu là gì?</div></div><div class="mini-face mini-back">Thông tin đã ghi lại bằng số, chữ, hình ảnh hoặc âm thanh.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Dữ liệu khác thông tin ở điểm nào?</button><div class="qa-a">Thông tin là điều em hiểu được; dữ liệu là dạng ghi lại của thông tin, như số, chữ, hình ảnh, để lưu lại và xử lý.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thông tin là điều em biết được về người, vật, sự việc quanh mình.</li>
+      <li>Dữ liệu là thông tin đã ghi lại bằng số, chữ, hình ảnh hoặc âm thanh.</li>
+      <li>Em nhận thông tin bằng mắt, tai, mũi, tay và các giác quan khác.</li>
+      <li>Thông tin giúp em hiểu chuyện và quyết định đúng; máy tính giúp xử lý dữ liệu nhanh hơn.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="0,1,2,3,4"></div>
+  </div>
+  <a class="next" href="#bai2">✔ Xong Bài 1 → Sang Bài 2: Xử lý thông tin ⬇</a>
+</div>
+
+<!-- ================= BÀI 2 ================= -->
+<div class="lesson" id="bai2" style="--c:#c2185b">
+  <div class="body">
+  <span class="badge">Chủ đề 1: Máy tính và cộng đồng</span>
+  <h3>Bài 2. Xử lý thông tin</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai2.webp" alt="Minh họa Bài 2. Xử lý thông tin" loading="lazy">
+  <div class="hook rd">🎬 Cô giáo đọc điểm kiểm tra, Mai ghi điểm vào sổ, rồi tính xem mình được bao nhiêu điểm trung bình. Mai vừa làm các bước xử lý thông tin.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Xử lý thông tin</b> là nhận thông tin, biến đổi nó rồi đưa ra kết quả có ích. Ví dụ: nghe điểm các môn rồi tính điểm trung bình.</li>
+    <li class="rd">Xử lý thông tin thường có 4 bước: thu nhận, xử lý, lưu trữ và truyền thông tin. Ví dụ: nghe điểm (thu nhận), tính trung bình (xử lý), ghi vào sổ (lưu trữ), báo cho mẹ (truyền).</li>
+    <li class="rd"><b>Thu nhận thông tin</b> là lấy thông tin từ quanh mình bằng giác quan hoặc dụng cụ. Ví dụ: mắt đọc bảng, tai nghe cô giảng, nhiệt kế đo nhiệt độ.</li>
+    <li class="rd"><b>Xử lý thông tin</b> là biến đổi thông tin thành dạng mới có ích hơn. Ví dụ: cộng điểm các môn rồi chia ra để được điểm trung bình.</li>
+    <li class="rd"><b>Lưu trữ thông tin</b> là cất giữ thông tin để dùng lại sau. Ví dụ: ghi điểm vào sổ, lưu bài vào máy tính, chụp ảnh lưu kỷ niệm.</li>
+    <li class="rd"><b>Truyền thông tin</b> là gửi thông tin cho người khác. Ví dụ: nói cho mẹ biết điểm, gửi tin nhắn cho bạn, treo bảng tin ở lớp.</li>
+    <li class="rd">Con người xử lý thông tin bằng não; máy tính xử lý thông tin bằng bộ xử lý theo chương trình. Ví dụ: em tính nhẩm bằng đầu, máy tính tính bằng phần mềm.</li>
+    <li class="rd">Xử lý thông tin tốt giúp em quyết định đúng và làm việc nhanh. Ví dụ: tính đúng điểm trung bình thì em biết môn nào cần cố thêm.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Xử lý thông tin gồm mấy bước? Kể tên.</div></div><div class="mini-face mini-back">4 bước: thu nhận, xử lý, lưu trữ, truyền thông tin.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tính điểm trung bình thuộc bước nào?</div></div><div class="mini-face mini-back">Bước xử lý, vì điểm được biến đổi thành kết quả mới có ích.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Kể đủ 4 bước xử lý thông tin theo thứ tự.</button><div class="qa-a">Thu nhận, xử lý, lưu trữ rồi truyền thông tin. Ví dụ: nghe điểm, tính trung bình, ghi vào sổ, báo cho mẹ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Xử lý thông tin là nhận, biến đổi rồi đưa ra kết quả có ích.</li>
+      <li>4 bước xử lý thông tin: thu nhận, xử lý, lưu trữ, truyền thông tin.</li>
+      <li>Con người xử lý bằng não; máy tính xử lý bằng bộ xử lý theo chương trình.</li>
+      <li>Xử lý tốt giúp em quyết định đúng và làm việc nhanh hơn.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="5,6,7,8,9"></div>
+  </div>
+  <a class="next" href="#bai3">✔ Xong Bài 2 → Sang Bài 3: Thông tin trong máy tính ⬇</a>
+</div>
+
+<!-- ================= BÀI 3 ================= -->
+<div class="lesson" id="bai3" style="--c:#2e7d32">
+  <div class="body">
+  <span class="badge">Chủ đề 1: Máy tính và cộng đồng</span>
+  <h3>Bài 3. Thông tin trong máy tính</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai3.webp" alt="Minh họa Bài 3. Thông tin trong máy tính" loading="lazy">
+  <div class="hook rd">🎬 Bạn An gõ chữ “Xin chào” vào máy tính. Máy không hiểu chữ như người, mà đổi chữ thành dãy số 0 và 1 để lưu lại. Vì sao máy phải làm vậy?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd">Máy tính chỉ làm việc với 2 tín hiệu: có điện và không có điện. Người ta ký hiệu chúng là <b>bit 1 và bit 0</b>. Ví dụ: đèn sáng là 1, đèn tắt là 0.</li>
+    <li class="rd"><b>Bit</b> là đơn vị nhỏ nhất của thông tin trong máy tính, chỉ nhận 2 giá trị 0 hoặc 1. Ví dụ: một công tắc chỉ có bật hoặc tắt.</li>
+    <li class="rd">Mọi thông tin trong máy tính (chữ, số, hình, nhạc) đều được đổi thành dãy bit 0 và 1 để máy lưu và xử lý. Ví dụ: chữ “A” được máy lưu thành một dãy 0 và 1.</li>
+    <li class="rd"><b>Byte</b> là nhóm 8 bit, dùng làm đơn vị đo lượng thông tin thường gặp. Ví dụ: một chữ cái thường được lưu bằng 1 byte.</li>
+    <li class="rd">Các đơn vị đo dữ liệu lớn dần là: byte, KB, MB, GB, TB. Ví dụ: một bài hát khoảng vài MB, một bộ phim khoảng vài GB.</li>
+    <li class="rd">1 KB khoảng 1000 byte, 1 MB khoảng 1000 KB, 1 GB khoảng 1000 MB. Ví dụ: USB 16 GB chứa được khoảng 16 000 MB dữ liệu.</li>
+    <li class="rd">Máy tính đổi thông tin thành bit vì mạch điện tử chỉ phân biệt được 2 trạng thái có điện và không có điện. Vì vậy mọi thứ đều phải về dạng 0 và 1.</li>
+    <li class="rd">Khi em mở lại file, máy đổi dãy bit thành chữ, hình, nhạc mà em nhìn và nghe được. Ví dụ: mở ảnh là máy đổi dãy bit thành hình em thấy.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Bit nhận những giá trị nào?</div></div><div class="mini-face mini-back">Chỉ 0 hoặc 1.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>1 byte bằng mấy bit?</div></div><div class="mini-face mini-back">8 bit.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Vì sao máy tính phải đổi mọi thông tin thành dãy 0 và 1?</button><div class="qa-a">Vì mạch điện tử chỉ phân biệt được 2 trạng thái có điện và không có điện, ký hiệu là 1 và 0.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bit là đơn vị nhỏ nhất, chỉ nhận giá trị 0 hoặc 1.</li>
+      <li>Mọi chữ, số, hình, nhạc trong máy tính đều được đổi thành dãy bit.</li>
+      <li>Byte = 8 bit; các đơn vị lớn dần: KB, MB, GB, TB.</li>
+      <li>Mở file là máy đổi dãy bit trở lại thành chữ, hình, nhạc cho em xem, nghe.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="10,11,12,13,14"></div>
+  </div>
+  <a class="next" href="#bai4">✔ Xong Bài 3 → Sang Bài 4: Mạng máy tính ⬇</a>
+</div>
+
+<!-- ================= BÀI 4 ================= -->
+<div class="lesson" id="bai4" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge">Chủ đề 2: Mạng máy tính và internet</span>
+  <h3>Bài 4. Mạng máy tính</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai4.webp" alt="Minh họa Bài 4. Mạng máy tính" loading="lazy">
+  <div class="hook rd">🎬 Ở phòng máy của trường, các máy tính nối với nhau và cùng in ra một máy in. Nhờ vậy, bạn nào cũng in được mà trường chỉ cần một máy in.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Mạng máy tính</b> là các máy tính và thiết bị nối với nhau để chia sẻ dữ liệu và dùng chung thiết bị. Ví dụ: nhiều máy cùng dùng một máy in.</li>
+    <li class="rd">Nhờ có mạng, các máy gửi dữ liệu cho nhau rất nhanh mà không cần chép bằng USB. Ví dụ: gửi bài tập từ máy này sang máy khác trong vài giây.</li>
+    <li class="rd">Mạng giúp dùng chung thiết bị, như máy in, và dùng chung dữ liệu, như tài liệu học tập. Ví dụ: cả lớp cùng mở một file bài giảng trên mạng.</li>
+    <li class="rd">Mạng máy tính có 2 lợi ích lớn: chia sẻ tài nguyên (thiết bị, dữ liệu) và liên lạc nhanh giữa mọi người. Ví dụ: nhắn tin, gửi mail cho nhau qua mạng.</li>
+    <li class="rd">Mạng cũng có mặt trái: nếu một máy bị vi-rút, vi-rút có thể lan sang máy khác qua mạng. Vì vậy cần dùng phần mềm diệt vi-rút và không mở file lạ.</li>
+    <li class="rd">Các thiết bị trong mạng nối với nhau bằng dây cáp hoặc sóng không dây (Wi-Fi). Ví dụ: máy tính bàn thường dùng dây, điện thoại dùng Wi-Fi.</li>
+    <li class="rd">Mạng nhỏ trong một phòng, một nhà, một trường gọi là mạng LAN. Ví dụ: mạng phòng máy của trường em là mạng LAN.</li>
+    <li class="rd">Mạng nối nhiều mạng nhỏ ở xa nhau, như giữa các tỉnh, các nước, gọi là mạng WAN. Ví dụ: mạng của một công ty có chi nhánh ở nhiều tỉnh là mạng WAN.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mạng máy tính dùng để làm gì?</div></div><div class="mini-face mini-back">Chia sẻ dữ liệu và dùng chung thiết bị.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Phòng máy của trường là loại mạng nào?</div></div><div class="mini-face mini-back">Mạng LAN, vì chỉ trong một phòng, một trường.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Mạng máy tính mang lại lợi ích gì? Kể 2 lợi ích.</button><div class="qa-a">Chia sẻ tài nguyên (dùng chung máy in, dữ liệu) và liên lạc nhanh giữa mọi người.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Mạng máy tính là các máy nối nhau để chia sẻ dữ liệu và dùng chung thiết bị.</li>
+      <li>Lợi ích: dùng chung thiết bị, dữ liệu và liên lạc nhanh.</li>
+      <li>Mặt trái: vi-rút có thể lan qua mạng, nên cần cẩn thận với file lạ.</li>
+      <li>Mạng LAN là mạng nhỏ trong phòng, nhà, trường; mạng WAN nối các mạng ở xa nhau.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="15,16,17,18,19"></div>
+  </div>
+  <a class="next" href="#bai5">✔ Xong Bài 4 → Sang Bài 5: Internet ⬇</a>
+</div>
+
+<!-- ================= BÀI 5 ================= -->
+<div class="lesson" id="bai5" style="--c:#00838f">
+  <div class="body">
+  <span class="badge">Chủ đề 2: Mạng máy tính và internet</span>
+  <h3>Bài 5. Internet</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai5.webp" alt="Minh họa Bài 5. Internet" loading="lazy">
+  <div class="hook rd">🎬 Mai ở Việt Nam gửi một bức thư điện tử cho chị họ ở Mỹ. Chỉ vài giây sau, chị đã đọc được. Điều gì giúp thư đi nhanh như vậy? Đó là Internet.</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Internet</b> là mạng máy tính toàn cầu, nối hàng tỉ thiết bị trên khắp thế giới với nhau. Ví dụ: máy ở Việt Nam gửi thư cho máy ở Mỹ trong vài giây.</li>
+    <li class="rd">Internet giúp em: tìm thông tin, học tập, liên lạc với người thân, giải trí và làm việc. Ví dụ: tra bài tập, gọi video cho ông bà ở xa.</li>
+    <li class="rd">Để dùng Internet, em cần 3 thứ: thiết bị (máy tính hoặc điện thoại), đường truyền (Wi-Fi hoặc 4G) và nhà cung cấp dịch vụ. Ví dụ: điện thoại của mẹ nối Wi-Fi ở nhà là đủ để lên mạng.</li>
+    <li class="rd"><b>Website</b> là một trang thông tin trên Internet, mỗi trang có địa chỉ riêng. Ví dụ: trang web của trường em đăng thời khóa biểu và tin tức.</li>
+    <li class="rd"><b>Trình duyệt web</b> là phần mềm dùng để mở các website. Ví dụ: Chrome, Cốc Cốc, Edge đều là trình duyệt web.</li>
+    <li class="rd">Muốn tìm thông tin, em gõ từ khóa vào công cụ tìm kiếm như Google, máy sẽ trả về danh sách trang liên quan. Ví dụ: gõ “sao Hỏa” sẽ ra các trang viết về sao Hỏa.</li>
+    <li class="rd">Không phải mọi thông tin trên mạng đều đúng. Em phải kiểm tra nguồn trước khi tin. Ví dụ: tin “mai nghỉ học” từ một trang lạ có thể là tin giả.</li>
+    <li class="rd">Khi lên mạng, em phải giữ an toàn: không cho người lạ biết mật khẩu, địa chỉ nhà, số điện thoại của mình. Vì người xấu có thể dùng các thông tin đó để lừa em.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Internet là gì?</div></div><div class="mini-face mini-back">Mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Lên mạng cần giữ an toàn điều gì?</div></div><div class="mini-face mini-back">Không cho người lạ biết mật khẩu, địa chỉ nhà, số điện thoại.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Muốn lên mạng, em cần những gì?</button><div class="qa-a">Cần thiết bị (máy tính hoặc điện thoại), đường truyền (Wi-Fi hoặc 4G) và nhà cung cấp dịch vụ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Internet là mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau.</li>
+      <li>Internet giúp tìm thông tin, học tập, liên lạc, giải trí và làm việc.</li>
+      <li>Muốn lên mạng cần: thiết bị, đường truyền và nhà cung cấp dịch vụ.</li>
+      <li>Không phải thông tin nào trên mạng cũng đúng; phải kiểm tra nguồn và giữ kín thông tin riêng tư.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="20,21,22,23,24"></div>
+  </div>
+  <a class="next" href="#bai6">✔ Xong Bài 5 → Sang Bài 6: Mạng thông tin toàn cầu ⬇</a>
+</div>
+
+<!-- ================= BÀI 6 ================= -->
+<div class="lesson" id="bai6" style="--c:#ef6c00">
+  <div class="body">
+  <span class="badge">Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin</span>
+  <h3>Bài 6. Mạng thông tin toàn cầu</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai6.webp" alt="Minh họa Bài 6. Mạng thông tin toàn cầu" loading="lazy">
+  <div class="hook rd">🎬 Mai đang đọc một bài báo trên mạng. Thấy chữ gạch chân “Sao Hỏa”, Mai bấm vào thì sang ngay một trang khác viết về sao Hỏa. Cái “nhảy trang” kỳ diệu đó gọi là gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Mạng thông tin toàn cầu (World Wide Web, gọi tắt là Web)</b> là hệ thống các trang web liên kết với nhau trên Internet. Ví dụ: từ trang báo, em bấm liên kết là sang trang khác.</li>
+    <li class="rd">Mỗi trang web có thể chứa chữ, hình ảnh, video và âm thanh. Ví dụ: trang báo có bài viết kèm ảnh minh họa.</li>
+    <li class="rd"><b>Địa chỉ web (URL)</b> là địa chỉ riêng của mỗi trang web, giúp trình duyệt tìm đúng trang. Ví dụ: địa chỉ thường bắt đầu bằng www rồi đến tên trang.</li>
+    <li class="rd"><b>Liên kết (link)</b> là chữ hoặc hình có thể bấm vào để nhảy sang trang khác. Ví dụ: chữ gạch chân “Sao Hỏa” trong bài báo là một liên kết.</li>
+    <li class="rd">Web khác Internet ở chỗ: Internet là mạng, tức là đường đi; Web là dịch vụ chạy trên Internet, tức là các trang web. Ví dụ: Internet như con đường, Web như các ngôi nhà dọc đường.</li>
+    <li class="rd">Muốn xem Web, em cần mở trình duyệt web rồi gõ địa chỉ trang hoặc bấm vào liên kết. Ví dụ: gõ địa chỉ trang của trường để xem thời khóa biểu.</li>
+    <li class="rd">Các trang web liên kết với nhau thành một mạng lưới khổng lồ, nên gọi là mạng thông tin toàn cầu. Nhờ đó em đi từ trang này sang trang khác rất nhanh.</li>
+    <li class="rd">Khi xem Web, em nên vào các trang đáng tin như trang của trường, của báo lớn. Vì các trang lạ có thể chứa thông tin sai hoặc lừa đảo.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Web là gì?</div></div><div class="mini-face mini-back">Hệ thống các trang web liên kết với nhau trên Internet.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chữ gạch chân bấm vào thì sang trang khác gọi là gì?</div></div><div class="mini-face mini-back">Liên kết (link).</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Web khác Internet ở điểm nào?</button><div class="qa-a">Internet là mạng, tức là đường đi; Web là dịch vụ chạy trên Internet, tức là các trang web.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Web là hệ thống các trang web liên kết với nhau trên Internet.</li>
+      <li>Địa chỉ web (URL) là địa chỉ riêng giúp tìm đúng trang.</li>
+      <li>Liên kết (link) là chữ hoặc hình bấm vào để nhảy sang trang khác.</li>
+      <li>Internet như con đường, Web như các ngôi nhà dọc đường.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="25,26,27,28,29"></div>
+  </div>
+  <a class="next" href="#bai7">✔ Xong Bài 6 → Sang Bài 7: Tìm kiếm thông tin trên Internet ⬇</a>
+</div>
+
+<!-- ================= BÀI 7 ================= -->
+<div class="lesson" id="bai7" style="--c:#00838f">
+  <div class="body">
+  <span class="badge">Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin</span>
+  <h3>Bài 7. Tìm kiếm thông tin trên Internet</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai7.webp" alt="Minh họa Bài 7. Tìm kiếm thông tin trên Internet" loading="lazy">
+  <div class="hook rd">🎬 Mai cần tìm hiểu về sao Hỏa để làm bài tập. Mai gõ “sao” thì ra hàng triệu trang linh tinh. Mai phải gõ thế nào để tìm đúng trang mình cần?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Công cụ tìm kiếm</b> là trang web giúp em tìm các trang khác theo từ khóa. Ví dụ: Google là công cụ tìm kiếm quen thuộc.</li>
+    <li class="rd"><b>Từ khóa</b> là từ hoặc cụm từ mô tả điều em cần tìm. Ví dụ: muốn tìm về sao Hỏa thì gõ “sao Hỏa”.</li>
+    <li class="rd">Từ khóa càng cụ thể thì kết quả càng đúng ý em. Ví dụ: gõ “cách làm bánh” thì ra chung chung; gõ “cách làm bánh bông lan bằng nồi cơm điện” thì ra đúng món em cần.</li>
+    <li class="rd">Nếu tìm chưa ra, em thử đổi từ khóa khác cùng nghĩa. Ví dụ: tìm “xe đạp điện” không ra thì thử “xe điện cho học sinh”.</li>
+    <li class="rd">Kết quả tìm kiếm hiện thành danh sách trang, mỗi trang có tiêu đề và vài dòng mô tả. Em đọc mô tả rồi chọn trang phù hợp nhất.</li>
+    <li class="rd">Em phải đánh giá kết quả: trang có đáng tin không, ai viết, đăng từ khi nào. Ví dụ: trang của trường, của báo lớn đáng tin hơn trang lạ không rõ tác giả.</li>
+    <li class="rd">Em nên đối chiếu nhiều nguồn trước khi tin một thông tin. Ví dụ: thấy tin ở một trang, em tìm thêm 1-2 trang khác xem có nói giống vậy không.</li>
+    <li class="rd">Em không nên bấm vào quảng cáo lạ, không nhập mật khẩu vào trang tìm được ngẫu nhiên. Vì đó có thể là trang lừa đảo.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Từ khóa là gì?</div></div><div class="mini-face mini-back">Từ hoặc cụm từ mô tả điều em cần tìm.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tìm thông tin thì nên tin ngay trang đầu tiên không?</div></div><div class="mini-face mini-back">Không, phải xem nguồn có đáng tin không và đối chiếu thêm nguồn khác.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Từ khóa càng cụ thể thì kết quả thế nào? Cho ví dụ.</button><div class="qa-a">Kết quả càng đúng ý em. Ví dụ: “cách làm bánh bông lan bằng nồi cơm điện” ra đúng món hơn là chỉ gõ “cách làm bánh”.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Công cụ tìm kiếm giúp tìm trang web theo từ khóa.</li>
+      <li>Từ khóa là từ mô tả điều cần tìm; từ khóa càng cụ thể, kết quả càng đúng.</li>
+      <li>Tìm chưa ra thì đổi từ khóa khác cùng nghĩa.</li>
+      <li>Phải đánh giá nguồn, đối chiếu nhiều nguồn, không bấm quảng cáo lạ hay nhập mật khẩu lung tung.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="30,31,32,33,34"></div>
+  </div>
+  <a class="next" href="#bai8">✔ Xong Bài 7 → Sang Bài 8: Thư điện tử ⬇</a>
+</div>
+
+<!-- ================= BÀI 8 ================= -->
+<div class="lesson" id="bai8" style="--c:#c2185b">
+  <div class="body">
+  <span class="badge">Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin</span>
+  <h3>Bài 8. Thư điện tử</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai8.webp" alt="Minh họa Bài 8. Thư điện tử" loading="lazy">
+  <div class="hook rd">🎬 Mai viết thư tay gửi cho chị ở xa, phải chờ mấy ngày chị mới nhận được. Cô giáo bảo: “Gửi thư điện tử đi, vài giây là tới!” Thư điện tử khác thư tay ở điểm nào?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thư điện tử (email)</b> là thư gửi qua mạng Internet, đến nơi gần như ngay lập tức. Ví dụ: gửi bài tập cho cô, vài giây sau cô đã nhận được.</li>
+    <li class="rd"><b>Địa chỉ email</b> gồm 2 phần: phần trước dấu @ là tên hộp thư của em, phần sau dấu @ là tên nhà cung cấp dịch vụ. Ví dụ dạng địa chỉ: [tên của em]@[nhà cung cấp].</li>
+    <li class="rd">Hộp thư điện tử có các ngăn: Hộp thư đến (thư người khác gửi cho em), Thư đã gửi, Thư nháp (thư em viết dở, chưa gửi) và Thùng rác (thư đã xóa).</li>
+    <li class="rd">Để gửi thư, em làm 3 bước: nhập địa chỉ người nhận, viết tiêu đề và nội dung, rồi bấm Gửi. Ví dụ: gửi bài tập cho cô thì nhập địa chỉ email của cô.</li>
+    <li class="rd">Thư điện tử có thể đính kèm file như ảnh, bài tập, video. Ví dụ: gửi bài văn cho cô kèm theo ảnh minh họa.</li>
+    <li class="rd">Ưu điểm của thư điện tử: nhanh, rẻ, gửi được file và gửi cho nhiều người cùng lúc. Ví dụ: một thư mời họp gửi cho cả lớp chỉ cần bấm gửi một lần.</li>
+    <li class="rd">Em phải cẩn thận với thư lạ: không mở file đính kèm lạ, không bấm link lạ trong thư. Vì thư lạ có thể chứa vi-rút hoặc lừa đảo.</li>
+    <li class="rd">Muốn trả lời thư, em bấm Trả lời thì máy tự điền sẵn địa chỉ người gửi. Em chỉ cần viết nội dung rồi bấm Gửi.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thư điện tử đến nơi trong bao lâu?</div></div><div class="mini-face mini-back">Gần như ngay lập tức.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Muốn trả lời thư thì bấm gì?</div></div><div class="mini-face mini-back">Bấm Trả lời, máy tự điền sẵn địa chỉ người gửi.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nêu 3 bước gửi một thư điện tử.</button><div class="qa-a">Nhập địa chỉ người nhận, viết tiêu đề và nội dung, rồi bấm Gửi.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thư điện tử là thư gửi qua mạng, đến nơi gần như ngay lập tức.</li>
+      <li>Địa chỉ email gồm tên hộp thư + dấu @ + tên nhà cung cấp dịch vụ.</li>
+      <li>Hộp thư có: Hộp thư đến, Thư đã gửi, Thư nháp, Thùng rác.</li>
+      <li>Ưu điểm: nhanh, rẻ, gửi được file, gửi nhiều người cùng lúc; cẩn thận với thư lạ.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="35,36,37,38,39"></div>
+  </div>
+  <a class="next" href="#bai9">✔ Xong Bài 8 → Sang Bài 9: An toàn thông tin trên Internet ⬇</a>
+</div>
+
+<!-- ================= BÀI 9 ================= -->
+<div class="lesson" id="bai9" style="--c:#d32f2f">
+  <div class="body">
+  <span class="badge">Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số</span>
+  <h3>Bài 9. An toàn thông tin trên Internet</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai9.webp" alt="Minh họa Bài 9. An toàn thông tin trên Internet" loading="lazy">
+  <div class="hook rd">🎬 Một người lạ nhắn tin cho Mai: “Chúc mừng em trúng thưởng điện thoại! Bấm vào link này và nhập mật khẩu để nhận quà!” Mai có nên bấm không? Vì sao?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thông tin cá nhân</b> là những thông tin riêng của em: họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư. Ví dụ: số điện thoại của mẹ cũng là thông tin cá nhân cần giữ kín.</li>
+    <li class="rd">Em tuyệt đối không chia sẻ thông tin cá nhân cho người lạ trên mạng. Vì người xấu có thể dùng chúng để lừa em hoặc gia đình em.</li>
+    <li class="rd"><b>Mật khẩu mạnh</b> là mật khẩu dài, gồm chữ hoa, chữ thường, số và ký tự đặc biệt. Ví dụ: “Mai@2026Hoc” mạnh hơn “123456”.</li>
+    <li class="rd">Em không dùng tên mình hoặc ngày sinh làm mật khẩu, không dùng chung một mật khẩu cho mọi nơi, và không cho ai biết mật khẩu. Vì mật khẩu dễ đoán thì người khác vào được tài khoản của em.</li>
+    <li class="rd"><b>Tin giả và lừa đảo</b> trên mạng thường có dạng: trúng thưởng, xin tiền, xin mã OTP. Ví dụ: “Bấm link để nhận quà” là chiêu lừa thường gặp.</li>
+    <li class="rd">Gặp tin lừa đảo, em không bấm link, không nhập mật khẩu, không gửi tiền, và báo ngay cho người lớn. Vì bấm vào là em có thể mất tài khoản hoặc mất tiền.</li>
+    <li class="rd"><b>Bắt nạt qua mạng</b> là nói xấu, chê bai, dọa nạt người khác trên mạng. Nếu bị bắt nạt, em không đáp trả, lưu lại bằng chứng và báo thầy cô hoặc người lớn.</li>
+    <li class="rd">Em cũng phải dùng mạng có văn hóa: không nói xấu, không chia sẻ tin chưa kiểm chứng, không xem nội dung không phù hợp lứa tuổi. Vì lời em viết ra cũng ảnh hưởng đến người khác.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thông tin cá nhân gồm những gì?</div></div><div class="mini-face mini-back">Họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Mật khẩu nào mạnh hơn: “123456” hay “Mai@2026Hoc”?</div></div><div class="mini-face mini-back">“Mai@2026Hoc” mạnh hơn vì dài và có đủ chữ hoa, chữ thường, số, ký tự đặc biệt.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Người lạ nhắn “trúng thưởng, bấm link nhập mật khẩu để nhận quà”, em làm gì?</button><div class="qa-a">Không bấm link, không nhập mật khẩu, không gửi tiền, và báo ngay cho người lớn.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thông tin cá nhân (tên, tuổi, địa chỉ, số điện thoại, mật khẩu) phải giữ kín.</li>
+      <li>Mật khẩu mạnh: dài, có chữ hoa, chữ thường, số, ký tự đặc biệt; không dùng tên, ngày sinh.</li>
+      <li>Gặp lừa đảo: không bấm link, không nhập mật khẩu, báo người lớn.</li>
+      <li>Bị bắt nạt qua mạng: không đáp trả, lưu bằng chứng, báo thầy cô, người lớn.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="40,41,42,43,44"></div>
+  </div>
+  <a class="next" href="#bai10">✔ Xong Bài 9 → Sang Bài 10: Sơ đồ tư duy ⬇</a>
+</div>
+
+<!-- ================= BÀI 10 ================= -->
+<div class="lesson" id="bai10" style="--c:#1565c0">
+  <div class="body">
+  <span class="badge">Chủ đề 5: Ứng dụng tin học</span>
+  <h3>Bài 10. Sơ đồ tư duy</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai10.webp" alt="Minh họa Bài 10. Sơ đồ tư duy" loading="lazy">
+  <div class="hook rd">🎬 Mai phải ôn cả bài dài về thông tin. Mai vẽ một hình tròn ở giữa ghi “Thông tin”, rồi vẽ các nhánh tỏa ra: “Là gì”, “Ví dụ”, “Dữ liệu”. Nhìn vào hình, Mai nhớ bài ngay. Hình đó gọi là gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Sơ đồ tư duy</b> là cách trình bày ý tưởng bằng hình ảnh: ý chính ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh. Ví dụ: giữa ghi “Thông tin”, nhánh ghi “Là gì”, “Ví dụ”, “Dữ liệu”.</li>
+    <li class="rd">Sơ đồ tư duy giúp em nhìn thấy toàn bộ bài trong một hình, nhớ nhanh và sắp xếp ý rõ ràng. Ví dụ: ôn bài bằng sơ đồ nhanh hơn đọc lại cả trang dài.</li>
+    <li class="rd">Cách vẽ sơ đồ tư duy có 4 bước: viết ý chính ở giữa; vẽ nhánh lớn cho ý lớn; vẽ nhánh nhỏ cho ý chi tiết; dùng từ ngắn và thêm hình, màu cho dễ nhớ.</li>
+    <li class="rd">Mỗi nhánh chỉ ghi một ý, bằng từ ngắn gọn, không viết cả đoạn dài. Ví dụ: nhánh ghi “Dữ liệu: số, chữ, hình” thay vì viết một đoạn giải thích dài.</li>
+    <li class="rd">Dùng màu sắc và hình vẽ giúp não nhớ tốt hơn. Ví dụ: nhánh “Ví dụ” tô màu xanh, nhánh “Là gì” tô màu đỏ để phân biệt nhanh.</li>
+    <li class="rd">Trên máy tính có phần mềm vẽ sơ đồ tư duy, giúp em vẽ đẹp, sửa dễ, lưu lại và chia sẻ cho bạn. Ví dụ: vẽ sai thì xóa nhánh và vẽ lại ngay, không phải vẽ lại cả bài.</li>
+    <li class="rd">Sơ đồ tư duy dùng được cho nhiều việc: ôn bài, tóm tắt truyện, lập kế hoạch. Ví dụ: trước khi viết văn, em vẽ sơ đồ dàn ý rồi mới viết.</li>
+    <li class="rd">Sơ đồ tốt là sơ đồ nhìn vào hiểu ngay, không rối. Vì vậy em chỉ ghi ý chính, không nhồi nhét mọi chữ trong sách vào sơ đồ.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Ý chính trong sơ đồ tư duy đặt ở đâu?</div></div><div class="mini-face mini-back">Ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Sơ đồ tốt là sơ đồ thế nào?</div></div><div class="mini-face mini-back">Nhìn vào hiểu ngay, chỉ ghi ý chính, không nhồi nhét mọi chữ.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nêu 4 bước vẽ sơ đồ tư duy.</button><div class="qa-a">Viết ý chính ở giữa; vẽ nhánh lớn cho ý lớn; vẽ nhánh nhỏ cho ý chi tiết; dùng từ ngắn, thêm hình và màu cho dễ nhớ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Sơ đồ tư duy: ý chính ở giữa, ý nhỏ tỏa ra bằng nhánh.</li>
+      <li>Tác dụng: thấy toàn bộ bài trong một hình, nhớ nhanh, sắp xếp ý rõ ràng.</li>
+      <li>Mỗi nhánh một ý, từ ngắn gọn, thêm màu và hình cho dễ nhớ.</li>
+      <li>Vẽ bằng phần mềm thì sửa dễ, lưu và chia sẻ được.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="45,46,47,48,49"></div>
+  </div>
+  <a class="next" href="#bai11">✔ Xong Bài 10 → Sang Bài 11: Định dạng văn bản ⬇</a>
+</div>
+
+<!-- ================= BÀI 11 ================= -->
+<div class="lesson" id="bai11" style="--c:#6a1b9a">
+  <div class="body">
+  <span class="badge">Chủ đề 5: Ứng dụng tin học</span>
+  <h3>Bài 11. Định dạng văn bản</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai11.webp" alt="Minh họa Bài 11. Định dạng văn bản" loading="lazy">
+  <div class="hook rd">🎬 Mai nộp bài văn mà chữ đều đều, tiêu đề lẫn với nội dung, cô đọc rất khó. Cô dặn: “Con hãy định dạng lại bài: tiêu đề to và đậm lên, đoạn văn căn đều cho dễ đọc.” Định dạng văn bản là làm gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Định dạng văn bản</b> là thay đổi hình thức trình bày của chữ và đoạn văn để văn bản rõ ràng, dễ đọc và đẹp hơn. Ví dụ: tiêu đề to và đậm, nội dung chữ thường.</li>
+    <li class="rd"><b>Phông chữ</b> là kiểu chữ, ví dụ Times New Roman, Arial. <b>Cỡ chữ</b> là độ to nhỏ của chữ, đo bằng đơn vị pt. Ví dụ: bài văn thường dùng cỡ 13-14 pt.</li>
+    <li class="rd"><b>In đậm (B)</b> dùng để nhấn mạnh ý quan trọng. Ví dụ: tiêu đề bài văn in đậm để người đọc thấy ngay.</li>
+    <li class="rd"><b>In nghiêng (I)</b> dùng cho tên sách, tên bài hát hoặc từ nước ngoài. Ví dụ: tên truyện “Dế Mèn phiêu lưu ký” thường in nghiêng.</li>
+    <li class="rd"><b>Gạch chân (U)</b> cũng dùng để nhấn mạnh một từ hoặc cụm từ. Ví dụ: gạch chân từ khóa trong câu kết luận.</li>
+    <li class="rd"><b>Màu chữ</b> giúp phân biệt các phần, nhưng không nên dùng quá nhiều màu. Vì quá nhiều màu làm văn bản rối mắt, khó đọc.</li>
+    <li class="rd"><b>Căn lề</b> là cách xếp đoạn văn: căn trái, căn giữa, căn phải hoặc căn đều hai bên. Ví dụ: tiêu đề thường căn giữa, nội dung thường căn đều hai bên.</li>
+    <li class="rd">Định dạng phải thống nhất cả bài: cùng một kiểu tiêu đề, cùng một cỡ chữ nội dung. Vì thống nhất thì bài trông gọn gàng và chuyên nghiệp.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Định dạng văn bản để làm gì?</div></div><div class="mini-face mini-back">Để văn bản rõ ràng, dễ đọc và đẹp hơn.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tiêu đề bài văn thường căn kiểu nào?</div></div><div class="mini-face mini-back">Căn giữa và in đậm.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Định dạng văn bản để làm gì?</button><div class="qa-a">Để văn bản rõ ràng, dễ đọc và đẹp hơn, như tiêu đề to và đậm, nội dung dễ theo dõi.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Định dạng văn bản là thay đổi hình thức trình bày của chữ và đoạn văn.</li>
+      <li>Phông chữ là kiểu chữ; cỡ chữ là độ to nhỏ, đo bằng pt.</li>
+      <li>In đậm nhấn mạnh; in nghiêng cho tên sách, từ nước ngoài; gạch chân nhấn mạnh từ khóa.</li>
+      <li>Căn lề có: trái, giữa, phải, đều hai bên; định dạng phải thống nhất cả bài.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="50,51,52,53,54"></div>
+  </div>
+  <a class="next" href="#bai12">✔ Xong Bài 11 → Sang Bài 12: Trình bày thông tin ở dạng bảng ⬇</a>
+</div>
+
+<!-- ================= BÀI 12 ================= -->
+<div class="lesson" id="bai12" style="--c:#2e7d32">
+  <div class="body">
+  <span class="badge">Chủ đề 5: Ứng dụng tin học</span>
+  <h3>Bài 12. Trình bày thông tin ở dạng bảng</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai12.webp" alt="Minh họa Bài 12. Trình bày thông tin ở dạng bảng" loading="lazy">
+  <div class="hook rd">🎬 Lớp 6A có thời khóa biểu dài cả trang giấy, tìm môn học rất lâu. Cô giáo xếp lại thành bảng: cột là thứ, hàng là tiết, nhìn một cái là thấy ngay. Vì sao dạng bảng lại tiện như vậy?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Bảng</b> gồm các <b>hàng</b> (xếp ngang) và các <b>cột</b> (xếp dọc); chỗ hàng gặp cột gọi là <b>ô</b>, mỗi ô chứa một thông tin. Ví dụ: thời khóa biểu có cột “Thứ”, hàng “Tiết 1”, ô giao nhau ghi môn học.</li>
+    <li class="rd">Dạng bảng giúp so sánh và tra cứu nhanh. Ví dụ: muốn biết thứ Tư tiết 3 học gì, em dò đúng hàng và cột là thấy ngay.</li>
+    <li class="rd">Để tạo bảng, em chọn số hàng và số cột rồi nhập dữ liệu vào từng ô. Ví dụ: bảng điểm cần cột “Họ tên”, “Toán”, “Văn” và mỗi bạn một hàng.</li>
+    <li class="rd">Hàng tiêu đề (hàng đầu tiên) thường in đậm và căn giữa để người đọc biết mỗi cột là gì. Ví dụ: hàng “Môn – Điểm” in đậm ở trên cùng bảng điểm.</li>
+    <li class="rd">Em có thể thêm hoặc xóa hàng, cột khi cần, và gộp nhiều ô thành một ô cho tiêu đề lớn. Ví dụ: gộp các ô trên cùng để ghi “BẢNG ĐIỂM LỚP 6A”.</li>
+    <li class="rd">Em có thể tô màu hàng tiêu đề để bảng dễ nhìn hơn. Ví dụ: tô màu xanh nhạt cho hàng tiêu đề.</li>
+    <li class="rd">Bảng trình bày tốt là bảng có tiêu đề rõ, số liệu thẳng hàng, không quá nhiều cột. Vì quá nhiều cột làm bảng chật, khó đọc.</li>
+    <li class="rd">Dạng bảng hợp khi cần so sánh nhiều mục với nhau; dạng đoạn văn hợp khi cần kể chuyện hoặc giải thích dài. Ví dụ: so sánh điểm các bạn thì dùng bảng, kể lại chuyến đi thì dùng đoạn văn.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Hàng và cột trong bảng xếp theo hướng nào?</div></div><div class="mini-face mini-back">Hàng xếp ngang, cột xếp dọc.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Muốn biết thứ Tư tiết 3 học gì thì tra bảng thế nào?</div></div><div class="mini-face mini-back">Dò đúng hàng “Tiết 3” và cột “Thứ Tư”, ô giao nhau ghi môn học.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Bảng gồm những thành phần nào? Ô là gì?</button><div class="qa-a">Bảng gồm hàng (ngang) và cột (dọc); ô là chỗ hàng gặp cột, mỗi ô chứa một thông tin.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Bảng gồm hàng (ngang), cột (dọc); ô là chỗ hàng gặp cột.</li>
+      <li>Dạng bảng giúp so sánh và tra cứu nhanh.</li>
+      <li>Hàng tiêu đề thường in đậm, căn giữa; có thể thêm/xóa hàng, cột, gộp ô, tô màu.</li>
+      <li>Bảng tốt: tiêu đề rõ, số liệu thẳng hàng, không quá nhiều cột.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="55,56,57,58,59"></div>
+  </div>
+  <a class="next" href="#bai13">✔ Xong Bài 12 → Sang Bài 13: Thực hành: Tìm kiếm và thay thế ⬇</a>
+</div>
+
+<!-- ================= BÀI 13 ================= -->
+<div class="lesson" id="bai13" style="--c:#00838f">
+  <div class="body">
+  <span class="badge">Chủ đề 5: Ứng dụng tin học</span>
+  <h3>Bài 13. Thực hành: Tìm kiếm và thay thế</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai13.webp" alt="Minh họa Bài 13. Thực hành: Tìm kiếm và thay thế" loading="lazy">
+  <div class="hook rd">🎬 Bài văn của Mai dài 5 trang, có 20 chỗ viết sai từ “trường” thành “truờng”. Sửa từng chỗ thì rất lâu. Có cách nào sửa cả 20 chỗ cùng lúc không?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Tìm kiếm (Find)</b> là lệnh giúp tìm nhanh một từ trong văn bản dài. Ví dụ: bấm Ctrl+F, gõ “trường”, máy chỉ ngay mọi chỗ có từ đó.</li>
+    <li class="rd"><b>Thay thế (Replace)</b> là lệnh đổi từ cũ thành từ mới. Ví dụ: đổi từ sai “truờng” thành từ đúng “trường”.</li>
+    <li class="rd">Các bước tìm kiếm và thay thế: mở hộp thoại Tìm kiếm và thay thế; gõ từ cần tìm vào ô Tìm; gõ từ mới vào ô Thay thế; bấm Thay thế hoặc Thay tất cả.</li>
+    <li class="rd"><b>Thay thế</b> chỉ đổi một chỗ mà em đang xem. <b>Thay tất cả</b> đổi mọi chỗ có từ đó trong cả bài. Ví dụ: bài có 20 chỗ sai thì Thay tất cả sửa cả 20 chỗ cùng lúc.</li>
+    <li class="rd">Tìm kiếm và thay thế giúp sửa lỗi chính tả rất nhanh. Ví dụ: phát hiện viết sai “truờng”, em tìm và thay bằng “trường” cho cả bài.</li>
+    <li class="rd">Thay tất cả rất tiện nhưng phải cẩn thận: nó đổi mọi chỗ có từ đó, kể cả chỗ em không muốn đổi. Ví dụ: thay “Mai” thành “Lan” thì cả “Mai” trong tên “Mai Anh” cũng bị đổi.</li>
+    <li class="rd">Vì vậy sau khi thay tất cả, em phải đọc lại bài để kiểm tra. Vì có thể một vài chỗ bị đổi sai ý.</li>
+    <li class="rd">Em cũng có thể chọn phân biệt chữ hoa, chữ thường khi tìm. Ví dụ: chỉ tìm “Lan” viết hoa, không tìm “lan” viết thường.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Tìm kiếm giúp gì khi văn bản rất dài?</div></div><div class="mini-face mini-back">Tìm nhanh một từ mà không phải đọc hết cả bài.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thay tất cả tiện nhưng có rủi ro gì?</div></div><div class="mini-face mini-back">Đổi cả chỗ không muốn đổi, nên phải đọc lại kiểm tra.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nêu các bước tìm kiếm và thay thế.</button><div class="qa-a">Mở hộp thoại Tìm kiếm và thay thế; gõ từ cần tìm vào ô Tìm; gõ từ mới vào ô Thay thế; bấm Thay thế hoặc Thay tất cả.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tìm kiếm (Find) giúp tìm nhanh một từ trong văn bản dài.</li>
+      <li>Thay thế (Replace) đổi từ cũ thành từ mới; Thay tất cả đổi mọi chỗ cùng lúc.</li>
+      <li>Tìm và thay giúp sửa lỗi chính tả rất nhanh.</li>
+      <li>Thay tất cả phải đọc lại để kiểm tra, vì có thể đổi cả chỗ không muốn đổi.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="60,61,62,63,64"></div>
+  </div>
+  <a class="next" href="#bai14">✔ Xong Bài 13 → Sang Bài 14: Thực hành tổng hợp: Hoàn thiện Sổ lưu niệm ⬇</a>
+</div>
+
+<!-- ================= BÀI 14 ================= -->
+<div class="lesson" id="bai14" style="--c:#c2185b">
+  <div class="body">
+  <span class="badge">Chủ đề 5: Ứng dụng tin học</span>
+  <h3>Bài 14. Thực hành tổng hợp: Hoàn thiện Sổ lưu niệm</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai14.webp" alt="Minh họa Bài 14. Thực hành tổng hợp: Hoàn thiện Sổ lưu niệm" loading="lazy">
+  <div class="hook rd">🎬 Cuối năm học, lớp 6A muốn làm một cuốn Sổ lưu niệm chung: ảnh chụp, lời nhắn của các bạn, kỷ niệm cả năm. Làm thế nào để cuốn sổ đẹp và hoàn chỉnh?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Sổ lưu niệm</b> là cuốn sổ ghi lại kỷ niệm của lớp: ảnh chụp, lời nhắn, những chuyện vui cả năm. Ví dụ: ảnh dã ngoại, lời chúc của bạn thân.</li>
+    <li class="rd">Hoàn thiện sổ lưu niệm có các bước: thu thập nội dung (ảnh, lời nhắn); sắp xếp theo chủ đề hoặc trình tự thời gian; định dạng văn bản; chèn ảnh và bảng; kiểm tra chính tả; lưu và chia sẻ.</li>
+    <li class="rd">Thu thập nội dung là gom ảnh và lời nhắn từ các bạn. Ví dụ: mỗi bạn gửi 2 ảnh và 1 lời nhắn cho ban biên tập.</li>
+    <li class="rd">Sắp xếp nội dung theo chủ đề hoặc thời gian giúp người đọc theo dõi dễ. Ví dụ: phần “Đầu năm”, phần “Dã ngoại”, phần “Cuối năm”.</li>
+    <li class="rd">Định dạng văn bản làm sổ đẹp hơn: tiêu đề rõ, cỡ chữ vừa, ảnh đặt đúng chỗ. Ví dụ: tiêu đề mỗi phần in đậm, căn giữa.</li>
+    <li class="rd">Làm sổ là làm việc nhóm: phân công rõ ai thu thập ảnh, ai viết lời, ai trình bày. Ví dụ: bạn giỏi vẽ thì trình bày, bạn viết hay thì viết lời.</li>
+    <li class="rd">Khi làm nhóm, em phải tôn trọng ý kiến của bạn và giữ lời lẽ lịch sự. Vì sổ là của chung cả lớp, không phải của riêng một bạn.</li>
+    <li class="rd">Trước khi lưu và chia sẻ, em phải đọc lại để sửa lỗi chính tả, xem ảnh có đúng chỗ không. Vì sổ đã chia sẻ rồi thì khó sửa.</li>
+    <li class="rd">Em chỉ dùng ảnh của lớp và lời nhắn bạn đã đồng ý chia sẻ. Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Sổ lưu niệm của lớp ghi lại những gì?</div></div><div class="mini-face mini-back">Ảnh chụp, lời nhắn, những chuyện vui cả năm của lớp.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Vì sao chỉ dùng ảnh bạn đã đồng ý chia sẻ?</div></div><div class="mini-face mini-back">Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Nêu các bước hoàn thiện sổ lưu niệm.</button><div class="qa-a">Thu thập nội dung; sắp xếp theo chủ đề hoặc thời gian; định dạng văn bản; chèn ảnh và bảng; kiểm tra chính tả; lưu và chia sẻ.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Sổ lưu niệm ghi lại kỷ niệm của lớp: ảnh, lời nhắn, chuyện vui cả năm.</li>
+      <li>Các bước: thu thập, sắp xếp, định dạng, chèn ảnh/bảng, kiểm tra, lưu và chia sẻ.</li>
+      <li>Làm sổ là làm việc nhóm: phân công rõ, tôn trọng ý kiến nhau.</li>
+      <li>Chỉ dùng ảnh và lời nhắn bạn đã đồng ý chia sẻ; đọc lại trước khi lưu.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="65,66,67,68,69"></div>
+  </div>
+  <a class="next" href="#bai15">✔ Xong Bài 14 → Sang Bài 15: Thuật toán ⬇</a>
+</div>
+
+<!-- ================= BÀI 15 ================= -->
+<div class="lesson" id="bai15" style="--c:#1565c0">
+  <div class="body">
+  <span class="badge">Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính</span>
+  <h3>Bài 15. Thuật toán</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai15.webp" alt="Minh họa Bài 15. Thuật toán" loading="lazy">
+  <div class="hook rd">🎬 Mai hướng dẫn em trai pha một cốc trà sữa: “Lấy cốc, cho trà vào, cho sữa vào, khuấy đều, thêm đá.” Em trai làm theo đúng thứ tự thì được cốc trà ngon. Dãy bước làm theo thứ tự đó gọi là gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Thuật toán</b> là dãy các bước làm việc theo thứ tự để giải quyết một việc. Ví dụ: các bước pha trà sữa, các bước tính điểm trung bình.</li>
+    <li class="rd">Thuật toán tốt phải có 3 tính chất: rõ ràng (mỗi bước đều hiểu được), đúng thứ tự (bước nào trước, bước nào sau) và kết thúc (làm xong thì dừng).</li>
+    <li class="rd">Nếu đổi thứ tự các bước, việc có thể hỏng. Ví dụ: chưa cho trà mà đã khuấy thì cốc chỉ có sữa, không thành trà sữa.</li>
+    <li class="rd">Thuật toán có thể mô tả bằng lời (liệt kê các bước) hoặc bằng sơ đồ khối (vẽ các bước thành hình nối bằng mũi tên).</li>
+    <li class="rd">Ví dụ thuật toán tính điểm trung bình: nhập điểm các môn; cộng các điểm lại; chia cho số môn; hiện kết quả.</li>
+    <li class="rd">Cùng một việc có thể có nhiều thuật toán khác nhau. Ví dụ: đi từ nhà đến trường có thể đi đường này hoặc đường kia, đều tới trường.</li>
+    <li class="rd">Thuật toán tốt là thuật toán nhanh, ít bước và dễ hiểu. Ví dụ: cách đi ngắn nhất đến trường tốt hơn cách đi vòng xa.</li>
+    <li class="rd">Máy tính không tự nghĩ ra cách làm; máy chỉ làm theo thuật toán mà con người viết ra. Vì vậy người viết thuật toán phải nghĩ kỹ từng bước.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Thuật toán là gì?</div></div><div class="mini-face mini-back">Dãy các bước theo thứ tự để giải quyết một việc.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Nêu ví dụ một thuật toán tính điểm trung bình.</div></div><div class="mini-face mini-back">Nhập điểm các môn; cộng lại; chia cho số môn; hiện kết quả.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Thuật toán tốt cần có những tính chất nào?</button><div class="qa-a">Rõ ràng (mỗi bước hiểu được), đúng thứ tự và kết thúc (làm xong thì dừng).</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Thuật toán là dãy các bước theo thứ tự để giải quyết một việc.</li>
+      <li>Thuật toán tốt: rõ ràng, đúng thứ tự, kết thúc.</li>
+      <li>Thuật toán mô tả bằng lời hoặc bằng sơ đồ khối.</li>
+      <li>Máy tính chỉ làm theo thuật toán con người viết ra, không tự nghĩ cách làm.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="70,71,72,73,74"></div>
+  </div>
+  <a class="next" href="#bai16">✔ Xong Bài 15 → Sang Bài 16: Cấu trúc điều khiển ⬇</a>
+</div>
+
+<!-- ================= BÀI 16 ================= -->
+<div class="lesson" id="bai16" style="--c:#ef6c00">
+  <div class="body">
+  <span class="badge">Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính</span>
+  <h3>Bài 16. Cấu trúc điều khiển</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai16.webp" alt="Minh họa Bài 16. Cấu trúc điều khiển" loading="lazy">
+  <div class="hook rd">🎬 Robot của Mai được lập trình: “Đi thẳng 3 bước, rẽ phải. Nếu gặp tường thì dừng lại, nếu không thì đi tiếp. Lặp lại 5 lần.” Trong chương trình này có mấy kiểu điều khiển?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Cấu trúc tuần tự</b> là các lệnh chạy lần lượt từ trên xuống dưới, lệnh nào trước làm trước. Ví dụ: robot đi thẳng 3 bước rồi mới rẽ phải.</li>
+    <li class="rd"><b>Cấu trúc rẽ nhánh</b> là: nếu điều kiện đúng thì làm việc này, nếu sai thì làm việc khác. Ví dụ: nếu trời mưa thì mang áo mưa, nếu không mưa thì không mang.</li>
+    <li class="rd"><b>Điều kiện</b> là một câu hỏi chỉ có đúng hoặc sai. Ví dụ: “Trời có mưa không?” — đúng thì mang áo mưa, sai thì thôi.</li>
+    <li class="rd"><b>Cấu trúc lặp</b> là lặp lại một việc nhiều lần. Ví dụ: đọc 10 trang sách mỗi ngày, lặp lại trong 7 ngày.</li>
+    <li class="rd">Lặp có thể lặp số lần biết trước hoặc lặp đến khi điều kiện sai thì dừng. Ví dụ: lặp 5 lần là biết trước; lặp đến khi gặp tường thì dừng là theo điều kiện.</li>
+    <li class="rd">Ba cấu trúc tuần tự, rẽ nhánh và lặp kết hợp với nhau để viết chương trình giải quyết việc phức tạp. Ví dụ: tính điểm cả lớp cần lặp (từng bạn), rẽ nhánh (khen nếu điểm cao), tuần tự (nhập, cộng, chia).</li>
+    <li class="rd">Nếu thiếu rẽ nhánh, chương trình không biết chọn việc khác nhau cho trường hợp khác nhau. Ví dụ: không có rẽ nhánh thì trời mưa hay nắng robot cũng làm một kiểu.</li>
+    <li class="rd">Nếu thiếu lặp, chương trình phải viết lại cùng một lệnh rất nhiều lần. Ví dụ: không có lặp thì muốn đọc 7 ngày phải viết 7 lần “đọc 10 trang”.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Kể tên 3 cấu trúc điều khiển.</div></div><div class="mini-face mini-back">Tuần tự, rẽ nhánh và lặp.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>“Nếu trời mưa thì mang áo mưa” thuộc cấu trúc nào?</div></div><div class="mini-face mini-back">Rẽ nhánh, vì có điều kiện đúng/sai.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Kể tên 3 cấu trúc điều khiển và cho ví dụ mỗi loại.</button><div class="qa-a">Tuần tự (đi thẳng rồi rẽ phải); rẽ nhánh (nếu mưa thì mang áo mưa); lặp (đọc 10 trang mỗi ngày trong 7 ngày).</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Tuần tự: lệnh chạy lần lượt từ trên xuống dưới.</li>
+      <li>Rẽ nhánh: nếu điều kiện đúng làm việc này, sai làm việc khác.</li>
+      <li>Lặp: lặp lại một việc nhiều lần, có thể lặp số lần biết trước hoặc đến khi điều kiện sai.</li>
+      <li>Ba cấu trúc kết hợp để viết chương trình giải quyết việc phức tạp.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="75,76,77,78,79"></div>
+  </div>
+  <a class="next" href="#bai17">✔ Xong Bài 16 → Sang Bài 17: Chương trình máy tính ⬇</a>
+</div>
+
+<!-- ================= BÀI 17 ================= -->
+<div class="lesson" id="bai17" style="--c:#2e7d32">
+  <div class="body">
+  <span class="badge">Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính</span>
+  <h3>Bài 17. Chương trình máy tính</h3>
+  <img class="lesson-cover" src="../hinh-anh/tinhoc/tinhoc-cover-bai17.webp" alt="Minh họa Bài 17. Chương trình máy tính" loading="lazy">
+  <div class="hook rd">🎬 Mai kéo thả các khối lệnh trong Scratch: “Khi bấm cờ xanh, mèo đi 10 bước, kêu meo.” Bấm cờ xanh, mèo làm đúng như vậy. Các khối lệnh đó gọi là gì?</div>
+  <div class="lsbox">
+    <button type="button" class="ls-listen">🔊 Nghe bài này</button>
+    <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
+    <p class="ls-note" hidden></p>
+  </div>
+
+  <ul class="learn">
+    <li class="rd"><b>Chương trình máy tính</b> là tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc. Ví dụ: chương trình tính điểm, trò chơi mèo bắt chuột.</li>
+    <li class="rd"><b>Ngôn ngữ lập trình</b> là ngôn ngữ để con người viết lệnh cho máy hiểu. Ví dụ: Scratch dùng khối lệnh kéo thả, rất hợp với học sinh mới học.</li>
+    <li class="rd"><b>Lập trình</b> là việc viết chương trình. Người lập trình viết lệnh, máy làm theo từng lệnh một cách chính xác.</li>
+    <li class="rd">Chương trình chạy theo 3 bước: nhập dữ liệu, xử lý, xuất kết quả. Ví dụ: nhập điểm các môn, máy tính trung bình, rồi hiện kết quả lên màn hình.</li>
+    <li class="rd">Chương trình có thể bị sai, gọi là <b>lỗi</b>. Ví dụ: viết nhầm lệnh cộng thành lệnh trừ thì kết quả sai.</li>
+    <li class="rd">Khi chương trình sai, người lập trình phải chạy thử, tìm lỗi và sửa lỗi, gọi là <b>gỡ lỗi</b>. Ví dụ: chạy thử thấy kết quả sai thì kiểm tra lại từng lệnh.</li>
+    <li class="rd">Chương trình tốt là chương trình chạy đúng, dễ hiểu và dễ sửa. Vì chương trình khó hiểu thì sau này chính người viết cũng khó sửa.</li>
+    <li class="rd">Em không chạy chương trình lạ không rõ nguồn gốc. Vì chương trình lạ có thể chứa vi-rút làm hỏng máy hoặc lấy cắp thông tin.</li>
+  </ul>
+
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Chương trình máy tính là gì?</div></div><div class="mini-face mini-back">Tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc.</div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><div>Scratch hợp với ai?</div></div><div class="mini-face mini-back">Học sinh mới học lập trình, vì dùng khối lệnh kéo thả.</div></div></div>
+
+  <div class="qa qmini"><button class="qa-q">✔ Vừa rồi: Chương trình chạy theo những bước nào? Cho ví dụ.</button><div class="qa-a">Nhập dữ liệu, xử lý, xuất kết quả. Ví dụ: nhập điểm, tính trung bình, hiện kết quả.</div></div>
+
+  <div class="moc rd">⭐ <b>Điểm cần nhớ:</b>
+    <ul>
+      <li>Chương trình máy tính là tập hợp lệnh viết bằng ngôn ngữ lập trình.</li>
+      <li>Lập trình là viết chương trình; máy làm theo từng lệnh một cách chính xác.</li>
+      <li>Chương trình chạy: nhập dữ liệu, xử lý, xuất kết quả.</li>
+      <li>Chương trình sai gọi là lỗi; tìm và sửa lỗi gọi là gỡ lỗi; không chạy chương trình lạ.</li>
+    </ul>
+  </div>
+
+  <div class="secttl">🃏 Flashcard của bài</div>
+  <div class="fcbox" data-cards="80,81,82,83,84"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Bài 17 → Sang Phần Tổng kết ⬇</a>
+</div>
+
+<div id="sumwrap">
+<div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 17 bài rồi, giỏi lắm! Giờ nhìn lại cả năm học:</p>
+  <ul>
+    <li><b>Chủ đề 1: Máy tính và cộng đồng (Bài 1–3):</b> Thông tin, dữ liệu, xử lý thông tin và thông tin trong máy tính.</li>
+    <li><b>Chủ đề 2: Mạng máy tính và internet (Bài 4–5):</b> Mạng máy tính và Internet toàn cầu.</li>
+    <li><b>Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin (Bài 6–8):</b> Mạng thông tin toàn cầu, tìm kiếm trên Internet và thư điện tử.</li>
+    <li><b>Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số (Bài 9):</b> An toàn thông tin trên Internet.</li>
+    <li><b>Chủ đề 5: Ứng dụng tin học (Bài 10–14):</b> Sơ đồ tư duy, định dạng văn bản, bảng, tìm kiếm và thay thế, sổ lưu niệm.</li>
+    <li><b>Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính (Bài 15–17):</b> Thuật toán, cấu trúc điều khiển và chương trình máy tính.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>🃏 Flashcard TỔNG ÔN — cả 85 thẻ của cả năm học</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt tất cả các thẻ. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="fcbox" data-cards="all"></div>
+</div>
+
+<a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm Tin học 6 (Cả năm học)<small>153 câu hỏi • 3 chế độ: Học tập – Luyện tập – Kiểm tra thử • Câu hỏi xếp từ dễ đến khó, cứ từ từ làm nhé!</small></a>
+<p class="note">📌 Lưu ý: các bài xếp theo thứ tự sách giáo khoa Kết nối tri thức, cả năm học. Phân kỳ học kì 1 / học kì 2 chưa xác nhận theo PPCT của trường em — em cứ học theo thứ tự bài trong sách nhé!</p>
+</div><!-- /#sumwrap -->
+
+<!-- ===== THANH CHẾ ĐỘ XEM (cuối trang) ===== -->
+<div class="viewbar viewbar-b">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+</div>
+
+<footer>
+  <details><summary style="cursor:pointer;font-weight:600;min-height:44px;padding:10px 0">Nguồn hình ảnh (cho thầy cô và ba mẹ)</summary>
+  <b>Nguồn ảnh:</b> môn Tin học 6 hiện chưa có hình minh họa: các thẻ hiện dạng chữ, không có ảnh vỡ. Ảnh sẽ được bổ sung sau theo chuẩn tranh minh họa do AI vẽ.
+  </details>
+  Nội dung bám theo SGK “Tin học 6” — bộ Kết nối tri thức với cuộc sống (cả năm học: Bài 1–17, theo thứ tự SGK; phân kỳ học kì 1 / học kì 2 chưa xác nhận). Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
+</footer>
+
+<script src="cards-data.js"></script>
+<script src="../assets/fc-state.js"></script>
+<script>
+
+/* Mỗi thẻ: [mặt trước (câu hỏi), mặt sau (đáp án), hình gợi nhớ đúng khái niệm của thẻ] */
+/* Du lieu the (flashcard) da tach sang file cards-data.js — dung chung cho trang hoc va trang bai tap. */
+/* Câu hỏi gợi nhớ + kiểm tra nhanh: bấm để hiện/ẩn đáp án */
+document.querySelectorAll('.qa-q').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+/* Thẻ lật mini ⚡ Nhớ nhanh: bấm để lật, không chấm điểm, không lưu trạng thái */
+document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('click',function(){c.classList.toggle('flipped');});});
+/* Flashcard */
+var LSKEY='tinhoc_flash_v1';
+var known={};try{known=JSON.parse(localStorage.getItem(LSKEY)||'{}');}catch(e){known={};}
+var FCIDMAP={}; if(typeof CARDS!=='undefined'){ CARDS.forEach(function(c,ci){ FCIDMAP[ci]='c:'+ci; }); }
+var FSTORE=null,FSNAP={};
+if(window.fcStore){ FSTORE=fcMigrateFlash('tinhoc'); var _mk={}; Object.keys(FCIDMAP).forEach(function(id){ if(FSTORE.isKnown(FCIDMAP[id])){ _mk[id]=true; FSNAP[FCIDMAP[id]]=1; } }); known=_mk; }
+function saveKnown(){ if(FSTORE){ Object.keys(FCIDMAP).forEach(function(id){ var cid=FCIDMAP[id], inK=!!known[id]; if(inK&&!FSNAP[cid]){ FSTORE.setKnown(cid,true); FSNAP[cid]=1; } else if(!inK&&FSNAP[cid]){ FSTORE.setKnown(cid,false); delete FSNAP[cid]; } }); return; } try{localStorage.setItem(LSKEY,JSON.stringify(known));}catch(e){}}
+function totalKnown(){var n=0;for(var k in known){if(known[k])n++;}return n;}
+/* ===== ENGINE FLASHCARD THONG NHAT =====
+   1 the tai 1 thoi diem; the chua thuoc xep truoc. Bam vao the de lat (xoay 3D).
+   Tick "Da thuoc": tick pop + the truot phai; "Chua thuoc": truot trai + ve cuoi hang doi.
+   Thuoc het bo -> khung chuc mung + nut hoc lai tu dau. */
+function fcDeck(box, cfg){
+  var items=cfg.items;
+  var queue=items.map(function(it){return it.id;});
+  queue.sort(function(a,b){return (cfg.isKnown(a)?1:0)-(cfg.isKnown(b)?1:0);});
+  var pos=0, flipped=false, busy=false;
+  box.innerHTML='<div class="fc-card"><div class="fc-pop"></div><div class="fc-inner"><div class="fc-face fc-front"></div><div class="fc-face fc-back"></div></div></div>'
+   +'<div class="fc-btns"><button class="fc-no" data-a="no">↺ Chưa thuộc</button><button class="fc-ok" data-a="ok">✔ Đã thuộc</button></div>'
+   +'<div class="fc-btns"><button data-a="prev">⬅ Trước</button><button data-a="shuffle">🔀 Xáo trộn</button><button data-a="next">Tiếp ➡</button></div>'
+   +'<div class="fc-guide" style="text-align:center;font-size:16px;color:#37474f;margin:8px 0 2px">Bấm vào thẻ để lật xem đáp án. Nhớ rồi thì bấm ✔ Đã thuộc. Chưa nhớ thì bấm ↺ Chưa thuộc — thẻ sẽ quay lại cho em học tiếp, không bị trừ điểm đâu.</div><div class="fc-guardmsg" style="text-align:center;font-size:16px;font-weight:600;color:#b34700;min-height:24px"></div>'
+   +'<div class="fc-bar"><div class="fc-bar-in"></div></div><div class="fc-prog"></div><div class="fc-stat"></div><div class="fc-donebox"></div>';
+  var card=box.querySelector('.fc-card'),front=box.querySelector('.fc-front'),back=box.querySelector('.fc-back'),pop=box.querySelector('.fc-pop'),
+      prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
+  function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
+  function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function render(dir){
+    if(guardMsg)guardMsg.textContent='';
+    if(!queue.length){
+      card.style.display='none';prog.textContent='';
+      doneBox.innerHTML='<div class="fc-done">🎉 Chúc mừng! Em đã thuộc hết bộ thẻ này!<br><button class="fc-restart">↺ Học lại từ đầu</button></div>';
+      doneBox.querySelector('.fc-restart').addEventListener('click',function(){
+        items.forEach(function(it){cfg.setKnown(it.id,false);});
+        queue=items.map(function(it){return it.id;});pos=0;flipped=false;doneBox.innerHTML='';card.style.display='';render();
+      });
+    } else {
+      card.style.display='';doneBox.innerHTML='';
+      var it=byId(queue[pos]);
+      front.innerHTML=it.front;back.innerHTML=it.back;
+      card.classList.toggle('flipped',flipped);
+      card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
+      if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
+      prog.textContent='Thẻ '+(pos+1)+' / '+queue.length;
+    }
+    var k=knownCount();
+    var tt=(cfg.totalText?cfg.totalText():'');
+    stat.textContent='Đã thuộc '+k+'/'+items.length+' thẻ của bộ này'+(tt?(' • '+tt):'');
+    bar.style.width=(items.length?Math.round(k*100/items.length):0)+'%';
+    if(cfg.onRender)cfg.onRender(box);
+  }
+  function go(d){if(!queue.length||busy)return;pos=(pos+d+queue.length)%queue.length;flipped=false;render(d>0?'r':'l');}
+  function tick(ok){
+    if(busy||!queue.length)return;
+    if(!flipped){flipped=true;card.classList.add('flipped');if(guardMsg)guardMsg.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?';return;}
+    busy=true;
+    var id=queue[pos];
+    pop.textContent=ok?'✔':'↺';pop.className='fc-pop '+(ok?'ok':'no');pop.style.display='flex';
+    card.classList.add(ok?'fc-out-r':'fc-out-l');
+    setTimeout(function(){
+      cfg.setKnown(id,ok);
+      queue.splice(pos,1);
+      if(!ok)queue.push(id);
+      if(pos>=queue.length)pos=Math.max(0,queue.length-1);
+      flipped=false;
+      card.classList.remove('fc-out-r','fc-out-l');
+      pop.style.display='none';
+      busy=false;
+      render(ok?'l':'r');
+    },300);
+  }
+  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
+    var a=b.getAttribute('data-a');
+    if(a==='ok')tick(true);else if(a==='no')tick(false);
+    else if(a==='prev')go(-1);else if(a==='next')go(1);
+    else if(a==='shuffle'){for(var i=queue.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=queue[i];queue[i]=queue[j];queue[j]=t;}pos=0;flipped=false;render();}
+  });});
+  render();
+}
+
+document.querySelectorAll('.fcbox').forEach(function(box){
+  var spec=box.getAttribute('data-cards');
+  var idxs=(spec==='all')?CARDS.map(function(_,i){return i;}):spec.split(',').map(Number);
+  var items=idxs.map(function(ci){
+    var c=CARDS[ci];
+    var img=(c[2]&&typeof IMG!=='undefined'&&IMG[c[2]])?'<img src="'+IMG[c[2]]+'" alt="Hình gợi nhớ" loading="lazy">':'';
+    var front=img+'<div>'+c[0]+'</div><div class="fc-hint">(Bấm vào thẻ để lật xem đáp án)</div>';
+    return {id:ci,front:front,back:'<div class="fc-ans"><span class="fc-ans-lb">✅ Đáp án</span>'+c[1]+'</div>'};
+  });
+  fcDeck(box,{items:items,
+    isKnown:function(id){return !!known[id];},
+    setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
+    totalText:function(){ var s='Cả học kì: '+totalKnown()+'/'+CARDS.length+' thẻ'; if(window.FSTORE){ var dn=FSTORE.countDue(Object.keys(FCIDMAP).map(function(k){return FCIDMAP[k];})); if(dn>0) s+=' • Hôm nay ôn lại nhé: '+dn+' thẻ sắp quên'; } return s; }});
+});
+
+/* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
+var VMKEY='tinhoc_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','bai13','bai14','bai15','bai16','bai17','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','Bài 15','Bài 16','Bài 17','🏁 Tổng kết'];
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+PLABELS.forEach(function(lb,i){
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button';
+  b.addEventListener('click',function(){showPage(i,true);});
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
+function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
+function showPage(i,scroll){
+  if(window.__stopRead) window.__stopRead();
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 17':'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='sum';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
+(function(){
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'sum':h);
+  if(ix>=0) curPage=ix;
+})();
+applyMode();
+showPage(curPage,false);
+</script>
+
+<script>
+/* ===== NGHE BÀI bằng speechSynthesis (giọng vi-VN nếu có) — mẫu của trang Ngữ văn =====
+   Đọc theo từng câu/ý ngắn nối tiếp, tô sáng phần đang đọc, có nút Dừng,
+   cảnh báo khi máy chưa có giọng đọc tiếng Việt. */
+(function(){
+  if(!('speechSynthesis' in window)){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
+    return;
+  }
+  var synth=window.speechSynthesis, viVoice=null;
+  var RATEKEY='tinhoc_read_rate', readRate=0.92;
+  try{ var savedRate=parseFloat(localStorage.getItem(RATEKEY)); if([0.78,0.92,1.08].indexOf(savedRate)>=0) readRate=savedRate; }catch(e){}
+  function syncRates(source){
+    document.querySelectorAll('.ls-rate').forEach(function(sel){ if(sel!==source) sel.value=String(readRate); });
+  }
+  document.querySelectorAll('.ls-rate').forEach(function(sel){
+    sel.value=String(readRate);
+    sel.addEventListener('change',function(){
+      var v=parseFloat(sel.value);
+      if([0.78,0.92,1.08].indexOf(v)<0) v=0.92;
+      readRate=v; sel.value=String(v);
+      try{ localStorage.setItem(RATEKEY,String(v)); }catch(e){}
+      syncRates(sel);
+    });
+  });
+  function pickVoice(){
+    var vs=synth.getVoices()||[], fallback=null;
+    viVoice=null;
+    for(var i=0;i<vs.length;i++){
+      var lang=(vs[i].lang||'').toLowerCase().replace('_','-');
+      if(lang==='vi-vn'){ viVoice=vs[i]; break; }
+      if(!fallback && lang.indexOf('vi')===0) fallback=vs[i];
+    }
+    if(!viVoice) viVoice=fallback;
+  }
+  pickVoice();
+  if('onvoiceschanged' in synth){ synth.onvoiceschanged=pickVoice; }
+  var cur=null;
+  function esc(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function splitText(t){
+    var sents=(t||'').match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[t], out=[];
+    function pushPiece(piece){
+      piece=(piece||'').trim();
+      while(piece.length>140){
+        var cut=piece.lastIndexOf(',',139);
+        if(cut<40) cut=piece.lastIndexOf(';',139);
+        if(cut<40) cut=piece.lastIndexOf(':',139);
+        if(cut<40) cut=piece.lastIndexOf(' ',139);
+        if(cut<40){ cut=140; }
+        else if(piece[cut]!==' '){ cut+=1; }
+        out.push(piece.slice(0,cut).trim());
+        piece=piece.slice(cut).trim();
+      }
+      if(piece) out.push(piece);
+    }
+    sents.forEach(pushPiece);
+    return out;
+  }
+  function pushLong(units,t,el){
+    splitText(t).forEach(function(x){ units.push({t:x,el:el}); });
+  }
+  var lastEl=null;
+  function hi(el){
+    if(lastEl) lastEl.classList.remove('rb-on');
+    lastEl=el||null;
+    if(!el) return;
+    el.classList.add('rb-on');
+    var r=el.getBoundingClientRect(), vh=window.innerHeight||600;
+    if(r.top<vh*0.25||r.bottom>vh*0.8){ el.scrollIntoView({block:'center',behavior:'smooth'}); }
+  }
+  function prepare(lesson){
+    if(lesson._units) return lesson._units;
+    var units=[];
+    lesson.querySelectorAll('.rd').forEach(function(el){
+      var txt=(el.textContent||'').replace(/\s+/g,' ').trim();
+      if(!txt) return;
+      if(el.querySelector('b,span,i,em,strong,ul')){ pushLong(units,txt,el); return; }
+      var sents=txt.match(/[^.!?…]+(?:[.!?…]+["”’']*)?/g)||[txt];
+      el.innerHTML=sents.map(function(x){ return '<span class="rb-u">'+esc(x.trim())+'</span>'; }).join(' ');
+      el.querySelectorAll('.rb-u').forEach(function(sp){ pushLong(units,sp.textContent,sp); });
+    });
+    lesson._units=units;
+    return units;
+  }
+  function setBtn(st){
+    document.querySelectorAll('.ls-listen').forEach(function(b){ b.classList.remove('reading'); b.textContent='🔊 Nghe bài này'; });
+    document.querySelectorAll('.ls-stop').forEach(function(b){ b.hidden=true; });
+    if(st){ st.btn.classList.add('reading'); st.btn.textContent='🔊 Đang đọc… (bấm để dừng)'; st.stopBtn.hidden=false; }
+  }
+  function clearTimers(st){
+    if(!st) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    if(st.keepAlive){ clearInterval(st.keepAlive); st.keepAlive=null; }
+  }
+  function stopRead(){
+    if(cur){ cur.dead=true; clearTimers(cur); cur=null; }
+    try{ synth.cancel(); }catch(e){}
+    hi(null); setBtn(null);
+  }
+  window.__stopRead=stopRead;
+  function advanceChunk(st,token){
+    if(cur!==st || st.dead || st.chunkToken!==token) return;
+    if(st.watchdog){ clearTimeout(st.watchdog); st.watchdog=null; }
+    st.idx++; speakNext(st);
+  }
+  function speakNext(st){
+    if(!st||cur!==st||st.dead) return;
+    if(st.idx>=st.units.length){ stopRead(); return; }
+    var unit=st.units[st.idx], token=(st.chunkToken||0)+1;
+    st.chunkToken=token;
+    hi(unit.el);
+    pickVoice();
+    var u=new SpeechSynthesisUtterance(unit.t);
+    u.lang='vi-VN'; u.rate=readRate;
+    if(viVoice){ u.voice=viVoice; u.lang=viVoice.lang||u.lang; }
+    var estimatedMs=Math.min(30000,Math.max(9000,Math.ceil(unit.t.length/(11*readRate)*1000)+5000));
+    st.watchdog=setTimeout(function(){ advanceChunk(st,token); },estimatedMs);
+    u.onend=function(){ advanceChunk(st,token); };
+    u.onerror=function(e){ if(e.error!=='canceled'&&e.error!=='interrupted') advanceChunk(st,token); };
+    try{ synth.speak(u); }catch(e){ advanceChunk(st,token); }
+  }
+  function startRead(lesson){
+    stopRead();
+    var units;
+    try{ units=prepare(lesson); }catch(e){ units=[]; }
+    if(!units.length) return;
+    pickVoice();
+    var note=lesson.querySelector('.ls-note');
+    if(note){
+      if(viVoice){ note.hidden=true; }
+      else{
+        var dv=(synth.getVoices()||[])[0];
+        note.textContent='⚠️ Máy này chưa có giọng đọc tiếng Việt (đang đọc bằng giọng '+(dv?('"'+dv.name+'" '):'mặc định ')+') nên nghe sẽ không đúng tiếng Việt. Khắc phục: mở trang bằng trình duyệt Microsoft Edge, hoặc cài thêm giọng/gói ngôn ngữ Tiếng Việt trong phần cài đặt của máy.';
+        note.hidden=false;
+      }
+    }
+    var st={lesson:lesson,units:units,idx:0,btn:lesson.querySelector('.ls-listen'),stopBtn:lesson.querySelector('.ls-stop'),dead:false,chunkToken:0,watchdog:null,keepAlive:null};
+    cur=st; setBtn(st);
+    st.keepAlive=setInterval(function(){ if(cur===st&&!st.dead&&synth.paused){ try{ synth.resume(); }catch(e){} } },4000);
+    speakNext(st);
+  }
+  document.querySelectorAll('.lesson').forEach(function(lesson){
+    var lb=lesson.querySelector('.ls-listen');
+    if(!lb) return;
+    lb.addEventListener('click',function(){ if(cur&&cur.lesson===lesson){ stopRead(); } else { startRead(lesson); } });
+    lesson.querySelector('.ls-stop').addEventListener('click',function(){ stopRead(); });
+  });
+  window.addEventListener('beforeunload',function(){ try{ synth.cancel(); }catch(e){} });
+})();
+</script>
+
+
+
+
+<script>
+/* ===== CHON BAI GON 2 DONG (v2): thay luoi nut chon bai bang o select "so bai".
+   - Nut trung (thanh tren/duoi) duoc gop theo ma bai (data-i hoac noi dung nut).
+   - Moi thanh dieu huong co mot o select rieng, cac o tu dong bo nhau.
+   - Select van goi click() cua nut bai goc nen giu nguyen logic chuyen bai cua trang. ===== */
+(function(){
+  function rawBtns(){
+    var sels=['#pickrow button','.viewctl .chip','.viewctl .vchip','.nv-chip'];
+    for(var i=0;i<sels.length;i++){ var b=document.querySelectorAll(sels[i]); if(b.length>1) return Array.prototype.slice.call(b); }
+    return [];
+  }
+  function keyOf(b){ var k=b.getAttribute('data-i'); return (k!==null&&k!=='') ? 'i'+k : 't'+b.textContent.replace(/\s+/g,' ').trim(); }
+  function init(){
+    var btns=rawBtns(); if(!btns.length) return false;
+    if(document.querySelector('.bai-sel')) return true;
+    var keys=[], firstByKey={}, containers=[];
+    btns.forEach(function(b){
+      var k=keyOf(b);
+      if(!(k in firstByKey)){ firstByKey[k]=b; keys.push(k); }
+      if(containers.indexOf(b.parentElement)<0) containers.push(b.parentElement);
+    });
+    function navBoxFor(box){
+      var pure=true;
+      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0) pure=false; });
+      if(!pure) return box;
+      var n=document.querySelector('#picker .navrow')||document.querySelector('.prevnext');
+      if(n && box!==n) return n;
+      var vb=box.parentElement.querySelector('.vnavb'); if(vb) return vb.parentElement;
+      return box;
+    }
+    var sels=[];
+    containers.forEach(function(box){
+      var target=navBoxFor(box);
+      var sel=document.createElement('select');
+      sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
+      keys.forEach(function(k){
+        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+      });
+      sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
+      if(target===box) box.insertBefore(sel, box.firstChild);
+      else target.insertBefore(sel, target.firstChild);
+      sels.push(sel);
+      if(target!==box) box.style.display='none';
+      else btns.forEach(function(b){ if(b.parentElement===box) b.style.display='none'; });
+    });
+    function syncAll(){
+      var cur=null;
+      btns.forEach(function(b){ if(b.classList.contains('on')) cur=keyOf(b); });
+      if(cur===null) return;
+      sels.forEach(function(s){ if(s.value!==cur) s.value=cur; });
+    }
+    new MutationObserver(function(){ setTimeout(syncAll,30); }).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class']});
+    syncAll();
+    return true;
+  }
+  if(!init()){
+    var n=0, iv=setInterval(function(){ n++; if(init()||n>20) clearInterval(iv); },300);
+    document.addEventListener('DOMContentLoaded', init);
+  }
+})();
+</script>
+
+</body>
+</html>

@@ -1,8 +1,17 @@
-# Tiếng Anh 6 — Học kì 1 (sách Global Success)
+# Tiếng Anh 6 — Cả năm học (sách Global Success)
 
 Module học + ôn tập Tiếng Anh lớp 6, xây dựng ngày 21/10/2026 theo cấu trúc **từng Unit khép kín**, thiên về kỹ năng và tự diễn đạt (môn tự luận là chính): mục tiêu là trẻ **thấm bài và theo kịp bài trên lớp**, không phải chép đáp án. Chỉ build local; việc push GitHub do người phụ trách soát lại.
 
-> **Dòng chữ đề xuất cho thẻ môn học ở trang chủ** (agent chính thêm sau): `🔤 Tiếng Anh 6 — Học kì 1 • 6 Unit Global Success: từ vựng có hình + nghe phát âm, flashcard, luyện tập & 48 câu trắc nghiệm`
+> **Dòng chữ đề xuất cho thẻ môn học ở trang chủ** (agent chính thêm sau): `🔤 Tiếng Anh 6 — Cả năm học • 12 Unit Global Success: từ vựng có hình + nghe phát âm, flashcard, luyện tập & 96 câu trắc nghiệm`
+
+
+## Cập nhật 25/10/2026 — mở rộng cả năm học (HK2)
+
+- Thêm **Unit 7–12** vào trang học theo đúng khung HK1 (hook, lưới từ vựng, 2 thẻ ⚡ Nhớ nhanh, sơ đồ ngữ pháp 4 nhánh, giao tiếp, bài tập A/B, bài viết nhỏ, flashcard của Unit) + cập nhật Tổng kết (12 Unit, bảng ngữ pháp 12 Unit).
+- Trắc nghiệm **48 → 96 câu** (8/Unit, id liên tục); `quiz.html` mở rộng `LESSON_NAMES` lên 12 Unit, giữ nguyên khối `PERIODS` và hàm `speak()` en-US, thang khen 4 mức.
+- **Gắn ảnh: HK1 35 ảnh + HK2 57 ảnh + 6 ảnh bìa Unit 1–6** vào `cards-data.js` (trường `img`, đồng thời bỏ emoji khi đã có ảnh — đúng quy ước sẵn có), `flashcards.json` (trường `fi`) và `minicards.json` (23/24 thẻ có `fi`; 1 thẻ từ trừu tượng `environment` giữ dạng chữ). 15 từ trừu tượng giữ emoji, không gắn ảnh sai nghĩa. Quiz chỉ gắn `fi` khi `img` tồn tại nên không vỡ ảnh.
+- Ảnh bìa Unit 7–12 chưa có — Unit HK2 hiện chưa có ảnh bìa, chỉ có ảnh thẻ từ.
+- **Chưa chắc, cần đối chiếu SGK giấy:** trọng âm `motorhome`, cách viết `hi-tech`/`high-tech`, chính tả `recognise` (s) / `recognize` (z); các mục ngữ pháp HK2 là tóm tắt do trang tự viết theo chủ đề Unit (không trích nguyên văn SGK); phân kỳ HK1/HK2 theo thứ tự SGK, **chưa xác nhận PPCT** của trường bé.
 
 ## Cấu trúc trang học tập (`index.html`)
 
@@ -40,6 +49,12 @@ Mobile-first: dùng tốt ở 375px (điện thoại), 768px (iPad) và desktop.
 | 4 | My Neighbourhood | địa điểm trong khu phố, chỉ đường (12 từ) | So sánh hơn của tính từ |
 | 5 | Natural Wonders of Viet Nam | kì quan thiên nhiên, đồ đi tham quan (12 từ) | So sánh nhất + must/mustn't |
 | 6 | Our Tet Holiday | phong tục, hoạt động ngày Tết (12 từ) | should/shouldn't + some/any |
+| 7 | Television | chương trình truyền hình (12 từ) | Từ để hỏi + and/but/so |
+| 8 | Sports and games | môn thể thao, thi đấu (12 từ) | Quá khứ đơn |
+| 9 | Cities of the world | thành phố, địa danh (12 từ) | Hiện tại hoàn thành |
+| 10 | Our houses in the future | nhà tương lai (12 từ) | will / might |
+| 11 | Our greener world | môi trường, bảo vệ Trái Đất (12 từ) | Câu điều kiện loại 1 |
+| 12 | Robots | rô-bốt, khả năng (12 từ) | can / will be able to |
 
 Từ vựng và phiên âm đối chiếu theo danh mục từ vựng SGK tổng hợp tại langgo.edu.vn; nội dung bài học (từ, ví dụ, bài tập) do người biên soạn tự viết theo đúng trọng tâm SGK, **không sao chép bài tập của Duolingo/Quizlet hay của SGK** — chỉ học cơ chế tổ chức (từ kèm hình + nghe + lặp lại ngắt quãng kiểu Duolingo; thẻ hai mặt kiểu Quizlet; chia nhỏ kỹ năng theo chủ đề).
 
@@ -47,11 +62,11 @@ Từ vựng và phiên âm đối chiếu theo danh mục từ vựng SGK tổng
 
 | Hạng mục | Số lượng |
 |---|---|
-| Unit | 6 |
-| Thẻ từ vựng (= flashcard) | 73 (Unit 1: 13, Unit 2–6: 12/Unit) — 38 thẻ có hình (toàn bộ là tranh minh họa gen AI: 16 tranh sua-* đợt rà soát + 22 tranh thay ảnh chụp 2026-10-21) + 35 emoji minh họa |
-| Cặp hỏi–đáp giao tiếp | 20 (U1: 4, U2: 4, U3–U6: 3) |
-| Bài tập điền từ + sắp xếp câu | 36 câu tự chấm (mỗi Unit 4 + 2) + 6 bài viết theo mẫu |
-| Câu trắc nghiệm | 48 (8/Unit), phân bố đáp án 12/12/12/12 |
+| Unit | 12 |
+| Thẻ từ vựng (= flashcard) | 145 (Unit 1: 13, Unit 2–12: 12/Unit) — 130 thẻ có hình (tranh minh họa do AI vẽ) + 15 thẻ dùng emoji (từ trừu tượng: channel, educational, boring, beautiful, exciting, future, wireless, automatic, hi-tech, environment, reduce, understand, recognise, intelligent, helpful) |
+| Cặp hỏi–đáp giao tiếp | 44 (HK1: 20; HK2: 24, mỗi Unit 4) |
+| Bài tập điền từ + sắp xếp câu | 72 câu tự chấm (mỗi Unit 4 + 2) + 12 bài viết theo mẫu |
+| Câu trắc nghiệm | 96 (8/Unit); phân kỳ thi thử/luyện tập: Giữa HK1 ≤ Unit 3, Cuối HK1 ≤ Unit 6, Giữa HK2 ≤ Unit 9, Cuối HK2 = tất cả (theo thứ tự SGK, chưa xác nhận PPCT) |
 
 ## Nguồn ảnh — đã kiểm chứng khớp từ và còn sống
 

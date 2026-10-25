@@ -1,0 +1,597 @@
+[
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Thông tin là gì?",
+    "a": "Là những gì em biết được về người, vật và sự việc quanh mình. Ví dụ: hôm nay trời nắng.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Dữ liệu là gì?",
+    "a": "Là thông tin đã được ghi lại dưới dạng số, chữ, hình ảnh hoặc âm thanh. Ví dụ: số 30 ghi số bạn trong lớp.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Em nhận thông tin bằng gì?",
+    "a": "Bằng các giác quan: mắt nhìn, tai nghe, mũi ngửi, tay sờ. Ví dụ: mắt thấy đèn đỏ thì biết phải dừng.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Dữ liệu có những dạng nào?",
+    "a": "Chữ viết, số, hình ảnh, âm thanh, video. Ví dụ: bài hát là dữ liệu âm thanh.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Vì sao cần ghi thông tin thành dữ liệu?",
+    "a": "Để lưu lại lâu và xử lý nhanh. Ví dụ: máy tính cộng điểm cả lớp trong vài giây.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Xử lý thông tin là gì?",
+    "a": "Là nhận thông tin, biến đổi nó rồi đưa ra kết quả có ích. Ví dụ: nghe điểm các môn rồi tính điểm trung bình.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "4 bước xử lý thông tin là gì?",
+    "a": "Thu nhận, xử lý, lưu trữ và truyền thông tin.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Lưu trữ thông tin là gì?",
+    "a": "Là cất giữ thông tin để dùng lại sau. Ví dụ: ghi điểm vào sổ, lưu bài vào máy tính.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Truyền thông tin là gì?",
+    "a": "Là gửi thông tin cho người khác. Ví dụ: nói cho mẹ biết điểm, gửi tin nhắn cho bạn.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Máy tính khác con người ở điểm nào khi xử lý thông tin?",
+    "a": "Máy tính xử lý bằng bộ xử lý theo chương trình; con người xử lý bằng não.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Bit là gì?",
+    "a": "Là đơn vị nhỏ nhất của thông tin trong máy tính, chỉ nhận 2 giá trị 0 hoặc 1.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Byte là gì?",
+    "a": "Là nhóm 8 bit, dùng làm đơn vị đo lượng thông tin thường gặp.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Vì sao máy tính dùng dãy 0 và 1?",
+    "a": "Vì mạch điện tử chỉ phân biệt được 2 trạng thái có điện và không có điện.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Một bài hát và một bộ phim, cái nào thường nặng hơn?",
+    "a": "Bộ phim nặng hơn: bài hát khoảng vài MB, phim khoảng vài GB.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Khi mở ảnh, máy tính làm gì?",
+    "a": "Máy đổi dãy bit đã lưu thành hình ảnh cho em nhìn thấy.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Mạng máy tính là gì?",
+    "a": "Là các máy tính và thiết bị nối với nhau để chia sẻ dữ liệu và dùng chung thiết bị.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Nêu 2 lợi ích của mạng máy tính.",
+    "a": "Dùng chung thiết bị, dữ liệu và liên lạc nhanh giữa mọi người.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Mạng LAN là gì?",
+    "a": "Là mạng nhỏ trong một phòng, một nhà, một trường. Ví dụ: mạng phòng máy của trường.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Mạng WAN là gì?",
+    "a": "Là mạng nối nhiều mạng nhỏ ở xa nhau, như giữa các tỉnh, các nước.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Vì sao vi-rút nguy hiểm với mạng máy tính?",
+    "a": "Vì vi-rút ở một máy có thể lan sang máy khác qua mạng.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Internet là gì?",
+    "a": "Là mạng máy tính toàn cầu, nối hàng tỉ thiết bị trên khắp thế giới với nhau.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Muốn lên mạng cần những gì?",
+    "a": "Thiết bị (máy tính hoặc điện thoại), đường truyền (Wi-Fi hoặc 4G) và nhà cung cấp dịch vụ.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Website là gì?",
+    "a": "Là một trang thông tin trên Internet, mỗi trang có địa chỉ riêng.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Trình duyệt web dùng để làm gì?",
+    "a": "Để mở các website. Ví dụ: Chrome, Cốc Cốc, Edge.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Vì sao không nên tin ngay mọi thông tin trên mạng?",
+    "a": "Vì có cả tin giả. Em phải kiểm tra nguồn trước khi tin.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Mạng thông tin toàn cầu (Web) là gì?",
+    "a": "Là hệ thống các trang web liên kết với nhau trên Internet.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Địa chỉ web (URL) dùng để làm gì?",
+    "a": "Là địa chỉ riêng của mỗi trang, giúp trình duyệt tìm đúng trang.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Liên kết (link) là gì?",
+    "a": "Là chữ hoặc hình bấm vào để nhảy sang trang khác.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Web khác Internet thế nào?",
+    "a": "Internet là mạng (đường đi); Web là dịch vụ chạy trên Internet (các trang web).",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Muốn xem Web, em cần làm gì?",
+    "a": "Mở trình duyệt web rồi gõ địa chỉ trang hoặc bấm vào liên kết.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Công cụ tìm kiếm là gì?",
+    "a": "Là trang web giúp em tìm các trang khác theo từ khóa. Ví dụ: Google.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Từ khóa là gì?",
+    "a": "Là từ hoặc cụm từ mô tả điều em cần tìm. Ví dụ: muốn tìm về sao Hỏa thì gõ “sao Hỏa”.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Vì sao nên dùng từ khóa cụ thể?",
+    "a": "Vì từ khóa càng cụ thể, kết quả càng đúng ý em.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Tìm chưa ra thì làm gì?",
+    "a": "Thử đổi từ khóa khác cùng nghĩa.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Đánh giá kết quả tìm kiếm bằng cách nào?",
+    "a": "Xem trang có đáng tin không, ai viết, đăng từ khi nào, và đối chiếu thêm 1-2 nguồn khác.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Thư điện tử là gì?",
+    "a": "Là thư gửi qua mạng Internet, đến nơi gần như ngay lập tức.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Địa chỉ email gồm những phần nào?",
+    "a": "Phần trước dấu @ là tên hộp thư của em, phần sau dấu @ là tên nhà cung cấp dịch vụ.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Thư nháp là gì?",
+    "a": "Là thư em viết dở, chưa gửi, máy lưu lại để em viết tiếp sau.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Gửi thư điện tử gồm mấy bước?",
+    "a": "3 bước: nhập địa chỉ người nhận, viết tiêu đề và nội dung, rồi bấm Gửi.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Vì sao phải cẩn thận với thư lạ?",
+    "a": "Vì thư lạ có thể chứa vi-rút hoặc link lừa đảo.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Thông tin cá nhân là gì?",
+    "a": "Là thông tin riêng của em: họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Mật khẩu mạnh là mật khẩu thế nào?",
+    "a": "Dài, gồm chữ hoa, chữ thường, số và ký tự đặc biệt. Ví dụ: “Mai@2026Hoc” mạnh hơn “123456”.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Gặp tin nhắn trúng thưởng kèm link, em làm gì?",
+    "a": "Không bấm link, không nhập mật khẩu, không gửi tiền, báo ngay cho người lớn.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Bị bắt nạt qua mạng, em làm gì?",
+    "a": "Không đáp trả, lưu lại bằng chứng và báo thầy cô hoặc người lớn.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Dùng mạng có văn hóa là thế nào?",
+    "a": "Không nói xấu, không chia sẻ tin chưa kiểm chứng, không xem nội dung không phù hợp lứa tuổi.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Sơ đồ tư duy là gì?",
+    "a": "Là cách trình bày ý tưởng bằng hình ảnh: ý chính ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Sơ đồ tư duy giúp gì cho việc học?",
+    "a": "Giúp nhìn thấy toàn bộ bài trong một hình, nhớ nhanh và sắp xếp ý rõ ràng.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Mỗi nhánh trong sơ đồ ghi gì?",
+    "a": "Một ý, bằng từ ngắn gọn, không viết cả đoạn dài.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Vì sao nên dùng màu sắc và hình vẽ trong sơ đồ?",
+    "a": "Vì màu và hình giúp não nhớ tốt hơn và phân biệt các nhánh nhanh hơn.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Vẽ sơ đồ bằng phần mềm có lợi gì?",
+    "a": "Vẽ đẹp, sửa dễ, lưu lại và chia sẻ cho bạn được.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Định dạng văn bản là gì?",
+    "a": "Là thay đổi hình thức trình bày của chữ và đoạn văn để văn bản rõ ràng, dễ đọc và đẹp hơn.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Phông chữ và cỡ chữ là gì?",
+    "a": "Phông chữ là kiểu chữ, ví dụ Times New Roman; cỡ chữ là độ to nhỏ của chữ, đo bằng pt.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "In đậm dùng để làm gì?",
+    "a": "Để nhấn mạnh ý quan trọng. Ví dụ: tiêu đề bài văn in đậm.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "In nghiêng dùng cho trường hợp nào?",
+    "a": "Cho tên sách, tên bài hát hoặc từ nước ngoài.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Căn lề có những kiểu nào?",
+    "a": "Căn trái, căn giữa, căn phải và căn đều hai bên.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Bảng gồm những gì?",
+    "a": "Gồm hàng (xếp ngang) và cột (xếp dọc); chỗ hàng gặp cột gọi là ô.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Ô trong bảng là gì?",
+    "a": "Là chỗ hàng gặp cột, mỗi ô chứa một thông tin.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Dạng bảng tiện ở điểm nào?",
+    "a": "Giúp so sánh và tra cứu nhanh. Ví dụ: dò đúng hàng và cột là thấy môn học.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Hàng tiêu đề thường trình bày thế nào?",
+    "a": "In đậm và căn giữa để người đọc biết mỗi cột là gì.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Khi nào nên dùng bảng, khi nào nên dùng đoạn văn?",
+    "a": "So sánh nhiều mục thì dùng bảng; kể chuyện, giải thích dài thì dùng đoạn văn.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Tìm kiếm (Find) là gì?",
+    "a": "Là lệnh giúp tìm nhanh một từ trong văn bản dài. Ví dụ: bấm Ctrl+F, gõ “trường”, máy chỉ ngay mọi chỗ có từ đó.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Thay thế (Replace) là gì?",
+    "a": "Là lệnh đổi từ cũ thành từ mới. Ví dụ: đổi từ sai “truờng” thành “trường”.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Thay thế khác Thay tất cả ở điểm nào?",
+    "a": "Thay thế chỉ đổi một chỗ đang xem; Thay tất cả đổi mọi chỗ có từ đó trong cả bài.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Vì sao sau khi Thay tất cả phải đọc lại bài?",
+    "a": "Vì nó đổi mọi chỗ có từ đó, kể cả chỗ em không muốn đổi.",
+    "fi": ""
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Phím tắt mở Tìm kiếm là gì?",
+    "a": "Ctrl+F.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Sổ lưu niệm là gì?",
+    "a": "Là cuốn sổ ghi lại kỷ niệm của lớp: ảnh chụp, lời nhắn, những chuyện vui cả năm.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Hoàn thiện sổ lưu niệm gồm những bước nào?",
+    "a": "Thu thập nội dung; sắp xếp; định dạng văn bản; chèn ảnh và bảng; kiểm tra chính tả; lưu và chia sẻ.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Sắp xếp nội dung theo gì thì dễ theo dõi?",
+    "a": "Theo chủ đề hoặc trình tự thời gian. Ví dụ: “Đầu năm”, “Dã ngoại”, “Cuối năm”.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Làm sổ theo nhóm cần phân công thế nào?",
+    "a": "Rõ ai thu thập ảnh, ai viết lời, ai trình bày, theo sở trường của từng bạn.",
+    "fi": ""
+  },
+  {
+    "b": 14,
+    "t": "fc",
+    "f": "Trước khi lưu và chia sẻ sổ, em phải làm gì?",
+    "a": "Đọc lại để sửa lỗi chính tả và xem ảnh có đúng chỗ không.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "fc",
+    "f": "Thuật toán là gì?",
+    "a": "Là dãy các bước làm việc theo thứ tự để giải quyết một việc. Ví dụ: các bước pha trà sữa.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "fc",
+    "f": "Thuật toán tốt cần những tính chất nào?",
+    "a": "Rõ ràng, đúng thứ tự và kết thúc.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "fc",
+    "f": "Vì sao không được đổi thứ tự các bước?",
+    "a": "Vì đổi thứ tự thì việc có thể hỏng. Ví dụ: chưa cho trà mà đã khuấy thì không thành trà sữa.",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "fc",
+    "f": "Thuật toán mô tả bằng những cách nào?",
+    "a": "Bằng lời (liệt kê các bước) hoặc bằng sơ đồ khối (vẽ các bước nối bằng mũi tên).",
+    "fi": ""
+  },
+  {
+    "b": 15,
+    "t": "fc",
+    "f": "Máy tính có tự nghĩ ra thuật toán không?",
+    "a": "Không, máy chỉ làm theo thuật toán con người viết ra.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "fc",
+    "f": "Cấu trúc tuần tự là gì?",
+    "a": "Là các lệnh chạy lần lượt từ trên xuống dưới, lệnh nào trước làm trước.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "fc",
+    "f": "Cấu trúc rẽ nhánh là gì?",
+    "a": "Là: nếu điều kiện đúng thì làm việc này, nếu sai thì làm việc khác.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "fc",
+    "f": "Điều kiện là gì?",
+    "a": "Là câu hỏi chỉ có đúng hoặc sai. Ví dụ: “Trời có mưa không?”",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "fc",
+    "f": "Cấu trúc lặp là gì?",
+    "a": "Là lặp lại một việc nhiều lần. Ví dụ: đọc 10 trang sách mỗi ngày trong 7 ngày.",
+    "fi": ""
+  },
+  {
+    "b": 16,
+    "t": "fc",
+    "f": "Ba cấu trúc kết hợp để làm gì?",
+    "a": "Để viết chương trình giải quyết việc phức tạp.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "fc",
+    "f": "Chương trình máy tính là gì?",
+    "a": "Là tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "fc",
+    "f": "Ngôn ngữ lập trình là gì?",
+    "a": "Là ngôn ngữ để con người viết lệnh cho máy hiểu. Ví dụ: Scratch dùng khối lệnh kéo thả.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "fc",
+    "f": "Lập trình là gì?",
+    "a": "Là việc viết chương trình. Người viết lệnh, máy làm theo từng lệnh.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "fc",
+    "f": "Chương trình chạy theo những bước nào?",
+    "a": "Nhập dữ liệu, xử lý, xuất kết quả.",
+    "fi": ""
+  },
+  {
+    "b": 17,
+    "t": "fc",
+    "f": "Gỡ lỗi là gì?",
+    "a": "Là chạy thử, tìm lỗi và sửa lỗi khi chương trình chạy sai.",
+    "fi": ""
+  }
+]

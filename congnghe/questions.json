@@ -1051,5 +1051,590 @@
     "answer": 0,
     "bai": 9,
     "explanation": "Thời trang thay đổi chủ yếu vì sở thích và cuộc sống của con người luôn thay đổi theo thời gian, nên kiểu quần áo cũng thay đổi theo."
+  },
+  {
+    "id": 82,
+    "question": "Đồ dùng điện trong gia đình là gì?",
+    "options": [
+      "A. Đồ dùng biến điện thành năng lượng khác",
+      "B. Đồ dùng chỉ để trang trí cho nhà đẹp hơn",
+      "C. Đồ dùng chạy bằng pin mặt trời duy nhất",
+      "D. Đồ dùng không cần điện vẫn hoạt động được"
+    ],
+    "answer": 0,
+    "explanation": "Đồ dùng điện biến điện năng thành dạng năng lượng khác. Ví dụ: đèn biến điện thành ánh sáng, quạt biến điện thành chuyển động.",
+    "bai": 10
+  },
+  {
+    "id": 83,
+    "question": "Đèn điện thuộc nhóm đồ dùng điện nào?",
+    "options": [
+      "A. Nhóm điện – cơ",
+      "B. Nhóm điện – nhiệt",
+      "C. Nhóm điện – quang",
+      "D. Nhóm điện – nước"
+    ],
+    "answer": 2,
+    "explanation": "Đèn điện thuộc nhóm điện – quang vì nó biến điện năng thành ánh sáng. Nhóm điện – quang gồm các loại đèn.",
+    "bai": 10
+  },
+  {
+    "id": 84,
+    "question": "Nồi cơm điện thuộc nhóm đồ dùng điện nào?",
+    "options": [
+      "A. Nhóm điện – quang",
+      "B. Nhóm điện – nhiệt",
+      "C. Nhóm điện – cơ",
+      "D. Nhóm điện – lạnh"
+    ],
+    "answer": 1,
+    "explanation": "Nồi cơm điện thuộc nhóm điện – nhiệt vì nó biến điện năng thành nhiệt để nấu chín cơm.",
+    "bai": 10
+  },
+  {
+    "id": 85,
+    "question": "Quạt điện thuộc nhóm đồ dùng điện nào?",
+    "options": [
+      "A. Nhóm điện – quang",
+      "B. Nhóm điện – nhiệt",
+      "C. Nhóm điện – từ",
+      "D. Nhóm điện – cơ"
+    ],
+    "answer": 3,
+    "explanation": "Quạt điện thuộc nhóm điện – cơ vì nó biến điện năng thành chuyển động quay của cánh quạt, tạo ra gió.",
+    "bai": 10
+  },
+  {
+    "id": 86,
+    "question": "Trên đồ dùng điện ghi 220V. Con số đó có nghĩa là gì?",
+    "options": [
+      "A. Đồ dùng nặng 220 gam khi mang đi",
+      "B. Đồ dùng dùng được trong 220 ngày liền luôn",
+      "C. Điện áp định mức, hoạt động tốt ở 220V",
+      "D. Đồ dùng có giá 220 nghìn đồng chẵn"
+    ],
+    "answer": 2,
+    "explanation": "220V là điện áp định mức, tức điện áp giúp đồ dùng hoạt động tốt nhất. Ở nước ta, điện lưới gia đình là 220V.",
+    "bai": 10
+  },
+  {
+    "id": 87,
+    "question": "Trên đồ dùng điện ghi 1000W. Con số đó có nghĩa là gì?",
+    "options": [
+      "A. Công suất định mức là 1000 oát",
+      "B. Đồ dùng nặng 1000 gam khi mang đi",
+      "C. Đồ dùng dùng được 1000 giờ liên tục",
+      "D. Đồ dùng cao 1000 mi-li-mét chẵn"
+    ],
+    "answer": 0,
+    "explanation": "1000W là công suất định mức, tức mức điện năng đồ dùng tiêu thụ khi hoạt động. Công suất càng lớn thì càng tốn điện.",
+    "bai": 10
+  },
+  {
+    "id": 88,
+    "question": "Vì sao phải dùng đồ dùng điện đúng với điện áp định mức?",
+    "options": [
+      "A. Để đồ dùng chạy nhanh hơn bình thường",
+      "B. Để đồ dùng bền và an toàn hơn",
+      "C. Để đồ dùng có màu sắc đẹp mắt hơn",
+      "D. Để đồ dùng nhẹ hơn khi cầm trên tay"
+    ],
+    "answer": 1,
+    "explanation": "Dùng đúng điện áp giúp đồ dùng bền và an toàn. Điện áp quá cao có thể làm cháy đồ dùng, quá thấp làm đồ dùng chạy yếu.",
+    "bai": 10
+  },
+  {
+    "id": 89,
+    "question": "Trong hai đồ dùng cùng loại, đồ nào tốn điện hơn?",
+    "options": [
+      "A. Đồ có công suất định mức nhỏ hơn",
+      "B. Đồ có màu sáng hơn các đồ còn lại",
+      "C. Đồ có kích thước nhỏ hơn hẳn các đồ khác",
+      "D. Đồ có công suất định mức lớn hơn"
+    ],
+    "answer": 3,
+    "explanation": "Đồ có công suất định mức lớn hơn sẽ tốn điện hơn khi dùng cùng thời gian. Ví dụ: bếp 2000W tốn điện hơn đèn 20W.",
+    "bai": 10
+  },
+  {
+    "id": 90,
+    "question": "Trước khi mua đồ dùng điện, em cần xem số liệu nào?",
+    "options": [
+      "A. Chỉ xem màu sắc bên ngoài đồ dùng đó",
+      "B. Chỉ xem đồ dùng có đẹp hay không thôi",
+      "C. Xem điện áp và công suất ghi trên đồ",
+      "D. Chỉ xem đồ dùng do nước nào làm ra"
+    ],
+    "answer": 2,
+    "explanation": "Trước khi mua, em xem điện áp và công suất định mức ghi trên đồ dùng. Nhờ đó em biết đồ dùng có hợp với điện nhà mình và tốn bao nhiêu điện.",
+    "bai": 10
+  },
+  {
+    "id": 91,
+    "question": "Đèn sợi đốt phát sáng bằng cách nào?",
+    "options": [
+      "A. Dùng tia hồng ngoại để phát sáng",
+      "B. Đốt nóng dây tóc đến khi phát sáng",
+      "C. Dùng nam châm để tạo ra ánh sáng mạnh",
+      "D. Dùng pin mặt trời để phát sáng"
+    ],
+    "answer": 1,
+    "explanation": "Đèn sợi đốt đốt nóng dây tóc vonfram đến khi phát sáng. Vì phần lớn điện biến thành nhiệt nên đèn này tốn điện.",
+    "bai": 11
+  },
+  {
+    "id": 92,
+    "question": "Đèn nào sau đây tiết kiệm điện nhất?",
+    "options": [
+      "A. Đèn LED",
+      "B. Đèn huỳnh quang",
+      "C. Đèn sợi đốt",
+      "D. Đèn dầu"
+    ],
+    "answer": 0,
+    "explanation": "Đèn LED tiết kiệm điện nhất trong ba loại. Đèn LED còn bền và ít nóng hơn đèn sợi đốt.",
+    "bai": 11
+  },
+  {
+    "id": 93,
+    "question": "Ưu điểm lớn nhất của đèn LED là gì?",
+    "options": [
+      "A. Rẻ nhất trong các loại đèn hiện nay",
+      "B. Sáng màu vàng ấm duy nhất mà thôi",
+      "C. Tiết kiệm điện, bền và ít tỏa nhiệt",
+      "D. Không cần điện vẫn sáng được lâu"
+    ],
+    "answer": 2,
+    "explanation": "Đèn LED tiết kiệm điện, bền và ít tỏa nhiệt. Vì vậy đèn LED ngày càng được dùng nhiều trong gia đình.",
+    "bai": 11
+  },
+  {
+    "id": 94,
+    "question": "Đèn huỳnh quang tiết kiệm điện hơn đèn sợi đốt vì sao?",
+    "options": [
+      "A. Vì đèn huỳnh quang to hơn đèn khác",
+      "B. Vì đèn huỳnh quang có màu trắng sáng",
+      "C. Vì đèn huỳnh quang không cần điện",
+      "D. Vì ít biến điện thành nhiệt khi sáng"
+    ],
+    "answer": 3,
+    "explanation": "Đèn huỳnh quang dùng bột huỳnh quang phát sáng nên ít biến điện thành nhiệt. Nhờ vậy nó tiết kiệm điện hơn đèn sợi đốt.",
+    "bai": 11
+  },
+  {
+    "id": 95,
+    "question": "Khi thay bóng đèn bị hỏng, em phải làm gì trước tiên?",
+    "options": [
+      "A. Ngắt điện rồi mới thay bóng đèn hỏng",
+      "B. Thay ngay khi đèn còn đang bật sáng",
+      "C. Tay ướt vẫn thay bóng đèn được bình thường",
+      "D. Đứng lên ghế cao chông chênh để thay"
+    ],
+    "answer": 0,
+    "explanation": "Ngắt điện rồi mới thay bóng đèn để tránh bị điện giật. Trẻ em nên nhờ người lớn thay giúp.",
+    "bai": 11
+  },
+  {
+    "id": 96,
+    "question": "Bóng đèn huỳnh quang bị vỡ, em nên làm gì?",
+    "options": [
+      "A. Dùng tay nhặt mảnh vỡ ngay lập tức",
+      "B. Quét mảnh vỡ vào gầm giường cho gọn gàng hơn",
+      "C. Báo người lớn dọn giúp, không nhặt tay",
+      "D. Để nguyên mảnh vỡ trên sàn nhà luôn"
+    ],
+    "answer": 2,
+    "explanation": "Bóng đèn huỳnh quang vỡ có mảnh sắc và chất không tốt cho sức khỏe. Em báo người lớn dọn giúp, không dùng tay nhặt.",
+    "bai": 11
+  },
+  {
+    "id": 97,
+    "question": "Chọn đèn cho bàn học thì cần gì nhất?",
+    "options": [
+      "A. Đèn càng to thì càng tốt cho mắt",
+      "B. Đủ sáng, không chói mắt khi đọc sách",
+      "C. Đèn có màu sắc sặc sỡ bắt mắt nhất",
+      "D. Đèn nhấp nháy nhiều màu cho vui mắt hơn"
+    ],
+    "answer": 1,
+    "explanation": "Đèn bàn học cần đủ sáng và không chói mắt. Ánh sáng tốt giúp em đọc sách không mỏi mắt.",
+    "bai": 11
+  },
+  {
+    "id": 98,
+    "question": "Vì sao gia đình nên dùng đèn LED thay đèn sợi đốt?",
+    "options": [
+      "A. Vì đèn LED nặng hơn đèn sợi đốt",
+      "B. Vì đèn LED cần điện áp cao hơn hẳn nữa",
+      "C. Vì đèn LED nhanh hỏng hơn đèn khác",
+      "D. Vì đèn LED tiết kiệm điện và bền hơn"
+    ],
+    "answer": 3,
+    "explanation": "Đèn LED tiết kiệm điện và bền hơn đèn sợi đốt. Dùng đèn LED giúp nhà em giảm tiền điện mỗi tháng.",
+    "bai": 11
+  },
+  {
+    "id": 99,
+    "question": "Đèn sợi đốt có nhược điểm gì lớn nhất?",
+    "options": [
+      "A. Tốn điện, tuổi thọ thấp vì thành nhiệt",
+      "B. Không phát ra ánh sáng dù đã có điện vào",
+      "C. Chỉ dùng được vào ban ngày khi có nắng",
+      "D. Không lắp được vào đui đèn thông thường"
+    ],
+    "answer": 0,
+    "explanation": "Đèn sợi đốt tốn điện và tuổi thọ thấp vì phần lớn điện biến thành nhiệt thay vì ánh sáng. Vì vậy ngày nay ít người dùng đèn sợi đốt.",
+    "bai": 11
+  },
+  {
+    "id": 100,
+    "question": "Nồi cơm điện thuộc nhóm đồ dùng điện nào?",
+    "options": [
+      "A. Nhóm điện – quang",
+      "B. Nhóm điện – cơ",
+      "C. Nhóm điện – nhiệt",
+      "D. Nhóm điện – lạnh"
+    ],
+    "answer": 2,
+    "explanation": "Nồi cơm điện thuộc nhóm điện – nhiệt vì nó biến điện năng thành nhiệt để nấu chín cơm.",
+    "bai": 12
+  },
+  {
+    "id": 101,
+    "question": "Bộ phận nào của nồi cơm điện làm nóng để nấu cơm?",
+    "options": [
+      "A. Dây nguồn điện của nồi cơm điện dài",
+      "B. Mâm nhiệt ở đáy nồi cơm điện",
+      "C. Nắp nồi cơm điện bên trên",
+      "D. Quai xách của nồi cơm điện"
+    ],
+    "answer": 1,
+    "explanation": "Mâm nhiệt ở đáy nồi là bộ phận làm nóng để nấu cơm. Khi có điện, mâm nhiệt nóng lên và truyền nhiệt vào nồi trong.",
+    "bai": 12
+  },
+  {
+    "id": 102,
+    "question": "Nút giữ ấm của nồi cơm điện dùng để làm gì?",
+    "options": [
+      "A. Giữ cơm ấm sau khi cơm đã chín",
+      "B. Nấu cơm nhanh hơn bình thường",
+      "C. Tắt hẳn nồi cơm điện ngay lập tức",
+      "D. Làm cơm nguội nhanh hơn để ăn"
+    ],
+    "answer": 0,
+    "explanation": "Nút giữ ấm giữ cơm ấm sau khi cơm đã chín. Nhờ đó cả nhà ăn cơm lúc nào cũng ấm, ngon.",
+    "bai": 12
+  },
+  {
+    "id": 103,
+    "question": "Trước khi đặt nồi trong vào nồi cơm điện, em cần làm gì?",
+    "options": [
+      "A. Đổ thêm nước vào mâm nhiệt của nồi",
+      "B. Để nồi trong còn ướt sũng nước",
+      "C. Bỏ gạo khô vào nồi không cần nước",
+      "D. Lau khô mặt ngoài của nồi trong"
+    ],
+    "answer": 3,
+    "explanation": "Lau khô mặt ngoài nồi trong giúp nồi tiếp xúc tốt với mâm nhiệt và tránh chập điện. Nồi ướt đặt vào rất nguy hiểm.",
+    "bai": 12
+  },
+  {
+    "id": 104,
+    "question": "Vì sao không nên mở nắp nồi cơm nhiều lần khi đang nấu?",
+    "options": [
+      "A. Vì mở nắp làm cơm ngon hơn hẳn",
+      "B. Vì hơi thoát ra làm cơm lâu chín, tốn điện",
+      "C. Vì mở nắp giúp cơm chín nhanh hơn",
+      "D. Vì mở nắp không ảnh hưởng gì đến cơm đâu nhé"
+    ],
+    "answer": 1,
+    "explanation": "Mở nắp nhiều lần làm hơi nóng thoát ra, cơm lâu chín và tốn điện. Em chờ cơm chín rồi mới mở nắp.",
+    "bai": 12
+  },
+  {
+    "id": 105,
+    "question": "Tay ướt có được cắm điện nồi cơm không?",
+    "options": [
+      "A. Được, vì nồi cơm có vỏ cách điện tốt lắm",
+      "B. Được, nếu cắm điện thật nhanh tay",
+      "C. Không, tay ướt cắm điện rất dễ bị giật",
+      "D. Được, nếu chân đi dép nhựa trong nhà"
+    ],
+    "answer": 2,
+    "explanation": "Tay ướt cắm điện rất dễ bị điện giật vì nước dẫn điện. Em lau khô tay rồi mới cắm điện.",
+    "bai": 12
+  },
+  {
+    "id": 106,
+    "question": "Sau khi cơm chín và cả nhà ăn xong, em nên làm gì với nồi cơm?",
+    "options": [
+      "A. Rút phích điện ra khỏi ổ cắm điện",
+      "B. Để nồi cắm điện cả ngày dài không rút",
+      "C. Đổ nước vào nồi đang cắm điện",
+      "D. Mang nồi đi cất khi nồi còn nóng"
+    ],
+    "answer": 0,
+    "explanation": "Rút phích điện sau khi dùng xong giúp tiết kiệm điện và an toàn. Để nồi cắm điện cả ngày vừa tốn điện vừa dễ gây sự cố.",
+    "bai": 12
+  },
+  {
+    "id": 107,
+    "question": "Để tiết kiệm điện khi nấu cơm, em nên làm gì?",
+    "options": [
+      "A. Nấu thật nhiều cơm rồi bỏ đi thừa nhiều",
+      "B. Mở nắp nồi liên tục trong khi nấu",
+      "C. Hâm cơm đi hâm lại nhiều lần liền",
+      "D. Nấu lượng cơm vừa đủ ăn, không thừa"
+    ],
+    "answer": 3,
+    "explanation": "Nấu lượng cơm vừa đủ ăn giúp không lãng phí gạo và điện. Hâm đi hâm lại nhiều lần cũng tốn điện.",
+    "bai": 12
+  },
+  {
+    "id": 108,
+    "question": "Vệ sinh nồi cơm điện thế nào là đúng?",
+    "options": [
+      "A. Dội nước vào nồi khi còn cắm điện",
+      "B. Ngắt điện, để nguội rồi mới lau chùi",
+      "C. Lau mâm nhiệt khi mâm còn đang nóng",
+      "D. Dùng vật sắc cạo mạnh lòng nồi trong"
+    ],
+    "answer": 1,
+    "explanation": "Ngắt điện và để nguội rồi mới lau chùi để tránh bị giật và bị bỏng. Lòng nồi chống dính cần lau nhẹ tay cho bền.",
+    "bai": 12
+  },
+  {
+    "id": 109,
+    "question": "Bếp hồng ngoại thuộc nhóm đồ dùng điện nào?",
+    "options": [
+      "A. Nhóm điện – nhiệt",
+      "B. Nhóm điện – quang",
+      "C. Nhóm điện – cơ",
+      "D. Nhóm điện – lạnh"
+    ],
+    "answer": 0,
+    "explanation": "Bếp hồng ngoại thuộc nhóm điện – nhiệt vì nó biến điện năng thành nhiệt để nấu chín thức ăn.",
+    "bai": 13
+  },
+  {
+    "id": 110,
+    "question": "Bếp hồng ngoại làm nóng thức ăn bằng cách nào?",
+    "options": [
+      "A. Dùng lửa than để nấu chín thức ăn",
+      "B. Dùng quạt thổi hơi nóng vào nồi nấu ăn liền",
+      "C. Dùng nước sôi để nấu chín thức ăn",
+      "D. Dùng tia hồng ngoại làm nóng bếp, nồi"
+    ],
+    "answer": 3,
+    "explanation": "Bếp hồng ngoại dùng tia hồng ngoại làm nóng mặt bếp và đáy nồi. Nhờ đó thức ăn trong nồi được nấu chín.",
+    "bai": 13
+  },
+  {
+    "id": 111,
+    "question": "Bếp hồng ngoại có kén nồi như bếp từ không?",
+    "options": [
+      "A. Có, chỉ dùng được nồi inox mà thôi",
+      "B. Không, dùng được nhiều loại nồi",
+      "C. Có, chỉ dùng được nồi đất nung thôi",
+      "D. Không dùng được nồi nào cả khi nấu"
+    ],
+    "answer": 1,
+    "explanation": "Bếp hồng ngoại không kén nồi, dùng được nồi inox, nồi nhôm hay nồi đất. Đây là một ưu điểm của bếp hồng ngoại.",
+    "bai": 13
+  },
+  {
+    "id": 112,
+    "question": "Sau khi vừa nấu xong, mặt bếp hồng ngoại như thế nào?",
+    "options": [
+      "A. Mát ngay lập tức sau khi tắt bếp luôn",
+      "B. Lạnh như đá sau khi vừa nấu xong",
+      "C. Rất nóng, không được chạm tay vào",
+      "D. Khô ráo và an toàn để chạm vào"
+    ],
+    "answer": 2,
+    "explanation": "Sau khi nấu xong, mặt bếp hồng ngoại còn rất nóng. Chạm tay vào sẽ bị bỏng nên em phải chờ bếp nguội.",
+    "bai": 13
+  },
+  {
+    "id": 113,
+    "question": "Muốn nấu nhanh hay chậm với bếp hồng ngoại thì em làm gì?",
+    "options": [
+      "A. Chỉnh mức nhiệt trên bảng điều khiển",
+      "B. Nhấc nồi lên khỏi bếp liên tục khi nấu",
+      "C. Đổ thêm nước lạnh vào bếp đang nấu",
+      "D. Tắt bếp rồi bật lại nhiều lần liền"
+    ],
+    "answer": 0,
+    "explanation": "Điều chỉnh mức nhiệt độ trên bảng điều khiển để nấu nhanh hay chậm tùy món. Món canh cần lửa nhỏ, món xào cần lửa lớn.",
+    "bai": 13
+  },
+  {
+    "id": 114,
+    "question": "Vật nào sau đây không được để gần bếp hồng ngoại đang nấu?",
+    "options": [
+      "A. Nồi nấu ăn đang dùng trên bếp",
+      "B. Muỗng gỗ để nấu ăn hàng ngày trong bếp",
+      "C. Đĩa đựng thức ăn đã nấu chín",
+      "D. Khăn vải, giấy và vật dễ cháy khác"
+    ],
+    "answer": 3,
+    "explanation": "Khăn vải, giấy và vật dễ cháy để gần bếp đang nấu rất dễ bắt lửa. Em giữ những vật này xa bếp.",
+    "bai": 13
+  },
+  {
+    "id": 115,
+    "question": "Trẻ em có được tự ý dùng bếp hồng ngoại một mình không?",
+    "options": [
+      "A. Có, trẻ em dùng bếp thoải mái một mình",
+      "B. Không, dùng khi người lớn hướng dẫn",
+      "C. Có, nếu trẻ em đã biết đọc các số",
+      "D. Có, trẻ em dùng bếp vào buổi tối"
+    ],
+    "answer": 1,
+    "explanation": "Trẻ em chỉ dùng bếp khi có người lớn hướng dẫn vì bếp rất nóng và dùng điện. Người lớn sẽ chỉ em cách dùng an toàn.",
+    "bai": 13
+  },
+  {
+    "id": 116,
+    "question": "Khi nào mới được lau chùi bếp hồng ngoại?",
+    "options": [
+      "A. Ngay khi vừa tắt bếp, mặt bếp còn nóng hổi",
+      "B. Khi bếp đang nấu thức ăn trên bếp",
+      "C. Khi bếp đã nguội hẳn và đã ngắt điện",
+      "D. Khi tay còn ướt chưa lau khô hẳn"
+    ],
+    "answer": 2,
+    "explanation": "Khi bếp đã nguội hẳn và đã ngắt điện mới lau chùi được. Lau khi bếp còn nóng sẽ bị bỏng, lau khi tay ướt dễ bị giật.",
+    "bai": 13
+  },
+  {
+    "id": 117,
+    "question": "Để tiết kiệm điện khi dùng bếp hồng ngoại, em nên làm gì?",
+    "options": [
+      "A. Mở nắp nồi suốt trong khi đang nấu",
+      "B. Nấu với mức nhiệt lớn nhất mọi món ăn",
+      "C. Để bếp bật cả ngày dù không nấu gì",
+      "D. Đậy nắp nồi, chọn mức nhiệt vừa đủ"
+    ],
+    "answer": 3,
+    "explanation": "Đậy nắp nồi và chọn mức nhiệt vừa đủ giúp thức ăn chín nhanh và tốn ít điện. Mở nắp suốt làm nhiệt thoát ra ngoài.",
+    "bai": 13
+  },
+  {
+    "id": 118,
+    "question": "Tay ướt mà chạm vào ổ điện thì có nguy hiểm gì?",
+    "options": [
+      "A. Không sao vì ổ điện trong nhà rất nhỏ",
+      "B. Rất dễ bị điện giật vì nước dẫn điện",
+      "C. Chỉ hơi tê tay một chút rồi hết ngay",
+      "D. Chỉ nguy hiểm với người lớn mà thôi"
+    ],
+    "answer": 1,
+    "explanation": "Tay ướt chạm vào ổ điện rất dễ bị điện giật vì nước dẫn điện. Em lau khô tay rồi mới chạm vào đồ điện.",
+    "bai": 14
+  },
+  {
+    "id": 119,
+    "question": "Cắm quá nhiều đồ điện vào một ổ cắm thì có sao không?",
+    "options": [
+      "A. Không sao, ổ cắm nào cũng chịu được",
+      "B. Chỉ làm đồ điện chạy chậm hơn một chút",
+      "C. Ổ cắm quá tải có thể nóng và gây cháy",
+      "D. Chỉ tốn tiền điện hơn một chút mà thôi"
+    ],
+    "answer": 2,
+    "explanation": "Một ổ cắm quá nhiều đồ sẽ quá tải, nóng lên và có thể gây cháy. Em không cắm chồng nhiều phích vào một ổ.",
+    "bai": 14
+  },
+  {
+    "id": 120,
+    "question": "Đồ điện trong nhà bị hỏng, em nên làm gì?",
+    "options": [
+      "A. Báo người lớn, gọi thợ sửa giúp",
+      "B. Tự tháo đồ điện ra sửa ngay lập tức",
+      "C. Vẫn dùng tiếp dù đồ đã bị hỏng",
+      "D. Giấu đồ hỏng đi không cho ai biết"
+    ],
+    "answer": 0,
+    "explanation": "Đồ điện hỏng thì báo người lớn và gọi thợ sửa, không tự sửa. Tự sửa đồ điện rất dễ bị giật.",
+    "bai": 14
+  },
+  {
+    "id": 121,
+    "question": "Việc nào sau đây giúp tiết kiệm điện trong gia đình?",
+    "options": [
+      "A. Bật đèn cả ngày dù trời đang sáng",
+      "B. Mở tủ lạnh thật lâu để chọn đồ ăn",
+      "C. Để ti vi bật suốt ngày dù không xem",
+      "D. Tắt đèn, quạt khi ra khỏi phòng học"
+    ],
+    "answer": 3,
+    "explanation": "Tắt đèn và quạt khi ra khỏi phòng giúp nhà em tốn ít điện hơn. Mỗi người tiết kiệm một chút, tiền điện giảm nhiều.",
+    "bai": 14
+  },
+  {
+    "id": 122,
+    "question": "Vì sao nên rút phích cắm khi không dùng đồ điện nữa?",
+    "options": [
+      "A. Vì phích cắm để lâu sẽ bị gỉ sét",
+      "B. Vì đồ điện sẽ chạy nhanh hơn sau đó",
+      "C. Vì đồ vẫn tốn ít điện ở chế độ chờ",
+      "D. Vì ổ cắm để trống sẽ đẹp mắt hơn"
+    ],
+    "answer": 2,
+    "explanation": "Đồ điện vẫn tốn một ít điện ở chế độ chờ dù không dùng. Rút phích cắm giúp tiết kiệm điện và an toàn hơn.",
+    "bai": 14
+  },
+  {
+    "id": 123,
+    "question": "Dự án kiểm tra an toàn điện trong nhà gồm việc gì?",
+    "options": [
+      "A. Xem dây hở, ổ quá tải rồi báo người lớn",
+      "B. Chỉ cần nhìn qua nhà một lượt là xong việc",
+      "C. Tự sửa hết mọi chỗ hỏng trong nhà",
+      "D. Không cần kiểm tra vì nhà mới xây"
+    ],
+    "answer": 0,
+    "explanation": "Dự án kiểm tra gồm xem dây điện có hở không và ổ cắm có quá tải không, rồi báo người lớn xử lí. Phát hiện sớm giúp nhà em an toàn.",
+    "bai": 14
+  },
+  {
+    "id": 124,
+    "question": "Thấy dây điện bị hở vỏ, em nên làm gì?",
+    "options": [
+      "A. Dùng tay bọc dây lại bằng vải khô",
+      "B. Không chạm vào, báo người lớn ngay",
+      "C. Dán băng keo lên dây rồi dùng tiếp",
+      "D. Cắm điện thử xem dây còn dùng được"
+    ],
+    "answer": 1,
+    "explanation": "Dây điện hở vỏ rất dễ gây giật, em không chạm vào mà báo người lớn ngay. Người lớn sẽ gọi thợ sửa hoặc thay dây mới.",
+    "bai": 14
+  },
+  {
+    "id": 125,
+    "question": "Dùng đèn LED thay đèn sợi đốt giúp gia đình điều gì?",
+    "options": [
+      "A. Tốn điện nhiều hơn đèn sợi đốt",
+      "B. Sáng yếu hơn hẳn đèn sợi đốt",
+      "C. Nhanh hỏng hơn đèn sợi đốt rất nhiều lần",
+      "D. Tiết kiệm điện vì LED tốn ít điện"
+    ],
+    "answer": 3,
+    "explanation": "Đèn LED tốn ít điện hơn đèn sợi đốt mà vẫn đủ sáng. Thay đèn LED giúp nhà em giảm tiền điện.",
+    "bai": 14
+  },
+  {
+    "id": 126,
+    "question": "Em nhắc cả nhà tiết kiệm điện bằng cách nào hiệu quả?",
+    "options": [
+      "A. Chỉ nhắc một lần rồi thôi không nhắc",
+      "B. Tự tắt hết đồ khi người khác đang dùng",
+      "C. Làm bảng nhắc tắt đèn, rút phích điện",
+      "D. Không nói gì vì đó là việc người lớn"
+    ],
+    "answer": 2,
+    "explanation": "Làm bảng nhắc dán ở cửa phòng giúp cả nhà nhớ tắt đèn và rút phích khi không dùng. Cả nhà cùng làm thì tiết kiệm được nhiều.",
+    "bai": 14
   }
 ]

@@ -82,5 +82,89 @@
   "f": "Nhìn hình: điểm mạnh của bạn gái là gì?",
   "a": "Bạn vẽ tranh giỏi — vẽ là điểm mạnh của bạn.",
   "fi": "../hinh-anh/gdcd/bai6-diem-manh.webp"
- }
+ },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Nguyên tắc ứng phó nguy hiểm là gì?",
+    "a": "Bình tĩnh, tránh xa nguy hiểm, kêu cứu và báo người lớn. Ví dụ: có cháy thì chạy ra ngoài rồi mới gọi 114.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Bị lạc ở chợ thì làm gì?",
+    "a": "Đứng yên ở chỗ dễ thấy và nhờ cô bán hàng hoặc chú bảo vệ giúp gọi người nhà.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Tiết kiệm nghĩa là gì?",
+    "a": "Dùng vừa đủ, không lãng phí. Ví dụ: tắt đèn khi ra khỏi phòng, lấy cơm vừa ăn.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Mỗi ngày em tiết kiệm được bằng cách nào?",
+    "a": "Tắt điện khi không dùng, khóa vòi nước ngay sau khi rửa, giữ gìn đồ dùng cho bền.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Công dân là ai?",
+    "a": "Là người có quốc tịch của một nước, ví dụ công dân Việt Nam là người có quốc tịch Việt Nam.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Quyền và nghĩa vụ đi với nhau thế nào?",
+    "a": "Quyền và nghĩa vụ đi đôi với nhau: em có quyền đi học thì cũng có nghĩa vụ học tập tốt.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Quyền là gì?",
+    "a": "Quyền là điều mình được hưởng theo pháp luật, ví dụ quyền đi học và quyền được bảo vệ.",
+    "fi": ""
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Nghĩa vụ là gì?",
+    "a": "Nghĩa vụ là điều mình phải làm theo pháp luật, ví dụ học tập chăm chỉ và giữ gìn tài sản công.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Trẻ em là ai?",
+    "a": "Là người dưới 16 tuổi theo Luật Trẻ em, được hưởng các quyền riêng dành cho mình.",
+    "fi": ""
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "4 nhóm quyền của trẻ em là gì?",
+    "a": "Là quyền sống còn, quyền phát triển, quyền bảo vệ và quyền tham gia.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Quyền đi đôi với bổn phận nghĩa là gì?",
+    "a": "Là vừa được hưởng quyền, vừa phải làm tròn bổn phận, ví dụ được đi học thì phải học chăm chỉ.",
+    "fi": ""
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Khi bị xâm phạm quyền thì làm gì?",
+    "a": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 để được bảo vệ.",
+    "fi": ""
+  }
 ]

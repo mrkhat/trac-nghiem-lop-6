@@ -1,4 +1,4 @@
-# Khoa học tự nhiên 6 — Giữa kì 1 (sách Kết nối tri thức)
+# Khoa học tự nhiên 6 — Cả năm học (sách Kết nối tri thức)
 
 Mục môn Khoa học tự nhiên 6 trong web trắc nghiệm Lớp 6, gồm **2 phần theo thứ tự học** (nâng cấp 2026-10-21 theo nguyên tắc chung: học tập theo lộ trình có hình ảnh làm trước, trắc nghiệm làm sau — cùng khuôn với mục Lịch sử 6):
 
@@ -128,3 +128,17 @@ Quy tắc của user: hạn chế tối đa chữ tiếng Anh/ngôn ngữ khác 
 ## Địa phương hoá ảnh (21/10/2026)
 
 Toàn bộ 13 ảnh thật của module (ảnh bài học + ảnh flashcard trong `FLASH`) trước đây hotlink từ Wikimedia Commons nay đã **tải về thành file thật** trong thư mục chuyên hình ảnh **`hinh-anh/khtn/`** ở gốc repo; mọi tham chiếu trong `index.html` đã đổi sang `../hinh-anh/khtn/<file>` (51 chỗ). Hai biểu tượng nguồn SVG (GHS, tái chế) được tải ở bản PNG 900px; ảnh kính hiển vi (PNG gốc 686 KB) nén lại sang WebP 20 KB. Các sơ đồ flashcard tự vẽ SVG inline (`FC_SVG`) không thay đổi. Danh mục file → vị trí dùng → nguồn gốc: xem `hinh-anh/README.md`. Đã kiểm chứng HTTP 200 cho mọi đường dẫn nội bộ; `questions.json` giữ nguyên md5 `1d0b3bdf…`.
+
+## Tích hợp HK2 — cả năm học (2026-10-25)
+
+Trang học và trang quiz nay bao phủ **cả năm học: 52 bài, 418 câu trắc nghiệm** (id 1–418 liên tục), **259 flashcard + 104 thẻ nhớ nhanh** (tổng ôn 363 thẻ). Đánh số bài trên trang (site `bai`) giữ nguyên theo dữ liệu: HK1 bài 1–13; HK2 bài 14–22 (SGK 13, 14, 15, 16, 17, 19, 20, 21, 24) và bài 26–55 (SGK 25–39, 41–55). **Các số bài 23, 24, 25 không có bài nào** (xem quyết định SGK Bài 22 bên dưới) — danh sách bài, ô chọn bài và thanh chọn bài liệt kê đủ 52 bài liên tiếp, không hiện khoảng trống cho bé thấy. Nội dung bài học HK2 (mục tiêu, nội dung, thẻ nhớ nhanh, điểm cần nhớ, sơ đồ tư duy, câu gợi nhớ) được soạn từ chính dữ liệu đã có (flashcard, thẻ nhớ nhanh, câu trắc nghiệm của bài), không bịa thêm; thẻ HK2 chưa có ảnh nên chỉ hiện dạng chữ (đã gắn guard: không render `<img>` khi không có ảnh thật, tránh `src="undefined"`).
+
+**Số câu theo kỳ thi** (quy tắc kỳ = mọi câu có `bai` ≤ max của kỳ, giữ nguyên khối `PERIODS` trong `quiz.html`): Giữa HK1 = 23 câu (bai ≤ 7), Cuối HK1 = 67 câu (bai ≤ 13), Giữa HK2 = 229 câu (bai ≤ 34), Cuối HK2 = 418 câu (tất cả). Phân kỳ HK1/HK2 theo thứ tự SGK, **chưa xác nhận PPCT của trường**.
+
+**Quyết định SGK Bài 22 "Cơ thể sinh vật" — không làm bài riêng.** Nội dung cốt lõi của bài này (các cấp độ tổ chức từ tế bào tới cơ thể; cơ thể đơn bào – đa bào) đã có trong HK1 **Bài 12 "Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể"** (tế bào → mô → cơ quan → hệ cơ quan → cơ thể; đơn bào: tảo lục, vi khuẩn lam) và được thực hành lại ở **Bài 22 "Thực hành: Quan sát và mô tả cơ thể đơn bào và cơ thể đa bào"** (SGK 24). Vì vậy không tạo bài riêng cho SGK 22; các số bài trang 23–25 để trống.
+
+**Các bài SGK đã gộp trong HK1** (theo bảng đối chiếu tiêu đề trong `quiz-team/topics-hk2-khtn-lichsu-dialy-nguvan.md`): Bài 12 của trang gộp SGK 18 + 23; Bài 13 của trang ứng với SGK 40 ("Biểu diễn lực" — SGK 41 — là bài riêng, không trùng: lõi mới là biểu diễn lực bằng mũi tên, điểm đặt, tỉ lệ xích, HK1 chưa nhắc tới).
+
+**Sửa lỗi gộp dữ liệu (2026-10-25, quan trọng):** đội biên soạn nửa sau đã gộp nhầm 30 bài (bai 26–55) vào trong đối tượng `FC_SVG` của `cards-data.js` thay vì `FLASH`, khiến flashcard của 30 bài này không hiện ở trang học và trang quiz (dù `node --check` vẫn đạt vì chỉ kiểm tra cú pháp). Đã chuyển 30 khóa bai 26–55 sang `FLASH` đúng chỗ, `FC_SVG` chỉ còn 9 sơ đồ (clock, thermo, states, change, ruler, balance, spring, cell, pie); kiểm chứng: `FLASH` đủ 52 khóa, 259 thẻ, khớp 1–1 với 259 thẻ `fc` trong `flashcards.json`.
+
+**Sửa ảnh sai (2026-10-25):** ảnh tế bào nhân sơ cũ (`fc-sua-te-bao-nhan-so.webp`) trước đây bị gắn nhầm vào thẻ nhớ nhanh Bài 12 "Bộ phận nào là trung tâm điều khiển của tế bào?" (thẻ `mn` số 81 trong `flashcards.json`, thẻ nhớ nhanh tương ứng trong `minicards.json` và thẻ nhớ nhanh tĩnh trong `index.html`). Đã đổi 3 chỗ này sang ảnh tế bào nhân thực mới `hinh-anh/khtn/fc-te-bao-nhan-thuc.webp` (tế bào nhân thực, nhân tròn lớn); ảnh cũ giữ nguyên cho đúng thẻ "vùng nhân" của tế bào nhân sơ (thẻ `fc` số 79) và thẻ `fc` "Trung tâm điều khiển" vẫn dùng sơ đồ SVG `cell`.

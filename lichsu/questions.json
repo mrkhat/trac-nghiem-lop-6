@@ -1103,5 +1103,1058 @@
     ],
     "question": "Một thế kỉ bằng bao nhiêu năm?",
     "bai": 2
+  },
+  {
+    "answer": 0,
+    "explanation": "Từ thế kỉ VII, nhờ lúa nước và buôn bán phát triển, các bộ lạc hợp lại thành vương quốc do vua đứng đầu. Nhà nước đó gọi là vương quốc phong kiến.",
+    "id": 86,
+    "options": [
+      "A. Vương quốc phong kiến",
+      "B. Nhà nước dân chủ do dân bầu ra",
+      "C. Bộ lạc nguyên thủy sống riêng lẻ",
+      "D. Đế quốc La Mã ở châu Âu"
+    ],
+    "question": "Từ thế kỉ VII, ở Đông Nam Á đã hình thành loại nhà nước nào?",
+    "bai": 11
+  },
+  {
+    "answer": 1,
+    "explanation": "Vua đứng đầu vương quốc, quan lại giúp vua cai trị. Nông dân nộp thuế và đi lao dịch, tức làm việc không công cho nhà nước.",
+    "id": 87,
+    "options": [
+      "A. Tù trưởng",
+      "B. Vua",
+      "C. Thương nhân",
+      "D. Nhà sư"
+    ],
+    "question": "Ai đứng đầu vương quốc phong kiến?",
+    "bai": 11
+  },
+  {
+    "answer": 2,
+    "explanation": "Đông Nam Á nằm giữa Ấn Độ và Trung Quốc, tàu buôn qua lại phải ghé mua bán nên các vương quốc thu được nhiều thuế và hàng hóa.",
+    "id": 88,
+    "options": [
+      "A. Vì trong lòng đất đào được nhiều vàng bạc quý",
+      "B. Vì dân số đông nên buôn bán mạnh",
+      "C. Vì nằm trên đường biển Ấn Độ – Trung Quốc",
+      "D. Vì có nhiều voi chiến để chở hàng"
+    ],
+    "question": "Vì sao các vương quốc Đông Nam Á giàu lên nhờ buôn bán?",
+    "bai": 11
+  },
+  {
+    "answer": 3,
+    "explanation": "Sri-vi-giay-a nằm ở đảo Xu-ma-tra (nay thuộc In-đô-nê-xi-a). Nhờ làm chủ eo biển Ma-lắc-ca, vương quốc này giàu lên nhờ buôn bán.",
+    "id": 89,
+    "options": [
+      "A. Lưu vực sông Mê Công",
+      "B. Đảo Java",
+      "C. Bán đảo Mã Lai",
+      "D. Đảo Xu-ma-tra"
+    ],
+    "question": "Vương quốc Sri-vi-giay-a nằm ở đâu?",
+    "bai": 11
+  },
+  {
+    "answer": 0,
+    "explanation": "Eo biển Ma-lắc-ca là đường biển hẹp mà tàu buôn Ấn Độ – Trung Quốc đều phải đi qua. Sri-vi-giay-a đặt trạm thu thuế ở đó nên rất giàu.",
+    "id": 90,
+    "options": [
+      "A. Thu thuế tàu buôn qua eo biển",
+      "B. Đào được nhiều vàng trong lòng đất",
+      "C. Bán voi chiến cho các nước láng giềng",
+      "D. Trồng nhiều lúa gạo để xuất khẩu"
+    ],
+    "question": "Sri-vi-giay-a giàu lên chủ yếu nhờ gì?",
+    "bai": 11
+  },
+  {
+    "answer": 1,
+    "explanation": "Thương nhân và nhà sư Ấn Độ mang đạo Hin-đu, đạo Phật và chữ Phạn sang Đông Nam Á. Người Đông Nam Á học rồi biến đổi cho hợp với mình.",
+    "id": 91,
+    "options": [
+      "A. Chữ La-tinh và đạo Thiên Chúa truyền giáo",
+      "B. Đạo Hin-đu, đạo Phật và chữ Phạn",
+      "C. Chữ Hán và Nho giáo",
+      "D. Chữ A-rập và đạo Hồi"
+    ],
+    "question": "Văn hóa Ấn Độ truyền vào Đông Nam Á những gì?",
+    "bai": 11
+  },
+  {
+    "answer": 2,
+    "explanation": "Người Đông Nam Á học văn hóa Ấn Độ nhưng vẫn giữ tiếng nói, phong tục và nghề trồng lúa nước của mình. Nhờ vậy văn hóa mỗi dân tộc vẫn có nét riêng.",
+    "id": 92,
+    "options": [
+      "A. Có, mất hết tiếng nói, phong tục của cha ông",
+      "B. Có, chỉ còn văn hóa Ấn Độ mà thôi",
+      "C. Không, vẫn giữ tiếng nói, phong tục riêng",
+      "D. Không, vì từ chối mọi thứ từ Ấn Độ"
+    ],
+    "question": "Người Đông Nam Á có đánh mất văn hóa riêng khi tiếp thu văn hóa Ấn Độ không?",
+    "bai": 11
+  },
+  {
+    "answer": 3,
+    "explanation": "Vương quốc Khmer hình thành ở lưu vực sông Mê Công, đất đai màu mỡ, thuận lợi cho trồng lúa nước và đánh cá.",
+    "id": 93,
+    "options": [
+      "A. Sông Hồng ở miền Bắc",
+      "B. Sông Ấn",
+      "C. Sông Hằng",
+      "D. Sông Mê Công"
+    ],
+    "question": "Vương quốc Khmer (Chân Lạp) hình thành ở lưu vực sông nào?",
+    "bai": 11
+  },
+  {
+    "answer": 0,
+    "explanation": "Đường biển từ Ấn Độ sang Trung Quốc phải qua eo biển Ma-lắc-ca, nơi vương quốc Sri-vi-giay-a làm chủ và thu thuế tàu buôn.",
+    "id": 94,
+    "options": [
+      "A. Sri-vi-giay-a",
+      "B. Văn Lang ở miền Bắc",
+      "C. La Mã",
+      "D. Ba Tư"
+    ],
+    "question": "Tình huống: Một thương nhân muốn đi tàu từ Ấn Độ sang Trung Quốc. Ông sẽ phải đi qua vùng biển của vương quốc nào?",
+    "bai": 11
+  },
+  {
+    "answer": 1,
+    "explanation": "Giao lưu văn hóa là các dân tộc gặp gỡ, trao đổi và học hỏi lẫn nhau về tôn giáo, chữ viết, nghệ thuật. Nhờ đó văn hóa mỗi nơi thêm phong phú.",
+    "id": 95,
+    "options": [
+      "A. Các nước đánh nhau để giành đất",
+      "B. Các dân tộc trao đổi, học hỏi văn hóa lẫn nhau",
+      "C. Một dân tộc bắt dân tộc khác theo văn hóa của mình",
+      "D. Đóng cửa không cho ai vào"
+    ],
+    "question": "Giao lưu văn hóa là gì?",
+    "bai": 12
+  },
+  {
+    "answer": 2,
+    "explanation": "Nhà sư và thương nhân Ấn Độ mang đạo Hin-đu và đạo Phật sang Đông Nam Á bằng đường biển. Nhiều ngôi đền, chùa ở Đông Nam Á thờ thần Hin-đu hoặc đức Phật.",
+    "id": 96,
+    "options": [
+      "A. Đạo Thiên Chúa từ châu Âu truyền sang",
+      "B. Đạo Hồi giáo",
+      "C. Đạo Hin-đu và đạo Phật",
+      "D. Đạo Nho giáo"
+    ],
+    "question": "Tôn giáo nào từ Ấn Độ truyền vào Đông Nam Á?",
+    "bai": 12
+  },
+  {
+    "answer": 3,
+    "explanation": "Chữ Phạn là chữ viết của Ấn Độ cổ, theo đạo Hin-đu và đạo Phật truyền vào Đông Nam Á. Người Đông Nam Á học chữ Phạn rồi sáng tạo chữ riêng của mình.",
+    "id": 97,
+    "options": [
+      "A. Chữ Hán",
+      "B. Chữ La-tinh",
+      "C. Chữ A-rập",
+      "D. Chữ Phạn"
+    ],
+    "question": "Chữ viết nào từ Ấn Độ được dùng ở Đông Nam Á?",
+    "bai": 12
+  },
+  {
+    "answer": 0,
+    "explanation": "Người Đông Nam Á học chữ Phạn rồi biến đổi cho hợp tiếng nói của mình, ví dụ chữ Khmer và chữ Chăm. Nhờ vậy mỗi dân tộc có chữ viết riêng.",
+    "id": 98,
+    "options": [
+      "A. Biến đổi thành chữ riêng của dân tộc mình",
+      "B. Dùng nguyên vẹn, không đổi một chữ nào cả",
+      "C. Quên hẳn sau một thời gian ngắn",
+      "D. Cấm dân thường học chữ"
+    ],
+    "question": "Người Đông Nam Á đã làm gì với chữ Phạn?",
+    "bai": 12
+  },
+  {
+    "answer": 1,
+    "explanation": "Nghệ thuật xây đền tháp của Đông Nam Á học từ Ấn Độ, vì đạo Hin-đu và đạo Phật từ Ấn Độ truyền sang. Ví dụ: đền Ăng-co Vát của người Khmer.",
+    "id": 99,
+    "options": [
+      "A. Trung Quốc",
+      "B. Ấn Độ",
+      "C. La Mã",
+      "D. Ai Cập"
+    ],
+    "question": "Nghệ thuật đền tháp ở Đông Nam Á chịu ảnh hưởng của nước nào?",
+    "bai": 12
+  },
+  {
+    "answer": 2,
+    "explanation": "Bô-rô-bu-đua là ngôi đền Phật giáo lớn ở đảo Java (nay thuộc In-đô-nê-xi-a). Đền xây nhiều tầng, chạm khắc nhiều hình ảnh về cuộc đời đức Phật.",
+    "id": 100,
+    "options": [
+      "A. Lưu vực sông Mê Công",
+      "B. Đảo Xu-ma-tra",
+      "C. Đảo Java",
+      "D. Bán đảo Đông Dương"
+    ],
+    "question": "Đền Bô-rô-bu-đua nổi tiếng nằm ở đâu?",
+    "bai": 12
+  },
+  {
+    "answer": 3,
+    "explanation": "Trong thời Bắc thuộc, người Việt tiếp xúc nhiều với văn hóa Trung Quốc qua chữ Hán và Nho giáo. Nhưng người Việt vẫn giữ tiếng nói và phong tục riêng của mình.",
+    "id": 101,
+    "options": [
+      "A. Đạo Hin-đu và chữ Phạn",
+      "B. Chữ La-tinh và đạo Thiên Chúa",
+      "C. Đạo Hồi và chữ A-rập",
+      "D. Chữ Hán và Nho giáo"
+    ],
+    "question": "Việt Nam chịu ảnh hưởng văn hóa Trung Quốc ở những điểm nào?",
+    "bai": 12
+  },
+  {
+    "answer": 0,
+    "explanation": "Đông Nam Á có nhiều hương liệu (quế, trầm hương), lúa gạo và sản vật biển quý. Thương nhân Ấn Độ và Trung Quốc sang mua những thứ này nên đường biển càng sầm uất.",
+    "id": 102,
+    "options": [
+      "A. Hương liệu, lúa gạo và sản vật quý",
+      "B. Voi chiến và ngựa chiến dùng để đánh trận",
+      "C. Vàng bạc và sắt thép",
+      "D. Giấy và thuốc súng"
+    ],
+    "question": "Đông Nam Á đem những gì sang Ấn Độ và Trung Quốc?",
+    "bai": 12
+  },
+  {
+    "answer": 1,
+    "explanation": "Người Khmer học cách thờ thần và xây đền từ Ấn Độ, nhưng mái tháp và hoa văn vẫn mang nét riêng của mình. Đó là tiếp thu có chọn lọc, không đánh mất bản sắc.",
+    "id": 103,
+    "options": [
+      "A. Người Khmer bị ép phải theo văn hóa Ấn Độ",
+      "B. Học văn hóa Ấn Độ nhưng vẫn giữ bản sắc riêng",
+      "C. Người Khmer không biết xây đền",
+      "D. Văn hóa Ấn Độ và văn hóa Khmer giống nhau hoàn toàn"
+    ],
+    "question": "Tình huống: Một ngôi đền ở Đông Nam Á thờ thần Hin-đu nhưng mái tháp mang nét riêng của người Khmer. Điều đó cho thấy gì?",
+    "bai": 12
+  },
+  {
+    "answer": 2,
+    "explanation": "Văn Lang là nhà nước đầu tiên của người Việt, ra đời khoảng thế kỉ VII trước Công nguyên. Vua Hùng đứng đầu, kinh đô đặt ở Phong Châu.",
+    "id": 104,
+    "options": [
+      "A. Âu Lạc",
+      "B. Vạn Xuân",
+      "C. Văn Lang",
+      "D. Đại Cồ Việt"
+    ],
+    "question": "Nhà nước đầu tiên trong lịch sử Việt Nam tên là gì?",
+    "bai": 13
+  },
+  {
+    "answer": 3,
+    "explanation": "Hùng Vương là vua đứng đầu nhà nước Văn Lang. Lạc hầu và Lạc tướng giúp vua cai trị, Bồ chính cai quản từng bộ.",
+    "id": 105,
+    "options": [
+      "A. An Dương Vương",
+      "B. Lạc tướng",
+      "C. Bồ chính",
+      "D. Hùng Vương"
+    ],
+    "question": "Ai đứng đầu nhà nước Văn Lang?",
+    "bai": 13
+  },
+  {
+    "answer": 0,
+    "explanation": "Kinh đô Văn Lang đặt ở Phong Châu, nay thuộc tỉnh Phú Thọ. Đây là vùng đất ven sông Hồng, thuận lợi cho trồng lúa nước.",
+    "id": 106,
+    "options": [
+      "A. Phong Châu, nay thuộc Phú Thọ",
+      "B. Cổ Loa ở ngoại thành Hà Nội",
+      "C. Hoa Lư ở tỉnh Ninh Bình",
+      "D. Thăng Long là Hà Nội ngày nay"
+    ],
+    "question": "Kinh đô của nhà nước Văn Lang đặt ở đâu?",
+    "bai": 13
+  },
+  {
+    "answer": 1,
+    "explanation": "Văn Lang chia thành 15 bộ, mỗi bộ do Bồ chính cai quản. Các bộ hợp lại thành một nhà nước thống nhất dưới quyền Hùng Vương.",
+    "id": 107,
+    "options": [
+      "A. 10 bộ",
+      "B. 15 bộ",
+      "C. 20 bộ",
+      "D. 12 bộ"
+    ],
+    "question": "Nhà nước Văn Lang chia thành bao nhiêu bộ?",
+    "bai": 13
+  },
+  {
+    "answer": 2,
+    "explanation": "Người Văn Lang giỏi đúc đồng, nổi tiếng nhất là trống đồng Đông Sơn. Trống đồng vừa là nhạc cụ, vừa là biểu tượng quyền lực.",
+    "id": 108,
+    "options": [
+      "A. Dệt vải",
+      "B. Làm gốm",
+      "C. Đúc đồng",
+      "D. Đóng thuyền"
+    ],
+    "question": "Nghề thủ công nào nổi tiếng nhất thời Văn Lang?",
+    "bai": 13
+  },
+  {
+    "answer": 3,
+    "explanation": "Cuối thế kỉ III trước Công nguyên, An Dương Vương (tên thật là Thục Phán) hợp nhất Văn Lang với lãnh thổ của mình thành nước Âu Lạc.",
+    "id": 109,
+    "options": [
+      "A. Hùng Vương đời thứ mười tám",
+      "B. Triệu Đà",
+      "C. Lý Bí",
+      "D. An Dương Vương"
+    ],
+    "question": "Ai là người lập ra nước Âu Lạc?",
+    "bai": 13
+  },
+  {
+    "answer": 0,
+    "explanation": "An Dương Vương đóng đô ở Cổ Loa (nay thuộc Hà Nội). Ở đó ông cho xây thành Cổ Loa để phòng thủ.",
+    "id": 110,
+    "options": [
+      "A. Cổ Loa",
+      "B. Phong Châu",
+      "C. Hoa Lư",
+      "D. Phú Xuân"
+    ],
+    "question": "Kinh đô của nước Âu Lạc đặt ở đâu?",
+    "bai": 13
+  },
+  {
+    "answer": 1,
+    "explanation": "Thành Cổ Loa xây hình xoáy ốc với nhiều vòng thành bao quanh nhau. Kiểu thành này giúp bảo vệ kinh đô tốt hơn khi có giặc tấn công.",
+    "id": 111,
+    "options": [
+      "A. Hình vuông",
+      "B. Hình xoáy ốc nhiều vòng",
+      "C. Hình tròn chỉ có một vòng thành",
+      "D. Hình tam giác"
+    ],
+    "question": "Thành Cổ Loa có hình dạng gì đặc biệt?",
+    "bai": 13
+  },
+  {
+    "answer": 2,
+    "explanation": "Theo truyền thuyết, tức chuyện dân gian kể lại, thần Kim Quy giúp An Dương Vương làm nỏ thần, bắn một phát ra nhiều mũi tên. Nỏ thần thể hiện ước mơ giữ nước của người xưa.",
+    "id": 112,
+    "options": [
+      "A. Nỏ tre",
+      "B. Nỏ sắt",
+      "C. Nỏ thần",
+      "D. Nỏ vàng"
+    ],
+    "question": "Theo truyền thuyết, An Dương Vương có chiếc nỏ đặc biệt tên là gì?",
+    "bai": 13
+  },
+  {
+    "answer": 3,
+    "explanation": "Nhà Hán chia Âu Lạc thành các quận, huyện và đặt quan người Hán sang cai trị. Cách chia này nhằm nắm chặt đất đai và dân chúng.",
+    "id": 113,
+    "options": [
+      "A. Chia thành các bộ như thời Hùng Vương xưa",
+      "B. Chia thành các tỉnh tự trị do người Việt cai quản",
+      "C. Chia thành các vương quốc nhỏ riêng biệt",
+      "D. Các quận, huyện do quan người Hán cai trị"
+    ],
+    "question": "Sau khi thôn tính Âu Lạc, phong kiến phương Bắc chia nước ta thành gì để cai trị?",
+    "bai": 14
+  },
+  {
+    "answer": 0,
+    "explanation": "Chính quyền đô hộ đặt thuế rất nặng và bắt dân cống nạp sản vật quý như ngọc trai, ngà voi. Dân nghèo càng nghèo thêm vì thuế.",
+    "id": 114,
+    "options": [
+      "A. Thuế rất nặng, bắt nộp sản vật quý",
+      "B. Không thu thuế gì của dân cả",
+      "C. Thuế nhẹ, dân nghèo được miễn hết",
+      "D. Chỉ thu thuế của thương nhân buôn bán"
+    ],
+    "question": "Chính sách thuế khóa của chính quyền đô hộ như thế nào?",
+    "bai": 14
+  },
+  {
+    "answer": 1,
+    "explanation": "Lao dịch là bắt dân làm việc không công, ví dụ đắp thành, đào kênh, xây cung điện cho chính quyền đô hộ. Dân phải bỏ ruộng đồng đi làm nên đói khổ.",
+    "id": 115,
+    "options": [
+      "A. Đi học chữ Hán ở trường quan",
+      "B. Làm việc không công cho quan đô hộ",
+      "C. Đi buôn bán xa ở nước ngoài",
+      "D. Làm quan trong triều đình của nhà Hán"
+    ],
+    "question": "Lao dịch dưới thời Bắc thuộc là gì?",
+    "bai": 14
+  },
+  {
+    "answer": 2,
+    "explanation": "Đồng hóa là bắt người bị trị theo tiếng nói, chữ viết và phong tục của kẻ đô hộ. Mục đích là biến Âu Lạc thành một phần của Trung Quốc, không còn dân tộc riêng.",
+    "id": 116,
+    "options": [
+      "A. Giúp người Việt giàu lên nhờ buôn bán với Trung Quốc",
+      "B. Truyền bá khoa học kĩ thuật mới",
+      "C. Bắt người Việt quên tiếng nói, phong tục riêng",
+      "D. Mở trường học miễn phí cho dân nghèo"
+    ],
+    "question": "Chính sách đồng hóa của phong kiến phương Bắc nhằm mục đích gì?",
+    "bai": 14
+  },
+  {
+    "answer": 3,
+    "explanation": "Chính quyền đô hộ bắt người Việt học chữ Hán và theo Nho giáo. Nhưng người Việt vẫn nói tiếng Việt ở nhà và trong làng, nên tiếng Việt không bị mất.",
+    "id": 117,
+    "options": [
+      "A. Chữ Phạn",
+      "B. Chữ La-tinh",
+      "C. Chữ Nôm",
+      "D. Chữ Hán"
+    ],
+    "question": "Người Việt bị bắt học chữ gì dưới thời Bắc thuộc?",
+    "bai": 14
+  },
+  {
+    "answer": 0,
+    "explanation": "Cuốc, cày bằng sắt cứng và sắc hơn công cụ đồng, đá nên cày sâu được. Nhờ vậy diện tích ruộng mở rộng, lúa làm ra nhiều hơn trước.",
+    "id": 118,
+    "options": [
+      "A. Cày sâu hơn nên lúa làm ra nhiều hơn",
+      "B. Không thay đổi gì trong sản xuất nông nghiệp",
+      "C. Làm ruộng khó hơn trước rất nhiều",
+      "D. Chỉ dùng để đánh trận mà thôi"
+    ],
+    "question": "Công cụ bằng sắt phổ biến dưới thời Bắc thuộc đã giúp sản xuất thay đổi ra sao?",
+    "bai": 14
+  },
+  {
+    "answer": 1,
+    "explanation": "Hào trưởng là người Việt giàu có, có uy tín ở quê mình, dân tin theo. Sau này nhiều cuộc khởi nghĩa do hào trưởng lãnh đạo.",
+    "id": 119,
+    "options": [
+      "A. Quan người Hán sang cai trị",
+      "B. Người Việt có thế lực ở địa phương",
+      "C. Thương nhân nước ngoài đến buôn bán",
+      "D. Nô tì trong nhà quan"
+    ],
+    "question": "Hào trưởng Việt là ai?",
+    "bai": 14
+  },
+  {
+    "answer": 2,
+    "explanation": "Người Việt vẫn nói tiếng Việt, ăn trầu, nhuộm răng, thờ cúng tổ tiên theo phong tục riêng. Nhờ giữ được tiếng nói và phong tục, dân tộc Việt không bị hòa tan.",
+    "id": 120,
+    "options": [
+      "A. Chữ Hán của nhà Hán",
+      "B. Quan phục nhà Hán sang trọng để mặc lễ",
+      "C. Tiếng nói và phong tục của mình",
+      "D. Tiền đồng nhà Hán đúc ra để dùng"
+    ],
+    "question": "Dù bị đồng hóa, người Việt vẫn giữ được gì quan trọng nhất?",
+    "bai": 14
+  },
+  {
+    "answer": 3,
+    "explanation": "Thuế nặng và lao dịch không công là hai cách chính quyền đô hộ bóc lột dân Việt. Vì vậy dân oán hận và nhiều lần nổi dậy chống lại.",
+    "id": 121,
+    "options": [
+      "A. Chính sách mở cửa buôn bán với nước ngoài",
+      "B. Chính sách khuyến nông",
+      "C. Chính sách miễn thuế",
+      "D. Bóc lột bằng thuế nặng và lao dịch"
+    ],
+    "question": "Tình huống: Một gia đình thời Bắc thuộc vừa phải nộp thuế nặng, vừa phải đi đắp thành không công. Gia đình đó đang chịu chính sách nào?",
+    "bai": 14
+  },
+  {
+    "answer": 0,
+    "explanation": "Năm 40, Hai Bà Trưng phất cờ khởi nghĩa ở Hát Môn (nay thuộc Hà Nội). Nghĩa quân nhanh chóng làm chủ nhiều nơi, Trưng Trắc lên làm vua.",
+    "id": 122,
+    "options": [
+      "A. Năm 40",
+      "B. Năm 248",
+      "C. Năm 542",
+      "D. Năm 905"
+    ],
+    "question": "Cuộc khởi nghĩa Hai Bà Trưng nổ ra năm nào?",
+    "bai": 15
+  },
+  {
+    "answer": 1,
+    "explanation": "Hai Bà Trưng chống chính quyền nhà Hán đang đô hộ nước ta. Quân Hán bóc lột nặng và giết chồng bà Trưng Trắc là Thi Sách.",
+    "id": 123,
+    "options": [
+      "A. Nhà Đường",
+      "B. Nhà Hán",
+      "C. Nhà Minh",
+      "D. Nhà Tống"
+    ],
+    "question": "Hai Bà Trưng khởi nghĩa chống lại chính quyền nào?",
+    "bai": 15
+  },
+  {
+    "answer": 2,
+    "explanation": "Năm 248, Bà Triệu (Triệu Thị Trinh) khởi nghĩa ở Phú Điền, nay thuộc Thanh Hóa. Bà nổi tiếng với câu nói muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ.",
+    "id": 124,
+    "options": [
+      "A. Năm 40 ở Hát Môn thuộc Hà Nội",
+      "B. Năm 542 ở Long Biên thuộc miền Bắc",
+      "C. Năm 248 ở Phú Điền (Thanh Hóa)",
+      "D. Năm 905 ở Cổ Loa ngoại thành"
+    ],
+    "question": "Bà Triệu khởi nghĩa năm nào, ở đâu?",
+    "bai": 15
+  },
+  {
+    "answer": 3,
+    "explanation": "Năm 542, Lý Bí khởi nghĩa thắng lợi, lên ngôi vua (Lý Nam Đế) và đặt tên nước là Vạn Xuân. Vạn Xuân nghĩa là muôn xuân tươi đẹp, mong đất nước bền vững.",
+    "id": 125,
+    "options": [
+      "A. Văn Lang",
+      "B. Âu Lạc",
+      "C. Đại Cồ Việt",
+      "D. Vạn Xuân"
+    ],
+    "question": "Lý Bí khởi nghĩa năm 542 đã lập ra nước nào?",
+    "bai": 15
+  },
+  {
+    "answer": 0,
+    "explanation": "Năm 713, Mai Thúc Loan khởi nghĩa ở Hoan Châu (Nghệ An), xưng là Mai Hắc Đế (vua Đen). Nghĩa quân làm chủ một vùng rộng lớn ở miền Trung.",
+    "id": 126,
+    "options": [
+      "A. Mai Hắc Đế",
+      "B. Bố Cái Đại Vương",
+      "C. Nam Đế",
+      "D. Ngô Vương"
+    ],
+    "question": "Mai Thúc Loan khởi nghĩa năm 713, xưng hiệu là gì?",
+    "bai": 15
+  },
+  {
+    "answer": 1,
+    "explanation": "Phùng Hưng khởi nghĩa cuối thế kỉ VIII, đánh chiếm thành Tống Bình. Dân tôn ông là Bố Cái Đại Vương, nghĩa là Vua Cha Mẹ, vì ông thương dân như cha mẹ.",
+    "id": 127,
+    "options": [
+      "A. Mai Hắc Đế ở Nghệ An",
+      "B. Bố Cái Đại Vương",
+      "C. Lý Nam Đế",
+      "D. Ngô Vương"
+    ],
+    "question": "Phùng Hưng được nhân dân tôn gọi là gì?",
+    "bai": 15
+  },
+  {
+    "answer": 2,
+    "explanation": "Năm 905, Khúc Thừa Dụ nổi dậy giành quyền tự chủ, tự xưng Tiết độ sứ. Tự chủ nghĩa là người Việt tự cai quản đất nước mình, chưa phải độc lập hoàn toàn.",
+    "id": 128,
+    "options": [
+      "A. Năm 40",
+      "B. Năm 542",
+      "C. Năm 905",
+      "D. Năm 938"
+    ],
+    "question": "Khúc Thừa Dụ giành quyền tự chủ năm nào?",
+    "bai": 15
+  },
+  {
+    "answer": 3,
+    "explanation": "Các cuộc khởi nghĩa đều do người Việt lãnh đạo, xuất phát từ lòng yêu nước và căm thù đô hộ. Dù nhiều cuộc thất bại, chúng vẫn nối tiếp nhau và giữ ngọn lửa độc lập.",
+    "id": 129,
+    "options": [
+      "A. Đều do các quan nhà Hán lãnh đạo khởi nghĩa",
+      "B. Đều thất bại ngay từ những ngày đầu",
+      "C. Đều nhờ quân nước ngoài sang giúp đỡ",
+      "D. Tinh thần yêu nước, không chịu làm nô lệ"
+    ],
+    "question": "Điểm chung của các cuộc khởi nghĩa là gì?",
+    "bai": 15
+  },
+  {
+    "answer": 1,
+    "explanation": "Kẻ đô hộ mạnh hơn nên một cuộc khởi nghĩa khó giữ thắng lợi lâu dài. Nhưng mỗi cuộc khởi nghĩa đều hun đúc tinh thần độc lập cho thế hệ sau, cuối cùng dẫn tới độc lập thật sự.",
+    "id": 130,
+    "options": [
+      "A. Khởi nghĩa là việc làm vô ích, đừng làm nữa",
+      "B. Giành độc lập là việc khó, cần nhiều thế hệ",
+      "C. Nên nhờ nước ngoài đánh giúp cho nhanh",
+      "D. Chỉ cần một anh hùng là đủ sức"
+    ],
+    "question": "Tình huống: Em thấy một cuộc khởi nghĩa thắng lợi rồi lại bị nhà Hán đánh bại. Em rút ra điều gì?",
+    "bai": 15
+  },
+  {
+    "answer": 0,
+    "explanation": "Bảo tồn là giữ gìn những gì tốt đẹp của dân tộc mình, ví dụ tiếng nói và phong tục. Người Việt giữ tiếng Việt dù bị bắt học chữ Hán.",
+    "id": 131,
+    "options": [
+      "A. Giữ gìn tiếng nói, phong tục của mình",
+      "B. Bỏ hết phong tục cũ của cha ông",
+      "C. Học theo hoàn toàn văn hóa của nước khác",
+      "D. Cấm giao lưu với nước ngoài"
+    ],
+    "question": "Bảo tồn văn hóa dân tộc nghĩa là gì?",
+    "bai": 16
+  },
+  {
+    "answer": 2,
+    "explanation": "Người Việt học chữ Hán để làm việc với chính quyền, nhưng ở nhà và trong làng vẫn nói tiếng Việt. Nhờ vậy tiếng Việt sống mãi qua hàng nghìn năm.",
+    "id": 132,
+    "options": [
+      "A. Chỉ dùng chữ Hán mọi lúc mọi nơi",
+      "B. Quên tiếng Việt",
+      "C. Nói tiếng Việt ở nhà, trong làng",
+      "D. Không cho con học chữ"
+    ],
+    "question": "Người Việt giữ tiếng nói của mình bằng cách nào dưới thời Bắc thuộc?",
+    "bai": 16
+  },
+  {
+    "answer": 0,
+    "explanation": "Người Việt vẫn ăn trầu, nhuộm răng đen, thờ cúng tổ tiên theo phong tục riêng. Những phong tục này giúp người Việt nhận ra nhau là cùng một dân tộc.",
+    "id": 133,
+    "options": [
+      "A. Ăn trầu, nhuộm răng, thờ cúng tổ tiên",
+      "B. Mặc quan phục nhà Hán sang trọng",
+      "C. Nói tiếng Hán ở nhà với con cháu hằng ngày",
+      "D. Ăn mặc như người Hán mọi lúc"
+    ],
+    "question": "Phong tục nào sau đây người Việt vẫn giữ dưới thời Bắc thuộc?",
+    "bai": 16
+  },
+  {
+    "answer": 1,
+    "explanation": "Tiếng nói là thứ gắn mọi người thành một cộng đồng, dùng để kể chuyện xưa và dạy phong tục cho con cháu. Mất tiếng nói thì dân tộc dễ bị hòa tan.",
+    "id": 134,
+    "options": [
+      "A. Vì tiếng nói dùng để buôn bán với nước ngoài",
+      "B. Gắn kết cộng đồng, truyền chuyện xưa",
+      "C. Vì tiếng nói rất dễ học thuộc lòng",
+      "D. Kẻ đô hộ không biết tiếng Việt của ta"
+    ],
+    "question": "Vì sao giữ được tiếng nói là giữ được dân tộc?",
+    "bai": 16
+  },
+  {
+    "answer": 2,
+    "explanation": "Phật giáo từ Ấn Độ vào Việt Nam đã hòa hợp với tín ngưỡng thờ cúng tổ tiên và phong tục làng xã. Nhờ vậy đạo Phật trở thành một phần văn hóa Việt.",
+    "id": 135,
+    "options": [
+      "A. Bị chính quyền đô hộ cấm hẳn",
+      "B. Giữ nguyên như ở Ấn Độ ngày xưa không đổi",
+      "C. Hòa hợp với thờ cúng tổ tiên người Việt",
+      "D. Chỉ dành cho quan lại nhà Hán"
+    ],
+    "question": "Phật giáo vào Việt Nam đã thay đổi ra sao?",
+    "bai": 16
+  },
+  {
+    "answer": 0,
+    "explanation": "Chữ Nôm là chữ người Việt sáng tạo trên cơ sở chữ Hán để ghi lại tiếng Việt. Chữ Nôm chứng tỏ người Việt vẫn giữ tiếng nói riêng dù học chữ Hán.",
+    "id": 136,
+    "options": [
+      "A. Dùng chữ Hán để ghi âm tiếng Việt",
+      "B. Người Việt bỏ hẳn chữ Hán đi",
+      "C. Người Hán dạy chữ cho người Việt học",
+      "D. Người Việt quên tiếng Việt"
+    ],
+    "question": "Chữ Nôm ra đời thể hiện điều gì?",
+    "bai": 16
+  },
+  {
+    "answer": 2,
+    "explanation": "Giữ văn hóa giúp người Việt nhớ mình là ai nên quyết tâm giành độc lập. Ngược lại, mỗi lần khởi nghĩa thắng lợi, văn hóa Việt lại có điều kiện phát triển.",
+    "id": 137,
+    "options": [
+      "A. Hai việc này không liên quan gì nhau",
+      "B. Giữ văn hóa làm khởi nghĩa yếu đi",
+      "C. Giữ văn hóa nuôi tinh thần độc lập",
+      "D. Khởi nghĩa làm mất văn hóa"
+    ],
+    "question": "Các cuộc khởi nghĩa và việc giữ văn hóa có quan hệ với nhau như thế nào?",
+    "bai": 16
+  },
+  {
+    "answer": 1,
+    "explanation": "Kẻ đô hộ hiểu rằng nếu người Việt quên tiếng nói và phong tục thì sẽ không còn ý thức dân tộc để chống lại. Vì vậy đồng hóa là chính sách thâm độc nhất.",
+    "id": 138,
+    "options": [
+      "A. Để giúp người Việt giàu lên nhanh chóng hơn xưa",
+      "B. Để xóa dân tộc Việt, biến ta thành người Hán",
+      "C. Để mở thêm trường học cho dân nghèo",
+      "D. Để truyền bá khoa học kĩ thuật mới"
+    ],
+    "question": "Vì sao phong kiến phương Bắc ra sức đồng hóa người Việt?",
+    "bai": 16
+  },
+  {
+    "answer": 3,
+    "explanation": "Người Việt học chữ Hán để giao tiếp và làm việc, nhưng ở nhà vẫn nói tiếng Việt và giữ phong tục riêng. Học văn hóa ngoài mà vẫn giữ gốc của mình mới là điều đáng quý.",
+    "id": 139,
+    "options": [
+      "A. Đúng, học chữ ngoại là mất gốc hoàn toàn rồi",
+      "B. Sai, vì người Việt không học chữ Hán",
+      "C. Đúng, nên cấm học chữ ngoại từ nay trở đi",
+      "D. Chưa đúng, vẫn giữ tiếng Việt và phong tục"
+    ],
+    "question": "Tình huống: Một bạn nói “học chữ Hán là mất gốc”. Em trả lời thế nào cho đúng?",
+    "bai": 16
+  },
+  {
+    "answer": 2,
+    "explanation": "Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng. Thắng lợi này mở ra thời kì độc lập hoàn toàn, nên gọi là bước ngoặt lịch sử.",
+    "id": 140,
+    "options": [
+      "A. Khởi nghĩa Hai Bà Trưng chống nhà Hán",
+      "B. Lý Bí lập nước Vạn Xuân năm 542",
+      "C. Ngô Quyền thắng quân Nam Hán ở Bạch Đằng năm 938",
+      "D. Khúc Thừa Dụ giành quyền tự chủ cho nước ta năm 905"
+    ],
+    "question": "Bước ngoặt lịch sử đầu thế kỉ X là sự kiện nào?",
+    "bai": 17
+  },
+  {
+    "answer": 3,
+    "explanation": "Ngô Quyền cho đóng cọc đầu bịt sắt xuống lòng sông Bạch Đằng. Khi thủy triều xuống, cọc nhô lên đâm thủng thuyền giặc đang rút chạy.",
+    "id": 141,
+    "options": [
+      "A. Đào hào sâu quanh thành để giữ thành",
+      "B. Dùng voi chiến xông trận phá vòng vây quân giặc",
+      "C. Nhờ quân nước ngoài sang đánh giúp",
+      "D. Đóng cọc sắt dưới sông, chờ nước rút để đánh"
+    ],
+    "question": "Ngô Quyền dùng kế gì để đánh quân Nam Hán?",
+    "bai": 17
+  },
+  {
+    "answer": 0,
+    "explanation": "Lúc thủy triều lên, cọc ngập dưới nước nên giặc không thấy. Khi nước rút, cọc nhô lên đâm vào thuyền giặc đang xuôi dòng rút chạy.",
+    "id": 142,
+    "options": [
+      "A. Đào hào sâu quanh thành",
+      "B. Vì giặc sợ nước sâu không dám tiến vào sông",
+      "C. Vì cọc tự nổi lên mặt nước",
+      "D. Vì quân ta đông hơn quân giặc rất nhiều"
+    ],
+    "question": "Vì sao kế đóng cọc phát huy tác dụng khi thủy triều xuống?",
+    "bai": 17
+  },
+  {
+    "answer": 1,
+    "explanation": "Năm 939, Ngô Quyền xưng vương, đóng đô ở Cổ Loa. Việc xưng vương khẳng định nước ta là nước độc lập, không còn là quận huyện của Trung Quốc.",
+    "id": 143,
+    "options": [
+      "A. Xin phong vương từ triều đình nhà Hán",
+      "B. Xưng vương, đóng đô ở Cổ Loa",
+      "C. Dời đô về Hoa Lư",
+      "D. Chia nước thành quận huyện"
+    ],
+    "question": "Sau chiến thắng Bạch Đằng, Ngô Quyền làm gì năm 939?",
+    "bai": 17
+  },
+  {
+    "answer": 2,
+    "explanation": "Từ năm 179 trước Công nguyên đến năm 938 là hơn 1000 năm nước ta bị phong kiến phương Bắc đô hộ. Chiến thắng Bạch Đằng chấm dứt thời kì đó.",
+    "id": 144,
+    "options": [
+      "A. Thời Văn Lang – Âu Lạc",
+      "B. Thời phong kiến độc lập",
+      "C. Hơn 1000 năm Bắc thuộc",
+      "D. Thời Pháp thuộc"
+    ],
+    "question": "Chiến thắng Bạch Đằng năm 938 chấm dứt thời kì nào?",
+    "bai": 17
+  },
+  {
+    "answer": 3,
+    "explanation": "Ngô Quyền quê ở Đường Lâm (nay thuộc Hà Nội), từ nhỏ đã nổi tiếng giỏi võ nghệ và có chí lớn. Ông từng làm tướng dưới quyền Dương Đình Nghệ.",
+    "id": 145,
+    "options": [
+      "A. Người Hoa Lư, giỏi cày ruộng",
+      "B. Người Phú Thọ, giỏi đúc đồng Đông Sơn",
+      "C. Người Thanh Hóa, giỏi buôn bán đường biển",
+      "D. Người Đường Lâm, giỏi võ nghệ"
+    ],
+    "question": "Ngô Quyền là người ở đâu, nổi tiếng về điều gì trước trận Bạch Đằng?",
+    "bai": 17
+  },
+  {
+    "answer": 0,
+    "explanation": "Dương Đình Nghệ giành quyền tự chủ năm 931 và chuẩn bị lực lượng, Ngô Quyền là tướng tài dưới quyền ông. Sau khi ông mất, Ngô Quyền tiếp tục sự nghiệp giành độc lập.",
+    "id": 146,
+    "options": [
+      "A. Giành quyền tự chủ, chuẩn bị lực lượng",
+      "B. Đánh thắng quân Minh xâm lược nước ta sau này",
+      "C. Lập nước Vạn Xuân năm 542",
+      "D. Xây thành Cổ Loa để phòng thủ giặc"
+    ],
+    "question": "Dương Đình Nghệ có vai trò gì trước Ngô Quyền?",
+    "bai": 17
+  },
+  {
+    "answer": 1,
+    "explanation": "Các thắng lợi trước chưa giữ được độc lập lâu dài. Sau Bạch Đằng 938, nước ta độc lập hoàn toàn và bước vào thời phong kiến độc lập với vua Việt trị vì.",
+    "id": 147,
+    "options": [
+      "A. Vì giết được nhiều giặc hơn trước",
+      "B. Vì từ đây nước ta độc lập hoàn toàn",
+      "C. Vì trận đánh kéo dài rất lâu",
+      "D. Vì có nhiều tướng giỏi tham gia trận đánh"
+    ],
+    "question": "Vì sao nói Bạch Đằng 938 là bước ngoặt mà không phải chỉ là một trận thắng thường?",
+    "bai": 17
+  },
+  {
+    "answer": 2,
+    "explanation": "Bãi cọc Bạch Đằng là nơi Ngô Quyền đóng cọc sắt đánh quân Nam Hán năm 938. Ngày nay bãi cọc được bảo tồn để nhắc nhớ chiến thắng vĩ đại đó.",
+    "id": 148,
+    "options": [
+      "A. Nghề đóng thuyền của dân chài ven sông xưa",
+      "B. Nơi nuôi cá của người xưa ven sông",
+      "C. Kế đóng cọc của Ngô Quyền năm 938",
+      "D. Bến cảng buôn bán thời xưa rất sầm uất"
+    ],
+    "question": "Tình huống: Em thăm sông Bạch Đằng ngày nay, thấy bãi cọc được phục dựng. Bãi cọc gợi nhớ điều gì?",
+    "bai": 17
+  },
+  {
+    "answer": 0,
+    "explanation": "Chăm-pa hình thành từ thế kỉ II ở miền Trung Việt Nam ngày nay, ban đầu gọi là Lâm Ấp. Người Chăm sống bằng trồng lúa, đánh cá và buôn bán đường biển.",
+    "id": 149,
+    "options": [
+      "A. Thế kỉ II, miền Trung Việt Nam ngày nay",
+      "B. Thế kỉ VII, lưu vực sông Mê Công rộng lớn",
+      "C. Thế kỉ X, đồng bằng sông Hồng",
+      "D. Thế kỉ I, đảo Java"
+    ],
+    "question": "Vương quốc Chăm-pa hình thành từ thế kỉ nào, ở đâu?",
+    "bai": 18
+  },
+  {
+    "answer": 1,
+    "explanation": "Kinh đô đầu tiên của Chăm-pa là Trà Kiệu (tên cổ là Siṁhapura), ở Quảng Nam ngày nay. Sau này kinh đô dời về Vijaya (Bình Định).",
+    "id": 150,
+    "options": [
+      "A. Vijaya ở Bình Định sau này",
+      "B. Trà Kiệu (Siṁhapura)",
+      "C. Cổ Loa ở Hà Nội",
+      "D. Hoa Lư ở Ninh Bình"
+    ],
+    "question": "Kinh đô đầu tiên của Chăm-pa tên là gì?",
+    "bai": 18
+  },
+  {
+    "answer": 2,
+    "explanation": "Hin-đu giáo từ Ấn Độ ảnh hưởng mạnh đến Chăm-pa, thể hiện qua đền tháp thờ thần Si-va. Thánh địa Mỹ Sơn là trung tâm tôn giáo lớn của Chăm-pa.",
+    "id": 151,
+    "options": [
+      "A. Phật giáo",
+      "B. Nho giáo",
+      "C. Hin-đu giáo",
+      "D. Thiên Chúa giáo"
+    ],
+    "question": "Tôn giáo nào ảnh hưởng mạnh nhất đến Chăm-pa?",
+    "bai": 18
+  },
+  {
+    "answer": 3,
+    "explanation": "Mỹ Sơn là khu đền tháp ở Quảng Nam, nơi vua Chăm xây đền thờ thần Si-va và tổ chức lễ cúng. Ngày nay Mỹ Sơn là di sản văn hóa thế giới.",
+    "id": 152,
+    "options": [
+      "A. Kinh đô đầu tiên của vương quốc Chăm-pa",
+      "B. Thương cảng sầm uất của vương quốc Chăm-pa",
+      "C. Nơi đóng quân của vua Chăm-pa",
+      "D. Khu đền tháp thờ thần của Chăm-pa"
+    ],
+    "question": "Thánh địa Mỹ Sơn là gì?",
+    "bai": 18
+  },
+  {
+    "answer": 1,
+    "explanation": "Người Chăm sống dọc bờ biển miền Trung nên giỏi đi biển, đóng thuyền và buôn bán với các nước. Nhờ vậy Chăm-pa có nhiều thương cảng sầm uất.",
+    "id": 153,
+    "options": [
+      "A. Đúc đồng",
+      "B. Đi biển và buôn bán",
+      "C. Chăn nuôi ngựa trên đồng cỏ",
+      "D. Khai mỏ vàng"
+    ],
+    "question": "Người Chăm giỏi nghề gì nhờ sống gần biển?",
+    "bai": 18
+  },
+  {
+    "answer": 0,
+    "explanation": "Tháp Chăm xây bằng gạch nung xếp khít, tháp nhọn dần lên cao thành nhiều tầng. Kĩ thuật xây gạch của người Chăm đến nay vẫn khiến các nhà nghiên cứu ngạc nhiên.",
+    "id": 154,
+    "options": [
+      "A. Gạch nung, tháp nhọn nhiều tầng",
+      "B. Đá hoa cương, mái bằng rất rộng rãi",
+      "C. Gỗ quý, nhà sàn",
+      "D. Đất nung, hình tròn"
+    ],
+    "question": "Tháp Chăm thường xây bằng vật liệu gì, có hình dáng ra sao?",
+    "bai": 18
+  },
+  {
+    "answer": 3,
+    "explanation": "Chăm-pa và Đại Việt là hai nước láng giềng nên vừa buôn bán, giao lưu văn hóa, vừa có lúc tranh chấp biên giới và xung đột. Quan hệ hai nước vì vậy lúc hòa hiếu, lúc căng thẳng.",
+    "id": 155,
+    "options": [
+      "A. Luôn hòa bình, không xung đột bao giờ",
+      "B. Chăm-pa cai trị Đại Việt trong nhiều năm",
+      "C. Không biết gì về nhau",
+      "D. Vừa buôn bán, vừa có lúc xung đột"
+    ],
+    "question": "Chăm-pa và Đại Việt (nước Việt) có quan hệ như thế nào?",
+    "bai": 18
+  },
+  {
+    "answer": 2,
+    "explanation": "Người Chăm học chữ Phạn của Ấn Độ rồi sáng tạo thành chữ Chăm riêng. Chữ Chăm dùng để khắc bia, ghi chép việc nước và kinh sách.",
+    "id": 156,
+    "options": [
+      "A. Chữ Hán",
+      "B. Chữ La-tinh của phương Tây",
+      "C. Chữ Phạn của Ấn Độ",
+      "D. Chữ A-rập"
+    ],
+    "question": "Người Chăm sáng tạo chữ viết riêng trên cơ sở chữ nào?",
+    "bai": 18
+  },
+  {
+    "answer": 1,
+    "explanation": "Tháp gạch nhọn nhiều tầng là kiểu tháp Chăm, thờ thần Hin-đu. Tháp Po Na-ga ở Nha Trang là di tích Chăm-pa còn lại đến ngày nay.",
+    "id": 157,
+    "options": [
+      "A. Người Việt xây tháp này từ thời xưa",
+      "B. Người Chăm xây tháp thờ thần",
+      "C. Người Hán xây tháp này",
+      "D. Người Khmer xây tháp này từ xa xưa"
+    ],
+    "question": "Tình huống: Em thăm tháp Po Na-ga ở Nha Trang, thấy tháp gạch nhọn nhiều tầng. Em kết luận gì về người xây tháp?",
+    "bai": 18
+  },
+  {
+    "answer": 3,
+    "explanation": "Phù Nam nằm ở hạ lưu sông Mê Công, gồm vùng Nam Bộ Việt Nam và Campuchia ngày nay. Đất thấp, nhiều sông rạch nên thuận lợi cho trồng lúa và đi lại bằng thuyền.",
+    "id": 158,
+    "options": [
+      "A. Đồng bằng sông Hồng",
+      "B. Miền Trung Việt Nam",
+      "C. Đảo Java",
+      "D. Hạ lưu sông Mê Công"
+    ],
+    "question": "Vương quốc Phù Nam nằm ở đâu?",
+    "bai": 19
+  },
+  {
+    "answer": 0,
+    "explanation": "Phù Nam thịnh vượng từ thế kỉ I đến thế kỉ VI, nhờ buôn bán đường biển giữa Ấn Độ và Trung Quốc. Đến thế kỉ VII, Phù Nam suy yếu và bị Chân Lạp thôn tính.",
+    "id": 159,
+    "options": [
+      "A. Từ thế kỉ I đến thế kỉ VI",
+      "B. Từ thế kỉ VII đến thế kỉ X",
+      "C. Từ thế kỉ X đến thế kỉ XIII",
+      "D. Từ thế kỉ XV đến thế kỉ XVIII"
+    ],
+    "question": "Phù Nam thịnh vượng nhất vào khoảng thời gian nào?",
+    "bai": 19
+  },
+  {
+    "answer": 1,
+    "explanation": "Óc Eo là thương cảng sầm uất của Phù Nam, ở An Giang ngày nay. Tàu thuyền Ấn Độ, Trung Quốc ghé đây mua bán, để lại nhiều hiện vật quý.",
+    "id": 160,
+    "options": [
+      "A. Hội An",
+      "B. Óc Eo",
+      "C. Vân Đồn",
+      "D. Trà Kiệu"
+    ],
+    "question": "Thương cảng nổi tiếng nhất của Phù Nam tên là gì?",
+    "bai": 19
+  },
+  {
+    "answer": 2,
+    "explanation": "Óc Eo nằm trên đường biển nối Ấn Độ với Trung Quốc nên tàu buôn hai nước đều ghé lại. Nhờ vậy Óc Eo trở thành nơi trao đổi hàng hóa lớn của cả vùng.",
+    "id": 161,
+    "options": [
+      "A. Vì trong lòng đất đào được nhiều vàng bạc",
+      "B. Vì là kinh đô Phù Nam",
+      "C. Vì nằm trên đường biển Ấn Độ – Trung Quốc",
+      "D. Vì có nhiều voi chiến"
+    ],
+    "question": "Vì sao Óc Eo sầm uất?",
+    "bai": 19
+  },
+  {
+    "answer": 3,
+    "explanation": "Vùng Phù Nam thấp trũng, mùa mưa ngập, mùa khô thiếu nước. Người Phù Nam đào nhiều kênh dẫn nước và đắp bờ giữ nước để trồng lúa và đi thuyền.",
+    "id": 162,
+    "options": [
+      "A. Xây thành đá cao quanh kinh đô Phù Nam",
+      "B. Đắp đê biển ngăn nước mặn",
+      "C. Đào giếng sâu lấy nước ngầm",
+      "D. Đào kênh dẫn nước, đắp bờ giữ nước"
+    ],
+    "question": "Người Phù Nam giỏi công trình gì để trị thủy?",
+    "bai": 19
+  },
+  {
+    "answer": 0,
+    "explanation": "Thương nhân và nhà sư Ấn Độ mang Hin-đu giáo và Phật giáo vào Phù Nam. Nhiều tượng thần và chùa tháp Phù Nam mang dấu ấn Ấn Độ.",
+    "id": 163,
+    "options": [
+      "A. Hin-đu giáo và Phật giáo",
+      "B. Nho giáo",
+      "C. Thiên Chúa giáo phương Tây",
+      "D. Đạo Hồi"
+    ],
+    "question": "Tôn giáo nào từ Ấn Độ truyền vào Phù Nam?",
+    "bai": 19
+  },
+  {
+    "answer": 1,
+    "explanation": "Ở Óc Eo, người ta tìm thấy nhiều hạt chuỗi, đồ trang sức bằng đá quý, vàng và đồ gốm nước ngoài. Những hiện vật này chứng tỏ Óc Eo buôn bán sầm uất.",
+    "id": 164,
+    "options": [
+      "A. Trống đồng Đông Sơn của người Việt cổ",
+      "B. Hạt chuỗi, đồ trang sức đá quý, vàng",
+      "C. Tháp gạch Chăm ở miền Trung",
+      "D. Tiền đồng nhà Hán đúc ra"
+    ],
+    "question": "Hiện vật nào sau đây gắn với Óc Eo?",
+    "bai": 19
+  },
+  {
+    "answer": 2,
+    "explanation": "Từ thế kỉ VI, Chân Lạp mạnh lên và thôn tính Phù Nam, đồng thời đường buôn bán trên biển đổi hướng. Phù Nam mất dần vai trò và suy yếu.",
+    "id": 165,
+    "options": [
+      "A. Động đất lớn phá hủy kinh đô Phù Nam",
+      "B. Dịch bệnh lan khắp vương quốc Phù Nam",
+      "C. Bị Chân Lạp thôn tính, mất đường biển",
+      "D. Dân bỏ đi hết không còn ai ở lại"
+    ],
+    "question": "Phù Nam suy yếu vì nguyên nhân chính nào?",
+    "bai": 19
+  },
+  {
+    "answer": 3,
+    "explanation": "Hạt chuỗi là đồ trang sức và hàng hóa buôn bán ở Óc Eo. Nó chứng tỏ Phù Nam giao thương rộng rãi với Ấn Độ, Trung Quốc và nhiều nước khác.",
+    "id": 166,
+    "options": [
+      "A. Đồ dùng hằng ngày của người Văn Lang",
+      "B. Đồ trang sức của vua Chăm-pa",
+      "C. Tiền đồng nhà Hán",
+      "D. Hàng hóa buôn bán ở cảng Óc Eo"
+    ],
+    "question": "Tình huống: Em thấy một hạt chuỗi cổ ở bảo tàng ghi “Óc Eo”. Em hiểu gì về hạt chuỗi đó?",
+    "bai": 19
   }
 ]

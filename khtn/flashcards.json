@@ -1,632 +1,1997 @@
 [
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Nghiên cứu khoa học là gì?",
-  "a": "Hoạt động tìm tòi, khám phá ra cái mới bằng quan sát, thí nghiệm có phương pháp.",
-  "fi": "../hinh-anh/khtn/fc-bai1-nghien-cuu.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Vật sống có những dấu hiệu nào?",
-  "a": "Trao đổi chất, sinh trưởng, sinh sản và cảm ứng.",
-  "fi": "../hinh-anh/khtn/fc-bai1-vat-song.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Than củi, hòn đá thuộc loại vật gì?",
-  "a": "Vật không sống — không có các hoạt động sống.",
-  "fi": "../hinh-anh/khtn/fc-sua-vat-khong-song.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "KHTN gồm những lĩnh vực nào?",
-  "a": "Vật lí học, Hóa học, Sinh học, Thiên văn học, Khoa học Trái Đất.",
-  "fi": "../hinh-anh/khtn/fc-bai1-linh-vuc.webp"
- },
- {
-  "b": 1,
-  "t": "fc",
-  "f": "Hiện tượng nước sôi thuộc lĩnh vực nào?",
-  "a": "Vật lí học (sự chuyển thể của chất).",
-  "fi": "../hinh-anh/khtn/fc-sua-nuoc-soi.webp"
- },
- {
-  "b": 1,
-  "t": "mn",
-  "f": "Cây xanh và con mèo khác hòn đá ở điểm nào?",
-  "a": "Chúng là vật sống: có trao đổi chất, sinh trưởng và sinh sản.",
-  "fi": "../hinh-anh/khtn/fc-bai1-vat-song.webp"
- },
- {
-  "b": 1,
-  "t": "mn",
-  "f": "Nước sôi là hiện tượng thuộc lĩnh vực nào của KHTN?",
-  "a": "Vật lí học — vì đó là sự chuyển thể của chất.",
-  "fi": "../hinh-anh/khtn/fc-sua-nuoc-soi.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Sau khi làm thí nghiệm xong phải làm gì?",
-  "a": "Rửa sạch tay bằng xà phòng.",
-  "fi": "../hinh-anh/khtn/fc-bai2-rua-tay.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Làm vỡ nhiệt kế thủy ngân thì xử lí thế nào?",
-  "a": "Đóng kín cửa • đeo khẩu trang + găng tay • gom bằng chổi mềm • báo giáo viên.",
-  "fi": "../hinh-anh/khtn/fc-sua-nhiet-ke-vo.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Hóa chất đổ ra sàn thì làm gì?",
-  "a": "Báo giáo viên và trải giấy thấm lên để ngăn hóa chất lan rộng.",
-  "fi": "../hinh-anh/khtn/fc-sua-hoa-chat-do.webp"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Kí hiệu trong hình cảnh báo điều gì?",
-  "a": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng.",
-  "fi": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png"
- },
- {
-  "b": 2,
-  "t": "fc",
-  "f": "Hai việc tuyệt đối cấm trong phòng thực hành?",
-  "a": "Ăn uống trong phòng; nếm hay ngửi trực tiếp hóa chất.",
-  "fi": "../hinh-anh/khtn/fc-bai2-an-toan.webp"
- },
- {
-  "b": 2,
-  "t": "mn",
-  "f": "Làm xong thí nghiệm, việc đầu tiên em phải làm là gì?",
-  "a": "Rửa sạch tay bằng xà phòng.",
-  "fi": "../hinh-anh/khtn/fc-bai2-rua-tay.webp"
- },
- {
-  "b": 2,
-  "t": "mn",
-  "f": "Kí hiệu trong hình cảnh báo điều gì?",
-  "a": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng.",
-  "fi": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Bộ phận chính của kính lúp là gì?",
-  "a": "Một thấu kính lồi gắn trong khung có tay cầm.",
-  "fi": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Số bội giác (3x, 5x…) cho biết điều gì?",
-  "a": "Khả năng phóng to ảnh của vật của kính lúp.",
-  "fi": "../hinh-anh/khtn/fc-bai3-quan-sat-la.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Kính lúp phóng to khoảng bao nhiêu lần?",
-  "a": "Khoảng 3 đến 20 lần.",
-  "fi": "../hinh-anh/khtn/fc-sua-phong-to.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Cách dùng kính lúp đúng?",
-  "a": "Điều chỉnh khoảng cách giữa kính và vật đến khi nhìn ảnh rõ nét nhất.",
-  "fi": "../hinh-anh/khtn/fc-bai3-xem-tem.webp"
- },
- {
-  "b": 3,
-  "t": "fc",
-  "f": "Bảo quản kính lúp thế nào?",
-  "a": "Lau bằng khăn mềm, cất nơi khô ráo, tránh rơi vỡ/trầy xước.",
-  "fi": "../hinh-anh/khtn/fc-sua-bao-quan-kinh-lup.webp"
- },
- {
-  "b": 3,
-  "t": "mn",
-  "f": "Bộ phận chính của kính lúp là gì?",
-  "a": "Một thấu kính lồi gắn trong khung có tay cầm.",
-  "fi": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp"
- },
- {
-  "b": 3,
-  "t": "mn",
-  "f": "Kính lúp phóng to được khoảng bao nhiêu lần?",
-  "a": "Khoảng 3 đến 20 lần.",
-  "fi": "../hinh-anh/khtn/fc-sua-phong-to.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?",
-  "a": "Khoảng 40 đến 3000 lần.",
-  "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Kính hiển vi gồm hai bộ phận thấu kính nào?",
-  "a": "Vật kính và thị kính.",
-  "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Độ phóng đại của kính hiển vi tính thế nào?",
-  "a": "Độ phóng đại vật kính × độ phóng đại thị kính.",
-  "fi": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp"
- },
- {
-  "b": 4,
-  "t": "fc",
-  "f": "Khi nào phải dùng kính hiển vi thay cho kính lúp?",
-  "a": "Khi vật quá nhỏ (tế bào, vi khuẩn) — kính lúp chỉ phóng to 3–20 lần, không đủ.",
-  "fi": "../hinh-anh/khtn/fc-bai4-quan-sat-mau.webp"
- },
- {
-  "b": 4,
-  "t": "mn",
-  "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?",
-  "a": "Khoảng 40 đến 3000 lần.",
-  "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
- },
- {
-  "b": 4,
-  "t": "mn",
-  "f": "Độ phóng đại của kính hiển vi được tính thế nào?",
-  "a": "Độ phóng đại vật kính × độ phóng đại thị kính.",
-  "fi": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Đơn vị đo độ dài hợp pháp của nước ta?",
-  "a": "Mét (m).",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "GHĐ của thước là gì?",
-  "a": "Độ dài lớn nhất mà thước đo được.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "ĐCNN của thước là gì?",
-  "a": "Khoảng cách giữa hai vạch chia liên tiếp trên thước.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "1 mL bằng bao nhiêu cm³?",
-  "a": "1 mL = 1 cm³.",
-  "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
- },
- {
-  "b": 5,
-  "t": "fc",
-  "f": "Khi đọc kết quả đo, đặt mắt thế nào?",
-  "a": "Mắt nhìn vuông góc với vạch chia của thước.",
-  "fi": "../hinh-anh/khtn/fc-sua-mat-vuong-goc.webp"
- },
- {
-  "b": 5,
-  "t": "mn",
-  "f": "Giá trị lớn nhất mà thước đo được gọi là gì?",
-  "a": "Giới hạn đo (GHĐ) của thước.",
-  "fi": "../hinh-anh/khtn/bai5-thuoc-thep.webp"
- },
- {
-  "b": 5,
-  "t": "mn",
-  "f": "1 mL bằng bao nhiêu cm³?",
-  "a": "1 mL = 1 cm³.",
-  "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?",
-  "a": "Khối lượng của sữa trong hộp (khối lượng tịnh).",
-  "fi": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "0,2 tạ bằng bao nhiêu kg?",
-  "a": "20 kg (vì 1 tạ = 100 kg).",
-  "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "1 lạng bằng bao nhiêu?",
-  "a": "100 g = 0,1 kg.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Trước khi cân phải làm gì với cân?",
-  "a": "Hiệu chỉnh cân về vạch 0.",
-  "fi": "../hinh-anh/khtn/fc-sua-chinh-can.webp"
- },
- {
-  "b": 6,
-  "t": "fc",
-  "f": "Cân 257,5 g thì chọn những quả cân nào?",
-  "a": "200 g + 50 g + 5 g + 2 g + 500 mg.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
- },
- {
-  "b": 6,
-  "t": "mn",
-  "f": "Trước khi cân, phải làm gì với cân?",
-  "a": "Hiệu chỉnh cân về vạch 0.",
-  "fi": "../hinh-anh/khtn/fc-sua-chinh-can.webp"
- },
- {
-  "b": 6,
-  "t": "mn",
-  "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?",
-  "a": "Khối lượng của sữa trong hộp (khối lượng tịnh).",
-  "fi": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Đơn vị đo thời gian là gì?",
-  "a": "Giây (s).",
-  "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"50\" cy=\"32\" r=\"24\" fill=\"#fff\" stroke=\"#283593\" stroke-width=\"3\"/><g class=\"fc-rot\"><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"14\" stroke=\"#283593\" stroke-width=\"3\"/></g><line x1=\"50\" y1=\"32\" x2=\"63\" y2=\"40\" stroke=\"#e8710a\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"32\" r=\"2.5\" fill=\"#283593\"/><circle cx=\"50\" cy=\"11\" r=\"3\" fill=\"none\" stroke=\"#283593\" stroke-width=\"2\"/></svg>"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "1 ngày bằng bao nhiêu giờ?",
-  "a": "24 giờ.",
-  "fi": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "Đo thời gian chạy 100 m dùng đồng hồ nào?",
-  "a": "Đồng hồ bấm giây.",
-  "fi": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp"
- },
- {
-  "b": 7,
-  "t": "fc",
-  "f": "1 giờ bằng bao nhiêu giây?",
-  "a": "3600 giây.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"50\" cy=\"32\" r=\"24\" fill=\"#fff\" stroke=\"#283593\" stroke-width=\"3\"/><g class=\"fc-rot\"><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"14\" stroke=\"#283593\" stroke-width=\"3\"/></g><line x1=\"50\" y1=\"32\" x2=\"63\" y2=\"40\" stroke=\"#e8710a\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"32\" r=\"2.5\" fill=\"#283593\"/><circle cx=\"50\" cy=\"11\" r=\"3\" fill=\"none\" stroke=\"#283593\" stroke-width=\"2\"/></svg>"
- },
- {
-  "b": 7,
-  "t": "mn",
-  "f": "Đo thời gian chạy 100 m thì dùng đồng hồ nào?",
-  "a": "Đồng hồ bấm giây.",
-  "fi": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp"
- },
- {
-  "b": 7,
-  "t": "mn",
-  "f": "Một ngày bằng bao nhiêu giờ?",
-  "a": "24 giờ.",
-  "fi": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Nhiệt độ nước đá đang tan là bao nhiêu °C?",
-  "a": "0 °C.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Nhiệt độ nước đang sôi theo thang °F?",
-  "a": "212 °F.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "Công thức đổi °C sang °F?",
-  "a": "°F = °C × 1,8 + 32.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
- },
- {
-  "b": 8,
-  "t": "fc",
-  "f": "22 °C đổi sang °F bằng bao nhiêu?",
-  "a": "71,6 °F.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
- },
- {
-  "b": 8,
-  "t": "mn",
-  "f": "Nhiệt kế trong hình có mấy thang đo?",
-  "a": "Hai thang: thang °C và thang °F.",
-  "fi": "../hinh-anh/khtn/bai8-nhiet-ke-hai-thang.jpg"
- },
- {
-  "b": 8,
-  "t": "mn",
-  "f": "Nước đang sôi ở bao nhiêu °C?",
-  "a": "100 °C — tương ứng 212 °F.",
-  "fi": "../hinh-anh/khtn/mini-bai8-nuoc-soi.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Chất có những thể nào?",
-  "a": "Ba thể: rắn, lỏng, khí.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"2\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"ps\" style=\"animation-delay:0s\" cx=\"8\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.15s\" cx=\"14\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.3s\" cx=\"20\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.1s\" cx=\"26\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.25s\" cx=\"8\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.05s\" cx=\"14\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.35s\" cx=\"20\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.2s\" cx=\"26\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.12s\" cx=\"8\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.32s\" cx=\"14\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.22s\" cx=\"20\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.08s\" cx=\"26\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.28s\" cx=\"8\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.18s\" cx=\"14\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.38s\" cx=\"20\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.02s\" cx=\"26\" cy=\"37\" r=\"2.3\"/></g><text x=\"17\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><rect x=\"35\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pl\" style=\"animation-delay:-0.4s\" cx=\"41\" cy=\"18\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.2s\" cx=\"48\" cy=\"16\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.8s\" cx=\"55\" cy=\"19\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.7s\" cx=\"44\" cy=\"26\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.2s\" cx=\"52\" cy=\"25\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.5s\" cx=\"59\" cy=\"27\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.9s\" cx=\"40\" cy=\"34\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.5s\" cx=\"49\" cy=\"33\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.9s\" cx=\"57\" cy=\"35\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.7s\" cx=\"45\" cy=\"41\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.3s\" cx=\"54\" cy=\"42\" r=\"2.3\"/></g><text x=\"50\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text><rect x=\"68\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pg\" style=\"animation-delay:0s\" cx=\"73\" cy=\"17\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.9s\" cx=\"88\" cy=\"15\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-1.6s\" cx=\"81\" cy=\"28\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.5s\" cx=\"93\" cy=\"34\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-2.1s\" cx=\"72\" cy=\"41\" r=\"2.3\"/></g><text x=\"83\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Khí</text></svg>"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Nóng chảy là sự chuyển thể nào?",
-  "a": "Từ thể rắn sang thể lỏng.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"8\" y=\"20\" width=\"24\" height=\"24\" fill=\"#90caf9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><circle class=\"fc-drip\" cx=\"20\" cy=\"46\" r=\"2.2\" fill=\"#42a5f5\"/><path class=\"fc-push\" d=\"M38 32 L58 32 M52 25 L59 32 L52 39\" fill=\"none\" stroke=\"#e8710a\" stroke-width=\"3\"/><g class=\"fc-bob\"><path d=\"M76 16 C76 16 64 30 64 39 a12 12 0 0 0 24 0 C88 30 76 16 76 16Z\" fill=\"#42a5f5\" stroke=\"#2e7d32\" stroke-width=\"2\"/></g><text x=\"20\" y=\"58\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><text x=\"76\" y=\"58\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text></svg>"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Mây được tạo thành do hiện tượng gì?",
-  "a": "Hơi nước ngưng tụ trên cao.",
-  "fi": "../hinh-anh/khtn/fc-sua-may.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Sôi khác bay hơi ở điểm nào?",
-  "a": "Sôi xảy ra ở một nhiệt độ xác định; bay hơi xảy ra ở mọi nhiệt độ, chỉ trên bề mặt.",
-  "fi": "../hinh-anh/khtn/fc-sua-soi-bay-hoi.webp"
- },
- {
-  "b": 9,
-  "t": "fc",
-  "f": "Thể khí có đặc điểm gì nổi bật?",
-  "a": "Không có hình dạng và thể tích xác định, lan tỏa theo mọi hướng.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"2\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"ps\" style=\"animation-delay:0s\" cx=\"8\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.15s\" cx=\"14\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.3s\" cx=\"20\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.1s\" cx=\"26\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.25s\" cx=\"8\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.05s\" cx=\"14\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.35s\" cx=\"20\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.2s\" cx=\"26\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.12s\" cx=\"8\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.32s\" cx=\"14\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.22s\" cx=\"20\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.08s\" cx=\"26\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.28s\" cx=\"8\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.18s\" cx=\"14\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.38s\" cx=\"20\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.02s\" cx=\"26\" cy=\"37\" r=\"2.3\"/></g><text x=\"17\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><rect x=\"35\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pl\" style=\"animation-delay:-0.4s\" cx=\"41\" cy=\"18\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.2s\" cx=\"48\" cy=\"16\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.8s\" cx=\"55\" cy=\"19\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.7s\" cx=\"44\" cy=\"26\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.2s\" cx=\"52\" cy=\"25\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.5s\" cx=\"59\" cy=\"27\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.9s\" cx=\"40\" cy=\"34\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.5s\" cx=\"49\" cy=\"33\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.9s\" cx=\"57\" cy=\"35\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.7s\" cx=\"45\" cy=\"41\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.3s\" cx=\"54\" cy=\"42\" r=\"2.3\"/></g><text x=\"50\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text><rect x=\"68\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pg\" style=\"animation-delay:0s\" cx=\"73\" cy=\"17\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.9s\" cx=\"88\" cy=\"15\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-1.6s\" cx=\"81\" cy=\"28\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.5s\" cx=\"93\" cy=\"34\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-2.1s\" cx=\"72\" cy=\"41\" r=\"2.3\"/></g><text x=\"83\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Khí</text></svg>"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "Mây trên trời được tạo thành nhờ hiện tượng gì?",
-  "a": "Hơi nước ngưng tụ trên cao.",
-  "fi": "../hinh-anh/khtn/fc-sua-may.webp"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "Viên đá tan thành nước gọi là sự gì?",
-  "a": "Sự nóng chảy — chuyển từ thể rắn sang thể lỏng.",
-  "fi": "../hinh-anh/khtn/bai9-da-tan.webp"
- },
- {
-  "b": 10,
-  "t": "fc",
-  "f": "Tính chất hóa học của chất là gì?",
-  "a": "Khả năng biến đổi thành chất khác (tạo ra chất mới).",
-  "fi": "../hinh-anh/khtn/fc-sua-gi-sat.webp"
- },
- {
-  "b": 10,
-  "t": "fc",
-  "f": "Đun đường đến cháy đen thể hiện tính chất gì?",
-  "a": "Tính chất hóa học — vì có chất mới tạo thành.",
-  "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
- },
- {
-  "b": 10,
-  "t": "fc",
-  "f": "Mô hình 3R gồm những gì?",
-  "a": "Reduce (giảm thiểu) – Reuse (tái sử dụng) – Recycle (tái chế).",
-  "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
- },
- {
-  "b": 10,
-  "t": "fc",
-  "f": "Gang và thép đều được chế biến từ đâu?",
-  "a": "Từ quặng sắt.",
-  "fi": "../hinh-anh/khtn/fc-bai10-lo-ren.webp"
- },
- {
-  "b": 10,
-  "t": "fc",
-  "f": "Gang khác thép ở điểm nào quan trọng?",
-  "a": "Gang cứng nhưng giòn hơn thép.",
-  "fi": "../hinh-anh/khtn/fc-sua-gang-thep.webp"
- },
- {
-  "b": 10,
-  "t": "mn",
-  "f": "Đun đường đến cháy đen cho thấy tính chất gì của chất?",
-  "a": "Tính chất hóa học — vì có chất mới được tạo thành.",
-  "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
- },
- {
-  "b": 10,
-  "t": "mn",
-  "f": "Biểu tượng trong hình có ý nghĩa gì?",
-  "a": "Tái chế (Recycle) — một trong ba phần của mô hình 3R.",
-  "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
- },
- {
-  "b": 11,
-  "t": "fc",
-  "f": "Oxygen chiếm khoảng bao nhiêu % không khí?",
-  "a": "Khoảng 21%.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"36\" cy=\"32\" r=\"24\" fill=\"#90caf9\"/><path d=\"M36 32 L36 8 A24 24 0 0 1 58 25 Z\" fill=\"#ffb74d\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"20\" width=\"8\" height=\"8\" fill=\"#90caf9\"/><text x=\"77\" y=\"27\" font-size=\"8\" fill=\"#333\">N₂ 78%</text><rect x=\"66\" y=\"36\" width=\"8\" height=\"8\" fill=\"#ffb74d\"/><text x=\"77\" y=\"43\" font-size=\"8\" fill=\"#333\">O₂ 21%</text></svg>"
- },
- {
-  "b": 11,
-  "t": "fc",
-  "f": "Nitrogen chiếm khoảng bao nhiêu % không khí?",
-  "a": "Khoảng 78%.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"36\" cy=\"32\" r=\"24\" fill=\"#90caf9\"/><path d=\"M36 32 L36 8 A24 24 0 0 1 58 25 Z\" fill=\"#ffb74d\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"20\" width=\"8\" height=\"8\" fill=\"#90caf9\"/><text x=\"77\" y=\"27\" font-size=\"8\" fill=\"#333\">N₂ 78%</text><rect x=\"66\" y=\"36\" width=\"8\" height=\"8\" fill=\"#ffb74d\"/><text x=\"77\" y=\"43\" font-size=\"8\" fill=\"#333\">O₂ 21%</text></svg>"
- },
- {
-  "b": 11,
-  "t": "fc",
-  "f": "Can xăng bốc cháy thì dập lửa bằng gì?",
-  "a": "Dùng cát đổ trùm lên (hoặc bình chữa cháy) — không dùng nước.",
-  "fi": "../hinh-anh/khtn/fc-sua-chay-xang-cat.webp"
- },
- {
-  "b": 11,
-  "t": "fc",
-  "f": "Vì sao không dùng nước dập cháy xăng?",
-  "a": "Xăng nhẹ hơn nước và không tan, nước làm xăng loang ra, cháy lan rộng hơn.",
-  "fi": "../hinh-anh/khtn/fc-sua-xang-tren-nuoc.webp"
- },
- {
-  "b": 11,
-  "t": "fc",
-  "f": "Dùng bếp gas sao cho tiết kiệm?",
-  "a": "Điều chỉnh ngọn lửa phù hợp với nồi và nhu cầu đun nấu.",
-  "fi": "../hinh-anh/khtn/fc-bai11-bep-gas.webp"
- },
- {
-  "b": 11,
-  "t": "mn",
-  "f": "Oxygen chiếm khoảng bao nhiêu phần trăm không khí?",
-  "a": "Khoảng 21%.",
-  "fi": "../hinh-anh/khtn/bai11-binh-oxygen.webp"
- },
- {
-  "b": 11,
-  "t": "mn",
-  "f": "Can xăng bốc cháy thì dập lửa bằng gì?",
-  "a": "Đổ cát trùm lên (hoặc dùng bình chữa cháy) — tuyệt đối không dùng nước.",
-  "fi": "../hinh-anh/khtn/fc-sua-chay-xang-cat.webp"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
-  "a": "Tế bào.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><text x=\"8\" y=\"9\" font-size=\"6.5\" fill=\"#33691e\">màng tế bào</text><line x1=\"24\" y1=\"12\" x2=\"17\" y2=\"10\" stroke=\"#558b2f\" stroke-width=\"1\"/><ellipse cx=\"50\" cy=\"34\" rx=\"38\" ry=\"21\" fill=\"#f1f8e9\" stroke=\"#558b2f\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"34\" r=\"9\" fill=\"#c5e1a5\" stroke=\"#558b2f\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"26\" r=\"2\" fill=\"#558b2f\"/><circle cx=\"70\" cy=\"42\" r=\"2\" fill=\"#558b2f\"/><line x1=\"43\" y1=\"41\" x2=\"22\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"4\" y=\"63\" font-size=\"6.5\" fill=\"#33691e\">nhân</text><line x1=\"63\" y1=\"43\" x2=\"79\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"96\" y=\"63\" font-size=\"6.5\" text-anchor=\"end\" fill=\"#33691e\">chất tế bào</text></svg>"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "Trung tâm điều khiển mọi hoạt động của tế bào?",
-  "a": "Nhân tế bào.",
-  "fs": "<svg viewBox=\"0 0 100 64\"><text x=\"8\" y=\"9\" font-size=\"6.5\" fill=\"#33691e\">màng tế bào</text><line x1=\"24\" y1=\"12\" x2=\"17\" y2=\"10\" stroke=\"#558b2f\" stroke-width=\"1\"/><ellipse cx=\"50\" cy=\"34\" rx=\"38\" ry=\"21\" fill=\"#f1f8e9\" stroke=\"#558b2f\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"34\" r=\"9\" fill=\"#c5e1a5\" stroke=\"#558b2f\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"26\" r=\"2\" fill=\"#558b2f\"/><circle cx=\"70\" cy=\"42\" r=\"2\" fill=\"#558b2f\"/><line x1=\"43\" y1=\"41\" x2=\"22\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"4\" y=\"63\" font-size=\"6.5\" fill=\"#33691e\">nhân</text><line x1=\"63\" y1=\"43\" x2=\"79\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"96\" y=\"63\" font-size=\"6.5\" text-anchor=\"end\" fill=\"#33691e\">chất tế bào</text></svg>"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "Kể hai sinh vật đơn bào.",
-  "a": "Tảo lục và vi khuẩn lam.",
-  "fi": "../hinh-anh/khtn/fc-bai12-sinh-vat-don-bao.webp"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "Các cấp độ tổ chức của cơ thể theo thứ tự?",
-  "a": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể.",
-  "fi": "../hinh-anh/khtn/fc-bai12-co-the.webp"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "Thực vật có hai hệ cơ quan nào?",
-  "a": "Hệ chồi và hệ rễ.",
-  "fi": "../hinh-anh/khtn/fc-sua-he-choi-he-re.webp"
- },
- {
-  "b": 12,
-  "t": "fc",
-  "f": "\"Vùng nhân\" là đặc điểm của tế bào loại nào?",
-  "a": "Tế bào nhân sơ (tế bào nhân thực không có vùng nhân).",
-  "fi": "../hinh-anh/khtn/fc-sua-te-bao-nhan-so.webp"
- },
- {
-  "b": 12,
-  "t": "mn",
-  "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
-  "a": "Tế bào.",
-  "fi": "../hinh-anh/khtn/bai12-te-bao-hanh.webp"
- },
- {
-  "b": 12,
-  "t": "mn",
-  "f": "Bộ phận nào là trung tâm điều khiển của tế bào?",
-  "a": "Nhân tế bào.",
-  "fi": "../hinh-anh/khtn/fc-sua-te-bao-nhan-so.webp"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Lực là gì?",
-  "a": "Tác dụng đẩy, kéo của vật này lên vật khác.",
-  "fi": "../hinh-anh/khtn/fc-bai13-day-keo.webp"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Trọng lực luôn có chiều thế nào?",
-  "a": "Hướng xuống dưới, về phía Trái Đất.",
-  "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Hai lực cân bằng cần đủ điều kiện gì?",
-  "a": "Cùng tác dụng lên một vật, cùng phương, ngược chiều, cùng độ lớn.",
-  "fi": "../hinh-anh/khtn/fc-sua-luc-can-bang.webp"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Đơn vị đo lực là gì?",
-  "a": "Niutơn (N).",
-  "fs": "<svg viewBox=\"0 0 100 64\"><g class=\"fc-coil\"><path d=\"M50 4 v6 M42 10 l16 6 l-16 6 l16 6 l-16 6 l16 6 l-8 4\" fill=\"none\" stroke=\"#4527a0\" stroke-width=\"2.5\"/></g><g class=\"fc-wt\"><rect x=\"38\" y=\"46\" width=\"24\" height=\"12\" rx=\"2\" fill=\"#b39ddb\" stroke=\"#4527a0\" stroke-width=\"2\"/><text x=\"50\" y=\"55\" font-size=\"7.5\" text-anchor=\"middle\" fill=\"#4527a0\">vật</text></g></svg>"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Lực kế thường dùng có GHĐ và ĐCNN bao nhiêu?",
-  "a": "GHĐ 10 N, ĐCNN 0,2 N.",
-  "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
- },
- {
-  "b": 13,
-  "t": "fc",
-  "f": "Treo 150 g kim chỉ vạch 3, treo 100 g chỉ vạch mấy?",
-  "a": "Vạch thứ 2 (mỗi vạch ứng với 50 g).",
-  "fs": "<svg viewBox=\"0 0 100 64\"><g class=\"fc-coil\"><path d=\"M50 4 v6 M42 10 l16 6 l-16 6 l16 6 l-16 6 l16 6 l-8 4\" fill=\"none\" stroke=\"#4527a0\" stroke-width=\"2.5\"/></g><g class=\"fc-wt\"><rect x=\"38\" y=\"46\" width=\"24\" height=\"12\" rx=\"2\" fill=\"#b39ddb\" stroke=\"#4527a0\" stroke-width=\"2\"/><text x=\"50\" y=\"55\" font-size=\"7.5\" text-anchor=\"middle\" fill=\"#4527a0\">vật</text></g></svg>"
- },
- {
-  "b": 13,
-  "t": "mn",
-  "f": "Trọng lực luôn có chiều hướng về đâu?",
-  "a": "Hướng xuống dưới, về phía Trái Đất.",
-  "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
- },
- {
-  "b": 13,
-  "t": "mn",
-  "f": "Dụng cụ trong hình dùng để đo đại lượng nào?",
-  "a": "Đo lực — đó là lực kế, đơn vị niutơn (N).",
-  "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
- }
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Nghiên cứu khoa học là gì?",
+    "a": "Hoạt động tìm tòi, khám phá ra cái mới bằng quan sát, thí nghiệm có phương pháp.",
+    "fi": "../hinh-anh/khtn/fc-bai1-nghien-cuu.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Vật sống có những dấu hiệu nào?",
+    "a": "Trao đổi chất, sinh trưởng, sinh sản và cảm ứng.",
+    "fi": "../hinh-anh/khtn/fc-bai1-vat-song.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Than củi, hòn đá thuộc loại vật gì?",
+    "a": "Vật không sống — không có các hoạt động sống.",
+    "fi": "../hinh-anh/khtn/fc-sua-vat-khong-song.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "KHTN gồm những lĩnh vực nào?",
+    "a": "Vật lí học, Hóa học, Sinh học, Thiên văn học, Khoa học Trái Đất.",
+    "fi": "../hinh-anh/khtn/fc-bai1-linh-vuc.webp"
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Hiện tượng nước sôi thuộc lĩnh vực nào?",
+    "a": "Vật lí học (sự chuyển thể của chất).",
+    "fi": "../hinh-anh/khtn/fc-sua-nuoc-soi.webp"
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Cây xanh và con mèo khác hòn đá ở điểm nào?",
+    "a": "Chúng là vật sống: có trao đổi chất, sinh trưởng và sinh sản.",
+    "fi": "../hinh-anh/khtn/fc-bai1-vat-song.webp"
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Nước sôi là hiện tượng thuộc lĩnh vực nào của KHTN?",
+    "a": "Vật lí học — vì đó là sự chuyển thể của chất.",
+    "fi": "../hinh-anh/khtn/fc-sua-nuoc-soi.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Sau khi làm thí nghiệm xong phải làm gì?",
+    "a": "Rửa sạch tay bằng xà phòng.",
+    "fi": "../hinh-anh/khtn/fc-bai2-rua-tay.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Làm vỡ nhiệt kế thủy ngân thì xử lí thế nào?",
+    "a": "Đóng kín cửa • đeo khẩu trang + găng tay • gom bằng chổi mềm • báo giáo viên.",
+    "fi": "../hinh-anh/khtn/fc-sua-nhiet-ke-vo.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Hóa chất đổ ra sàn thì làm gì?",
+    "a": "Báo giáo viên và trải giấy thấm lên để ngăn hóa chất lan rộng.",
+    "fi": "../hinh-anh/khtn/fc-sua-hoa-chat-do.webp"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Kí hiệu trong hình cảnh báo điều gì?",
+    "a": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng.",
+    "fi": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png"
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Hai việc tuyệt đối cấm trong phòng thực hành?",
+    "a": "Ăn uống trong phòng; nếm hay ngửi trực tiếp hóa chất.",
+    "fi": "../hinh-anh/khtn/fc-bai2-an-toan.webp"
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Làm xong thí nghiệm, việc đầu tiên em phải làm là gì?",
+    "a": "Rửa sạch tay bằng xà phòng.",
+    "fi": "../hinh-anh/khtn/fc-bai2-rua-tay.webp"
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Kí hiệu trong hình cảnh báo điều gì?",
+    "a": "Chất nguy hại cho sức khỏe (hệ thống GHS) — phải đọc kĩ nhãn trước khi dùng.",
+    "fi": "../hinh-anh/khtn/bai2-bieu-tuong-ghs.png"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Bộ phận chính của kính lúp là gì?",
+    "a": "Một thấu kính lồi gắn trong khung có tay cầm.",
+    "fi": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Số bội giác (3x, 5x…) cho biết điều gì?",
+    "a": "Khả năng phóng to ảnh của vật của kính lúp.",
+    "fi": "../hinh-anh/khtn/fc-bai3-quan-sat-la.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Kính lúp phóng to khoảng bao nhiêu lần?",
+    "a": "Khoảng 3 đến 20 lần.",
+    "fi": "../hinh-anh/khtn/fc-sua-phong-to.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Cách dùng kính lúp đúng?",
+    "a": "Điều chỉnh khoảng cách giữa kính và vật đến khi nhìn ảnh rõ nét nhất.",
+    "fi": "../hinh-anh/khtn/fc-bai3-xem-tem.webp"
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Bảo quản kính lúp thế nào?",
+    "a": "Lau bằng khăn mềm, cất nơi khô ráo, tránh rơi vỡ/trầy xước.",
+    "fi": "../hinh-anh/khtn/fc-sua-bao-quan-kinh-lup.webp"
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Bộ phận chính của kính lúp là gì?",
+    "a": "Một thấu kính lồi gắn trong khung có tay cầm.",
+    "fi": "../hinh-anh/khtn/fc-bai3-kinh-lup-cau-tao.webp"
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Kính lúp phóng to được khoảng bao nhiêu lần?",
+    "a": "Khoảng 3 đến 20 lần.",
+    "fi": "../hinh-anh/khtn/fc-sua-phong-to.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?",
+    "a": "Khoảng 40 đến 3000 lần.",
+    "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Kính hiển vi gồm hai bộ phận thấu kính nào?",
+    "a": "Vật kính và thị kính.",
+    "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Độ phóng đại của kính hiển vi tính thế nào?",
+    "a": "Độ phóng đại vật kính × độ phóng đại thị kính.",
+    "fi": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp"
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Khi nào phải dùng kính hiển vi thay cho kính lúp?",
+    "a": "Khi vật quá nhỏ (tế bào, vi khuẩn) — kính lúp chỉ phóng to 3–20 lần, không đủ.",
+    "fi": "../hinh-anh/khtn/fc-bai4-quan-sat-mau.webp"
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Kính hiển vi quang học phóng to khoảng bao nhiêu lần?",
+    "a": "Khoảng 40 đến 3000 lần.",
+    "fi": "../hinh-anh/khtn/bai4-kinh-hien-vi-ai.webp"
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Độ phóng đại của kính hiển vi được tính thế nào?",
+    "a": "Độ phóng đại vật kính × độ phóng đại thị kính.",
+    "fi": "../hinh-anh/khtn/fc-bai4-te-bao-qua-kinh.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Đơn vị đo độ dài hợp pháp của nước ta?",
+    "a": "Mét (m).",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "GHĐ của thước là gì?",
+    "a": "Độ dài lớn nhất mà thước đo được.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "ĐCNN của thước là gì?",
+    "a": "Khoảng cách giữa hai vạch chia liên tiếp trên thước.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"6\" y=\"24\" width=\"88\" height=\"18\" fill=\"#fff3cd\" stroke=\"#ef6c00\" stroke-width=\"2\"/><path d=\"M14 24 v10 M26 24 v7 M38 24 v10 M50 24 v7 M62 24 v10 M74 24 v7 M86 24 v10\" stroke=\"#ef6c00\" stroke-width=\"2\"/><text x=\"14\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">0</text><text x=\"38\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">1</text><text x=\"62\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">2</text><text x=\"86\" y=\"54\" font-size=\"8\" text-anchor=\"middle\" fill=\"#ef6c00\">3 cm</text></svg>"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "1 mL bằng bao nhiêu cm³?",
+    "a": "1 mL = 1 cm³.",
+    "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Khi đọc kết quả đo, đặt mắt thế nào?",
+    "a": "Mắt nhìn vuông góc với vạch chia của thước.",
+    "fi": "../hinh-anh/khtn/fc-sua-mat-vuong-goc.webp"
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Giá trị lớn nhất mà thước đo được gọi là gì?",
+    "a": "Giới hạn đo (GHĐ) của thước.",
+    "fi": "../hinh-anh/khtn/bai5-thuoc-thep.webp"
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "1 mL bằng bao nhiêu cm³?",
+    "a": "1 mL = 1 cm³.",
+    "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?",
+    "a": "Khối lượng của sữa trong hộp (khối lượng tịnh).",
+    "fi": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "0,2 tạ bằng bao nhiêu kg?",
+    "a": "20 kg (vì 1 tạ = 100 kg).",
+    "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "1 lạng bằng bao nhiêu?",
+    "a": "100 g = 0,1 kg.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Trước khi cân phải làm gì với cân?",
+    "a": "Hiệu chỉnh cân về vạch 0.",
+    "fi": "../hinh-anh/khtn/fc-sua-chinh-can.webp"
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Cân 257,5 g thì chọn những quả cân nào?",
+    "a": "200 g + 50 g + 5 g + 2 g + 500 mg.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"48\" stroke=\"#ad1457\" stroke-width=\"3\"/><line x1=\"16\" y1=\"14\" x2=\"84\" y2=\"14\" stroke=\"#ad1457\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"12\" r=\"3.5\" fill=\"#ad1457\"/><path d=\"M16 14 L9 30 M16 14 L23 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M84 14 L77 30 M84 14 L91 30\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M6 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><path d=\"M74 30 a10 4 0 0 0 20 0 Z\" fill=\"#f8bbd0\" stroke=\"#ad1457\" stroke-width=\"2\"/><rect x=\"34\" y=\"50\" width=\"32\" height=\"5\" fill=\"#ad1457\"/></svg>"
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Trước khi cân, phải làm gì với cân?",
+    "a": "Hiệu chỉnh cân về vạch 0.",
+    "fi": "../hinh-anh/khtn/fc-sua-chinh-can.webp"
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Số 380 g ghi trên hộp sữa cho biết điều gì?",
+    "a": "Khối lượng của sữa trong hộp (khối lượng tịnh).",
+    "fi": "../hinh-anh/khtn/fc-bai6-can-dien-tu.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Đơn vị đo thời gian là gì?",
+    "a": "Giây (s).",
+    "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"50\" cy=\"32\" r=\"24\" fill=\"#fff\" stroke=\"#283593\" stroke-width=\"3\"/><g class=\"fc-rot\"><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"14\" stroke=\"#283593\" stroke-width=\"3\"/></g><line x1=\"50\" y1=\"32\" x2=\"63\" y2=\"40\" stroke=\"#e8710a\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"32\" r=\"2.5\" fill=\"#283593\"/><circle cx=\"50\" cy=\"11\" r=\"3\" fill=\"none\" stroke=\"#283593\" stroke-width=\"2\"/></svg>"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "1 ngày bằng bao nhiêu giờ?",
+    "a": "24 giờ.",
+    "fi": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Đo thời gian chạy 100 m dùng đồng hồ nào?",
+    "a": "Đồng hồ bấm giây.",
+    "fi": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp"
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "1 giờ bằng bao nhiêu giây?",
+    "a": "3600 giây.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"50\" cy=\"32\" r=\"24\" fill=\"#fff\" stroke=\"#283593\" stroke-width=\"3\"/><g class=\"fc-rot\"><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"14\" stroke=\"#283593\" stroke-width=\"3\"/></g><line x1=\"50\" y1=\"32\" x2=\"63\" y2=\"40\" stroke=\"#e8710a\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"32\" r=\"2.5\" fill=\"#283593\"/><circle cx=\"50\" cy=\"11\" r=\"3\" fill=\"none\" stroke=\"#283593\" stroke-width=\"2\"/></svg>"
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Đo thời gian chạy 100 m thì dùng đồng hồ nào?",
+    "a": "Đồng hồ bấm giây.",
+    "fi": "../hinh-anh/khtn/fc-bai7-chay-dien-kinh.webp"
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Một ngày bằng bao nhiêu giờ?",
+    "a": "24 giờ.",
+    "fi": "../hinh-anh/khtn/fc-bai7-dong-ho-cat.webp"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Nhiệt độ nước đá đang tan là bao nhiêu °C?",
+    "a": "0 °C.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Nhiệt độ nước đang sôi theo thang °F?",
+    "a": "212 °F.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Công thức đổi °C sang °F?",
+    "a": "°F = °C × 1,8 + 32.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "22 °C đổi sang °F bằng bao nhiêu?",
+    "a": "71,6 °F.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"45\" y=\"4\" width=\"10\" height=\"38\" rx=\"5\" fill=\"#fff\" stroke=\"#00838f\" stroke-width=\"2.5\"/><g class=\"fc-therm\"><rect x=\"47.5\" y=\"14\" width=\"5\" height=\"36\" fill=\"#e53935\"/></g><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"#e53935\"/><line x1=\"58\" y1=\"10\" x2=\"66\" y2=\"10\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"66\" y2=\"22\" stroke=\"#00838f\" stroke-width=\"2\"/><line x1=\"58\" y1=\"34\" x2=\"66\" y2=\"34\" stroke=\"#00838f\" stroke-width=\"2\"/><text x=\"69\" y=\"13\" font-size=\"8\" fill=\"#00838f\">100°</text><text x=\"69\" y=\"37\" font-size=\"8\" fill=\"#00838f\">0°</text></svg>"
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Nhiệt kế trong hình có mấy thang đo?",
+    "a": "Hai thang: thang °C và thang °F.",
+    "fi": "../hinh-anh/khtn/bai8-nhiet-ke-hai-thang.jpg"
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Nước đang sôi ở bao nhiêu °C?",
+    "a": "100 °C — tương ứng 212 °F.",
+    "fi": "../hinh-anh/khtn/mini-bai8-nuoc-soi.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Chất có những thể nào?",
+    "a": "Ba thể: rắn, lỏng, khí.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"2\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"ps\" style=\"animation-delay:0s\" cx=\"8\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.15s\" cx=\"14\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.3s\" cx=\"20\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.1s\" cx=\"26\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.25s\" cx=\"8\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.05s\" cx=\"14\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.35s\" cx=\"20\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.2s\" cx=\"26\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.12s\" cx=\"8\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.32s\" cx=\"14\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.22s\" cx=\"20\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.08s\" cx=\"26\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.28s\" cx=\"8\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.18s\" cx=\"14\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.38s\" cx=\"20\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.02s\" cx=\"26\" cy=\"37\" r=\"2.3\"/></g><text x=\"17\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><rect x=\"35\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pl\" style=\"animation-delay:-0.4s\" cx=\"41\" cy=\"18\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.2s\" cx=\"48\" cy=\"16\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.8s\" cx=\"55\" cy=\"19\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.7s\" cx=\"44\" cy=\"26\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.2s\" cx=\"52\" cy=\"25\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.5s\" cx=\"59\" cy=\"27\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.9s\" cx=\"40\" cy=\"34\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.5s\" cx=\"49\" cy=\"33\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.9s\" cx=\"57\" cy=\"35\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.7s\" cx=\"45\" cy=\"41\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.3s\" cx=\"54\" cy=\"42\" r=\"2.3\"/></g><text x=\"50\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text><rect x=\"68\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pg\" style=\"animation-delay:0s\" cx=\"73\" cy=\"17\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.9s\" cx=\"88\" cy=\"15\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-1.6s\" cx=\"81\" cy=\"28\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.5s\" cx=\"93\" cy=\"34\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-2.1s\" cx=\"72\" cy=\"41\" r=\"2.3\"/></g><text x=\"83\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Khí</text></svg>"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Nóng chảy là sự chuyển thể nào?",
+    "a": "Từ thể rắn sang thể lỏng.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"8\" y=\"20\" width=\"24\" height=\"24\" fill=\"#90caf9\" stroke=\"#2e7d32\" stroke-width=\"2\"/><circle class=\"fc-drip\" cx=\"20\" cy=\"46\" r=\"2.2\" fill=\"#42a5f5\"/><path class=\"fc-push\" d=\"M38 32 L58 32 M52 25 L59 32 L52 39\" fill=\"none\" stroke=\"#e8710a\" stroke-width=\"3\"/><g class=\"fc-bob\"><path d=\"M76 16 C76 16 64 30 64 39 a12 12 0 0 0 24 0 C88 30 76 16 76 16Z\" fill=\"#42a5f5\" stroke=\"#2e7d32\" stroke-width=\"2\"/></g><text x=\"20\" y=\"58\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><text x=\"76\" y=\"58\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text></svg>"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Mây được tạo thành do hiện tượng gì?",
+    "a": "Hơi nước ngưng tụ trên cao.",
+    "fi": "../hinh-anh/khtn/fc-sua-may.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Sôi khác bay hơi ở điểm nào?",
+    "a": "Sôi xảy ra ở một nhiệt độ xác định; bay hơi xảy ra ở mọi nhiệt độ, chỉ trên bề mặt.",
+    "fi": "../hinh-anh/khtn/fc-sua-soi-bay-hoi.webp"
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Thể khí có đặc điểm gì nổi bật?",
+    "a": "Không có hình dạng và thể tích xác định, lan tỏa theo mọi hướng.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><rect x=\"2\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"ps\" style=\"animation-delay:0s\" cx=\"8\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.15s\" cx=\"14\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.3s\" cx=\"20\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.1s\" cx=\"26\" cy=\"16\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.25s\" cx=\"8\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.05s\" cx=\"14\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.35s\" cx=\"20\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.2s\" cx=\"26\" cy=\"23\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.12s\" cx=\"8\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.32s\" cx=\"14\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.22s\" cx=\"20\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.08s\" cx=\"26\" cy=\"30\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.28s\" cx=\"8\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.18s\" cx=\"14\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.38s\" cx=\"20\" cy=\"37\" r=\"2.3\"/><circle class=\"ps\" style=\"animation-delay:-0.02s\" cx=\"26\" cy=\"37\" r=\"2.3\"/></g><text x=\"17\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Rắn</text><rect x=\"35\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pl\" style=\"animation-delay:-0.4s\" cx=\"41\" cy=\"18\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.2s\" cx=\"48\" cy=\"16\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.8s\" cx=\"55\" cy=\"19\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.7s\" cx=\"44\" cy=\"26\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.2s\" cx=\"52\" cy=\"25\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.5s\" cx=\"59\" cy=\"27\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.9s\" cx=\"40\" cy=\"34\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.5s\" cx=\"49\" cy=\"33\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.9s\" cx=\"57\" cy=\"35\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-0.7s\" cx=\"45\" cy=\"41\" r=\"2.3\"/><circle class=\"pl\" style=\"animation-delay:-1.3s\" cx=\"54\" cy=\"42\" r=\"2.3\"/></g><text x=\"50\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Lỏng</text><rect x=\"68\" y=\"10\" width=\"30\" height=\"38\" fill=\"#f5fbff\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><g fill=\"#42a5f5\"><circle class=\"pg\" style=\"animation-delay:0s\" cx=\"73\" cy=\"17\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.9s\" cx=\"88\" cy=\"15\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-1.6s\" cx=\"81\" cy=\"28\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-0.5s\" cx=\"93\" cy=\"34\" r=\"2.3\"/><circle class=\"pg\" style=\"animation-delay:-2.1s\" cx=\"72\" cy=\"41\" r=\"2.3\"/></g><text x=\"83\" y=\"59\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">Khí</text></svg>"
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Mây trên trời được tạo thành nhờ hiện tượng gì?",
+    "a": "Hơi nước ngưng tụ trên cao.",
+    "fi": "../hinh-anh/khtn/fc-sua-may.webp"
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Viên đá tan thành nước gọi là sự gì?",
+    "a": "Sự nóng chảy — chuyển từ thể rắn sang thể lỏng.",
+    "fi": "../hinh-anh/khtn/bai9-da-tan.webp"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Tính chất hóa học của chất là gì?",
+    "a": "Khả năng biến đổi thành chất khác (tạo ra chất mới).",
+    "fi": "../hinh-anh/khtn/fc-sua-gi-sat.webp"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Đun đường đến cháy đen thể hiện tính chất gì?",
+    "a": "Tính chất hóa học — vì có chất mới tạo thành.",
+    "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Mô hình 3R gồm những gì?",
+    "a": "Reduce (giảm thiểu) – Reuse (tái sử dụng) – Recycle (tái chế).",
+    "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Gang và thép đều được chế biến từ đâu?",
+    "a": "Từ quặng sắt.",
+    "fi": "../hinh-anh/khtn/fc-bai10-lo-ren.webp"
+  },
+  {
+    "b": 10,
+    "t": "fc",
+    "f": "Gang khác thép ở điểm nào quan trọng?",
+    "a": "Gang cứng nhưng giòn hơn thép.",
+    "fi": "../hinh-anh/khtn/fc-sua-gang-thep.webp"
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Đun đường đến cháy đen cho thấy tính chất gì của chất?",
+    "a": "Tính chất hóa học — vì có chất mới được tạo thành.",
+    "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
+  },
+  {
+    "b": 10,
+    "t": "mn",
+    "f": "Biểu tượng trong hình có ý nghĩa gì?",
+    "a": "Tái chế (Recycle) — một trong ba phần của mô hình 3R.",
+    "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Oxygen chiếm khoảng bao nhiêu % không khí?",
+    "a": "Khoảng 21%.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"36\" cy=\"32\" r=\"24\" fill=\"#90caf9\"/><path d=\"M36 32 L36 8 A24 24 0 0 1 58 25 Z\" fill=\"#ffb74d\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"20\" width=\"8\" height=\"8\" fill=\"#90caf9\"/><text x=\"77\" y=\"27\" font-size=\"8\" fill=\"#333\">N₂ 78%</text><rect x=\"66\" y=\"36\" width=\"8\" height=\"8\" fill=\"#ffb74d\"/><text x=\"77\" y=\"43\" font-size=\"8\" fill=\"#333\">O₂ 21%</text></svg>"
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Nitrogen chiếm khoảng bao nhiêu % không khí?",
+    "a": "Khoảng 78%.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><circle cx=\"36\" cy=\"32\" r=\"24\" fill=\"#90caf9\"/><path d=\"M36 32 L36 8 A24 24 0 0 1 58 25 Z\" fill=\"#ffb74d\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"20\" width=\"8\" height=\"8\" fill=\"#90caf9\"/><text x=\"77\" y=\"27\" font-size=\"8\" fill=\"#333\">N₂ 78%</text><rect x=\"66\" y=\"36\" width=\"8\" height=\"8\" fill=\"#ffb74d\"/><text x=\"77\" y=\"43\" font-size=\"8\" fill=\"#333\">O₂ 21%</text></svg>"
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Can xăng bốc cháy thì dập lửa bằng gì?",
+    "a": "Dùng cát đổ trùm lên (hoặc bình chữa cháy) — không dùng nước.",
+    "fi": "../hinh-anh/khtn/fc-sua-chay-xang-cat.webp"
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Vì sao không dùng nước dập cháy xăng?",
+    "a": "Xăng nhẹ hơn nước và không tan, nước làm xăng loang ra, cháy lan rộng hơn.",
+    "fi": "../hinh-anh/khtn/fc-sua-xang-tren-nuoc.webp"
+  },
+  {
+    "b": 11,
+    "t": "fc",
+    "f": "Dùng bếp gas sao cho tiết kiệm?",
+    "a": "Điều chỉnh ngọn lửa phù hợp với nồi và nhu cầu đun nấu.",
+    "fi": "../hinh-anh/khtn/fc-bai11-bep-gas.webp"
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Oxygen chiếm khoảng bao nhiêu phần trăm không khí?",
+    "a": "Khoảng 21%.",
+    "fi": "../hinh-anh/khtn/bai11-binh-oxygen.webp"
+  },
+  {
+    "b": 11,
+    "t": "mn",
+    "f": "Can xăng bốc cháy thì dập lửa bằng gì?",
+    "a": "Đổ cát trùm lên (hoặc dùng bình chữa cháy) — tuyệt đối không dùng nước.",
+    "fi": "../hinh-anh/khtn/fc-sua-chay-xang-cat.webp"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
+    "a": "Tế bào.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><text x=\"8\" y=\"9\" font-size=\"6.5\" fill=\"#33691e\">màng tế bào</text><line x1=\"24\" y1=\"12\" x2=\"17\" y2=\"10\" stroke=\"#558b2f\" stroke-width=\"1\"/><ellipse cx=\"50\" cy=\"34\" rx=\"38\" ry=\"21\" fill=\"#f1f8e9\" stroke=\"#558b2f\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"34\" r=\"9\" fill=\"#c5e1a5\" stroke=\"#558b2f\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"26\" r=\"2\" fill=\"#558b2f\"/><circle cx=\"70\" cy=\"42\" r=\"2\" fill=\"#558b2f\"/><line x1=\"43\" y1=\"41\" x2=\"22\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"4\" y=\"63\" font-size=\"6.5\" fill=\"#33691e\">nhân</text><line x1=\"63\" y1=\"43\" x2=\"79\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"96\" y=\"63\" font-size=\"6.5\" text-anchor=\"end\" fill=\"#33691e\">chất tế bào</text></svg>"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Trung tâm điều khiển mọi hoạt động của tế bào?",
+    "a": "Nhân tế bào.",
+    "fs": "<svg viewBox=\"0 0 100 64\"><text x=\"8\" y=\"9\" font-size=\"6.5\" fill=\"#33691e\">màng tế bào</text><line x1=\"24\" y1=\"12\" x2=\"17\" y2=\"10\" stroke=\"#558b2f\" stroke-width=\"1\"/><ellipse cx=\"50\" cy=\"34\" rx=\"38\" ry=\"21\" fill=\"#f1f8e9\" stroke=\"#558b2f\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"34\" r=\"9\" fill=\"#c5e1a5\" stroke=\"#558b2f\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"26\" r=\"2\" fill=\"#558b2f\"/><circle cx=\"70\" cy=\"42\" r=\"2\" fill=\"#558b2f\"/><line x1=\"43\" y1=\"41\" x2=\"22\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"4\" y=\"63\" font-size=\"6.5\" fill=\"#33691e\">nhân</text><line x1=\"63\" y1=\"43\" x2=\"79\" y2=\"57\" stroke=\"#558b2f\" stroke-width=\"1\"/><text x=\"96\" y=\"63\" font-size=\"6.5\" text-anchor=\"end\" fill=\"#33691e\">chất tế bào</text></svg>"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Kể hai sinh vật đơn bào.",
+    "a": "Tảo lục và vi khuẩn lam.",
+    "fi": "../hinh-anh/khtn/fc-bai12-sinh-vat-don-bao.webp"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Các cấp độ tổ chức của cơ thể theo thứ tự?",
+    "a": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể.",
+    "fi": "../hinh-anh/khtn/fc-bai12-co-the.webp"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "Thực vật có hai hệ cơ quan nào?",
+    "a": "Hệ chồi và hệ rễ.",
+    "fi": "../hinh-anh/khtn/fc-sua-he-choi-he-re.webp"
+  },
+  {
+    "b": 12,
+    "t": "fc",
+    "f": "\"Vùng nhân\" là đặc điểm của tế bào loại nào?",
+    "a": "Tế bào nhân sơ (tế bào nhân thực không có vùng nhân).",
+    "fi": "../hinh-anh/khtn/fc-sua-te-bao-nhan-so.webp"
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
+    "a": "Tế bào.",
+    "fi": "../hinh-anh/khtn/bai12-te-bao-hanh.webp"
+  },
+  {
+    "b": 12,
+    "t": "mn",
+    "f": "Bộ phận nào là trung tâm điều khiển của tế bào?",
+    "a": "Nhân tế bào.",
+    "fi": "../hinh-anh/khtn/fc-te-bao-nhan-thuc.webp"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Lực là gì?",
+    "a": "Tác dụng đẩy, kéo của vật này lên vật khác.",
+    "fi": "../hinh-anh/khtn/fc-bai13-day-keo.webp"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Trọng lực luôn có chiều thế nào?",
+    "a": "Hướng xuống dưới, về phía Trái Đất.",
+    "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Hai lực cân bằng cần đủ điều kiện gì?",
+    "a": "Cùng tác dụng lên một vật, cùng phương, ngược chiều, cùng độ lớn.",
+    "fi": "../hinh-anh/khtn/fc-sua-luc-can-bang.webp"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Đơn vị đo lực là gì?",
+    "a": "Niutơn (N).",
+    "fs": "<svg viewBox=\"0 0 100 64\"><g class=\"fc-coil\"><path d=\"M50 4 v6 M42 10 l16 6 l-16 6 l16 6 l-16 6 l16 6 l-8 4\" fill=\"none\" stroke=\"#4527a0\" stroke-width=\"2.5\"/></g><g class=\"fc-wt\"><rect x=\"38\" y=\"46\" width=\"24\" height=\"12\" rx=\"2\" fill=\"#b39ddb\" stroke=\"#4527a0\" stroke-width=\"2\"/><text x=\"50\" y=\"55\" font-size=\"7.5\" text-anchor=\"middle\" fill=\"#4527a0\">vật</text></g></svg>"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Lực kế thường dùng có GHĐ và ĐCNN bao nhiêu?",
+    "a": "GHĐ 10 N, ĐCNN 0,2 N.",
+    "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
+  },
+  {
+    "b": 13,
+    "t": "fc",
+    "f": "Treo 150 g kim chỉ vạch 3, treo 100 g chỉ vạch mấy?",
+    "a": "Vạch thứ 2 (mỗi vạch ứng với 50 g).",
+    "fs": "<svg viewBox=\"0 0 100 64\"><g class=\"fc-coil\"><path d=\"M50 4 v6 M42 10 l16 6 l-16 6 l16 6 l-16 6 l16 6 l-8 4\" fill=\"none\" stroke=\"#4527a0\" stroke-width=\"2.5\"/></g><g class=\"fc-wt\"><rect x=\"38\" y=\"46\" width=\"24\" height=\"12\" rx=\"2\" fill=\"#b39ddb\" stroke=\"#4527a0\" stroke-width=\"2\"/><text x=\"50\" y=\"55\" font-size=\"7.5\" text-anchor=\"middle\" fill=\"#4527a0\">vật</text></g></svg>"
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Trọng lực luôn có chiều hướng về đâu?",
+    "a": "Hướng xuống dưới, về phía Trái Đất.",
+    "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
+  },
+  {
+    "b": 13,
+    "t": "mn",
+    "f": "Dụng cụ trong hình dùng để đo đại lượng nào?",
+    "a": "Đo lực — đó là lực kế, đơn vị niutơn (N).",
+    "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
+  },
+  {
+    "a": "Là vật liệu lấy từ tự nhiên, dùng để sản xuất ra sản phẩm khác. Ví dụ: quặng sắt dùng để luyện gang, thép.",
+    "b": 14,
+    "f": "Nguyên liệu là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Để luyện gang và thép, là vật liệu làm cầu, nhà, xe.",
+    "b": 14,
+    "f": "Quặng sắt dùng để làm gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là nguyên liệu chính để sản xuất xi măng, dùng xây nhà.",
+    "b": 14,
+    "f": "Đá vôi dùng để làm gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là nguyên liệu có thể trồng lại hoặc tạo lại được. Ví dụ: gỗ từ rừng trồng, cây mía.",
+    "b": 14,
+    "f": "Nguyên liệu tái tạo là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Vì nhiều nguyên liệu không tái tạo, dùng lãng phí sẽ cạn kiệt và làm hại môi trường.",
+    "b": 14,
+    "f": "Vì sao phải dùng nguyên liệu tiết kiệm?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là chất khi cháy sẽ tỏa ra năng lượng, chủ yếu là nhiệt. Ví dụ: than, xăng, gas khi cháy đều tỏa nhiệt để đun nấu, chạy máy.",
+    "b": 15,
+    "f": "Nhiên liệu là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Rắn: than, củi; lỏng: xăng, dầu; khí: gas, biogas.",
+    "b": 15,
+    "f": "Kể 3 dạng nhiên liệu và ví dụ mỗi dạng?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là nhiên liệu hình thành từ xác sinh vật bị vùi lấp hàng triệu năm. Ví dụ: than đá, dầu mỏ, khí thiên nhiên.",
+    "b": 15,
+    "f": "Nhiên liệu hóa thạch là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Vì chúng hình thành rất lâu, con người dùng hết thì không có lại trong thời gian ngắn.",
+    "b": 15,
+    "f": "Vì sao than đá, dầu mỏ gọi là không tái tạo?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Dùng xong phải khóa van gas, vì gas rò rỉ gặp lửa có thể gây cháy nổ.",
+    "b": 15,
+    "f": "Dùng bếp gas an toàn cần nhớ gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là thức ăn giàu tinh bột, dùng làm thức ăn chính hằng ngày. Ví dụ: gạo, ngô, khoai, sắn.",
+    "b": 16,
+    "f": "Lương thực là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là tên gọi chung các thức ăn cung cấp chất dinh dưỡng cho cơ thể. Ví dụ: thịt, cá, trứng, rau, quả.",
+    "b": 16,
+    "f": "Thực phẩm là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Có nhiều trong thịt, cá, trứng, sữa, đậu; giúp cơ thể lớn lên và khỏe mạnh.",
+    "b": 16,
+    "f": "Chất đạm có nhiều ở đâu, để làm gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Vì rau, quả có nhiều vitamin, chất khoáng và chất xơ, giúp cơ thể khỏe và tiêu hóa tốt.",
+    "b": 16,
+    "f": "Vì sao phải ăn rau, quả mỗi ngày?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Chọn đồ tươi, còn hạn dùng, rõ nguồn gốc và rửa sạch trước khi ăn.",
+    "b": 16,
+    "f": "Chọn thực phẩm an toàn cần nhớ gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là hai hay nhiều chất trộn lẫn với nhau, mỗi chất vẫn giữ tính chất riêng. Ví dụ: nước muối là hỗn hợp của muối và nước.",
+    "b": 17,
+    "f": "Hỗn hợp là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là hỗn hợp trộn đều, không nhìn rõ từng chất riêng. Ví dụ: nước đường đã khuấy tan, không khí.",
+    "b": 17,
+    "f": "Hỗn hợp đồng nhất là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là hỗn hợp nhìn rõ từng chất riêng. Ví dụ: nước pha dầu, nước lẫn cát.",
+    "b": 17,
+    "f": "Hỗn hợp không đồng nhất là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là hỗn hợp đồng nhất của chất tan trong dung môi. Ví dụ: nước muối thì muối là chất tan, nước là dung môi.",
+    "b": 17,
+    "f": "Dung dịch là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Vì mỗi chất trong hỗn hợp vẫn giữ tính chất riêng, nên có thể dùng cách vật lí như lọc, cô cạn để tách chúng ra.",
+    "b": 17,
+    "f": "Vì sao có thể tách các chất ra khỏi hỗn hợp?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Để tách chất rắn không tan ra khỏi chất lỏng. Ví dụ: lọc nước lẫn cát bằng giấy lọc, cát bị giữ lại, nước chảy qua.",
+    "b": 18,
+    "f": "Lọc dùng để tách hỗn hợp nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là cách đun nóng cho chất lỏng bay hơi, còn lại chất tan. Ví dụ: cô cạn nước muối thì nước bay hơi, muối ở lại.",
+    "b": 18,
+    "f": "Cô cạn là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Tách được hỗn hợp có chất bị nam châm hút. Ví dụ: mạt sắt lẫn trong cát, nam châm hút sắt ra.",
+    "b": 18,
+    "f": "Dùng nam châm tách được hỗn hợp nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Để yên cho dầu nổi lên trên rồi gạn lấy lớp dầu, vì dầu nhẹ hơn nước và không tan trong nước.",
+    "b": 18,
+    "f": "Muốn tách dầu khỏi nước thì làm sao?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Dựa vào tính chất khác nhau của các chất: chất nào không tan thì lọc, chất tan thì cô cạn, chất bị hút thì dùng nam châm.",
+    "b": 18,
+    "f": "Chọn cách tách dựa vào đâu?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là đơn vị nhỏ nhất cấu tạo nên cơ thể sống và thực hiện chức năng sống. Ví dụ: cơ thể người được tạo nên từ rất nhiều tế bào.",
+    "b": 19,
+    "f": "Tế bào là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Bao bọc, bảo vệ tế bào và kiểm soát các chất đi ra, đi vào tế bào.",
+    "b": 19,
+    "f": "Màng tế bào làm gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Điều khiển mọi hoạt động sống của tế bào và chứa thông tin di truyền.",
+    "b": 19,
+    "f": "Nhân tế bào làm gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là thành phần chứa chất diệp lục giúp cây quang hợp, chỉ có ở tế bào thực vật.",
+    "b": 19,
+    "f": "Lục lạp là gì, có ở đâu?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Tế bào thực vật có thành tế bào, lục lạp và không bào lớn; tế bào động vật không có ba thành phần này.",
+    "b": 19,
+    "f": "Tế bào thực vật khác tế bào động vật thế nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là tế bào tăng kích thước và khối lượng nhờ lấy chất dinh dưỡng từ môi trường.",
+    "b": 20,
+    "f": "Tế bào lớn lên là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Bằng cách phân chia: một tế bào mẹ phân chia thành hai tế bào con giống nhau.",
+    "b": 20,
+    "f": "Tế bào sinh sản bằng cách nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Nhân tế bào phân chia trước, sau đó chất tế bào phân chia.",
+    "b": 20,
+    "f": "Khi phân chia, phần nào chia trước?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Tế bào con lớn lên, rồi lại phân chia thành tế bào mới.",
+    "b": 20,
+    "f": "Tế bào con sau khi sinh ra sẽ thế nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Cơ thể lớn lên và thay thế các tế bào già, tế bào hỏng, ví dụ vết thương ngoài da lành lại.",
+    "b": 20,
+    "f": "Nhờ phân chia tế bào mà cơ thể được gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Kính hiển vi, vì tế bào rất nhỏ, mắt thường không nhìn thấy được.",
+    "b": 21,
+    "f": "Quan sát tế bào cần dụng cụ chính nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Biểu bì hành tây, là lớp màng mỏng bóc từ củ hành, tế bào xếp sát nhau.",
+    "b": 21,
+    "f": "Mẫu thực vật thường dùng là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Tế bào niêm mạc miệng, lấy nhẹ ở mặt trong má.",
+    "b": 21,
+    "f": "Mẫu động vật thường dùng là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Đặt nghiêng từ từ xuống mẫu, để tránh bọt khí lọt vào làm mờ hình ảnh.",
+    "b": 21,
+    "f": "Đậy lamen thế nào cho đúng?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Tế bào thực vật có thành tế bào rõ, hình đa giác xếp sát nhau; tế bào động vật không có thành tế bào.",
+    "b": 21,
+    "f": "Phân biệt tế bào thực vật và động vật khi quan sát?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là cơ thể chỉ gồm một tế bào duy nhất, ví dụ trùng giày, vi khuẩn.",
+    "b": 22,
+    "f": "Cơ thể đơn bào là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Là cơ thể gồm nhiều tế bào phối hợp với nhau, ví dụ người, cây lúa, con gà.",
+    "b": 22,
+    "f": "Cơ thể đa bào là gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Bằng lông bơi rung động quanh cơ thể, giúp nó bơi trong nước.",
+    "b": 22,
+    "f": "Trùng giày di chuyển bằng gì?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Đa bào có nhiều loại tế bào, mỗi loại làm một nhiệm vụ riêng; đơn bào chỉ có một tế bào làm mọi việc.",
+    "b": 22,
+    "f": "Đa bào khác đơn bào ở điểm nào?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "a": "Lấy mẫu nước ao, hồ có váng xanh hoặc rơm rạ ngâm, vì trùng giày sống trong nước đó.",
+    "b": 22,
+    "f": "Quan sát trùng giày lấy mẫu ở đâu?",
+    "fi": "",
+    "t": "fc"
+  },
+  {
+    "b": 26,
+    "t": "fc",
+    "f": "Phân loại sinh vật là gì?",
+    "a": "Xếp sinh vật vào các nhóm theo đặc điểm chung.",
+    "fi": ""
+  },
+  {
+    "b": 26,
+    "t": "fc",
+    "f": "Bậc phân loại lớn nhất là gì?",
+    "a": "Giới.",
+    "fi": ""
+  },
+  {
+    "b": 26,
+    "t": "fc",
+    "f": "Bậc phân loại nhỏ nhất là gì?",
+    "a": "Loài.",
+    "fi": ""
+  },
+  {
+    "b": 26,
+    "t": "fc",
+    "f": "Tên khoa học của loài gồm những gì?",
+    "a": "Tên chi + tên loài, ví dụ Homo sapiens.",
+    "fi": ""
+  },
+  {
+    "b": 26,
+    "t": "fc",
+    "f": "Kể tên 5 giới sinh vật.",
+    "a": "Khởi sinh, Nguyên sinh, Nấm, Thực vật, Động vật.",
+    "fi": ""
+  },
+  {
+    "b": 27,
+    "t": "fc",
+    "f": "Khóa lưỡng phân là gì?",
+    "a": "Bảng các cặp đặc điểm đối lập nhau, dùng để nhận biết sinh vật.",
+    "fi": ""
+  },
+  {
+    "b": 27,
+    "t": "fc",
+    "f": "Mỗi bước của khóa có mấy lựa chọn?",
+    "a": "2 lựa chọn đối lập nhau.",
+    "fi": ""
+  },
+  {
+    "b": 27,
+    "t": "fc",
+    "f": "Dùng khóa lưỡng phân bắt đầu từ đâu?",
+    "a": "Từ bước đầu tiên, chọn đặc điểm đúng với mẫu vật rồi đi tiếp.",
+    "fi": ""
+  },
+  {
+    "b": 27,
+    "t": "fc",
+    "f": "Chọn sai một bước thì sao?",
+    "a": "Đi nhầm nhánh, ra tên loài sai.",
+    "fi": ""
+  },
+  {
+    "b": 27,
+    "t": "fc",
+    "f": "Chữ lưỡng trong lưỡng phân nghĩa là gì?",
+    "a": "Là hai: mỗi bước chia hai nhánh.",
+    "fi": ""
+  },
+  {
+    "b": 28,
+    "t": "fc",
+    "f": "Vi khuẩn có nhân hoàn chỉnh không?",
+    "a": "Không, vi khuẩn chưa có nhân hoàn chỉnh.",
+    "fi": ""
+  },
+  {
+    "b": 28,
+    "t": "fc",
+    "f": "Vi khuẩn sinh sản bằng cách nào?",
+    "a": "Phân đôi: một tế bào tách thành hai.",
+    "fi": ""
+  },
+  {
+    "b": 28,
+    "t": "fc",
+    "f": "Kể 3 dạng hình của vi khuẩn.",
+    "a": "Hình cầu, hình que, hình xoắn.",
+    "fi": ""
+  },
+  {
+    "b": 28,
+    "t": "fc",
+    "f": "Vi khuẩn lactic dùng để làm gì?",
+    "a": "Làm sữa chua, muối dưa.",
+    "fi": ""
+  },
+  {
+    "b": 28,
+    "t": "fc",
+    "f": "Vì sao phải rửa tay trước khi ăn?",
+    "a": "Để giảm vi khuẩn gây bệnh từ tay vào thức ăn.",
+    "fi": ""
+  },
+  {
+    "b": 29,
+    "t": "fc",
+    "f": "Sữa chua chua là do chất nào?",
+    "a": "Axit lactic do vi khuẩn lactic tạo ra.",
+    "fi": ""
+  },
+  {
+    "b": 29,
+    "t": "fc",
+    "f": "Ủ sữa chua ở nhiệt độ nào?",
+    "a": "Ấm khoảng 40°C.",
+    "fi": ""
+  },
+  {
+    "b": 29,
+    "t": "fc",
+    "f": "Quan sát vi khuẩn bằng dụng cụ gì?",
+    "a": "Kính hiển vi.",
+    "fi": ""
+  },
+  {
+    "b": 29,
+    "t": "fc",
+    "f": "Sữa chua làm xong để ở đâu?",
+    "a": "Ngăn mát tủ lạnh.",
+    "fi": ""
+  },
+  {
+    "b": 29,
+    "t": "fc",
+    "f": "Vì sao không được nếm mẫu quan sát?",
+    "a": "Vì mẫu có thể chứa vi khuẩn lạ gây bệnh.",
+    "fi": ""
+  },
+  {
+    "b": 30,
+    "t": "fc",
+    "f": "Virus có phải là tế bào không?",
+    "a": "Không, virus chưa có cấu tạo tế bào hoàn chỉnh.",
+    "fi": ""
+  },
+  {
+    "b": 30,
+    "t": "fc",
+    "f": "Virus gồm những thành phần nào?",
+    "a": "Vỏ protein và lõi axit nucleic.",
+    "fi": ""
+  },
+  {
+    "b": 30,
+    "t": "fc",
+    "f": "Virus nhân lên ở đâu?",
+    "a": "Trong tế bào chủ, nhờ bộ máy của tế bào chủ.",
+    "fi": ""
+  },
+  {
+    "b": 30,
+    "t": "fc",
+    "f": "Kể 2 bệnh do virus gây ra.",
+    "a": "Cúm và sởi (hoặc COVID-19, thủy đậu).",
+    "fi": ""
+  },
+  {
+    "b": 30,
+    "t": "fc",
+    "f": "Vì sao cảm cúm không nên uống kháng sinh?",
+    "a": "Vì kháng sinh không diệt được virus.",
+    "fi": ""
+  },
+  {
+    "b": 31,
+    "t": "fc",
+    "f": "Nguyên sinh vật là đơn bào hay đa bào?",
+    "a": "Đơn bào, có nhân hoàn chỉnh.",
+    "fi": ""
+  },
+  {
+    "b": 31,
+    "t": "fc",
+    "f": "Trùng giày di chuyển bằng gì?",
+    "a": "Lông bơi phủ quanh cơ thể.",
+    "fi": ""
+  },
+  {
+    "b": 31,
+    "t": "fc",
+    "f": "Tảo đơn bào có ích gì?",
+    "a": "Quang hợp tạo oxygen, làm thức ăn cho sinh vật nước.",
+    "fi": ""
+  },
+  {
+    "b": 31,
+    "t": "fc",
+    "f": "Trùng sốt rét lây sang người qua đâu?",
+    "a": "Qua muỗi đốt.",
+    "fi": ""
+  },
+  {
+    "b": 31,
+    "t": "fc",
+    "f": "Nguyên sinh vật có nhân hoàn chỉnh không?",
+    "a": "Có, đó là tế bào nhân thực.",
+    "fi": ""
+  },
+  {
+    "b": 32,
+    "t": "fc",
+    "f": "Lấy mẫu nguyên sinh vật ở đâu?",
+    "a": "Nước ao, hồ hoặc vũng nước đọng có váng.",
+    "fi": ""
+  },
+  {
+    "b": 32,
+    "t": "fc",
+    "f": "Quan sát nguyên sinh vật bằng dụng cụ gì?",
+    "a": "Kính hiển vi, nhỏ mẫu lên lam kính.",
+    "fi": ""
+  },
+  {
+    "b": 32,
+    "t": "fc",
+    "f": "Trùng giày bơi bằng gì?",
+    "a": "Lông bơi phủ quanh cơ thể.",
+    "fi": ""
+  },
+  {
+    "b": 32,
+    "t": "fc",
+    "f": "Quan sát xong phải làm gì?",
+    "a": "Đổ bỏ mẫu đúng chỗ, rửa tay, vệ sinh dụng cụ.",
+    "fi": ""
+  },
+  {
+    "b": 32,
+    "t": "fc",
+    "f": "Lấy mẫu nước ao cần chú ý gì?",
+    "a": "Đi cùng người lớn, không lội sâu, không uống nước mẫu.",
+    "fi": ""
+  },
+  {
+    "b": 33,
+    "t": "fc",
+    "f": "Nấm có quang hợp không?",
+    "a": "Không, nấm không có chất diệp lục nên không quang hợp.",
+    "fi": ""
+  },
+  {
+    "b": 33,
+    "t": "fc",
+    "f": "Nấm mũ gồm những bộ phận nào?",
+    "a": "Mũ, phiến, cuống và sợi nấm.",
+    "fi": ""
+  },
+  {
+    "b": 33,
+    "t": "fc",
+    "f": "Nấm sinh sản bằng gì?",
+    "a": "Bào tử; nấm men thì nảy chồi.",
+    "fi": ""
+  },
+  {
+    "b": 33,
+    "t": "fc",
+    "f": "Nấm men dùng để làm gì?",
+    "a": "Làm bánh mì nở và ủ rượu.",
+    "fi": ""
+  },
+  {
+    "b": 33,
+    "t": "fc",
+    "f": "Vì sao không được ăn nấm lạ?",
+    "a": "Vì nấm độc giống nấm ăn, ăn nhầm gây ngộ độc chết người.",
+    "fi": ""
+  },
+  {
+    "b": 34,
+    "t": "fc",
+    "f": "Nấm mũ có những phần nào?",
+    "a": "Mũ, phiến dưới mũ, cuống và sợi nấm.",
+    "fi": ""
+  },
+  {
+    "b": 34,
+    "t": "fc",
+    "f": "Sợi nấm để làm gì?",
+    "a": "Hút chất dinh dưỡng nuôi nấm.",
+    "fi": ""
+  },
+  {
+    "b": 34,
+    "t": "fc",
+    "f": "Phiến nấm chứa gì?",
+    "a": "Bào tử để sinh sản.",
+    "fi": ""
+  },
+  {
+    "b": 34,
+    "t": "fc",
+    "f": "Vì sao nấm mọc nhiều sau mưa?",
+    "a": "Vì ẩm ướt giúp bào tử nảy mầm.",
+    "fi": ""
+  },
+  {
+    "b": 34,
+    "t": "fc",
+    "f": "Có phân biệt nấm độc bằng mắt được không?",
+    "a": "Không chắc chắn được, không tự hái nấm lạ về ăn.",
+    "fi": ""
+  },
+  {
+    "b": 35,
+    "t": "fc",
+    "f": "Thực vật tự dưỡng bằng cách nào?",
+    "a": "Nhờ quang hợp ở lá.",
+    "fi": ""
+  },
+  {
+    "b": 35,
+    "t": "fc",
+    "f": "Quang hợp cần những gì?",
+    "a": "Ánh sáng, nước và khí carbon dioxide; tạo ra oxygen.",
+    "fi": ""
+  },
+  {
+    "b": 35,
+    "t": "fc",
+    "f": "Kể 4 nhóm thực vật.",
+    "a": "Rêu, dương xỉ, hạt trần, hạt kín.",
+    "fi": ""
+  },
+  {
+    "b": 35,
+    "t": "fc",
+    "f": "Hạt trần khác hạt kín thế nào?",
+    "a": "Hạt trần nằm trần trên lá noãn; hạt kín nằm trong quả.",
+    "fi": ""
+  },
+  {
+    "b": 35,
+    "t": "fc",
+    "f": "Thực vật có vai trò gì?",
+    "a": "Tạo oxygen, thức ăn, nơi ở và giữ đất.",
+    "fi": ""
+  },
+  {
+    "b": 36,
+    "t": "fc",
+    "f": "Rêu có rễ thật không?",
+    "a": "Không, rêu chỉ có rễ giả.",
+    "fi": ""
+  },
+  {
+    "b": 36,
+    "t": "fc",
+    "f": "Dương xỉ sinh sản bằng gì?",
+    "a": "Bào tử ở mặt dưới lá.",
+    "fi": ""
+  },
+  {
+    "b": 36,
+    "t": "fc",
+    "f": "Thông thuộc nhóm nào?",
+    "a": "Hạt trần.",
+    "fi": ""
+  },
+  {
+    "b": 36,
+    "t": "fc",
+    "f": "Lúa thuộc nhóm nào?",
+    "a": "Hạt kín.",
+    "fi": ""
+  },
+  {
+    "b": 36,
+    "t": "fc",
+    "f": "Phân biệt nhóm thực vật dựa vào đâu?",
+    "a": "Rễ, thân, lá, hoa, quả, hạt và cách sinh sản.",
+    "fi": ""
+  },
+  {
+    "b": 37,
+    "t": "fc",
+    "f": "Động vật khác thực vật ở điểm nào?",
+    "a": "Động vật dị dưỡng và di chuyển được; thực vật tự dưỡng và sống cố định.",
+    "fi": ""
+  },
+  {
+    "b": 37,
+    "t": "fc",
+    "f": "Kể 3 nhóm động vật không xương sống.",
+    "a": "Giun, thân mềm (ốc), chân khớp (tôm, cua, côn trùng).",
+    "fi": ""
+  },
+  {
+    "b": 37,
+    "t": "fc",
+    "f": "Kể 5 lớp động vật có xương sống.",
+    "a": "Cá, lưỡng cư, bò sát, chim, thú.",
+    "fi": ""
+  },
+  {
+    "b": 37,
+    "t": "fc",
+    "f": "Cá thở bằng gì?",
+    "a": "Bằng mang.",
+    "fi": ""
+  },
+  {
+    "b": 37,
+    "t": "fc",
+    "f": "Thú nuôi con bằng gì?",
+    "a": "Bằng sữa.",
+    "fi": ""
+  },
+  {
+    "b": 38,
+    "t": "fc",
+    "f": "Quan sát động vật ngoài thiên nhiên bằng cách nào?",
+    "a": "Quan sát trực tiếp, ghi chép, chụp ảnh, không bắt giữ.",
+    "fi": ""
+  },
+  {
+    "b": 38,
+    "t": "fc",
+    "f": "Chim khác dơi ở điểm nào?",
+    "a": "Chim có lông vũ, đẻ trứng; dơi là thú, có lông mao, đẻ con.",
+    "fi": ""
+  },
+  {
+    "b": 38,
+    "t": "fc",
+    "f": "Thấy tổ chim thì làm gì?",
+    "a": "Đứng xa quan sát, không chạm vào tổ, không phá tổ.",
+    "fi": ""
+  },
+  {
+    "b": 38,
+    "t": "fc",
+    "f": "Ghi chép những gì khi quan sát?",
+    "a": "Tên, nơi gặp, đặc điểm, số lượng, hành vi.",
+    "fi": ""
+  },
+  {
+    "b": 38,
+    "t": "fc",
+    "f": "Quan sát động vật cần chú ý an toàn gì?",
+    "a": "Đi cùng người lớn, tránh thú dữ, rắn, tổ ong.",
+    "fi": ""
+  },
+  {
+    "b": 39,
+    "t": "fc",
+    "f": "Đa dạng sinh học là gì?",
+    "a": "Sự phong phú về số loài, số cá thể và môi trường sống.",
+    "fi": ""
+  },
+  {
+    "b": 39,
+    "t": "fc",
+    "f": "Vì sao đa dạng sinh học suy giảm?",
+    "a": "Phá rừng, ô nhiễm, săn bắt quá mức, biến đổi khí hậu.",
+    "fi": ""
+  },
+  {
+    "b": 39,
+    "t": "fc",
+    "f": "Kể 2 cách bảo vệ đa dạng sinh học.",
+    "a": "Lập khu bảo tồn và trồng rừng (hoặc cấm săn bắt loài quý hiếm).",
+    "fi": ""
+  },
+  {
+    "b": 39,
+    "t": "fc",
+    "f": "Loài đặc hữu là gì?",
+    "a": "Loài chỉ sống ở một nơi nhất định.",
+    "fi": ""
+  },
+  {
+    "b": 39,
+    "t": "fc",
+    "f": "Em có thể làm gì để bảo vệ?",
+    "a": "Không mua bán động vật hoang dã, không xả rác, trồng cây.",
+    "fi": ""
+  },
+  {
+    "b": 40,
+    "t": "fc",
+    "f": "Tìm hiểu sinh vật ngoài thiên nhiên gồm mấy bước?",
+    "a": "Chọn địa điểm, quan sát, ghi chép, báo cáo.",
+    "fi": ""
+  },
+  {
+    "b": 40,
+    "t": "fc",
+    "f": "Không biết tên sinh vật thì làm sao?",
+    "a": "Dùng khóa lưỡng phân, hỏi thầy cô, đối chiếu sách.",
+    "fi": ""
+  },
+  {
+    "b": 40,
+    "t": "fc",
+    "f": "Báo cáo gồm những gì?",
+    "a": "Tên sinh vật, nơi gặp, đặc điểm, hình vẽ hoặc ảnh.",
+    "fi": ""
+  },
+  {
+    "b": 40,
+    "t": "fc",
+    "f": "Cần chuẩn bị gì khi đi tìm hiểu?",
+    "a": "Sổ, bút, kính lúp, máy ảnh, mũ, nước uống.",
+    "fi": ""
+  },
+  {
+    "b": 40,
+    "t": "fc",
+    "f": "Vì sao không phá hoại khi tìm hiểu?",
+    "a": "Vì sinh vật mất nơi sống, lần sau không còn gì quan sát.",
+    "fi": ""
+  },
+  {
+    "b": 41,
+    "t": "fc",
+    "f": "Lực được mô tả bằng mấy yếu tố?",
+    "a": "4 yếu tố: điểm đặt, phương, chiều, độ lớn.",
+    "fi": ""
+  },
+  {
+    "b": 41,
+    "t": "fc",
+    "f": "Biểu diễn lực bằng hình gì?",
+    "a": "Mũi tên.",
+    "fi": ""
+  },
+  {
+    "b": 41,
+    "t": "fc",
+    "f": "Gốc mũi tên cho biết gì?",
+    "a": "Điểm đặt của lực.",
+    "fi": ""
+  },
+  {
+    "b": 41,
+    "t": "fc",
+    "f": "Độ dài mũi tên cho biết gì?",
+    "a": "Độ lớn của lực theo tỉ lệ xích.",
+    "fi": ""
+  },
+  {
+    "b": 41,
+    "t": "fc",
+    "f": "Tỉ lệ xích dùng để làm gì?",
+    "a": "Quy đổi độ dài mũi tên ra độ lớn của lực, ví dụ 1 cm ứng với 5 N.",
+    "fi": ""
+  },
+  {
+    "b": 42,
+    "t": "fc",
+    "f": "Lò xo chịu lực thì thế nào?",
+    "a": "Biến dạng: dãn ra hoặc nén lại.",
+    "fi": ""
+  },
+  {
+    "b": 42,
+    "t": "fc",
+    "f": "Biến dạng đàn hồi là gì?",
+    "a": "Thôi lực, vật trở lại hình dạng ban đầu.",
+    "fi": ""
+  },
+  {
+    "b": 42,
+    "t": "fc",
+    "f": "Độ dãn của lò xo tỉ lệ với gì?",
+    "a": "Tỉ lệ với lực kéo trong giới hạn đàn hồi.",
+    "fi": ""
+  },
+  {
+    "b": 42,
+    "t": "fc",
+    "f": "Vượt quá giới hạn đàn hồi thì sao?",
+    "a": "Lò xo không trở lại hình dạng cũ được nữa.",
+    "fi": ""
+  },
+  {
+    "b": 42,
+    "t": "fc",
+    "f": "Lực kế dùng để đo gì?",
+    "a": "Đo độ lớn của lực, đơn vị niutơn.",
+    "fi": ""
+  },
+  {
+    "b": 43,
+    "t": "fc",
+    "f": "Lực hấp dẫn là gì?",
+    "a": "Lực hút giữa mọi vật có khối lượng.",
+    "fi": ""
+  },
+  {
+    "b": 43,
+    "t": "fc",
+    "f": "Trọng lượng là gì?",
+    "a": "Độ lớn lực hút của Trái Đất tác dụng lên vật.",
+    "fi": ""
+  },
+  {
+    "b": 43,
+    "t": "fc",
+    "f": "Khối lượng khác trọng lượng thế nào?",
+    "a": "Khối lượng không đổi mọi nơi; trọng lượng thay đổi theo nơi.",
+    "fi": ""
+  },
+  {
+    "b": 43,
+    "t": "fc",
+    "f": "Công thức tính trọng lượng gần đúng?",
+    "a": "P = 10 × m (m bằng kg, P bằng N).",
+    "fi": ""
+  },
+  {
+    "b": 43,
+    "t": "fc",
+    "f": "Vật 5 kg có trọng lượng khoảng bao nhiêu?",
+    "a": "50 N.",
+    "fi": ""
+  },
+  {
+    "b": 44,
+    "t": "fc",
+    "f": "Lực ma sát là gì?",
+    "a": "Lực cản khi hai vật tiếp xúc và chuyển động tương đối.",
+    "fi": ""
+  },
+  {
+    "b": 44,
+    "t": "fc",
+    "f": "Ma sát trượt là gì?",
+    "a": "Ma sát khi vật trượt trên mặt vật khác.",
+    "fi": ""
+  },
+  {
+    "b": 44,
+    "t": "fc",
+    "f": "Ma sát lăn lớn hay nhỏ hơn ma sát trượt?",
+    "a": "Nhỏ hơn.",
+    "fi": ""
+  },
+  {
+    "b": 44,
+    "t": "fc",
+    "f": "Kể 1 lợi ích của ma sát.",
+    "a": "Đi lại không trượt ngã, phanh xe dừng được.",
+    "fi": ""
+  },
+  {
+    "b": 44,
+    "t": "fc",
+    "f": "Làm sao để giảm ma sát?",
+    "a": "Tra dầu bôi trơn, dùng ổ bi, làm mặt nhẵn.",
+    "fi": ""
+  },
+  {
+    "b": 45,
+    "t": "fc",
+    "f": "Lực cản của nước là gì?",
+    "a": "Lực nước cản vật chuyển động trong nước.",
+    "fi": ""
+  },
+  {
+    "b": 45,
+    "t": "fc",
+    "f": "Vật càng nhanh thì lực cản càng thế nào?",
+    "a": "Càng lớn.",
+    "fi": ""
+  },
+  {
+    "b": 45,
+    "t": "fc",
+    "f": "Hình dạng nào giảm lực cản của nước?",
+    "a": "Hình thuôn dài như cá, tàu ngầm.",
+    "fi": ""
+  },
+  {
+    "b": 45,
+    "t": "fc",
+    "f": "Vì sao cá bơi nhanh?",
+    "a": "Thân thuôn, da trơn làm giảm lực cản.",
+    "fi": ""
+  },
+  {
+    "b": 45,
+    "t": "fc",
+    "f": "Lực cản của nước lớn hơn không khí không?",
+    "a": "Lớn hơn nhiều.",
+    "fi": ""
+  },
+  {
+    "b": 46,
+    "t": "fc",
+    "f": "Năng lượng là gì?",
+    "a": "Khả năng thực hiện công: làm vật chuyển động, nóng lên, phát sáng.",
+    "fi": ""
+  },
+  {
+    "b": 46,
+    "t": "fc",
+    "f": "Đơn vị đo năng lượng là gì?",
+    "a": "Jun (J).",
+    "fi": ""
+  },
+  {
+    "b": 46,
+    "t": "fc",
+    "f": "Năng lượng truyền bằng cách nào?",
+    "a": "Qua đun nóng, chiếu sáng, va chạm, dòng điện.",
+    "fi": ""
+  },
+  {
+    "b": 46,
+    "t": "fc",
+    "f": "Năng lượng có tự mất đi không?",
+    "a": "Không, chỉ chuyển dạng hoặc truyền đi.",
+    "fi": ""
+  },
+  {
+    "b": 46,
+    "t": "fc",
+    "f": "Mặt Trời truyền năng lượng bằng gì?",
+    "a": "Bằng ánh sáng qua không gian.",
+    "fi": ""
+  },
+  {
+    "b": 47,
+    "t": "fc",
+    "f": "Động năng là gì?",
+    "a": "Năng lượng do vật chuyển động mà có.",
+    "fi": ""
+  },
+  {
+    "b": 47,
+    "t": "fc",
+    "f": "Thế năng là gì?",
+    "a": "Năng lượng do vị trí của vật mà có.",
+    "fi": ""
+  },
+  {
+    "b": 47,
+    "t": "fc",
+    "f": "Hóa năng chứa ở đâu?",
+    "a": "Trong thức ăn, pin, xăng dầu, chất đốt.",
+    "fi": ""
+  },
+  {
+    "b": 47,
+    "t": "fc",
+    "f": "Quang năng là gì?",
+    "a": "Năng lượng của ánh sáng.",
+    "fi": ""
+  },
+  {
+    "b": 47,
+    "t": "fc",
+    "f": "Điện năng là gì?",
+    "a": "Năng lượng của dòng điện.",
+    "fi": ""
+  },
+  {
+    "b": 48,
+    "t": "fc",
+    "f": "Chuyển hóa năng lượng là gì?",
+    "a": "Năng lượng chuyển từ dạng này sang dạng khác.",
+    "fi": ""
+  },
+  {
+    "b": 48,
+    "t": "fc",
+    "f": "Đèn pin chuyển hóa năng lượng thế nào?",
+    "a": "Hóa năng thành điện năng rồi thành quang năng.",
+    "fi": ""
+  },
+  {
+    "b": 48,
+    "t": "fc",
+    "f": "Xe đạp xuống dốc chuyển hóa thế nào?",
+    "a": "Thế năng thành động năng.",
+    "fi": ""
+  },
+  {
+    "b": 48,
+    "t": "fc",
+    "f": "Quang hợp chuyển hóa thế nào?",
+    "a": "Quang năng thành hóa năng trong lá.",
+    "fi": ""
+  },
+  {
+    "b": 48,
+    "t": "fc",
+    "f": "Chuyển hóa có làm mất năng lượng không?",
+    "a": "Không, tổng năng lượng không đổi, chỉ đổi dạng.",
+    "fi": ""
+  },
+  {
+    "b": 49,
+    "t": "fc",
+    "f": "Năng lượng hao phí là gì?",
+    "a": "Năng lượng chuyển thành dạng không có ích khi sử dụng.",
+    "fi": ""
+  },
+  {
+    "b": 49,
+    "t": "fc",
+    "f": "Động cơ xe hao phí ở đâu?",
+    "a": "Một phần thành nhiệt năng làm nóng máy.",
+    "fi": ""
+  },
+  {
+    "b": 49,
+    "t": "fc",
+    "f": "Bóng đèn dây tóc hao phí thế nào?",
+    "a": "Phần lớn điện năng thành nhiệt, ít thành ánh sáng.",
+    "fi": ""
+  },
+  {
+    "b": 49,
+    "t": "fc",
+    "f": "Giảm hao phí bằng cách nào?",
+    "a": "Bôi trơn, cách nhiệt, dùng thiết bị hiệu suất cao.",
+    "fi": ""
+  },
+  {
+    "b": 49,
+    "t": "fc",
+    "f": "Đèn LED tiết kiệm vì sao?",
+    "a": "Hầu hết điện năng thành ánh sáng, ít thành nhiệt.",
+    "fi": ""
+  },
+  {
+    "b": 50,
+    "t": "fc",
+    "f": "Năng lượng tái tạo là gì?",
+    "a": "Năng lượng từ nguồn tự nhiên bổ sung liên tục, không cạn kiệt.",
+    "fi": ""
+  },
+  {
+    "b": 50,
+    "t": "fc",
+    "f": "Kể 3 nguồn năng lượng tái tạo.",
+    "a": "Gió, ánh sáng Mặt Trời, nước chảy (hoặc địa nhiệt, sinh khối).",
+    "fi": ""
+  },
+  {
+    "b": 50,
+    "t": "fc",
+    "f": "Pin mặt trời làm gì?",
+    "a": "Biến quang năng thành điện năng.",
+    "fi": ""
+  },
+  {
+    "b": 50,
+    "t": "fc",
+    "f": "Ưu điểm của năng lượng tái tạo?",
+    "a": "Không cạn kiệt, ít ô nhiễm.",
+    "fi": ""
+  },
+  {
+    "b": 50,
+    "t": "fc",
+    "f": "Hạn chế của năng lượng tái tạo?",
+    "a": "Phụ thuộc thời tiết, chi phí đầu tư ban đầu cao.",
+    "fi": ""
+  },
+  {
+    "b": 51,
+    "t": "fc",
+    "f": "Tiết kiệm năng lượng là gì?",
+    "a": "Dùng ít năng lượng hơn mà vẫn đủ nhu cầu.",
+    "fi": ""
+  },
+  {
+    "b": 51,
+    "t": "fc",
+    "f": "Ở nhà tiết kiệm điện bằng cách nào?",
+    "a": "Tắt đèn, quạt khi ra khỏi phòng, dùng đèn LED.",
+    "fi": ""
+  },
+  {
+    "b": 51,
+    "t": "fc",
+    "f": "Đi quãng ngắn nên đi bằng gì?",
+    "a": "Đi bộ hoặc xe đạp thay cho xe máy.",
+    "fi": ""
+  },
+  {
+    "b": 51,
+    "t": "fc",
+    "f": "Đèn LED tiết kiệm hơn vì sao?",
+    "a": "Sáng như đèn thường mà tốn ít điện hơn.",
+    "fi": ""
+  },
+  {
+    "b": 51,
+    "t": "fc",
+    "f": "Tiết kiệm năng lượng để làm gì?",
+    "a": "Giảm chi phí, giảm ô nhiễm, giữ nguồn cho tương lai.",
+    "fi": ""
+  },
+  {
+    "b": 52,
+    "t": "fc",
+    "f": "Mặt Trời mọc hướng nào, lặn hướng nào?",
+    "a": "Mọc ở đông, lặn ở tây.",
+    "fi": ""
+  },
+  {
+    "b": 52,
+    "t": "fc",
+    "f": "Vì sao có ngày và đêm?",
+    "a": "Vì Trái Đất tự quay quanh trục từ tây sang đông.",
+    "fi": ""
+  },
+  {
+    "b": 52,
+    "t": "fc",
+    "f": "Trái Đất tự quay một vòng mất bao lâu?",
+    "a": "Một ngày, khoảng 24 giờ.",
+    "fi": ""
+  },
+  {
+    "b": 52,
+    "t": "fc",
+    "f": "Thiên thể là gì?",
+    "a": "Sao, hành tinh, vệ tinh, sao chổi trên bầu trời.",
+    "fi": ""
+  },
+  {
+    "b": 52,
+    "t": "fc",
+    "f": "Mặt Trời là sao hay hành tinh?",
+    "a": "Là sao, ngôi sao gần Trái Đất nhất.",
+    "fi": ""
+  },
+  {
+    "b": 53,
+    "t": "fc",
+    "f": "Mặt Trăng là gì của Trái Đất?",
+    "a": "Vệ tinh tự nhiên duy nhất.",
+    "fi": ""
+  },
+  {
+    "b": 53,
+    "t": "fc",
+    "f": "Mặt Trăng quay quanh Trái Đất mất bao lâu?",
+    "a": "Khoảng 27,3 ngày.",
+    "fi": ""
+  },
+  {
+    "b": 53,
+    "t": "fc",
+    "f": "Mặt Trăng có tự phát sáng không?",
+    "a": "Không, Mặt Trăng phản chiếu ánh sáng Mặt Trời.",
+    "fi": ""
+  },
+  {
+    "b": 53,
+    "t": "fc",
+    "f": "Trăng tròn là khi nào?",
+    "a": "Khi ta thấy toàn bộ mặt sáng của Mặt Trăng (ngày rằm).",
+    "fi": ""
+  },
+  {
+    "b": 53,
+    "t": "fc",
+    "f": "Nguyệt thực là gì?",
+    "a": "Trái Đất che ánh sáng Mặt Trời tới Mặt Trăng.",
+    "fi": ""
+  },
+  {
+    "b": 54,
+    "t": "fc",
+    "f": "Hệ Mặt Trời gồm những gì?",
+    "a": "Mặt Trời và các thiên thể quay quanh nó.",
+    "fi": ""
+  },
+  {
+    "b": 54,
+    "t": "fc",
+    "f": "Kể tên 8 hành tinh.",
+    "a": "Thủy, Kim, Trái Đất, Hỏa, Mộc, Thổ, Thiên Vương, Hải Vương.",
+    "fi": ""
+  },
+  {
+    "b": 54,
+    "t": "fc",
+    "f": "Hành tinh vòng trong khác vòng ngoài thế nào?",
+    "a": "Vòng trong nhỏ, bằng đá; vòng ngoài lớn, bằng khí.",
+    "fi": ""
+  },
+  {
+    "b": 54,
+    "t": "fc",
+    "f": "Hành tinh nào đã biết có sự sống?",
+    "a": "Trái Đất.",
+    "fi": ""
+  },
+  {
+    "b": 54,
+    "t": "fc",
+    "f": "Sao Thổ nổi bật vì gì?",
+    "a": "Có vành đai lớn bao quanh.",
+    "fi": ""
+  },
+  {
+    "b": 55,
+    "t": "fc",
+    "f": "Ngân Hà là gì?",
+    "a": "Thiên hà chứa Hệ Mặt Trời, gồm hàng trăm tỉ ngôi sao.",
+    "fi": ""
+  },
+  {
+    "b": 55,
+    "t": "fc",
+    "f": "Ngân Hà có hình gì?",
+    "a": "Hình xoắn ốc.",
+    "fi": ""
+  },
+  {
+    "b": 55,
+    "t": "fc",
+    "f": "Hệ Mặt Trời nằm ở đâu trong Ngân Hà?",
+    "a": "Ở rìa một nhánh xoắn, cách trung tâm rất xa.",
+    "fi": ""
+  },
+  {
+    "b": 55,
+    "t": "fc",
+    "f": "Năm ánh sáng là gì?",
+    "a": "Quãng đường ánh sáng đi trong một năm, đơn vị đo khoảng cách vũ trụ.",
+    "fi": ""
+  },
+  {
+    "b": 55,
+    "t": "fc",
+    "f": "Ngoài Ngân Hà còn có gì?",
+    "a": "Vô số thiên hà khác.",
+    "fi": ""
+  }
 ]

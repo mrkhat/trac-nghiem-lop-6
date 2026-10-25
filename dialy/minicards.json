@@ -334,5 +334,103 @@
   "f": "Đồng cỏ cao, ít cây lớn trong hình là cảnh quan gì?",
   "a": "Xa-van nhiệt đới.",
   "fi": "../hinh-anh/dialy/savan-kuruman.jpg"
+ },
+ {
+  "b": 24,
+  "t": "mn",
+  "f": "Rừng nhiệt đới: ở đâu, khí hậu, mấy tầng?",
+  "a": "Đới nóng, mưa nhiều, 3 tầng cây.",
+  "fi": ""
+ },
+ {
+  "b": 24,
+  "t": "mn",
+  "f": "“Lá phổi xanh” nghĩa là gì?",
+  "a": "Hút CO2, nhả ô-xi.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "mn",
+  "f": "Đới thiên nhiên phân bố theo quy luật nào?",
+  "a": "Theo vĩ độ, từ Xích đạo về cực.",
+  "fi": ""
+ },
+ {
+  "b": 25,
+  "t": "mn",
+  "f": "Lên núi cao, cảnh quan đổi ra sao?",
+  "a": "Càng lên cao càng lạnh, giống như đi về cực.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "mn",
+  "f": "Các bước tìm hiểu địa phương?",
+  "a": "Chuẩn bị → quan sát, ghi chép → hỏi người lớn → báo cáo, trình bày.",
+  "fi": ""
+ },
+ {
+  "b": 26,
+  "t": "mn",
+  "f": "An toàn khi đi thực địa?",
+  "a": "Đi cùng người lớn, tránh nơi nguy hiểm, không xả rác.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "mn",
+  "f": "Dân số thế giới hiện nay?",
+  "a": "Hơn 8 tỉ người.",
+  "fi": ""
+ },
+ {
+  "b": 27,
+  "t": "mn",
+  "f": "Mật độ dân số là gì?",
+  "a": "Số dân / diện tích (người/km²).",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "mn",
+  "f": "Thiên nhiên cho con người những gì?",
+  "a": "Không khí, nước, lương thực, nguyên liệu, năng lượng.",
+  "fi": ""
+ },
+ {
+  "b": 28,
+  "t": "mn",
+  "f": "Rừng ngập mặn có ích gì?",
+  "a": "Chắn sóng, bảo vệ bờ biển.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "mn",
+  "f": "Không tái tạo được gồm gì?",
+  "a": "Than đá, dầu mỏ, khí đốt.",
+  "fi": ""
+ },
+ {
+  "b": 29,
+  "t": "mn",
+  "f": "Phát triển bền vững nghĩa là gì?",
+  "a": "Dùng sao cho con cháu vẫn còn mà dùng.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "mn",
+  "f": "Các bước tìm hiểu quan hệ người – thiên nhiên?",
+  "a": "Xác định nội dung → quan sát, phỏng vấn → lập bảng → đề xuất, trình bày.",
+  "fi": ""
+ },
+ {
+  "b": 30,
+  "t": "mn",
+  "f": "Phỏng vấn cần chú ý gì?",
+  "a": "Xin phép, hỏi lịch sự, cảm ơn.",
+  "fi": ""
  }
 ]

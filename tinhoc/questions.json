@@ -1,0 +1,1991 @@
+[
+  {
+    "id": 1,
+    "question": "Thông tin là gì?",
+    "options": [
+      "A. Những con số được ghi trong máy tính",
+      "B. Những gì em biết được về người, vật và sự việc quanh mình",
+      "C. Những bức ảnh và video mà mọi người chụp bằng điện thoại mỗi ngày",
+      "D. Những bài hát em nghe mỗi ngày"
+    ],
+    "answer": 1,
+    "explanation": "Thông tin là điều em biết được, như hôm nay trời nắng hay lớp có 30 bạn.",
+    "bai": 1
+  },
+  {
+    "id": 2,
+    "question": "Em biết trời sắp mưa nhờ nghe dự báo thời tiết. Dự báo thời tiết là gì?",
+    "options": [
+      "A. Thông tin",
+      "B. Một loại máy tính",
+      "C. Dữ liệu âm thanh đã ghi sẵn",
+      "D. Một trò chơi trên điện thoại"
+    ],
+    "answer": 0,
+    "explanation": "Dự báo thời tiết cho em biết chuyện sắp xảy ra, nên nó là thông tin.",
+    "bai": 1
+  },
+  {
+    "id": 3,
+    "question": "Dữ liệu là gì?",
+    "options": [
+      "A. Những điều em mơ thấy trong giấc ngủ trong nhiều tình huống khác nhau",
+      "B. Những gì em biết được về bạn bè",
+      "C. Thông tin đã được ghi lại dưới dạng số, chữ, hình ảnh hoặc âm thanh",
+      "D. Những câu chuyện cổ tích trong sách"
+    ],
+    "answer": 2,
+    "explanation": "Dữ liệu là dạng ghi lại của thông tin, để lưu trữ và xử lý được.",
+    "bai": 1
+  },
+  {
+    "id": 4,
+    "question": "Con số 30 trong sổ ghi “Lớp 6A có 30 bạn” là gì?",
+    "options": [
+      "A. Dữ liệu",
+      "B. Thông tin",
+      "C. Máy tính",
+      "D. Giác quan"
+    ],
+    "answer": 0,
+    "explanation": "Con số 30 là dạng ghi lại của thông tin “lớp có 30 bạn”, nên nó là dữ liệu.",
+    "bai": 1
+  },
+  {
+    "id": 5,
+    "question": "Dạng nào sau đây KHÔNG phải là dạng của dữ liệu?",
+    "options": [
+      "A. Chữ viết trong các hoạt động hằng ngày của lớp",
+      "B. Hình ảnh",
+      "C. Âm thanh",
+      "D. Mùi thơm của hoa"
+    ],
+    "answer": 3,
+    "explanation": "Mùi thơm em ngửi trực tiếp là cảm giác, chưa được ghi lại thành số, chữ, hình ảnh hay âm thanh.",
+    "bai": 1
+  },
+  {
+    "id": 6,
+    "question": "Vì sao máy tính xử lý dữ liệu nhanh hơn làm bằng tay?",
+    "options": [
+      "A. Vì máy tính biết đọc suy nghĩ",
+      "B. Vì máy tính lưu và tính toán dữ liệu rất nhanh",
+      "C. Vì máy tính không cần điện",
+      "D. Vì máy tính tự biết mọi đáp án và được nhiều người biết đến"
+    ],
+    "answer": 1,
+    "explanation": "Máy tính lưu trữ và tính toán dữ liệu trong vài giây, còn làm bằng tay thì chậm và dễ nhầm.",
+    "bai": 1
+  },
+  {
+    "id": 7,
+    "question": "Bảng điểm của lớp cho em biết được điều gì?",
+    "options": [
+      "A. Chỉ biết ai học tốt",
+      "B. Chỉ biết môn nào khó",
+      "C. Vừa biết ai học tốt, vừa biết môn nào cả lớp còn yếu",
+      "D. Không biết được điều gì trong học tập cũng như trong sinh hoạt"
+    ],
+    "answer": 2,
+    "explanation": "Cùng một dữ liệu có thể cho nhiều thông tin khác nhau, tùy điều em muốn tìm.",
+    "bai": 1
+  },
+  {
+    "id": 8,
+    "question": "Tình huống: Mai nghe loa trường báo “Chiều nay mưa to”. Mai nên làm gì?",
+    "options": [
+      "A. Mặc áo mỏng đi học",
+      "B. Không mang gì thêm",
+      "C. Ở nhà không đi học",
+      "D. Mang áo mưa đi học"
+    ],
+    "answer": 3,
+    "explanation": "Thông tin “chiều nay mưa to” giúp Mai quyết định đúng: mang áo mưa.",
+    "bai": 1
+  },
+  {
+    "id": 9,
+    "question": "Câu nào nói đúng về thông tin và dữ liệu?",
+    "options": [
+      "A. Dữ liệu là thông tin đã được ghi lại để lưu và xử lý",
+      "B. Thông tin là dạng ghi lại, dữ liệu là điều em hiểu trong những việc em làm mỗi ngày",
+      "C. Thông tin và dữ liệu là một, không khác gì nhau",
+      "D. Chỉ máy tính mới có dữ liệu, con người thì không"
+    ],
+    "answer": 0,
+    "explanation": "Dữ liệu chính là thông tin đã ghi lại, nhờ đó mới lưu lâu và xử lý được.",
+    "bai": 1
+  },
+  {
+    "id": 10,
+    "question": "Xử lý thông tin là gì?",
+    "options": [
+      "A. Nhận thông tin, biến đổi nó rồi đưa ra kết quả có ích",
+      "B. Chỉ nghe thông tin rồi thôi",
+      "C. Chỉ ghi thông tin vào sổ",
+      "D. Chỉ gửi thông tin cho người khác ở nhà, ở trường và ở nhiều nơi khác"
+    ],
+    "answer": 0,
+    "explanation": "Xử lý gồm cả nhận, biến đổi và đưa ra kết quả, như tính điểm trung bình từ điểm các môn.",
+    "bai": 2
+  },
+  {
+    "id": 11,
+    "question": "Nghe cô đọc điểm thuộc bước nào?",
+    "options": [
+      "A. Xử lý thông tin",
+      "B. Thu nhận thông tin",
+      "C. Lưu trữ thông tin mà bạn bè em vẫn thường nói đến",
+      "D. Truyền thông tin"
+    ],
+    "answer": 1,
+    "explanation": "Nghe là lấy thông tin vào, nên thuộc bước thu nhận.",
+    "bai": 2
+  },
+  {
+    "id": 12,
+    "question": "Tính điểm trung bình từ điểm các môn thuộc bước nào?",
+    "options": [
+      "A. Thu nhận",
+      "B. Lưu trữ",
+      "C. Truyền",
+      "D. Xử lý"
+    ],
+    "answer": 3,
+    "explanation": "Tính toán biến đổi điểm thành kết quả mới, nên thuộc bước xử lý.",
+    "bai": 2
+  },
+  {
+    "id": 13,
+    "question": "Ghi điểm vào sổ thuộc bước nào?",
+    "options": [
+      "A. Thu nhận",
+      "B. Xử lý",
+      "C. Lưu trữ",
+      "D. Truyền"
+    ],
+    "answer": 2,
+    "explanation": "Ghi vào sổ là cất giữ để dùng lại sau, nên thuộc bước lưu trữ.",
+    "bai": 2
+  },
+  {
+    "id": 14,
+    "question": "Nói cho mẹ biết điểm của mình thuộc bước nào?",
+    "options": [
+      "A. Thu nhận trong các bài học trước đây",
+      "B. Truyền thông tin",
+      "C. Xử lý",
+      "D. Lưu trữ"
+    ],
+    "answer": 1,
+    "explanation": "Nói cho người khác biết là gửi thông tin đi, nên thuộc bước truyền.",
+    "bai": 2
+  },
+  {
+    "id": 15,
+    "question": "Câu nào nói đúng về máy tính và con người?",
+    "options": [
+      "A. Máy tính xử lý bằng bộ xử lý theo chương trình, con người xử lý bằng não",
+      "B. Máy tính xử lý bằng não như con người mà em đã nghe nói đến nhiều lần trong cuộc sống hằng ngày",
+      "C. Con người xử lý bằng bộ xử lý",
+      "D. Máy tính không xử lý thông tin"
+    ],
+    "answer": 0,
+    "explanation": "Máy tính làm theo chương trình, còn con người suy nghĩ bằng não.",
+    "bai": 2
+  },
+  {
+    "id": 16,
+    "question": "Nhiệt kế đo nhiệt độ là ví dụ của bước nào?",
+    "options": [
+      "A. Xử lý thông tin",
+      "B. Lưu trữ thông tin",
+      "C. Truyền thông tin",
+      "D. Thu nhận thông tin, vì dụng cụ lấy thông tin từ môi trường"
+    ],
+    "answer": 3,
+    "explanation": "Nhiệt kế lấy số đo nhiệt độ từ môi trường, đó là thu nhận.",
+    "bai": 2
+  },
+  {
+    "id": 17,
+    "question": "Tình huống: Em muốn nhớ bài hát mới học. Em nên làm gì?",
+    "options": [
+      "A. Chỉ nghe một lần rồi thôi mà em vẫn thường gặp ở nhà và ở trường",
+      "B. Không nghe nữa",
+      "C. Nghe, hát lại nhiều lần và ghi lời vào vở để dùng lại",
+      "D. Nhờ bạn hát hộ"
+    ],
+    "answer": 2,
+    "explanation": "Nghe là thu nhận, hát lại là xử lý, ghi vào vở là lưu trữ để dùng lại sau.",
+    "bai": 2
+  },
+  {
+    "id": 18,
+    "question": "Vì sao xử lý thông tin tốt lại quan trọng?",
+    "options": [
+      "A. Vì giúp em không cần học bài",
+      "B. Vì giúp em quyết định đúng và làm việc nhanh hơn",
+      "C. Vì giúp em chơi game giỏi hơn khi em học bài và làm bài tập",
+      "D. Vì giúp em không cần ghi chép"
+    ],
+    "answer": 1,
+    "explanation": "Xử lý tốt biến thông tin thành kết quả có ích, như biết môn nào cần cố thêm.",
+    "bai": 2
+  },
+  {
+    "id": 19,
+    "question": "Bit là gì?",
+    "options": [
+      "A. Một loại máy tính nhỏ",
+      "B. Một chương trình vẽ tranh",
+      "C. Dây cáp nối máy tính với màn hình trong nhiều tình huống khác nhau",
+      "D. Đơn vị nhỏ nhất của thông tin trong máy tính, chỉ nhận 0 hoặc 1"
+    ],
+    "answer": 3,
+    "explanation": "Bit chỉ có 2 giá trị, giống công tắc chỉ có bật hoặc tắt.",
+    "bai": 3
+  },
+  {
+    "id": 20,
+    "question": "Máy tính đổi chữ “A” thành gì để lưu?",
+    "options": [
+      "A. Thành hình vẽ chữ A",
+      "B. Thành âm thanh đọc chữ A",
+      "C. Thành dãy bit 0 và 1",
+      "D. Thành màu sắc của chữ A"
+    ],
+    "answer": 2,
+    "explanation": "Mọi thông tin trong máy đều phải đổi thành dãy 0 và 1 mới lưu được.",
+    "bai": 3
+  },
+  {
+    "id": 21,
+    "question": "1 byte bằng bao nhiêu bit?",
+    "options": [
+      "A. 8 bit",
+      "B. 2 bit",
+      "C. 4 bit",
+      "D. 10 bit"
+    ],
+    "answer": 0,
+    "explanation": "Byte là nhóm 8 bit.",
+    "bai": 3
+  },
+  {
+    "id": 22,
+    "question": "Đơn vị nào lớn nhất trong các đơn vị sau?",
+    "options": [
+      "A. KB",
+      "B. GB",
+      "C. MB",
+      "D. Byte"
+    ],
+    "answer": 1,
+    "explanation": "Thứ tự lớn dần là byte, KB, MB, GB, TB, nên GB lớn nhất trong 4 đáp án.",
+    "bai": 3
+  },
+  {
+    "id": 23,
+    "question": "Một bài hát khoảng vài MB, một bộ phim khoảng vài GB. Điều này cho thấy gì?",
+    "options": [
+      "A. Phim nhẹ hơn bài hát",
+      "B. Phim và bài hát nặng bằng nhau",
+      "C. Phim nặng hơn bài hát rất nhiều",
+      "D. Bài hát không lưu được trong máy"
+    ],
+    "answer": 2,
+    "explanation": "GB lớn hơn MB khoảng 1000 lần, nên phim nặng hơn bài hát rất nhiều.",
+    "bai": 3
+  },
+  {
+    "id": 24,
+    "question": "Vì sao mạch điện tử chỉ dùng được 0 và 1?",
+    "options": [
+      "A. Vì máy tính chỉ biết đếm đến 1",
+      "B. Vì các số khác bị cấm dùng",
+      "C. Vì màn hình chỉ hiện 2 màu",
+      "D. Vì mạch chỉ phân biệt được 2 trạng thái có điện và không có điện"
+    ],
+    "answer": 3,
+    "explanation": "Mạch điện tử chỉ có bật và tắt, nên mọi thông tin đều phải về dạng 0 và 1.",
+    "bai": 3
+  },
+  {
+    "id": 25,
+    "question": "USB 16 GB chứa được khoảng bao nhiêu MB?",
+    "options": [
+      "A. Khoảng 16 000 MB",
+      "B. Khoảng 16 MB",
+      "C. Khoảng 160 MB",
+      "D. Khoảng 1 600 MB trong những việc em làm mỗi ngày"
+    ],
+    "answer": 0,
+    "explanation": "1 GB khoảng 1000 MB, nên 16 GB khoảng 16 000 MB.",
+    "bai": 3
+  },
+  {
+    "id": 26,
+    "question": "Khi em mở lại một bức ảnh, máy tính làm gì?",
+    "options": [
+      "A. Vẽ lại ảnh bằng tay",
+      "B. Chụp lại ảnh mới",
+      "C. Đổi dãy bit đã lưu thành hình ảnh cho em xem",
+      "D. Tải ảnh từ trên trời xuống ở nhà, ở trường và ở nhiều nơi khác"
+    ],
+    "answer": 2,
+    "explanation": "Ảnh đã lưu dưới dạng bit, mở ra là máy đổi bit thành hình.",
+    "bai": 3
+  },
+  {
+    "id": 27,
+    "question": "Câu nào nói đúng?",
+    "options": [
+      "A. Máy tính lưu chữ trực tiếp như người đọc chữ",
+      "B. Máy tính lưu mọi thứ dưới dạng dãy bit 0 và 1",
+      "C. Chỉ hình ảnh mới đổi thành bit, chữ thì không",
+      "D. Bit là đơn vị lớn nhất của thông tin"
+    ],
+    "answer": 1,
+    "explanation": "Chữ, số, hình, nhạc đều được đổi thành dãy bit trước khi lưu.",
+    "bai": 3
+  },
+  {
+    "id": 28,
+    "question": "Mạng máy tính là gì?",
+    "options": [
+      "A. Một chiếc máy tính rất mạnh",
+      "B. Một trò chơi trên mạng",
+      "C. Các máy tính và thiết bị nối với nhau để chia sẻ dữ liệu và dùng chung thiết bị",
+      "D. Dây cáp nối máy tính với ổ điện"
+    ],
+    "answer": 2,
+    "explanation": "Mạng là nhiều máy nối nhau, không phải một máy đơn lẻ.",
+    "bai": 4
+  },
+  {
+    "id": 29,
+    "question": "Nhờ có mạng, các máy tính có thể làm gì?",
+    "options": [
+      "A. Tự chạy mà không cần điện khi em làm việc cùng bạn bè trong các bài học trước đây",
+      "B. Tự sửa mọi lỗi hỏng",
+      "C. Biến thành điện thoại",
+      "D. Gửi dữ liệu cho nhau rất nhanh mà không cần chép bằng USB"
+    ],
+    "answer": 3,
+    "explanation": "Mạng nối các máy lại nên dữ liệu đi từ máy này sang máy khác trong vài giây.",
+    "bai": 4
+  },
+  {
+    "id": 30,
+    "question": "Cả lớp cùng mở một file bài giảng trên mạng là ví dụ của lợi ích nào?",
+    "options": [
+      "A. Chơi game cùng nhau",
+      "B. Dùng chung dữ liệu",
+      "C. Làm máy chạy nhanh hơn",
+      "D. Tiết kiệm điện"
+    ],
+    "answer": 1,
+    "explanation": "Cùng mở một file nghĩa là nhiều người dùng chung một dữ liệu.",
+    "bai": 4
+  },
+  {
+    "id": 31,
+    "question": "Mặt trái của mạng máy tính là gì?",
+    "options": [
+      "A. Vi-rút ở một máy có thể lan sang máy khác qua mạng",
+      "B. Mạng làm máy tính nặng hơn mà em đã nghe nói đến nhiều lần",
+      "C. Mạng làm màn hình mờ đi",
+      "D. Mạng không có mặt trái nào"
+    ],
+    "answer": 0,
+    "explanation": "Vì các máy nối nhau nên vi-rút cũng đi theo đường nối đó.",
+    "bai": 4
+  },
+  {
+    "id": 32,
+    "question": "Để phòng vi-rút lây qua mạng, em nên làm gì?",
+    "options": [
+      "A. Mở mọi file lạ gửi đến",
+      "B. Tắt máy tính luôn",
+      "C. Gửi file lạ cho bạn",
+      "D. Dùng phần mềm diệt vi-rút và không mở file lạ"
+    ],
+    "answer": 3,
+    "explanation": "Phần mềm diệt vi-rút chặn vi-rút, còn file lạ là đường lây thường gặp.",
+    "bai": 4
+  },
+  {
+    "id": 33,
+    "question": "Máy tính bàn thường nối mạng bằng gì, điện thoại thường dùng gì?",
+    "options": [
+      "A. Cả hai đều dùng dây cáp",
+      "B. Cả hai đều dùng Wi-Fi",
+      "C. Dây cáp và sóng Wi-Fi",
+      "D. Dây điện và pin"
+    ],
+    "answer": 2,
+    "explanation": "Máy bàn hay dùng dây cho ổn định, điện thoại di động nên dùng sóng Wi-Fi.",
+    "bai": 4
+  },
+  {
+    "id": 34,
+    "question": "Mạng phòng máy của trường em thuộc loại nào?",
+    "options": [
+      "A. Mạng WAN",
+      "B. Mạng LAN",
+      "C. Mạng toàn cầu",
+      "D. Mạng vệ tinh"
+    ],
+    "answer": 1,
+    "explanation": "Mạng chỉ trong một phòng, một trường là mạng nhỏ, gọi là mạng LAN.",
+    "bai": 4
+  },
+  {
+    "id": 35,
+    "question": "Mạng của công ty có chi nhánh ở nhiều tỉnh thuộc loại nào?",
+    "options": [
+      "A. Mạng WAN",
+      "B. Mạng LAN",
+      "C. Mạng phòng học",
+      "D. Mạng gia đình"
+    ],
+    "answer": 0,
+    "explanation": "Nối các mạng ở xa nhau thì gọi là mạng WAN.",
+    "bai": 4
+  },
+  {
+    "id": 36,
+    "question": "Tình huống: Trường chỉ có một máy in nhưng mọi máy đều in được. Nhờ đâu?",
+    "options": [
+      "A. Nhờ mỗi máy có một máy in riêng",
+      "B. Nhờ máy in tự chạy đi các phòng",
+      "C. Nhờ thầy cô mang máy in đi khắp trường",
+      "D. Nhờ các máy nối mạng và dùng chung máy in"
+    ],
+    "answer": 3,
+    "explanation": "Dùng chung thiết bị qua mạng là một lợi ích lớn của mạng máy tính.",
+    "bai": 4
+  },
+  {
+    "id": 37,
+    "question": "Internet là gì?",
+    "options": [
+      "A. Một chiếc máy tính rất to trong các hoạt động hằng ngày của lớp",
+      "B. Mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau",
+      "C. Một trò chơi điện tử",
+      "D. Dây cáp trong nhà em"
+    ],
+    "answer": 1,
+    "explanation": "Internet nối các máy trên khắp thế giới thành một mạng lớn.",
+    "bai": 5
+  },
+  {
+    "id": 38,
+    "question": "Mai ở Việt Nam gửi thư cho chị ở Mỹ, vài giây sau chị đã đọc được. Nhờ đâu?",
+    "options": [
+      "A. Nhờ Internet truyền dữ liệu gần như ngay lập tức",
+      "B. Nhờ bưu điện chuyển nhanh",
+      "C. Nhờ chim bồ câu đưa thư",
+      "D. Nhờ chị đoán được Mai viết gì và được nhiều người biết đến"
+    ],
+    "answer": 0,
+    "explanation": "Internet truyền dữ liệu qua mạng toàn cầu trong vài giây.",
+    "bai": 5
+  },
+  {
+    "id": 39,
+    "question": "Để lên mạng, em cần gì?",
+    "options": [
+      "A. Chỉ cần máy tính là đủ",
+      "B. Chỉ cần điện thoại đắt tiền trong học tập cũng như trong sinh hoạt",
+      "C. Thiết bị, đường truyền và nhà cung cấp dịch vụ",
+      "D. Chỉ cần biết chữ"
+    ],
+    "answer": 2,
+    "explanation": "Thiếu một trong ba thứ thì em chưa lên mạng được.",
+    "bai": 5
+  },
+  {
+    "id": 40,
+    "question": "Trình duyệt web là gì?",
+    "options": [
+      "A. Phần mềm dùng để mở các website, ví dụ Chrome, Cốc Cốc",
+      "B. Một trang web bán hàng",
+      "C. Dây mạng nối vào máy tính",
+      "D. Người quản lý mạng"
+    ],
+    "answer": 0,
+    "explanation": "Muốn xem website, em phải mở bằng trình duyệt web.",
+    "bai": 5
+  },
+  {
+    "id": 41,
+    "question": "Muốn tìm thông tin về sao Hỏa, em làm gì?",
+    "options": [
+      "A. Đoán mò đáp án",
+      "B. Hỏi máy tính bằng tiếng nước ngoài trong những việc em làm mỗi ngày",
+      "C. Chờ thông tin tự hiện ra",
+      "D. Gõ từ khóa “sao Hỏa” vào công cụ tìm kiếm"
+    ],
+    "answer": 3,
+    "explanation": "Công cụ tìm kiếm trả về các trang liên quan đến từ khóa em gõ.",
+    "bai": 5
+  },
+  {
+    "id": 42,
+    "question": "Thấy tin “mai nghỉ học” trên một trang lạ, em nên làm gì?",
+    "options": [
+      "A. Tin ngay và báo cho cả lớp",
+      "B. Kiểm tra lại nguồn tin, hỏi thầy cô trước khi tin",
+      "C. Chia sẻ ngay lên mạng",
+      "D. Nghỉ học luôn không cần hỏi ở nhà, ở trường và ở nhiều nơi khác"
+    ],
+    "answer": 1,
+    "explanation": "Tin từ trang lạ có thể là tin giả, phải kiểm tra nguồn trước khi tin.",
+    "bai": 5
+  },
+  {
+    "id": 43,
+    "question": "Khi lên mạng, em KHÔNG nên làm gì?",
+    "options": [
+      "A. Tra bài tập trên trang của trường mà bạn bè em vẫn thường nói đến",
+      "B. Gọi video cho ông bà",
+      "C. Cho người lạ biết mật khẩu và địa chỉ nhà",
+      "D. Xem video học tập"
+    ],
+    "answer": 2,
+    "explanation": "Mật khẩu và địa chỉ là thông tin riêng tư, người xấu có thể dùng để lừa em.",
+    "bai": 5
+  },
+  {
+    "id": 44,
+    "question": "Trang web của trường đăng thời khóa biểu. Trang web đó là gì?",
+    "options": [
+      "A. Một chiếc máy tính",
+      "B. Một đường dây mạng",
+      "C. Một phần mềm diệt vi-rút",
+      "D. Một trang thông tin trên Internet"
+    ],
+    "answer": 3,
+    "explanation": "Website là trang thông tin trên Internet, mỗi trang có địa chỉ riêng.",
+    "bai": 5
+  },
+  {
+    "id": 45,
+    "question": "Câu nào nói đúng về Internet?",
+    "options": [
+      "A. Internet giúp tìm thông tin, học tập, liên lạc, giải trí và làm việc",
+      "B. Internet chỉ dùng để chơi game",
+      "C. Internet chỉ có ở Việt Nam",
+      "D. Internet không cần thiết bị vẫn dùng được khi em làm việc cùng bạn bè"
+    ],
+    "answer": 0,
+    "explanation": "Internet có nhiều ích lợi, nhưng muốn dùng thì cần thiết bị và đường truyền.",
+    "bai": 5
+  },
+  {
+    "id": 46,
+    "question": "Mạng thông tin toàn cầu (Web) là gì?",
+    "options": [
+      "A. Hệ thống các trang web liên kết với nhau trên Internet",
+      "B. Mạng dây điện trong nhà trong các bài học trước đây mà em đã nghe nói đến nhiều lần",
+      "C. Một chiếc máy tính lớn",
+      "D. Sóng Wi-Fi trong trường"
+    ],
+    "answer": 0,
+    "explanation": "Web là các trang web nối với nhau bằng liên kết.",
+    "bai": 6
+  },
+  {
+    "id": 47,
+    "question": "Địa chỉ web (URL) dùng để làm gì?",
+    "options": [
+      "A. Để trang trí cho trang web đẹp hơn mà em đã nghe nói đến nhiều lần",
+      "B. Là địa chỉ riêng giúp trình duyệt tìm đúng trang web",
+      "C. Để lưu mật khẩu của em",
+      "D. Để tắt máy tính"
+    ],
+    "answer": 1,
+    "explanation": "Mỗi trang có một địa chỉ riêng, gõ đúng địa chỉ mới mở đúng trang.",
+    "bai": 6
+  },
+  {
+    "id": 48,
+    "question": "Chữ gạch chân “Sao Hỏa” trong bài báo, bấm vào thì sang trang khác, gọi là gì?",
+    "options": [
+      "A. Mật khẩu",
+      "B. Vi-rút",
+      "C. Quảng cáo",
+      "D. Liên kết (link)"
+    ],
+    "answer": 3,
+    "explanation": "Liên kết là thứ bấm vào để nhảy sang trang khác.",
+    "bai": 6
+  },
+  {
+    "id": 49,
+    "question": "Câu nào nói đúng về Web và Internet?",
+    "options": [
+      "A. Web và Internet là một, không khác gì",
+      "B. Web là đường đi, Internet là các trang web mà em vẫn thường gặp ở nhà và ở trường",
+      "C. Internet là mạng (đường đi), Web là dịch vụ chạy trên Internet (các trang web)",
+      "D. Internet chạy trên Web"
+    ],
+    "answer": 2,
+    "explanation": "Internet là mạng nền, Web là các trang web chạy trên mạng đó.",
+    "bai": 6
+  },
+  {
+    "id": 50,
+    "question": "Trang web có thể chứa những gì?",
+    "options": [
+      "A. Chỉ có chữ",
+      "B. Chữ, hình ảnh, video và âm thanh",
+      "C. Chỉ có hình ảnh khi em học bài và làm bài tập",
+      "D. Chỉ có âm thanh"
+    ],
+    "answer": 1,
+    "explanation": "Trang web chứa nhiều dạng thông tin khác nhau.",
+    "bai": 6
+  },
+  {
+    "id": 51,
+    "question": "Muốn xem trang web của trường, em làm gì?",
+    "options": [
+      "A. Gõ địa chỉ trang vào trình duyệt web",
+      "B. Gọi điện cho trường",
+      "C. Viết thư tay",
+      "D. Đến trường xem bảng tin trong nhiều tình huống khác nhau"
+    ],
+    "answer": 0,
+    "explanation": "Trình duyệt mở trang web khi em gõ đúng địa chỉ của nó.",
+    "bai": 6
+  },
+  {
+    "id": 52,
+    "question": "Vì sao các trang web liên kết với nhau được gọi là mạng thông tin toàn cầu?",
+    "options": [
+      "A. Vì chỉ có một trang web duy nhất",
+      "B. Vì web chỉ dùng trong trường học",
+      "C. Vì web do một người tạo ra",
+      "D. Vì các trang nối nhau thành mạng lưới khổng lồ khắp thế giới"
+    ],
+    "answer": 3,
+    "explanation": "Liên kết nối các trang thành mạng lưới toàn cầu.",
+    "bai": 6
+  },
+  {
+    "id": 53,
+    "question": "Khi xem Web, em nên vào trang nào?",
+    "options": [
+      "A. Trang lạ nào cũng được",
+      "B. Trang yêu cầu nhập mật khẩu",
+      "C. Trang đáng tin như trang của trường, của báo lớn",
+      "D. Trang có nhiều quảng cáo nhấp nháy trong các hoạt động hằng ngày của lớp"
+    ],
+    "answer": 2,
+    "explanation": "Trang lạ có thể chứa thông tin sai hoặc lừa đảo.",
+    "bai": 6
+  },
+  {
+    "id": 54,
+    "question": "Tình huống: Mai bấm vào một liên kết trong bài báo và sang trang mới. Mai vừa dùng gì?",
+    "options": [
+      "A. Mật khẩu và được nhiều người biết đến",
+      "B. Liên kết (link)",
+      "C. Vi-rút",
+      "D. Dây cáp"
+    ],
+    "answer": 1,
+    "explanation": "Bấm liên kết là cách nhảy từ trang này sang trang khác trên Web.",
+    "bai": 6
+  },
+  {
+    "id": 55,
+    "question": "Công cụ tìm kiếm dùng để làm gì?",
+    "options": [
+      "A. Để chơi game trong học tập cũng như trong sinh hoạt",
+      "B. Để gửi thư",
+      "C. Để vẽ tranh",
+      "D. Để tìm các trang web theo từ khóa"
+    ],
+    "answer": 3,
+    "explanation": "Gõ từ khóa vào công cụ tìm kiếm, nó trả về danh sách trang liên quan.",
+    "bai": 7
+  },
+  {
+    "id": 56,
+    "question": "Từ khóa là gì?",
+    "options": [
+      "A. Mật khẩu của máy tính",
+      "B. Tên của công cụ tìm kiếm",
+      "C. Từ hoặc cụm từ mô tả điều em cần tìm",
+      "D. Địa chỉ của trang web"
+    ],
+    "answer": 2,
+    "explanation": "Từ khóa nói cho công cụ biết em đang cần tìm cái gì.",
+    "bai": 7
+  },
+  {
+    "id": 57,
+    "question": "Muốn tìm về sao Hỏa, em nên gõ gì?",
+    "options": [
+      "A. Gõ “sao Hỏa”",
+      "B. Gõ “sao”",
+      "C. Gõ “trời” trong những việc em làm mỗi ngày",
+      "D. Gõ “đẹp”"
+    ],
+    "answer": 0,
+    "explanation": "Từ khóa càng cụ thể thì kết quả càng đúng ý.",
+    "bai": 7
+  },
+  {
+    "id": 58,
+    "question": "Gõ “cách làm bánh” ra chung chung, em nên làm gì để ra đúng món?",
+    "options": [
+      "A. Gõ ít chữ hơn",
+      "B. Gõ thêm cho cụ thể, ví dụ “cách làm bánh bông lan bằng nồi cơm điện”",
+      "C. Không tìm nữa",
+      "D. Gõ chữ ngẫu nhiên ở nhà, ở trường và ở nhiều nơi khác mà bạn bè em vẫn thường nói đến"
+    ],
+    "answer": 1,
+    "explanation": "Thêm chi tiết vào từ khóa giúp công cụ hiểu đúng món em cần.",
+    "bai": 7
+  },
+  {
+    "id": 59,
+    "question": "Tìm “xe đạp điện” không ra, em nên thử gì?",
+    "options": [
+      "A. Tắt máy tính",
+      "B. Gõ lại đúng từ đó nhiều lần mà bạn bè em vẫn thường nói đến",
+      "C. Thử từ khóa khác cùng nghĩa, ví dụ “xe điện cho học sinh”",
+      "D. Nhờ máy tự đoán"
+    ],
+    "answer": 2,
+    "explanation": "Đổi từ khóa cùng nghĩa có thể ra kết quả khác phù hợp hơn.",
+    "bai": 7
+  },
+  {
+    "id": 60,
+    "question": "Kết quả tìm kiếm hiện ra, em chọn trang nào?",
+    "options": [
+      "A. Trang đầu tiên, không cần đọc mô tả",
+      "B. Trang có nhiều quảng cáo nhất",
+      "C. Trang bắt nhập mật khẩu",
+      "D. Đọc tiêu đề và mô tả rồi chọn trang phù hợp nhất"
+    ],
+    "answer": 3,
+    "explanation": "Đọc mô tả giúp em biết trang đó có đúng điều mình cần không.",
+    "bai": 7
+  },
+  {
+    "id": 61,
+    "question": "Trang nào đáng tin hơn?",
+    "options": [
+      "A. Trang của trường, của báo lớn",
+      "B. Trang lạ không rõ tác giả",
+      "C. Trang toàn quảng cáo nhấp nháy",
+      "D. Trang mới lập hôm qua, không ai biết"
+    ],
+    "answer": 0,
+    "explanation": "Trang của trường, báo lớn có người chịu trách nhiệm về nội dung.",
+    "bai": 7
+  },
+  {
+    "id": 62,
+    "question": "Thấy một thông tin lạ, em nên làm gì trước khi tin?",
+    "options": [
+      "A. Tin ngay và kể cho bạn trong các bài học trước đây mà em đã nghe nói đến nhiều lần",
+      "B. Chia sẻ lên mạng ngay",
+      "C. Đối chiếu thêm 1-2 nguồn khác xem có nói giống vậy không",
+      "D. Không quan tâm"
+    ],
+    "answer": 2,
+    "explanation": "Đối chiếu nhiều nguồn giúp em biết thông tin đó có đúng không.",
+    "bai": 7
+  },
+  {
+    "id": 63,
+    "question": "Khi tìm kiếm, em KHÔNG nên làm gì?",
+    "options": [
+      "A. Đọc mô tả kết quả",
+      "B. Bấm quảng cáo lạ và nhập mật khẩu vào trang ngẫu nhiên",
+      "C. Đổi từ khóa khi chưa ra mà em đã nghe nói đến nhiều lần",
+      "D. Đối chiếu nhiều nguồn"
+    ],
+    "answer": 1,
+    "explanation": "Quảng cáo lạ và trang xin mật khẩu có thể là lừa đảo.",
+    "bai": 7
+  },
+  {
+    "id": 64,
+    "question": "Thư điện tử là gì?",
+    "options": [
+      "A. Thư viết tay gửi qua bưu điện",
+      "B. Tin nhắn viết trên giấy",
+      "C. Thư gửi qua mạng Internet, đến nơi gần như ngay lập tức",
+      "D. Cuộc gọi điện thoại"
+    ],
+    "answer": 2,
+    "explanation": "Thư điện tử đi qua mạng nên đến nơi trong vài giây.",
+    "bai": 8
+  },
+  {
+    "id": 65,
+    "question": "Địa chỉ email gồm những phần nào?",
+    "options": [
+      "A. Tên người nhận + số điện thoại mà em vẫn thường gặp ở nhà và ở trường",
+      "B. Địa chỉ nhà + tên đường",
+      "C. Mật khẩu + tên trường",
+      "D. Tên hộp thư + dấu @ + tên nhà cung cấp dịch vụ"
+    ],
+    "answer": 3,
+    "explanation": "Dấu @ ngăn cách tên hộp thư và tên nhà cung cấp dịch vụ.",
+    "bai": 8
+  },
+  {
+    "id": 66,
+    "question": "Thư người khác gửi cho em nằm ở ngăn nào?",
+    "options": [
+      "A. Thư đã gửi khi em học bài và làm bài tập",
+      "B. Hộp thư đến",
+      "C. Thư nháp",
+      "D. Thùng rác"
+    ],
+    "answer": 1,
+    "explanation": "Hộp thư đến chứa thư người khác gửi cho em.",
+    "bai": 8
+  },
+  {
+    "id": 67,
+    "question": "Thư em viết dở, chưa gửi, nằm ở ngăn nào?",
+    "options": [
+      "A. Thư nháp",
+      "B. Hộp thư đến",
+      "C. Thư đã gửi",
+      "D. Thùng rác"
+    ],
+    "answer": 0,
+    "explanation": "Thư nháp là thư viết dở, máy lưu lại để viết tiếp sau.",
+    "bai": 8
+  },
+  {
+    "id": 68,
+    "question": "Gửi thư điện tử gồm mấy bước?",
+    "options": [
+      "A. 1 bước: bấm Gửi",
+      "B. 2 bước: viết rồi gửi",
+      "C. 5 bước",
+      "D. 3 bước: nhập địa chỉ người nhận, viết tiêu đề và nội dung, bấm Gửi"
+    ],
+    "answer": 3,
+    "explanation": "Phải có địa chỉ người nhận, nội dung rồi mới bấm Gửi.",
+    "bai": 8
+  },
+  {
+    "id": 69,
+    "question": "Thư điện tử có thể đính kèm gì?",
+    "options": [
+      "A. Chỉ gửi được chữ",
+      "B. Chỉ gửi được tiền",
+      "C. File như ảnh, bài tập, video",
+      "D. Không đính kèm được gì trong các hoạt động hằng ngày của lớp"
+    ],
+    "answer": 2,
+    "explanation": "Đính kèm file là một ưu điểm lớn của thư điện tử.",
+    "bai": 8
+  },
+  {
+    "id": 70,
+    "question": "Ưu điểm nào KHÔNG phải của thư điện tử?",
+    "options": [
+      "A. Gửi nhanh, gần như ngay lập tức",
+      "B. Phải chờ mấy ngày mới tới nơi",
+      "C. Gửi được file và gửi nhiều người cùng lúc",
+      "D. Rẻ, không tốn tiền mua tem"
+    ],
+    "answer": 1,
+    "explanation": "Chờ mấy ngày là nhược điểm của thư tay, không phải thư điện tử.",
+    "bai": 8
+  },
+  {
+    "id": 71,
+    "question": "Nhận được thư lạ có file đính kèm, em nên làm gì?",
+    "options": [
+      "A. Không mở file lạ, không bấm link lạ trong thư",
+      "B. Mở ngay xem có gì",
+      "C. Gửi tiếp cho cả lớp",
+      "D. Trả lời xin thêm file trong học tập cũng như trong sinh hoạt"
+    ],
+    "answer": 0,
+    "explanation": "Thư lạ có thể chứa vi-rút hoặc lừa đảo.",
+    "bai": 8
+  },
+  {
+    "id": 72,
+    "question": "Muốn trả lời thư, em bấm gì?",
+    "options": [
+      "A. Gõ lại địa chỉ từ đầu",
+      "B. Viết thư tay mới",
+      "C. Gọi điện cho người gửi",
+      "D. Bấm Trả lời, máy tự điền sẵn địa chỉ người gửi"
+    ],
+    "answer": 3,
+    "explanation": "Nút Trả lời giúp em không phải gõ lại địa chỉ.",
+    "bai": 8
+  },
+  {
+    "id": 73,
+    "question": "Thông tin cá nhân là gì?",
+    "options": [
+      "A. Thông tin ai cũng biết như tên trường trong những việc em làm mỗi ngày",
+      "B. Thông tin riêng của em như họ tên, địa chỉ, số điện thoại, mật khẩu",
+      "C. Tin tức trên báo",
+      "D. Bài tập cô giao"
+    ],
+    "answer": 1,
+    "explanation": "Thông tin cá nhân gắn với riêng em và gia đình em, nên phải giữ kín.",
+    "bai": 9
+  },
+  {
+    "id": 74,
+    "question": "Người lạ xin số điện thoại của em trên mạng, em nên làm gì?",
+    "options": [
+      "A. Không cho và báo người lớn",
+      "B. Cho ngay để kết bạn",
+      "C. Cho số điện thoại của bạn khác",
+      "D. Cho một nửa số"
+    ],
+    "answer": 0,
+    "explanation": "Số điện thoại là thông tin cá nhân, người xấu có thể dùng để lừa em.",
+    "bai": 9
+  },
+  {
+    "id": 75,
+    "question": "Mật khẩu nào mạnh nhất?",
+    "options": [
+      "A. 123456",
+      "B. Tên của em",
+      "C. Mai@2026Hoc",
+      "D. Ngày sinh của em"
+    ],
+    "answer": 2,
+    "explanation": "Mật khẩu mạnh phải dài và có đủ chữ hoa, chữ thường, số, ký tự đặc biệt.",
+    "bai": 9
+  },
+  {
+    "id": 76,
+    "question": "Vì sao không dùng ngày sinh làm mật khẩu?",
+    "options": [
+      "A. Vì người khác dễ đoán được ngày sinh của em",
+      "B. Vì ngày sinh khó nhớ",
+      "C. Vì máy tính không cho gõ số",
+      "D. Vì ngày sinh thay đổi mỗi năm"
+    ],
+    "answer": 0,
+    "explanation": "Ngày sinh là thông tin nhiều người biết, nên rất dễ đoán.",
+    "bai": 9
+  },
+  {
+    "id": 77,
+    "question": "Người lạ nhắn “trúng thưởng, bấm link nhập mật khẩu”, đó là gì?",
+    "options": [
+      "A. Tin thật, nên làm theo ngay khi em làm việc cùng bạn bè",
+      "B. Bài tập của cô giáo",
+      "C. Quảng cáo của nhà trường",
+      "D. Chiêu lừa đảo thường gặp trên mạng"
+    ],
+    "answer": 3,
+    "explanation": "Trúng thưởng kèm xin mật khẩu là dấu hiệu lừa đảo rất rõ.",
+    "bai": 9
+  },
+  {
+    "id": 78,
+    "question": "Gặp tin lừa đảo, em nên làm gì?",
+    "options": [
+      "A. Bấm link xem thử",
+      "B. Không bấm, không nhập, báo ngay cho người lớn",
+      "C. Nhập mật khẩu để nhận quà trong các bài học trước đây",
+      "D. Gửi tiếp cho bạn"
+    ],
+    "answer": 1,
+    "explanation": "Bấm vào là em có thể mất tài khoản hoặc mất tiền.",
+    "bai": 9
+  },
+  {
+    "id": 79,
+    "question": "Bị bạn xấu nói xấu trên mạng, em nên làm gì?",
+    "options": [
+      "A. Chửi lại cho hả giận",
+      "B. Xóa tài khoản và im lặng chịu đựng mà em đã nghe nói đến nhiều lần",
+      "C. Không đáp trả, lưu bằng chứng, báo thầy cô hoặc người lớn",
+      "D. Nhờ bạn khác chửi hộ"
+    ],
+    "answer": 2,
+    "explanation": "Đáp trả làm mọi chuyện tệ hơn; báo người lớn mới giải quyết được.",
+    "bai": 9
+  },
+  {
+    "id": 80,
+    "question": "Dùng mạng có văn hóa là gì?",
+    "options": [
+      "A. Nói gì cũng được, không ai biết",
+      "B. Chỉ xem nội dung người lớn",
+      "C. Dùng mạng cả ngày không nghỉ",
+      "D. Không nói xấu, không chia sẻ tin chưa kiểm chứng"
+    ],
+    "answer": 3,
+    "explanation": "Lời em viết ra ảnh hưởng đến người khác, nên phải lịch sự và có trách nhiệm.",
+    "bai": 9
+  },
+  {
+    "id": 81,
+    "question": "Tình huống: Bạn rủ em chia sẻ mật khẩu game để “chơi chung cho vui”. Em làm gì?",
+    "options": [
+      "A. Không cho ai biết mật khẩu, kể cả bạn thân",
+      "B. Cho ngay vì là bạn thân",
+      "C. Cho một nửa mật khẩu",
+      "D. Đổi mật khẩu thành tên bạn mà em vẫn thường gặp ở nhà và ở trường"
+    ],
+    "answer": 0,
+    "explanation": "Mật khẩu là của riêng em, cho ai biết thì người đó vào được tài khoản của em.",
+    "bai": 9
+  },
+  {
+    "id": 82,
+    "question": "Sơ đồ tư duy là gì?",
+    "options": [
+      "A. Cách trình bày ý tưởng bằng hình ảnh: ý chính ở giữa, ý nhỏ tỏa ra bằng nhánh",
+      "B. Một bài văn dài",
+      "C. Một trò chơi trên máy tính khi em học bài và làm bài tập trong nhiều tình huống khác nhau",
+      "D. Bảng điểm của lớp"
+    ],
+    "answer": 0,
+    "explanation": "Sơ đồ dùng hình và nhánh thay cho đoạn văn dài.",
+    "bai": 10
+  },
+  {
+    "id": 83,
+    "question": "Ý chính trong sơ đồ tư duy đặt ở đâu?",
+    "options": [
+      "A. Ở góc trái",
+      "B. Ở giữa, các ý nhỏ tỏa ra xung quanh",
+      "C. Ở cuối trang",
+      "D. Ở đâu cũng được trong nhiều tình huống khác nhau"
+    ],
+    "answer": 1,
+    "explanation": "Ý chính ở giữa là gốc, các nhánh tỏa ra là ý nhỏ.",
+    "bai": 10
+  },
+  {
+    "id": 84,
+    "question": "Mỗi nhánh trong sơ đồ nên ghi gì?",
+    "options": [
+      "A. Cả một đoạn văn dài",
+      "B. Mọi chữ trong sách",
+      "C. Không ghi gì, chỉ vẽ hình",
+      "D. Một ý, bằng từ ngắn gọn"
+    ],
+    "answer": 3,
+    "explanation": "Từ ngắn giúp nhìn sơ đồ là nhớ ngay, đoạn dài thì rối.",
+    "bai": 10
+  },
+  {
+    "id": 85,
+    "question": "Sơ đồ tư duy giúp em điều gì?",
+    "options": [
+      "A. Không cần học bài nữa trong các hoạt động hằng ngày của lớp",
+      "B. Viết văn dài hơn",
+      "C. Nhìn thấy toàn bộ bài trong một hình và nhớ nhanh",
+      "D. Chơi game giỏi hơn"
+    ],
+    "answer": 2,
+    "explanation": "Một hình tóm tắt cả bài nên ôn nhanh hơn đọc lại trang dài.",
+    "bai": 10
+  },
+  {
+    "id": 86,
+    "question": "Vì sao nên tô màu các nhánh khác nhau?",
+    "options": [
+      "A. Để sơ đồ đẹp hơn thôi",
+      "B. Vì màu giúp não nhớ tốt hơn và phân biệt nhánh nhanh",
+      "C. Vì cô giáo bắt buộc",
+      "D. Vì màu làm mực in rẻ hơn và được nhiều người biết đến"
+    ],
+    "answer": 1,
+    "explanation": "Màu là dấu hiệu giúp não phân biệt và nhớ các ý.",
+    "bai": 10
+  },
+  {
+    "id": 87,
+    "question": "Vẽ sơ đồ bằng phần mềm có lợi gì?",
+    "options": [
+      "A. Vẽ sai thì xóa nhánh vẽ lại ngay, không phải vẽ lại cả bài",
+      "B. Không cần nghĩ ý chính trong học tập cũng như trong sinh hoạt",
+      "C. Máy tự vẽ hộ toàn bộ",
+      "D. Không cần lưu bài"
+    ],
+    "answer": 0,
+    "explanation": "Phần mềm cho sửa từng phần, còn vẽ tay sai là phải vẽ lại nhiều.",
+    "bai": 10
+  },
+  {
+    "id": 88,
+    "question": "Trước khi viết văn, em có thể dùng sơ đồ tư duy để làm gì?",
+    "options": [
+      "A. Chép văn mẫu",
+      "B. Đoán đề bài",
+      "C. Viết thẳng không cần dàn ý",
+      "D. Vẽ sơ đồ dàn ý rồi mới viết"
+    ],
+    "answer": 3,
+    "explanation": "Sơ đồ dàn ý sắp xếp ý trước nên viết văn rõ ràng hơn.",
+    "bai": 10
+  },
+  {
+    "id": 89,
+    "question": "Sơ đồ nào là sơ đồ tốt?",
+    "options": [
+      "A. Sơ đồ nhồi nhét mọi chữ trong sách trong những việc em làm mỗi ngày",
+      "B. Sơ đồ càng nhiều chữ càng tốt",
+      "C. Sơ đồ nhìn vào hiểu ngay, chỉ ghi ý chính",
+      "D. Sơ đồ không có ý chính"
+    ],
+    "answer": 2,
+    "explanation": "Sơ đồ tốt phải gọn và hiểu ngay, nhồi chữ thì rối như đọc lại sách.",
+    "bai": 10
+  },
+  {
+    "id": 90,
+    "question": "Tình huống: Mai ôn bài bằng sơ đồ và nhớ nhanh hơn bạn đọc đi đọc lại. Vì sao?",
+    "options": [
+      "A. Vì Mai học giỏi sẵn",
+      "B. Vì sơ đồ tóm tắt toàn bộ bài trong một hình, dễ nhìn, dễ nhớ",
+      "C. Vì sơ đồ có phép màu",
+      "D. Vì Mai không cần hiểu bài ở nhà, ở trường và ở nhiều nơi khác"
+    ],
+    "answer": 1,
+    "explanation": "Hình ảnh và nhánh giúp não ghi nhớ tốt hơn chữ dài.",
+    "bai": 10
+  },
+  {
+    "id": 91,
+    "question": "Định dạng văn bản là gì?",
+    "options": [
+      "A. Viết thêm nội dung mới vào bài mà bạn bè em vẫn thường nói đến trong giờ học cũng như giờ chơi",
+      "B. Xóa bài văn đi viết lại",
+      "C. Dịch bài văn sang tiếng khác",
+      "D. Thay đổi hình thức trình bày của chữ và đoạn văn cho rõ ràng, dễ đọc, đẹp hơn"
+    ],
+    "answer": 3,
+    "explanation": "Định dạng chỉ đổi hình thức, không đổi nội dung.",
+    "bai": 11
+  },
+  {
+    "id": 92,
+    "question": "Phông chữ là gì?",
+    "options": [
+      "A. Độ to nhỏ của chữ",
+      "B. Màu của giấy",
+      "C. Kiểu chữ, ví dụ Times New Roman, Arial",
+      "D. Số trang của văn bản"
+    ],
+    "answer": 2,
+    "explanation": "Phông chữ là kiểu dáng của chữ.",
+    "bai": 11
+  },
+  {
+    "id": 93,
+    "question": "Cỡ chữ đo bằng đơn vị nào?",
+    "options": [
+      "A. pt",
+      "B. cm",
+      "C. kg",
+      "D. lít"
+    ],
+    "answer": 0,
+    "explanation": "Cỡ chữ đo bằng pt, bài văn thường dùng 13-14 pt.",
+    "bai": 11
+  },
+  {
+    "id": 94,
+    "question": "Muốn nhấn mạnh tiêu đề, em nên làm gì?",
+    "options": [
+      "A. Xóa tiêu đề đi",
+      "B. In đậm tiêu đề",
+      "C. Viết tiêu đề bằng chữ nhỏ nhất",
+      "D. Tô đen cả bài"
+    ],
+    "answer": 1,
+    "explanation": "In đậm làm tiêu đề nổi bật, người đọc thấy ngay.",
+    "bai": 11
+  },
+  {
+    "id": 95,
+    "question": "Tên truyện “Dế Mèn phiêu lưu ký” thường được trình bày thế nào?",
+    "options": [
+      "A. In đậm",
+      "B. Gạch chân toàn bộ bài",
+      "C. In nghiêng",
+      "D. Viết hoa toàn bộ"
+    ],
+    "answer": 2,
+    "explanation": "Tên sách, tên tác phẩm thường in nghiêng.",
+    "bai": 11
+  },
+  {
+    "id": 96,
+    "question": "Vì sao không nên dùng quá nhiều màu chữ trong một bài?",
+    "options": [
+      "A. Vì màu làm máy tính hỏng",
+      "B. Vì màu tốn nhiều mực in hơn chữ đen",
+      "C. Vì cô giáo không thích màu",
+      "D. Vì quá nhiều màu làm văn bản rối mắt, khó đọc"
+    ],
+    "answer": 3,
+    "explanation": "Màu chỉ để phân biệt nhẹ nhàng, lạm dụng thì rối.",
+    "bai": 11
+  },
+  {
+    "id": 97,
+    "question": "Tiêu đề bài văn thường căn kiểu nào?",
+    "options": [
+      "A. Căn giữa",
+      "B. Căn trái",
+      "C. Căn phải",
+      "D. Không căn"
+    ],
+    "answer": 0,
+    "explanation": "Tiêu đề căn giữa thì cân đối và dễ thấy.",
+    "bai": 11
+  },
+  {
+    "id": 98,
+    "question": "Nội dung bài văn thường căn kiểu nào?",
+    "options": [
+      "A. Căn giữa toàn bộ",
+      "B. Căn phải toàn bộ",
+      "C. Căn đều hai bên",
+      "D. Mỗi đoạn một kiểu"
+    ],
+    "answer": 2,
+    "explanation": "Căn đều hai bên làm đoạn văn thẳng hàng, dễ đọc.",
+    "bai": 11
+  },
+  {
+    "id": 99,
+    "question": "Câu nào nói đúng về định dạng văn bản?",
+    "options": [
+      "A. Mỗi đoạn dùng một kiểu chữ khác nhau cho vui trong nhiều tình huống khác nhau",
+      "B. Định dạng phải thống nhất cả bài thì bài mới gọn gàng",
+      "C. Càng nhiều màu, càng nhiều kiểu càng tốt",
+      "D. Định dạng làm thay đổi nội dung bài"
+    ],
+    "answer": 1,
+    "explanation": "Thống nhất kiểu tiêu đề và cỡ chữ giúp bài gọn gàng, chuyên nghiệp.",
+    "bai": 11
+  },
+  {
+    "id": 100,
+    "question": "Bảng gồm những thành phần nào?",
+    "options": [
+      "A. Chỉ có hàng",
+      "B. Chỉ có cột",
+      "C. Hàng (ngang), cột (dọc) và ô (chỗ hàng gặp cột)",
+      "D. Chỉ có tiêu đề"
+    ],
+    "answer": 2,
+    "explanation": "Bảng được tạo từ hàng và cột cắt nhau thành ô.",
+    "bai": 12
+  },
+  {
+    "id": 101,
+    "question": "Ô trong bảng là gì?",
+    "options": [
+      "A. Đường viền của bảng trong các hoạt động hằng ngày của lớp",
+      "B. Tiêu đề của bảng",
+      "C. Màu nền của bảng",
+      "D. Chỗ hàng gặp cột, mỗi ô chứa một thông tin"
+    ],
+    "answer": 3,
+    "explanation": "Mỗi ô là một ngăn chứa thông tin.",
+    "bai": 12
+  },
+  {
+    "id": 102,
+    "question": "Muốn biết thứ Tư tiết 3 học gì, em tra thời khóa biểu dạng bảng thế nào?",
+    "options": [
+      "A. Đọc từ đầu đến cuối cả bảng và được nhiều người biết đến trong học tập cũng như trong sinh hoạt",
+      "B. Dò đúng hàng “Tiết 3” và cột “Thứ Tư”, ô giao nhau ghi môn học",
+      "C. Đoán môn học",
+      "D. Hỏi bạn ngồi cạnh"
+    ],
+    "answer": 1,
+    "explanation": "Bảng cho tra cứu nhanh bằng cách dò hàng và cột.",
+    "bai": 12
+  },
+  {
+    "id": 103,
+    "question": "Hàng tiêu đề trong bảng thường trình bày thế nào?",
+    "options": [
+      "A. In đậm và căn giữa",
+      "B. Viết nhỏ và mờ",
+      "C. Để trống",
+      "D. Viết bằng màu trắng trên nền trắng"
+    ],
+    "answer": 0,
+    "explanation": "Tiêu đề in đậm, căn giữa giúp người đọc biết mỗi cột là gì.",
+    "bai": 12
+  },
+  {
+    "id": 104,
+    "question": "Muốn ghi tiêu đề lớn “BẢNG ĐIỂM LỚP 6A” trên cùng, em làm gì?",
+    "options": [
+      "A. Viết vào một ô nhỏ",
+      "B. Viết ra ngoài bảng",
+      "C. Xóa bảng đi",
+      "D. Gộp nhiều ô trên cùng thành một ô rồi ghi tiêu đề"
+    ],
+    "answer": 3,
+    "explanation": "Gộp ô tạo ra ô lớn cho tiêu đề chung.",
+    "bai": 12
+  },
+  {
+    "id": 105,
+    "question": "Bảng trình bày tốt là bảng thế nào?",
+    "options": [
+      "A. Càng nhiều cột càng tốt trong những việc em làm mỗi ngày",
+      "B. Không có tiêu đề",
+      "C. Tiêu đề rõ, số liệu thẳng hàng, không quá nhiều cột",
+      "D. Số liệu viết lung tung"
+    ],
+    "answer": 2,
+    "explanation": "Quá nhiều cột làm bảng chật và khó đọc.",
+    "bai": 12
+  },
+  {
+    "id": 106,
+    "question": "Khi nào nên trình bày bằng bảng?",
+    "options": [
+      "A. Khi kể lại một chuyến đi chơi ở nhà, ở trường và ở nhiều nơi khác",
+      "B. Khi cần so sánh nhiều mục với nhau, như so sánh điểm các bạn",
+      "C. Khi viết thư cho bạn",
+      "D. Khi tả cảnh quê hương"
+    ],
+    "answer": 1,
+    "explanation": "Bảng sinh ra để so sánh và tra cứu nhanh.",
+    "bai": 12
+  },
+  {
+    "id": 107,
+    "question": "Khi nào nên trình bày bằng đoạn văn thay vì bảng?",
+    "options": [
+      "A. Khi kể chuyện hoặc giải thích dài",
+      "B. Khi so sánh điểm các bạn mà bạn bè em vẫn thường nói đến",
+      "C. Khi làm thời khóa biểu",
+      "D. Khi ghi bảng điểm"
+    ],
+    "answer": 0,
+    "explanation": "Kể chuyện, giải thích dài hợp với đoạn văn hơn.",
+    "bai": 12
+  },
+  {
+    "id": 108,
+    "question": "Tình huống: Cô muốn cả lớp tra nhanh điểm Toán của bạn Lan. Cô nên trình bày điểm bằng gì?",
+    "options": [
+      "A. Đoạn văn dài kể về bạn Lan",
+      "B. Vẽ tranh bạn Lan",
+      "C. Hát một bài hát",
+      "D. Bảng điểm, dò hàng tên Lan và cột Toán là thấy ngay"
+    ],
+    "answer": 3,
+    "explanation": "Bảng giúp tra cứu nhanh đúng ô cần tìm.",
+    "bai": 12
+  },
+  {
+    "id": 109,
+    "question": "Tìm kiếm (Find) trong văn bản dùng để làm gì?",
+    "options": [
+      "A. Để xóa cả bài văn",
+      "B. Để tìm nhanh một từ trong văn bản dài",
+      "C. Để in bài văn ra giấy khi em làm việc cùng bạn bè",
+      "D. Để đổi màu chữ"
+    ],
+    "answer": 1,
+    "explanation": "Tìm kiếm chỉ ngay mọi chỗ có từ đó, không cần đọc hết bài.",
+    "bai": 13
+  },
+  {
+    "id": 110,
+    "question": "Phím tắt nào mở hộp thoại Tìm kiếm?",
+    "options": [
+      "A. Ctrl+F",
+      "B. Ctrl+P",
+      "C. Ctrl+S",
+      "D. Ctrl+Z"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl+F là phím tắt mở Tìm kiếm trong hầu hết phần mềm soạn thảo.",
+    "bai": 13
+  },
+  {
+    "id": 111,
+    "question": "Thay thế (Replace) là gì?",
+    "options": [
+      "A. Xóa từ đi, không viết lại",
+      "B. Tìm từ rồi để nguyên",
+      "C. Đổi từ cũ thành từ mới",
+      "D. Tô màu cho từ"
+    ],
+    "answer": 2,
+    "explanation": "Thay thế đổi từ sai thành từ đúng.",
+    "bai": 13
+  },
+  {
+    "id": 112,
+    "question": "Bài có 20 chỗ viết sai “truờng”, em sửa nhanh nhất bằng cách nào?",
+    "options": [
+      "A. Tìm “truờng” và Thay tất cả bằng “trường”",
+      "B. Sửa từng chỗ một bằng tay",
+      "C. Xóa cả bài viết lại",
+      "D. Để nguyên lỗi"
+    ],
+    "answer": 0,
+    "explanation": "Thay tất cả sửa cả 20 chỗ cùng lúc.",
+    "bai": 13
+  },
+  {
+    "id": 113,
+    "question": "Thay thế khác Thay tất cả ở điểm nào?",
+    "options": [
+      "A. Không khác gì nhau",
+      "B. Thay thế đổi cả bài, Thay tất cả đổi một chỗ mà em vẫn thường gặp ở nhà và ở trường",
+      "C. Thay thế chỉ dùng cho hình ảnh",
+      "D. Thay thế chỉ đổi một chỗ đang xem, Thay tất cả đổi mọi chỗ"
+    ],
+    "answer": 3,
+    "explanation": "Một chỗ hay mọi chỗ là điểm khác nhau của hai lệnh.",
+    "bai": 13
+  },
+  {
+    "id": 114,
+    "question": "Thay “Mai” thành “Lan” bằng Thay tất cả có thể gây ra điều gì?",
+    "options": [
+      "A. Không gây ra gì",
+      "B. Cả “Mai” trong tên “Mai Anh” cũng bị đổi thành “Lan Anh”",
+      "C. Máy tính bị hỏng khi em học bài và làm bài tập trong nhiều tình huống khác nhau",
+      "D. Bài văn bị xóa"
+    ],
+    "answer": 1,
+    "explanation": "Thay tất cả đổi mọi chỗ có từ đó, kể cả chỗ không muốn đổi.",
+    "bai": 13
+  },
+  {
+    "id": 115,
+    "question": "Sau khi dùng Thay tất cả, em nên làm gì?",
+    "options": [
+      "A. Gửi bài ngay",
+      "B. Xóa bài đi",
+      "C. Đọc lại bài để kiểm tra chỗ nào bị đổi sai ý",
+      "D. Thay lại lần nữa cho chắc trong nhiều tình huống khác nhau"
+    ],
+    "answer": 2,
+    "explanation": "Đọc lại giúp phát hiện chỗ bị đổi sai ý.",
+    "bai": 13
+  },
+  {
+    "id": 116,
+    "question": "Tìm kiếm và thay thế giúp ích gì cho việc sửa lỗi chính tả?",
+    "options": [
+      "A. Không giúp gì",
+      "B. Làm bài văn dài hơn",
+      "C. Tự viết lại bài văn",
+      "D. Tìm từ sai và thay bằng từ đúng cho cả bài rất nhanh"
+    ],
+    "answer": 3,
+    "explanation": "Tìm và thay sửa lỗi hàng loạt thay vì sửa từng chỗ.",
+    "bai": 13
+  },
+  {
+    "id": 117,
+    "question": "Tình huống: Mai muốn tìm mọi chỗ có từ “trường” trong bài dài 5 trang. Mai nên làm gì?",
+    "options": [
+      "A. Bấm Ctrl+F, gõ “trường”, máy chỉ ngay mọi chỗ",
+      "B. Đọc hết 5 trang để tìm trong các hoạt động hằng ngày của lớp",
+      "C. Đoán các chỗ có từ đó",
+      "D. Nhờ bạn đọc hộ"
+    ],
+    "answer": 0,
+    "explanation": "Tìm kiếm là cách nhanh nhất với văn bản dài.",
+    "bai": 13
+  },
+  {
+    "id": 118,
+    "question": "Sổ lưu niệm là gì?",
+    "options": [
+      "A. Cuốn sổ ghi lại kỷ niệm của lớp: ảnh, lời nhắn, chuyện vui cả năm",
+      "B. Sổ ghi bài tập về nhà và được nhiều người biết đến trong học tập cũng như trong sinh hoạt",
+      "C. Sổ điểm của cô giáo",
+      "D. Sổ ghi nợ của lớp"
+    ],
+    "answer": 0,
+    "explanation": "Sổ lưu niệm giữ kỷ niệm chung của lớp.",
+    "bai": 14
+  },
+  {
+    "id": 119,
+    "question": "Bước đầu tiên khi làm sổ lưu niệm là gì?",
+    "options": [
+      "A. Lưu và chia sẻ ngay trong học tập cũng như trong sinh hoạt",
+      "B. Thu thập nội dung: ảnh và lời nhắn từ các bạn",
+      "C. Kiểm tra chính tả",
+      "D. Tô màu trang bìa"
+    ],
+    "answer": 1,
+    "explanation": "Phải có nội dung rồi mới sắp xếp và trình bày được.",
+    "bai": 14
+  },
+  {
+    "id": 120,
+    "question": "Sắp xếp nội dung trong sổ theo gì thì dễ theo dõi?",
+    "options": [
+      "A. Theo thứ tự ngẫu nhiên",
+      "B. Theo độ dài của lời nhắn",
+      "C. Theo tên bạn từ Z đến A",
+      "D. Theo chủ đề hoặc trình tự thời gian"
+    ],
+    "answer": 3,
+    "explanation": "Chủ đề và thời gian giúp người đọc theo dõi mạch kỷ niệm.",
+    "bai": 14
+  },
+  {
+    "id": 121,
+    "question": "Định dạng văn bản giúp sổ lưu niệm điều gì?",
+    "options": [
+      "A. Làm sổ dày hơn",
+      "B. Làm sổ nặng hơn",
+      "C. Làm sổ đẹp hơn: tiêu đề rõ, cỡ chữ vừa, ảnh đúng chỗ",
+      "D. Làm sổ khó đọc hơn trong những việc em làm mỗi ngày ở nhà, ở trường và ở nhiều nơi khác"
+    ],
+    "answer": 2,
+    "explanation": "Trình bày đẹp giúp người đọc thích xem sổ.",
+    "bai": 14
+  },
+  {
+    "id": 122,
+    "question": "Làm sổ theo nhóm, em nên phân công thế nào?",
+    "options": [
+      "A. Một bạn làm tất cả",
+      "B. Phân công rõ theo sở trường: bạn giỏi vẽ trình bày, bạn viết hay viết lời",
+      "C. Không phân công, ai thích làm gì thì làm ở nhà, ở trường và ở nhiều nơi khác",
+      "D. Chỉ bạn lớp trưởng làm"
+    ],
+    "answer": 1,
+    "explanation": "Phân công theo sở trường giúp mỗi người làm tốt phần của mình.",
+    "bai": 14
+  },
+  {
+    "id": 123,
+    "question": "Khi làm nhóm, em phải ứng xử thế nào?",
+    "options": [
+      "A. Tôn trọng ý kiến của bạn, giữ lời lẽ lịch sự",
+      "B. Chỉ làm theo ý mình mà bạn bè em vẫn thường nói đến",
+      "C. Chê ý kiến của bạn",
+      "D. Giấu phần mình làm"
+    ],
+    "answer": 0,
+    "explanation": "Sổ là của chung cả lớp, không phải của riêng một bạn.",
+    "bai": 14
+  },
+  {
+    "id": 124,
+    "question": "Trước khi lưu và chia sẻ sổ, em phải làm gì?",
+    "options": [
+      "A. Gửi ngay cho mọi người",
+      "B. Xóa bớt ảnh cho nhẹ",
+      "C. Đổi tên sổ",
+      "D. Đọc lại để sửa lỗi chính tả và xem ảnh có đúng chỗ không"
+    ],
+    "answer": 3,
+    "explanation": "Sổ đã chia sẻ rồi thì khó sửa, nên phải kiểm tra trước.",
+    "bai": 14
+  },
+  {
+    "id": 125,
+    "question": "Vì sao chỉ dùng ảnh bạn đã đồng ý chia sẻ?",
+    "options": [
+      "A. Vì ảnh đẹp hơn",
+      "B. Vì ảnh chưa đồng ý thường mờ khi em làm việc cùng bạn bè trong các bài học trước đây",
+      "C. Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn",
+      "D. Vì cô giáo bắt buộc"
+    ],
+    "answer": 2,
+    "explanation": "Tôn trọng bạn là tôn trọng quyền của bạn với hình ảnh của mình.",
+    "bai": 14
+  },
+  {
+    "id": 126,
+    "question": "Tình huống: Nhóm Mai sắp xong sổ nhưng phát hiện 2 lỗi chính tả. Nhóm nên làm gì?",
+    "options": [
+      "A. Kệ lỗi, gửi luôn cho nhanh trong các bài học trước đây",
+      "B. Sửa lỗi rồi đọc lại một lượt mới lưu và chia sẻ",
+      "C. Xóa 2 trang có lỗi",
+      "D. Đổ lỗi cho bạn viết"
+    ],
+    "answer": 1,
+    "explanation": "Kiểm tra và sửa lỗi là bước bắt buộc trước khi chia sẻ.",
+    "bai": 14
+  },
+  {
+    "id": 127,
+    "question": "Thuật toán là gì?",
+    "options": [
+      "A. Một loại máy tính mà em đã nghe nói đến nhiều lần trong cuộc sống hằng ngày",
+      "B. Một trò chơi",
+      "C. Một bài hát",
+      "D. Dãy các bước làm việc theo thứ tự để giải quyết một việc"
+    ],
+    "answer": 3,
+    "explanation": "Thuật toán là cách làm từng bước, không phải thiết bị.",
+    "bai": 15
+  },
+  {
+    "id": 128,
+    "question": "Thuật toán tốt cần có tính chất nào?",
+    "options": [
+      "A. Càng nhiều bước càng tốt",
+      "B. Không cần thứ tự",
+      "C. Rõ ràng, đúng thứ tự và kết thúc",
+      "D. Không bao giờ kết thúc"
+    ],
+    "answer": 2,
+    "explanation": "Rõ ràng để hiểu được, đúng thứ tự để làm đúng, kết thúc để biết khi nào xong.",
+    "bai": 15
+  },
+  {
+    "id": 129,
+    "question": "Đổi thứ tự các bước pha trà sữa có thể gây ra gì?",
+    "options": [
+      "A. Việc có thể hỏng, ví dụ chưa cho trà mà đã khuấy thì không thành trà sữa",
+      "B. Không sao, vẫn ngon như thường mà em vẫn thường gặp ở nhà và ở trường khi em học bài và làm bài tập",
+      "C. Trà sữa ngon hơn",
+      "D. Cốc tự đầy"
+    ],
+    "answer": 0,
+    "explanation": "Thứ tự bước là một phần của thuật toán.",
+    "bai": 15
+  },
+  {
+    "id": 130,
+    "question": "Thuật toán có thể mô tả bằng cách nào?",
+    "options": [
+      "A. Chỉ bằng lời",
+      "B. Bằng lời hoặc bằng sơ đồ khối",
+      "C. Chỉ bằng sơ đồ khối khi em học bài và làm bài tập",
+      "D. Không mô tả được"
+    ],
+    "answer": 1,
+    "explanation": "Liệt kê bước bằng lời hoặc vẽ bước thành hình đều được.",
+    "bai": 15
+  },
+  {
+    "id": 131,
+    "question": "Thuật toán tính điểm trung bình gồm những bước nào?",
+    "options": [
+      "A. Hiện kết quả rồi mới nhập điểm trong nhiều tình huống khác nhau",
+      "B. Chia trước rồi mới cộng",
+      "C. Nhập điểm; cộng lại; chia cho số môn; hiện kết quả",
+      "D. Chỉ cần nhập điểm là xong"
+    ],
+    "answer": 2,
+    "explanation": "Phải có điểm rồi cộng, chia thì mới ra trung bình.",
+    "bai": 15
+  },
+  {
+    "id": 132,
+    "question": "Cùng một việc có thể có mấy thuật toán?",
+    "options": [
+      "A. Chỉ một thuật toán duy nhất",
+      "B. Không có thuật toán nào",
+      "C. Chỉ máy tính mới có thuật toán",
+      "D. Nhiều thuật toán khác nhau, như nhiều đường đến trường"
+    ],
+    "answer": 3,
+    "explanation": "Một việc có thể làm bằng nhiều cách khác nhau.",
+    "bai": 15
+  },
+  {
+    "id": 133,
+    "question": "Thuật toán tốt là thuật toán thế nào?",
+    "options": [
+      "A. Nhanh, ít bước và dễ hiểu",
+      "B. Nhiều bước, khó hiểu",
+      "C. Không bao giờ xong",
+      "D. Chỉ người giỏi mới hiểu trong các hoạt động hằng ngày của lớp"
+    ],
+    "answer": 0,
+    "explanation": "Ít bước, nhanh và dễ hiểu thì tốt hơn vòng vo, khó hiểu.",
+    "bai": 15
+  },
+  {
+    "id": 134,
+    "question": "Máy tính có tự nghĩ ra thuật toán không?",
+    "options": [
+      "A. Có, máy tự nghĩ mọi thứ",
+      "B. Có, nhưng chỉ khi không có người và được nhiều người biết đến",
+      "C. Không, máy chỉ làm theo thuật toán con người viết ra",
+      "D. Máy không cần thuật toán"
+    ],
+    "answer": 2,
+    "explanation": "Máy làm theo lệnh, còn cách làm là do con người nghĩ ra.",
+    "bai": 15
+  },
+  {
+    "id": 135,
+    "question": "Tình huống: Mai hướng dẫn em trai gấp thuyền giấy bằng 5 bước theo thứ tự, em làm theo thì được thuyền đẹp. Mai vừa làm gì?",
+    "options": [
+      "A. Viết một chương trình trong học tập cũng như trong sinh hoạt",
+      "B. Đưa ra một thuật toán gấp thuyền giấy",
+      "C. Vẽ một bức tranh",
+      "D. Kể một câu chuyện"
+    ],
+    "answer": 1,
+    "explanation": "Dãy bước theo thứ tự để làm một việc chính là thuật toán.",
+    "bai": 15
+  },
+  {
+    "id": 136,
+    "question": "Cấu trúc tuần tự là gì?",
+    "options": [
+      "A. Lệnh nào thích thì chạy trước",
+      "B. Lặp lại một lệnh nhiều lần",
+      "C. Các lệnh chạy lần lượt từ trên xuống dưới",
+      "D. Nếu đúng làm việc này, sai làm việc khác"
+    ],
+    "answer": 2,
+    "explanation": "Tuần tự là làm theo thứ tự, lệnh trước xong mới đến lệnh sau.",
+    "bai": 16
+  },
+  {
+    "id": 137,
+    "question": "“Nếu trời mưa thì mang áo mưa, nếu không mưa thì không mang” thuộc cấu trúc nào?",
+    "options": [
+      "A. Tuần tự",
+      "B. Lặp",
+      "C. Không thuộc cấu trúc nào",
+      "D. Rẽ nhánh"
+    ],
+    "answer": 3,
+    "explanation": "Có điều kiện đúng/sai và hai việc khác nhau thì là rẽ nhánh.",
+    "bai": 16
+  },
+  {
+    "id": 138,
+    "question": "Điều kiện là gì?",
+    "options": [
+      "A. Một lệnh lặp lại ở nhà, ở trường và ở nhiều nơi khác",
+      "B. Một câu hỏi chỉ có đúng hoặc sai",
+      "C. Một con robot",
+      "D. Một bài hát"
+    ],
+    "answer": 1,
+    "explanation": "Điều kiện như “Trời có mưa không?” chỉ trả lời đúng hoặc sai.",
+    "bai": 16
+  },
+  {
+    "id": 139,
+    "question": "“Đọc 10 trang sách mỗi ngày trong 7 ngày” thuộc cấu trúc nào?",
+    "options": [
+      "A. Lặp",
+      "B. Tuần tự",
+      "C. Rẽ nhánh",
+      "D. Dừng"
+    ],
+    "answer": 0,
+    "explanation": "Một việc lặp lại nhiều lần thì là cấu trúc lặp.",
+    "bai": 16
+  },
+  {
+    "id": 140,
+    "question": "Lặp đến khi gặp tường thì dừng là loại lặp nào?",
+    "options": [
+      "A. Lặp số lần biết trước",
+      "B. Không phải lặp",
+      "C. Lặp vô hạn",
+      "D. Lặp đến khi điều kiện sai thì dừng"
+    ],
+    "answer": 3,
+    "explanation": "Lặp theo điều kiện: còn chưa gặp tường thì đi tiếp, gặp tường thì dừng.",
+    "bai": 16
+  },
+  {
+    "id": 141,
+    "question": "Vì sao chương trình cần có rẽ nhánh?",
+    "options": [
+      "A. Để chương trình chạy nhanh hơn khi em làm việc cùng bạn bè",
+      "B. Để chương trình ngắn hơn",
+      "C. Để chọn việc khác nhau cho trường hợp khác nhau",
+      "D. Để robot đẹp hơn"
+    ],
+    "answer": 2,
+    "explanation": "Không có rẽ nhánh, trời mưa hay nắng cũng chỉ làm một kiểu.",
+    "bai": 16
+  },
+  {
+    "id": 142,
+    "question": "Nếu không có cấu trúc lặp, muốn đọc 7 ngày thì phải làm sao?",
+    "options": [
+      "A. Viết 1 lần là đủ trong các bài học trước đây",
+      "B. Viết lại cùng một lệnh 7 lần",
+      "C. Không cần viết",
+      "D. Nhờ robot tự nhớ"
+    ],
+    "answer": 1,
+    "explanation": "Lặp giúp viết một lần mà máy làm nhiều lần.",
+    "bai": 16
+  },
+  {
+    "id": 143,
+    "question": "Tính điểm cả lớp cần kết hợp những cấu trúc nào?",
+    "options": [
+      "A. Tuần tự, rẽ nhánh và lặp kết hợp với nhau",
+      "B. Chỉ tuần tự",
+      "C. Chỉ rẽ nhánh",
+      "D. Không cần cấu trúc nào mà em đã nghe nói đến nhiều lần"
+    ],
+    "answer": 0,
+    "explanation": "Lặp cho từng bạn, rẽ nhánh để khen, tuần tự để nhập, cộng, chia.",
+    "bai": 16
+  },
+  {
+    "id": 144,
+    "question": "Tình huống: Robot đi thẳng, gặp tường thì dừng, không gặp thì đi tiếp. Robot đang dùng cấu trúc nào?",
+    "options": [
+      "A. Tuần tự",
+      "B. Lặp vô hạn",
+      "C. Không dùng cấu trúc",
+      "D. Rẽ nhánh theo điều kiện “có gặp tường không”"
+    ],
+    "answer": 3,
+    "explanation": "Gặp tường hay không là điều kiện, mỗi trường hợp làm một việc khác.",
+    "bai": 16
+  },
+  {
+    "id": 145,
+    "question": "Chương trình máy tính là gì?",
+    "options": [
+      "A. Một chiếc máy tính mới",
+      "B. Tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc",
+      "C. Một bài hát về máy tính mà em vẫn thường gặp ở nhà và ở trường khi em học bài và làm bài tập",
+      "D. Dây cáp nối máy tính"
+    ],
+    "answer": 1,
+    "explanation": "Chương trình là các lệnh, không phải thiết bị.",
+    "bai": 17
+  },
+  {
+    "id": 146,
+    "question": "Ngôn ngữ lập trình dùng để làm gì?",
+    "options": [
+      "A. Để con người viết lệnh cho máy hiểu",
+      "B. Để con người nói chuyện với nhau khi em học bài và làm bài tập",
+      "C. Để dịch sách sang tiếng khác",
+      "D. Để vẽ tranh"
+    ],
+    "answer": 0,
+    "explanation": "Máy chỉ hiểu lệnh viết bằng ngôn ngữ lập trình.",
+    "bai": 17
+  },
+  {
+    "id": 147,
+    "question": "Scratch hợp với học sinh mới học vì sao?",
+    "options": [
+      "A. Vì Scratch không cần lệnh",
+      "B. Vì Scratch tự viết chương trình hộ trong nhiều tình huống khác nhau",
+      "C. Vì Scratch dùng khối lệnh kéo thả, dễ nhìn, dễ ghép",
+      "D. Vì Scratch chỉ chơi game"
+    ],
+    "answer": 2,
+    "explanation": "Kéo thả khối lệnh dễ hơn gõ chữ lệnh.",
+    "bai": 17
+  },
+  {
+    "id": 148,
+    "question": "Lập trình là gì?",
+    "options": [
+      "A. Viết chương trình: người viết lệnh, máy làm theo từng lệnh",
+      "B. Sửa máy tính bị hỏng",
+      "C. Bán máy tính",
+      "D. Chơi game trên máy tính"
+    ],
+    "answer": 0,
+    "explanation": "Lập trình là viết ra các lệnh cho máy làm theo.",
+    "bai": 17
+  },
+  {
+    "id": 149,
+    "question": "Chương trình tính điểm trung bình chạy theo thứ tự nào?",
+    "options": [
+      "A. Xuất kết quả, xử lý, nhập dữ liệu",
+      "B. Xử lý, nhập dữ liệu, xuất kết quả",
+      "C. Nhập dữ liệu, xuất kết quả, xử lý",
+      "D. Nhập dữ liệu, xử lý, xuất kết quả"
+    ],
+    "answer": 3,
+    "explanation": "Phải có dữ liệu vào, xử lý rồi mới có kết quả ra.",
+    "bai": 17
+  },
+  {
+    "id": 150,
+    "question": "Chương trình chạy ra kết quả sai, người ta gọi đó là gì?",
+    "options": [
+      "A. Vi-rút",
+      "B. Lỗi",
+      "C. Mạng yếu",
+      "D. Hết pin"
+    ],
+    "answer": 1,
+    "explanation": "Lệnh viết sai thì chương trình chạy sai, gọi là lỗi.",
+    "bai": 17
+  },
+  {
+    "id": 151,
+    "question": "Gỡ lỗi là gì?",
+    "options": [
+      "A. Xóa chương trình đi",
+      "B. Tắt máy tính",
+      "C. Chạy thử, tìm lỗi và sửa lỗi",
+      "D. Viết chương trình mới hoàn toàn"
+    ],
+    "answer": 2,
+    "explanation": "Gỡ lỗi là tìm chỗ sai và sửa lại cho đúng.",
+    "bai": 17
+  },
+  {
+    "id": 152,
+    "question": "Chương trình tốt là chương trình thế nào?",
+    "options": [
+      "A. Càng dài càng tốt",
+      "B. Chỉ người viết mới hiểu",
+      "C. Chạy càng chậm càng tốt",
+      "D. Chạy đúng, dễ hiểu và dễ sửa"
+    ],
+    "answer": 3,
+    "explanation": "Dễ hiểu thì sau này mới dễ sửa khi có lỗi.",
+    "bai": 17
+  },
+  {
+    "id": 153,
+    "question": "Tình huống: Bạn gửi cho Mai một chương trình lạ, không rõ nguồn gốc, bảo chạy thử cho vui. Mai nên làm gì?",
+    "options": [
+      "A. Không chạy, vì chương trình lạ có thể chứa vi-rút",
+      "B. Chạy ngay cho vui",
+      "C. Gửi tiếp cho cả lớp",
+      "D. Chạy trên máy của bạn khác trong những việc em làm mỗi ngày"
+    ],
+    "answer": 0,
+    "explanation": "Chương trình lạ có thể làm hỏng máy hoặc lấy cắp thông tin.",
+    "bai": 17
+  }
+]

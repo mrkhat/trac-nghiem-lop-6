@@ -1,0 +1,284 @@
+[
+ {
+  "bai": 6,
+  "ten_bai": "Chuyện kể về những người anh hùng",
+  "tu": [
+   {
+    "dongnghia": "người đưa tin",
+    "nghia": "Người được vua sai đi truyền lệnh, tìm người tài.",
+    "trainghia": null,
+    "tu": "sứ giả",
+    "vidu": "Sứ giả đi khắp nơi tìm người tài cứu nước."
+   },
+   {
+    "dongnghia": null,
+    "nghia": "Áo giáp làm bằng sắt để bảo vệ khi đánh giặc.",
+    "trainghia": null,
+    "tu": "giáp sắt",
+    "vidu": "Gióng mặc giáp sắt, cưỡi ngựa sắt ra trận."
+   },
+   {
+    "dongnghia": "dũng sĩ, anh hùng",
+    "nghia": "Người khỏe mạnh, dũng cảm, hay làm việc nghĩa.",
+    "trainghia": null,
+    "tu": "tráng sĩ",
+    "vidu": "Thánh Gióng là tráng sĩ đánh giặc cứu nước."
+   },
+   {
+    "dongnghia": "quà tặng",
+    "nghia": "Đồ mang đến để dâng, tặng trong dịp lễ, cưới hỏi.",
+    "trainghia": null,
+    "tu": "lễ vật",
+    "vidu": "Sơn Tinh mang lễ vật đến trước nên cưới được Mị Nương."
+   },
+   {
+    "dongnghia": "giận dữ",
+    "nghia": "Giận dữ lắm vì bị đối xử bất công.",
+    "trainghia": "vui vẻ, hài lòng",
+    "tu": "căm giận",
+    "vidu": "Thủy Tinh căm giận vì đến sau nên dâng nước đánh Sơn Tinh."
+   },
+   {
+    "dongnghia": "người hùng",
+    "nghia": "Người lập công lớn, dũng cảm vì mọi người.",
+    "trainghia": null,
+    "tu": "anh hùng",
+    "vidu": "Thánh Gióng là anh hùng chống giặc ngoại xâm."
+   },
+   {
+    "dongnghia": null,
+    "nghia": "Truyện dân gian kể về nhân vật, sự kiện có liên quan đến lịch sử, có yếu tố kì ảo.",
+    "trainghia": null,
+    "tu": "truyền thuyết",
+    "vidu": "Thánh Gióng là truyền thuyết về người anh hùng làng Phù Đổng."
+   }
+  ]
+ },
+ {
+  "bai": 7,
+  "ten_bai": "Thế giới cổ tích",
+  "tu": [
+   {
+    "dongnghia": "hiền hậu",
+    "nghia": "Tính tốt, không làm hại ai, hay giúp người.",
+    "trainghia": "độc ác, hung dữ",
+    "tu": "hiền lành",
+    "vidu": "Người em trong Cây khế hiền lành nên được chim trả ơn."
+   },
+   {
+    "dongnghia": null,
+    "nghia": "Muốn lấy thật nhiều cho mình, không biết đủ.",
+    "trainghia": "biết đủ, rộng rãi",
+    "tu": "tham lam",
+    "vidu": "Người anh tham lam nên chết đuối ngoài biển."
+   },
+   {
+    "dongnghia": "gian dối, lừa gạt",
+    "nghia": "Dùng lời nói, việc làm gian dối để hại người, lấy lợi cho mình.",
+    "trainghia": "thật thà",
+    "tu": "lừa lọc",
+    "vidu": "Lý Thông lừa lọc, cướp công của Thạch Sanh."
+   },
+   {
+    "dongnghia": "phạt",
+    "nghia": "Bắt chịu hình phạt vì làm điều xấu.",
+    "trainghia": "khen thưởng",
+    "tu": "trừng phạt",
+    "vidu": "Kẻ xấu bị trừng phạt, người tốt được hưởng phúc."
+   },
+   {
+    "dongnghia": null,
+    "nghia": "Con gái của vua.",
+    "trainghia": null,
+    "tu": "công chúa",
+    "vidu": "Thạch Sanh cứu công chúa bị đại bàng bắt đi."
+   },
+   {
+    "dongnghia": "chim thần",
+    "nghia": "Chim thần trong truyện, to lớn và đẹp.",
+    "trainghia": null,
+    "tu": "phượng hoàng",
+    "vidu": "Chim phượng hoàng ăn khế rồi chở người em đi lấy vàng."
+   },
+   {
+    "dongnghia": "kiêu ngạo",
+    "nghia": "Tự cho mình hơn người, coi thường người khác.",
+    "trainghia": "khiêm tốn",
+    "tu": "kiêu căng",
+    "vidu": "Nàng công chúa kiêu căng chê bai các chàng rể."
+   }
+  ]
+ },
+ {
+  "bai": 8,
+  "ten_bai": "Khác biệt và gần gũi",
+  "tu": [
+   {
+    "dongnghia": "khác nhau",
+    "nghia": "Không giống nhau.",
+    "trainghia": "giống nhau",
+    "tu": "khác biệt",
+    "vidu": "Mỗi người có một điểm khác biệt riêng."
+   },
+   {
+    "dongnghia": "thân thiết",
+    "nghia": "Thân thiết, dễ chia sẻ với nhau.",
+    "trainghia": "xa lạ",
+    "tu": "gần gũi",
+    "vidu": "Dù khác biệt, các bạn vẫn gần gũi với nhau."
+   },
+   {
+    "dongnghia": "đối chiếu",
+    "nghia": "Đặt hai người, hai vật cạnh nhau để xem giống và khác.",
+    "trainghia": null,
+    "tu": "so sánh",
+    "vidu": "Đừng so sánh mình với bạn để rồi buồn."
+   },
+   {
+    "dongnghia": "coi trọng",
+    "nghia": "Coi trọng người khác, không chê bai, xúc phạm.",
+    "trainghia": "coi thường",
+    "tu": "tôn trọng",
+    "vidu": "Tôn trọng bạn là không cười chê điểm khác của bạn."
+   },
+   {
+    "dongnghia": "hòa nhã",
+    "nghia": "Sống vui vẻ, hợp với mọi người xung quanh.",
+    "trainghia": "lập dị",
+    "tu": "hòa đồng",
+    "vidu": "Bạn hòa đồng nên ai cũng quý."
+   },
+   {
+    "dongnghia": null,
+    "nghia": "Nghĩ mình kém, không dám thể hiện.",
+    "trainghia": "tự tin",
+    "tu": "tự ti",
+    "vidu": "Đừng tự ti vì mình khác các bạn."
+   },
+   {
+    "dongnghia": "cảm thông",
+    "nghia": "Hiểu rõ lòng người khác.",
+    "trainghia": null,
+    "tu": "thấu hiểu",
+    "vidu": "Thấu hiểu giúp bạn bè gần nhau hơn."
+   },
+   {
+    "dongnghia": "quan điểm",
+    "nghia": "Điều mình nghĩ, mình muốn nói ra.",
+    "trainghia": null,
+    "tu": "ý kiến",
+    "vidu": "Em trình bày ý kiến của mình về hiện tượng xả rác."
+   }
+  ]
+ },
+ {
+  "bai": 9,
+  "ten_bai": "Trái Đất – ngôi nhà chung",
+  "tu": [
+   {
+    "dongnghia": null,
+    "nghia": "Nơi mọi người, mọi loài cùng sống.",
+    "trainghia": null,
+    "tu": "ngôi nhà chung",
+    "vidu": "Trái Đất là ngôi nhà chung của muôn loài."
+   },
+   {
+    "dongnghia": "nơi nuôi dưỡng",
+    "nghia": "Nơi nuôi dưỡng, sinh ra sự sống.",
+    "trainghia": null,
+    "tu": "cái nôi",
+    "vidu": "Trái Đất là cái nôi của sự sống."
+   },
+   {
+    "dongnghia": "sống chung",
+    "nghia": "Sống cùng nhau, nương tựa nhau.",
+    "trainghia": null,
+    "tu": "chung sống",
+    "vidu": "Các loài chung sống và giúp đỡ nhau trong rừng."
+   },
+   {
+    "dongnghia": "bẩn thỉu",
+    "nghia": "Môi trường bị bẩn, có hại cho sự sống.",
+    "trainghia": "trong lành, sạch sẽ",
+    "tu": "ô nhiễm",
+    "vidu": "Khói xe gây ô nhiễm không khí."
+   },
+   {
+    "dongnghia": "giữ gìn",
+    "nghia": "Giữ gìn, không để bị phá hoại.",
+    "trainghia": "phá hoại",
+    "tu": "bảo vệ",
+    "vidu": "Em bảo vệ môi trường bằng cách bỏ rác đúng nơi."
+   },
+   {
+    "dongnghia": "phong phú",
+    "nghia": "Nhiều loại, nhiều vẻ khác nhau.",
+    "trainghia": "đơn điệu",
+    "tu": "đa dạng",
+    "vidu": "Rừng nhiệt đới có sự sống đa dạng."
+   },
+   {
+    "dongnghia": "ổn định",
+    "nghia": "Các bên giữ mức vừa phải, không bên nào lấn át.",
+    "trainghia": "mất cân bằng",
+    "tu": "cân bằng",
+    "vidu": "Mất cân bằng sinh thái làm nhiều loài biến mất."
+   }
+  ]
+ },
+ {
+  "bai": 10,
+  "ten_bai": "Cuốn sách tôi yêu",
+  "tu": [
+   {
+    "dongnghia": "mê mẩn",
+    "nghia": "Thích lắm, dành nhiều thời gian cho việc đó.",
+    "trainghia": "chán nản",
+    "tu": "say mê",
+    "vidu": "Em say mê đọc sách mỗi tối."
+   },
+   {
+    "dongnghia": "nhà văn",
+    "nghia": "Người viết ra cuốn sách.",
+    "trainghia": null,
+    "tu": "tác giả",
+    "vidu": "Tác giả viết nên câu chuyện hay cho em đọc."
+   },
+   {
+    "dongnghia": "tạo mới",
+    "nghia": "Nghĩ ra, làm ra cái mới, khác trước.",
+    "trainghia": "bắt chước",
+    "tu": "sáng tạo",
+    "vidu": "Em sáng tạo tranh minh họa cho cuốn sách yêu thích."
+   },
+   {
+    "dongnghia": "giới thiệu",
+    "nghia": "Nói, cho người khác biết về một thứ.",
+    "trainghia": null,
+    "tu": "giới thiệu",
+    "vidu": "Em giới thiệu cuốn sách yêu thích với cả lớp."
+   },
+   {
+    "dongnghia": "cảm nghĩ",
+    "nghia": "Điều mình thấy, mình nghĩ sau khi đọc, xem.",
+    "trainghia": null,
+    "tu": "cảm nhận",
+    "vidu": "Sau khi đọc sách, em viết cảm nhận của mình."
+   },
+   {
+    "dongnghia": "lễ hội",
+    "nghia": "Ngày vui chung, nhiều người cùng tham gia.",
+    "trainghia": null,
+    "tu": "ngày hội",
+    "vidu": "Ngày hội với sách có nhiều gian trưng bày sách hay."
+   },
+   {
+    "dongnghia": "hình vẽ",
+    "nghia": "Tranh, hình vẽ thêm vào để sách dễ hiểu, đẹp hơn.",
+    "trainghia": null,
+    "tu": "minh họa",
+    "vidu": "Em vẽ tranh minh họa cho cuốn sách yêu thích."
+   }
+  ]
+ }
+]
