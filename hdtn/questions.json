@@ -1,0 +1,704 @@
+[
+  {
+    "id": 1,
+    "question": "Ngày đầu vào lớp 6, em muốn làm quen với bạn mới. Cách nào phù hợp nhất?",
+    "options": [
+      "A. Đứng một góc cả buổi, chờ bạn đến bắt chuyện trước",
+      "B. Trêu bạn thật to để cả lớp chú ý đến mình",
+      "C. Chỉ chơi với bạn cũ và không làm quen thêm ai",
+      "D. Chủ động chào hỏi, nói tên mình và hỏi tên bạn"
+    ],
+    "answer": 3,
+    "explanation": "Chủ động chào hỏi giúp hai bên biết tên nhau và dễ bắt đầu trò chuyện.",
+    "bai": 1
+  },
+  {
+    "id": 2,
+    "question": "Bạn mới ngồi cạnh em nhưng ít nói. Em nên làm gì?",
+    "options": [
+      "A. Lấy đồ của bạn để buộc bạn phải nói chuyện",
+      "B. Không nói gì với bạn nữa trong suốt học kì",
+      "C. Chê bạn ít nói trước mặt cả lớp cho vui",
+      "D. Hỏi nhẹ nhàng xem bạn thích môn học nào nhất"
+    ],
+    "answer": 3,
+    "explanation": "Một câu hỏi nhẹ nhàng, thân thiện giúp bạn dễ trả lời và mở lòng hơn.",
+    "bai": 1
+  },
+  {
+    "id": 3,
+    "question": "Khi giới thiệu bản thân trước lớp, em nên nói những gì?",
+    "options": [
+      "A. Nói mình giỏi hơn tất cả các bạn khác trong lớp",
+      "B. Nói tên, sở thích và một điều em muốn học tốt",
+      "C. Chỉ nói tên rồi ngồi xuống ngay không nói thêm",
+      "D. Kể thật dài về gia đình mình cho đến hết giờ"
+    ],
+    "answer": 1,
+    "explanation": "Giới thiệu ngắn gọn tên và sở thích giúp lớp nhớ về em và dễ làm quen.",
+    "bai": 1
+  },
+  {
+    "id": 4,
+    "question": "Lớp có bạn đến từ trường khác, chưa quen ai. Cả lớp nên làm gì?",
+    "options": [
+      "A. Để bạn tự xoay xở một mình trong nhiều ngày",
+      "B. Mời bạn vào nhóm, chỉ chỗ ngồi và giờ ra chơi",
+      "C. Đặt cho bạn một biệt danh khó nghe để trêu",
+      "D. Chỉ đứng nhìn bạn từ xa mà không giúp gì"
+    ],
+    "answer": 1,
+    "explanation": "Mời bạn vào nhóm và chỉ dẫn giúp bạn hòa nhập nhanh và thấy an toàn.",
+    "bai": 1
+  },
+  {
+    "id": 5,
+    "question": "Em muốn tham gia một nhóm học tập. Cách nào đúng nhất?",
+    "options": [
+      "A. Tự ý lấy bài của nhóm về nhà làm một mình",
+      "B. Đứng ngoài và chép bài làm sẵn của nhóm",
+      "C. Bắt nhóm phải nhận mình vào bằng được",
+      "D. Xin vào nhóm và hỏi nhóm đang làm phần nào"
+    ],
+    "answer": 3,
+    "explanation": "Xin vào nhóm và hỏi việc đang làm thể hiện em tôn trọng nhóm và muốn góp sức.",
+    "bai": 1
+  },
+  {
+    "id": 6,
+    "question": "Bạn cùng bàn làm bài chậm hơn em. Em nên làm gì?",
+    "options": [
+      "A. Làm hộ hết bài tập của bạn cho nhanh xong",
+      "B. Bảo cô giáo cho bạn điểm thấp vì làm chậm",
+      "C. Cười bạn vì bạn làm bài chậm hơn mình",
+      "D. Giúp bạn phần bạn chưa hiểu, nếu bạn đồng ý"
+    ],
+    "answer": 3,
+    "explanation": "Giúp phần bạn chưa hiểu là giúp thật. Làm hộ hết bài khiến bạn không tự học được.",
+    "bai": 1
+  },
+  {
+    "id": 7,
+    "question": "Em và bạn bất đồng khi chia việc nhóm. Cách giải quyết phù hợp là gì?",
+    "options": [
+      "A. Để một bạn trong nhóm làm hết mọi việc",
+      "B. Ai nói to hơn và cãi giỏi hơn thì thắng",
+      "C. Mỗi người nói ý mình, rồi cùng chọn cách công bằng",
+      "D. Bỏ nhóm và làm một mình trong cơn giận dữ"
+    ],
+    "answer": 2,
+    "explanation": "Nghe nhau rồi chọn cách công bằng giúp nhóm làm việc tiếp mà không ai bị thiệt.",
+    "bai": 1
+  },
+  {
+    "id": 8,
+    "question": "Khi bạn khen bài làm của em, em đáp lại thế nào là lịch sự?",
+    "options": [
+      "A. Cảm ơn bạn và khen lại điều bạn làm tốt",
+      "B. Nói bạn khen sai rồi và quay mặt đi chỗ khác",
+      "C. Im lặng hoàn toàn rồi quay đi không đáp lại",
+      "D. Khoe rằng mình luôn giỏi nhất lớp từ trước"
+    ],
+    "answer": 0,
+    "explanation": "Cảm ơn và khen lại điều tốt của bạn giúp tình bạn thêm vui vẻ.",
+    "bai": 1
+  },
+  {
+    "id": 9,
+    "question": "Để nhớ tên các bạn mới nhanh hơn, em có thể làm gì?",
+    "options": [
+      "A. Đặt biệt danh xấu cho từng bạn để dễ nhớ",
+      "B. Không cần nhớ tên của bất kì bạn nào cả",
+      "C. Chỉ nhớ tên bạn ngồi gần mình nhất mà thôi",
+      "D. Gọi bạn bằng tên mỗi khi trò chuyện cùng bạn"
+    ],
+    "answer": 3,
+    "explanation": "Gọi đúng tên khi trò chuyện giúp em nhớ tên bạn nhanh và bạn thấy được tôn trọng.",
+    "bai": 1
+  },
+  {
+    "id": 10,
+    "question": "Em đang tức giận vì bạn làm hỏng đồ của em. Việc đầu tiên nên làm là gì?",
+    "options": [
+      "A. Hít thở sâu, bình tĩnh rồi nói rõ chuyện đã xảy ra",
+      "B. Giận luôn cả lớp và không chơi với ai nữa",
+      "C. Hét lên thật to và xô bạn ra khỏi chỗ",
+      "D. Làm hỏng đồ của bạn để hai bên hòa nhau"
+    ],
+    "answer": 0,
+    "explanation": "Bình tĩnh trước giúp em nói rõ chuyện mà không làm tổn thương bạn thêm.",
+    "bai": 2
+  },
+  {
+    "id": 11,
+    "question": "Bạn vô tình làm em buồn. Em muốn bạn hiểu, em nên nói thế nào?",
+    "options": [
+      "A. Tớ kể xấu cậu với cả lớp cho mọi người biết",
+      "B. Tớ buồn vì chuyện vừa rồi, mình nói lại nhé",
+      "C. Tớ ghét cậu, từ nay đừng nói chuyện nữa",
+      "D. Tớ sẽ không chơi với cậu nữa trong thời gian dài"
+    ],
+    "answer": 1,
+    "explanation": "Nói rõ cảm xúc của mình bằng lời nhẹ nhàng giúp bạn hiểu và sửa được.",
+    "bai": 2
+  },
+  {
+    "id": 12,
+    "question": "Khi thấy bạn đang buồn và ngồi một mình, em nên làm gì?",
+    "options": [
+      "A. Đến hỏi thăm và ngồi cùng nếu bạn muốn",
+      "B. Chụp ảnh bạn lúc buồn rồi cười với nhau",
+      "C. Kể chuyện buồn của bạn cho nhiều người khác",
+      "D. Tránh xa bạn và coi như không nhìn thấy bạn"
+    ],
+    "answer": 0,
+    "explanation": "Hỏi thăm và ở bên khi bạn muốn giúp bạn thấy mình không một mình.",
+    "bai": 2
+  },
+  {
+    "id": 13,
+    "question": "Em ganh tị vì bạn được điểm cao. Cách nghĩ nào giúp em tiến bộ?",
+    "options": [
+      "A. Hỏi bạn cách học và thử áp dụng cho chính mình",
+      "B. Giấu bài làm của bạn đi để bạn không khoe nữa",
+      "C. Nói với lớp rằng bạn đã gian lận khi làm bài",
+      "D. Bạn chỉ may mắn thôi, mình không cần cố gắng"
+    ],
+    "answer": 0,
+    "explanation": "Hỏi cách học của bạn và thử làm theo giúp em tiến bộ thật, thay vì ganh tị.",
+    "bai": 2
+  },
+  {
+    "id": 14,
+    "question": "Bạn trêu tên của em trước lớp. Em nên xử lý thế nào?",
+    "options": [
+      "A. Khóc rồi bỏ học và về nhà ngay lập tức",
+      "B. Đánh bạn ngay tại lớp cho bạn chừa thói trêu",
+      "C. Trêu lại tên của bạn nặng hơn trước cả lớp",
+      "D. Nói rõ mình không thích và nhờ bạn dừng lại"
+    ],
+    "answer": 3,
+    "explanation": "Nói rõ mình không thích và nhờ dừng lại là cách bảo vệ mình mà vẫn giữ lịch sự.",
+    "bai": 2
+  },
+  {
+    "id": 15,
+    "question": "Em lỡ nói lời làm bạn buồn. Việc cần làm đầu tiên là gì?",
+    "options": [
+      "A. Đổ lỗi cho một bạn khác đã xúi mình nói",
+      "B. Xin lỗi thật lòng và nói mình sẽ cẩn thận hơn",
+      "C. Nói bạn nhạy cảm quá nên mới buồn như vậy",
+      "D. Giả vờ như mình chưa từng nói câu đó ra"
+    ],
+    "answer": 1,
+    "explanation": "Xin lỗi thật lòng giúp bạn nguôi giận và cho thấy em biết nhận lỗi.",
+    "bai": 2
+  },
+  {
+    "id": 16,
+    "question": "Trong giờ ra chơi, hai bạn cãi nhau. Em là người ngoài cuộc thì nên làm gì?",
+    "options": [
+      "A. Đứng xem và cổ vũ cho một bên cãi thắng",
+      "B. Rủ các bạn bình tĩnh, nhờ thầy cô nếu căng thẳng",
+      "C. Quay video lại rồi đăng lên mạng cho vui",
+      "D. Đứng về một bên và chửi bạn còn lại thật to"
+    ],
+    "answer": 1,
+    "explanation": "Giúp các bạn bình tĩnh và nhờ người lớn khi cần là cách an toàn, không làm chuyện to thêm.",
+    "bai": 2
+  },
+  {
+    "id": 17,
+    "question": "Em thấy lo lắng trước khi thuyết trình. Cách nào giúp em bớt lo?",
+    "options": [
+      "A. Trốn tiết thuyết trình và xin nghỉ học hôm đó",
+      "B. Đọc thật nhanh cho xong dù không ai nghe kịp",
+      "C. Nói mình bị ốm dù mình hoàn toàn khỏe mạnh",
+      "D. Tập nói trước ở nhà vài lần, nói chậm và rõ"
+    ],
+    "answer": 3,
+    "explanation": "Tập trước vài lần giúp em quen lời nói và tự tin hơn khi đứng trước lớp.",
+    "bai": 2
+  },
+  {
+    "id": 18,
+    "question": "Bạn mượn đồ của em nhưng chưa trả. Em nên nhắc thế nào?",
+    "options": [
+      "A. Lấy đồ khác của bạn để trừ vào món đã mượn",
+      "B. Không cho bất kì ai mượn đồ gì nữa từ nay",
+      "C. Nhắc nhẹ: Bạn dùng xong chưa, cho tớ xin lại nhé",
+      "D. Giật lại đồ ngay trước mặt nhiều bạn khác"
+    ],
+    "answer": 2,
+    "explanation": "Nhắc nhẹ nhàng giúp bạn nhớ trả đồ mà tình bạn không bị sứt mẻ.",
+    "bai": 2
+  },
+  {
+    "id": 19,
+    "question": "Bố mẹ bận việc, nhà chưa dọn. Em có thể làm gì phù hợp?",
+    "options": [
+      "A. Dọn phần việc vừa sức như gấp chăn, xếp bàn học",
+      "B. Chờ bố mẹ về dọn hết mọi việc trong nhà",
+      "C. Vứt thêm đồ lung tung ra khắp nhà cho vui",
+      "D. Chơi game đến khi nhà tự sạch một cách thần kì"
+    ],
+    "answer": 0,
+    "explanation": "Làm việc vừa sức giúp nhà gọn hơn và đỡ việc cho bố mẹ.",
+    "bai": 3
+  },
+  {
+    "id": 20,
+    "question": "Em hứa với mẹ sẽ tưới cây mỗi chiều. Hôm nay em mải chơi, em nên làm gì?",
+    "options": [
+      "A. Tưới bù ngay khi nhớ ra và lần sau làm đúng giờ",
+      "B. Để cây héo dần rồi nói cây tự héo như vậy",
+      "C. Nhờ em nhỏ tưới hộ mình mãi trong nhiều ngày",
+      "D. Giấu chuyện mình quên và không nói với ai cả"
+    ],
+    "answer": 0,
+    "explanation": "Làm bù ngay và giữ lời hứa lần sau cho thấy em có trách nhiệm.",
+    "bai": 3
+  },
+  {
+    "id": 21,
+    "question": "Gia đình đang ăn cơm, em muốn xem điện thoại. Cách đúng là gì?",
+    "options": [
+      "A. Vừa ăn vừa xem, không nói gì với ai cả",
+      "B. Mang cơm ra phòng riêng để xem tiếp một mình",
+      "C. Bắt cả nhà im lặng để mình xem điện thoại",
+      "D. Cất điện thoại, ăn cùng và trò chuyện với cả nhà"
+    ],
+    "answer": 3,
+    "explanation": "Bữa cơm là lúc cả nhà trò chuyện. Cất điện thoại giúp em gần gũi gia đình hơn.",
+    "bai": 3
+  },
+  {
+    "id": 22,
+    "question": "Em làm vỡ cốc của nhà. Việc cần làm là gì?",
+    "options": [
+      "A. Nói rằng em nhỏ trong nhà đã làm vỡ cốc",
+      "B. Vứt mảnh vỡ ra sân để người khác dẫm phải",
+      "C. Nhận lỗi, dọn mảnh vỡ cẩn thận và xin lỗi",
+      "D. Giấu mảnh vỡ dưới gầm bàn cho không ai thấy"
+    ],
+    "answer": 2,
+    "explanation": "Nhận lỗi và dọn cẩn thận vừa an toàn vừa cho thấy em trung thực.",
+    "bai": 3
+  },
+  {
+    "id": 23,
+    "question": "Ông bà nhờ em đọc tin nhắn điện thoại giúp. Em nên làm gì?",
+    "options": [
+      "A. Tự ý trả lời tin nhắn theo ý riêng của mình",
+      "B. Đọc chậm, rõ ràng và giúp ông bà trả lời nếu cần",
+      "C. Chê ông bà không biết dùng điện thoại hiện đại",
+      "D. Đọc qua loa vài chữ rồi bỏ đi chơi tiếp"
+    ],
+    "answer": 1,
+    "explanation": "Đọc chậm và giúp đúng việc ông bà nhờ thể hiện em quan tâm và tôn trọng ông bà.",
+    "bai": 3
+  },
+  {
+    "id": 24,
+    "question": "Em được giao trông em nhỏ một lúc. Điều quan trọng nhất là gì?",
+    "options": [
+      "A. Để em nhỏ tự chơi ở chỗ nguy hiểm trong nhà",
+      "B. Giữ em nhỏ trong tầm mắt, chơi trò an toàn",
+      "C. Cho em nhỏ xem điện thoại suốt cả buổi chiều",
+      "D. Ra ngoài chơi, để em nhỏ ở nhà một mình"
+    ],
+    "answer": 1,
+    "explanation": "Giữ em nhỏ trong tầm mắt và chơi trò an toàn là trách nhiệm khi trông em.",
+    "bai": 3
+  },
+  {
+    "id": 25,
+    "question": "Tiền tiêu vặt của em có hạn. Cách dùng tiền hợp lý là gì?",
+    "options": [
+      "A. Chia ra: một phần để dành, một phần tiêu cần thiết",
+      "B. Vay tiền bạn để mua thêm đồ mình thích",
+      "C. Xin thêm tiền của bố mẹ mỗi ngày một lần",
+      "D. Mua hết đồ chơi ngay trong ngày đầu tiên"
+    ],
+    "answer": 0,
+    "explanation": "Chia tiền để dành và tiêu cần thiết giúp em không hết tiền giữa chừng.",
+    "bai": 3
+  },
+  {
+    "id": 26,
+    "question": "Nhà có việc chung như dọn sân ngày cuối tuần. Em nên làm gì?",
+    "options": [
+      "A. Chỉ đứng xem mọi người làm việc mà không giúp",
+      "B. Làm qua loa cho xong rồi đi chơi với bạn",
+      "C. Tham gia cùng cả nhà theo phân công đã chia",
+      "D. Nói mình bận học dù lúc đó mình đang rảnh"
+    ],
+    "answer": 2,
+    "explanation": "Cùng làm việc chung theo phân công giúp việc nhanh xong và cả nhà vui vẻ.",
+    "bai": 3
+  },
+  {
+    "id": 27,
+    "question": "Em muốn xin bố mẹ cho đi chơi xa với bạn. Cách xin phù hợp là gì?",
+    "options": [
+      "A. Nhờ bạn nói dối hộ để bố mẹ cho đi chơi",
+      "B. Nói rõ đi đâu, với ai, khi nào về",
+      "C. Tự đi chơi rồi về nhà mới báo cho bố mẹ",
+      "D. Khóc và đòi đến khi bố mẹ đồng ý cho đi"
+    ],
+    "answer": 1,
+    "explanation": "Nói rõ kế hoạch và nghe bố mẹ quyết định thể hiện em tôn trọng và có trách nhiệm.",
+    "bai": 3
+  },
+  {
+    "id": 28,
+    "question": "Có người lạ ở cổng trường rủ em đi theo để cho quà. Em nên làm gì?",
+    "options": [
+      "A. Đi theo người lạ vì người đó hứa cho quà",
+      "B. Từ chối, vào trường và báo thầy cô",
+      "C. Đứng nói chuyện lâu với người lạ ở cổng trường",
+      "D. Cho người lạ số điện thoại của mình để liên lạc"
+    ],
+    "answer": 1,
+    "explanation": "Từ chối và báo người lớn tin cậy là cách an toàn nhất khi người lạ rủ đi theo.",
+    "bai": 4
+  },
+  {
+    "id": 29,
+    "question": "Em nhận được tin nhắn lạ yêu cầu gửi mã xác nhận. Em nên làm gì?",
+    "options": [
+      "A. Gửi mã cho bạn để bạn gửi hộ người lạ",
+      "B. Nhắn lại hỏi người lạ là ai và làm nghề gì",
+      "C. Không gửi, xóa tin nhắn và báo người lớn",
+      "D. Gửi mã xác nhận ngay cho người nhắn tin"
+    ],
+    "answer": 2,
+    "explanation": "Mã xác nhận là bí mật. Không gửi cho ai và báo người lớn khi có tin nhắn lạ.",
+    "bai": 4
+  },
+  {
+    "id": 30,
+    "question": "Khi đi xe đạp đến trường, điều nào giúp em an toàn nhất?",
+    "options": [
+      "A. Vừa đi vừa nghe nhạc thật to bằng tai nghe",
+      "B. Đèo thêm hai bạn ngồi phía sau xe đạp",
+      "C. Đi đúng làn, đội mũ và quan sát khi rẽ",
+      "D. Đi thật nhanh, lạng lách qua lại cho vui vẻ"
+    ],
+    "answer": 2,
+    "explanation": "Đi đúng làn, đội mũ và quan sát giúp em tránh tai nạn trên đường.",
+    "bai": 4
+  },
+  {
+    "id": 31,
+    "question": "Ở nhà một mình, có người gõ cửa tự xưng là thợ sửa đồ mà em không biết. Em nên làm gì?",
+    "options": [
+      "A. Mở cửa hé ra để xem người đó là ai",
+      "B. Mở cửa ngay cho người đó vào nhà sửa đồ",
+      "C. Cho người đó vào nhà chờ bố mẹ về sau",
+      "D. Không mở cửa cho người lạ, gọi bố mẹ ngay"
+    ],
+    "answer": 3,
+    "explanation": "Không mở cửa cho người lạ khi ở nhà một mình và gọi bố mẹ là cách an toàn.",
+    "bai": 4
+  },
+  {
+    "id": 32,
+    "question": "Bạn rủ em quay video nguy hiểm để đăng mạng cho nhiều lượt xem. Em nên làm gì?",
+    "options": [
+      "A. Làm theo bạn để video được nổi tiếng nhanh",
+      "B. Từ chối và rủ bạn chơi trò an toàn khác",
+      "C. Quay video nhưng giấu mặt để không ai nhận ra",
+      "D. Rủ thêm nhiều bạn cùng làm video nguy hiểm"
+    ],
+    "answer": 1,
+    "explanation": "Từ chối trò nguy hiểm và rủ chơi trò an toàn giúp cả em và bạn không bị thương.",
+    "bai": 4
+  },
+  {
+    "id": 33,
+    "question": "Em thấy bạn bị bắt nạt trên mạng bằng lời lẽ xấu. Em nên làm gì?",
+    "options": [
+      "A. Chia sẻ tiếp bài xấu cho nhiều người cùng xem",
+      "B. Im lặng và cười theo những lời bắt nạt đó",
+      "C. Không tham gia, giữ bằng chứng và báo người lớn",
+      "D. Cùng bình luận xấu với người bắt nạt bạn đó"
+    ],
+    "answer": 2,
+    "explanation": "Không tham gia bắt nạt, giữ bằng chứng và báo người lớn giúp bạn được bảo vệ.",
+    "bai": 4
+  },
+  {
+    "id": 34,
+    "question": "Khi bị ngã và chảy máu nhẹ ở sân trường, em nên làm gì đầu tiên?",
+    "options": [
+      "A. Ngồi lại, báo thầy cô hoặc cô y tế và rửa vết thương sạch",
+      "B. Giấu vết thương, không nói với bất kì ai cả",
+      "C. Chạy tiếp như không có chuyện gì xảy ra",
+      "D. Tự bôi thuốc lạ không rõ nguồn gốc lên vết thương"
+    ],
+    "answer": 0,
+    "explanation": "Báo thầy cô hoặc cô y tế và xử lý vết thương sạch giúp vết thương không nặng thêm.",
+    "bai": 4
+  },
+  {
+    "id": 35,
+    "question": "Trời mưa to kèm sấm sét trên đường về, em nên làm gì?",
+    "options": [
+      "A. Cầm ô kim loại giơ cao lên trời khi đi mưa",
+      "B. Trú trong nhà, tránh cây cao và nơi trống",
+      "C. Đứng dưới cây to để trú mưa cho khỏi ướt",
+      "D. Chạy thật nhanh qua cánh đồng trống không có nhà"
+    ],
+    "answer": 1,
+    "explanation": "Trú trong nhà và tránh cây cao, nơi trống giúp em tránh sét đánh.",
+    "bai": 4
+  },
+  {
+    "id": 36,
+    "question": "Em muốn đăng ảnh lớp lên mạng. Điều cần nhớ là gì?",
+    "options": [
+      "A. Đăng ngay lập tức, càng nhiều ảnh càng tốt",
+      "B. Hỏi ý kiến các bạn trong ảnh trước khi đăng",
+      "C. Đăng kèm địa chỉ nhà của bạn trong ảnh đó",
+      "D. Đăng ảnh bạn đang khóc để trêu bạn cho vui"
+    ],
+    "answer": 1,
+    "explanation": "Hỏi ý kiến bạn trong ảnh trước khi đăng thể hiện em tôn trọng quyền riêng tư của bạn.",
+    "bai": 4
+  },
+  {
+    "id": 37,
+    "question": "Lớp em có nhiều giấy vụn sau giờ học. Việc làm tốt cho môi trường là gì?",
+    "options": [
+      "A. Vứt giấy vụn ra sân trường cho gió cuốn đi",
+      "B. Đốt giấy vụn ngay trong lớp học cho nhanh",
+      "C. Giấu giấy vụn dưới gầm bàn để không ai thấy",
+      "D. Gom giấy vụn bỏ đúng thùng tái chế của lớp"
+    ],
+    "answer": 3,
+    "explanation": "Gom giấy bỏ đúng thùng tái chế giúp giấy được dùng lại và lớp sạch hơn.",
+    "bai": 5
+  },
+  {
+    "id": 38,
+    "question": "Em thấy vòi nước ở trường chảy mà không ai dùng. Em nên làm gì?",
+    "options": [
+      "A. Mở thêm một vòi nước khác cho chảy cùng lúc",
+      "B. Dùng nước chảy để nghịch và té nước với bạn",
+      "C. Khóa vòi lại và báo cô chú phụ trách nếu vòi hỏng",
+      "D. Để nước chảy tiếp suốt cả buổi học hôm đó"
+    ],
+    "answer": 2,
+    "explanation": "Khóa vòi giúp tiết kiệm nước. Vòi hỏng thì báo người phụ trách để sửa.",
+    "bai": 5
+  },
+  {
+    "id": 39,
+    "question": "Để giảm rác nhựa mỗi ngày, em có thể bắt đầu từ việc nào?",
+    "options": [
+      "A. Mua đồ nhựa dùng một lần thật nhiều cho tiện",
+      "B. Mang bình nước riêng thay vì mua chai nhựa mỗi ngày",
+      "C. Xin thêm túi nilon mỗi lần mua đồ ở căng tin",
+      "D. Vứt chai nhựa đã dùng ra đường sau khi uống"
+    ],
+    "answer": 1,
+    "explanation": "Mang bình nước riêng là việc nhỏ nhưng giảm được nhiều chai nhựa mỗi ngày.",
+    "bai": 5
+  },
+  {
+    "id": 40,
+    "question": "Cây xanh trong sân trường có ích gì cho chúng ta?",
+    "options": [
+      "A. Chỉ để trang trí cho sân trường thêm đẹp mắt",
+      "B. Cho bóng mát, làm không khí trong lành hơn",
+      "C. Làm sân trường chật hơn và khó chơi hơn",
+      "D. Để học sinh trèo lên cây chơi vào giờ ra chơi"
+    ],
+    "answer": 1,
+    "explanation": "Cây cho bóng mát và làm không khí trong lành, nên cần chăm sóc chứ không phá.",
+    "bai": 5
+  },
+  {
+    "id": 41,
+    "question": "Em và các bạn muốn làm sân trường sạch hơn. Kế hoạch nào phù hợp?",
+    "options": [
+      "A. Chỉ dọn một lần duy nhất rồi không dọn nữa",
+      "B. Đổ rác của lớp mình sang sân của lớp khác",
+      "C. Bắt một bạn trong lớp dọn hết rác một mình",
+      "D. Chia nhóm nhặt rác, phân loại mỗi tuần"
+    ],
+    "answer": 3,
+    "explanation": "Chia nhóm, phân loại và duy trì mỗi tuần giúp sân trường sạch lâu dài.",
+    "bai": 5
+  },
+  {
+    "id": 42,
+    "question": "Khi đi dã ngoại, em nên ứng xử với thiên nhiên thế nào?",
+    "options": [
+      "A. Khắc tên mình lên thân cây để đánh dấu đã đến",
+      "B. Đuổi bắt chim non trong tổ để mang về nuôi",
+      "C. Hái hết hoa đẹp và bẻ cành cây mang về nhà",
+      "D. Ngắm hoa, không hái, không xả rác và mang rác về"
+    ],
+    "answer": 3,
+    "explanation": "Ngắm mà không hái, không xả rác giúp thiên nhiên được giữ nguyên cho lần sau.",
+    "bai": 5
+  },
+  {
+    "id": 43,
+    "question": "Thức ăn thừa sau bữa ăn ở nhà nên xử lý thế nào?",
+    "options": [
+      "A. Để thức ăn ôi thiu rồi mới dọn dẹp sau đó",
+      "B. Đổ hết thức ăn thừa ra vườn sau nhà",
+      "C. Lấy vừa đủ ăn, phần thừa bảo quản đúng cách",
+      "D. Vứt tất cả thức ăn dù vẫn còn ăn được ngon"
+    ],
+    "answer": 2,
+    "explanation": "Lấy vừa đủ và bảo quản phần thừa giúp giảm lãng phí thức ăn.",
+    "bai": 5
+  },
+  {
+    "id": 44,
+    "question": "Em muốn tiết kiệm điện ở nhà. Việc nào em làm được ngay?",
+    "options": [
+      "A. Tắt đèn, quạt khi ra khỏi phòng không dùng nữa",
+      "B. Bật tất cả đèn trong nhà cả ngày lẫn đêm",
+      "C. Mở tủ lạnh ra chơi trong lúc trời nóng bức",
+      "D. Để tivi mở suốt dù không có ai xem chương trình"
+    ],
+    "answer": 0,
+    "explanation": "Tắt đèn, quạt khi không dùng là cách tiết kiệm điện đơn giản và hiệu quả.",
+    "bai": 5
+  },
+  {
+    "id": 45,
+    "question": "Vì sao chúng ta không nên thả bóng bay nilon lên trời?",
+    "options": [
+      "A. Vì bóng rơi xuống có thể làm hại động vật và gây rác",
+      "B. Vì bóng bay nhìn không đẹp bằng bóng giấy",
+      "C. Vì bóng bay bay không cao như mọi người nghĩ",
+      "D. Vì bóng bay bán với giá khá đắt tiền"
+    ],
+    "answer": 0,
+    "explanation": "Bóng nilon rơi xuống thành rác và có thể làm hại động vật, nên không nên thả.",
+    "bai": 5
+  },
+  {
+    "id": 46,
+    "question": "Em muốn tìm hiểu một nghề. Cách bắt đầu phù hợp nhất là gì?",
+    "options": [
+      "A. Chỉ xem phim về nghề đó mà không hỏi ai cả",
+      "B. Nói nghề đó dễ hay khó theo cảm tính của mình",
+      "C. Hỏi người làm nghề đó về công việc hằng ngày của họ",
+      "D. Đoán nghề đó làm gì rồi tự kết luận cho nhanh"
+    ],
+    "answer": 2,
+    "explanation": "Hỏi người làm nghề thật giúp em hiểu công việc hằng ngày đúng hơn là đoán.",
+    "bai": 6
+  },
+  {
+    "id": 47,
+    "question": "Bác sĩ, giáo viên, nông dân, thợ may đều có điểm chung gì?",
+    "options": [
+      "A. Nghề nào lương cao thì nghề đó mới có ích",
+      "B. Ai làm nghề nào cũng làm việc giống hệt nhau",
+      "C. Mỗi nghề đều có ích cho xã hội theo cách riêng",
+      "D. Chỉ có một nghề trong số đó là quan trọng"
+    ],
+    "answer": 2,
+    "explanation": "Mỗi nghề đều đóng góp cho xã hội theo cách riêng, không có nghề nào là vô ích.",
+    "bai": 6
+  },
+  {
+    "id": 48,
+    "question": "Em thích vẽ nhưng vẽ chưa đẹp. Để theo đuổi sở thích này, em nên làm gì?",
+    "options": [
+      "A. Luyện vẽ đều đặn và học hỏi thêm từ người khác",
+      "B. Bỏ vẽ ngay vì mình không có năng khiếu vẽ",
+      "C. Chỉ vẽ khi có người khen tranh của mình đẹp",
+      "D. So sánh mình với họa sĩ nổi tiếng rồi nản lòng"
+    ],
+    "answer": 0,
+    "explanation": "Luyện đều và học thêm giúp em vẽ tốt dần lên, thay vì bỏ vì chưa giỏi ngay.",
+    "bai": 6
+  },
+  {
+    "id": 49,
+    "question": "Khi chọn nghề trong tương lai, em nên cân nhắc điều gì?",
+    "options": [
+      "A. Sở thích, khả năng của mình và nhu cầu của xã hội",
+      "B. Chỉ chọn nghề nghe tên thật sang và oai",
+      "C. Chọn nghề không cần học thêm bất kì điều gì",
+      "D. Chỉ chọn nghề mà bạn bè thân của mình chọn"
+    ],
+    "answer": 0,
+    "explanation": "Sở thích, khả năng và nhu cầu xã hội là ba điều cần cân nhắc cùng nhau.",
+    "bai": 6
+  },
+  {
+    "id": 50,
+    "question": "Em muốn trải nghiệm nghề làm bánh. Cách an toàn và phù hợp là gì?",
+    "options": [
+      "A. Dùng dao thật sắc một mình trong lần đầu tiên",
+      "B. Nếm thử nguyên liệu sống tùy ý khi đang làm bánh",
+      "C. Tự bật lò nướng khi không có người lớn ở nhà",
+      "D. Làm cùng người lớn, làm theo hướng dẫn và giữ vệ sinh"
+    ],
+    "answer": 3,
+    "explanation": "Làm cùng người lớn, theo hướng dẫn và giữ vệ sinh giúp em trải nghiệm an toàn.",
+    "bai": 6
+  },
+  {
+    "id": 51,
+    "question": "Bạn nói nghề của bố mẹ bạn không hay bằng nghề khác. Em nên đáp lại thế nào?",
+    "options": [
+      "A. Giấu nghề của bố mẹ mình không cho ai biết",
+      "B. Đồng ý với bạn và chê nghề đó theo bạn",
+      "C. Nói mỗi nghề đều đáng quý vì giúp ích cho mọi người",
+      "D. Cãi nhau thật to với bạn ngay tại lớp học"
+    ],
+    "answer": 2,
+    "explanation": "Nhắc rằng mỗi nghề đều đáng quý giúp bạn hiểu và tôn trọng lao động của mọi người.",
+    "bai": 6
+  },
+  {
+    "id": 52,
+    "question": "Để hiểu nghề nông dân, em có thể làm gì ở trường hoặc ở nhà?",
+    "options": [
+      "A. Trồng và chăm sóc một chậu rau nhỏ",
+      "B. Chỉ đọc tên nghề nông dân trong sách giáo khoa",
+      "C. Nói nông dân chỉ làm việc tay chân đơn giản thôi",
+      "D. Không cần tìm hiểu nghề nông dân làm gì cả"
+    ],
+    "answer": 0,
+    "explanation": "Tự trồng và chăm sóc rau giúp em hiểu công sức và kiến thức của nghề nông.",
+    "bai": 6
+  },
+  {
+    "id": 53,
+    "question": "Em mơ làm kỹ sư nhưng học Toán còn yếu. Việc nên làm là gì?",
+    "options": [
+      "A. Học Toán từng bước, hỏi thầy cô và bạn khi chưa hiểu",
+      "B. Chờ đến khi lớn lên tự nhiên sẽ giỏi Toán",
+      "C. Học vẹt công thức để qua bài kiểm tra hôm nay",
+      "D. Bỏ ước mơ làm kỹ sư ngay từ bây giờ"
+    ],
+    "answer": 0,
+    "explanation": "Học từng bước và hỏi khi chưa hiểu giúp em tiến gần ước mơ thay vì bỏ cuộc.",
+    "bai": 6
+  },
+  {
+    "id": 54,
+    "question": "Khi tham quan một nơi làm việc, em nên ứng xử thế nào?",
+    "options": [
+      "A. Tự ý đi vào khu vực cấm của nơi làm việc",
+      "B. Nói chuyện ồn ào suốt buổi tham quan hôm đó",
+      "C. Chạy nhảy, chạm vào máy móc tùy ý khi tham quan",
+      "D. Đi theo đoàn, nghe hướng dẫn và giữ trật tự"
+    ],
+    "answer": 3,
+    "explanation": "Đi theo đoàn, nghe hướng dẫn và giữ trật tự giúp chuyến tham quan an toàn và học được nhiều.",
+    "bai": 6
+  }
+]

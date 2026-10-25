@@ -1,0 +1,212 @@
+[
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Làm quen bạn mới bắt đầu từ đâu?",
+    "a": "Chào hỏi, nói tên mình và hỏi tên bạn.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Giới thiệu bản thân nên nói gì?",
+    "a": "Tên, sở thích và một điều mình muốn học tốt.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Bạn mới chưa quen ai, lớp nên làm gì?",
+    "a": "Mời bạn vào nhóm, chỉ chỗ ngồi và giờ ra chơi.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Muốn vào nhóm học tập thì làm sao?",
+    "a": "Xin vào nhóm và hỏi nhóm đang làm phần nào.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "fc",
+    "f": "Bạn làm bài chậm hơn mình thì sao?",
+    "a": "Giúp phần bạn chưa hiểu, nếu bạn đồng ý.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Đang tức giận, việc đầu tiên nên làm là gì?",
+    "a": "Hít thở sâu, bình tĩnh rồi mới nói rõ chuyện.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Muốn bạn hiểu mình đang buồn thì nói sao?",
+    "a": "Tớ buồn vì chuyện vừa rồi, mình nói lại nhé.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Thấy bạn buồn ngồi một mình thì làm gì?",
+    "a": "Hỏi thăm và ngồi cùng nếu bạn muốn.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Lỡ nói lời làm bạn buồn thì sao?",
+    "a": "Xin lỗi thật lòng và cẩn thận hơn lần sau.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "Lo lắng trước khi thuyết trình thì làm gì?",
+    "a": "Tập nói trước ở nhà vài lần, nói chậm và rõ.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Nhà chưa dọn, bố mẹ bận thì em làm gì?",
+    "a": "Dọn phần việc vừa sức như gấp chăn, xếp bàn học.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Hứa tưới cây mà mải chơi quên mất thì sao?",
+    "a": "Tưới bù ngay khi nhớ ra, lần sau làm đúng giờ.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Bữa cơm gia đình thì điện thoại để đâu?",
+    "a": "Cất điện thoại, ăn cùng và trò chuyện với cả nhà.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Làm vỡ cốc thì việc cần làm là gì?",
+    "a": "Nhận lỗi, dọn mảnh vỡ cẩn thận và xin lỗi.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Được giao trông em nhỏ thì quan trọng nhất là gì?",
+    "a": "Giữ em nhỏ trong tầm mắt, chơi trò an toàn.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Người lạ ở cổng trường rủ đi theo cho quà thì sao?",
+    "a": "Từ chối, vào trường và báo thầy cô, người lớn tin cậy.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Tin nhắn lạ xin mã xác nhận thì làm gì?",
+    "a": "Không gửi mã, xóa tin nhắn và báo người lớn.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Đi xe đạp đến trường an toàn là thế nào?",
+    "a": "Đi đúng làn, đội mũ và quan sát khi rẽ.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Ở nhà một mình, người lạ gõ cửa thì sao?",
+    "a": "Không mở cửa cho người lạ, gọi bố mẹ ngay.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "fc",
+    "f": "Bạn rủ quay video nguy hiểm để đăng mạng thì sao?",
+    "a": "Từ chối và rủ bạn chơi trò an toàn khác.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Giấy vụn sau giờ học xử lý thế nào?",
+    "a": "Gom giấy bỏ đúng thùng tái chế của lớp.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Vòi nước chảy mà không ai dùng thì sao?",
+    "a": "Khóa vòi lại, vòi hỏng thì báo người phụ trách.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Giảm rác nhựa mỗi ngày bắt đầu từ đâu?",
+    "a": "Mang bình nước riêng thay vì mua chai nhựa.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Cây xanh trong sân trường có ích gì?",
+    "a": "Cho bóng mát, làm không khí trong lành hơn.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "fc",
+    "f": "Đi dã ngoại ứng xử với thiên nhiên thế nào?",
+    "a": "Ngắm hoa, không hái, không xả rác, mang rác về.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Muốn tìm hiểu một nghề thì bắt đầu sao?",
+    "a": "Hỏi người làm nghề đó về công việc hằng ngày.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Các nghề khác nhau có điểm chung gì?",
+    "a": "Mỗi nghề đều có ích cho xã hội theo cách riêng.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Thích vẽ nhưng vẽ chưa đẹp thì làm gì?",
+    "a": "Luyện vẽ đều đặn và học hỏi thêm từ người khác.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Chọn nghề tương lai cần cân nhắc gì?",
+    "a": "Sở thích, khả năng của mình và nhu cầu xã hội.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "fc",
+    "f": "Tham quan nơi làm việc ứng xử thế nào?",
+    "a": "Đi theo đoàn, nghe hướng dẫn và giữ trật tự.",
+    "fi": ""
+  }
+]

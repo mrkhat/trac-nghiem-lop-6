@@ -1,0 +1,86 @@
+[
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Làm quen bắt đầu bằng gì?",
+    "a": "Chào hỏi và nói tên mình.",
+    "fi": ""
+  },
+  {
+    "b": 1,
+    "t": "mn",
+    "f": "Nhớ tên bạn nhanh bằng cách nào?",
+    "a": "Gọi bạn bằng tên mỗi khi trò chuyện.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Tức giận thì làm gì trước?",
+    "a": "Hít thở sâu rồi mới nói.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Bạn buồn thì em làm gì?",
+    "a": "Hỏi thăm và ở bên nếu bạn muốn.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Việc nhà vừa sức là gì?",
+    "a": "Gấp chăn, xếp bàn học, dọn phần của mình.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "mn",
+    "f": "Quên lời hứa thì sao?",
+    "a": "Làm bù ngay và lần sau giữ đúng giờ.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Người lạ rủ đi theo thì sao?",
+    "a": "Từ chối và báo người lớn tin cậy.",
+    "fi": ""
+  },
+  {
+    "b": 4,
+    "t": "mn",
+    "f": "Mã xác nhận có gửi cho người lạ không?",
+    "a": "Không gửi cho bất kì ai.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Giấy vụn bỏ vào đâu?",
+    "a": "Thùng tái chế của lớp.",
+    "fi": ""
+  },
+  {
+    "b": 5,
+    "t": "mn",
+    "f": "Tiết kiệm nước bằng cách nào?",
+    "a": "Khóa vòi khi không dùng.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Tìm hiểu nghề bằng cách nào?",
+    "a": "Hỏi người đang làm nghề đó.",
+    "fi": ""
+  },
+  {
+    "b": 6,
+    "t": "mn",
+    "f": "Mỗi nghề đều thế nào?",
+    "a": "Đều có ích cho xã hội theo cách riêng.",
+    "fi": ""
+  }
+]
