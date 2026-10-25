@@ -2,85 +2,127 @@
   {
     "b": 1,
     "t": "mn",
-    "f": "Làm quen bắt đầu bằng gì?",
+    "f": "Làm quen lớp mới bắt đầu bằng gì?",
     "a": "Chào hỏi và nói tên mình.",
     "fi": ""
   },
   {
     "b": 1,
     "t": "mn",
-    "f": "Nhớ tên bạn nhanh bằng cách nào?",
-    "a": "Gọi bạn bằng tên mỗi khi trò chuyện.",
+    "f": "Vào lớp 6 em cần nhớ nội quy gì?",
+    "a": "Đi học đúng giờ và giữ trật tự chung.",
     "fi": ""
   },
   {
     "b": 2,
+    "t": "mn",
+    "f": "Rửa tay khi nào?",
+    "a": "Trước khi ăn và sau khi đi vệ sinh.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "mn",
+    "f": "Khi bị ốm em làm gì?",
+    "a": "Báo người lớn và nghỉ ngơi.",
+    "fi": ""
+  },
+  {
+    "b": 3,
     "t": "mn",
     "f": "Tức giận thì làm gì trước?",
     "a": "Hít thở sâu rồi mới nói.",
     "fi": ""
   },
   {
-    "b": 2,
+    "b": 3,
     "t": "mn",
     "f": "Bạn buồn thì em làm gì?",
     "a": "Hỏi thăm và ở bên nếu bạn muốn.",
     "fi": ""
   },
   {
-    "b": 3,
+    "b": 4,
     "t": "mn",
     "f": "Việc nhà vừa sức là gì?",
     "a": "Gấp chăn, xếp bàn học, dọn phần của mình.",
     "fi": ""
   },
   {
-    "b": 3,
+    "b": 4,
     "t": "mn",
     "f": "Quên lời hứa thì sao?",
     "a": "Làm bù ngay và lần sau giữ đúng giờ.",
     "fi": ""
   },
   {
-    "b": 4,
+    "b": 5,
     "t": "mn",
-    "f": "Người lạ rủ đi theo thì sao?",
-    "a": "Từ chối và báo người lớn tin cậy.",
-    "fi": ""
-  },
-  {
-    "b": 4,
-    "t": "mn",
-    "f": "Mã xác nhận có gửi cho người lạ không?",
-    "a": "Không gửi cho bất kì ai.",
+    "f": "Trước khi mua đồ em làm gì?",
+    "a": "Lập danh sách và mua theo danh sách.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "mn",
-    "f": "Giấy vụn bỏ vào đâu?",
-    "a": "Thùng tái chế của lớp.",
-    "fi": ""
-  },
-  {
-    "b": 5,
-    "t": "mn",
-    "f": "Tiết kiệm nước bằng cách nào?",
-    "a": "Khóa vòi khi không dùng.",
+    "f": "Cần và muốn khác nhau thế nào?",
+    "a": "Cần là phải có, muốn là thích nhưng chưa cần.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "mn",
-    "f": "Tìm hiểu nghề bằng cách nào?",
-    "a": "Hỏi người đang làm nghề đó.",
+    "f": "Ở nơi công cộng em làm gì?",
+    "a": "Nói nhỏ, đi nhẹ, giữ trật tự.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "mn",
-    "f": "Mỗi nghề đều thế nào?",
-    "a": "Đều có ích cho xã hội theo cách riêng.",
+    "f": "Xếp hàng nghĩa là gì?",
+    "a": "Chờ đến lượt, không chen lấn.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Nghề truyền thống là gì?",
+    "a": "Nghề lâu đời, truyền qua nhiều thế hệ.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "mn",
+    "f": "Gốm Bát Tràng nổi tiếng về gì?",
+    "a": "Đồ gốm sứ thủ công khéo léo.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Có bão thì chuẩn bị gì trước?",
+    "a": "Chằng chống nhà, chuẩn bị đèn và nước.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "mn",
+    "f": "Lũ dâng thì làm gì?",
+    "a": "Theo người lớn lên chỗ cao, không lội nước sâu.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Tôn trọng người lao động là gì?",
+    "a": "Trân trọng công sức của mọi nghề.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "mn",
+    "f": "Cô lao công quét sân thì em làm gì?",
+    "a": "Cảm ơn cô và không xả rác.",
     "fi": ""
   }
 ]

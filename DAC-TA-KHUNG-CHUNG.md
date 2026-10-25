@@ -9,7 +9,7 @@
 - **Bỏ hẳn Giáo dục thể chất** khỏi dự án. Không làm, không đề xuất lại.
 - **Đã có (8 thẻ live):** Khoa học tự nhiên, Toán, Lịch sử, Địa lí, Ngữ văn, Tiếng Anh, Giáo dục công dân, Công nghệ.
   Lưu ý cách đếm của Bộ: Lịch sử + Địa lí trên web tách 2 thẻ, nhưng theo Chương trình GDPT 2018 đó là **1 môn Lịch sử và Địa lí**. Vì vậy tính theo Bộ, 8 thẻ = 7/10 môn bắt buộc.
-- **Làm luôn trong đợt này:** Hoạt động trải nghiệm, hướng nghiệp 6 (là hoạt động giáo dục bắt buộc, không phải môn thi kiến thức truyền thống — xem §12).
+- **Làm luôn trong đợt này:** Hoạt động trải nghiệm, hướng nghiệp 6 — cả năm học, đủ 9 chủ đề SGK KNTT (là hoạt động giáo dục bắt buộc, không phải môn thi kiến thức truyền thống — xem §12).
 - **Còn thiếu sau đợt này (2 môn):** Tin học, Nghệ thuật (Âm nhạc + Mĩ thuật). Chưa làm thì ghi là chưa làm, không ghi số câu giả.
 
 ## 1. Nguyên tắc vàng
@@ -187,10 +187,23 @@ Quy tắc riêng đã chốt, áp cho mọi môn:
 HĐTN-HN không phải môn thi kiến thức, nên khung §4–§6 áp dụng với các điều chỉnh sau — và chỉ HĐTN mới được áp dụng các điều chỉnh này:
 
 - Đơn vị nội dung gọi là **Chủ đề**, không gọi là "Bài" trong giao diện bé (trong dữ liệu vẫn dùng trường `bai` = số chủ đề để khớp code quiz chung, nhưng nhãn hiển thị là "Chủ đề N").
-- Mỗi chủ đề gồm: tình huống mở đầu → cách làm từng bước (ngắn, làm được ngay) → ⚡ Nhớ nhanh → câu hỏi tình huống → ⭐ Điểm cần nhớ (đúng 4 ý) → flashcard.
+- Phạm vi: **cả năm học, đủ 9 chủ đề SGK Kết nối tri thức** (chốt 2026-10-25, kết hợp các nguồn: mục lục SGK KNTT trên loigiaihay, giaokhoaonline và sách giáo viên KNTT trên nguvanthcs):
+  1. Khám phá lứa tuổi và môi trường học tập mới
+  2. Chăm sóc cuộc sống cá nhân
+  3. Xây dựng tình bạn, tình thầy trò
+  4. Nuôi dưỡng quan hệ gia đình
+  5. Kiểm soát chi tiêu
+  6. Xây dựng cộng đồng văn minh, thân thiện
+  7. Tìm hiểu nghề truyền thống ở Việt Nam
+  8. Phòng tránh thiên tai và giảm thiểu biến đổi khí hậu
+  9. Tôn trọng người lao động
+  (+ phần "Tạm biệt lớp 6" ở cuối SGK — không làm thành chủ đề trắc nghiệm riêng.)
+- Mỗi chủ đề gồm: tình huống mở đầu → cách làm từng bước (ngắn, làm được ngay) → ⚡ Nhớ nhanh → câu hỏi tình huống → ⭐ Điểm cần nhớ (đúng 4 ý) → flashcard. Chuẩn số lượng: 9 câu / 5 thẻ / 2 thẻ nhớ nhanh trên một chủ đề → cả năm: **81 câu, 45 thẻ, 18 thẻ nhớ nhanh**.
 - Trắc nghiệm là **câu hỏi tình huống**: chọn cách làm phù hợp và an toàn nhất, giải thích vì sao cách đó phù hợp và các cách kia chưa phù hợp. Không chấm thái độ, không có câu hỏi bắt bé tiết lộ thông tin cá nhân/gia đình thật.
 - Mọi hoạt động thực hành gợi ý trong bài phải an toàn cho trẻ 11–12 tuổi, làm được ở lớp/ở nhà, và ghi rõ "nhờ thầy cô / người lớn hướng dẫn" khi việc đó cần người lớn.
-- Tên chủ đề trong đợt này là khung tổng hợp theo 4 mạch của Chương trình GDPT 2018 (hướng vào bản thân, hướng đến xã hội, hướng đến tự nhiên, hướng nghiệp) — **chưa phải tên bài nguyên văn SGK KNTT**, phải ghi rõ điểm này trong `hdtn/README.md` và đối chiếu SGK giấy của trường bé trước khi chốt tên.
+- Lưu ý chương trình: **Chương trình GDPT 2018 vẫn là chương trình hiện hành trong năm 2026** (không có chương trình mới thay thế nó); từ năm học 2026–2027 cả nước dùng bộ sách thống nhất nhưng bộ sách đó vẫn phải đáp ứng yêu cầu của Chương trình 2018. Vì vậy: tên chủ đề trên lấy theo SGK KNTT mà user cung cấp; nếu trường của bé năm 2026–2027 dùng bộ sách thống nhất khác KNTT thì phải đối chiếu lại tên chủ đề của bộ đó trước khi chốt.
+- Phân chia học kì 1 / học kì 2 theo kế hoạch của từng trường có thể lệch — module này trình bày theo thứ tự chủ đề trong SGK, cả năm học, không khẳng định cứng chủ đề nào thuộc học kì nào khi chưa có PPCT của trường bé.
+- Hình ảnh HĐTN: lấy ý tưởng từ hoạt động trong SGK / sách giáo viên rồi vẽ lại bằng AI (tranh màu nước sách truyện, không chữ trong hình, ≤400px), không bịa hoạt động ngoài SGK, không lấy nguyên ảnh trong SGK đăng lại.
 
 ## 13. Quy trình thêm một môn mới (checklist, làm theo thứ tự)
 

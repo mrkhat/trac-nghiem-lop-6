@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hoạt động trải nghiệm, hướng nghiệp 6 — Học kì 1</title>
+<title>Hoạt động trải nghiệm, hướng nghiệp 6 — Cả năm học</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -85,7 +85,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 </style>
 </head>
 <body>
-<h1>🌱 Hoạt động trải nghiệm, hướng nghiệp 6 — Học kì 1</h1>
+<h1>🌱 Hoạt động trải nghiệm, hướng nghiệp 6 — Cả năm học</h1>
 <p class="sub" id="qcount">Đang tải câu hỏi…</p>
 <div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang HĐTN-HN 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
 <div id="home">
@@ -140,14 +140,14 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <script>
 let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];
 let sessRest=[];
-fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;buildLessonSel();document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Học kì 1 (Chủ đề 1–6)';}).catch(function(){document.getElementById('qcount').innerHTML='Chưa tải được câu hỏi. Em kiểm tra mạng rồi bấm nút Tải lại nhé. <button type="button" onclick="location.reload()" style="min-height:44px;padding:10px 18px;border:none;border-radius:10px;background:#1a73e8;color:#fff;font-size:16px;font-family:inherit;cursor:pointer">🔄 Tải lại</button>';});
+fetch('questions.json').then(r=>r.json()).then(d=>{allQ=d;buildLessonSel();document.getElementById('qcount').textContent=d.length+' câu trắc nghiệm • Cả năm học (Chủ đề 1–9) • SGK Kết nối tri thức';}).catch(function(){document.getElementById('qcount').innerHTML='Chưa tải được câu hỏi. Em kiểm tra mạng rồi bấm nút Tải lại nhé. <button type="button" onclick="location.reload()" style="min-height:44px;padding:10px 18px;border:none;border-radius:10px;background:#1a73e8;color:#fff;font-size:16px;font-family:inherit;cursor:pointer">🔄 Tải lại</button>';});
 
 document.getElementById('btnPractice').onclick=()=>start('practice');
 document.getElementById('btnExam').onclick=()=>start('exam');
 document.getElementById('btnStudy').onclick=()=>start('study');
 document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
 
-const LESSON_NAMES = {1:'Chủ đề 1',2:'Chủ đề 2',3:'Chủ đề 3',4:'Chủ đề 4',5:'Chủ đề 5',6:'Chủ đề 6'};
+const LESSON_NAMES = {1:'Chủ đề 1',2:'Chủ đề 2',3:'Chủ đề 3',4:'Chủ đề 4',5:'Chủ đề 5',6:'Chủ đề 6',7:'Chủ đề 7',8:'Chủ đề 8',9:'Chủ đề 9'};
 function lessonName(b){ if(LESSON_NAMES && LESSON_NAMES[b]) return LESSON_NAMES[b]; return 'Bài '+b; }
 function buildLessonSel(){
   const sel=document.getElementById('lessonSel'); if(!sel) return;
@@ -324,7 +324,7 @@ onluyenBoot({lsKey:'onluyen_hdtn', subject:'HĐTN-HN 6', buildFlashItems:buildFl
 
 <script>
 /* ===== TAB FLASHCARD: tong hop flashcard + the Nho nhanh cua ca mon, dung chung nguon cards-data.js voi trang hoc, loc theo bai dang chon o muc "Chon bai de luyen" ===== */
-const FC_BAI = [1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,6];
+const FC_BAI = [1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,6,7,7,7,7,7,8,8,8,8,8,9,9,9,9,9];
 let fcAll=null, fcQueue=[], fcPos=0, fcFlip=false, fcPool=[];
 const FC_MON='hdtn';
 let fcStoreObj=null;

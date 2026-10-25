@@ -2,211 +2,316 @@
   {
     "b": 1,
     "t": "fc",
-    "f": "Làm quen bạn mới bắt đầu từ đâu?",
-    "a": "Chào hỏi, nói tên mình và hỏi tên bạn.",
-    "fi": ""
+    "f": "Vào lớp 6, điều mới đầu tiên em khám phá là gì?",
+    "a": "Trường mới, lớp mới, thầy cô và bạn mới.",
+    "fi": "../hinh-anh/hdtn/hdtn-cd1-truong-moi.webp"
   },
   {
     "b": 1,
     "t": "fc",
     "f": "Giới thiệu bản thân nên nói gì?",
-    "a": "Tên, sở thích và một điều mình muốn học tốt.",
-    "fi": ""
+    "a": "Tên, sở thích và điều mình muốn học tốt.",
+    "fi": "../hinh-anh/hdtn/hdtn-cd1-chao-ban-moi.webp"
   },
   {
     "b": 1,
     "t": "fc",
-    "f": "Bạn mới chưa quen ai, lớp nên làm gì?",
-    "a": "Mời bạn vào nhóm, chỉ chỗ ngồi và giờ ra chơi.",
-    "fi": ""
+    "f": "Muốn hòa nhập lớp mới thì làm gì?",
+    "a": "Chào hỏi, làm quen và tham gia hoạt động chung.",
+    "fi": "../hinh-anh/hdtn/hdtn-cd1-gioi-thieu-ban-than.webp"
   },
   {
     "b": 1,
     "t": "fc",
-    "f": "Muốn vào nhóm học tập thì làm sao?",
-    "a": "Xin vào nhóm và hỏi nhóm đang làm phần nào.",
-    "fi": ""
+    "f": "Trường mới có nội quy gì em cần nhớ?",
+    "a": "Đi học đúng giờ, giữ trật tự và giữ vệ sinh chung.",
+    "fi": "../hinh-anh/hdtn/hdtn-cd1-hoc-nhom.webp"
   },
   {
     "b": 1,
     "t": "fc",
-    "f": "Bạn làm bài chậm hơn mình thì sao?",
-    "a": "Giúp phần bạn chưa hiểu, nếu bạn đồng ý.",
+    "f": "Lứa tuổi của em có điểm gì mới?",
+    "a": "Em lớn hơn, tự lập hơn và có trách nhiệm hơn.",
     "fi": ""
   },
   {
     "b": 2,
     "t": "fc",
-    "f": "Đang tức giận, việc đầu tiên nên làm là gì?",
-    "a": "Hít thở sâu, bình tĩnh rồi mới nói rõ chuyện.",
+    "f": "Tự chăm sóc bản thân bắt đầu từ đâu?",
+    "a": "Chuẩn bị đồ dùng, giữ vệ sinh và sắp xếp thời gian.",
     "fi": ""
   },
   {
     "b": 2,
     "t": "fc",
-    "f": "Muốn bạn hiểu mình đang buồn thì nói sao?",
-    "a": "Tớ buồn vì chuyện vừa rồi, mình nói lại nhé.",
+    "f": "Rửa tay khi nào là đúng?",
+    "a": "Trước khi ăn và sau khi đi vệ sinh.",
     "fi": ""
   },
   {
     "b": 2,
     "t": "fc",
-    "f": "Thấy bạn buồn ngồi một mình thì làm gì?",
-    "a": "Hỏi thăm và ngồi cùng nếu bạn muốn.",
+    "f": "Để khỏe mạnh mỗi ngày em cần gì?",
+    "a": "Ngủ đủ, ăn đủ bữa và vận động vừa sức.",
     "fi": ""
   },
   {
     "b": 2,
     "t": "fc",
-    "f": "Lỡ nói lời làm bạn buồn thì sao?",
+    "f": "Khi bị ốm, em nên làm gì?",
+    "a": "Báo người lớn, nghỉ ngơi và làm theo hướng dẫn.",
+    "fi": ""
+  },
+  {
+    "b": 2,
+    "t": "fc",
+    "f": "An toàn cá nhân quan trọng nhất là gì?",
+    "a": "Không đi theo người lạ và không gửi mã bí mật cho ai.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Tình bạn đẹp bắt đầu từ đâu?",
+    "a": "Lời chào thân thiện và sự quan tâm chân thành.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Đang tức giận thì làm gì trước?",
+    "a": "Hít thở sâu, bình tĩnh rồi mới nói.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Bạn buồn thì em làm gì?",
+    "a": "Hỏi thăm và ở bên nếu bạn muốn.",
+    "fi": ""
+  },
+  {
+    "b": 3,
+    "t": "fc",
+    "f": "Lỡ làm bạn buồn thì sao?",
     "a": "Xin lỗi thật lòng và cẩn thận hơn lần sau.",
     "fi": ""
   },
   {
-    "b": 2,
-    "t": "fc",
-    "f": "Lo lắng trước khi thuyết trình thì làm gì?",
-    "a": "Tập nói trước ở nhà vài lần, nói chậm và rõ.",
-    "fi": ""
-  },
-  {
     "b": 3,
     "t": "fc",
-    "f": "Nhà chưa dọn, bố mẹ bận thì em làm gì?",
-    "a": "Dọn phần việc vừa sức như gấp chăn, xếp bàn học.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "fc",
-    "f": "Hứa tưới cây mà mải chơi quên mất thì sao?",
-    "a": "Tưới bù ngay khi nhớ ra, lần sau làm đúng giờ.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "fc",
-    "f": "Bữa cơm gia đình thì điện thoại để đâu?",
-    "a": "Cất điện thoại, ăn cùng và trò chuyện với cả nhà.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "fc",
-    "f": "Làm vỡ cốc thì việc cần làm là gì?",
-    "a": "Nhận lỗi, dọn mảnh vỡ cẩn thận và xin lỗi.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "fc",
-    "f": "Được giao trông em nhỏ thì quan trọng nhất là gì?",
-    "a": "Giữ em nhỏ trong tầm mắt, chơi trò an toàn.",
+    "f": "Tình thầy trò thể hiện thế nào?",
+    "a": "Lễ phép, lắng nghe và cảm ơn thầy cô.",
     "fi": ""
   },
   {
     "b": 4,
     "t": "fc",
-    "f": "Người lạ ở cổng trường rủ đi theo cho quà thì sao?",
-    "a": "Từ chối, vào trường và báo thầy cô, người lớn tin cậy.",
+    "f": "Gia đình là gì với em?",
+    "a": "Nơi yêu thương, chăm sóc và dạy em nên người.",
     "fi": ""
   },
   {
     "b": 4,
     "t": "fc",
-    "f": "Tin nhắn lạ xin mã xác nhận thì làm gì?",
-    "a": "Không gửi mã, xóa tin nhắn và báo người lớn.",
+    "f": "Việc nhà vừa sức là gì?",
+    "a": "Gấp chăn, xếp bàn học, dọn phần của mình.",
     "fi": ""
   },
   {
     "b": 4,
     "t": "fc",
-    "f": "Đi xe đạp đến trường an toàn là thế nào?",
-    "a": "Đi đúng làn, đội mũ và quan sát khi rẽ.",
+    "f": "Quên lời hứa với gia đình thì sao?",
+    "a": "Làm bù ngay và lần sau giữ đúng giờ.",
     "fi": ""
   },
   {
     "b": 4,
     "t": "fc",
-    "f": "Ở nhà một mình, người lạ gõ cửa thì sao?",
-    "a": "Không mở cửa cho người lạ, gọi bố mẹ ngay.",
+    "f": "Bữa cơm gia đình có ý nghĩa gì?",
+    "a": "Cả nhà trò chuyện và gần gũi nhau hơn.",
     "fi": ""
   },
   {
     "b": 4,
     "t": "fc",
-    "f": "Bạn rủ quay video nguy hiểm để đăng mạng thì sao?",
-    "a": "Từ chối và rủ bạn chơi trò an toàn khác.",
+    "f": "Trông em nhỏ cần nhớ gì?",
+    "a": "Giữ em trong tầm mắt, chơi trò an toàn.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "fc",
-    "f": "Giấy vụn sau giờ học xử lý thế nào?",
-    "a": "Gom giấy bỏ đúng thùng tái chế của lớp.",
+    "f": "Kiểm soát chi tiêu là gì?",
+    "a": "Tiêu tiền có kế hoạch, đúng nhu cầu.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "fc",
-    "f": "Vòi nước chảy mà không ai dùng thì sao?",
-    "a": "Khóa vòi lại, vòi hỏng thì báo người phụ trách.",
+    "f": "Trước khi mua đồ em nên làm gì?",
+    "a": "Lập danh sách và mua theo danh sách.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "fc",
-    "f": "Giảm rác nhựa mỗi ngày bắt đầu từ đâu?",
-    "a": "Mang bình nước riêng thay vì mua chai nhựa.",
+    "f": "Cần và muốn khác nhau thế nào?",
+    "a": "Cần là thứ phải có, muốn là thứ thích nhưng chưa cần.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "fc",
-    "f": "Cây xanh trong sân trường có ích gì?",
-    "a": "Cho bóng mát, làm không khí trong lành hơn.",
+    "f": "Tiền mừng tuổi dùng thế nào là hợp lý?",
+    "a": "Để dành một phần, tiêu một phần cho việc cần.",
     "fi": ""
   },
   {
     "b": 5,
     "t": "fc",
-    "f": "Đi dã ngoại ứng xử với thiên nhiên thế nào?",
-    "a": "Ngắm hoa, không hái, không xả rác, mang rác về.",
+    "f": "Muốn mua đồ đắt tiền thì làm gì trước?",
+    "a": "Để dành dần và hỏi ý kiến bố mẹ.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "fc",
-    "f": "Muốn tìm hiểu một nghề thì bắt đầu sao?",
-    "a": "Hỏi người làm nghề đó về công việc hằng ngày.",
+    "f": "Cộng đồng văn minh là gì?",
+    "a": "Mọi người tôn trọng nhau và giữ gìn nơi chung.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "fc",
-    "f": "Các nghề khác nhau có điểm chung gì?",
-    "a": "Mỗi nghề đều có ích cho xã hội theo cách riêng.",
+    "f": "Ở nơi công cộng em nên làm gì?",
+    "a": "Nói nhỏ, đi nhẹ và giữ trật tự chung.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "fc",
-    "f": "Thích vẽ nhưng vẽ chưa đẹp thì làm gì?",
-    "a": "Luyện vẽ đều đặn và học hỏi thêm từ người khác.",
+    "f": "Xếp hàng có ý nghĩa gì?",
+    "a": "Chờ đến lượt mình, không chen lấn.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "fc",
-    "f": "Chọn nghề tương lai cần cân nhắc gì?",
-    "a": "Sở thích, khả năng của mình và nhu cầu xã hội.",
+    "f": "Giúp hàng xóm thế nào là đúng?",
+    "a": "Hỏi thăm và giúp khi bác đồng ý.",
     "fi": ""
   },
   {
     "b": 6,
     "t": "fc",
-    "f": "Tham quan nơi làm việc ứng xử thế nào?",
-    "a": "Đi theo đoàn, nghe hướng dẫn và giữ trật tự.",
+    "f": "Khu phố sạch nhờ đâu?",
+    "a": "Mọi người cùng giữ vệ sinh và dọn chung.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Nghề truyền thống là gì?",
+    "a": "Nghề lâu đời, truyền qua nhiều thế hệ.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Gốm Bát Tràng nổi tiếng về gì?",
+    "a": "Đồ gốm sứ làm thủ công khéo léo, đẹp và bền.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Lụa Vạn Phúc nổi tiếng về gì?",
+    "a": "Lụa mềm, đẹp với hoa văn tinh xảo.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Nón lá làm từ nghề gì?",
+    "a": "Nghề chằm nón thủ công.",
+    "fi": ""
+  },
+  {
+    "b": 7,
+    "t": "fc",
+    "f": "Giữ nghề truyền thống bằng cách nào?",
+    "a": "Tìm hiểu, trân trọng và giới thiệu sản phẩm.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Thiên tai là gì?",
+    "a": "Bão, lũ, hạn hán gây nguy hiểm cho con người.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Nghe dự báo có bão thì làm gì trước?",
+    "a": "Chằng chống nhà, cất đồ và chuẩn bị đèn, nước.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Lũ dâng cao thì làm gì?",
+    "a": "Theo người lớn lên chỗ cao, không lội nước sâu.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Dây điện đứt sau bão thì sao?",
+    "a": "Tránh xa, không chạm vào và báo người lớn.",
+    "fi": ""
+  },
+  {
+    "b": 8,
+    "t": "fc",
+    "f": "Giảm biến đổi khí hậu bằng cách nào?",
+    "a": "Tiết kiệm điện, nước, giảm rác nhựa, trồng cây.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Tôn trọng người lao động là gì?",
+    "a": "Trân trọng công sức của mọi nghề.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Mỗi nghề đều thế nào?",
+    "a": "Đều có ích cho xã hội theo cách riêng.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Cô lao công quét sân thì em làm gì?",
+    "a": "Cảm ơn cô và không xả rác.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Ăn cơm thừa bỏ đi có ý nghĩa gì?",
+    "a": "Lãng phí công sức nông dân và người nấu ăn.",
+    "fi": ""
+  },
+  {
+    "b": 9,
+    "t": "fc",
+    "f": "Giữ gìn đồ dùng thể hiện điều gì?",
+    "a": "Trân trọng công sức người làm ra nó.",
     "fi": ""
   }
 ]
