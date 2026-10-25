@@ -1096,302 +1096,302 @@
   "name": "Tam giác vuông (bổ trợ)",
   "svg": "<svg viewBox=\"0 0 240 215\" style=\"width:100%;max-width:340px\"><polygon class=\"hot\" data-f=\"4\" points=\"55,165 200,165 55,45\" fill=\"#fff8e1\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"2\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#6a1b9a\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><line class=\"hot\" data-f=\"3\" x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#1565c0\" stroke-width=\"2.5\"/><polyline class=\"hot\" data-f=\"1\" points=\"72,165 72,148 55,148\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2.5\"/><g class=\"ovl\" style=\"display:none\"><text x=\"138\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">a</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text></g><g class=\"ovl\" style=\"display:none\"><polygon points=\"55,165 200,165 55,45\" fill=\"#ff9800\" opacity=\"0.2\"/><line x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#d84315\" stroke-width=\"3\"/><line x1=\"55\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#d84315\" stroke-width=\"3\"/><text x=\"120\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">c</text><text x=\"28\" y=\"108\" font-size=\"15\" font-weight=\"bold\" fill=\"#d84315\">b</text></g><g class=\"hot\" data-f=\"0\" fill=\"#0d47a1\" font-size=\"14\" font-weight=\"bold\"><text x=\"32\" y=\"182\">A</text><text x=\"206\" y=\"182\">B</text><text x=\"34\" y=\"40\">C</text></g><g><polygon class=\"nm\" data-nm=\"Góc CAB — đỉnh A ở giữa\" points=\"55,165 55,139 81,165\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc ABC — đỉnh B ở giữa\" points=\"200,165 174,165 180,148\" fill=\"#ff9800\" opacity=\"0.08\"/><polygon class=\"nm\" data-nm=\"Góc BCA — đỉnh C ở giữa\" points=\"55,45 75,62 55,71\" fill=\"#ff9800\" opacity=\"0.08\"/><line class=\"nm\" data-nm=\"Cạnh AB\" x1=\"55\" y1=\"165\" x2=\"200\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh BC\" x1=\"200\" y1=\"165\" x2=\"55\" y2=\"45\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><line class=\"nm\" data-nm=\"Cạnh CA\" x1=\"55\" y1=\"45\" x2=\"55\" y2=\"165\" stroke=\"#ff6d00\" stroke-width=\"13\" opacity=\"0\" stroke-linecap=\"round\"/><circle class=\"nm\" data-nm=\"Đỉnh A\" cx=\"55\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh B\" cx=\"200\" cy=\"165\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/><circle class=\"nm\" data-nm=\"Đỉnh C\" cx=\"55\" cy=\"45\" r=\"7\" fill=\"#ff6d00\" opacity=\"0\"/></g></svg>"
  },
-{
- "angles": [],
- "check": {
-  "answer": "2",
-  "q": "Rút gọn phân số 10/15, tử số của phân số tối giản là bao nhiêu?",
-  "unit": ""
- },
- "facts": [
-  "Phân số 3/4 có tử số là 3, mẫu số là 4. Tử số cho biết số phần đã tô màu, mẫu số cho biết hình được chia thành bao nhiêu phần bằng nhau.",
-  "Hai phân số bằng nhau khi chúng chỉ cùng một phần: 3/4 = 6/8, vì chia hình thành 8 phần rồi tô 6 phần cũng được đúng phần bánh như chia 4 phần tô 3 phần.",
-  "Muốn được phân số bằng phân số đã cho, ta nhân (hoặc chia) cả tử số và mẫu số cho cùng một số khác 0. Ví dụ: 3/4 = (3 × 2)/(4 × 2) = 6/8.",
-  "Rút gọn phân số là chia cả tử số và mẫu số cho ước chung lớn nhất của chúng. Ví dụ: 6/8 = (6 : 2)/(8 : 2) = 3/4, vì ƯCLN(6; 8) = 2.",
-  "Muốn quy đồng mẫu số hai phân số, ta tìm mẫu số chung rồi nhân cả tử và mẫu của mỗi phân số để có cùng mẫu số đó. Ví dụ: 1/2 và 1/3 quy đồng thành 3/6 và 2/6 (mẫu chung 6)."
- ],
- "formulas": [
-  {
-   "f": "a/b = (a × m)/(b × m) = (a : n)/(b : n)",
-   "label": "Phân số bằng nhau",
-   "note": "m, n khác 0; chia chỉ khi tử và mẫu cùng chia hết"
+ {
+  "angles": [],
+  "check": {
+   "answer": "2",
+   "q": "Rút gọn phân số 10/15, tử số của phân số tối giản là bao nhiêu?",
+   "unit": ""
   },
-  {
-   "f": "6/8 = 3/4",
-   "label": "Rút gọn",
-   "note": "chia cả tử và mẫu cho ƯCLN(6; 8) = 2"
-  }
- ],
- "id": "phan-so",
- "info": "🔤 Bấm vào một phần tô màu trên hình để xem giải thích.",
- "intro": "👆 Bấm vào các phần tô màu để xem phân số tương ứng.<br>💡 Cùng một phần bánh, chia càng nhỏ thì số phần tô màu càng nhiều, nhưng giá trị phân số không đổi.",
- "links": [],
- "name": "Phân số bằng nhau",
- "svg": "<svg viewBox='0 0 300 130'><rect class='hot' data-f='0' x='20' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='0' x='80' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='0' x='140' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect x='200' y='20' width='60' height='40' fill='#ffffff' stroke='#e65100' stroke-width='2'/><text x='140' y='80' text-anchor='middle' font-size='18' font-weight='bold' fill='#333'>3/4</text><rect class='hot' data-f='1' x='20' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='50' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='80' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='110' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='140' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='170' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect x='200' y='95' width='30' height='30' fill='#ffffff' stroke='#1565c0' stroke-width='2'/><rect x='230' y='95' width='30' height='30' fill='#ffffff' stroke='#1565c0' stroke-width='2'/></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "13",
-  "q": "Đổi hỗn số 3 1/4 thành phân số, tử số là bao nhiêu?",
-  "unit": ""
+  "facts": [
+   "Phân số 3/4 có tử số là 3, mẫu số là 4. Tử số cho biết số phần đã tô màu, mẫu số cho biết hình được chia thành bao nhiêu phần bằng nhau.",
+   "Hai phân số bằng nhau khi chúng chỉ cùng một phần: 3/4 = 6/8, vì chia hình thành 8 phần rồi tô 6 phần cũng được đúng phần bánh như chia 4 phần tô 3 phần.",
+   "Muốn được phân số bằng phân số đã cho, ta nhân (hoặc chia) cả tử số và mẫu số cho cùng một số khác 0. Ví dụ: 3/4 = (3 × 2)/(4 × 2) = 6/8.",
+   "Rút gọn phân số là chia cả tử số và mẫu số cho ước chung lớn nhất của chúng. Ví dụ: 6/8 = (6 : 2)/(8 : 2) = 3/4, vì ƯCLN(6; 8) = 2.",
+   "Muốn quy đồng mẫu số hai phân số, ta tìm mẫu số chung rồi nhân cả tử và mẫu của mỗi phân số để có cùng mẫu số đó. Ví dụ: 1/2 và 1/3 quy đồng thành 3/6 và 2/6 (mẫu chung 6)."
+  ],
+  "formulas": [
+   {
+    "f": "a/b = (a × m)/(b × m) = (a : n)/(b : n)",
+    "label": "Phân số bằng nhau",
+    "note": "m, n khác 0; chia chỉ khi tử và mẫu cùng chia hết"
+   },
+   {
+    "f": "6/8 = 3/4",
+    "label": "Rút gọn",
+    "note": "chia cả tử và mẫu cho ƯCLN(6; 8) = 2"
+   }
+  ],
+  "id": "phan-so",
+  "info": "🔤 Bấm vào một phần tô màu trên hình để xem giải thích.",
+  "intro": "👆 Bấm vào các phần tô màu để xem phân số tương ứng.<br>💡 Cùng một phần bánh, chia càng nhỏ thì số phần tô màu càng nhiều, nhưng giá trị phân số không đổi.",
+  "links": [],
+  "name": "Phân số bằng nhau",
+  "svg": "<svg viewBox='0 0 300 150'><rect class='hot' data-f='0' x='20' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='0' x='80' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='0' x='140' y='20' width='60' height='40' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><rect x='200' y='20' width='60' height='40' fill='#ffffff' stroke='#e65100' stroke-width='2'/><text x='140' y='80' text-anchor='middle' font-size='18' font-weight='bold' fill='#333'>3/4</text><rect class='hot' data-f='1' x='20' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='50' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='80' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='110' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='140' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='170' y='95' width='30' height='30' fill='#81d4fa' stroke='#1565c0' stroke-width='2'/><rect x='200' y='95' width='30' height='30' fill='#ffffff' stroke='#1565c0' stroke-width='2'/><rect x='230' y='95' width='30' height='30' fill='#ffffff' stroke='#1565c0' stroke-width='2'/><g class='hot' data-f='2'><text x='278' y='78' text-anchor='middle' font-size='15' font-weight='bold' fill='#e65100'>×2</text></g><g class='hot' data-f='3'><text x='278' y='112' text-anchor='middle' font-size='15' font-weight='bold' fill='#e65100'>÷2</text></g><g class='hot' data-f='4'><text x='140' y='147' text-anchor='middle' font-size='14' fill='#1565c0'>Quy đồng: đưa về cùng mẫu số</text></g><g class='ovl' style='display:none'><rect x='20' y='20' width='240' height='40' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='20' y='95' width='240' height='30' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='20' y='95' width='240' height='30' fill='#ff9800' opacity='0.22'/></g></svg>"
  },
- "facts": [
-  "Hỗn số gồm phần nguyên và phần phân số bé hơn 1. Ví dụ: 2 1/3 đọc là 'hai và một phần ba': 2 là phần nguyên, 1/3 là phần phân số.",
-  "Muốn đổi hỗn số thành phân số, ta lấy phần nguyên nhân với mẫu số rồi cộng tử số, giữ nguyên mẫu số. Ví dụ: 2 1/3 = (2 × 3 + 1)/3 = 7/3.",
-  "Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh tử số: phân số nào có tử số lớn hơn thì lớn hơn. Ví dụ: 2/3 = 4/6 và 5/6, vì 4 < 5 nên 2/3 < 5/6.",
-  "Muốn so sánh hai hỗn số, ta so sánh phần nguyên trước: hỗn số nào có phần nguyên lớn hơn thì lớn hơn. Nếu phần nguyên bằng nhau thì so sánh phần phân số."
- ],
- "formulas": [
-  {
-   "f": "a b/c = (a × c + b)/c",
-   "label": "Đổi hỗn số",
-   "note": "a là phần nguyên, b/c là phần phân số"
+ {
+  "angles": [],
+  "check": {
+   "answer": "13",
+   "q": "Đổi hỗn số 3 1/4 thành phân số, tử số là bao nhiêu?",
+   "unit": ""
   },
-  {
-   "f": "2 1/3 = 7/3",
-   "label": "Ví dụ",
-   "note": "(2 × 3 + 1)/3 = 7/3"
-  }
- ],
- "id": "hon-so",
- "info": "🔤 Bấm vào một hình tròn để xem giải thích.",
- "intro": "👆 Hình vẽ 2 hình tròn đầy và 1/3 hình tròn, tức là hỗn số 2 1/3.<br>💡 Hỗn số là cách viết gọn của một số lớn hơn 1: phần nguyên cộng với phần phân số bé hơn 1.",
- "links": [],
- "name": "Hỗn số dương",
- "svg": "<svg viewBox='0 0 300 110'><circle class='hot' data-f='0' cx='50' cy='50' r='38' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><circle class='hot' data-f='0' cx='140' cy='50' r='38' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><path class='hot' data-f='0' d='M 230,50 L 230,12 A 38,38 0 0 1 263,69 Z' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><circle cx='230' cy='50' r='38' fill='none' stroke='#e65100' stroke-width='2'/><text x='150' y='105' text-anchor='middle' font-size='18' font-weight='bold' fill='#333'>2 1/3 = 7/3</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "3",
-  "q": "Trên hình có bao nhiêu điểm thuộc đường thẳng AB (gồm A, B và C)?",
-  "unit": "điểm"
+  "facts": [
+   "Hỗn số gồm phần nguyên và phần phân số bé hơn 1. Ví dụ: 2 1/3 đọc là 'hai và một phần ba': 2 là phần nguyên, 1/3 là phần phân số.",
+   "Muốn đổi hỗn số thành phân số, ta lấy phần nguyên nhân với mẫu số rồi cộng tử số, giữ nguyên mẫu số. Ví dụ: 2 1/3 = (2 × 3 + 1)/3 = 7/3.",
+   "Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh tử số: phân số nào có tử số lớn hơn thì lớn hơn. Ví dụ: 2/3 = 4/6 và 5/6, vì 4 < 5 nên 2/3 < 5/6.",
+   "Muốn so sánh hai hỗn số, ta so sánh phần nguyên trước: hỗn số nào có phần nguyên lớn hơn thì lớn hơn. Nếu phần nguyên bằng nhau thì so sánh phần phân số."
+  ],
+  "formulas": [
+   {
+    "f": "a b/c = (a × c + b)/c",
+    "label": "Đổi hỗn số",
+    "note": "a là phần nguyên, b/c là phần phân số"
+   },
+   {
+    "f": "2 1/3 = 7/3",
+    "label": "Ví dụ",
+    "note": "(2 × 3 + 1)/3 = 7/3"
+   }
+  ],
+  "id": "hon-so",
+  "info": "🔤 Bấm vào một hình tròn để xem giải thích.",
+  "intro": "👆 Hình vẽ 2 hình tròn đầy và 1/3 hình tròn, tức là hỗn số 2 1/3.<br>💡 Hỗn số là cách viết gọn của một số lớn hơn 1: phần nguyên cộng với phần phân số bé hơn 1.",
+  "links": [],
+  "name": "Hỗn số dương",
+  "svg": "<svg viewBox='0 0 300 135'><circle class='hot' data-f='0' cx='50' cy='50' r='38' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><circle class='hot' data-f='0' cx='140' cy='50' r='38' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><path class='hot' data-f='0' d='M 230,50 L 230,12 A 38,38 0 0 1 263,69 Z' fill='#ffcc80' stroke='#e65100' stroke-width='2'/><circle cx='230' cy='50' r='38' fill='none' stroke='#e65100' stroke-width='2'/><g class='hot' data-f='1'><text x='150' y='105' text-anchor='middle' font-size='18' font-weight='bold' fill='#333'>2 1/3 = 7/3</text></g><g class='hot' data-f='3'><text x='95' y='11' text-anchor='middle' font-size='12' font-weight='bold' fill='#2e7d32'>phần nguyên</text></g><g class='hot' data-f='2'><text x='150' y='132' text-anchor='middle' font-size='13' fill='#1565c0'>So sánh phân số: quy đồng rồi so tử</text></g><g class='ovl' style='display:none'><rect x='8' y='8' width='264' height='84' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='55' y='86' width='190' height='26' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Trên hình: điểm A, điểm B và điểm C đều thuộc đường thẳng AB; điểm D không thuộc đường thẳng AB.",
-  "Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng. Ví dụ: qua hai điểm A và B chỉ có đường thẳng AB, không có đường thẳng thứ hai nào khác cũng đi qua cả A và B.",
-  "Hai đường thẳng cắt nhau là hai đường thẳng có đúng một điểm chung. Trên hình: đường thẳng AB và đường thẳng CD cắt nhau tại điểm C.",
-  "Hai đường thẳng song song là hai đường thẳng không có điểm chung nào. Hai đường thẳng trùng nhau là hai đường thẳng có vô số điểm chung (chúng nằm đè lên nhau)."
- ],
- "formulas": [
-  {
-   "f": "Qua 2 điểm chỉ có 1 đường thẳng",
-   "label": "Đường thẳng qua 2 điểm",
-   "note": "A, B phân biệt → đường thẳng AB duy nhất"
+ {
+  "angles": [],
+  "check": {
+   "answer": "3",
+   "q": "Trên hình có bao nhiêu điểm thuộc đường thẳng AB (gồm A, B và C)?",
+   "unit": "điểm"
   },
-  {
-   "f": "Cắt nhau: 1 điểm chung",
-   "label": "Vị trí 2 đường thẳng",
-   "note": "song song: 0 điểm chung; trùng nhau: vô số điểm chung"
-  }
- ],
- "id": "diem-duong-thang",
- "info": "🔤 Bấm vào một điểm hoặc một đường thẳng trên hình để xem giải thích.",
- "intro": "👆 Bấm vào các điểm và đường thẳng để xem điểm nào thuộc đường thẳng nào.<br>💡 Điểm nằm trên đường thẳng thì thuộc đường thẳng đó; điểm nằm ngoài thì không thuộc.",
- "links": [],
- "name": "Điểm và đường thẳng",
- "svg": "<svg viewBox='0 0 300 170'><line class='hot' data-f='1' x1='15' y1='110' x2='285' y2='110' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='2' x1='120' y1='158' x2='180' y2='62' stroke='#1565c0' stroke-width='2'/><circle class='hot' data-f='0' cx='60' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='0' cx='150' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='150' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>C</text><circle class='hot' data-f='0' cx='240' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><circle class='hot' data-f='0' cx='180' cy='62' r='11' fill='#ffcdd2' stroke='#c62828' stroke-width='2'/><text x='180' y='50' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>D</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "2",
-  "q": "Một điểm O trên đường thẳng chia đường thẳng thành bao nhiêu tia gốc O?",
-  "unit": "tia"
+  "facts": [
+   "Điểm thuộc đường thẳng là điểm nằm trên đường thẳng đó. Trên hình: điểm A, điểm B và điểm C đều thuộc đường thẳng AB; điểm D không thuộc đường thẳng AB.",
+   "Qua hai điểm phân biệt chỉ vẽ được đúng một đường thẳng. Ví dụ: qua hai điểm A và B chỉ có đường thẳng AB, không có đường thẳng thứ hai nào khác cũng đi qua cả A và B.",
+   "Hai đường thẳng cắt nhau là hai đường thẳng có đúng một điểm chung. Trên hình: đường thẳng AB và đường thẳng CD cắt nhau tại điểm C.",
+   "Hai đường thẳng song song là hai đường thẳng không có điểm chung nào. Hai đường thẳng trùng nhau là hai đường thẳng có vô số điểm chung (chúng nằm đè lên nhau)."
+  ],
+  "formulas": [
+   {
+    "f": "Qua 2 điểm chỉ có 1 đường thẳng",
+    "label": "Đường thẳng qua 2 điểm",
+    "note": "A, B phân biệt → đường thẳng AB duy nhất"
+   },
+   {
+    "f": "Cắt nhau: 1 điểm chung",
+    "label": "Vị trí 2 đường thẳng",
+    "note": "song song: 0 điểm chung; trùng nhau: vô số điểm chung"
+   }
+  ],
+  "id": "diem-duong-thang",
+  "info": "🔤 Bấm vào một điểm hoặc một đường thẳng trên hình để xem giải thích.",
+  "intro": "👆 Bấm vào các điểm và đường thẳng để xem điểm nào thuộc đường thẳng nào.<br>💡 Điểm nằm trên đường thẳng thì thuộc đường thẳng đó; điểm nằm ngoài thì không thuộc.",
+  "links": [],
+  "name": "Điểm và đường thẳng",
+  "svg": "<svg viewBox='0 0 300 170'><line class='hot' data-f='1' x1='15' y1='110' x2='285' y2='110' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='2' x1='120' y1='158' x2='180' y2='62' stroke='#1565c0' stroke-width='2'/><circle class='hot' data-f='0' cx='60' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='0' cx='150' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='150' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>C</text><circle class='hot' data-f='0' cx='240' cy='110' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='138' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><circle class='hot' data-f='0' cx='180' cy='62' r='11' fill='#ffcdd2' stroke='#c62828' stroke-width='2'/><text x='180' y='50' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>D</text><line class='hot' data-f='3' x1='20' y1='25' x2='100' y2='25' stroke='#2e7d32' stroke-width='2'/><line class='hot' data-f='3' x1='20' y1='40' x2='100' y2='40' stroke='#2e7d32' stroke-width='2'/><text x='60' y='58' text-anchor='middle' font-size='12' fill='#2e7d32'>song song</text><g class='ovl' style='display:none'><rect x='8' y='96' width='284' height='28' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><circle cx='150' cy='110' r='20' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Tia là hình gồm một điểm gốc và một phía của đường thẳng. Tia OA có gốc là điểm O và đi qua điểm A, kéo dài mãi về phía A.",
-  "Điểm M nằm giữa hai điểm A và B khi M thuộc đoạn thẳng AB và M khác A, khác B. Trên hình, điểm O nằm giữa A và B vì O thuộc đoạn AB.",
-  "Hai tia đối nhau là hai tia chung gốc và nằm về hai phía ngược nhau của đường thẳng. Ví dụ: tia OA và tia OB đối nhau vì chung gốc O và ngược hướng nhau.",
-  "Mỗi điểm trên đường thẳng chia đường thẳng thành hai tia đối nhau. Điểm O chia đường thẳng AB thành tia OA và tia OB."
- ],
- "formulas": [
-  {
-   "f": "Tia OA, tia OB đối nhau",
-   "label": "Tia đối nhau",
-   "note": "chung gốc O, ngược hướng"
+ {
+  "angles": [],
+  "check": {
+   "answer": "2",
+   "q": "Một điểm O trên đường thẳng chia đường thẳng thành bao nhiêu tia gốc O?",
+   "unit": "tia"
   },
-  {
-   "f": "O nằm giữa A và B",
-   "label": "Điểm nằm giữa",
-   "note": "O thuộc đoạn AB, O khác A và B"
-  }
- ],
- "id": "tia",
- "info": "🔤 Bấm vào một điểm hoặc một tia trên hình để xem giải thích.",
- "intro": "👆 Điểm O nằm giữa A và B, chia đường thẳng thành hai tia OA và OB ngược hướng nhau.<br>💡 Tia chỉ kéo dài về một phía, bắt đầu từ điểm gốc.",
- "links": [],
- "name": "Tia",
- "svg": "<svg viewBox='0 0 300 90'><line x1='15' y1='45' x2='285' y2='45' stroke='#37474f' stroke-width='2'/><polygon points='285,39 298,45 285,51' fill='#37474f'/><polygon points='15,39 2,45 15,51' fill='#37474f'/><circle class='hot' data-f='1' cx='60' cy='45' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='1' cx='150' cy='45' r='11' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><circle class='hot' data-f='1' cx='240' cy='45' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><text x='105' y='30' text-anchor='middle' font-size='14' fill='#1565c0'>tia OA</text><text x='195' y='30' text-anchor='middle' font-size='14' fill='#1565c0'>tia OB</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "7",
-  "q": "Đoạn thẳng AB dài 14 cm, M là trung điểm của AB. MA dài bao nhiêu xăng-ti-mét?",
-  "unit": "cm"
+  "facts": [
+   "Tia là hình gồm một điểm gốc và một phía của đường thẳng. Tia OA có gốc là điểm O và đi qua điểm A, kéo dài mãi về phía A.",
+   "Điểm M nằm giữa hai điểm A và B khi M thuộc đoạn thẳng AB và M khác A, khác B. Trên hình, điểm O nằm giữa A và B vì O thuộc đoạn AB.",
+   "Hai tia đối nhau là hai tia chung gốc và nằm về hai phía ngược nhau của đường thẳng. Ví dụ: tia OA và tia OB đối nhau vì chung gốc O và ngược hướng nhau.",
+   "Mỗi điểm trên đường thẳng chia đường thẳng thành hai tia đối nhau. Điểm O chia đường thẳng AB thành tia OA và tia OB."
+  ],
+  "formulas": [
+   {
+    "f": "Tia OA, tia OB đối nhau",
+    "label": "Tia đối nhau",
+    "note": "chung gốc O, ngược hướng"
+   },
+   {
+    "f": "O nằm giữa A và B",
+    "label": "Điểm nằm giữa",
+    "note": "O thuộc đoạn AB, O khác A và B"
+   }
+  ],
+  "id": "tia",
+  "info": "🔤 Bấm vào một điểm hoặc một tia trên hình để xem giải thích.",
+  "intro": "👆 Điểm O nằm giữa A và B, chia đường thẳng thành hai tia OA và OB ngược hướng nhau.<br>💡 Tia chỉ kéo dài về một phía, bắt đầu từ điểm gốc.",
+  "links": [],
+  "name": "Tia",
+  "svg": "<svg viewBox='0 0 300 110'><line x1='15' y1='45' x2='285' y2='45' stroke='#37474f' stroke-width='2'/><polygon class='hot' data-f='2' points='285,39 298,45 285,51' fill='#37474f'/><polygon class='hot' data-f='0' points='15,39 2,45 15,51' fill='#37474f'/><circle class='hot' data-f='1' cx='60' cy='45' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='60' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='1' cx='150' cy='45' r='11' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><circle class='hot' data-f='1' cx='240' cy='45' r='11' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='240' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><g class='hot' data-f='0'><text x='105' y='30' text-anchor='middle' font-size='14' fill='#1565c0'>tia OA</text></g><g class='hot' data-f='2'><text x='195' y='30' text-anchor='middle' font-size='14' fill='#1565c0'>tia OB</text></g><g class='hot' data-f='3'><text x='150' y='104' text-anchor='middle' font-size='13' fill='#37474f'>O chia đường thẳng thành hai tia đối nhau</text></g><g class='ovl' style='display:none'><rect x='2' y='33' width='296' height='24' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><circle cx='150' cy='45' r='18' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Đoạn thẳng AB là hình gồm hai điểm A, B và tất cả các điểm nằm giữa A và B. Độ dài đoạn thẳng AB là khoảng cách từ A đến B, ví dụ AB = 10 cm.",
-  "Điểm M là trung điểm của đoạn thẳng AB khi M nằm giữa A và B và MA = MB (M cách đều hai đầu). Trên hình: MA = MB = 5 cm.",
-  "Khi M là trung điểm của AB thì MA = MB = AB : 2. Ví dụ: AB = 10 cm thì MA = MB = 10 : 2 = 5 cm.",
-  "Muốn tìm trung điểm, ta đo độ dài AB rồi chia đôi: điểm cách A một nửa độ dài AB chính là trung điểm. Ví dụ: AB = 12 cm thì trung điểm cách A 6 cm."
- ],
- "formulas": [
-  {
-   "f": "MA = MB = AB : 2",
-   "label": "Trung điểm",
-   "note": "M nằm giữa A, B và cách đều hai đầu"
+ {
+  "angles": [],
+  "check": {
+   "answer": "7",
+   "q": "Đoạn thẳng AB dài 14 cm, M là trung điểm của AB. MA dài bao nhiêu xăng-ti-mét?",
+   "unit": "cm"
   },
-  {
-   "f": "AB = 10 cm → MA = 5 cm",
-   "label": "Ví dụ",
-   "note": "10 : 2 = 5"
-  }
- ],
- "id": "doan-thang-trung-diem",
- "info": "🔤 Bấm vào một điểm hoặc một đoạn trên hình để xem giải thích.",
- "intro": "👆 Điểm M nằm giữa A và B, chia đoạn AB thành hai đoạn bằng nhau MA = MB = 5 cm.<br>💡 Trung điểm là điểm chính giữa: vừa nằm giữa, vừa cách đều hai đầu.",
- "links": [],
- "name": "Đoạn thẳng và trung điểm",
- "svg": "<svg viewBox='0 0 300 90'><line class='hot' data-f='0' x1='30' y1='45' x2='270' y2='45' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='1' x1='148' y1='38' x2='152' y2='52' stroke='#c62828' stroke-width='2'/><circle class='hot' data-f='0' cx='30' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='30' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='1' cx='150' cy='45' r='10' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>M</text><circle class='hot' data-f='0' cx='270' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='270' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><text x='90' y='30' text-anchor='middle' font-size='14' fill='#333'>5 cm</text><text x='210' y='30' text-anchor='middle' font-size='14' fill='#333'>5 cm</text></svg>"
-},
-{
- "angles": [
-  {
-   "name": "xOy",
-   "sides": [
-    "Ox",
-    "Oy"
-   ],
-   "v": "O"
-  }
- ],
- "check": {
-  "answer": "90",
-  "q": "Góc vuông có số đo bao nhiêu độ?",
-  "unit": "độ"
+  "facts": [
+   "Đoạn thẳng AB là hình gồm hai điểm A, B và tất cả các điểm nằm giữa A và B. Độ dài đoạn thẳng AB là khoảng cách từ A đến B, ví dụ AB = 10 cm.",
+   "Điểm M là trung điểm của đoạn thẳng AB khi M nằm giữa A và B và MA = MB (M cách đều hai đầu). Trên hình: MA = MB = 5 cm.",
+   "Khi M là trung điểm của AB thì MA = MB = AB : 2. Ví dụ: AB = 10 cm thì MA = MB = 10 : 2 = 5 cm.",
+   "Muốn tìm trung điểm, ta đo độ dài AB rồi chia đôi: điểm cách A một nửa độ dài AB chính là trung điểm. Ví dụ: AB = 12 cm thì trung điểm cách A 6 cm."
+  ],
+  "formulas": [
+   {
+    "f": "MA = MB = AB : 2",
+    "label": "Trung điểm",
+    "note": "M nằm giữa A, B và cách đều hai đầu"
+   },
+   {
+    "f": "AB = 10 cm → MA = 5 cm",
+    "label": "Ví dụ",
+    "note": "10 : 2 = 5"
+   }
+  ],
+  "id": "doan-thang-trung-diem",
+  "info": "🔤 Bấm vào một điểm hoặc một đoạn trên hình để xem giải thích.",
+  "intro": "👆 Điểm M nằm giữa A và B, chia đoạn AB thành hai đoạn bằng nhau MA = MB = 5 cm.<br>💡 Trung điểm là điểm chính giữa: vừa nằm giữa, vừa cách đều hai đầu.",
+  "links": [],
+  "name": "Đoạn thẳng và trung điểm",
+  "svg": "<svg viewBox='0 0 300 110'><line class='hot' data-f='0' x1='30' y1='45' x2='270' y2='45' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='1' x1='148' y1='38' x2='152' y2='52' stroke='#c62828' stroke-width='2'/><circle class='hot' data-f='0' cx='30' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='30' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>A</text><circle class='hot' data-f='1' cx='150' cy='45' r='10' fill='#ffe082' stroke='#e65100' stroke-width='2'/><text x='150' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>M</text><circle class='hot' data-f='0' cx='270' cy='45' r='10' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='270' y='73' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>B</text><g class='hot' data-f='2'><text x='90' y='30' text-anchor='middle' font-size='14' fill='#333'>5 cm</text></g><g class='hot' data-f='2'><text x='210' y='30' text-anchor='middle' font-size='14' fill='#333'>5 cm</text></g><g class='hot' data-f='3'><text x='150' y='104' text-anchor='middle' font-size='13' fill='#37474f'>Đo AB rồi chia đôi để tìm trung điểm</text></g><g class='ovl' style='display:none'><rect x='28' y='34' width='122' height='22' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='150' y='34' width='122' height='22' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='28' y='18' width='122' height='38' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Góc là hình gồm hai tia chung gốc. Góc xOy có đỉnh là điểm O (điểm chung) và hai cạnh là tia Ox và tia Oy.",
-  "Đọc tên góc bằng 3 chữ: chữ ở giữa là đỉnh. Ví dụ: góc xOy đọc là 'x-O-y', đỉnh O ở giữa, hai cạnh là Ox và Oy.",
-  "Góc vuông có số đo bằng 90°. Góc nhọn có số đo nhỏ hơn 90° (ví dụ 60°). Góc tù có số đo lớn hơn 90° và nhỏ hơn 180° (ví dụ 120°). Góc bẹt có số đo bằng 180°.",
-  "Muốn biết góc thuộc loại nào, ta so sánh số đo của nó với 90° và 180°: nhỏ hơn 90° là nhọn, bằng 90° là vuông, giữa 90° và 180° là tù, bằng 180° là bẹt."
- ],
- "formulas": [
-  {
-   "f": "Nhọn < 90° < Tù < 180°",
-   "label": "Phân loại góc",
-   "note": "vuông = 90°, bẹt = 180°"
+ {
+  "angles": [
+   {
+    "name": "xOy",
+    "sides": [
+     "Ox",
+     "Oy"
+    ],
+    "v": "O"
+   }
+  ],
+  "check": {
+   "answer": "90",
+   "q": "Góc vuông có số đo bao nhiêu độ?",
+   "unit": "độ"
   },
-  {
-   "f": "Góc xOy = 60°",
-   "label": "Ví dụ",
-   "note": "60° < 90° nên là góc nhọn"
-  }
- ],
- "id": "goc",
- "info": "🔤 Bấm vào góc xOy trên hình để xem tên góc.",
- "intro": "👆 Bấm vào góc xOy để xem đỉnh và hai cạnh của nó.<br>💡 Đọc tên góc: chữ ở giữa luôn là đỉnh.",
- "links": [],
- "name": "Góc",
- "svg": "<svg viewBox='0 0 300 190'><line x1='60' y1='80' x2='250' y2='80' stroke='#37474f' stroke-width='2'/><line x1='60' y1='80' x2='160' y2='10' stroke='#37474f' stroke-width='2'/><g class='ang' data-v='O' data-info='Góc xOy — đỉnh O, hai cạnh Ox và Oy. Số đo 60° nên đây là góc nhọn'><path class='ang-w' d='M 60,80 L 90.0,80.0 A 30,30 0 0 0 75.0,54.0 Z'/><line class='ang-s' x1='60' y1='80' x2='250' y2='80'/><line class='ang-s' x1='60' y1='80' x2='160' y2='10'/><circle class='ang-w' cx='60' cy='80' r='16'/></g><text class='avtx' data-v='O' x='48' y='100' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><text x='255' y='85' font-size='16' fill='#333'>x</text><text x='165' y='12' font-size='16' fill='#333'>y</text><text x='105' y='72' font-size='14' fill='#c62828'>60°</text><text x='20' y='130' font-size='14' fill='#333'>Nhọn 45°</text><text x='110' y='130' font-size='14' fill='#333'>Vuông 90°</text><text x='200' y='130' font-size='14' fill='#333'>Tù 120°</text><text x='20' y='175' font-size='14' fill='#333'>Bẹt 180°: hai tia ngược hướng nhau</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "180",
-  "q": "Góc bẹt có số đo bao nhiêu độ?",
-  "unit": "độ"
+  "facts": [
+   "Góc là hình gồm hai tia chung gốc. Góc xOy có đỉnh là điểm O (điểm chung) và hai cạnh là tia Ox và tia Oy.",
+   "Đọc tên góc bằng 3 chữ: chữ ở giữa là đỉnh. Ví dụ: góc xOy đọc là 'x-O-y', đỉnh O ở giữa, hai cạnh là Ox và Oy.",
+   "Góc vuông có số đo bằng 90°. Góc nhọn có số đo nhỏ hơn 90° (ví dụ 60°). Góc tù có số đo lớn hơn 90° và nhỏ hơn 180° (ví dụ 120°). Góc bẹt có số đo bằng 180°.",
+   "Muốn biết góc thuộc loại nào, ta so sánh số đo của nó với 90° và 180°: nhỏ hơn 90° là nhọn, bằng 90° là vuông, giữa 90° và 180° là tù, bằng 180° là bẹt."
+  ],
+  "formulas": [
+   {
+    "f": "Nhọn < 90° < Tù < 180°",
+    "label": "Phân loại góc",
+    "note": "vuông = 90°, bẹt = 180°"
+   },
+   {
+    "f": "Góc xOy = 60°",
+    "label": "Ví dụ",
+    "note": "60° < 90° nên là góc nhọn"
+   }
+  ],
+  "id": "goc",
+  "info": "🔤 Bấm vào góc xOy trên hình để xem tên góc.",
+  "intro": "👆 Bấm vào góc xOy để xem đỉnh và hai cạnh của nó.<br>💡 Đọc tên góc: chữ ở giữa luôn là đỉnh.",
+  "links": [],
+  "name": "Góc",
+  "svg": "<svg viewBox='0 0 300 190'><line x1='60' y1='80' x2='250' y2='80' stroke='#37474f' stroke-width='2'/><line x1='60' y1='80' x2='160' y2='10' stroke='#37474f' stroke-width='2'/><g class='ang hot' data-f='0' data-v='O' data-info='Góc xOy — đỉnh O, hai cạnh Ox và Oy. Số đo 60° nên đây là góc nhọn'><path class='ang-w' d='M 60,80 L 90.0,80.0 A 30,30 0 0 0 75.0,54.0 Z'/><line class='ang-s' x1='60' y1='80' x2='250' y2='80'/><line class='ang-s' x1='60' y1='80' x2='160' y2='10'/><circle class='ang-w' cx='60' cy='80' r='16'/></g><text class='avtx' data-v='O' x='48' y='100' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O</text><g class='hot' data-f='1'><text x='255' y='85' font-size='16' fill='#333'>x</text></g><g class='hot' data-f='1'><text x='165' y='12' font-size='16' fill='#333'>y</text></g><text x='105' y='72' font-size='14' fill='#c62828'>60°</text><g class='hot' data-f='2'><text x='20' y='130' font-size='14' fill='#333'>Nhọn 45°</text></g><g class='hot' data-f='2'><text x='110' y='130' font-size='14' fill='#333'>Vuông 90°</text></g><g class='hot' data-f='2'><text x='200' y='130' font-size='14' fill='#333'>Tù 120°</text></g><g class='hot' data-f='3'><text x='20' y='175' font-size='14' fill='#333'>Bẹt 180°: hai tia ngược hướng nhau</text></g><g class='ovl' style='display:none'><rect x='10' y='108' width='280' height='78' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='50' y='2' width='210' height='88' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Muốn đo góc xOy, ta đặt tâm của thước đo góc trùng với đỉnh O, vạch 0° của thước trùng với một cạnh (ví dụ cạnh Ox), rồi đọc số đo ở vị trí cạnh còn lại (Oy) chỉ vào.",
-  "Đơn vị đo góc là độ (°). Góc xOy trên hình đo được 60°, ta viết: góc xOy = 60°.",
-  "Khi tia Oy nằm giữa hai tia Ox và Oz thì góc xOz = góc xOy + góc yOz. Ví dụ: góc xOy = 50°, góc yOz = 70° thì góc xOz = 50° + 70° = 120°.",
-  "Góc vuông bằng 90°, góc bẹt bằng 180°. Vì vậy góc bẹt gấp đôi góc vuông: 180° : 90° = 2 (lần)."
- ],
- "formulas": [
-  {
-   "f": "góc xOz = góc xOy + góc yOz",
-   "label": "Cộng góc",
-   "note": "khi Oy nằm giữa Ox và Oz"
+ {
+  "angles": [],
+  "check": {
+   "answer": "180",
+   "q": "Góc bẹt có số đo bao nhiêu độ?",
+   "unit": "độ"
   },
-  {
-   "f": "góc xOy = 60°",
-   "label": "Ví dụ đo góc",
-   "note": "tâm thước trùng đỉnh O, vạch 0 trùng cạnh Ox"
-  }
- ],
- "id": "so-do-goc",
- "info": "🔤 Bấm vào thước đo góc để xem cách đặt thước.",
- "intro": "👆 Thước đo góc đặt đúng khi tâm thước trùng đỉnh O và vạch 0 trùng cạnh Ox.<br>💡 Đọc số đo ở vị trí cạnh còn lại chỉ vào.",
- "links": [],
- "name": "Số đo góc",
- "svg": "<svg viewBox='0 0 300 150'><path class='hot' data-f='0' d='M 50,120 A 100,100 0 0 1 250,120 Z' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><line x1='50' y1='120' x2='250' y2='120' stroke='#1565c0' stroke-width='2'/><line class='hot' data-f='1' x1='150' y1='120' x2='200' y2='33' stroke='#c62828' stroke-width='2'/><text x='150' y='140' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O (tâm thước)</text><text x='255' y='125' font-size='14' fill='#333'>0° (trùng Ox)</text><text x='205' y='28' font-size='14' fill='#333'>Oy: 60°</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "12",
-  "q": "Trên biểu đồ, số học sinh thích bóng đá là bao nhiêu?",
-  "unit": "học sinh"
+  "facts": [
+   "Muốn đo góc xOy, ta đặt tâm của thước đo góc trùng với đỉnh O, vạch 0° của thước trùng với một cạnh (ví dụ cạnh Ox), rồi đọc số đo ở vị trí cạnh còn lại (Oy) chỉ vào.",
+   "Đơn vị đo góc là độ (°). Góc xOy trên hình đo được 60°, ta viết: góc xOy = 60°.",
+   "Khi tia Oy nằm giữa hai tia Ox và Oz thì góc xOz = góc xOy + góc yOz. Ví dụ: góc xOy = 50°, góc yOz = 70° thì góc xOz = 50° + 70° = 120°.",
+   "Góc vuông bằng 90°, góc bẹt bằng 180°. Vì vậy góc bẹt gấp đôi góc vuông: 180° : 90° = 2 (lần)."
+  ],
+  "formulas": [
+   {
+    "f": "góc xOz = góc xOy + góc yOz",
+    "label": "Cộng góc",
+    "note": "khi Oy nằm giữa Ox và Oz"
+   },
+   {
+    "f": "góc xOy = 60°",
+    "label": "Ví dụ đo góc",
+    "note": "tâm thước trùng đỉnh O, vạch 0 trùng cạnh Ox"
+   }
+  ],
+  "id": "so-do-goc",
+  "info": "🔤 Bấm vào thước đo góc để xem cách đặt thước.",
+  "intro": "👆 Thước đo góc đặt đúng khi tâm thước trùng đỉnh O và vạch 0 trùng cạnh Ox.<br>💡 Đọc số đo ở vị trí cạnh còn lại chỉ vào.",
+  "links": [],
+  "name": "Số đo góc",
+  "svg": "<svg viewBox='0 0 300 150'><path class='hot' data-f='0' d='M 50,120 A 100,100 0 0 1 250,120 Z' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><line class='hot' data-f='3' x1='50' y1='120' x2='250' y2='120' stroke='#1565c0' stroke-width='2'/><line class='hot' data-f='1' x1='150' y1='120' x2='200' y2='33' stroke='#c62828' stroke-width='2'/><text x='150' y='140' text-anchor='middle' font-size='16' font-weight='bold' fill='#333'>O (tâm thước)</text><text x='255' y='125' font-size='14' fill='#333'>0° (trùng Ox)</text><text x='205' y='28' font-size='14' fill='#333'>Oy: 60°</text><line class='hot' data-f='2' x1='150' y1='120' x2='100' y2='33' stroke='#2e7d32' stroke-width='2'/><g class='hot' data-f='2'><text x='92' y='28' font-size='14' fill='#2e7d32'>Oz</text></g><g class='ovl' style='display:none'><rect x='40' y='20' width='220' height='110' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='145' y='18' width='120' height='112' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Biểu đồ cột dùng các cột hình chữ nhật để biểu diễn số liệu. Trục ngang ghi tên đối tượng (môn thể thao), trục dọc ghi số lượng (số học sinh).",
-  "Muốn đọc số liệu, ta nhìn đầu trên của cột rồi gióng sang trục dọc. Ví dụ: cột Bóng đá cao tới vạch 12 nên có 12 học sinh thích bóng đá.",
-  "Cột nào cao hơn thì số liệu lớn hơn. Trên hình: cột Bóng đá (12) cao nhất nên bóng đá được nhiều học sinh thích nhất; cột Bơi (6) thấp nhất.",
-  "Muốn so sánh hai đối tượng, ta lấy số liệu cột cao trừ số liệu cột thấp. Ví dụ: thích chạy (10) nhiều hơn thích bơi (6) là 10 − 6 = 4 (học sinh)."
- ],
- "formulas": [
-  {
-   "f": "Cột cao hơn = số lớn hơn",
-   "label": "Đọc biểu đồ",
-   "note": "gióng đầu cột sang trục dọc để đọc số"
+ {
+  "angles": [],
+  "check": {
+   "answer": "12",
+   "q": "Trên biểu đồ, số học sinh thích bóng đá là bao nhiêu?",
+   "unit": "học sinh"
   },
-  {
-   "f": "10 − 6 = 4",
-   "label": "Ví dụ so sánh",
-   "note": "chạy 10, bơi 6 → chạy hơn bơi 4 học sinh"
-  }
- ],
- "id": "bieu-do-cot",
- "info": "🔤 Bấm vào một cột để xem số liệu của cột đó.",
- "intro": "👆 Bấm vào từng cột để xem môn thể thao và số học sinh tương ứng.<br>💡 Cột càng cao thì số học sinh càng nhiều.",
- "links": [],
- "name": "Biểu đồ cột",
- "svg": "<svg viewBox='0 0 300 170'><line x1='30' y1='140' x2='290' y2='140' stroke='#37474f' stroke-width='2'/><line x1='30' y1='140' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect class='hot' data-f='1' x='55' y='20' width='40' height='120' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='2' x='115' y='60' width='40' height='80' fill='#66bb6a' stroke='#2e7d32' stroke-width='2'/><rect class='hot' data-f='2' x='175' y='80' width='40' height='60' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='3' x='235' y='40' width='40' height='100' fill='#ab47bc' stroke='#6a1b9a' stroke-width='2'/><text x='75' y='158' text-anchor='middle' font-size='12' fill='#333'>Bóng đá 12</text><text x='135' y='158' text-anchor='middle' font-size='12' fill='#333'>Cầu lông 8</text><text x='195' y='158' text-anchor='middle' font-size='12' fill='#333'>Bơi 6</text><text x='255' y='158' text-anchor='middle' font-size='12' fill='#333'>Chạy 10</text></svg>"
-},
-{
- "angles": [],
- "check": {
-  "answer": "11",
-  "q": "Lớp 6A học kì 2 có bao nhiêu học sinh giỏi?",
-  "unit": "học sinh"
+  "facts": [
+   "Biểu đồ cột dùng các cột hình chữ nhật để biểu diễn số liệu. Trục ngang ghi tên đối tượng (môn thể thao), trục dọc ghi số lượng (số học sinh).",
+   "Muốn đọc số liệu, ta nhìn đầu trên của cột rồi gióng sang trục dọc. Ví dụ: cột Bóng đá cao tới vạch 12 nên có 12 học sinh thích bóng đá.",
+   "Cột nào cao hơn thì số liệu lớn hơn. Trên hình: cột Bóng đá (12) cao nhất nên bóng đá được nhiều học sinh thích nhất; cột Bơi (6) thấp nhất.",
+   "Muốn so sánh hai đối tượng, ta lấy số liệu cột cao trừ số liệu cột thấp. Ví dụ: thích chạy (10) nhiều hơn thích bơi (6) là 10 − 6 = 4 (học sinh)."
+  ],
+  "formulas": [
+   {
+    "f": "Cột cao hơn = số lớn hơn",
+    "label": "Đọc biểu đồ",
+    "note": "gióng đầu cột sang trục dọc để đọc số"
+   },
+   {
+    "f": "10 − 6 = 4",
+    "label": "Ví dụ so sánh",
+    "note": "chạy 10, bơi 6 → chạy hơn bơi 4 học sinh"
+   }
+  ],
+  "id": "bieu-do-cot",
+  "info": "🔤 Bấm vào một cột để xem số liệu của cột đó.",
+  "intro": "👆 Bấm vào từng cột để xem môn thể thao và số học sinh tương ứng.<br>💡 Cột càng cao thì số học sinh càng nhiều.",
+  "links": [],
+  "name": "Biểu đồ cột",
+  "svg": "<svg viewBox='0 0 300 170'><line class='hot' data-f='0' x1='30' y1='140' x2='290' y2='140' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='0' x1='30' y1='140' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect class='hot' data-f='1' x='55' y='20' width='40' height='120' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='2' x='115' y='60' width='40' height='80' fill='#66bb6a' stroke='#2e7d32' stroke-width='2'/><rect class='hot' data-f='2' x='175' y='80' width='40' height='60' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='3' x='235' y='40' width='40' height='100' fill='#ab47bc' stroke='#6a1b9a' stroke-width='2'/><text x='75' y='158' text-anchor='middle' font-size='12' fill='#333'>Bóng đá 12</text><text x='135' y='158' text-anchor='middle' font-size='12' fill='#333'>Cầu lông 8</text><text x='195' y='158' text-anchor='middle' font-size='12' fill='#333'>Bơi 6</text><text x='255' y='158' text-anchor='middle' font-size='12' fill='#333'>Chạy 10</text><g class='ovl' style='display:none'><rect x='50' y='15' width='50' height='130' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><line x1='30' y1='20' x2='55' y2='20' stroke='#ff9800' stroke-width='3' stroke-dasharray='5 4'/></g><g class='ovl' style='display:none'><rect x='170' y='75' width='50' height='70' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='230' y='35' width='50' height='110' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
  },
- "facts": [
-  "Biểu đồ cột kép dùng hai cột đặt cạnh nhau cho mỗi đối tượng để so sánh hai nhóm số liệu. Trên hình: mỗi lớp có hai cột — cột xanh là học kì 1, cột cam là học kì 2.",
-  "Muốn đọc số liệu, trước hết xem chú thích để biết màu nào ứng với nhóm nào, rồi mới gióng đầu cột sang trục dọc. Ví dụ: cột cam của lớp 6A cao tới 11 nên lớp 6A học kì 2 có 11 học sinh giỏi.",
-  "Cột kép giúp so sánh trong cùng một lớp (học kì 1 với học kì 2) và so sánh giữa các lớp với nhau. Ví dụ: lớp 6B tăng từ 6 lên 9, tức tăng 9 − 6 = 3 (học sinh giỏi).",
-  "Muốn tính tổng của một nhóm, ta cộng số liệu của nhóm đó ở mọi đối tượng. Ví dụ: tổng học sinh giỏi học kì 2 của ba lớp là 11 + 9 + 7 = 27 (học sinh)."
- ],
- "formulas": [
-  {
-   "f": "9 − 6 = 3",
-   "label": "Ví dụ so sánh",
-   "note": "lớp 6B: HK1 6, HK2 9 → tăng 3"
+ {
+  "angles": [],
+  "check": {
+   "answer": "11",
+   "q": "Lớp 6A học kì 2 có bao nhiêu học sinh giỏi?",
+   "unit": "học sinh"
   },
-  {
-   "f": "11 + 9 + 7 = 27",
-   "label": "Ví dụ tính tổng",
-   "note": "tổng học sinh giỏi HK2 của 3 lớp"
-  }
- ],
- "id": "bieu-do-cot-kep",
- "info": "🔤 Bấm vào một cột để xem số liệu của cột đó. Chú thích: xanh = học kì 1, cam = học kì 2.",
- "intro": "👆 Mỗi lớp có hai cột: xanh là học kì 1, cam là học kì 2.<br>💡 Đọc chú thích màu trước rồi mới đọc số.",
- "links": [],
- "name": "Biểu đồ cột kép",
- "svg": "<svg viewBox='0 0 300 180'><line x1='30' y1='150' x2='290' y2='150' stroke='#37474f' stroke-width='2'/><line x1='30' y1='150' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect class='hot' data-f='1' x='50' y='70' width='28' height='80' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='80' y='40' width='28' height='110' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='2' x='140' y='90' width='28' height='60' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='2' x='170' y='60' width='28' height='90' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='3' x='230' y='80' width='28' height='70' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='3' x='260' y='80' width='28' height='70' fill='#ffa726' stroke='#e65100' stroke-width='2'/><text x='79' y='168' text-anchor='middle' font-size='12' fill='#333'>6A: 8, 11</text><text x='169' y='168' text-anchor='middle' font-size='12' fill='#333'>6B: 6, 9</text><text x='259' y='168' text-anchor='middle' font-size='12' fill='#333'>6C: 7, 7</text></svg>"
-}
+  "facts": [
+   "Biểu đồ cột kép dùng hai cột đặt cạnh nhau cho mỗi đối tượng để so sánh hai nhóm số liệu. Trên hình: mỗi lớp có hai cột — cột xanh là học kì 1, cột cam là học kì 2.",
+   "Muốn đọc số liệu, trước hết xem chú thích để biết màu nào ứng với nhóm nào, rồi mới gióng đầu cột sang trục dọc. Ví dụ: cột cam của lớp 6A cao tới 11 nên lớp 6A học kì 2 có 11 học sinh giỏi.",
+   "Cột kép giúp so sánh trong cùng một lớp (học kì 1 với học kì 2) và so sánh giữa các lớp với nhau. Ví dụ: lớp 6B tăng từ 6 lên 9, tức tăng 9 − 6 = 3 (học sinh giỏi).",
+   "Muốn tính tổng của một nhóm, ta cộng số liệu của nhóm đó ở mọi đối tượng. Ví dụ: tổng học sinh giỏi học kì 2 của ba lớp là 11 + 9 + 7 = 27 (học sinh)."
+  ],
+  "formulas": [
+   {
+    "f": "9 − 6 = 3",
+    "label": "Ví dụ so sánh",
+    "note": "lớp 6B: HK1 6, HK2 9 → tăng 3"
+   },
+   {
+    "f": "11 + 9 + 7 = 27",
+    "label": "Ví dụ tính tổng",
+    "note": "tổng học sinh giỏi HK2 của 3 lớp"
+   }
+  ],
+  "id": "bieu-do-cot-kep",
+  "info": "🔤 Bấm vào một cột để xem số liệu của cột đó. Chú thích: xanh = học kì 1, cam = học kì 2.",
+  "intro": "👆 Mỗi lớp có hai cột: xanh là học kì 1, cam là học kì 2.<br>💡 Đọc chú thích màu trước rồi mới đọc số.",
+  "links": [],
+  "name": "Biểu đồ cột kép",
+  "svg": "<svg viewBox='0 0 300 180'><line class='hot' data-f='0' x1='30' y1='150' x2='290' y2='150' stroke='#37474f' stroke-width='2'/><line class='hot' data-f='0' x1='30' y1='150' x2='30' y2='10' stroke='#37474f' stroke-width='2'/><rect class='hot' data-f='1' x='50' y='70' width='28' height='80' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='1' x='80' y='40' width='28' height='110' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='2' x='140' y='90' width='28' height='60' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='2' x='170' y='60' width='28' height='90' fill='#ffa726' stroke='#e65100' stroke-width='2'/><rect class='hot' data-f='3' x='230' y='80' width='28' height='70' fill='#42a5f5' stroke='#1565c0' stroke-width='2'/><rect class='hot' data-f='3' x='260' y='80' width='28' height='70' fill='#ffa726' stroke='#e65100' stroke-width='2'/><text x='79' y='168' text-anchor='middle' font-size='12' fill='#333'>6A: 8, 11</text><text x='169' y='168' text-anchor='middle' font-size='12' fill='#333'>6B: 6, 9</text><text x='259' y='168' text-anchor='middle' font-size='12' fill='#333'>6C: 7, 7</text><g class='ovl' style='display:none'><rect x='135' y='85' width='38' height='65' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='165' y='55' width='38' height='95' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g><g class='ovl' style='display:none'><rect x='75' y='35' width='38' height='115' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='165' y='55' width='38' height='95' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/><rect x='255' y='75' width='38' height='75' fill='none' stroke='#ff9800' stroke-width='5' opacity='0.65'/></g></svg>"
+ }
 ]
