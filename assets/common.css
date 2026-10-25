@@ -234,3 +234,6 @@ figcaption{font-size:15px}
 @media (max-width:480px){
 .fc-btns .fc-ok,.fc-btns .fc-no{min-width:0;flex:1 1 140px}
 }
+
+/* Footer nguồn dưới ảnh: ẩn, trừ dòng ghi công giấy phép CC (class lic) */
+figcaption .src:not(.lic){display:none!important}
