@@ -205,9 +205,10 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .tabbar::-webkit-scrollbar{display:none}
 .tabbtn{flex:1 0 auto;min-height:48px;padding:9px 10px;border-radius:12px;font-size:16px;font-weight:600;font-family:inherit;cursor:pointer;background:#fff;border:2px solid #90a4ae;color:#37474f;white-space:nowrap}
 .tabbtn.on{background:#2e7d32;border-color:#2e7d32;color:#fff}
-#tabLyThuyet,#tabLuyen,#tabKiemTra,#tabFlash{display:none}
-body.tab-lythuyet #tabHoc,body.tab-luyen #tabHoc,body.tab-kiemtra #tabHoc{display:none}
+#tabLyThuyet,#tabTongHop,#tabLuyen,#tabKiemTra,#tabFlash{display:none}
+body.tab-lythuyet #tabHoc,body.tab-tonghop #tabHoc,body.tab-luyen #tabHoc,body.tab-kiemtra #tabHoc{display:none}
 body.tab-lythuyet #tabLyThuyet{display:block}
+body.tab-tonghop #tabTongHop{display:block}
 body.tab-luyen #tabLuyen{display:block}
 body.tab-kiemtra #tabKiemTra{display:block}
 body.tab-flash #tabFlash{display:block}
@@ -250,7 +251,7 @@ body.tab-flash #tabFlash{display:block}
 <p class="sub">Học kì 1 • Đọc hiểu đề, phân tích và tự giải</p>
 <p class="steps">Cách làm một bài toán có lời văn:<br>Bước 1) Đọc đề.<br>Bước 2) 🔦 Tô đậm chữ quan trọng.<br>Bước 3) 🔍 Đề cho gì? Đề hỏi gì?<br>Bước 4) ✍️ Tự giải.<br>Bước 5) ✔ Kiểm tra lại.<br>Bước 6) 📖 Đối chiếu lời giải mẫu.</p>
 
-<div class="tabbar" id="tabbar"><button class="tabbtn on" type="button" data-tab="hoc">📖 Học tập</button><button class="tabbtn" type="button" data-tab="lythuyet">📐 Lý thuyết</button><button class="tabbtn" type="button" data-tab="luyen">✏️ Luyện tập</button><button class="tabbtn" type="button" data-tab="kiemtra">🧠 Kiểm tra</button>
+<div class="tabbar" id="tabbar"><button class="tabbtn on" type="button" data-tab="hoc">📖 Học tập</button><button class="tabbtn" type="button" data-tab="lythuyet">📐 Lý thuyết</button><button class="tabbtn" type="button" data-tab="tonghop">📚 Tổng hợp kiến thức</button><button class="tabbtn" type="button" data-tab="luyen">✏️ Luyện tập</button><button class="tabbtn" type="button" data-tab="kiemtra">🧠 Kiểm tra</button>
     <button class="tabbtn" type="button" data-tab="flash">🃏 Flashcard</button></div>
   <p class="desc" id="tabNow" style="text-align:center;margin:2px 0 10px"></p>
 <div id="home">
@@ -871,8 +872,60 @@ body.tab-flash #tabFlash{display:block}
     <p class="desc">Bấm vào từng yếu tố trên hình để xem đặc điểm tương ứng: các hình học (cạnh, góc, đường chéo, trục đối xứng, công thức chu vi và diện tích), tập hợp, tia số và trục số — kèm câu hỏi tự kiểm tra.</p>
     <div class="shape-grid" id="shapeGrid"></div>
   </div>
+</div>
+<div id="tabTongHop">
   <div class="sec">
-    <h2>📐 Công thức hình học trực quan</h2>
+    <h2>📚 Tổng hợp kiến thức</h2>
+    <p class="desc">Tất cả công thức và quy tắc cần ghi nhớ của Toán 6 học kì 1, gom một chỗ để ôn nhanh trước giờ kiểm tra. Muốn hiểu vì sao thì xem lại tab 📐 Lý thuyết và các bài học.</p>
+    <h3 class="secttl">A. Đại số — công thức và quy tắc cần nhớ</h3>
+    <div class="geo-grid">
+      <div class="geo-card">
+        <h3>1. Thứ tự thực hiện phép tính</h3>
+        <p class="geo-f"><b>( ) → [ ] → { }</b><br><b>Lũy thừa → ×, : → +, −</b></p>
+        <p class="geo-n">Trong ngoặc làm trước; ngoài ngoặc làm từ trái sang phải theo mức: lũy thừa, rồi nhân chia, rồi cộng trừ.</p>
+      </div>
+      <div class="geo-card">
+        <h3>2. Lũy thừa</h3>
+        <p class="geo-f"><b>a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup></b><br><b>a<sup>m</sup> : a<sup>n</sup> = a<sup>m−n</sup></b><br><b>(a<sup>m</sup>)<sup>n</sup> = a<sup>m×n</sup></b><br><b>a<sup>0</sup> = 1 (a ≠ 0); a<sup>1</sup> = a</b></p>
+        <p class="geo-n">Nhân (chia) hai lũy thừa cùng cơ số: giữ nguyên cơ số, cộng (trừ) số mũ.</p>
+      </div>
+      <div class="geo-card">
+        <h3>3. Tính chất chia hết</h3>
+        <p class="geo-f"><b>a ⋮ m, b ⋮ m → (a + b) ⋮ m</b><br><b>a ⋮ m, b ⋮ m → (a − b) ⋮ m</b><br><b>a ⋮ m → (a × k) ⋮ m</b></p>
+        <p class="geo-n">Tổng, hiệu chia hết khi từng số hạng đều chia hết cho cùng một số.</p>
+      </div>
+      <div class="geo-card">
+        <h3>4. Dấu hiệu chia hết</h3>
+        <p class="geo-f"><b>2: tận cùng 0, 2, 4, 6, 8</b><br><b>5: tận cùng 0 hoặc 5</b><br><b>3: tổng các chữ số ⋮ 3</b><br><b>9: tổng các chữ số ⋮ 9</b></p>
+        <p class="geo-n">Chỉ cần nhìn chữ số tận cùng, hoặc cộng các chữ số lại là biết.</p>
+      </div>
+      <div class="geo-card">
+        <h3>5. ƯCLN và BCNN</h3>
+        <p class="geo-f"><b>ƯCLN: tích thừa số chung, mũ nhỏ nhất</b><br><b>BCNN: tích thừa số chung và riêng, mũ lớn nhất</b></p>
+        <p class="geo-n">Tìm bằng cách phân tích mỗi số ra thừa số nguyên tố trước.</p>
+      </div>
+      <div class="geo-card">
+        <h3>6. Số đối, giá trị tuyệt đối</h3>
+        <p class="geo-f"><b>Số đối của a là −a</b><br><b>|a| = a nếu a ≥ 0; |a| = −a nếu a &lt; 0</b></p>
+        <p class="geo-n">Hai số đối nhau nằm hai phía điểm 0 và cách đều điểm 0.</p>
+      </div>
+      <div class="geo-card">
+        <h3>7. Cộng, trừ số nguyên</h3>
+        <p class="geo-f"><b>Cùng dấu: cộng |a|, |b|, giữ dấu chung</b><br><b>Khác dấu: |lớn| − |nhỏ|, lấy dấu số lớn hơn</b><br><b>a − b = a + (−b)</b></p>
+        <p class="geo-n">Phép trừ chính là cộng với số đối của số trừ.</p>
+      </div>
+      <div class="geo-card">
+        <h3>8. Nhân, chia số nguyên; dấu ngoặc</h3>
+        <p class="geo-f"><b>Cùng dấu → dương; khác dấu → âm</b><br><b>+(...): giữ nguyên; −(...): đổi dấu</b></p>
+        <p class="geo-n">Bỏ ngoặc trước dấu − thì đổi dấu tất cả các số trong ngoặc.</p>
+      </div>
+      <div class="geo-card">
+        <h3>9. Tập hợp</h3>
+        <p class="geo-f"><b>∈: thuộc; ∉: không thuộc</b><br><b>A = {1; 3; 5; 7; 9}</b></p>
+        <p class="geo-n">Liệt kê phần tử trong dấu { }, mỗi phần tử viết một lần, cách nhau bằng dấu chấm phẩy.</p>
+      </div>
+    </div>
+    <h3 class="secttl">B. Hình học — chu vi, diện tích, thể tích</h3>
     <p class="desc">Nhìn hình để nhớ công thức: mỗi hình vẽ đúng ký hiệu trong bảng công thức (a, b, h, m, n, r, d, c). Chữ <b>thường</b> là độ dài; đường <b>đứt nét</b> là chiều cao hoặc đường chéo.</p>
     <div class="geo-grid">
       <div class="geo-card">
@@ -1778,18 +1831,18 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
   }
 
   /* ===== 4 TAB: HOC / LY THUYET / LUYEN / KIEM TRA + LUYEN NHUNG TRONG BAI HOC ===== */
-  var TABS=['hoc','lythuyet','luyen','kiemtra','flash'];
+  var TABS=['hoc','lythuyet','tonghop','luyen','kiemtra','flash'];
   var curTab='hoc';
   try{ var tb0=localStorage.getItem('toan6_tab'); if(TABS.indexOf(tb0)>=0) curTab=tb0; }catch(e){}
   var tabBtns=[].slice.call(document.querySelectorAll('[data-tab]'));
   window.setToanTab=function(t){
     curTab=(TABS.indexOf(t)>=0)?t:'hoc';
-    document.body.classList.remove('tab-lythuyet','tab-luyen','tab-kiemtra','tab-flash');
+    document.body.classList.remove('tab-lythuyet','tab-tonghop','tab-luyen','tab-kiemtra','tab-flash');
     if(curTab!=='hoc') document.body.classList.add('tab-'+curTab);
     tabBtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-tab')===curTab); });
     try{ localStorage.setItem('toan6_tab',curTab); }catch(e){}
     var tn=document.getElementById('tabNow');
-    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard'}; tn.textContent='Em đang ở mục '+(tnNames[curTab]||curTab)+'. Bấm một nút ở hàng trên để chuyển sang mục khác.'; }
+    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',tonghop:'📚 Tổng hợp kiến thức',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard'}; tn.textContent='Em đang ở mục '+(tnNames[curTab]||curTab)+'. Bấm một nút ở hàng trên để chuyển sang mục khác.'; }
   };
   var setToanTab=window.setToanTab;
   tabBtns.forEach(function(b){
