@@ -26,6 +26,12 @@ a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12p
 .shape-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .shape-card{border:1px solid #ddd;border-radius:8px;background:#fafafa;padding:12px;cursor:pointer;text-align:center;font-size:17px;line-height:1.55}
 .shape-card:hover{background:#e8f5e9}
+.geo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:10px}
+.geo-card{border:1px solid #ddd;border-radius:10px;background:#fafafa;padding:14px;text-align:center}
+.geo-card h3{font-size:20px;color:#1565c0;margin-bottom:6px;line-height:1.35}
+.geo-card svg{max-width:100%;height:auto;display:block;margin:0 auto}
+.geo-f{font-size:18px;line-height:1.6;margin-top:8px}
+.geo-n{font-size:16px;color:#444;line-height:1.6}
 .tag{display:inline-block;background:#e8f5e9;color:#2e7d32;border-radius:10px;padding:2px 10px;font-size:14px;margin-bottom:10px}
 .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1);margin-bottom:14px}
 .card h2{font-size:24px;margin-bottom:10px;line-height:1.35}
@@ -864,6 +870,66 @@ body.tab-flash #tabFlash{display:block}
     <h2>📐 Thẻ lý thuyết tương tác</h2>
     <p class="desc">Bấm vào từng yếu tố trên hình để xem đặc điểm tương ứng: các hình học (cạnh, góc, đường chéo, trục đối xứng, công thức chu vi và diện tích), tập hợp, tia số và trục số — kèm câu hỏi tự kiểm tra.</p>
     <div class="shape-grid" id="shapeGrid"></div>
+  </div>
+  <div class="sec">
+    <h2>📐 Công thức hình học trực quan</h2>
+    <p class="desc">Nhìn hình để nhớ công thức: mỗi hình vẽ đúng ký hiệu trong bảng công thức (a, b, h, m, n, r, d, c). Chữ <b>thường</b> là độ dài; đường <b>đứt nét</b> là chiều cao hoặc đường chéo.</p>
+    <div class="geo-grid">
+      <div class="geo-card">
+        <h3>1. Hình chữ nhật</h3>
+        <svg viewBox="0 0 300 200"><rect x="55" y="45" width="190" height="110" fill="#fce4ec" stroke="#c62828" stroke-width="2.5"/><polyline points="233,155 233,143 245,143" fill="none" stroke="#c62828" stroke-width="2"/><text x="150" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text><text x="258" y="105" font-size="18" font-weight="bold" fill="#1f2937">b</text></svg>
+        <p class="geo-f"><b>P = (a + b) × 2</b><br><b>S = a × b</b></p>
+        <p class="geo-n">a là chiều dài, b là chiều rộng.</p>
+      </div>
+      <div class="geo-card">
+        <h3>2. Hình vuông</h3>
+        <svg viewBox="0 0 300 200"><rect x="85" y="35" width="130" height="130" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/><polyline points="203,165 203,153 215,153" fill="none" stroke="#2e7d32" stroke-width="2"/><text x="150" y="188" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text></svg>
+        <p class="geo-f"><b>P = a × 4</b><br><b>S = a × a</b></p>
+        <p class="geo-n">Bốn cạnh bằng nhau, đều dài a.</p>
+      </div>
+      <div class="geo-card">
+        <h3>3. Hình bình hành</h3>
+        <svg viewBox="0 0 300 200"><polygon points="90,160 250,160 290,60 130,60" fill="#fff9c4" stroke="#f9a825" stroke-width="2.5"/><line x1="130" y1="60" x2="130" y2="160" stroke="#1565c0" stroke-width="2" stroke-dasharray="6 5"/><polyline points="130,148 142,148 142,160" fill="none" stroke="#1565c0" stroke-width="2"/><text x="170" y="184" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text><text x="102" y="112" font-size="18" font-weight="bold" fill="#1f2937">b</text><text x="146" y="112" font-size="18" font-weight="bold" fill="#1565c0">h</text></svg>
+        <p class="geo-f"><b>P = (a + b) × 2</b><br><b>S = a × h</b></p>
+        <p class="geo-n">a là đáy, b là cạnh bên, h là chiều cao ứng với đáy a.</p>
+      </div>
+      <div class="geo-card">
+        <h3>4. Hình thoi</h3>
+        <svg viewBox="0 0 300 200"><polygon points="150,25 265,100 150,175 35,100" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2.5"/><line x1="35" y1="100" x2="265" y2="100" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="6 5"/><line x1="150" y1="25" x2="150" y2="175" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="6 5"/><text x="212" y="92" font-size="18" font-weight="bold" fill="#1f2937">m</text><text x="160" y="142" font-size="18" font-weight="bold" fill="#1f2937">n</text><text x="228" y="56" font-size="18" font-weight="bold" fill="#1f2937">a</text></svg>
+        <p class="geo-f"><b>P = a × 4</b><br><b>S = (m × n) / 2</b></p>
+        <p class="geo-n">m, n là hai đường chéo; a là độ dài một cạnh.</p>
+      </div>
+      <div class="geo-card">
+        <h3>5. Hình tam giác</h3>
+        <svg viewBox="0 0 300 200"><polygon points="45,170 255,170 165,45" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/><line x1="165" y1="45" x2="165" y2="170" stroke="#1565c0" stroke-width="2" stroke-dasharray="6 5"/><polyline points="153,170 153,158 165,158" fill="none" stroke="#1565c0" stroke-width="2"/><text x="165" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">A</text><text x="30" y="162" font-size="18" font-weight="bold" fill="#1f2937">B</text><text x="262" y="162" font-size="18" font-weight="bold" fill="#1f2937">C</text><text x="150" y="192" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text><text x="86" y="105" font-size="18" font-weight="bold" fill="#1f2937">b</text><text x="224" y="105" font-size="18" font-weight="bold" fill="#1f2937">c</text><text x="178" y="110" font-size="18" font-weight="bold" fill="#1565c0">h</text></svg>
+        <p class="geo-f"><b>P = a + b + c</b><br><b>S = (a × h) / 2</b></p>
+        <p class="geo-n">h là chiều cao từ đỉnh A xuống cạnh đáy BC.</p>
+      </div>
+      <div class="geo-card">
+        <h3>6. Hình thang</h3>
+        <svg viewBox="0 0 300 200"><polygon points="95,55 205,55 255,165 45,165" fill="#fff3e0" stroke="#ef6c00" stroke-width="2.5"/><line x1="95" y1="55" x2="95" y2="165" stroke="#1565c0" stroke-width="2" stroke-dasharray="6 5"/><polyline points="95,153 107,153 107,165" fill="none" stroke="#1565c0" stroke-width="2"/><text x="150" y="42" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text><text x="150" y="188" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">b</text><text x="108" y="112" font-size="18" font-weight="bold" fill="#1565c0">h</text><text x="232" y="112" font-size="18" font-weight="bold" fill="#1f2937">c</text><text x="62" y="112" font-size="18" font-weight="bold" fill="#1f2937">d</text></svg>
+        <p class="geo-f"><b>P = a + b + c + d</b><br><b>S = ((a + b) × h) / 2</b></p>
+        <p class="geo-n">a là đáy bé, b là đáy lớn, h vuông góc với cả hai đáy.</p>
+      </div>
+      <div class="geo-card">
+        <h3>7. Hình tròn</h3>
+        <svg viewBox="0 0 300 200"><circle cx="150" cy="100" r="68" fill="#e0f2f1" stroke="#00838f" stroke-width="2.5"/><line x1="82" y1="100" x2="218" y2="100" stroke="#00838f" stroke-width="2" stroke-dasharray="6 5"/><line x1="150" y1="100" x2="218" y2="100" stroke="#00838f" stroke-width="2.5"/><circle cx="150" cy="100" r="4" fill="#00838f"/><text x="106" y="120" font-size="18" font-weight="bold" fill="#1f2937">d</text><text x="186" y="90" font-size="18" font-weight="bold" fill="#1f2937">r</text></svg>
+        <p class="geo-f"><b>C = d × 3,14 = 2 × r × 3,14</b><br><b>S = r × r × 3,14</b></p>
+        <p class="geo-n">C là chu vi hình tròn; 3,14 là giá trị gần đúng của π.</p>
+      </div>
+      <div class="geo-card">
+        <h3>8. Hình lập phương</h3>
+        <svg viewBox="0 0 300 200"><polygon points="110,50 210,50 210,150 110,150" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/><polygon points="70,90 170,90 170,190 70,190" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/><line x1="70" y1="90" x2="110" y2="50" stroke="#2e7d32" stroke-width="2"/><line x1="170" y1="90" x2="210" y2="50" stroke="#2e7d32" stroke-width="2"/><line x1="170" y1="190" x2="210" y2="150" stroke="#2e7d32" stroke-width="2"/><line x1="70" y1="190" x2="110" y2="150" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6 5"/><line x1="110" y1="150" x2="110" y2="50" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="6 5"/><text x="120" y="182" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text></svg>
+        <p class="geo-f"><b>Sxq = Sm × 4</b><br><b>Stp = Sm × 6</b><br><b>V = a × a × a</b></p>
+        <p class="geo-n">Sm là diện tích một mặt; a là độ dài một cạnh.</p>
+      </div>
+      <div class="geo-card">
+        <h3>9. Hình hộp chữ nhật</h3>
+        <svg viewBox="0 0 300 200"><polygon points="110,55 240,55 240,145 110,145" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/><polygon points="60,100 190,100 190,190 60,190" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/><line x1="60" y1="100" x2="110" y2="55" stroke="#1565c0" stroke-width="2"/><line x1="190" y1="100" x2="240" y2="55" stroke="#1565c0" stroke-width="2"/><line x1="190" y1="190" x2="240" y2="145" stroke="#1565c0" stroke-width="2"/><line x1="60" y1="190" x2="110" y2="145" stroke="#1565c0" stroke-width="2" stroke-dasharray="6 5"/><text x="125" y="182" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">a</text><text x="216" y="74" font-size="18" font-weight="bold" fill="#1f2937">b</text><text x="198" y="150" font-size="18" font-weight="bold" fill="#1f2937">c</text></svg>
+        <p class="geo-f"><b>Sxq = (a + b) × 2 × c</b><br><b>Stp = Sxq + Sđáy × 2</b><br><b>V = a × b × c</b></p>
+        <p class="geo-n">a là chiều dài, b là chiều rộng, c là chiều cao.</p>
+      </div>
+    </div>
   </div>
 </div>
 <div id="tabFlash">
