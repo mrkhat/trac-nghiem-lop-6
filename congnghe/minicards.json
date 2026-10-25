@@ -38,7 +38,8 @@
   "b": 3,
   "t": "mn",
   "f": "Thiết bị nào báo cháy trong nhà thông minh?",
-  "a": "✅ Đáp ánCảm biến khói."
+  "a": "✅ Đáp ánCảm biến khói.",
+  "fi": "../hinh-anh/congnghe/bai3-dieu-khien.webp"
  },
  {
   "b": 4,
@@ -124,74 +125,74 @@
   "a": "✅ Đáp ánSạch sẽ, gọn gàng, hợp với mình.",
   "fi": "../hinh-anh/congnghe/bai9-thanh-lich.webp"
  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "3 nhóm đồ dùng điện là gì?",
-    "a": "Điện – quang (đèn), điện – nhiệt (nồi cơm, bếp) và điện – cơ (quạt, máy giặt).",
-    "fi": ""
-  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "Trước khi dùng đồ điện cần xem gì?",
-    "a": "Xem điện áp và công suất định mức ghi trên đồ dùng để biết có hợp với điện nhà mình không.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "Có mấy loại đèn thường dùng trong nhà?",
-    "a": "Có 3 loại: đèn sợi đốt, đèn huỳnh quang và đèn LED.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "Đèn nào tiết kiệm điện nhất và bền nhất?",
-    "a": "Đèn LED tiết kiệm điện nhất và bền nhất, lại ít tỏa nhiệt.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Bộ phận nào làm chín cơm trong nồi cơm điện?",
-    "a": "Mâm nhiệt ở đáy nồi làm nóng và nấu chín cơm.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Trước khi nấu cơm cần làm gì?",
-    "a": "Lau khô mặt ngoài nồi trong rồi mới đặt vào nồi, để nồi tiếp xúc tốt với mâm nhiệt và an toàn.",
-    "fi": ""
-  },
-  {
-    "b": 13,
-    "t": "mn",
-    "f": "Bếp hồng ngoại làm nóng bằng gì?",
-    "a": "Bằng tia hồng ngoại làm nóng mặt bếp và đáy nồi.",
-    "fi": ""
-  },
-  {
-    "b": 13,
-    "t": "mn",
-    "f": "Khi nào mới được lau chùi bếp hồng ngoại?",
-    "a": "Khi bếp đã nguội hẳn và đã ngắt điện, lau khi còn nóng sẽ bị bỏng.",
-    "fi": ""
-  },
-  {
-    "b": 14,
-    "t": "mn",
-    "f": "3 quy tắc an toàn điện cần nhớ là gì?",
-    "a": "Tay khô mới dùng điện, không chạm vào dây điện hở, đồ hỏng thì báo người lớn, không tự sửa.",
-    "fi": ""
-  },
-  {
-    "b": 14,
-    "t": "mn",
-    "f": "3 cách tiết kiệm điện trong nhà là gì?",
-    "a": "Tắt đèn khi ra khỏi phòng, dùng đèn LED và rút phích cắm khi không dùng nữa.",
-    "fi": ""
-  }
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "3 nhóm đồ dùng điện là gì?",
+  "a": "Điện – quang (đèn), điện – nhiệt (nồi cơm, bếp) và điện – cơ (quạt, máy giặt).",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2228%22%20width%3D%2228%22%20height%3D%2226%22%20rx%3D%225%22%20fill%3D%22%23eceff1%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2238%22%20y1%3D%2228%22%20x2%3D%2238%22%20y2%3D%2216%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2228%22%20x2%3D%2250%22%20y2%3D%2216%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M%2044%2C54%20Q%2044%2C76%2062%2C82%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Trước khi dùng đồ điện cần xem gì?",
+  "a": "Xem điện áp và công suất định mức ghi trên đồ dùng để biết có hợp với điện nhà mình không.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%285%2C15%29%20scale%280.85%29%22%3E%3Crect%20x%3D%2226%22%20y%3D%2222%22%20width%3D%2248%22%20height%3D%2234%22%20rx%3D%226%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cg%20fill%3D%22%23ffca28%22%3E%3Crect%20x%3D%2232%22%20y%3D%2230%22%20width%3D%228%22%20height%3D%2218%22%2F%3E%3Crect%20x%3D%2246%22%20y%3D%2230%22%20width%3D%228%22%20height%3D%2218%22%2F%3E%3Crect%20x%3D%2260%22%20y%3D%2230%22%20width%3D%228%22%20height%3D%2218%22%2F%3E%3C%2Fg%3E%3Cline%20x1%3D%2250%22%20y1%3D%2256%22%20x2%3D%2250%22%20y2%3D%2270%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28105%2C15%29%20scale%280.85%29%22%3E%3Cpath%20d%3D%22M%2024%2C44%20L%2076%2C44%20L%2070%2C82%20Q%2050%2C90%2030%2C82%20Z%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2036%2C36%20Q%2042%2C24%2050%2C36%20Q%2058%2C24%2064%2C36%22%20fill%3D%22none%22%20stroke%3D%22%2390caf9%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28205%2C15%29%20scale%280.85%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2230%22%20fill%3D%22%23eceff1%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%228%22%20fill%3D%22%2378909c%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2220%22%20x2%3D%2250%22%20y2%3D%2242%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2258%22%20x2%3D%2250%22%20y2%3D%2280%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2250%22%20x2%3D%2242%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2250%22%20x2%3D%2280%22%20y2%3D%2250%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Có mấy loại đèn thường dùng trong nhà?",
+  "a": "Có 3 loại: đèn sợi đốt, đèn huỳnh quang và đèn LED.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2242%22%20r%3D%2224%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2042%2C62%20L%2058%2C62%20L%2056%2C74%20L%2044%2C74%20Z%22%20fill%3D%22%2378909c%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2280%22%20x2%3D%2260%22%20y2%3D%2280%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M%20230%2C30%20Q%20236%2C20%20230%2C10%20M%20248%2C34%20Q%20254%2C24%20248%2C14%22%20fill%3D%22none%22%20stroke%3D%22%23ff9800%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Đèn nào tiết kiệm điện nhất và bền nhất?",
+  "a": "Đèn LED tiết kiệm điện nhất và bền nhất, lại ít tỏa nhiệt.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2216%22%20y%3D%2242%22%20width%3D%2268%22%20height%3D%2216%22%20rx%3D%228%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2242%22%20width%3D%2268%22%20height%3D%2216%22%20rx%3D%228%22%20fill%3D%22%23bbdefb%22%20opacity%3D%220.5%22%2F%3E%3Crect%20x%3D%2210%22%20y%3D%2238%22%20width%3D%228%22%20height%3D%2224%22%20fill%3D%22%2378909c%22%2F%3E%3Crect%20x%3D%2282%22%20y%3D%2238%22%20width%3D%228%22%20height%3D%2224%22%20fill%3D%22%2378909c%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Bộ phận nào làm chín cơm trong nồi cơm điện?",
+  "a": "Mâm nhiệt ở đáy nồi làm nóng và nấu chín cơm.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20110%2C44%20L%20190%2C44%20L%20182%2C86%20Q%20150%2C96%20118%2C86%20Z%22%20fill%3D%22%23eceff1%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cellipse%20cx%3D%22150%22%20cy%3D%2244%22%20rx%3D%2242%22%20ry%3D%228%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%20140%2C32%20Q%20146%2C22%20150%2C32%20Q%20154%2C22%20160%2C32%22%20fill%3D%22none%22%20stroke%3D%22%2390caf9%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Trước khi nấu cơm cần làm gì?",
+  "a": "Lau khô mặt ngoài nồi trong rồi mới đặt vào nồi, để nồi tiếp xúc tốt với mâm nhiệt và an toàn.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20110%2C44%20L%20190%2C44%20L%20182%2C86%20Q%20150%2C96%20118%2C86%20Z%22%20fill%3D%22%23eceff1%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cellipse%20cx%3D%22150%22%20cy%3D%2244%22%20rx%3D%2242%22%20ry%3D%228%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%20140%2C32%20Q%20146%2C22%20150%2C32%20Q%20154%2C22%20160%2C32%22%20fill%3D%22none%22%20stroke%3D%22%2390caf9%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Bếp hồng ngoại làm nóng bằng gì?",
+  "a": "Bằng tia hồng ngoại làm nóng mặt bếp và đáy nồi.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%2290%22%20y%3D%2266%22%20width%3D%22120%22%20height%3D%2214%22%20rx%3D%224%22%20fill%3D%22%2337474f%22%2F%3E%3Cpath%20d%3D%22M%20120%2C66%20L%20180%2C66%20L%20172%2C36%20L%20128%2C36%20Z%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%20138%2C30%20Q%20144%2C20%20150%2C30%20Q%20156%2C20%20162%2C30%22%20fill%3D%22none%22%20stroke%3D%22%23ff9800%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Khi nào mới được lau chùi bếp hồng ngoại?",
+  "a": "Khi bếp đã nguội hẳn và đã ngắt điện, lau khi còn nóng sẽ bị bỏng.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%2290%22%20y%3D%2266%22%20width%3D%22120%22%20height%3D%2214%22%20rx%3D%224%22%20fill%3D%22%2337474f%22%2F%3E%3Cpath%20d%3D%22M%20120%2C66%20L%20180%2C66%20L%20172%2C36%20L%20128%2C36%20Z%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%20138%2C30%20Q%20144%2C20%20150%2C30%20Q%20156%2C20%20162%2C30%22%20fill%3D%22none%22%20stroke%3D%22%23ff9800%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "3 quy tắc an toàn điện cần nhớ là gì?",
+  "a": "Tay khô mới dùng điện, không chạm vào dây điện hở, đồ hỏng thì báo người lớn, không tự sửa.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C12%20Q%2074%2C44%2074%2C62%20A%2024%2C24%200%200%201%2026%2C62%20Q%2026%2C44%2050%2C12%20Z%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3Cg%20stroke%3D%22%23c62828%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%22125%22%20y1%3D%2235%22%20x2%3D%22175%22%20y2%3D%2285%22%2F%3E%3Cline%20x1%3D%22175%22%20y1%3D%2235%22%20x2%3D%22125%22%20y2%3D%2285%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "3 cách tiết kiệm điện trong nhà là gì?",
+  "a": "Tắt đèn khi ra khỏi phòng, dùng đèn LED và rút phích cắm khi không dùng nữa.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2030%2C22%20Q%2022%2C44%2034%2C62%20Q%2044%2C76%2062%2C78%20L%2070%2C66%20Q%2056%2C64%2048%2C52%20Q%2040%2C40%2042%2C28%20Z%22%20fill%3D%22%2343a047%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2252%22%20y%3D%2230%22%20width%3D%2218%22%20height%3D%228%22%20rx%3D%223%22%20fill%3D%22%232e7d32%22%20transform%3D%22rotate%2840%2061%2034%29%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ }
 ]

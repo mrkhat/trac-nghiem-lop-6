@@ -83,88 +83,88 @@
   "a": "Bạn vẽ tranh giỏi — vẽ là điểm mạnh của bạn.",
   "fi": "../hinh-anh/gdcd/bai6-diem-manh.webp"
  },
-  {
-    "b": 7,
-    "t": "mn",
-    "f": "Nguyên tắc ứng phó nguy hiểm là gì?",
-    "a": "Bình tĩnh, tránh xa nguy hiểm, kêu cứu và báo người lớn. Ví dụ: có cháy thì chạy ra ngoài rồi mới gọi 114.",
-    "fi": ""
-  },
-  {
-    "b": 7,
-    "t": "mn",
-    "f": "Bị lạc ở chợ thì làm gì?",
-    "a": "Đứng yên ở chỗ dễ thấy và nhờ cô bán hàng hoặc chú bảo vệ giúp gọi người nhà.",
-    "fi": ""
-  },
-  {
-    "b": 8,
-    "t": "mn",
-    "f": "Tiết kiệm nghĩa là gì?",
-    "a": "Dùng vừa đủ, không lãng phí. Ví dụ: tắt đèn khi ra khỏi phòng, lấy cơm vừa ăn.",
-    "fi": ""
-  },
-  {
-    "b": 8,
-    "t": "mn",
-    "f": "Mỗi ngày em tiết kiệm được bằng cách nào?",
-    "a": "Tắt điện khi không dùng, khóa vòi nước ngay sau khi rửa, giữ gìn đồ dùng cho bền.",
-    "fi": ""
-  },
-  {
-    "b": 9,
-    "t": "mn",
-    "f": "Công dân là ai?",
-    "a": "Là người có quốc tịch của một nước, ví dụ công dân Việt Nam là người có quốc tịch Việt Nam.",
-    "fi": ""
-  },
-  {
-    "b": 9,
-    "t": "mn",
-    "f": "Quyền và nghĩa vụ đi với nhau thế nào?",
-    "a": "Quyền và nghĩa vụ đi đôi với nhau: em có quyền đi học thì cũng có nghĩa vụ học tập tốt.",
-    "fi": ""
-  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "Quyền là gì?",
-    "a": "Quyền là điều mình được hưởng theo pháp luật, ví dụ quyền đi học và quyền được bảo vệ.",
-    "fi": ""
-  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "Nghĩa vụ là gì?",
-    "a": "Nghĩa vụ là điều mình phải làm theo pháp luật, ví dụ học tập chăm chỉ và giữ gìn tài sản công.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "Trẻ em là ai?",
-    "a": "Là người dưới 16 tuổi theo Luật Trẻ em, được hưởng các quyền riêng dành cho mình.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "4 nhóm quyền của trẻ em là gì?",
-    "a": "Là quyền sống còn, quyền phát triển, quyền bảo vệ và quyền tham gia.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Quyền đi đôi với bổn phận nghĩa là gì?",
-    "a": "Là vừa được hưởng quyền, vừa phải làm tròn bổn phận, ví dụ được đi học thì phải học chăm chỉ.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Khi bị xâm phạm quyền thì làm gì?",
-    "a": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 để được bảo vệ.",
-    "fi": ""
-  }
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Nguyên tắc ứng phó nguy hiểm là gì?",
+  "a": "Bình tĩnh, tránh xa nguy hiểm, kêu cứu và báo người lớn. Ví dụ: có cháy thì chạy ra ngoài rồi mới gọi 114.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpolygon%20points%3D%2250%2C12%2088%2C80%2012%2C80%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2236%22%20x2%3D%2250%22%20y2%3D%2260%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2270%22%20r%3D%224%22%20fill%3D%22%23c62828%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Bị lạc ở chợ thì làm gì?",
+  "a": "Đứng yên ở chỗ dễ thấy và nhờ cô bán hàng hoặc chú bảo vệ giúp gọi người nhà.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C10%20Q%2066%2C30%2070%2C48%20Q%2074%2C66%2062%2C80%20Q%2050%2C90%2038%2C80%20Q%2026%2C66%2030%2C48%20Q%2034%2C30%2050%2C10%20Z%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2050%2C40%20Q%2058%2C52%2058%2C62%20Q%2058%2C74%2050%2C78%20Q%2042%2C74%2042%2C62%20Q%2042%2C52%2050%2C40%20Z%22%20fill%3D%22%23ffca28%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Tiết kiệm nghĩa là gì?",
+  "a": "Dùng vừa đủ, không lãng phí. Ví dụ: tắt đèn khi ra khỏi phòng, lấy cơm vừa ăn.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2226%22%20y%3D%2252%22%20width%3D%2248%22%20height%3D%2228%22%20rx%3D%2210%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2262%22%20cy%3D%2240%22%20r%3D%2212%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2242%22%20y%3D%2244%22%20width%3D%2216%22%20height%3D%225%22%20fill%3D%22%238d6e63%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Mỗi ngày em tiết kiệm được bằng cách nào?",
+  "a": "Tắt điện khi không dùng, khóa vòi nước ngay sau khi rửa, giữ gìn đồ dùng cho bền.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2226%22%20y%3D%2252%22%20width%3D%2248%22%20height%3D%2228%22%20rx%3D%2210%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2262%22%20cy%3D%2240%22%20r%3D%2212%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2242%22%20y%3D%2244%22%20width%3D%2216%22%20height%3D%225%22%20fill%3D%22%238d6e63%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Công dân là ai?",
+  "a": "Là người có quốc tịch của một nước, ví dụ công dân Việt Nam là người có quốc tịch Việt Nam.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cg%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2226%22%20r%3D%229%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2224%22%20r%3D%2210%22%2F%3E%3Ccircle%20cx%3D%2278%22%20cy%3D%2226%22%20r%3D%229%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%2342a5f5%22%3E%3Cpath%20d%3D%22M%2010%2C74%20Q%2022%2C48%2034%2C74%20Z%22%2F%3E%3Cpath%20d%3D%22M%2036%2C74%20Q%2050%2C44%2064%2C74%20Z%22%2F%3E%3Cpath%20d%3D%22M%2066%2C74%20Q%2078%2C48%2090%2C74%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Quyền và nghĩa vụ đi với nhau thế nào?",
+  "a": "Quyền và nghĩa vụ đi đôi với nhau: em có quyền đi học thì cũng có nghĩa vụ học tập tốt.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cline%20x1%3D%2230%22%20y1%3D%2288%22%20x2%3D%2230%22%20y2%3D%2214%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2230%2C14%2080%2C24%2080%2C40%2030%2C50%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Quyền là gì?",
+  "a": "Quyền là điều mình được hưởng theo pháp luật, ví dụ quyền đi học và quyền được bảo vệ.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C10%20L%2080%2C24%20L%2080%2C50%20Q%2080%2C74%2050%2C88%20Q%2020%2C74%2020%2C50%20L%2020%2C24%20Z%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2038%2C50%20L%2048%2C60%20L%2064%2C40%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Nghĩa vụ là gì?",
+  "a": "Nghĩa vụ là điều mình phải làm theo pháp luật, ví dụ học tập chăm chỉ và giữ gìn tài sản công.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cline%20x1%3D%2230%22%20y1%3D%2288%22%20x2%3D%2230%22%20y2%3D%2214%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2230%2C14%2080%2C24%2080%2C40%2030%2C50%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Trẻ em là ai?",
+  "a": "Là người dưới 16 tuổi theo Luật Trẻ em, được hưởng các quyền riêng dành cho mình.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2228%22%20r%3D%2214%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2028%2C84%20Q%2050%2C48%2072%2C84%20Z%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2226%22%20r%3D%222%22%20fill%3D%22%23333%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2226%22%20r%3D%222%22%20fill%3D%22%23333%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "4 nhóm quyền của trẻ em là gì?",
+  "a": "Là quyền sống còn, quyền phát triển, quyền bảo vệ và quyền tham gia.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C82%20Q%2016%2C56%2022%2C32%20Q%2028%2C14%2050%2C26%20Q%2072%2C14%2078%2C32%20Q%2084%2C56%2050%2C82%20Z%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Quyền đi đôi với bổn phận nghĩa là gì?",
+  "a": "Là vừa được hưởng quyền, vừa phải làm tròn bổn phận, ví dụ được đi học thì phải học chăm chỉ.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%2211%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2016%2C78%20Q%2030%2C48%2044%2C78%20Z%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%2258%22%20cy%3D%2228%22%20r%3D%2212%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2042%2C78%20Q%2058%2C46%2074%2C78%20Z%22%20fill%3D%22%23ef5350%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%2242%22%20r%3D%228%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2070%2C76%20Q%2080%2C56%2090%2C76%20Z%22%20fill%3D%22%2366bb6a%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Khi bị xâm phạm quyền thì làm gì?",
+  "a": "Nói với người lớn tin cậy hoặc gọi tổng đài 111 để được bảo vệ.",
+  "fi": "data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%2211%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2016%2C78%20Q%2030%2C48%2044%2C78%20Z%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%2258%22%20cy%3D%2228%22%20r%3D%2212%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2042%2C78%20Q%2058%2C46%2074%2C78%20Z%22%20fill%3D%22%23ef5350%22%2F%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%2242%22%20r%3D%228%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2070%2C76%20Q%2080%2C56%2090%2C76%20Z%22%20fill%3D%22%2366bb6a%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ }
 ]

@@ -1,240 +1,240 @@
 [
-  {
-    "b": 1,
-    "t": "mn",
-    "f": "Thông tin là gì?",
-    "a": "Điều em biết được về người, vật, sự việc quanh mình.",
-    "fi": ""
-  },
-  {
-    "b": 1,
-    "t": "mn",
-    "f": "Dữ liệu là gì?",
-    "a": "Thông tin đã ghi lại bằng số, chữ, hình ảnh hoặc âm thanh.",
-    "fi": ""
-  },
-  {
-    "b": 2,
-    "t": "mn",
-    "f": "Xử lý thông tin gồm mấy bước? Kể tên.",
-    "a": "4 bước: thu nhận, xử lý, lưu trữ, truyền thông tin.",
-    "fi": ""
-  },
-  {
-    "b": 2,
-    "t": "mn",
-    "f": "Tính điểm trung bình thuộc bước nào?",
-    "a": "Bước xử lý, vì điểm được biến đổi thành kết quả mới có ích.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "mn",
-    "f": "Bit nhận những giá trị nào?",
-    "a": "Chỉ 0 hoặc 1.",
-    "fi": ""
-  },
-  {
-    "b": 3,
-    "t": "mn",
-    "f": "1 byte bằng mấy bit?",
-    "a": "8 bit.",
-    "fi": ""
-  },
-  {
-    "b": 4,
-    "t": "mn",
-    "f": "Mạng máy tính dùng để làm gì?",
-    "a": "Chia sẻ dữ liệu và dùng chung thiết bị.",
-    "fi": ""
-  },
-  {
-    "b": 4,
-    "t": "mn",
-    "f": "Phòng máy của trường là loại mạng nào?",
-    "a": "Mạng LAN, vì chỉ trong một phòng, một trường.",
-    "fi": ""
-  },
-  {
-    "b": 5,
-    "t": "mn",
-    "f": "Internet là gì?",
-    "a": "Mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau.",
-    "fi": ""
-  },
-  {
-    "b": 5,
-    "t": "mn",
-    "f": "Lên mạng cần giữ an toàn điều gì?",
-    "a": "Không cho người lạ biết mật khẩu, địa chỉ nhà, số điện thoại.",
-    "fi": ""
-  },
-  {
-    "b": 6,
-    "t": "mn",
-    "f": "Web là gì?",
-    "a": "Hệ thống các trang web liên kết với nhau trên Internet.",
-    "fi": ""
-  },
-  {
-    "b": 6,
-    "t": "mn",
-    "f": "Chữ gạch chân bấm vào thì sang trang khác gọi là gì?",
-    "a": "Liên kết (link).",
-    "fi": ""
-  },
-  {
-    "b": 7,
-    "t": "mn",
-    "f": "Từ khóa là gì?",
-    "a": "Từ hoặc cụm từ mô tả điều em cần tìm.",
-    "fi": ""
-  },
-  {
-    "b": 7,
-    "t": "mn",
-    "f": "Tìm thông tin thì nên tin ngay trang đầu tiên không?",
-    "a": "Không, phải xem nguồn có đáng tin không và đối chiếu thêm nguồn khác.",
-    "fi": ""
-  },
-  {
-    "b": 8,
-    "t": "mn",
-    "f": "Thư điện tử đến nơi trong bao lâu?",
-    "a": "Gần như ngay lập tức.",
-    "fi": ""
-  },
-  {
-    "b": 8,
-    "t": "mn",
-    "f": "Muốn trả lời thư thì bấm gì?",
-    "a": "Bấm Trả lời, máy tự điền sẵn địa chỉ người gửi.",
-    "fi": ""
-  },
-  {
-    "b": 9,
-    "t": "mn",
-    "f": "Thông tin cá nhân gồm những gì?",
-    "a": "Họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư.",
-    "fi": ""
-  },
-  {
-    "b": 9,
-    "t": "mn",
-    "f": "Mật khẩu nào mạnh hơn: “123456” hay “Mai@2026Hoc”?",
-    "a": "“Mai@2026Hoc” mạnh hơn vì dài và có đủ chữ hoa, chữ thường, số, ký tự đặc biệt.",
-    "fi": ""
-  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "Ý chính trong sơ đồ tư duy đặt ở đâu?",
-    "a": "Ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh.",
-    "fi": ""
-  },
-  {
-    "b": 10,
-    "t": "mn",
-    "f": "Sơ đồ tốt là sơ đồ thế nào?",
-    "a": "Nhìn vào hiểu ngay, chỉ ghi ý chính, không nhồi nhét mọi chữ.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "Định dạng văn bản để làm gì?",
-    "a": "Để văn bản rõ ràng, dễ đọc và đẹp hơn.",
-    "fi": ""
-  },
-  {
-    "b": 11,
-    "t": "mn",
-    "f": "Tiêu đề bài văn thường căn kiểu nào?",
-    "a": "Căn giữa và in đậm.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Hàng và cột trong bảng xếp theo hướng nào?",
-    "a": "Hàng xếp ngang, cột xếp dọc.",
-    "fi": ""
-  },
-  {
-    "b": 12,
-    "t": "mn",
-    "f": "Muốn biết thứ Tư tiết 3 học gì thì tra bảng thế nào?",
-    "a": "Dò đúng hàng “Tiết 3” và cột “Thứ Tư”, ô giao nhau ghi môn học.",
-    "fi": ""
-  },
-  {
-    "b": 13,
-    "t": "mn",
-    "f": "Tìm kiếm giúp gì khi văn bản rất dài?",
-    "a": "Tìm nhanh một từ mà không phải đọc hết cả bài.",
-    "fi": ""
-  },
-  {
-    "b": 13,
-    "t": "mn",
-    "f": "Thay tất cả tiện nhưng có rủi ro gì?",
-    "a": "Đổi cả chỗ không muốn đổi, nên phải đọc lại kiểm tra.",
-    "fi": ""
-  },
-  {
-    "b": 14,
-    "t": "mn",
-    "f": "Sổ lưu niệm của lớp ghi lại những gì?",
-    "a": "Ảnh chụp, lời nhắn, những chuyện vui cả năm của lớp.",
-    "fi": ""
-  },
-  {
-    "b": 14,
-    "t": "mn",
-    "f": "Vì sao chỉ dùng ảnh bạn đã đồng ý chia sẻ?",
-    "a": "Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn.",
-    "fi": ""
-  },
-  {
-    "b": 15,
-    "t": "mn",
-    "f": "Thuật toán là gì?",
-    "a": "Dãy các bước theo thứ tự để giải quyết một việc.",
-    "fi": ""
-  },
-  {
-    "b": 15,
-    "t": "mn",
-    "f": "Nêu ví dụ một thuật toán tính điểm trung bình.",
-    "a": "Nhập điểm các môn; cộng lại; chia cho số môn; hiện kết quả.",
-    "fi": ""
-  },
-  {
-    "b": 16,
-    "t": "mn",
-    "f": "Kể tên 3 cấu trúc điều khiển.",
-    "a": "Tuần tự, rẽ nhánh và lặp.",
-    "fi": ""
-  },
-  {
-    "b": 16,
-    "t": "mn",
-    "f": "“Nếu trời mưa thì mang áo mưa” thuộc cấu trúc nào?",
-    "a": "Rẽ nhánh, vì có điều kiện đúng/sai.",
-    "fi": ""
-  },
-  {
-    "b": 17,
-    "t": "mn",
-    "f": "Chương trình máy tính là gì?",
-    "a": "Tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc.",
-    "fi": ""
-  },
-  {
-    "b": 17,
-    "t": "mn",
-    "f": "Scratch hợp với ai?",
-    "a": "Học sinh mới học lập trình, vì dùng khối lệnh kéo thả.",
-    "fi": ""
-  }
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Thông tin là gì?",
+  "a": "Điều em biết được về người, vật, sự việc quanh mình.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C26%20Q%2032%2C16%2016%2C22%20L%2016%2C74%20Q%2032%2C68%2050%2C78%20Q%2068%2C68%2084%2C74%20L%2084%2C22%20Q%2068%2C16%2050%2C26%20Z%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2226%22%20x2%3D%2250%22%20y2%3D%2278%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 1,
+  "t": "mn",
+  "f": "Dữ liệu là gì?",
+  "a": "Thông tin đã ghi lại bằng số, chữ, hình ảnh hoặc âm thanh.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2232%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2268%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2240%22%20y1%3D%2228%22%20x2%3D%2260%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2240%22%20x2%3D%2260%22%20y2%3D%2240%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2252%22%20x2%3D%2260%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2264%22%20x2%3D%2254%22%20y2%3D%2264%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Xử lý thông tin gồm mấy bước? Kể tên.",
+  "a": "4 bước: thu nhận, xử lý, lưu trữ, truyền thông tin.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2220%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2250%2C44%2070%2C60%2050%2C76%2030%2C60%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2282%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23c8e6c9%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2238%22%20x2%3D%2250%22%20y2%3D%2244%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2276%22%20x2%3D%2250%22%20y2%3D%2282%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 2,
+  "t": "mn",
+  "f": "Tính điểm trung bình thuộc bước nào?",
+  "a": "Bước xử lý, vì điểm được biến đổi thành kết quả mới có ích.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Crect%20x%3D%2240%22%20y%3D%2280%22%20width%3D%2260%22%20height%3D%2222%22%20fill%3D%22%2342a5f5%22%2F%3E%3Crect%20x%3D%22120%22%20y%3D%2255%22%20width%3D%2260%22%20height%3D%2247%22%20fill%3D%22%2366bb6a%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2230%22%20width%3D%2260%22%20height%3D%2272%22%20fill%3D%22%23ff9800%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Bit nhận những giá trị nào?",
+  "a": "Chỉ 0 hoặc 1.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%2260%22%20r%3D%2226%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%22195%22%20cy%3D%2260%22%20r%3D%2226%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "1 byte bằng mấy bit?",
+  "a": "8 bit.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%23ef5350%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%23ff9800%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%23ffca28%22%2F%3E%3Ccircle%20cx%3D%22132%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%22166%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%23ab47bc%22%2F%3E%3Ccircle%20cx%3D%22234%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%2378909c%22%2F%3E%3Ccircle%20cx%3D%22268%22%20cy%3D%2260%22%20r%3D%2211%22%20fill%3D%22%238d6e63%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Mạng máy tính dùng để làm gì?",
+  "a": "Chia sẻ dữ liệu và dùng chung thiết bị.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cg%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2230%22%20y1%3D%2240%22%20x2%3D%2250%22%20y2%3D%2260%22%2F%3E%3Cline%20x1%3D%2270%22%20y1%3D%2240%22%20x2%3D%2250%22%20y2%3D%2260%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2220%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2260%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2240%22%20y%3D%2260%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 4,
+  "t": "mn",
+  "f": "Phòng máy của trường là loại mạng nào?",
+  "a": "Mạng LAN, vì chỉ trong một phòng, một trường.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cg%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2230%22%20y1%3D%2240%22%20x2%3D%2250%22%20y2%3D%2260%22%2F%3E%3Cline%20x1%3D%2270%22%20y1%3D%2240%22%20x2%3D%2250%22%20y2%3D%2260%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2220%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2260%22%20y%3D%2226%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2240%22%20y%3D%2260%22%20width%3D%2220%22%20height%3D%2214%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Internet là gì?",
+  "a": "Mạng máy tính toàn cầu nối hàng tỉ thiết bị với nhau.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2232%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2232%22%20ry%3D%2213%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%221.5%22%2F%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2213%22%20ry%3D%2232%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%221.5%22%2F%3E%3Cg%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2228%22%20cy%3D%2232%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2232%22%20r%3D%226%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2272%22%20r%3D%226%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "Lên mạng cần giữ an toàn điều gì?",
+  "a": "Không cho người lạ biết mật khẩu, địa chỉ nhà, số điện thoại.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2272%22%20r%3D%226%22%20fill%3D%22%231565c0%22%2F%3E%3Cpath%20d%3D%22M%2030%2C58%20Q%2050%2C38%2070%2C58%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M%2018%2C44%20Q%2050%2C16%2082%2C44%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Web là gì?",
+  "a": "Hệ thống các trang web liên kết với nhau trên Internet.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2216%22%20y%3D%2222%22%20width%3D%2268%22%20height%3D%2252%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2222%22%20width%3D%2268%22%20height%3D%2212%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2228%22%20r%3D%223%22%20fill%3D%22%23ffffff%22%2F%3E%3Crect%20x%3D%2232%22%20y%3D%2225%22%20width%3D%2230%22%20height%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%3Cg%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2224%22%20y1%3D%2244%22%20x2%3D%2260%22%20y2%3D%2244%22%2F%3E%3Cline%20x1%3D%2224%22%20y1%3D%2254%22%20x2%3D%2252%22%20y2%3D%2254%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 6,
+  "t": "mn",
+  "f": "Chữ gạch chân bấm vào thì sang trang khác gọi là gì?",
+  "a": "Liên kết (link).",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2216%22%20y%3D%2222%22%20width%3D%2268%22%20height%3D%2252%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2216%22%20y%3D%2222%22%20width%3D%2268%22%20height%3D%2212%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2228%22%20r%3D%223%22%20fill%3D%22%23ffffff%22%2F%3E%3Crect%20x%3D%2232%22%20y%3D%2225%22%20width%3D%2230%22%20height%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%3Cg%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2224%22%20y1%3D%2244%22%20x2%3D%2260%22%20y2%3D%2244%22%2F%3E%3Cline%20x1%3D%2224%22%20y1%3D%2254%22%20x2%3D%2252%22%20y2%3D%2254%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Từ khóa là gì?",
+  "a": "Từ hoặc cụm từ mô tả điều em cần tìm.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2256%22%20x2%3D%2274%22%20y2%3D%2274%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 7,
+  "t": "mn",
+  "f": "Tìm thông tin thì nên tin ngay trang đầu tiên không?",
+  "a": "Không, phải xem nguồn có đáng tin không và đối chiếu thêm nguồn khác.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2256%22%20x2%3D%2274%22%20y2%3D%2274%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Thư điện tử đến nơi trong bao lâu?",
+  "a": "Gần như ngay lập tức.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2218%22%20y%3D%2230%22%20width%3D%2264%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpolyline%20points%3D%2218%2C34%2050%2C56%2082%2C34%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 8,
+  "t": "mn",
+  "f": "Muốn trả lời thư thì bấm gì?",
+  "a": "Bấm Trả lời, máy tự điền sẵn địa chỉ người gửi.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2218%22%20y%3D%2230%22%20width%3D%2264%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpolyline%20points%3D%2218%2C34%2050%2C56%2082%2C34%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Thông tin cá nhân gồm những gì?",
+  "a": "Họ tên, tuổi, địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2244%22%20width%3D%2240%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2040%2C44%20L%2040%2C34%20Q%2040%2C22%2050%2C22%20Q%2060%2C22%2060%2C34%20L%2060%2C44%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2258%22%20r%3D%225%22%20fill%3D%22%2337474f%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 9,
+  "t": "mn",
+  "f": "Mật khẩu nào mạnh hơn: “123456” hay “Mai@2026Hoc”?",
+  "a": "“Mai@2026Hoc” mạnh hơn vì dài và có đủ chữ hoa, chữ thường, số, ký tự đặc biệt.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2244%22%20width%3D%2240%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2040%2C44%20L%2040%2C34%20Q%2040%2C22%2050%2C22%20Q%2060%2C22%2060%2C34%20L%2060%2C44%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2258%22%20r%3D%225%22%20fill%3D%22%2337474f%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Ý chính trong sơ đồ tư duy đặt ở đâu?",
+  "a": "Ở giữa, các ý nhỏ tỏa ra xung quanh bằng nhánh.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2212%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%3E%3Cline%20x1%3D%2260%22%20y1%3D%2244%22%20x2%3D%2280%22%20y2%3D%2230%22%2F%3E%3Cline%20x1%3D%2260%22%20y1%3D%2256%22%20x2%3D%2280%22%20y2%3D%2270%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2244%22%20x2%3D%2220%22%20y2%3D%2230%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2256%22%20x2%3D%2220%22%20y2%3D%2270%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%2342a5f5%22%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2228%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2272%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2228%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2272%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Sơ đồ tốt là sơ đồ thế nào?",
+  "a": "Nhìn vào hiểu ngay, chỉ ghi ý chính, không nhồi nhét mọi chữ.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2212%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%223%22%3E%3Cline%20x1%3D%2260%22%20y1%3D%2244%22%20x2%3D%2280%22%20y2%3D%2230%22%2F%3E%3Cline%20x1%3D%2260%22%20y1%3D%2256%22%20x2%3D%2280%22%20y2%3D%2270%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2244%22%20x2%3D%2220%22%20y2%3D%2230%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2256%22%20x2%3D%2220%22%20y2%3D%2270%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%2342a5f5%22%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2228%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2272%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2228%22%20r%3D%228%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2272%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Định dạng văn bản để làm gì?",
+  "a": "Để văn bản rõ ràng, dễ đọc và đẹp hơn.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2232%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2268%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2240%22%20y1%3D%2228%22%20x2%3D%2260%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2240%22%20x2%3D%2260%22%20y2%3D%2240%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2252%22%20x2%3D%2260%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2264%22%20x2%3D%2254%22%20y2%3D%2264%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 11,
+  "t": "mn",
+  "f": "Tiêu đề bài văn thường căn kiểu nào?",
+  "a": "Căn giữa và in đậm.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2232%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2268%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2240%22%20y1%3D%2228%22%20x2%3D%2260%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2240%22%20x2%3D%2260%22%20y2%3D%2240%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2252%22%20x2%3D%2260%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2264%22%20x2%3D%2254%22%20y2%3D%2264%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cline%20x1%3D%22140%22%20y1%3D%2250%22%20x2%3D%22160%22%20y2%3D%2250%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%225%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Hàng và cột trong bảng xếp theo hướng nào?",
+  "a": "Hàng xếp ngang, cột xếp dọc.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%2270%22%20y%3D%2230%22%20width%3D%22160%22%20height%3D%2260%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%22150%22%20y1%3D%2230%22%20x2%3D%22150%22%20y2%3D%2290%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2270%22%20y%3D%2260%22%20x2%3D%22230%22%20y2%3D%2260%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 12,
+  "t": "mn",
+  "f": "Muốn biết thứ Tư tiết 3 học gì thì tra bảng thế nào?",
+  "a": "Dò đúng hàng “Tiết 3” và cột “Thứ Tư”, ô giao nhau ghi môn học.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%2270%22%20y%3D%2230%22%20width%3D%22160%22%20height%3D%2260%22%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%22150%22%20y1%3D%2230%22%20x2%3D%22150%22%20y2%3D%2290%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2270%22%20y%3D%2260%22%20x2%3D%22230%22%20y2%3D%2260%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%22150%22%20y%3D%2260%22%20width%3D%2280%22%20height%3D%2230%22%20fill%3D%22%23bbdefb%22%20opacity%3D%220.7%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Tìm kiếm giúp gì khi văn bản rất dài?",
+  "a": "Tìm nhanh một từ mà không phải đọc hết cả bài.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%2242%22%20r%3D%2218%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2256%22%20x2%3D%2274%22%20y2%3D%2274%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 13,
+  "t": "mn",
+  "f": "Thay tất cả tiện nhưng có rủi ro gì?",
+  "a": "Đổi cả chỗ không muốn đổi, nên phải đọc lại kiểm tra.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%2070%2C45%20Q%20150%2C20%20230%2C45%22%20fill%3D%22none%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22230%2C45%20212%2C40%20216%2C56%22%20fill%3D%22%231565c0%22%2F%3E%3Cpath%20d%3D%22M%20230%2C75%20Q%20150%2C100%2070%2C75%22%20fill%3D%22none%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2270%2C75%2088%2C70%2084%2C86%22%20fill%3D%22%23e65100%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Sổ lưu niệm của lớp ghi lại những gì?",
+  "a": "Ảnh chụp, lời nhắn, những chuyện vui cả năm của lớp.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C26%20Q%2032%2C16%2016%2C22%20L%2016%2C74%20Q%2032%2C68%2050%2C78%20Q%2068%2C68%2084%2C74%20L%2084%2C22%20Q%2068%2C16%2050%2C26%20Z%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2226%22%20x2%3D%2250%22%20y2%3D%2278%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 14,
+  "t": "mn",
+  "f": "Vì sao chỉ dùng ảnh bạn đã đồng ý chia sẻ?",
+  "a": "Vì dùng ảnh người khác khi chưa xin phép là không tôn trọng bạn.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Crect%20x%3D%2240%22%20y%3D%2280%22%20width%3D%2260%22%20height%3D%2222%22%20fill%3D%22%2342a5f5%22%2F%3E%3Crect%20x%3D%22120%22%20y%3D%2255%22%20width%3D%2260%22%20height%3D%2247%22%20fill%3D%22%2366bb6a%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2230%22%20width%3D%2260%22%20height%3D%2272%22%20fill%3D%22%23ff9800%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Thuật toán là gì?",
+  "a": "Dãy các bước theo thứ tự để giải quyết một việc.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2220%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2250%2C44%2070%2C60%2050%2C76%2030%2C60%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2282%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23c8e6c9%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2238%22%20x2%3D%2250%22%20y2%3D%2244%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2276%22%20x2%3D%2250%22%20y2%3D%2282%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 15,
+  "t": "mn",
+  "f": "Nêu ví dụ một thuật toán tính điểm trung bình.",
+  "a": "Nhập điểm các môn; cộng lại; chia cho số môn; hiện kết quả.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2220%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2250%2C44%2070%2C60%2050%2C76%2030%2C60%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2282%22%20width%3D%2240%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%23c8e6c9%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2238%22%20x2%3D%2250%22%20y2%3D%2244%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2276%22%20x2%3D%2250%22%20y2%3D%2282%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "Kể tên 3 cấu trúc điều khiển.",
+  "a": "Tuần tự, rẽ nhánh và lặp.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Crect%20x%3D%2240%22%20y%3D%2280%22%20width%3D%2260%22%20height%3D%2222%22%20fill%3D%22%2342a5f5%22%2F%3E%3Crect%20x%3D%22120%22%20y%3D%2255%22%20width%3D%2260%22%20height%3D%2247%22%20fill%3D%22%2366bb6a%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2230%22%20width%3D%2260%22%20height%3D%2272%22%20fill%3D%22%23ff9800%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 16,
+  "t": "mn",
+  "f": "“Nếu trời mưa thì mang áo mưa” thuộc cấu trúc nào?",
+  "a": "Rẽ nhánh, vì có điều kiện đúng/sai.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cline%20x1%3D%2240%22%20y1%3D%2260%22%20x2%3D%22130%22%20y2%3D%2260%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%2260%22%20x2%3D%22220%22%20y2%3D%2230%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%2260%22%20x2%3D%22220%22%20y2%3D%2290%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22220%2C30%20204%2C28%20210%2C42%22%20fill%3D%22%232e7d32%22%2F%3E%3Cpolygon%20points%3D%22220%2C90%20204%2C92%20210%2C78%22%20fill%3D%22%231565c0%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Chương trình máy tính là gì?",
+  "a": "Tập hợp các lệnh viết bằng ngôn ngữ lập trình để máy thực hiện một việc.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2218%22%20y%3D%2226%22%20width%3D%2264%22%20height%3D%2248%22%20rx%3D%224%22%20fill%3D%22%23263238%22%2F%3E%3Cg%20stroke%3D%22%2380cbc4%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2226%22%20y1%3D%2238%22%20x2%3D%2246%22%20y2%3D%2238%22%2F%3E%3Cline%20x1%3D%2226%22%20y1%3D%2250%22%20x2%3D%2258%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2226%22%20y1%3D%2262%22%20x2%3D%2252%22%20y2%3D%2262%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 17,
+  "t": "mn",
+  "f": "Scratch hợp với ai?",
+  "a": "Học sinh mới học lập trình, vì dùng khối lệnh kéo thả.",
+  "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2218%22%20y%3D%2226%22%20width%3D%2264%22%20height%3D%2248%22%20rx%3D%224%22%20fill%3D%22%23263238%22%2F%3E%3Cg%20stroke%3D%22%2380cbc4%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2226%22%20y1%3D%2238%22%20x2%3D%2246%22%20y2%3D%2238%22%2F%3E%3Cline%20x1%3D%2226%22%20y1%3D%2250%22%20x2%3D%2258%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2226%22%20y1%3D%2262%22%20x2%3D%2252%22%20y2%3D%2262%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ }
 ]
