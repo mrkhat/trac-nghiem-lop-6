@@ -14,11 +14,12 @@
 .lesson-cover{display:block;width:100%;max-width:400px;height:auto;border-radius:10px;margin:2px 0 12px}
 /* Thẻ từ vựng */
 .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:10px;margin:10px 0}
-/* Tách giao diện theo thiết bị: bài đọc giữ khung 840px, riêng lưới từ
-   vựng nới rộng trên máy tính/iPad ngang để thêm cột, không tràn màn
-   hình (trừ 32px đệm, vừa cả thanh cuộn). */
-@media(min-width:901px){.vgrid{width:min(1080px,calc(100vw - 32px));margin-left:50%;transform:translateX(-50%)}}
-@media(min-width:1280px){.vgrid{width:min(1160px,calc(100vw - 32px))}}
+/* Tách giao diện theo thiết bị: nới cả trang trên máy tính/iPad ngang
+   (body 1080px rồi 1160px, trừ 32px đệm vừa thanh cuộn) để lưới từ vựng
+   thêm cột; KHÔNG nới riêng .vgrid vì .lesson có overflow:hidden sẽ
+   cắt phần lưới tràn ra ngoài. */
+@media(min-width:901px){body{max-width:min(1080px,calc(100vw - 32px))}}
+@media(min-width:1280px){body{max-width:min(1160px,calc(100vw - 32px))}}
 .vcard{background:#fff;border:1.5px solid #e3e3e3;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .vcard img{width:100%;height:108px;object-fit:cover;border-radius:8px}
 .vem{height:108px;background:#f1f5fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:56px}
