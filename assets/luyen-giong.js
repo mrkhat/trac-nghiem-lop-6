@@ -52,27 +52,61 @@
   function hoTro(){
     return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
   }
+  /* Luyện câu: Chrome tự ngắt khi bé ngừng nói chừng 1 giây rồi chấm
+     ngay phần đã nghe được, nên câu dài hay bị chấm thiếu. Sửa bằng
+     cách: câu (mẫu > 1 từ) thì nghe liên tục + nhận kết quả tạm, chỉ
+     chấm khi bé im lặng đủ 3 giây hoặc quá 30 giây; luyện từ (1 từ)
+     giữ nguyên chấm ngay như cũ. */
   function nghe(mau, cb){
     var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if(!SR){ cb('unsupported'); return; }
     var done = false, r;
+    var laCau = norm(mau).split(' ').filter(Boolean).length > 1;
+    var cuoi = '', tam = '', lanCuoi = 0, henGio = null, batDau = Date.now();
     function fin(err, txt){
       if(done) return; done = true;
+      if(henGio) clearInterval(henGio);
       try{ r.stop(); }catch(e){}
       cb(err, txt);
     }
     try{
       r = new SR();
-      r.lang = 'en-US'; r.continuous = false; r.interimResults = false; r.maxAlternatives = 1;
+      r.lang = 'en-US'; r.continuous = laCau; r.interimResults = laCau; r.maxAlternatives = 1;
       r.onresult = function(e){
-        var t = '';
-        try{ t = e.results[0][0].transcript; }catch(err){}
-        fin(null, t);
+        var i, res;
+        if(!laCau){
+          var t = '';
+          try{ t = e.results[0][0].transcript; }catch(err){}
+          fin(null, t);
+          return;
+        }
+        for(i = e.resultIndex; i < e.results.length; i++){
+          res = e.results[i];
+          try{
+            if(res.isFinal){ cuoi += (cuoi ? ' ' : '') + res[0].transcript; tam = ''; }
+            else tam = res[0].transcript;
+          }catch(err){}
+        }
+        lanCuoi = Date.now();
       };
       r.onerror = function(e){ fin((e && e.error) || 'error'); };
-      r.onnomatch = function(){ fin('nomatch'); };
-      r.onend = function(){ fin('nomatch'); };
+      r.onnomatch = function(){ if(!laCau) fin('nomatch'); };
+      r.onend = function(){
+        if(laCau){
+          var txt = (cuoi + ' ' + tam).trim();
+          fin(txt ? null : 'nomatch', txt);
+        } else fin('nomatch');
+      };
       r.start();
+      if(laCau){
+        lanCuoi = Date.now();
+        henGio = setInterval(function(){
+          var now = Date.now();
+          var txt = (cuoi + ' ' + tam).trim();
+          if(txt && now - lanCuoi > 3000){ fin(null, txt); }
+          else if(now - batDau > 30000){ fin(txt ? null : 'nomatch', txt); }
+        }, 500);
+      }
     }catch(err){ fin('error'); }
   }
   /* ===== ĐÁNH DẤU "ĐÃ HOÀN THÀNH" KHI CHẤM 3 SAO =====
