@@ -979,7 +979,8 @@ document.querySelectorAll('[data-vocab]').forEach(function(box){
       +'<div class="vvi">'+x.vi+'</div>'
       +'<div class="vex"><b>'+x.ex+'</b><br>'+x.exvi+'</div>'
       +'<button class="spk" data-speak="'+x.w+'">🔊 Nghe từ</button> '
-      +'<button class="spk" data-speak="'+x.ex+'">🔊 Nghe câu</button></div>';
+      +'<button class="spk" data-speak="'+x.ex+'">🔊 Nghe câu</button> '
+      +'<button class="spk" data-mic="'+x.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện nói</button><div class="lg-kq"></div></div>';
   }).join('');
 });
 /* ===== RENDER HỎI — ĐÁP GIAO TIẾP ===== */
@@ -1152,8 +1153,8 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   }
   var items=idxs.map(function(ci){var c=CARDS[ci];
     return {id:ci,
-      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button>',
-      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button><div style="margin-top:6px"><i>'+c.exvi+'</i></div>'};
+      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button> <button class="spk" data-mic="'+c.w+'">🎤 Luyện nói</button><div class="lg-kq"></div>',
+      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button> <button class="spk" data-mic="'+c.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện nói</button><div style="margin-top:6px"><i>'+c.exvi+'</i></div><div class="lg-kq"></div>'};
   });
   fcDeck(box,{items:items,
     isKnown:function(id){return !!known[id];},
@@ -1276,5 +1277,7 @@ applyView();
 </script>
 
 <script src="../assets/ux-p0.js"></script>
+<style>.lg-kq{min-height:26px;font-size:15px;line-height:1.5;margin-top:4px;text-align:center}</style>
+<script src="../assets/luyen-giong.js"></script>
 </body>
 </html>
