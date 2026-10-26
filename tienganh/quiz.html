@@ -384,7 +384,7 @@ function frontMedia(x){
 function buildFlashItems(){
   return CARDS_ALL.map(function(c,ci){
     return {id:ci,
-      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button><div style="font-size:14px;color:#444;margin-top:6px">(Bấm vào thẻ để lật xem nghĩa)</div>',
+      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button>',
       back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button><div style="margin-top:6px"><i>'+c.exvi+'</i></div>'};
   });
 }
