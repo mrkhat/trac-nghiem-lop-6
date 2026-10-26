@@ -164,7 +164,7 @@ function buildLessonSel(){
   const sel=document.getElementById('lessonSel'); if(!sel) return;
   const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
   const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
-  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+keys.map(k=>'<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>').join('');
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var hk1=PERIODS.ck1.max;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1===null||k<=hk1;});var g2=keys.filter(function(k){return hk1!==null&&k>hk1;});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('nguvan_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('nguvan_quiz_lesson',sel.value);}catch(e){}});
 }
 /* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (xem quiz-team/exam-periods.md) =====
    Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó; ck2 không giới hạn (tất cả).

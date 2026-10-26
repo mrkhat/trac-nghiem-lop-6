@@ -403,7 +403,7 @@
     "bai": 3
   },
   {
-    "question": "Khoảng cách thật từ Hà Nội đến Nghệ An là 300 km. Trên một bản đồ Việt Nam, khoảng cách đó đo được 5 cm. Vậy bản đồ đó có tỉ lệ bao nhiêu?",
+    "question": "Khoảng cách đường bộ từ Hà Nội đến TP. Vinh (Nghệ An) khoảng 300 km. Trên một bản đồ, khoảng cách đó đo được 5 cm. Hỏi tỉ lệ của bản đồ là bao nhiêu?",
     "options": [
       "A. 1 : 600 000",
       "B. 1 : 6 000 000",
@@ -411,7 +411,7 @@
       "D. 1 : 300 000"
     ],
     "answer": 1,
-    "explanation": "Đổi 300 km = 30 000 000 cm. Lấy 30 000 000 : 5 = 6 000 000. Vậy 1 cm trên bản đồ ứng với 6 000 000 cm thật, tỉ lệ là 1 : 6 000 000.",
+    "explanation": "Đường bộ Hà Nội – TP. Vinh dài khoảng 300 km (thực tế khoảng 299–304 km theo quốc lộ 1). Đổi 300 km = 30 000 000 cm; 30 000 000 : 5 = 6 000 000. Vậy tỉ lệ bản đồ là 1 : 6 000 000.",
     "id": 32,
     "bai": 3
   },

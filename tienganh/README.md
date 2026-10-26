@@ -11,7 +11,7 @@ Module học + ôn tập Tiếng Anh lớp 6, xây dựng ngày 21/10/2026 theo 
 - Trắc nghiệm **48 → 96 câu** (8/Unit, id liên tục); `quiz.html` mở rộng `LESSON_NAMES` lên 12 Unit, giữ nguyên khối `PERIODS` và hàm `speak()` en-US, thang khen 4 mức.
 - **Gắn ảnh: HK1 35 ảnh + HK2 57 ảnh + 6 ảnh bìa Unit 1–6** vào `cards-data.js` (trường `img`, đồng thời bỏ emoji khi đã có ảnh — đúng quy ước sẵn có), `flashcards.json` (trường `fi`) và `minicards.json` (23/24 thẻ có `fi`; 1 thẻ từ trừu tượng `environment` giữ dạng chữ). 15 từ trừu tượng giữ emoji, không gắn ảnh sai nghĩa. Quiz chỉ gắn `fi` khi `img` tồn tại nên không vỡ ảnh.
 - Ảnh bìa Unit 7–12 chưa có — Unit HK2 hiện chưa có ảnh bìa, chỉ có ảnh thẻ từ.
-- **Chưa chắc, cần đối chiếu SGK giấy:** trọng âm `motorhome`, cách viết `hi-tech`/`high-tech`, chính tả `recognise` (s) / `recognize` (z); các mục ngữ pháp HK2 là tóm tắt do trang tự viết theo chủ đề Unit (không trích nguyên văn SGK); phân kỳ HK1/HK2 theo thứ tự SGK, **chưa xác nhận PPCT** của trường bé.
+- **Đã đối chiếu 26/10:** trọng âm `motorhome` (nhấn âm tiết 1, theo Collins) và cách viết `hi-tech` (theo SGK Global Success Unit 10) là đúng, giữ nguyên. **Vẫn chưa chắc, cần đối chiếu SGK giấy:** chính tả `recognise` (s) / `recognize` (z) — trang hiện dùng thống nhất `recognise`; các mục ngữ pháp HK2 là tóm tắt do trang tự viết theo chủ đề Unit (không trích nguyên văn SGK); phân kỳ HK1/HK2 theo thứ tự SGK, **chưa xác nhận PPCT** của trường bé.
 
 ## Cấu trúc trang học tập (`index.html`)
 
