@@ -13,9 +13,10 @@
    ============================================================ */
 (function(){
   function norm(s){
-    // Bỏ hẳn dấu nháy (don't = dont, Anna's = annas) để bé không bị
-    // trừ điểm oan chỉ vì máy nghe không ghi dấu nháy.
-    return String(s || '').toLowerCase()
+    // XÓA dấu nháy (don't -> dont, Anna's -> annas) rồi mới tách từ,
+    // để bé không bị trừ điểm oan chỉ vì máy nghe không ghi dấu nháy.
+    // (Không thay nháy bằng khoảng trắng vì sẽ tách don't thành don + t.)
+    return String(s || '').toLowerCase().replace(/[’‘']/g, '')
       .replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
   }
   function esc(s){
