@@ -101,7 +101,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
         <option value="gk2">Giữa học kì 2</option>
         <option value="ck2">Cuối học kì 2</option>
       </select>
-      <div style="font-size:15px;color:#555;margin-top:4px">Chọn kỳ thi để luyện đúng phạm vi kỳ đó. Luyện tập làm hết câu trong kỳ; Kiểm tra thử lấy tối đa 20 câu ngẫu nhiên trong kỳ, không bấm giờ.<br>Khi đã chọn kỳ thi thì ô chọn bài ở trên tạm không dùng.<br>Nghệ thuật học cả năm theo thứ tự SGK nên các kỳ chia đều 24 đơn vị (Giữa HK1: 1–6, Cuối HK1: 1–12, Giữa HK2: 1–18, Cuối HK2: tất cả) — phân kỳ này chưa xác nhận theo thời khóa biểu của trường em, trường có thể chia khác.</div>
+      <div style="font-size:15px;color:#555;margin-top:4px">Chọn kỳ thi để luyện đúng phạm vi kỳ đó. Luyện tập làm hết câu trong kỳ; Kiểm tra thử lấy tối đa 20 câu ngẫu nhiên trong kỳ, không bấm giờ.<br>Khi đã chọn kỳ thi thì ô chọn bài ở trên tạm không dùng.<br>Nghệ thuật học cả năm theo thứ tự sách giáo khoa nên các kỳ chia đều 24 đơn vị (Giữa HK1: 1–6, Cuối HK1: 1–12, Giữa HK2: 1–18, Cuối HK2: tất cả).</div>
     </div>
     <div style="font-size:15px;color:#555;margin-top:4px">Học xong bài nào, em chọn đúng bài đó để luyện.<br>Muốn ôn tất cả thì chọn "Tất cả các bài".<br>Mỗi lần luyện 10 câu thôi. Làm xong là nghỉ cũng được.</div>
   </div>
@@ -168,9 +168,11 @@ function buildLessonSel(){
 }
 /* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (mẫu chung các môn) =====
    Nghệ thuật cả năm, không chia kỳ theo SGK nên chia đều 24 đơn vị: gk1 max=6, ck1 max=12,
-   gk2 max=18, ck2 không giới hạn (tất cả). Phân kỳ này chưa xác nhận PPCT của trường.
+   gk2 max=18, ck2 không giới hạn (tất cả). Phân kỳ theo thứ tự sách giáo khoa.
    Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó. Kỳ được chọn ưu tiên hơn ô chọn bài. */
 const PERIODS={gk1:{label:'Giữa học kì 1',max:6},ck1:{label:'Cuối học kì 1',max:12},gk2:{label:'Giữa học kì 2',max:18},ck2:{label:'Cuối học kì 2',max:null}};
+/* Phân kỳ nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì giữ PERIODS hardcode cũ. */
+(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.nghethuat&&d.mon.nghethuat.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]&&(typeof ky[k].max==='number'||ky[k].max===null))PERIODS[k].max=ky[k].max;});}).catch(function(){});}catch(e){}})();
 function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
 function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
 function showEmptyScope(){

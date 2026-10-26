@@ -1199,7 +1199,7 @@ body.tab-flash #tabFlash{display:block}
         <option value="g2">Giữa HK2 · Chương 1–7</option>
       </select>
     </div>
-    <p class="desc">Đề luyện gồm 5 bài trộn các chương trong kỳ đã chọn. Các mốc kỳ theo thứ tự SGK, chưa xác nhận PPCT của trường.</p>
+    <p class="desc">Đề luyện gồm 5 bài trộn các chương trong kỳ đã chọn. Các mốc kỳ theo thứ tự sách giáo khoa.</p>
   </div>
   <div class="sec">
     <h2>📚 Bài mẫu theo chương</h2>
@@ -1431,7 +1431,7 @@ body.tab-flash #tabFlash{display:block}
       <button class="btn btn-k" id="btnQzStart">▶ Bắt đầu bài kiểm tra</button>
       <button class="btn btn-c hidden" id="btnQzNew">🔀 Làm bài mới</button>
     </div>
-    <p class="desc">Bài kiểm tra lấy 10 câu trong các chương thuộc kỳ đã chọn. Các mốc kỳ theo thứ tự SGK, chưa xác nhận PPCT của trường.</p>
+    <p class="desc">Bài kiểm tra lấy 10 câu trong các chương thuộc kỳ đã chọn. Các mốc kỳ theo thứ tự sách giáo khoa.</p>
     <div id="qzResult" class="hidden"></div>
     <div id="qzArea"></div>
     <div class="sel-row hidden" id="qzSubmitRow">
@@ -1768,7 +1768,7 @@ document.getElementById('btnExam').onclick=()=>{
   const lvl=parseInt(document.getElementById('selLvl').value);
   const perEl=document.getElementById('selExamPeriod');
   const per=perEl?perEl.value:'all';
-  const PERIODS={all:[1,2,3,4,5,6,7,8,9],g1:[1,2],c1:[1,2,3,4,5],g2:[1,2,3,4,5,6,7]};
+  const PERIODS=(window.__MUC_LUC_TOAN||{all:[1,2,3,4,5,6,7,8,9],g1:[1,2],c1:[1,2,3,4,5],g2:[1,2,3,4,5,6,7]});
   const chaps=PERIODS[per]||PERIODS.all;
   const keys=Object.keys(window.GEN.templates).filter(k=>chaps.indexOf(window.GEN.templates[k].chapter)>=0).sort(()=>Math.random()-0.5).slice(0,5);
   examList=keys.map(k=>window.GEN.makeFrom(k,lvl));
@@ -2077,7 +2077,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     var picked=[], usedQ={};
     var perEl=document.getElementById('qzPeriod');
     var per=perEl?perEl.value:'all';
-    var PERIODS={all:[1,2,3,4,5,6,7,8,9],g1:[1,2],c1:[1,2,3,4,5],g2:[1,2,3,4,5,6,7]};
+    var PERIODS=(window.__MUC_LUC_TOAN||{all:[1,2,3,4,5,6,7,8,9],g1:[1,2],c1:[1,2,3,4,5],g2:[1,2,3,4,5,6,7]});
     var periodChaps=PERIODS[per]||PERIODS.all;
     periodChaps.forEach(function(c){
       var pool=shuffle(byCh[c]||[]), n=0, i;
@@ -2522,6 +2522,11 @@ document.getElementById('tgBtn').onclick=function(){ document.getElementById('tg
 document.getElementById('tgNew').onclick=tgDeal;
 document.getElementById('tgClose').onclick=function(){ document.getElementById('tgArea').style.display='none'; };
 document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.getElementById('tgArea').style.display!=='none') tgDeal(); });
+</script>
+<script>
+/* Phân kỳ Toán nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì dùng mốc chương hardcode cũ. */
+window.__MUC_LUC_TOAN=null;
+try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.toan&&d.mon.toan.ky;if(!ky)return;window.__MUC_LUC_TOAN={all:ky.ck2.chuong,g1:ky.gk1.chuong,c1:ky.ck1.chuong,g2:ky.gk2.chuong};}).catch(function(){});}catch(e){}
 </script>
 </body>
 </html>

@@ -97,6 +97,9 @@ Các chế độ bắt buộc, giữ nguyên nhãn và hành vi:
 Màn kết quả dùng thang khen 4 mức, đúng chữ: ≥80% "🎉 Xuất sắc! Em nhớ bài rất chắc."; 50–79% "👍 Khá tốt! Em xem lại mấy câu sai ở dưới rồi thử lại nhé."; 30–49% "💪 Em đã cố gắng làm hết bài rồi. Mình xem lại phần giải thích ở câu sai, rồi làm lại một lần nữa nhé."; <30% "🌱 Không sao đâu! Bài này hơi khó. Em quay lại đọc bài học một lần nữa, rồi mình làm lại từ đầu nhé." Cấm câu cụt "💪 Cần ôn thêm!" ở mức thấp nhất. Trong danh sách xem lại, dùng "Em chọn:", không dùng "Bạn chọn:".
 Khi tải câu hỏi lỗi: hiện "Chưa tải được câu hỏi. Em kiểm tra mạng rồi bấm nút Tải lại nhé." + nút 🔄 Tải lại, và `start()` phải chặn khi danh sách câu hỏi rỗng (không được vào màn làm bài trắng).
 
+### Phân kỳ (mục lục kỳ thi)
+Phân kỳ Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 theo thứ tự sách giáo khoa, nguồn duy nhất là `assets/muc-luc.json` (mỗi môn: mốc bài tối đa mỗi kỳ + danh sách bài theo kỳ; Toán theo chương). Các trang quiz nạp file này và dùng mốc của đúng môn mình, nạp thất bại thì dùng mốc hardcode cũ làm fallback. Muốn đổi mốc kỳ thì chỉ sửa `assets/muc-luc.json`, không sửa rải rác từng `quiz.html`.
+
 ## 6. Dữ liệu — schema bắt buộc
 
 ### questions.json — mảng JSON, mỗi phần tử đúng 6 trường:

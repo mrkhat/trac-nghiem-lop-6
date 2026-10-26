@@ -99,7 +99,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
         <option value="gk2">Giữa học kì 2</option>
         <option value="ck2">Cuối học kì 2</option>
       </select>
-      <div style="font-size:15px;color:#555;margin-top:4px">Chọn kỳ thi để luyện đúng phạm vi kỳ đó. Luyện tập làm hết câu trong kỳ; Kiểm tra thử lấy tối đa 20 câu ngẫu nhiên trong kỳ, không bấm giờ.<br>Khi đã chọn kỳ thi thì ô chọn bài ở trên tạm không dùng.<br>Phân kỳ theo thứ tự SGK, chưa xác nhận phân phối chương trình của trường.</div>
+      <div style="font-size:15px;color:#555;margin-top:4px">Chọn kỳ thi để luyện đúng phạm vi kỳ đó. Luyện tập làm hết câu trong kỳ; Kiểm tra thử lấy tối đa 20 câu ngẫu nhiên trong kỳ, không bấm giờ.<br>Khi đã chọn kỳ thi thì ô chọn bài ở trên tạm không dùng.<br>Phân kỳ theo thứ tự sách giáo khoa.</div>
     </div>
     <div style="font-size:15px;color:#555;margin-top:4px">Học xong bài nào, em chọn đúng bài đó để luyện.<br>Muốn ôn tất cả thì chọn "Tất cả các bài".<br>Mỗi lần luyện 10 câu thôi. Làm xong là nghỉ cũng được.</div>
   </div>
@@ -168,6 +168,8 @@ function buildLessonSel(){
    Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó; ck2 không giới hạn (tất cả).
    Kỳ được chọn sẽ ưu tiên hơn ô chọn bài ở trên. */
 const PERIODS={gk1:{label:'Giữa học kì 1',max:13},ck1:{label:'Cuối học kì 1',max:23},gk2:{label:'Giữa học kì 2',max:27},ck2:{label:'Cuối học kì 2',max:null}};
+/* Phân kỳ nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì giữ PERIODS hardcode cũ. */
+(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.dialy&&d.mon.dialy.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]&&(typeof ky[k].max==='number'||ky[k].max===null))PERIODS[k].max=ky[k].max;});}).catch(function(){});}catch(e){}})();
 function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
 function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
 function showEmptyScope(){
