@@ -14,6 +14,11 @@
 .lesson-cover{display:block;width:100%;max-width:400px;height:auto;border-radius:10px;margin:2px 0 12px}
 /* Thẻ từ vựng */
 .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:10px;margin:10px 0}
+/* Tách giao diện theo thiết bị: bài đọc giữ khung 840px, riêng lưới từ
+   vựng nới rộng trên máy tính/iPad ngang để thêm cột, không tràn màn
+   hình (trừ 32px đệm, vừa cả thanh cuộn). */
+@media(min-width:901px){.vgrid{width:min(1080px,calc(100vw - 32px));margin-left:50%;transform:translateX(-50%)}}
+@media(min-width:1280px){.vgrid{width:min(1160px,calc(100vw - 32px))}}
 .vcard{background:#fff;border:1.5px solid #e3e3e3;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .vcard img{width:100%;height:108px;object-fit:cover;border-radius:8px}
 .vem{height:108px;background:#f1f5fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:56px}
@@ -163,8 +168,8 @@
   <div class="vgrid" data-vocab="u1"></div>
 
   
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/compass.jpg" alt="Com-pa vẽ vòng tròn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">compass</div><div>/ˈkʌmpəs/</div><div style="margin-top:6px">com-pa</div><button class="spk" data-speak="compass">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/library.jpg" alt="Thư viện nhiều sách"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">library</div><div>/ˈlaɪbrəri/</div><div style="margin-top:6px">thư viện</div><button class="spk" data-speak="library">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/compass.jpg" alt="Com-pa vẽ vòng tròn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">compass</div><div>/ˈkʌmpəs/</div><div style="margin-top:6px">com-pa</div><div class="lg-btnrow"><button class="spk" data-speak="compass">🔊 Nghe từ</button><button class="spk" data-mic="compass">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/library.jpg" alt="Thư viện nhiều sách"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">library</div><div>/ˈlaɪbrəri/</div><div style="margin-top:6px">thư viện</div><div class="lg-btnrow"><button class="spk" data-speak="library">🔊 Nghe từ</button><button class="spk" data-mic="library">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">I / You / We / They + <span class="hl">V</span> &nbsp;•&nbsp; He / She / It + <span class="hl">V-s / V-es</span></div>
   <div class="mmap">
@@ -207,8 +212,8 @@
   <div class="vgrid" data-vocab="u2"></div>
 
   
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/fridge.jpg" alt="Tủ lạnh mở cửa có thức ăn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">fridge</div><div>/frɪdʒ/</div><div style="margin-top:6px">tủ lạnh</div><button class="spk" data-speak="fridge">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sofa.jpg" alt="Ghế sô-pha"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">sofa</div><div>/ˈsəʊfə/</div><div style="margin-top:6px">ghế sô-pha</div><button class="spk" data-speak="sofa">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/fridge.jpg" alt="Tủ lạnh mở cửa có thức ăn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">fridge</div><div>/frɪdʒ/</div><div style="margin-top:6px">tủ lạnh</div><div class="lg-btnrow"><button class="spk" data-speak="fridge">🔊 Nghe từ</button><button class="spk" data-mic="fridge">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sofa.jpg" alt="Ghế sô-pha"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">sofa</div><div>/ˈsəʊfə/</div><div style="margin-top:6px">ghế sô-pha</div><div class="lg-btnrow"><button class="spk" data-speak="sofa">🔊 Nghe từ</button><button class="spk" data-mic="sofa">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula"><span class="hl">There is</span> + 1 vật &nbsp;•&nbsp; <span class="hl">There are</span> + nhiều vật</div>
   <div class="mmap">
@@ -251,7 +256,7 @@
   <div class="vgrid" data-vocab="u3"></div>
 
   
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/mini-friendly.webp" alt="Nhóm bạn cười vẫy chào"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">friendly</div><div>/ˈfrendli/</div><div style="margin-top:6px">thân thiện</div><button class="spk" data-speak="friendly">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/mini-friendly.webp" alt="Nhóm bạn cười vẫy chào"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">friendly</div><div>/ˈfrendli/</div><div style="margin-top:6px">thân thiện</div><div class="lg-btnrow"><button class="spk" data-speak="friendly">🔊 Nghe từ</button><button class="spk" data-mic="friendly">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">I <span class="hl">am</span> • He/She/It <span class="hl">is</span> • You/We/They <span class="hl">are</span> &nbsp;+&nbsp; <span class="hl">V-ing</span></div>
@@ -295,8 +300,8 @@
   <div class="vgrid" data-vocab="u4"></div>
 
   
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sua-bakery.webp" alt="Tiệm bánh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">bakery</div><div>/ˈbeɪkəri/</div><div style="margin-top:6px">tiệm bánh</div><button class="spk" data-speak="bakery">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/park.jpg" alt="Công viên có cây và hồ"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">park</div><div>/pɑːk/</div><div style="margin-top:6px">công viên</div><button class="spk" data-speak="park">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sua-bakery.webp" alt="Tiệm bánh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">bakery</div><div>/ˈbeɪkəri/</div><div style="margin-top:6px">tiệm bánh</div><div class="lg-btnrow"><button class="spk" data-speak="bakery">🔊 Nghe từ</button><button class="spk" data-mic="bakery">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/park.jpg" alt="Công viên có cây và hồ"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">park</div><div>/pɑːk/</div><div style="margin-top:6px">công viên</div><div class="lg-btnrow"><button class="spk" data-speak="park">🔊 Nghe từ</button><button class="spk" data-mic="park">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">Tính từ ngắn + <span class="hl">-er</span> + <span class="hl">than</span> &nbsp;•&nbsp; <span class="hl">more</span> + tính từ dài + than</div>
   <div class="mmap">
@@ -339,8 +344,8 @@
   <div class="vgrid" data-vocab="u5"></div>
 
   
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/island.jpg" alt="Hòn đảo giữa biển"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">island</div><div>/ˈaɪlənd/</div><div style="margin-top:6px">hòn đảo</div><button class="spk" data-speak="island">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/mountain.jpg" alt="Ngọn núi cao"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">mountain</div><div>/ˈmaʊntən/</div><div style="margin-top:6px">ngọn núi</div><button class="spk" data-speak="mountain">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/island.jpg" alt="Hòn đảo giữa biển"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">island</div><div>/ˈaɪlənd/</div><div style="margin-top:6px">hòn đảo</div><div class="lg-btnrow"><button class="spk" data-speak="island">🔊 Nghe từ</button><button class="spk" data-mic="island">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/mountain.jpg" alt="Ngọn núi cao"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">mountain</div><div>/ˈmaʊntən/</div><div style="margin-top:6px">ngọn núi</div><div class="lg-btnrow"><button class="spk" data-speak="mountain">🔊 Nghe từ</button><button class="spk" data-mic="mountain">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">So sánh nhất: <span class="hl">the</span> + tính từ + <span class="hl">-est</span> &nbsp;•&nbsp; <span class="hl">must</span> + V = phải &nbsp;•&nbsp; <span class="hl">mustn't</span> + V = không được</div>
   <div class="mmap">
@@ -382,9 +387,9 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u6"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/fireworks.jpg" alt="Pháo hoa trên trời đêm"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">fireworks</div><div>/ˈfaɪəwɜːks/</div><div style="margin-top:6px">pháo hoa</div><button class="spk" data-speak="fireworks">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/chung-cake.jpg" alt="Bánh chưng xanh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">chung cake</div><div>tên riêng tiếng Việt — đọc như tiếng Việt</div><div style="margin-top:6px">bánh chưng</div><button class="spk" data-speak="chung cake">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sua-relative.webp" alt="Gia đình và họ hàng sum họp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">relative</div><div>/ˈrelətɪv/</div><div style="margin-top:6px">họ hàng</div><button class="spk" data-speak="relative">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/fireworks.jpg" alt="Pháo hoa trên trời đêm"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">fireworks</div><div>/ˈfaɪəwɜːks/</div><div style="margin-top:6px">pháo hoa</div><div class="lg-btnrow"><button class="spk" data-speak="fireworks">🔊 Nghe từ</button><button class="spk" data-mic="fireworks">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/chung-cake.jpg" alt="Bánh chưng xanh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">chung cake</div><div>tên riêng tiếng Việt — đọc như tiếng Việt</div><div style="margin-top:6px">bánh chưng</div><div class="lg-btnrow"><button class="spk" data-speak="chung cake">🔊 Nghe từ</button><button class="spk" data-mic="chung cake">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/sua-relative.webp" alt="Gia đình và họ hàng sum họp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">relative</div><div>/ˈrelətɪv/</div><div style="margin-top:6px">họ hàng</div><div class="lg-btnrow"><button class="spk" data-speak="relative">🔊 Nghe từ</button><button class="spk" data-mic="relative">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
 
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula"><span class="hl">should</span> + V = nên làm &nbsp;•&nbsp; <span class="hl">shouldn't</span> + V = không nên làm</div>
@@ -438,8 +443,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u7"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u7-television.webp" alt="Gia đình xem tivi"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">television</div><div>/ˈtelɪvɪʒn/</div><div style="margin-top:6px">tivi, máy truyền hình</div><button class="spk" data-speak="television">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u7-cartoon.webp" alt="Phim hoạt hình vui nhộn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">cartoon</div><div>/kɑːˈtuːn/</div><div style="margin-top:6px">phim hoạt hình</div><button class="spk" data-speak="cartoon">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u7-television.webp" alt="Gia đình xem tivi"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">television</div><div>/ˈtelɪvɪʒn/</div><div style="margin-top:6px">tivi, máy truyền hình</div><div class="lg-btnrow"><button class="spk" data-speak="television">🔊 Nghe từ</button><button class="spk" data-mic="television">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u7-cartoon.webp" alt="Phim hoạt hình vui nhộn"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">cartoon</div><div>/kɑːˈtuːn/</div><div style="margin-top:6px">phim hoạt hình</div><div class="lg-btnrow"><button class="spk" data-speak="cartoon">🔊 Nghe từ</button><button class="spk" data-mic="cartoon">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">What / When / Where / Who + <span class="hl">do / does</span> + S + V? &nbsp;•&nbsp; <span class="hl">and</span> (và) • <span class="hl">but</span> (nhưng) • <span class="hl">so</span> (vì vậy)</div>
   <div class="mmap">
@@ -481,8 +486,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u8"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u8-football.webp" alt="Các bạn chơi bóng đá"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">football</div><div>/ˈfʊtbɔːl/</div><div style="margin-top:6px">bóng đá</div><button class="spk" data-speak="football">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u8-chess.webp" alt="Bàn cờ vua"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">chess</div><div>/tʃes/</div><div style="margin-top:6px">cờ vua</div><button class="spk" data-speak="chess">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u8-football.webp" alt="Các bạn chơi bóng đá"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">football</div><div>/ˈfʊtbɔːl/</div><div style="margin-top:6px">bóng đá</div><div class="lg-btnrow"><button class="spk" data-speak="football">🔊 Nghe từ</button><button class="spk" data-mic="football">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u8-chess.webp" alt="Bàn cờ vua"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">chess</div><div>/tʃes/</div><div style="margin-top:6px">cờ vua</div><div class="lg-btnrow"><button class="spk" data-speak="chess">🔊 Nghe từ</button><button class="spk" data-mic="chess">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">S + <span class="hl">V-ed</span> (hoặc dạng quá khứ bất quy tắc) &nbsp;•&nbsp; Dấu hiệu: <span class="hl">yesterday, last night, last week</span></div>
   <div class="mmap">
@@ -524,8 +529,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u9"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u9-city.webp" alt="Thành phố nhộn nhịp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">city</div><div>/ˈsɪti/</div><div style="margin-top:6px">thành phố</div><button class="spk" data-speak="city">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u9-palace.webp" alt="Cung điện nguy nga"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">palace</div><div>/ˈpæləs/</div><div style="margin-top:6px">cung điện</div><button class="spk" data-speak="palace">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u9-city.webp" alt="Thành phố nhộn nhịp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">city</div><div>/ˈsɪti/</div><div style="margin-top:6px">thành phố</div><div class="lg-btnrow"><button class="spk" data-speak="city">🔊 Nghe từ</button><button class="spk" data-mic="city">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u9-palace.webp" alt="Cung điện nguy nga"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">palace</div><div>/ˈpæləs/</div><div style="margin-top:6px">cung điện</div><div class="lg-btnrow"><button class="spk" data-speak="palace">🔊 Nghe từ</button><button class="spk" data-mic="palace">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">S + <span class="hl">have / has</span> + <span class="hl">V-ed</span> (dạng quá khứ phân từ) &nbsp;•&nbsp; <span class="hl">ever</span> (đã từng) • <span class="hl">never</span> (chưa bao giờ)</div>
   <div class="mmap">
@@ -567,8 +572,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u10"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u10-villa.webp" alt="Biệt thự đẹp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">villa</div><div>/ˈvɪlə/</div><div style="margin-top:6px">biệt thự</div><button class="spk" data-speak="villa">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u10-skyscraper.webp" alt="Nhà chọc trời cao vút"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">skyscraper</div><div>/ˈskaɪskreɪpə/</div><div style="margin-top:6px">nhà chọc trời</div><button class="spk" data-speak="skyscraper">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u10-villa.webp" alt="Biệt thự đẹp"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">villa</div><div>/ˈvɪlə/</div><div style="margin-top:6px">biệt thự</div><div class="lg-btnrow"><button class="spk" data-speak="villa">🔊 Nghe từ</button><button class="spk" data-mic="villa">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u10-skyscraper.webp" alt="Nhà chọc trời cao vút"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">skyscraper</div><div>/ˈskaɪskreɪpə/</div><div style="margin-top:6px">nhà chọc trời</div><div class="lg-btnrow"><button class="spk" data-speak="skyscraper">🔊 Nghe từ</button><button class="spk" data-mic="skyscraper">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">S + <span class="hl">will</span> + V (sẽ — khá chắc) &nbsp;•&nbsp; S + <span class="hl">might</span> + V (có thể — chưa chắc)</div>
   <div class="mmap">
@@ -610,8 +615,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u11"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u11-recycle.webp" alt="Tái chế đồ cũ"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">recycle</div><div>/ˌriːˈsaɪkl/</div><div style="margin-top:6px">tái chế</div><button class="spk" data-speak="recycle">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u11-plant.webp" alt="Trồng cây xanh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">plant</div><div>/plɑːnt/</div><div style="margin-top:6px">trồng (cây), cây cối</div><button class="spk" data-speak="plant">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u11-recycle.webp" alt="Tái chế đồ cũ"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">recycle</div><div>/ˌriːˈsaɪkl/</div><div style="margin-top:6px">tái chế</div><div class="lg-btnrow"><button class="spk" data-speak="recycle">🔊 Nghe từ</button><button class="spk" data-mic="recycle">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u11-plant.webp" alt="Trồng cây xanh"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">plant</div><div>/plɑːnt/</div><div style="margin-top:6px">trồng (cây), cây cối</div><div class="lg-btnrow"><button class="spk" data-speak="plant">🔊 Nghe từ</button><button class="spk" data-mic="plant">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula"><span class="hl">If</span> + S + V (hiện tại đơn), S + <span class="hl">will</span> + V</div>
   <div class="mmap">
@@ -653,8 +658,8 @@
   <div class="secttl">📚 Từ vựng của Unit</div>
   <div class="vgrid" data-vocab="u12"></div>
 
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u12-robot.webp" alt="Rô-bốt thân thiện"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">robot</div><div>/ˈrəʊbɒt/</div><div style="margin-top:6px">rô-bốt</div><button class="spk" data-speak="robot">🔊 Nghe từ</button></div></div></div>
-  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u12-planet.webp" alt="Hành tinh xa xôi"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">planet</div><div>/ˈplænɪt/</div><div style="margin-top:6px">hành tinh</div><button class="spk" data-speak="planet">🔊 Nghe từ</button></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u12-robot.webp" alt="Rô-bốt thân thiện"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">robot</div><div>/ˈrəʊbɒt/</div><div style="margin-top:6px">rô-bốt</div><div class="lg-btnrow"><button class="spk" data-speak="robot">🔊 Nghe từ</button><button class="spk" data-mic="robot">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
+  <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/tienganh/tienganh-u12-planet.webp" alt="Hành tinh xa xôi"><div>Từ này là gì?</div></div><div class="mini-face mini-back"><div style="font-size:23px;font-weight:bold">planet</div><div>/ˈplænɪt/</div><div style="margin-top:6px">hành tinh</div><div class="lg-btnrow"><button class="spk" data-speak="planet">🔊 Nghe từ</button><button class="spk" data-mic="planet">🎤 Luyện từ</button></div><div class="lg-kq"></div></div></div></div>
   <div class="secttl">⭐ Ngữ pháp cần nhớ</div>
   <div class="formula">S + <span class="hl">can</span> + V (có thể — hiện tại) &nbsp;•&nbsp; S + <span class="hl">will be able to</span> + V (sẽ có thể — tương lai)</div>
   <div class="mmap">
@@ -978,17 +983,16 @@ document.querySelectorAll('[data-vocab]').forEach(function(box){
       +'<div class="vword">'+x.w+'</div><div class="vipa">'+x.ipa+'</div>'
       +'<div class="vvi">'+x.vi+'</div>'
       +'<div class="vex"><b>'+x.ex+'</b><br>'+x.exvi+'</div>'
-      +'<button class="spk" data-speak="'+x.w+'">🔊 Nghe từ</button> '
-      +'<button class="spk" data-speak="'+x.ex+'">🔊 Nghe câu</button> '
-      +'<button class="spk" data-mic="'+x.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện nói</button><div class="lg-kq"></div></div>';
+      +'<div class="lg-btnrow"><button class="spk" data-speak="'+x.w+'">🔊 Nghe từ</button><button class="spk" data-mic="'+x.w+'">🎤 Luyện từ</button></div>'
+      +'<div class="lg-btnrow"><button class="spk" data-speak="'+x.ex+'">🔊 Nghe câu</button><button class="spk" data-mic="'+x.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện câu</button></div><div class="lg-kq"></div></div>';
   }).join('');
 });
 /* ===== RENDER HỎI — ĐÁP GIAO TIẾP ===== */
 document.querySelectorAll('[data-comm]').forEach(function(box){
   var arr=COMMS[box.getAttribute('data-comm')]||[];
   box.innerHTML=arr.map(function(c){
-    return '<div class="qa"><div class="qa-q">🗣️ <b>'+c[0]+'</b> <button class="spk" data-speak="'+c[0]+'">🔊 Nghe câu hỏi</button></div>'
-      +'<div class="qa-a">💬 <b>'+c[1]+'</b> <button class="spk" data-speak="'+c[1]+'">🔊 Nghe trả lời</button><br><i>'+c[2]+'</i></div></div>';
+    return '<div class="qa"><div class="qa-q">🗣️ <b>'+c[0]+'</b> <button class="spk" data-speak="'+c[0]+'">🔊 Nghe câu hỏi</button> <button class="spk" data-mic="'+c[0].replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện câu hỏi</button></div>'
+      +'<div class="qa-a">💬 <b>'+c[1]+'</b> <button class="spk" data-speak="'+c[1]+'">🔊 Nghe trả lời</button> <button class="spk" data-mic="'+c[1].replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện câu trả lời</button><br><i>'+c[2]+'</i></div><div class="lg-kq"></div></div>';
   }).join('');
 });
 /* ===== RENDER BÀI TẬP ĐIỀN TỪ + SẮP XẾP CÂU ===== */
@@ -1079,6 +1083,7 @@ function fcDeck(box, cfg){
       for(var i=0;i<ims.length;i++){ (function(im){ if(!im.complete) im.addEventListener('load', function(){ var h2=Math.max(front.scrollHeight||0, back.scrollHeight||0); if(h2>0) inner.style.height=h2+'px'; }); })(ims[i]); }
     }catch(e){}
   }
+  (window.__fcFit = window.__fcFit || []).push(fitFaces);
   function render(dir){
     if(guardMsg)guardMsg.textContent='';
     if(!queue.length){
@@ -1124,6 +1129,17 @@ function fcDeck(box, cfg){
       render(ok?'l':'r');
     },300);
   }
+  /* LUYEN NOI 3 SAO: danh dau the HIEN TAI da biet ma KHONG chuyen the.
+     luyen-giong.js goi ham nay khi cham 3 sao: setKnown(the hien tai,
+     true) + render() de cap nhat so luong/thanh tien trinh, giu nguyen
+     pos/flipped, khong goi tick. render() tao lai noi dung mat the nen
+     ben goi phai tim lai .lg-kq moi sau khi goi ham nay. */
+  box.__lgMarkCurrentKnown = function(){
+    if(!queue.length) return false;
+    cfg.setKnown(queue[pos], true);
+    render();
+    return true;
+  };
   card.addEventListener('click',function(e){if(busy)return; if(e.target&&e.target.closest&&e.target.closest('.spk'))return; flipped=!flipped;card.classList.toggle('flipped',flipped);});
   box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
     var a=b.getAttribute('data-a');
@@ -1153,8 +1169,8 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   }
   var items=idxs.map(function(ci){var c=CARDS[ci];
     return {id:ci,
-      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button> <button class="spk" data-mic="'+c.w+'">🎤 Luyện nói</button><div class="lg-kq"></div>',
-      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button> <button class="spk" data-mic="'+c.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện nói</button><div style="margin-top:6px"><i>'+c.exvi+'</i></div><div class="lg-kq"></div>'};
+      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><div class="lg-btnrow"><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button><button class="spk" data-mic="'+c.w+'">🎤 Luyện từ</button></div><div class="lg-kq"></div>',
+      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><div class="lg-btnrow"><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button><button class="spk" data-mic="'+c.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện câu</button></div><div style="margin-top:6px"><i>'+c.exvi+'</i></div><div class="lg-kq"></div>'};
   });
   fcDeck(box,{items:items,
     isKnown:function(id){return !!known[id];},
@@ -1277,7 +1293,19 @@ applyView();
 </script>
 
 <script src="../assets/ux-p0.js"></script>
-<style>.lg-kq{min-height:26px;font-size:15px;line-height:1.5;margin-top:4px;text-align:center}</style>
+<style>.lg-kq{min-height:26px;font-size:15px;line-height:1.5;margin-top:4px;text-align:center}.lg-btnrow{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:6px}.lg-btnrow .spk{margin-top:0}.vgrid .lg-btnrow .spk{flex:1 1 0;min-width:0;padding:10px 4px;font-size:13px}.mini-back .lg-btnrow .spk{flex:1 1 0;min-width:0;padding:8px 4px;font-size:13px}.mini-back .lg-kq{font-size:14px;line-height:1.4}</style>
 <script src="../assets/luyen-giong.js"></script>
+<script>
+/* Đo lại chiều cao thẻ khi chuyển bài/đổi chế độ/xoay màn hình: các bộ
+   thẻ ở mục đang ẩn có scrollHeight = 0 lúc tải trang nên không đo
+   được, phải đo lại khi mục đó hiện ra thì thẻ mới đủ cao, không
+   bị cắt nội dung và không phải cuộn trong thẻ. */
+function refitFcDecks(){ (window.__fcFit || []).forEach(function(f){ try{ f(); }catch(e){} }); }
+document.addEventListener('click', function(){ setTimeout(refitFcDecks, 60); });
+document.addEventListener('change', function(){ setTimeout(refitFcDecks, 60); });
+window.addEventListener('resize', function(){ setTimeout(refitFcDecks, 60); });
+window.addEventListener('load', function(){ setTimeout(refitFcDecks, 100); });
+if(document.fonts && document.fonts.ready){ document.fonts.ready.then(function(){ setTimeout(refitFcDecks, 50); }); }
+</script>
 </body>
 </html>

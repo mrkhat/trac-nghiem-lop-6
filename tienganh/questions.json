@@ -604,10 +604,10 @@
    "A. some",
    "B. any",
    "C. many",
-   "D. a few"
+   "D. much"
   ],
   "answer": 0,
-  "explanation": "Câu khẳng định dùng “some” (một ít). “Some” đi với danh từ số nhiều hoặc không đếm được (some + danh từ số nhiều hoặc không đếm được). “Any” thường dùng trong câu phủ định và câu hỏi.",
+  "explanation": "Câu khẳng định dùng “some” (một ít). “Some” đi với danh từ số nhiều hoặc không đếm được (some + danh từ số nhiều hoặc không đếm được). “Any” thường dùng trong câu phủ định và câu hỏi. much không đi với danh từ đếm được số nhiều.",
   "bai": 6
  },
  {
@@ -755,7 +755,7 @@
  },
  {
   "id": 59,
-  "question": "We play ___ in the playground. (Chúng mình chơi ___ ở sân chơi.)",
+  "question": "We play ___ in the playground with a shuttlecock. (Chúng mình chơi ___ ở sân chơi bằng quả cầu lông.)",
   "options": [
    "A. badminton",
    "B. marathon",

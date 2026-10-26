@@ -52,6 +52,7 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 @media(max-width:480px){body{padding:12px}h1{font-size:26px}}
 </style>
 <link rel="stylesheet" href="../assets/fc-onluyen.css">
+<style>.lg-kq{min-height:26px;font-size:15px;line-height:1.5;margin-top:4px;text-align:center}.lg-btnrow{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:6px}.lg-btnrow .spk{margin-top:0;flex:1 1 0;min-width:0;padding:10px 4px;font-size:13px}</style>
 
 <style>
 /* ===== TAB FLASHCARD TONG HOP ===== */
@@ -347,6 +348,7 @@ function showResult(){
 <script src="cards-data.js"></script>
 <script src="../assets/fc-state.js"></script>
 <script src="../assets/fc-onluyen.js"></script>
+<script src="../assets/luyen-giong.js"></script>
 <script>
 /* ===== ÔN LUYỆN: gom toan bo flashcard + the Nho nhanh cua mon vao trang bai tap =====
    Du lieu the lay tu cards-data.js (dung chung voi trang hoc) va the Nho nhanh
@@ -384,8 +386,8 @@ function frontMedia(x){
 function buildFlashItems(){
   return CARDS_ALL.map(function(c,ci){
     return {id:ci,
-      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button>',
-      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button><div style="margin-top:6px"><i>'+c.exvi+'</i></div>'};
+      front:frontMedia(c)+'<div class="fcword">'+c.w+'</div><div class="fcipa">'+c.ipa+'</div><div class="lg-btnrow"><button class="spk" data-speak="'+c.w+'">🔊 Nghe từ</button><button class="spk" data-mic="'+c.w+'">🎤 Luyện từ</button></div><div class="lg-kq"></div>',
+      back:'<div style="font-size:23px;font-weight:bold">'+c.vi+'</div><div style="margin-top:10px"><b>'+c.ex+'</b></div><div class="lg-btnrow"><button class="spk" data-speak="'+c.ex+'">🔊 Nghe câu</button><button class="spk" data-mic="'+c.ex.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'">🎤 Luyện câu</button></div><div style="margin-top:6px"><i>'+c.exvi+'</i></div><div class="lg-kq"></div>'};
   });
 }
 onluyenBoot({lsKey:'onluyen_tienganh', subject:'Tiếng Anh 6', buildFlashItems:buildFlashItems});
@@ -453,7 +455,7 @@ function fcRender(){
    '<div class="fcbtns"><button type="button" class="no" onclick="fcTick(false)">\u21BA Ch\u01B0a thu\u1ED9c</button><button type="button" class="ok" onclick="fcTick(true)">\u2714 \u0110\u00E3 thu\u1ED9c</button></div>'+
    '</div>';
   const faces=m.querySelectorAll('.fctext'); faces[0].textContent=it.f; faces[1].textContent=it.a;
-  document.getElementById('fcCard').onclick=()=>{ fcFlip=!fcFlip; document.getElementById('fcCard').classList.toggle('flip',fcFlip); };
+  document.getElementById('fcCard').onclick=(e)=>{ if(e&&e.target&&e.target.closest&&e.target.closest('.spk'))return; fcFlip=!fcFlip; document.getElementById('fcCard').classList.toggle('flip',fcFlip); };
 }
 function fcTick(ok){
   if(!fcFlip){ fcFlip=true; var _gc=document.getElementById('fcCard'); if(_gc)_gc.classList.add('flip'); var _gn=document.getElementById('fcGuardNote'); if(!_gn){ _gn=document.createElement('p'); _gn.id='fcGuardNote'; _gn.style.cssText='text-align:center;font-size:16px;font-weight:600;color:#b34700;margin:10px 0 0'; _gn.textContent='Nhìn đáp án đã, rồi tự hỏi: lúc nãy em có nhớ được không?'; document.getElementById('fcMount').appendChild(_gn); } return; }
