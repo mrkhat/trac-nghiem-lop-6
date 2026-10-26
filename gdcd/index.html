@@ -637,6 +637,17 @@
   <a class="next" href="#bai7">✔ Xong Bài 6 → Sang Bài 7: Ứng phó với tình huống nguy hiểm ⬇</a>
 </div>
 
+<!-- ================= TỔNG KẾT HỌC KÌ 1 ================= -->
+<div class="lesson" id="tongket-hk1" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 1 — GDCD 6 (Bài 1–6)</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 30 thẻ flashcard của Bài 1–6. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng ôn Học kì 1</div>
+  <div class="fcbox" data-cards="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"></div>
+  </div>
+  <a class="next" href="#bai7">✔ Xong Tổng kết Học kì 1 → Sang Bài 7: Ứng phó với tình huống nguy hiểm ⬇</a>
+</div>
+
 <!-- ================= BÀI 7 ================= -->
 <div class="lesson" id="bai7" style="--c:#d84315">
   <div class="body">
@@ -1124,6 +1135,17 @@
 </div>
 
 <!-- ================= TỔNG KẾT ================= -->
+<!-- ================= TỔNG KẾT HỌC KÌ 2 ================= -->
+<div class="lesson" id="tongket-hk2" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 2 — GDCD 6 (Bài 7–12)</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 30 thẻ flashcard của Bài 7–12. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng ôn Học kì 2</div>
+  <div class="fcbox" data-cards="30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Tổng kết Học kì 2 → Xuống Phần TỔNG KẾT cả năm học ⬇</a>
+</div>
+
 <div id="sumwrap">
 <div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 12 bài rồi, giỏi lắm! Giờ nhìn lại cả năm học:</p><p>Bước 1) Xem sơ đồ tổng.<br>Bước 2) Nhớ lại 12 điều tốt em đã học.<br>Bước 3) Lật lại toàn bộ flashcard một lượt.<br>Bước 4) Sang phần trắc nghiệm.</p></div>
 
@@ -1330,8 +1352,8 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 /* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
 var VMKEY='gdcd_view_mode', vmode='single';
 try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
-var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','sum'];
-var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','🏁 Tổng kết'];
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','tongket-hk1','bai7','bai8','bai9','bai10','bai11','bai12','tongket-hk2','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','🎓 Tổng kết Học kì 1','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
 var curPage=0;
 var pickrow=document.getElementById('pickrow');
 PLABELS.forEach(function(lb,i){
@@ -1349,7 +1371,7 @@ function showPage(i,scroll){
   pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
   prevBtn.disabled=(curPage===0);
   nextBtn.disabled=(curPage===PAGES.length-1);
-  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 12':'⬅ Bài trước';
+  prevBtn.textContent=(curPage===0)?'⬅ Bài trước':('⬅ '+PLABELS[curPage-1]);
   nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
   if(scroll) window.scrollTo({top:0,behavior:'smooth'});
 }

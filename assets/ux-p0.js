@@ -2,7 +2,10 @@
    - Chay tren trang hoc (index.html) cua cac mon co o .bai-sel, va trang HĐTN (nut #pickrow).
    - Gom nhom theo VI TRI option (thu tu bai trong trang), so bai HK1 lay theo muc-luc SGK:
      khtn 13, lichsu 10, dialy 24 (gom bai 0), nguvan 5, tienganh 6, gdcd 6, congnghe 9,
-     tinhoc 9, nghethuat 12. Option "Tong ket" (neu co) giu ngoai nhom, o cuoi.
+     tinhoc 9, nghethuat 12. Chi option KHONG phai tong ket moi dem vao chi tieu HK1.
+     Option chua 'Hoc ki 1' -> nhom Hoc ki 1, chua 'Hoc ki 2' -> nhom Hoc ki 2.
+     Option 'Tong ket' nhung KHONG chua 'Hoc ki' (tong ket ca nam) giu ngoai nhom, o cuoi.
+     Quy tac chung cho moi mon, khong hardcode theo mon.
    - Nut "Hoc tiep" luu/khoi phuc qua localStorage <mon>_lesson (trang hoc) — trang quiz
      dung khoa rieng <mon>_quiz_lesson (xem buildLessonSel trong quiz.html).
    - Khong dung cham logic goc: chi sap xep lai option trong select, gia tri option giu nguyen,
@@ -26,20 +29,32 @@
     anchor.parentNode.insertBefore(b, anchor);
     return b;
   }
+  function isHK1(t) { return t.indexOf('Học kì 1') >= 0; }
+  function isHK2(t) { return t.indexOf('Học kì 2') >= 0; }
   function groupSelect(sel) {
     if (sel.dataset.uxGrouped) return;
     var opts = Array.prototype.slice.call(sel.options);
     if (opts.length < 2) return;
     var hk1 = HK1[seg];
     if (!hk1) return;
-    var tail = [], i = opts.length - 1;
-    while (i >= 0 && isTongKet(opts[i].text)) { tail.unshift(opts[i]); i--; }
-    var main = opts.slice(0, i + 1);
-    if (main.length <= hk1) return;
+    var tail = [], main = [];
+    opts.forEach(function (o) {
+      if (isTongKet(o.text) && !isHK1(o.text) && !isHK2(o.text)) tail.push(o);
+      else main.push(o);
+    });
+    var lessons = 0;
+    main.forEach(function (o) { if (!isTongKet(o.text)) lessons++; });
+    if (lessons <= hk1) return;
     var cur = sel.value;
     var g1 = document.createElement('optgroup'); g1.label = 'Học kì 1';
     var g2 = document.createElement('optgroup'); g2.label = 'Học kì 2';
-    main.forEach(function (o, idx) { (idx < hk1 ? g1 : g2).appendChild(o); });
+    var seen = 0;
+    main.forEach(function (o) {
+      if (isHK1(o.text)) g1.appendChild(o);
+      else if (isHK2(o.text)) g2.appendChild(o);
+      else if (seen < hk1) { g1.appendChild(o); seen++; }
+      else { g2.appendChild(o); seen++; }
+    });
     sel.innerHTML = '';
     sel.appendChild(g1); sel.appendChild(g2);
     tail.forEach(function (o) { sel.appendChild(o); });

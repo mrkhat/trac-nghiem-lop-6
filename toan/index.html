@@ -161,6 +161,8 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .lchip{min-height:44px;padding:8px 13px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;background:#eef4ee;border:1.5px solid #a5d6a7;color:#1b5e20}
 .lchip.on{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:700}
 .lchapt{width:100%;font-weight:700;color:#1565c0;font-size:16px;margin-top:8px}
+#lpicker .lsem{border:1.5px solid #a5d6a7;border-radius:12px;padding:10px 12px;margin:10px 0;background:#f7fbf7}
+#lpicker .lsem-t{font-weight:700;color:#1b5e20;font-size:18px;margin-bottom:2px}
 .lnavbtn{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer;background:#2e7d32;color:#fff;border:none}
 .lnavbtn:disabled{opacity:.45;cursor:default}
 .cbadge{display:inline-block;font-size:14px;font-weight:700;color:#fff;background:#1565c0;border-radius:20px;padding:5px 12px;margin-bottom:8px}
@@ -2181,11 +2183,14 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
   var picker=document.getElementById('lpicker');
   if(picker){
     var ph='';
-    CHG.forEach(function(g){
+    CHG.forEach(function(g,gi){
+      if(gi===0) ph+='<div class="lsem" data-semester="1"><div class="lsem-t">Học kì 1 — Bài 1–22</div>';
+      if(gi===5) ph+='</div><div class="lsem" data-semester="2"><div class="lsem-t">Học kì 2 — Bài 23–43</div>';
       ph+='<div class="lchapt">'+g[2]+'</div><div class="lrow">';
       for(var i=g[0];i<=g[1];i++){ ph+='<button class="lchip" type="button" data-lgo="'+(i-1)+'">Bài '+i+'</button>'; }
       ph+='</div>';
     });
+    ph+='</div>';
     picker.innerHTML=ph;
   }
   var lessons=[]; for(var i=1;i<=N;i++){ lessons.push(document.getElementById('lh'+i)); }
@@ -2199,7 +2204,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     if(picker) picker.style.display=(lmode==='all')?'none':'';
     if(prev) prev.disabled=(curL<=0);
     if(next) next.disabled=(curL>=N-1);
-    if(pos) pos.textContent='Bài '+(curL+1)+' / '+N;
+    if(pos) pos.textContent='Bài '+(curL+1)+' / '+N+' · '+((curL+1)<=22?'Học kì 1':'Học kì 2');
     try{ localStorage.setItem('toan6_view_mode',lmode); localStorage.setItem('toan6_lesson',''+curL); }catch(e){}
   }
   function go(i,scroll){

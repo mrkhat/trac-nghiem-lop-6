@@ -8,6 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/common.css">
+<style>
+.pickgroup{display:flex;flex-wrap:wrap;gap:8px;align-items:center;flex:1 1 100%}
+.picklabel{font-weight:700;font-size:16px;color:#37474f;flex:1 1 100%}
+</style>
 </head>
 <body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
@@ -191,6 +195,15 @@
   <a class="next" href="quiz.html">📝 Sang Bài tập &amp; Kiểm tra thử của chủ đề này ➡</a>
   </div>
 </div>
+<div class="lesson" id="sum-hk1" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 1 — Ôn lại Chủ đề 1–5</h3>
+  <p>Học xong 5 chủ đề đầu rồi! Ôn lại toàn bộ flashcard của Học kì 1 bằng bộ thẻ dưới đây, rồi sang Chủ đề 6 nhé!</p>
+  <h3 class="secttl">🃏 Flashcard — Tổng kết Học kì 1 (25 thẻ)</h3>
+  <div class="fcbox" data-cards="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24"></div>
+  <a class="next" href="quiz.html">📝 Sang Bài tập &amp; Kiểm tra thử ➡</a>
+  </div>
+</div>
 <div class="lesson" id="bai6" style="--c:#2e7d32">
   <div class="body">
   <h3>Chủ đề 6. Xây dựng cộng đồng văn minh, thân thiện</h3>
@@ -319,6 +332,15 @@
   <a class="next" href="quiz.html">📝 Sang Bài tập &amp; Kiểm tra thử của chủ đề này ➡</a>
   </div>
 </div>
+<div class="lesson" id="sum-hk2" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 2 — Ôn lại Chủ đề 6–9</h3>
+  <p>Học xong Chủ đề 6–9 rồi! Ôn lại toàn bộ flashcard của Học kì 2 bằng bộ thẻ dưới đây, rồi xuống Phần Tổng kết cả năm nhé!</p>
+  <h3 class="secttl">🃏 Flashcard — Tổng kết Học kì 2 (20 thẻ)</h3>
+  <div class="fcbox" data-cards="25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44"></div>
+  <a class="next" href="quiz.html">📝 Sang Bài tập &amp; Kiểm tra thử ➡</a>
+  </div>
+</div>
 <div id="sumwrap">
 <div class="part partsum"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Ôn lại 9 chủ đề bằng bộ flashcard tổng hợp dưới đây, rồi sang trang Bài tập để làm trắc nghiệm tình huống nhé!</p></div>
 <h3>🃏 Flashcard TỔNG ÔN — cả 45 thẻ của cả năm học</h3>
@@ -422,16 +444,28 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 });
 var VMKEY='hdtn_view_mode', vmode='single';
 try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
-var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','sum'];
-var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','Chủ đề 6','Chủ đề 7','Chủ đề 8','Chủ đề 9','🏁 Tổng kết'];
+var PAGES=['bai1','bai2','bai3','bai4','bai5','sum-hk1','bai6','bai7','bai8','bai9','sum-hk2','sum'];
+var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','🎓 Tổng kết Học kì 1','Chủ đề 6','Chủ đề 7','Chủ đề 8','Chủ đề 9','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
 var curPage=0;
 var pickrow=document.getElementById('pickrow');
+var pickBtns=[];
 PLABELS.forEach(function(lb,i){
   var b=document.createElement('button');
   b.className='pick'; b.textContent=lb; b.type='button';
   b.addEventListener('click',function(){showPage(i,true);});
-  pickrow.appendChild(b);
+  pickBtns.push(b);
 });
+function pickGroup(label,idxs){
+  var g=document.createElement('div'); g.className='pickgroup';
+  var l=document.createElement('span'); l.className='picklabel'; l.textContent=label; g.appendChild(l);
+  idxs.forEach(function(i){ g.appendChild(pickBtns[i]); });
+  return g;
+}
+pickrow.appendChild(pickGroup('Học kì 1',[0,1,2,3,4]));
+pickrow.appendChild(pickBtns[5]);
+pickrow.appendChild(pickGroup('Học kì 2',[6,7,8,9]));
+pickrow.appendChild(pickBtns[10]);
+pickrow.appendChild(pickBtns[11]);
 var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
 function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
 function showPage(i,scroll){
@@ -441,7 +475,7 @@ function showPage(i,scroll){
   pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
   prevBtn.disabled=(curPage===0);
   nextBtn.disabled=(curPage===PAGES.length-1);
-  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Chủ đề 9':'⬅ Chủ đề trước';
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Tổng kết Học kì 2':'⬅ Chủ đề trước';
   nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Chủ đề sau ➡';
   if(scroll) window.scrollTo({top:0,behavior:'smooth'});
 }

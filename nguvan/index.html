@@ -1646,6 +1646,17 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
   <a class="next" href="#bai6">✔ Xong Bài 5 → Sang Bài 6: Chuyện kể về những người anh hùng ⬇</a>
 </div>
 
+<!-- ================= TỔNG KẾT HỌC KÌ 1 ================= -->
+<div id="tongket-hk1">
+<div class="part partsum"><h2>🎓 Tổng kết Học kì 1 — Ôn lại Bài 1–5</h2><p>Học xong 5 bài đầu rồi! Ôn lại toàn bộ flashcard của Học kì 1 bằng bộ thẻ dưới đây, rồi sang Bài 6 nhé!</p></div>
+
+<div class="card">
+  <h3>🃏 Flashcard tổng ôn — Học kì 1 (30 thẻ)</h3>
+  <div class="fcbox" data-cards="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"></div>
+</div>
+<a class="next" href="#bai6">✔ Xong Tổng kết Học kì 1 → Sang Bài 6 ⬇</a>
+</div>
+
 <!-- ================= BÀI 6 ================= -->
 <div class="lesson" id="bai6" style="--c:#d32f2f">
   <div class="body">
@@ -2046,6 +2057,17 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
   <a class="next" href="#tongket">✔ Xong Bài 10 → Xuống Phần Tổng kết ⬇</a>
   </div>
 
+<!-- ================= TỔNG KẾT HỌC KÌ 2 ================= -->
+<div id="tongket-hk2">
+<div class="part partsum"><h2>🎓 Tổng kết Học kì 2 — Ôn lại Bài 6–10</h2><p>Học xong Bài 6–10 rồi! Ôn lại toàn bộ flashcard của Học kì 2 bằng bộ thẻ dưới đây, rồi xuống Phần Tổng kết cả năm nhé!</p></div>
+
+<div class="card">
+  <h3>🃏 Flashcard tổng ôn — Học kì 2 (25 thẻ)</h3>
+  <div class="fcbox" data-cards="30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54"></div>
+</div>
+<a class="next" href="#tongket">✔ Xong Tổng kết Học kì 2 → Xuống Phần Tổng kết cả năm ⬇</a>
+</div>
+
 <!-- ================= TỔNG KẾT ================= -->
 <div id="tongket-wrap">
 <div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 10 bài rồi! Giờ nhìn lại bức tranh lớn:</p><p>Bước 1) Xem sơ đồ tổng.<br>Bước 2) Nhớ lại các dạng viết của học kì.<br>Bước 3) Lật lại toàn bộ flashcard một lượt.</p></div>
@@ -2233,7 +2255,7 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 <script>
 /* ===== Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" — lưu ở localStorage nguvan_view_mode ===== */
 (function(){
-  var ITEMS=[{id:'bai1',label:'Bài 1'},{id:'bai2',label:'Bài 2'},{id:'bai3',label:'Bài 3'},{id:'bai4',label:'Bài 4'},{id:'bai5',label:'Bài 5'},{id:'bai6',label:'Bài 6'},{id:'bai7',label:'Bài 7'},{id:'bai8',label:'Bài 8'},{id:'bai9',label:'Bài 9'},{id:'bai10',label:'Bài 10'},{id:'tongket-wrap',label:'🏁 Tổng kết'}];
+  var ITEMS=[{id:'bai1',label:'Bài 1'},{id:'bai2',label:'Bài 2'},{id:'bai3',label:'Bài 3'},{id:'bai4',label:'Bài 4'},{id:'bai5',label:'Bài 5'},{id:'tongket-hk1',label:'🎓 Tổng kết Học kì 1'},{id:'bai6',label:'Bài 6'},{id:'bai7',label:'Bài 7'},{id:'bai8',label:'Bài 8'},{id:'bai9',label:'Bài 9'},{id:'bai10',label:'Bài 10'},{id:'tongket-hk2',label:'🎓 Tổng kết Học kì 2'},{id:'tongket-wrap',label:'🏁 Tổng kết'}];
   var LS='nguvan_view_mode';
   var mode='single'; try{mode=localStorage.getItem(LS)||'single';}catch(e){}
   if(mode!=='all') mode='single';

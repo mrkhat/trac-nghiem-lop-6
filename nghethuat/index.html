@@ -594,6 +594,16 @@
   <a class="next" href="#bai13">✔ Xong Bài 4 Thiết kế quà lưu niệm → Sang Bài 5. Tạo hình hoạt động trong nhà trường ⬇</a>
 </div>
 
+<!-- ================= TỔNG KẾT HỌC KÌ 1 ================= -->
+<div class="lesson" id="sumhk1" style="--c:#2e7d32">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 1 — Ôn lại Chủ đề 1–8 và Bài 1–4</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 60 thẻ flashcard của Học kì 1 (Âm nhạc Chủ đề 1–8 và Mĩ thuật Bài 1–4). Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng kết Học kì 1</div>
+  <div class="fcbox" data-cards="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59"></div>
+  </div>
+</div>
+
 <!-- ================= BÀI 5. TẠO HÌNH HOẠT ĐỘNG TRONG NHÀ TRƯỜNG ================= -->
 <div class="lesson" id="bai13" style="--c:#6a1b9a">
   <div class="body">
@@ -1142,6 +1152,16 @@
   <a class="next" href="#tongket">✔ Xong Bài 16 → Xuống Phần TỔNG KẾT ⬇</a>
 </div>
 
+<!-- ================= TỔNG KẾT HỌC KÌ 2 ================= -->
+<div class="lesson" id="sumhk2" style="--c:#2e7d32">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 2 — Ôn lại Bài 5–16</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 60 thẻ flashcard của Học kì 2 (Mĩ thuật Bài 5–16). Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng kết Học kì 2</div>
+  <div class="fcbox" data-cards="60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119"></div>
+  </div>
+</div>
+
 <!-- ================= TỔNG KẾT ================= -->
 <div id="sumwrap">
 <div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 24 bài rồi, giỏi lắm! Giờ nhìn lại cả năm:</p><p>Bước 1) Nhớ lại 8 chủ đề Âm nhạc: Tuổi học trò, Cuộc sống tươi đẹp, Nhớ ơn thầy cô, Ước mơ hòa bình, Giai điệu quê hương, Mẹ trong trái tim em, Âm nhạc nước ngoài, Bác Hồ với thiếu nhi.<br>Bước 2) Nhớ lại 8 chủ đề Mĩ thuật: ý tưởng sáng tác, ngôi nhà, trường học, tiền sử, trò chơi dân gian, lễ hội, cuộc sống, cổ đại.<br>Bước 3) Lật lại toàn bộ flashcard một lượt.<br>Bước 4) Sang phần trắc nghiệm.</p></div>
@@ -1284,8 +1304,8 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 /* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
 var VMKEY='nghethuat_view_mode', vmode='single';
 try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
-var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','bai13','bai14','bai15','bai16','bai17','bai18','bai19','bai20','bai21','bai22','bai23','bai24','sum'];
-var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','Chủ đề 6','Chủ đề 7','Chủ đề 8','Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','Bài 15','Bài 16','🏁 Tổng kết'];
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','sumhk1','bai13','bai14','bai15','bai16','bai17','bai18','bai19','bai20','bai21','bai22','bai23','bai24','sumhk2','sum'];
+var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','Chủ đề 6','Chủ đề 7','Chủ đề 8','Bài 1','Bài 2','Bài 3','Bài 4','🎓 Tổng kết Học kì 1','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','Bài 15','Bài 16','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
 var curPage=0;
 var pickrow=document.getElementById('pickrow');
 PLABELS.forEach(function(lb,i){
@@ -1303,8 +1323,8 @@ function showPage(i,scroll){
   pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
   prevBtn.disabled=(curPage===0);
   nextBtn.disabled=(curPage===PAGES.length-1);
-  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Bài 24':'⬅ Bài trước';
-  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Bài sau ➡';
+  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ '+PLABELS[PAGES.length-2]:'⬅ Bài trước';
+  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':(PLABELS[curPage+1]&&PLABELS[curPage+1].indexOf('Tổng kết Học kì')>=0?PLABELS[curPage+1]+' ➡':'Bài sau ➡');
   if(scroll) window.scrollTo({top:0,behavior:'smooth'});
 }
 function applyMode(){

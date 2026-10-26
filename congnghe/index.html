@@ -377,6 +377,17 @@ figure.dfig img{width:100%;height:auto}
   </div>
   <a class="next" href="#bai10">✔ Xong Bài 9 → Sang Bài 10: Khái quát về đồ dùng điện ⬇</a>
 </div>
+<!-- ================= TỔNG KẾT HỌC KÌ 1 ================= -->
+<div class="lesson" id="tongket-hk1" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 1 — Công nghệ 6 (Bài 1–9)</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 46 thẻ flashcard của Bài 1–9. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng ôn Học kì 1</div>
+  <div class="fcbox" data-cards="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"></div>
+  </div>
+  <a class="next" href="#bai10">✔ Xong Tổng kết Học kì 1 → Sang Bài 10: Khái quát về đồ dùng điện ⬇</a>
+</div>
+
 <!-- ================= BÀI 10 ================= -->
 <div class="lesson" id="bai10" style="--c:#00796b">
   <div class="body">
@@ -497,6 +508,17 @@ figure.dfig img{width:100%;height:auto}
   </div>
   <a class="next" href="#tongket">✔ Xong Bài 14 → Sang phần Tổng kết ⬇</a>
 </div>
+<!-- ================= TỔNG KẾT HỌC KÌ 2 ================= -->
+<div class="lesson" id="tongket-hk2" style="--c:#5e35b1">
+  <div class="body">
+  <h3>🎓 Tổng kết Học kì 2 — Công nghệ 6 (Bài 10–14)</h3>
+  <p style="font-size:16px;line-height:1.6">Ôn lại một lượt 25 thẻ flashcard của Bài 10–14. Thẻ <b>chưa thuộc</b> được xếp lên trước; trạng thái đã thuộc được nhớ chung với các bộ thẻ trong từng bài.</p>
+  <div class="secttl">🃏 Flashcard tổng ôn Học kì 2</div>
+  <div class="fcbox" data-cards="46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70"></div>
+  </div>
+  <a class="next" href="#tongket">✔ Xong Tổng kết Học kì 2 → Xuống Phần TỔNG KẾT cả năm học ⬇</a>
+</div>
+
 <div id="sumwrap">
 <div class="part partsum" id="tongket"><h2>🏁 Phần Tổng kết — Ôn lại cả năm học</h2><p>Học xong 14 bài rồi, giỏi lắm! Giờ nhìn lại bức tranh lớn:</p><p>Bước 1) Xem sơ đồ tổng.<br>Bước 2) Ôn nhanh từng bài.<br>Bước 3) Chơi trò chơi sắp xếp.<br>Bước 4) Lật lại toàn bộ flashcard một lượt.</p></div>
 <div class="card" style="--c:#5e35b1">
@@ -819,8 +841,8 @@ document.getElementById('gameStart').addEventListener('click',startGame);
 /* ===== 2 CHẾ ĐỘ XEM: Từng bài (mặc định) / Xem tất cả ===== */
 var VMKEY='congnghe_view_mode', vmode='single';
 try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
-var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','bai10','bai11','bai12','bai13','bai14','sum'];
-var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','🏁 Tổng kết'];
+var PAGES=['bai1','bai2','bai3','bai4','bai5','bai6','bai7','bai8','bai9','tongket-hk1','bai10','bai11','bai12','bai13','bai14','tongket-hk2','sum'];
+var PLABELS=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','Bài 6','Bài 7','Bài 8','Bài 9','🎓 Tổng kết Học kì 1','Bài 10','Bài 11','Bài 12','Bài 13','Bài 14','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
 var curPage=0;
 var pickrow=document.getElementById('pickrow');
 PLABELS.forEach(function(lb,i){
