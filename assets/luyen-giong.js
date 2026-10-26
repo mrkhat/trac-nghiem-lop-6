@@ -24,12 +24,25 @@
   function esc(s){
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+  /* Biến thể Anh-Anh/Anh-Mỹ: máy nhận diện đặt en-US nên hay nghe
+     "maths" thành "math", "favourite" thành "favorite"... — bé đọc đúng
+     vẫn bị trừ oan. Chấp nhận cả 2 dạng để phần nghe và phần đọc khớp
+     nhau (áp cho cả luyện từ và luyện câu, vì câu ví dụ cũng có các
+     từ này: "Maths is my favourite subject.", "...centre of the city."). */
+  var BIEN_THE = {maths:['math'], math:['maths'],
+    programme:['program'], program:['programme'],
+    recognise:['recognize'], recognize:['recognise'],
+    favourite:['favorite'], favorite:['favourite'],
+    centre:['center'], center:['centre']};
   function danhGia(mau, noi){
     var t = norm(mau).split(' ').filter(Boolean);
     var n = norm(noi).split(' ').filter(Boolean);
     var con = n.slice(), dung = [], sai = [];
     t.forEach(function(w){
-      var i = con.indexOf(w);
+      var i = con.indexOf(w), k;
+      if(i < 0 && BIEN_THE[w]){
+        for(k = 0; k < BIEN_THE[w].length; k++){ i = con.indexOf(BIEN_THE[w][k]); if(i >= 0) break; }
+      }
       if(i >= 0){ dung.push(w); con.splice(i, 1); } else sai.push(w);
     });
     var pct = t.length ? Math.round(dung.length * 100 / t.length) : 0;
