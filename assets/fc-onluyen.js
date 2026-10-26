@@ -29,6 +29,16 @@ function fcDeck(box, cfg){
       prog=box.querySelector('.fc-prog'),stat=box.querySelector('.fc-stat'),bar=box.querySelector('.fc-bar-in'),doneBox=box.querySelector('.fc-donebox'),guardMsg=box.querySelector('.fc-guardmsg');
   function byId(id){for(var i=0;i<items.length;i++)if(items[i].id===id)return items[i];return null;}
   function knownCount(){var n=0;items.forEach(function(it){if(cfg.isKnown(it.id))n++;});return n;}
+  function fitFaces(){
+    try{
+      if(!front.querySelector('.spk') && !back.querySelector('.spk')) return;
+      var inner=card.querySelector('.fc-inner'); if(!inner) return;
+      var h=Math.max(front.scrollHeight||0, back.scrollHeight||0);
+      if(h>0) inner.style.height=h+'px';
+      var ims=box.querySelectorAll('.fc-face img');
+      for(var i=0;i<ims.length;i++){ (function(im){ if(!im.complete) im.addEventListener('load', function(){ var h2=Math.max(front.scrollHeight||0, back.scrollHeight||0); if(h2>0) inner.style.height=h2+'px'; }); })(ims[i]); }
+    }catch(e){}
+  }
   function render(dir){
     if(guardMsg)guardMsg.textContent='';
     if(!queue.length){
@@ -42,6 +52,7 @@ function fcDeck(box, cfg){
       card.style.display='';doneBox.innerHTML='';
       var it=byId(queue[pos]);
       front.innerHTML=it.front;back.innerHTML=it.back;
+      fitFaces();
       card.classList.toggle('flipped',flipped);
       card.classList.remove('fc-in-r','fc-in-l');void card.offsetWidth;
       if(dir)card.classList.add(dir==='r'?'fc-in-r':'fc-in-l');
@@ -73,7 +84,7 @@ function fcDeck(box, cfg){
       render(ok?'l':'r');
     },300);
   }
-  card.addEventListener('click',function(){if(busy)return;flipped=!flipped;card.classList.toggle('flipped',flipped);});
+  card.addEventListener('click',function(e){if(busy)return; if(e.target&&e.target.closest&&e.target.closest('.spk'))return; flipped=!flipped;card.classList.toggle('flipped',flipped);});
   box.querySelectorAll('button[data-a]').forEach(function(b){b.addEventListener('click',function(){
     var a=b.getAttribute('data-a');
     if(a==='ok')tick(true);else if(a==='no')tick(false);
