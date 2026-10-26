@@ -14,12 +14,9 @@
 .lesson-cover{display:block;width:100%;max-width:400px;height:auto;border-radius:10px;margin:2px 0 12px}
 /* Thẻ từ vựng */
 .vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}
-/* Tách giao diện theo thiết bị: nới cả trang trên máy tính/iPad ngang
-   (body 1080px rồi 1160px, trừ 32px đệm vừa thanh cuộn); lưới từ vựng
-   cố định 3 cột/hàng cho thoáng, KHÔNG nới riêng .vgrid vì .lesson có
-   overflow:hidden sẽ cắt phần lưới tràn ra ngoài. */
-@media(min-width:901px){body{max-width:min(1080px,calc(100vw - 32px))}}
-@media(min-width:1280px){body{max-width:min(1160px,calc(100vw - 32px))}}
+/* Lưới từ vựng cố định 3 cột/hàng cho thoáng; KHÔNG nới riêng .vgrid vì
+   .lesson có overflow:hidden sẽ cắt phần lưới tràn ra ngoài. Quy tắc nới
+   cả trang (body 1080/1160px) nằm chung trong assets/common.css. */
 .vcard{background:#fff;border:1.5px solid #e3e3e3;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .vcard img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:8px}
 .vem{height:auto;aspect-ratio:3/2;background:#f1f5fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:56px}

@@ -241,3 +241,8 @@ figcaption .src:not(.lic){display:none!important}
 /* Tách giao diện theo thiết bị: thẻ lật nới vừa tay trên máy tính/iPad
    ngang, điện thoại và iPad dọc giữ nguyên. */
 @media(min-width:901px){.fc-card{max-width:640px}}
+
+/* Nới cả trang trên máy tính/iPad ngang giống bên Tiếng Anh
+   (body 1080px rồi 1160px, trừ 32px đệm vừa thanh cuộn). */
+@media(min-width:901px){body{max-width:min(1080px,calc(100vw - 32px))}}
+@media(min-width:1280px){body{max-width:min(1160px,calc(100vw - 32px))}}
