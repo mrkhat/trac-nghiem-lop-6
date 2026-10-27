@@ -19,7 +19,17 @@ W("pencil case","/ˈpensl keɪs/","hộp bút",CM+"sua-pencil-case.webp","","My 
 W("ruler","/ˈruːlə/","thước kẻ",CM+"tienganh-u1-ruler.webp","","I draw a line with a ruler.","Mình kẻ đường thẳng bằng thước kẻ."),
 W("library","/ˈlaɪbrəri/","thư viện",CM+"library.jpg","","I read books in the library.","Mình đọc sách trong thư viện."),
 W("uniform","/ˈjuːnɪfɔːm/","đồng phục",CM+"sua-uniform.webp","","We wear uniforms at school.","Chúng mình mặc đồng phục ở trường."),
-W("playground","/ˈpleɪɡraʊnd/","sân chơi (của trường)",CM+"tienganh-u1-playground.webp","","We play in the playground.","Chúng mình chơi ở sân chơi.")
+W("playground","/ˈpleɪɡraʊnd/","sân chơi (của trường)",CM+"tienganh-u1-playground.webp","","We play in the playground.","Chúng mình chơi ở sân chơi."),
+W("science","/ˈsaɪəns/","môn Khoa học",CM+"tienganh-u1-science.webp","","We learn about plants in science.","Chúng mình học về cây cối trong môn Khoa học."),
+W("history","/ˈhɪstri/","môn Lịch sử",CM+"tienganh-u1-history.webp","","We learn about old kings in history.","Chúng mình học về các vị vua ngày xưa trong môn Lịch sử."),
+W("exercise","/ˈeksəsaɪz/","tập thể dục",CM+"tienganh-u1-exercise.webp","","We do exercise in the morning.","Chúng mình tập thể dục vào buổi sáng."),
+W("school lunch","/skuːl lʌntʃ/","bữa trưa ở trường",CM+"tienganh-u1-school-lunch.webp","","We eat school lunch at noon.","Chúng mình ăn trưa ở trường vào buổi trưa."),
+W("schoolbag","/ˈskuːlbæɡ/","cặp sách",CM+"tienganh-u1-schoolbag.webp","","My schoolbag is new and blue.","Cặp sách của mình mới và màu xanh dương."),
+W("textbook","/ˈtekstbʊk/","sách giáo khoa",CM+"tienganh-u1-textbook.webp","","I open my textbook in class.","Mình mở sách giáo khoa trong lớp."),
+W("notebook","/ˈnəʊtbʊk/","vở",CM+"tienganh-u1-notebook.webp","","I write in my notebook.","Mình viết vào vở."),
+W("pencil sharpener","/ˈpensl ˌʃɑːpnə(r)/","gọt bút chì",CM+"tienganh-u1-pencil-sharpener.webp","","I sharpen my pencil with a pencil sharpener.","Mình gọt bút chì bằng cái gọt bút chì."),
+W("rubber","/ˈrʌbə(r)/","tẩy",CM+"tienganh-u1-rubber.webp","","I erase a word with a rubber.","Mình xóa một từ bằng cục tẩy."),
+W("dictionary","/ˈdɪkʃənri/","từ điển",CM+"tienganh-u1-dictionary.webp","","I look up a new word in the dictionary.","Mình tra từ mới trong từ điển.")
 ],
 u2:[
 W("house","/haʊs/","ngôi nhà",CM+"tienganh-u2-house.webp","","This is my house.","Đây là nhà của mình."),
@@ -33,7 +43,12 @@ W("lamp","/læmp/","cái đèn",CM+"sua-lamp.webp","","The lamp is on the table.
 W("fridge","/frɪdʒ/","tủ lạnh",CM+"fridge.jpg","","The milk is in the fridge.","Sữa ở trong tủ lạnh."),
 W("wardrobe","/ˈwɔːdrəʊb/","tủ quần áo",CM+"sua-wardrobe.webp","","My clothes are in the wardrobe.","Quần áo của mình ở trong tủ."),
 W("next to","/ˈnekst tuː/","ở bên cạnh",CM+"sua-next-to.webp","","The sofa is next to the TV.","Ghế sô-pha ở bên cạnh tivi."),
-W("between","/bɪˈtwiːn/","ở giữa (hai vật)",CM+"sua-between.webp","","The lamp is between the sofa and the table.","Cái đèn ở giữa ghế sô-pha và cái bàn.")
+W("between","/bɪˈtwiːn/","ở giữa (hai vật)",CM+"sua-between.webp","","The lamp is between the sofa and the table.","Cái đèn ở giữa ghế sô-pha và cái bàn."),
+W("hall","/hɔːl/","sảnh",CM+"tienganh-u2-hall.webp","","We meet in the hall.","Chúng mình gặp nhau ở sảnh."),
+W("chest of drawers","/ˌtʃest əv ˈdrɔːz/","tủ ngăn kéo",CM+"tienganh-u2-chest-of-drawers.webp","","My clothes are in the chest of drawers.","Quần áo của mình ở trong tủ ngăn kéo."),
+W("sink","/sɪŋk/","bồn rửa",CM+"tienganh-u2-sink.webp","","I wash my hands in the sink.","Mình rửa tay ở bồn rửa."),
+W("dishwasher","/ˈdɪʃwɒʃə(r)/","máy rửa bát",CM+"tienganh-u2-dishwasher.webp","","The dishwasher washes the plates.","Máy rửa bát rửa đĩa."),
+W("cupboard","/ˈkʌbəd/","tủ đựng đồ",CM+"tienganh-u2-cupboard.webp","","The cups are in the cupboard.","Những chiếc cốc ở trong tủ đựng đồ.")
 ],
 u3:[
 W("friendly","/ˈfrendli/","thân thiện",CM+"tienganh-u3-friendly.webp","","Anna is friendly. She talks to everyone.","Anna rất thân thiện. Bạn ấy nói chuyện với mọi người."),
@@ -47,7 +62,18 @@ W("careful","/ˈkeəfl/","cẩn thận",CM+"tienganh-u3-careful.webp","","She is
 W("caring","/ˈkeərɪŋ/","biết quan tâm, chu đáo",CM+"tienganh-u3-caring.webp","","My grandmother is caring.","Bà mình rất chu đáo."),
 W("confident","/ˈkɒnfɪdənt/","tự tin",CM+"tienganh-u3-confident.webp","","He is confident. He speaks in front of the class.","Bạn ấy tự tin. Bạn ấy nói trước lớp."),
 W("glasses","/ˈɡlɑːsɪz/","kính mắt",CM+"tienganh-u3-glasses.webp","","She wears glasses.","Bạn ấy đeo kính."),
-W("slim","/slɪm/","mảnh khảnh",CM+"tienganh-u3-slim.webp","","My sister is slim and tall.","Chị mình mảnh khảnh và cao.")
+W("slim","/slɪm/","mảnh khảnh",CM+"tienganh-u3-slim.webp","","My sister is slim and tall.","Chị mình mảnh khảnh và cao."),
+W("cheek","/tʃiːk/","má",CM+"tienganh-u3-cheek.webp","","He touches his cheek.","Bạn ấy chạm vào má của mình."),
+W("eye","/aɪ/","mắt",CM+"tienganh-u3-eye.webp","","He closes one eye.","Bạn ấy nhắm một mắt lại."),
+W("hand","/hænd/","bàn tay",CM+"tienganh-u3-hand.webp","","She waves her hand.","Bạn ấy vẫy bàn tay."),
+W("arm","/ɑːm/","cánh tay",CM+"tienganh-u3-arm.webp","","He raises his arm.","Bạn ấy giơ cánh tay lên."),
+W("mouth","/maʊθ/","miệng",CM+"tienganh-u3-mouth.webp","","She opens her mouth to sing.","Bạn ấy mở miệng để hát."),
+W("leg","/leɡ/","chân",CM+"tienganh-u3-leg.webp","","She kicks the ball with her leg.","Bạn ấy đá quả bóng bằng chân của mình."),
+W("nose","/nəʊz/","mũi",CM+"tienganh-u3-nose.webp","","He touches his nose.","Bạn ấy chạm vào mũi của mình."),
+W("hair","/heə(r)/","tóc",CM+"tienganh-u3-hair.webp","","She has long hair.","Bạn ấy có mái tóc dài."),
+W("shoulder","/ˈʃəʊldə(r)/","vai",CM+"tienganh-u3-shoulder.webp","","He carries his bag on his shoulder.","Bạn ấy đeo cặp trên vai."),
+W("foot","/fʊt/","bàn chân",CM+"tienganh-u3-foot.webp","","She stands on one foot.","Bạn ấy đứng bằng một bàn chân."),
+W("creative","/kriˈeɪtɪv/","sáng tạo",CM+"tienganh-u3-creative.webp","","My friend is creative. She draws beautiful pictures.","Bạn mình rất sáng tạo. Bạn ấy vẽ những bức tranh đẹp.")
 ],
 u4:[
 W("park","/pɑːk/","công viên",CM+"park.jpg","","There is a park near my house.","Có một công viên gần nhà mình."),
@@ -61,7 +87,13 @@ W("busy","/ˈbɪzi/","nhộn nhịp, bận rộn",CM+"tienganh-u4-busy.webp","",
 W("quiet","/ˈkwaɪət/","yên tĩnh",CM+"tienganh-u4-quiet.webp","","My street is quieter than yours.","Đường nhà mình yên tĩnh hơn đường nhà bạn."),
 W("noisy","/ˈnɔɪzi/","ồn ào",CM+"tienganh-u4-noisy.webp","","The market is noisier than the library.","Cái chợ ồn ào hơn thư viện."),
 W("narrow","/ˈnærəʊ/","hẹp",CM+"sua-narrow.webp","","This street is narrower than that street.","Đường này hẹp hơn đường kia."),
-W("famous","/ˈfeɪməs/","nổi tiếng",CM+"tienganh-u4-famous.webp","","Ha Long Bay is famous.","Vịnh Hạ Long rất nổi tiếng.")
+W("famous","/ˈfeɪməs/","nổi tiếng",CM+"tienganh-u4-famous.webp","","Ha Long Bay is famous.","Vịnh Hạ Long rất nổi tiếng."),
+W("cathedral","/kəˈθiːdrəl/","nhà thờ lớn",CM+"tienganh-u4-cathedral.webp","","We visit the big cathedral in the city.","Chúng mình thăm nhà thờ lớn trong thành phố."),
+W("memorial","/məˈmɔːriəl/","đài tưởng niệm",CM+"tienganh-u4-memorial.webp","","This is a memorial for heroes.","Đây là đài tưởng niệm các anh hùng."),
+W("temple","/ˈtempl/","đền",CM+"tienganh-u4-temple.webp","","We visit an old temple.","Chúng mình thăm một ngôi đền cổ."),
+W("palace","/ˈpæləs/","cung điện",CM+"tienganh-u4-palace.webp","","The palace is big and beautiful.","Cung điện to và đẹp."),
+W("art gallery","/ˈɑːt ˌɡæləri/","phòng trưng bày",CM+"tienganh-u4-art-gallery.webp","","We see many pictures in the art gallery.","Chúng mình xem nhiều bức tranh trong phòng trưng bày."),
+W("peaceful","/ˈpiːsfəl/","yên bình",CM+"tienganh-u4-peaceful.webp","","My village is peaceful and quiet.","Làng của mình yên bình và tĩnh lặng.")
 ],
 u5:[
 W("mountain","/ˈmaʊntən/","ngọn núi",CM+"mountain.jpg","","Fansipan is the highest mountain in Viet Nam.","Phan Xi Păng là ngọn núi cao nhất Việt Nam."),
@@ -75,7 +107,14 @@ W("boat","/bəʊt/","con thuyền",CM+"sua-boat.webp","","We go by boat to the i
 W("backpack","/ˈbækpæk/","ba lô","../hinh-anh/tienganh/backpack.jpg","","I put my books in my backpack.","Mình để sách vào ba lô."),
 W("suncream","/ˈsʌnkriːm/","kem chống nắng",CM+"tienganh-u5-suncream.webp","","Put on suncream at the beach!","Hãy bôi kem chống nắng ở bãi biển!"),
 W("amazing","/əˈmeɪzɪŋ/","tuyệt vời",CM+"tienganh-u5-amazing.webp","","Ha Long Bay is amazing!","Vịnh Hạ Long thật tuyệt vời!"),
-W("natural wonder","/ˈnætʃrəl ˈwʌndə/","kì quan thiên nhiên",CM+"tienganh-u5-natural-wonder.webp","","Ha Long Bay is a natural wonder.","Vịnh Hạ Long là một kì quan thiên nhiên.")
+W("natural wonder","/ˈnætʃrəl ˈwʌndə/","kì quan thiên nhiên",CM+"tienganh-u5-natural-wonder.webp","","Ha Long Bay is a natural wonder.","Vịnh Hạ Long là một kì quan thiên nhiên."),
+W("river","/ˈrɪvə(r)/","sông",CM+"tienganh-u5-river.webp","","We camp near a beautiful river.","Chúng mình cắm trại gần một dòng sông đẹp."),
+W("lake","/leɪk/","hồ",CM+"tienganh-u5-lake.webp","","There is a small lake near our camp.","Có một cái hồ nhỏ gần chỗ cắm trại của chúng mình."),
+W("valley","/ˈvæli/","thung lũng",CM+"tienganh-u5-valley.webp","","We walk through a green valley.","Chúng mình đi bộ qua một thung lũng xanh."),
+W("plaster","/ˈplɑːstə(r)/","băng gạc",CM+"tienganh-u5-plaster.webp","","He puts a plaster on his knee.","Bạn ấy dán băng gạc lên đầu gối."),
+W("sleeping bag","/ˈsliːpɪŋ bæɡ/","túi ngủ",CM+"tienganh-u5-sleeping-bag.webp","","I sleep in my sleeping bag at camp.","Mình ngủ trong túi ngủ ở trại."),
+W("scissors","/ˈsɪzəz/","kéo",CM+"tienganh-u5-scissors.webp","","We use scissors to cut the rope.","Chúng mình dùng kéo để cắt dây."),
+W("rock","/rɒk/","tảng đá",CM+"tienganh-u5-rock.webp","","We sit on a big rock by the river.","Chúng mình ngồi trên một tảng đá lớn bên sông.")
 ],
 u6:[
 W("Tet holiday","/tet ˈhɒlədeɪ/","kì nghỉ Tết",CM+"tienganh-u6-tet-holiday.webp","","Tet is the biggest holiday in Viet Nam.","Tết là kì lễ lớn nhất ở Việt Nam."),
@@ -89,7 +128,13 @@ W("family gathering","/ˈfæməli ˈɡæðərɪŋ/","sum họp gia đình",CM+"t
 W("temple","/ˈtempl/","ngôi đền",CM+"temple.jpg","","We go to the temple at Tet.","Chúng mình đi lễ đền vào dịp Tết."),
 W("wish","/wɪʃ/","chúc, điều ước",CM+"tienganh-u6-wish.webp","","I wish you a Happy New Year!","Mình chúc bạn năm mới vui vẻ!"),
 W("celebrate","/ˈselɪbreɪt/","tổ chức, kỉ niệm",CM+"tienganh-u6-celebrate.webp","","We celebrate Tet with our family.","Chúng mình đón Tết cùng gia đình."),
-W("relative","/ˈrelətɪv/","họ hàng",CM+"sua-relative.webp","","We visit our relatives at Tet.","Chúng mình thăm họ hàng vào dịp Tết.")
+W("relative","/ˈrelətɪv/","họ hàng",CM+"sua-relative.webp","","We visit our relatives at Tet.","Chúng mình thăm họ hàng vào dịp Tết."),
+W("have fun","/hæv fʌn/","vui chơi",CM+"tienganh-u6-have-fun.webp","","We have fun at Tet with our family.","Chúng mình vui chơi ngày Tết cùng gia đình."),
+W("clean the furniture","/kliːn ðə ˈfɜːnɪtʃə(r)/","dọn nhà",CM+"tienganh-u6-clean-the-furniture.webp","","We clean the furniture before Tet.","Chúng mình lau dọn bàn ghế trước Tết."),
+W("give lucky money","/ɡɪv ˈlʌki ˈmʌni/","lì xì",CM+"tienganh-u6-give-lucky-money.webp","","My grandmother gives lucky money to children at Tet.","Bà mình lì xì cho trẻ em vào dịp Tết."),
+W("make a wish","/meɪk ə wɪʃ/","ước",CM+"tienganh-u6-make-a-wish.webp","","I make a wish at Tet.","Mình ước một điều vào dịp Tết."),
+W("watch fireworks","/wɒtʃ ˈfaɪəwɜːks/","xem pháo hoa",CM+"tienganh-u6-watch-fireworks.webp","","My family watches fireworks at midnight.","Gia đình mình xem pháo hoa lúc nửa đêm."),
+W("first footer","/ˌfɜːst ˈfʊtə(r)/","người xông đất",CM+"tienganh-u6-first-footer.webp","","The first footer brings good luck to our house.","Người xông đất mang lại may mắn cho nhà mình.")
 ],
 u7:[
 W("television","/ˈtelɪvɪʒn/","tivi, máy truyền hình",CM+"tienganh-u7-television.webp","","We watch television in the evening.","Buổi tối, nhà mình xem tivi."),
@@ -104,6 +149,9 @@ W("educational","/ˌedʒuˈkeɪʃənl/","có tính giáo dục, bổ ích",CM+"t
 W("boring","/ˈbɔːrɪŋ/","chán, buồn tẻ",CM+"tienganh-u7-boring.webp","🥱","This show is boring. I don't want to watch it.","Chương trình này chán quá. Mình không muốn xem nữa."),
 W("comedy","/ˈkɒmədi/","phim hài",CM+"tienganh-u7-comedy.webp","","We watch a comedy on Saturday.","Thứ Bảy, nhà mình xem một phim hài."),
 W("show","/ʃəʊ/","chương trình, buổi biểu diễn",CM+"tienganh-u7-show.webp","","There is a talent show on TV tonight.","Tối nay trên tivi có một chương trình tài năng."),
+W("performer","/pəˈfɔːmə(r)/","người biểu diễn",CM+"tienganh-u7-performer.webp","","She is a good performer. She sings on TV.","Bạn ấy là một người biểu diễn giỏi. Bạn ấy hát trên tivi."),
+W("popular","/ˈpɒpjələ(r)/","phổ biến",CM+"tienganh-u7-popular.webp","","This programme is very popular. Many people watch it.","Chương trình này rất phổ biến. Nhiều người xem nó."),
+W("live","/laɪv/","trực tiếp",CM+"tienganh-u7-live.webp","","We watch the football match live on TV.","Chúng mình xem trận bóng đá trực tiếp trên tivi.")
 ],
 u8:[
 W("football","/ˈfʊtbɔːl/","bóng đá",CM+"tienganh-u8-football.webp","","We play football after school.","Tan học, chúng mình chơi bóng đá."),
@@ -118,6 +166,17 @@ W("player","/ˈpleɪə/","cầu thủ, người chơi",CM+"tienganh-u8-player.we
 W("competition","/ˌkɒmpəˈtɪʃn/","cuộc thi đấu",CM+"tienganh-u8-competition.webp","","Our school has a football competition.","Trường mình có một cuộc thi bóng đá."),
 W("score","/skɔː/","ghi bàn, tỉ số",CM+"tienganh-u8-score.webp","","He scores a goal for our team.","Bạn ấy ghi một bàn thắng cho đội mình."),
 W("goal","/ɡəʊl/","bàn thắng, khung thành",CM+"tienganh-u8-goal.webp","","That was a beautiful goal!","Đó là một bàn thắng thật đẹp!"),
+W("goggles","/ˈɡɒɡlz/","kính bơi",CM+"tienganh-u8-goggles.webp","","I wear goggles when I swim.","Mình đeo kính bơi khi bơi."),
+W("champion","/ˈtʃæmpiən/","nhà vô địch",CM+"tienganh-u8-champion.webp","","He is the champion of the school running race.","Bạn ấy là nhà vô địch cuộc thi chạy của trường."),
+W("volleyball","/ˈvɒlibɔːl/","bóng chuyền",CM+"tienganh-u8-volleyball.webp","","We play volleyball in the playground.","Chúng mình chơi bóng chuyền ở sân chơi."),
+W("table tennis","/ˈteɪbl ˌtenɪs/","bóng bàn",CM+"tienganh-u8-table-tennis.webp","","My father plays table tennis every weekend.","Bố mình chơi bóng bàn vào mỗi cuối tuần."),
+W("cycling","/ˈsaɪklɪŋ/","đạp xe",CM+"tienganh-u8-cycling.webp","","I like cycling in the park with my friends.","Mình thích đạp xe trong công viên cùng các bạn."),
+W("swimming","/ˈswɪmɪŋ/","bơi",CM+"tienganh-u8-swimming.webp","","Swimming is my favourite sport.","Bơi là môn thể thao mình thích nhất."),
+W("karate","/kəˈrɑːti/","karate",CM+"tienganh-u8-karate.webp","","My brother learns karate after school.","Anh mình học karate sau giờ học."),
+W("boxing","/ˈbɒksɪŋ/","đấm bốc",CM+"tienganh-u8-boxing.webp","","He does boxing in the gym.","Bạn ấy tập đấm bốc ở phòng tập."),
+W("skiing","/ˈskiːɪŋ/","trượt tuyết",CM+"tienganh-u8-skiing.webp","","We go skiing in winter.","Mùa đông, chúng mình đi trượt tuyết."),
+W("skateboarding","/ˈskeɪtbɔːdɪŋ/","trượt ván",CM+"tienganh-u8-skateboarding.webp","","Skateboarding is fun, but you must wear a helmet.","Trượt ván rất vui, nhưng bạn phải đội mũ bảo hiểm."),
+W("judo","/ˈdʒuːdəʊ/","judo",CM+"tienganh-u8-judo.webp","","She does judo on Saturday morning.","Bạn ấy tập judo vào sáng thứ Bảy.")
 ],
 u9:[
 W("city","/ˈsɪti/","thành phố",CM+"tienganh-u9-city.webp","","Ha Noi is a big city.","Hà Nội là một thành phố lớn."),
@@ -132,6 +191,18 @@ W("crowded","/ˈkraʊdɪd/","đông đúc",CM+"tienganh-u9-crowded.webp","","The
 W("exciting","/ɪkˈsaɪtɪŋ/","thú vị, hào hứng",CM+"tienganh-u9-exciting.webp","🎉","The trip to the city is exciting.","Chuyến đi tới thành phố rất thú vị."),
 W("modern","/ˈmɒdn/","hiện đại",CM+"tienganh-u9-modern.webp","","This city has many modern buildings.","Thành phố này có nhiều tòa nhà hiện đại."),
 W("historic","/hɪˈstɒrɪk/","có tính lịch sử, cổ kính",CM+"tienganh-u9-historic.webp","","Hoi An is a historic town.","Hội An là một phố cổ có nhiều dấu tích lịch sử."),
+W("old","/əʊld/","cổ",CM+"tienganh-u9-old.webp","","Hoi An has many old houses.","Hội An có nhiều ngôi nhà cổ."),
+W("tasty","/ˈteɪsti/","ngon",CM+"tienganh-u9-tasty.webp","","The pho in Ha Noi is very tasty.","Phở ở Hà Nội rất ngon."),
+W("delicious","/dɪˈlɪʃəs/","ngon",CM+"tienganh-u9-delicious.webp","","The cake is delicious.","Chiếc bánh này rất ngon."),
+W("helpful","/ˈhelpfəl/","hay giúp đỡ",CM+"tienganh-u9-helpful.webp","","The tour guide is very helpful.","Hướng dẫn viên du lịch rất hay giúp đỡ."),
+W("rainy","/ˈreɪni/","mưa",CM+"tienganh-u9-rainy.webp","","It is rainy in Hue today.","Hôm nay ở Huế trời mưa."),
+W("sunny","/ˈsʌni/","nắng",CM+"tienganh-u9-sunny.webp","","It is sunny in Da Nang today.","Hôm nay ở Đà Nẵng trời nắng."),
+W("stall","/stɔːl/","gian hàng",CM+"tienganh-u9-stall.webp","","We buy fruit at a market stall.","Chúng mình mua trái cây ở một gian hàng trong chợ."),
+W("street food","/striːt fuːd/","thức ăn đường phố",CM+"tienganh-u9-street-food.webp","","We try street food in the old town.","Chúng mình thử thức ăn đường phố ở phố cổ."),
+W("floating market","/ˈfləʊtɪŋ ˌmɑːkɪt/","chợ nổi",CM+"tienganh-u9-floating-market.webp","","We visit a floating market in the morning.","Buổi sáng, chúng mình đi thăm chợ nổi."),
+W("postcard","/ˈpəʊstkɑːd/","bưu thiếp",CM+"tienganh-u9-postcard.webp","","I send a postcard to my friend.","Mình gửi một tấm bưu thiếp cho bạn mình."),
+W("coast","/kəʊst/","bờ biển",CM+"tienganh-u9-coast.webp","","Da Nang is on the coast of Viet Nam.","Đà Nẵng nằm ở bờ biển của Việt Nam."),
+W("pagoda","/pəˈɡəʊdə/","chùa",CM+"tienganh-u9-pagoda.webp","","We visit a beautiful pagoda in Hue.","Chúng mình đi thăm một ngôi chùa đẹp ở Huế.")
 ],
 u10:[
 W("future","/ˈfjuːtʃə/","tương lai",CM+"tienganh-u10-future.webp","🔮","In the future, houses will be very different.","Trong tương lai, nhà ở sẽ rất khác bây giờ."),
@@ -146,6 +217,12 @@ W("automatic","/ˌɔːtəˈmætɪk/","tự động",CM+"tienganh-u10-automatic.w
 W("hi-tech","/ˌhaɪ ˈtek/","công nghệ cao",CM+"tienganh-u10-hi-tech.webp","💻","My future house will be hi-tech.","Ngôi nhà tương lai của mình sẽ dùng công nghệ cao."),
 W("underground","/ˌʌndəˈɡraʊnd/","dưới mặt đất",CM+"tienganh-u10-underground.webp","","Some houses will be underground in the future.","Trong tương lai, một số ngôi nhà sẽ ở dưới mặt đất."),
 W("view","/vjuː/","cảnh, tầm nhìn",CM+"tienganh-u10-view.webp","","My house has a beautiful view of the sea.","Nhà mình có tầm nhìn đẹp ra biển."),
+W("electric cooker","/ɪˌlektrɪk ˈkʊkə(r)/","bếp/nồi điện",CM+"tienganh-u10-electric-cooker.webp","","My mother cooks rice with an electric cooker.","Mẹ mình nấu cơm bằng nồi cơm điện."),
+W("washing machine","/ˈwɒʃɪŋ məˌʃiːn/","máy giặt",CM+"tienganh-u10-washing-machine.webp","","The washing machine washes our clothes.","Máy giặt giặt quần áo của nhà mình."),
+W("UFO","/ˌjuːɛfˈəʊ/","nhà UFO",CM+"tienganh-u10-ufo.webp","","My future house looks like a UFO.","Ngôi nhà tương lai của mình trông như một nhà UFO."),
+W("houseboat","/ˈhaʊsbəʊt/","nhà thuyền",CM+"tienganh-u10-houseboat.webp","","We live on a houseboat on the river.","Nhà mình sống trên nhà thuyền trên sông."),
+W("smart","/smɑːt/","thông minh",CM+"tienganh-u10-smart.webp","","My future house is smart. It turns on the lights by itself.","Ngôi nhà tương lai của mình thông minh. Nó tự bật đèn."),
+W("dishwasher","/ˈdɪʃwɒʃə(r)/","máy rửa bát",CM+"tienganh-u2-dishwasher.webp","","The dishwasher washes the dishes for us.","Máy rửa bát rửa bát đĩa giúp nhà mình.")
 ],
 u11:[
 W("environment","/ɪnˈvaɪrənmənt/","môi trường",CM+"tienganh-u11-environment.webp","🌍","We must protect the environment.","Chúng mình phải bảo vệ môi trường."),
@@ -160,6 +237,11 @@ W("save","/seɪv/","tiết kiệm, cứu",CM+"tienganh-u11-save.webp","","We sav
 W("electricity","/ɪˌlekˈtrɪsəti/","điện",CM+"tienganh-u11-electricity.webp","","Turn off the lights to save electricity.","Hãy tắt đèn để tiết kiệm điện."),
 W("water","/ˈwɔːtə/","nước",CM+"tienganh-u11-water.webp","","Clean water is important for life.","Nước sạch rất quan trọng cho cuộc sống."),
 W("pollution","/pəˈluːʃn/","sự ô nhiễm",CM+"tienganh-u11-pollution.webp","","Pollution is bad for our health.","Ô nhiễm có hại cho sức khỏe của chúng ta."),
+W("plastic bag","/ˈplæstɪk bæɡ/","túi nhựa",CM+"tienganh-u11-plastic-bag.webp","","Don't use a plastic bag. Use a cloth bag.","Đừng dùng túi nhựa. Hãy dùng túi vải."),
+W("air pollution","/eə(r) pəˈluːʃn/","ô nhiễm không khí",CM+"tienganh-u11-air-pollution.webp","","Air pollution is bad for our health.","Ô nhiễm không khí có hại cho sức khỏe của chúng ta."),
+W("reusable","/ˌriːˈjuːzəbl/","tái sử dụng được",CM+"tienganh-u11-reusable.webp","","This bottle is reusable. We use it every day.","Chai này tái sử dụng được. Chúng mình dùng nó mỗi ngày."),
+W("natural material","/ˈnætʃrəl məˈtɪəriəl/","nguyên liệu tự nhiên",CM+"tienganh-u11-natural-material.webp","","This bag is made of natural material.","Chiếc túi này làm từ nguyên liệu tự nhiên."),
+W("check-out","/ˈtʃekaʊt/","quầy tính tiền",CM+"tienganh-u11-check-out.webp","","We pay at the check-out in the supermarket.","Chúng mình trả tiền ở quầy tính tiền trong siêu thị.")
 ],
 u12:[
 W("robot","/ˈrəʊbɒt/","rô-bốt",CM+"tienganh-u12-robot.webp","","A robot can help us at home.","Một con rô-bốt có thể giúp chúng ta ở nhà."),
@@ -174,6 +256,15 @@ W("understand","/ˌʌndəˈstænd/","hiểu",CM+"tienganh-u12-understand.webp","
 W("recognise","/ˈrekəɡnaɪz/","nhận ra",CM+"tienganh-u12-recognise.webp","👀","This robot can recognise my face.","Con rô-bốt này có thể nhận ra mặt mình."),
 W("intelligent","/ɪnˈtelɪdʒənt/","thông minh",CM+"tienganh-u12-intelligent.webp","🧠","This robot is very intelligent.","Con rô-bốt này rất thông minh."),
 W("helpful","/ˈhelpfl/","hữu ích, hay giúp đỡ",CM+"tienganh-u12-helpful.webp","🤝","Robots are helpful in our life.","Rô-bốt rất hữu ích trong cuộc sống của chúng ta."),
+W("teaching robots","/ˈtiːtʃɪŋ ˌrəʊbɒts/","rô-bốt dạy học",CM+"tienganh-u12-teaching-robots.webp","","Teaching robots can teach children at school.","Rô-bốt dạy học có thể dạy trẻ em ở trường."),
+W("doctor robots","/ˈdɒktə ˌrəʊbɒts/","rô-bốt bác sĩ",CM+"tienganh-u12-doctor-robots.webp","","Doctor robots can help doctors in the hospital.","Rô-bốt bác sĩ có thể giúp các bác sĩ ở bệnh viện."),
+W("home robots","/həʊm ˌrəʊbɒts/","rô-bốt gia đình",CM+"tienganh-u12-home-robots.webp","","Home robots can clean our house.","Rô-bốt gia đình có thể dọn dẹp nhà của chúng ta."),
+W("lift","/lɪft/","nâng",CM+"tienganh-u12-lift.webp","","A robot can lift heavy boxes.","Một con rô-bốt có thể nâng những chiếc hộp nặng."),
+W("make","/meɪk/","làm",CM+"tienganh-u12-make.webp","","A robot can make coffee for my mother.","Một con rô-bốt có thể pha cà phê cho mẹ mình."),
+W("hedge","/hedʒ/","hàng rào",CM+"tienganh-u12-hedge.webp","","The robot cuts the hedge in the garden.","Con rô-bốt cắt tỉa hàng rào cây trong vườn."),
+W("laundry","/ˈlɔːndri/","giặt giũ",CM+"tienganh-u12-laundry.webp","","A robot can do the laundry for us.","Một con rô-bốt có thể giặt giũ giúp chúng ta."),
+W("dishes","/ˈdɪʃɪz/","bát đĩa",CM+"tienganh-u12-dishes.webp","","A robot can wash the dishes after dinner.","Một con rô-bốt có thể rửa bát đĩa sau bữa tối."),
+W("space station","/speɪs ˌsteɪʃn/","trạm vũ trụ",CM+"tienganh-u12-space-station.webp","","Robots can work on a space station.","Rô-bốt có thể làm việc trên trạm vũ trụ.")
 ]
 
 };
