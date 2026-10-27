@@ -50,6 +50,17 @@ body[data-mode="single"] .nv-nav{display:flex}
 .nv-chip.on{background:#5e35b1;border-color:#5e35b1;color:#fff;font-weight:700}
 .nv-pn{min-height:44px;padding:10px 16px;border:none;border-radius:10px;background:#37474f;color:#fff;font-size:17px;font-weight:600;cursor:pointer;font-family:inherit}
 .nv-pn:disabled{opacity:.4;cursor:default}
+/* ===== Dieu huong chuan (mau Cong nghe): nhan vi tri + Xem tat ca chi hien danh sach ===== */
+.navpos{display:flex;align-items:center;justify-content:center;text-align:center;font-size:16px;font-weight:700;color:#37474f;flex:0 1 auto;padding:0 4px}
+body.mode-single #tongket-hk1,body.mode-single #tongket-hk2,body.mode-single #tongket-wrap{display:none}
+body.mode-single #tongket-hk1.cur,body.mode-single #tongket-hk2.cur,body.mode-single #tongket-wrap.cur{display:block}
+body.mode-all #picker{display:block}
+body.mode-all #pickrow{display:flex !important}
+body.mode-all .navrow{display:none}
+body.mode-all .lesson,body.mode-all #tongket-hk1,body.mode-all #tongket-hk2,body.mode-all #tongket-wrap{display:none}
+body.mode-all .partsum{display:none}
+/* Tieu de nhom trong danh sach Xem tat ca */
+.pick-group{flex-basis:100%;font-size:16px;font-weight:700;color:#37474f;margin:10px 0 2px}
 /* ===== Chuẩn responsive: điện thoại 375px / iPad 768px / máy tính — vùng chạm ≥44px, chữ thân bài ≥16px, giãn dòng ≥1.6, sơ đồ không tràn ngang ===== */
 .quote{font-size:18px;line-height:1.75}
 .vcard{font-size:17px;line-height:1.65}
@@ -108,7 +119,7 @@ body[data-mode="single"] .nv-nav{display:flex}
 
 
 </head>
-<body data-mode="single">
+<body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
 <h1>📖 Ngữ văn 6 — Cả năm học</h1>
 <div class="topmenu"><a class="tm-btn tm-quiz" href="quiz.html">📝 Bài tập &amp; Thi thử</a><a class="tm-btn tm-flash" href="quiz.html#flash">🃏 Flashcard tổng hợp</a></div>
@@ -116,14 +127,20 @@ body[data-mode="single"] .nv-nav{display:flex}
 
 <div class="part part1"><h2>📚 Phần học tập — Học từng bài</h2><p>Nhãn trên mỗi bài: <b>Ôn giữa kì 1</b> = Bài 1–2 (phạm vi thi giữa kì phổ biến; một số trường lấy sang đầu Bài 3 — học theo lớp của em nhé) • <b>Sau giữa kì</b> = Bài 3–5 • <b>Ôn giữa kì 2</b> = Bài 6–8 • <b>Sau giữa kì 2</b> = Bài 9–10 (phân kỳ theo thứ tự sách giáo khoa).</p></div>
 
-<div class="viewbar" id="viewbar-top">
-  <div class="vt">👀 Chế độ xem (trang sẽ nhớ lựa chọn của em):</div>
-  <button class="modebtn" data-m="single">📄 Từng bài</button>
-  <button class="modebtn" data-m="all">📚 Xem tất cả</button>
-  <div class="nv-nav">
-    <button class="nv-pn" data-pn="prev">⬅ Trước</button>
-    <span class="nv-chips"></span>
-    <button class="nv-pn" data-pn="next">Sau ➡</button>
+<!-- ===== THANH CHẾ ĐỘ XEM (mẫu Công nghệ) ===== -->
+<div class="viewbar" id="viewbar">
+  <div class="vrow">
+    <span class="vlabel">👀 Chế độ xem:</span>
+    <button class="vbtn" data-vmode="single">📄 Từng bài</button>
+    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
+  </div>
+  <div id="picker">
+    <div class="pickrow" id="pickrow"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn">⬅ Bài trước</button>
+      <span class="navpos" id="navPos"></span>
+      <button class="navbtn" id="nextBtn">Bài sau ➡</button>
+    </div>
   </div>
 </div>
 
@@ -335,6 +352,28 @@ Tao nấu, tao nướng, tao xào, tao ăn.</p>
     <li>Khi đã cảm hóa nhau, hai người trở thành <span class="hl">duy nhất</span> đối với nhau: đồng lúa mì vàng sẽ làm cáo nhớ tới mái tóc vàng của Hoàng tử bé.</li>
     <li>Lúc chia tay, cáo tặng một bí mật: những điều quan trọng nhất — như tình bạn — thì <b>mắt thường không nhìn thấy</b>, chỉ có <b>trái tim</b> mới nhìn rõ. Và ta phải <b>chịu trách nhiệm</b> với người bạn mình đã cảm hóa (như bông hồng của Hoàng tử bé).</li>
   </ul>
+  <div class="txttl">📖 Văn bản Thực hành đọc: Những người bạn <span class="au">— Nguyễn Nhật Ánh (trích truyện "Tôi là Bê-tô")</span></div>
+  <div class="pread">🔍 <b>Trước khi đọc:</b> Nhìn nhan đề <b>"Những người bạn"</b>. Em tự đoán trước trong đầu: bài này sẽ kể về chuyện gì?<br><button type="button" class="pread-btn">Xem một gợi ý đoán</button> <span class="pread-guess" hidden><i>"Chắc bài này kể về tình bạn của mấy chú chó, mỗi bạn một tính cách khác nhau."</i></span><br>📖 Đọc xong bài, em nhớ quay lại đây xem mình đoán có đúng không nhé!</div>
+  <div class="readbox" id="rb20">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><select class="rb-rate" aria-label="Chọn tốc độ đọc"><option value="0.78">🐢 Chậm</option><option value="0.92">Vừa</option><option value="1.08">Nhanh</option></select><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body"><figure style="margin:10px 0;text-align:center"><img src="../hinh-anh/nguvan/nguvan-bai1-nhung-nguoi-ban.webp" alt="Những người bạn — mấy chú chó" loading="lazy" style="max-width:400px;width:100%;border-radius:12px"><figcaption style="font-size:16px;color:#555">🖼️ Những người bạn — mấy chú chó với mỗi bạn một tính cách, tình bạn ấm áp. (Tranh minh họa do AI vẽ)</figcaption></figure>
+      <p><b>⚠️ Chưa có toàn văn công khai đáng tin:</b> đoạn trích này trong SGK Ngữ văn 6 Kết nối tri thức (tr. 34) trích từ chương 4 và chương 5 của truyện <i>Tôi là Bê-tô</i> (2007); các nguồn công khai hiện chỉ đăng tóm tắt và đáp án vở thực hành, không đăng toàn văn đoạn trích. Vì vậy khối này chỉ tóm tắt nội dung đã xác minh được — <b>không phải toàn văn SGK</b>. Em đọc toàn văn trong SGK giấy tr. 34 nhé!</p>
+      <ul>
+        <li>Người kể chuyện là chú chó <b>Bê-tô</b>, kể ở ngôi thứ nhất. Chủ của Bê-tô và Bi-nô là chị Ni; còn Lai-ca sống ở nhà bà cố của chị Ni.</li>
+        <li><b>Lai-ca</b> rất giống Bê-tô: nghịch ngợm, sôi nổi — nhai giày dép, nhai xà phòng, nhảy chồm chồm trong giờ ăn. Gặp được bạn giống mình, Bê-tô vô cùng sung sướng.</li>
+        <li><b>Bi-nô</b> thì khác hẳn: điềm tĩnh, thông thái — dẫn Bê-tô chui vào dưới chạn thức ăn nằm nghe mưa, gãi mõm vào tai bạn hỏi: “Mày sao thế? Sợ à?” — “Sợ nhưng mà thích chứ?”; Bi-nô mở ra cho Bê-tô một cách nhìn mới về bạn bè và những cái thú ở đời.</li>
+        <li>Qua hai người bạn, Bê-tô nhận ra: tình bạn không chỉ cần giống nhau; mỗi người bạn mang đến cho ta những trải nghiệm khác nhau, và khoảng cách hay khác biệt cũng không ngăn được tình bạn.</li>
+      </ul>
+      <p class="read-note">Nguồn tóm tắt: đoạn trích <i>Những người bạn</i> (Nguyễn Nhật Ánh, trích chương 4–5 <i>Tôi là Bê-tô</i>) — nội dung và chi tiết đối thoại trên đối chiếu tại vietjack.com (soạn bài Thực hành đọc tr. 34 và giải VTH Ngữ văn 6) và thethaovanhoa.vn (giới thiệu trích đoạn SGK). Không tự viết thêm lời văn nào rồi ghi là nguyên văn SGK.</p>
+    </div>
+  </div>
+  <div class="qa wholeqa"><button class="qa-q">🎯 Đọc xong rồi — Ý chính của cả bài "Những người bạn" là gì?<br>A. Bê-tô chỉ chơi với bạn nào giống hệt mình.<br>B. Tình bạn không chỉ cần giống nhau: Lai-ca giống Bê-tô và nghịch ngợm, Bi-nô khác hẳn mà thông thái — mỗi người bạn mang đến cho Bê-tô một trải nghiệm và cách nhìn mới.<br>C. Chó Lai-ca và Bi-nô thi nhau xem ai gặm nát nhiều đồ hơn.</button><div class="qa-a"><b>Đáp án: B.</b> Tình bạn không chỉ cần giống nhau: Lai-ca giống Bê-tô và nghịch ngợm, Bi-nô khác hẳn mà thông thái — mỗi người bạn mang đến cho Bê-tô một trải nghiệm và cách nhìn mới. Ý A và C chỉ nói một chi tiết nhỏ trong bài, chưa phải ý chính của cả bài đâu em.</div></div>
+  <ul>
+    <li>Nhớ nhanh: <b>Bê-tô</b> kể chuyện — <b>Lai-ca</b> giống mình, nghịch ngợm; <b>Bi-nô</b> khác mình, thông thái, rủ nghe mưa.</li>
+    <li>Ý chính: bạn khác mình vẫn là bạn tốt, vì mỗi người bạn dạy ta một điều mới.</li>
+  </ul>
+
   <div class="moc">📌 <b>Bài 1 còn có</b> bài thơ <b>"Bắt nạt"</b> (Nguyễn Thế Hoàng Linh): lên án việc bắt nạt bạn bè — bạn bè là để yêu thương, bênh vực nhau, không phải để chê bai, hiếp đáp.</div>
 
   <div class="mmap">
@@ -657,6 +696,25 @@ Và không ai trên thế gian này biết mẹ con ta ở chốn nào.</p>
     <li>Đỉnh điểm: bức tranh của Mèo đoạt giải và được treo trang trọng. Khi đứng trước bức tranh em gái vẽ <b>chân dung chính mình</b> — một người anh hiền lành, đẹp đẽ trong mắt em — người anh <b>sững sờ, xấu hổ</b>.</li>
     <li>Anh nhận ra mình đã nhỏ nhen trước tấm lòng trong sáng của em, và thầm hứa sẽ yêu thương, tự hào về em gái mình.</li>
   </ul>
+  <div class="txttl">📖 Văn bản Thực hành đọc: Những cánh buồm <span class="au">— Hoàng Trung Thông (thơ)</span></div>
+  <div class="pread">🔍 <b>Trước khi đọc:</b> Nhìn nhan đề <b>"Những cánh buồm"</b>. Em tự đoán trước trong đầu: bài này sẽ kể về chuyện gì?<br><button type="button" class="pread-btn">Xem một gợi ý đoán</button> <span class="pread-guess" hidden><i>"Chắc bài này kể về hai cha con đi chơi biển và ước mơ bay xa như cánh buồm."</i></span><br>📖 Đọc xong bài, em nhớ quay lại đây xem mình đoán có đúng không nhé!</div>
+  <div class="readbox" id="rb21">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><select class="rb-rate" aria-label="Chọn tốc độ đọc"><option value="0.78">🐢 Chậm</option><option value="0.92">Vừa</option><option value="1.08">Nhanh</option></select><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body"><figure style="margin:10px 0;text-align:center"><img src="../hinh-anh/nguvan/nguvan-bai2-nhung-canh-buom.webp" alt="Hai cha con trên bãi biển nhìn những cánh buồm" loading="lazy" style="max-width:400px;width:100%;border-radius:12px"><figcaption style="font-size:16px;color:#555">🖼️ Hai cha con trên bãi biển nhìn những cánh buồm — ước mơ bay xa. (Tranh minh họa do AI vẽ)</figcaption></figure>
+      <p class="tho">Hai cha con bước đi trên cát<br>Ánh mặt trời rực rỡ biển xanh<br>Bóng cha dài lênh khênh<br>Bóng con tròn chắc nịch,</p>
+      <p class="tho">Sau trận mưa đêm rả rích<br>Cát càng mịn, biển càng trong<br>Cha dắt con đi dưới ánh mai hồng<br>Nghe con bước, lòng vui phơi phới.</p>
+      <p class="tho">Con bỗng lắc tay cha khẽ hỏi:<br>“Cha ơi, sao xa kia chỉ thấy nước thấy trời,<br>Không thấy nhà, không thấy cây, không thấy người ở đó?”<br>Cha mỉm cười xoa đầu con nhỏ:<br>“Theo cánh buồm đi mãi đến nơi xa,<br>Sẽ có cây, có cửa, có nhà<br>Vẫn là đất nước của ta<br>Ở nơi đó cha chưa hề đi đến.”</p>
+      <p class="tho">Cha lại dắt con đi trên cát mịn,<br>Ánh nắng chảy đầy vai<br>Cha trầm ngâm nhìn mãi cuối chân trời<br>Con lại trỏ cánh buồm xa hỏi khẽ:<br>“Cha mượn cho con cánh buồm trắng nhé,<br>Để con đi!”<br>Lời của con hay tiếng sóng thầm thì<br>Hay tiếng của lòng cha từ một thời xa thẳm<br>Lần đầu tiên trước biển khơi vô tận<br>Cha gặp lại mình trong tiếng ước mơ con.</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Những cánh buồm</i> (Hoàng Trung Thông) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức (Thực hành đọc Bài 2, tr. 57). Đối chiếu tại thohay.vn, scr.vn và phongnguyet.info — ba nguồn khớp nhau từng khổ. Lưu ý: bản elib.vn khác 2 chữ (“Nhưng nơi đó cha chưa hề đi đến”, “trong những ước mơ con”) nên không dùng bản đó.</p>
+    </div>
+  </div>
+  <div class="qa wholeqa"><button class="qa-q">🎯 Đọc xong rồi — Ý chính của cả bài "Những cánh buồm" là gì?<br>A. Người cha dạy con cách chèo thuyền ra biển.<br>B. Trước biển khơi, người con ước có cánh buồm trắng để đi xa; người cha nhận ra ước mơ của con cũng chính là ước mơ thuở bé của mình — tình cha con và ước mơ tuổi thơ bay xa như cánh buồm.<br>C. Cánh buồm trắng là cánh buồm nhanh nhất trên biển.</button><div class="qa-a"><b>Đáp án: B.</b> Trước biển khơi, người con ước có cánh buồm trắng để đi xa; người cha nhận ra ước mơ của con cũng chính là ước mơ thuở bé của mình — tình cha con và ước mơ tuổi thơ bay xa như cánh buồm. Hai ý A và C chỉ nói một chi tiết nhỏ trong bài, chưa phải ý chính của cả bài đâu em.</div></div>
+  <ul>
+    <li>Hai cha con đi trên bãi cát sau cơn mưa: bóng cha dài lênh khênh, bóng con tròn chắc nịch.</li>
+    <li>Con xin cha “mượn cánh buồm trắng để con đi” — và cha gặp lại chính mình trong tiếng ước mơ của con.</li>
+  </ul>
+
   <div class="moc">⭐ <b>Điểm cần nhớ:</b> Cả ba văn bản cùng nói về <b>tình cảm gia đình</b> — tình mẹ con, tình bà cháu, tình anh em. Yêu thương đôi khi cần ta biết <b>nhận lỗi</b> và <b>trân trọng</b> người thân ngay khi họ còn ở bên.</div>
 
   <div class="mmap">
@@ -972,6 +1030,28 @@ Tiếng hót ấy giờ tôi nghe rất rõ.</p>
     <li>Có lúc người ngắm muốn <b>giữ chim lại cho riêng mình</b>, nhưng rồi nhận ra: chim thuộc về bầu trời và cây xanh; yêu thiên nhiên là để thiên nhiên được <span class="hl">tự do</span>.</li>
     <li>Ý nghĩa: tình yêu thiên nhiên gắn với sự <b>tôn trọng sự sống</b> của muôn loài.</li>
   </ul>
+  <div class="txttl">📖 Văn bản Thực hành đọc: Lắc-ki thực sự may mắn <span class="au">— Lu-i Xe-pun-vê-da (trích "Chuyện con mèo dạy hải âu bay")</span></div>
+  <div class="pread">🔍 <b>Trước khi đọc:</b> Nhìn nhan đề <b>"Lắc-ki thực sự may mắn"</b>. Em tự đoán trước trong đầu: bài này sẽ kể về chuyện gì?<br><button type="button" class="pread-btn">Xem một gợi ý đoán</button> <span class="pread-guess" hidden><i>"Chắc bài này kể về một chú hải âu con được bầy mèo nuôi lớn và dạy bay."</i></span><br>📖 Đọc xong bài, em nhớ quay lại đây xem mình đoán có đúng không nhé!</div>
+  <div class="readbox" id="rb22">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><select class="rb-rate" aria-label="Chọn tốc độ đọc"><option value="0.78">🐢 Chậm</option><option value="0.92">Vừa</option><option value="1.08">Nhanh</option></select><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body"><figure style="margin:10px 0;text-align:center"><img src="../hinh-anh/nguvan/nguvan-bai3-lac-ki.webp" alt="Lắc-ki và Gióc-ba" loading="lazy" style="max-width:400px;width:100%;border-radius:12px"><figcaption style="font-size:16px;color:#555">🖼️ Lắc-ki và Gióc-ba — chú mèo may mắn và người bạn của mình. (Tranh minh họa do AI vẽ)</figcaption></figure>
+      <p><b>⚠️ Chưa có toàn văn công khai đáng tin:</b> đoạn trích này trong SGK Ngữ văn 6 Kết nối tri thức (tr. 83–84) trích chương VI của <i>Chuyện con mèo dạy hải âu bay</i>; các nguồn công khai hiện chỉ đăng tóm tắt, bố cục và đáp án sách bài tập, không đăng toàn văn đoạn trích. Vì vậy khối này chỉ tóm tắt nội dung đã xác minh được — <b>không phải toàn văn SGK</b>. Em đọc toàn văn trong SGK giấy tr. 83–84 nhé!</p>
+      <ul>
+        <li>Bối cảnh: chú mèo mun <b>Gióc-ba</b> đã hứa với hải âu mẹ (chết vì ngộ độc váng dầu) ba điều: ấp quả trứng, nuôi lớn hải âu con và dạy nó bay. Đoạn trích kể lúc Gióc-ba thực hiện lời hứa thứ ba: dạy <b>Lắc-ki</b> bay.</li>
+        <li>Diễn biến: Lắc-ki lớn nhanh trong tình yêu thương của bầy mèo, nhưng cậu không thích bay, cũng không muốn làm hải âu. Một buổi chiều, ở cửa tiệm tạp hóa, cậu gặp con đười ươi Mát-thiu; nó chê cậu bẩn thỉu và gieo vào đầu cậu ý nghĩ bầy mèo nuôi cậu lớn để ăn thịt.</li>
+        <li>Lắc-ki trở về buồn bã, bỏ ăn, trốn vào giữa đám thú nhồi bông. Gióc-ba đến hỏi han và giải thích: hải âu và mèo vốn khác nhau, nhưng bầy mèo yêu thương cậu thật lòng; cậu nói: “Thật dễ dàng để chấp nhận và yêu thương một kẻ nào đó giống mình, nhưng để yêu thương ai đó khác mình thực sự rất khó khăn”.</li>
+        <li>Vì thế Lắc-ki “thực sự may mắn”: dù rất khác biệt, cậu vẫn được Gióc-ba và đàn mèo chấp nhận, bảo vệ và yêu thương.</li>
+      </ul>
+      <p class="read-note">Nguồn tóm tắt: đoạn trích <i>Lắc-ki thực sự may mắn</i> (trích chương VI <i>Chuyện con mèo dạy hải âu bay</i>, Lu-i Xe-pun-vê-da) — bố cục 3 phần, diễn biến và câu nói của Gióc-ba đối chiếu tại vietjack.com (tóm tắt, SBT tr. 20) và docx.com.vn (soạn bài). Không tự viết thêm lời văn nào rồi ghi là nguyên văn SGK.</p>
+    </div>
+  </div>
+  <div class="qa wholeqa"><button class="qa-q">🎯 Đọc xong rồi — Ý chính của cả bài "Lắc-ki thực sự may mắn" là gì?<br>A. Lắc-ki là một con mèo con học bay cùng bầy hải âu.<br>B. Lắc-ki là hải âu con được bầy mèo yêu thương, nuôi lớn và dạy bay; dù khác biệt với loài mèo, cậu vẫn được chấp nhận và yêu thương — đó là điều khiến cậu “thực sự may mắn”.<br>C. Con đười ươi Mát-thiu dạy Lắc-ki bay giỏi hơn bầy mèo.</button><div class="qa-a"><b>Đáp án: B.</b> Lắc-ki là hải âu con được bầy mèo yêu thương, nuôi lớn và dạy bay; dù khác biệt với loài mèo, cậu vẫn được chấp nhận và yêu thương — đó là điều khiến cậu “thực sự may mắn”. Hai ý A và C sai hẳn so với truyện, chưa phải ý chính của cả bài đâu em.</div></div>
+  <ul>
+    <li>Nhớ nhanh: mèo <b>Gióc-ba</b> nuôi hải âu con <b>Lắc-ki</b> — ấp trứng, nuôi lớn, dạy bay.</li>
+    <li>Ý chính: yêu thương kẻ khác mình mới khó — và chính vì thế Lắc-ki mới “thực sự may mắn”.</li>
+  </ul>
+
   <div class="moc">⭐ <b>Điểm cần nhớ:</b> Yêu thương không phải là lời nói suông — đó là <b>hành động chia sẻ cụ thể</b>, dù chỉ là một que diêm, một chiếc áo, hay việc trả tự do cho một chú chim.</div>
 
   <div class="mmap">
@@ -1235,6 +1315,25 @@ Gió đưa tiếng sáo, gió nâng cánh diều.</p>
     <li>Tre có những phẩm chất đáng quý: <b>thẳng thắn</b> (mọc thẳng), <b>dẻo dai</b> (gió bão khó quật ngã), <b>đoàn kết</b> (sống thành lũy, thành khóm), xanh tốt quanh năm, rễ bám sâu vào đất.</li>
     <li>Vì thế, tre trở thành <span class="hl2">biểu tượng của con người Việt Nam</span>: kiên cường, cần cù, đoàn kết và thủy chung với quê hương.</li>
   </ul>
+  <div class="txttl">📖 Văn bản Thực hành đọc: Hành trình của bầy ong <span class="au">— Nguyễn Đức Mậu (thơ lục bát)</span></div>
+  <div class="pread">🔍 <b>Trước khi đọc:</b> Nhìn nhan đề <b>"Hành trình của bầy ong"</b>. Em tự đoán trước trong đầu: bài này sẽ kể về chuyện gì?<br><button type="button" class="pread-btn">Xem một gợi ý đoán</button> <span class="pread-guess" hidden><i>"Chắc bài này kể về bầy ong bay khắp nơi tìm hoa, làm mật ngọt cho đời."</i></span><br>📖 Đọc xong bài, em nhớ quay lại đây xem mình đoán có đúng không nhé!</div>
+  <div class="readbox" id="rb23">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><select class="rb-rate" aria-label="Chọn tốc độ đọc"><option value="0.78">🐢 Chậm</option><option value="0.92">Vừa</option><option value="1.08">Nhanh</option></select><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body"><figure style="margin:10px 0;text-align:center"><img src="../hinh-anh/nguvan/nguvan-bai4-bay-ong.webp" alt="Hành trình của bầy ong" loading="lazy" style="max-width:400px;width:100%;border-radius:12px"><figcaption style="font-size:16px;color:#555">🖼️ Hành trình của bầy ong — bay qua rừng và biển đi tìm hoa. (Tranh minh họa do AI vẽ)</figcaption></figure>
+      <p class="tho">Với đôi cánh đẫm nắng trời<br>Bầy ong bay đến trọn đời tìm hoa.<br>Không gian là nẻo đường xa<br>Thời gian vô tận mở ra sắc màu.</p>
+      <p class="tho">Tìm nơi thăm thẳm rừng sâu<br>Bập bùng hoa chuối, trắng màu hoa ban.<br>Tìm nơi bờ biển sóng tràn<br>Hàng cây chắn bão dịu dàng mùa hoa.<br>Tìm nơi quần đảo khơi xa<br>Có loài hoa nở như là không tên…</p>
+      <p class="tho">Bầy ong rong ruổi trăm miền<br>Rù rì đôi cánh nối liền mùa hoa.<br>Nối rừng hoang với biển xa<br>Đất nơi đâu cũng tìm ra ngọt ngào.<br>(Nếu hoa có ở trời cao<br>Thì bầy ong cũng mang vào mật thơm)</p>
+      <p class="tho">Chắt trong vị ngọt mùi hương<br>Lặng thầm thay những con đường ong bay.<br>Trải qua mưa nắng vơi đầy<br>Men trời đất đủ làm say đất trời.<br>Bầy ong giữ hộ cho người<br>Những mùa hoa đã tàn phai tháng ngày.</p>
+      <p class="read-note">Nguồn văn bản: bài thơ <i>Hành trình của bầy ong</i> (Nguyễn Đức Mậu) — đưa TRỌN BÀI như trong SGK Ngữ văn 6 Kết nối tri thức (Thực hành đọc Bài 4, tr. 106). Đối chiếu tại vndoc.com (bản đăng theo SGK Tiếng Việt 5, cùng bài thơ), thohay.vn và nghengu.vn — các nguồn khớp nhau, chỉ khác 2 chữ (“rừng hoang” / “rừng hoa”, “cho người” / “con người”); khối này theo bản vndoc.com.</p>
+    </div>
+  </div>
+  <div class="qa wholeqa"><button class="qa-q">🎯 Đọc xong rồi — Ý chính của cả bài "Hành trình của bầy ong" là gì?<br>A. Bầy ong chỉ bay quanh một vườn hoa gần tổ.<br>B. Bầy ong rong ruổi trăm miền — rừng sâu, bờ biển, quần đảo khơi xa — nối liền các mùa hoa, chắt mật ngọt và giữ hộ cho người những mùa hoa đã tàn phai: ca ngợi sự cần cù, lặng thầm mà hữu ích của loài ong.<br>C. Bầy ong bay đi tìm hoa chỉ để chơi, không làm mật.</button><div class="qa-a"><b>Đáp án: B.</b> Bầy ong rong ruổi trăm miền — rừng sâu, bờ biển, quần đảo khơi xa — nối liền các mùa hoa, chắt mật ngọt và giữ hộ cho người những mùa hoa đã tàn phai: ca ngợi sự cần cù, lặng thầm mà hữu ích của loài ong. Hai ý A và C sai hẳn so với bài thơ, chưa phải ý chính của cả bài đâu em.</div></div>
+  <ul>
+    <li>Bầy ong bay đến “trọn đời tìm hoa”: rừng sâu, bờ biển, quần đảo khơi xa — nơi đâu cũng tìm ra ngọt ngào.</li>
+    <li>Hai câu cuối: ong “giữ hộ cho người những mùa hoa đã tàn phai” — mật ngọt là công việc lặng thầm, cần cù của ong.</li>
+  </ul>
+
   <div class="moc">📌 <b>Bài 4 còn dạy em</b> hai kĩ năng viết quan trọng của học kì: <b>tập làm thơ lục bát</b> và <b>viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát</b> — xem ngay ở Góc tự luận bên dưới nhé!</div>
 
   <div class="mmap">
@@ -1529,6 +1628,26 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
     <li>Con sông gắn với tuổi thơ, với phù sa bồi đắp ruộng đồng, với vườn cây trái trù phú và con người miền Tây hào sảng, chất phác.</li>
     <li>Ý nghĩa: mỗi vùng đất đều có một dòng sông "mẹ" — yêu quê hương là yêu từ dòng sông, cánh đồng nơi mình sinh ra.</li>
   </ul>
+  <div class="txttl">📖 Văn bản Thực hành đọc: Nghìn năm tháp Khương Mỹ <span class="au">— Lam Linh (du kí)</span></div>
+  <div class="pread">🔍 <b>Trước khi đọc:</b> Nhìn nhan đề <b>"Nghìn năm tháp Khương Mỹ"</b>. Em tự đoán trước trong đầu: bài này sẽ kể về chuyện gì?<br><button type="button" class="pread-btn">Xem một gợi ý đoán</button> <span class="pread-guess" hidden><i>"Chắc bài này kể về chuyến đi thăm cụm tháp Chăm cổ hơn nghìn năm tuổi ở Quảng Nam."</i></span><br>📖 Đọc xong bài, em nhớ quay lại đây xem mình đoán có đúng không nhé!</div>
+  <div class="readbox" id="rb24">
+    <div class="rb-head"><span class="rb-title">📖 Bài đọc — đọc trước khi học</span><span class="rb-btns"><button type="button" class="rb-listen">🔊 Nghe đọc bài này</button><select class="rb-rate" aria-label="Chọn tốc độ đọc"><option value="0.78">🐢 Chậm</option><option value="0.92">Vừa</option><option value="1.08">Nhanh</option></select><button type="button" class="rb-stop" hidden>⏹ Dừng</button><button type="button" class="rb-toggle">Mở bài đọc ▾</button></span></div>
+    <div class="rb-note" hidden>Thiết bị chưa có giọng đọc tiếng Việt — nghe tạm bằng giọng mặc định.</div>
+    <div class="read-body">
+      <p>Trong suốt cuộc hành trình dài hơn 20 tháp lớn nhỏ, xa gần suốt dọc chiều dài gần nghìn cây số, tôi đặc biệt thích nhóm tháp Khương Mỹ. Thích không phải vì nó có giá trị lịch sử đặc biệt, không phải vì nó nằm ở một vị trí đẹp mắt. Đơn giản thích chỉ bởi vì cụm tháp này vẫn còn giữ được khá nguyên vẹn “nhan sắc” thuở sơ khai của nó vào hơn một nghìn năm về trước, chưa bị bàn tay con người đụng chạm hay sửa sang như hầu hết các cụm tháp khác, một vẻ đẹp thách thức với thời gian.</p>
+      <p>Trời lất phất mưa khi chúng tôi tìm đường vào cụm tháp Khương Mỹ.</p>
+      <p>Di tích tháp Chăm Khương Mỹ thuộc thôn 4, xã Tam Xuân I, huyện Núi Thành, tỉnh Quảng Nam được xây dựng vào cuối thế kỉ IX đầu thế kỉ X, bao gồm ba tháp: tháp Bắc, tháp Giữa, tháp Nam. Cụm tháp Khương Mỹ được công nhận là di tích quốc gia năm 1989.</p>
+      <p>Mưa đã dứt. Bước qua những thân cỏ rậm rạp và ướt đẫm nước mưa, tôi ghé thăm những ngọn tháp đang lấp lánh dưới ánh mặt trời. Nếu như trong mưa, những tháp cổ toát lên một vẻ đẹp trầm mặc, suy tư, u buồn thì trong nắng, vẻ đẹp của tháp được phô diễn bởi màu gạch nung óng ả nổi bật giữa trời xanh. Hơn một ngàn năm, trải qua bao thăng trầm của lịch sử, những ngọn tháp trở nên trầm tư, lặng lẽ, uy nghiêm…</p>
+      <p>(Trích “Nghìn năm tháp Khương Mỹ” – Lam Linh)</p>
+      <p class="read-note">Nguồn văn bản: đoạn trích <i>Nghìn năm tháp Khương Mỹ</i> (Lam Linh) như trong SGK Ngữ văn 6 Kết nối tri thức (Thực hành đọc Bài 5, tr. 128). Đối chiếu tại vietjack.com, vndoc.com và loigiaihay.com — ba nguồn đăng đoạn trích khớp nhau từng chữ; SBT Ngữ văn 6 (vietjack.com, tr. 31) cũng xác nhận đoạn trích SGK chạy từ “Trong suốt cuộc hành trình…” đến “…uy nghiêm”. Dấu “…” cuối đoạn có sẵn trong các nguồn.</p>
+    </div>
+  </div>
+  <div class="qa wholeqa"><button class="qa-q">🎯 Đọc xong rồi — Ý chính của cả bài "Nghìn năm tháp Khương Mỹ" là gì?<br>A. Tháp Khương Mỹ đẹp vì được sửa sang, tô vẽ lại như mới.<br>B. Tác giả đặc biệt thích tháp Khương Mỹ vì cụm tháp vẫn giữ được khá nguyên vẹn “nhan sắc” thuở sơ khai hơn nghìn năm trước — trầm mặc trong mưa, rực rỡ màu gạch nung óng ả trong nắng, trầm tư, lặng lẽ, uy nghiêm.<br>C. Tháp Khương Mỹ chỉ có một ngọn tháp duy nhất ở Huế.</button><div class="qa-a"><b>Đáp án: B.</b> Tác giả đặc biệt thích tháp Khương Mỹ vì cụm tháp vẫn giữ được khá nguyên vẹn “nhan sắc” thuở sơ khai hơn nghìn năm trước — trầm mặc trong mưa, rực rỡ màu gạch nung óng ả trong nắng, trầm tư, lặng lẽ, uy nghiêm. Hai ý A và C sai hẳn so với văn bản, chưa phải ý chính của cả bài đâu em.</div></div>
+  <ul>
+    <li>Tháp Chăm Khương Mỹ: thôn 4, xã Tam Xuân I, huyện Núi Thành, tỉnh Quảng Nam; cuối thế kỉ IX – đầu thế kỉ X; ba tháp Bắc – Giữa – Nam; di tích quốc gia năm 1989.</li>
+    <li>Thể loại: <b>du kí</b> — người kể ngôi thứ nhất ghi lại điều mình trực tiếp thấy trong chuyến đi.</li>
+  </ul>
+
   <div class="moc">⭐ <b>Điểm cần nhớ:</b> Thể loại chung của bài là <b>kí / du kí</b> — ghi lại những điều tai nghe mắt thấy trong các chuyến đi, kèm cảm xúc của người đi. Dạng viết của bài: <b>bài văn tả cảnh sinh hoạt</b>.</div>
 
   <div class="mmap">
@@ -1643,7 +1762,7 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
   <div class="secttl">🃏 Flashcard của bài</div>
   <div class="fcbox" data-cards="24,25,26,27,28,29"></div>
   </div>
-  <a class="next" href="#bai6">✔ Xong Bài 5 → Sang Bài 6: Chuyện kể về những người anh hùng ⬇</a>
+  <a class="next" href="#tongket-hk1">✔ Xong Bài 5 → Sang Tổng kết Học kì 1 ⬇</a>
 </div>
 
 <!-- ================= TỔNG KẾT HỌC KÌ 1 ================= -->
@@ -2064,7 +2183,7 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
   </figure>
   <div class="fcbox" data-cards="50,51,52,53,54"></div>
   </div>
-  <a class="next" href="#tongket">✔ Xong Bài 10 → Xuống Phần Tổng kết ⬇</a>
+  <a class="next" href="#tongket-hk2">✔ Xong Bài 10 → Sang Tổng kết Học kì 2 ⬇</a>
   </div>
 
 <!-- ================= TỔNG KẾT HỌC KÌ 2 ================= -->
@@ -2135,22 +2254,8 @@ Hồ Chí Minh thành ca dao bát ngát…</p>
 <p class="small">Đáp án trắc nghiệm do người soạn biên soạn, chưa đối chiếu đáp án chính thức.</p>
 </div><!-- /tongket-wrap -->
 
-<div class="viewbar" id="viewbar-bottom">
-  <div class="vt">👀 Chế độ xem (trang sẽ nhớ lựa chọn của em):</div>
-  <button class="modebtn" data-m="single">📄 Từng bài</button>
-  <button class="modebtn" data-m="all">📚 Xem tất cả</button>
-  <div class="nv-nav">
-    <button class="nv-pn" data-pn="prev">⬅ Trước</button>
-    <span class="nv-chips"></span>
-    <button class="nv-pn" data-pn="next">Sau ➡</button>
-  </div>
-</div>
 
-<p class="note">📌 Nhắc lại cách học môn Văn: đọc kĩ văn bản trong sách → dùng trang này để nhớ ý chính và từ khó → tự viết ở Góc tự luận. Đoạn mẫu chỉ để học cách viết — <b>bài của con phải là lời của con</b> mới là học giỏi Văn thật sự!</p>
-
-<footer>
-  Nguồn ảnh minh họa: Wikimedia Commons (giấy phép tự do), kiểm chứng link ngày 21/10/2026: ảnh con dế (Gryllus campestris), cáo đỏ, sóng biển, thuyền buồm lúc hoàng hôn, que diêm trong bóng tối, làng nghề mây tre đan Phú Vinh (Hà Nội), gặt lúa ở Bắc Kạn, vịnh Hạ Long, hang Sơn Đoòng, chợ nổi Mê Kông. Các trích đoạn ngắn thuộc về tác giả được ghi rõ trong từng bài (Tô Hoài, Xuân Quỳnh, Lâm Thị Mỹ Dạ, Thạch Lam, Nguyễn Tuân…) — chỉ trích ngắn phục vụ học tập. Nội dung tóm tắt và dàn ý do Muse soạn theo SGK Ngữ văn 6 Kết nối tri thức, phụ huynh/bé nên đối chiếu lại với sách thật, nhất là các đoạn trích.
-</footer>
+<footer><p>📷 <a href="../nguon-anh-nguvan.html">Nguồn hình ảnh và ghi chú</a></p></footer>
 
 <script src="cards-data.js"></script>
 <script src="../assets/fc-state.js"></script>
@@ -2263,57 +2368,116 @@ document.querySelectorAll('.fcbox').forEach(function(box){
 });
 </script>
 <script>
-/* ===== Hai chế độ xem: "Từng bài" (mặc định) / "Xem tất cả" — lưu ở localStorage nguvan_view_mode ===== */
+/* ===== 2 CHẾ ĐỘ XEM (mẫu Công nghệ): Từng bài (mặc định) / Xem tất cả (= danh sách) — lưu ở localStorage nguvan_view_mode ===== */
+var VMKEY='nguvan_view_mode', vmode='single';
+try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
+var PAGES=['bai1','bai2','bai3','bai4','bai5','tongket-hk1','bai6','bai7','bai8','bai9','bai10','tongket-hk2','tongket-wrap'];
+/* PLABELS: nhan day du cho o select. SHORT: nhan gon cho danh sach nut (che do Xem tat ca)
+   — SHORT giu nguyen dung text chip cu, va nut van mang data-i = chi so cu, nen key resume
+   'i<chi so>' cua ux-p0 khong doi so voi ban truoc khi chuyen doi. */
+var PLABELS=['Bài 1: Tôi và các bạn','Bài 2: Gõ cửa trái tim','Bài 3: Yêu thương và chia sẻ','Bài 4: Quê hương yêu dấu','Bài 5: Những nẻo đường xứ sở','Tổng kết Học kì 1','Bài 6: Chuyện kể về những người anh hùng','Bài 7: Thế giới cổ tích','Bài 8: Khác biệt và gần gũi','Bài 9: Trái Đất – ngôi nhà chung','Bài 10: Cuốn sách tôi yêu','Tổng kết Học kì 2','Tổng kết'];
+var SHORT=['Bài 1','Bài 2','Bài 3','Bài 4','Bài 5','🎓 Tổng kết Học kì 1','Bài 6','Bài 7','Bài 8','Bài 9','Bài 10','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
+/* ===== NHOM TRONG MENU (nhom chi de nhom, khong phai bai hoc) =====
+   - Ngu van KHONG co tang chuong danh so: nhom theo TAP sach.
+       Tap 1 = bai1–5 (PAGES 0–4); Tap 2 = bai6–10 (PAGES 6–10).
+   - pages = chi so trong PAGES, theo dung thu tu trang, CHI GOM BAI HOC, KHONG gom
+     Tong ket. Tong ket luon la option/nut thuong, dung vi tri trong PAGES, khong nam
+     trong optgroup nao: Tong ket HK1 sau bai5, Tong ket HK2 sau bai10, Tong ket ca nam
+     cuoi cung. Nhom khong co nut rieng, khong bam vao duoc nhu 1 bai.
+   - Nhom nay thay cho gom theo hoc ki cua ux-p0 o select (xem co uxGrouped o
+     script select); de doi nhom chi can sua mang CHUONG nay, khong sua code khac. */
+var CHUONG=[{label:'Tập 1', pages:[0,1,2,3,4]}, {label:'Tập 2', pages:[6,7,8,9,10]}];
+function chapterOfPage(i){
+  if(typeof isSumPage==='function' && isSumPage(PAGES[i])) return null;
+  for(var c=0;c<CHUONG.length;c++){
+    var ps=CHUONG[c].pages||[];
+    for(var k=0;k<ps.length;k++) if(ps[k]===i) return CHUONG[c].label;
+  }
+  return null;
+}
+function chapterStartingAt(i){
+  for(var c=0;c<CHUONG.length;c++){
+    var ps=CHUONG[c].pages||[];
+    if(ps.length && ps[0]===i && chapterOfPage(i)) return CHUONG[c].label;
+  }
+  return null;
+}
+var curPage=0;
+var pickrow=document.getElementById('pickrow');
+SHORT.forEach(function(lb,i){
+  /* Danh sach Xem tat ca: chen tieu de nhom chuong truoc nut dau tien cua chuong.
+     Tieu de la <span>, khong phai nut .pick nen khong anh huong thu tu/showPage. */
+  var grp=chapterStartingAt(i);
+  if(grp){
+    var h=document.createElement('span');
+    h.className='pick-group'; h.textContent=grp;
+    pickrow.appendChild(h);
+  }
+  var b=document.createElement('button');
+  b.className='pick'; b.textContent=lb; b.type='button'; b.setAttribute('data-i',i);
+  /* O che do Xem tat ca, bam muc trong danh sach thi ve Tung bai o dung muc do */
+  b.addEventListener('click',function(){
+    if(vmode==='all'){vmode='single'; try{localStorage.setItem(VMKEY,vmode);}catch(e){} applyMode();}
+    showPage(i,true);
+  });
+  pickrow.appendChild(b);
+});
+var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn'), navPos=document.getElementById('navPos');
+function pageEl(i){return document.getElementById(PAGES[i]);}
+function isSumPage(p){return p==='tongket-hk1'||p==='tongket-hk2'||p==='tongket-wrap';}
+var NLESSON=0; PAGES.forEach(function(p){if(!isSumPage(p)) NLESSON++;});
+function posLabel(i){
+  var p=PAGES[i];
+  if(p==='tongket-hk1') return 'Tổng kết Học kì 1';
+  if(p==='tongket-hk2') return 'Tổng kết Học kì 2';
+  if(p==='tongket-wrap') return 'Tổng kết';
+  var n=0; for(var k=0;k<=i;k++){if(!isSumPage(PAGES[k])) n++;}
+  var name=PLABELS[i], ci=name.indexOf(': ');
+  if(ci>=0) name=name.substring(ci+2);
+  return 'Bài '+n+'/'+NLESSON+' – '+name;
+}
+function showPage(i,scroll){
+  curPage=Math.max(0,Math.min(PAGES.length-1,i));
+  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
+  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
+  prevBtn.disabled=(curPage===0);
+  nextBtn.disabled=(curPage===PAGES.length-1);
+  prevBtn.textContent='⬅ Bài trước';
+  nextBtn.textContent='Bài sau ➡';
+  if(navPos) navPos.textContent=posLabel(curPage);
+  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
+}
+function applyMode(){
+  document.body.classList.toggle('mode-single', vmode==='single');
+  document.body.classList.toggle('mode-all', vmode==='all');
+  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
+}
+document.querySelectorAll('.vbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    vmode=b.getAttribute('data-vmode');
+    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
+    applyMode();
+    if(vmode==='single') showPage(curPage,true);
+  });
+});
+prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
+nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
+document.querySelectorAll('a.next').forEach(function(a){
+  a.addEventListener('click',function(e){
+    if(vmode!=='single') return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='tongket') id='tongket-wrap';
+    var ix=PAGES.indexOf(id);
+    if(ix>=0){e.preventDefault(); showPage(ix,true);}
+  });
+});
 (function(){
-  var ITEMS=[{id:'bai1',label:'Bài 1'},{id:'bai2',label:'Bài 2'},{id:'bai3',label:'Bài 3'},{id:'bai4',label:'Bài 4'},{id:'bai5',label:'Bài 5'},{id:'tongket-hk1',label:'🎓 Tổng kết Học kì 1'},{id:'bai6',label:'Bài 6'},{id:'bai7',label:'Bài 7'},{id:'bai8',label:'Bài 8'},{id:'bai9',label:'Bài 9'},{id:'bai10',label:'Bài 10'},{id:'tongket-hk2',label:'🎓 Tổng kết Học kì 2'},{id:'tongket-wrap',label:'🏁 Tổng kết'}];
-  var LS='nguvan_view_mode';
-  var mode='single'; try{mode=localStorage.getItem(LS)||'single';}catch(e){}
-  if(mode!=='all') mode='single';
-  var cur=0;
-  function el(id){return document.getElementById(id);}
-  function render(){
-    document.body.setAttribute('data-mode',mode);
-    document.querySelectorAll('.modebtn').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-m')===mode);});
-    ITEMS.forEach(function(it,i){
-      var n=el(it.id); if(!n) return;
-      n.style.display=(mode==='all'||i===cur)?'':'none';
-    });
-    document.querySelectorAll('.nv-chip').forEach(function(c){c.classList.toggle('on',Number(c.getAttribute('data-i'))===cur);});
-    document.querySelectorAll('[data-pn="prev"]').forEach(function(b){b.disabled=(cur===0);});
-    document.querySelectorAll('[data-pn="next"]').forEach(function(b){b.disabled=(cur===ITEMS.length-1);});
-  }
-  function show(i,scroll){
-    cur=Math.max(0,Math.min(ITEMS.length-1,i)); render();
-    if(scroll){var t=el('viewbar-top'); if(t) t.scrollIntoView(); window.scrollBy(0,-6);}
-  }
-  function setMode(m){mode=m; try{localStorage.setItem(LS,m);}catch(e){} render();}
-  document.querySelectorAll('.nv-chips').forEach(function(box){
-    ITEMS.forEach(function(it,i){
-      var c=document.createElement('button'); c.className='nv-chip'; c.textContent=it.label; c.setAttribute('data-i',i);
-      c.addEventListener('click',function(){show(i,true);});
-      box.appendChild(c);
-    });
-  });
-  document.querySelectorAll('.modebtn').forEach(function(b){b.addEventListener('click',function(){setMode(b.getAttribute('data-m'));});});
-  document.querySelectorAll('[data-pn="prev"]').forEach(function(b){b.addEventListener('click',function(){show(cur-1,true);});});
-  document.querySelectorAll('[data-pn="next"]').forEach(function(b){b.addEventListener('click',function(){show(cur+1,true);});});
-  /* Nút "Sang Bài ..." cuối mỗi bài: ở chế độ Từng bài thì chuyển mục thay vì nhảy neo */
-  document.querySelectorAll('a.next').forEach(function(a){
-    a.addEventListener('click',function(e){
-      if(mode!=='single') return;
-      var h=a.getAttribute('href')||'';
-      var id=(h==='#tongket')?'tongket-wrap':h.substring(1);
-      var idx=-1; ITEMS.forEach(function(it,i){if(it.id===id) idx=i;});
-      if(idx>=0){e.preventDefault(); show(idx,true);}
-    });
-  });
-  /* Mở trang kèm #bai3 / #tongket thì hiện đúng mục đó ở chế độ Từng bài */
-  if(mode==='single' && location.hash){
-    var hid=location.hash.substring(1); if(hid==='tongket') hid='tongket-wrap';
-    ITEMS.forEach(function(it,i){if(it.id===hid) cur=i;});
-  }
-  render();
+  var h=(location.hash||'').slice(1);
+  var ix=PAGES.indexOf(h==='tongket'?'tongket-wrap':h);
+  if(ix>=0) curPage=ix;
 })();
+applyMode();
+showPage(curPage,false);
 </script>
 <script>
 /* ===== Nghe đọc bài đọc bằng speechSynthesis (giọng vi-VN nếu có) =====
@@ -2466,7 +2630,7 @@ document.querySelectorAll('.fcbox').forEach(function(box){
   /* Chuyển văn bản/bài hoặc đổi chế độ xem thì dừng đọc */
   document.addEventListener('click',function(e){
     var t=e.target;
-    if(t&&t.closest&&t.closest('.modebtn,.nv-chip,.nv-pn,a.next')) stopRead();
+    if(t&&t.closest&&t.closest('.vbtn,.pick,.navbtn,.bai-sel,a.next')) stopRead();
   });
   /* Ô chọn tốc độ: mọi ô trên trang đồng bộ nhau; giá trị đã lưu được nạp lại khi mở trang */
   function syncRates(){ document.querySelectorAll('.rb-rate').forEach(function(sel){ sel.value=String(readRate); }); }
@@ -2534,7 +2698,7 @@ document.querySelectorAll('.kwbox').forEach(function(box){
     });
     function navBoxFor(box){
       var pure=true;
-      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0) pure=false; });
+      Array.prototype.forEach.call(box.children, function(ch){ if(btns.indexOf(ch)<0 && !(ch.classList && ch.classList.contains('pick-group'))) pure=false; });
       if(!pure) return box;
       var n=document.querySelector('#picker .navrow')||document.querySelector('.prevnext');
       if(n && box!==n) return n;
@@ -2546,9 +2710,23 @@ document.querySelectorAll('.kwbox').forEach(function(box){
       var target=navBoxFor(box);
       var sel=document.createElement('select');
       sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
-      keys.forEach(function(k){
-        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+      /* Nhom trong select: option bai thuoc nhom nao thi vao <optgroup>
+         label nhom do; Tong ket (khong thuoc nhom) la option thuong, dung vi tri,
+         khong vao optgroup nao. */
+      var curGrp=null;
+      keys.forEach(function(k,ki){
+        var o=document.createElement('option'); o.value=k;
+        /* Option lay nhan day du "Bai N: Ten bai" tu PLABELS, khong lay text nut gon */
+        o.textContent=(typeof PLABELS!=='undefined'&&PLABELS[ki])?PLABELS[ki]:firstByKey[k].textContent.replace(/\s+/g,' ').trim();
+        var cgrp=(typeof chapterOfPage==='function')?chapterOfPage(ki):null;
+        if(cgrp){
+          if(!curGrp || curGrp.label!==cgrp){ curGrp=document.createElement('optgroup'); curGrp.label=cgrp; sel.appendChild(curGrp); }
+          curGrp.appendChild(o);
+        } else { curGrp=null; sel.appendChild(o); }
       });
+      /* Da gom theo CHUONG nen ngan ux-p0 gom lai theo Hoc ki 1/2 (no se pha
+         optgroup). */
+      if(typeof CHUONG!=='undefined' && CHUONG.length) sel.dataset.uxGrouped='1';
       sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
       if(target===box) box.insertBefore(sel, box.firstChild);
       else target.insertBefore(sel, target.firstChild);
