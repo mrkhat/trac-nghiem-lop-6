@@ -25,7 +25,7 @@
   "t": "mn",
   "f": "Đứng trước bức tranh em gái vẽ mình, người anh cảm thấy thế nào?",
   "a": "Anh sững sờ và xấu hổ — nhận ra mình đã ghen tị, nhỏ nhen trước tấm lòng trong sáng của em gái.",
-  "fi": "../hinh-anh/nguvan/buc-tranh-em-gai.webp"
+  "fi": "../hinh-anh/nguvan/tlv-bai2-buc-tranh.webp"
  },
  {
   "b": 3,
@@ -40,6 +40,13 @@
   "f": "Chị em Sơn đã làm gì cho bé Hiên khi gió lạnh đầu mùa về?",
   "a": "Hai chị em lấy chiếc áo bông cũ — kỉ vật của người em gái đã mất — cho Hiên mặc đỡ rét.",
   "fi": "../hinh-anh/nguvan/gio-lanh-dau-mua.webp"
+ },
+ {
+  "b": 3,
+  "t": "mn",
+  "f": "Bé đang làm gì với chim? Rồi bé quyết định thế nào?",
+  "a": "Bé vội vẽ chiếc lồng trong ý nghĩ vì sợ chim bay đi; rồi bé nhận ra chẳng cần chim bay về — yêu thiên nhiên là để muôn loài được tự do, không giữ lại cho riêng mình.",
+  "fi": "../hinh-anh/nguvan/con-chao-mao.webp"
  },
  {
   "b": 4,
@@ -86,8 +93,8 @@
  {
   "b": 7,
   "t": "mn",
-  "f": "Giết chằn tinh, Thạch Sanh được gì?",
-  "a": "Bộ cung tên vàng. Về sau, chàng còn được đàn thần và niêu cơm thần.",
+  "f": "Đàn thần của Thạch Sanh có phép gì?",
+  "a": "Đàn thần làm quân giặc buông vũ khí, xin hàng.",
   "fi": "../hinh-anh/nguvan/nguvan-bai7-thach-sanh.webp"
  },
  {
