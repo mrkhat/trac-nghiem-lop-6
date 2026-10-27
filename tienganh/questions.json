@@ -1246,5 +1246,1383 @@
   "answer": 1,
   "explanation": "Ngoài vũ trụ là “space”. “Planet” là hành tinh.",
   "bai": 12
+ },
+ {
+  "id": 97,
+  "question": "What is the English word for “sân chơi”?",
+  "options": [
+   "A. playground",
+   "B. library",
+   "C. schoolbag",
+   "D. textbook"
+  ],
+  "answer": 0,
+  "explanation": "“playground” nghĩa là sân chơi (của trường).",
+  "bai": 1
+ },
+ {
+  "id": 98,
+  "question": "Từ “science” có nghĩa là gì?",
+  "options": [
+   "A. môn Lịch sử",
+   "B. môn Khoa học",
+   "C. môn Toán",
+   "D. môn Tiếng Anh"
+  ],
+  "answer": 1,
+  "explanation": "“science” nghĩa là môn Khoa học.",
+  "bai": 1
+ },
+ {
+  "id": 99,
+  "question": "What is the English word for “môn Lịch sử”?",
+  "options": [
+   "A. science",
+   "B. maths",
+   "C. history",
+   "D. English"
+  ],
+  "answer": 2,
+  "explanation": "“history” nghĩa là môn Lịch sử.",
+  "bai": 1
+ },
+ {
+  "id": 100,
+  "question": "What is the English word for “tập thể dục”?",
+  "options": [
+   "A. school lunch",
+   "B. uniform",
+   "C. dictionary",
+   "D. exercise"
+  ],
+  "answer": 3,
+  "explanation": "“exercise” nghĩa là tập thể dục.",
+  "bai": 1
+ },
+ {
+  "id": 101,
+  "question": "Từ “school lunch” có nghĩa là gì?",
+  "options": [
+   "A. bữa trưa ở trường",
+   "B. cặp sách",
+   "C. sách giáo khoa",
+   "D. vở"
+  ],
+  "answer": 0,
+  "explanation": "“school lunch” nghĩa là bữa trưa ở trường.",
+  "bai": 1
+ },
+ {
+  "id": 102,
+  "question": "What is the English word for “cặp sách”?",
+  "options": [
+   "A. textbook",
+   "B. schoolbag",
+   "C. notebook",
+   "D. pencil case"
+  ],
+  "answer": 1,
+  "explanation": "“schoolbag” nghĩa là cặp sách.",
+  "bai": 1
+ },
+ {
+  "id": 103,
+  "question": "Từ “textbook” có nghĩa là gì?",
+  "options": [
+   "A. vở",
+   "B. từ điển",
+   "C. sách giáo khoa",
+   "D. cặp sách"
+  ],
+  "answer": 2,
+  "explanation": "“textbook” nghĩa là sách giáo khoa.",
+  "bai": 1
+ },
+ {
+  "id": 104,
+  "question": "What is the English word for “vở”?",
+  "options": [
+   "A. textbook",
+   "B. dictionary",
+   "C. rubber",
+   "D. notebook"
+  ],
+  "answer": 3,
+  "explanation": "“notebook” nghĩa là vở.",
+  "bai": 1
+ },
+ {
+  "id": 105,
+  "question": "Từ “pencil sharpener” có nghĩa là gì?",
+  "options": [
+   "A. gọt bút chì",
+   "B. tẩy",
+   "C. thước kẻ",
+   "D. hộp bút"
+  ],
+  "answer": 0,
+  "explanation": "“pencil sharpener” nghĩa là gọt bút chì.",
+  "bai": 1
+ },
+ {
+  "id": 106,
+  "question": "What is the English word for “tẩy”?",
+  "options": [
+   "A. ruler",
+   "B. rubber",
+   "C. pencil sharpener",
+   "D. pencil case"
+  ],
+  "answer": 1,
+  "explanation": "“rubber” nghĩa là tẩy.",
+  "bai": 1
+ },
+ {
+  "id": 107,
+  "question": "Từ “dictionary” có nghĩa là gì?",
+  "options": [
+   "A. sách giáo khoa",
+   "B. vở",
+   "C. từ điển",
+   "D. tẩy"
+  ],
+  "answer": 2,
+  "explanation": "“dictionary” nghĩa là từ điển.",
+  "bai": 1
+ },
+ {
+  "id": 108,
+  "question": "What is the English word for “phòng bếp”?",
+  "options": [
+   "A. bathroom",
+   "B. bedroom",
+   "C. living room",
+   "D. kitchen"
+  ],
+  "answer": 3,
+  "explanation": "“kitchen” nghĩa là phòng bếp.",
+  "bai": 2
+ },
+ {
+  "id": 109,
+  "question": "Từ “bathroom” có nghĩa là gì?",
+  "options": [
+   "A. phòng tắm",
+   "B. phòng bếp",
+   "C. phòng ngủ",
+   "D. sảnh"
+  ],
+  "answer": 0,
+  "explanation": "“bathroom” nghĩa là phòng tắm.",
+  "bai": 2
+ },
+ {
+  "id": 110,
+  "question": "What is the English word for “khu vườn”?",
+  "options": [
+   "A. hall",
+   "B. garden",
+   "C. kitchen",
+   "D. bathroom"
+  ],
+  "answer": 1,
+  "explanation": "“garden” nghĩa là khu vườn.",
+  "bai": 2
+ },
+ {
+  "id": 111,
+  "question": "Từ “hall” có nghĩa là gì?",
+  "options": [
+   "A. khu vườn",
+   "B. phòng bếp",
+   "C. sảnh",
+   "D. phòng tắm"
+  ],
+  "answer": 2,
+  "explanation": "“hall” nghĩa là sảnh.",
+  "bai": 2
+ },
+ {
+  "id": 112,
+  "question": "What is the English word for “tủ ngăn kéo”?",
+  "options": [
+   "A. wardrobe",
+   "B. cupboard",
+   "C. fridge",
+   "D. chest of drawers"
+  ],
+  "answer": 3,
+  "explanation": "“chest of drawers” nghĩa là tủ ngăn kéo.",
+  "bai": 2
+ },
+ {
+  "id": 113,
+  "question": "What is the English word for “máy rửa bát”?",
+  "options": [
+   "A. dishwasher",
+   "B. chest of drawers",
+   "C. wardrobe",
+   "D. fridge"
+  ],
+  "answer": 0,
+  "explanation": "“dishwasher” nghĩa là máy rửa bát.",
+  "bai": 2
+ },
+ {
+  "id": 114,
+  "question": "What is the English word for “tủ đựng đồ”?",
+  "options": [
+   "A. wardrobe",
+   "B. cupboard",
+   "C. chest of drawers",
+   "D. fridge"
+  ],
+  "answer": 1,
+  "explanation": "“cupboard” nghĩa là tủ đựng đồ.",
+  "bai": 2
+ },
+ {
+  "id": 115,
+  "question": "Từ “clever” có nghĩa là gì?",
+  "options": [
+   "A. chăm chỉ",
+   "B. biết quan tâm, chu đáo",
+   "C. thông minh, lanh lợi",
+   "D. sáng tạo"
+  ],
+  "answer": 2,
+  "explanation": "“clever” nghĩa là thông minh, lanh lợi.",
+  "bai": 3
+ },
+ {
+  "id": 116,
+  "question": "What is the English word for “chăm chỉ”?",
+  "options": [
+   "A. clever",
+   "B. caring",
+   "C. creative",
+   "D. hard-working"
+  ],
+  "answer": 3,
+  "explanation": "“hard-working” nghĩa là chăm chỉ.",
+  "bai": 3
+ },
+ {
+  "id": 117,
+  "question": "Từ “caring” có nghĩa là gì?",
+  "options": [
+   "A. biết quan tâm, chu đáo",
+   "B. thông minh, lanh lợi",
+   "C. sáng tạo",
+   "D. chăm chỉ"
+  ],
+  "answer": 0,
+  "explanation": "“caring” nghĩa là biết quan tâm, chu đáo.",
+  "bai": 3
+ },
+ {
+  "id": 118,
+  "question": "What is the English word for “má”?",
+  "options": [
+   "A. eye",
+   "B. cheek",
+   "C. nose",
+   "D. mouth"
+  ],
+  "answer": 1,
+  "explanation": "“cheek” nghĩa là má.",
+  "bai": 3
+ },
+ {
+  "id": 119,
+  "question": "Từ “eye” có nghĩa là gì?",
+  "options": [
+   "A. má",
+   "B. mũi",
+   "C. mắt",
+   "D. tóc"
+  ],
+  "answer": 2,
+  "explanation": "“eye” nghĩa là mắt.",
+  "bai": 3
+ },
+ {
+  "id": 120,
+  "question": "What is the English word for “bàn tay”?",
+  "options": [
+   "A. arm",
+   "B. leg",
+   "C. foot",
+   "D. hand"
+  ],
+  "answer": 3,
+  "explanation": "“hand” nghĩa là bàn tay.",
+  "bai": 3
+ },
+ {
+  "id": 121,
+  "question": "Từ “arm” có nghĩa là gì?",
+  "options": [
+   "A. cánh tay",
+   "B. bàn tay",
+   "C. chân",
+   "D. vai"
+  ],
+  "answer": 0,
+  "explanation": "“arm” nghĩa là cánh tay.",
+  "bai": 3
+ },
+ {
+  "id": 122,
+  "question": "What is the English word for “miệng”?",
+  "options": [
+   "A. nose",
+   "B. mouth",
+   "C. eye",
+   "D. cheek"
+  ],
+  "answer": 1,
+  "explanation": "“mouth” nghĩa là miệng.",
+  "bai": 3
+ },
+ {
+  "id": 123,
+  "question": "Từ “leg” có nghĩa là gì?",
+  "options": [
+   "A. bàn tay",
+   "B. cánh tay",
+   "C. chân",
+   "D. bàn chân"
+  ],
+  "answer": 2,
+  "explanation": "“leg” nghĩa là chân.",
+  "bai": 3
+ },
+ {
+  "id": 124,
+  "question": "What is the English word for “mũi”?",
+  "options": [
+   "A. mouth",
+   "B. cheek",
+   "C. eye",
+   "D. nose"
+  ],
+  "answer": 3,
+  "explanation": "“nose” nghĩa là mũi.",
+  "bai": 3
+ },
+ {
+  "id": 125,
+  "question": "Từ “hair” có nghĩa là gì?",
+  "options": [
+   "A. tóc",
+   "B. mắt",
+   "C. mũi",
+   "D. má"
+  ],
+  "answer": 0,
+  "explanation": "“hair” nghĩa là tóc.",
+  "bai": 3
+ },
+ {
+  "id": 126,
+  "question": "What is the English word for “vai”?",
+  "options": [
+   "A. arm",
+   "B. shoulder",
+   "C. hand",
+   "D. leg"
+  ],
+  "answer": 1,
+  "explanation": "“shoulder” nghĩa là vai.",
+  "bai": 3
+ },
+ {
+  "id": 127,
+  "question": "Từ “foot” có nghĩa là gì?",
+  "options": [
+   "A. chân",
+   "B. bàn tay",
+   "C. bàn chân",
+   "D. cánh tay"
+  ],
+  "answer": 2,
+  "explanation": "“foot” nghĩa là bàn chân.",
+  "bai": 3
+ },
+ {
+  "id": 128,
+  "question": "What is the English word for “sáng tạo”?",
+  "options": [
+   "A. clever",
+   "B. caring",
+   "C. hard-working",
+   "D. creative"
+  ],
+  "answer": 3,
+  "explanation": "“creative” nghĩa là sáng tạo.",
+  "bai": 3
+ },
+ {
+  "id": 129,
+  "question": "What is the English word for “quảng trường”?",
+  "options": [
+   "A. square",
+   "B. park",
+   "C. cinema",
+   "D. palace"
+  ],
+  "answer": 0,
+  "explanation": "“square” nghĩa là quảng trường.",
+  "bai": 4
+ },
+ {
+  "id": 130,
+  "question": "Từ “famous” có nghĩa là gì?",
+  "options": [
+   "A. yên bình",
+   "B. nổi tiếng",
+   "C. nhộn nhịp, bận rộn",
+   "D. ồn ào"
+  ],
+  "answer": 1,
+  "explanation": "“famous” nghĩa là nổi tiếng.",
+  "bai": 4
+ },
+ {
+  "id": 131,
+  "question": "What is the English word for “nhà thờ lớn”?",
+  "options": [
+   "A. temple",
+   "B. palace",
+   "C. cathedral",
+   "D. memorial"
+  ],
+  "answer": 2,
+  "explanation": "“cathedral” nghĩa là nhà thờ lớn.",
+  "bai": 4
+ },
+ {
+  "id": 132,
+  "question": "Từ “memorial” có nghĩa là gì?",
+  "options": [
+   "A. nhà thờ lớn",
+   "B. đền",
+   "C. cung điện",
+   "D. đài tưởng niệm"
+  ],
+  "answer": 3,
+  "explanation": "“memorial” nghĩa là đài tưởng niệm.",
+  "bai": 4
+ },
+ {
+  "id": 133,
+  "question": "What is the English word for “đền”?",
+  "options": [
+   "A. temple",
+   "B. cathedral",
+   "C. memorial",
+   "D. palace"
+  ],
+  "answer": 0,
+  "explanation": "“temple” nghĩa là đền.",
+  "bai": 4
+ },
+ {
+  "id": 134,
+  "question": "Từ “palace” có nghĩa là gì?",
+  "options": [
+   "A. đền",
+   "B. cung điện",
+   "C. nhà thờ lớn",
+   "D. phòng trưng bày"
+  ],
+  "answer": 1,
+  "explanation": "“palace” nghĩa là cung điện.",
+  "bai": 4
+ },
+ {
+  "id": 135,
+  "question": "What is the English word for “phòng trưng bày”?",
+  "options": [
+   "A. cathedral",
+   "B. memorial",
+   "C. art gallery",
+   "D. palace"
+  ],
+  "answer": 2,
+  "explanation": "“art gallery” nghĩa là phòng trưng bày.",
+  "bai": 4
+ },
+ {
+  "id": 136,
+  "question": "Từ “peaceful” có nghĩa là gì?",
+  "options": [
+   "A. nổi tiếng",
+   "B. yên tĩnh",
+   "C. ồn ào",
+   "D. yên bình"
+  ],
+  "answer": 3,
+  "explanation": "“peaceful” nghĩa là yên bình.",
+  "bai": 4
+ },
+ {
+  "id": 137,
+  "question": "What is the English word for “khu rừng”?",
+  "options": [
+   "A. forest",
+   "B. river",
+   "C. lake",
+   "D. valley"
+  ],
+  "answer": 0,
+  "explanation": "“forest” nghĩa là khu rừng.",
+  "bai": 5
+ },
+ {
+  "id": 138,
+  "question": "Từ “boat” có nghĩa là gì?",
+  "options": [
+   "A. khu rừng",
+   "B. con thuyền",
+   "C. sông",
+   "D. hồ"
+  ],
+  "answer": 1,
+  "explanation": "“boat” nghĩa là con thuyền.",
+  "bai": 5
+ },
+ {
+  "id": 139,
+  "question": "Từ “amazing” có nghĩa là gì?",
+  "options": [
+   "A. khu rừng",
+   "B. con thuyền",
+   "C. tuyệt vời",
+   "D. sông"
+  ],
+  "answer": 2,
+  "explanation": "“amazing” nghĩa là tuyệt vời.",
+  "bai": 5
+ },
+ {
+  "id": 140,
+  "question": "What is the English word for “kì quan thiên nhiên”?",
+  "options": [
+   "A. mountain",
+   "B. waterfall",
+   "C. cave",
+   "D. natural wonder"
+  ],
+  "answer": 3,
+  "explanation": "“natural wonder” nghĩa là kì quan thiên nhiên.",
+  "bai": 5
+ },
+ {
+  "id": 141,
+  "question": "Từ “river” có nghĩa là gì?",
+  "options": [
+   "A. sông",
+   "B. hồ",
+   "C. thung lũng",
+   "D. khu rừng"
+  ],
+  "answer": 0,
+  "explanation": "“river” nghĩa là sông.",
+  "bai": 5
+ },
+ {
+  "id": 142,
+  "question": "What is the English word for “hồ”?",
+  "options": [
+   "A. river",
+   "B. lake",
+   "C. valley",
+   "D. forest"
+  ],
+  "answer": 1,
+  "explanation": "“lake” nghĩa là hồ.",
+  "bai": 5
+ },
+ {
+  "id": 143,
+  "question": "Từ “valley” có nghĩa là gì?",
+  "options": [
+   "A. sông",
+   "B. hồ",
+   "C. thung lũng",
+   "D. ngọn núi"
+  ],
+  "answer": 2,
+  "explanation": "“valley” nghĩa là thung lũng.",
+  "bai": 5
+ },
+ {
+  "id": 144,
+  "question": "What is the English word for “băng gạc”?",
+  "options": [
+   "A. scissors",
+   "B. sleeping bag",
+   "C. rock",
+   "D. plaster"
+  ],
+  "answer": 3,
+  "explanation": "“plaster” nghĩa là băng gạc.",
+  "bai": 5
+ },
+ {
+  "id": 145,
+  "question": "Từ “sleeping bag” có nghĩa là gì?",
+  "options": [
+   "A. túi ngủ",
+   "B. băng gạc",
+   "C. kéo",
+   "D. ba lô"
+  ],
+  "answer": 0,
+  "explanation": "“sleeping bag” nghĩa là túi ngủ.",
+  "bai": 5
+ },
+ {
+  "id": 146,
+  "question": "What is the English word for “kéo”?",
+  "options": [
+   "A. plaster",
+   "B. scissors",
+   "C. rock",
+   "D. sleeping bag"
+  ],
+  "answer": 1,
+  "explanation": "“scissors” nghĩa là kéo.",
+  "bai": 5
+ },
+ {
+  "id": 147,
+  "question": "Từ “rock” có nghĩa là gì?",
+  "options": [
+   "A. băng gạc",
+   "B. kéo",
+   "C. tảng đá",
+   "D. ngọn núi"
+  ],
+  "answer": 2,
+  "explanation": "“rock” nghĩa là tảng đá.",
+  "bai": 5
+ },
+ {
+  "id": 148,
+  "question": "What is the English word for “kì nghỉ Tết”?",
+  "options": [
+   "A. fireworks",
+   "B. lucky money",
+   "C. peach blossom",
+   "D. Tet holiday"
+  ],
+  "answer": 3,
+  "explanation": "“Tet holiday” nghĩa là kì nghỉ Tết.",
+  "bai": 6
+ },
+ {
+  "id": 149,
+  "question": "Từ “decorate” có nghĩa là gì?",
+  "options": [
+   "A. trang trí, trang hoàng",
+   "B. tổ chức, kỉ niệm",
+   "C. vui chơi",
+   "D. chúc, điều ước"
+  ],
+  "answer": 0,
+  "explanation": "“decorate” nghĩa là trang trí, trang hoàng.",
+  "bai": 6
+ },
+ {
+  "id": 150,
+  "question": "What is the English word for “cây quất”?",
+  "options": [
+   "A. peach blossom",
+   "B. kumquat tree",
+   "C. chung cake",
+   "D. fireworks"
+  ],
+  "answer": 1,
+  "explanation": "“kumquat tree” nghĩa là cây quất.",
+  "bai": 6
+ },
+ {
+  "id": 151,
+  "question": "Từ “family gathering” có nghĩa là gì?",
+  "options": [
+   "A. người xông đất",
+   "B. họ hàng",
+   "C. sum họp gia đình",
+   "D. kì nghỉ Tết"
+  ],
+  "answer": 2,
+  "explanation": "“family gathering” nghĩa là sum họp gia đình.",
+  "bai": 6
+ },
+ {
+  "id": 152,
+  "question": "What is the English word for “ngôi đền”?",
+  "options": [
+   "A. kumquat tree",
+   "B. chung cake",
+   "C. fireworks",
+   "D. temple"
+  ],
+  "answer": 3,
+  "explanation": "“temple” nghĩa là ngôi đền.",
+  "bai": 6
+ },
+ {
+  "id": 153,
+  "question": "Từ “celebrate” có nghĩa là gì?",
+  "options": [
+   "A. tổ chức, kỉ niệm",
+   "B. trang trí, trang hoàng",
+   "C. vui chơi",
+   "D. dọn nhà"
+  ],
+  "answer": 0,
+  "explanation": "“celebrate” nghĩa là tổ chức, kỉ niệm.",
+  "bai": 6
+ },
+ {
+  "id": 154,
+  "question": "What is the English word for “vui chơi”?",
+  "options": [
+   "A. celebrate",
+   "B. have fun",
+   "C. decorate",
+   "D. make a wish"
+  ],
+  "answer": 1,
+  "explanation": "“have fun” nghĩa là vui chơi.",
+  "bai": 6
+ },
+ {
+  "id": 155,
+  "question": "Từ “clean the furniture” có nghĩa là gì?",
+  "options": [
+   "A. vui chơi",
+   "B. tổ chức, kỉ niệm",
+   "C. dọn nhà",
+   "D. xem pháo hoa"
+  ],
+  "answer": 2,
+  "explanation": "“clean the furniture” nghĩa là dọn nhà.",
+  "bai": 6
+ },
+ {
+  "id": 156,
+  "question": "Từ “make a wish” có nghĩa là gì?",
+  "options": [
+   "A. xem pháo hoa",
+   "B. lì xì",
+   "C. tổ chức, kỉ niệm",
+   "D. ước"
+  ],
+  "answer": 3,
+  "explanation": "“make a wish” nghĩa là ước.",
+  "bai": 6
+ },
+ {
+  "id": 157,
+  "question": "What is the English word for “xem pháo hoa”?",
+  "options": [
+   "A. watch fireworks",
+   "B. fireworks",
+   "C. make a wish",
+   "D. first footer"
+  ],
+  "answer": 0,
+  "explanation": "“watch fireworks” nghĩa là xem pháo hoa.",
+  "bai": 6
+ },
+ {
+  "id": 158,
+  "question": "Từ “first footer” có nghĩa là gì?",
+  "options": [
+   "A. sum họp gia đình",
+   "B. người xông đất",
+   "C. họ hàng",
+   "D. kì nghỉ Tết"
+  ],
+  "answer": 1,
+  "explanation": "“first footer” nghĩa là người xông đất.",
+  "bai": 6
+ },
+ {
+  "id": 159,
+  "question": "What is the English word for “người biểu diễn”?",
+  "options": [
+   "A. viewer",
+   "B. character",
+   "C. performer",
+   "D. programme"
+  ],
+  "answer": 2,
+  "explanation": "“performer” nghĩa là người biểu diễn.",
+  "bai": 7
+ },
+ {
+  "id": 160,
+  "question": "Từ “popular” có nghĩa là gì?",
+  "options": [
+   "A. có tính giáo dục, bổ ích",
+   "B. chán, buồn tẻ",
+   "C. trực tiếp",
+   "D. phổ biến"
+  ],
+  "answer": 3,
+  "explanation": "“popular” nghĩa là phổ biến.",
+  "bai": 7
+ },
+ {
+  "id": 161,
+  "question": "What is the English word for “trực tiếp”?",
+  "options": [
+   "A. live",
+   "B. popular",
+   "C. performer",
+   "D. viewer"
+  ],
+  "answer": 0,
+  "explanation": "“live” nghĩa là trực tiếp.",
+  "bai": 7
+ },
+ {
+  "id": 162,
+  "question": "What is the English word for “kính bơi”?",
+  "options": [
+   "A. racket",
+   "B. goggles",
+   "C. champion",
+   "D. player"
+  ],
+  "answer": 1,
+  "explanation": "“goggles” nghĩa là kính bơi.",
+  "bai": 8
+ },
+ {
+  "id": 163,
+  "question": "Từ “champion” có nghĩa là gì?",
+  "options": [
+   "A. cầu thủ, người chơi",
+   "B. kính bơi",
+   "C. nhà vô địch",
+   "D. cái vợt (cầu lông, quần vợt)"
+  ],
+  "answer": 2,
+  "explanation": "“champion” nghĩa là nhà vô địch.",
+  "bai": 8
+ },
+ {
+  "id": 164,
+  "question": "What is the English word for “bóng bàn”?",
+  "options": [
+   "A. tennis",
+   "B. badminton",
+   "C. volleyball",
+   "D. table tennis"
+  ],
+  "answer": 3,
+  "explanation": "“table tennis” nghĩa là bóng bàn.",
+  "bai": 8
+ },
+ {
+  "id": 165,
+  "question": "Từ “cycling” có nghĩa là gì?",
+  "options": [
+   "A. đạp xe",
+   "B. bơi",
+   "C. trượt tuyết",
+   "D. đấm bốc"
+  ],
+  "answer": 0,
+  "explanation": "“cycling” nghĩa là đạp xe.",
+  "bai": 8
+ },
+ {
+  "id": 166,
+  "question": "What is the English word for “bơi”?",
+  "options": [
+   "A. cycling",
+   "B. swimming",
+   "C. skiing",
+   "D. karate"
+  ],
+  "answer": 1,
+  "explanation": "“swimming” nghĩa là bơi.",
+  "bai": 8
+ },
+ {
+  "id": 167,
+  "question": "Từ “karate” có nghĩa là gì?",
+  "options": [
+   "A. judo",
+   "B. đấm bốc",
+   "C. karate",
+   "D. bơi"
+  ],
+  "answer": 2,
+  "explanation": "“karate” nghĩa là karate.",
+  "bai": 8
+ },
+ {
+  "id": 168,
+  "question": "What is the English word for “đấm bốc”?",
+  "options": [
+   "A. karate",
+   "B. judo",
+   "C. skiing",
+   "D. boxing"
+  ],
+  "answer": 3,
+  "explanation": "“boxing” nghĩa là đấm bốc.",
+  "bai": 8
+ },
+ {
+  "id": 169,
+  "question": "Từ “skiing” có nghĩa là gì?",
+  "options": [
+   "A. trượt tuyết",
+   "B. trượt ván",
+   "C. đạp xe",
+   "D. bơi"
+  ],
+  "answer": 0,
+  "explanation": "“skiing” nghĩa là trượt tuyết.",
+  "bai": 8
+ },
+ {
+  "id": 170,
+  "question": "What is the English word for “trượt ván”?",
+  "options": [
+   "A. skiing",
+   "B. skateboarding",
+   "C. cycling",
+   "D. swimming"
+  ],
+  "answer": 1,
+  "explanation": "“skateboarding” nghĩa là trượt ván.",
+  "bai": 8
+ },
+ {
+  "id": 171,
+  "question": "Từ “judo” có nghĩa là gì?",
+  "options": [
+   "A. karate",
+   "B. đấm bốc",
+   "C. judo",
+   "D. trượt tuyết"
+  ],
+  "answer": 2,
+  "explanation": "“judo” nghĩa là judo.",
+  "bai": 8
+ },
+ {
+  "id": 172,
+  "question": "Từ “exciting” có nghĩa là gì?",
+  "options": [
+   "A. đẹp, xinh đẹp",
+   "B. đông đúc",
+   "C. hiện đại",
+   "D. thú vị, hào hứng"
+  ],
+  "answer": 3,
+  "explanation": "“exciting” nghĩa là thú vị, hào hứng.",
+  "bai": 9
+ },
+ {
+  "id": 173,
+  "question": "Từ “tasty” có nghĩa là gì?",
+  "options": [
+   "A. ngon",
+   "B. đẹp, xinh đẹp",
+   "C. hay giúp đỡ",
+   "D. mưa"
+  ],
+  "answer": 0,
+  "explanation": "“tasty” nghĩa là ngon.",
+  "bai": 9
+ },
+ {
+  "id": 174,
+  "question": "Từ “delicious” có nghĩa là gì?",
+  "options": [
+   "A. thú vị, hào hứng",
+   "B. ngon",
+   "C. nắng",
+   "D. gian hàng"
+  ],
+  "answer": 1,
+  "explanation": "“delicious” nghĩa là ngon.",
+  "bai": 9
+ },
+ {
+  "id": 175,
+  "question": "Từ “helpful” có nghĩa là gì?",
+  "options": [
+   "A. đẹp, xinh đẹp",
+   "B. đông đúc",
+   "C. hay giúp đỡ",
+   "D. thú vị, hào hứng"
+  ],
+  "answer": 2,
+  "explanation": "“helpful” nghĩa là hay giúp đỡ.",
+  "bai": 9
+ },
+ {
+  "id": 176,
+  "question": "What is the English word for “mưa”?",
+  "options": [
+   "A. sunny",
+   "B. exciting",
+   "C. beautiful",
+   "D. rainy"
+  ],
+  "answer": 3,
+  "explanation": "“rainy” nghĩa là mưa.",
+  "bai": 9
+ },
+ {
+  "id": 177,
+  "question": "Từ “sunny” có nghĩa là gì?",
+  "options": [
+   "A. nắng",
+   "B. mưa",
+   "C. thú vị, hào hứng",
+   "D. đẹp, xinh đẹp"
+  ],
+  "answer": 0,
+  "explanation": "“sunny” nghĩa là nắng.",
+  "bai": 9
+ },
+ {
+  "id": 178,
+  "question": "What is the English word for “gian hàng”?",
+  "options": [
+   "A. postcard",
+   "B. stall",
+   "C. pagoda",
+   "D. coast"
+  ],
+  "answer": 1,
+  "explanation": "“stall” nghĩa là gian hàng.",
+  "bai": 9
+ },
+ {
+  "id": 179,
+  "question": "Từ “street food” có nghĩa là gì?",
+  "options": [
+   "A. gian hàng",
+   "B. chợ nổi",
+   "C. thức ăn đường phố",
+   "D. bưu thiếp"
+  ],
+  "answer": 2,
+  "explanation": "“street food” nghĩa là thức ăn đường phố.",
+  "bai": 9
+ },
+ {
+  "id": 180,
+  "question": "What is the English word for “chợ nổi”?",
+  "options": [
+   "A. street food",
+   "B. stall",
+   "C. postcard",
+   "D. floating market"
+  ],
+  "answer": 3,
+  "explanation": "“floating market” nghĩa là chợ nổi.",
+  "bai": 9
+ },
+ {
+  "id": 181,
+  "question": "Từ “postcard” có nghĩa là gì?",
+  "options": [
+   "A. bưu thiếp",
+   "B. gian hàng",
+   "C. thức ăn đường phố",
+   "D. bờ biển"
+  ],
+  "answer": 0,
+  "explanation": "“postcard” nghĩa là bưu thiếp.",
+  "bai": 9
+ },
+ {
+  "id": 182,
+  "question": "What is the English word for “bờ biển”?",
+  "options": [
+   "A. pagoda",
+   "B. coast",
+   "C. stall",
+   "D. postcard"
+  ],
+  "answer": 1,
+  "explanation": "“coast” nghĩa là bờ biển.",
+  "bai": 9
+ },
+ {
+  "id": 183,
+  "question": "Từ “pagoda” có nghĩa là gì?",
+  "options": [
+   "A. cung điện",
+   "B. bảo tàng",
+   "C. chùa",
+   "D. tháp, tòa tháp"
+  ],
+  "answer": 2,
+  "explanation": "“pagoda” nghĩa là chùa.",
+  "bai": 9
+ },
+ {
+  "id": 184,
+  "question": "What is the English word for “bếp/nồi điện”?",
+  "options": [
+   "A. washing machine",
+   "B. dishwasher",
+   "C. machine",
+   "D. electric cooker"
+  ],
+  "answer": 3,
+  "explanation": "“electric cooker” nghĩa là bếp/nồi điện.",
+  "bai": 10
+ },
+ {
+  "id": 185,
+  "question": "Từ “washing machine” có nghĩa là gì?",
+  "options": [
+   "A. máy giặt",
+   "B. bếp/nồi điện",
+   "C. máy rửa bát",
+   "D. cái máy"
+  ],
+  "answer": 0,
+  "explanation": "“washing machine” nghĩa là máy giặt.",
+  "bai": 10
+ },
+ {
+  "id": 186,
+  "question": "What is the English word for “nhà UFO”?",
+  "options": [
+   "A. houseboat",
+   "B. UFO",
+   "C. villa",
+   "D. motorhome"
+  ],
+  "answer": 1,
+  "explanation": "“UFO” nghĩa là nhà UFO.",
+  "bai": 10
+ },
+ {
+  "id": 187,
+  "question": "Từ “houseboat” có nghĩa là gì?",
+  "options": [
+   "A. nhà UFO",
+   "B. biệt thự",
+   "C. nhà thuyền",
+   "D. căn hộ"
+  ],
+  "answer": 2,
+  "explanation": "“houseboat” nghĩa là nhà thuyền.",
+  "bai": 10
+ },
+ {
+  "id": 188,
+  "question": "Từ “smart” có nghĩa là gì?",
+  "options": [
+   "A. công nghệ cao",
+   "B. tự động",
+   "C. không dây",
+   "D. thông minh"
+  ],
+  "answer": 3,
+  "explanation": "“smart” nghĩa là thông minh.",
+  "bai": 10
+ },
+ {
+  "id": 189,
+  "question": "Từ “dishwasher” có nghĩa là gì?",
+  "options": [
+   "A. máy rửa bát",
+   "B. máy giặt",
+   "C. bếp/nồi điện",
+   "D. cái máy"
+  ],
+  "answer": 0,
+  "explanation": "“dishwasher” nghĩa là máy rửa bát.",
+  "bai": 10
+ },
+ {
+  "id": 190,
+  "question": "What is the English word for “túi nhựa”?",
+  "options": [
+   "A. air pollution",
+   "B. plastic bag",
+   "C. reusable",
+   "D. check-out"
+  ],
+  "answer": 1,
+  "explanation": "“plastic bag” nghĩa là túi nhựa.",
+  "bai": 11
+ },
+ {
+  "id": 191,
+  "question": "Từ “air pollution” có nghĩa là gì?",
+  "options": [
+   "A. túi nhựa",
+   "B. tái sử dụng được",
+   "C. ô nhiễm không khí",
+   "D. nguyên liệu tự nhiên"
+  ],
+  "answer": 2,
+  "explanation": "“air pollution” nghĩa là ô nhiễm không khí.",
+  "bai": 11
+ },
+ {
+  "id": 192,
+  "question": "What is the English word for “tái sử dụng được”?",
+  "options": [
+   "A. plastic bag",
+   "B. natural material",
+   "C. check-out",
+   "D. reusable"
+  ],
+  "answer": 3,
+  "explanation": "“reusable” nghĩa là tái sử dụng được.",
+  "bai": 11
+ },
+ {
+  "id": 193,
+  "question": "Từ “natural material” có nghĩa là gì?",
+  "options": [
+   "A. nguyên liệu tự nhiên",
+   "B. túi nhựa",
+   "C. ô nhiễm không khí",
+   "D. quầy tính tiền"
+  ],
+  "answer": 0,
+  "explanation": "“natural material” nghĩa là nguyên liệu tự nhiên.",
+  "bai": 11
+ },
+ {
+  "id": 194,
+  "question": "What is the English word for “quầy tính tiền”?",
+  "options": [
+   "A. plastic bag",
+   "B. check-out",
+   "C. reusable",
+   "D. natural material"
+  ],
+  "answer": 1,
+  "explanation": "“check-out” nghĩa là quầy tính tiền.",
+  "bai": 11
+ },
+ {
+  "id": 195,
+  "question": "What is the English word for “rô-bốt dạy học”?",
+  "options": [
+   "A. doctor robots",
+   "B. home robots",
+   "C. teaching robots",
+   "D. robot"
+  ],
+  "answer": 2,
+  "explanation": "“teaching robots” nghĩa là rô-bốt dạy học.",
+  "bai": 12
+ },
+ {
+  "id": 196,
+  "question": "Từ “doctor robots” có nghĩa là gì?",
+  "options": [
+   "A. rô-bốt dạy học",
+   "B. rô-bốt gia đình",
+   "C. rô-bốt",
+   "D. rô-bốt bác sĩ"
+  ],
+  "answer": 3,
+  "explanation": "“doctor robots” nghĩa là rô-bốt bác sĩ.",
+  "bai": 12
+ },
+ {
+  "id": 197,
+  "question": "What is the English word for “rô-bốt gia đình”?",
+  "options": [
+   "A. home robots",
+   "B. teaching robots",
+   "C. doctor robots",
+   "D. space station"
+  ],
+  "answer": 0,
+  "explanation": "“home robots” nghĩa là rô-bốt gia đình.",
+  "bai": 12
+ },
+ {
+  "id": 198,
+  "question": "Từ “lift” có nghĩa là gì?",
+  "options": [
+   "A. hàng rào",
+   "B. nâng",
+   "C. giặt giũ",
+   "D. bát đĩa"
+  ],
+  "answer": 1,
+  "explanation": "“lift” nghĩa là nâng.",
+  "bai": 12
+ },
+ {
+  "id": 199,
+  "question": "What is the English word for “hàng rào”?",
+  "options": [
+   "A. lift",
+   "B. laundry",
+   "C. hedge",
+   "D. dishes"
+  ],
+  "answer": 2,
+  "explanation": "“hedge” nghĩa là hàng rào.",
+  "bai": 12
+ },
+ {
+  "id": 200,
+  "question": "Từ “laundry” có nghĩa là gì?",
+  "options": [
+   "A. hàng rào",
+   "B. bát đĩa",
+   "C. nâng",
+   "D. giặt giũ"
+  ],
+  "answer": 3,
+  "explanation": "“laundry” nghĩa là giặt giũ.",
+  "bai": 12
+ },
+ {
+  "id": 201,
+  "question": "What is the English word for “bát đĩa”?",
+  "options": [
+   "A. dishes",
+   "B. laundry",
+   "C. hedge",
+   "D. lift"
+  ],
+  "answer": 0,
+  "explanation": "“dishes” nghĩa là bát đĩa.",
+  "bai": 12
+ },
+ {
+  "id": 202,
+  "question": "Từ “space station” có nghĩa là gì?",
+  "options": [
+   "A. rô-bốt dạy học",
+   "B. trạm vũ trụ",
+   "C. rô-bốt bác sĩ",
+   "D. rô-bốt gia đình"
+  ],
+  "answer": 1,
+  "explanation": "“space station” nghĩa là trạm vũ trụ.",
+  "bai": 12
  }
 ]

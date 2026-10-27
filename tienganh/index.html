@@ -17,7 +17,11 @@
 /* Lưới từ vựng cố định 3 cột/hàng cho thoáng; KHÔNG nới riêng .vgrid vì
    .lesson có overflow:hidden sẽ cắt phần lưới tràn ra ngoài. Quy tắc nới
    cả trang (body 1080/1160px) nằm chung trong assets/common.css. */
-.vcard{background:#fff;border:1.5px solid #e3e3e3;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.vcard{background:#fff;border:1.5px solid #e3e3e3;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08);display:flex;flex-direction:column}
+/* Ep cum nut xuong sat mep duoi the: hang .lg-btnrow DAU TIEN (ngay sau .vex) nhan margin-top:auto;
+   .vgrid la grid nen cac the cung hang cao bang nhau -> cum nut thang hang nhau.
+   Dung .vex+.lg-btnrow (khong dung :first-of-type vi cac div con khac chen truoc). */
+.vcard .vex+.lg-btnrow{margin-top:auto}
 .vcard img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:8px}
 .vem{height:auto;aspect-ratio:3/2;background:#f1f5fb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:56px}
 .vword{font-size:19px;font-weight:bold;color:var(--c,#1a73e8);margin-top:7px;line-height:1.25}
@@ -151,6 +155,10 @@
     <button class="vnavb" data-vnext>Unit sau ➡</button>
   </div>
 </div>
+
+<!-- Giong doc dung chung (assets/giong-doc.js): 1 o select, nho theo key tienganh_voice. -->
+<script>window.GIONG_DOC={langs:['en-GB','en-US'],key:'tienganh_voice',mount:'.viewctl',mountMode:'after',label:'🔊 Giọng đọc:'};</script>
+<script src="../assets/giong-doc.js"></script>
 
 <div class="part part1"><h2>📖 Phần 1 — Học tập (học từng Unit)</h2><p>Unit 1–3 là phần ôn <b>giữa kì 1</b>, Unit 4–6 học tiếp <b>sau giữa kì 1</b>. Học kì 2 gồm Unit 7–9 (ôn <b>giữa kì 2</b>) và Unit 10–12 (<b>sau giữa kì 2</b>). Phân kỳ theo thứ tự sách giáo khoa. Mỗi thẻ từ đều có hình + phiên âm + câu ví dụ — bấm 🔊 và đọc to theo 3 lần là nhớ!</p></div>
 
@@ -748,12 +756,7 @@
 
 <a class="quizlink" href="quiz.html">✏️ Sang Phần 2 — Trắc nghiệm Tiếng Anh 6 (Cả năm học)<small>96 câu trắc nghiệm từ vựng + ngữ pháp • 3 chế độ: Học tập – Luyện tập – Kiểm tra thử</small></a>
 </div><!-- /sumsec -->
-<p class="note">📌 Lưu ý: module này bám theo sách <b>Tiếng Anh 6 Global Success</b>. Nếu trường của em dùng bộ sách khác (ví dụ i-Learn Smart World), hãy báo lại để được chỉnh nội dung cho khớp nhé.</p>
-
-<footer>
-  <b>Nguồn ảnh:</b> <span id="imgcredits">Toàn bộ hình thẻ từ là tranh minh họa do AI vẽ.</span><br>
-  Nội dung từ vựng/ngữ pháp bám theo SGK Tiếng Anh 6 — bộ Global Success. Các từ không có ảnh phù hợp dùng hình emoji minh họa. Đáp án trắc nghiệm do người biên soạn tự làm, chưa đối chiếu đáp án chính thức.
-</footer>
+<footer><p>📷 <a href="../nguon-anh-tienganh.html">Nguồn hình ảnh và ghi chú</a></p></footer>
 
 <div class="viewctl" role="navigation" aria-label="Chọn cách xem (cuối trang)">
   <div class="vmrow">
@@ -956,15 +959,19 @@ u12:[
 /* ===== NGHE PHÁT ÂM bằng speechSynthesis ===== */
 function speak(t){
   try{
-    var u=new SpeechSynthesisUtterance(t);
-    u.lang='en-US'; u.rate=0.92;
-    var vs=window.speechSynthesis.getVoices();
-    for(var i=0;i<vs.length;i++){ if(/^en([-_]|$)/i.test(vs[i].lang)){ u.voice=vs[i]; break; } }
+    var u;
+    if(window.GiongDoc){ u=window.GiongDoc.makeUtterance(t,{rate:0.92}); }
+    else{
+      u=new SpeechSynthesisUtterance(t);
+      u.lang='en-US'; u.rate=0.92;
+      var vs=window.speechSynthesis.getVoices();
+      for(var i=0;i<vs.length;i++){ if(/^en([-_]|$)/i.test(vs[i].lang)){ u.voice=vs[i]; break; } }
+    }
+    if(!u) return;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
   }catch(e){}
 }
-if('speechSynthesis' in window){ try{ window.speechSynthesis.getVoices(); }catch(e){} }
 document.addEventListener('click',function(e){
   var b=(e.target&&e.target.closest)?e.target.closest('[data-speak]'):null;
   if(b){ speak(b.getAttribute('data-speak')); }
@@ -1264,7 +1271,7 @@ applyView();
       var sel=document.createElement('select');
       sel.className='bai-sel'; sel.setAttribute('aria-label','Chon bai');
       keys.forEach(function(k){
-        var o=document.createElement('option'); o.value=k; o.textContent=firstByKey[k].textContent.replace(/\s+/g,' ').trim(); sel.appendChild(o);
+        var o=document.createElement('option'); o.value=k; o.textContent=(function(t){var m=t.match(/^Unit (\d+)$/); if(!m)return t; var h=document.querySelector('#unit'+m[1]+' h3'); if(!h)return t; var hm=h.textContent.replace(/\s+/g,' ').trim().match(/^Unit \d+\.\s*(.+?)\s*—/); return hm?('Unit '+m[1]+': '+hm[1]):t;})(firstByKey[k].textContent.replace(/\s+/g,' ').trim()); sel.appendChild(o);
       });
       sel.addEventListener('change', function(){ var b=firstByKey[sel.value]; if(b) b.click(); setTimeout(syncAll,80); });
       if(target===box) box.insertBefore(sel, box.firstChild);

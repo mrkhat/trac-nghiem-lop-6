@@ -154,17 +154,6 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .partban p{font-size:16px;opacity:.95;margin:0;line-height:1.6}
 .partban1{background:#1a73e8}
 .partban2{background:#ea8600}
-.lbar{background:#fff;border:1px solid #dfe3e6;border-radius:12px;padding:12px 14px;margin:12px 0}
-.lrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0}
-.lbtn{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer;background:#fff;border:1.5px solid #90a4ae;color:#37474f}
-.lbtn.on{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:700}
-.lchip{min-height:44px;padding:8px 13px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;background:#eef4ee;border:1.5px solid #a5d6a7;color:#1b5e20}
-.lchip.on{background:#2e7d32;color:#fff;border-color:#2e7d32;font-weight:700}
-.lchapt{width:100%;font-weight:700;color:#1565c0;font-size:16px;margin-top:8px}
-#lpicker .lsem{border:1.5px solid #a5d6a7;border-radius:12px;padding:10px 12px;margin:10px 0;background:#f7fbf7}
-#lpicker .lsem-t{font-weight:700;color:#1b5e20;font-size:18px;margin-bottom:2px}
-.lnavbtn{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer;background:#2e7d32;color:#fff;border:none}
-.lnavbtn:disabled{opacity:.45;cursor:default}
 .cbadge{display:inline-block;font-size:14px;font-weight:700;color:#fff;background:#1565c0;border-radius:20px;padding:5px 12px;margin-bottom:8px}
 .lesson h3.ltitle{font-size:24px;color:#2e7d32;margin:2px 0 8px;line-height:1.35}
 .goal{font-size:17px;color:#37474f;background:#e8f5e9;border-left:4px solid #2e7d32;border-radius:6px;padding:10px 13px;margin:8px 0;line-height:1.65}
@@ -216,6 +205,28 @@ body.tab-kiemtra #tabKiemTra{display:block}
 body.tab-flash #tabFlash{display:block}
 .sgk{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:12px;padding:1px 9px;font-size:14px;font-weight:700;margin-right:7px;white-space:nowrap}
 .lgenbox{border:2px solid #a5d6a7;background:#f7fbf7;border-radius:12px;padding:14px;margin:12px 0}
+/* ===== VIEWCTL CHUAN (nav-chuan.js) — NGOAI LE DUY NHAT ve mot nguon: Toan
+   khong nap common.css nen copy toi thieu khoi viewctl tu common.css vao day,
+   scoped chi cho .viewctl (khong doi style con lai cua app). Xem bao cao. ===== */
+.viewctl{display:flex;position:sticky;top:8px;z-index:60;background:#fff;border:1.5px solid #cfd8dc;border-radius:12px;padding:10px 12px;margin:0 0 16px;box-shadow:0 2px 8px rgba(0,0,0,.10);flex-direction:column;align-items:stretch}
+@media (max-width:900px){.viewctl{position:static}}
+.viewctl .vmrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.viewctl .vmrow+.vmrow{margin-top:10px}
+.viewctl .vlabel{font-size:16px;font-weight:700;color:#37474f}
+.viewctl .vmbtn{min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:17px;font-weight:600;cursor:pointer;font-family:inherit}
+.viewctl .vmbtn.on{background:#1a73e8;color:#fff}
+.viewctl .bai-sel{flex:1 1 170px;min-height:48px;font-size:17px;font-family:inherit;border:2px solid #90a4ae;border-radius:10px;padding:8px;background:#fff;color:#263238}
+.viewctl .navbtn{flex:1;min-height:48px;padding:11px 10px;border:none;border-radius:10px;background:#37474f;color:#fff;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
+.viewctl .navbtn:disabled{opacity:.4;cursor:default}
+.viewctl .vpos{font-size:16px;font-weight:700;color:#37474f;min-width:96px;text-align:center;align-self:center}
+.viewctl .nav-resume{min-height:48px;padding:12px 20px;font-size:17px;font-weight:700;color:#fff;background:#2e7d32;border:none;border-radius:12px;cursor:pointer;font-family:inherit}
+.viewctl .nav-pickrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.viewctl .nav-pickrow{display:none}
+body.mode-all .viewctl .nav-pickrow{display:flex}
+body.mode-all .viewctl .vmrow-nav{display:none}
+.viewctl .pick{min-height:44px;padding:9px 13px;border-radius:10px;border:2px solid #90a4ae;background:#f5f7fa;font-size:16px;cursor:pointer;color:#263238;font-family:inherit}
+.viewctl .pick.on{background:#5e35b1;border-color:#5e35b1;color:#fff;font-weight:700}
+.viewctl .pick-group{flex-basis:100%;font-weight:700;font-size:17px;color:#37474f;margin:14px 0 0}
 .lgenbox h4{font-size:19px;color:#1b5e20;margin:0 0 8px}
 </style>
 <link rel="stylesheet" href="../assets/fc-onluyen.css">
@@ -259,7 +270,8 @@ body.tab-flash #tabFlash{display:block}
 <div id="home">
 <div id="tabHoc">
 <div class="partban partban1" id="part1"><h2>📖 Phần 1 — Học từng bài</h2><p>Học lần lượt theo đúng thứ tự sách giáo khoa Toán 6 (Kết nối tri thức với cuộc sống), cả năm học — đủ 43 bài. Cuối mỗi bài có nút "📖 Xem bài mẫu" để mở bài mẫu của đúng bài đó ở tab ✏️ Luyện tập, và nút "🎲 Luyện ngay dạng này" để luyện ngay tại chỗ với một đề mới cùng dạng.</p></div>
-<div class="lbar"><div class="lrow"><span style="font-weight:700">👀 Chế độ xem:</span><button class="lbtn" type="button" data-lmode="single">📄 Từng bài</button><button class="lbtn" type="button" data-lmode="all">📚 Xem tất cả</button></div><div id="lpicker"></div><div class="lrow" style="justify-content:space-between"><button class="lnavbtn" type="button" id="lprev">⬅ Bài trước</button><span id="lpos" style="font-size:16px;color:#444"></span><button class="lnavbtn" type="button" id="lnext">Bài sau ➡</button></div></div>
+<!-- Diem neo cho viewctl chuan (nav-chuan.js chen viewctl TRUOC neo nay, dung vi tri .lbar cu) -->
+<div id="toan-nav-anchor"></div>
 <div id="lessons">
 <div class="lesson" id="lh1">
 <span class="cbadge">Chương 1 · Tập hợp các số tự nhiên</span>
@@ -2174,48 +2186,6 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
 
 /* ===== PHAN 1: DIEU HUONG BAI HOC + THE MINI + KIEM TRA NHANH ===== */
 (function(){
-  var N=43, curL=0, lmode='single';
-  try{
-    var m=localStorage.getItem('toan6_view_mode'); if(m==='all'||m==='single') lmode=m;
-    var c=parseInt(localStorage.getItem('toan6_lesson')||'0',10); if(!isNaN(c)&&c>=0&&c<N) curL=c;
-  }catch(e){}
-  var CHG=[[1,7,'Chương 1 · Tập hợp các số tự nhiên'],[8,12,'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên'],[13,17,'Chương 3 · Số nguyên'],[18,20,'Chương 4 · Một số hình phẳng trong thực tiễn'],[21,22,'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên'],[23,27,'Chương 6 · Phân số'],[28,31,'Chương 7 · Số thập phân'],[32,37,'Chương 8 · Hình học cơ bản'],[38,43,'Chương 9 · Dữ liệu và xác suất thực nghiệm']];
-  var picker=document.getElementById('lpicker');
-  if(picker){
-    var ph='';
-    CHG.forEach(function(g,gi){
-      if(gi===0) ph+='<div class="lsem" data-semester="1"><div class="lsem-t">Học kì 1 — Bài 1–22</div>';
-      if(gi===5) ph+='</div><div class="lsem" data-semester="2"><div class="lsem-t">Học kì 2 — Bài 23–43</div>';
-      ph+='<div class="lchapt">'+g[2]+'</div><div class="lrow">';
-      for(var i=g[0];i<=g[1];i++){ ph+='<button class="lchip" type="button" data-lgo="'+(i-1)+'">Bài '+i+'</button>'; }
-      ph+='</div>';
-    });
-    ph+='</div>';
-    picker.innerHTML=ph;
-  }
-  var lessons=[]; for(var i=1;i<=N;i++){ lessons.push(document.getElementById('lh'+i)); }
-  var chips=[].slice.call(document.querySelectorAll('[data-lgo]'));
-  var mbtns=[].slice.call(document.querySelectorAll('[data-lmode]'));
-  var prev=document.getElementById('lprev'), next=document.getElementById('lnext'), pos=document.getElementById('lpos');
-  function apply(){
-    lessons.forEach(function(el,i){ if(el) el.style.display=(lmode==='all'||i===curL)?'':'none'; });
-    chips.forEach(function(ch){ ch.classList.toggle('on', lmode!=='all' && parseInt(ch.getAttribute('data-lgo'),10)===curL); });
-    mbtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-lmode')===lmode); });
-    if(picker) picker.style.display=(lmode==='all')?'none':'';
-    if(prev) prev.disabled=(curL<=0);
-    if(next) next.disabled=(curL>=N-1);
-    if(pos) pos.textContent='Bài '+(curL+1)+' / '+N+' · '+((curL+1)<=22?'Học kì 1':'Học kì 2');
-    try{ localStorage.setItem('toan6_view_mode',lmode); localStorage.setItem('toan6_lesson',''+curL); }catch(e){}
-  }
-  function go(i,scroll){
-    curL=Math.max(0,Math.min(N-1,i)); apply();
-    if(scroll){ var t=document.getElementById('part1'); if(t) t.scrollIntoView({behavior:'smooth'}); }
-  }
-  chips.forEach(function(ch){ ch.addEventListener('click',function(){ go(parseInt(ch.getAttribute('data-lgo'),10),true); }); });
-  mbtns.forEach(function(b){ b.addEventListener('click',function(){ lmode=b.getAttribute('data-lmode'); apply(); }); });
-  if(prev) prev.addEventListener('click',function(){ go(curL-1,true); });
-  if(next) next.addEventListener('click',function(){ go(curL+1,true); });
-  apply();
   document.querySelectorAll('.minicard').forEach(function(c){
     c.addEventListener('click',function(){ c.classList.toggle('flipped'); });
   });
@@ -2533,5 +2503,22 @@ document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.g
 window.__MUC_LUC_TOAN=null;
 try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.toan&&d.mon.toan.ky;if(!ky)return;window.__MUC_LUC_TOAN={all:ky.ck2.chuong,g1:ky.gk1.chuong,c1:ky.ck1.chuong,g2:ky.gk2.chuong};}).catch(function(){});}catch(e){}
 </script>
+<script>
+/* Du lieu menu chuan cho Toan (nav-chuan.js): 43 bai, 9 chuong tu CHG cu.
+   Nhan vi tri giu dung dang cu 'Bai X / 43 · Hoc ki N' qua posFormat:'semester' + semesterSplit:22.
+   Toan khong co muc Tong ket nen nextToSummaryLabel bi ghi de thanh 'Bai sau' (tranh nhan sai 'Sang Tong ket' o bai ap cuoi). */
+window.NAV_DATA = {
+  pages: ['lh1', 'lh2', 'lh3', 'lh4', 'lh5', 'lh6', 'lh7', 'lh8', 'lh9', 'lh10', 'lh11', 'lh12', 'lh13', 'lh14', 'lh15', 'lh16', 'lh17', 'lh18', 'lh19', 'lh20', 'lh21', 'lh22', 'lh23', 'lh24', 'lh25', 'lh26', 'lh27', 'lh28', 'lh29', 'lh30', 'lh31', 'lh32', 'lh33', 'lh34', 'lh35', 'lh36', 'lh37', 'lh38', 'lh39', 'lh40', 'lh41', 'lh42', 'lh43'],
+  labels: ['Bài 1: Tập hợp', 'Bài 2: Cách ghi số tự nhiên', 'Bài 3: Thứ tự trong tập hợp các số tự nhiên', 'Bài 4: Phép cộng và phép trừ số tự nhiên', 'Bài 5: Phép nhân và phép chia số tự nhiên', 'Bài 6: Lũy thừa với số mũ tự nhiên', 'Bài 7: Thứ tự thực hiện các phép tính', 'Bài 8: Quan hệ chia hết và tính chất', 'Bài 9: Dấu hiệu chia hết', 'Bài 10: Số nguyên tố', 'Bài 11: Ước chung. Ước chung lớn nhất', 'Bài 12: Bội chung. Bội chung nhỏ nhất', 'Bài 13: Tập hợp các số nguyên', 'Bài 14: Phép cộng và phép trừ số nguyên', 'Bài 15: Quy tắc dấu ngoặc', 'Bài 16: Phép nhân số nguyên', 'Bài 17: Phép chia hết. Ước và bội của một số nguyên', 'Bài 18: Hình tam giác đều. Hình vuông. Hình lục giác đều', 'Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân', 'Bài 20: Chu vi và diện tích của một số tứ giác đã học', 'Bài 21: Hình có trục đối xứng', 'Bài 22: Hình có tâm đối xứng', 'Bài 23: Mở rộng phân số. Phân số bằng nhau', 'Bài 24: So sánh phân số. Hỗn số dương', 'Bài 25: Phép cộng và phép trừ phân số', 'Bài 26: Phép nhân và phép chia phân số', 'Bài 27: Hai bài toán về phân số', 'Bài 28: Số thập phân', 'Bài 29: Tính toán với số thập phân', 'Bài 30: Làm tròn và ước lượng', 'Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm', 'Bài 32: Điểm và đường thẳng', 'Bài 33: Điểm nằm giữa hai điểm. Tia', 'Bài 34: Đoạn thẳng. Độ dài đoạn thẳng', 'Bài 35: Trung điểm của đoạn thẳng', 'Bài 36: Góc', 'Bài 37: Số đo góc', 'Bài 38: Dữ liệu và thu thập dữ liệu', 'Bài 39: Bảng thống kê và biểu đồ tranh', 'Bài 40: Biểu đồ cột', 'Bài 41: Biểu đồ cột kép', 'Bài 42: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm', 'Bài 43: Xác suất thực nghiệm'],
+  groups: [{label:'Chương 1 · Tập hợp các số tự nhiên', pages:['lh1', 'lh2', 'lh3', 'lh4', 'lh5', 'lh6', 'lh7']}, {label:'Chương 2 · Tính chia hết trong tập hợp các số tự nhiên', pages:['lh8', 'lh9', 'lh10', 'lh11', 'lh12']}, {label:'Chương 3 · Số nguyên', pages:['lh13', 'lh14', 'lh15', 'lh16', 'lh17']}, {label:'Chương 4 · Một số hình phẳng trong thực tiễn', pages:['lh18', 'lh19', 'lh20']}, {label:'Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên', pages:['lh21', 'lh22']}, {label:'Chương 6 · Phân số', pages:['lh23', 'lh24', 'lh25', 'lh26', 'lh27']}, {label:'Chương 7 · Số thập phân', pages:['lh28', 'lh29', 'lh30', 'lh31']}, {label:'Chương 8 · Hình học cơ bản', pages:['lh32', 'lh33', 'lh34', 'lh35', 'lh36', 'lh37']}, {label:'Chương 9 · Dữ liệu và xác suất thực nghiệm', pages:['lh38', 'lh39', 'lh40', 'lh41', 'lh42', 'lh43']}],
+  viewKey: 'toan6_view_mode',
+  lessonKey: 'toan6_lesson',
+  mount: '#toan-nav-anchor',
+  posFormat: 'semester',
+  semesterSplit: 22,
+  nextToSummaryLabel: 'Bài sau ➡'
+};
+</script>
+<script src="../assets/nav-chuan.js"></script>
 </body>
 </html>

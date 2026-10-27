@@ -246,3 +246,58 @@ figcaption .src:not(.lic){display:none!important}
    (body 1080px rồi 1160px, trừ 32px đệm vừa thanh cuộn). */
 @media(min-width:901px){body{max-width:min(1080px,calc(100vw - 32px))}}
 @media(min-width:1280px){body{max-width:min(1160px,calc(100vw - 32px))}}
+
+/* ============================================================
+   NAV-CHUAN — STYLE MENU DÙNG CHUNG (viewctl, assets/nav-chuan.js)
+   Thêm 2026-10-27, đợt hợp nhất style menu: từ đây style menu CHỈ nằm
+   ở khối này trong common.css — sửa 1 chỗ là tất cả các trang đổi theo.
+   Nguồn: style inline trong tienganh/index.html (.viewctl/.vmrow/.vmbtn/
+   .vchip/.vnavb/.vpos) + nút resume xanh của assets/ux-p0.js (.ux-resume,
+   chuyển từ khối căn giữa sang nút trong hàng flex) + class sẵn có
+   (.bai-sel, .navbtn, .pick, .pick-group) đã định nghĩa ở trên.
+   Khối này nằm CUỐI file để thắng rule flex-row chung ở dòng .viewctl
+   phía trên (chỉ bổ sung flex-direction:column, không sửa rule đó).
+   TOÁN LÀ NGOẠI LỆ DUY NHẤT: trang Toán không nạp common.css nên không
+   lấy được style này; đợt di chuyển giữ style viewctl tối thiểu scoped
+   trong trang Toán nếu buộc phải có (xem tài liệu đầu nav-chuan.js).
+   ============================================================ */
+.viewctl{position:sticky;top:8px;z-index:60;background:#fff;border:1.5px solid #cfd8dc;border-radius:12px;padding:10px 12px;margin:0 0 16px;box-shadow:0 2px 8px rgba(0,0,0,.10);flex-direction:column;align-items:stretch}
+@media (max-width:900px){.viewctl{position:static}}
+.vmrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.vmrow+.vmrow{margin-top:10px}
+.vmbtn{min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid #1a73e8;background:#fff;color:#1a73e8;font-size:17px;font-weight:600;cursor:pointer;font-family:inherit}
+.vmbtn.on{background:#1a73e8;color:#fff}
+.vpos{font-size:16px;font-weight:700;color:#37474f;min-width:96px;text-align:center;align-self:center}
+.nav-resume{min-height:48px;padding:12px 20px;font-size:17px;font-weight:700;color:#fff;background:#2e7d32;border:none;border-radius:12px;cursor:pointer;font-family:inherit}
+.viewctl .nav-pickrow{margin-top:10px}
+.viewctl .nav-pickrow{display:none}
+body.mode-all .viewctl .nav-pickrow{display:flex}
+body.mode-all .viewctl .vmrow-nav{display:none}
+
+/* ============================================================
+   KHUNG HÌNH THỐNG NHẤT + THẺ NHỚ NHANH (2026-10-27, user chốt)
+   - Thẻ Nhớ nhanh: tag sát mép trên, ảnh mặt trước lấp đầy thẻ
+     (chỉ mặt trước; mặt sau giữ căn giữa như cũ).
+   - Khung hình: mọi khung 3:2, rộng tối đa 400px, bo 12px,
+     caption 16px xám. Hình bài đọc/bài học/flashcard: cover lấp đầy
+     khung (nguồn flashcard 2.5:1 bị cắt 2 bên, chủ thể ở giữa nên
+     an toàn). Ngoại lệ: thẻ Nhớ nhanh (ảnh lấp đầy thẻ, thẻ chính
+     là khung); sơ đồ/diagram (svg giữ tỉ lệ gốc); dải .evo/.tl/
+     .fc-strip giữ bố cục riêng (không phải khung hình đơn).
+   Khối này nằm CUỐI file để thắng các rule cũ (130px/190px/105px,
+   figcaption 15px, figure img bo 8px).
+   ============================================================ */
+/* Thẻ Nhớ nhanh — mặt trước */
+.minicard .mini-front{padding-top:4px}
+.minicard .mini-front .mini-tag{margin-top:0}
+.minicard .mini-front img{flex:1;width:100%;min-height:0;max-height:none;object-fit:cover}
+/* Khung hình 3:2 */
+figure img{width:100%;max-width:400px;aspect-ratio:3/2;object-fit:cover;border-radius:12px}
+figure img[src$=".svg"],figure img[src^="data:image/svg"]{aspect-ratio:auto;object-fit:contain}
+figcaption{font-size:16px;color:#444}
+.fc-face img{width:min(100%,400px);aspect-ratio:3/2;object-fit:cover;border-radius:12px;max-height:none}
+.fc-face .fc-strip img{width:23%;height:104px;max-height:none;aspect-ratio:auto}
+.fc-face img[src^="data:image/svg"]{aspect-ratio:auto;object-fit:contain}
+.fc-face svg{aspect-ratio:auto}
+/* Tiêu đề nhóm trong danh sách Xem tất cả (module nav-chuan.js) */
+.viewctl .nav-pickrow .pick-group{flex-basis:100%;font-weight:700;font-size:17px;margin:14px 0 0}

@@ -106,3 +106,21 @@ img{max-width:100%;height:auto}
 /* UX REVIEW 2026-10-22 (UI-R5): hop trang thai hoan thanh bo the (JS dung class nay, truoc day chua co dinh nghia) */
 .fc-donebox{max-width:560px;margin:6px auto}
 .fc-donebox:empty{display:none}
+
+/* ============================================================
+   THẺ NHỚ NHANH + KHUNG HÌNH 3:2 (2026-10-27, user chốt — đồng nhất
+   với khối cuối assets/common.css; file này dùng ở quiz.html nên
+   chỉ có rule cho thẻ/flashcard, không có figure/vocab):
+   - Thẻ Nhớ nhanh: tag sát mép trên, ảnh mặt trước lấp đầy thẻ
+     (chỉ mặt trước; mặt sau giữ căn giữa như cũ).
+   - Hình flashcard: khung 3:2, rộng tối đa 400px, bo 12px, cover
+     (nguồn 2.5:1 bị cắt 2 bên, chủ thể ở giữa nên an toàn).
+     Ngoại lệ: svg giữ tỉ lệ gốc; dải .fc-strip giữ bố cục riêng.
+   ============================================================ */
+.minicard .mini-front{padding-top:4px}
+.minicard .mini-front .mini-tag{margin-top:0}
+.minicard .mini-front img{flex:1;width:100%;min-height:0;max-height:none;object-fit:cover}
+.fc-face img{width:min(100%,400px);aspect-ratio:3/2;object-fit:cover;border-radius:12px;max-height:none}
+.fc-face .fc-strip img{width:23%;height:104px;max-height:none;aspect-ratio:auto}
+.fc-face img[src^="data:image/svg"]{aspect-ratio:auto;object-fit:contain}
+.fc-face svg{aspect-ratio:auto}

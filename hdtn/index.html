@@ -8,33 +8,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/common.css">
-<style>
-.pickgroup{display:flex;flex-wrap:wrap;gap:8px;align-items:center;flex:1 1 100%}
-.picklabel{font-weight:700;font-size:16px;color:#37474f;flex:1 1 100%}
-</style>
 </head>
 <body>
 <div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
 <h1>🌱 Hoạt động trải nghiệm, hướng nghiệp 6 — Cả năm học</h1>
 <div class="topmenu"><a class="tm-btn tm-quiz" href="quiz.html">📝 Bài tập &amp; Kiểm tra thử</a><a class="tm-btn tm-flash" href="quiz.html#flash">🃏 Flashcard tổng hợp</a></div>
 <p class="sub">Học <b>từng chủ đề một</b> theo đúng 9 chủ đề của SGK <b>Kết nối tri thức</b>: đọc tình huống ngắn (hoặc bấm 🔊 Nghe chủ đề) → thử làm theo từng bước → trả lời câu hỏi nhanh ngay trong bài → xem ⭐ Điểm cần nhớ → lật flashcard của chủ đề. Học hết 9 chủ đề mới xuống <b>Phần Tổng kết</b> ở cuối trang nhé!</p>
-<p class="sub">⚠️ Lưu ý: Hoạt động trải nghiệm, hướng nghiệp không phải môn thi kiến thức. Các bài ở đây luyện cách ứng xử an toàn và phù hợp qua tình huống, bám theo chủ đề SGK (kết hợp các nguồn: SGK KNTT trên loigiaihay, giaokhoaonline và sách giáo viên KNTT). Hoạt động nào cần người lớn hướng dẫn thì bài đều ghi rõ. Phân chia học kì 1 / học kì 2 theo kế hoạch của từng trường có thể lệch — trang này trình bày theo thứ tự chủ đề trong SGK, cả năm học.</p>
 <div class="part part1"><h2>📖 Phần 1 — Học tập (học từng chủ đề)</h2><p>Mỗi chủ đề đều có tình huống mở đầu, các bước làm được ngay, thẻ <b>⚡ Nhớ nhanh</b> bấm vào là lật xem đáp án ngay (không tính điểm đâu, cứ thoải mái thử!), câu hỏi nhanh và ⭐ Điểm cần nhớ.</p></div>
-<div class="viewbar" id="viewbar">
-  <div class="vrow">
-    <span class="vlabel">👀 Chế độ xem:</span>
-    <button class="vbtn" data-vmode="single">📄 Từng chủ đề</button>
-    <button class="vbtn" data-vmode="all">📚 Xem tất cả</button>
-  </div>
-  <div id="picker">
-    <div class="pickrow" id="pickrow"></div>
-    <div class="navrow">
-      <button class="navbtn" id="prevBtn">⬅ Chủ đề trước</button>
-      <button class="navbtn" id="nextBtn">Chủ đề sau ➡</button>
-    </div>
-  </div>
-</div>
-
 <div class="lesson" id="bai1" style="--c:#2e7d32">
   <div class="body">
   <h3>Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới</h3>
@@ -442,71 +422,12 @@ document.querySelectorAll('.fcbox').forEach(function(box){
     setKnown:function(id,v){if(v)known[id]=true;else delete known[id];saveKnown();},
     totalText:function(){ var s='Cả năm học: '+totalKnown()+'/'+CARDS.length+' thẻ'; if(window.FSTORE){ var dn=FSTORE.countDue(Object.keys(FCIDMAP).map(function(k){return FCIDMAP[k];})); if(dn>0) s+=' • Hôm nay ôn lại nhé: '+dn+' thẻ sắp quên'; } return s; }});
 });
-var VMKEY='hdtn_view_mode', vmode='single';
-try{var sv=localStorage.getItem(VMKEY); if(sv==='all'||sv==='single') vmode=sv;}catch(e){}
-var PAGES=['bai1','bai2','bai3','bai4','bai5','sum-hk1','bai6','bai7','bai8','bai9','sum-hk2','sum'];
-var PLABELS=['Chủ đề 1','Chủ đề 2','Chủ đề 3','Chủ đề 4','Chủ đề 5','🎓 Tổng kết Học kì 1','Chủ đề 6','Chủ đề 7','Chủ đề 8','Chủ đề 9','🎓 Tổng kết Học kì 2','🏁 Tổng kết'];
-var curPage=0;
-var pickrow=document.getElementById('pickrow');
-var pickBtns=[];
-PLABELS.forEach(function(lb,i){
-  var b=document.createElement('button');
-  b.className='pick'; b.textContent=lb; b.type='button';
-  b.addEventListener('click',function(){showPage(i,true);});
-  pickBtns.push(b);
-});
-function pickGroup(label,idxs){
-  var g=document.createElement('div'); g.className='pickgroup';
-  var l=document.createElement('span'); l.className='picklabel'; l.textContent=label; g.appendChild(l);
-  idxs.forEach(function(i){ g.appendChild(pickBtns[i]); });
-  return g;
-}
-pickrow.appendChild(pickGroup('Học kì 1',[0,1,2,3,4]));
-pickrow.appendChild(pickBtns[5]);
-pickrow.appendChild(pickGroup('Học kì 2',[6,7,8,9]));
-pickrow.appendChild(pickBtns[10]);
-pickrow.appendChild(pickBtns[11]);
-var prevBtn=document.getElementById('prevBtn'), nextBtn=document.getElementById('nextBtn');
-function pageEl(i){return PAGES[i]==='sum'?document.getElementById('sumwrap'):document.getElementById(PAGES[i]);}
-function showPage(i,scroll){
-  if(window.__stopRead) window.__stopRead();
-  curPage=Math.max(0,Math.min(PAGES.length-1,i));
-  PAGES.forEach(function(_,j){var el=pageEl(j); if(el) el.classList.toggle('cur', j===curPage);});
-  pickrow.querySelectorAll('.pick').forEach(function(b,j){b.classList.toggle('on', j===curPage);});
-  prevBtn.disabled=(curPage===0);
-  nextBtn.disabled=(curPage===PAGES.length-1);
-  prevBtn.textContent=(curPage===PAGES.length-1)?'⬅ Tổng kết Học kì 2':'⬅ Chủ đề trước';
-  nextBtn.textContent=(curPage===PAGES.length-2)?'🏁 Sang Tổng kết ➡':'Chủ đề sau ➡';
-  if(scroll) window.scrollTo({top:0,behavior:'smooth'});
-}
-function applyMode(){
-  document.body.classList.toggle('mode-single', vmode==='single');
-  document.body.classList.toggle('mode-all', vmode==='all');
-  document.querySelectorAll('.vbtn').forEach(function(b){b.classList.toggle('on', b.getAttribute('data-vmode')===vmode);});
-}
-document.querySelectorAll('.vbtn').forEach(function(b){
-  b.addEventListener('click',function(){
-    vmode=b.getAttribute('data-vmode');
-    try{localStorage.setItem(VMKEY,vmode);}catch(e){}
-    applyMode();
-    if(vmode==='single') showPage(curPage,true);
-  });
-});
-prevBtn.addEventListener('click',function(){showPage(curPage-1,true);});
-nextBtn.addEventListener('click',function(){showPage(curPage+1,true);});
-(function(){
-  var h=(location.hash||'').slice(1);
-  var ix=PAGES.indexOf(h);
-  if(ix>=0) curPage=ix;
-})();
-applyMode();
-showPage(curPage,false);
 </script>
 
 <script>
 /* ===== Nghe chu de bang speechSynthesis (giong vi-VN neu co, toc do vua cho tre) =====
    Mot nut moi chu de, doc tinh huong mo dau + cac buoc hoc. Bam lan nua de dung.
-   showPage() san co goi window.__stopRead() khi chuyen chu de. */
+   Bam lai nut Nghe de dung doc. */
 (function(){
   if(!('speechSynthesis' in window)){
     document.querySelectorAll('.hd-listen').forEach(function(b){ b.disabled=true; b.textContent='🔊 Thiết bị không hỗ trợ nghe đọc'; });
@@ -550,6 +471,29 @@ showPage(curPage,false);
   window.addEventListener('beforeunload', function(){ try{ synth.cancel(); }catch(e){} });
 })();
 </script>
-<script src="../assets/ux-p0.js"></script>
+
+<script>
+window.NAV_DATA = {
+  pages: ['bai1','bai2','bai3','bai4','bai5','sum-hk1','bai6','bai7','bai8','bai9','sum-hk2','sum'],
+  labels: ['Chủ đề 1: Khám phá lứa tuổi và môi trường học tập mới','Chủ đề 2: Chăm sóc cuộc sống cá nhân','Chủ đề 3: Xây dựng tình bạn, tình thầy trò','Chủ đề 4: Nuôi dưỡng quan hệ gia đình','Chủ đề 5: Kiểm soát chi tiêu','🎓 Tổng kết Học kì 1','Chủ đề 6: Xây dựng cộng đồng văn minh, thân thiện','Chủ đề 7: Tìm hiểu nghề truyền thống ở Việt Nam','Chủ đề 8: Phòng tránh thiên tai và giảm thiểu biến đổi khí hậu','Chủ đề 9: Tôn trọng người lao động','🎓 Tổng kết Học kì 2','🏁 Tổng kết'],
+  groups: [
+    {label:'Chủ đề 1: Khám phá lứa tuổi và môi trường học tập mới', pages:['bai1']},
+    {label:'Chủ đề 2: Chăm sóc cuộc sống cá nhân', pages:['bai2']},
+    {label:'Chủ đề 3: Xây dựng tình bạn, tình thầy trò', pages:['bai3']},
+    {label:'Chủ đề 4: Nuôi dưỡng quan hệ gia đình', pages:['bai4']},
+    {label:'Chủ đề 5: Kiểm soát chi tiêu', pages:['bai5']},
+    {label:'Chủ đề 6: Xây dựng cộng đồng văn minh, thân thiện', pages:['bai6']},
+    {label:'Chủ đề 7: Tìm hiểu nghề truyền thống ở Việt Nam', pages:['bai7']},
+    {label:'Chủ đề 8: Phòng tránh thiên tai và giảm thiểu biến đổi khí hậu', pages:['bai8']},
+    {label:'Chủ đề 9: Tôn trọng người lao động', pages:['bai9']}
+  ],
+  unit: 'Chủ đề',
+  viewKey: 'hdtn_view_mode',
+  lessonKey: 'hdtn_lesson',
+  elementIds: {sum:'sumwrap'}
+};
+</script>
+<script src="../assets/nav-chuan.js"></script>
+
 </body>
 </html>

@@ -88,6 +88,9 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 <h1>🔤 Tiếng Anh 6 - Cả năm học</h1>
 <p class="sub" id="qcount">Đang tải câu hỏi…</p>
 <div style="text-align:center;margin-bottom:14px"><a href="./" style="color:#1a73e8;text-decoration:none">🏠 Về trang Tiếng Anh 6 (phần Học tập)</a> &nbsp;|&nbsp; <a href="../" style="color:#1a73e8;text-decoration:none">📚 Trang chủ Lớp 6</a></div>
+<!-- Giong doc dung chung (assets/giong-doc.js): chung key tienganh_voice voi trang hoc. -->
+<script>window.GIONG_DOC={langs:['en-GB','en-US'],key:'tienganh_voice',mount:'#home',mountMode:'before',label:'🔊 Giọng đọc:'};</script>
+<script src="../assets/giong-doc.js"></script>
 <div id="home">
   <div style="text-align:center;margin-bottom:16px">
     <label for="lessonSel" style="font-weight:600">📚 Chọn bài để luyện: </label>
@@ -357,17 +360,21 @@ function showResult(){
 /* Nghe phat am (sao nguyen van tu trang hoc) */
 function speak(t,done){
   try{
-    var u=new SpeechSynthesisUtterance(t);
-    u.lang='en-US'; u.rate=0.92;
-    var vs=window.speechSynthesis.getVoices();
-    for(var i=0;i<vs.length;i++){ if(/^en([-_]|$)/i.test(vs[i].lang)){ u.voice=vs[i]; break; } }
-    u.onend=function(){ if(done)done(); };
-    u.onerror=function(){ if(done)done(); };
+    var u;
+    if(window.GiongDoc){ u=window.GiongDoc.makeUtterance(t,{rate:0.92,onend:function(){ if(done)done(); },onerror:function(){ if(done)done(); }}); }
+    else{
+      u=new SpeechSynthesisUtterance(t);
+      u.lang='en-US'; u.rate=0.92;
+      var vs=window.speechSynthesis.getVoices();
+      for(var i=0;i<vs.length;i++){ if(/^en([-_]|$)/i.test(vs[i].lang)){ u.voice=vs[i]; break; } }
+      u.onend=function(){ if(done)done(); };
+      u.onerror=function(){ if(done)done(); };
+    }
+    if(!u) return;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
   }catch(e){}
 }
-if('speechSynthesis' in window){ try{ window.speechSynthesis.getVoices(); }catch(e){} }
 document.addEventListener('click',function(e){
   var b=(e.target&&e.target.closest)?e.target.closest('[data-speak]'):null;
   if(b){ speak(b.getAttribute('data-speak')); }
