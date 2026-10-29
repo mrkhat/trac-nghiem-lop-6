@@ -2766,5 +2766,293 @@ document.addEventListener('DOMContentLoaded',function(){
   moveDone();
 })();
 </script>
+<style>
+.docto-w{cursor:pointer}
+.docto-w.docto-done{background:#c8e6c9;border-radius:3px}
+.docto-btn{padding:10px 16px;font-size:16px;border-radius:10px;border:2px solid #2e7d32;background:#e8f5e9;cursor:pointer;margin-left:6px}
+.docto-btn.active{background:#a5d6a7}
+.docto-btn-mini{padding:10px 14px;font-size:15px;border-radius:8px;border:1px solid #888;background:#fff;cursor:pointer;margin-left:6px}
+.docto-msg{font-size:15px;color:#555;margin:6px 0 2px}
+.docto-msg.err{color:#c62828}
+.docto-reset-row{margin:10px 0}
+</style>
+<script>
+/* ===== DOC TO (thi diem Bai 1): be doc thanh tieng, may to theo loi doc ===== */
+(function(){
+  var KEY='nguvan_docto_v1';
+  var WIN=5;
+  var HINT='🎤 Bấm “Đọc to” rồi đọc thành tiếng — máy nghe tới đâu tô tới đó. Bấm vào một từ chưa tô để tô tiếp tới từ đó.';
+  var MSGS={
+    'unsupported':'Trình duyệt này không nhận giọng nói được, bạn dùng Chrome hoặc Edge nhé.',
+    'not-allowed':'Chưa cho phép dùng mic. Bấm “Cho phép” khi trình duyệt hỏi rồi thử lại nhé.',
+    'no-speech':'Máy chưa nghe thấy gì. Bé đọc to hơn một chút nhé.',
+    'network':'Mất mạng rồi, thử lại sau nhé.',
+    'audio-capture':'Không tìm thấy mic trên máy này. Kiểm tra lại mic nhé.',
+    'other':'Mic gặp trục trặc, thử lại nhé.',
+    'listening':'🎤 Đang nghe… bé đọc to nhé.',
+    'done':'✔ Bé đã đọc hết đoạn này rồi!'
+  };
+  var lesson=document.getElementById('bai1');
+  if(!lesson) return;
+  var boxes=[];
+  var saved={}; try{ saved=JSON.parse(localStorage.getItem(KEY)||'{}'); }catch(e){ saved={}; }
+  function save(){ try{ localStorage.setItem(KEY,JSON.stringify(saved)); }catch(e){} }
+  function norm(w){ return (w||'').toLowerCase().replace(/[^\p{L}]+/gu,''); }
+  function isSkipTag(tag){ return tag==='sup'||tag==='a'||tag==='button'||tag==='select'||tag==='input'||tag==='textarea'; }
+  function walk(node, seq){
+    var child=node.firstChild;
+    while(child){
+      var next=child.nextSibling;
+      if(child.nodeType===3){ wrapText(child, seq); }
+      else if(child.nodeType===1){
+        var tag=child.tagName.toLowerCase();
+        if(tag==='br'){ /* giu nguyen */ }
+        else if(isSkipTag(tag)){ /* bo qua hoan toan */ }
+        else if(tag==='span'){
+          if(child.classList.contains('rb-u')){ walk(child, seq); }
+          else{
+            var m=child.textContent.match(/[\p{L}]+/gu)||[];
+            for(var k=0;k<m.length;k++){ var n=norm(m[k]); if(n) seq.push({n:n, el:null}); }
+          }
+        }else{ walk(child, seq); }
+      }
+      child=next;
+    }
+  }
+  function wrapText(tn, seq){
+    var parts=tn.nodeValue.split(/([\p{L}]+)/u);
+    if(parts.length<=1) return;
+    var frag=document.createDocumentFragment();
+    for(var i=0;i<parts.length;i++){
+      var part=parts[i];
+      if(!part) continue;
+      if(i%2===1){
+        var sp=document.createElement('span');
+        sp.className='docto-w';
+        sp.textContent=part;
+        sp.setAttribute('data-i', seq.length);
+        seq.push({n:norm(part), el:sp});
+        frag.appendChild(sp);
+      }else{
+        frag.appendChild(document.createTextNode(part));
+      }
+    }
+    tn.parentNode.replaceChild(frag, tn);
+  }
+  function unwrap(body){
+    var spans=body.querySelectorAll('.docto-w');
+    for(var i=0;i<spans.length;i++){
+      var sp=spans[i];
+      sp.parentNode.replaceChild(document.createTextNode(sp.textContent), sp);
+    }
+  }
+  function buildSeq(st){
+    unwrap(st.body);
+    var seq=[];
+    var paras=st.body.querySelectorAll('p');
+    for(var i=0;i<paras.length;i++){
+      var p=paras[i];
+      if(p.classList.contains('done-seg')||p.classList.contains('gloss')||p.classList.contains('read-note')||p.classList.contains('gap')) continue;
+      walk(p, seq);
+    }
+    st.seq=seq;
+    return seq;
+  }
+  function ensureFresh(st){
+    if(!st.seq.length) return;
+    var sample=null;
+    for(var i=0;i<st.seq.length;i++){ if(st.seq[i].el){ sample=st.seq[i].el; break; } }
+    if(sample && !sample.isConnected){
+      var cur=st.cur;
+      buildSeq(st);
+      for(var j=0;j<cur && j<st.seq.length;j++){ var el=st.seq[j].el; if(el) el.classList.add('docto-done'); }
+      st.cur=Math.min(cur, st.seq.length);
+    }
+  }
+  function showMsg(st, kind){
+    if(!st.msg) return;
+    st.msg.textContent=MSGS[kind]||MSGS['other'];
+    st.msg.classList.toggle('err', kind==='unsupported'||kind==='not-allowed'||kind==='network'||kind==='audio-capture'||kind==='other');
+  }
+  function showHint(st){ if(st.msg){ st.msg.textContent=HINT; st.msg.classList.remove('err'); } }
+  function toIdle(st){
+    st.active=false;
+    if(st.btn){ st.btn.textContent='🎤 Đọc to'; st.btn.classList.remove('active'); }
+    if(!st.complete) showHint(st);
+  }
+  function stopRec(st){
+    st.userStopped=true;
+    if(st.rec){ try{ st.rec.stop(); }catch(e){} }
+    toIdle(st);
+  }
+  function stopAll(){
+    for(var i=0;i<boxes.length;i++){ if(boxes[i].active) stopRec(boxes[i]); }
+  }
+  function finishBlock(st){
+    st.complete=true;
+    stopRec(st);
+    if(st.msg){ st.msg.textContent=MSGS['done']; st.msg.classList.remove('err'); }
+  }
+  function paintUpTo(st, idx){
+    if(idx<st.cur) return false;
+    for(var j=st.cur;j<=idx && j<st.seq.length;j++){
+      var el=st.seq[j].el;
+      if(el) el.classList.add('docto-done');
+    }
+    st.cur=Math.min(idx+1, st.seq.length);
+    saved[st.key]=st.cur; save();
+    if(st.cur>=st.seq.length){ finishBlock(st); }
+    return true;
+  }
+  function feedTranscript(st, text){
+    ensureFresh(st);
+    var words=(text||'').split(/\s+/);
+    for(var i=0;i<words.length;i++){
+      var n=norm(words[i]);
+      if(!n) continue;
+      var end=Math.min(st.cur+WIN, st.seq.length);
+      for(var j=st.cur;j<end;j++){
+        if(st.seq[j].n===n){ paintUpTo(st, j); break; }
+      }
+    }
+  }
+  function startListen(st){
+    try{
+      document.querySelectorAll('.rb-stop').forEach(function(b){ if(!b.hidden) b.click(); });
+    }catch(e){}
+    stopAll();
+    ensureFresh(st);
+    if(st.seq.length && st.cur>=st.seq.length){ st.complete=true; if(st.msg){ st.msg.textContent=MSGS['done']; st.msg.classList.remove('err'); } return; }
+    var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!SR){ showMsg(st,'unsupported'); return; }
+    var rec;
+    try{ rec=new SR(); }catch(e){ showMsg(st,'other'); return; }
+    st.rec=rec; st.userStopped=false; st.fatal=false;
+    rec.lang='vi-VN'; rec.continuous=true; rec.interimResults=true; rec.maxAlternatives=1;
+    rec.onresult=function(e){
+      for(var i=e.resultIndex;i<e.results.length;i++){
+        if(e.results[i].isFinal){ feedTranscript(st, e.results[i][0].transcript); }
+      }
+    };
+    rec.onerror=function(e){
+      var code=e.error||'';
+      if(code==='aborted') return;
+      if(code==='not-allowed'||code==='service-not-allowed'){ st.fatal=true; showMsg(st,'not-allowed'); stopRec(st); }
+      else if(code==='network'){ st.fatal=true; showMsg(st,'network'); stopRec(st); }
+      else if(code==='audio-capture'){ st.fatal=true; showMsg(st,'audio-capture'); stopRec(st); }
+      else if(code==='no-speech'){ showMsg(st,'no-speech'); }
+      else{ showMsg(st,'other'); }
+    };
+    rec.onend=function(){
+      if(st.userStopped||st.fatal||st.complete){ toIdle(st); return; }
+      if(st.cur>=st.seq.length){ finishBlock(st); return; }
+      setTimeout(function(){
+        if(st.userStopped||st.fatal||st.complete) return;
+        try{ rec.start(); }catch(err){ toIdle(st); }
+      }, 150);
+    };
+    try{
+      rec.start();
+      st.active=true;
+      st.btn.textContent='⏹ Dừng đọc'; st.btn.classList.add('active');
+      showMsg(st,'listening');
+    }catch(err){ showMsg(st,'other'); toIdle(st); }
+  }
+  function findBlock(key){
+    for(var i=0;i<boxes.length;i++){ if(boxes[i].key===key) return boxes[i]; }
+    return null;
+  }
+  function makeBlock(box, key){
+    var body=box.querySelector('.read-body');
+    if(!body) return null;
+    var st={key:key, box:box, body:body, seq:[], cur:0, active:false, complete:false, rec:null, userStopped:false, fatal:false, btn:null, msg:null};
+    box._docto=st;
+    var btn=document.createElement('button');
+    btn.type='button'; btn.className='docto-btn'; btn.textContent='🎤 Đọc to';
+    btn.addEventListener('click', function(){ if(st.active) stopRec(st); else startListen(st); });
+    var listenBtn=box.querySelector('.rb-listen');
+    if(listenBtn && listenBtn.parentNode) listenBtn.parentNode.insertBefore(btn, listenBtn.nextSibling);
+    else if(box.querySelector('.rb-btns')) box.querySelector('.rb-btns').appendChild(btn);
+    st.btn=btn;
+    var rb=document.createElement('button');
+    rb.type='button'; rb.className='docto-btn-mini'; rb.textContent='↺ Đọc lại từ đầu';
+    rb.addEventListener('click', function(){
+      stopRec(st);
+      for(var j=0;j<st.seq.length;j++){ if(st.seq[j].el) st.seq[j].el.classList.remove('docto-done'); }
+      st.cur=0; st.complete=false; saved[st.key]=0; save();
+      startListen(st);
+    });
+    if(listenBtn && listenBtn.parentNode) listenBtn.parentNode.insertBefore(rb, btn.nextSibling);
+    var msg=document.createElement('div');
+    msg.className='docto-msg'; msg.textContent=HINT;
+    var head=box.querySelector('.rb-head');
+    if(head && head.parentNode) head.parentNode.insertBefore(msg, head.nextSibling);
+    st.msg=msg;
+    buildSeq(st);
+    var sv=saved[st.key];
+    if(typeof sv==='number' && sv>0){
+      for(var j=0;j<sv && j<st.seq.length;j++){ if(st.seq[j].el) st.seq[j].el.classList.add('docto-done'); }
+      st.cur=Math.min(sv, st.seq.length);
+      if(st.cur>=st.seq.length){ st.complete=true; msg.textContent=MSGS['done']; }
+    }
+    boxes.push(st);
+    return st;
+  }
+  var readboxes=lesson.querySelectorAll('.readbox');
+  for(var i=0;i<readboxes.length;i++){
+    makeBlock(readboxes[i], readboxes[i].id||'batnat');
+  }
+  var lastBox=boxes[boxes.length-1];
+  if(lastBox){
+    var row=document.createElement('div');
+    row.className='docto-reset-row';
+    var gb=document.createElement('button');
+    gb.type='button'; gb.className='docto-btn-mini'; gb.textContent='🧹 Xóa màu đã đọc Bài 1';
+    gb.addEventListener('click', function(){
+      stopAll();
+      for(var i=0;i<boxes.length;i++){
+        var s=boxes[i];
+        for(var j=0;j<s.seq.length;j++){ if(s.seq[j].el) s.seq[j].el.classList.remove('docto-done'); }
+        s.cur=0; s.complete=false; saved[s.key]=0; showHint(s);
+      }
+      save();
+    });
+    row.appendChild(gb);
+    lastBox.box.parentNode.insertBefore(row, lastBox.box.nextSibling);
+  }
+  document.addEventListener('click', function(e){
+    var t=e.target && e.target.closest ? e.target.closest('.docto-w') : null;
+    if(!t) return;
+    var bx=t.closest('.readbox');
+    var s=bx && bx._docto;
+    if(!s) return;
+    var idx=parseInt(t.getAttribute('data-i'), 10);
+    if(isNaN(idx)) return;
+    ensureFresh(s);
+    paintUpTo(s, idx);
+  });
+  document.addEventListener('click', function(e){
+    var t=e.target && e.target.closest ? e.target.closest('.rb-listen,.rb-stop,.rb-toggle') : null;
+    if(!t) return;
+    var bx=t.closest('.readbox');
+    if(bx && bx._docto){
+      if(bx._docto.active) stopRec(bx._docto);
+      if(t.classList.contains('rb-listen')) ensureFresh(bx._docto);
+    }
+  });
+  window.__DOCTO_TEST={
+    keys:function(){ return boxes.map(function(s){ return s.key; }); },
+    counts:function(){ var o={}; boxes.forEach(function(s){ o[s.key]=s.seq.length; }); return o; },
+    feed:function(key, text){ var s=findBlock(key); if(s) feedTranscript(s, text); },
+    cursor:function(key){ var s=findBlock(key); return s? s.cur : -1; },
+    colored:function(key){ var s=findBlock(key); if(!s) return -1; var c=0; s.seq.forEach(function(e){ if(e.el && e.el.classList.contains('docto-done')) c++; }); return c; },
+    tap:function(key, idx){ var s=findBlock(key); if(s){ ensureFresh(s); paintUpTo(s, idx); } },
+    err:function(key, code){ var s=findBlock(key); if(s) showMsg(s, code); },
+    msg:function(key){ var s=findBlock(key); return s && s.msg ? s.msg.textContent : ''; },
+    saved:function(){ try{ return JSON.parse(localStorage.getItem(KEY)||'{}'); }catch(e){ return {}; } },
+    clickMic:function(key){ var s=findBlock(key); if(s && s.btn) s.btn.click(); }
+  };
+})();
+</script>
 </body>
 </html>
