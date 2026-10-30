@@ -1,3174 +1,3174 @@
 [
-  {
-    "id": 1,
-    "question": "Môn Địa lí nghiên cứu chủ yếu về nội dung nào?",
-    "options": [
-      "A. Bề mặt Trái Đất và con người sống trên đó",
-      "B. Các con số và phép tính",
-      "C. Các triều vua thời xưa",
-      "D. Các phản ứng hóa học"
-    ],
-    "answer": 0,
-    "explanation": "Địa lí tìm hiểu bề mặt Trái Đất, thiên nhiên và con người.",
-    "bai": 0
-  },
-  {
-    "id": 2,
-    "question": "Công cụ nào được dùng nhiều nhất khi học Địa lí?",
-    "options": [
-      "A. Cân điện tử",
-      "B. Bản đồ và quả địa cầu",
-      "C. Kính hiển vi",
-      "D. Ống nghiệm"
-    ],
-    "answer": 1,
-    "explanation": "Bản đồ và quả địa cầu là hai công cụ chính của môn Địa lí.",
-    "bai": 0
-  },
-  {
-    "id": 3,
-    "question": "Nhìn từ vũ trụ, Trái Đất có màu chủ đạo là màu gì?",
-    "options": [
-      "A. Vàng",
-      "B. Tím",
-      "C. Xanh dương",
-      "D. Đỏ"
-    ],
-    "answer": 2,
-    "explanation": "Đại dương chiếm khoảng 3/4 bề mặt nên Trái Đất trông xanh dương.",
-    "bai": 0
-  },
-  {
-    "id": 4,
-    "question": "Học Địa lí giúp em hiểu được điều nào sau đây?",
-    "options": [
-      "A. Cách nấu ăn ngon hơn",
-      "B. Cách đá bóng giỏi hơn",
-      "C. Cách gấp máy bay giấy",
-      "D. Vì sao có mùa mưa và mùa khô"
-    ],
-    "answer": 3,
-    "explanation": "Địa lí giải thích các hiện tượng thiên nhiên quanh ta như mùa mưa, mùa khô.",
-    "bai": 0
-  },
-  {
-    "id": 5,
-    "question": "Khi muốn biết một địa điểm nằm ở đâu, em dùng công cụ nào?",
-    "options": [
-      "A. Bản đồ",
-      "B. Nhiệt kế",
-      "C. Thước kẻ",
-      "D. Cái cân"
-    ],
-    "answer": 0,
-    "explanation": "Bản đồ cho biết vị trí của các địa điểm.",
-    "bai": 0
-  },
-  {
-    "id": 6,
-    "question": "Việc nào sau đây có dùng hiểu biết địa lí trong đời sống?",
-    "options": [
-      "A. Đọc truyện tranh",
-      "B. Xem dự báo thời tiết trước khi đi học",
-      "C. Nghe nhạc trước khi ngủ",
-      "D. Tập thể dục buổi sáng"
-    ],
-    "answer": 1,
-    "explanation": "Dự báo thời tiết là một ứng dụng quen thuộc của địa lí.",
-    "bai": 0
-  },
-  {
-    "id": 7,
-    "question": "Ba câu hỏi cốt lõi khi tìm hiểu một vấn đề địa lí là gì?",
-    "options": [
-      "A. Bao nhiêu tiền? Mua ở đâu? Có giảm giá không?",
-      "B. Sáng hay chiều? Nắng hay mưa?",
-      "C. Ở đâu? Như thế nào? Vì sao?",
-      "D. Ai? Khi nào? Ở trường nào?"
-    ],
-    "answer": 2,
-    "explanation": "Địa lí luôn hỏi: ở đâu, như thế nào và vì sao.",
-    "bai": 0
-  },
-  {
-    "id": 8,
-    "question": "Kinh tuyến là những đường:",
-    "options": [
-      "A. Song song với Xích đạo",
-      "B. Bao quanh Mặt Trời",
-      "C. Nối các thủ đô với nhau",
-      "D. Nối hai cực Bắc – Nam"
-    ],
-    "answer": 3,
-    "explanation": "Kinh tuyến là các đường dọc nối cực Bắc và cực Nam.",
-    "bai": 1
-  },
-  {
-    "id": 9,
-    "question": "Vĩ tuyến gốc (0°) có tên gọi là gì?",
-    "options": [
-      "A. Xích đạo",
-      "B. Chí tuyến Bắc",
-      "C. Vòng cực Nam",
-      "D. Kinh tuyến gốc"
-    ],
-    "answer": 0,
-    "explanation": "Vĩ tuyến gốc chính là Xích đạo.",
-    "bai": 1
-  },
-  {
-    "id": 10,
-    "question": "Kinh tuyến gốc 0° đi qua địa điểm nào?",
-    "options": [
-      "A. Vạn Lí Trường Thành (Trung Quốc)",
-      "B. Đài thiên văn Gờ-rin-uýt (Luân Đôn)",
-      "C. Tháp Eiffel (Pa-ri)",
-      "D. Kim tự tháp (Ai Cập)"
-    ],
-    "answer": 1,
-    "explanation": "Kinh tuyến gốc đi qua Gờ-rin-uýt ở Luân Đôn, nước Anh.",
-    "bai": 1
-  },
-  {
-    "id": 11,
-    "question": "Việt Nam nằm ở bán cầu nào theo cách chia bằng Xích đạo và kinh tuyến gốc?",
-    "options": [
-      "A. Bán cầu Bắc và bán cầu Tây",
-      "B. Bán cầu Nam và bán cầu Tây",
-      "C. Bán cầu Bắc và bán cầu Đông",
-      "D. Bán cầu Nam và bán cầu Đông"
-    ],
-    "answer": 2,
-    "explanation": "Việt Nam nằm phía bắc Xích đạo và phía đông kinh tuyến gốc.",
-    "bai": 1
-  },
-  {
-    "id": 12,
-    "question": "Tọa độ địa lí của một điểm bao gồm:",
-    "options": [
-      "A. Độ cao và độ sâu",
-      "B. Nhiệt độ và lượng mưa",
-      "C. Diện tích và dân số",
-      "D. Kinh độ và vĩ độ"
-    ],
-    "answer": 3,
-    "explanation": "Tọa độ địa lí = kinh độ + vĩ độ.",
-    "bai": 1
-  },
-  {
-    "id": 13,
-    "question": "Vĩ tuyến dài nhất trên Trái Đất là:",
-    "options": [
-      "A. Xích đạo",
-      "B. Chí tuyến Nam",
-      "C. Vòng cực Bắc",
-      "D. Vĩ tuyến 60°"
-    ],
-    "answer": 0,
-    "explanation": "Xích đạo là vĩ tuyến dài nhất.",
-    "bai": 1
-  },
-  {
-    "id": 14,
-    "question": "Điểm nằm trên Xích đạo có vĩ độ bằng bao nhiêu?",
-    "options": [
-      "A. 23,5°",
-      "B. 0°",
-      "C. 90°",
-      "D. 180°"
-    ],
-    "answer": 1,
-    "explanation": "Mọi điểm trên Xích đạo đều có vĩ độ 0°.",
-    "bai": 1
-  },
-  {
-    "question": "Hệ thống kinh tuyến và vĩ tuyến trên quả Địa Cầu có vai trò gì?",
-    "options": [
-      "A. Thể hiện đặc điểm các đối tượng địa lí trên bản đồ",
-      "B. Thể hiện số lượng các đối tượng địa lí trên bản đồ",
-      "C. Xác định được vị trí của mọi điểm trên bản đồ",
-      "D. Xác định mối liên hệ giữa các địa điểm trên bản đồ"
-    ],
-    "answer": 2,
-    "explanation": "Kinh tuyến và vĩ tuyến tạo thành lưới giúp xác định vị trí của mọi điểm trên bản đồ và quả Địa Cầu.",
-    "id": 15,
-    "bai": 1
-  },
-  {
-    "id": 16,
-    "question": "Theo quy ước, trên bản đồ phía trên là hướng nào?",
-    "options": [
-      "A. Đông",
-      "B. Tây",
-      "C. Bắc",
-      "D. Nam"
-    ],
-    "answer": 2,
-    "explanation": "Quy ước: trên = Bắc, dưới = Nam, phải = Đông, trái = Tây.",
-    "bai": 2
-  },
-  {
-    "id": 17,
-    "question": "Trên bản đồ có tất cả bao nhiêu hướng chính?",
-    "options": [
-      "A. 4 hướng",
-      "B. 6 hướng",
-      "C. 12 hướng",
-      "D. 8 hướng"
-    ],
-    "answer": 3,
-    "explanation": "Có 4 hướng chính và 4 hướng phụ, tổng cộng 8 hướng.",
-    "bai": 2
-  },
-  {
-    "id": 18,
-    "question": "Hướng nằm giữa hướng Nam và hướng Tây là hướng:",
-    "options": [
-      "A. Tây Nam",
-      "B. Đông Nam",
-      "C. Tây Bắc",
-      "D. Đông Bắc"
-    ],
-    "answer": 0,
-    "explanation": "Giữa Nam và Tây là hướng Tây Nam.",
-    "bai": 2
-  },
-  {
-    "id": 19,
-    "question": "Bản đồ là:",
-    "options": [
-      "A. Sơ đồ một ngôi nhà",
-      "B. Hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng",
-      "C. Ảnh chụp Trái Đất từ vệ tinh",
-      "D. Mô hình quả địa cầu"
-    ],
-    "answer": 1,
-    "explanation": "Bản đồ là hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng theo tỉ lệ.",
-    "bai": 2
-  },
-  {
-    "id": 20,
-    "question": "Trên bản đồ Việt Nam, biển Đông nằm ở phía nào của đất nước?",
-    "options": [
-      "A. Phía Bắc",
-      "B. Phía Nam",
-      "C. Phía Đông",
-      "D. Phía Tây"
-    ],
-    "answer": 2,
-    "explanation": "Biển Đông nằm ở phía Đông Việt Nam.",
-    "bai": 2
-  },
-  {
-    "question": "Trên bản đồ châu Á, nước ta nằm về hướng nào của châu Á?",
-    "options": [
-      "A. Đông Nam",
-      "B. Tây Nam",
-      "C. Đông Bắc",
-      "D. Tây Bắc"
-    ],
-    "answer": 0,
-    "explanation": "Nhìn trên bản đồ châu Á, Việt Nam nằm ở phía Đông Nam của châu lục này.",
-    "id": 21,
-    "bai": 2
-  },
-  {
-    "id": 22,
-    "question": "Nếu đứng quay mặt về hướng Bắc thì tay phải của em chỉ hướng nào?",
-    "options": [
-      "A. Tây",
-      "B. Nam",
-      "C. Đông Nam",
-      "D. Đông"
-    ],
-    "answer": 3,
-    "explanation": "Quay mặt về hướng Bắc: tay phải là Đông, tay trái là Tây, sau lưng là Nam.",
-    "bai": 2
-  },
-  {
-    "id": 23,
-    "question": "Vì sao lưới kinh, vĩ tuyến ở các bản đồ thế giới trông không giống nhau?",
-    "options": [
-      "A. Do cách chiếu bản đồ khác nhau",
-      "B. Do người vẽ tùy ý",
-      "C. Do Trái Đất thay đổi hình dạng",
-      "D. Do bản đồ bị in lỗi"
-    ],
-    "answer": 0,
-    "explanation": "Mỗi phép chiếu trải phẳng bề mặt cong theo cách riêng nên lưới kinh vĩ có hình dạng khác nhau.",
-    "bai": 2
-  },
-  {
-    "id": 24,
-    "question": "Bản đồ có tỉ lệ 1 : 1 000 000, khoảng cách đo được là 5 cm. Khoảng cách thực tế là:",
-    "options": [
-      "A. 0,5 km",
-      "B. 50 km",
-      "C. 5 km",
-      "D. 500 km"
-    ],
-    "answer": 1,
-    "explanation": "5 × 1 000 000 = 5 000 000 cm = 50 km.",
-    "bai": 3
-  },
-  {
-    "id": 25,
-    "question": "Tỉ lệ bản đồ cho biết:",
-    "options": [
-      "A. Số dân của một vùng",
-      "B. Hướng gió trên bản đồ",
-      "C. Mức độ thu nhỏ của bản đồ so với thực tế",
-      "D. Độ cao của núi trên bản đồ"
-    ],
-    "answer": 2,
-    "explanation": "Tỉ lệ bản đồ cho biết bản đồ thu nhỏ bao nhiêu lần so với thực tế.",
-    "bai": 3
-  },
-  {
-    "question": "Mức độ thể hiện các đối tượng địa lí trên bản đồ phụ thuộc vào yếu tố nào?",
-    "options": [
-      "A. Tỉ lệ bản đồ",
-      "B. Kí hiệu bản đồ",
-      "C. Phép chiếu đồ",
-      "D. Mạng lưới kinh, vĩ tuyến"
-    ],
-    "answer": 0,
-    "explanation": "Tỉ lệ bản đồ càng lớn thì các đối tượng địa lí được thể hiện càng nhiều và càng chi tiết; tỉ lệ càng nhỏ thì thể hiện càng ít.",
-    "id": 26,
-    "bai": 3
-  },
-  {
-    "id": 27,
-    "question": "Bản đồ tỉ lệ 1 : 200 000, đo được 4 cm. Khoảng cách thực tế là:",
-    "options": [
-      "A. 4 km",
-      "B. 80 km",
-      "C. 2 km",
-      "D. 8 km"
-    ],
-    "answer": 3,
-    "explanation": "4 × 200 000 = 800 000 cm = 8 km.",
-    "bai": 3
-  },
-  {
-    "id": 28,
-    "question": "Tỉ lệ thước là dạng tỉ lệ được thể hiện dưới dạng:",
-    "options": [
-      "A. Một thước đo có chia vạch sẵn trên bản đồ",
-      "B. Một phân số",
-      "C. Một con số phần trăm",
-      "D. Một bảng chữ cái"
-    ],
-    "answer": 0,
-    "explanation": "Tỉ lệ thước vẽ như một cây thước để đo trực tiếp trên bản đồ.",
-    "bai": 3
-  },
-  {
-    "id": 29,
-    "question": "Trong hai bản đồ 1 : 50 000 và 1 : 500 000, bản đồ nào chi tiết hơn?",
-    "options": [
-      "A. Không so sánh được",
-      "B. 1 : 50 000",
-      "C. 1 : 500 000",
-      "D. Hai bản đồ như nhau"
-    ],
-    "answer": 1,
-    "explanation": "Mẫu số càng nhỏ thì tỉ lệ càng lớn, bản đồ càng chi tiết.",
-    "bai": 3
-  },
-  {
-    "id": 30,
-    "question": "Muốn tính khoảng cách thực tế, bước đầu tiên em cần làm gì?",
-    "options": [
-      "A. Đếm số kí hiệu trên bản đồ",
-      "B. Xem bảng chú giải",
-      "C. Đo khoảng cách giữa hai điểm trên bản đồ",
-      "D. Đo chiều dài tờ bản đồ"
-    ],
-    "answer": 2,
-    "explanation": "Trước hết đo khoảng cách trên bản đồ, rồi nhân với mẫu số tỉ lệ.",
-    "bai": 3
-  },
-  {
-    "id": 31,
-    "question": "1 cm trên bản đồ tỉ lệ 1 : 250 000 ứng với bao nhiêu km thực tế?",
-    "options": [
-      "A. 25 km",
-      "B. 250 m",
-      "C. 0,25 km",
-      "D. 2,5 km"
-    ],
-    "answer": 3,
-    "explanation": "250 000 cm = 2,5 km.",
-    "bai": 3
-  },
-  {
-    "question": "Khoảng cách đường bộ từ Hà Nội đến TP. Vinh (Nghệ An) khoảng 300 km. Trên một bản đồ, khoảng cách đó đo được 5 cm. Hỏi tỉ lệ của bản đồ là bao nhiêu?",
-    "options": [
-      "A. 1 : 600 000",
-      "B. 1 : 6 000 000",
-      "C. 1 : 5 000 000",
-      "D. 1 : 300 000"
-    ],
-    "answer": 1,
-    "explanation": "Đường bộ Hà Nội – TP. Vinh dài khoảng 300 km (thực tế khoảng 299–304 km theo quốc lộ 1). Đổi 300 km = 30 000 000 cm; 30 000 000 : 5 = 6 000 000. Vậy tỉ lệ bản đồ là 1 : 6 000 000.",
-    "id": 32,
-    "bai": 3
-  },
-  {
-    "id": 33,
-    "question": "Kí hiệu bản đồ được chia thành mấy loại chính?",
-    "options": [
-      "A. 3 loại: điểm, đường, diện",
-      "B. 2 loại: to và nhỏ",
-      "C. 4 loại: tròn, vuông, tam giác, sao",
-      "D. 5 loại theo màu sắc"
-    ],
-    "answer": 0,
-    "explanation": "Có 3 loại kí hiệu: điểm, đường và diện.",
-    "bai": 4
-  },
-  {
-    "question": "Đâu KHÔNG phải là loại kí hiệu thường được sử dụng trên bản đồ?",
-    "options": [
-      "A. Kí hiệu điểm",
-      "B. Kí hiệu âm thanh",
-      "C. Kí hiệu đường",
-      "D. Kí hiệu diện tích"
-    ],
-    "answer": 1,
-    "explanation": "Bản đồ thường dùng 3 loại kí hiệu: điểm, đường và diện tích. 'Kí hiệu âm thanh' không phải là một loại kí hiệu bản đồ.",
-    "id": 34,
-    "bai": 4
-  },
-  {
-    "id": 35,
-    "question": "Con sông trên bản đồ được thể hiện bằng loại kí hiệu nào?",
-    "options": [
-      "A. Không có kí hiệu",
-      "B. Kí hiệu đường",
-      "C. Kí hiệu điểm",
-      "D. Kí hiệu diện"
-    ],
-    "answer": 1,
-    "explanation": "Sông kéo dài thành đường nên thuộc kí hiệu đường.",
-    "bai": 4
-  },
-  {
-    "id": 36,
-    "question": "Bảng chú giải trên bản đồ có tác dụng gì?",
-    "options": [
-      "A. Ghi tên tác giả bản đồ",
-      "B. Cho biết giá bán bản đồ",
-      "C. Giải thích ý nghĩa các kí hiệu",
-      "D. Trang trí cho bản đồ đẹp hơn"
-    ],
-    "answer": 2,
-    "explanation": "Bảng chú giải là “từ điển” giải thích các kí hiệu.",
-    "bai": 4
-  },
-  {
-    "id": 37,
-    "question": "Một thành phố trên bản đồ thế giới thường được kí hiệu bằng:",
-    "options": [
-      "A. Một mảng màu lớn",
-      "B. Một đường dài",
-      "C. Một hình tam giác",
-      "D. Một chấm tròn nhỏ"
-    ],
-    "answer": 3,
-    "explanation": "Thành phố là đối tượng dạng điểm nên dùng kí hiệu điểm.",
-    "bai": 4
-  },
-  {
-    "id": 38,
-    "question": "Khi đọc một bản đồ lạ, việc đầu tiên em nên làm là:",
-    "options": [
-      "A. Đọc bảng chú giải",
-      "B. Tô màu bản đồ",
-      "C. Đo kích thước tờ bản đồ",
-      "D. Gấp bản đồ lại"
-    ],
-    "answer": 0,
-    "explanation": "Đọc chú giải trước để hiểu các kí hiệu, rồi mới đọc bản đồ.",
-    "bai": 4
-  },
-  {
-    "id": 39,
-    "question": "Khu rừng trên bản đồ thường được thể hiện bằng:",
-    "options": [
-      "A. Chữ viết hoa",
-      "B. Mảng màu xanh lá",
-      "C. Một chấm đen",
-      "D. Một đường đỏ"
-    ],
-    "answer": 1,
-    "explanation": "Rừng chiếm diện tích nên dùng kí hiệu diện — mảng màu.",
-    "bai": 4
-  },
-  {
-    "id": 40,
-    "question": "Để tìm đường đi trên bản đồ, em cần xác định trước nhất điều gì?",
-    "options": [
-      "A. Năm xuất bản bản đồ",
-      "B. Màu sắc của bản đồ",
-      "C. Điểm bắt đầu và điểm đến",
-      "D. Tên người vẽ bản đồ"
-    ],
-    "answer": 2,
-    "explanation": "Biết điểm đi và điểm đến thì mới lần theo đường và hướng được.",
-    "bai": 4
-  },
-  {
-    "id": 41,
-    "question": "Lược đồ trí nhớ là:",
-    "options": [
-      "A. Bản đồ in màu khổ lớn",
-      "B. Ảnh chụp từ vệ tinh",
-      "C. Mô hình 3D của Trái Đất",
-      "D. Hình vẽ đơn giản từ trí nhớ về một khu vực quen thuộc"
-    ],
-    "answer": 3,
-    "explanation": "Lược đồ trí nhớ do em tự phác họa từ trí nhớ.",
-    "bai": 5
-  },
-  {
-    "id": 42,
-    "question": "Đặc điểm nào đúng với lược đồ trí nhớ?",
-    "options": [
-      "A. Không cần đúng tỉ lệ tuyệt đối",
-      "B. Phải đo đạc chính xác từng mét",
-      "C. Phải có bảng chú giải dài",
-      "D. Phải vẽ bằng máy tính"
-    ],
-    "answer": 0,
-    "explanation": "Chỉ cần đúng vị trí tương đối và phương hướng.",
-    "bai": 5
-  },
-  {
-    "id": 43,
-    "question": "Khi vẽ lược đồ trí nhớ, em nên bắt đầu từ:",
-    "options": [
-      "A. Vẽ càng nhiều chi tiết càng tốt",
-      "B. Điểm mốc chính quen thuộc nhất",
-      "C. Vẽ khung giấy trước",
-      "D. Tô màu thật đẹp"
-    ],
-    "answer": 1,
-    "explanation": "Chọn điểm mốc chính rồi phát triển các đối tượng xung quanh.",
-    "bai": 5
-  },
-  {
-    "id": 44,
-    "question": "Ở góc của lược đồ trí nhớ nên có:",
-    "options": [
-      "A. Ngày tháng năm sinh",
-      "B. Một bài thơ",
-      "C. Mũi tên chỉ hướng Bắc",
-      "D. Tên tác giả thật to"
-    ],
-    "answer": 2,
-    "explanation": "Mũi tên Bắc giúp định hướng cho người xem lược đồ.",
-    "bai": 5
-  },
-  {
-    "id": 45,
-    "question": "Đối tượng nào phù hợp để vẽ lược đồ trí nhớ?",
-    "options": [
-      "A. Cả châu Á",
-      "B. Đáy đại dương",
-      "C. Mặt Trăng",
-      "D. Đường từ nhà đến trường"
-    ],
-    "answer": 3,
-    "explanation": "Lược đồ trí nhớ dùng cho những nơi quen thuộc, gần gũi.",
-    "bai": 5
-  },
-  {
-    "id": 46,
-    "question": "Lược đồ trí nhớ giúp ích nhất cho việc gì?",
-    "options": [
-      "A. Ghi nhớ và tìm đường trong không gian quen thuộc",
-      "B. Dự báo thời tiết",
-      "C. Tính giờ quốc tế",
-      "D. Đo độ sâu biển"
-    ],
-    "answer": 0,
-    "explanation": "Nó giúp ta hình dung và nhớ đường đi, vị trí các nơi quen thuộc.",
-    "bai": 5
-  },
-  {
-    "id": 47,
-    "question": "Nếu lược đồ của em vẽ trường ở phía đông của chợ, ngoài thực tế trường phải:",
-    "options": [
-      "A. Ở đâu cũng được",
-      "B. Nằm ở phía đông của chợ thật",
-      "C. Nằm ở phía tây của chợ",
-      "D. Nằm chồng lên chợ"
-    ],
-    "answer": 1,
-    "explanation": "Vị trí tương đối trên lược đồ phải khớp với thực tế.",
-    "bai": 5
-  },
-  {
-    "id": 48,
-    "question": "Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?",
-    "options": [
-      "A. Thứ 4",
-      "B. Thứ 5",
-      "C. Thứ 3",
-      "D. Thứ 2"
-    ],
-    "answer": 2,
-    "explanation": "Thứ tự: Thủy – Kim – Trái Đất, nên Trái Đất đứng thứ 3.",
-    "bai": 6
-  },
-  {
-    "id": 49,
-    "question": "Hành tinh nào gần Mặt Trời nhất?",
-    "options": [
-      "A. Sao Kim",
-      "B. Sao Hỏa",
-      "C. Trái Đất",
-      "D. Sao Thủy"
-    ],
-    "answer": 3,
-    "explanation": "Sao Thủy ở gần Mặt Trời nhất.",
-    "bai": 6
-  },
-  {
-    "question": "Hành tinh nào đứng thứ nhất tính từ Mặt Trời và có kích thước nhỏ nhất trong hệ Mặt Trời?",
-    "options": [
-      "A. Sao Kim",
-      "B. Sao Hỏa",
-      "C. Trái Đất",
-      "D. Sao Thủy"
-    ],
-    "answer": 3,
-    "explanation": "Thứ tự từ Mặt Trời ra: Sao Thủy – Sao Kim – Trái Đất – Sao Hỏa – Sao Mộc – Sao Thổ – Sao Thiên Vương – Sao Hải Vương. Sao Thủy đứng thứ nhất (gần Mặt Trời nhất) và cũng là hành tinh nhỏ nhất.",
-    "id": 50,
-    "bai": 6
-  },
-  {
-    "id": 51,
-    "question": "Trái Đất có hình dạng như thế nào?",
-    "options": [
-      "A. Hình cầu",
-      "B. Hình vuông",
-      "C. Hình tam giác",
-      "D. Hình đĩa phẳng"
-    ],
-    "answer": 0,
-    "explanation": "Trái Đất có hình cầu, hơi dẹt ở hai cực.",
-    "bai": 6
-  },
-  {
-    "id": 52,
-    "question": "Đường kính của Trái Đất khoảng bao nhiêu?",
-    "options": [
-      "A. 642 km",
-      "B. 12 742 km",
-      "C. 1 274 km",
-      "D. 127 420 km"
-    ],
-    "answer": 1,
-    "explanation": "Đường kính Trái Đất khoảng 12 742 km.",
-    "bai": 6
-  },
-  {
-    "id": 53,
-    "question": "Nhật thực xảy ra khi:",
-    "options": [
-      "A. Mặt Trời nằm giữa Trái Đất và Mặt Trăng",
-      "B. Mặt Trăng ở phía sau Trái Đất",
-      "C. Mặt Trăng nằm giữa Mặt Trời và Trái Đất",
-      "D. Trái Đất nằm giữa Mặt Trời và Mặt Trăng"
-    ],
-    "answer": 2,
-    "explanation": "Mặt Trăng che Mặt Trời khi nó nằm ở giữa.",
-    "bai": 6
-  },
-  {
-    "id": 54,
-    "question": "Nguyệt thực xảy ra khi:",
-    "options": [
-      "A. Mặt Trăng nằm giữa Mặt Trời và Trái Đất",
-      "B. Mặt Trăng quay lưng lại Trái Đất",
-      "C. Trời nhiều mây",
-      "D. Trái Đất nằm giữa Mặt Trời và Mặt Trăng"
-    ],
-    "answer": 3,
-    "explanation": "Bóng Trái Đất che Mặt Trăng nên xảy ra nguyệt thực.",
-    "bai": 6
-  },
-  {
-    "id": 55,
-    "question": "Vì sao Trái Đất có sự sống mà các hành tinh khác (được biết) thì không?",
-    "options": [
-      "A. Vì có nước lỏng, khí quyển và khoảng cách vừa phải tới Mặt Trời",
-      "B. Vì Trái Đất to nhất",
-      "C. Vì Trái Đất quay nhanh nhất",
-      "D. Vì Trái Đất gần Mặt Trăng nhất"
-    ],
-    "answer": 0,
-    "explanation": "Ba điều kiện: khoảng cách vừa phải, nước lỏng và khí quyển.",
-    "bai": 6
-  },
-  {
-    "id": 56,
-    "question": "Trái Đất tự quay quanh trục theo hướng nào?",
-    "options": [
-      "A. Từ Nam lên Bắc",
-      "B. Từ Tây sang Đông",
-      "C. Từ Đông sang Tây",
-      "D. Từ Bắc xuống Nam"
-    ],
-    "answer": 1,
-    "explanation": "Trái Đất quay từ Tây sang Đông nên ta thấy Mặt Trời mọc ở phía Đông.",
-    "bai": 7
-  },
-  {
-    "id": 57,
-    "question": "Trái Đất tự quay một vòng quanh trục trong thời gian bao lâu?",
-    "options": [
-      "A. 30 ngày",
-      "B. 365 ngày",
-      "C. 24 giờ",
-      "D. 7 ngày"
-    ],
-    "answer": 2,
-    "explanation": "Một vòng tự quay = 24 giờ, là một ngày đêm.",
-    "bai": 7
-  },
-  {
-    "id": 58,
-    "question": "Hiện tượng ngày và đêm luân phiên là hệ quả của:",
-    "options": [
-      "A. Sự quay của Mặt Trăng",
-      "B. Gió thổi mạnh",
-      "C. Mây che Mặt Trời",
-      "D. Sự tự quay của Trái Đất"
-    ],
-    "answer": 3,
-    "explanation": "Nửa sáng – nửa tối đổi chỗ liên tục do Trái Đất tự quay.",
-    "bai": 7
-  },
-  {
-    "question": "Vì sao bề mặt Trái Đất luôn có một nửa được Mặt Trời chiếu sáng (là ngày) và một nửa không được chiếu sáng (là đêm)?",
-    "options": [
-      "A. Vì Trái Đất tự quay quanh trục",
-      "B. Vì trục Trái Đất nghiêng",
-      "C. Vì Trái Đất có dạng hình cầu",
-      "D. Vì Trái Đất chuyển động quanh Mặt Trời"
-    ],
-    "answer": 2,
-    "explanation": "Vì Trái Đất có dạng hình cầu nên ánh sáng Mặt Trời chỉ chiếu được một nửa bề mặt: nửa được chiếu sáng là ngày, nửa còn lại khuất trong tối là đêm.",
-    "id": 59,
-    "bai": 7
-  },
-  {
-    "id": 60,
-    "question": "Việt Nam thuộc múi giờ thứ mấy?",
-    "options": [
-      "A. +7",
-      "B. +0",
-      "C. +12",
-      "D. −5"
-    ],
-    "answer": 0,
-    "explanation": "Việt Nam ở múi giờ +7 (GMT+7).",
-    "bai": 7
-  },
-  {
-    "id": 61,
-    "question": "Nơi ở càng về phía Đông thì giờ địa phương sẽ:",
-    "options": [
-      "A. Không liên quan đến hướng",
-      "B. Sớm hơn phía Tây",
-      "C. Muộn hơn phía Tây",
-      "D. Giống hệt phía Tây"
-    ],
-    "answer": 1,
-    "explanation": "Phía Đông đón Mặt Trời sớm hơn nên giờ sớm hơn.",
-    "bai": 7
-  },
-  {
-    "question": "Vì sao giờ ở khu vực phía Đông bao giờ cũng sớm hơn giờ ở khu vực phía Tây?",
-    "options": [
-      "A. Vì Trái Đất quay từ Đông sang Tây",
-      "B. Vì trục Trái Đất nghiêng một góc 66°33'",
-      "C. Vì Trái Đất có dạng hình cầu",
-      "D. Vì Trái Đất tự quay từ Tây sang Đông"
-    ],
-    "answer": 3,
-    "explanation": "Trái Đất tự quay từ Tây sang Đông nên các nơi ở phía Đông lần lượt được Mặt Trời chiếu sáng sớm hơn, vì vậy giờ ở phía Đông sớm hơn phía Tây.",
-    "id": 62,
-    "bai": 7
-  },
-  {
-    "id": 63,
-    "question": "Ở bán cầu Bắc, vật chuyển động theo chiều kinh tuyến bị lệch về phía nào?",
-    "options": [
-      "A. Đi thẳng",
-      "B. Đi giật lùi",
-      "C. Bên phải",
-      "D. Bên trái"
-    ],
-    "answer": 2,
-    "explanation": "Bán cầu Bắc lệch phải, bán cầu Nam lệch trái (lực Cô-ri-ô-lít).",
-    "bai": 7
-  },
-  {
-    "id": 64,
-    "question": "Ta thấy Mặt Trời “mọc” ở hướng Đông vì:",
-    "options": [
-      "A. Mặt Trời quay quanh Trái Đất",
-      "B. Mặt Trăng đẩy Mặt Trời",
-      "C. Gió thổi từ phía Đông",
-      "D. Trái Đất tự quay từ Tây sang Đông"
-    ],
-    "answer": 3,
-    "explanation": "Đó là chuyển động biểu kiến do Trái Đất tự quay Tây → Đông.",
-    "bai": 7
-  },
-  {
-    "question": "Trong các hệ quả của chuyển động tự quay quanh trục của Trái Đất, hệ quả nào có ý nghĩa nhất đối với sự sống?",
-    "options": [
-      "A. Sự luân phiên ngày đêm",
-      "B. Giờ trên Trái Đất",
-      "C. Sự lệch hướng chuyển động của các vật thể",
-      "D. Hiện tượng mùa trong năm"
-    ],
-    "answer": 0,
-    "explanation": "Nhờ ngày và đêm luân phiên, nhiệt độ trên Trái Đất không quá nóng hay quá lạnh, con người có thời gian làm việc và nghỉ ngơi đều đặn — rất cần cho sự sống.",
-    "id": 65,
-    "bai": 7
-  },
-  {
-    "id": 66,
-    "question": "Trái Đất chuyển động quanh Mặt Trời một vòng trong thời gian bao lâu?",
-    "options": [
-      "A. 365 ngày 6 giờ",
-      "B. 24 giờ",
-      "C. 30 ngày",
-      "D. 12 giờ"
-    ],
-    "answer": 0,
-    "explanation": "Một vòng quanh Mặt Trời = một năm = 365 ngày 6 giờ.",
-    "bai": 8
-  },
-  {
-    "id": 67,
-    "question": "Nguyên nhân chính sinh ra hiện tượng các mùa là:",
-    "options": [
-      "A. Gió mùa thổi theo năm",
-      "B. Trục Trái Đất luôn nghiêng và hướng về một phía khi chuyển động quanh Mặt Trời",
-      "C. Trái Đất lúc gần lúc xa Mặt Trời",
-      "D. Mặt Trăng che Mặt Trời theo mùa"
-    ],
-    "answer": 1,
-    "explanation": "Nhờ trục nghiêng không đổi hướng, hai bán cầu thay nhau ngả về phía Mặt Trời.",
-    "bai": 8
-  },
-  {
-    "id": 68,
-    "question": "Vào ngày Hạ chí (22/6), bán cầu Bắc đang là mùa:",
-    "options": [
-      "A. Mùa thu",
-      "B. Mùa mưa",
-      "C. Mùa hạ (mùa hè)",
-      "D. Mùa đông"
-    ],
-    "answer": 2,
-    "explanation": "22/6 bán cầu Bắc ngả về phía Mặt Trời nên vào mùa hạ.",
-    "bai": 8
-  },
-  {
-    "id": 69,
-    "question": "Vào ngày Đông chí (22/12), ở bán cầu Bắc:",
-    "options": [
-      "A. Ngày dài hơn đêm",
-      "B. Ngày bằng đêm",
-      "C. Không có ban đêm",
-      "D. Đêm dài hơn ngày"
-    ],
-    "answer": 3,
-    "explanation": "Đông chí: bán cầu Bắc ngả ra xa Mặt Trời, đêm dài nhất trong năm.",
-    "bai": 8
-  },
-  {
-    "id": 70,
-    "question": "Vào ngày Xuân phân và Thu phân, khắp nơi trên Trái Đất có đặc điểm gì?",
-    "options": [
-      "A. Ngày dài bằng đêm",
-      "B. Ngày dài nhất trong năm",
-      "C. Đêm dài nhất trong năm",
-      "D. Không có ánh nắng"
-    ],
-    "answer": 0,
-    "explanation": "Hai ngày phân, hai bán cầu được chiếu sáng như nhau.",
-    "bai": 8
-  },
-  {
-    "id": 71,
-    "question": "Khi bán cầu Bắc là mùa đông thì bán cầu Nam là mùa:",
-    "options": [
-      "A. Cũng lạnh như nhau",
-      "B. Mùa hè",
-      "C. Mùa đông",
-      "D. Mùa thu"
-    ],
-    "answer": 1,
-    "explanation": "Hai bán cầu luôn có mùa ngược nhau.",
-    "bai": 8
-  },
-  {
-    "question": "Mùa nóng và mùa lạnh ở nước ta trái ngược hoàn toàn với quốc gia nào sau đây?",
-    "options": [
-      "A. Nhật Bản",
-      "B. Ấn Độ",
-      "C. Ô-xtrây-li-a",
-      "D. Mê-hi-cô"
-    ],
-    "answer": 2,
-    "explanation": "Ô-xtrây-li-a nằm ở bán cầu Nam nên mùa ở đó ngược hẳn với Việt Nam ở bán cầu Bắc: nước ta mùa nóng thì ở đó là mùa lạnh.",
-    "id": 72,
-    "bai": 8
-  },
-  {
-    "question": "“Đêm tháng năm chưa nằm đã sáng / Ngày tháng mười chưa cười đã tối.” Câu ca dao này chỉ đúng với nơi ở:",
-    "options": [
-      "A. Nam bán cầu",
-      "B. Bắc bán cầu",
-      "C. Cả hai bán cầu",
-      "D. Vùng gần Xích đạo"
-    ],
-    "answer": 1,
-    "explanation": "Vào tháng năm, bán cầu Bắc ngả về phía Mặt Trời nên ngày dài, đêm ngắn ('chưa nằm đã sáng'); vào tháng mười thì ngày ngắn, đêm dài ('chưa cười đã tối'). Hiện tượng này đúng ở bán cầu Bắc, nơi có Việt Nam.",
-    "id": 73,
-    "bai": 8
-  },
-  {
-    "id": 74,
-    "question": "Phần 6 giờ thừa mỗi năm sau 4 năm sẽ thành:",
-    "options": [
-      "A. Một tuần lễ",
-      "B. Không có gì thay đổi",
-      "C. Một ngày nhuận 29/2",
-      "D. Một tháng nhuận"
-    ],
-    "answer": 2,
-    "explanation": "4 × 6 giờ = 24 giờ = 1 ngày, thêm vào tháng 2 của năm nhuận.",
-    "bai": 8
-  },
-  {
-    "id": 75,
-    "question": "Kim la bàn luôn chỉ theo hướng nào?",
-    "options": [
-      "A. Đông – Tây",
-      "B. Đông Bắc – Tây Nam",
-      "C. Hướng của người cầm",
-      "D. Bắc – Nam"
-    ],
-    "answer": 3,
-    "explanation": "Kim la bàn nhiễm từ nên luôn nằm dọc theo hướng Bắc – Nam.",
-    "bai": 9
-  },
-  {
-    "id": 76,
-    "question": "Vào buổi sáng, Mặt Trời nằm ở phía:",
-    "options": [
-      "A. Đông",
-      "B. Tây",
-      "C. Bắc",
-      "D. Nam"
-    ],
-    "answer": 0,
-    "explanation": "Mặt Trời mọc ở phía Đông.",
-    "bai": 9
-  },
-  {
-    "id": 77,
-    "question": "Ban đêm, để tìm hướng Bắc người ta dựa vào:",
-    "options": [
-      "A. Đám mây sáng",
-      "B. Sao Bắc Cực",
-      "C. Mặt Trăng tròn",
-      "D. Ngôi sao sáng nhất bất kì"
-    ],
-    "answer": 1,
-    "explanation": "Sao Bắc Cực nằm gần đúng ở hướng Bắc.",
-    "bai": 9
-  },
-  {
-    "id": 78,
-    "question": "Trên la bàn quốc tế, chữ S chỉ hướng:",
-    "options": [
-      "A. Đông (East)",
-      "B. Tây (West)",
-      "C. Nam (South)",
-      "D. Bắc (North)"
-    ],
-    "answer": 2,
-    "explanation": "S = South = hướng Nam.",
-    "bai": 9
-  },
-  {
-    "question": "La bàn đặt đúng hướng khi đường Bắc – Nam trên la bàn là đường nào?",
-    "options": [
-      "A. 90° – 270°",
-      "B. 60° – 240°",
-      "C. 30° – 120°",
-      "D. 0° – 180°"
-    ],
-    "answer": 3,
-    "explanation": "Khi đặt la bàn đúng hướng, vạch 0° chỉ về hướng Bắc và vạch 180° chỉ về hướng Nam, nên đường Bắc – Nam là đường thẳng 0° – 180°.",
-    "id": 79,
-    "bai": 9
-  },
-  {
-    "id": 80,
-    "question": "Đứng dang tay, tay phải chỉ hướng Mặt Trời mọc. Vậy sau lưng em là hướng:",
-    "options": [
-      "A. Bắc",
-      "B. Đông",
-      "C. Tây",
-      "D. Nam"
-    ],
-    "answer": 3,
-    "explanation": "Tay phải Đông, tay trái Tây, mặt Bắc, lưng Nam.",
-    "bai": 9
-  },
-  {
-    "id": 81,
-    "question": "Vật nào sau đây KHÔNG dùng để xác định phương hướng?",
-    "options": [
-      "A. Nhiệt kế",
-      "B. La bàn",
-      "C. Mặt Trời",
-      "D. Sao Bắc Cực"
-    ],
-    "answer": 0,
-    "explanation": "Nhiệt kế đo nhiệt độ, không chỉ hướng.",
-    "bai": 9
-  },
-  {
-    "id": 82,
-    "question": "Vào khoảng giữa trưa ở Việt Nam, Mặt Trời thường ở phía:",
-    "options": [
-      "A. Tây",
-      "B. Nam",
-      "C. Bắc",
-      "D. Đông"
-    ],
-    "answer": 1,
-    "explanation": "Việt Nam ở bán cầu Bắc, giữa trưa Mặt Trời lệch về phía Nam.",
-    "bai": 9
-  },
-  {
-    "question": "Ban đêm, muốn tìm hướng Bắc, em có thể dựa vào ngôi sao nào?",
-    "options": [
-      "A. Sao Mai",
-      "B. Sao Bắc Cực",
-      "C. Sao băng",
-      "D. Sao Hôm"
-    ],
-    "answer": 1,
-    "explanation": "Sao Bắc Cực luôn nằm ở phía Bắc trên bầu trời, nên ban đêm em có thể dựa vào nó để xác định hướng Bắc.",
-    "id": 83,
-    "bai": 9
-  },
-  {
-    "id": 84,
-    "question": "Trái Đất được cấu tạo gồm mấy lớp chính?",
-    "options": [
-      "A. 4 lớp",
-      "B. 5 lớp",
-      "C. 3 lớp",
-      "D. 2 lớp"
-    ],
-    "answer": 2,
-    "explanation": "Ba lớp: vỏ, lớp bao phủ (manti) và nhân.",
-    "bai": 10
-  },
-  {
-    "id": 85,
-    "question": "Lớp nào của Trái Đất mỏng nhất?",
-    "options": [
-      "A. Lớp bao phủ (manti)",
-      "B. Nhân ngoài",
-      "C. Nhân trong",
-      "D. Vỏ Trái Đất"
-    ],
-    "answer": 3,
-    "explanation": "Vỏ chỉ dày 5–70 km, mỏng nhất trong 3 lớp.",
-    "bai": 10
-  },
-  {
-    "id": 86,
-    "question": "Nhiệt độ ở nhân Trái Đất có thể lên tới khoảng:",
-    "options": [
-      "A. 6 000°C",
-      "B. 100°C",
-      "C. 600°C",
-      "D. 60 000°C"
-    ],
-    "answer": 0,
-    "explanation": "Nhân Trái Đất nóng khoảng 6 000°C, gần bằng bề mặt Mặt Trời.",
-    "bai": 10
-  },
-  {
-    "id": 87,
-    "question": "Vỏ Trái Đất bị nứt vỡ thành nhiều:",
-    "options": [
-      "A. Đảo nhỏ",
-      "B. Mảng kiến tạo",
-      "C. Con sông",
-      "D. Dãy núi lửa"
-    ],
-    "answer": 1,
-    "explanation": "Các mảnh vỏ đó gọi là mảng kiến tạo.",
-    "bai": 10
-  },
-  {
-    "id": 88,
-    "question": "Các mảng kiến tạo chuyển động với tốc độ:",
-    "options": [
-      "A. Vài m mỗi giây",
-      "B. Không hề chuyển động",
-      "C. Vài cm mỗi năm",
-      "D. Vài km mỗi giờ"
-    ],
-    "answer": 2,
-    "explanation": "Chúng trôi rất chậm, chỉ vài cm/năm.",
-    "bai": 10
-  },
-  {
-    "id": 89,
-    "question": "Lớp nằm giữa vỏ và nhân của Trái Đất là:",
-    "options": [
-      "A. Lớp vỏ khí",
-      "B. Lớp nước",
-      "C. Lớp đất",
-      "D. Lớp bao phủ (manti)"
-    ],
-    "answer": 3,
-    "explanation": "Thứ tự từ ngoài vào: vỏ → manti → nhân.",
-    "bai": 10
-  },
-  {
-    "id": 90,
-    "question": "Con người đang sinh sống trực tiếp trên lớp nào của Trái Đất?",
-    "options": [
-      "A. Vỏ Trái Đất",
-      "B. Lớp bao phủ",
-      "C. Nhân ngoài",
-      "D. Nhân trong"
-    ],
-    "answer": 0,
-    "explanation": "Chúng ta sống trên lớp vỏ mỏng của Trái Đất.",
-    "bai": 10
-  },
-  {
-    "id": 91,
-    "question": "Quá trình nội sinh xảy ra ở đâu?",
-    "options": [
-      "A. Dưới đáy đại dương",
-      "B. Bên trong lòng Trái Đất",
-      "C. Trên bề mặt Trái Đất",
-      "D. Trong khí quyển"
-    ],
-    "answer": 1,
-    "explanation": "“Nội” là bên trong — năng lượng từ lòng đất.",
-    "bai": 11
-  },
-  {
-    "id": 92,
-    "question": "Tác nhân nào sau đây thuộc quá trình ngoại sinh?",
-    "options": [
-      "A. Dung nham trong lòng đất",
-      "B. Lực nén tạo núi",
-      "C. Nước sông bào mòn bờ",
-      "D. Mảng kiến tạo xô vào nhau"
-    ],
-    "answer": 2,
-    "explanation": "Nước, gió, nắng, băng trên bề mặt đều là tác nhân ngoại sinh.",
-    "bai": 11
-  },
-  {
-    "id": 93,
-    "question": "Hiện tượng tạo núi chủ yếu do:",
-    "options": [
-      "A. Sông chảy xiết",
-      "B. Gió thổi mạnh",
-      "C. Mưa nhiều",
-      "D. Hai mảng kiến tạo xô vào nhau"
-    ],
-    "answer": 3,
-    "explanation": "Lực nội sinh khi hai mảng xô nhau đẩy đất đá cao lên thành núi.",
-    "bai": 11
-  },
-  {
-    "id": 94,
-    "question": "Kết quả điển hình của quá trình ngoại sinh là:",
-    "options": [
-      "A. Bào mòn và hạ thấp bề mặt địa hình",
-      "B. Tạo ra dãy núi mới",
-      "C. Gây ra động đất",
-      "D. Làm vỏ Trái Đất nứt ra"
-    ],
-    "answer": 0,
-    "explanation": "Ngoại sinh “gọt” bề mặt thấp dần và bồi đắp nơi trũng.",
-    "bai": 11
-  },
-  {
-    "id": 95,
-    "question": "Quan hệ giữa nội sinh và ngoại sinh là:",
-    "options": [
-      "A. Chỉ một trong hai xảy ra",
-      "B. Đối nghịch nhau nhưng xảy ra đồng thời",
-      "C. Hoàn toàn giống nhau",
-      "D. Nội sinh có trước, ngoại sinh có sau"
-    ],
-    "answer": 1,
-    "explanation": "Một bên xây lên, một bên gọt xuống, diễn ra cùng lúc.",
-    "bai": 11
-  },
-  {
-    "id": 96,
-    "question": "Dãy Hi-ma-lay-a được hình thành do:",
-    "options": [
-      "A. Gió mùa thổi lâu năm",
-      "B. Băng hà tan chảy",
-      "C. Sự xô vào nhau của hai mảng kiến tạo",
-      "D. Sông Hằng bào mòn"
-    ],
-    "answer": 2,
-    "explanation": "Hi-ma-lay-a hình thành khi mảng Ấn Độ – Ô-xtrây-li-a xô vào mảng Á – Âu.",
-    "bai": 11
-  },
-  {
-    "id": 97,
-    "question": "Đụn cát trong sa mạc được tạo thành chủ yếu do:",
-    "options": [
-      "A. Núi lửa phun",
-      "B. Động đất",
-      "C. Sóng biển",
-      "D. Gió (ngoại sinh)"
-    ],
-    "answer": 3,
-    "explanation": "Gió thổi dồn cát và mài mòn đá — quá trình ngoại sinh.",
-    "bai": 11
-  },
-  {
-    "id": 98,
-    "question": "Macma sau khi phun ra khỏi miệng núi lửa được gọi là:",
-    "options": [
-      "A. Dung nham",
-      "B. Tro lạnh",
-      "C. Đá cuội",
-      "D. Băng hà"
-    ],
-    "answer": 0,
-    "explanation": "Macma ở trong lòng đất; phun ra ngoài thì gọi là dung nham.",
-    "bai": 12
-  },
-  {
-    "id": 99,
-    "question": "Nguyên nhân chủ yếu gây ra động đất là:",
-    "options": [
-      "A. Gió thổi quá mạnh",
-      "B. Các mảng kiến tạo va chạm, trượt qua nhau",
-      "C. Mưa bão lớn",
-      "D. Sóng biển vỗ vào bờ"
-    ],
-    "answer": 1,
-    "explanation": "Chuyển động của các mảng làm nứt vỡ vỏ Trái Đất gây rung lắc.",
-    "bai": 12
-  },
-  {
-    "id": 100,
-    "question": "Khu vực tập trung nhiều núi lửa và động đất nhất thế giới là:",
-    "options": [
-      "A. Châu Nam Cực",
-      "B. Đồng bằng sông Cửu Long",
-      "C. Vành đai lửa Thái Bình Dương",
-      "D. Sa mạc Xa-ha-ra"
-    ],
-    "answer": 2,
-    "explanation": "Ven Thái Bình Dương là nơi các mảng kiến tạo tiếp xúc mạnh.",
-    "bai": 12
-  },
-  {
-    "id": 101,
-    "question": "Động đất xảy ra dưới đáy biển có thể gây ra hiện tượng nguy hiểm nào?",
-    "options": [
-      "A. Mưa đá",
-      "B. Sương mù",
-      "C. Nắng nóng",
-      "D. Sóng thần"
-    ],
-    "answer": 3,
-    "explanation": "Động đất dưới biển có thể đẩy nước biển thành sóng thần.",
-    "bai": 12
-  },
-  {
-    "id": 102,
-    "question": "Đất đỏ bazan ở Tây Nguyên (Việt Nam) có nguồn gốc từ:",
-    "options": [
-      "A. Tro và dung nham núi lửa cổ",
-      "B. Phù sa sông bồi đắp",
-      "C. Cát biển thổi vào",
-      "D. Đá vôi phong hóa"
-    ],
-    "answer": 0,
-    "explanation": "Dung nham núi lửa phun trào ngày xưa phong hóa thành đất bazan.",
-    "bai": 12
-  },
-  {
-    "id": 103,
-    "question": "Núi lửa và động đất đều thuộc quá trình nào?",
-    "options": [
-      "A. Bồi tụ",
-      "B. Nội sinh",
-      "C. Ngoại sinh",
-      "D. Phong hóa"
-    ],
-    "answer": 1,
-    "explanation": "Cả hai đều do năng lượng bên trong Trái Đất gây ra.",
-    "bai": 12
-  },
-  {
-    "id": 104,
-    "question": "Khi xảy ra động đất mạnh, em nên làm gì?",
-    "options": [
-      "A. Chạy vào thang máy",
-      "B. Trốn trong gầm cầu thang máy",
-      "C. Chạy ra khỏi nhà đến nơi trống trải, tránh xa tòa nhà cao",
-      "D. Đứng sát cửa kính để quan sát"
-    ],
-    "answer": 2,
-    "explanation": "Nguyên tắc an toàn: tránh xa nhà cao, đến nơi trống, bảo vệ đầu.",
-    "bai": 12
-  },
-  {
-    "id": 105,
-    "question": "Dạng địa hình nào sau đây có đỉnh nhọn, sườn dốc và độ cao trên 500 m?",
-    "options": [
-      "A. Đồi",
-      "B. Đồng bằng",
-      "C. Cao nguyên",
-      "D. Núi"
-    ],
-    "answer": 3,
-    "explanation": "Núi: cao trên 500 m, đỉnh nhọn, sườn dốc.",
-    "bai": 13
-  },
-  {
-    "id": 106,
-    "question": "Cao nguyên có đặc điểm nào nổi bật?",
-    "options": [
-      "A. Cao trên 500 m nhưng bề mặt tương đối bằng phẳng",
-      "B. Thấp hơn mực nước biển",
-      "C. Đỉnh rất nhọn",
-      "D. Luôn nằm ven biển"
-    ],
-    "answer": 0,
-    "explanation": "Cao nguyên như một “chiếc bàn” khổng lồ ở trên cao.",
-    "bai": 13
-  },
-  {
-    "id": 107,
-    "question": "Đỉnh núi cao nhất thế giới là:",
-    "options": [
-      "A. Fuji (≈ 3 776 m)",
-      "B. Ê-vơ-rét (≈ 8 848 m)",
-      "C. Phan-xi-păng (≈ 3 143 m)",
-      "D. Mont Blanc (≈ 4 808 m)"
-    ],
-    "answer": 1,
-    "explanation": "Ê-vơ-rét ở dãy Hi-ma-lay-a là đỉnh cao nhất thế giới.",
-    "bai": 13
-  },
-  {
-    "id": 108,
-    "question": "Đồng bằng thường có độ cao:",
-    "options": [
-      "A. Từ 500 đến 1 000 m",
-      "B. Đúng bằng mực nước biển",
-      "C. Dưới 200 m so với mực nước biển",
-      "D. Trên 2 000 m"
-    ],
-    "answer": 2,
-    "explanation": "Đồng bằng thấp (dưới 200 m) và bằng phẳng.",
-    "bai": 13
-  },
-  {
-    "id": 109,
-    "question": "Nhóm khoáng sản năng lượng gồm:",
-    "options": [
-      "A. Sắt, đồng, vàng",
-      "B. Đá vôi, muối, cát",
-      "C. A-pa-tít, thạch anh",
-      "D. Than đá, dầu mỏ, khí đốt"
-    ],
-    "answer": 3,
-    "explanation": "Nhóm năng lượng dùng làm nhiên liệu: than, dầu, khí.",
-    "bai": 13
-  },
-  {
-    "id": 110,
-    "question": "Sắt, vàng, nhôm thuộc nhóm khoáng sản:",
-    "options": [
-      "A. Kim loại",
-      "B. Năng lượng",
-      "C. Phi kim loại",
-      "D. Khoáng sản lỏng"
-    ],
-    "answer": 0,
-    "explanation": "Đó là các khoáng sản kim loại.",
-    "bai": 13
-  },
-  {
-    "id": 111,
-    "question": "Việt Nam có hai đồng bằng lớn là:",
-    "options": [
-      "A. Đồng bằng sông Mã và sông Cả",
-      "B. Đồng bằng sông Hồng và đồng bằng sông Cửu Long",
-      "C. Đồng bằng Tây Nguyên và duyên hải",
-      "D. Đồng bằng Thanh – Nghệ và Bình – Trị"
-    ],
-    "answer": 1,
-    "explanation": "Hai châu thổ lớn nhất nước ta là sông Hồng và sông Cửu Long.",
-    "bai": 13
-  },
-  {
-    "id": 112,
-    "question": "Đường đồng mức là đường nối các điểm:",
-    "options": [
-      "A. Cách đều nhau 1 km",
-      "B. Nằm trên cùng một con sông",
-      "C. Có cùng độ cao",
-      "D. Có cùng nhiệt độ"
-    ],
-    "answer": 2,
-    "explanation": "Đồng mức = cùng một mức cao (đẳng cao).",
-    "bai": 14
-  },
-  {
-    "id": 113,
-    "question": "Trên lược đồ, nơi đường đồng mức nằm sít nhau thì địa hình ở đó:",
-    "options": [
-      "A. Sườn thoải",
-      "B. Bằng phẳng",
-      "C. Là đồng bằng",
-      "D. Sườn dốc"
-    ],
-    "answer": 3,
-    "explanation": "Đường sít nhau = độ cao thay đổi nhanh = sườn dốc.",
-    "bai": 14
-  },
-  {
-    "id": 114,
-    "question": "Số ghi trên đường đồng mức cho biết:",
-    "options": [
-      "A. Độ cao của đường đó",
-      "B. Khoảng cách tới biển",
-      "C. Số thứ tự của đường",
-      "D. Nhiệt độ tại điểm đó"
-    ],
-    "answer": 0,
-    "explanation": "Mỗi đường đồng mức mang một giá trị độ cao (m).",
-    "bai": 14
-  },
-  {
-    "id": 115,
-    "question": "Lát cắt địa hình dùng để thể hiện:",
-    "options": [
-      "A. Mật độ dân cư",
-      "B. Sự thay đổi độ cao dọc theo một đường",
-      "C. Hình dạng của mây",
-      "D. Hướng chảy của sông"
-    ],
-    "answer": 1,
-    "explanation": "Lát cắt cho thấy cao – thấp, dốc – thoải dọc tuyến cắt.",
-    "bai": 14
-  },
-  {
-    "id": 116,
-    "question": "Khi vẽ lát cắt địa hình, sau khi chấm các điểm độ cao, bước cuối là:",
-    "options": [
-      "A. Xóa trục độ cao",
-      "B. Gấp giấy lại",
-      "C. Nối các điểm lại thành đường",
-      "D. Tô màu thật đậm"
-    ],
-    "answer": 2,
-    "explanation": "Nối các điểm sẽ ra hình dạng bề mặt dọc đường cắt.",
-    "bai": 14
-  },
-  {
-    "id": 117,
-    "question": "Nếu hai đường đồng mức kề nhau chênh nhau 50 m, ta gọi 50 m là:",
-    "options": [
-      "A. Tỉ lệ bản đồ",
-      "B. Độ sâu của thung lũng",
-      "C. Chiều dài sườn núi",
-      "D. Khoảng cao đều giữa hai đường đồng mức"
-    ],
-    "answer": 3,
-    "explanation": "Khoảng chênh độ cao giữa hai đường đồng mức liên tiếp là khoảng cao đều.",
-    "bai": 14
-  },
-  {
-    "id": 118,
-    "question": "Leo núi ở sườn có đường đồng mức thưa sẽ:",
-    "options": [
-      "A. Dễ đi hơn vì sườn thoải",
-      "B. Khó hơn vì sườn dốc",
-      "C. Không đi được",
-      "D. Phải bơi qua"
-    ],
-    "answer": 0,
-    "explanation": "Đường thưa = sườn thoải = dễ leo hơn.",
-    "bai": 14
-  },
-  {
-    "id": 119,
-    "question": "Khí chiếm tỉ lệ lớn nhất trong khí quyển là:",
-    "options": [
-      "A. Hơi nước",
-      "B. Ni-tơ (khoảng 78%)",
-      "C. Ô-xi (khoảng 21%)",
-      "D. Khí cacbonic"
-    ],
-    "answer": 1,
-    "explanation": "Ni-tơ chiếm khoảng 78%, ô-xi khoảng 21%.",
-    "bai": 15
-  },
-  {
-    "id": 120,
-    "question": "Gió là sự chuyển động của không khí:",
-    "options": [
-      "A. Từ biển vào đất liền quanh năm",
-      "B. Chỉ thổi vào ban đêm",
-      "C. Từ nơi khí áp cao đến nơi khí áp thấp",
-      "D. Từ nơi khí áp thấp đến nơi khí áp cao"
-    ],
-    "answer": 2,
-    "explanation": "Gió luôn thổi từ áp cao xuống áp thấp.",
-    "bai": 15
-  },
-  {
-    "id": 121,
-    "question": "Các hiện tượng mây, mưa, gió (thời tiết) xảy ra chủ yếu ở tầng nào?",
-    "options": [
-      "A. Tầng bình lưu",
-      "B. Tầng ion",
-      "C. Tầng ngoài",
-      "D. Tầng đối lưu"
-    ],
-    "answer": 3,
-    "explanation": "Tầng đối lưu sát mặt đất là nơi diễn ra thời tiết.",
-    "bai": 15
-  },
-  {
-    "id": 122,
-    "question": "Khí áp là:",
-    "options": [
-      "A. Sức ép của không khí lên bề mặt Trái Đất",
-      "B. Lực hút của Mặt Trăng",
-      "C. Áp lực của nước biển",
-      "D. Sức nặng của mây"
-    ],
-    "answer": 0,
-    "explanation": "Không khí có trọng lượng và gây ra khí áp.",
-    "bai": 15
-  },
-  {
-    "id": 123,
-    "question": "Gió Tín phong thổi chủ yếu ở khu vực nào?",
-    "options": [
-      "A. Chỉ ở Việt Nam",
-      "B. Từ hai chí tuyến về phía Xích đạo",
-      "C. Từ cực về chí tuyến",
-      "D. Quanh hai cực"
-    ],
-    "answer": 1,
-    "explanation": "Tín phong thổi đều đặn từ áp cao chí tuyến về áp thấp Xích đạo.",
-    "bai": 15
-  },
-  {
-    "id": 124,
-    "question": "Khi chênh lệch khí áp giữa hai nơi càng lớn thì gió:",
-    "options": [
-      "A. Không thay đổi",
-      "B. Ngừng thổi",
-      "C. Càng mạnh",
-      "D. Càng yếu"
-    ],
-    "answer": 2,
-    "explanation": "Chênh áp càng lớn, gió càng mạnh (như bão).",
-    "bai": 15
-  },
-  {
-    "id": 125,
-    "question": "Dụng cụ dùng để đo khí áp là:",
-    "options": [
-      "A. Nhiệt kế",
-      "B. Vũ kế",
-      "C. Ẩm kế",
-      "D. Khí áp kế (phong vũ biểu)"
-    ],
-    "answer": 3,
-    "explanation": "Khí áp được đo bằng khí áp kế, đơn vị thường là hPa/mb.",
-    "bai": 15
-  },
-  {
-    "id": 126,
-    "question": "Không khí ở tầng thấp được làm nóng chủ yếu do:",
-    "options": [
-      "A. Mặt đất tỏa nhiệt sau khi hấp thụ ánh nắng",
-      "B. Mặt Trăng tỏa nhiệt",
-      "C. Gió thổi mạnh",
-      "D. Mây phản chiếu nhiệt"
-    ],
-    "answer": 0,
-    "explanation": "Mặt Trời hun nóng mặt đất trước, mặt đất mới làm nóng không khí sát đất.",
-    "bai": 16
-  },
-  {
-    "id": 127,
-    "question": "Trong ngày, nhiệt độ không khí thường cao nhất vào khoảng:",
-    "options": [
-      "A. 18 giờ tối",
-      "B. 13–14 giờ",
-      "C. 6 giờ sáng",
-      "D. 12 giờ đêm"
-    ],
-    "answer": 1,
-    "explanation": "Sau giữa trưa, mặt đất tích đủ nhiệt nên khoảng 13–14 giờ là nóng nhất.",
-    "bai": 16
-  },
-  {
-    "id": 128,
-    "question": "Mây được hình thành khi hơi nước trong không khí:",
-    "options": [
-      "A. Bay thẳng ra vũ trụ",
-      "B. Hóa thành khí ô-xi",
-      "C. Ngưng tụ thành hạt nước li ti",
-      "D. Đông cứng thành đá"
-    ],
-    "answer": 2,
-    "explanation": "Hơi nước gặp lạnh ngưng tụ tạo thành mây.",
-    "bai": 16
-  },
-  {
-    "id": 129,
-    "question": "Lượng mưa được đo bằng:",
-    "options": [
-      "A. Nhiệt kế, đơn vị °C",
-      "B. Thước dây, đơn vị m",
-      "C. Cân, đơn vị kg",
-      "D. Vũ kế, đơn vị mm"
-    ],
-    "answer": 3,
-    "explanation": "Vũ kế đo lượng mưa, đơn vị mi-li-mét.",
-    "bai": 16
-  },
-  {
-    "id": 130,
-    "question": "Nơi nào sau đây thường có lượng mưa rất ít?",
-    "options": [
-      "A. Sa mạc Xa-ha-ra",
-      "B. Vùng Xích đạo",
-      "C. Đồng bằng ven biển nhiệt đới",
-      "D. Rừng mưa nhiệt đới"
-    ],
-    "answer": 0,
-    "explanation": "Sa mạc Xa-ha-ra là vùng mưa rất ít trên Trái Đất.",
-    "bai": 16
-  },
-  {
-    "id": 131,
-    "question": "Vì sao mùa hè ở ven biển thường mát hơn trong đất liền?",
-    "options": [
-      "A. Vì cát phản chiếu hết nắng",
-      "B. Nhờ gió biển và nước biển điều hòa nhiệt độ",
-      "C. Vì ven biển không có Mặt Trời",
-      "D. Vì ven biển cao hơn"
-    ],
-    "answer": 1,
-    "explanation": "Nước biển nóng lên và nguội đi chậm nên điều hòa khí hậu ven biển.",
-    "bai": 16
-  },
-  {
-    "id": 132,
-    "question": "Hiện tượng nào xảy ra khi hạt nước trong mây quá nặng?",
-    "options": [
-      "A. Biến thành cầu vồng",
-      "B. Hóa thành băng ngay",
-      "C. Rơi xuống thành mưa",
-      "D. Bay lên thành sao"
-    ],
-    "answer": 2,
-    "explanation": "Hạt nước to và nặng dần sẽ rơi xuống thành mưa.",
-    "bai": 16
-  },
-  {
-    "id": 133,
-    "question": "“Hôm nay trời đổ mưa rào” là biểu hiện của:",
-    "options": [
-      "A. Khí hậu",
-      "B. Đới khí hậu",
-      "C. Biến đổi khí hậu",
-      "D. Thời tiết"
-    ],
-    "answer": 3,
-    "explanation": "Mưa hôm nay là trạng thái ngắn hạn — thời tiết.",
-    "bai": 17
-  },
-  {
-    "id": 134,
-    "question": "Khí hậu của một nơi được hiểu là:",
-    "options": [
-      "A. Thời tiết lặp đi lặp lại trong nhiều năm",
-      "B. Trời nắng hay mưa trong ngày",
-      "C. Nhiệt độ lúc 12 giờ trưa",
-      "D. Hướng gió buổi sáng"
-    ],
-    "answer": 0,
-    "explanation": "Khí hậu mang tính lâu dài, ổn định qua nhiều năm.",
-    "bai": 17
-  },
-  {
-    "id": 135,
-    "question": "Trên Trái Đất có bao nhiêu đới khí hậu chính?",
-    "options": [
-      "A. 2 đới",
-      "B. 5 đới",
-      "C. 3 đới",
-      "D. 7 đới"
-    ],
-    "answer": 1,
-    "explanation": "1 đới nóng + 2 đới ôn hòa + 2 đới lạnh = 5 đới.",
-    "bai": 17
-  },
-  {
-    "id": 136,
-    "question": "Việt Nam thuộc đới khí hậu nào?",
-    "options": [
-      "A. Đới lạnh",
-      "B. Cả ba đới",
-      "C. Đới nóng",
-      "D. Đới ôn hòa"
-    ],
-    "answer": 2,
-    "explanation": "Việt Nam ở vùng nhiệt đới thuộc đới nóng.",
-    "bai": 17
-  },
-  {
-    "id": 137,
-    "question": "Biểu hiện nào sau đây là của biến đổi khí hậu?",
-    "options": [
-      "A. Chiều nay trời mưa",
-      "B. Ngày mai trời nắng",
-      "C. Tuần này trời trở lạnh",
-      "D. Băng ở hai cực tan nhanh, mực nước biển dâng"
-    ],
-    "answer": 3,
-    "explanation": "Ba phương án còn lại chỉ là thời tiết ngắn hạn.",
-    "bai": 17
-  },
-  {
-    "id": 138,
-    "question": "Nguyên nhân chính gây biến đổi khí hậu hiện nay là:",
-    "options": [
-      "A. Con người thải nhiều khí nhà kính và phá rừng",
-      "B. Mặt Trời nóng lên đột ngột",
-      "C. Mặt Trăng thay đổi quỹ đạo",
-      "D. Núi lửa phun liên tục"
-    ],
-    "answer": 0,
-    "explanation": "Đốt nhiên liệu hóa thạch và phá rừng làm tăng khí nhà kính.",
-    "bai": 17
-  },
-  {
-    "id": 139,
-    "question": "Hành động nào giúp giảm nhẹ biến đổi khí hậu?",
-    "options": [
-      "A. Để điều hòa chạy cả ngày",
-      "B. Trồng cây xanh và tiết kiệm điện",
-      "C. Đốt nhiều rác nhựa",
-      "D. Chặt rừng làm đất trống"
-    ],
-    "answer": 1,
-    "explanation": "Cây xanh hấp thụ khí cacbonic; tiết kiệm điện giảm khí thải.",
-    "bai": 17
-  },
-  {
-    "id": 140,
-    "question": "Trên biểu đồ nhiệt độ – lượng mưa, lượng mưa các tháng được thể hiện bằng:",
-    "options": [
-      "A. Các chấm tròn",
-      "B. Bảng số riêng",
-      "C. Các cột",
-      "D. Đường gấp khúc"
-    ],
-    "answer": 2,
-    "explanation": "Quy ước: nhiệt độ = đường, lượng mưa = cột.",
-    "bai": 18
-  },
-  {
-    "id": 141,
-    "question": "Đơn vị của lượng mưa trên biểu đồ là:",
-    "options": [
-      "A. °C",
-      "B. km/h",
-      "C. hPa",
-      "D. mm"
-    ],
-    "answer": 3,
-    "explanation": "Lượng mưa đo bằng mi-li-mét.",
-    "bai": 18
-  },
-  {
-    "id": 142,
-    "question": "Biên độ nhiệt năm được tính bằng cách:",
-    "options": [
-      "A. Nhiệt độ tháng nóng nhất trừ tháng lạnh nhất",
-      "B. Cộng nhiệt độ 12 tháng",
-      "C. Nhiệt độ cao nhất trừ lượng mưa",
-      "D. Chia nhiệt độ cho 12"
-    ],
-    "answer": 0,
-    "explanation": "Biên độ nhiệt = nóng nhất − lạnh nhất.",
-    "bai": 18
-  },
-  {
-    "id": 143,
-    "question": "Để tính tổng lượng mưa năm từ biểu đồ, em cần:",
-    "options": [
-      "A. Lấy lượng mưa tháng cao nhất trừ tháng thấp nhất",
-      "B. Cộng lượng mưa 12 tháng",
-      "C. Lấy tháng mưa nhiều nhất",
-      "D. Nhân lượng mưa với 12"
-    ],
-    "answer": 1,
-    "explanation": "Tổng mưa năm = tổng 12 cột mưa.",
-    "bai": 18
-  },
-  {
-    "id": 144,
-    "question": "Một địa điểm có nhiệt độ quanh năm trên 25°C, mưa nhiều vào mùa hè. Khí hậu đó nhiều khả năng là:",
-    "options": [
-      "A. Ôn đới lạnh",
-      "B. Hoang mạc",
-      "C. Nhiệt đới",
-      "D. Hàn đới"
-    ],
-    "answer": 2,
-    "explanation": "Nóng quanh năm + mưa nhiều là đặc trưng khí hậu nhiệt đới.",
-    "bai": 18
-  },
-  {
-    "id": 145,
-    "question": "Khi đọc biểu đồ, tháng có cột mưa cao nhất cho biết:",
-    "options": [
-      "A. Tháng nóng nhất",
-      "B. Tháng lạnh nhất",
-      "C. Tháng khô nhất",
-      "D. Tháng mưa nhiều nhất trong năm"
-    ],
-    "answer": 3,
-    "explanation": "Cột càng cao lượng mưa càng lớn.",
-    "bai": 18
-  },
-  {
-    "id": 146,
-    "question": "Đường nhiệt độ trên biểu đồ thường có màu:",
-    "options": [
-      "A. Đỏ",
-      "B. Xanh lá",
-      "C. Tím",
-      "D. Đen"
-    ],
-    "answer": 0,
-    "explanation": "Theo quy ước phổ biến, đường nhiệt độ vẽ màu đỏ.",
-    "bai": 18
-  },
-  {
-    "id": 147,
-    "question": "Thủy quyển bao gồm:",
-    "options": [
-      "A. Chỉ nước uống được",
-      "B. Tất cả các dạng nước trên Trái Đất",
-      "C. Chỉ nước ở đại dương",
-      "D. Chỉ nước sông và hồ"
-    ],
-    "answer": 1,
-    "explanation": "Thủy quyển gồm nước biển, sông hồ, nước ngầm, băng và hơi nước.",
-    "bai": 19
-  },
-  {
-    "id": 148,
-    "question": "Nước ngọt chiếm khoảng bao nhiêu phần trăm tổng lượng nước trên Trái Đất?",
-    "options": [
-      "A. Khoảng 50%",
-      "B. Khoảng 97,5%",
-      "C. Khoảng 2,5%",
-      "D. Khoảng 25%"
-    ],
-    "answer": 2,
-    "explanation": "97,5% là nước mặn; nước ngọt chỉ ~2,5%.",
-    "bai": 19
-  },
-  {
-    "id": 149,
-    "question": "Giai đoạn đầu tiên trong vòng tuần hoàn lớn của nước (từ biển) là:",
-    "options": [
-      "A. Mưa rơi",
-      "B. Ngấm xuống đất",
-      "C. Chảy thành sông",
-      "D. Bốc hơi"
-    ],
-    "answer": 3,
-    "explanation": "Nước biển bốc hơi nhờ năng lượng Mặt Trời.",
-    "bai": 19
-  },
-  {
-    "id": 150,
-    "question": "Sau khi mưa rơi xuống đất liền, nước sẽ:",
-    "options": [
-      "A. Chảy thành sông, ngấm ngầm rồi trở về biển",
-      "B. Biến mất hoàn toàn",
-      "C. Chỉ ở yên trong hồ",
-      "D. Bay thẳng ra ngoài vũ trụ"
-    ],
-    "answer": 0,
-    "explanation": "Nước luôn trở về biển để hoàn thành vòng tuần hoàn.",
-    "bai": 19
-  },
-  {
-    "id": 151,
-    "question": "Năng lượng nào làm cho nước bốc hơi trong vòng tuần hoàn?",
-    "options": [
-      "A. Năng lượng Mặt Trăng",
-      "B. Năng lượng Mặt Trời",
-      "C. Năng lượng gió bão",
-      "D. Năng lượng núi lửa"
-    ],
-    "answer": 1,
-    "explanation": "Nắng Mặt Trời là “máy bơm” chính của vòng tuần hoàn nước.",
-    "bai": 19
-  },
-  {
-    "id": 152,
-    "question": "Dạng nước nào sau đây thuộc thủy quyển?",
-    "options": [
-      "A. Dung nham nóng chảy",
-      "B. Không khí khô",
-      "C. Băng tuyết ở hai cực",
-      "D. Đá granite"
-    ],
-    "answer": 2,
-    "explanation": "Băng tuyết là một dạng của nước nên thuộc thủy quyển.",
-    "bai": 19
-  },
-  {
-    "id": 153,
-    "question": "Vì sao cần bảo vệ nguồn nước ngọt?",
-    "options": [
-      "A. Vì nước ngọt có màu đẹp",
-      "B. Vì nước ngọt ở rất sâu",
-      "C. Vì nước ngọt không tái tạo được chút nào",
-      "D. Vì nước ngọt rất ít và cần cho sự sống"
-    ],
-    "answer": 3,
-    "explanation": "Nước ngọt chỉ ~2,5% mà mọi sinh vật đều cần.",
-    "bai": 19
-  },
-  {
-    "id": 154,
-    "question": "Sông khác hồ ở điểm cơ bản nào?",
-    "options": [
-      "A. Sông là dòng nước chảy, hồ là vùng nước đọng",
-      "B. Sông luôn mặn, hồ luôn ngọt",
-      "C. Sông ở trên núi, hồ ở dưới biển",
-      "D. Sông do người đào, hồ tự nhiên"
-    ],
-    "answer": 0,
-    "explanation": "Sông chảy, hồ đọng — đó là khác biệt chính.",
-    "bai": 20
-  },
-  {
-    "id": 155,
-    "question": "Phụ lưu của một con sông là:",
-    "options": [
-      "A. Hồ nối với sông",
-      "B. Sông nhỏ chảy vào sông chính",
-      "C. Sông chảy ra khỏi sông chính",
-      "D. Đoạn sông gần cửa biển"
-    ],
-    "answer": 1,
-    "explanation": "Phụ lưu góp nước cho sông chính.",
-    "bai": 20
-  },
-  {
-    "id": 156,
-    "question": "Hồ nước ngọt sâu nhất thế giới là:",
-    "options": [
-      "A. Hồ Tây",
-      "B. Biển Caspi",
-      "C. Hồ Bai-kan",
-      "D. Hồ Hoàn Kiếm"
-    ],
-    "answer": 2,
-    "explanation": "Hồ Bai-kan ở Nga sâu khoảng 1 642 m.",
-    "bai": 20
-  },
-  {
-    "id": 157,
-    "question": "Nước giếng khoan mà nhiều gia đình sử dụng thuộc loại nước nào?",
-    "options": [
-      "A. Nước sông",
-      "B. Nước mưa",
-      "C. Nước biển",
-      "D. Nước ngầm"
-    ],
-    "answer": 3,
-    "explanation": "Giếng khoan hút nước ngầm dưới lòng đất.",
-    "bai": 20
-  },
-  {
-    "id": 158,
-    "question": "Phần lớn nước ngọt trên Trái Đất tồn tại dưới dạng:",
-    "options": [
-      "A. Băng hà và băng tuyết",
-      "B. Nước sông",
-      "C. Nước hồ",
-      "D. Nước ngầm"
-    ],
-    "answer": 0,
-    "explanation": "Khoảng 2/3 nước ngọt bị khóa trong băng.",
-    "bai": 20
-  },
-  {
-    "id": 159,
-    "question": "Lưu vực sông là:",
-    "options": [
-      "A. Đê hai bên bờ sông",
-      "B. Vùng đất mà sông thu gom nước",
-      "C. Đáy của con sông",
-      "D. Cửa sông đổ ra biển"
-    ],
-    "answer": 1,
-    "explanation": "Mọi giọt mưa rơi trong lưu vực đều có thể chảy về sông.",
-    "bai": 20
-  },
-  {
-    "id": 160,
-    "question": "Băng hà di chuyển như thế nào?",
-    "options": [
-      "A. Không hề di chuyển",
-      "B. Chỉ di chuyển vào mùa đông",
-      "C. Rất chậm, trườn theo sườn dốc",
-      "D. Nhanh như xe chạy"
-    ],
-    "answer": 2,
-    "explanation": "Băng hà trườn vài mét mỗi năm do trọng lượng của chính nó.",
-    "bai": 20
-  },
-  {
-    "id": 161,
-    "question": "Đại dương lớn nhất trên Trái Đất là:",
-    "options": [
-      "A. Đại Tây Dương",
-      "B. Ấn Độ Dương",
-      "C. Bắc Băng Dương",
-      "D. Thái Bình Dương"
-    ],
-    "answer": 3,
-    "explanation": "Thái Bình Dương chiếm khoảng 1/3 bề mặt Trái Đất — gần một nửa diện tích biển.",
-    "bai": 21
-  },
-  {
-    "id": 162,
-    "question": "Độ muối trung bình của nước biển là khoảng:",
-    "options": [
-      "A. 35‰",
-      "B. 3,5‰",
-      "C. 350‰",
-      "D. 0‰"
-    ],
-    "answer": 0,
-    "explanation": "Trung bình mỗi lít nước biển có khoảng 35 gam muối.",
-    "bai": 21
-  },
-  {
-    "id": 163,
-    "question": "Hiện tượng nước biển dâng lên và rút xuống theo chu kì gọi là:",
-    "options": [
-      "A. Bão",
-      "B. Thủy triều",
-      "C. Sóng thần",
-      "D. Dòng biển"
-    ],
-    "answer": 1,
-    "explanation": "Thủy triều lên – xuống chủ yếu do sức hút của Mặt Trăng.",
-    "bai": 21
-  },
-  {
-    "id": 164,
-    "question": "Sóng biển được tạo ra chủ yếu do:",
-    "options": [
-      "A. Cá bơi",
-      "B. Mưa rơi",
-      "C. Gió",
-      "D. Mặt Trời"
-    ],
-    "answer": 2,
-    "explanation": "Gió thổi trên mặt nước tạo thành sóng.",
-    "bai": 21
-  },
-  {
-    "id": 165,
-    "question": "Biển Đông là:",
-    "options": [
-      "A. Một đại dương riêng",
-      "B. Một hồ nước ngọt",
-      "C. Một con sông lớn",
-      "D. Một bộ phận của Thái Bình Dương"
-    ],
-    "answer": 3,
-    "explanation": "Biển là bộ phận của đại dương — Biển Đông thuộc Thái Bình Dương.",
-    "bai": 21
-  },
-  {
-    "id": 166,
-    "question": "Dòng biển được ví như:",
-    "options": [
-      "A. Những con sông chảy trong đại dương",
-      "B. Những tảng băng trôi",
-      "C. Những cơn bão biển",
-      "D. Những đàn cá lớn"
-    ],
-    "answer": 0,
-    "explanation": "Dòng biển là dòng nước chảy có hướng nhất định trong đại dương.",
-    "bai": 21
-  },
-  {
-    "id": 167,
-    "question": "Lợi ích nào sau đây KHÔNG phải của biển và đại dương?",
-    "options": [
-      "A. Giao thông đường biển",
-      "B. Cung cấp nước ngọt uống trực tiếp",
-      "C. Đánh bắt hải sản",
-      "D. Sản xuất muối"
-    ],
-    "answer": 1,
-    "explanation": "Nước biển mặn, không uống trực tiếp được.",
-    "bai": 21
-  },
-  {
-    "id": 168,
-    "question": "Đất (thổ nhưỡng) là:",
-    "options": [
-      "A. Lớp nước ngầm dưới đất",
-      "B. Bề mặt của đại dương",
-      "C. Lớp vật chất mỏng, tơi xốp trên bề mặt lục địa",
-      "D. Lớp đá cứng sâu trong lòng đất"
-    ],
-    "answer": 2,
-    "explanation": "Đất là lớp mỏng trên bề mặt lục địa, nơi cây cối sinh sống.",
-    "bai": 22
-  },
-  {
-    "id": 169,
-    "question": "Thành phần nào làm đất có màu sẫm và giàu dinh dưỡng?",
-    "options": [
-      "A. Cát trắng",
-      "B. Đá cuội",
-      "C. Muối",
-      "D. Mùn"
-    ],
-    "answer": 3,
-    "explanation": "Mùn từ xác sinh vật phân hủy cung cấp chất dinh dưỡng cho đất.",
-    "bai": 22
-  },
-  {
-    "id": 170,
-    "question": "Tầng đất nằm trên cùng của phẫu diện là:",
-    "options": [
-      "A. Tầng mùn",
-      "B. Tầng đá gốc",
-      "C. Tầng đá mẹ",
-      "D. Tầng tích tụ sắt"
-    ],
-    "answer": 0,
-    "explanation": "Trên cùng là tầng mùn màu sẫm.",
-    "bai": 22
-  },
-  {
-    "id": 171,
-    "question": "Nhân tố nào sau đây KHÔNG tham gia hình thành đất?",
-    "options": [
-      "A. Sinh vật",
-      "B. Ánh sáng Mặt Trăng",
-      "C. Đá mẹ",
-      "D. Khí hậu"
-    ],
-    "answer": 1,
-    "explanation": "Hình thành đất cần: đá mẹ, khí hậu, sinh vật, địa hình, thời gian.",
-    "bai": 22
-  },
-  {
-    "id": 172,
-    "question": "Đất phe-ra-lít đỏ vàng là loại đất điển hình của vùng:",
-    "options": [
-      "A. Sa mạc khô hạn",
-      "B. Vùng cực",
-      "C. Nóng ẩm (nhiệt đới)",
-      "D. Rất lạnh quanh năm"
-    ],
-    "answer": 2,
-    "explanation": "Việt Nam nóng ẩm nên đất phe-ra-lít đỏ vàng phổ biến.",
-    "bai": 22
-  },
-  {
-    "id": 173,
-    "question": "Biện pháp nào giúp chống xói mòn đất ở vùng đồi núi?",
-    "options": [
-      "A. Phá hết rừng",
-      "B. Cày dọc theo sườn dốc",
-      "C. Đốt nương liên tục",
-      "D. Làm ruộng bậc thang và trồng cây"
-    ],
-    "answer": 3,
-    "explanation": "Ruộng bậc thang và cây cối giữ đất, chống rửa trôi.",
-    "bai": 22
-  },
-  {
-    "id": 174,
-    "question": "Vì sao đất được coi là tài nguyên quý cần bảo vệ?",
-    "options": [
-      "A. Vì đất hình thành rất chậm, hàng trăm năm mới dày vài cm",
-      "B. Vì đất có màu đẹp",
-      "C. Vì đất rất nhẹ",
-      "D. Vì đất ở khắp nơi đều như nhau"
-    ],
-    "answer": 0,
-    "explanation": "Đất “lớn” cực chậm nên mất đi là khó lấy lại.",
-    "bai": 22
-  },
-  {
-    "id": 175,
-    "question": "Nhân tố ảnh hưởng lớn nhất đến sự phân bố sinh vật trên Trái Đất là:",
-    "options": [
-      "A. Dân số con người",
-      "B. Khí hậu",
-      "C. Độ sâu đại dương",
-      "D. Màu sắc của đất"
-    ],
-    "answer": 1,
-    "explanation": "Nhiệt độ và lượng mưa quyết định sinh vật sống được ở đâu.",
-    "bai": 23
-  },
-  {
-    "id": 176,
-    "question": "Khu vực nào có sinh vật phong phú nhất trên đất liền?",
-    "options": [
-      "A. Đài nguyên Bắc cực",
-      "B. Đỉnh núi cao tuyết phủ",
-      "C. Rừng mưa nhiệt đới",
-      "D. Sa mạc Xa-ha-ra"
-    ],
-    "answer": 2,
-    "explanation": "Nóng ẩm quanh năm nên rừng mưa nhiệt đới là “kho” đa dạng sinh học.",
-    "bai": 23
-  },
-  {
-    "id": 177,
-    "question": "Xa-van là dạng cảnh quan:",
-    "options": [
-      "A. Rừng rậm quanh năm xanh",
-      "B.  Sa mạc toàn cát",
-      "C. Băng tuyết quanh năm",
-      "D. Đồng cỏ ở vùng nhiệt đới có mùa mưa, mùa khô"
-    ],
-    "answer": 3,
-    "explanation": "Xa-van là đồng cỏ nhiệt đới với hai mùa rõ rệt.",
-    "bai": 23
-  },
-  {
-    "id": 178,
-    "question": "Ở đới lạnh, thực vật thường có đặc điểm:",
-    "options": [
-      "A. Thấp lùn, nghèo nàn (đài nguyên)",
-      "B. Cao lớn, nhiều tầng",
-      "C. Lá to và dày",
-      "D. Phát triển rất nhanh"
-    ],
-    "answer": 0,
-    "explanation": "Lạnh giá khắc nghiệt nên cây chỉ thấp lùn sát đất.",
-    "bai": 23
-  },
-  {
-    "id": 179,
-    "question": "Hoạt động nào của con người làm suy giảm đa dạng sinh học?",
-    "options": [
-      "A. Bảo vệ động vật hoang dã",
-      "B. Phá rừng bừa bãi",
-      "C. Trồng rừng mới",
-      "D. Lập vườn quốc gia"
-    ],
-    "answer": 1,
-    "explanation": "Phá rừng làm sinh vật mất môi trường sống.",
-    "bai": 23
-  },
-  {
-    "id": 180,
-    "question": "Vì sao sa mạc có rất ít sinh vật sinh sống?",
-    "options": [
-      "A. Vì đất quá màu mỡ",
-      "B. Vì không có ánh nắng",
-      "C. Vì quá khô hạn, thiếu nước",
-      "D. Vì quá nhiều mưa"
-    ],
-    "answer": 2,
-    "explanation": "Thiếu nước là rào cản lớn nhất với sự sống ở sa mạc.",
-    "bai": 23
-  },
-  {
-    "id": 181,
-    "question": "Để bảo vệ sự sống trên Trái Đất, em nên làm gì?",
-    "options": [
-      "A. Săn bắt chim thú nhiều hơn",
-      "B. Đốt rừng làm nương",
-      "C. Xả rác ra sông suối",
-      "D. Bảo vệ rừng và động vật hoang dã"
-    ],
-    "answer": 3,
-    "explanation": "Giữ rừng là giữ “ngôi nhà” của muôn loài.",
-    "bai": 23
-  },
-  {
-    "answer": 0,
-    "explanation": "Rừng nhiệt đới mọc ở đới nóng, quanh Xích đạo. Ở đó nắng nhiều quanh năm nên cây cối xanh tốt bốn mùa.",
-    "id": 182,
-    "options": [
-      "A. Đới nóng gần Xích đạo",
-      "B. Đới lạnh gần hai cực Trái Đất",
-      "C. Vùng ôn hòa mát mẻ",
-      "D. Trên núi cao lạnh giá"
-    ],
-    "question": "Rừng nhiệt đới phân bố chủ yếu ở đâu?",
-    "bai": 24
-  },
-  {
-    "answer": 1,
-    "explanation": "Rừng nhiệt đới nóng ẩm quanh năm, mưa rất nhiều (hơn 1500 mm mỗi năm). Nhờ vậy cây mọc nhanh và xanh tốt quanh năm.",
-    "id": 183,
-    "options": [
-      "A. Lạnh quanh năm, tuyết rơi và ít mưa",
-      "B. Nóng ẩm quanh năm, mưa rất nhiều",
-      "C. Nóng khô, hầu như không mưa",
-      "D. Mát mẻ, mưa theo mùa rõ rệt"
-    ],
-    "question": "Khí hậu ở rừng nhiệt đới như thế nào?",
-    "bai": 24
-  },
-  {
-    "answer": 2,
-    "explanation": "Rừng nhiệt đới có 3 tầng: tầng vượt tán (cây cao nhất), tầng tán (tán cây liền nhau) và tầng dưới tán (cây nhỏ, thiếu sáng).",
-    "id": 184,
-    "options": [
-      "A. 1 tầng",
-      "B. 2 tầng",
-      "C. 3 tầng",
-      "D. 5 tầng"
-    ],
-    "question": "Rừng nhiệt đới có mấy tầng chính?",
-    "bai": 24
-  },
-  {
-    "answer": 3,
-    "explanation": "Tầng vượt tán gồm những cây cao nhất, vươn lên trên cả tán rừng để hứng nắng. Ví dụ: cây dầu, cây sao ở rừng Việt Nam.",
-    "id": 185,
-    "options": [
-      "A. Tầng cây nhỏ dưới cùng rất thiếu sáng",
-      "B. Tầng cây bụi ở giữa rừng rậm",
-      "C. Tầng rễ cây dưới mặt đất",
-      "D. Tầng cây cao nhất vượt trên tán rừng"
-    ],
-    "question": "Tầng vượt tán là tầng nào?",
-    "bai": 24
-  },
-  {
-    "answer": 0,
-    "explanation": "Rừng mưa nhiệt đới có nhiều loài sinh vật nhất trên đất liền, vì nóng ẩm quanh năm và nhiều tầng cây tạo nhiều chỗ ở. Nhiều loài chỉ sống ở rừng nhiệt đới mà thôi.",
-    "id": 186,
-    "options": [
-      "A. Rừng mưa nhiệt đới",
-      "B. Sa mạc khô hạn",
-      "C. Đài nguyên lạnh giá",
-      "D. Đồng cỏ khô"
-    ],
-    "question": "Nơi nào trên đất liền có nhiều loài sinh vật nhất?",
-    "bai": 24
-  },
-  {
-    "answer": 1,
-    "explanation": "Cây xanh hút khí CO2 (khí làm Trái Đất nóng lên) và nhả khí ô-xi cho con người thở. Vì vậy rừng nhiệt đới được ví như lá phổi xanh của Trái Đất.",
-    "id": 187,
-    "options": [
-      "A. Vì rừng có màu xanh rất đẹp",
-      "B. Vì rừng hút CO2, nhả ô-xi cho người",
-      "C. Vì rừng mọc ở vùng nóng ẩm",
-      "D. Vì rừng có nhiều lá xanh tốt quanh năm"
-    ],
-    "question": "Rừng nhiệt đới được gọi là “lá phổi xanh” vì sao?",
-    "bai": 24
-  },
-  {
-    "answer": 2,
-    "explanation": "Mất rừng thì đất trơ trọi, mưa xối xuống gây lũ lụt và xói mòn. Nhiều loài động vật, thực vật cũng mất nhà ở và thức ăn.",
-    "id": 188,
-    "options": [
-      "A. Làm đất tốt hơn trước rất nhiều lần",
-      "B. Làm mưa nhiều hơn mọi năm",
-      "C. Gây lũ lụt, xói mòn đất, mất nhà ở",
-      "D. Làm không khí sạch hơn trước"
-    ],
-    "question": "Chặt phá rừng nhiệt đới gây hậu quả gì?",
-    "bai": 24
-  },
-  {
-    "answer": 3,
-    "explanation": "Trồng thêm cây xanh giúp rừng phục hồi, không mua đồ gỗ lậu giúp giảm chặt phá rừng. Bảo vệ rừng là bảo vệ nhà ở của muôn loài và bầu không khí của chính em.",
-    "id": 189,
-    "options": [
-      "A. Đốt rừng làm nương rẫy mới",
-      "B. Chặt cây lấy gỗ bán kiếm tiền nhanh",
-      "C. Săn bắt thú rừng về nuôi",
-      "D. Trồng cây xanh, không mua đồ gỗ lậu"
-    ],
-    "question": "Muốn bảo vệ rừng nhiệt đới, em nên làm gì?",
-    "bai": 24
-  },
-  {
-    "answer": 2,
-    "explanation": "Quanh năm xanh tốt, mưa nhiều, cây cao nhiều tầng là dấu hiệu của rừng nhiệt đới ở đới nóng. Rừng lá kim và rừng ôn đới đều có mùa đông lạnh, cây rụng lá hoặc chậm lớn.",
-    "id": 190,
-    "options": [
-      "A. Rừng lá kim",
-      "B. Rừng lá rộng ôn đới",
-      "C. Rừng nhiệt đới",
-      "D. Rừng ngập mặn ven biển"
-    ],
-    "question": "Tình huống: Em thấy một khu rừng quanh năm xanh tốt, mưa nhiều, cây cao nhiều tầng. Đó là loại rừng nào?",
-    "bai": 24
-  },
-  {
-    "answer": 1,
-    "explanation": "Đới thiên nhiên là vùng rộng lớn có khí hậu, đất và sinh vật giống nhau. Ví dụ: đới rừng nhiệt đới, đới sa mạc, đới đài nguyên.",
-    "id": 191,
-    "options": [
-      "A. Vùng đất của một nước riêng biệt",
-      "B. Vùng có khí hậu, đất, sinh vật giống nhau",
-      "C. Vùng chỉ có một loài cây duy nhất mà thôi",
-      "D. Vùng quanh một dòng sông lớn"
-    ],
-    "question": "Đới thiên nhiên là gì?",
-    "bai": 25
-  },
-  {
-    "answer": 2,
-    "explanation": "Càng xa Xích đạo về hai cực, nhiệt độ càng giảm nên cảnh quan thay đổi theo vĩ độ. Ví dụ: gần Xích đạo là rừng nhiệt đới, gần cực là đài nguyên băng giá.",
-    "id": 192,
-    "options": [
-      "A. Theo kinh độ (đông – tây) trên bản đồ",
-      "B. Theo độ sâu của biển",
-      "C. Theo vĩ độ, từ Xích đạo về cực",
-      "D. Theo diện tích đất nước"
-    ],
-    "question": "Các đới thiên nhiên phân bố chủ yếu theo quy luật nào?",
-    "bai": 25
-  },
-  {
-    "answer": 3,
-    "explanation": "Nhiệt độ giảm dần từ Xích đạo về cực, lượng mưa cũng khác nhau từng vùng. Hai yếu tố này quyết định cây gì mọc được và loài vật nào sống được ở mỗi đới.",
-    "id": 193,
-    "options": [
-      "A. Con người trồng cây khác nhau ở từng vùng",
-      "B. Động vật di cư theo mùa khác nhau",
-      "C. Sông ngòi khác nhau từng khu vực",
-      "D. Nhiệt độ, lượng mưa khác nhau theo vĩ độ"
-    ],
-    "question": "Nguyên nhân chính làm các đới thiên nhiên khác nhau là gì?",
-    "bai": 25
-  },
-  {
-    "answer": 0,
-    "explanation": "Gần Xích đạo nóng ẩm quanh năm nên rừng nhiệt đới mọc đầu tiên. Càng đi về cực, trời lạnh dần nên rừng thưa dần rồi thành đài nguyên.",
-    "id": 194,
-    "options": [
-      "A. Rừng nhiệt đới",
-      "B. Đài nguyên băng giá",
-      "C. Rừng lá kim",
-      "D. Sa mạc lạnh"
-    ],
-    "question": "Từ Xích đạo về cực, đới nào gặp đầu tiên?",
-    "bai": 25
-  },
-  {
-    "answer": 1,
-    "explanation": "Xa-van là đồng cỏ cao ở đới nóng, có mùa mưa cây xanh tốt và mùa khô cỏ úa vàng. Ví dụ: xa-van ở châu Phi có nhiều ngựa vằn, hươu cao cổ.",
-    "id": 195,
-    "options": [
-      "A. Đới lạnh giá quanh năm đầy tuyết",
-      "B. Đới nóng, có mùa mưa và mùa khô",
-      "C. Đới ôn hòa mát mẻ",
-      "D. Vùng cực băng giá"
-    ],
-    "question": "Xa-van là cảnh quan của đới nào?",
-    "bai": 25
-  },
-  {
-    "answer": 2,
-    "explanation": "Đài nguyên ở gần cực nên lạnh giá quanh năm, đất đóng băng, chỉ có cây thấp lùn như rêu, địa y. Mùa hè ngắn ngủi, băng tan một phần nên có nhiều vũng nước.",
-    "id": 196,
-    "options": [
-      "A. Nóng ẩm, cây cao nhiều tầng quanh năm xanh tốt",
-      "B. Mưa nhiều, rừng rậm xanh tốt",
-      "C. Lạnh giá, cây thấp lùn, đất đóng băng",
-      "D. Khô nóng, toàn cát và đá"
-    ],
-    "question": "Đài nguyên có đặc điểm gì?",
-    "bai": 25
-  },
-  {
-    "answer": 3,
-    "explanation": "Càng lên cao trời càng lạnh, giống như càng đi về cực. Vì vậy chân núi có thể là rừng nhiệt đới mà đỉnh núi lại lạnh như đới lạnh.",
-    "id": 197,
-    "options": [
-      "A. Từ cực về Xích đạo",
-      "B. Từ biển vào đất liền",
-      "C. Từ đồng bằng lên cao nguyên",
-      "D. Từ Xích đạo về cực"
-    ],
-    "question": "Lên núi cao, cảnh quan thay đổi giống như đi từ đâu đến đâu?",
-    "bai": 25
-  },
-  {
-    "answer": 0,
-    "explanation": "Hoàng Liên Sơn cao hơn 3000 m nên chân núi nóng ẩm có rừng nhiệt đới, càng lên cao càng lạnh, đỉnh Phan-xi-păng mùa đông có thể có băng giá.",
-    "id": 198,
-    "options": [
-      "A. Hoàng Liên Sơn: chân núi rừng, đỉnh lạnh",
-      "B. Sa mạc Xa-ha-ra toàn cát khô nóng",
-      "C. Đồng bằng sông Hồng trồng lúa nước quanh năm",
-      "D. Biển Đông nhiều cá"
-    ],
-    "question": "Ví dụ nào cho thấy độ cao làm thay đổi đới thiên nhiên?",
-    "bai": 25
-  },
-  {
-    "answer": 1,
-    "explanation": "Miền Nam gần Xích đạo hơn nên nóng quanh năm, miền Bắc xa Xích đạo hơn nên mùa đông lạnh. Chuyến đi cho thấy thiên nhiên thay đổi theo vĩ độ.",
-    "id": 199,
-    "options": [
-      "A. Việt Nam chỉ có một đới thiên nhiên duy nhất thôi",
-      "B. Thiên nhiên đổi theo vĩ độ, xa Xích đạo lạnh hơn",
-      "C. Miền Bắc gần Xích đạo hơn miền Nam rất nhiều",
-      "D. Cây cối tự đổi màu theo mùa đông"
-    ],
-    "question": "Tình huống: Em đi từ miền Nam ra miền Bắc Việt Nam vào mùa đông, thấy trời lạnh dần, cây cối thay đổi. Điều đó chứng tỏ điều gì?",
-    "bai": 25
-  },
-  {
-    "answer": 2,
-    "explanation": "Trước tiên em cần biết mình sẽ tìm hiểu khu vực nào (quanh trường, quanh nhà) và chuẩn bị sổ ghi, bút, bản đồ. Chuẩn bị tốt thì quan sát mới đầy đủ.",
-    "id": 200,
-    "options": [
-      "A. Viết báo cáo ngay lập tức cho xong việc",
-      "B. Đi chơi tự do ngoài trời",
-      "C. Xác định khu vực và chuẩn bị dụng cụ",
-      "D. Hỏi đáp án của bạn khác cho nhanh"
-    ],
-    "question": "Muốn tìm hiểu môi trường tự nhiên địa phương, bước đầu tiên là gì?",
-    "bai": 26
-  },
-  {
-    "answer": 3,
-    "explanation": "Ghi chép đầy đủ gồm thời gian, địa điểm và những gì quan sát được về địa hình, nước, cây cối, động vật, thời tiết. Ghi càng cụ thể, báo cáo càng chính xác.",
-    "id": 201,
-    "options": [
-      "A. Chỉ ghi tên mình, tên trường, tên lớp",
-      "B. Chỉ ghi thời tiết hôm đó, nắng hay mưa",
-      "C. Chỉ vẽ tranh phong cảnh, không ghi chữ",
-      "D. Địa hình, sông hồ, cây cối, động vật"
-    ],
-    "question": "Khi quan sát địa phương, em cần ghi chép những gì?",
-    "bai": 26
-  },
-  {
-    "answer": 0,
-    "explanation": "Sơ đồ và ảnh ghi lại vị trí, cảnh vật chính xác hơn lời kể. Khi trình bày, có ảnh minh họa thì cả lớp dễ hiểu hơn.",
-    "id": 202,
-    "options": [
-      "A. Vì sơ đồ, ảnh giúp nhớ vị trí, báo cáo hay",
-      "B. Vì thầy cô bắt buộc học sinh phải làm như vậy",
-      "C. Vì để khoe với bạn bè",
-      "D. Vì không cần ghi chép nữa"
-    ],
-    "question": "Vì sao khi quan sát cần vẽ sơ đồ hoặc chụp ảnh?",
-    "bai": 26
-  },
-  {
-    "answer": 1,
-    "explanation": "Người dân địa phương biết nhiều điều sách vở không có, ví dụ sông nào hay ngập, cây nào trồng lâu năm. Hỏi người lớn giúp em hiểu sâu hơn về quê mình.",
-    "id": 203,
-    "options": [
-      "A. Đoán mò cho nhanh, khỏi cần hỏi ai",
-      "B. Hỏi thầy cô, người lớn ở địa phương",
-      "C. Chép bài của bạn khác cho nhanh",
-      "D. Ngồi nhà tưởng tượng ra mọi thứ xung quanh"
-    ],
-    "question": "Ngoài quan sát, em còn có thể tìm hiểu địa phương bằng cách nào?",
-    "bai": 26
-  },
-  {
-    "answer": 2,
-    "explanation": "Kết quả quan sát cần được sắp xếp thành bảng và viết thành báo cáo rồi trình bày trước lớp. Trình bày giúp em rèn cách nói và cả lớp cùng học hỏi.",
-    "id": 204,
-    "options": [
-      "A. Vứt sổ ghi đi cho gọn nhẹ cặp sách",
-      "B. Giữ riêng không cho ai xem cả bài báo cáo",
-      "C. Sắp xếp thành bảng và trình bày trước lớp",
-      "D. Bịa thêm cho hay hơn"
-    ],
-    "question": "Sau khi quan sát, em cần làm gì với kết quả?",
-    "bai": 26
-  },
-  {
-    "answer": 3,
-    "explanation": "Đi thực địa phải có thầy cô hoặc người lớn đi cùng, tránh sông sâu, núi dốc và không hái, bắt sinh vật lạ. An toàn luôn là quy tắc đầu tiên khi ra ngoài.",
-    "id": 205,
-    "options": [
-      "A. Đi một mình cho nhanh",
-      "B. Đến gần sông sâu để xem cho rõ",
-      "C. Hái cây lạ về chơi",
-      "D. Đi cùng thầy cô, người lớn"
-    ],
-    "question": "Khi đi thực địa, quy tắc an toàn quan trọng nhất là gì?",
-    "bai": 26
-  },
-  {
-    "answer": 0,
-    "explanation": "Quan sát thiên nhiên phải giữ gìn thiên nhiên: không xả rác, không bẻ cành, không bắt sinh vật mang về. Người quan sát tốt là người không làm hại môi trường mình tìm hiểu.",
-    "id": 206,
-    "options": [
-      "A. Xả rác, bẻ cành, bắt sinh vật",
-      "B. Ghi chép cẩn thận từng điều",
-      "C. Chụp ảnh cảnh đẹp ven đường đi qua",
-      "D. Hỏi người dân địa phương"
-    ],
-    "question": "Em không được làm gì khi quan sát thiên nhiên?",
-    "bai": 26
-  },
-  {
-    "answer": 1,
-    "explanation": "Bảng kết quả thường có cột địa điểm, cột nội dung quan sát và cột nhận xét. Bảng rõ ràng giúp em so sánh các nơi với nhau và viết báo cáo dễ hơn.",
-    "id": 207,
-    "options": [
-      "A. Chỉ có cột tên người quan sát",
-      "B. Địa điểm, nội dung, nhận xét",
-      "C. Chỉ có cột điểm số",
-      "D. Chỉ có cột thời gian"
-    ],
-    "question": "Bảng kết quả quan sát thường có những cột nào?",
-    "bai": 26
-  },
-  {
-    "answer": 2,
-    "explanation": "Quan sát phải ghi đúng sự thật, kể cả điều xấu như nước bẩn. Sau đó nhóm báo với thầy cô và đề xuất cách giữ sạch mương, đó mới là học sinh có trách nhiệm với môi trường.",
-    "id": 208,
-    "options": [
-      "A. Kết luận nước sạch, không làm gì cả đâu",
-      "B. Giấu kết quả vì sợ bị chê cười",
-      "C. Ghi đúng sự thật, báo thầy cô giữ sạch",
-      "D. Đổ thêm rác cho vui cả nhóm"
-    ],
-    "question": "Tình huống: Nhóm em quan sát một con mương gần trường thấy nước đen và có rác. Nhóm em nên kết luận và làm gì?",
-    "bai": 26
-  },
-  {
-    "answer": 0,
-    "explanation": "Năm 2022, dân số thế giới vượt 8 tỉ người và vẫn đang tăng. Đông Á và Nam Á là hai khu vực đông dân nhất.",
-    "id": 209,
-    "options": [
-      "A. Hơn 8 tỉ người",
-      "B. Khoảng 4 tỉ người",
-      "C. Khoảng 2 tỉ người",
-      "D. Khoảng 12 tỉ người"
-    ],
-    "question": "Dân số thế giới hiện nay khoảng bao nhiêu?",
-    "bai": 27
-  },
-  {
-    "answer": 1,
-    "explanation": "Y tế tiến bộ giúp trẻ em chết ít hơn và người sống lâu hơn nên dân số tăng nhanh. Đây là nguyên nhân chính, không phải do đất đai tăng lên.",
-    "id": 210,
-    "options": [
-      "A. Vì diện tích đất tăng lên",
-      "B. Vì y tế tốt hơn, người sống lâu hơn",
-      "C. Vì nhiều người di cư lên Mặt Trăng ở",
-      "D. Vì khí hậu lạnh đi"
-    ],
-    "question": "Vì sao dân số thế giới tăng nhanh?",
-    "bai": 27
-  },
-  {
-    "answer": 2,
-    "explanation": "Dân cư phân bố không đều vì khí hậu, đất đai và việc làm khác nhau từng nơi. Ví dụ: Đông Á rất đông, sa mạc Xa-ha-ra rất thưa.",
-    "id": 211,
-    "options": [
-      "A. Đều khắp mọi nơi",
-      "B. Chỉ tập trung ở châu Âu mà thôi",
-      "C. Không đều: nơi đông, nơi thưa",
-      "D. Chỉ ở ven biển, không ở trong đất liền"
-    ],
-    "question": "Dân cư trên thế giới phân bố như thế nào?",
-    "bai": 27
-  },
-  {
-    "answer": 3,
-    "explanation": "Đông Á (Trung Quốc, Nhật Bản) và Nam Á (Ấn Độ, Băng-la-đét) là hai khu vực đông dân nhất. Ở đó đất bằng, khí hậu thuận lợi và trồng lúa nước nuôi được nhiều người.",
-    "id": 212,
-    "options": [
-      "A. Sa mạc Xa-ha-ra",
-      "B. Bắc cực lạnh giá",
-      "C. Núi cao Hi-ma-lay-a",
-      "D. Đông Á và Nam Á"
-    ],
-    "question": "Khu vực nào sau đây đông dân nhất thế giới?",
-    "bai": 27
-  },
-  {
-    "answer": 0,
-    "explanation": "Mật độ dân số = số dân chia cho diện tích, đơn vị người/km². Ví dụ: Việt Nam có khoảng 300 người/km², tức mỗi km² có trung bình 300 người.",
-    "id": 213,
-    "options": [
-      "A. Số dân trung bình trên 1 km² đất",
-      "B. Tổng số dân của một nước",
-      "C. Số trẻ em sinh ra mỗi năm ở một nước",
-      "D. Số thành phố của một nước"
-    ],
-    "question": "Mật độ dân số là gì?",
-    "bai": 27
-  },
-  {
-    "answer": 1,
-    "explanation": "Đồng bằng sông Hồng đất bằng, nước ngọt dồi dào nên trồng lúa nuôi được nhiều người. Đây là vùng đông dân nhất Việt Nam.",
-    "id": 214,
-    "options": [
-      "A. Vì ở đó có nhiều núi cao hiểm trở khó đi",
-      "B. Vì đất bằng, nước ngọt, trồng lúa được",
-      "C. Vì ở đó khí hậu rất lạnh quanh năm",
-      "D. Vì ở đó toàn rừng rậm khó đi lại"
-    ],
-    "question": "Vì sao đồng bằng sông Hồng đông dân?",
-    "bai": 27
-  },
-  {
-    "answer": 2,
-    "explanation": "Đô thị hóa là dân từ nông thôn dồn về thành phố để tìm việc làm, học hành và hưởng dịch vụ tốt hơn. Nhờ vậy thành phố ngày càng đông, nông thôn thưa dần.",
-    "id": 215,
-    "options": [
-      "A. Dân chuyển từ thành phố về quê sinh sống",
-      "B. Rừng biến thành thành phố lớn",
-      "C. Dân dồn về thành phố tìm việc, đi học",
-      "D. Thành phố bị bỏ hoang không người"
-    ],
-    "question": "Đô thị hóa là gì?",
-    "bai": 27
-  },
-  {
-    "answer": 3,
-    "explanation": "Dân tăng nhanh thì cần thêm lương thực, nhà ở, trường học và việc làm. Nếu không đáp ứng kịp, đời sống khó khăn và môi trường cũng bị sức ép.",
-    "id": 216,
-    "options": [
-      "A. Thiếu nước biển để tắm mát vào mùa hè",
-      "B. Thiếu núi cao để leo núi",
-      "C. Thiếu sa mạc để du lịch",
-      "D. Thiếu lương thực, nhà ở, trường học"
-    ],
-    "question": "Dân số tăng nhanh gây sức ép gì lớn nhất?",
-    "bai": 27
-  },
-  {
-    "answer": 1,
-    "explanation": "Đất tốt, khí hậu tốt mà dân vẫn thưa thì thường do thiếu việc làm, giao thông khó khăn hoặc đất có vấn đề như nhiễm mặn. Phân bố dân cư do nhiều nguyên nhân hợp lại, không chỉ khí hậu.",
-    "id": 217,
-    "options": [
-      "A. Chắc chắn do khí hậu xấu gây khó sống lâu dài",
-      "B. Có thể do thiếu việc làm, giao thông khó khăn",
-      "C. Chắc chắn do không có sông ngòi gì cả",
-      "D. Chắc chắn do ở đó quá lạnh giá"
-    ],
-    "question": "Tình huống: Một vùng đất bằng, gần sông, khí hậu ấm áp nhưng dân cư rất thưa. Em đoán thêm nguyên nhân nào?",
-    "bai": 27
-  },
-  {
-    "answer": 2,
-    "explanation": "Thiên nhiên cho con người không khí để thở, nước để uống, lương thực để ăn, nguyên liệu và năng lượng để sản xuất. Không có thiên nhiên, con người không sống được.",
-    "id": 218,
-    "options": [
-      "A. Chỉ có cảnh đẹp để ngắm nhìn mỗi ngày",
-      "B. Chỉ có không khí để thở",
-      "C. Không khí, nước và lương thực",
-      "D. Chỉ có đất để xây nhà ở"
-    ],
-    "question": "Thiên nhiên cung cấp cho con người những gì?",
-    "bai": 28
-  },
-  {
-    "answer": 3,
-    "explanation": "Con người trồng trọt, chăn nuôi, xây nhà, làm đường, khai mỏ và làm thủy điện. Những việc này đều làm thay đổi thiên nhiên, có lợi hoặc có hại.",
-    "id": 219,
-    "options": [
-      "A. Chỉ ngắm cảnh thiên nhiên cho vui",
-      "B. Chỉ thở không khí",
-      "C. Chỉ uống nước mỗi ngày để sống",
-      "D. Trồng trọt, xây nhà, làm đường"
-    ],
-    "question": "Con người tác động đến thiên nhiên bằng cách nào?",
-    "bai": 28
-  },
-  {
-    "answer": 0,
-    "explanation": "Trồng rừng giúp giữ đất, giữ nước; ruộng bậc thang giúp trồng lúa trên núi mà không làm đất trôi. Đó là tác động tốt, giúp thiên nhiên và con người cùng có lợi.",
-    "id": 220,
-    "options": [
-      "A. Trồng rừng, làm ruộng bậc thang",
-      "B. Chặt hết rừng lấy gỗ bán",
-      "C. Xả rác xuống sông mỗi ngày cho tiện",
-      "D. Săn bắt hết thú rừng về ăn"
-    ],
-    "question": "Tác động tốt nào sau đây của con người với thiên nhiên?",
-    "bai": 28
-  },
-  {
-    "answer": 1,
-    "explanation": "Mất rừng thì mưa xối thẳng xuống đất gây lũ lụt và xói mòn, nhiều loài mất nhà ở và thức ăn. Vì vậy chặt rừng là tác động xấu điển hình.",
-    "id": 221,
-    "options": [
-      "A. Đất tốt hơn trước rất nhiều",
-      "B. Lũ lụt, xói mòn đất, mất nhà ở",
-      "C. Mưa nhiều hơn mọi năm trước",
-      "D. Không khí sạch hơn trước kia nhiều"
-    ],
-    "question": "Chặt phá rừng gây ra hậu quả nào sau đây?",
-    "bai": 28
-  },
-  {
-    "answer": 2,
-    "explanation": "Nước thải bẩn làm ô nhiễm sông, cá chết hàng loạt và người dùng nước đó dễ bị bệnh. Vì vậy nước thải phải được xử lí trước khi xả ra sông.",
-    "id": 222,
-    "options": [
-      "A. Làm cá lớn nhanh hơn trước",
-      "B. Làm nước ngọt hơn trước kia rất nhiều",
-      "C. Gây ô nhiễm nước, cá chết, người bệnh",
-      "D. Làm sông sâu hơn trước kia"
-    ],
-    "question": "Xả nước thải chưa xử lí xuống sông gây hại gì?",
-    "bai": 28
-  },
-  {
-    "answer": 3,
-    "explanation": "Rừng ngập mặn chắn sóng biển, giữ đất bờ biển khỏi xói lở và là nơi tôm cá con trú ngụ. Vì vậy phá rừng ngập mặn làm bờ biển yếu đi.",
-    "id": 223,
-    "options": [
-      "A. Làm cảnh cho đẹp mắt du khách",
-      "B. Làm muối từ nước biển mặn",
-      "C. Xây nhà trên mặt nước",
-      "D. Chắn sóng, bảo vệ bờ biển"
-    ],
-    "question": "Rừng ngập mặn ven biển có ích lợi gì lớn nhất?",
-    "bai": 28
-  },
-  {
-    "answer": 0,
-    "explanation": "Ruộng bậc thang là cách người dân miền núi biến sườn dốc thành từng bậc để trồng lúa và giữ đất khỏi trôi. Đó là tác động tốt, sống hài hòa với thiên nhiên.",
-    "id": 224,
-    "options": [
-      "A. Thích ứng với núi dốc: trồng lúa, giữ đất",
-      "B. Con người phá núi làm đường đi lại cho tiện",
-      "C. Con người bỏ ruộng hoang không trồng",
-      "D. Con người lấp sông làm ruộng mới"
-    ],
-    "question": "Ruộng bậc thang Sa Pa là ví dụ cho điều gì?",
-    "bai": 28
-  },
-  {
-    "answer": 1,
-    "explanation": "Bão, lũ, hạn hán và động đất là thiên nhiên tác động lại, gây thiệt hại nhà cửa, mùa màng và tính mạng. Vì vậy con người phải hiểu thiên nhiên để phòng tránh.",
-    "id": 225,
-    "options": [
-      "A. Chỉ cho cảnh đẹp để ngắm nhìn",
-      "B. Bão, lũ, hạn hán, động đất gây thiệt hại",
-      "C. Chỉ cho mưa thuận gió hòa quanh năm suốt tháng",
-      "D. Không tác động gì đến con người"
-    ],
-    "question": "Thiên nhiên tác động trở lại con người như thế nào?",
-    "bai": 28
-  },
-  {
-    "answer": 2,
-    "explanation": "Rừng ngập mặn là lá chắn sóng tự nhiên bảo vệ bờ biển. Phá rừng để nuôi tôm trước mắt có tiền nhưng sau đó bờ biển sạt lở, thiệt hại còn lớn hơn. Đó là bài học về sống hài hòa với thiên nhiên.",
-    "id": 226,
-    "options": [
-      "A. Nuôi tôm luôn có lợi cho mọi người dân",
-      "B. Phá rừng không ảnh hưởng gì cả",
-      "C. Phá rừng mất lá chắn sóng, hại chính người",
-      "D. Nên phá thêm rừng để nuôi được nhiều tôm hơn"
-    ],
-    "question": "Tình huống: Một làng ven biển phá hết rừng ngập mặn để nuôi tôm một thời gian rồi bờ biển bị sóng đánh sạt lở. Bài học rút ra là gì?",
-    "bai": 28
-  },
-  {
-    "answer": 0,
-    "explanation": "Tài nguyên thiên nhiên là của cải sẵn có trong tự nhiên như đất, nước, rừng, khoáng sản. Con người dùng tài nguyên để sống và sản xuất.",
-    "id": 227,
-    "options": [
-      "A. Của cải sẵn có trong tự nhiên",
-      "B. Tiền trong ngân hàng tiết kiệm",
-      "C. Máy móc do con người làm ra",
-      "D. Hàng hóa nhập từ nước ngoài về bán"
-    ],
-    "question": "Tài nguyên thiên nhiên là gì?",
-    "bai": 29
-  },
-  {
-    "answer": 1,
-    "explanation": "Than đá và dầu mỏ hình thành hàng triệu năm mới có, dùng hết là hết nên gọi là không tái tạo được. Rừng, nước mưa, đất (nếu giữ gìn) thì tái tạo được.",
-    "id": 228,
-    "options": [
-      "A. Rừng trồng",
-      "B. Than đá và dầu mỏ",
-      "C. Nước mưa",
-      "D. Đất trồng trọt màu mỡ"
-    ],
-    "question": "Loại tài nguyên nào sau đây KHÔNG tái tạo được?",
-    "bai": 29
-  },
-  {
-    "answer": 2,
-    "explanation": "Khai thác thông minh là dùng tiết kiệm, đúng mức cần dùng, tái chế đồ cũ và tìm vật liệu thay thế. Nhờ vậy tài nguyên còn lâu dài cho mai sau.",
-    "id": 229,
-    "options": [
-      "A. Khai thác càng nhiều càng tốt",
-      "B. Khai thác xong bỏ hoang mặc kệ không lo",
-      "C. Dùng tiết kiệm, đúng mức và tái chế",
-      "D. Cấm khai thác hoàn toàn mọi thứ"
-    ],
-    "question": "Khai thác thông minh tài nguyên nghĩa là gì?",
-    "bai": 29
-  },
-  {
-    "answer": 3,
-    "explanation": "Phát triển bền vững là hôm nay đủ ăn, đủ mặc, đủ học mà vẫn để dành tài nguyên cho con cháu mai sau. Nói đơn giản: dùng sao cho con cháu vẫn còn mà dùng.",
-    "id": 230,
-    "options": [
-      "A. Phát triển thật nhanh bất chấp môi trường",
-      "B. Chỉ phát triển kinh tế, bỏ qua môi trường sống",
-      "C. Ngừng phát triển để giữ thiên nhiên",
-      "D. Đủ dùng hôm nay mà vẫn để dành cho mai sau"
-    ],
-    "question": "Phát triển bền vững nghĩa là gì?",
-    "bai": 29
-  },
-  {
-    "answer": 0,
-    "explanation": "Vườn quốc gia là khu vực được bảo vệ nghiêm ngặt để giữ rừng và các loài quý hiếm. Ví dụ: Vườn quốc gia Cúc Phương là vườn quốc gia đầu tiên của Việt Nam.",
-    "id": 231,
-    "options": [
-      "A. Bảo vệ rừng và loài quý hiếm",
-      "B. Chặt gỗ bán lấy tiền nhanh",
-      "C. Xây nhà ở cho dân nghèo",
-      "D. Khai thác khoáng sản dưới đất"
-    ],
-    "question": "Vườn quốc gia có vai trò gì?",
-    "bai": 29
-  },
-  {
-    "answer": 1,
-    "explanation": "Năng lượng mặt trời và gió dùng mãi không hết vì mặt trời ngày nào cũng mọc, gió ngày nào cũng thổi. Than đá, dầu mỏ, khí đốt thì dùng hết là hết.",
-    "id": 232,
-    "options": [
-      "A. Than đá",
-      "B. Năng lượng mặt trời và gió",
-      "C. Dầu mỏ",
-      "D. Khí đốt tự nhiên dưới lòng đất"
-    ],
-    "question": "Năng lượng nào sau đây là năng lượng tái tạo?",
-    "bai": 29
-  },
-  {
-    "answer": 2,
-    "explanation": "Tắt điện khi không dùng giúp tiết kiệm điện, tiết kiệm nước giúp giữ nguồn nước, dùng túi vải thay túi ni-lông giúp giảm rác thải nhựa. Những việc nhỏ này ai cũng làm được.",
-    "id": 233,
-    "options": [
-      "A. Để đèn sáng cả ngày lẫn đêm",
-      "B. Xả nước thoải mái không cần tiếc",
-      "C. Tắt điện, tiết kiệm nước, dùng túi vải",
-      "D. Mua nhiều đồ dùng một lần rồi vứt đi ngay"
-    ],
-    "question": "Việc nào sau đây giúp tiết kiệm tài nguyên?",
-    "bai": 29
-  },
-  {
-    "answer": 3,
-    "explanation": "Săn bắt nhiều làm loài quý hiếm tuyệt chủng, tức biến mất hoàn toàn khỏi Trái Đất. Mất một loài sẽ làm mất cân bằng thiên nhiên, ảnh hưởng cả loài khác.",
-    "id": 234,
-    "options": [
-      "A. Vì thú quý hiếm chạy nhanh rất khó bắt",
-      "B. Vì thú quý hiếm khó nuôi trong nhà",
-      "C. Vì thú quý hiếm đắt tiền khó mua",
-      "D. Vì săn bắt nhiều làm tuyệt chủng loài"
-    ],
-    "question": "Vì sao phải cấm săn bắt thú quý hiếm?",
-    "bai": 29
-  },
-  {
-    "answer": 0,
-    "explanation": "Túi ni-lông làm từ dầu mỏ và hàng trăm năm mới phân hủy. Dùng túi vải thay túi ni-lông giúp giảm rác nhựa và tiết kiệm dầu mỏ.",
-    "id": 235,
-    "options": [
-      "A. Giảm rác nhựa, tiết kiệm dầu mỏ",
-      "B. Làm trường đẹp hơn mỗi ngày",
-      "C. Giúp học sinh vui hơn khi đến lớp",
-      "D. Không giúp gì cả"
-    ],
-    "question": "Tình huống: Trường em phát động “Ngày không túi ni-lông”. Việc này giúp bảo vệ tài nguyên như thế nào?",
-    "bai": 29
-  },
-  {
-    "answer": 1,
-    "explanation": "Em cần tìm hiểu người dân dùng đất, nước, rừng ra sao và thiên nhiên thay đổi tốt hay xấu vì những việc đó. Như vậy mới thấy rõ quan hệ hai chiều giữa người và thiên nhiên.",
-    "id": 236,
-    "options": [
-      "A. Chỉ tìm hiểu thời tiết mỗi ngày nắng mưa",
-      "B. Dân dùng thiên nhiên ra sao, đổi thế nào",
-      "C. Chỉ tìm hiểu tên các loài cây trong làng",
-      "D. Chỉ tìm hiểu lịch sử của làng"
-    ],
-    "question": "Muốn tìm hiểu quan hệ giữa con người và thiên nhiên ở địa phương, em cần tìm hiểu điều gì?",
-    "bai": 30
-  },
-  {
-    "answer": 2,
-    "explanation": "Phỏng vấn phải xin phép trước, hỏi lịch sự và cảm ơn sau khi hỏi. Tôn trọng người được hỏi thì họ mới vui vẻ chia sẻ điều hay.",
-    "id": 237,
-    "options": [
-      "A. Hỏi thật nhanh rồi bỏ đi ngay lập tức",
-      "B. Không cần xin phép ai cả",
-      "C. Xin phép, hỏi lịch sự và cảm ơn",
-      "D. Chỉ hỏi trẻ con trong làng"
-    ],
-    "question": "Khi phỏng vấn người dân địa phương, em cần chú ý điều gì?",
-    "bai": 30
-  },
-  {
-    "answer": 3,
-    "explanation": "Bảng thường có cột việc làm của con người, cột tác động tốt và cột tác động xấu. Nhìn vào bảng là thấy ngay việc nào nên làm, việc nào nên tránh.",
-    "id": 238,
-    "options": [
-      "A. Chỉ có cột tên người làm",
-      "B. Chỉ có cột điểm số",
-      "C. Chỉ có cột thời gian quan sát ghi chép",
-      "D. Việc làm, tác động tốt, tác động xấu"
-    ],
-    "question": "Bảng kết quả tìm hiểu quan hệ người – thiên nhiên thường có những cột nào?",
-    "bai": 30
-  },
-  {
-    "answer": 0,
-    "explanation": "Đánh bắt vừa phải, không dùng thuốc nổ giúp cá còn sinh sản, năm sau vẫn có cá để đánh. Đó là khai thác thông minh, giữ nguồn lợi lâu dài.",
-    "id": 239,
-    "options": [
-      "A. Khai thác thông minh, giữ nguồn lợi",
-      "B. Phá hoại biển nghiêm trọng lâu dài về sau",
-      "C. Làm biển ô nhiễm nặng nề",
-      "D. Bắt hết cá trong biển"
-    ],
-    "question": "Làng chài đánh bắt vừa phải, không dùng thuốc nổ là ví dụ cho điều gì?",
-    "bai": 30
-  },
-  {
-    "answer": 1,
-    "explanation": "Thuốc trừ sâu trôi xuống mương gây ô nhiễm nước, cá chết và người dùng nước dễ bị bệnh. Vì vậy nông dân cần dùng thuốc đúng cách, đúng liều lượng.",
-    "id": 240,
-    "options": [
-      "A. Tác động tốt cho mùa màng",
-      "B. Tác động xấu: ô nhiễm nước, hại cá",
-      "C. Không tác động gì đến mương",
-      "D. Tác động tốt cho cá dưới mương nước"
-    ],
-    "question": "Nông dân xả thuốc trừ sâu xuống mương là tác động gì?",
-    "bai": 30
-  },
-  {
-    "answer": 2,
-    "explanation": "Nhóm cần thảo luận để đề xuất giải pháp bảo vệ thiên nhiên, rồi trình bày trước lớp hoặc tuyên truyền qua báo tường. Kết quả tìm hiểu phải trở thành việc làm cụ thể.",
-    "id": 241,
-    "options": [
-      "A. Giấu kết quả đi không cho ai biết cả",
-      "B. Vứt bảng kết quả vào sọt rác",
-      "C. Đề xuất giải pháp và trình bày",
-      "D. Bịa thêm kết quả cho thật hay"
-    ],
-    "question": "Sau khi tìm hiểu, nhóm em nên làm gì với kết quả?",
-    "bai": 30
-  },
-  {
-    "answer": 3,
-    "explanation": "Báo tường, tranh cổ động và nhắc nhau giữ sạch là cách tuyên truyền đơn giản mà hiệu quả. Cả trường cùng làm thì môi trường trường học sạch đẹp lên.",
-    "id": 242,
-    "options": [
-      "A. Xả rác bừa bãi khắp sân trường mỗi ngày",
-      "B. Chặt cây trong sân trường",
-      "C. Giấu kết quả tìm hiểu",
-      "D. Làm báo tường, vẽ tranh cổ động"
-    ],
-    "question": "Tuyên truyền bảo vệ môi trường ở trường có thể làm bằng cách nào?",
-    "bai": 30
-  },
-  {
-    "answer": 0,
-    "explanation": "Ghi chép phải trung thực, ghi đúng những gì thấy và nghe, kể cả điều chưa tốt. Có trung thực thì giải pháp đề xuất mới đúng và có ích.",
-    "id": 243,
-    "options": [
-      "A. Trung thực: ghi đúng những gì thấy",
-      "B. Bịa thêm cho hay hơn bài khác",
-      "C. Chỉ ghi điều tốt, giấu điều xấu đi",
-      "D. Chép của nhóm khác cho nhanh"
-    ],
-    "question": "Khi ghi chép kết quả tìm hiểu, thái độ đúng là gì?",
-    "bai": 30
-  },
-  {
-    "answer": 2,
-    "explanation": "Nhóm không tự ý cãi nhau với xưởng mà ghi chép, chụp ảnh làm bằng chứng rồi báo thầy cô và chính quyền địa phương. Chính quyền mới có quyền kiểm tra và xử lí xưởng.",
-    "id": 244,
-    "options": [
-      "A. Giấu kín vì sợ phiền phức",
-      "B. Tự ý đến cãi nhau với xưởng cho hả giận",
-      "C. Ghi chép, chụp ảnh, báo chính quyền",
-      "D. Rủ nhau tắm ở đoạn sông đó"
-    ],
-    "question": "Tình huống: Nhóm em phát hiện một xưởng xả nước bẩn ra sông gần làng. Nhóm em nên làm gì?",
-    "bai": 30
-  }
+ {
+  "id": 1,
+  "question": "Môn Địa lí nghiên cứu chủ yếu về nội dung nào?",
+  "options": [
+   "A. Bề mặt Trái Đất và con người sống trên đó",
+   "B. Các con số và phép tính",
+   "C. Các triều vua thời xưa",
+   "D. Các phản ứng hóa học"
+  ],
+  "answer": 0,
+  "explanation": "Địa lí tìm hiểu bề mặt Trái Đất, thiên nhiên và con người.",
+  "bai": 0
+ },
+ {
+  "id": 2,
+  "question": "Công cụ nào được dùng nhiều nhất khi học Địa lí?",
+  "options": [
+   "A. Cân điện tử",
+   "B. Bản đồ và quả địa cầu",
+   "C. Kính hiển vi",
+   "D. Ống nghiệm"
+  ],
+  "answer": 1,
+  "explanation": "Bản đồ và quả địa cầu là hai công cụ chính của môn Địa lí.",
+  "bai": 0
+ },
+ {
+  "id": 3,
+  "question": "Nhìn từ vũ trụ, Trái Đất có màu chủ đạo là màu gì?",
+  "options": [
+   "A. Vàng",
+   "B. Tím",
+   "C. Xanh dương",
+   "D. Đỏ"
+  ],
+  "answer": 2,
+  "explanation": "Đại dương chiếm khoảng 3/4 bề mặt nên Trái Đất trông xanh dương.",
+  "bai": 0
+ },
+ {
+  "id": 4,
+  "question": "Học Địa lí giúp em hiểu được điều nào sau đây?",
+  "options": [
+   "A. Cách nấu ăn ngon hơn",
+   "B. Cách đá bóng giỏi hơn",
+   "C. Cách gấp máy bay giấy",
+   "D. Vì sao có mùa mưa và mùa khô"
+  ],
+  "answer": 3,
+  "explanation": "Địa lí giải thích các hiện tượng thiên nhiên quanh ta như mùa mưa, mùa khô.",
+  "bai": 0
+ },
+ {
+  "id": 5,
+  "question": "Khi muốn biết một địa điểm nằm ở đâu, em dùng công cụ nào?",
+  "options": [
+   "A. Bản đồ",
+   "B. Nhiệt kế",
+   "C. Thước kẻ",
+   "D. Cái cân"
+  ],
+  "answer": 0,
+  "explanation": "Bản đồ cho biết vị trí của các địa điểm.",
+  "bai": 0
+ },
+ {
+  "id": 6,
+  "question": "Việc nào sau đây có dùng hiểu biết địa lí trong đời sống?",
+  "options": [
+   "A. Đọc truyện tranh",
+   "B. Xem dự báo thời tiết trước khi đi học",
+   "C. Nghe nhạc trước khi ngủ",
+   "D. Tập thể dục buổi sáng"
+  ],
+  "answer": 1,
+  "explanation": "Dự báo thời tiết là một ứng dụng quen thuộc của địa lí.",
+  "bai": 0
+ },
+ {
+  "id": 7,
+  "question": "Ba câu hỏi cốt lõi khi tìm hiểu một vấn đề địa lí là gì?",
+  "options": [
+   "A. Bao nhiêu tiền? Mua ở đâu? Có giảm giá không?",
+   "B. Sáng hay chiều? Nắng hay mưa?",
+   "C. Ở đâu? Như thế nào? Vì sao?",
+   "D. Ai? Khi nào? Ở trường nào?"
+  ],
+  "answer": 2,
+  "explanation": "Địa lí luôn hỏi: ở đâu, như thế nào và vì sao.",
+  "bai": 0
+ },
+ {
+  "id": 8,
+  "question": "Kinh tuyến là những đường:",
+  "options": [
+   "A. Song song với Xích đạo",
+   "B. Bao quanh Mặt Trời",
+   "C. Nối các thủ đô với nhau",
+   "D. Nối hai cực Bắc – Nam"
+  ],
+  "answer": 3,
+  "explanation": "Kinh tuyến là các đường dọc nối cực Bắc và cực Nam.",
+  "bai": 1
+ },
+ {
+  "id": 9,
+  "question": "Vĩ tuyến gốc (0°) có tên gọi là gì?",
+  "options": [
+   "A. Xích đạo",
+   "B. Chí tuyến Bắc",
+   "C. Vòng cực Nam",
+   "D. Kinh tuyến gốc"
+  ],
+  "answer": 0,
+  "explanation": "Vĩ tuyến gốc chính là Xích đạo.",
+  "bai": 1
+ },
+ {
+  "id": 10,
+  "question": "Kinh tuyến gốc 0° đi qua địa điểm nào?",
+  "options": [
+   "A. Vạn Lí Trường Thành (Trung Quốc)",
+   "B. Đài thiên văn Gờ-rin-uýt (Luân Đôn)",
+   "C. Tháp Eiffel (Pa-ri)",
+   "D. Kim tự tháp (Ai Cập)"
+  ],
+  "answer": 1,
+  "explanation": "Kinh tuyến gốc đi qua Gờ-rin-uýt ở Luân Đôn, nước Anh.",
+  "bai": 1
+ },
+ {
+  "id": 11,
+  "question": "Việt Nam nằm ở bán cầu nào theo cách chia bằng Xích đạo và kinh tuyến gốc?",
+  "options": [
+   "A. Bán cầu Bắc và bán cầu Tây",
+   "B. Bán cầu Nam và bán cầu Tây",
+   "C. Bán cầu Bắc và bán cầu Đông",
+   "D. Bán cầu Nam và bán cầu Đông"
+  ],
+  "answer": 2,
+  "explanation": "Việt Nam nằm phía bắc Xích đạo và phía đông kinh tuyến gốc.",
+  "bai": 1
+ },
+ {
+  "id": 12,
+  "question": "Tọa độ địa lí của một điểm bao gồm:",
+  "options": [
+   "A. Độ cao và độ sâu",
+   "B. Nhiệt độ và lượng mưa",
+   "C. Diện tích và dân số",
+   "D. Kinh độ và vĩ độ"
+  ],
+  "answer": 3,
+  "explanation": "Tọa độ địa lí = kinh độ + vĩ độ.",
+  "bai": 1
+ },
+ {
+  "id": 13,
+  "question": "Vĩ tuyến dài nhất trên Trái Đất là:",
+  "options": [
+   "A. Xích đạo",
+   "B. Chí tuyến Nam",
+   "C. Vòng cực Bắc",
+   "D. Vĩ tuyến 60°"
+  ],
+  "answer": 0,
+  "explanation": "Xích đạo là vĩ tuyến dài nhất.",
+  "bai": 1
+ },
+ {
+  "id": 14,
+  "question": "Điểm nằm trên Xích đạo có vĩ độ bằng bao nhiêu?",
+  "options": [
+   "A. 23,5°",
+   "B. 0°",
+   "C. 90°",
+   "D. 180°"
+  ],
+  "answer": 1,
+  "explanation": "Mọi điểm trên Xích đạo đều có vĩ độ 0°.",
+  "bai": 1
+ },
+ {
+  "question": "Hệ thống kinh tuyến và vĩ tuyến trên quả Địa Cầu có vai trò gì?",
+  "options": [
+   "A. Thể hiện đặc điểm các đối tượng địa lí trên bản đồ",
+   "B. Thể hiện số lượng các đối tượng địa lí trên bản đồ",
+   "C. Xác định được vị trí của mọi điểm trên bản đồ",
+   "D. Xác định mối liên hệ giữa các địa điểm trên bản đồ"
+  ],
+  "answer": 2,
+  "explanation": "Kinh tuyến và vĩ tuyến tạo thành lưới giúp xác định vị trí của mọi điểm trên bản đồ và quả Địa Cầu.",
+  "id": 15,
+  "bai": 1
+ },
+ {
+  "id": 16,
+  "question": "Theo quy ước, trên bản đồ phía trên là hướng nào?",
+  "options": [
+   "A. Đông",
+   "B. Tây",
+   "C. Bắc",
+   "D. Nam"
+  ],
+  "answer": 2,
+  "explanation": "Quy ước: trên = Bắc, dưới = Nam, phải = Đông, trái = Tây.",
+  "bai": 2
+ },
+ {
+  "id": 17,
+  "question": "Trên bản đồ có tất cả bao nhiêu hướng chính?",
+  "options": [
+   "A. 4 hướng",
+   "B. 6 hướng",
+   "C. 12 hướng",
+   "D. 8 hướng"
+  ],
+  "answer": 3,
+  "explanation": "Có 4 hướng chính và 4 hướng phụ, tổng cộng 8 hướng.",
+  "bai": 2
+ },
+ {
+  "id": 18,
+  "question": "Hướng nằm giữa hướng Nam và hướng Tây là hướng:",
+  "options": [
+   "A. Tây Nam",
+   "B. Đông Nam",
+   "C. Tây Bắc",
+   "D. Đông Bắc"
+  ],
+  "answer": 0,
+  "explanation": "Giữa Nam và Tây là hướng Tây Nam.",
+  "bai": 2
+ },
+ {
+  "id": 19,
+  "question": "Bản đồ là:",
+  "options": [
+   "A. Sơ đồ một ngôi nhà",
+   "B. Hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng",
+   "C. Ảnh chụp Trái Đất từ vệ tinh",
+   "D. Mô hình quả địa cầu"
+  ],
+  "answer": 1,
+  "explanation": "Bản đồ là hình vẽ thu nhỏ bề mặt Trái Đất lên mặt phẳng theo tỉ lệ.",
+  "bai": 2
+ },
+ {
+  "id": 20,
+  "question": "Trên bản đồ Việt Nam, biển Đông nằm ở phía nào của đất nước?",
+  "options": [
+   "A. Phía Bắc",
+   "B. Phía Nam",
+   "C. Phía Đông",
+   "D. Phía Tây"
+  ],
+  "answer": 2,
+  "explanation": "Biển Đông nằm ở phía Đông Việt Nam.",
+  "bai": 2
+ },
+ {
+  "question": "Trên bản đồ châu Á, nước ta nằm về hướng nào của châu Á?",
+  "options": [
+   "A. Đông Nam",
+   "B. Tây Nam",
+   "C. Đông Bắc",
+   "D. Tây Bắc"
+  ],
+  "answer": 0,
+  "explanation": "Nhìn trên bản đồ châu Á, Việt Nam nằm ở phía Đông Nam của châu lục này.",
+  "id": 21,
+  "bai": 2
+ },
+ {
+  "id": 22,
+  "question": "Nếu đứng quay mặt về hướng Bắc thì tay phải của em chỉ hướng nào?",
+  "options": [
+   "A. Tây",
+   "B. Nam",
+   "C. Đông Nam",
+   "D. Đông"
+  ],
+  "answer": 3,
+  "explanation": "Quay mặt về hướng Bắc: tay phải là Đông, tay trái là Tây, sau lưng là Nam.",
+  "bai": 2
+ },
+ {
+  "id": 23,
+  "question": "Vì sao lưới kinh, vĩ tuyến ở các bản đồ thế giới trông không giống nhau?",
+  "options": [
+   "A. Do cách chiếu bản đồ khác nhau",
+   "B. Do người vẽ tùy ý",
+   "C. Do Trái Đất thay đổi hình dạng",
+   "D. Do bản đồ bị in lỗi"
+  ],
+  "answer": 0,
+  "explanation": "Mỗi phép chiếu trải phẳng bề mặt cong theo cách riêng nên lưới kinh vĩ có hình dạng khác nhau.",
+  "bai": 2
+ },
+ {
+  "id": 24,
+  "question": "Bản đồ có tỉ lệ 1 : 1 000 000, khoảng cách đo được là 5 cm. Khoảng cách thực tế là:",
+  "options": [
+   "A. 0,5 km",
+   "B. 50 km",
+   "C. 5 km",
+   "D. 500 km"
+  ],
+  "answer": 1,
+  "explanation": "5 × 1 000 000 = 5 000 000 cm = 50 km.",
+  "bai": 3
+ },
+ {
+  "id": 25,
+  "question": "Tỉ lệ bản đồ cho biết:",
+  "options": [
+   "A. Số dân của một vùng",
+   "B. Hướng gió trên bản đồ",
+   "C. Mức độ thu nhỏ của bản đồ so với thực tế",
+   "D. Độ cao của núi trên bản đồ"
+  ],
+  "answer": 2,
+  "explanation": "Tỉ lệ bản đồ cho biết bản đồ thu nhỏ bao nhiêu lần so với thực tế.",
+  "bai": 3
+ },
+ {
+  "question": "Mức độ thể hiện các đối tượng địa lí trên bản đồ phụ thuộc vào yếu tố nào?",
+  "options": [
+   "A. Tỉ lệ bản đồ",
+   "B. Kí hiệu bản đồ",
+   "C. Phép chiếu đồ",
+   "D. Mạng lưới kinh, vĩ tuyến"
+  ],
+  "answer": 0,
+  "explanation": "Tỉ lệ bản đồ càng lớn thì các đối tượng địa lí được thể hiện càng nhiều và càng chi tiết; tỉ lệ càng nhỏ thì thể hiện càng ít.",
+  "id": 26,
+  "bai": 3
+ },
+ {
+  "id": 27,
+  "question": "Bản đồ tỉ lệ 1 : 200 000, đo được 4 cm. Khoảng cách thực tế là:",
+  "options": [
+   "A. 4 km",
+   "B. 80 km",
+   "C. 2 km",
+   "D. 8 km"
+  ],
+  "answer": 3,
+  "explanation": "4 × 200 000 = 800 000 cm = 8 km.",
+  "bai": 3
+ },
+ {
+  "id": 28,
+  "question": "Tỉ lệ thước là dạng tỉ lệ được thể hiện dưới dạng:",
+  "options": [
+   "A. Một thước đo có chia vạch sẵn trên bản đồ",
+   "B. Một phân số",
+   "C. Một con số phần trăm",
+   "D. Một bảng chữ cái"
+  ],
+  "answer": 0,
+  "explanation": "Tỉ lệ thước vẽ như một cây thước để đo trực tiếp trên bản đồ.",
+  "bai": 3
+ },
+ {
+  "id": 29,
+  "question": "Trong hai bản đồ 1 : 50 000 và 1 : 500 000, bản đồ nào chi tiết hơn?",
+  "options": [
+   "A. Không so sánh được",
+   "B. 1 : 50 000",
+   "C. 1 : 500 000",
+   "D. Hai bản đồ như nhau"
+  ],
+  "answer": 1,
+  "explanation": "Mẫu số càng nhỏ thì tỉ lệ càng lớn, bản đồ càng chi tiết.",
+  "bai": 3
+ },
+ {
+  "id": 30,
+  "question": "Muốn tính khoảng cách thực tế, bước đầu tiên em cần làm gì?",
+  "options": [
+   "A. Đếm số kí hiệu trên bản đồ",
+   "B. Xem bảng chú giải",
+   "C. Đo khoảng cách giữa hai điểm trên bản đồ",
+   "D. Đo chiều dài tờ bản đồ"
+  ],
+  "answer": 2,
+  "explanation": "Trước hết đo khoảng cách trên bản đồ, rồi nhân với mẫu số tỉ lệ.",
+  "bai": 3
+ },
+ {
+  "id": 31,
+  "question": "1 cm trên bản đồ tỉ lệ 1 : 250 000 ứng với bao nhiêu km thực tế?",
+  "options": [
+   "A. 25 km",
+   "B. 250 m",
+   "C. 0,25 km",
+   "D. 2,5 km"
+  ],
+  "answer": 3,
+  "explanation": "250 000 cm = 2,5 km.",
+  "bai": 3
+ },
+ {
+  "question": "Khoảng cách đường bộ từ Hà Nội đến TP. Vinh (Nghệ An) khoảng 300 km. Trên một bản đồ, khoảng cách đó đo được 5 cm. Hỏi tỉ lệ của bản đồ là bao nhiêu?",
+  "options": [
+   "A. 1 : 600 000",
+   "B. 1 : 6 000 000",
+   "C. 1 : 5 000 000",
+   "D. 1 : 300 000"
+  ],
+  "answer": 1,
+  "explanation": "Đường bộ Hà Nội – TP. Vinh dài khoảng 300 km (thực tế khoảng 299–304 km theo quốc lộ 1). Đổi 300 km = 30 000 000 cm; 30 000 000 : 5 = 6 000 000. Vậy tỉ lệ bản đồ là 1 : 6 000 000.",
+  "id": 32,
+  "bai": 3
+ },
+ {
+  "id": 33,
+  "question": "Kí hiệu bản đồ được chia thành mấy loại chính?",
+  "options": [
+   "A. 3 loại: điểm, đường, diện",
+   "B. 2 loại: to và nhỏ",
+   "C. 4 loại: tròn, vuông, tam giác, sao",
+   "D. 5 loại theo màu sắc"
+  ],
+  "answer": 0,
+  "explanation": "Có 3 loại kí hiệu: điểm, đường và diện.",
+  "bai": 4
+ },
+ {
+  "question": "Đâu KHÔNG phải là loại kí hiệu thường được sử dụng trên bản đồ?",
+  "options": [
+   "A. Kí hiệu điểm",
+   "B. Kí hiệu âm thanh",
+   "C. Kí hiệu đường",
+   "D. Kí hiệu diện tích"
+  ],
+  "answer": 1,
+  "explanation": "Bản đồ thường dùng 3 loại kí hiệu: điểm, đường và diện tích. 'Kí hiệu âm thanh' không phải là một loại kí hiệu bản đồ.",
+  "id": 34,
+  "bai": 4
+ },
+ {
+  "id": 35,
+  "question": "Con sông trên bản đồ được thể hiện bằng loại kí hiệu nào?",
+  "options": [
+   "A. Không có kí hiệu",
+   "B. Kí hiệu đường",
+   "C. Kí hiệu điểm",
+   "D. Kí hiệu diện"
+  ],
+  "answer": 1,
+  "explanation": "Sông kéo dài thành đường nên thuộc kí hiệu đường.",
+  "bai": 4
+ },
+ {
+  "id": 36,
+  "question": "Bảng chú giải trên bản đồ có tác dụng gì?",
+  "options": [
+   "A. Ghi tên tác giả bản đồ",
+   "B. Cho biết giá bán bản đồ",
+   "C. Giải thích ý nghĩa các kí hiệu",
+   "D. Trang trí cho bản đồ đẹp hơn"
+  ],
+  "answer": 2,
+  "explanation": "Bảng chú giải là “từ điển” giải thích các kí hiệu.",
+  "bai": 4
+ },
+ {
+  "id": 37,
+  "question": "Một thành phố trên bản đồ thế giới thường được kí hiệu bằng:",
+  "options": [
+   "A. Một mảng màu lớn",
+   "B. Một đường dài",
+   "C. Một hình tam giác",
+   "D. Một chấm tròn nhỏ"
+  ],
+  "answer": 3,
+  "explanation": "Thành phố là đối tượng dạng điểm nên dùng kí hiệu điểm.",
+  "bai": 4
+ },
+ {
+  "id": 38,
+  "question": "Khi đọc một bản đồ lạ, việc đầu tiên em nên làm là:",
+  "options": [
+   "A. Đọc bảng chú giải",
+   "B. Tô màu bản đồ",
+   "C. Đo kích thước tờ bản đồ",
+   "D. Gấp bản đồ lại"
+  ],
+  "answer": 0,
+  "explanation": "Đọc chú giải trước để hiểu các kí hiệu, rồi mới đọc bản đồ.",
+  "bai": 4
+ },
+ {
+  "id": 39,
+  "question": "Khu rừng trên bản đồ thường được thể hiện bằng:",
+  "options": [
+   "A. Chữ viết hoa",
+   "B. Mảng màu xanh lá",
+   "C. Một chấm đen",
+   "D. Một đường đỏ"
+  ],
+  "answer": 1,
+  "explanation": "Rừng chiếm diện tích nên dùng kí hiệu diện — mảng màu.",
+  "bai": 4
+ },
+ {
+  "id": 40,
+  "question": "Để tìm đường đi trên bản đồ, em cần xác định trước nhất điều gì?",
+  "options": [
+   "A. Năm xuất bản bản đồ",
+   "B. Màu sắc của bản đồ",
+   "C. Điểm bắt đầu và điểm đến",
+   "D. Tên người vẽ bản đồ"
+  ],
+  "answer": 2,
+  "explanation": "Biết điểm đi và điểm đến thì mới lần theo đường và hướng được.",
+  "bai": 4
+ },
+ {
+  "id": 41,
+  "question": "Lược đồ trí nhớ là:",
+  "options": [
+   "A. Bản đồ in màu khổ lớn",
+   "B. Ảnh chụp từ vệ tinh",
+   "C. Mô hình 3D của Trái Đất",
+   "D. Hình vẽ đơn giản từ trí nhớ về một khu vực quen thuộc"
+  ],
+  "answer": 3,
+  "explanation": "Lược đồ trí nhớ do em tự phác họa từ trí nhớ.",
+  "bai": 5
+ },
+ {
+  "id": 42,
+  "question": "Đặc điểm nào đúng với lược đồ trí nhớ?",
+  "options": [
+   "A. Không cần đúng tỉ lệ tuyệt đối",
+   "B. Phải đo đạc chính xác từng mét",
+   "C. Phải có bảng chú giải dài",
+   "D. Phải vẽ bằng máy tính"
+  ],
+  "answer": 0,
+  "explanation": "Chỉ cần đúng vị trí tương đối và phương hướng.",
+  "bai": 5
+ },
+ {
+  "id": 43,
+  "question": "Khi vẽ lược đồ trí nhớ, em nên bắt đầu từ:",
+  "options": [
+   "A. Vẽ càng nhiều chi tiết càng tốt",
+   "B. Điểm mốc chính quen thuộc nhất",
+   "C. Vẽ khung giấy trước",
+   "D. Tô màu thật đẹp"
+  ],
+  "answer": 1,
+  "explanation": "Chọn điểm mốc chính rồi phát triển các đối tượng xung quanh.",
+  "bai": 5
+ },
+ {
+  "id": 44,
+  "question": "Ở góc của lược đồ trí nhớ nên có:",
+  "options": [
+   "A. Ngày tháng năm sinh",
+   "B. Một bài thơ",
+   "C. Mũi tên chỉ hướng Bắc",
+   "D. Tên tác giả thật to"
+  ],
+  "answer": 2,
+  "explanation": "Mũi tên Bắc giúp định hướng cho người xem lược đồ.",
+  "bai": 5
+ },
+ {
+  "id": 45,
+  "question": "Đối tượng nào phù hợp để vẽ lược đồ trí nhớ?",
+  "options": [
+   "A. Cả châu Á",
+   "B. Đáy đại dương",
+   "C. Mặt Trăng",
+   "D. Đường từ nhà đến trường"
+  ],
+  "answer": 3,
+  "explanation": "Lược đồ trí nhớ dùng cho những nơi quen thuộc, gần gũi.",
+  "bai": 5
+ },
+ {
+  "id": 46,
+  "question": "Lược đồ trí nhớ giúp ích nhất cho việc gì?",
+  "options": [
+   "A. Ghi nhớ và tìm đường trong không gian quen thuộc",
+   "B. Dự báo thời tiết",
+   "C. Tính giờ quốc tế",
+   "D. Đo độ sâu biển"
+  ],
+  "answer": 0,
+  "explanation": "Nó giúp ta hình dung và nhớ đường đi, vị trí các nơi quen thuộc.",
+  "bai": 5
+ },
+ {
+  "id": 47,
+  "question": "Nếu lược đồ của em vẽ trường ở phía đông của chợ, ngoài thực tế trường phải:",
+  "options": [
+   "A. Ở đâu cũng được",
+   "B. Nằm ở phía đông của chợ thật",
+   "C. Nằm ở phía tây của chợ",
+   "D. Nằm chồng lên chợ"
+  ],
+  "answer": 1,
+  "explanation": "Vị trí tương đối trên lược đồ phải khớp với thực tế.",
+  "bai": 5
+ },
+ {
+  "id": 48,
+  "question": "Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?",
+  "options": [
+   "A. Thứ 4",
+   "B. Thứ 5",
+   "C. Thứ 3",
+   "D. Thứ 2"
+  ],
+  "answer": 2,
+  "explanation": "Thứ tự: Thủy – Kim – Trái Đất, nên Trái Đất đứng thứ 3.",
+  "bai": 6
+ },
+ {
+  "id": 49,
+  "question": "Hành tinh nào gần Mặt Trời nhất?",
+  "options": [
+   "A. Sao Kim",
+   "B. Sao Hỏa",
+   "C. Trái Đất",
+   "D. Sao Thủy"
+  ],
+  "answer": 3,
+  "explanation": "Sao Thủy ở gần Mặt Trời nhất.",
+  "bai": 6
+ },
+ {
+  "question": "Hành tinh nào đứng thứ nhất tính từ Mặt Trời và có kích thước nhỏ nhất trong hệ Mặt Trời?",
+  "options": [
+   "A. Sao Kim",
+   "B. Sao Hỏa",
+   "C. Trái Đất",
+   "D. Sao Thủy"
+  ],
+  "answer": 3,
+  "explanation": "Thứ tự từ Mặt Trời ra: Sao Thủy – Sao Kim – Trái Đất – Sao Hỏa – Sao Mộc – Sao Thổ – Sao Thiên Vương – Sao Hải Vương. Sao Thủy đứng thứ nhất (gần Mặt Trời nhất) và cũng là hành tinh nhỏ nhất.",
+  "id": 50,
+  "bai": 6
+ },
+ {
+  "id": 51,
+  "question": "Trái Đất có hình dạng như thế nào?",
+  "options": [
+   "A. Hình cầu",
+   "B. Hình vuông",
+   "C. Hình tam giác",
+   "D. Hình đĩa phẳng"
+  ],
+  "answer": 0,
+  "explanation": "Trái Đất có hình cầu, hơi dẹt ở hai cực.",
+  "bai": 6
+ },
+ {
+  "id": 52,
+  "question": "Bán kính Xích đạo của Trái Đất khoảng bao nhiêu?",
+  "options": [
+   "A. 6 356 km",
+   "B. 6 387 km",
+   "C. 6 378 km",
+   "D. 6 365 km"
+  ],
+  "answer": 2,
+  "explanation": "Bán kính Xích đạo của Trái Đất là 6 378 km.",
+  "bai": 6
+ },
+ {
+  "id": 53,
+  "question": "Nhật thực xảy ra khi:",
+  "options": [
+   "A. Mặt Trời nằm giữa Trái Đất và Mặt Trăng",
+   "B. Mặt Trăng ở phía sau Trái Đất",
+   "C. Mặt Trăng nằm giữa Mặt Trời và Trái Đất",
+   "D. Trái Đất nằm giữa Mặt Trời và Mặt Trăng"
+  ],
+  "answer": 2,
+  "explanation": "Mặt Trăng che Mặt Trời khi nó nằm ở giữa.",
+  "bai": 6
+ },
+ {
+  "id": 54,
+  "question": "Nguyệt thực xảy ra khi:",
+  "options": [
+   "A. Mặt Trăng nằm giữa Mặt Trời và Trái Đất",
+   "B. Mặt Trăng quay lưng lại Trái Đất",
+   "C. Trời nhiều mây",
+   "D. Trái Đất nằm giữa Mặt Trời và Mặt Trăng"
+  ],
+  "answer": 3,
+  "explanation": "Bóng Trái Đất che Mặt Trăng nên xảy ra nguyệt thực.",
+  "bai": 6
+ },
+ {
+  "id": 55,
+  "question": "Vì sao Trái Đất có sự sống mà các hành tinh khác (được biết) thì không?",
+  "options": [
+   "A. Vì có nước lỏng, khí quyển và khoảng cách vừa phải tới Mặt Trời",
+   "B. Vì Trái Đất to nhất",
+   "C. Vì Trái Đất quay nhanh nhất",
+   "D. Vì Trái Đất gần Mặt Trăng nhất"
+  ],
+  "answer": 0,
+  "explanation": "Ba điều kiện: khoảng cách vừa phải, nước lỏng và khí quyển.",
+  "bai": 6
+ },
+ {
+  "id": 56,
+  "question": "Trái Đất tự quay quanh trục theo hướng nào?",
+  "options": [
+   "A. Từ Nam lên Bắc",
+   "B. Từ Tây sang Đông",
+   "C. Từ Đông sang Tây",
+   "D. Từ Bắc xuống Nam"
+  ],
+  "answer": 1,
+  "explanation": "Trái Đất quay từ Tây sang Đông nên ta thấy Mặt Trời mọc ở phía Đông.",
+  "bai": 7
+ },
+ {
+  "id": 57,
+  "question": "Trái Đất tự quay một vòng quanh trục trong thời gian bao lâu?",
+  "options": [
+   "A. 30 ngày",
+   "B. 365 ngày",
+   "C. 24 giờ",
+   "D. 7 ngày"
+  ],
+  "answer": 2,
+  "explanation": "Một vòng tự quay = 24 giờ, là một ngày đêm.",
+  "bai": 7
+ },
+ {
+  "id": 58,
+  "question": "Hiện tượng ngày và đêm luân phiên là hệ quả của:",
+  "options": [
+   "A. Sự quay của Mặt Trăng",
+   "B. Gió thổi mạnh",
+   "C. Mây che Mặt Trời",
+   "D. Sự tự quay của Trái Đất"
+  ],
+  "answer": 3,
+  "explanation": "Nửa sáng – nửa tối đổi chỗ liên tục do Trái Đất tự quay.",
+  "bai": 7
+ },
+ {
+  "question": "Vì sao bề mặt Trái Đất luôn có một nửa được Mặt Trời chiếu sáng (là ngày) và một nửa không được chiếu sáng (là đêm)?",
+  "options": [
+   "A. Vì Trái Đất tự quay quanh trục",
+   "B. Vì trục Trái Đất nghiêng",
+   "C. Vì Trái Đất có dạng hình cầu",
+   "D. Vì Trái Đất chuyển động quanh Mặt Trời"
+  ],
+  "answer": 2,
+  "explanation": "Vì Trái Đất có dạng hình cầu nên ánh sáng Mặt Trời chỉ chiếu được một nửa bề mặt: nửa được chiếu sáng là ngày, nửa còn lại khuất trong tối là đêm.",
+  "id": 59,
+  "bai": 7
+ },
+ {
+  "id": 60,
+  "question": "Việt Nam thuộc múi giờ thứ mấy?",
+  "options": [
+   "A. +7",
+   "B. +0",
+   "C. +12",
+   "D. −5"
+  ],
+  "answer": 0,
+  "explanation": "Việt Nam ở múi giờ +7 (GMT+7).",
+  "bai": 7
+ },
+ {
+  "id": 61,
+  "question": "Nơi ở càng về phía Đông thì giờ địa phương sẽ:",
+  "options": [
+   "A. Không liên quan đến hướng",
+   "B. Sớm hơn phía Tây",
+   "C. Muộn hơn phía Tây",
+   "D. Giống hệt phía Tây"
+  ],
+  "answer": 1,
+  "explanation": "Phía Đông đón Mặt Trời sớm hơn nên giờ sớm hơn.",
+  "bai": 7
+ },
+ {
+  "question": "Vì sao giờ ở khu vực phía Đông bao giờ cũng sớm hơn giờ ở khu vực phía Tây?",
+  "options": [
+   "A. Vì Trái Đất quay từ Đông sang Tây",
+   "B. Vì trục Trái Đất nghiêng một góc 66°33'",
+   "C. Vì Trái Đất có dạng hình cầu",
+   "D. Vì Trái Đất tự quay từ Tây sang Đông"
+  ],
+  "answer": 3,
+  "explanation": "Trái Đất tự quay từ Tây sang Đông nên các nơi ở phía Đông lần lượt được Mặt Trời chiếu sáng sớm hơn, vì vậy giờ ở phía Đông sớm hơn phía Tây.",
+  "id": 62,
+  "bai": 7
+ },
+ {
+  "id": 63,
+  "question": "Ở bán cầu Bắc, vật chuyển động theo chiều kinh tuyến bị lệch về phía nào?",
+  "options": [
+   "A. Đi thẳng",
+   "B. Đi giật lùi",
+   "C. Bên phải",
+   "D. Bên trái"
+  ],
+  "answer": 2,
+  "explanation": "Bán cầu Bắc lệch phải, bán cầu Nam lệch trái (lực Cô-ri-ô-lít).",
+  "bai": 7
+ },
+ {
+  "id": 64,
+  "question": "Ta thấy Mặt Trời “mọc” ở hướng Đông vì:",
+  "options": [
+   "A. Mặt Trời quay quanh Trái Đất",
+   "B. Mặt Trăng đẩy Mặt Trời",
+   "C. Gió thổi từ phía Đông",
+   "D. Trái Đất tự quay từ Tây sang Đông"
+  ],
+  "answer": 3,
+  "explanation": "Đó là chuyển động biểu kiến do Trái Đất tự quay Tây → Đông.",
+  "bai": 7
+ },
+ {
+  "question": "Trong các hệ quả của chuyển động tự quay quanh trục của Trái Đất, hệ quả nào có ý nghĩa nhất đối với sự sống?",
+  "options": [
+   "A. Sự luân phiên ngày đêm",
+   "B. Giờ trên Trái Đất",
+   "C. Sự lệch hướng chuyển động của các vật thể",
+   "D. Hiện tượng mùa trong năm"
+  ],
+  "answer": 0,
+  "explanation": "Nhờ ngày và đêm luân phiên, nhiệt độ trên Trái Đất không quá nóng hay quá lạnh, con người có thời gian làm việc và nghỉ ngơi đều đặn — rất cần cho sự sống.",
+  "id": 65,
+  "bai": 7
+ },
+ {
+  "id": 66,
+  "question": "Trái Đất chuyển động quanh Mặt Trời một vòng trong thời gian bao lâu?",
+  "options": [
+   "A. 365 ngày 6 giờ",
+   "B. 24 giờ",
+   "C. 30 ngày",
+   "D. 12 giờ"
+  ],
+  "answer": 0,
+  "explanation": "Một vòng quanh Mặt Trời = một năm = 365 ngày 6 giờ.",
+  "bai": 8
+ },
+ {
+  "id": 67,
+  "question": "Nguyên nhân chính sinh ra hiện tượng các mùa là:",
+  "options": [
+   "A. Gió mùa thổi theo năm",
+   "B. Trục Trái Đất luôn nghiêng và hướng về một phía khi chuyển động quanh Mặt Trời",
+   "C. Trái Đất lúc gần lúc xa Mặt Trời",
+   "D. Mặt Trăng che Mặt Trời theo mùa"
+  ],
+  "answer": 1,
+  "explanation": "Nhờ trục nghiêng không đổi hướng, hai bán cầu thay nhau ngả về phía Mặt Trời.",
+  "bai": 8
+ },
+ {
+  "id": 68,
+  "question": "Vào ngày Hạ chí (22/6), bán cầu Bắc đang là mùa:",
+  "options": [
+   "A. Mùa thu",
+   "B. Mùa mưa",
+   "C. Mùa hạ (mùa hè)",
+   "D. Mùa đông"
+  ],
+  "answer": 2,
+  "explanation": "22/6 bán cầu Bắc ngả về phía Mặt Trời nên vào mùa hạ.",
+  "bai": 8
+ },
+ {
+  "id": 69,
+  "question": "Vào ngày Đông chí (22/12), ở bán cầu Bắc:",
+  "options": [
+   "A. Ngày dài hơn đêm",
+   "B. Ngày bằng đêm",
+   "C. Không có ban đêm",
+   "D. Đêm dài hơn ngày"
+  ],
+  "answer": 3,
+  "explanation": "Đông chí: bán cầu Bắc ngả ra xa Mặt Trời, đêm dài nhất trong năm.",
+  "bai": 8
+ },
+ {
+  "id": 70,
+  "question": "Vào ngày Xuân phân và Thu phân, khắp nơi trên Trái Đất có đặc điểm gì?",
+  "options": [
+   "A. Ngày dài bằng đêm",
+   "B. Ngày dài nhất trong năm",
+   "C. Đêm dài nhất trong năm",
+   "D. Không có ánh nắng"
+  ],
+  "answer": 0,
+  "explanation": "Hai ngày phân, hai bán cầu được chiếu sáng như nhau.",
+  "bai": 8
+ },
+ {
+  "id": 71,
+  "question": "Khi bán cầu Bắc là mùa đông thì bán cầu Nam là mùa:",
+  "options": [
+   "A. Cũng lạnh như nhau",
+   "B. Mùa hè",
+   "C. Mùa đông",
+   "D. Mùa thu"
+  ],
+  "answer": 1,
+  "explanation": "Hai bán cầu luôn có mùa ngược nhau.",
+  "bai": 8
+ },
+ {
+  "question": "Mùa nóng và mùa lạnh ở nước ta trái ngược hoàn toàn với quốc gia nào sau đây?",
+  "options": [
+   "A. Nhật Bản",
+   "B. Ấn Độ",
+   "C. Ô-xtrây-li-a",
+   "D. Mê-hi-cô"
+  ],
+  "answer": 2,
+  "explanation": "Ô-xtrây-li-a nằm ở bán cầu Nam nên mùa ở đó ngược hẳn với Việt Nam ở bán cầu Bắc: nước ta mùa nóng thì ở đó là mùa lạnh.",
+  "id": 72,
+  "bai": 8
+ },
+ {
+  "question": "“Đêm tháng năm chưa nằm đã sáng / Ngày tháng mười chưa cười đã tối.” Câu ca dao này chỉ đúng với nơi ở:",
+  "options": [
+   "A. Nam bán cầu",
+   "B. Bắc bán cầu",
+   "C. Cả hai bán cầu",
+   "D. Vùng gần Xích đạo"
+  ],
+  "answer": 1,
+  "explanation": "Vào tháng năm, bán cầu Bắc ngả về phía Mặt Trời nên ngày dài, đêm ngắn ('chưa nằm đã sáng'); vào tháng mười thì ngày ngắn, đêm dài ('chưa cười đã tối'). Hiện tượng này đúng ở bán cầu Bắc, nơi có Việt Nam.",
+  "id": 73,
+  "bai": 8
+ },
+ {
+  "id": 74,
+  "question": "Phần 6 giờ thừa mỗi năm sau 4 năm sẽ thành:",
+  "options": [
+   "A. Một tuần lễ",
+   "B. Không có gì thay đổi",
+   "C. Một ngày nhuận 29/2",
+   "D. Một tháng nhuận"
+  ],
+  "answer": 2,
+  "explanation": "4 × 6 giờ = 24 giờ = 1 ngày, thêm vào tháng 2 của năm nhuận.",
+  "bai": 8
+ },
+ {
+  "id": 75,
+  "question": "Kim la bàn luôn chỉ theo hướng nào?",
+  "options": [
+   "A. Đông – Tây",
+   "B. Đông Bắc – Tây Nam",
+   "C. Hướng của người cầm",
+   "D. Bắc – Nam"
+  ],
+  "answer": 3,
+  "explanation": "Kim la bàn nhiễm từ nên luôn nằm dọc theo hướng Bắc – Nam.",
+  "bai": 9
+ },
+ {
+  "id": 76,
+  "question": "Vào buổi sáng, Mặt Trời nằm ở phía:",
+  "options": [
+   "A. Đông",
+   "B. Tây",
+   "C. Bắc",
+   "D. Nam"
+  ],
+  "answer": 0,
+  "explanation": "Mặt Trời mọc ở phía Đông.",
+  "bai": 9
+ },
+ {
+  "id": 77,
+  "question": "Ban đêm, để tìm hướng Bắc người ta dựa vào:",
+  "options": [
+   "A. Đám mây sáng",
+   "B. Sao Bắc Cực",
+   "C. Mặt Trăng tròn",
+   "D. Ngôi sao sáng nhất bất kì"
+  ],
+  "answer": 1,
+  "explanation": "Sao Bắc Cực nằm gần đúng ở hướng Bắc.",
+  "bai": 9
+ },
+ {
+  "id": 78,
+  "question": "Trên la bàn quốc tế, chữ S chỉ hướng:",
+  "options": [
+   "A. Đông (East)",
+   "B. Tây (West)",
+   "C. Nam (South)",
+   "D. Bắc (North)"
+  ],
+  "answer": 2,
+  "explanation": "S = South = hướng Nam.",
+  "bai": 9
+ },
+ {
+  "question": "La bàn đặt đúng hướng khi đường Bắc – Nam trên la bàn là đường nào?",
+  "options": [
+   "A. 90° – 270°",
+   "B. 60° – 240°",
+   "C. 30° – 120°",
+   "D. 0° – 180°"
+  ],
+  "answer": 3,
+  "explanation": "Khi đặt la bàn đúng hướng, vạch 0° chỉ về hướng Bắc và vạch 180° chỉ về hướng Nam, nên đường Bắc – Nam là đường thẳng 0° – 180°.",
+  "id": 79,
+  "bai": 9
+ },
+ {
+  "id": 80,
+  "question": "Đứng dang tay, tay phải chỉ hướng Mặt Trời mọc. Vậy sau lưng em là hướng:",
+  "options": [
+   "A. Bắc",
+   "B. Đông",
+   "C. Tây",
+   "D. Nam"
+  ],
+  "answer": 3,
+  "explanation": "Tay phải Đông, tay trái Tây, mặt Bắc, lưng Nam.",
+  "bai": 9
+ },
+ {
+  "id": 81,
+  "question": "Vật nào sau đây KHÔNG dùng để xác định phương hướng?",
+  "options": [
+   "A. Nhiệt kế",
+   "B. La bàn",
+   "C. Mặt Trời",
+   "D. Sao Bắc Cực"
+  ],
+  "answer": 0,
+  "explanation": "Nhiệt kế đo nhiệt độ, không chỉ hướng.",
+  "bai": 9
+ },
+ {
+  "id": 82,
+  "question": "Vào khoảng giữa trưa ở Việt Nam, Mặt Trời thường ở phía:",
+  "options": [
+   "A. Tây",
+   "B. Nam",
+   "C. Bắc",
+   "D. Đông"
+  ],
+  "answer": 1,
+  "explanation": "Việt Nam ở bán cầu Bắc, giữa trưa Mặt Trời lệch về phía Nam.",
+  "bai": 9
+ },
+ {
+  "question": "Ban đêm, muốn tìm hướng Bắc, em có thể dựa vào ngôi sao nào?",
+  "options": [
+   "A. Sao Mai",
+   "B. Sao Bắc Cực",
+   "C. Sao băng",
+   "D. Sao Hôm"
+  ],
+  "answer": 1,
+  "explanation": "Sao Bắc Cực luôn nằm ở phía Bắc trên bầu trời, nên ban đêm em có thể dựa vào nó để xác định hướng Bắc.",
+  "id": 83,
+  "bai": 9
+ },
+ {
+  "id": 84,
+  "question": "Trái Đất được cấu tạo gồm mấy lớp chính?",
+  "options": [
+   "A. 4 lớp",
+   "B. 5 lớp",
+   "C. 3 lớp",
+   "D. 2 lớp"
+  ],
+  "answer": 2,
+  "explanation": "Ba lớp: vỏ, lớp bao phủ (manti) và nhân.",
+  "bai": 10
+ },
+ {
+  "id": 85,
+  "question": "Lớp nào của Trái Đất mỏng nhất?",
+  "options": [
+   "A. Lớp bao phủ (manti)",
+   "B. Nhân ngoài",
+   "C. Nhân trong",
+   "D. Vỏ Trái Đất"
+  ],
+  "answer": 3,
+  "explanation": "Vỏ chỉ dày 5–70 km, mỏng nhất trong 3 lớp.",
+  "bai": 10
+ },
+ {
+  "id": 86,
+  "question": "Nhiệt độ ở nhân Trái Đất có thể lên tới khoảng:",
+  "options": [
+   "A. 6 000°C",
+   "B. 100°C",
+   "C. 600°C",
+   "D. 60 000°C"
+  ],
+  "answer": 0,
+  "explanation": "Nhân Trái Đất nóng khoảng 6 000°C, gần bằng bề mặt Mặt Trời.",
+  "bai": 10
+ },
+ {
+  "id": 87,
+  "question": "Vỏ Trái Đất bị nứt vỡ thành nhiều:",
+  "options": [
+   "A. Đảo nhỏ",
+   "B. Mảng kiến tạo",
+   "C. Con sông",
+   "D. Dãy núi lửa"
+  ],
+  "answer": 1,
+  "explanation": "Các mảnh vỏ đó gọi là mảng kiến tạo.",
+  "bai": 10
+ },
+ {
+  "id": 88,
+  "question": "Các mảng kiến tạo chuyển động với tốc độ:",
+  "options": [
+   "A. Vài m mỗi giây",
+   "B. Không hề chuyển động",
+   "C. Vài cm mỗi năm",
+   "D. Vài km mỗi giờ"
+  ],
+  "answer": 2,
+  "explanation": "Chúng trôi rất chậm, chỉ vài cm/năm.",
+  "bai": 10
+ },
+ {
+  "id": 89,
+  "question": "Lớp nằm giữa vỏ và nhân của Trái Đất là:",
+  "options": [
+   "A. Lớp vỏ khí",
+   "B. Lớp nước",
+   "C. Lớp đất",
+   "D. Lớp bao phủ (manti)"
+  ],
+  "answer": 3,
+  "explanation": "Thứ tự từ ngoài vào: vỏ → manti → nhân.",
+  "bai": 10
+ },
+ {
+  "id": 90,
+  "question": "Con người đang sinh sống trực tiếp trên lớp nào của Trái Đất?",
+  "options": [
+   "A. Vỏ Trái Đất",
+   "B. Lớp bao phủ",
+   "C. Nhân ngoài",
+   "D. Nhân trong"
+  ],
+  "answer": 0,
+  "explanation": "Chúng ta sống trên lớp vỏ mỏng của Trái Đất.",
+  "bai": 10
+ },
+ {
+  "id": 91,
+  "question": "Quá trình nội sinh xảy ra ở đâu?",
+  "options": [
+   "A. Dưới đáy đại dương",
+   "B. Bên trong lòng Trái Đất",
+   "C. Trên bề mặt Trái Đất",
+   "D. Trong khí quyển"
+  ],
+  "answer": 1,
+  "explanation": "“Nội” là bên trong — năng lượng từ lòng đất.",
+  "bai": 11
+ },
+ {
+  "id": 92,
+  "question": "Tác nhân nào sau đây thuộc quá trình ngoại sinh?",
+  "options": [
+   "A. Dung nham trong lòng đất",
+   "B. Lực nén tạo núi",
+   "C. Nước sông bào mòn bờ",
+   "D. Mảng kiến tạo xô vào nhau"
+  ],
+  "answer": 2,
+  "explanation": "Nước, gió, nắng, băng trên bề mặt đều là tác nhân ngoại sinh.",
+  "bai": 11
+ },
+ {
+  "id": 93,
+  "question": "Hiện tượng tạo núi chủ yếu do:",
+  "options": [
+   "A. Sông chảy xiết",
+   "B. Gió thổi mạnh",
+   "C. Mưa nhiều",
+   "D. Hai mảng kiến tạo xô vào nhau"
+  ],
+  "answer": 3,
+  "explanation": "Lực nội sinh khi hai mảng xô nhau đẩy đất đá cao lên thành núi.",
+  "bai": 11
+ },
+ {
+  "id": 94,
+  "question": "Kết quả điển hình của quá trình ngoại sinh là:",
+  "options": [
+   "A. Bào mòn và hạ thấp bề mặt địa hình",
+   "B. Tạo ra dãy núi mới",
+   "C. Gây ra động đất",
+   "D. Làm vỏ Trái Đất nứt ra"
+  ],
+  "answer": 0,
+  "explanation": "Ngoại sinh “gọt” bề mặt thấp dần và bồi đắp nơi trũng.",
+  "bai": 11
+ },
+ {
+  "id": 95,
+  "question": "Quan hệ giữa nội sinh và ngoại sinh là:",
+  "options": [
+   "A. Chỉ một trong hai xảy ra",
+   "B. Đối nghịch nhau nhưng xảy ra đồng thời",
+   "C. Hoàn toàn giống nhau",
+   "D. Nội sinh có trước, ngoại sinh có sau"
+  ],
+  "answer": 1,
+  "explanation": "Một bên xây lên, một bên gọt xuống, diễn ra cùng lúc.",
+  "bai": 11
+ },
+ {
+  "id": 96,
+  "question": "Dãy Hi-ma-lay-a được hình thành do:",
+  "options": [
+   "A. Gió mùa thổi lâu năm",
+   "B. Băng hà tan chảy",
+   "C. Sự xô vào nhau của hai mảng kiến tạo",
+   "D. Sông Hằng bào mòn"
+  ],
+  "answer": 2,
+  "explanation": "Hi-ma-lay-a hình thành khi mảng Ấn Độ – Ô-xtrây-li-a xô vào mảng Á – Âu.",
+  "bai": 11
+ },
+ {
+  "id": 97,
+  "question": "Đụn cát trong sa mạc được tạo thành chủ yếu do:",
+  "options": [
+   "A. Núi lửa phun",
+   "B. Động đất",
+   "C. Sóng biển",
+   "D. Gió (ngoại sinh)"
+  ],
+  "answer": 3,
+  "explanation": "Gió thổi dồn cát và mài mòn đá — quá trình ngoại sinh.",
+  "bai": 11
+ },
+ {
+  "id": 98,
+  "question": "Macma sau khi phun ra khỏi miệng núi lửa được gọi là:",
+  "options": [
+   "A. Dung nham",
+   "B. Tro lạnh",
+   "C. Đá cuội",
+   "D. Băng hà"
+  ],
+  "answer": 0,
+  "explanation": "Macma ở trong lòng đất; phun ra ngoài thì gọi là dung nham.",
+  "bai": 12
+ },
+ {
+  "id": 99,
+  "question": "Nguyên nhân chủ yếu gây ra động đất là:",
+  "options": [
+   "A. Gió thổi quá mạnh",
+   "B. Các mảng kiến tạo va chạm, trượt qua nhau",
+   "C. Mưa bão lớn",
+   "D. Sóng biển vỗ vào bờ"
+  ],
+  "answer": 1,
+  "explanation": "Chuyển động của các mảng làm nứt vỡ vỏ Trái Đất gây rung lắc.",
+  "bai": 12
+ },
+ {
+  "id": 100,
+  "question": "Khu vực tập trung nhiều núi lửa và động đất nhất thế giới là:",
+  "options": [
+   "A. Châu Nam Cực",
+   "B. Đồng bằng sông Cửu Long",
+   "C. Vành đai lửa Thái Bình Dương",
+   "D. Sa mạc Xa-ha-ra"
+  ],
+  "answer": 2,
+  "explanation": "Ven Thái Bình Dương là nơi các mảng kiến tạo tiếp xúc mạnh.",
+  "bai": 12
+ },
+ {
+  "id": 101,
+  "question": "Động đất xảy ra dưới đáy biển có thể gây ra hiện tượng nguy hiểm nào?",
+  "options": [
+   "A. Mưa đá",
+   "B. Sương mù",
+   "C. Nắng nóng",
+   "D. Sóng thần"
+  ],
+  "answer": 3,
+  "explanation": "Động đất dưới biển có thể đẩy nước biển thành sóng thần.",
+  "bai": 12
+ },
+ {
+  "id": 102,
+  "question": "Đất đỏ bazan ở Tây Nguyên (Việt Nam) có nguồn gốc từ:",
+  "options": [
+   "A. Tro và dung nham núi lửa cổ",
+   "B. Phù sa sông bồi đắp",
+   "C. Cát biển thổi vào",
+   "D. Đá vôi phong hóa"
+  ],
+  "answer": 0,
+  "explanation": "Dung nham núi lửa phun trào ngày xưa phong hóa thành đất bazan.",
+  "bai": 12
+ },
+ {
+  "id": 103,
+  "question": "Núi lửa và động đất đều thuộc quá trình nào?",
+  "options": [
+   "A. Bồi tụ",
+   "B. Nội sinh",
+   "C. Ngoại sinh",
+   "D. Phong hóa"
+  ],
+  "answer": 1,
+  "explanation": "Cả hai đều do năng lượng bên trong Trái Đất gây ra.",
+  "bai": 12
+ },
+ {
+  "id": 104,
+  "question": "Khi xảy ra động đất mạnh, em nên làm gì?",
+  "options": [
+   "A. Chạy vào thang máy",
+   "B. Trốn trong gầm cầu thang máy",
+   "C. Chạy ra khỏi nhà đến nơi trống trải, tránh xa tòa nhà cao",
+   "D. Đứng sát cửa kính để quan sát"
+  ],
+  "answer": 2,
+  "explanation": "Nguyên tắc an toàn: tránh xa nhà cao, đến nơi trống, bảo vệ đầu.",
+  "bai": 12
+ },
+ {
+  "id": 105,
+  "question": "Dạng địa hình nào sau đây có đỉnh nhọn, sườn dốc và độ cao trên 500 m?",
+  "options": [
+   "A. Đồi",
+   "B. Đồng bằng",
+   "C. Cao nguyên",
+   "D. Núi"
+  ],
+  "answer": 3,
+  "explanation": "Núi: cao trên 500 m, đỉnh nhọn, sườn dốc.",
+  "bai": 13
+ },
+ {
+  "id": 106,
+  "question": "Cao nguyên có đặc điểm nào nổi bật?",
+  "options": [
+   "A. Cao trên 500 m nhưng bề mặt tương đối bằng phẳng",
+   "B. Thấp hơn mực nước biển",
+   "C. Đỉnh rất nhọn",
+   "D. Luôn nằm ven biển"
+  ],
+  "answer": 0,
+  "explanation": "Cao nguyên như một “chiếc bàn” khổng lồ ở trên cao.",
+  "bai": 13
+ },
+ {
+  "id": 107,
+  "question": "Đỉnh núi cao nhất thế giới là:",
+  "options": [
+   "A. Fuji (≈ 3 776 m)",
+   "B. Ê-vơ-rét (≈ 8 848 m)",
+   "C. Phan-xi-păng (≈ 3 143 m)",
+   "D. Mont Blanc (≈ 4 808 m)"
+  ],
+  "answer": 1,
+  "explanation": "Ê-vơ-rét ở dãy Hi-ma-lay-a là đỉnh cao nhất thế giới.",
+  "bai": 13
+ },
+ {
+  "id": 108,
+  "question": "Đồng bằng thường có độ cao:",
+  "options": [
+   "A. Từ 500 đến 1 000 m",
+   "B. Đúng bằng mực nước biển",
+   "C. Dưới 200 m so với mực nước biển",
+   "D. Trên 2 000 m"
+  ],
+  "answer": 2,
+  "explanation": "Đồng bằng thấp (dưới 200 m) và bằng phẳng.",
+  "bai": 13
+ },
+ {
+  "id": 109,
+  "question": "Nhóm khoáng sản năng lượng gồm:",
+  "options": [
+   "A. Sắt, đồng, vàng",
+   "B. Đá vôi, muối, cát",
+   "C. A-pa-tít, thạch anh",
+   "D. Than đá, dầu mỏ, khí đốt"
+  ],
+  "answer": 3,
+  "explanation": "Nhóm năng lượng dùng làm nhiên liệu: than, dầu, khí.",
+  "bai": 13
+ },
+ {
+  "id": 110,
+  "question": "Sắt, vàng, nhôm thuộc nhóm khoáng sản:",
+  "options": [
+   "A. Kim loại",
+   "B. Năng lượng",
+   "C. Phi kim loại",
+   "D. Khoáng sản lỏng"
+  ],
+  "answer": 0,
+  "explanation": "Đó là các khoáng sản kim loại.",
+  "bai": 13
+ },
+ {
+  "id": 111,
+  "question": "Việt Nam có hai đồng bằng lớn là:",
+  "options": [
+   "A. Đồng bằng sông Mã và sông Cả",
+   "B. Đồng bằng sông Hồng và đồng bằng sông Cửu Long",
+   "C. Đồng bằng Tây Nguyên và duyên hải",
+   "D. Đồng bằng Thanh – Nghệ và Bình – Trị"
+  ],
+  "answer": 1,
+  "explanation": "Hai châu thổ lớn nhất nước ta là sông Hồng và sông Cửu Long.",
+  "bai": 13
+ },
+ {
+  "id": 112,
+  "question": "Đường đồng mức là đường nối các điểm:",
+  "options": [
+   "A. Cách đều nhau 1 km",
+   "B. Nằm trên cùng một con sông",
+   "C. Có cùng độ cao",
+   "D. Có cùng nhiệt độ"
+  ],
+  "answer": 2,
+  "explanation": "Đồng mức = cùng một mức cao (đẳng cao).",
+  "bai": 14
+ },
+ {
+  "id": 113,
+  "question": "Trên lược đồ, nơi đường đồng mức nằm sít nhau thì địa hình ở đó:",
+  "options": [
+   "A. Sườn thoải",
+   "B. Bằng phẳng",
+   "C. Là đồng bằng",
+   "D. Sườn dốc"
+  ],
+  "answer": 3,
+  "explanation": "Đường sít nhau = độ cao thay đổi nhanh = sườn dốc.",
+  "bai": 14
+ },
+ {
+  "id": 114,
+  "question": "Số ghi trên đường đồng mức cho biết:",
+  "options": [
+   "A. Độ cao của đường đó",
+   "B. Khoảng cách tới biển",
+   "C. Số thứ tự của đường",
+   "D. Nhiệt độ tại điểm đó"
+  ],
+  "answer": 0,
+  "explanation": "Mỗi đường đồng mức mang một giá trị độ cao (m).",
+  "bai": 14
+ },
+ {
+  "id": 115,
+  "question": "Lát cắt địa hình dùng để thể hiện:",
+  "options": [
+   "A. Mật độ dân cư",
+   "B. Sự thay đổi độ cao dọc theo một đường",
+   "C. Hình dạng của mây",
+   "D. Hướng chảy của sông"
+  ],
+  "answer": 1,
+  "explanation": "Lát cắt cho thấy cao – thấp, dốc – thoải dọc tuyến cắt.",
+  "bai": 14
+ },
+ {
+  "id": 116,
+  "question": "Khi vẽ lát cắt địa hình, sau khi chấm các điểm độ cao, bước cuối là:",
+  "options": [
+   "A. Xóa trục độ cao",
+   "B. Gấp giấy lại",
+   "C. Nối các điểm lại thành đường",
+   "D. Tô màu thật đậm"
+  ],
+  "answer": 2,
+  "explanation": "Nối các điểm sẽ ra hình dạng bề mặt dọc đường cắt.",
+  "bai": 14
+ },
+ {
+  "id": 117,
+  "question": "Nếu hai đường đồng mức kề nhau chênh nhau 50 m, ta gọi 50 m là:",
+  "options": [
+   "A. Tỉ lệ bản đồ",
+   "B. Độ sâu của thung lũng",
+   "C. Chiều dài sườn núi",
+   "D. Khoảng cao đều giữa hai đường đồng mức"
+  ],
+  "answer": 3,
+  "explanation": "Khoảng chênh độ cao giữa hai đường đồng mức liên tiếp là khoảng cao đều.",
+  "bai": 14
+ },
+ {
+  "id": 118,
+  "question": "Leo núi ở sườn có đường đồng mức thưa sẽ:",
+  "options": [
+   "A. Dễ đi hơn vì sườn thoải",
+   "B. Khó hơn vì sườn dốc",
+   "C. Không đi được",
+   "D. Phải bơi qua"
+  ],
+  "answer": 0,
+  "explanation": "Đường thưa = sườn thoải = dễ leo hơn.",
+  "bai": 14
+ },
+ {
+  "id": 119,
+  "question": "Khí chiếm tỉ lệ lớn nhất trong khí quyển là:",
+  "options": [
+   "A. Hơi nước",
+   "B. Ni-tơ (khoảng 78%)",
+   "C. Ô-xi (khoảng 21%)",
+   "D. Khí cacbonic"
+  ],
+  "answer": 1,
+  "explanation": "Ni-tơ chiếm khoảng 78%, ô-xi khoảng 21%.",
+  "bai": 15
+ },
+ {
+  "id": 120,
+  "question": "Gió là sự chuyển động của không khí:",
+  "options": [
+   "A. Từ biển vào đất liền quanh năm",
+   "B. Chỉ thổi vào ban đêm",
+   "C. Từ nơi khí áp cao đến nơi khí áp thấp",
+   "D. Từ nơi khí áp thấp đến nơi khí áp cao"
+  ],
+  "answer": 2,
+  "explanation": "Gió luôn thổi từ áp cao xuống áp thấp.",
+  "bai": 15
+ },
+ {
+  "id": 121,
+  "question": "Các hiện tượng mây, mưa, gió (thời tiết) xảy ra chủ yếu ở tầng nào?",
+  "options": [
+   "A. Tầng bình lưu",
+   "B. Tầng ion",
+   "C. Tầng ngoài",
+   "D. Tầng đối lưu"
+  ],
+  "answer": 3,
+  "explanation": "Tầng đối lưu sát mặt đất là nơi diễn ra thời tiết.",
+  "bai": 15
+ },
+ {
+  "id": 122,
+  "question": "Khí áp là:",
+  "options": [
+   "A. Sức ép của không khí lên bề mặt Trái Đất",
+   "B. Lực hút của Mặt Trăng",
+   "C. Áp lực của nước biển",
+   "D. Sức nặng của mây"
+  ],
+  "answer": 0,
+  "explanation": "Không khí có trọng lượng và gây ra khí áp.",
+  "bai": 15
+ },
+ {
+  "id": 123,
+  "question": "Gió Tín phong thổi chủ yếu ở khu vực nào?",
+  "options": [
+   "A. Chỉ ở Việt Nam",
+   "B. Từ hai chí tuyến về phía Xích đạo",
+   "C. Từ cực về chí tuyến",
+   "D. Quanh hai cực"
+  ],
+  "answer": 1,
+  "explanation": "Tín phong thổi đều đặn từ áp cao chí tuyến về áp thấp Xích đạo.",
+  "bai": 15
+ },
+ {
+  "id": 124,
+  "question": "Khi chênh lệch khí áp giữa hai nơi càng lớn thì gió:",
+  "options": [
+   "A. Không thay đổi",
+   "B. Ngừng thổi",
+   "C. Càng mạnh",
+   "D. Càng yếu"
+  ],
+  "answer": 2,
+  "explanation": "Chênh áp càng lớn, gió càng mạnh (như bão).",
+  "bai": 15
+ },
+ {
+  "id": 125,
+  "question": "Dụng cụ dùng để đo khí áp là:",
+  "options": [
+   "A. Nhiệt kế",
+   "B. Vũ kế",
+   "C. Ẩm kế",
+   "D. Khí áp kế (phong vũ biểu)"
+  ],
+  "answer": 3,
+  "explanation": "Khí áp được đo bằng khí áp kế, đơn vị thường là hPa/mb.",
+  "bai": 15
+ },
+ {
+  "id": 126,
+  "question": "Không khí ở tầng thấp được làm nóng chủ yếu do:",
+  "options": [
+   "A. Mặt đất tỏa nhiệt sau khi hấp thụ ánh nắng",
+   "B. Mặt Trăng tỏa nhiệt",
+   "C. Gió thổi mạnh",
+   "D. Mây phản chiếu nhiệt"
+  ],
+  "answer": 0,
+  "explanation": "Mặt Trời hun nóng mặt đất trước, mặt đất mới làm nóng không khí sát đất.",
+  "bai": 16
+ },
+ {
+  "id": 127,
+  "question": "Trong ngày, nhiệt độ không khí thường cao nhất vào khoảng:",
+  "options": [
+   "A. 18 giờ tối",
+   "B. 13–14 giờ",
+   "C. 6 giờ sáng",
+   "D. 12 giờ đêm"
+  ],
+  "answer": 1,
+  "explanation": "Sau giữa trưa, mặt đất tích đủ nhiệt nên khoảng 13–14 giờ là nóng nhất.",
+  "bai": 16
+ },
+ {
+  "id": 128,
+  "question": "Mây được hình thành khi hơi nước trong không khí:",
+  "options": [
+   "A. Bay thẳng ra vũ trụ",
+   "B. Hóa thành khí ô-xi",
+   "C. Ngưng tụ thành hạt nước li ti",
+   "D. Đông cứng thành đá"
+  ],
+  "answer": 2,
+  "explanation": "Hơi nước gặp lạnh ngưng tụ tạo thành mây.",
+  "bai": 16
+ },
+ {
+  "id": 129,
+  "question": "Lượng mưa được đo bằng:",
+  "options": [
+   "A. Nhiệt kế, đơn vị °C",
+   "B. Thước dây, đơn vị m",
+   "C. Cân, đơn vị kg",
+   "D. Vũ kế, đơn vị mm"
+  ],
+  "answer": 3,
+  "explanation": "Vũ kế đo lượng mưa, đơn vị mi-li-mét.",
+  "bai": 16
+ },
+ {
+  "id": 130,
+  "question": "Nơi nào sau đây thường có lượng mưa rất ít?",
+  "options": [
+   "A. Sa mạc Xa-ha-ra",
+   "B. Vùng Xích đạo",
+   "C. Đồng bằng ven biển nhiệt đới",
+   "D. Rừng mưa nhiệt đới"
+  ],
+  "answer": 0,
+  "explanation": "Sa mạc Xa-ha-ra là vùng mưa rất ít trên Trái Đất.",
+  "bai": 16
+ },
+ {
+  "id": 131,
+  "question": "Vì sao mùa hè ở ven biển thường mát hơn trong đất liền?",
+  "options": [
+   "A. Vì cát phản chiếu hết nắng",
+   "B. Nhờ gió biển và nước biển điều hòa nhiệt độ",
+   "C. Vì ven biển không có Mặt Trời",
+   "D. Vì ven biển cao hơn"
+  ],
+  "answer": 1,
+  "explanation": "Nước biển nóng lên và nguội đi chậm nên điều hòa khí hậu ven biển.",
+  "bai": 16
+ },
+ {
+  "id": 132,
+  "question": "Hiện tượng nào xảy ra khi hạt nước trong mây quá nặng?",
+  "options": [
+   "A. Biến thành cầu vồng",
+   "B. Hóa thành băng ngay",
+   "C. Rơi xuống thành mưa",
+   "D. Bay lên thành sao"
+  ],
+  "answer": 2,
+  "explanation": "Hạt nước to và nặng dần sẽ rơi xuống thành mưa.",
+  "bai": 16
+ },
+ {
+  "id": 133,
+  "question": "“Hôm nay trời đổ mưa rào” là biểu hiện của:",
+  "options": [
+   "A. Khí hậu",
+   "B. Đới khí hậu",
+   "C. Biến đổi khí hậu",
+   "D. Thời tiết"
+  ],
+  "answer": 3,
+  "explanation": "Mưa hôm nay là trạng thái ngắn hạn — thời tiết.",
+  "bai": 17
+ },
+ {
+  "id": 134,
+  "question": "Khí hậu của một nơi được hiểu là:",
+  "options": [
+   "A. Thời tiết lặp đi lặp lại trong nhiều năm",
+   "B. Trời nắng hay mưa trong ngày",
+   "C. Nhiệt độ lúc 12 giờ trưa",
+   "D. Hướng gió buổi sáng"
+  ],
+  "answer": 0,
+  "explanation": "Khí hậu mang tính lâu dài, ổn định qua nhiều năm.",
+  "bai": 17
+ },
+ {
+  "id": 135,
+  "question": "Trên Trái Đất có bao nhiêu đới khí hậu chính?",
+  "options": [
+   "A. 2 đới",
+   "B. 5 đới",
+   "C. 3 đới",
+   "D. 7 đới"
+  ],
+  "answer": 1,
+  "explanation": "1 đới nóng + 2 đới ôn hòa + 2 đới lạnh = 5 đới.",
+  "bai": 17
+ },
+ {
+  "id": 136,
+  "question": "Việt Nam thuộc đới khí hậu nào?",
+  "options": [
+   "A. Đới lạnh",
+   "B. Cả ba đới",
+   "C. Đới nóng",
+   "D. Đới ôn hòa"
+  ],
+  "answer": 2,
+  "explanation": "Việt Nam ở vùng nhiệt đới thuộc đới nóng.",
+  "bai": 17
+ },
+ {
+  "id": 137,
+  "question": "Biểu hiện nào sau đây là của biến đổi khí hậu?",
+  "options": [
+   "A. Chiều nay trời mưa",
+   "B. Ngày mai trời nắng",
+   "C. Tuần này trời trở lạnh",
+   "D. Băng ở hai cực tan nhanh, mực nước biển dâng"
+  ],
+  "answer": 3,
+  "explanation": "Ba phương án còn lại chỉ là thời tiết ngắn hạn.",
+  "bai": 17
+ },
+ {
+  "id": 138,
+  "question": "Nguyên nhân chính gây biến đổi khí hậu hiện nay là:",
+  "options": [
+   "A. Con người thải nhiều khí nhà kính và phá rừng",
+   "B. Mặt Trời nóng lên đột ngột",
+   "C. Mặt Trăng thay đổi quỹ đạo",
+   "D. Núi lửa phun liên tục"
+  ],
+  "answer": 0,
+  "explanation": "Đốt nhiên liệu hóa thạch và phá rừng làm tăng khí nhà kính.",
+  "bai": 17
+ },
+ {
+  "id": 139,
+  "question": "Hành động nào giúp giảm nhẹ biến đổi khí hậu?",
+  "options": [
+   "A. Để điều hòa chạy cả ngày",
+   "B. Trồng cây xanh và tiết kiệm điện",
+   "C. Đốt nhiều rác nhựa",
+   "D. Chặt rừng làm đất trống"
+  ],
+  "answer": 1,
+  "explanation": "Cây xanh hấp thụ khí cacbonic; tiết kiệm điện giảm khí thải.",
+  "bai": 17
+ },
+ {
+  "id": 140,
+  "question": "Trên biểu đồ nhiệt độ – lượng mưa, lượng mưa các tháng được thể hiện bằng:",
+  "options": [
+   "A. Các chấm tròn",
+   "B. Bảng số riêng",
+   "C. Các cột",
+   "D. Đường gấp khúc"
+  ],
+  "answer": 2,
+  "explanation": "Quy ước: nhiệt độ = đường, lượng mưa = cột.",
+  "bai": 18
+ },
+ {
+  "id": 141,
+  "question": "Đơn vị của lượng mưa trên biểu đồ là:",
+  "options": [
+   "A. °C",
+   "B. km/h",
+   "C. hPa",
+   "D. mm"
+  ],
+  "answer": 3,
+  "explanation": "Lượng mưa đo bằng mi-li-mét.",
+  "bai": 18
+ },
+ {
+  "id": 142,
+  "question": "Biên độ nhiệt năm được tính bằng cách:",
+  "options": [
+   "A. Nhiệt độ tháng nóng nhất trừ tháng lạnh nhất",
+   "B. Cộng nhiệt độ 12 tháng",
+   "C. Nhiệt độ cao nhất trừ lượng mưa",
+   "D. Chia nhiệt độ cho 12"
+  ],
+  "answer": 0,
+  "explanation": "Biên độ nhiệt = nóng nhất − lạnh nhất.",
+  "bai": 18
+ },
+ {
+  "id": 143,
+  "question": "Để tính tổng lượng mưa năm từ biểu đồ, em cần:",
+  "options": [
+   "A. Lấy lượng mưa tháng cao nhất trừ tháng thấp nhất",
+   "B. Cộng lượng mưa 12 tháng",
+   "C. Lấy tháng mưa nhiều nhất",
+   "D. Nhân lượng mưa với 12"
+  ],
+  "answer": 1,
+  "explanation": "Tổng mưa năm = tổng 12 cột mưa.",
+  "bai": 18
+ },
+ {
+  "id": 144,
+  "question": "Một địa điểm có nhiệt độ quanh năm trên 25°C, mưa nhiều vào mùa hè. Khí hậu đó nhiều khả năng là:",
+  "options": [
+   "A. Ôn đới lạnh",
+   "B. Hoang mạc",
+   "C. Nhiệt đới",
+   "D. Hàn đới"
+  ],
+  "answer": 2,
+  "explanation": "Nóng quanh năm + mưa nhiều là đặc trưng khí hậu nhiệt đới.",
+  "bai": 18
+ },
+ {
+  "id": 145,
+  "question": "Khi đọc biểu đồ, tháng có cột mưa cao nhất cho biết:",
+  "options": [
+   "A. Tháng nóng nhất",
+   "B. Tháng lạnh nhất",
+   "C. Tháng khô nhất",
+   "D. Tháng mưa nhiều nhất trong năm"
+  ],
+  "answer": 3,
+  "explanation": "Cột càng cao lượng mưa càng lớn.",
+  "bai": 18
+ },
+ {
+  "id": 146,
+  "question": "Đường nhiệt độ trên biểu đồ thường có màu:",
+  "options": [
+   "A. Đỏ",
+   "B. Xanh lá",
+   "C. Tím",
+   "D. Đen"
+  ],
+  "answer": 0,
+  "explanation": "Theo quy ước phổ biến, đường nhiệt độ vẽ màu đỏ.",
+  "bai": 18
+ },
+ {
+  "id": 147,
+  "question": "Thủy quyển bao gồm:",
+  "options": [
+   "A. Chỉ nước uống được",
+   "B. Tất cả các dạng nước trên Trái Đất",
+   "C. Chỉ nước ở đại dương",
+   "D. Chỉ nước sông và hồ"
+  ],
+  "answer": 1,
+  "explanation": "Thủy quyển gồm nước biển, sông hồ, nước ngầm, băng và hơi nước.",
+  "bai": 19
+ },
+ {
+  "id": 148,
+  "question": "Nước ngọt chiếm khoảng bao nhiêu phần trăm tổng lượng nước trên Trái Đất?",
+  "options": [
+   "A. Khoảng 50%",
+   "B. Khoảng 97,5%",
+   "C. Khoảng 2,5%",
+   "D. Khoảng 25%"
+  ],
+  "answer": 2,
+  "explanation": "97,5% là nước mặn; nước ngọt chỉ ~2,5%.",
+  "bai": 19
+ },
+ {
+  "id": 149,
+  "question": "Giai đoạn đầu tiên trong vòng tuần hoàn lớn của nước (từ biển) là:",
+  "options": [
+   "A. Mưa rơi",
+   "B. Ngấm xuống đất",
+   "C. Chảy thành sông",
+   "D. Bốc hơi"
+  ],
+  "answer": 3,
+  "explanation": "Nước biển bốc hơi nhờ năng lượng Mặt Trời.",
+  "bai": 19
+ },
+ {
+  "id": 150,
+  "question": "Sau khi mưa rơi xuống đất liền, nước sẽ:",
+  "options": [
+   "A. Chảy thành sông, ngấm ngầm rồi trở về biển",
+   "B. Biến mất hoàn toàn",
+   "C. Chỉ ở yên trong hồ",
+   "D. Bay thẳng ra ngoài vũ trụ"
+  ],
+  "answer": 0,
+  "explanation": "Nước luôn trở về biển để hoàn thành vòng tuần hoàn.",
+  "bai": 19
+ },
+ {
+  "id": 151,
+  "question": "Năng lượng nào làm cho nước bốc hơi trong vòng tuần hoàn?",
+  "options": [
+   "A. Năng lượng Mặt Trăng",
+   "B. Năng lượng Mặt Trời",
+   "C. Năng lượng gió bão",
+   "D. Năng lượng núi lửa"
+  ],
+  "answer": 1,
+  "explanation": "Nắng Mặt Trời là “máy bơm” chính của vòng tuần hoàn nước.",
+  "bai": 19
+ },
+ {
+  "id": 152,
+  "question": "Dạng nước nào sau đây thuộc thủy quyển?",
+  "options": [
+   "A. Dung nham nóng chảy",
+   "B. Không khí khô",
+   "C. Băng tuyết ở hai cực",
+   "D. Đá granite"
+  ],
+  "answer": 2,
+  "explanation": "Băng tuyết là một dạng của nước nên thuộc thủy quyển.",
+  "bai": 19
+ },
+ {
+  "id": 153,
+  "question": "Vì sao cần bảo vệ nguồn nước ngọt?",
+  "options": [
+   "A. Vì nước ngọt có màu đẹp",
+   "B. Vì nước ngọt ở rất sâu",
+   "C. Vì nước ngọt không tái tạo được chút nào",
+   "D. Vì nước ngọt rất ít và cần cho sự sống"
+  ],
+  "answer": 3,
+  "explanation": "Nước ngọt chỉ ~2,5% mà mọi sinh vật đều cần.",
+  "bai": 19
+ },
+ {
+  "id": 154,
+  "question": "Sông khác hồ ở điểm cơ bản nào?",
+  "options": [
+   "A. Sông là dòng nước chảy, hồ là vùng nước đọng",
+   "B. Sông luôn mặn, hồ luôn ngọt",
+   "C. Sông ở trên núi, hồ ở dưới biển",
+   "D. Sông do người đào, hồ tự nhiên"
+  ],
+  "answer": 0,
+  "explanation": "Sông chảy, hồ đọng — đó là khác biệt chính.",
+  "bai": 20
+ },
+ {
+  "id": 155,
+  "question": "Phụ lưu của một con sông là:",
+  "options": [
+   "A. Hồ nối với sông",
+   "B. Sông nhỏ chảy vào sông chính",
+   "C. Sông chảy ra khỏi sông chính",
+   "D. Đoạn sông gần cửa biển"
+  ],
+  "answer": 1,
+  "explanation": "Phụ lưu góp nước cho sông chính.",
+  "bai": 20
+ },
+ {
+  "id": 156,
+  "question": "Hồ nước ngọt sâu nhất thế giới là:",
+  "options": [
+   "A. Hồ Tây",
+   "B. Biển Caspi",
+   "C. Hồ Bai-kan",
+   "D. Hồ Hoàn Kiếm"
+  ],
+  "answer": 2,
+  "explanation": "Hồ Bai-kan ở Nga sâu khoảng 1 642 m.",
+  "bai": 20
+ },
+ {
+  "id": 157,
+  "question": "Nước giếng khoan mà nhiều gia đình sử dụng thuộc loại nước nào?",
+  "options": [
+   "A. Nước sông",
+   "B. Nước mưa",
+   "C. Nước biển",
+   "D. Nước ngầm"
+  ],
+  "answer": 3,
+  "explanation": "Giếng khoan hút nước ngầm dưới lòng đất.",
+  "bai": 20
+ },
+ {
+  "id": 158,
+  "question": "Phần lớn nước ngọt trên Trái Đất tồn tại dưới dạng:",
+  "options": [
+   "A. Băng hà và băng tuyết",
+   "B. Nước sông",
+   "C. Nước hồ",
+   "D. Nước ngầm"
+  ],
+  "answer": 0,
+  "explanation": "Khoảng 2/3 nước ngọt bị khóa trong băng.",
+  "bai": 20
+ },
+ {
+  "id": 159,
+  "question": "Lưu vực sông là:",
+  "options": [
+   "A. Đê hai bên bờ sông",
+   "B. Vùng đất mà sông thu gom nước",
+   "C. Đáy của con sông",
+   "D. Cửa sông đổ ra biển"
+  ],
+  "answer": 1,
+  "explanation": "Mọi giọt mưa rơi trong lưu vực đều có thể chảy về sông.",
+  "bai": 20
+ },
+ {
+  "id": 160,
+  "question": "Băng hà di chuyển như thế nào?",
+  "options": [
+   "A. Không hề di chuyển",
+   "B. Chỉ di chuyển vào mùa đông",
+   "C. Rất chậm, trườn theo sườn dốc",
+   "D. Nhanh như xe chạy"
+  ],
+  "answer": 2,
+  "explanation": "Băng hà trườn vài mét mỗi năm do trọng lượng của chính nó.",
+  "bai": 20
+ },
+ {
+  "id": 161,
+  "question": "Đại dương lớn nhất trên Trái Đất là:",
+  "options": [
+   "A. Đại Tây Dương",
+   "B. Ấn Độ Dương",
+   "C. Bắc Băng Dương",
+   "D. Thái Bình Dương"
+  ],
+  "answer": 3,
+  "explanation": "Thái Bình Dương chiếm khoảng 1/3 bề mặt Trái Đất — gần một nửa diện tích biển.",
+  "bai": 21
+ },
+ {
+  "id": 162,
+  "question": "Độ muối trung bình của nước biển là khoảng:",
+  "options": [
+   "A. 35‰",
+   "B. 3,5‰",
+   "C. 350‰",
+   "D. 0‰"
+  ],
+  "answer": 0,
+  "explanation": "Trung bình mỗi lít nước biển có khoảng 35 gam muối.",
+  "bai": 21
+ },
+ {
+  "id": 163,
+  "question": "Hiện tượng nước biển dâng lên và rút xuống theo chu kì gọi là:",
+  "options": [
+   "A. Bão",
+   "B. Thủy triều",
+   "C. Sóng thần",
+   "D. Dòng biển"
+  ],
+  "answer": 1,
+  "explanation": "Thủy triều lên – xuống chủ yếu do sức hút của Mặt Trăng.",
+  "bai": 21
+ },
+ {
+  "id": 164,
+  "question": "Sóng biển được tạo ra chủ yếu do:",
+  "options": [
+   "A. Cá bơi",
+   "B. Mưa rơi",
+   "C. Gió",
+   "D. Mặt Trời"
+  ],
+  "answer": 2,
+  "explanation": "Gió thổi trên mặt nước tạo thành sóng.",
+  "bai": 21
+ },
+ {
+  "id": 165,
+  "question": "Biển Đông là:",
+  "options": [
+   "A. Một đại dương riêng",
+   "B. Một hồ nước ngọt",
+   "C. Một con sông lớn",
+   "D. Một bộ phận của Thái Bình Dương"
+  ],
+  "answer": 3,
+  "explanation": "Biển là bộ phận của đại dương — Biển Đông thuộc Thái Bình Dương.",
+  "bai": 21
+ },
+ {
+  "id": 166,
+  "question": "Dòng biển được ví như:",
+  "options": [
+   "A. Những con sông chảy trong đại dương",
+   "B. Những tảng băng trôi",
+   "C. Những cơn bão biển",
+   "D. Những đàn cá lớn"
+  ],
+  "answer": 0,
+  "explanation": "Dòng biển là dòng nước chảy có hướng nhất định trong đại dương.",
+  "bai": 21
+ },
+ {
+  "id": 167,
+  "question": "Lợi ích nào sau đây KHÔNG phải của biển và đại dương?",
+  "options": [
+   "A. Giao thông đường biển",
+   "B. Cung cấp nước ngọt uống trực tiếp",
+   "C. Đánh bắt hải sản",
+   "D. Sản xuất muối"
+  ],
+  "answer": 1,
+  "explanation": "Nước biển mặn, không uống trực tiếp được.",
+  "bai": 21
+ },
+ {
+  "id": 168,
+  "question": "Đất (thổ nhưỡng) là:",
+  "options": [
+   "A. Lớp nước ngầm dưới đất",
+   "B. Bề mặt của đại dương",
+   "C. Lớp vật chất mỏng, tơi xốp trên bề mặt lục địa",
+   "D. Lớp đá cứng sâu trong lòng đất"
+  ],
+  "answer": 2,
+  "explanation": "Đất là lớp mỏng trên bề mặt lục địa, nơi cây cối sinh sống.",
+  "bai": 22
+ },
+ {
+  "id": 169,
+  "question": "Thành phần nào làm đất có màu sẫm và giàu dinh dưỡng?",
+  "options": [
+   "A. Cát trắng",
+   "B. Đá cuội",
+   "C. Muối",
+   "D. Mùn"
+  ],
+  "answer": 3,
+  "explanation": "Mùn từ xác sinh vật phân hủy cung cấp chất dinh dưỡng cho đất.",
+  "bai": 22
+ },
+ {
+  "id": 170,
+  "question": "Tầng đất nằm trên cùng của phẫu diện là:",
+  "options": [
+   "A. Tầng mùn",
+   "B. Tầng đá gốc",
+   "C. Tầng đá mẹ",
+   "D. Tầng tích tụ sắt"
+  ],
+  "answer": 0,
+  "explanation": "Trên cùng là tầng mùn màu sẫm.",
+  "bai": 22
+ },
+ {
+  "id": 171,
+  "question": "Nhân tố nào sau đây KHÔNG tham gia hình thành đất?",
+  "options": [
+   "A. Sinh vật",
+   "B. Ánh sáng Mặt Trăng",
+   "C. Đá mẹ",
+   "D. Khí hậu"
+  ],
+  "answer": 1,
+  "explanation": "Hình thành đất cần: đá mẹ, khí hậu, sinh vật, địa hình, thời gian.",
+  "bai": 22
+ },
+ {
+  "id": 172,
+  "question": "Đất phe-ra-lít đỏ vàng là loại đất điển hình của vùng:",
+  "options": [
+   "A. Sa mạc khô hạn",
+   "B. Vùng cực",
+   "C. Nóng ẩm (nhiệt đới)",
+   "D. Rất lạnh quanh năm"
+  ],
+  "answer": 2,
+  "explanation": "Việt Nam nóng ẩm nên đất phe-ra-lít đỏ vàng phổ biến.",
+  "bai": 22
+ },
+ {
+  "id": 173,
+  "question": "Biện pháp nào giúp chống xói mòn đất ở vùng đồi núi?",
+  "options": [
+   "A. Phá hết rừng",
+   "B. Cày dọc theo sườn dốc",
+   "C. Đốt nương liên tục",
+   "D. Làm ruộng bậc thang và trồng cây"
+  ],
+  "answer": 3,
+  "explanation": "Ruộng bậc thang và cây cối giữ đất, chống rửa trôi.",
+  "bai": 22
+ },
+ {
+  "id": 174,
+  "question": "Vì sao đất được coi là tài nguyên quý cần bảo vệ?",
+  "options": [
+   "A. Vì đất hình thành rất chậm, hàng trăm năm mới dày vài cm",
+   "B. Vì đất có màu đẹp",
+   "C. Vì đất rất nhẹ",
+   "D. Vì đất ở khắp nơi đều như nhau"
+  ],
+  "answer": 0,
+  "explanation": "Đất “lớn” cực chậm nên mất đi là khó lấy lại.",
+  "bai": 22
+ },
+ {
+  "id": 175,
+  "question": "Nhân tố ảnh hưởng lớn nhất đến sự phân bố sinh vật trên Trái Đất là:",
+  "options": [
+   "A. Dân số con người",
+   "B. Khí hậu",
+   "C. Độ sâu đại dương",
+   "D. Màu sắc của đất"
+  ],
+  "answer": 1,
+  "explanation": "Nhiệt độ và lượng mưa quyết định sinh vật sống được ở đâu.",
+  "bai": 23
+ },
+ {
+  "id": 176,
+  "question": "Khu vực nào có sinh vật phong phú nhất trên đất liền?",
+  "options": [
+   "A. Đài nguyên Bắc cực",
+   "B. Đỉnh núi cao tuyết phủ",
+   "C. Rừng mưa nhiệt đới",
+   "D. Sa mạc Xa-ha-ra"
+  ],
+  "answer": 2,
+  "explanation": "Nóng ẩm quanh năm nên rừng mưa nhiệt đới là “kho” đa dạng sinh học.",
+  "bai": 23
+ },
+ {
+  "id": 177,
+  "question": "Xa-van là dạng cảnh quan:",
+  "options": [
+   "A. Rừng rậm quanh năm xanh",
+   "B.  Sa mạc toàn cát",
+   "C. Băng tuyết quanh năm",
+   "D. Đồng cỏ ở vùng nhiệt đới có mùa mưa, mùa khô"
+  ],
+  "answer": 3,
+  "explanation": "Xa-van là đồng cỏ nhiệt đới với hai mùa rõ rệt.",
+  "bai": 23
+ },
+ {
+  "id": 178,
+  "question": "Ở đới lạnh, thực vật thường có đặc điểm:",
+  "options": [
+   "A. Thấp lùn, nghèo nàn (đài nguyên)",
+   "B. Cao lớn, nhiều tầng",
+   "C. Lá to và dày",
+   "D. Phát triển rất nhanh"
+  ],
+  "answer": 0,
+  "explanation": "Lạnh giá khắc nghiệt nên cây chỉ thấp lùn sát đất.",
+  "bai": 23
+ },
+ {
+  "id": 179,
+  "question": "Hoạt động nào của con người làm suy giảm đa dạng sinh học?",
+  "options": [
+   "A. Bảo vệ động vật hoang dã",
+   "B. Phá rừng bừa bãi",
+   "C. Trồng rừng mới",
+   "D. Lập vườn quốc gia"
+  ],
+  "answer": 1,
+  "explanation": "Phá rừng làm sinh vật mất môi trường sống.",
+  "bai": 23
+ },
+ {
+  "id": 180,
+  "question": "Vì sao sa mạc có rất ít sinh vật sinh sống?",
+  "options": [
+   "A. Vì đất quá màu mỡ",
+   "B. Vì không có ánh nắng",
+   "C. Vì quá khô hạn, thiếu nước",
+   "D. Vì quá nhiều mưa"
+  ],
+  "answer": 2,
+  "explanation": "Thiếu nước là rào cản lớn nhất với sự sống ở sa mạc.",
+  "bai": 23
+ },
+ {
+  "id": 181,
+  "question": "Để bảo vệ sự sống trên Trái Đất, em nên làm gì?",
+  "options": [
+   "A. Săn bắt chim thú nhiều hơn",
+   "B. Đốt rừng làm nương",
+   "C. Xả rác ra sông suối",
+   "D. Bảo vệ rừng và động vật hoang dã"
+  ],
+  "answer": 3,
+  "explanation": "Giữ rừng là giữ “ngôi nhà” của muôn loài.",
+  "bai": 23
+ },
+ {
+  "answer": 0,
+  "explanation": "Rừng nhiệt đới mọc ở đới nóng, quanh Xích đạo. Ở đó nắng nhiều quanh năm nên cây cối xanh tốt bốn mùa.",
+  "id": 182,
+  "options": [
+   "A. Đới nóng gần Xích đạo",
+   "B. Đới lạnh gần hai cực Trái Đất",
+   "C. Vùng ôn hòa mát mẻ",
+   "D. Trên núi cao lạnh giá"
+  ],
+  "question": "Rừng nhiệt đới phân bố chủ yếu ở đâu?",
+  "bai": 24
+ },
+ {
+  "answer": 1,
+  "explanation": "Rừng nhiệt đới nóng ẩm quanh năm, mưa rất nhiều (hơn 1500 mm mỗi năm). Nhờ vậy cây mọc nhanh và xanh tốt quanh năm.",
+  "id": 183,
+  "options": [
+   "A. Lạnh quanh năm, tuyết rơi và ít mưa",
+   "B. Nóng ẩm quanh năm, mưa rất nhiều",
+   "C. Nóng khô, hầu như không mưa",
+   "D. Mát mẻ, mưa theo mùa rõ rệt"
+  ],
+  "question": "Khí hậu ở rừng nhiệt đới như thế nào?",
+  "bai": 24
+ },
+ {
+  "answer": 2,
+  "explanation": "Rừng nhiệt đới có 3 tầng: tầng vượt tán (cây cao nhất), tầng tán (tán cây liền nhau) và tầng dưới tán (cây nhỏ, thiếu sáng).",
+  "id": 184,
+  "options": [
+   "A. 1 tầng",
+   "B. 2 tầng",
+   "C. 3 tầng",
+   "D. 5 tầng"
+  ],
+  "question": "Rừng nhiệt đới có mấy tầng chính?",
+  "bai": 24
+ },
+ {
+  "answer": 3,
+  "explanation": "Tầng vượt tán gồm những cây cao nhất, vươn lên trên cả tán rừng để hứng nắng. Ví dụ: cây dầu, cây sao ở rừng Việt Nam.",
+  "id": 185,
+  "options": [
+   "A. Tầng cây nhỏ dưới cùng rất thiếu sáng",
+   "B. Tầng cây bụi ở giữa rừng rậm",
+   "C. Tầng rễ cây dưới mặt đất",
+   "D. Tầng cây cao nhất vượt trên tán rừng"
+  ],
+  "question": "Tầng vượt tán là tầng nào?",
+  "bai": 24
+ },
+ {
+  "answer": 0,
+  "explanation": "Rừng mưa nhiệt đới có nhiều loài sinh vật nhất trên đất liền, vì nóng ẩm quanh năm và nhiều tầng cây tạo nhiều chỗ ở. Nhiều loài chỉ sống ở rừng nhiệt đới mà thôi.",
+  "id": 186,
+  "options": [
+   "A. Rừng mưa nhiệt đới",
+   "B. Sa mạc khô hạn",
+   "C. Đài nguyên lạnh giá",
+   "D. Đồng cỏ khô"
+  ],
+  "question": "Nơi nào trên đất liền có nhiều loài sinh vật nhất?",
+  "bai": 24
+ },
+ {
+  "answer": 1,
+  "explanation": "Cây xanh hút khí CO2 (khí làm Trái Đất nóng lên) và nhả khí ô-xi cho con người thở. Vì vậy rừng nhiệt đới được ví như lá phổi xanh của Trái Đất.",
+  "id": 187,
+  "options": [
+   "A. Vì rừng có màu xanh rất đẹp",
+   "B. Vì rừng hút CO2, nhả ô-xi cho người",
+   "C. Vì rừng mọc ở vùng nóng ẩm",
+   "D. Vì rừng có nhiều lá xanh tốt quanh năm"
+  ],
+  "question": "Rừng nhiệt đới được gọi là “lá phổi xanh” vì sao?",
+  "bai": 24
+ },
+ {
+  "answer": 2,
+  "explanation": "Mất rừng thì đất trơ trọi, mưa xối xuống gây lũ lụt và xói mòn. Nhiều loài động vật, thực vật cũng mất nhà ở và thức ăn.",
+  "id": 188,
+  "options": [
+   "A. Làm đất tốt hơn trước rất nhiều lần",
+   "B. Làm mưa nhiều hơn mọi năm",
+   "C. Gây lũ lụt, xói mòn đất, mất nhà ở",
+   "D. Làm không khí sạch hơn trước"
+  ],
+  "question": "Chặt phá rừng nhiệt đới gây hậu quả gì?",
+  "bai": 24
+ },
+ {
+  "answer": 3,
+  "explanation": "Trồng thêm cây xanh giúp rừng phục hồi, không mua đồ gỗ lậu giúp giảm chặt phá rừng. Bảo vệ rừng là bảo vệ nhà ở của muôn loài và bầu không khí của chính em.",
+  "id": 189,
+  "options": [
+   "A. Đốt rừng làm nương rẫy mới",
+   "B. Chặt cây lấy gỗ bán kiếm tiền nhanh",
+   "C. Săn bắt thú rừng về nuôi",
+   "D. Trồng cây xanh, không mua đồ gỗ lậu"
+  ],
+  "question": "Muốn bảo vệ rừng nhiệt đới, em nên làm gì?",
+  "bai": 24
+ },
+ {
+  "answer": 2,
+  "explanation": "Quanh năm xanh tốt, mưa nhiều, cây cao nhiều tầng là dấu hiệu của rừng nhiệt đới ở đới nóng. Rừng lá kim và rừng ôn đới đều có mùa đông lạnh, cây rụng lá hoặc chậm lớn.",
+  "id": 190,
+  "options": [
+   "A. Rừng lá kim",
+   "B. Rừng lá rộng ôn đới",
+   "C. Rừng nhiệt đới",
+   "D. Rừng ngập mặn ven biển"
+  ],
+  "question": "Tình huống: Em thấy một khu rừng quanh năm xanh tốt, mưa nhiều, cây cao nhiều tầng. Đó là loại rừng nào?",
+  "bai": 24
+ },
+ {
+  "answer": 1,
+  "explanation": "Đới thiên nhiên là vùng rộng lớn có khí hậu, đất và sinh vật giống nhau. Ví dụ: đới rừng nhiệt đới, đới sa mạc, đới đài nguyên.",
+  "id": 191,
+  "options": [
+   "A. Vùng đất của một nước riêng biệt",
+   "B. Vùng có khí hậu, đất, sinh vật giống nhau",
+   "C. Vùng chỉ có một loài cây duy nhất mà thôi",
+   "D. Vùng quanh một dòng sông lớn"
+  ],
+  "question": "Đới thiên nhiên là gì?",
+  "bai": 25
+ },
+ {
+  "answer": 2,
+  "explanation": "Càng xa Xích đạo về hai cực, nhiệt độ càng giảm nên cảnh quan thay đổi theo vĩ độ. Ví dụ: gần Xích đạo là rừng nhiệt đới, gần cực là đài nguyên băng giá.",
+  "id": 192,
+  "options": [
+   "A. Theo kinh độ (đông – tây) trên bản đồ",
+   "B. Theo độ sâu của biển",
+   "C. Theo vĩ độ, từ Xích đạo về cực",
+   "D. Theo diện tích đất nước"
+  ],
+  "question": "Các đới thiên nhiên phân bố chủ yếu theo quy luật nào?",
+  "bai": 25
+ },
+ {
+  "answer": 3,
+  "explanation": "Nhiệt độ giảm dần từ Xích đạo về cực, lượng mưa cũng khác nhau từng vùng. Hai yếu tố này quyết định cây gì mọc được và loài vật nào sống được ở mỗi đới.",
+  "id": 193,
+  "options": [
+   "A. Con người trồng cây khác nhau ở từng vùng",
+   "B. Động vật di cư theo mùa khác nhau",
+   "C. Sông ngòi khác nhau từng khu vực",
+   "D. Nhiệt độ, lượng mưa khác nhau theo vĩ độ"
+  ],
+  "question": "Nguyên nhân chính làm các đới thiên nhiên khác nhau là gì?",
+  "bai": 25
+ },
+ {
+  "answer": 0,
+  "explanation": "Gần Xích đạo nóng ẩm quanh năm nên rừng nhiệt đới mọc đầu tiên. Càng đi về cực, trời lạnh dần nên rừng thưa dần rồi thành đài nguyên.",
+  "id": 194,
+  "options": [
+   "A. Rừng nhiệt đới",
+   "B. Đài nguyên băng giá",
+   "C. Rừng lá kim",
+   "D. Sa mạc lạnh"
+  ],
+  "question": "Từ Xích đạo về cực, đới nào gặp đầu tiên?",
+  "bai": 25
+ },
+ {
+  "answer": 1,
+  "explanation": "Xa-van là đồng cỏ cao ở đới nóng, có mùa mưa cây xanh tốt và mùa khô cỏ úa vàng. Ví dụ: xa-van ở châu Phi có nhiều ngựa vằn, hươu cao cổ.",
+  "id": 195,
+  "options": [
+   "A. Đới lạnh giá quanh năm đầy tuyết",
+   "B. Đới nóng, có mùa mưa và mùa khô",
+   "C. Đới ôn hòa mát mẻ",
+   "D. Vùng cực băng giá"
+  ],
+  "question": "Xa-van là cảnh quan của đới nào?",
+  "bai": 25
+ },
+ {
+  "answer": 2,
+  "explanation": "Đài nguyên ở gần cực nên lạnh giá quanh năm, đất đóng băng, chỉ có cây thấp lùn như rêu, địa y. Mùa hè ngắn ngủi, băng tan một phần nên có nhiều vũng nước.",
+  "id": 196,
+  "options": [
+   "A. Nóng ẩm, cây cao nhiều tầng quanh năm xanh tốt",
+   "B. Mưa nhiều, rừng rậm xanh tốt",
+   "C. Lạnh giá, cây thấp lùn, đất đóng băng",
+   "D. Khô nóng, toàn cát và đá"
+  ],
+  "question": "Đài nguyên có đặc điểm gì?",
+  "bai": 25
+ },
+ {
+  "answer": 3,
+  "explanation": "Càng lên cao trời càng lạnh, giống như càng đi về cực. Vì vậy chân núi có thể là rừng nhiệt đới mà đỉnh núi lại lạnh như đới lạnh.",
+  "id": 197,
+  "options": [
+   "A. Từ cực về Xích đạo",
+   "B. Từ biển vào đất liền",
+   "C. Từ đồng bằng lên cao nguyên",
+   "D. Từ Xích đạo về cực"
+  ],
+  "question": "Lên núi cao, cảnh quan thay đổi giống như đi từ đâu đến đâu?",
+  "bai": 25
+ },
+ {
+  "answer": 0,
+  "explanation": "Hoàng Liên Sơn cao hơn 3000 m nên chân núi nóng ẩm có rừng nhiệt đới, càng lên cao càng lạnh, đỉnh Phan-xi-păng mùa đông có thể có băng giá.",
+  "id": 198,
+  "options": [
+   "A. Hoàng Liên Sơn: chân núi rừng, đỉnh lạnh",
+   "B. Sa mạc Xa-ha-ra toàn cát khô nóng",
+   "C. Đồng bằng sông Hồng trồng lúa nước quanh năm",
+   "D. Biển Đông nhiều cá"
+  ],
+  "question": "Ví dụ nào cho thấy độ cao làm thay đổi đới thiên nhiên?",
+  "bai": 25
+ },
+ {
+  "answer": 1,
+  "explanation": "Miền Nam gần Xích đạo hơn nên nóng quanh năm, miền Bắc xa Xích đạo hơn nên mùa đông lạnh. Chuyến đi cho thấy thiên nhiên thay đổi theo vĩ độ.",
+  "id": 199,
+  "options": [
+   "A. Việt Nam chỉ có một đới thiên nhiên duy nhất thôi",
+   "B. Thiên nhiên đổi theo vĩ độ, xa Xích đạo lạnh hơn",
+   "C. Miền Bắc gần Xích đạo hơn miền Nam rất nhiều",
+   "D. Cây cối tự đổi màu theo mùa đông"
+  ],
+  "question": "Tình huống: Em đi từ miền Nam ra miền Bắc Việt Nam vào mùa đông, thấy trời lạnh dần, cây cối thay đổi. Điều đó chứng tỏ điều gì?",
+  "bai": 25
+ },
+ {
+  "answer": 2,
+  "explanation": "Trước tiên em cần biết mình sẽ tìm hiểu khu vực nào (quanh trường, quanh nhà) và chuẩn bị sổ ghi, bút, bản đồ. Chuẩn bị tốt thì quan sát mới đầy đủ.",
+  "id": 200,
+  "options": [
+   "A. Viết báo cáo ngay lập tức cho xong việc",
+   "B. Đi chơi tự do ngoài trời",
+   "C. Xác định khu vực và chuẩn bị dụng cụ",
+   "D. Hỏi đáp án của bạn khác cho nhanh"
+  ],
+  "question": "Muốn tìm hiểu môi trường tự nhiên địa phương, bước đầu tiên là gì?",
+  "bai": 26
+ },
+ {
+  "answer": 3,
+  "explanation": "Ghi chép đầy đủ gồm thời gian, địa điểm và những gì quan sát được về địa hình, nước, cây cối, động vật, thời tiết. Ghi càng cụ thể, báo cáo càng chính xác.",
+  "id": 201,
+  "options": [
+   "A. Chỉ ghi tên mình, tên trường, tên lớp",
+   "B. Chỉ ghi thời tiết hôm đó, nắng hay mưa",
+   "C. Chỉ vẽ tranh phong cảnh, không ghi chữ",
+   "D. Địa hình, sông hồ, cây cối, động vật"
+  ],
+  "question": "Khi quan sát địa phương, em cần ghi chép những gì?",
+  "bai": 26
+ },
+ {
+  "answer": 0,
+  "explanation": "Sơ đồ và ảnh ghi lại vị trí, cảnh vật chính xác hơn lời kể. Khi trình bày, có ảnh minh họa thì cả lớp dễ hiểu hơn.",
+  "id": 202,
+  "options": [
+   "A. Vì sơ đồ, ảnh giúp nhớ vị trí, báo cáo hay",
+   "B. Vì thầy cô bắt buộc học sinh phải làm như vậy",
+   "C. Vì để khoe với bạn bè",
+   "D. Vì không cần ghi chép nữa"
+  ],
+  "question": "Vì sao khi quan sát cần vẽ sơ đồ hoặc chụp ảnh?",
+  "bai": 26
+ },
+ {
+  "answer": 1,
+  "explanation": "Người dân địa phương biết nhiều điều sách vở không có, ví dụ sông nào hay ngập, cây nào trồng lâu năm. Hỏi người lớn giúp em hiểu sâu hơn về quê mình.",
+  "id": 203,
+  "options": [
+   "A. Đoán mò cho nhanh, khỏi cần hỏi ai",
+   "B. Hỏi thầy cô, người lớn ở địa phương",
+   "C. Chép bài của bạn khác cho nhanh",
+   "D. Ngồi nhà tưởng tượng ra mọi thứ xung quanh"
+  ],
+  "question": "Ngoài quan sát, em còn có thể tìm hiểu địa phương bằng cách nào?",
+  "bai": 26
+ },
+ {
+  "answer": 2,
+  "explanation": "Kết quả quan sát cần được sắp xếp thành bảng và viết thành báo cáo rồi trình bày trước lớp. Trình bày giúp em rèn cách nói và cả lớp cùng học hỏi.",
+  "id": 204,
+  "options": [
+   "A. Vứt sổ ghi đi cho gọn nhẹ cặp sách",
+   "B. Giữ riêng không cho ai xem cả bài báo cáo",
+   "C. Sắp xếp thành bảng và trình bày trước lớp",
+   "D. Bịa thêm cho hay hơn"
+  ],
+  "question": "Sau khi quan sát, em cần làm gì với kết quả?",
+  "bai": 26
+ },
+ {
+  "answer": 3,
+  "explanation": "Đi thực địa phải có thầy cô hoặc người lớn đi cùng, tránh sông sâu, núi dốc và không hái, bắt sinh vật lạ. An toàn luôn là quy tắc đầu tiên khi ra ngoài.",
+  "id": 205,
+  "options": [
+   "A. Đi một mình cho nhanh",
+   "B. Đến gần sông sâu để xem cho rõ",
+   "C. Hái cây lạ về chơi",
+   "D. Đi cùng thầy cô, người lớn"
+  ],
+  "question": "Khi đi thực địa, quy tắc an toàn quan trọng nhất là gì?",
+  "bai": 26
+ },
+ {
+  "answer": 0,
+  "explanation": "Quan sát thiên nhiên phải giữ gìn thiên nhiên: không xả rác, không bẻ cành, không bắt sinh vật mang về. Người quan sát tốt là người không làm hại môi trường mình tìm hiểu.",
+  "id": 206,
+  "options": [
+   "A. Xả rác, bẻ cành, bắt sinh vật",
+   "B. Ghi chép cẩn thận từng điều",
+   "C. Chụp ảnh cảnh đẹp ven đường đi qua",
+   "D. Hỏi người dân địa phương"
+  ],
+  "question": "Em không được làm gì khi quan sát thiên nhiên?",
+  "bai": 26
+ },
+ {
+  "answer": 1,
+  "explanation": "Bảng kết quả thường có cột địa điểm, cột nội dung quan sát và cột nhận xét. Bảng rõ ràng giúp em so sánh các nơi với nhau và viết báo cáo dễ hơn.",
+  "id": 207,
+  "options": [
+   "A. Chỉ có cột tên người quan sát",
+   "B. Địa điểm, nội dung, nhận xét",
+   "C. Chỉ có cột điểm số",
+   "D. Chỉ có cột thời gian"
+  ],
+  "question": "Bảng kết quả quan sát thường có những cột nào?",
+  "bai": 26
+ },
+ {
+  "answer": 2,
+  "explanation": "Quan sát phải ghi đúng sự thật, kể cả điều xấu như nước bẩn. Sau đó nhóm báo với thầy cô và đề xuất cách giữ sạch mương, đó mới là học sinh có trách nhiệm với môi trường.",
+  "id": 208,
+  "options": [
+   "A. Kết luận nước sạch, không làm gì cả đâu",
+   "B. Giấu kết quả vì sợ bị chê cười",
+   "C. Ghi đúng sự thật, báo thầy cô giữ sạch",
+   "D. Đổ thêm rác cho vui cả nhóm"
+  ],
+  "question": "Tình huống: Nhóm em quan sát một con mương gần trường thấy nước đen và có rác. Nhóm em nên kết luận và làm gì?",
+  "bai": 26
+ },
+ {
+  "answer": 0,
+  "explanation": "Năm 2022, dân số thế giới vượt 8 tỉ người và vẫn đang tăng. Đông Á và Nam Á là hai khu vực đông dân nhất.",
+  "id": 209,
+  "options": [
+   "A. Hơn 8 tỉ người",
+   "B. Khoảng 4 tỉ người",
+   "C. Khoảng 2 tỉ người",
+   "D. Khoảng 12 tỉ người"
+  ],
+  "question": "Dân số thế giới hiện nay khoảng bao nhiêu?",
+  "bai": 27
+ },
+ {
+  "answer": 1,
+  "explanation": "Y tế tiến bộ giúp trẻ em chết ít hơn và người sống lâu hơn nên dân số tăng nhanh. Đây là nguyên nhân chính, không phải do đất đai tăng lên.",
+  "id": 210,
+  "options": [
+   "A. Vì diện tích đất tăng lên",
+   "B. Vì y tế tốt hơn, người sống lâu hơn",
+   "C. Vì nhiều người di cư lên Mặt Trăng ở",
+   "D. Vì khí hậu lạnh đi"
+  ],
+  "question": "Vì sao dân số thế giới tăng nhanh?",
+  "bai": 27
+ },
+ {
+  "answer": 2,
+  "explanation": "Dân cư phân bố không đều vì khí hậu, đất đai và việc làm khác nhau từng nơi. Ví dụ: Đông Á rất đông, sa mạc Xa-ha-ra rất thưa.",
+  "id": 211,
+  "options": [
+   "A. Đều khắp mọi nơi",
+   "B. Chỉ tập trung ở châu Âu mà thôi",
+   "C. Không đều: nơi đông, nơi thưa",
+   "D. Chỉ ở ven biển, không ở trong đất liền"
+  ],
+  "question": "Dân cư trên thế giới phân bố như thế nào?",
+  "bai": 27
+ },
+ {
+  "answer": 3,
+  "explanation": "Đông Á (Trung Quốc, Nhật Bản) và Nam Á (Ấn Độ, Băng-la-đét) là hai khu vực đông dân nhất. Ở đó đất bằng, khí hậu thuận lợi và trồng lúa nước nuôi được nhiều người.",
+  "id": 212,
+  "options": [
+   "A. Sa mạc Xa-ha-ra",
+   "B. Bắc cực lạnh giá",
+   "C. Núi cao Hi-ma-lay-a",
+   "D. Đông Á và Nam Á"
+  ],
+  "question": "Khu vực nào sau đây đông dân nhất thế giới?",
+  "bai": 27
+ },
+ {
+  "answer": 0,
+  "explanation": "Mật độ dân số = số dân chia cho diện tích, đơn vị người/km². Ví dụ: Việt Nam có khoảng 300 người/km², tức mỗi km² có trung bình 300 người.",
+  "id": 213,
+  "options": [
+   "A. Số dân trung bình trên 1 km² đất",
+   "B. Tổng số dân của một nước",
+   "C. Số trẻ em sinh ra mỗi năm ở một nước",
+   "D. Số thành phố của một nước"
+  ],
+  "question": "Mật độ dân số là gì?",
+  "bai": 27
+ },
+ {
+  "answer": 1,
+  "explanation": "Đồng bằng sông Hồng đất bằng, nước ngọt dồi dào nên trồng lúa nuôi được nhiều người. Đây là vùng đông dân nhất Việt Nam.",
+  "id": 214,
+  "options": [
+   "A. Vì ở đó có nhiều núi cao hiểm trở khó đi",
+   "B. Vì đất bằng, nước ngọt, trồng lúa được",
+   "C. Vì ở đó khí hậu rất lạnh quanh năm",
+   "D. Vì ở đó toàn rừng rậm khó đi lại"
+  ],
+  "question": "Vì sao đồng bằng sông Hồng đông dân?",
+  "bai": 27
+ },
+ {
+  "answer": 2,
+  "explanation": "Đô thị hóa là dân từ nông thôn dồn về thành phố để tìm việc làm, học hành và hưởng dịch vụ tốt hơn. Nhờ vậy thành phố ngày càng đông, nông thôn thưa dần.",
+  "id": 215,
+  "options": [
+   "A. Dân chuyển từ thành phố về quê sinh sống",
+   "B. Rừng biến thành thành phố lớn",
+   "C. Dân dồn về thành phố tìm việc, đi học",
+   "D. Thành phố bị bỏ hoang không người"
+  ],
+  "question": "Đô thị hóa là gì?",
+  "bai": 27
+ },
+ {
+  "answer": 3,
+  "explanation": "Dân tăng nhanh thì cần thêm lương thực, nhà ở, trường học và việc làm. Nếu không đáp ứng kịp, đời sống khó khăn và môi trường cũng bị sức ép.",
+  "id": 216,
+  "options": [
+   "A. Thiếu nước biển để tắm mát vào mùa hè",
+   "B. Thiếu núi cao để leo núi",
+   "C. Thiếu sa mạc để du lịch",
+   "D. Thiếu lương thực, nhà ở, trường học"
+  ],
+  "question": "Dân số tăng nhanh gây sức ép gì lớn nhất?",
+  "bai": 27
+ },
+ {
+  "answer": 1,
+  "explanation": "Đất tốt, khí hậu tốt mà dân vẫn thưa thì thường do thiếu việc làm, giao thông khó khăn hoặc đất có vấn đề như nhiễm mặn. Phân bố dân cư do nhiều nguyên nhân hợp lại, không chỉ khí hậu.",
+  "id": 217,
+  "options": [
+   "A. Chắc chắn do khí hậu xấu gây khó sống lâu dài",
+   "B. Có thể do thiếu việc làm, giao thông khó khăn",
+   "C. Chắc chắn do không có sông ngòi gì cả",
+   "D. Chắc chắn do ở đó quá lạnh giá"
+  ],
+  "question": "Tình huống: Một vùng đất bằng, gần sông, khí hậu ấm áp nhưng dân cư rất thưa. Em đoán thêm nguyên nhân nào?",
+  "bai": 27
+ },
+ {
+  "answer": 2,
+  "explanation": "Thiên nhiên cho con người không khí để thở, nước để uống, lương thực để ăn, nguyên liệu và năng lượng để sản xuất. Không có thiên nhiên, con người không sống được.",
+  "id": 218,
+  "options": [
+   "A. Chỉ có cảnh đẹp để ngắm nhìn mỗi ngày",
+   "B. Chỉ có không khí để thở",
+   "C. Không khí, nước và lương thực",
+   "D. Chỉ có đất để xây nhà ở"
+  ],
+  "question": "Thiên nhiên cung cấp cho con người những gì?",
+  "bai": 28
+ },
+ {
+  "answer": 3,
+  "explanation": "Con người trồng trọt, chăn nuôi, xây nhà, làm đường, khai mỏ và làm thủy điện. Những việc này đều làm thay đổi thiên nhiên, có lợi hoặc có hại.",
+  "id": 219,
+  "options": [
+   "A. Chỉ ngắm cảnh thiên nhiên cho vui",
+   "B. Chỉ thở không khí",
+   "C. Chỉ uống nước mỗi ngày để sống",
+   "D. Trồng trọt, xây nhà, làm đường"
+  ],
+  "question": "Con người tác động đến thiên nhiên bằng cách nào?",
+  "bai": 28
+ },
+ {
+  "answer": 0,
+  "explanation": "Trồng rừng giúp giữ đất, giữ nước; ruộng bậc thang giúp trồng lúa trên núi mà không làm đất trôi. Đó là tác động tốt, giúp thiên nhiên và con người cùng có lợi.",
+  "id": 220,
+  "options": [
+   "A. Trồng rừng, làm ruộng bậc thang",
+   "B. Chặt hết rừng lấy gỗ bán",
+   "C. Xả rác xuống sông mỗi ngày cho tiện",
+   "D. Săn bắt hết thú rừng về ăn"
+  ],
+  "question": "Tác động tốt nào sau đây của con người với thiên nhiên?",
+  "bai": 28
+ },
+ {
+  "answer": 1,
+  "explanation": "Mất rừng thì mưa xối thẳng xuống đất gây lũ lụt và xói mòn, nhiều loài mất nhà ở và thức ăn. Vì vậy chặt rừng là tác động xấu điển hình.",
+  "id": 221,
+  "options": [
+   "A. Đất tốt hơn trước rất nhiều",
+   "B. Lũ lụt, xói mòn đất, mất nhà ở",
+   "C. Mưa nhiều hơn mọi năm trước",
+   "D. Không khí sạch hơn trước kia nhiều"
+  ],
+  "question": "Chặt phá rừng gây ra hậu quả nào sau đây?",
+  "bai": 28
+ },
+ {
+  "answer": 2,
+  "explanation": "Nước thải bẩn làm ô nhiễm sông, cá chết hàng loạt và người dùng nước đó dễ bị bệnh. Vì vậy nước thải phải được xử lí trước khi xả ra sông.",
+  "id": 222,
+  "options": [
+   "A. Làm cá lớn nhanh hơn trước",
+   "B. Làm nước ngọt hơn trước kia rất nhiều",
+   "C. Gây ô nhiễm nước, cá chết, người bệnh",
+   "D. Làm sông sâu hơn trước kia"
+  ],
+  "question": "Xả nước thải chưa xử lí xuống sông gây hại gì?",
+  "bai": 28
+ },
+ {
+  "answer": 3,
+  "explanation": "Rừng ngập mặn chắn sóng biển, giữ đất bờ biển khỏi xói lở và là nơi tôm cá con trú ngụ. Vì vậy phá rừng ngập mặn làm bờ biển yếu đi.",
+  "id": 223,
+  "options": [
+   "A. Làm cảnh cho đẹp mắt du khách",
+   "B. Làm muối từ nước biển mặn",
+   "C. Xây nhà trên mặt nước",
+   "D. Chắn sóng, bảo vệ bờ biển"
+  ],
+  "question": "Rừng ngập mặn ven biển có ích lợi gì lớn nhất?",
+  "bai": 28
+ },
+ {
+  "answer": 0,
+  "explanation": "Ruộng bậc thang là cách người dân miền núi biến sườn dốc thành từng bậc để trồng lúa và giữ đất khỏi trôi. Đó là tác động tốt, sống hài hòa với thiên nhiên.",
+  "id": 224,
+  "options": [
+   "A. Thích ứng với núi dốc: trồng lúa, giữ đất",
+   "B. Con người phá núi làm đường đi lại cho tiện",
+   "C. Con người bỏ ruộng hoang không trồng",
+   "D. Con người lấp sông làm ruộng mới"
+  ],
+  "question": "Ruộng bậc thang Sa Pa là ví dụ cho điều gì?",
+  "bai": 28
+ },
+ {
+  "answer": 1,
+  "explanation": "Bão, lũ, hạn hán và động đất là thiên nhiên tác động lại, gây thiệt hại nhà cửa, mùa màng và tính mạng. Vì vậy con người phải hiểu thiên nhiên để phòng tránh.",
+  "id": 225,
+  "options": [
+   "A. Chỉ cho cảnh đẹp để ngắm nhìn",
+   "B. Bão, lũ, hạn hán, động đất gây thiệt hại",
+   "C. Chỉ cho mưa thuận gió hòa quanh năm suốt tháng",
+   "D. Không tác động gì đến con người"
+  ],
+  "question": "Thiên nhiên tác động trở lại con người như thế nào?",
+  "bai": 28
+ },
+ {
+  "answer": 2,
+  "explanation": "Rừng ngập mặn là lá chắn sóng tự nhiên bảo vệ bờ biển. Phá rừng để nuôi tôm trước mắt có tiền nhưng sau đó bờ biển sạt lở, thiệt hại còn lớn hơn. Đó là bài học về sống hài hòa với thiên nhiên.",
+  "id": 226,
+  "options": [
+   "A. Nuôi tôm luôn có lợi cho mọi người dân",
+   "B. Phá rừng không ảnh hưởng gì cả",
+   "C. Phá rừng mất lá chắn sóng, hại chính người",
+   "D. Nên phá thêm rừng để nuôi được nhiều tôm hơn"
+  ],
+  "question": "Tình huống: Một làng ven biển phá hết rừng ngập mặn để nuôi tôm một thời gian rồi bờ biển bị sóng đánh sạt lở. Bài học rút ra là gì?",
+  "bai": 28
+ },
+ {
+  "answer": 0,
+  "explanation": "Tài nguyên thiên nhiên là của cải sẵn có trong tự nhiên như đất, nước, rừng, khoáng sản. Con người dùng tài nguyên để sống và sản xuất.",
+  "id": 227,
+  "options": [
+   "A. Của cải sẵn có trong tự nhiên",
+   "B. Tiền trong ngân hàng tiết kiệm",
+   "C. Máy móc do con người làm ra",
+   "D. Hàng hóa nhập từ nước ngoài về bán"
+  ],
+  "question": "Tài nguyên thiên nhiên là gì?",
+  "bai": 29
+ },
+ {
+  "answer": 1,
+  "explanation": "Than đá và dầu mỏ hình thành hàng triệu năm mới có, dùng hết là hết nên gọi là không tái tạo được. Rừng, nước mưa, đất (nếu giữ gìn) thì tái tạo được.",
+  "id": 228,
+  "options": [
+   "A. Rừng trồng",
+   "B. Than đá và dầu mỏ",
+   "C. Nước mưa",
+   "D. Đất trồng trọt màu mỡ"
+  ],
+  "question": "Loại tài nguyên nào sau đây KHÔNG tái tạo được?",
+  "bai": 29
+ },
+ {
+  "answer": 2,
+  "explanation": "Khai thác thông minh là dùng tiết kiệm, đúng mức cần dùng, tái chế đồ cũ và tìm vật liệu thay thế. Nhờ vậy tài nguyên còn lâu dài cho mai sau.",
+  "id": 229,
+  "options": [
+   "A. Khai thác càng nhiều càng tốt",
+   "B. Khai thác xong bỏ hoang mặc kệ không lo",
+   "C. Dùng tiết kiệm, đúng mức và tái chế",
+   "D. Cấm khai thác hoàn toàn mọi thứ"
+  ],
+  "question": "Khai thác thông minh tài nguyên nghĩa là gì?",
+  "bai": 29
+ },
+ {
+  "answer": 3,
+  "explanation": "Phát triển bền vững là hôm nay đủ ăn, đủ mặc, đủ học mà vẫn để dành tài nguyên cho con cháu mai sau. Nói đơn giản: dùng sao cho con cháu vẫn còn mà dùng.",
+  "id": 230,
+  "options": [
+   "A. Phát triển thật nhanh bất chấp môi trường",
+   "B. Chỉ phát triển kinh tế, bỏ qua môi trường sống",
+   "C. Ngừng phát triển để giữ thiên nhiên",
+   "D. Đủ dùng hôm nay mà vẫn để dành cho mai sau"
+  ],
+  "question": "Phát triển bền vững nghĩa là gì?",
+  "bai": 29
+ },
+ {
+  "answer": 0,
+  "explanation": "Vườn quốc gia là khu vực được bảo vệ nghiêm ngặt để giữ rừng và các loài quý hiếm. Ví dụ: Vườn quốc gia Cúc Phương là vườn quốc gia đầu tiên của Việt Nam.",
+  "id": 231,
+  "options": [
+   "A. Bảo vệ rừng và loài quý hiếm",
+   "B. Chặt gỗ bán lấy tiền nhanh",
+   "C. Xây nhà ở cho dân nghèo",
+   "D. Khai thác khoáng sản dưới đất"
+  ],
+  "question": "Vườn quốc gia có vai trò gì?",
+  "bai": 29
+ },
+ {
+  "answer": 1,
+  "explanation": "Năng lượng mặt trời và gió dùng mãi không hết vì mặt trời ngày nào cũng mọc, gió ngày nào cũng thổi. Than đá, dầu mỏ, khí đốt thì dùng hết là hết.",
+  "id": 232,
+  "options": [
+   "A. Than đá",
+   "B. Năng lượng mặt trời và gió",
+   "C. Dầu mỏ",
+   "D. Khí đốt tự nhiên dưới lòng đất"
+  ],
+  "question": "Năng lượng nào sau đây là năng lượng tái tạo?",
+  "bai": 29
+ },
+ {
+  "answer": 2,
+  "explanation": "Tắt điện khi không dùng giúp tiết kiệm điện, tiết kiệm nước giúp giữ nguồn nước, dùng túi vải thay túi ni-lông giúp giảm rác thải nhựa. Những việc nhỏ này ai cũng làm được.",
+  "id": 233,
+  "options": [
+   "A. Để đèn sáng cả ngày lẫn đêm",
+   "B. Xả nước thoải mái không cần tiếc",
+   "C. Tắt điện, tiết kiệm nước, dùng túi vải",
+   "D. Mua nhiều đồ dùng một lần rồi vứt đi ngay"
+  ],
+  "question": "Việc nào sau đây giúp tiết kiệm tài nguyên?",
+  "bai": 29
+ },
+ {
+  "answer": 3,
+  "explanation": "Săn bắt nhiều làm loài quý hiếm tuyệt chủng, tức biến mất hoàn toàn khỏi Trái Đất. Mất một loài sẽ làm mất cân bằng thiên nhiên, ảnh hưởng cả loài khác.",
+  "id": 234,
+  "options": [
+   "A. Vì thú quý hiếm chạy nhanh rất khó bắt",
+   "B. Vì thú quý hiếm khó nuôi trong nhà",
+   "C. Vì thú quý hiếm đắt tiền khó mua",
+   "D. Vì săn bắt nhiều làm tuyệt chủng loài"
+  ],
+  "question": "Vì sao phải cấm săn bắt thú quý hiếm?",
+  "bai": 29
+ },
+ {
+  "answer": 0,
+  "explanation": "Túi ni-lông làm từ dầu mỏ và hàng trăm năm mới phân hủy. Dùng túi vải thay túi ni-lông giúp giảm rác nhựa và tiết kiệm dầu mỏ.",
+  "id": 235,
+  "options": [
+   "A. Giảm rác nhựa, tiết kiệm dầu mỏ",
+   "B. Làm trường đẹp hơn mỗi ngày",
+   "C. Giúp học sinh vui hơn khi đến lớp",
+   "D. Không giúp gì cả"
+  ],
+  "question": "Tình huống: Trường em phát động “Ngày không túi ni-lông”. Việc này giúp bảo vệ tài nguyên như thế nào?",
+  "bai": 29
+ },
+ {
+  "answer": 1,
+  "explanation": "Em cần tìm hiểu người dân dùng đất, nước, rừng ra sao và thiên nhiên thay đổi tốt hay xấu vì những việc đó. Như vậy mới thấy rõ quan hệ hai chiều giữa người và thiên nhiên.",
+  "id": 236,
+  "options": [
+   "A. Chỉ tìm hiểu thời tiết mỗi ngày nắng mưa",
+   "B. Dân dùng thiên nhiên ra sao, đổi thế nào",
+   "C. Chỉ tìm hiểu tên các loài cây trong làng",
+   "D. Chỉ tìm hiểu lịch sử của làng"
+  ],
+  "question": "Muốn tìm hiểu quan hệ giữa con người và thiên nhiên ở địa phương, em cần tìm hiểu điều gì?",
+  "bai": 30
+ },
+ {
+  "answer": 2,
+  "explanation": "Phỏng vấn phải xin phép trước, hỏi lịch sự và cảm ơn sau khi hỏi. Tôn trọng người được hỏi thì họ mới vui vẻ chia sẻ điều hay.",
+  "id": 237,
+  "options": [
+   "A. Hỏi thật nhanh rồi bỏ đi ngay lập tức",
+   "B. Không cần xin phép ai cả",
+   "C. Xin phép, hỏi lịch sự và cảm ơn",
+   "D. Chỉ hỏi trẻ con trong làng"
+  ],
+  "question": "Khi phỏng vấn người dân địa phương, em cần chú ý điều gì?",
+  "bai": 30
+ },
+ {
+  "answer": 3,
+  "explanation": "Bảng thường có cột việc làm của con người, cột tác động tốt và cột tác động xấu. Nhìn vào bảng là thấy ngay việc nào nên làm, việc nào nên tránh.",
+  "id": 238,
+  "options": [
+   "A. Chỉ có cột tên người làm",
+   "B. Chỉ có cột điểm số",
+   "C. Chỉ có cột thời gian quan sát ghi chép",
+   "D. Việc làm, tác động tốt, tác động xấu"
+  ],
+  "question": "Bảng kết quả tìm hiểu quan hệ người – thiên nhiên thường có những cột nào?",
+  "bai": 30
+ },
+ {
+  "answer": 0,
+  "explanation": "Đánh bắt vừa phải, không dùng thuốc nổ giúp cá còn sinh sản, năm sau vẫn có cá để đánh. Đó là khai thác thông minh, giữ nguồn lợi lâu dài.",
+  "id": 239,
+  "options": [
+   "A. Khai thác thông minh, giữ nguồn lợi",
+   "B. Phá hoại biển nghiêm trọng lâu dài về sau",
+   "C. Làm biển ô nhiễm nặng nề",
+   "D. Bắt hết cá trong biển"
+  ],
+  "question": "Làng chài đánh bắt vừa phải, không dùng thuốc nổ là ví dụ cho điều gì?",
+  "bai": 30
+ },
+ {
+  "answer": 1,
+  "explanation": "Thuốc trừ sâu trôi xuống mương gây ô nhiễm nước, cá chết và người dùng nước dễ bị bệnh. Vì vậy nông dân cần dùng thuốc đúng cách, đúng liều lượng.",
+  "id": 240,
+  "options": [
+   "A. Tác động tốt cho mùa màng",
+   "B. Tác động xấu: ô nhiễm nước, hại cá",
+   "C. Không tác động gì đến mương",
+   "D. Tác động tốt cho cá dưới mương nước"
+  ],
+  "question": "Nông dân xả thuốc trừ sâu xuống mương là tác động gì?",
+  "bai": 30
+ },
+ {
+  "answer": 2,
+  "explanation": "Nhóm cần thảo luận để đề xuất giải pháp bảo vệ thiên nhiên, rồi trình bày trước lớp hoặc tuyên truyền qua báo tường. Kết quả tìm hiểu phải trở thành việc làm cụ thể.",
+  "id": 241,
+  "options": [
+   "A. Giấu kết quả đi không cho ai biết cả",
+   "B. Vứt bảng kết quả vào sọt rác",
+   "C. Đề xuất giải pháp và trình bày",
+   "D. Bịa thêm kết quả cho thật hay"
+  ],
+  "question": "Sau khi tìm hiểu, nhóm em nên làm gì với kết quả?",
+  "bai": 30
+ },
+ {
+  "answer": 3,
+  "explanation": "Báo tường, tranh cổ động và nhắc nhau giữ sạch là cách tuyên truyền đơn giản mà hiệu quả. Cả trường cùng làm thì môi trường trường học sạch đẹp lên.",
+  "id": 242,
+  "options": [
+   "A. Xả rác bừa bãi khắp sân trường mỗi ngày",
+   "B. Chặt cây trong sân trường",
+   "C. Giấu kết quả tìm hiểu",
+   "D. Làm báo tường, vẽ tranh cổ động"
+  ],
+  "question": "Tuyên truyền bảo vệ môi trường ở trường có thể làm bằng cách nào?",
+  "bai": 30
+ },
+ {
+  "answer": 0,
+  "explanation": "Ghi chép phải trung thực, ghi đúng những gì thấy và nghe, kể cả điều chưa tốt. Có trung thực thì giải pháp đề xuất mới đúng và có ích.",
+  "id": 243,
+  "options": [
+   "A. Trung thực: ghi đúng những gì thấy",
+   "B. Bịa thêm cho hay hơn bài khác",
+   "C. Chỉ ghi điều tốt, giấu điều xấu đi",
+   "D. Chép của nhóm khác cho nhanh"
+  ],
+  "question": "Khi ghi chép kết quả tìm hiểu, thái độ đúng là gì?",
+  "bai": 30
+ },
+ {
+  "answer": 2,
+  "explanation": "Nhóm không tự ý cãi nhau với xưởng mà ghi chép, chụp ảnh làm bằng chứng rồi báo thầy cô và chính quyền địa phương. Chính quyền mới có quyền kiểm tra và xử lí xưởng.",
+  "id": 244,
+  "options": [
+   "A. Giấu kín vì sợ phiền phức",
+   "B. Tự ý đến cãi nhau với xưởng cho hả giận",
+   "C. Ghi chép, chụp ảnh, báo chính quyền",
+   "D. Rủ nhau tắm ở đoạn sông đó"
+  ],
+  "question": "Tình huống: Nhóm em phát hiện một xưởng xả nước bẩn ra sông gần làng. Nhóm em nên làm gì?",
+  "bai": 30
+ }
 ]
