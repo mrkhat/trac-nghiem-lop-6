@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đọc hiểu — Đọc để hiểu, hiểu để làm được bài | Lớp 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+html{overflow-x:hidden}
+body{overflow-x:hidden}
+button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.topnav a{font-size:16px}
+.wrap{max-width:880px;margin:0 auto;padding:0 12px 30px}
+.lesson,.partsum{border-radius:14px;padding:20px;margin:16px 0;box-shadow:0 2px 8px rgba(0,0,0,.08);border-top:7px solid var(--c,#999)}
+.partsum{border-top-color:#f9a825}
+.lesson h2,.partsum h2{font-size:25px;margin:4px 0 8px;color:#1f2937}
+.lesson p,.lesson li,.partsum p,.partsum li{font-size:17px;line-height:1.7}
+.badge{display:inline-block;background:#fff;border:2px solid var(--c,#999);border-radius:999px;padding:4px 12px;font-weight:bold;font-size:16px}
+.dh-goal{background:#e8f5e9;border:2px solid #66bb6a;border-radius:10px;padding:10px 14px;margin:12px 0}
+.dh-steps{background:#fff8e1;border:2px solid #ffca28;border-radius:10px;padding:10px 14px;margin:12px 0}
+.dh-steps li{margin-bottom:6px}
+.dh-doan{background:#f5f9ff;border:2px solid #90caf9;border-radius:10px;padding:12px 16px;margin:12px 0;font-size:18px;line-height:1.8}
+.dh-vd{background:#f3e5f5;border:2px solid #ce93d8;border-radius:10px;padding:12px 16px;margin:12px 0}
+.dh-tip{background:#e0f7fa;border:2px solid #4dd0e1;border-radius:8px;padding:10px 12px;margin:10px 0}
+.dh-lt{border-top:2px dashed #b0bec5;margin-top:18px;padding-top:6px}
+.dh-q{margin:12px 0}
+.dh-qbtn{display:block;width:100%;text-align:left;background:#fff;border:1.5px solid #90a4ae;border-radius:10px;padding:12px 44px 12px 14px;cursor:pointer;font-size:17px;font-family:inherit;min-height:44px;position:relative}
+.dh-qbtn::after{content:"▼";position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#1565c0;font-size:18px}
+.dh-q.open .dh-qbtn{background:#e3f2fd;border-color:#1565c0}
+.dh-q.open .dh-qbtn::after{content:"▲"}
+.dh-a{display:none;background:#fff8e1;border:2px solid #ffca28;border-radius:8px;padding:10px 12px;margin-top:8px;font-size:17px;line-height:1.7}
+.dh-q.open .dh-a{display:block}
+.dh-act{color:#1565c0;font-weight:700;font-size:16px}
+.dh-print{border:3px solid #2e7d32;border-radius:14px;padding:14px;margin:16px 0;background:#fff}
+.dh-btn{display:block;width:100%;background:#2e7d32;color:#fff;font-weight:700;padding:14px 18px;font-size:17px;border-radius:10px;border:2px solid #2e7d32;cursor:pointer;min-height:44px;font-family:inherit}
+.dh-line{height:38px;border-bottom:1px solid #999}
+.dh-print-src{display:none}
+.dh-ph{border:2px solid #a1887f;border-radius:12px;padding:12px;margin:14px 0;background:#fff8f0}
+.dh-phbtn{display:block;width:100%;text-align:left;background:#fff8f0;border:2px solid #a1887f;border-radius:10px;padding:12px 44px 12px 14px;cursor:pointer;font-size:17px;font-weight:700;font-family:inherit;min-height:44px;position:relative}
+.dh-phbtn::after{content:"▼";position:absolute;right:14px;top:50%;transform:translateY(-50%);color:#8d6e63;font-size:18px}
+.dh-ph.open .dh-phbtn::after{content:"▲"}
+.dh-phbody{display:none;margin-top:10px;font-size:17px;line-height:1.7}
+.dh-ph.open .dh-phbody{display:block}
+.dh-note{font-size:16px;color:#546e7a}
+div.next{background:transparent;box-shadow:none;padding:0}
+.next a{display:inline-flex;align-items:center;min-height:44px;background:var(--c,#1565c0);color:#fff;text-decoration:none;font-weight:bold;border-radius:999px;padding:12px 20px;margin:4px}
+.next a:first-child:nth-last-child(2){background:#fff;color:var(--c,#1565c0);border:2px solid var(--c,#1565c0)}
+.dsvg{width:100%;height:auto;display:block;border-radius:10px;background:#fff;border:2px solid #cfd8dc;padding:6px;box-sizing:border-box}
+.dh-keyrow{border-left:6px solid var(--kc,#999);padding:8px 12px;margin:8px 0;background:#fafafa;border-radius:0 8px 8px 0}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>📖 Đọc hiểu — Đọc để hiểu, hiểu để làm được bài</h1>
+<p class="sub">Môn luyện <b>KỸ NĂNG đọc hiểu</b> cho học sinh lớp 6. Môn này không phải nội dung sách giáo khoa: mọi đoạn văn và đề bài đều tự viết ra chỉ để luyện kỹ năng.</p>
+<p class="dh-note">Học thế nào: mỗi bài dạy em một cách làm mới, gọi là một chìa khóa. Bài 5 không dạy cách mới mà dạy cách dùng lại các chìa khóa cho môn khác. Mỗi bài chỉ học một cách, xem ví dụ mẫu làm sẵn từng bước, rồi tự làm 2–3 bài nhỏ. Học xong thì <b>in phiếu ra giấy</b> để viết câu trả lời bằng tay. Phần gợi ý cho phụ huynh chỉ hiện trên phần mềm, không in vào phiếu của bé.</p>
+<div class="wrap">
+
+<section class="lesson" id="bai1" style="--c:#2e7d32"><span class="badge">🌱 Bắt đầu từ số 0</span><h2>Bài 1: Tìm câu trả lời có sẵn trong đoạn</h2>
+<p>Đọc đoạn văn rồi tìm câu trả lời nằm ngay trong đó. Không cần đoán gì hết!</p>
+<div class="dh-goal">🎯 <b>Học xong bài này, em làm được gì?</b> Em tìm được câu trả lời nằm nguyên trong đoạn văn.</div>
+<div class="dh-steps"><b>🪜 Cách làm — chỉ 3 bước nhỏ:</b><ol>
+<li>Đọc câu hỏi trước. Câu hỏi hỏi cái gì thì mình tìm cái đó.</li>
+<li>Tìm từ hỏi trong đoạn: hỏi tên thì tìm chữ “tên”, hỏi màu thì tìm chữ “màu”, hỏi ăn gì thì tìm chữ “ăn”.</li>
+<li>Viết câu trả lời bằng đúng từ trong đoạn.</li>
+</ol></div>
+<div class="dh-tip">💡 <b>Mẹo nhỏ:</b> Hỏi “ai” thì tìm tên người. Hỏi “khi nào” thì tìm thời gian. Hỏi “ở đâu” thì tìm chỗ. Hỏi “cái gì” thì tìm thứ được hỏi tới: đồ vật, món ăn, hay việc làm.</div>
+<p class="dh-note">Các câu trong đoạn ở Bài 1 và Bài 2 được đánh số ①②③ để em dễ tìm. Cách đọc câu hỏi kỹ hơn sẽ học ở Bài 3.</p>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu — cô làm sẵn từng bước:</b>
+<div class="dh-doan">① Sáng thứ Bảy, lớp 6A dọn vệ sinh sân trường. ② Mỗi bạn mang theo một chiếc khăn lau.</div>
+<p><b>Hỏi:</b> Lớp 6A dọn vệ sinh khi nào?</p>
+<p><b>Bước 1:</b> Câu hỏi hỏi “khi nào” nên mình tìm thời gian.</p>
+<p><b>Bước 2:</b> Câu ① trong đoạn có “Sáng thứ Bảy”.</p>
+<p><b>Bước 3:</b> Viết câu trả lời bằng đúng từ trong đoạn. <b>Đáp án: Sáng thứ Bảy.</b></p>
+<p><b>Ví dụ thêm (làm đủ 3 bước):</b> Hỏi: Mỗi bạn mang theo gì?</p>
+<p><b>Bước 1:</b> Câu hỏi hỏi “mang theo gì” nên mình tìm đồ vật mang theo.</p>
+<p><b>Bước 2:</b> Câu ② trong đoạn có “một chiếc khăn lau”.</p>
+<p><b>Bước 3:</b> <b>Đáp án: Một chiếc khăn lau.</b></p></div>
+<div class="dh-lt"><h3>✏️ Luyện 1 — Đọc đoạn này rồi trả lời:</h3>
+<div class="dh-doan">① Nhà Lan nuôi một con mèo tên là Mimi. ② Mimi có bộ lông màu trắng. ③ Mỗi sáng, Lan cho Mimi ăn một bát cơm với cá.</div>
+<p class="dh-note">💡 Gợi ý mở: câu hỏi hỏi “tên gì” — em tìm từ “tên là…” trong đoạn.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Mèo nhà Lan tên gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Hỏi “tên gì” thì tìm chữ “tên” trong đoạn. Câu ① có “tên là Mimi”. <b>Đáp án: Mimi.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Lông của Mimi màu gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Hỏi “màu gì” thì tìm chữ “màu” trong đoạn. Câu ② có “màu trắng”. <b>Đáp án: Màu trắng.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết câu trả lời đầy đủ: “Mỗi sáng, Lan cho Mimi ăn gì?” <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Mỗi sáng, Lan cho Mimi ăn một bát cơm với cá.</div></div>
+<p>🎉 Xong Luyện 1 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi làm tiếp nhé!</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 2 — Đọc đoạn này rồi trả lời:</h3>
+<div class="dh-doan">① Hôm nay, tổ 2 trực nhật (dọn lớp). ② Bạn Hùng lau bảng. ③ Bạn Mai quét lớp và xếp bàn ghế.</div>
+<p class="dh-note">💡 Gợi ý mở: câu hỏi hỏi “tổ nào” — em tìm từ “tổ…” trong đoạn.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Hôm nay tổ nào trực nhật lớp? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu ① trong đoạn nói rõ “tổ 2 trực nhật lớp”. <b>Đáp án: Tổ 2.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Bạn Hùng làm việc gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu ② trong đoạn nói “Bạn Hùng lau bảng”. <b>Đáp án: Lau bảng.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết câu trả lời đầy đủ: “Bạn Mai làm những việc gì?” <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Bạn Mai quét lớp và xếp bàn ghế. (Đủ cả 2 việc mới đạt.)</div></div>
+<p>🎉 Xong Luyện 2 rồi — bé giỏi lắm! Sang bài sau khi em tự trả lời được 2 câu mà không cần bấm xem đáp án. Chưa được thì làm lại Luyện 1, không sao cả.</p></div>
+<div class="dh-print"><h3>🖨️ Phiếu viết Bài 1 — In ra giấy để em viết</h3>
+<p><b>Câu viết 1:</b> Viết câu trả lời đầy đủ: “Mỗi sáng, Lan cho Mimi ăn gì?”</p>
+<p><b>Câu viết 2:</b> Viết câu trả lời đầy đủ: “Bạn Mai làm những việc gì?”</p>
+<p class="dh-note">Phiếu in có đủ đoạn văn và 4 dòng viết cho mỗi câu.</p>
+<button type="button" class="dh-btn" data-print="in-dh-bai1" data-print-title="Phiếu bài tập viết — Đọc hiểu Bài 1">🖨️ In phiếu bài này</button></div>
+<div class="dh-print-src" id="in-dh-bai1"><p>Họ tên: ______________________ Ngày: ____/____/________</p><div class="dh-ptask"><p><b>Đoạn 1:</b> Nhà Lan nuôi một con mèo tên là Mimi. Mimi có bộ lông màu trắng. Mỗi sáng, Lan cho Mimi ăn một bát cơm với cá.</p><p><b>Câu viết 1:</b> Viết câu trả lời đầy đủ: “Mỗi sáng, Lan cho Mimi ăn gì?”</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đoạn 2:</b> Hôm nay, tổ 2 trực nhật (dọn lớp). Bạn Hùng lau bảng. Bạn Mai quét lớp và xếp bàn ghế.</p><p><b>Câu viết 2:</b> Viết câu trả lời đầy đủ: “Bạn Mai làm những việc gì?”</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><p>Viết từ những gì em nhớ, đừng nhìn đáp án trên màn hình.</p><p>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</p></div>
+<div class="dh-ph"><button type="button" class="dh-phbtn">👨‍👩‍👧 Dành cho phụ huynh — bấm để xem</button><div class="dh-phbody">
+<p class="dh-note">Phần này chỉ hiện trên phần mềm, không in vào phiếu của em.</p>
+<p><b>Bước 1:</b> Đọc câu hỏi cùng bé, hỏi: “Câu này hỏi cái gì?” (tên, màu, thời gian, chỗ...). Khen ngay khi bé nói đúng mình cần tìm cái gì.</p>
+<p><b>Bước 2:</b> Cùng bé tìm câu trong đoạn có từ giống câu hỏi. Nếu bé bí, đọc to câu đó lên rồi hỏi lại: “Câu này nói gì?”</p>
+<p><b>Bước 3:</b> Chỉ khi bé chỉ đúng câu chứa đáp án mới bảo bé viết. Đừng đòi bé nhớ hết cả đoạn.</p>
+<p><b>Nếu bé bí quá 2 lần thì dừng, khen phần bé đã đúng, mai làm tiếp. Đừng cố làm hết bài trong một buổi.</b></p>
+<p><b>Ý cần có:</b> Luyện 1: tên Mimi, lông trắng, một bát cơm với cá. Luyện 2: tổ 2, Hùng lau bảng, Mai quét lớp và xếp bàn ghế.</p>
+</div></div>
+<div class="next"><a class="next" href="#bai2" data-goto="1">Học tiếp ➜ Bài 2: Nối câu lại và đoán điều chưa nói thẳng</a></div></section>
+
+<section class="lesson" id="bai2" style="--c:#1565c0"><span class="badge">🧩 Học 2 chặng nhỏ, mỗi chặng 1 việc</span><h2>Bài 2: Nối câu lại và đoán điều chưa nói thẳng</h2>
+<p>Có những điều đoạn văn không nói thẳng ra. Em phải nối 2 câu lại với nhau mới thấy được.</p>
+<div class="dh-goal">🎯 <b>Học xong bài này, em làm được 2 việc, mỗi việc học riêng:</b> Chặng A — nối 2 câu để tìm nguyên nhân. Chặng B — đoán điều đoạn chưa nói thẳng. Dùng lại chìa khóa 1 rồi học thêm chìa khóa 2.</div>
+<p><b>Chặng A — Nối 2 câu để tìm nguyên nhân:</b></p>
+<div class="dh-steps"><b>🪜 Cách làm — chỉ 3 bước nhỏ:</b><ol>
+<li>Đọc hết đoạn, không bỏ câu nào.</li>
+<li>Tìm 2 câu nói về cùng một việc: câu này là nguyên nhân, câu kia là kết quả.</li>
+<li>Nối 2 câu lại rồi trả lời: “Vì… nên…”</li>
+</ol></div>
+<div class="dh-tip">💡 <b>Mẹo nhỏ:</b> Câu có “vì”, “do”, “nên” là câu nói nguyên nhân. Tìm được 2 câu đó là em đã nối xong.</div>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu chặng A — cô làm sẵn từng bước:</b>
+<div class="dh-doan">① Chiều nay, Nam đá bóng với các bạn. ② Nam chạy nhanh nên bị vấp ngã. ③ Đầu gối Nam chảy máu và thấy rát.</div>
+<p><b>Hỏi:</b> Vì sao Nam bị ngã?</p>
+<p><b>Bước 1:</b> Đọc hết đoạn.</p>
+<p><b>Bước 2:</b> Nối câu ① (đá bóng) với câu ② (chạy nhanh nên bị vấp ngã).</p>
+<p><b>Bước 3:</b> <b>Đáp án: Vì Nam chạy nhanh nên bị vấp ngã.</b></p>
+<p><b>Hỏi thêm (làm đủ 3 bước):</b> Đầu gối của Nam thế nào?</p>
+<p><b>Bước 1:</b> Câu hỏi hỏi “thế nào” nên mình tìm cảm giác ở đầu gối.</p>
+<p><b>Bước 2:</b> Câu ③ trong đoạn có “chảy máu và thấy rát”.</p>
+<p><b>Bước 3:</b> <b>Đáp án: Chảy máu và thấy rát. (Nói đau hay buốt cũng được.)</b></p></div>
+<div class="dh-lt"><h3>✏️ Luyện 1 — Nối 2 câu để tìm nguyên nhân:</h3>
+<div class="dh-doan">① Sáng nay, trời mưa to. ② Hoa đi học mà quên mang áo mưa. ③ Vào lớp, áo Hoa ướt hết.</div>
+<p class="dh-note">💡 Gợi ý mở: tìm 2 câu nói về Hoa đi học và áo Hoa ướt, rồi nối lại.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Vì sao áo Hoa bị ướt? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Nối câu ① (trời mưa to) với câu ② (quên mang áo mưa). <b>Đáp án: Vì trời mưa to mà Hoa quên mang áo mưa.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Hoa vào lớp thì áo Hoa thế nào? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu ③ trong đoạn nói “áo Hoa ướt hết”. <b>Đáp án: Ướt hết.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Nối 2 câu lại rồi viết: “Vì sao áo Hoa bị ướt hết?” <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Vì trời mưa to mà Hoa quên mang áo mưa.</div></div>
+<p>🎉 Xong Luyện 1 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi sang chặng B nhé!</p></div>
+<p><b>Chặng B — Đoán điều đoạn chưa nói thẳng:</b></p>
+<div class="dh-steps"><b>🪜 Cách làm — chỉ 3 bước nhỏ:</b><ol>
+<li>Đọc hết đoạn, không bỏ câu nào.</li>
+<li>Tìm 2 câu gợi ý: câu này là nguyên nhân, câu kia là dấu hiệu.</li>
+<li>Nói ra điều đoạn chưa viết thẳng ra, nhưng mình suy ra được từ những gì đoạn đã viết.</li>
+</ol></div>
+<div class="dh-tip">💡 <b>Mẹo nhỏ:</b> Đoán là nói ra điều đoạn chưa viết thẳng ra, nhưng mình suy ra được từ những gì đoạn đã viết. Đoán không phải đoán mò: đoán đúng là đoán có bằng chứng trong đoạn.</div>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu chặng B — cô làm sẵn từng bước:</b>
+<div class="dh-doan">① Hôm qua, Lan đi mưa về mà không thay áo ngay. ② Tối qua, Lan hắt hơi liên tục.</div>
+<p><b>Hỏi:</b> Lan có thể bị làm sao?</p>
+<p><b>Bước 1:</b> Đọc hết đoạn.</p>
+<p><b>Bước 2:</b> Nối câu ① (đi mưa, không thay áo) với câu ② (hắt hơi liên tục).</p>
+<p><b>Bước 3:</b> <b>Đáp án: Lan có thể bị cảm lạnh. (Chấp nhận: bị ốm, bị cảm, bị lạnh — miễn là bé nói ra được từ áo ướt + hắt hơi.)</b></p></div>
+<div class="dh-lt"><h3>✏️ Luyện 2 — Đoán điều đoạn chưa nói thẳng:</h3>
+<div class="dh-doan">① Ngày thường, nhà Mai ăn cơm dưới ánh đèn điện. ② Tối qua, nhà Mai mất điện. ③ Cả nhà thắp nến để ăn cơm.</div>
+<p class="dh-note">💡 Gợi ý mở: tìm câu nói nhà mất điện và câu nói thắp nến, rồi nối lại.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Vì sao tối qua nhà Mai phải thắp nến để ăn cơm? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Nối câu ② (mất điện) với câu ③ (thắp nến để ăn cơm). <b>Đáp án: Vì nhà Mai mất điện.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Bữa cơm tối qua của nhà Mai khác ngày thường ở điểm nào? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Ngày thường ăn cơm dưới ánh đèn điện (câu ①), tối qua ăn cơm dưới ánh nến (câu ③). <b>Đáp án: Ngày thường ăn cơm bằng đèn điện, tối qua ăn cơm bằng ánh nến.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết 1–2 câu kể lại: “Tối qua, nhà Mai có chuyện gì? Cả nhà làm gì?” <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Tối qua, nhà Mai mất điện. Cả nhà thắp nến để ăn cơm.</div></div>
+<p>🎉 Xong Luyện 2 rồi — bé giỏi lắm! Sang bài sau khi em tự trả lời được 2 câu mà không cần bấm xem đáp án. Chưa được thì làm lại Luyện 1, không sao cả.</p></div>
+<div class="dh-print"><h3>🖨️ Phiếu viết Bài 2 — In ra giấy để em viết</h3>
+<p><b>Câu viết 1:</b> Nối 2 câu lại rồi viết: “Vì sao áo Hoa bị ướt hết?”</p>
+<p><b>Câu viết 2:</b> Viết 1–2 câu kể lại: “Tối qua, nhà Mai có chuyện gì? Cả nhà làm gì?”</p>
+<p class="dh-note">Phiếu in có đủ đoạn văn và 4 dòng viết cho mỗi câu.</p>
+<button type="button" class="dh-btn" data-print="in-dh-bai2" data-print-title="Phiếu bài tập viết — Đọc hiểu Bài 2">🖨️ In phiếu bài này</button></div>
+<div class="dh-print-src" id="in-dh-bai2"><p>Họ tên: ______________________ Ngày: ____/____/________</p><div class="dh-ptask"><p><b>Đoạn 1:</b> Sáng nay, trời mưa to. Hoa đi học mà quên mang áo mưa. Vào lớp, áo Hoa ướt hết.</p><p><b>Câu viết 1:</b> Nối 2 câu lại rồi viết: “Vì sao áo Hoa bị ướt hết?”</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đoạn 2:</b> Ngày thường, nhà Mai ăn cơm dưới ánh đèn điện. Tối qua, nhà Mai mất điện. Cả nhà thắp nến để ăn cơm.</p><p><b>Câu viết 2:</b> Viết 1–2 câu kể lại: “Tối qua, nhà Mai có chuyện gì? Cả nhà làm gì?”</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><p>Viết từ những gì em nhớ, đừng nhìn đáp án trên màn hình.</p><p>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</p></div>
+<div class="dh-ph"><button type="button" class="dh-phbtn">👨‍👩‍👧 Dành cho phụ huynh — bấm để xem</button><div class="dh-phbody">
+<p class="dh-note">Phần này chỉ hiện trên phần mềm, không in vào phiếu của em.</p>
+<p><b>Chặng A:</b> Hỏi bé: “Câu nào nói nguyên nhân? Câu nào nói kết quả?” Khen ngay khi bé chỉ đúng 1 câu. Đừng đòi bé nói trọn câu “Vì… nên…” ngay từ đầu — bé nói được nửa câu cũng khen.</p>
+<p><b>Chặng B:</b> Hỏi từng bước nhỏ: “Đoạn nói gì?” rồi “Từ đó, em đoán được gì?” Chấp nhận mọi câu đoán có bằng chứng trong đoạn, kể cả khi khác đáp án mẫu (ví dụ “bị ốm” thay vì “bị cảm lạnh”).</p>
+<p><b>Ý cần có:</b> Luyện 1: mưa to + quên áo mưa → áo ướt. Luyện 2: mất điện → thắp nến ăn cơm; ngày thường đèn điện, tối qua ánh nến.</p>
+</div></div>
+<div class="next"><a class="next" href="#bai1" data-goto="0">⬅ Bài trước: Bài 1</a><a class="next" href="#bai3" data-goto="2">Học tiếp ➜ Bài 3: Đọc đề bài</a></div></section>
+
+<section class="lesson" id="bai3" style="--c:#ef6c00"><span class="badge">🔑 Cách đọc đề để khỏi làm sai oan</span><h2>Bài 3: Đọc đề bài — cho gì, hỏi gì, gạch chân từ quan trọng</h2>
+<p>Có những bài bé biết làm mà vẫn sai — thường chỉ vì đọc đề vội quá. Bài này dạy em đọc đề thật chậm trước khi làm.</p>
+<div class="dh-goal">🎯 <b>Học xong bài này, em làm được gì?</b> Em đọc đề bài, nói được đề cho gì, đề hỏi gì, và gạch chân được từ quan trọng.</div>
+<div class="dh-steps"><b>🪜 Cách làm — chỉ 3 bước nhỏ:</b><ol>
+<li>Đọc đề 2 lần, chậm rãi.</li>
+<li>Tìm câu cuối: đề hỏi gì, hoặc đề bảo mình làm gì? Rồi tìm số và đồ vật đề cho, gạch chân từ quan trọng.</li>
+<li>Nói lại bằng lời của mình: “Đề cho… Đề hỏi…” rồi mới bắt đầu làm.</li>
+</ol></div>
+<div class="dh-tip">💡 <b>Mẹo nhỏ:</b> Từ quan trọng là từ mà thiếu nó thì em không biết phải làm gì. Ví dụ: “bao nhiêu”, “bạn nam”, “cả ngày”.</div>
+<svg viewBox="0 0 340 410" class="dsvg" style="max-width:420px;margin:0 auto" role="img" aria-label="Sơ đồ 3 bước đọc đề bài: 1. Đọc đề 2 lần. 2. Cho gì? Hỏi gì? Gạch chân. 3. Nói lại: Đề cho… Đề hỏi…" font-family="Be Vietnam Pro, Arial, sans-serif">
+<rect x="16" y="12" width="308" height="84" rx="14" fill="#fff3e0" stroke="#ef6c00" stroke-width="3"/>
+<text x="170" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#e65100">🔍 1. Đọc đề 2 lần</text>
+<text x="170" y="80" text-anchor="middle" font-size="23" fill="#333">đọc chậm rãi</text>
+<path d="M170 104 L170 132" stroke="#333" stroke-width="4"/><path d="M158 120 L170 134 L182 120" fill="none" stroke="#333" stroke-width="4"/>
+<rect x="16" y="140" width="308" height="104" rx="14" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+<text x="170" y="178" text-anchor="middle" font-size="28" font-weight="bold" fill="#0d47a1">❓ 2. Cho gì? Hỏi gì?</text>
+<text x="170" y="208" text-anchor="middle" font-size="23" fill="#333">gạch chân từ quan trọng:</text>
+<text x="170" y="236" text-anchor="middle" font-size="23" font-weight="bold" fill="#0d47a1">bao nhiêu</text>
+<line x1="118" y1="244" x2="222" y2="244" stroke="#0d47a1" stroke-width="3"/>
+<path d="M170 252 L170 280" stroke="#333" stroke-width="4"/><path d="M158 268 L170 282 L182 268" fill="none" stroke="#333" stroke-width="4"/>
+<rect x="16" y="288" width="308" height="104" rx="14" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+<text x="170" y="326" text-anchor="middle" font-size="28" font-weight="bold" fill="#1b5e20">✏️ 3. Nói lại</text>
+<text x="170" y="356" text-anchor="middle" font-size="23" fill="#333">“Đề cho… Đề hỏi…”</text>
+<text x="170" y="384" text-anchor="middle" font-size="23" fill="#333">rồi mới bắt đầu làm</text>
+</svg>
+<p class="dh-note"><b>Làm đúng thứ tự: xong bước 1 mới sang bước 2!</b></p>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu — cô làm sẵn từng bước:</b>
+<div class="dh-doan">Lớp 6A có 32 học sinh, trong đó có 18 bạn nữ. Hỏi lớp 6A có bao nhiêu bạn nam?</div>
+<p><b>Bước 1:</b> Cô đọc đề 2 lần, chậm rãi.</p>
+<p><b>Bước 2a — Đề cho gì?</b> 32 học sinh, 18 bạn nữ.</p>
+<p><b>Bước 2b — Đề hỏi gì?</b> Có bao nhiêu bạn nam?</p>
+<p><b>Bước 2c — Gạch chân từ quan trọng:</b> “bao nhiêu”, “bạn nam”.</p>
+<p><b>Bước 3 — Nói lại:</b> Đề cho 32 học sinh, trong đó 18 bạn nữ. Đề hỏi có bao nhiêu bạn nam. Nói lại được như vậy rồi mới bắt đầu làm. Bài này chỉ luyện đọc đề, chưa cần tính.</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 1 — Đọc đề Toán này rồi trả lời:</h3>
+<div class="dh-doan">Buổi sáng, cửa hàng bán được 45 kg gạo. Buổi chiều, cửa hàng bán được 27 kg gạo. Hỏi cả ngày cửa hàng bán được bao nhiêu kg gạo?</div>
+<p class="dh-note">💡 Gợi ý mở: tìm các số trong đề rồi viết ra.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Đề cho gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Tìm các số trong đề: 45 kg gạo buổi sáng, 27 kg gạo buổi chiều. <b>Đáp án: Buổi sáng 45 kg gạo, buổi chiều 27 kg gạo.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Đề hỏi gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu cuối của đề có “bao nhiêu kg gạo”. <b>Đáp án: Cả ngày cửa hàng bán được bao nhiêu kg gạo?</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết lại yêu cầu đề bài bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Đề cho buổi sáng 45 kg gạo, buổi chiều 27 kg gạo. Đề hỏi cả ngày bán được bao nhiêu kg gạo.</div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 4: Viết phép tính em sẽ làm để tìm đáp số. <span class="dh-act">👉 Thử tính trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Đề hỏi “cả ngày” nên cộng 2 buổi lại. <b>Phép tính: 45 + 27 = 72 kg.</b></div></div>
+<p>🎉 Xong Luyện 1 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi làm tiếp nhé!</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 2 — Đọc đề viết này rồi trả lời:</h3>
+<p class="dh-note">Luyện 2 đổi sang đề viết — cách đọc vẫn giống nhau.</p>
+<div class="dh-doan">Hãy viết 3 câu giới thiệu về món đồ chơi em thích nhất.</div>
+<p class="dh-note">💡 Gợi ý mở: tìm từ chỉ việc phải làm trong đề (từ “viết…”).</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Đề yêu cầu làm gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Đề không phải câu hỏi mà là câu bảo làm gì: “Hãy viết…”. <b>Đáp án: Viết giới thiệu về món đồ chơi em thích nhất.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Viết mấy câu? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Đề nói rõ “3 câu”. <b>Đáp án: 3 câu.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3: Viết về cái gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Đề nói “món đồ chơi em thích nhất”. <b>Đáp án: Về món đồ chơi em thích nhất.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 4 (viết): Viết lại yêu cầu đề bài bằng lời của em và viết các từ quan trọng em gạch chân. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Viết 3 câu giới thiệu món đồ chơi em thích nhất. Từ quan trọng: “3 câu”, “giới thiệu”, “món đồ chơi em thích nhất”.</div></div>
+<p>🎉 Xong Luyện 2 rồi — bé giỏi lắm! Sang bài sau khi em tự trả lời được 2 câu mà không cần bấm xem đáp án. Chưa được thì làm lại Luyện 1, không sao cả.</p></div>
+<div class="dh-print"><h3>🖨️ Phiếu viết Bài 3 — In ra giấy để em viết</h3>
+<p><b>Câu viết 1:</b> Viết lại yêu cầu đề bán gạo bằng lời của em.</p>
+<p><b>Câu viết 2:</b> Viết lại yêu cầu đề viết về đồ chơi bằng lời của em và viết các từ quan trọng em gạch chân.</p>
+<p class="dh-note">Phiếu in có đủ đề bài và 4 dòng viết cho mỗi câu.</p>
+<button type="button" class="dh-btn" data-print="in-dh-bai3" data-print-title="Phiếu bài tập viết — Đọc hiểu Bài 3">🖨️ In phiếu bài này</button></div>
+<div class="dh-print-src" id="in-dh-bai3"><p>Họ tên: ______________________ Ngày: ____/____/________</p><div class="dh-ptask"><p><b>Đề 1:</b> Buổi sáng, cửa hàng bán được 45 kg gạo. Buổi chiều, cửa hàng bán được 27 kg gạo. Hỏi cả ngày cửa hàng bán được bao nhiêu kg gạo?</p><p><b>Câu viết 1:</b> Viết lại yêu cầu đề bài trên bằng lời của em.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đề 2:</b> Hãy viết 3 câu giới thiệu về món đồ chơi em thích nhất.</p><p><b>Câu viết 2:</b> Viết lại yêu cầu đề bài trên bằng lời của em và viết các từ quan trọng em gạch chân.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><p>Viết từ những gì em nhớ, đừng nhìn đáp án trên màn hình.</p><p>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</p></div>
+<div class="dh-ph"><button type="button" class="dh-phbtn">👨‍👩‍👧 Dành cho phụ huynh — bấm để xem</button><div class="dh-phbody">
+<p class="dh-note">Phần này chỉ hiện trên phần mềm, không in vào phiếu của em.</p>
+<p><b>Bước 1:</b> Cùng bé đọc đề 2 lần, lần 2 đọc chậm. Chưa vội làm ngay.</p>
+<p><b>Bước 2:</b> Hỏi từng bước nhỏ: “Đề cho gì?” rồi “Đề hỏi gì, hoặc đề bảo mình làm gì?” Khen ngay khi bé trả lời đúng 1 bước.</p>
+<p><b>Bước 3:</b> Bảo bé nói lại “Đề cho… Đề hỏi…” bằng lời của bé rồi mới làm. Nếu bé chưa nói lại được thì đọc lại đề cùng bé, đừng vội tính.</p>
+<p><b>Ý cần có:</b> Luyện 1: cho 45 kg sáng + 27 kg chiều, hỏi cả ngày bao nhiêu kg, phép tính 45 + 27 = 72 kg. Luyện 2: viết 3 câu giới thiệu món đồ chơi em thích nhất, từ quan trọng “3 câu”, “giới thiệu”, “món đồ chơi em thích nhất”.</p>
+</div></div>
+<div class="next"><a class="next" href="#bai2" data-goto="1">⬅ Bài trước: Bài 2</a><a class="next" href="#bai4" data-goto="3">Học tiếp ➜ Bài 4: Nói lại ý chính</a></div></section>
+
+<section class="lesson" id="bai4" style="--c:#6a1b9a"><span class="badge">🗣️ Nói lại được là hiểu sâu hơn</span><h2>Bài 4: Nói lại ý chính bằng lời của mình</h2>
+<p>Đọc xong một đoạn mà nói lại được bằng lời của mình thì em đã hiểu sâu rồi. Không cần nhớ từng chữ, chỉ cần nhớ ý chính.</p>
+<p class="dh-note">Bài này dài hơn. Hôm nay chỉ làm Luyện 1 cũng được, mai làm tiếp Luyện 2. Dùng lại chìa khóa 1 và 2 để tìm ý chính.</p>
+<div class="dh-goal">🎯 <b>Học xong bài này, em làm được gì?</b> Em nói lại được ý chính của một đoạn văn bằng lời của mình.</div>
+<div class="dh-steps"><b>🪜 Cách làm — chỉ 3 bước nhỏ:</b><ol>
+<li>Đọc hết đoạn, tìm xem đoạn nói về ai, về cái gì.</li>
+<li>Tìm 1–2 câu nói rõ nhất điều đó. Câu nhắc lại tên vật chính thì giữ; câu chỉ kể thêm 1 ví dụ thì bỏ. Các câu còn lại chỉ là câu kể thêm.</li>
+<li>Nói lại bằng lời của mình, ngắn gọn, đủ ý chính.</li>
+</ol></div>
+<div class="dh-tip">💡 <b>Mẹo nhỏ:</b> Ý chính là điều quan trọng nhất của đoạn. Hỏi “Đoạn này nói về cái gì?” rồi trả lời bằng 1–2 câu là em đã nắm được ý chính.</div>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu — cô làm sẵn từng bước:</b>
+<div class="dh-doan">Cây bàng to ở sân trường em rất được yêu thích. Lá bàng xanh mát, che nắng cho các bạn chơi đùa. Mùa đông, lá bàng chuyển sang màu đỏ rồi rụng xuống. Các bạn vẫn yêu cây bàng quanh năm.</div>
+<p><b>Bước 1:</b> Đoạn nói về cây bàng ở sân trường.</p>
+<p><b>Bước 2:</b> Câu nói rõ nhất? Câu đầu và câu cuối. Các câu giữa chỉ kể thêm: mát mùa hè, lá đỏ mùa đông — khi nói lại, cô chỉ lấy ý chính của chúng, không kể lại từng chi tiết.</p>
+<p><b>Bước 3 — Nói lại:</b> Cây bàng to ở sân trường em rất được yêu thích vì lá mát vào mùa hè, lá đỏ rồi rụng vào mùa đông.</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 1 — Đọc đoạn này rồi trả lời:</h3>
+<div class="dh-doan">Ong là loài côn trùng rất chăm chỉ. Ong bay đi tìm hoa để hút mật. Ong hút mật hoa rồi mang về tổ. Nhờ có ong, hoa mới thành quả.</div>
+<p class="dh-note">💡 Gợi ý mở: câu đầu nói rõ đoạn nói về ai.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Đoạn này nói về ai? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu đầu nói rõ “Ong”. <b>Đáp án: Con ong.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Ong làm những việc gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Nối các câu: chăm chỉ, tìm hoa, mang mật về tổ, giúp hoa thành quả. <b>Đáp án: Ong chăm chỉ tìm hoa, mang mật về tổ và giúp hoa thành quả.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết 1–2 câu nói lại ý chính bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có (2 ý):</b> Ong chăm chỉ tìm hoa và mang mật về tổ. Nhờ có ong, hoa mới thành quả.</div></div>
+<p>🎉 Xong Luyện 1 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi làm tiếp nhé!</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 2 — Đọc đoạn này rồi trả lời:</h3>
+<div class="dh-doan">Sáng sớm, chợ quê đã họp rất đông vui. Người ta bán rau, bán cá, bán hoa quả và nhiều đồ dùng khác. Tiếng cười nói vang khắp chợ. Chợ quê là nơi vui nhất vào buổi sáng.</div>
+<p class="dh-note">💡 Gợi ý mở: câu đầu và câu cuối đều nhắc tới nó.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Đoạn này nói về cái gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Câu đầu và câu cuối đều nhắc tới chợ quê. <b>Đáp án: Chợ quê.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Chợ quê buổi sáng như thế nào? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm:</b> Nối các câu: họp đông vui, bán nhiều thứ, tiếng cười nói vang khắp chợ. <b>Đáp án: Đông vui, bán nhiều thứ, tiếng cười nói vang khắp chợ.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết 1–2 câu nói lại ý chính bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có:</b> Chợ quê buổi sáng rất đông vui. Chợ bán nhiều thứ và là nơi vui nhất vào buổi sáng.</div></div>
+<p>🎉 Xong Luyện 2 rồi — bé giỏi lắm! Sang bài sau khi em tự trả lời được 2 câu mà không cần bấm xem đáp án. Chưa được thì làm lại Luyện 1, không sao cả.</p></div>
+<div class="dh-print"><h3>🖨️ Phiếu viết Bài 4 — In ra giấy để em viết</h3>
+<p><b>Câu viết 1:</b> Viết 1–2 câu nói lại ý chính của đoạn về con ong bằng lời của em.</p>
+<p><b>Câu viết 2:</b> Viết 1–2 câu nói lại ý chính của đoạn về chợ quê bằng lời của em.</p>
+<p class="dh-note">Phiếu in có đủ đoạn văn và 4 dòng viết cho mỗi câu.</p>
+<button type="button" class="dh-btn" data-print="in-dh-bai4" data-print-title="Phiếu bài tập viết — Đọc hiểu Bài 4">🖨️ In phiếu bài này</button></div>
+<div class="dh-print-src" id="in-dh-bai4"><p>Họ tên: ______________________ Ngày: ____/____/________</p><div class="dh-ptask"><p><b>Đoạn 1:</b> Ong là loài côn trùng rất chăm chỉ. Ong bay đi tìm hoa để hút mật. Ong hút mật hoa rồi mang về tổ. Nhờ có ong, hoa mới thành quả.</p><p><b>Câu viết 1:</b> Viết 1–2 câu nói lại ý chính của đoạn trên bằng lời của em.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đoạn 2:</b> Sáng sớm, chợ quê đã họp rất đông vui. Người ta bán rau, bán cá, bán hoa quả và nhiều đồ dùng khác. Tiếng cười nói vang khắp chợ. Chợ quê là nơi vui nhất vào buổi sáng.</p><p><b>Câu viết 2:</b> Viết 1–2 câu nói lại ý chính của đoạn trên bằng lời của em.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><p>Viết từ những gì em nhớ, đừng nhìn đáp án trên màn hình.</p><p>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</p></div>
+<div class="dh-ph"><button type="button" class="dh-phbtn">👨‍👩‍👧 Dành cho phụ huynh — bấm để xem</button><div class="dh-phbody">
+<p class="dh-note">Phần này chỉ hiện trên phần mềm, không in vào phiếu của em.</p>
+<p><b>Bước 1:</b> Hỏi bé: “Đoạn này nói về ai, về cái gì?” Khen ngay khi bé nói đúng tên nhân vật/vật chính.</p>
+<p><b>Bước 2:</b> Hỏi: “Câu nào nói rõ nhất? Câu nào chỉ kể thêm?” Dùng tiêu chí: câu nhắc lại tên vật chính thì giữ, câu chỉ kể thêm 1 ví dụ thì bỏ.</p>
+<p><b>Bước 3:</b> Để bé nói lại bằng lời của bé, dù câu chưa hay. Đừng sửa thành câu mẫu của người lớn — chỉ hỏi thêm: “Còn ý gì nữa không?”</p>
+<p><b>Ý cần có:</b> Luyện 1: ong chăm chỉ + mang mật về tổ, nhờ ong hoa mới thành quả. Luyện 2: chợ quê buổi sáng đông vui, bán nhiều thứ, là nơi vui nhất buổi sáng.</p>
+</div></div>
+<div class="next"><a class="next" href="#bai3" data-goto="2">⬅ Bài trước: Bài 3</a><a class="next" href="#bai5" data-goto="4">Học tiếp ➜ Bài 5: Đọc hiểu qua các môn khác</a></div></section>
+
+<section class="lesson" id="bai5" style="--c:#00838f"><span class="badge">🔄 Dùng lại 4 chìa khóa, không học cách mới</span><h2>Bài 5: Đọc hiểu qua các môn khác</h2>
+<p>Các chìa khóa đã học dùng được cho mọi môn: đoạn văn Khoa học tự nhiên (KHTN), đề Toán và đoạn Lịch sử/Địa lí đều đọc giống nhau.</p>
+<p class="dh-note">Bài này dài hơn. Hôm nay chỉ làm Luyện 1 cũng được, mai làm tiếp Luyện 2, Luyện 3.</p>
+<div class="dh-goal">🎯 <b>Học xong bài này, em làm được gì?</b> Em dùng lại 4 chìa khóa cũ cho đoạn văn và đề bài của môn khác. Mỗi bài luyện dùng lại các chìa khóa cũ. Có luyện dùng 3 chìa khóa trong 1 bài — cô đã làm mẫu cách phối hợp ở dưới.</div>
+<div class="dh-goal"><b>Nhắc lại 4 chìa khóa:</b><ul>
+<li>🔍 <b>Chìa khóa 1:</b> Tìm câu trả lời có sẵn trong đoạn.</li>
+<li>🧩 <b>Chìa khóa 2:</b> Nối câu lại và đoán điều chưa nói thẳng.</li>
+<li>❓ <b>Chìa khóa 3:</b> Đọc đề bài — cho gì, hỏi gì, gạch chân từ quan trọng.</li>
+<li>🗣️ <b>Chìa khóa 4:</b> Nói lại ý chính bằng lời của mình.</li>
+</ul></div>
+<div class="dh-vd"><b>🔍 Ví dụ mẫu — cô làm mẫu cách phối hợp 3 chìa khóa:</b>
+<div class="dh-doan">Sáng nay, trời nắng to. Bé Hoa đội mũ khi ra sân chơi. Nhờ đội mũ, Hoa không bị nắng làm đau đầu.</div>
+<p><b>Chìa khóa 1 — Tìm trực tiếp:</b> Hỏi “Hoa ra sân chơi khi nào?” → Sáng nay.</p>
+<p><b>Chìa khóa 2 — Nối câu:</b> Nối “trời nắng to” với “Hoa đội mũ” → Vì trời nắng to nên Hoa đội mũ.</p>
+<p><b>Chìa khóa 4 — Nói lại ý chính:</b> Trời nắng to nên Hoa đội mũ ra sân chơi để tránh nắng.</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 1 — Đoạn văn kiểu Khoa học tự nhiên (KHTN) — dùng chìa khóa 1, 2 và 4:</h3>
+<div class="dh-doan">Nước ở ao hồ, sông suối bốc hơi lên trời nhờ nắng. Hơi nước gặp lạnh thì tụ lại thành mây. Mây nặng rồi rơi xuống thành mưa. Nhờ vậy, nước đi một vòng từ mặt đất lên trời rồi lại về mặt đất.</div>
+<p class="dh-note">bay hơi là nước bốc lên thành hơi; tụ lại là gom lại với nhau.</p>
+<p class="dh-note">💡 Gợi ý mở: dùng chìa khóa 1 — tìm câu nói rõ thời gian.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Nước bốc hơi lên trời nhờ gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 1):</b> Câu đầu nói “nhờ nắng”. <b>Đáp án: Nhờ nắng.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Vì sao có mưa? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 2):</b> Nối câu “hơi nước tụ lại thành mây” với câu “mây nặng rồi rơi xuống thành mưa”. <b>Đáp án: Vì hơi nước tụ lại thành mây, mây nặng rồi rơi xuống thành mưa.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết 1–2 câu nói lại nước đi như thế nào, từ mặt đất lên trời rồi về lại mặt đất, bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có (chìa khóa 4):</b> Nước bốc hơi lên trời, tụ lại thành mây, rồi rơi xuống thành mưa và về lại mặt đất.</div></div>
+<p>🎉 Xong Luyện 1 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi làm tiếp nhé!</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 2 — Đề Toán có lời văn — dùng chìa khóa 3:</h3>
+<div class="dh-doan">An có 20 viên bi xanh. An cho em trai 6 viên bi xanh. Hỏi An còn lại bao nhiêu viên bi xanh?</div>
+<p class="dh-note">💡 Gợi ý mở: dùng chìa khóa 3 — tìm các số trong đề.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Đề cho gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 3):</b> Tìm các số trong đề: 20 viên bi xanh, cho em trai 6 viên bi xanh. <b>Đáp án: An có 20 viên bi xanh, An cho em trai 6 viên bi xanh.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Đề hỏi gì? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 3):</b> Câu cuối của đề có “bao nhiêu viên bi xanh”. <b>Đáp án: An còn lại bao nhiêu viên bi xanh?</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết lại yêu cầu đề bài bằng lời của em và viết phép tính em sẽ làm. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có (chìa khóa 3):</b> Đề cho 20 viên bi xanh, cho em trai 6 viên. Đề hỏi còn lại bao nhiêu viên bi xanh. Phép tính: 20 − 6 = 14 viên.</div></div>
+<p>🎉 Xong Luyện 2 rồi — làm đúng 1 câu thôi cũng là giỏi rồi! Nghỉ một chút rồi làm tiếp nhé!</p></div>
+<div class="dh-lt"><h3>✏️ Luyện 3 — Đoạn văn kiểu Lịch sử/Địa lí — dùng chìa khóa 1, 2 và 4:</h3>
+<div class="dh-doan">Ở vùng sông nước, người ta họp chợ nổi trên sông. Thuyền nổi trên mặt nước. Người bán chở hàng hóa bằng thuyền. Người mua cũng đi bằng thuyền. Chợ nổi vừa là nơi mua bán, vừa là nét đẹp của vùng sông nước.</div>
+<p class="dh-note">💡 Gợi ý mở: dùng chìa khóa 1 — tìm câu nói rõ chợ họp ở đâu.</p>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 1: Chợ nổi họp ở đâu? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 1):</b> Câu đầu nói “họp chợ nổi trên sông”. <b>Đáp án: Trên sông.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 2: Vì sao người ta gọi là chợ nổi? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 2):</b> Nối câu “họp chợ trên sông” với câu “thuyền nổi trên mặt nước” và câu “người bán, người mua đều đi bằng thuyền”. <b>Đáp án: Vì chợ họp trên sông, người bán và người mua đều đi bằng thuyền nổi trên mặt nước. (“Nổi” ở đây là nổi trên mặt nước, không phải nổi tiếng.)</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu 3 (viết): Viết 1–2 câu nói lại ý chính bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có (chìa khóa 4):</b> Chợ nổi họp trên sông, người bán và người mua đều đi bằng thuyền. Chợ nổi vừa là nơi mua bán, vừa là nét đẹp của vùng sông nước.</div></div>
+<p>🎉 Xong Luyện 3 rồi — bé giỏi lắm! Sang phần Tổng kết khi em tự trả lời được 2 câu mà không cần bấm xem đáp án. Chưa được thì làm lại Luyện 1, không sao cả.</p></div>
+<div class="dh-print"><h3>🖨️ Phiếu viết Bài 5 — In ra giấy để em viết</h3>
+<p><b>Câu viết 1:</b> Viết 1–2 câu nói lại nước đi như thế nào, từ mặt đất lên trời rồi về lại mặt đất, bằng lời của em.</p>
+<p><b>Câu viết 2:</b> Viết lại yêu cầu đề bi xanh bằng lời của em và viết phép tính em sẽ làm.</p>
+<p><b>Câu viết 3:</b> Viết 1–2 câu nói lại ý chính của đoạn chợ nổi bằng lời của em.</p>
+<p class="dh-note">Phiếu in có đủ đoạn/đề bài và 4 dòng viết cho mỗi câu.</p>
+<button type="button" class="dh-btn" data-print="in-dh-bai5" data-print-title="Phiếu bài tập viết — Đọc hiểu Bài 5">🖨️ In phiếu bài này</button></div>
+<div class="dh-print-src" id="in-dh-bai5"><p>Họ tên: ______________________ Ngày: ____/____/________</p><div class="dh-ptask"><p><b>Đoạn 1:</b> Nước ở ao hồ, sông suối bốc hơi lên trời nhờ nắng. Hơi nước gặp lạnh thì tụ lại thành mây. Mây nặng rồi rơi xuống thành mưa. Nhờ vậy, nước đi một vòng từ mặt đất lên trời rồi lại về mặt đất.</p><p><b>Câu viết 1:</b> Viết 1–2 câu nói lại nước đi như thế nào, từ mặt đất lên trời rồi về lại mặt đất, bằng lời của em.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đề 2:</b> An có 20 viên bi xanh. An cho em trai 6 viên bi xanh. Hỏi An còn lại bao nhiêu viên bi xanh?</p><p><b>Câu viết 2:</b> Viết lại yêu cầu đề bài trên bằng lời của em và viết phép tính em sẽ làm.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><div class="dh-ptask"><p><b>Đoạn 3:</b> Ở vùng sông nước, người ta họp chợ nổi trên sông. Thuyền nổi trên mặt nước. Người bán chở hàng hóa bằng thuyền. Người mua cũng đi bằng thuyền. Chợ nổi vừa là nơi mua bán, vừa là nét đẹp của vùng sông nước.</p><p><b>Câu viết 3:</b> Viết 1–2 câu nói lại ý chính của đoạn trên bằng lời của em.</p><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div><div class="dh-line"></div></div><p>Viết từ những gì em nhớ, đừng nhìn đáp án trên màn hình.</p><p>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</p></div>
+<div class="dh-ph"><button type="button" class="dh-phbtn">👨‍👩‍👧 Dành cho phụ huynh — bấm để xem</button><div class="dh-phbody">
+<p class="dh-note">Phần này chỉ hiện trên phần mềm, không in vào phiếu của em.</p>
+<p><b>Bước 1:</b> Trước mỗi luyện, hỏi bé: “Bài này dùng chìa khóa mấy?” (Luyện 1: 1, 2 và 4. Luyện 2: 3. Luyện 3: 1, 2 và 4.) Nếu bé chưa nhớ, mở lại ví dụ mẫu ở trên để xem cách phối hợp.</p>
+<p><b>Bước 2:</b> Luyện 2 (Toán): nếu bé bí, hỏi: “Đề hỏi bi xanh hay bi gì? Đề cho mấy bi xanh?” rồi mới hỏi phép tính. Bài này chỉ luyện đọc đề, chưa bắt tính nhẩm nhanh.</p>
+<p><b>Ý cần có:</b> Luyện 1: nhờ nắng, mây nặng rơi thành mưa, nước đi một vòng. Luyện 2: cho 20, cho em trai 6, hỏi còn bao nhiêu, phép tính 20 − 6 = 14 viên. Luyện 3: họp trên sông, thuyền nổi trên mặt nước, vừa mua bán vừa nét đẹp.</p>
+</div></div>
+<div class="next"><a class="next" href="#bai4" data-goto="3">⬅ Bài trước: Bài 4</a><a class="next" href="#tongket" data-goto="5">Học tiếp ➜ Tổng kết: 4 chìa khóa đọc hiểu và cách dùng cho mọi môn</a></div></section>
+
+<section class="partsum" id="tongket"><span class="badge">🏁 Tổng kết</span><h2>Tổng kết: 4 chìa khóa đọc hiểu và cách dùng cho mọi môn</h2>
+<p>Em đã học xong 4 chìa khóa. Bài 5 không phải chìa khóa mới — nó chỉ là cách dùng lại 4 chìa khóa cho môn khác.</p>
+<div class="dh-keyrow" style="--kc:#2e7d32">✔ <b>Chìa khóa 1 — Tìm câu trả lời có sẵn trong đoạn</b> (Bài 1): hỏi cái gì thì tìm cái đó trong đoạn.</div>
+<div class="dh-keyrow" style="--kc:#1565c0">✔ <b>Chìa khóa 2 — Nối câu lại và đoán điều chưa nói thẳng</b> (Bài 2): nối 2 câu, nói ra điều suy ra được.</div>
+<div class="dh-keyrow" style="--kc:#ef6c00">✔ <b>Chìa khóa 3 — Đọc đề bài</b> (Bài 3): đọc 2 lần, tìm cho gì, hỏi gì, gạch chân từ quan trọng, nói lại rồi mới làm.</div>
+<div class="dh-keyrow" style="--kc:#6a1b9a">✔ <b>Chìa khóa 4 — Nói lại ý chính bằng lời của mình</b> (Bài 4): tìm câu nói rõ nhất, bỏ câu kể thêm, nói lại ngắn gọn.</div>
+<div class="dh-keyrow" style="--kc:#00838f">✔ <b>Cách dùng chung — Dùng cho mọi môn</b> (Bài 5): đoạn Khoa học tự nhiên, đề Toán, đoạn Lịch sử/Địa lí đều đọc bằng 4 chìa khóa trên. Không có cách đọc riêng cho từng môn.</div>
+<h3>📝 Ôn lại bằng 1 đoạn ngắn:</h3>
+<div class="dh-doan">Buổi sáng, Minh tưới cây trong vườn. Cây héo vì mấy hôm nay trời nắng to và không có mưa. Sau khi tưới, lá cây tươi lại.</div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu ôn 1: Vì sao cây héo? <span class="dh-act">👉 Thử đoán trước rồi bấm để xem</span></button><div class="dh-a"><b>Cách tìm (chìa khóa 2):</b> Nối “trời nắng to” với “không có mưa”. <b>Đáp án: Vì trời nắng to và không có mưa.</b></div></div>
+<div class="dh-q"><button type="button" class="dh-qbtn">Câu ôn 2 (viết): Viết 1 câu nói lại ý chính bằng lời của em. <span class="dh-act">👉 Thử viết trước rồi bấm để xem ý cần có</span></button><div class="dh-a"><b>Ý cần có (chìa khóa 4):</b> Cây héo vì nắng to và không mưa, sau khi Minh tưới thì lá tươi lại.</div></div>
+<p><b>Cách luyện tiếp:</b> Làm lại Luyện 1 của bài hôm qua trước khi sang bài mới. Tuần này, khi làm bài Toán/Khoa học tự nhiên ở lớp, thử dùng chìa khóa 3 đọc đề trước rồi kể cho phụ huynh nghe: đề cho gì, đề hỏi gì.</p>
+<p class="dh-note">Môn Đọc hiểu là môn luyện kỹ năng, không phải nội dung sách giáo khoa. Mọi đoạn văn và đề bài trong môn này đều tự viết ra để luyện kỹ năng.</p>
+<div class="next"><a class="next" href="#bai5" data-goto="4">⬅ Bài trước: Bài 5</a></div></section>
+
+</div>
+<script>
+document.querySelectorAll('.dh-qbtn').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+document.querySelectorAll('.dh-phbtn').forEach(function(b){b.addEventListener('click',function(){b.parentElement.classList.toggle('open');});});
+function printWin(title,srcId){
+  var src=document.getElementById(srcId);
+  var w=window.open('','_blank');
+  w.document.write('<html><head><meta charset="utf-8"><title>'+title+'</title><style>body{font:16px/1.7 Arial;padding:24px}.dh-line{height:38px;border-bottom:1px solid #888}.dh-ptask{break-inside:avoid}h2{font-size:20px}</style></head><body><h2>'+title+'</h2>'+src.innerHTML+'</body></html>');
+  w.document.close(); w.focus(); w.print();
+}
+document.querySelectorAll('[data-print]').forEach(function(b){b.addEventListener('click',function(){printWin(b.getAttribute('data-print-title'),b.getAttribute('data-print'));});});
+</script>
+<script>
+window.NAV_DATA={pages:["bai1","bai2","bai3","bai4","bai5","tongket"],labels:["Bài 1: Tìm câu trả lời có sẵn trong đoạn","Bài 2: Nối câu lại và đoán điều chưa nói thẳng","Bài 3: Đọc đề bài — cho gì, hỏi gì, gạch chân từ quan trọng","Bài 4: Nói lại ý chính bằng lời của mình","Bài 5: Đọc hiểu qua các môn khác","Tổng kết: 4 chìa khóa đọc hiểu và cách dùng cho mọi môn"],groups:[{label:"Kỹ năng đọc hiểu — từ dễ đến khó",pages:["bai1","bai2","bai3","bai4","bai5"]}],summaries:["tongket"],viewKey:"dochieu_view_mode"};
+</script>
+<script src="../assets/nav-chuan.js"></script>
+</body>
+</html>
