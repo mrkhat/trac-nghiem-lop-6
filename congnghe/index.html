@@ -826,6 +826,39 @@ window.NAV_DATA = {
   elementIds: {sum:'sumwrap'}
 };
 </script>
-<script src="../assets/nav-chuan.js"></script>
+<div class="on-tap-gk1" id="ontap-gk1-cn">
+<style>
+#ontap-gk1-cn{border:3px solid #ef6c00;border-radius:14px;padding:16px;margin:20px 0;background:#fff8f0}
+#ontap-gk1-cn h2{font-size:24px;margin:4px 0 8px}
+#ontap-gk1-cn h3{font-size:20px;margin:20px 0 8px}
+#ontap-gk1-cn p{font-size:17px;line-height:1.65}
+#ontap-gk1-cn .rline{height:30px;border-bottom:1px solid #999}
+#ontap-gk1-cn .rbtn{padding:10px 18px;font-size:17px;border-radius:10px;border:2px solid #ef6c00;background:#fff3e0;cursor:pointer;margin:8px 8px 8px 0}
+#ontap-gk1-cn .rprint-src{display:none}
+</style>
+<h2>📝 Ôn tập giữa học kì 1 — Môn Công nghệ (theo ảnh ôn tập đã gửi)</h2>
+<button type="button" class="rbtn" data-print="in-cn-tomtat" data-print-title="Tóm tắt ôn tập giữa học kì 1 — Môn Công nghệ">🖨️ In tóm tắt (xuất PDF)</button>
+<button type="button" class="rbtn" data-print="in-cn-luyen" data-print-title="Phiếu bài tập viết ôn tập giữa học kì 1 — Môn Công nghệ">🖨️ In phiếu bài tập viết</button>
+<h3>Tóm tắt kiến thức cần nhớ</h3>
+<p><b>Câu 5: An toàn lao động và bảo vệ môi trường.</b> Để đảm bảo an toàn, người thợ xây phải đội mũ bảo hộ và đeo dây an toàn. Để bảo vệ môi trường, cần dọn rác thải gọn gàng, không đổ gạch đá ngổn ngang hay xả nước xi măng trực tiếp ra cống công cộng.</p>
+<p><b>Câu 6: Ngôi nhà thông minh.</b> Đặc điểm khác biệt: Được lắp đặt các thiết bị tự động hoặc điều khiển từ xa để mang lại sự tiện nghi và tiết kiệm. Các hệ thống tự động: Hệ thống chiếu sáng, hệ thống an ninh an toàn (báo trộm, báo cháy), hệ thống điều hòa và hệ thống giải trí. Cảm biến trong nhà có thể nhận diện chuyển động hoặc ánh sáng để tự động bật/tắt thiết bị.</p>
+<p><i>Phần này chỉ có câu 5 và câu 6 theo ảnh đã gửi — nếu có thêm câu 1–4 thì gửi tiếp để bổ sung.</i></p><h3>Bài tập viết</h3><p><b>Bài tập viết 1:</b> Kể các việc cần làm để đảm bảo an toàn lao động và bảo vệ môi trường khi xây dựng.</p><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><p><b>Bài tập viết 2:</b> Ngôi nhà thông minh khác nhà thường ở điểm nào? Kể các hệ thống tự động trong nhà thông minh và cho biết cảm biến dùng để làm gì.</p><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div>
+<div class="rprint-src" id="in-cn-tomtat"><p><b>Câu 5: An toàn lao động và bảo vệ môi trường.</b> Để đảm bảo an toàn, người thợ xây phải đội mũ bảo hộ và đeo dây an toàn. Để bảo vệ môi trường, cần dọn rác thải gọn gàng, không đổ gạch đá ngổn ngang hay xả nước xi măng trực tiếp ra cống công cộng.</p>
+<p><b>Câu 6: Ngôi nhà thông minh.</b> Đặc điểm khác biệt: Được lắp đặt các thiết bị tự động hoặc điều khiển từ xa để mang lại sự tiện nghi và tiết kiệm. Các hệ thống tự động: Hệ thống chiếu sáng, hệ thống an ninh an toàn (báo trộm, báo cháy), hệ thống điều hòa và hệ thống giải trí. Cảm biến trong nhà có thể nhận diện chuyển động hoặc ánh sáng để tự động bật/tắt thiết bị.</p>
+<p><i>Phần này chỉ có câu 5 và câu 6 theo ảnh đã gửi — nếu có thêm câu 1–4 thì gửi tiếp để bổ sung.</i></p></div>
+<div class="rprint-src" id="in-cn-luyen"><p><b>Bài tập viết 1:</b> Kể các việc cần làm để đảm bảo an toàn lao động và bảo vệ môi trường khi xây dựng.</p><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><p><b>Bài tập viết 2:</b> Ngôi nhà thông minh khác nhà thường ở điểm nào? Kể các hệ thống tự động trong nhà thông minh và cho biết cảm biến dùng để làm gì.</p><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div><div class="rline"></div></div>
+<script>
+(function(){
+  var root=document.getElementById('ontap-gk1-cn'); if(!root) return;
+  function printWin(title, srcId){
+    var src=document.getElementById(srcId); if(!src) return;
+    var w=window.open('','_blank');
+    w.document.write('<!doctype html><html><head><meta charset="utf-8"><title>'+title+'</title><style>body{font-family:Arial,sans-serif;font-size:16px;line-height:1.7;padding:24px;color:#000}h2{font-size:22px}h3{font-size:19px}.rline{height:30px;border-bottom:1px solid #888}</style></head><body><h2>'+title+'</h2>'+src.innerHTML+'</body></html>');
+    w.document.close(); w.focus(); w.print();
+  }
+  root.querySelectorAll('[data-print]').forEach(function(b){ b.addEventListener('click',function(){ printWin(b.getAttribute('data-print-title')||'Ôn tập', b.getAttribute('data-print')); }); });
+})();
+</script>
+</div><script src="../assets/nav-chuan.js"></script>
 </body>
 </html>
