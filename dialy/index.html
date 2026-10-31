@@ -231,7 +231,7 @@ figcaption .src{color:#546e7a;font-size:14px}
 </svg>
 <div class="orbitinfo" id="orbitInfo"></div>
 <p class="fig-note">👉 Bấm vào từng vị trí Trái Đất để xem mùa và độ dài ngày – đêm. Hình minh họa, kích thước và khoảng cách không theo tỉ lệ thật.</p>
-</div><figcaption>Sơ đồ tương tác: bấm vào từng vị trí của Trái Đất trên quỹ đạo để xem mùa và độ dài ngày – đêm ở bán cầu Bắc. (Hình minh họa, kích thước và khoảng cách không theo tỉ lệ.)<br><span class="src">Sơ đồ tương tác tự vẽ minh họa.</span></figcaption></figure><figure><img src="../hinh-anh/dialy/quy-dao-va-cac-mua.svg" alt="Sơ đồ khoa học về 4 vị trí đặc biệt của Trái Đất quanh Mặt Trời: hai ngày chí và" loading="lazy"><figcaption>Sơ đồ khoa học về 4 vị trí đặc biệt của Trái Đất quanh Mặt Trời: hai ngày chí và hai ngày phân. (Hình minh họa, không theo tỉ lệ.)<br><span class="src">Ảnh: Colivine — CC0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/cac-mua-quy-dao.svg" alt="Cùng một nơi ở bán cầu Bắc nhìn về Mặt Trời ở các thời điểm khác nhau trong năm " loading="lazy"><figcaption>Cùng một nơi ở bán cầu Bắc nhìn về Mặt Trời ở các thời điểm khác nhau trong năm — góc chiếu nắng thay đổi nên sinh ra các mùa.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure></div>
+</div><figcaption>Sơ đồ tương tác: bấm vào từng vị trí của Trái Đất trên quỹ đạo để xem mùa và độ dài ngày – đêm ở bán cầu Bắc. (Hình minh họa, kích thước và khoảng cách không theo tỉ lệ.)<br><span class="src">Sơ đồ tương tác tự vẽ minh họa.</span></figcaption></figure><figure><canvas id="orbitAnimCanvas" width="640" height="360" class="dsvg"></canvas><div class="orbitinfo" id="orbitAnimInfo">🌍 Trái Đất đang chuyển động quanh Mặt Trời…</div><figcaption>Sơ đồ động: Trái Đất chuyển động quanh Mặt Trời, trục luôn nghiêng và song song với chính nó — qua 4 vị trí Xuân phân, Hạ chí, Thu phân, Đông chí, mùa và độ dài ngày – đêm ở Bắc bán cầu thay đổi theo. (Nam bán cầu ngược lại.)<br><span class="src">Sơ đồ động tự vẽ minh họa (không theo tỉ lệ).</span></figcaption></figure><figure><img src="../hinh-anh/dialy/quy-dao-va-cac-mua.svg" alt="Sơ đồ khoa học về 4 vị trí đặc biệt của Trái Đất quanh Mặt Trời: hai ngày chí và" loading="lazy"><figcaption>Sơ đồ khoa học về 4 vị trí đặc biệt của Trái Đất quanh Mặt Trời: hai ngày chí và hai ngày phân. (Hình minh họa, không theo tỉ lệ.)<br><span class="src">Ảnh: Colivine — CC0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/cac-mua-quy-dao.svg" alt="Cùng một nơi ở bán cầu Bắc nhìn về Mặt Trời ở các thời điểm khác nhau trong năm " loading="lazy"><figcaption>Cùng một nơi ở bán cầu Bắc nhìn về Mặt Trời ở các thời điểm khác nhau trong năm — góc chiếu nắng thay đổi nên sinh ra các mùa.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/quy-dao-va-cac-mua.svg" alt="Sơ đồ Trái Đất quay quanh Mặt Trời" loading="lazy"><div>Trái Đất quay quanh Mặt Trời một vòng mất bao lâu?</div></div><div class="mini-face mini-back">365 ngày 6 giờ (một năm).</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/cac-mua-quy-dao.svg" alt="Sơ đồ các mùa trong năm" loading="lazy"><div>Ngày 22/6, bán cầu Bắc đang là mùa gì?</div></div><div class="mini-face mini-back">Mùa hạ — ngày dài hơn đêm (ngày Hạ chí).</div></div></div>
 <figure class="ytvid" style="margin:18px auto;max-width:640px">
@@ -1194,6 +1194,61 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
     viewKey:'dialy_view_mode', lessonKey:'dialy_lesson',
     summaries:['tonghk1','tonghk2','tongket']
   };
+</script>
+<script>
+// ---------- so do dong quy dao + mua (Bai 8) ----------
+(function(){
+  var cv = document.getElementById('orbitAnimCanvas'); if(!cv) return; var ctx = cv.getContext('2d');
+  var info = document.getElementById('orbitAnimInfo');
+  var W=640,H=360,cx=320,cy=180,rx=200,ry=100,er=16;
+  var stars=[]; for(var s=0;s<45;s++){ stars.push([Math.random()*W, Math.random()*H, Math.random()*1.4+0.5]); }
+  var th = Math.PI/2;
+  function angDist(a,b){ var d=Math.abs(a-b)%(Math.PI*2); return d>Math.PI?Math.PI*2-d:d; }
+  function seasonText(t){
+    var PI=Math.PI;
+    var keys=[
+      {a:0, t:'❄️ Đông chí (22/12): Bắc bán cầu mùa đông, đêm dài nhất, ngày ngắn nhất'},
+      {a:PI/2, t:'🌸 Xuân phân (21/3): ngày dài bằng đêm ở khắp mọi nơi'},
+      {a:PI, t:'☀️ Hạ chí (22/6): Bắc bán cầu mùa hạ, ngày dài nhất, đêm ngắn nhất'},
+      {a:PI*3/2, t:'🍂 Thu phân (23/9): ngày dài bằng đêm ở khắp mọi nơi'}
+    ];
+    for(var k=0;k<keys.length;k++){ if(angDist(t,keys[k].a)<0.12) return keys[k].t; }
+    if(t>0&&t<PI/2) return 'Mùa đông ở Bắc bán cầu: đêm dài hơn ngày';
+    if(t>PI/2&&t<PI) return 'Mùa xuân ở Bắc bán cầu: ngày dài dần, đêm ngắn dần';
+    if(t>PI&&t<PI*3/2) return 'Mùa hạ ở Bắc bán cầu: ngày dài hơn đêm';
+    return 'Mùa thu ở Bắc bán cầu: ngày ngắn dần, đêm dài dần';
+  }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    var g = ctx.createLinearGradient(0,0,W,0); g.addColorStop(0,'#123a5f'); g.addColorStop(1,'#0b1526');
+    ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+    ctx.fillStyle='#ffffff';
+    stars.forEach(function(p){ ctx.globalAlpha=0.7; ctx.beginPath(); ctx.arc(p[0],p[1],p[2],0,7); ctx.fill(); });
+    ctx.globalAlpha=1;
+    ctx.strokeStyle='#5b7ba5'; ctx.lineWidth=2; ctx.setLineDash([6,5]);
+    ctx.beginPath(); ctx.ellipse(cx,cy,rx,ry,0,0,7); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle='#ffb300'; ctx.beginPath(); ctx.arc(cx,cy,34,0,7); ctx.globalAlpha=0.25; ctx.fill(); ctx.globalAlpha=1;
+    ctx.beginPath(); ctx.arc(cx,cy,26,0,7); ctx.fill();
+    ctx.fillStyle='#5d4037'; ctx.font='bold 13px "Be Vietnam Pro", Arial'; ctx.textAlign='center'; ctx.fillText('Mặt Trời', cx, cy+4);
+    var ex=cx+Math.cos(th)*rx, ey=cy+Math.sin(th)*ry;
+    ctx.fillStyle='#3f8fd2'; ctx.beginPath(); ctx.arc(ex,ey,er,0,7); ctx.fill();
+    ctx.strokeStyle='#ffffff'; ctx.lineWidth=2; ctx.stroke();
+    var phi=Math.atan2(ey-cy,ex-cx);
+    ctx.save(); ctx.beginPath(); ctx.arc(ex,ey,er,0,7); ctx.clip();
+    ctx.fillStyle='rgba(5,10,25,0.55)'; ctx.beginPath(); ctx.arc(ex,ey,er,phi-Math.PI/2,phi+Math.PI/2); ctx.fill(); ctx.restore();
+    ctx.strokeStyle='#ffecb3'; ctx.lineWidth=2.5; ctx.beginPath();
+    ctx.moveTo(ex+6,ey-20); ctx.lineTo(ex-6,ey+20); ctx.stroke();
+    ctx.font='bold 14px "Be Vietnam Pro", Arial'; ctx.fillStyle='#ffecb3';
+    ctx.textAlign='right'; ctx.fillText('HẠ CHÍ', 98, 184); ctx.font='13px "Be Vietnam Pro", Arial'; ctx.fillStyle='#cfd8dc'; ctx.fillText('22/6', 98, 202);
+    ctx.font='bold 14px "Be Vietnam Pro", Arial'; ctx.fillStyle='#ffecb3'; ctx.textAlign='left'; ctx.fillText('ĐÔNG CHÍ', 542, 184); ctx.font='13px "Be Vietnam Pro", Arial'; ctx.fillStyle='#cfd8dc'; ctx.fillText('22/12', 542, 202);
+    ctx.font='bold 14px "Be Vietnam Pro", Arial'; ctx.fillStyle='#ffecb3'; ctx.textAlign='center'; ctx.fillText('THU PHÂN', 320, 42); ctx.font='13px "Be Vietnam Pro", Arial'; ctx.fillStyle='#cfd8dc'; ctx.fillText('23/9', 320, 60);
+    ctx.font='bold 14px "Be Vietnam Pro", Arial'; ctx.fillStyle='#ffecb3'; ctx.fillText('XUÂN PHÂN', 320, 330); ctx.font='13px "Be Vietnam Pro", Arial'; ctx.fillStyle='#cfd8dc'; ctx.fillText('21/3', 320, 348);
+    if(info) info.textContent = seasonText(th);
+    th += 0.003;
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
 </script>
 <script src="../assets/nav-chuan.js"></script>
 
