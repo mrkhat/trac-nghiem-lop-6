@@ -1,2469 +1,2485 @@
 {
-  "_chu_thich": "NGUỒN DUY NHẤT cho phân kỳ thi (Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2) của web quiz lớp 6. Muốn đổi mốc kỳ thì CHỈ sửa file này (assets/muc-luc.json), không sửa rải rác trong từng quiz.html. Phân kỳ hiện tại theo thứ tự sách giáo khoa (không dùng PPCT của trường). ck2 = tất cả, không giới hạn (max = null). Các trang quiz.html nạp file này và dùng max của môn mình; nếu nạp thất bại, trang dùng mốc hardcode cũ nên không vỡ. Danh sách bài trong mỗi kỳ lấy từ tên bài trong index.html của môn đó, xếp theo thứ tự bài; bài nào không có tên trong dữ liệu thì ghi 'Bài N', không bịa tên SGK.",
-  "mon": {
-    "khtn": {
-      "ten": "Khoa học tự nhiên",
-      "don_vi": "bài",
-      "tong_don_vi": 52,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 7,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. An toàn trong phòng thực hành"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Sử dụng kính lúp"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kính hiển vi quang học"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Đo chiều dài"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Đo khối lượng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Đo thời gian"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 13,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. An toàn trong phòng thực hành"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Sử dụng kính lúp"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kính hiển vi quang học"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Đo chiều dài"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Đo khối lượng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Đo thời gian"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Đo nhiệt độ"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Các thể của chất và sự chuyển thể"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Sự đa dạng của chất — Tính chất của chất và vật liệu"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Oxygen và không khí"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Lực là gì? Đo lực bằng lực kế"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 34,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. An toàn trong phòng thực hành"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Sử dụng kính lúp"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kính hiển vi quang học"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Đo chiều dài"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Đo khối lượng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Đo thời gian"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Đo nhiệt độ"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Các thể của chất và sự chuyển thể"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Sự đa dạng của chất — Tính chất của chất và vật liệu"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Oxygen và không khí"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Lực là gì? Đo lực bằng lực kế"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Một số nguyên liệu"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Một số nhiên liệu"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Một số lương thực, thực phẩm"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Hỗn hợp các chất"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Tách các chất khỏi hỗn hợp"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Cấu tạo và chức năng các thành phần của tế bào"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 20. Sự lớn lên và sinh sản của tế bào"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 21. Thực hành: Quan sát và phân biệt một số loại tế bào"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 22. Thực hành: Quan sát và mô tả cơ thể đơn bào và cơ thể đa bào"
-            },
-            {
-              "bai": 26,
-              "ten": "Bài 26. Hệ thống phân loại sinh vật"
-            },
-            {
-              "bai": 27,
-              "ten": "Bài 27. Khóa lưỡng phân"
-            },
-            {
-              "bai": 28,
-              "ten": "Bài 28. Vi khuẩn"
-            },
-            {
-              "bai": 29,
-              "ten": "Bài 29. Thực hành: Làm sữa chua và quan sát vi khuẩn"
-            },
-            {
-              "bai": 30,
-              "ten": "Bài 30. Virus"
-            },
-            {
-              "bai": 31,
-              "ten": "Bài 31. Nguyên sinh vật"
-            },
-            {
-              "bai": 32,
-              "ten": "Bài 32. Thực hành: Quan sát nguyên sinh vật"
-            },
-            {
-              "bai": 33,
-              "ten": "Bài 33. Nấm"
-            },
-            {
-              "bai": 34,
-              "ten": "Bài 34. Thực hành: Quan sát các loại nấm"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. An toàn trong phòng thực hành"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Sử dụng kính lúp"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kính hiển vi quang học"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Đo chiều dài"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Đo khối lượng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Đo thời gian"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Đo nhiệt độ"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Các thể của chất và sự chuyển thể"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Sự đa dạng của chất — Tính chất của chất và vật liệu"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Oxygen và không khí"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Tế bào — đơn vị của sự sống và các cấp độ tổ chức cơ thể"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Lực là gì? Đo lực bằng lực kế"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Một số nguyên liệu"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Một số nhiên liệu"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Một số lương thực, thực phẩm"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Hỗn hợp các chất"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Tách các chất khỏi hỗn hợp"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Cấu tạo và chức năng các thành phần của tế bào"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 20. Sự lớn lên và sinh sản của tế bào"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 21. Thực hành: Quan sát và phân biệt một số loại tế bào"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 22. Thực hành: Quan sát và mô tả cơ thể đơn bào và cơ thể đa bào"
-            },
-            {
-              "bai": 26,
-              "ten": "Bài 26. Hệ thống phân loại sinh vật"
-            },
-            {
-              "bai": 27,
-              "ten": "Bài 27. Khóa lưỡng phân"
-            },
-            {
-              "bai": 28,
-              "ten": "Bài 28. Vi khuẩn"
-            },
-            {
-              "bai": 29,
-              "ten": "Bài 29. Thực hành: Làm sữa chua và quan sát vi khuẩn"
-            },
-            {
-              "bai": 30,
-              "ten": "Bài 30. Virus"
-            },
-            {
-              "bai": 31,
-              "ten": "Bài 31. Nguyên sinh vật"
-            },
-            {
-              "bai": 32,
-              "ten": "Bài 32. Thực hành: Quan sát nguyên sinh vật"
-            },
-            {
-              "bai": 33,
-              "ten": "Bài 33. Nấm"
-            },
-            {
-              "bai": 34,
-              "ten": "Bài 34. Thực hành: Quan sát các loại nấm"
-            },
-            {
-              "bai": 35,
-              "ten": "Bài 35. Thực vật"
-            },
-            {
-              "bai": 36,
-              "ten": "Bài 36. Thực hành: Quan sát và phân biệt một số nhóm thực vật"
-            },
-            {
-              "bai": 37,
-              "ten": "Bài 37. Động vật"
-            },
-            {
-              "bai": 38,
-              "ten": "Bài 38. Thực hành: Quan sát và nhận biết một số nhóm động vật ngoài thiên nhiên"
-            },
-            {
-              "bai": 39,
-              "ten": "Bài 39. Đa dạng sinh học"
-            },
-            {
-              "bai": 40,
-              "ten": "Bài 40. Tìm hiểu sinh vật ngoài thiên nhiên"
-            },
-            {
-              "bai": 41,
-              "ten": "Bài 41. Biểu diễn lực"
-            },
-            {
-              "bai": 42,
-              "ten": "Bài 42. Biến dạng của lò xo"
-            },
-            {
-              "bai": 43,
-              "ten": "Bài 43. Trọng lượng. Lực hấp dẫn"
-            },
-            {
-              "bai": 44,
-              "ten": "Bài 44. Lực ma sát"
-            },
-            {
-              "bai": 45,
-              "ten": "Bài 45. Lực cản của nước"
-            },
-            {
-              "bai": 46,
-              "ten": "Bài 46. Năng lượng và sự truyền năng lượng"
-            },
-            {
-              "bai": 47,
-              "ten": "Bài 47. Một số dạng năng lượng"
-            },
-            {
-              "bai": 48,
-              "ten": "Bài 48. Sự chuyển hóa năng lượng"
-            },
-            {
-              "bai": 49,
-              "ten": "Bài 49. Năng lượng hao phí"
-            },
-            {
-              "bai": 50,
-              "ten": "Bài 50. Năng lượng tái tạo"
-            },
-            {
-              "bai": 51,
-              "ten": "Bài 51. Tiết kiệm năng lượng"
-            },
-            {
-              "bai": 52,
-              "ten": "Bài 52. Chuyển động nhìn thấy của Mặt Trời. Thiên thể"
-            },
-            {
-              "bai": 53,
-              "ten": "Bài 53. Mặt Trăng"
-            },
-            {
-              "bai": 54,
-              "ten": "Bài 54. Hệ Mặt Trời"
-            },
-            {
-              "bai": 55,
-              "ten": "Bài 55. Ngân Hà"
-            }
-          ]
-        }
+ "_chu_thich": "NGUỒN DUY NHẤT cho phân kỳ thi (Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2) của web quiz lớp 6. Muốn đổi mốc kỳ thì CHỈ sửa file này (assets/muc-luc.json), không sửa rải rác trong từng quiz.html. Phân kỳ hiện tại theo thứ tự sách giáo khoa (không dùng PPCT của trường). ck2 = tất cả, không giới hạn (max = null). Các trang quiz.html nạp file này và dùng max của môn mình; nếu nạp thất bại, trang dùng mốc hardcode cũ nên không vỡ. Danh sách bài trong mỗi kỳ lấy từ tên bài trong index.html của môn đó, xếp theo thứ tự bài; bài nào không có tên trong dữ liệu thì ghi 'Bài N', không bịa tên SGK.",
+ "mon": {
+  "khtn": {
+   "ten": "Khoa học tự nhiên",
+   "don_vi": "bài",
+   "tong_don_vi": 55,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 7,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. An toàn trong phòng thực hành"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Sử dụng kính lúp"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Sử dụng kính hiển vi quang học"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Đo chiều dài"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Đo khối lượng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Đo thời gian"
       }
+     ]
     },
-    "lichsu": {
-      "ten": "Lịch sử",
-      "don_vi": "bài",
-      "tong_don_vi": 19,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 6,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Cách tính thời gian trong lịch sử"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Nguồn gốc loài người"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Xã hội nguyên thủy"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 10,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Cách tính thời gian trong lịch sử"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Nguồn gốc loài người"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Xã hội nguyên thủy"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Ấn Độ cổ đại"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 15,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Cách tính thời gian trong lịch sử"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Nguồn gốc loài người"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Xã hội nguyên thủy"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Ấn Độ cổ đại"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Vương quốc phong kiến Đông Nam Á (VII–X)"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Giao lưu văn hóa Đông Nam Á"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Văn Lang – Âu Lạc"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Chính sách cai trị phương Bắc và chuyển biến xã hội Âu Lạc"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Các cuộc khởi nghĩa giành độc lập trước thế kỉ X"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Cách tính thời gian trong lịch sử"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Nguồn gốc loài người"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Xã hội nguyên thủy"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Ấn Độ cổ đại"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Vương quốc phong kiến Đông Nam Á (VII–X)"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Giao lưu văn hóa Đông Nam Á"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Văn Lang – Âu Lạc"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Chính sách cai trị phương Bắc và chuyển biến xã hội Âu Lạc"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Các cuộc khởi nghĩa giành độc lập trước thế kỉ X"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Đấu tranh bảo tồn văn hóa dân tộc"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Bước ngoặt đầu thế kỉ X (Bạch Đằng 938)"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Chăm-pa (II–X)"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Phù Nam"
-            }
-          ]
-        }
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 40,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. An toàn trong phòng thực hành"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Sử dụng kính lúp"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Sử dụng kính hiển vi quang học"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Đo chiều dài"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Đo khối lượng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Đo thời gian"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Đo nhiệt độ"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Sự đa dạng của chất"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Các thể của chất và sự chuyển thể"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Oxygen. Không khí"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Tế bào — đơn vị cơ bản của sự sống"
+      },
+      {
+       "bai": 40,
+       "ten": "Bài 40. Lực là gì?"
       }
+     ]
     },
-    "dialy": {
-      "ten": "Địa lí",
-      "don_vi": "bài",
-      "tong_don_vi": 31,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 13,
-          "bai": [
-            {
-              "bai": 0,
-              "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
-            },
-            {
-              "bai": 1,
-              "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Lược đồ trí nhớ"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Núi lửa và động đất"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 23,
-          "bai": [
-            {
-              "bai": 0,
-              "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
-            },
-            {
-              "bai": 1,
-              "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Lược đồ trí nhớ"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Núi lửa và động đất"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 21. Biển và đại dương"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 22. Lớp đất trên Trái Đất"
-            },
-            {
-              "bai": 23,
-              "ten": "Bài 23. Sự sống trên Trái Đất"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 27,
-          "bai": [
-            {
-              "bai": 0,
-              "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
-            },
-            {
-              "bai": 1,
-              "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Lược đồ trí nhớ"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Núi lửa và động đất"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 21. Biển và đại dương"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 22. Lớp đất trên Trái Đất"
-            },
-            {
-              "bai": 23,
-              "ten": "Bài 23. Sự sống trên Trái Đất"
-            },
-            {
-              "bai": 24,
-              "ten": "Bài 24. Rừng nhiệt đới"
-            },
-            {
-              "bai": 25,
-              "ten": "Bài 25. Sự phân bố các đới thiên nhiên trên Trái Đất"
-            },
-            {
-              "bai": 26,
-              "ten": "Bài 26. Thực hành: Tìm hiểu môi trường tự nhiên địa phương"
-            },
-            {
-              "bai": 27,
-              "ten": "Bài 27. Dân số và sự phân bố dân cư trên thế giới"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 0,
-              "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
-            },
-            {
-              "bai": 1,
-              "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Lược đồ trí nhớ"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Núi lửa và động đất"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 21. Biển và đại dương"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 22. Lớp đất trên Trái Đất"
-            },
-            {
-              "bai": 23,
-              "ten": "Bài 23. Sự sống trên Trái Đất"
-            },
-            {
-              "bai": 24,
-              "ten": "Bài 24. Rừng nhiệt đới"
-            },
-            {
-              "bai": 25,
-              "ten": "Bài 25. Sự phân bố các đới thiên nhiên trên Trái Đất"
-            },
-            {
-              "bai": 26,
-              "ten": "Bài 26. Thực hành: Tìm hiểu môi trường tự nhiên địa phương"
-            },
-            {
-              "bai": 27,
-              "ten": "Bài 27. Dân số và sự phân bố dân cư trên thế giới"
-            },
-            {
-              "bai": 28,
-              "ten": "Bài 28. Mối quan hệ giữa con người và thiên nhiên"
-            },
-            {
-              "bai": 29,
-              "ten": "Bài 29. Bảo vệ tự nhiên và khai thác thông minh tài nguyên vì phát triển bền vững"
-            },
-            {
-              "bai": 30,
-              "ten": "Bài 30. Thực hành: Tìm hiểu mối quan hệ giữa con người và thiên nhiên ở địa phương"
-            }
-          ]
-        }
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 40,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. An toàn trong phòng thực hành"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Sử dụng kính lúp"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Sử dụng kính hiển vi quang học"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Đo chiều dài"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Đo khối lượng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Đo thời gian"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Đo nhiệt độ"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Sự đa dạng của chất"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Các thể của chất và sự chuyển thể"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Oxygen. Không khí"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Một số nguyên liệu"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Một số nhiên liệu"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Một số lương thực, thực phẩm"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Hỗn hợp các chất"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Tách các chất ra khỏi hỗn hợp"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Tế bào — đơn vị cơ bản của sự sống"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Cấu tạo và chức năng các thành phần của tế bào"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 20. Sự lớn lên và sinh sản của tế bào"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 21. Thực hành: Quan sát và phân biệt một số loại tế bào"
+      },
+      {
+       "bai": 24,
+       "ten": "Bài 24. Thực hành: Quan sát và mô tả cơ thể đơn bào và cơ thể đa bào"
+      },
+      {
+       "bai": 25,
+       "ten": "Bài 25. Hệ thống phân loại sinh vật"
+      },
+      {
+       "bai": 26,
+       "ten": "Bài 26. Khóa lưỡng phân"
+      },
+      {
+       "bai": 27,
+       "ten": "Bài 27. Vi khuẩn"
+      },
+      {
+       "bai": 28,
+       "ten": "Bài 28. Thực hành: Làm sữa chua và quan sát hình thái vi khuẩn"
+      },
+      {
+       "bai": 29,
+       "ten": "Bài 29. Virus"
+      },
+      {
+       "bai": 30,
+       "ten": "Bài 30. Nguyên sinh vật"
+      },
+      {
+       "bai": 31,
+       "ten": "Bài 31. Thực hành: Quan sát nguyên sinh vật"
+      },
+      {
+       "bai": 32,
+       "ten": "Bài 32. Nấm"
+      },
+      {
+       "bai": 33,
+       "ten": "Bài 33. Thực hành: Quan sát hình thái các loại nấm"
+      },
+      {
+       "bai": 40,
+       "ten": "Bài 40. Lực là gì?"
       }
+     ]
     },
-    "nguvan": {
-      "ten": "Ngữ văn",
-      "don_vi": "bài",
-      "tong_don_vi": 10,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 2,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tôi và các bạn"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Gõ cửa trái tim"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 5,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tôi và các bạn"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Gõ cửa trái tim"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Yêu thương và chia sẻ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Quê hương yêu dấu"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Những nẻo đường xứ sở"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 8,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tôi và các bạn"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Gõ cửa trái tim"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Yêu thương và chia sẻ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Quê hương yêu dấu"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Những nẻo đường xứ sở"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Chuyện kể về những người anh hùng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Thế giới cổ tích"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Khác biệt và gần gũi"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tôi và các bạn"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Gõ cửa trái tim"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Yêu thương và chia sẻ"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Quê hương yêu dấu"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Những nẻo đường xứ sở"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Chuyện kể về những người anh hùng"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Thế giới cổ tích"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Khác biệt và gần gũi"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Trái Đất – ngôi nhà chung"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Cuốn sách tôi yêu"
-            }
-          ]
-        }
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Giới thiệu về Khoa học tự nhiên"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. An toàn trong phòng thực hành"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Sử dụng kính lúp"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Sử dụng kính hiển vi quang học"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Đo chiều dài"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Đo khối lượng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Đo thời gian"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Đo nhiệt độ"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Sự đa dạng của chất"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Các thể của chất và sự chuyển thể"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Oxygen. Không khí"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Một số vật liệu"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Một số nguyên liệu"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Một số nhiên liệu"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Một số lương thực, thực phẩm"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Hỗn hợp các chất"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Tách các chất ra khỏi hỗn hợp"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Tế bào — đơn vị cơ bản của sự sống"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Cấu tạo và chức năng các thành phần của tế bào"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 20. Sự lớn lên và sinh sản của tế bào"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 21. Thực hành: Quan sát và phân biệt một số loại tế bào"
+      },
+      {
+       "bai": 22,
+       "ten": "Bài 22. Cơ thể sinh vật"
+      },
+      {
+       "bai": 23,
+       "ten": "Bài 23. Tổ chức cơ thể đa bào"
+      },
+      {
+       "bai": 24,
+       "ten": "Bài 24. Thực hành: Quan sát và mô tả cơ thể đơn bào và cơ thể đa bào"
+      },
+      {
+       "bai": 25,
+       "ten": "Bài 25. Hệ thống phân loại sinh vật"
+      },
+      {
+       "bai": 26,
+       "ten": "Bài 26. Khóa lưỡng phân"
+      },
+      {
+       "bai": 27,
+       "ten": "Bài 27. Vi khuẩn"
+      },
+      {
+       "bai": 28,
+       "ten": "Bài 28. Thực hành: Làm sữa chua và quan sát hình thái vi khuẩn"
+      },
+      {
+       "bai": 29,
+       "ten": "Bài 29. Virus"
+      },
+      {
+       "bai": 30,
+       "ten": "Bài 30. Nguyên sinh vật"
+      },
+      {
+       "bai": 31,
+       "ten": "Bài 31. Thực hành: Quan sát nguyên sinh vật"
+      },
+      {
+       "bai": 32,
+       "ten": "Bài 32. Nấm"
+      },
+      {
+       "bai": 33,
+       "ten": "Bài 33. Thực hành: Quan sát hình thái các loại nấm"
+      },
+      {
+       "bai": 34,
+       "ten": "Bài 34. Thực vật"
+      },
+      {
+       "bai": 35,
+       "ten": "Bài 35. Thực hành: Quan sát và phân biệt một số nhóm thực vật"
+      },
+      {
+       "bai": 36,
+       "ten": "Bài 36. Động vật"
+      },
+      {
+       "bai": 37,
+       "ten": "Bài 37. Thực hành: Quan sát và nhận biết một số nhóm động vật ngoài thiên nhiên"
+      },
+      {
+       "bai": 38,
+       "ten": "Bài 38. Đa dạng sinh học"
+      },
+      {
+       "bai": 39,
+       "ten": "Bài 39. Tìm hiểu sinh vật ngoài thiên nhiên"
+      },
+      {
+       "bai": 40,
+       "ten": "Bài 40. Lực là gì?"
+      },
+      {
+       "bai": 41,
+       "ten": "Bài 41. Biểu diễn lực"
+      },
+      {
+       "bai": 42,
+       "ten": "Bài 42. Biến dạng của lò xo"
+      },
+      {
+       "bai": 43,
+       "ten": "Bài 43. Trọng lượng. Lực hấp dẫn"
+      },
+      {
+       "bai": 44,
+       "ten": "Bài 44. Lực ma sát"
+      },
+      {
+       "bai": 45,
+       "ten": "Bài 45. Lực cản của nước"
+      },
+      {
+       "bai": 46,
+       "ten": "Bài 46. Năng lượng và sự truyền năng lượng"
+      },
+      {
+       "bai": 47,
+       "ten": "Bài 47. Một số dạng năng lượng"
+      },
+      {
+       "bai": 48,
+       "ten": "Bài 48. Sự chuyển hóa năng lượng"
+      },
+      {
+       "bai": 49,
+       "ten": "Bài 49. Năng lượng hao phí"
+      },
+      {
+       "bai": 50,
+       "ten": "Bài 50. Năng lượng tái tạo"
+      },
+      {
+       "bai": 51,
+       "ten": "Bài 51. Tiết kiệm năng lượng"
+      },
+      {
+       "bai": 52,
+       "ten": "Bài 52. Chuyển động nhìn thấy của Mặt Trời. Thiên thể"
+      },
+      {
+       "bai": 53,
+       "ten": "Bài 53. Mặt Trăng"
+      },
+      {
+       "bai": 54,
+       "ten": "Bài 54. Hệ Mặt Trời"
+      },
+      {
+       "bai": 55,
+       "ten": "Bài 55. Ngân Hà"
       }
-    },
-    "tienganh": {
-      "ten": "Tiếng Anh",
-      "don_vi": "Unit",
-      "tong_don_vi": 12,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 3,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Unit 1. My New School — Ngôi trường mới của em"
-            },
-            {
-              "bai": 2,
-              "ten": "Unit 2. My House — Ngôi nhà của em"
-            },
-            {
-              "bai": 3,
-              "ten": "Unit 3. My Friends — Những người bạn của em"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 6,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Unit 1. My New School — Ngôi trường mới của em"
-            },
-            {
-              "bai": 2,
-              "ten": "Unit 2. My House — Ngôi nhà của em"
-            },
-            {
-              "bai": 3,
-              "ten": "Unit 3. My Friends — Những người bạn của em"
-            },
-            {
-              "bai": 4,
-              "ten": "Unit 4. My Neighbourhood — Khu phố của em"
-            },
-            {
-              "bai": 5,
-              "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
-            },
-            {
-              "bai": 6,
-              "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 9,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Unit 1. My New School — Ngôi trường mới của em"
-            },
-            {
-              "bai": 2,
-              "ten": "Unit 2. My House — Ngôi nhà của em"
-            },
-            {
-              "bai": 3,
-              "ten": "Unit 3. My Friends — Những người bạn của em"
-            },
-            {
-              "bai": 4,
-              "ten": "Unit 4. My Neighbourhood — Khu phố của em"
-            },
-            {
-              "bai": 5,
-              "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
-            },
-            {
-              "bai": 6,
-              "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
-            },
-            {
-              "bai": 7,
-              "ten": "Unit 7. Television — Truyền hình"
-            },
-            {
-              "bai": 8,
-              "ten": "Unit 8. Sports and games — Thể thao và trò chơi"
-            },
-            {
-              "bai": 9,
-              "ten": "Unit 9. Cities of the world — Các thành phố trên thế giới"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Unit 1. My New School — Ngôi trường mới của em"
-            },
-            {
-              "bai": 2,
-              "ten": "Unit 2. My House — Ngôi nhà của em"
-            },
-            {
-              "bai": 3,
-              "ten": "Unit 3. My Friends — Những người bạn của em"
-            },
-            {
-              "bai": 4,
-              "ten": "Unit 4. My Neighbourhood — Khu phố của em"
-            },
-            {
-              "bai": 5,
-              "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
-            },
-            {
-              "bai": 6,
-              "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
-            },
-            {
-              "bai": 7,
-              "ten": "Unit 7. Television — Truyền hình"
-            },
-            {
-              "bai": 8,
-              "ten": "Unit 8. Sports and games — Thể thao và trò chơi"
-            },
-            {
-              "bai": 9,
-              "ten": "Unit 9. Cities of the world — Các thành phố trên thế giới"
-            },
-            {
-              "bai": 10,
-              "ten": "Unit 10. Our houses in the future — Ngôi nhà tương lai của chúng ta"
-            },
-            {
-              "bai": 11,
-              "ten": "Unit 11. Our greener world — Thế giới xanh hơn của chúng ta"
-            },
-            {
-              "bai": 12,
-              "ten": "Unit 12. Robots — Rô-bốt"
-            }
-          ]
-        }
-      }
-    },
-    "gdcd": {
-      "ten": "Giáo dục công dân",
-      "don_vi": "bài",
-      "tong_don_vi": 12,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 3,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Yêu thương con người"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Siêng năng, kiên trì"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 6,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Yêu thương con người"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Siêng năng, kiên trì"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Tôn trọng sự thật"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Tự lập"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Tự nhận thức bản thân"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 9,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Yêu thương con người"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Siêng năng, kiên trì"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Tôn trọng sự thật"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Tự lập"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Tự nhận thức bản thân"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Ứng phó với tình huống nguy hiểm"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Tiết kiệm"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Công dân nước Cộng hòa xã hội chủ nghĩa Việt Nam"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Yêu thương con người"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Siêng năng, kiên trì"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Tôn trọng sự thật"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Tự lập"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Tự nhận thức bản thân"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Ứng phó với tình huống nguy hiểm"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Tiết kiệm"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Công dân nước Cộng hòa xã hội chủ nghĩa Việt Nam"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Quyền và nghĩa vụ cơ bản của công dân"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Quyền cơ bản của trẻ em"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Thực hiện quyền trẻ em"
-            }
-          ]
-        }
-      }
-    },
-    "congnghe": {
-      "ten": "Công nghệ",
-      "don_vi": "bài",
-      "tong_don_vi": 14,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 3,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Khái quát về nhà ở"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xây dựng nhà ở"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Ngôi nhà thông minh"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 9,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Khái quát về nhà ở"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xây dựng nhà ở"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Ngôi nhà thông minh"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Thực phẩm và dinh dưỡng"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Trang phục trong đời sống"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Sử dụng và bảo quản trang phục"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Thời trang"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 12,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Khái quát về nhà ở"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xây dựng nhà ở"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Ngôi nhà thông minh"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Thực phẩm và dinh dưỡng"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Trang phục trong đời sống"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Sử dụng và bảo quản trang phục"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Thời trang"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Khái quát về đồ dùng điện"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Đèn điện"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Nồi cơm điện"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Khái quát về nhà ở"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xây dựng nhà ở"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Ngôi nhà thông minh"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Thực phẩm và dinh dưỡng"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Trang phục trong đời sống"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Sử dụng và bảo quản trang phục"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. Thời trang"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Khái quát về đồ dùng điện"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Đèn điện"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Nồi cơm điện"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Bếp hồng ngoại"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Dự án: An toàn và tiết kiệm trong gia đình"
-            }
-          ]
-        }
-      }
-    },
-    "hdtn": {
-      "ten": "Hoạt động trải nghiệm, hướng nghiệp",
-      "don_vi": "Chủ đề",
-      "tong_don_vi": 9,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 3,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 5,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Kiểm soát chi tiêu"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 7,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Kiểm soát chi tiêu"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Xây dựng cộng đồng văn minh, thân thiện"
-            },
-            {
-              "bai": 7,
-              "ten": "Chủ đề 7. Tìm hiểu nghề truyền thống ở Việt Nam"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Kiểm soát chi tiêu"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Xây dựng cộng đồng văn minh, thân thiện"
-            },
-            {
-              "bai": 7,
-              "ten": "Chủ đề 7. Tìm hiểu nghề truyền thống ở Việt Nam"
-            },
-            {
-              "bai": 8,
-              "ten": "Chủ đề 8. Phòng tránh thiên tai và giảm thiểu biến đổi khí hậu"
-            },
-            {
-              "bai": 9,
-              "ten": "Chủ đề 9. Tôn trọng người lao động"
-            }
-          ]
-        }
-      }
-    },
-    "tinhoc": {
-      "ten": "Tin học",
-      "don_vi": "bài",
-      "tong_don_vi": 17,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 5,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Thông tin và dữ liệu"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xử lý thông tin"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Thông tin trong máy tính"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Mạng máy tính"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Internet"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 9,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Thông tin và dữ liệu"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xử lý thông tin"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Thông tin trong máy tính"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Mạng máy tính"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Internet"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Mạng thông tin toàn cầu"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Thư điện tử"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. An toàn thông tin trên Internet"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 13,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Thông tin và dữ liệu"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xử lý thông tin"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Thông tin trong máy tính"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Mạng máy tính"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Internet"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Mạng thông tin toàn cầu"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Thư điện tử"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. An toàn thông tin trên Internet"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Sơ đồ tư duy"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Định dạng văn bản"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Trình bày thông tin ở dạng bảng"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Thực hành: Tìm kiếm và thay thế"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Bài 1. Thông tin và dữ liệu"
-            },
-            {
-              "bai": 2,
-              "ten": "Bài 2. Xử lý thông tin"
-            },
-            {
-              "bai": 3,
-              "ten": "Bài 3. Thông tin trong máy tính"
-            },
-            {
-              "bai": 4,
-              "ten": "Bài 4. Mạng máy tính"
-            },
-            {
-              "bai": 5,
-              "ten": "Bài 5. Internet"
-            },
-            {
-              "bai": 6,
-              "ten": "Bài 6. Mạng thông tin toàn cầu"
-            },
-            {
-              "bai": 7,
-              "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
-            },
-            {
-              "bai": 8,
-              "ten": "Bài 8. Thư điện tử"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 9. An toàn thông tin trên Internet"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 10. Sơ đồ tư duy"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 11. Định dạng văn bản"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 12. Trình bày thông tin ở dạng bảng"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 13. Thực hành: Tìm kiếm và thay thế"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 14. Thực hành tổng hợp: Hoàn thiện Sổ lưu niệm"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 15. Thuật toán"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 16. Cấu trúc điều khiển"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 17. Chương trình máy tính"
-            }
-          ]
-        }
-      }
-    },
-    "nghethuat": {
-      "ten": "Nghệ thuật",
-      "don_vi": "đơn vị",
-      "tong_don_vi": 24,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "max": 6,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Tuổi học trò"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Nhớ ơn thầy cô"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Ước mơ hòa bình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Giai điệu quê hương"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Mẹ trong trái tim em"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "max": 12,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Tuổi học trò"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Nhớ ơn thầy cô"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Ước mơ hòa bình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Giai điệu quê hương"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Mẹ trong trái tim em"
-            },
-            {
-              "bai": 7,
-              "ten": "Chủ đề 7. Âm nhạc nước ngoài"
-            },
-            {
-              "bai": 8,
-              "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 1. Một số thể loại mĩ thuật"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 3. Tạo hình ngôi nhà"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 4. Thiết kế quà lưu niệm"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "max": 18,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Tuổi học trò"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Nhớ ơn thầy cô"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Ước mơ hòa bình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Giai điệu quê hương"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Mẹ trong trái tim em"
-            },
-            {
-              "bai": 7,
-              "ten": "Chủ đề 7. Âm nhạc nước ngoài"
-            },
-            {
-              "bai": 8,
-              "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 1. Một số thể loại mĩ thuật"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 3. Tạo hình ngôi nhà"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 4. Thiết kế quà lưu niệm"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 5. Tạo hình hoạt động trong nhà trường"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 6. Thiết kế đồ chơi"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 7. Mĩ thuật thế giới thời kì tiền sử"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 8. Mĩ thuật Việt Nam thời kì tiền sử"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 10. Thiết kế thiệp chúc mừng"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "max": null,
-          "bai": [
-            {
-              "bai": 1,
-              "ten": "Chủ đề 1. Tuổi học trò"
-            },
-            {
-              "bai": 2,
-              "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
-            },
-            {
-              "bai": 3,
-              "ten": "Chủ đề 3. Nhớ ơn thầy cô"
-            },
-            {
-              "bai": 4,
-              "ten": "Chủ đề 4. Ước mơ hòa bình"
-            },
-            {
-              "bai": 5,
-              "ten": "Chủ đề 5. Giai điệu quê hương"
-            },
-            {
-              "bai": 6,
-              "ten": "Chủ đề 6. Mẹ trong trái tim em"
-            },
-            {
-              "bai": 7,
-              "ten": "Chủ đề 7. Âm nhạc nước ngoài"
-            },
-            {
-              "bai": 8,
-              "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
-            },
-            {
-              "bai": 9,
-              "ten": "Bài 1. Một số thể loại mĩ thuật"
-            },
-            {
-              "bai": 10,
-              "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
-            },
-            {
-              "bai": 11,
-              "ten": "Bài 3. Tạo hình ngôi nhà"
-            },
-            {
-              "bai": 12,
-              "ten": "Bài 4. Thiết kế quà lưu niệm"
-            },
-            {
-              "bai": 13,
-              "ten": "Bài 5. Tạo hình hoạt động trong nhà trường"
-            },
-            {
-              "bai": 14,
-              "ten": "Bài 6. Thiết kế đồ chơi"
-            },
-            {
-              "bai": 15,
-              "ten": "Bài 7. Mĩ thuật thế giới thời kì tiền sử"
-            },
-            {
-              "bai": 16,
-              "ten": "Bài 8. Mĩ thuật Việt Nam thời kì tiền sử"
-            },
-            {
-              "bai": 17,
-              "ten": "Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian"
-            },
-            {
-              "bai": 18,
-              "ten": "Bài 10. Thiết kế thiệp chúc mừng"
-            },
-            {
-              "bai": 19,
-              "ten": "Bài 11. Hoà sắc trong tranh chủ đề lễ hội"
-            },
-            {
-              "bai": 20,
-              "ten": "Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường"
-            },
-            {
-              "bai": 21,
-              "ten": "Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống"
-            },
-            {
-              "bai": 22,
-              "ten": "Bài 14. Thiết kế thời gian biểu"
-            },
-            {
-              "bai": 23,
-              "ten": "Bài 15. Mĩ thuật thế giới thời kì cổ đại"
-            },
-            {
-              "bai": 24,
-              "ten": "Bài 16. Mĩ thuật Việt Nam thời kì cổ đại"
-            }
-          ]
-        }
-      }
-    },
-    "toan": {
-      "ten": "Toán",
-      "don_vi": "chương",
-      "tong_don_vi": 9,
-      "ky": {
-        "gk1": {
-          "nhan": "Giữa học kì 1",
-          "chuong": [
-            1,
-            2
-          ],
-          "chi_tiet": [
-            {
-              "chuong": 1,
-              "ten": "Chương 1 · Tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 2,
-              "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
-            }
-          ]
-        },
-        "ck1": {
-          "nhan": "Cuối học kì 1",
-          "chuong": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "chi_tiet": [
-            {
-              "chuong": 1,
-              "ten": "Chương 1 · Tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 2,
-              "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 3,
-              "ten": "Chương 3 · Số nguyên"
-            },
-            {
-              "chuong": 4,
-              "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
-            },
-            {
-              "chuong": 5,
-              "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
-            }
-          ]
-        },
-        "gk2": {
-          "nhan": "Giữa học kì 2",
-          "chuong": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "chi_tiet": [
-            {
-              "chuong": 1,
-              "ten": "Chương 1 · Tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 2,
-              "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 3,
-              "ten": "Chương 3 · Số nguyên"
-            },
-            {
-              "chuong": 4,
-              "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
-            },
-            {
-              "chuong": 5,
-              "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
-            },
-            {
-              "chuong": 6,
-              "ten": "Chương 6 · Phân số"
-            },
-            {
-              "chuong": 7,
-              "ten": "Chương 7 · Số thập phân"
-            }
-          ]
-        },
-        "ck2": {
-          "nhan": "Cuối học kì 2",
-          "chuong": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "chi_tiet": [
-            {
-              "chuong": 1,
-              "ten": "Chương 1 · Tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 2,
-              "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
-            },
-            {
-              "chuong": 3,
-              "ten": "Chương 3 · Số nguyên"
-            },
-            {
-              "chuong": 4,
-              "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
-            },
-            {
-              "chuong": 5,
-              "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
-            },
-            {
-              "chuong": 6,
-              "ten": "Chương 6 · Phân số"
-            },
-            {
-              "chuong": 7,
-              "ten": "Chương 7 · Số thập phân"
-            },
-            {
-              "chuong": 8,
-              "ten": "Chương 8 · Hình học cơ bản"
-            },
-            {
-              "chuong": 9,
-              "ten": "Chương 9 · Dữ liệu và xác suất thực nghiệm"
-            }
-          ]
-        }
-      }
+     ]
     }
+   }
+  },
+  "lichsu": {
+   "ten": "Lịch sử",
+   "don_vi": "bài",
+   "tong_don_vi": 20,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 6,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Cách tính thời gian trong lịch sử"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Nguồn gốc loài người"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Xã hội nguyên thủy"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 11,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Cách tính thời gian trong lịch sử"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Nguồn gốc loài người"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Xã hội nguyên thủy"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Ấn Độ cổ đại"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Các quốc gia sơ kì ở Đông Nam Á"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 15,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Cách tính thời gian trong lịch sử"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Nguồn gốc loài người"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Xã hội nguyên thủy"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Ấn Độ cổ đại"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Vương quốc phong kiến Đông Nam Á (VII–X)"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Giao lưu văn hóa Đông Nam Á"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Văn Lang – Âu Lạc"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Chính sách cai trị phương Bắc và chuyển biến xã hội Âu Lạc"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Các cuộc khởi nghĩa giành độc lập trước thế kỉ X"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Cách tính thời gian trong lịch sử"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Nguồn gốc loài người"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Xã hội nguyên thủy"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Ai Cập và Lưỡng Hà cổ đại"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Ấn Độ cổ đại"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Hy Lạp và La Mã cổ đại"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Vương quốc phong kiến Đông Nam Á (VII–X)"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Giao lưu văn hóa Đông Nam Á"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Văn Lang – Âu Lạc"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Chính sách cai trị phương Bắc và chuyển biến xã hội Âu Lạc"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Các cuộc khởi nghĩa giành độc lập trước thế kỉ X"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Đấu tranh bảo tồn văn hóa dân tộc"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Bước ngoặt đầu thế kỉ X (Bạch Đằng 938)"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Chăm-pa (II–X)"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Phù Nam"
+      }
+     ]
+    }
+   }
+  },
+  "dialy": {
+   "ten": "Địa lí",
+   "don_vi": "bài",
+   "tong_don_vi": 31,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 13,
+     "bai": [
+      {
+       "bai": 0,
+       "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
+      },
+      {
+       "bai": 1,
+       "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Lược đồ trí nhớ"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Núi lửa và động đất"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 23,
+     "bai": [
+      {
+       "bai": 0,
+       "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
+      },
+      {
+       "bai": 1,
+       "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Lược đồ trí nhớ"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Núi lửa và động đất"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 21. Biển và đại dương"
+      },
+      {
+       "bai": 22,
+       "ten": "Bài 22. Lớp đất trên Trái Đất"
+      },
+      {
+       "bai": 23,
+       "ten": "Bài 23. Sự sống trên Trái Đất"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 27,
+     "bai": [
+      {
+       "bai": 0,
+       "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
+      },
+      {
+       "bai": 1,
+       "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Lược đồ trí nhớ"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Núi lửa và động đất"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 21. Biển và đại dương"
+      },
+      {
+       "bai": 22,
+       "ten": "Bài 22. Lớp đất trên Trái Đất"
+      },
+      {
+       "bai": 23,
+       "ten": "Bài 23. Sự sống trên Trái Đất"
+      },
+      {
+       "bai": 24,
+       "ten": "Bài 24. Rừng nhiệt đới"
+      },
+      {
+       "bai": 25,
+       "ten": "Bài 25. Sự phân bố các đới thiên nhiên trên Trái Đất"
+      },
+      {
+       "bai": 26,
+       "ten": "Bài 26. Thực hành: Tìm hiểu môi trường tự nhiên địa phương"
+      },
+      {
+       "bai": 27,
+       "ten": "Bài 27. Dân số và sự phân bố dân cư trên thế giới"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 0,
+       "ten": "Bài mở đầu. Tại sao cần học Địa lí?"
+      },
+      {
+       "bai": 1,
+       "ten": "Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Lược đồ trí nhớ"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Trái Đất trong hệ Mặt Trời"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Chuyển động tự quay quanh trục của Trái Đất và hệ quả"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Chuyển động của Trái Đất quanh Mặt Trời và hệ quả"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Xác định phương hướng ngoài thực tế"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Núi lửa và động đất"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Lớp vỏ khí của Trái Đất. Khí áp và gió"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Nhiệt độ không khí. Mây và mưa"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 18. Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 20. Sông và hồ. Nước ngầm và băng hà"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 21. Biển và đại dương"
+      },
+      {
+       "bai": 22,
+       "ten": "Bài 22. Lớp đất trên Trái Đất"
+      },
+      {
+       "bai": 23,
+       "ten": "Bài 23. Sự sống trên Trái Đất"
+      },
+      {
+       "bai": 24,
+       "ten": "Bài 24. Rừng nhiệt đới"
+      },
+      {
+       "bai": 25,
+       "ten": "Bài 25. Sự phân bố các đới thiên nhiên trên Trái Đất"
+      },
+      {
+       "bai": 26,
+       "ten": "Bài 26. Thực hành: Tìm hiểu môi trường tự nhiên địa phương"
+      },
+      {
+       "bai": 27,
+       "ten": "Bài 27. Dân số và sự phân bố dân cư trên thế giới"
+      },
+      {
+       "bai": 28,
+       "ten": "Bài 28. Mối quan hệ giữa con người và thiên nhiên"
+      },
+      {
+       "bai": 29,
+       "ten": "Bài 29. Bảo vệ tự nhiên và khai thác thông minh tài nguyên vì phát triển bền vững"
+      },
+      {
+       "bai": 30,
+       "ten": "Bài 30. Thực hành: Tìm hiểu mối quan hệ giữa con người và thiên nhiên ở địa phương"
+      }
+     ]
+    }
+   }
+  },
+  "nguvan": {
+   "ten": "Ngữ văn",
+   "don_vi": "bài",
+   "tong_don_vi": 10,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 2,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tôi và các bạn"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Gõ cửa trái tim"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 5,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tôi và các bạn"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Gõ cửa trái tim"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Yêu thương và chia sẻ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Quê hương yêu dấu"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Những nẻo đường xứ sở"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 8,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tôi và các bạn"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Gõ cửa trái tim"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Yêu thương và chia sẻ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Quê hương yêu dấu"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Những nẻo đường xứ sở"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Chuyện kể về những người anh hùng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Thế giới cổ tích"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Khác biệt và gần gũi"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tôi và các bạn"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Gõ cửa trái tim"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Yêu thương và chia sẻ"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Quê hương yêu dấu"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Những nẻo đường xứ sở"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Chuyện kể về những người anh hùng"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Thế giới cổ tích"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Khác biệt và gần gũi"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Trái Đất – ngôi nhà chung"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Cuốn sách tôi yêu"
+      }
+     ]
+    }
+   }
+  },
+  "tienganh": {
+   "ten": "Tiếng Anh",
+   "don_vi": "Unit",
+   "tong_don_vi": 12,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 3,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Unit 1. My New School — Ngôi trường mới của em"
+      },
+      {
+       "bai": 2,
+       "ten": "Unit 2. My House — Ngôi nhà của em"
+      },
+      {
+       "bai": 3,
+       "ten": "Unit 3. My Friends — Những người bạn của em"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 6,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Unit 1. My New School — Ngôi trường mới của em"
+      },
+      {
+       "bai": 2,
+       "ten": "Unit 2. My House — Ngôi nhà của em"
+      },
+      {
+       "bai": 3,
+       "ten": "Unit 3. My Friends — Những người bạn của em"
+      },
+      {
+       "bai": 4,
+       "ten": "Unit 4. My Neighbourhood — Khu phố của em"
+      },
+      {
+       "bai": 5,
+       "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
+      },
+      {
+       "bai": 6,
+       "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 9,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Unit 1. My New School — Ngôi trường mới của em"
+      },
+      {
+       "bai": 2,
+       "ten": "Unit 2. My House — Ngôi nhà của em"
+      },
+      {
+       "bai": 3,
+       "ten": "Unit 3. My Friends — Những người bạn của em"
+      },
+      {
+       "bai": 4,
+       "ten": "Unit 4. My Neighbourhood — Khu phố của em"
+      },
+      {
+       "bai": 5,
+       "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
+      },
+      {
+       "bai": 6,
+       "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
+      },
+      {
+       "bai": 7,
+       "ten": "Unit 7. Television — Truyền hình"
+      },
+      {
+       "bai": 8,
+       "ten": "Unit 8. Sports and games — Thể thao và trò chơi"
+      },
+      {
+       "bai": 9,
+       "ten": "Unit 9. Cities of the world — Các thành phố trên thế giới"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Unit 1. My New School — Ngôi trường mới của em"
+      },
+      {
+       "bai": 2,
+       "ten": "Unit 2. My House — Ngôi nhà của em"
+      },
+      {
+       "bai": 3,
+       "ten": "Unit 3. My Friends — Những người bạn của em"
+      },
+      {
+       "bai": 4,
+       "ten": "Unit 4. My Neighbourhood — Khu phố của em"
+      },
+      {
+       "bai": 5,
+       "ten": "Unit 5. Natural Wonders of Viet Nam — Kì quan thiên nhiên Việt Nam"
+      },
+      {
+       "bai": 6,
+       "ten": "Unit 6. Our Tet Holiday — Tết của chúng ta"
+      },
+      {
+       "bai": 7,
+       "ten": "Unit 7. Television — Truyền hình"
+      },
+      {
+       "bai": 8,
+       "ten": "Unit 8. Sports and games — Thể thao và trò chơi"
+      },
+      {
+       "bai": 9,
+       "ten": "Unit 9. Cities of the world — Các thành phố trên thế giới"
+      },
+      {
+       "bai": 10,
+       "ten": "Unit 10. Our houses in the future — Ngôi nhà tương lai của chúng ta"
+      },
+      {
+       "bai": 11,
+       "ten": "Unit 11. Our greener world — Thế giới xanh hơn của chúng ta"
+      },
+      {
+       "bai": 12,
+       "ten": "Unit 12. Robots — Rô-bốt"
+      }
+     ]
+    }
+   }
+  },
+  "gdcd": {
+   "ten": "Giáo dục công dân",
+   "don_vi": "bài",
+   "tong_don_vi": 12,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 3,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Yêu thương con người"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Siêng năng, kiên trì"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 6,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Yêu thương con người"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Siêng năng, kiên trì"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Tôn trọng sự thật"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Tự lập"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Tự nhận thức bản thân"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 9,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Yêu thương con người"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Siêng năng, kiên trì"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Tôn trọng sự thật"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Tự lập"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Tự nhận thức bản thân"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Ứng phó với tình huống nguy hiểm"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Tiết kiệm"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Công dân nước Cộng hòa xã hội chủ nghĩa Việt Nam"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Tự hào về truyền thống gia đình, dòng họ"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Yêu thương con người"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Siêng năng, kiên trì"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Tôn trọng sự thật"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Tự lập"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Tự nhận thức bản thân"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Ứng phó với tình huống nguy hiểm"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Tiết kiệm"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Công dân nước Cộng hòa xã hội chủ nghĩa Việt Nam"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Quyền và nghĩa vụ cơ bản của công dân"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Quyền cơ bản của trẻ em"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Thực hiện quyền trẻ em"
+      }
+     ]
+    }
+   }
+  },
+  "congnghe": {
+   "ten": "Công nghệ",
+   "don_vi": "bài",
+   "tong_don_vi": 14,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 3,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Khái quát về nhà ở"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xây dựng nhà ở"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Ngôi nhà thông minh"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 9,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Khái quát về nhà ở"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xây dựng nhà ở"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Ngôi nhà thông minh"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Thực phẩm và dinh dưỡng"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Trang phục trong đời sống"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Sử dụng và bảo quản trang phục"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Thời trang"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 12,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Khái quát về nhà ở"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xây dựng nhà ở"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Ngôi nhà thông minh"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Thực phẩm và dinh dưỡng"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Trang phục trong đời sống"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Sử dụng và bảo quản trang phục"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Thời trang"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Khái quát về đồ dùng điện"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Đèn điện"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Nồi cơm điện"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Khái quát về nhà ở"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xây dựng nhà ở"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Ngôi nhà thông minh"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Thực phẩm và dinh dưỡng"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Phương pháp bảo quản và chế biến thực phẩm"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Dự án: Bữa ăn kết nối yêu thương"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Trang phục trong đời sống"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Sử dụng và bảo quản trang phục"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. Thời trang"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Khái quát về đồ dùng điện"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Đèn điện"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Nồi cơm điện"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Bếp hồng ngoại"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Dự án: An toàn và tiết kiệm trong gia đình"
+      }
+     ]
+    }
+   }
+  },
+  "hdtn": {
+   "ten": "Hoạt động trải nghiệm, hướng nghiệp",
+   "don_vi": "Chủ đề",
+   "tong_don_vi": 9,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 3,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 5,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Kiểm soát chi tiêu"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 7,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Kiểm soát chi tiêu"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Xây dựng cộng đồng văn minh, thân thiện"
+      },
+      {
+       "bai": 7,
+       "ten": "Chủ đề 7. Tìm hiểu nghề truyền thống ở Việt Nam"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Khám phá lứa tuổi và môi trường học tập mới"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Chăm sóc cuộc sống cá nhân"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Xây dựng tình bạn, tình thầy trò"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Nuôi dưỡng quan hệ gia đình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Kiểm soát chi tiêu"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Xây dựng cộng đồng văn minh, thân thiện"
+      },
+      {
+       "bai": 7,
+       "ten": "Chủ đề 7. Tìm hiểu nghề truyền thống ở Việt Nam"
+      },
+      {
+       "bai": 8,
+       "ten": "Chủ đề 8. Phòng tránh thiên tai và giảm thiểu biến đổi khí hậu"
+      },
+      {
+       "bai": 9,
+       "ten": "Chủ đề 9. Tôn trọng người lao động"
+      }
+     ]
+    }
+   }
+  },
+  "tinhoc": {
+   "ten": "Tin học",
+   "don_vi": "bài",
+   "tong_don_vi": 17,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 5,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Thông tin và dữ liệu"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xử lý thông tin"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Thông tin trong máy tính"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Mạng máy tính"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Internet"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 9,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Thông tin và dữ liệu"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xử lý thông tin"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Thông tin trong máy tính"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Mạng máy tính"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Internet"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Mạng thông tin toàn cầu"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Thư điện tử"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. An toàn thông tin trên Internet"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 13,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Thông tin và dữ liệu"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xử lý thông tin"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Thông tin trong máy tính"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Mạng máy tính"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Internet"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Mạng thông tin toàn cầu"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Thư điện tử"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. An toàn thông tin trên Internet"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Sơ đồ tư duy"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Định dạng văn bản"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Trình bày thông tin ở dạng bảng"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Thực hành: Tìm kiếm và thay thế"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Bài 1. Thông tin và dữ liệu"
+      },
+      {
+       "bai": 2,
+       "ten": "Bài 2. Xử lý thông tin"
+      },
+      {
+       "bai": 3,
+       "ten": "Bài 3. Thông tin trong máy tính"
+      },
+      {
+       "bai": 4,
+       "ten": "Bài 4. Mạng máy tính"
+      },
+      {
+       "bai": 5,
+       "ten": "Bài 5. Internet"
+      },
+      {
+       "bai": 6,
+       "ten": "Bài 6. Mạng thông tin toàn cầu"
+      },
+      {
+       "bai": 7,
+       "ten": "Bài 7. Tìm kiếm thông tin trên Internet"
+      },
+      {
+       "bai": 8,
+       "ten": "Bài 8. Thư điện tử"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 9. An toàn thông tin trên Internet"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 10. Sơ đồ tư duy"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 11. Định dạng văn bản"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 12. Trình bày thông tin ở dạng bảng"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 13. Thực hành: Tìm kiếm và thay thế"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 14. Thực hành tổng hợp: Hoàn thiện Sổ lưu niệm"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 15. Thuật toán"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 16. Cấu trúc điều khiển"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 17. Chương trình máy tính"
+      }
+     ]
+    }
+   }
+  },
+  "nghethuat": {
+   "ten": "Nghệ thuật",
+   "don_vi": "đơn vị",
+   "tong_don_vi": 24,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "max": 6,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Tuổi học trò"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Nhớ ơn thầy cô"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Ước mơ hòa bình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Giai điệu quê hương"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Mẹ trong trái tim em"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "max": 12,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Tuổi học trò"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Nhớ ơn thầy cô"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Ước mơ hòa bình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Giai điệu quê hương"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Mẹ trong trái tim em"
+      },
+      {
+       "bai": 7,
+       "ten": "Chủ đề 7. Âm nhạc nước ngoài"
+      },
+      {
+       "bai": 8,
+       "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 1. Một số thể loại mĩ thuật"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 3. Tạo hình ngôi nhà"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 4. Thiết kế quà lưu niệm"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "max": 18,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Tuổi học trò"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Nhớ ơn thầy cô"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Ước mơ hòa bình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Giai điệu quê hương"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Mẹ trong trái tim em"
+      },
+      {
+       "bai": 7,
+       "ten": "Chủ đề 7. Âm nhạc nước ngoài"
+      },
+      {
+       "bai": 8,
+       "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 1. Một số thể loại mĩ thuật"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 3. Tạo hình ngôi nhà"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 4. Thiết kế quà lưu niệm"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 5. Tạo hình hoạt động trong nhà trường"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 6. Thiết kế đồ chơi"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 7. Mĩ thuật thế giới thời kì tiền sử"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 8. Mĩ thuật Việt Nam thời kì tiền sử"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 10. Thiết kế thiệp chúc mừng"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "max": null,
+     "bai": [
+      {
+       "bai": 1,
+       "ten": "Chủ đề 1. Tuổi học trò"
+      },
+      {
+       "bai": 2,
+       "ten": "Chủ đề 2. Cuộc sống tươi đẹp"
+      },
+      {
+       "bai": 3,
+       "ten": "Chủ đề 3. Nhớ ơn thầy cô"
+      },
+      {
+       "bai": 4,
+       "ten": "Chủ đề 4. Ước mơ hòa bình"
+      },
+      {
+       "bai": 5,
+       "ten": "Chủ đề 5. Giai điệu quê hương"
+      },
+      {
+       "bai": 6,
+       "ten": "Chủ đề 6. Mẹ trong trái tim em"
+      },
+      {
+       "bai": 7,
+       "ten": "Chủ đề 7. Âm nhạc nước ngoài"
+      },
+      {
+       "bai": 8,
+       "ten": "Chủ đề 8. Bác Hồ với thiếu nhi"
+      },
+      {
+       "bai": 9,
+       "ten": "Bài 1. Một số thể loại mĩ thuật"
+      },
+      {
+       "bai": 10,
+       "ten": "Bài 2. Xây dựng ý tưởng trong sáng tác theo chủ đề"
+      },
+      {
+       "bai": 11,
+       "ten": "Bài 3. Tạo hình ngôi nhà"
+      },
+      {
+       "bai": 12,
+       "ten": "Bài 4. Thiết kế quà lưu niệm"
+      },
+      {
+       "bai": 13,
+       "ten": "Bài 5. Tạo hình hoạt động trong nhà trường"
+      },
+      {
+       "bai": 14,
+       "ten": "Bài 6. Thiết kế đồ chơi"
+      },
+      {
+       "bai": 15,
+       "ten": "Bài 7. Mĩ thuật thế giới thời kì tiền sử"
+      },
+      {
+       "bai": 16,
+       "ten": "Bài 8. Mĩ thuật Việt Nam thời kì tiền sử"
+      },
+      {
+       "bai": 17,
+       "ten": "Bài 9. Sáng tạo mĩ thuật với trò chơi dân gian"
+      },
+      {
+       "bai": 18,
+       "ten": "Bài 10. Thiết kế thiệp chúc mừng"
+      },
+      {
+       "bai": 19,
+       "ten": "Bài 11. Hoà sắc trong tranh chủ đề lễ hội"
+      },
+      {
+       "bai": 20,
+       "ten": "Bài 12. Màu sắc lễ hội trong thiết kế lịch treo tường"
+      },
+      {
+       "bai": 21,
+       "ten": "Bài 13. Sáng tạo mĩ thuật với hình ảnh trong cuộc sống"
+      },
+      {
+       "bai": 22,
+       "ten": "Bài 14. Thiết kế thời gian biểu"
+      },
+      {
+       "bai": 23,
+       "ten": "Bài 15. Mĩ thuật thế giới thời kì cổ đại"
+      },
+      {
+       "bai": 24,
+       "ten": "Bài 16. Mĩ thuật Việt Nam thời kì cổ đại"
+      }
+     ]
+    }
+   }
+  },
+  "toan": {
+   "ten": "Toán",
+   "don_vi": "chương",
+   "tong_don_vi": 9,
+   "ky": {
+    "gk1": {
+     "nhan": "Giữa học kì 1",
+     "chuong": [
+      1,
+      2
+     ],
+     "chi_tiet": [
+      {
+       "chuong": 1,
+       "ten": "Chương 1 · Tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 2,
+       "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
+      }
+     ]
+    },
+    "ck1": {
+     "nhan": "Cuối học kì 1",
+     "chuong": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "chi_tiet": [
+      {
+       "chuong": 1,
+       "ten": "Chương 1 · Tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 2,
+       "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 3,
+       "ten": "Chương 3 · Số nguyên"
+      },
+      {
+       "chuong": 4,
+       "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
+      },
+      {
+       "chuong": 5,
+       "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
+      }
+     ]
+    },
+    "gk2": {
+     "nhan": "Giữa học kì 2",
+     "chuong": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "chi_tiet": [
+      {
+       "chuong": 1,
+       "ten": "Chương 1 · Tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 2,
+       "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 3,
+       "ten": "Chương 3 · Số nguyên"
+      },
+      {
+       "chuong": 4,
+       "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
+      },
+      {
+       "chuong": 5,
+       "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
+      },
+      {
+       "chuong": 6,
+       "ten": "Chương 6 · Phân số"
+      },
+      {
+       "chuong": 7,
+       "ten": "Chương 7 · Số thập phân"
+      }
+     ]
+    },
+    "ck2": {
+     "nhan": "Cuối học kì 2",
+     "chuong": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "chi_tiet": [
+      {
+       "chuong": 1,
+       "ten": "Chương 1 · Tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 2,
+       "ten": "Chương 2 · Tính chia hết trong tập hợp các số tự nhiên"
+      },
+      {
+       "chuong": 3,
+       "ten": "Chương 3 · Số nguyên"
+      },
+      {
+       "chuong": 4,
+       "ten": "Chương 4 · Một số hình phẳng trong thực tiễn"
+      },
+      {
+       "chuong": 5,
+       "ten": "Chương 5 · Tính đối xứng của hình phẳng trong tự nhiên"
+      },
+      {
+       "chuong": 6,
+       "ten": "Chương 6 · Phân số"
+      },
+      {
+       "chuong": 7,
+       "ten": "Chương 7 · Số thập phân"
+      },
+      {
+       "chuong": 8,
+       "ten": "Chương 8 · Hình học cơ bản"
+      },
+      {
+       "chuong": 9,
+       "ten": "Chương 9 · Dữ liệu và xác suất thực nghiệm"
+      }
+     ]
+    }
+   }
   }
+ }
 }

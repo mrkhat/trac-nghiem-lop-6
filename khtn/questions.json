@@ -101,7 +101,7 @@
     ],
     "answer": 3,
     "explanation": "Đường cháy đen tạo chất mới → biến đổi hóa học.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 9,
@@ -127,7 +127,7 @@
     ],
     "answer": 1,
     "explanation": "Kim loại dẫn điện tốt.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
     ],
     "answer": 2,
     "explanation": "Mọi sinh vật đều được cấu tạo từ tế bào.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
     ],
     "answer": 1,
     "explanation": "Vùng nhân là đặc điểm của tế bào nhân sơ.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
     ],
     "answer": 1,
     "explanation": "Nhân điều khiển mọi hoạt động của tế bào.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
     ],
     "answer": 2,
     "explanation": "Quả táo lớn lên nhờ tế bào sinh trưởng và phân chia.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
     ],
     "answer": 3,
     "explanation": "Không thay thế tế bào → thành dạ dày bị acid ăn mòn.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 16,
@@ -218,7 +218,7 @@
     ],
     "answer": 0,
     "explanation": "Tảo lục đơn bào và vi khuẩn lam là sinh vật đơn bào.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
     ],
     "answer": 2,
     "explanation": "Thực vật có hệ chồi và hệ rễ.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
     ],
     "answer": 3,
     "explanation": "Thực vật có hệ chồi và hệ rễ.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
     ],
     "answer": 2,
     "explanation": "Dạ dày là cơ quan, được cấu tạo từ tế bào và mô.",
-    "bai": 12
+    "bai": 18
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
     ],
     "answer": 3,
     "explanation": "Bóng chịu tác dụng của trọng lực nên rơi nhanh dần.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
     ],
     "answer": 0,
     "explanation": "150g → 3 vạch nên 50g/vạch, 100g → vạch thứ 2.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 23,
@@ -296,7 +296,7 @@
     ],
     "answer": 1,
     "explanation": "Cùng khối lượng nhưng khác chất nên thể tích khác nhau.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
     ],
     "answer": 1,
     "explanation": "Đội bên phải kéo dây → lực hướng sang phải.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 25,
@@ -322,7 +322,7 @@
     ],
     "answer": 0,
     "explanation": "Quả bưởi rụng do trọng lực.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
     ],
     "answer": 0,
     "explanation": "Lực kế thường dùng: ĐCNN 0,2N, GHĐ 10N.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 27,
@@ -348,7 +348,7 @@
     ],
     "answer": 1,
     "explanation": "Bóng chịu trọng lực và phản lực của bàn cân bằng nhau.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 28,
@@ -361,7 +361,7 @@
     ],
     "answer": 3,
     "explanation": "Kéo lên → ngược chiều trọng lực (hướng xuống).",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 29,
@@ -374,7 +374,7 @@
     ],
     "answer": 2,
     "explanation": "Sai: hai lực tác dụng lên 2 vật khác nhau nên không phải lực cân bằng.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 30,
@@ -387,7 +387,7 @@
     ],
     "answer": 1,
     "explanation": "Khi ấn mạnh, bàn chân và mặt sàn đều bị ép, biến dạng một chút (rất ít nên khó nhìn thấy) nhưng không có vật nào chuyển động đi đâu — nên đây là lực chỉ gây biến dạng.",
-    "bai": 13
+    "bai": 40
   },
   {
     "id": 31,
@@ -634,7 +634,7 @@
     ],
     "answer": 2,
     "explanation": "Vật liệu là nguyên liệu đầu vào cho sản xuất.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 50,
@@ -647,7 +647,7 @@
     ],
     "answer": 2,
     "explanation": "Nhựa cách điện tốt.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 51,
@@ -660,7 +660,7 @@
     ],
     "answer": 3,
     "explanation": "Xe đạp là vật thể/sản phẩm, không phải vật liệu.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 52,
@@ -673,7 +673,7 @@
     ],
     "answer": 1,
     "explanation": "3R: Reduce - Reuse - Recycle.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 53,
@@ -712,7 +712,7 @@
     ],
     "answer": 0,
     "explanation": "Điều chỉnh lửa phù hợp nhu cầu.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 56,
@@ -738,7 +738,7 @@
     ],
     "answer": 3,
     "explanation": "Đường cháy đen tạo chất mới.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 58,
@@ -751,7 +751,7 @@
     ],
     "answer": 1,
     "explanation": "Đất sét là nguyên liệu làm ngói, gạch.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 59,
@@ -764,7 +764,7 @@
     ],
     "answer": 1,
     "explanation": "Gỗ là nguyên liệu sản xuất giấy.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 60,
@@ -777,7 +777,7 @@
     ],
     "answer": 3,
     "explanation": "Gang giòn, dễ gãy nên ít dùng trong xây dựng.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 61,
@@ -790,7 +790,7 @@
     ],
     "answer": 1,
     "explanation": "Không nên khai thác thủ công, kém hiệu quả và nguy hiểm.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 62,
@@ -803,7 +803,7 @@
     ],
     "answer": 1,
     "explanation": "Gang thép từ quặng sắt.",
-    "bai": 10
+    "bai": 9
   },
   {
     "id": 63,
@@ -816,7 +816,7 @@
     ],
     "answer": 0,
     "explanation": "Mây tạo thành do hơi nước ngưng tụ.",
-    "bai": 9
+    "bai": 10
   },
   {
     "id": 64,
@@ -829,7 +829,7 @@
     ],
     "answer": 2,
     "explanation": "Sôi xảy ra ở nhiệt độ sôi xác định.",
-    "bai": 9
+    "bai": 10
   },
   {
     "id": 65,
@@ -842,7 +842,7 @@
     ],
     "answer": 2,
     "explanation": "Chất khí lan tỏa mọi hướng.",
-    "bai": 9
+    "bai": 10
   },
   {
     "id": 66,
@@ -855,7 +855,7 @@
     ],
     "answer": 3,
     "explanation": "Nắng nóng giúp nước bay hơi nhanh.",
-    "bai": 9
+    "bai": 10
   },
   {
     "id": 67,
@@ -868,11 +868,11 @@
     ],
     "answer": 3,
     "explanation": "Bay hơi xảy ra ở mọi nhiệt độ, còn sôi mới ở nhiệt độ xác định.",
-    "bai": 9
+    "bai": 10
   },
   {
     "answer": 1,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Nguyên liệu là vật liệu lấy từ tự nhiên để sản xuất ra sản phẩm khác, ví dụ quặng sắt dùng để luyện gang, thép.",
     "id": 68,
     "options": [
@@ -885,7 +885,7 @@
   },
   {
     "answer": 3,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Quặng sắt là nguyên liệu luyện gang, thép vì trong quặng có chứa sắt.",
     "id": 69,
     "options": [
@@ -898,7 +898,7 @@
   },
   {
     "answer": 0,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Đá vôi nung nóng rồi nghiền sẽ thành xi măng, dùng để xây nhà.",
     "id": 70,
     "options": [
@@ -911,7 +911,7 @@
   },
   {
     "answer": 2,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Cát nung chảy ở nhiệt độ cao sẽ thành thủy tinh, dùng làm cốc, cửa kính.",
     "id": 71,
     "options": [
@@ -924,7 +924,7 @@
   },
   {
     "answer": 1,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Nguyên liệu tái tạo là nguyên liệu trồng lại hoặc tạo lại được, ví dụ gỗ từ rừng trồng có thể trồng cây mới thay thế.",
     "id": 72,
     "options": [
@@ -937,7 +937,7 @@
   },
   {
     "answer": 3,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Nhiều nguyên liệu như quặng, dầu mỏ không tái tạo được, khai thác nhiều sẽ cạn kiệt và phá môi trường.",
     "id": 73,
     "options": [
@@ -950,7 +950,7 @@
   },
   {
     "answer": 0,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Khai thác bừa bãi lấy đi tài nguyên và phá rừng, phá đất, làm mất nơi sống của sinh vật.",
     "id": 74,
     "options": [
@@ -963,7 +963,7 @@
   },
   {
     "answer": 2,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Rừng trồng chặt rồi trồng lại được, nên dùng gỗ rừng trồng giúp giữ rừng tự nhiên không bị phá.",
     "id": 75,
     "options": [
@@ -976,7 +976,7 @@
   },
   {
     "answer": 2,
-    "bai": 14,
+    "bai": 13,
     "explanation": "Chiếc áo đã may xong là sản phẩm, không còn là nguyên liệu nữa; quặng đồng, mủ cao su, cây mía đều là nguyên liệu để sản xuất.",
     "id": 76,
     "options": [
@@ -989,7 +989,7 @@
   },
   {
     "answer": 1,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Nhiên liệu là chất khi cháy sẽ tỏa ra năng lượng, chủ yếu là nhiệt, ví dụ than, xăng, gas cháy đều tỏa nhiệt để đun nấu, chạy máy.",
     "id": 77,
     "options": [
@@ -1002,7 +1002,7 @@
   },
   {
     "answer": 2,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Nhiên liệu rắn là nhiên liệu ở thể rắn, ví dụ than, củi.",
     "id": 78,
     "options": [
@@ -1015,7 +1015,7 @@
   },
   {
     "answer": 0,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Nhiên liệu lỏng là nhiên liệu ở thể lỏng, ví dụ xăng, dầu hỏa.",
     "id": 79,
     "options": [
@@ -1028,7 +1028,7 @@
   },
   {
     "answer": 3,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Nhiên liệu khí là nhiên liệu ở thể khí, ví dụ khí gas, khí biogas.",
     "id": 80,
     "options": [
@@ -1041,7 +1041,7 @@
   },
   {
     "answer": 1,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Nhiên liệu hóa thạch hình thành từ xác sinh vật bị vùi lấp và biến đổi trong hàng triệu năm, ví dụ than đá, dầu mỏ, khí thiên nhiên.",
     "id": 81,
     "options": [
@@ -1054,7 +1054,7 @@
   },
   {
     "answer": 2,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Than đá, dầu mỏ cần hàng triệu năm mới hình thành, nên con người dùng hết thì không có lại ngay được.",
     "id": 82,
     "options": [
@@ -1067,7 +1067,7 @@
   },
   {
     "answer": 1,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Đốt than, dầu thải ra khí gây ô nhiễm không khí và làm Trái Đất nóng lên dần.",
     "id": 83,
     "options": [
@@ -1080,7 +1080,7 @@
   },
   {
     "answer": 3,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Gas rò rỉ gặp lửa có thể gây cháy nổ, nên dùng bếp gas xong phải khóa van lại.",
     "id": 84,
     "options": [
@@ -1093,7 +1093,7 @@
   },
   {
     "answer": 0,
-    "bai": 15,
+    "bai": 14,
     "explanation": "Đi bộ, đi xe đạp hoặc đi chung xe sẽ dùng ít xăng hơn, vừa tiết kiệm nhiên liệu vừa đỡ ô nhiễm.",
     "id": 85,
     "options": [
@@ -1106,7 +1106,7 @@
   },
   {
     "answer": 0,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Lương thực là thức ăn giàu tinh bột, dùng làm thức ăn chính hằng ngày, ví dụ gạo, ngô, khoai, sắn.",
     "id": 86,
     "options": [
@@ -1119,7 +1119,7 @@
   },
   {
     "answer": 2,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Gạo giàu tinh bột và là thức ăn chính hằng ngày nên gạo là lương thực; thịt, cá là thực phẩm, rau là thực phẩm bổ sung.",
     "id": 87,
     "options": [
@@ -1132,7 +1132,7 @@
   },
   {
     "answer": 1,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Thực phẩm là tên gọi chung các thức ăn cung cấp chất dinh dưỡng cho cơ thể, ví dụ thịt, cá, trứng, rau, quả.",
     "id": 88,
     "options": [
@@ -1145,7 +1145,7 @@
   },
   {
     "answer": 2,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Chất đạm có nhiều trong thịt, cá, trứng, sữa, đậu và giúp cơ thể lớn lên, khỏe mạnh.",
     "id": 89,
     "options": [
@@ -1158,7 +1158,7 @@
   },
   {
     "answer": 3,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Chất bột đường có nhiều trong gạo, ngô, khoai, bánh mì và cho cơ thể năng lượng hoạt động.",
     "id": 90,
     "options": [
@@ -1171,7 +1171,7 @@
   },
   {
     "answer": 0,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Rau, quả tươi có nhiều vitamin và chất khoáng, giúp cơ thể khỏe mạnh và chống bệnh tật.",
     "id": 91,
     "options": [
@@ -1184,7 +1184,7 @@
   },
   {
     "answer": 3,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Mỗi nhóm chất có vai trò riêng: bột đường cho năng lượng, đạm giúp lớn lên, vitamin giúp chống bệnh, nên thiếu chất nào cơ thể cũng yếu đi.",
     "id": 92,
     "options": [
@@ -1197,7 +1197,7 @@
   },
   {
     "answer": 1,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Rau quả cung cấp vitamin và chất xơ giúp tiêu hóa tốt, nên không ăn rau quả sẽ thiếu chất và dễ táo bón, mệt mỏi.",
     "id": 93,
     "options": [
@@ -1210,7 +1210,7 @@
   },
   {
     "answer": 0,
-    "bai": 16,
+    "bai": 15,
     "explanation": "Thực phẩm an toàn là đồ tươi, còn hạn dùng, rõ nguồn gốc và rửa sạch trước khi ăn, vì đồ bẩn, hết hạn dễ gây đau bụng, ngộ độc.",
     "id": 94,
     "options": [
@@ -1223,7 +1223,7 @@
   },
   {
     "answer": 1,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Hỗn hợp là hai hay nhiều chất trộn lẫn với nhau, mỗi chất vẫn giữ tính chất riêng, ví dụ nước muối gồm muối và nước.",
     "id": 95,
     "options": [
@@ -1236,7 +1236,7 @@
   },
   {
     "answer": 2,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Nước muối gồm muối tan trong nước nên là hỗn hợp; nước cất, sắt nguyên chất, khí oxygen tinh khiết chỉ là một chất.",
     "id": 96,
     "options": [
@@ -1249,7 +1249,7 @@
   },
   {
     "answer": 0,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Hỗn hợp đồng nhất là hỗn hợp trộn đều, không nhìn rõ từng chất riêng, ví dụ nước đường đã khuấy tan.",
     "id": 97,
     "options": [
@@ -1262,7 +1262,7 @@
   },
   {
     "answer": 2,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Nước đường đã khuấy tan thì đường tan đều trong nước, không nhìn rõ đường nữa nên là hỗn hợp đồng nhất.",
     "id": 98,
     "options": [
@@ -1275,7 +1275,7 @@
   },
   {
     "answer": 3,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Nước pha dầu nhìn rõ lớp dầu riêng, lớp nước riêng nên là hỗn hợp không đồng nhất.",
     "id": 99,
     "options": [
@@ -1288,7 +1288,7 @@
   },
   {
     "answer": 3,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Trong nước muối, muối tan ra nên muối là chất tan, nước là dung môi hòa tan muối.",
     "id": 100,
     "options": [
@@ -1301,7 +1301,7 @@
   },
   {
     "answer": 2,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Không khí gồm nhiều khí trộn lẫn với nhau, chủ yếu là nitrogen và oxygen, nên không khí là một hỗn hợp.",
     "id": 101,
     "options": [
@@ -1314,7 +1314,7 @@
   },
   {
     "answer": 1,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Muối tan hết trong nước, không nhìn thấy muối nữa nên đây là hỗn hợp đồng nhất, còn gọi là dung dịch nước muối.",
     "id": 102,
     "options": [
@@ -1327,7 +1327,7 @@
   },
   {
     "answer": 0,
-    "bai": 17,
+    "bai": 16,
     "explanation": "Mỗi chất trong hỗn hợp vẫn giữ tính chất riêng của nó, ví dụ muối trong nước muối vẫn mặn.",
     "id": 103,
     "options": [
@@ -1340,7 +1340,7 @@
   },
   {
     "answer": 2,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Cát không tan trong nước nên lọc qua giấy lọc sẽ giữ cát lại, chỉ cho nước chảy qua.",
     "id": 104,
     "options": [
@@ -1353,7 +1353,7 @@
   },
   {
     "answer": 1,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Giấy lọc có lỗ rất nhỏ, chỉ cho nước chảy qua và giữ cát lại trên giấy.",
     "id": 105,
     "options": [
@@ -1366,7 +1366,7 @@
   },
   {
     "answer": 0,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Cô cạn là đun nóng cho chất lỏng bay hơi, còn lại chất tan, ví dụ cô cạn nước muối thì nước bay hơi, muối ở lại.",
     "id": 106,
     "options": [
@@ -1379,7 +1379,7 @@
   },
   {
     "answer": 3,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Muối tan trong nước nên không lọc được, phải cô cạn: đun nóng cho nước bay hơi, muối ở lại.",
     "id": 107,
     "options": [
@@ -1392,7 +1392,7 @@
   },
   {
     "answer": 2,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Nam châm chỉ hút chất có tính từ như sắt, nên tách được mạt sắt ra khỏi cát hoặc bột lưu huỳnh.",
     "id": 108,
     "options": [
@@ -1405,7 +1405,7 @@
   },
   {
     "answer": 1,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Dầu nhẹ hơn nước và không tan trong nước nên để yên dầu sẽ nổi lên trên, gạn lấy lớp dầu là tách được.",
     "id": 109,
     "options": [
@@ -1418,7 +1418,7 @@
   },
   {
     "answer": 0,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Để lắng rồi lọc sẽ giữ bùn đất lại, cho nước trong chảy qua, nên đây là bước làm trong nước đầu tiên.",
     "id": 110,
     "options": [
@@ -1431,7 +1431,7 @@
   },
   {
     "answer": 1,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Khi đun nóng nước muối, nước bay hơi đi còn muối không bay hơi nên muối ở lại trong bát.",
     "id": 111,
     "options": [
@@ -1444,7 +1444,7 @@
   },
   {
     "answer": 3,
-    "bai": 18,
+    "bai": 17,
     "explanation": "Mỗi cách tách dựa vào một tính chất khác nhau: không tan thì lọc, tan thì cô cạn, bị nam châm hút thì dùng nam châm.",
     "id": 112,
     "options": [
@@ -1808,7 +1808,7 @@
   },
   {
     "answer": 1,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Cơ thể đơn bào chỉ gồm một tế bào duy nhất nhưng vẫn thực hiện được mọi chức năng sống.",
     "id": 140,
     "options": [
@@ -1821,7 +1821,7 @@
   },
   {
     "answer": 2,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Trùng giày chỉ gồm một tế bào, còn cây lúa, con gà, con người đều gồm nhiều tế bào.",
     "id": 141,
     "options": [
@@ -1834,7 +1834,7 @@
   },
   {
     "answer": 1,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Cơ thể đa bào gồm nhiều tế bào phối hợp với nhau, mỗi tế bào làm một phần việc của cơ thể.",
     "id": 142,
     "options": [
@@ -1847,7 +1847,7 @@
   },
   {
     "answer": 3,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Cây ngô gồm nhiều tế bào phối hợp nên là sinh vật đa bào; vi khuẩn, trùng roi, trùng giày chỉ có một tế bào.",
     "id": 143,
     "options": [
@@ -1860,7 +1860,7 @@
   },
   {
     "answer": 2,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Trùng giày bơi bằng lông bơi rung động quanh cơ thể, đẩy cơ thể di chuyển trong nước.",
     "id": 144,
     "options": [
@@ -1873,7 +1873,7 @@
   },
   {
     "answer": 0,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Trùng giày chỉ có một tế bào nhưng tế bào đó vẫn tự sống, lấy thức ăn và di chuyển được.",
     "id": 145,
     "options": [
@@ -1886,7 +1886,7 @@
   },
   {
     "answer": 0,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Cơ thể đa bào có nhiều loại tế bào, mỗi loại làm một nhiệm vụ riêng, còn đơn bào chỉ có một tế bào làm mọi việc.",
     "id": 146,
     "options": [
@@ -1899,7 +1899,7 @@
   },
   {
     "answer": 3,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Trùng giày sống trong nước ao, hồ có váng xanh hoặc rơm rạ ngâm, nên lấy mẫu nước đó để quan sát.",
     "id": 147,
     "options": [
@@ -1912,7 +1912,7 @@
   },
   {
     "answer": 1,
-    "bai": 22,
+    "bai": 24,
     "explanation": "Mẫu nước ao có thể chứa vi khuẩn gây bệnh, nên không được uống mẫu nước và phải rửa tay sạch sau khi làm xong.",
     "id": 148,
     "options": [
@@ -1934,7 +1934,7 @@
     ],
     "answer": 2,
     "explanation": "Sinh vật giống nhau về cấu tạo và hoạt động sống thì xếp chung một nhóm, ví dụ cá đều có vây và sống dưới nước.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 150,
@@ -1947,7 +1947,7 @@
     ],
     "answer": 0,
     "explanation": "Thứ tự từ lớn đến nhỏ là: giới, ngành, lớp, bộ, họ, chi, loài. Giới là bậc lớn nhất.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 151,
@@ -1960,7 +1960,7 @@
     ],
     "answer": 1,
     "explanation": "Loài là nhóm nhỏ nhất: các cá thể cùng loài giống nhau nhiều nhất và sinh sản được với nhau.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 152,
@@ -1973,7 +1973,7 @@
     ],
     "answer": 3,
     "explanation": "Ví dụ người có tên khoa học Homo sapiens: Homo là tên chi, sapiens là tên loài.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 153,
@@ -1986,7 +1986,7 @@
     ],
     "answer": 1,
     "explanation": "Homo là tên chi, sapiens là tên loài. Tên khoa học viết bằng tiếng La-tinh, in nghiêng.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 154,
@@ -1999,7 +1999,7 @@
     ],
     "answer": 2,
     "explanation": "5 giới là: Khởi sinh, Nguyên sinh, Nấm, Thực vật và Động vật.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 155,
@@ -2012,7 +2012,7 @@
     ],
     "answer": 0,
     "explanation": "Vi khuẩn là sinh vật đơn bào chưa có nhân hoàn chỉnh nên xếp vào giới Khởi sinh.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 156,
@@ -2025,7 +2025,7 @@
     ],
     "answer": 3,
     "explanation": "Cây lúa tự tạo chất dinh dưỡng nhờ quang hợp nên thuộc giới Thực vật.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 157,
@@ -2038,7 +2038,7 @@
     ],
     "answer": 1,
     "explanation": "Trái Đất có hàng triệu loài; không phân loại thì không thể gọi tên, tìm hiểu và bảo vệ chúng.",
-    "bai": 26
+    "bai": 25
   },
   {
     "id": 158,
@@ -2051,7 +2051,7 @@
     ],
     "answer": 3,
     "explanation": "Khóa lưỡng phân giúp gọi tên sinh vật lạ bằng cách so sánh đặc điểm của nó với từng cặp đặc điểm trong khóa.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 159,
@@ -2064,7 +2064,7 @@
     ],
     "answer": 2,
     "explanation": "Vì vậy mới gọi là lưỡng phân: lưỡng nghĩa là hai, mỗi lần chia thành hai nhánh.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 160,
@@ -2077,7 +2077,7 @@
     ],
     "answer": 1,
     "explanation": "Đi đúng từng bước mới ra tên đúng; nhảy bước hay đoán mò dễ nhầm loài.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 161,
@@ -2090,7 +2090,7 @@
     ],
     "answer": 0,
     "explanation": "Lưỡng là hai, phân là chia: mỗi bước cho hai đặc điểm ngược nhau để chọn một.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 162,
@@ -2103,7 +2103,7 @@
     ],
     "answer": 3,
     "explanation": "Không quan sát được đặc điểm của mẫu vật thì không thể chọn nhánh nào.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 163,
@@ -2116,7 +2116,7 @@
     ],
     "answer": 2,
     "explanation": "Lúa có hoa (hoa lúa nhỏ, mọc thành bông) nên chọn nhánh có hoa rồi đi tiếp.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 164,
@@ -2129,7 +2129,7 @@
     ],
     "answer": 1,
     "explanation": "Mỗi bước dẫn tới một nhánh khác nhau nên chọn sai một bước là sai cả đường đi.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 165,
@@ -2142,7 +2142,7 @@
     ],
     "answer": 0,
     "explanation": "Ngoài thiên nhiên gặp sinh vật chưa biết tên, dùng khóa để đối chiếu đặc điểm và gọi tên nó.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 166,
@@ -2155,7 +2155,7 @@
     ],
     "answer": 0,
     "explanation": "Đặc điểm ngoài như có hoa hay không, lá đơn hay lá kép thì quan sát được ngay, an toàn và dễ làm.",
-    "bai": 27
+    "bai": 26
   },
   {
     "id": 167,
@@ -2168,7 +2168,7 @@
     ],
     "answer": 0,
     "explanation": "Vi khuẩn chỉ gồm một tế bào đơn giản, vật chất di truyền nằm trực tiếp trong tế bào chất.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 168,
@@ -2181,7 +2181,7 @@
     ],
     "answer": 3,
     "explanation": "Vi khuẩn chỉ dài khoảng vài micrômét, nhỏ hơn nhiều so với mắt thường nhìn được.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 169,
@@ -2194,7 +2194,7 @@
     ],
     "answer": 2,
     "explanation": "Mỗi vi khuẩn lớn lên rồi tách đôi, vì vậy số lượng vi khuẩn tăng rất nhanh khi đủ thức ăn.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 170,
@@ -2207,7 +2207,7 @@
     ],
     "answer": 1,
     "explanation": "Dựa vào hình dạng mà người ta gọi: cầu khuẩn, trực khuẩn (hình que), xoắn khuẩn.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 171,
@@ -2220,7 +2220,7 @@
     ],
     "answer": 3,
     "explanation": "Vi khuẩn lactic lên men đường trong sữa thành axit lactic, làm sữa chua chua và sánh lại.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 172,
@@ -2233,7 +2233,7 @@
     ],
     "answer": 0,
     "explanation": "Không phải vi khuẩn nào cũng hại, nhưng một số loài gây bệnh và làm thiu thức ăn.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 173,
@@ -2246,7 +2246,7 @@
     ],
     "answer": 2,
     "explanation": "Vi khuẩn có mặt gần như mọi nơi, kể cả nơi khắc nghiệt, nhờ kích thước nhỏ và sinh sản nhanh.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 174,
@@ -2259,7 +2259,7 @@
     ],
     "answer": 1,
     "explanation": "Vệ sinh và ăn chín làm giảm số vi khuẩn xâm nhập vào cơ thể qua tay và thức ăn.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 175,
@@ -2272,7 +2272,7 @@
     ],
     "answer": 2,
     "explanation": "Vi khuẩn có đủ bộ máy của một tế bào nên tự sinh sản được; virus phải nhờ tế bào chủ.",
-    "bai": 28
+    "bai": 27
   },
   {
     "id": 176,
@@ -2285,7 +2285,7 @@
     ],
     "answer": 3,
     "explanation": "Axit lactic làm sữa chua có vị chua và sánh đặc lại.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 177,
@@ -2298,7 +2298,7 @@
     ],
     "answer": 1,
     "explanation": "Trong quá trình ủ, vi khuẩn lactic biến đường trong sữa thành axit lactic.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 178,
@@ -2311,7 +2311,7 @@
     ],
     "answer": 2,
     "explanation": "Vi khuẩn lactic hoạt động tốt ở nhiệt độ ấm; quá nóng chúng chết, quá lạnh chúng lên men rất chậm.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 179,
@@ -2324,7 +2324,7 @@
     ],
     "answer": 0,
     "explanation": "Vi khuẩn quá nhỏ, kính lúp không đủ độ phóng đại; phải dùng kính hiển vi.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 180,
@@ -2337,7 +2337,7 @@
     ],
     "answer": 3,
     "explanation": "Mẫu quan sát có thể chứa vi khuẩn lạ gây bệnh nên tuyệt đối không đưa vào miệng, mũi.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 181,
@@ -2350,7 +2350,7 @@
     ],
     "answer": 1,
     "explanation": "Lạnh làm vi khuẩn lên men chậm lại, sữa chua giữ được lâu và không chua gắt.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 182,
@@ -2363,7 +2363,7 @@
     ],
     "answer": 0,
     "explanation": "Dụng cụ bẩn mang vi khuẩn lạ vào, chúng tranh thức ăn với vi khuẩn lactic và có thể gây bệnh.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 183,
@@ -2376,7 +2376,7 @@
     ],
     "answer": 2,
     "explanation": "Vi khuẩn lactic có dạng hình que, chỉ thấy rõ dưới kính hiển vi.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 184,
@@ -2389,7 +2389,7 @@
     ],
     "answer": 3,
     "explanation": "Con người dùng vi khuẩn lactic có lợi để làm sữa chua, muối dưa, làm pho mát.",
-    "bai": 29
+    "bai": 28
   },
   {
     "id": 185,
@@ -2402,7 +2402,7 @@
     ],
     "answer": 0,
     "explanation": "Virus chỉ gồm vỏ protein và lõi axit nucleic, không có đủ bộ máy của một tế bào.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 186,
@@ -2415,7 +2415,7 @@
     ],
     "answer": 1,
     "explanation": "Lõi axit nucleic mang thông tin di truyền, vỏ protein bảo vệ lõi.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 187,
@@ -2428,7 +2428,7 @@
     ],
     "answer": 3,
     "explanation": "Virus không tự sinh sản được; nó dùng bộ máy của tế bào bị nhiễm để nhân lên.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 188,
@@ -2441,7 +2441,7 @@
     ],
     "answer": 1,
     "explanation": "Vì vậy virus bắt buộc phải sống kí sinh trong tế bào của sinh vật khác.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 189,
@@ -2454,7 +2454,7 @@
     ],
     "answer": 2,
     "explanation": "Tả, lao do vi khuẩn; sốt rét do nguyên sinh vật; giun đũa là động vật kí sinh.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 190,
@@ -2467,7 +2467,7 @@
     ],
     "answer": 0,
     "explanation": "Cảm cúm do virus nên uống kháng sinh không khỏi mà còn gây hại do dùng thuốc sai.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 191,
@@ -2480,7 +2480,7 @@
     ],
     "answer": 3,
     "explanation": "Vắc-xin và vệ sinh giúp cơ thể chống virus; kháng sinh không phòng được bệnh virus.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 192,
@@ -2493,7 +2493,7 @@
     ],
     "answer": 1,
     "explanation": "Vắc-xin tập cho hệ miễn dịch nhận mặt virus trước, để khi gặp thật thì chống trả nhanh.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 193,
@@ -2506,7 +2506,7 @@
     ],
     "answer": 2,
     "explanation": "Đây là ranh giới quan trọng nhất: vi khuẩn là sinh vật tế bào, virus thì chưa phải.",
-    "bai": 30
+    "bai": 29
   },
   {
     "id": 194,
@@ -2519,7 +2519,7 @@
     ],
     "answer": 2,
     "explanation": "Mỗi nguyên sinh vật chỉ là một tế bào, nhưng tế bào đó đã có nhân hoàn chỉnh.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 195,
@@ -2532,7 +2532,7 @@
     ],
     "answer": 1,
     "explanation": "Chúng cần môi trường ẩm ướt để sống, phổ biến nhất là ao, hồ, vũng nước.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 196,
@@ -2545,7 +2545,7 @@
     ],
     "answer": 0,
     "explanation": "Hàng nghìn sợi lông bơi rung động nhịp nhàng đẩy trùng giày bơi trong nước.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 197,
@@ -2558,7 +2558,7 @@
     ],
     "answer": 3,
     "explanation": "Trùng roi quẫy roi để bơi, khác với trùng giày dùng lông bơi.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 198,
@@ -2571,7 +2571,7 @@
     ],
     "answer": 2,
     "explanation": "Tảo quang hợp tạo ra oxygen và là thức ăn đầu chuỗi cho nhiều sinh vật nước.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 199,
@@ -2584,7 +2584,7 @@
     ],
     "answer": 1,
     "explanation": "Muỗi Anopheles đốt người bệnh rồi đốt người lành, truyền trùng sốt rét sang.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 200,
@@ -2597,7 +2597,7 @@
     ],
     "answer": 0,
     "explanation": "Nguyên sinh vật là tế bào nhân thực, vi khuẩn là tế bào nhân sơ chưa có nhân.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 201,
@@ -2610,7 +2610,7 @@
     ],
     "answer": 0,
     "explanation": "Nước tù đọng giàu chất hữu cơ là môi trường tốt cho nguyên sinh vật sinh sôi.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 202,
@@ -2623,7 +2623,7 @@
     ],
     "answer": 3,
     "explanation": "Nước sạch và màn chống muỗi ngăn trùng sốt rét và nhiều nguyên sinh vật gây bệnh khác.",
-    "bai": 31
+    "bai": 30
   },
   {
     "id": 203,
@@ -2636,7 +2636,7 @@
     ],
     "answer": 1,
     "explanation": "Nước ao hồ tù đọng giàu sinh vật nhỏ, dễ lấy mẫu và dễ quan sát.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 204,
@@ -2649,7 +2649,7 @@
     ],
     "answer": 2,
     "explanation": "Nguyên sinh vật quá nhỏ, kính lúp không đủ độ phóng đại như kính hiển vi.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 205,
@@ -2662,7 +2662,7 @@
     ],
     "answer": 0,
     "explanation": "Trùng giày bơi lượn bằng lông bơi và dùng rãnh miệng đưa thức ăn nhỏ vào cơ thể.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 206,
@@ -2675,7 +2675,7 @@
     ],
     "answer": 3,
     "explanation": "Váng và độ đục thường do tảo và sinh vật nhỏ tạo nên, mẫu sẽ phong phú hơn.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 207,
@@ -2688,7 +2688,7 @@
     ],
     "answer": 2,
     "explanation": "Mẫu nước ao có thể chứa mầm bệnh nên phải bỏ đúng chỗ và rửa tay sạch.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 208,
@@ -2701,7 +2701,7 @@
     ],
     "answer": 1,
     "explanation": "Bản vẽ ghi lại hình dạng, cách di chuyển giúp nhận biết sinh vật chính xác hơn.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 209,
@@ -2714,7 +2714,7 @@
     ],
     "answer": 3,
     "explanation": "Thử lấy mẫu khác, nhỏ mẫu mỏng hơn và chỉnh lại độ sáng, độ nét của kính.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 210,
@@ -2727,7 +2727,7 @@
     ],
     "answer": 0,
     "explanation": "Quan sát trực tiếp cho thấy trùng giày bơi bằng lông bơi, trùng roi bơi bằng roi.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 211,
@@ -2740,7 +2740,7 @@
     ],
     "answer": 2,
     "explanation": "Bờ ao trơn trượt và nước ao có thể chứa mầm bệnh nên phải có người lớn đi cùng.",
-    "bai": 32
+    "bai": 31
   },
   {
     "id": 212,
@@ -2753,7 +2753,7 @@
     ],
     "answer": 1,
     "explanation": "Nấm đã có nhân hoàn chỉnh nhưng không có chất diệp lục nên không tự tạo thức ăn như cây.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 213,
@@ -2766,7 +2766,7 @@
     ],
     "answer": 2,
     "explanation": "Nấm hoại sinh phân giải xác sinh vật, nấm kí sinh sống nhờ sinh vật khác, nấm cộng sinh cùng có lợi.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 214,
@@ -2779,7 +2779,7 @@
     ],
     "answer": 0,
     "explanation": "Sợi nấm lan trong đất hoặc gỗ để hút chất dinh dưỡng nuôi cả cây nấm.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 215,
@@ -2792,7 +2792,7 @@
     ],
     "answer": 3,
     "explanation": "Bào tử nằm ở phiến dưới mũ nấm, bay theo gió đến nơi mới rồi nảy mầm.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 216,
@@ -2805,7 +2805,7 @@
     ],
     "answer": 1,
     "explanation": "Nấm men lên men đường tạo khí carbon dioxide làm bánh phồng nở.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 217,
@@ -2818,7 +2818,7 @@
     ],
     "answer": 0,
     "explanation": "Chỉ ăn nấm đã biết rõ là ăn được và mua ở nơi tin cậy; nấm lạ tuyệt đối không ăn.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 218,
@@ -2831,7 +2831,7 @@
     ],
     "answer": 2,
     "explanation": "Không thể phân biệt nấm độc bằng màu sắc hay mùi; chỉ chuyên gia mới nhận biết chắc chắn.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 219,
@@ -2844,7 +2844,7 @@
     ],
     "answer": 3,
     "explanation": "Nấm mốc tiết chất phân giải bánh mì để hút dinh dưỡng, khiến bánh mốc và hỏng.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 220,
@@ -2857,7 +2857,7 @@
     ],
     "answer": 3,
     "explanation": "Nhờ nấm phân giải, xác lá cây và động vật chết trở thành chất mùn nuôi cây mới.",
-    "bai": 33
+    "bai": 32
   },
   {
     "id": 221,
@@ -2870,7 +2870,7 @@
     ],
     "answer": 1,
     "explanation": "Lật mũ nấm lên sẽ thấy các phiến mỏng xếp như nan quạt, nơi chứa bào tử.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 222,
@@ -2883,7 +2883,7 @@
     ],
     "answer": 3,
     "explanation": "Sợi nấm rất mảnh, mắt thường chỉ thấy lớp mốc mờ, phải phóng đại mới thấy rõ.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 223,
@@ -2896,7 +2896,7 @@
     ],
     "answer": 1,
     "explanation": "Nấm ưa ẩm; sau mưa đất và gỗ ẩm là nơi bào tử dễ nảy mầm nhất.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 224,
@@ -2909,7 +2909,7 @@
     ],
     "answer": 2,
     "explanation": "Nấm lạ có thể độc qua đường ăn và bào tử bay vào mũi nên chỉ quan sát bằng mắt.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 225,
@@ -2922,7 +2922,7 @@
     ],
     "answer": 0,
     "explanation": "Sợi nấm lan rộng như rễ cây, hút chất hữu cơ về nuôi cả cây nấm.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 226,
@@ -2935,7 +2935,7 @@
     ],
     "answer": 3,
     "explanation": "Bào tử rơi khỏi phiến, bay theo gió đến nơi mới và mọc thành nấm mới.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 227,
@@ -2948,7 +2948,7 @@
     ],
     "answer": 1,
     "explanation": "Thức ăn bị nấm mốc phân giải sẽ đổi màu, đổi mùi và không ăn được nữa.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 228,
@@ -2961,7 +2961,7 @@
     ],
     "answer": 2,
     "explanation": "Bản vẽ ghi mũ, phiến, cuống và màu sắc giúp gọi tên nấm chính xác hơn.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 229,
@@ -2974,7 +2974,7 @@
     ],
     "answer": 0,
     "explanation": "Nấm độc và nấm ăn có thể giống nhau như đúc; chỉ chuyên gia mới phân biệt chắc chắn.",
-    "bai": 34
+    "bai": 33
   },
   {
     "id": 230,
@@ -2987,7 +2987,7 @@
     ],
     "answer": 0,
     "explanation": "Thực vật tự tạo thức ăn từ ánh sáng nên gọi là sinh vật tự dưỡng.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 231,
@@ -3000,7 +3000,7 @@
     ],
     "answer": 3,
     "explanation": "Nhờ quang hợp, cây có thức ăn để lớn và thải oxygen cho sinh vật khác thở.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 232,
@@ -3013,7 +3013,7 @@
     ],
     "answer": 2,
     "explanation": "Rễ hút nước, thân vận chuyển, lá quang hợp, hoa tạo quả và hạt để sinh sản.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 233,
@@ -3026,7 +3026,7 @@
     ],
     "answer": 1,
     "explanation": "Bốn nhóm này khác nhau ở rễ, thân, lá và cách sinh sản.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 234,
@@ -3039,7 +3039,7 @@
     ],
     "answer": 0,
     "explanation": "Dương xỉ chưa có hoa và hạt; bào tử rơi xuống đất ẩm mọc thành cây mới.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 235,
@@ -3052,7 +3052,7 @@
     ],
     "answer": 3,
     "explanation": "Ví dụ hạt trần là cây thông, hạt kín là cây lúa, cây xoài.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 236,
@@ -3065,7 +3065,7 @@
     ],
     "answer": 2,
     "explanation": "Rừng còn chắn gió, giữ nước, chống xói mòn và lũ lụt.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 237,
@@ -3078,7 +3078,7 @@
     ],
     "answer": 1,
     "explanation": "Thiếu ánh sáng cây quang hợp kém, thiếu nước và khoáng cây còi cọc.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 238,
@@ -3091,7 +3091,7 @@
     ],
     "answer": 0,
     "explanation": "Rừng mất đi thì đất trơ trọi, mưa cuốn đất xuống sông gây lũ và mất mùa.",
-    "bai": 35
+    "bai": 34
   },
   {
     "id": 239,
@@ -3104,7 +3104,7 @@
     ],
     "answer": 2,
     "explanation": "Rêu chỉ có rễ giả bám vào mặt đất ẩm, thân thấp vì chưa có mạch dẫn.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 240,
@@ -3117,7 +3117,7 @@
     ],
     "answer": 0,
     "explanation": "Nhìn mặt dưới lá dương xỉ sẽ thấy các đốm nâu là ổ túi bào tử.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 241,
@@ -3130,7 +3130,7 @@
     ],
     "answer": 3,
     "explanation": "Thông có lá hình kim và nón thông mang hạt nằm lộ ra, không có quả bao bọc.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 242,
@@ -3143,7 +3143,7 @@
     ],
     "answer": 2,
     "explanation": "Lúa có hoa, sau khi thụ phấn tạo quả thóc bọc lấy hạt gạo bên trong.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 243,
@@ -3156,7 +3156,7 @@
     ],
     "answer": 1,
     "explanation": "Quan sát đủ các cơ quan mới xếp đúng nhóm, ví dụ có hoa và quả là hạt kín.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 244,
@@ -3169,7 +3169,7 @@
     ],
     "answer": 3,
     "explanation": "Rêu cần nước để sinh sản nên chỉ sống tốt ở nơi ẩm ướt, râm mát.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 245,
@@ -3182,7 +3182,7 @@
     ],
     "answer": 0,
     "explanation": "Các đốm nâu mặt dưới lá chính là nơi chứa bào tử sinh sản.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 246,
@@ -3195,7 +3195,7 @@
     ],
     "answer": 2,
     "explanation": "Không có mạch dẫn mạnh và rễ thật, rêu không đưa nước lên cao được.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 247,
@@ -3208,7 +3208,7 @@
     ],
     "answer": 1,
     "explanation": "Quan sát không phá hoại thì lần sau vẫn còn cây để học và thiên nhiên không bị tổn thương.",
-    "bai": 36
+    "bai": 35
   },
   {
     "id": 248,
@@ -3221,7 +3221,7 @@
     ],
     "answer": 2,
     "explanation": "Động vật không tự tạo thức ăn mà ăn sinh vật khác, và phản ứng lại kích thích từ môi trường.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 249,
@@ -3234,7 +3234,7 @@
     ],
     "answer": 0,
     "explanation": "Nhóm này không có cột sống, chiếm phần lớn số loài động vật.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 250,
@@ -3247,7 +3247,7 @@
     ],
     "answer": 3,
     "explanation": "Cả 5 lớp đều có cột sống chạy dọc cơ thể để nâng đỡ và bảo vệ tủy sống.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 251,
@@ -3260,7 +3260,7 @@
     ],
     "answer": 1,
     "explanation": "Vây giúp cá bơi lội, mang lấy oxygen trong nước, thân thuôn giúp lướt nước dễ dàng.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 252,
@@ -3273,7 +3273,7 @@
     ],
     "answer": 0,
     "explanation": "Cánh tạo lực nâng, xương rỗng giảm trọng lượng giúp chim bay lâu mà ít tốn sức.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 253,
@@ -3286,7 +3286,7 @@
     ],
     "answer": 2,
     "explanation": "Dơi là thú biết bay nhưng vẫn đẻ con và cho con bú, còn chim thì đẻ trứng.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 254,
@@ -3299,7 +3299,7 @@
     ],
     "answer": 3,
     "explanation": "Ví dụ ếch: nòng nọc sống dưới nước thở bằng mang, ếch trưởng thành sống trên cạn thở bằng phổi.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 255,
@@ -3312,7 +3312,7 @@
     ],
     "answer": 3,
     "explanation": "Ong thụ phấn cho hoa, chim ăn sâu hại; nhưng cũng có loài hại như muỗi truyền bệnh, sâu phá lúa.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 256,
@@ -3325,7 +3325,7 @@
     ],
     "answer": 1,
     "explanation": "Di chuyển giúp động vật sống sót: có ăn, tránh bị ăn thịt và tìm được chỗ sinh sản.",
-    "bai": 37
+    "bai": 36
   },
   {
     "id": 257,
@@ -3338,7 +3338,7 @@
     ],
     "answer": 2,
     "explanation": "Quan sát từ xa không làm động vật sợ hãi và giữ nguyên môi trường sống của chúng.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 258,
@@ -3351,7 +3351,7 @@
     ],
     "answer": 0,
     "explanation": "Dơi bay bằng màng da giữa các ngón, nhưng vẫn là thú vì đẻ con và cho con bú.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 259,
@@ -3364,7 +3364,7 @@
     ],
     "answer": 1,
     "explanation": "Nhiều loài còn được pháp luật bảo vệ; bắt giữ là vi phạm và làm giảm đa dạng sinh học.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 260,
@@ -3377,7 +3377,7 @@
     ],
     "answer": 3,
     "explanation": "Côn trùng có 3 đôi chân, cơ thể 3 phần (đầu, ngực, bụng); nhện có 8 chân nên không phải côn trùng.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 261,
@@ -3390,7 +3390,7 @@
     ],
     "answer": 1,
     "explanation": "Ghi chép đầy đủ giúp đối chiếu với sách để xếp đúng nhóm và làm báo cáo.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 262,
@@ -3403,7 +3403,7 @@
     ],
     "answer": 2,
     "explanation": "Sáng sớm chim hót, côn trùng kiếm ăn; trưa nắng gắt nhiều loài trốn nắng nên khó thấy.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 263,
@@ -3416,7 +3416,7 @@
     ],
     "answer": 0,
     "explanation": "Chạm vào tổ làm chim bố mẹ bỏ tổ, trứng và chim non sẽ chết.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 264,
@@ -3429,7 +3429,7 @@
     ],
     "answer": 3,
     "explanation": "Có vây và mang là cá, có lông vũ là chim, có vú và lông mao là thú.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 265,
@@ -3442,7 +3442,7 @@
     ],
     "answer": 1,
     "explanation": "Thiên nhiên có rắn, ong và địa hình trơn trượt nên phải có người lớn đi cùng và giữ khoảng cách.",
-    "bai": 38
+    "bai": 37
   },
   {
     "id": 266,
@@ -3455,7 +3455,7 @@
     ],
     "answer": 3,
     "explanation": "Nơi nào càng nhiều loài, nhiều môi trường sống khác nhau thì đa dạng sinh học càng cao.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 267,
@@ -3468,7 +3468,7 @@
     ],
     "answer": 2,
     "explanation": "Voọc Cát Bà, sao la là những loài đặc hữu chỉ có ở Việt Nam.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 268,
@@ -3481,7 +3481,7 @@
     ],
     "answer": 1,
     "explanation": "Rừng mất thì sinh vật mất nơi ở; ô nhiễm và săn bắt làm nhiều loài giảm nhanh.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 269,
@@ -3494,7 +3494,7 @@
     ],
     "answer": 0,
     "explanation": "Mỗi loài đều có vai trò trong lưới thức ăn; mất một loài có thể kéo theo nhiều loài khác suy giảm.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 270,
@@ -3507,7 +3507,7 @@
     ],
     "answer": 3,
     "explanation": "Khu bảo tồn giữ nguyên môi trường sống để sinh vật sinh sôi an toàn.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 271,
@@ -3520,7 +3520,7 @@
     ],
     "answer": 2,
     "explanation": "Việc nhỏ mỗi ngày như trồng cây, không xả rác cũng góp phần giữ thiên nhiên.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 272,
@@ -3533,7 +3533,7 @@
     ],
     "answer": 1,
     "explanation": "Ví dụ voọc Cát Bà chỉ sống ở đảo Cát Bà, Việt Nam.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 273,
@@ -3546,7 +3546,7 @@
     ],
     "answer": 0,
     "explanation": "Rừng là mái nhà chung: chim, thú, côn trùng và cây cối cùng sống trong đó.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 274,
@@ -3559,7 +3559,7 @@
     ],
     "answer": 0,
     "explanation": "Một khu rừng, một rạn san hô, một đồng ruộng đều là những hệ sinh thái khác nhau.",
-    "bai": 39
+    "bai": 38
   },
   {
     "id": 275,
@@ -3572,7 +3572,7 @@
     ],
     "answer": 0,
     "explanation": "Làm đúng trình tự thì kết quả chính xác và không bỏ sót sinh vật gặp được.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 276,
@@ -3585,7 +3585,7 @@
     ],
     "answer": 3,
     "explanation": "Ghi chép đầy đủ giúp đối chiếu với sách và viết báo cáo sau chuyến đi.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 277,
@@ -3598,7 +3598,7 @@
     ],
     "answer": 2,
     "explanation": "Khóa lưỡng phân và sách giúp gọi tên đúng thay vì đoán mò.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 278,
@@ -3611,7 +3611,7 @@
     ],
     "answer": 1,
     "explanation": "Báo cáo ngắn gọn nhưng đủ thông tin để người khác hiểu em đã gặp và thấy gì.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 279,
@@ -3624,7 +3624,7 @@
     ],
     "answer": 3,
     "explanation": "Đặc điểm như số lượng, hành vi chỉ đúng lúc quan sát; ghi muộn dễ nhầm lẫn.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 280,
@@ -3637,7 +3637,7 @@
     ],
     "answer": 0,
     "explanation": "Dụng cụ quan sát và ghi chép là đủ; không mang đồ bắt giữ hay phá hoại.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 281,
@@ -3650,7 +3650,7 @@
     ],
     "answer": 2,
     "explanation": "Sinh vật lạ có thể có độc, địa hình có thể nguy hiểm nên phải có người lớn đi cùng.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 282,
@@ -3663,7 +3663,7 @@
     ],
     "answer": 1,
     "explanation": "Hiểu rồi mới yêu quý và bảo vệ; tìm hiểu không phải để bắt giữ.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 283,
@@ -3676,7 +3676,7 @@
     ],
     "answer": 2,
     "explanation": "Giữ nguyên môi trường thì sinh vật còn sống khỏe và chuyến đi sau vẫn quan sát được.",
-    "bai": 40
+    "bai": 39
   },
   {
     "id": 284,
@@ -5432,5 +5432,317 @@
     "answer": 3,
     "explanation": "Mặt Trời là sao của Hệ Mặt Trời nên gần ta nhất; các sao khác xa hơn rất nhiều.",
     "bai": 55
+  },
+  {
+    "id": 419,
+    "question": "Vật liệu là gì?",
+    "options": [
+      "A. Sản phẩm đã hoàn thiện, dùng trực tiếp",
+      "B. Chất hoặc hỗn hợp dùng làm nguyên liệu đầu vào để sản xuất sản phẩm",
+      "C. Dụng cụ đo trong phòng thực hành",
+      "D. Chất thải sau sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Vật liệu là chất hoặc hỗn hợp được dùng làm nguyên liệu đầu vào để sản xuất sản phẩm.",
+    "bai": 12
+  },
+  {
+    "id": 420,
+    "question": "Vật liệu nào sau đây dẫn điện tốt, thường dùng làm dây điện?",
+    "options": [
+      "A. Nhựa",
+      "B. Cao su",
+      "C. Đồng",
+      "D. Thủy tinh"
+    ],
+    "answer": 2,
+    "explanation": "Đồng là kim loại, dẫn điện tốt nên dùng làm dây điện.",
+    "bai": 12
+  },
+  {
+    "id": 421,
+    "question": "Vì sao vỏ dây điện thường làm bằng nhựa?",
+    "options": [
+      "A. Vì nhựa dẫn điện tốt",
+      "B. Vì nhựa cách điện, an toàn",
+      "C. Vì nhựa dẫn nhiệt tốt",
+      "D. Vì nhựa rất cứng"
+    ],
+    "answer": 1,
+    "explanation": "Nhựa cách điện nên bọc ngoài dây điện để an toàn.",
+    "bai": 12
+  },
+  {
+    "id": 422,
+    "question": "Tính chất nổi bật của cao su là gì?",
+    "options": [
+      "A. Trong suốt",
+      "B. Đàn hồi",
+      "C. Dẫn điện tốt",
+      "D. Dễ vỡ"
+    ],
+    "answer": 1,
+    "explanation": "Cao su đàn hồi: kéo dãn rồi trở lại hình dạng cũ.",
+    "bai": 12
+  },
+  {
+    "id": 423,
+    "question": "Thủy tinh được dùng làm cửa sổ chủ yếu vì tính chất nào?",
+    "options": [
+      "A. Đàn hồi",
+      "B. Dẫn điện",
+      "C. Trong suốt",
+      "D. Không thấm nước và nhẹ"
+    ],
+    "answer": 2,
+    "explanation": "Thủy tinh trong suốt nên dùng làm cửa sổ, cốc, chai.",
+    "bai": 12
+  },
+  {
+    "id": 424,
+    "question": "Vật liệu nào khó phân hủy, cần hạn chế dùng đồ dùng một lần?",
+    "options": [
+      "A. Gỗ",
+      "B. Nhựa",
+      "C. Gốm",
+      "D. Kim loại"
+    ],
+    "answer": 1,
+    "explanation": "Nhựa khó phân hủy nên gây ô nhiễm môi trường.",
+    "bai": 12
+  },
+  {
+    "id": 425,
+    "question": "Gỗ thường được dùng để làm gì?",
+    "options": [
+      "A. Dây điện",
+      "B. Lốp xe",
+      "C. Bàn ghế, giấy",
+      "D. Cốc thủy tinh"
+    ],
+    "answer": 2,
+    "explanation": "Gỗ nhẹ, dễ chế tác nên làm bàn ghế, giấy.",
+    "bai": 12
+  },
+  {
+    "id": 426,
+    "question": "Hành động nào sau đây giúp dùng vật liệu tiết kiệm, bảo vệ môi trường?",
+    "options": [
+      "A. Vứt đồ nhựa dùng một lần bừa bãi",
+      "B. Tái sử dụng và tái chế theo mô hình 3R",
+      "C. Khai thác quặng không có kế hoạch",
+      "D. Dùng đồ mới dù đồ cũ còn tốt"
+    ],
+    "answer": 1,
+    "explanation": "Tái sử dụng và tái chế (3R) giúp tiết kiệm vật liệu và bảo vệ môi trường.",
+    "bai": 12
+  },
+  {
+    "id": 427,
+    "question": "Cơ thể sinh vật là gì?",
+    "options": [
+      "A. Một tế bào riêng lẻ",
+      "B. Một sinh vật hoàn chỉnh, có các hoạt động sống",
+      "C. Một cơ quan trong cơ thể",
+      "D. Một nhóm sinh vật cùng loài"
+    ],
+    "answer": 1,
+    "explanation": "Cơ thể sinh vật là một sinh vật hoàn chỉnh, có các hoạt động sống.",
+    "bai": 22
+  },
+  {
+    "id": 428,
+    "question": "Sinh vật nào sau đây là cơ thể đơn bào?",
+    "options": [
+      "A. Cây lúa",
+      "B. Con gà",
+      "C. Trùng giày",
+      "D. Cây thông"
+    ],
+    "answer": 2,
+    "explanation": "Trùng giày chỉ gồm một tế bào nên là cơ thể đơn bào.",
+    "bai": 22
+  },
+  {
+    "id": 429,
+    "question": "Sinh vật nào sau đây là cơ thể đa bào?",
+    "options": [
+      "A. Vi khuẩn",
+      "B. Tảo lục",
+      "C. Người",
+      "D. Trùng giày"
+    ],
+    "answer": 2,
+    "explanation": "Cơ thể người gồm rất nhiều tế bào nên là cơ thể đa bào.",
+    "bai": 22
+  },
+  {
+    "id": 430,
+    "question": "Đặc điểm của cơ thể đơn bào là gì?",
+    "options": [
+      "A. Gồm nhiều tế bào phân công nhiệm vụ",
+      "B. Chỉ gồm một tế bào thực hiện mọi hoạt động sống",
+      "C. Không có hoạt động sống",
+      "D. Luôn có kích thước lớn"
+    ],
+    "answer": 1,
+    "explanation": "Cơ thể đơn bào chỉ gồm một tế bào duy nhất, tế bào đó làm mọi việc.",
+    "bai": 22
+  },
+  {
+    "id": 431,
+    "question": "Trong cơ thể đa bào, các tế bào làm việc như thế nào?",
+    "options": [
+      "A. Mỗi tế bào làm mọi việc giống nhau",
+      "B. Mỗi loại tế bào làm một nhiệm vụ riêng và phối hợp với nhau",
+      "C. Chỉ một tế bào làm việc, các tế bào khác nghỉ",
+      "D. Các tế bào hoạt động độc lập, không liên quan"
+    ],
+    "answer": 1,
+    "explanation": "Các tế bào trong cơ thể đa bào phân công nhiệm vụ và phối hợp với nhau.",
+    "bai": 22
+  },
+  {
+    "id": 432,
+    "question": "Vì sao sinh vật đơn bào thường phải quan sát bằng kính hiển vi?",
+    "options": [
+      "A. Vì chúng rất nhỏ, mắt thường khó thấy",
+      "B. Vì chúng phát sáng",
+      "C. Vì chúng sống dưới nước sâu",
+      "D. Vì chúng di chuyển rất nhanh"
+    ],
+    "answer": 0,
+    "explanation": "Sinh vật đơn bào rất nhỏ nên cần kính hiển vi mới quan sát được.",
+    "bai": 22
+  },
+  {
+    "id": 433,
+    "question": "Nhóm nào sau đây toàn sinh vật đơn bào?",
+    "options": [
+      "A. Vi khuẩn, trùng giày",
+      "B. Người, cây lúa",
+      "C. Con gà, cây thông",
+      "D. Cây lúa, trùng giày"
+    ],
+    "answer": 0,
+    "explanation": "Vi khuẩn và trùng giày đều chỉ gồm một tế bào.",
+    "bai": 22
+  },
+  {
+    "id": 434,
+    "question": "Mọi cơ thể sinh vật đều cần làm gì để duy trì sự sống?",
+    "options": [
+      "A. Lấy chất từ môi trường và thải chất không cần thiết",
+      "B. Chỉ lấy chất mà không thải chất",
+      "C. Ngừng trao đổi chất khi lớn lên",
+      "D. Sống tách biệt khỏi môi trường"
+    ],
+    "answer": 0,
+    "explanation": "Mọi cơ thể đều lấy chất từ môi trường và thải chất không cần thiết ra ngoài.",
+    "bai": 22
+  },
+  {
+    "id": 435,
+    "question": "Thứ tự đúng các cấp độ tổ chức của cơ thể đa bào từ nhỏ đến lớn là gì?",
+    "options": [
+      "A. Cơ thể → hệ cơ quan → cơ quan → mô → tế bào",
+      "B. Tế bào → mô → cơ quan → hệ cơ quan → cơ thể",
+      "C. Mô → tế bào → cơ quan → cơ thể → hệ cơ quan",
+      "D. Tế bào → cơ quan → mô → hệ cơ quan → cơ thể"
+    ],
+    "answer": 1,
+    "explanation": "Thứ tự đúng là: tế bào → mô → cơ quan → hệ cơ quan → cơ thể.",
+    "bai": 23
+  },
+  {
+    "id": 436,
+    "question": "Mô là gì?",
+    "options": [
+      "A. Một cơ quan hoàn chỉnh",
+      "B. Tập hợp các tế bào giống nhau, cùng thực hiện một chức năng",
+      "C. Tập hợp nhiều cơ quan",
+      "D. Cả cơ thể sinh vật"
+    ],
+    "answer": 1,
+    "explanation": "Mô là tập hợp các tế bào giống nhau, cùng một chức năng.",
+    "bai": 23
+  },
+  {
+    "id": 437,
+    "question": "Dạ dày thuộc cấp độ tổ chức nào?",
+    "options": [
+      "A. Tế bào",
+      "B. Mô",
+      "C. Cơ quan",
+      "D. Hệ cơ quan"
+    ],
+    "answer": 2,
+    "explanation": "Dạ dày do nhiều mô hợp lại, cùng thực hiện chức năng tiêu hóa nên là cơ quan.",
+    "bai": 23
+  },
+  {
+    "id": 438,
+    "question": "Hệ tiêu hóa ở người gồm những cơ quan nào?",
+    "options": [
+      "A. Tim, mạch máu",
+      "B. Miệng, dạ dày, ruột",
+      "C. Thân, lá, hoa",
+      "D. Rễ, thân, lá"
+    ],
+    "answer": 1,
+    "explanation": "Hệ tiêu hóa gồm miệng, dạ dày, ruột… phối hợp để tiêu hóa thức ăn.",
+    "bai": 23
+  },
+  {
+    "id": 439,
+    "question": "Hệ chồi ở thực vật gồm những bộ phận nào?",
+    "options": [
+      "A. Chỉ có rễ",
+      "B. Thân, lá, hoa, quả",
+      "C. Chỉ có hoa và quả",
+      "D. Rễ và thân"
+    ],
+    "answer": 1,
+    "explanation": "Hệ chồi gồm thân, lá, hoa, quả; hệ còn lại là hệ rễ.",
+    "bai": 23
+  },
+  {
+    "id": 440,
+    "question": "Hệ rễ ở thực vật có vai trò gì?",
+    "options": [
+      "A. Quang hợp tạo chất dinh dưỡng",
+      "B. Hút nước và muối khoáng, giữ cây đứng vững",
+      "C. Tạo hoa và quả",
+      "D. Vận chuyển chất dinh dưỡng lên lá"
+    ],
+    "answer": 1,
+    "explanation": "Hệ rễ hút nước và muối khoáng, đồng thời giữ cây đứng vững.",
+    "bai": 23
+  },
+  {
+    "id": 441,
+    "question": "Sinh vật đơn bào có cấp độ mô, cơ quan không?",
+    "options": [
+      "A. Có đủ mọi cấp độ như đa bào",
+      "B. Không, vì một tế bào đã là cả cơ thể",
+      "C. Chỉ có cấp hệ cơ quan",
+      "D. Chỉ thiếu cấp cơ thể"
+    ],
+    "answer": 1,
+    "explanation": "Sinh vật đơn bào chỉ có một tế bào nên không có cấp mô, cơ quan.",
+    "bai": 23
+  },
+  {
+    "id": 442,
+    "question": "Cấp độ tổ chức cao nhất của cơ thể đa bào là gì?",
+    "options": [
+      "A. Tế bào",
+      "B. Mô",
+      "C. Hệ cơ quan",
+      "D. Cơ thể"
+    ],
+    "answer": 3,
+    "explanation": "Cơ thể là cấp độ cao nhất, nơi các hệ cơ quan phối hợp hoạt động thống nhất.",
+    "bai": 23
   }
 ]

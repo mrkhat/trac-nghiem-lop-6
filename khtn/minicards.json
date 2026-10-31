@@ -114,30 +114,30 @@
  {
   "b": 9,
   "t": "mn",
-  "f": "Mây trên trời được tạo thành nhờ hiện tượng gì?",
-  "a": "Hơi nước ngưng tụ trên cao.",
-  "fi": "../hinh-anh/khtn/fc-sua-may.webp"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "Viên đá tan thành nước gọi là sự gì?",
-  "a": "Sự nóng chảy — chuyển từ thể rắn sang thể lỏng.",
-  "fi": "../hinh-anh/khtn/bai9-da-tan.webp"
- },
- {
-  "b": 10,
-  "t": "mn",
   "f": "Đun đường đến cháy đen cho thấy tính chất gì của chất?",
   "a": "Tính chất hóa học — vì có chất mới được tạo thành.",
   "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
  },
  {
-  "b": 10,
+  "b": 9,
   "t": "mn",
   "f": "Biểu tượng trong hình có ý nghĩa gì?",
   "a": "Tái chế (Recycle) — một trong ba phần của mô hình 3R.",
   "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Mây trên trời được tạo thành nhờ hiện tượng gì?",
+  "a": "Hơi nước ngưng tụ trên cao.",
+  "fi": "../hinh-anh/khtn/fc-sua-may.webp"
+ },
+ {
+  "b": 10,
+  "t": "mn",
+  "f": "Viên đá tan thành nước gọi là sự gì?",
+  "a": "Sự nóng chảy — chuyển từ thể rắn sang thể lỏng.",
+  "fi": "../hinh-anh/khtn/bai9-da-tan.webp"
  },
  {
   "b": 11,
@@ -156,100 +156,100 @@
  {
   "b": 12,
   "t": "mn",
-  "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
-  "a": "Tế bào.",
-  "fi": "../hinh-anh/khtn/bai12-te-bao-hanh.webp"
+  "f": "Vật liệu nào dẫn điện, dẫn nhiệt tốt và thường dùng làm dây điện?",
+  "a": "Kim loại — ví dụ dây điện làm bằng đồng hoặc nhôm.",
+  "fi": ""
  },
  {
   "b": 12,
   "t": "mn",
-  "f": "Bộ phận nào là trung tâm điều khiển của tế bào?",
-  "a": "Nhân tế bào.",
-  "fi": "../hinh-anh/khtn/fc-te-bao-nhan-thuc.webp"
- },
- {
-  "b": 13,
-  "t": "mn",
-  "f": "Trọng lực luôn có chiều hướng về đâu?",
-  "a": "Hướng xuống dưới, về phía Trái Đất.",
-  "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
- },
- {
-  "b": 13,
-  "t": "mn",
-  "f": "Dụng cụ trong hình dùng để đo đại lượng nào?",
-  "a": "Đo lực — đó là lực kế, đơn vị niutơn (N).",
-  "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
+  "f": "Vì sao cần hạn chế đồ nhựa dùng một lần?",
+  "a": "Vì nhựa khó phân hủy, thải ra môi trường sẽ gây ô nhiễm.",
+  "fi": ""
  },
  {
   "a": "Quặng sắt → gang, thép; đá vôi → xi măng; cát → thủy tinh.",
-  "b": 14,
+  "b": 13,
   "f": "Kể tên 3 nguyên liệu và sản phẩm làm từ chúng?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpolygon%20points%3D%2224%2C76%2034%2C44%2054%2C32%2074%2C46%2080%2C76%22%20fill%3D%22%2390a4ae%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2244%2C76%2050%2C52%2062%2C76%22%20fill%3D%22%2378909c%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Nguyên liệu là thứ để làm ra sản phẩm, còn nhiên liệu là thứ đốt cháy để lấy nhiệt và năng lượng.",
-  "b": 14,
+  "b": 13,
   "f": "Nguyên liệu khác nhiên liệu ở điểm nào?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2830%2C10%29%20scale%280.9%29%22%3E%3Cpolygon%20points%3D%2224%2C76%2034%2C44%2054%2C32%2074%2C46%2080%2C76%22%20fill%3D%22%2390a4ae%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2244%2C76%2050%2C52%2062%2C76%22%20fill%3D%22%2378909c%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28180%2C15%29%20scale%280.7%29%22%3E%3Cpath%20d%3D%22M%2028%2C18%20L%2028%2C62%20Q%2028%2C82%2050%2C82%20Q%2072%2C82%2072%2C62%20L%2072%2C18%20L%2056%2C18%20L%2056%2C58%20Q%2056%2C66%2050%2C66%20Q%2044%2C66%2044%2C58%20L%2044%2C18%20Z%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2228%22%20y%3D%2218%22%20width%3D%2216%22%20height%3D%2212%22%20fill%3D%22%23ffffff%22%2F%3E%3Crect%20x%3D%2256%22%20y%3D%2218%22%20width%3D%2216%22%20height%3D%2212%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Thải khí làm ô nhiễm không khí và làm Trái Đất nóng lên.",
-  "b": 15,
+  "b": 14,
   "f": "Đốt nhiều nhiên liệu hóa thạch gây hại gì?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C10%20Q%2066%2C30%2070%2C48%20Q%2074%2C66%2062%2C80%20Q%2050%2C90%2038%2C80%20Q%2026%2C66%2030%2C48%20Q%2034%2C30%2050%2C10%20Z%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2050%2C40%20Q%2058%2C52%2058%2C62%20Q%2058%2C74%2050%2C78%20Q%2042%2C74%2042%2C62%20Q%2042%2C52%2050%2C40%20Z%22%20fill%3D%22%23ffca28%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Tắt bếp ngay khi nấu xong; đi xe đạp hoặc đi chung xe thay vì đi xe máy một mình.",
-  "b": 15,
+  "b": 14,
   "f": "Kể 2 cách tiết kiệm nhiên liệu ở nhà?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%285%2C10%29%20scale%280.85%29%22%3E%3Cpolygon%20points%3D%2224%2C76%2034%2C44%2054%2C32%2074%2C46%2080%2C76%22%20fill%3D%22%2390a4ae%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2244%2C76%2050%2C52%2062%2C76%22%20fill%3D%22%2378909c%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28105%2C10%29%20scale%280.85%29%22%3E%3Cpath%20d%3D%22M%2050%2C12%20Q%2074%2C44%2074%2C62%20A%2024%2C24%200%200%201%2026%2C62%20Q%2026%2C44%2050%2C12%20Z%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28205%2C10%29%20scale%280.85%29%22%3E%3Cpath%20d%3D%22M%2050%2C10%20Q%2066%2C30%2070%2C48%20Q%2074%2C66%2062%2C80%20Q%2050%2C90%2038%2C80%20Q%2026%2C66%2030%2C48%20Q%2034%2C30%2050%2C10%20Z%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2050%2C40%20Q%2058%2C52%2058%2C62%20Q%2058%2C74%2050%2C78%20Q%2042%2C74%2042%2C62%20Q%2042%2C52%2050%2C40%20Z%22%20fill%3D%22%23ffca28%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Chất bột đường, chất đạm, chất béo, vitamin và chất khoáng.",
-  "b": 16,
+  "b": 15,
   "f": "Kể 4 nhóm chất dinh dưỡng chính?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cg%20stroke%3D%22%23c9a227%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2234%22%20y1%3D%2290%22%20x2%3D%2230%22%20y2%3D%2240%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2290%22%20x2%3D%2250%22%20y2%3D%2232%22%2F%3E%3Cline%20x1%3D%2266%22%20y1%3D%2290%22%20x2%3D%2270%22%20y2%3D%2240%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23ffca28%22%3E%3Cellipse%20cx%3D%2230%22%20cy%3D%2234%22%20rx%3D%226%22%20ry%3D%2210%22%2F%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2226%22%20rx%3D%226%22%20ry%3D%2210%22%2F%3E%3Cellipse%20cx%3D%2270%22%20cy%3D%2234%22%20rx%3D%226%22%20ry%3D%2210%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Ăn đủ các nhóm chất, ăn nhiều rau quả, uống đủ nước, không ăn quá nhiều đồ ngọt và đồ chiên rán.",
-  "b": 16,
+  "b": 15,
   "f": "Ăn uống thế nào là đủ chất?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20100%2C60%20Q%20150%2C90%20200%2C60%20L%20190%2C92%20Q%20150%2C104%20110%2C92%20Z%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2390a4ae%22%20stroke-width%3D%222%22%2F%3E%3Cellipse%20cx%3D%22150%22%20cy%3D%2258%22%20rx%3D%2240%22%20ry%3D%2212%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Đồng nhất: trộn đều, không nhìn rõ từng chất (nước muối). Không đồng nhất: nhìn rõ từng chất (nước pha dầu).",
-  "b": 17,
+  "b": 16,
   "f": "Phân biệt hỗn hợp đồng nhất và không đồng nhất?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2230%22%20y%3D%2228%22%20width%3D%2240%22%20height%3D%2256%22%20rx%3D%226%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cg%20fill%3D%22%23ff9800%22%3E%3Ccircle%20cx%3D%2242%22%20cy%3D%2248%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2262%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%2248%22%20cy%3D%2272%22%20r%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Đường là chất tan, nước là dung môi.",
-  "b": 17,
+  "b": 16,
   "f": "Trong nước đường, chất tan và dung môi là gì?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2032%2C24%20L%2068%2C24%20L%2062%2C84%20L%2038%2C84%20Z%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2234%22%20y1%3D%2252%22%20x2%3D%2266%22%20y2%3D%2252%22%20stroke%3D%22%2342a5f5%22%20stroke-width%3D%223%22%2F%3E%3Cg%20fill%3D%22%2342a5f5%22%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2264%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2270%22%20r%3D%223%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Lọc qua giấy lọc: cát bị giữ lại, nước chảy qua.",
-  "b": 18,
+  "b": 17,
   "f": "Nước lẫn cát, tách bằng cách nào?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpolygon%20points%3D%2222%2C20%2078%2C20%2056%2C52%2056%2C76%2044%2C76%2044%2C52%22%20fill%3D%22%23bbdefb%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2286%22%20r%3D%224%22%20fill%3D%22%2342a5f5%22%2F%3E%3Ccircle%20cx%3D%2240%22%20cy%3D%2290%22%20r%3D%223%22%20fill%3D%22%2342a5f5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Cô cạn: đun nóng cho nước bay hơi, muối ở lại.",
-  "b": 18,
+  "b": 17,
   "f": "Nước muối, lấy muối bằng cách nào?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2024%2C44%20L%2076%2C44%20L%2070%2C82%20Q%2050%2C90%2030%2C82%20Z%22%20fill%3D%22%2378909c%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2036%2C36%20Q%2042%2C24%2050%2C36%20Q%2058%2C24%2064%2C36%22%20fill%3D%22none%22%20stroke%3D%22%2390caf9%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Đơn vị cấu tạo nên mọi sinh vật là gì?",
+  "a": "Tế bào.",
+  "fi": "../hinh-anh/khtn/bai12-te-bao-hanh.webp"
+ },
+ {
+  "b": 18,
+  "t": "mn",
+  "f": "Bộ phận nào là trung tâm điều khiển của tế bào?",
+  "a": "Nhân tế bào.",
+  "fi": "../hinh-anh/khtn/fc-te-bao-nhan-thuc.webp"
  },
  {
   "a": "Màng tế bào, chất tế bào và nhân tế bào.",
@@ -294,228 +294,270 @@
   "t": "mn"
  },
  {
-  "a": "Đơn bào: trùng giày, vi khuẩn. Đa bào: cây ngô, con người.",
   "b": 22,
+  "t": "mn",
+  "f": "Cơ thể đơn bào khác cơ thể đa bào ở điểm nào?",
+  "a": "Đơn bào chỉ có một tế bào làm mọi việc; đa bào có nhiều tế bào, mỗi loại làm một nhiệm vụ riêng.",
+  "fi": ""
+ },
+ {
+  "b": 22,
+  "t": "mn",
+  "f": "Kể 2 sinh vật đơn bào và 2 sinh vật đa bào.",
+  "a": "Đơn bào: vi khuẩn, trùng giày. Đa bào: người, cây lúa.",
+  "fi": ""
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Sắp xếp đúng thứ tự các cấp độ tổ chức: cơ quan – tế bào – cơ thể – mô – hệ cơ quan.",
+  "a": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể.",
+  "fi": ""
+ },
+ {
+  "b": 23,
+  "t": "mn",
+  "f": "Cơ thể thực vật có hai hệ cơ quan nào?",
+  "a": "Hệ chồi (thân, lá, hoa, quả) và hệ rễ.",
+  "fi": ""
+ },
+ {
+  "a": "Đơn bào: trùng giày, vi khuẩn. Đa bào: cây ngô, con người.",
+  "b": 24,
   "f": "Kể 2 sinh vật đơn bào và 2 sinh vật đa bào?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2230%22%20ry%3D%2238%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2222%22%20y1%3D%2234%22%20x2%3D%2212%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2252%22%20x2%3D%2210%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2222%22%20y1%3D%2270%22%20x2%3D%2212%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2234%22%20x2%3D%2288%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2252%22%20x2%3D%2290%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2270%22%20x2%3D%2288%22%20y2%3D%2276%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%229%22%20fill%3D%22%237e57c2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
   "a": "Không uống mẫu nước, rửa tay sạch sau khi làm xong.",
-  "b": 22,
+  "b": 24,
   "f": "An toàn khi quan sát mẫu nước ao?",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%285%2C10%29%20scale%280.9%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28105%2C10%29%20scale%280.9%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28205%2C10%29%20scale%280.9%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "t": "mn"
  },
  {
-  "b": 26,
+  "b": 25,
   "t": "mn",
   "f": "Thứ tự các bậc phân loại từ lớn đến nhỏ là gì?",
   "a": "Giới, ngành, lớp, bộ, họ, chi, loài.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%3E%3Crect%20x%3D%2240%22%20y%3D%2230%22%20width%3D%2270%22%20height%3D%2260%22%2F%3E%3Crect%20x%3D%22120%22%20y%3D%2230%22%20width%3D%2270%22%20height%3D%2260%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2230%22%20width%3D%2270%22%20height%3D%2260%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2275%22%20cy%3D%2260%22%20r%3D%2212%22%20fill%3D%22%23ef5350%22%2F%3E%3Crect%20x%3D%22140%22%20y%3D%2248%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22%2342a5f5%22%2F%3E%3Cpolygon%20points%3D%22235%2C48%20250%2C72%20220%2C72%22%20fill%3D%22%2366bb6a%22%2F%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 26,
+  "b": 25,
   "t": "mn",
   "f": "Tên khoa học viết như thế nào?",
   "a": "Bằng tiếng La-tinh, in nghiêng; tên chi viết hoa chữ cái đầu.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Crect%20x%3D%22110%22%20y%3D%2212%22%20width%3D%2280%22%20height%3D%2218%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%2295%22%20y%3D%2232%22%20width%3D%22110%22%20height%3D%2218%22%20fill%3D%22%23e0e0e0%22%2F%3E%3Crect%20x%3D%2280%22%20y%3D%2252%22%20width%3D%22140%22%20height%3D%2218%22%20fill%3D%22%23e0e0e0%22%2F%3E%3Crect%20x%3D%2265%22%20y%3D%2272%22%20width%3D%22170%22%20height%3D%2218%22%20fill%3D%22%23e0e0e0%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2292%22%20width%3D%22200%22%20height%3D%2218%22%20fill%3D%22%23e0e0e0%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 27,
+  "b": 26,
   "t": "mn",
   "f": "Muốn nhận biết một cây lạ ngoài vườn, em dùng công cụ gì?",
   "a": "Khóa lưỡng phân.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cline%20x1%3D%2240%22%20y1%3D%2260%22%20x2%3D%22130%22%20y2%3D%2260%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%2260%22%20x2%3D%22220%22%20y2%3D%2230%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%2260%22%20x2%3D%22220%22%20y2%3D%2290%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22220%2C30%20204%2C28%20210%2C42%22%20fill%3D%22%232e7d32%22%2F%3E%3Cpolygon%20points%3D%22220%2C90%20204%2C92%20210%2C78%22%20fill%3D%22%231565c0%22%2F%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 27,
+  "b": 26,
   "t": "mn",
   "f": "Khóa lưỡng phân giúp em việc gì?",
   "a": "Gọi tên sinh vật lạ bằng cách đối chiếu đặc điểm.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%2260%22%20r%3D%2226%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%22195%22%20cy%3D%2260%22%20r%3D%2226%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 28,
+  "b": 27,
   "t": "mn",
   "f": "Vi khuẩn có lợi hay chỉ toàn có hại?",
   "a": "Có cả lợi và hại: làm sữa chua, nhưng cũng gây bệnh.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2216%22%20y%3D%2238%22%20width%3D%2268%22%20height%3D%2224%22%20rx%3D%2212%22%20fill%3D%22%23ab47bc%22%20stroke%3D%22%236a1b9a%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2250%22%20r%3D%224%22%20fill%3D%22%23ffffff%22%2F%3E%3Ccircle%20cx%3D%2256%22%20cy%3D%2250%22%20r%3D%224%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 28,
+  "b": 27,
   "t": "mn",
   "f": "Nhìn bằng mắt thường có thấy vi khuẩn không?",
   "a": "Không, phải dùng kính hiển vi.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2810%2C20%29%20scale%280.8%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28110%2C20%29%20scale%280.8%29%22%3E%3Cline%20x1%3D%2214%22%20y1%3D%2250%22%20x2%3D%2276%22%20y2%3D%2250%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%226%22%2F%3E%3Cpolygon%20points%3D%2276%2C50%2058%2C34%2058%2C66%22%20fill%3D%22%23e65100%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28200%2C20%29%20scale%280.55%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28200%2C62%29%20scale%280.4%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2238%22%20ry%3D%2230%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2213%22%20fill%3D%22%237e57c2%22%20stroke%3D%22%234527a0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2234%22%20r%3D%225%22%20fill%3D%22%2366bb6a%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2266%22%20r%3D%225%22%20fill%3D%22%23ffa726%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 29,
+  "b": 28,
   "t": "mn",
   "f": "Men làm sữa chua thực chất là gì?",
   "a": "Vi khuẩn lactic sống.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2234%22%20y%3D%2236%22%20width%3D%2232%22%20height%3D%2238%22%20rx%3D%224%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2230%22%20y%3D%2228%22%20width%3D%2240%22%20height%3D%2210%22%20rx%3D%224%22%20fill%3D%22%23ffcc80%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2255%22%20r%3D%228%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%221.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 29,
+  "b": 28,
   "t": "mn",
   "f": "Ủ sữa chua quá nóng thì sao?",
   "a": "Vi khuẩn chết, sữa không chua được.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Crect%20x%3D%2244%22%20y%3D%2214%22%20width%3D%2212%22%20height%3D%2252%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2272%22%20r%3D%2214%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2248%22%20y%3D%2244%22%20width%3D%224%22%20height%3D%2224%22%20fill%3D%22%23ef5350%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 30,
+  "b": 29,
   "t": "mn",
   "f": "Vắc-xin có tác dụng gì?",
   "a": "Giúp cơ thể nhận biết và chống lại virus khi gặp thật.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2222%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%23c62828%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2228%22%20x2%3D%2250%22%20y2%3D%2214%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2272%22%20x2%3D%2250%22%20y2%3D%2286%22%2F%3E%3Cline%20x1%3D%2228%22%20y1%3D%2250%22%20x2%3D%2214%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2272%22%20y1%3D%2250%22%20x2%3D%2286%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2234%22%20y1%3D%2234%22%20x2%3D%2224%22%20y2%3D%2224%22%2F%3E%3Cline%20x1%3D%2266%22%20y1%3D%2266%22%20x2%3D%2276%22%20y2%3D%2276%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%229%22%20fill%3D%22%23ffcdd2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 30,
+  "b": 29,
   "t": "mn",
   "f": "Virus sống được ngoài tế bào chủ không?",
   "a": "Không, ngoài tế bào chủ virus không nhân lên được.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2222%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%23c62828%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2228%22%20x2%3D%2250%22%20y2%3D%2214%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2272%22%20x2%3D%2250%22%20y2%3D%2286%22%2F%3E%3Cline%20x1%3D%2228%22%20y1%3D%2250%22%20x2%3D%2214%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2272%22%20y1%3D%2250%22%20x2%3D%2286%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2234%22%20y1%3D%2234%22%20x2%3D%2224%22%20y2%3D%2224%22%2F%3E%3Cline%20x1%3D%2266%22%20y1%3D%2266%22%20x2%3D%2276%22%20y2%3D%2276%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%229%22%20fill%3D%22%23ffcdd2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 31,
+  "b": 30,
   "t": "mn",
   "f": "Kể tên 2 nguyên sinh vật.",
   "a": "Trùng giày và trùng roi (hoặc tảo đơn bào).",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2230%22%20ry%3D%2238%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2222%22%20y1%3D%2234%22%20x2%3D%2212%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2252%22%20x2%3D%2210%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2222%22%20y1%3D%2270%22%20x2%3D%2212%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2234%22%20x2%3D%2288%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2252%22%20x2%3D%2290%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2270%22%20x2%3D%2288%22%20y2%3D%2276%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%229%22%20fill%3D%22%237e57c2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 31,
+  "b": 30,
   "t": "mn",
   "f": "Nguyên sinh vật thường sống ở đâu?",
   "a": "Nước, đất ẩm và cơ thể sinh vật khác.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2230%22%20ry%3D%2238%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2222%22%20y1%3D%2234%22%20x2%3D%2212%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2252%22%20x2%3D%2210%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2222%22%20y1%3D%2270%22%20x2%3D%2212%22%20y2%3D%2276%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2234%22%20x2%3D%2288%22%20y2%3D%2228%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2252%22%20x2%3D%2290%22%20y2%3D%2252%22%2F%3E%3Cline%20x1%3D%2278%22%20y1%3D%2270%22%20x2%3D%2288%22%20y2%3D%2276%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%229%22%20fill%3D%22%237e57c2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 32,
+  "b": 31,
   "t": "mn",
   "f": "Vì sao phải dùng kính hiển vi mà không dùng kính lúp?",
   "a": "Vì nguyên sinh vật quá nhỏ, kính lúp không đủ độ phóng đại.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2266%22%20rx%3D%2236%22%20ry%3D%2212%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2030%2C62%20Q%2040%2C56%2050%2C62%20Q%2060%2C68%2070%2C62%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2268%22%20y%3D%2230%22%20width%3D%2216%22%20height%3D%2222%22%20rx%3D%223%22%20fill%3D%22%23e3f2fd%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 32,
+  "b": 31,
   "t": "mn",
   "f": "Vẽ mẫu quan sát để làm gì?",
   "a": "Ghi lại đặc điểm để đối chiếu và gọi tên sinh vật.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cline%20x1%3D%2230%22%20y1%3D%2288%22%20x2%3D%2270%22%20y2%3D%2288%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%225%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2288%22%20x2%3D%2250%22%20y2%3D%2266%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%225%22%2F%3E%3Crect%20x%3D%2238%22%20y%3D%2260%22%20width%3D%2224%22%20height%3D%226%22%20fill%3D%22%2378909c%22%2F%3E%3Cpath%20d%3D%22M%2050%2C66%20Q%2034%2C50%2040%2C28%20L%2052%2C28%20Q%2050%2C48%2058%2C60%20Z%22%20fill%3D%22%23eceff1%22%20stroke%3D%22%2337474f%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2236%22%20y%3D%2216%22%20width%3D%2220%22%20height%3D%2212%22%20fill%3D%22%2337474f%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 33,
+  "b": 32,
   "t": "mn",
   "f": "Nấm lấy thức ăn bằng cách nào?",
   "a": "Hoại sinh, kí sinh hoặc cộng sinh.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2014%2C52%20Q%2050%2C6%2086%2C52%20Z%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2242%22%20y%3D%2252%22%20width%3D%2216%22%20height%3D%2236%22%20fill%3D%22%23fff3e0%22%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2234%22%20cy%3D%2234%22%20r%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%3Ccircle%20cx%3D%2262%22%20cy%3D%2226%22%20r%3D%225%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 33,
+  "b": 32,
   "t": "mn",
   "f": "Nấm có ích gì trong tự nhiên?",
   "a": "Phân giải xác sinh vật thành chất dinh dưỡng cho đất.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20100%2C44%20Q%20150%2C10%20200%2C44%20Z%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%22120%22%20y1%3D%2244%22%20x2%3D%22120%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22140%22%20y1%3D%2244%22%20x2%3D%22140%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22160%22%20y1%3D%2244%22%20x2%3D%22160%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22180%22%20y1%3D%2244%22%20x2%3D%22180%22%20y2%3D%2258%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%22142%22%20y%3D%2258%22%20width%3D%2216%22%20height%3D%2236%22%20fill%3D%22%23fff3e0%22%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 34,
+  "b": 33,
   "t": "mn",
   "f": "Quan sát nấm mốc bằng dụng cụ gì?",
   "a": "Kính lúp hoặc kính hiển vi.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20100%2C44%20Q%20150%2C10%20200%2C44%20Z%22%20fill%3D%22%23ef5350%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%22120%22%20y1%3D%2244%22%20x2%3D%22120%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22140%22%20y1%3D%2244%22%20x2%3D%22140%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22160%22%20y1%3D%2244%22%20x2%3D%22160%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%22180%22%20y1%3D%2244%22%20x2%3D%22180%22%20y2%3D%2258%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%22142%22%20y%3D%2258%22%20width%3D%2216%22%20height%3D%2236%22%20fill%3D%22%23fff3e0%22%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 34,
+  "b": 33,
   "t": "mn",
   "f": "Quan sát nấm xong phải làm gì?",
   "a": "Không ăn thử, rửa tay sạch.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%23e0e0e0%22%20stroke-width%3D%222%22%3E%3Cpath%20d%3D%22M%2080%2C90%20Q%20110%2C50%20140%2C80%20Q%20170%2C40%20220%2C70%22%20fill%3D%22none%22%20stroke%3D%22%23bcaaa4%22%20stroke-width%3D%223%22%2F%3E%3Cpath%20d%3D%22M%20100%2C90%20Q%20120%2C60%20150%2C85%22%20fill%3D%22none%22%20stroke%3D%22%23bcaaa4%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%20160%2C90%20Q%20180%2C55%20210%2C80%22%20fill%3D%22none%22%20stroke%3D%22%23bcaaa4%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 35,
+  "b": 34,
   "t": "mn",
   "f": "Cơ quan của cây có hoa gồm những gì?",
   "a": "Rễ, thân, lá, hoa, quả, hạt.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2830%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C8%20Q%2088%2C30%2082%2C66%20Q%2076%2C92%2050%2C92%20Q%2024%2C92%2018%2C66%20Q%2012%2C30%2050%2C8%20Z%22%20fill%3D%22%2366bb6a%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2214%22%20x2%3D%2250%22%20y2%3D%2288%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28170%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2222%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%228%22%20x2%3D%2250%22%20y2%3D%2218%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2282%22%20x2%3D%2250%22%20y2%3D%2292%22%2F%3E%3Cline%20x1%3D%228%22%20y1%3D%2250%22%20x2%3D%2218%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2282%22%20y1%3D%2250%22%20x2%3D%2292%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2220%22%20x2%3D%2227%22%20y2%3D%2227%22%2F%3E%3Cline%20x1%3D%2273%22%20y1%3D%2273%22%20x2%3D%2280%22%20y2%3D%2280%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2220%22%20x2%3D%2273%22%20y2%3D%2227%22%2F%3E%3Cline%20x1%3D%2227%22%20y1%3D%2273%22%20x2%3D%2220%22%20y2%3D%2280%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 35,
+  "b": 34,
   "t": "mn",
   "f": "Vì sao cần bảo vệ rừng?",
   "a": "Vì rừng là nơi ở của sinh vật, giữ đất và tạo oxygen.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2810%2C10%29%20scale%280.9%29%22%3E%3Cpath%20d%3D%22M%2050%2C8%20Q%2088%2C30%2082%2C66%20Q%2076%2C92%2050%2C92%20Q%2024%2C92%2018%2C66%20Q%2012%2C30%2050%2C8%20Z%22%20fill%3D%22%2366bb6a%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2214%22%20x2%3D%2250%22%20y2%3D%2288%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28110%2C10%29%20scale%280.9%29%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2222%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%228%22%20x2%3D%2250%22%20y2%3D%2218%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2282%22%20x2%3D%2250%22%20y2%3D%2292%22%2F%3E%3Cline%20x1%3D%228%22%20y1%3D%2250%22%20x2%3D%2218%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2282%22%20y1%3D%2250%22%20x2%3D%2292%22%20y2%3D%2250%22%2F%3E%3Cline%20x1%3D%2220%22%20y1%3D%2220%22%20x2%3D%2227%22%20y2%3D%2227%22%2F%3E%3Cline%20x1%3D%2273%22%20y1%3D%2273%22%20x2%3D%2280%22%20y2%3D%2280%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2220%22%20x2%3D%2273%22%20y2%3D%2227%22%2F%3E%3Cline%20x1%3D%2227%22%20y1%3D%2273%22%20x2%3D%2220%22%20y2%3D%2280%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28215%2C15%29%20scale%280.8%29%22%3E%3Cpath%20d%3D%22M%2050%2C12%20Q%2074%2C44%2074%2C62%20A%2024%2C24%200%200%201%2026%2C62%20Q%2026%2C44%2050%2C12%20Z%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 36,
+  "b": 35,
   "t": "mn",
   "f": "Rêu thường sống ở đâu?",
   "a": "Nơi ẩm ướt như tường ẩm, gốc cây, bờ suối.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2228%22%20cy%3D%2278%22%20rx%3D%2220%22%20ry%3D%2210%22%20fill%3D%22%2366bb6a%22%2F%3E%3Cellipse%20cx%3D%2258%22%20cy%3D%2282%22%20rx%3D%2222%22%20ry%3D%229%22%20fill%3D%22%2343a047%22%2F%3E%3Cellipse%20cx%3D%2280%22%20cy%3D%2276%22%20rx%3D%2214%22%20ry%3D%228%22%20fill%3D%22%2366bb6a%22%2F%3E%3Cg%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2228%22%20y1%3D%2270%22%20x2%3D%2228%22%20y2%3D%2258%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2274%22%20x2%3D%2258%22%20y2%3D%2260%22%2F%3E%3Cline%20x1%3D%2280%22%20y1%3D%2268%22%20x2%3D%2280%22%20y2%3D%2258%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20stroke%3D%22%23c62828%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%22125%22%20y1%3D%2235%22%20x2%3D%22175%22%20y2%3D%2285%22%2F%3E%3Cline%20x1%3D%22175%22%20y1%3D%2235%22%20x2%3D%22125%22%20y2%3D%2285%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 36,
+  "b": 35,
   "t": "mn",
   "f": "Bào tử dương xỉ nằm ở đâu?",
   "a": "Ổ túi bào tử ở mặt dưới lá.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2292%22%20x2%3D%2250%22%20y2%3D%2212%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%223%22%2F%3E%3Cg%20stroke%3D%22%2343a047%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2250%22%20y1%3D%2226%22%20x2%3D%2230%22%20y2%3D%2216%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2226%22%20x2%3D%2270%22%20y2%3D%2216%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2242%22%20x2%3D%2228%22%20y2%3D%2232%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2242%22%20x2%3D%2272%22%20y2%3D%2232%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2258%22%20x2%3D%2230%22%20y2%3D%2248%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2258%22%20x2%3D%2270%22%20y2%3D%2248%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23ffca28%22%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2230%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%22180%22%20cy%3D%2230%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2270%22%20r%3D%224%22%2F%3E%3Ccircle%20cx%3D%22180%22%20cy%3D%2270%22%20r%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 37,
+  "b": 36,
   "t": "mn",
   "f": "Ếch thuộc lớp nào?",
   "a": "Lớp lưỡng cư.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2830%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2246%22%20cy%3D%2250%22%20rx%3D%2228%22%20ry%3D%2218%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2270%2C50%2090%2C34%2090%2C66%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2246%22%20r%3D%224%22%20fill%3D%22%23333%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28170%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2252%22%20rx%3D%2226%22%20ry%3D%2217%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2240%22%20r%3D%2211%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2280%2C40%2092%2C44%2080%2C48%22%20fill%3D%22%23ff9800%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2268%22%20x2%3D%2236%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2268%22%20x2%3D%2260%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 37,
+  "b": 36,
   "t": "mn",
   "f": "Động vật di chuyển để làm gì?",
   "a": "Tìm thức ăn, tránh kẻ thù, tìm nơi ở.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%285%2C15%29%20scale%280.8%29%22%3E%3Cpath%20d%3D%22M%2014%2C66%20Q%2032%2C30%2050%2C60%20Q%2068%2C90%2086%2C44%22%20fill%3D%22none%22%20stroke%3D%22%23f48fb1%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28105%2C15%29%20scale%280.8%29%22%3E%3Cpath%20d%3D%22M%2050%2C88%20Q%2018%2C88%2018%2C56%20Q%2018%2C22%2050%2C22%20Q%2078%2C22%2078%2C50%20Q%2078%2C70%2060%2C70%20Q%2046%2C70%2046%2C56%22%20fill%3D%22none%22%20stroke%3D%22%23ff9800%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2256%22%20r%3D%225%22%20fill%3D%22%23ff9800%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28205%2C15%29%20scale%280.8%29%22%3E%3Cellipse%20cx%3D%2250%22%20cy%3D%2250%22%20rx%3D%2214%22%20ry%3D%2222%22%20fill%3D%22%238d6e63%22%20stroke%3D%22%234e342e%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2222%22%20r%3D%2211%22%20fill%3D%22%238d6e63%22%20stroke%3D%22%234e342e%22%20stroke-width%3D%222%22%2F%3E%3Cg%20stroke%3D%22%234e342e%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%3E%3Cline%20x1%3D%2238%22%20y1%3D%2242%22%20x2%3D%2220%22%20y2%3D%2234%22%2F%3E%3Cline%20x1%3D%2238%22%20y1%3D%2256%22%20x2%3D%2218%22%20y2%3D%2256%22%2F%3E%3Cline%20x1%3D%2238%22%20y1%3D%2268%22%20x2%3D%2222%22%20y2%3D%2280%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2242%22%20x2%3D%2280%22%20y2%3D%2234%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2256%22%20x2%3D%2282%22%20y2%3D%2256%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2268%22%20x2%3D%2278%22%20y2%3D%2280%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 38,
+  "b": 37,
   "t": "mn",
   "f": "Vì sao không bắt động vật hoang dã về nhà?",
   "a": "Vì làm chúng sợ, có thể chết và phá vỡ cân bằng tự nhiên.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2252%22%20r%3D%2218%22%20fill%3D%22%2337474f%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2268%22%20cy%3D%2252%22%20r%3D%2218%22%20fill%3D%22%2337474f%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22%2F%3E%3Crect%20x%3D%2228%22%20y%3D%2244%22%20width%3D%2244%22%20height%3D%228%22%20fill%3D%22%2378909c%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2252%22%20r%3D%228%22%20fill%3D%22%23b3e5fc%22%2F%3E%3Ccircle%20cx%3D%2268%22%20cy%3D%2252%22%20r%3D%228%22%20fill%3D%22%23b3e5fc%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 38,
+  "b": 37,
   "t": "mn",
   "f": "Côn trùng có mấy chân?",
   "a": "6 chân, tức 3 đôi chân.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2830%2C10%29%20scale%281.0%29%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2252%22%20rx%3D%2226%22%20ry%3D%2217%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2240%22%20r%3D%2211%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2280%2C40%2092%2C44%2080%2C48%22%20fill%3D%22%23ff9800%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2268%22%20x2%3D%2236%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2268%22%20x2%3D%2260%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28170%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%208%2C52%20Q%2028%2C22%2050%2C48%20Q%2072%2C22%2092%2C52%20Q%2072%2C44%2050%2C62%20Q%2028%2C44%208%2C52%20Z%22%20fill%3D%22%2337474f%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2248%22%20r%3D%227%22%20fill%3D%22%2337474f%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 39,
+  "b": 38,
   "t": "mn",
   "f": "Việt Nam có đa dạng sinh học cao không?",
   "a": "Có, có nhiều loài đặc hữu như voọc Cát Bà, sao la.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%2815%2C32%29%20scale%280.55%29%22%3E%3Cpath%20d%3D%22M%2050%2C8%20Q%2088%2C30%2082%2C66%20Q%2076%2C92%2050%2C92%20Q%2024%2C92%2018%2C66%20Q%2012%2C30%2050%2C8%20Z%22%20fill%3D%22%2366bb6a%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2214%22%20x2%3D%2250%22%20y2%3D%2288%22%20stroke%3D%22%232e7d32%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2880%2C32%29%20scale%280.55%29%22%3E%3Cellipse%20cx%3D%2246%22%20cy%3D%2250%22%20rx%3D%2228%22%20ry%3D%2218%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2270%2C50%2090%2C34%2090%2C66%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2246%22%20r%3D%224%22%20fill%3D%22%23333%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28145%2C32%29%20scale%280.55%29%22%3E%3Cellipse%20cx%3D%2248%22%20cy%3D%2252%22%20rx%3D%2226%22%20ry%3D%2217%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2240%22%20r%3D%2211%22%20fill%3D%22%2342a5f5%22%20stroke%3D%22%231565c0%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2280%2C40%2092%2C44%2080%2C48%22%20fill%3D%22%23ff9800%22%2F%3E%3Cline%20x1%3D%2240%22%20y1%3D%2268%22%20x2%3D%2236%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%2256%22%20y1%3D%2268%22%20x2%3D%2260%22%20y2%3D%2284%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%223%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28210%2C32%29%20scale%280.55%29%22%3E%3Cg%20fill%3D%22%23f48fb1%22%20stroke%3D%22%23c62828%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2224%22%20r%3D%2212%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2276%22%20r%3D%2212%22%2F%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2250%22%20r%3D%2212%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2250%22%20r%3D%2212%22%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2211%22%20fill%3D%22%23ffca28%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 39,
+  "b": 38,
   "t": "mn",
   "f": "Phá rừng ảnh hưởng gì đến đa dạng sinh học?",
   "a": "Sinh vật mất nơi ở, nhiều loài suy giảm.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%22115%22%20y%3D%2272%22%20width%3D%2260%22%20height%3D%2230%22%20fill%3D%22%238d6e63%22%2F%3E%3Cellipse%20cx%3D%22145%22%20cy%3D%2272%22%20rx%3D%2230%22%20ry%3D%228%22%20fill%3D%22%23d7ccc8%22%20stroke%3D%22%238d6e63%22%20stroke-width%3D%222%22%2F%3E%3Cg%20transform%3D%22translate%28200%2C20%29%20scale%280.6%29%22%3E%3Cpath%20d%3D%22M%2050%2C10%20Q%2066%2C30%2070%2C48%20Q%2074%2C66%2062%2C80%20Q%2050%2C90%2038%2C80%20Q%2026%2C66%2030%2C48%20Q%2034%2C30%2050%2C10%20Z%22%20fill%3D%22%23ff9800%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M%2050%2C40%20Q%2058%2C52%2058%2C62%20Q%2058%2C74%2050%2C78%20Q%2042%2C74%2042%2C62%20Q%2042%2C52%2050%2C40%20Z%22%20fill%3D%22%23ffca28%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 40,
+  "b": 39,
   "t": "mn",
   "f": "Quan sát cần ghi chép gì?",
   "a": "Tên, nơi sống, đặc điểm, hành vi.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%3E%3Crect%20x%3D%2240%22%20y%3D%2280%22%20width%3D%2260%22%20height%3D%2222%22%20fill%3D%22%2342a5f5%22%2F%3E%3Crect%20x%3D%22120%22%20y%3D%2255%22%20width%3D%2260%22%20height%3D%2247%22%20fill%3D%22%2366bb6a%22%2F%3E%3Crect%20x%3D%22200%22%20y%3D%2230%22%20width%3D%2260%22%20height%3D%2272%22%20fill%3D%22%23ff9800%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
  },
  {
-  "b": 40,
+  "b": 39,
   "t": "mn",
   "f": "Đi tìm hiểu cần đi cùng ai?",
   "a": "Người lớn.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22translate%28100%2C10%29%20scale%281.0%29%22%3E%3Cpath%20d%3D%22M%2050%2C26%20Q%2032%2C16%2016%2C22%20L%2016%2C74%20Q%2032%2C68%2050%2C78%20Q%2068%2C68%2084%2C74%20L%2084%2C22%20Q%2068%2C16%2050%2C26%20Z%22%20fill%3D%22%23fff9c4%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3Cline%20x1%3D%2250%22%20y1%3D%2226%22%20x2%3D%2250%22%20y2%3D%2278%22%20stroke%3D%22%23e65100%22%20stroke-width%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 40,
+  "t": "mn",
+  "f": "Trọng lực luôn có chiều hướng về đâu?",
+  "a": "Hướng xuống dưới, về phía Trái Đất.",
+  "fi": "../hinh-anh/khtn/fc-bai13-qua-ta-roi.webp"
+ },
+ {
+  "b": 40,
+  "t": "mn",
+  "f": "Dụng cụ trong hình dùng để đo đại lượng nào?",
+  "a": "Đo lực — đó là lực kế, đơn vị niutơn (N).",
+  "fi": "../hinh-anh/khtn/bai13-luc-ke.webp"
  },
  {
   "b": 41,
