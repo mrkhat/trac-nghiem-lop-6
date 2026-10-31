@@ -158,20 +158,20 @@ document.getElementById('btnExam').onclick=()=>start('exam');
 document.getElementById('btnStudy').onclick=()=>start('study');
 document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
 
-const LESSON_NAMES = {1:'Bài 1. Lịch sử là gì? Vì sao cần học lịch sử?',2:'Bài 2. Cách tính thời gian trong lịch sử',3:'Bài 3. Nguồn gốc loài người',4:'Bài 4. Xã hội nguyên thủy',5:'Bài 5. Sự chuyển biến và phân hóa của xã hội nguyên thủy',6:'Bài 6. Ai Cập và Lưỡng Hà cổ đại',7:'Bài 7. Ấn Độ cổ đại',8:'Bài 8. Trung Quốc từ thời cổ đại đến thế kỉ VII',9:'Bài 9. Hy Lạp và La Mã cổ đại',10:'Bài 10. Đông Nam Á từ đầu Công nguyên đến thế kỉ X',11:'Bài 11. Vương quốc phong kiến Đông Nam Á (VII–X)',12:'Bài 12. Giao lưu văn hóa Đông Nam Á',13:'Bài 13. Văn Lang – Âu Lạc',14:'Bài 14. Chính sách cai trị phương Bắc và chuyển biến xã hội Âu Lạc',15:'Bài 15. Các cuộc khởi nghĩa giành độc lập trước thế kỉ X',16:'Bài 16. Đấu tranh bảo tồn văn hóa dân tộc',17:'Bài 17. Bước ngoặt đầu thế kỉ X (Bạch Đằng 938)',18:'Bài 18. Chăm-pa (II–X)',19:'Bài 19. Phù Nam'};
+const LESSON_NAMES = {1:'Bài 1. Lịch sử và cuộc sống',2:'Bài 2. Các nhà sử học dựa vào đâu để biết và phục hưng lại lịch sử',3:'Bài 3. Thời gian trong lịch sử',4:'Bài 4. Nguồn gốc loài người',5:'Bài 5. Xã hội nguyên thủy',6:'Bài 6. Sự biến chuyển và phân hóa của xã hội nguyên thủy',7:'Bài 7. Ai Cập và Lưỡng Hà cổ đại',8:'Bài 8. Ấn Độ cổ đại',9:'Bài 9. Trung Quốc từ thời cổ đại đến thế kỉ VII',10:'Bài 10. Hy Lạp và La Mã cổ đại',11:'Bài 11. Các quốc gia sơ kì ở Đông Nam Á',12:'Bài 12. Sự hình thành và bước đầu phát triển của các vương quốc phong kiến ở Đông Nam Á (từ thế kỉ VII đến thế kỉ X)',13:'Bài 13. Giao lưu văn hóa ở Đông Nam Á từ đầu Công nguyên đến thế kỉ X',14:'Bài 14. Nhà nước Văn Lang - Âu Lạc',15:'Bài 15. Chính sách cai trị của các triều đại phong kiến phương Bắc và sự chuyển biến của xã hội Âu Lạc',16:'Bài 16. Các cuộc khởi nghĩa tiêu biểu giành độc lập trước thế kỉ X',17:'Bài 17. Cuộc đấu tranh bảo tồn và phát triển văn hóa dân tộc của người Việt',18:'Bài 18. Bước ngoặt lịch sử đầu thế kỉ X',19:'Bài 19. Vương quốc Chăm-pa từ thế kỉ II đến thế kỉ X',20:'Bài 20. Vương quốc Phù Nam'};
 function lessonName(b){ if(LESSON_NAMES && LESSON_NAMES[b]) return LESSON_NAMES[b]; return 'Bài '+b; }
 function buildLessonSel(){
   const sel=document.getElementById('lessonSel'); if(!sel) return;
   const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
   const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
-  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var hk1=PERIODS.ck1.max;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1===null||k<=hk1;});var g2=keys.filter(function(k){return hk1!==null&&k>hk1;});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('lichsu_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('lichsu_quiz_lesson',sel.value);}catch(e){}});
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var ck1p=PERIODS.ck1;var hk1List=(ck1p&&Array.isArray(ck1p.list)&&ck1p.list.length)?ck1p.list.map(Number):null;var hk1=ck1p?ck1p.max:null;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1List?hk1List.indexOf(k)>=0:(hk1===null||k<=hk1);});var g2=keys.filter(function(k){return hk1List?hk1List.indexOf(k)<0:(hk1!==null&&k>hk1);});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('lichsu_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('lichsu_quiz_lesson',sel.value);}catch(e){}});
 }
 /* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (xem quiz-team/exam-periods.md) =====
    Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó; ck2 không giới hạn (tất cả).
    Kỳ được chọn sẽ ưu tiên hơn ô chọn bài ở trên. */
-const PERIODS={gk1:{label:'Giữa học kì 1',max:6},ck1:{label:'Cuối học kì 1',max:10},gk2:{label:'Giữa học kì 2',max:15},ck2:{label:'Cuối học kì 2',max:null}};
+const PERIODS={gk1:{label:'Giữa học kì 1',max:6},ck1:{label:'Cuối học kì 1',max:11},gk2:{label:'Giữa học kì 2',max:15},ck2:{label:'Cuối học kì 2',max:null}};
 /* Phân kỳ nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì giữ PERIODS hardcode cũ. */
-(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.lichsu&&d.mon.lichsu.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]&&(typeof ky[k].max==='number'||ky[k].max===null))PERIODS[k].max=ky[k].max;});}).catch(function(){});}catch(e){}})();
+(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.lichsu&&d.mon.lichsu.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]){if(typeof ky[k].max==='number'||ky[k].max===null)PERIODS[k].max=ky[k].max;if(Array.isArray(ky[k].bai)&&ky[k].bai.length)PERIODS[k].list=ky[k].bai.map(function(b){return b.bai;});}});try{buildLessonSel();}catch(e){}}).catch(function(){});}catch(e){}})();
 function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
 function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
 function showEmptyScope(){
@@ -186,8 +186,10 @@ function showEmptyScope(){
 function getPool(){
   const pk=periodKey();
   if(pk && PERIODS[pk]){
-    const mx=PERIODS[pk].max;
-    return mx===null ? [...allQ] : allQ.filter(q=>Number(q.bai)<=mx);
+    const P=PERIODS[pk];
+    if(P.max===null) return [...allQ];
+    if(Array.isArray(P.list) && P.list.length){ const s=new Set(P.list.map(Number)); return allQ.filter(q=>s.has(Number(q.bai))); }
+    return allQ.filter(q=>Number(q.bai)<=P.max);
   }
   const sel=document.getElementById('lessonSel');
   if(!sel || sel.value==='all') return [...allQ];
@@ -398,7 +400,7 @@ onluyenBoot({lsKey:'onluyen_lichsu', subject:'Lịch sử 6', buildFlashItems:bu
 
 <script>
 /* ===== TAB FLASHCARD: tong hop flashcard + the Nho nhanh cua ca mon, dung chung nguon cards-data.js voi trang hoc, loc theo bai dang chon o muc "Chon bai de luyen" ===== */
-const FC_BAI = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19];
+const FC_BAI = [1, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 2, 2, 2, 2, 2];
 let fcAll=null, fcQueue=[], fcPos=0, fcFlip=false, fcPool=[];
 const FC_MON='lichsu';
 let fcStoreObj=null;

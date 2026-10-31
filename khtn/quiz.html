@@ -158,20 +158,22 @@ document.getElementById('btnExam').onclick=()=>start('exam');
 document.getElementById('btnStudy').onclick=()=>start('study');
 document.getElementById('btnHome').onclick=()=>{document.getElementById('home').classList.remove('hidden');document.getElementById('quizArea').classList.add('hidden');};
 
-const LESSON_NAMES = {1:'Bài 1: Giới thiệu KHTN',2:'Bài 2: An toàn phòng thực hành',3:'Bài 3: Kính lúp',4:'Bài 4: Kính hiển vi',5:'Bài 5: Đo chiều dài',6:'Bài 6: Đo khối lượng',7:'Bài 7: Đo thời gian',8:'Bài 8: Đo nhiệt độ',9:'Bài 9: Các thể của chất',10:'Bài 10: Chất và vật liệu',11:'Bài 11: Oxygen và không khí',12:'Bài 12: Tế bào',13:'Bài 13: Lực và lực kế',14:'Bài 14: Nguyên liệu',15:'Bài 15: Nhiên liệu',16:'Bài 16: Lương thực, thực phẩm',17:'Bài 17: Hỗn hợp các chất',18:'Bài 18: Tách chất khỏi hỗn hợp',19:'Bài 19: Cấu tạo tế bào',20:'Bài 20: Lớn lên và sinh sản của tế bào',21:'Bài 21: TH: Quan sát tế bào',22:'Bài 22: TH: Đơn bào – Đa bào',26:'Bài 26: Phân loại sinh vật',27:'Bài 27: Khóa lưỡng phân',28:'Bài 28: Vi khuẩn',29:'Bài 29: TH: Sữa chua, vi khuẩn',30:'Bài 30: Virus',31:'Bài 31: Nguyên sinh vật',32:'Bài 32: TH: Nguyên sinh vật',33:'Bài 33: Nấm',34:'Bài 34: TH: Các loại nấm',35:'Bài 35: Thực vật',36:'Bài 36: TH: Các nhóm thực vật',37:'Bài 37: Động vật',38:'Bài 38: TH: Động vật ngoài thiên nhiên',39:'Bài 39: Đa dạng sinh học',40:'Bài 40: Tìm hiểu sinh vật ngoài thiên nhiên',41:'Bài 41: Biểu diễn lực',42:'Bài 42: Biến dạng lò xo',43:'Bài 43: Trọng lượng, lực hấp dẫn',44:'Bài 44: Lực ma sát',45:'Bài 45: Lực cản của nước',46:'Bài 46: Năng lượng',47:'Bài 47: Các dạng năng lượng',48:'Bài 48: Chuyển hóa năng lượng',49:'Bài 49: Năng lượng hao phí',50:'Bài 50: Năng lượng tái tạo',51:'Bài 51: Tiết kiệm năng lượng',52:'Bài 52: Mặt Trời, thiên thể',53:'Bài 53: Mặt Trăng',54:'Bài 54: Hệ Mặt Trời',55:'Bài 55: Ngân Hà'};
+const LESSON_NAMES = {1:'Bài 1: Giới thiệu KHTN',2:'Bài 2: An toàn phòng thực hành',3:'Bài 3: Kính lúp',4:'Bài 4: Kính hiển vi',5:'Bài 5: Đo chiều dài',6:'Bài 6: Đo khối lượng',7:'Bài 7: Đo thời gian',8:'Bài 8: Đo nhiệt độ',9:'Bài 9: Sự đa dạng của chất',10:'Bài 10: Các thể của chất',11:'Bài 11: Oxygen. Không khí',12:'Bài 12: Một số vật liệu',13:'Bài 13: Nguyên liệu',14:'Bài 14: Nhiên liệu',15:'Bài 15: Lương thực, thực phẩm',16:'Bài 16: Hỗn hợp các chất',17:'Bài 17: Tách chất khỏi hỗn hợp',18:'Bài 18: Tế bào',19:'Bài 19: Cấu tạo tế bào',20:'Bài 20: Lớn lên và sinh sản của tế bào',21:'Bài 21: TH: Quan sát tế bào',22:'Bài 22: Cơ thể sinh vật',23:'Bài 23: Tổ chức cơ thể đa bào',24:'Bài 24: TH: Đơn bào – Đa bào',25:'Bài 25: Phân loại sinh vật',26:'Bài 26: Khóa lưỡng phân',27:'Bài 27: Vi khuẩn',28:'Bài 28: TH: Sữa chua, hình thái vi khuẩn',29:'Bài 29: Virus',30:'Bài 30: Nguyên sinh vật',31:'Bài 31: TH: Nguyên sinh vật',32:'Bài 32: Nấm',33:'Bài 33: TH: Hình thái các loại nấm',34:'Bài 34: Thực vật',35:'Bài 35: TH: Các nhóm thực vật',36:'Bài 36: Động vật',37:'Bài 37: TH: Động vật ngoài thiên nhiên',38:'Bài 38: Đa dạng sinh học',39:'Bài 39: Tìm hiểu sinh vật ngoài thiên nhiên',40:'Bài 40: Lực là gì?',41:'Bài 41: Biểu diễn lực',42:'Bài 42: Biến dạng lò xo',43:'Bài 43: Trọng lượng, lực hấp dẫn',44:'Bài 44: Lực ma sát',45:'Bài 45: Lực cản của nước',46:'Bài 46: Năng lượng',47:'Bài 47: Các dạng năng lượng',48:'Bài 48: Chuyển hóa năng lượng',49:'Bài 49: Năng lượng hao phí',50:'Bài 50: Năng lượng tái tạo',51:'Bài 51: Tiết kiệm năng lượng',52:'Bài 52: Mặt Trời, thiên thể',53:'Bài 53: Mặt Trăng',54:'Bài 54: Hệ Mặt Trời',55:'Bài 55: Ngân Hà'};
 function lessonName(b){ if(LESSON_NAMES && LESSON_NAMES[b]) return LESSON_NAMES[b]; return 'Bài '+b; }
 function buildLessonSel(){
   const sel=document.getElementById('lessonSel'); if(!sel) return;
   const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
   const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
-  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var hk1=PERIODS.ck1.max;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1===null||k<=hk1;});var g2=keys.filter(function(k){return hk1!==null&&k>hk1;});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('khtn_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('khtn_quiz_lesson',sel.value);}catch(e){}});
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var ck1p=PERIODS.ck1;var hk1List=(ck1p&&Array.isArray(ck1p.list)&&ck1p.list.length)?ck1p.list.map(Number):null;var hk1=ck1p?ck1p.max:null;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1List?hk1List.indexOf(k)>=0:(hk1===null||k<=hk1);});var g2=keys.filter(function(k){return hk1List?hk1List.indexOf(k)<0:(hk1!==null&&k>hk1);});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('khtn_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('khtn_quiz_lesson',sel.value);}catch(e){}});
 }
 /* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (xem quiz-team/exam-periods.md) =====
-   Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó; ck2 không giới hạn (tất cả).
-   Kỳ được chọn sẽ ưu tiên hơn ô chọn bài ở trên. */
-const PERIODS={gk1:{label:'Giữa học kì 1',max:7},ck1:{label:'Cuối học kì 1',max:13},gk2:{label:'Giữa học kì 2',max:34},ck2:{label:'Cuối học kì 2',max:null}};
+   Quy tắc (sửa 2026-10-31, user chốt dồn trọng tâm HK1): mỗi kỳ = đúng danh sách bài trong
+   muc-luc.json khi có danh sách; không có danh sách thì lọc theo max; ck2 (max=null) = tất cả.
+   Kỳ được chọn sẽ ưu tiên hơn ô chọn bài ở trên. Nhờ vậy HK1 KHTN {1–11, 18, 40} không liên
+   tục vẫn ra đúng pool, không cần dời bài sang HK2 (phương án A/B cũ không còn cần nữa). */
+const PERIODS={gk1:{label:'Giữa học kì 1',max:7},ck1:{label:'Cuối học kì 1',max:40},gk2:{label:'Giữa học kì 2',max:40},ck2:{label:'Cuối học kì 2',max:null}};
 /* Phân kỳ nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì giữ PERIODS hardcode cũ. */
-(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.khtn&&d.mon.khtn.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]&&(typeof ky[k].max==='number'||ky[k].max===null))PERIODS[k].max=ky[k].max;});}).catch(function(){});}catch(e){}})();
+(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.khtn&&d.mon.khtn.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]){if(typeof ky[k].max==='number'||ky[k].max===null)PERIODS[k].max=ky[k].max;if(Array.isArray(ky[k].bai)&&ky[k].bai.length)PERIODS[k].list=ky[k].bai.map(function(b){return b.bai;});}});try{buildLessonSel();}catch(e){}}).catch(function(){});}catch(e){}})();
 function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
 function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
 function showEmptyScope(){
@@ -186,8 +188,10 @@ function showEmptyScope(){
 function getPool(){
   const pk=periodKey();
   if(pk && PERIODS[pk]){
-    const mx=PERIODS[pk].max;
-    return mx===null ? [...allQ] : allQ.filter(q=>Number(q.bai)<=mx);
+    const P=PERIODS[pk];
+    if(P.max===null) return [...allQ];
+    if(Array.isArray(P.list) && P.list.length){ const s=new Set(P.list.map(Number)); return allQ.filter(q=>s.has(Number(q.bai))); }
+    return allQ.filter(q=>Number(q.bai)<=P.max);
   }
   const sel=document.getElementById('lessonSel');
   if(!sel || sel.value==='all') return [...allQ];

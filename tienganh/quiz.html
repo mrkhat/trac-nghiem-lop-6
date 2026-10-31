@@ -167,14 +167,14 @@ function buildLessonSel(){
   const sel=document.getElementById('lessonSel'); if(!sel) return;
   const counts={}; allQ.forEach(q=>{counts[q.bai]=(counts[q.bai]||0)+1;});
   const keys=Object.keys(counts).map(Number).sort((a,b)=>a-b);
-  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var hk1=PERIODS.ck1.max;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1===null||k<=hk1;});var g2=keys.filter(function(k){return hk1!==null&&k>hk1;});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('tienganh_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('tienganh_quiz_lesson',sel.value);}catch(e){}});
+  sel.innerHTML='<option value="all">📚 Tất cả các bài ('+allQ.length+' câu)</option>'+(function(){var ck1p=PERIODS.ck1;var hk1List=(ck1p&&Array.isArray(ck1p.list)&&ck1p.list.length)?ck1p.list.map(Number):null;var hk1=ck1p?ck1p.max:null;function opt(k){return '<option value="'+k+'">'+lessonName(k)+' ('+counts[k]+' câu)</option>';}var g1=keys.filter(function(k){return hk1List?hk1List.indexOf(k)>=0:(hk1===null||k<=hk1);});var g2=keys.filter(function(k){return hk1List?hk1List.indexOf(k)<0:(hk1!==null&&k>hk1);});var s='';if(g1.length)s+='<optgroup label="Học kì 1">'+g1.map(opt).join('')+'</optgroup>';if(g2.length)s+='<optgroup label="Học kì 2">'+g2.map(opt).join('')+'</optgroup>';return s;})();try{var sv=localStorage.getItem('tienganh_quiz_lesson');if(sv){var has=false;for(var i2=0;i2<sel.options.length;i2++){if(sel.options[i2].value===sv)has=true;}if(has)sel.value=sv;}}catch(e){}sel.addEventListener('change',function(){try{localStorage.setItem('tienganh_quiz_lesson',sel.value);}catch(e){}});
 }
 /* ===== PHAM VI KY THI: Giữa HK1 / Cuối HK1 / Giữa HK2 / Cuối HK2 (xem quiz-team/exam-periods.md) =====
    Quy tắc: mỗi kỳ = mọi câu có số bài (bai) <= max của kỳ đó; ck2 không giới hạn (tất cả).
    Kỳ được chọn sẽ ưu tiên hơn ô chọn bài ở trên. */
 const PERIODS={gk1:{label:'Giữa học kì 1',max:3},ck1:{label:'Cuối học kì 1',max:6},gk2:{label:'Giữa học kì 2',max:9},ck2:{label:'Cuối học kì 2',max:null}};
 /* Phân kỳ nạp từ assets/muc-luc.json (nguồn duy nhất); nạp thất bại thì giữ PERIODS hardcode cũ. */
-(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.tienganh&&d.mon.tienganh.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]&&(typeof ky[k].max==='number'||ky[k].max===null))PERIODS[k].max=ky[k].max;});}).catch(function(){});}catch(e){}})();
+(function(){try{fetch('../assets/muc-luc.json').then(function(r){if(!r.ok)return;return r.json();}).then(function(d){var ky=d&&d.mon&&d.mon.tienganh&&d.mon.tienganh.ky;if(!ky)return;['gk1','ck1','gk2','ck2'].forEach(function(k){if(ky[k]){if(typeof ky[k].max==='number'||ky[k].max===null)PERIODS[k].max=ky[k].max;if(Array.isArray(ky[k].bai)&&ky[k].bai.length)PERIODS[k].list=ky[k].bai.map(function(b){return b.bai;});}});try{buildLessonSel();}catch(e){}}).catch(function(){});}catch(e){}})();
 function periodKey(){ const s=document.getElementById('periodSel'); return s?s.value:''; }
 function periodLabel(){ const k=periodKey(); return k&&PERIODS[k]?PERIODS[k].label:''; }
 function showEmptyScope(){
@@ -189,8 +189,10 @@ function showEmptyScope(){
 function getPool(){
   const pk=periodKey();
   if(pk && PERIODS[pk]){
-    const mx=PERIODS[pk].max;
-    return mx===null ? [...allQ] : allQ.filter(q=>Number(q.bai)<=mx);
+    const P=PERIODS[pk];
+    if(P.max===null) return [...allQ];
+    if(Array.isArray(P.list) && P.list.length){ const s=new Set(P.list.map(Number)); return allQ.filter(q=>s.has(Number(q.bai))); }
+    return allQ.filter(q=>Number(q.bai)<=P.max);
   }
   const sel=document.getElementById('lessonSel');
   if(!sel || sel.value==='all') return [...allQ];
