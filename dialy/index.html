@@ -81,6 +81,13 @@ figcaption .src{color:#546e7a;font-size:14px}
 .ls-rate{min-height:44px;padding:10px 12px;border-radius:10px;border:2px solid #00838f;background:#fff;color:#00695c;font-size:16px;font-weight:600;cursor:pointer;font-family:inherit}
 .ls-note{flex-basis:100%;font-size:14.5px;line-height:1.55;background:#fff8e1;border:1.5px dashed #ffb300;border-radius:8px;padding:9px 11px;color:#5d4037;margin:2px 0 0}
 .rb-on{background:#ffe27a;border-radius:4px;box-shadow:0 0 0 2px #ffe27a}
+.m3box{width:100%;height:340px;border-radius:12px;overflow:hidden;background:#0d1b2e}
+.m3info{background:#10243c;color:#e3f2fd;border-radius:10px;padding:12px;margin-top:8px;min-height:48px;font-size:17px}
+.m3btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.m3btns .tbtn{border-radius:999px;padding:10px 14px;cursor:pointer;font-size:16px;min-height:44px}
+.m3btns .tbtn.on{background:#1565c0;color:#fff;border-color:#1565c0}
+.m3wrap:fullscreen,.m3wrap:-webkit-full-screen,.m3wrap:-moz-full-screen{background:#0d1b2e;padding:12px;box-sizing:border-box;display:flex;flex-direction:column;gap:8px}
+.m3wrap:fullscreen .m3box,.m3wrap:-webkit-full-screen .m3box,.m3wrap:-moz-full-screen .m3box{flex:1;height:auto!important;min-height:0}
 
 
 </style>
@@ -113,7 +120,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Trên quả địa cầu có những đường kẻ dọc, kẻ ngang chằng chịt như tấm lưới. Nhờ tấm lưới đó, người ta ghi được “địa chỉ” chính xác của mọi nơi trên Trái Đất!</div><ul class="pts"><li><span class='hl2'>Kinh tuyến</span> là đường <b>dọc</b>, nối hai cực Bắc – Nam. <span class='hl2'>Vĩ tuyến</span> là đường <b>ngang</b> (đường tròn) song song với Xích đạo.</li><li><b>Kinh tuyến gốc</b> là kinh tuyến <span class='hl'>0°</span>, đi qua Đài thiên văn Gờ-rin-uýt ở Luân Đôn (Anh).</li><li><b>Vĩ tuyến gốc</b> là <span class='hl'>Xích đạo</span> (0°) — vĩ tuyến dài nhất, chia Trái Đất thành bán cầu Bắc và bán cầu Nam.</li><li><span class='hl2'>Kinh độ</span> của một điểm là khoảng cách góc từ điểm đó tới kinh tuyến gốc; <span class='hl2'>vĩ độ</span> là khoảng cách góc tới Xích đạo.</li><li><b>Tọa độ địa lí</b> của một điểm gồm <span class='hl'>kinh độ + vĩ độ</span> — giống như “số nhà” của điểm đó trên Trái Đất.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/kinh-do-vi-do.svg" alt="Sơ đồ kinh tuyến và vĩ tuyến: đường DỌC là kinh tuyến, đường NGANG là vĩ tuyến." loading="lazy"><figcaption>Sơ đồ kinh tuyến và vĩ tuyến: đường DỌC là kinh tuyến, đường NGANG là vĩ tuyến.<br><span class="src">Ảnh: Djexplo — CC0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/vi-tuyen.svg" alt="Các vĩ tuyến được tô màu: Xích đạo nằm giữa, phía trên là bán cầu Bắc, phía dưới" loading="lazy"><figcaption>Các vĩ tuyến được tô màu: Xích đạo nằm giữa, phía trên là bán cầu Bắc, phía dưới là bán cầu Nam.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure></div>
+  </div><div class="hook">✨ Trên quả địa cầu có những đường kẻ dọc, kẻ ngang chằng chịt như tấm lưới. Nhờ tấm lưới đó, người ta ghi được “địa chỉ” chính xác của mọi nơi trên Trái Đất!</div><ul class="pts"><li><span class='hl2'>Kinh tuyến</span> là đường <b>dọc</b>, nối hai cực Bắc – Nam. <span class='hl2'>Vĩ tuyến</span> là đường <b>ngang</b> (đường tròn) song song với Xích đạo.</li><li><b>Kinh tuyến gốc</b> là kinh tuyến <span class='hl'>0°</span>, đi qua Đài thiên văn Gờ-rin-uýt ở Luân Đôn (Anh).</li><li><b>Vĩ tuyến gốc</b> là <span class='hl'>Xích đạo</span> (0°) — vĩ tuyến dài nhất, chia Trái Đất thành bán cầu Bắc và bán cầu Nam.</li><li><span class='hl2'>Kinh độ</span> của một điểm là khoảng cách góc từ điểm đó tới kinh tuyến gốc; <span class='hl2'>vĩ độ</span> là khoảng cách góc tới Xích đạo.</li><li><b>Tọa độ địa lí</b> của một điểm gồm <span class='hl'>kinh độ + vĩ độ</span> — giống như “số nhà” của điểm đó trên Trái Đất.</li></ul><div class="gallery"><figure><div class="figh">🌐 Mô hình 3D — Quả địa cầu lưới kinh, vĩ tuyến</div><div class="m3wrap" id="m3wrap-bai1"><div class="m3box" id="m3box-bai1"></div><div class="m3fb" id="m3fb-bai1" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem sơ đồ kinh, vĩ tuyến bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai1" data-layer="equator">Xích đạo (0°)</button><button type="button" class="tbtn" data-m3="bai1" data-layer="prime">Kinh tuyến gốc (0°)</button><button type="button" class="tbtn" data-m3="bai1" data-layer="meridian">Kinh tuyến</button><button type="button" class="tbtn" data-m3="bai1" data-layer="parallel">Vĩ tuyến</button><button type="button" class="tbtn" data-m3rot="bai1" data-dir="-1">⟲ Xoay</button><button type="button" class="tbtn" data-m3rot="bai1" data-dir="1">Xoay ⟳</button><button type="button" class="tbtn" data-m3full="m3wrap-bai1">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai1">Kéo bằng chuột (hoặc bấm nút xoay) để xem quanh quả địa cầu. Tọa độ địa lí của một điểm gồm kinh độ + vĩ độ — giống như “số nhà” của điểm đó trên Trái Đất.</div></div><figcaption>Mô hình 3D: quả địa cầu với lưới kinh tuyến (dọc, nối hai cực) và vĩ tuyến (ngang, song song với Xích đạo). (Minh họa.)</figcaption></figure><figure><img src="../hinh-anh/dialy/kinh-do-vi-do.svg" alt="Sơ đồ kinh tuyến và vĩ tuyến: đường DỌC là kinh tuyến, đường NGANG là vĩ tuyến." loading="lazy"><figcaption>Sơ đồ kinh tuyến và vĩ tuyến: đường DỌC là kinh tuyến, đường NGANG là vĩ tuyến.<br><span class="src">Ảnh: Djexplo — CC0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/vi-tuyen.svg" alt="Các vĩ tuyến được tô màu: Xích đạo nằm giữa, phía trên là bán cầu Bắc, phía dưới" loading="lazy"><figcaption>Các vĩ tuyến được tô màu: Xích đạo nằm giữa, phía trên là bán cầu Bắc, phía dưới là bán cầu Nam.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/kinh-do-vi-do.svg" alt="Sơ đồ kinh tuyến và vĩ tuyến" loading="lazy"><div>Đường dọc nối hai cực Bắc – Nam là đường gì?</div></div><div class="mini-face mini-back">Kinh tuyến.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/vi-tuyen.svg" alt="Sơ đồ các vĩ tuyến" loading="lazy"><div>Vĩ tuyến gốc 0° tên là gì?</div></div><div class="mini-face mini-back">Xích đạo — vĩ tuyến dài nhất.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Kinh tuyến gốc = <b>0°</b> (Gờ-rin-uýt) • Xích đạo = vĩ tuyến gốc <b>0°</b> • Tọa độ địa lí = <b>kinh độ + vĩ độ</b>.</div><div class="meo">💡 <b>Mẹo nhớ:</b> <b>Kinh thì DỌC, Vĩ thì NGANG</b> — gốc kinh ở Luân Đôn, gốc vĩ là Xích đạo!</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#0277bd">Bài 1 — Hệ thống kinh, vĩ tuyến. Tọa độ địa lí</div><div class="mm-branch"><span class="mm-b" style="background:#0277bd22;border-color:#0277bd;color:#0277bd">Kinh tuyến</span><span class="mm-k">đường DỌC nối 2 cực • gốc 0° qua Gờ-rin-uýt</span></div><div class="mm-branch"><span class="mm-b" style="background:#0277bd22;border-color:#0277bd;color:#0277bd">Vĩ tuyến</span><span class="mm-k">đường NGANG song song Xích đạo • Xích đạo = 0°</span></div><div class="mm-branch"><span class="mm-b" style="background:#0277bd22;border-color:#0277bd;color:#0277bd">Bán cầu</span><span class="mm-k">Bắc/Nam chia theo XÍCH ĐẠO • Đông/Tây chia theo kinh tuyến 0°–180°</span></div><div class="mm-branch"><span class="mm-b" style="background:#0277bd22;border-color:#0277bd;color:#0277bd">Tọa độ địa lí</span><span class="mm-k">= KINH ĐỘ + VĨ ĐỘ của một điểm</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Kinh tuyến và vĩ tuyến khác nhau ở điểm nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Kinh tuyến là đường <b>dọc</b> nối hai cực; vĩ tuyến là đường <b>ngang</b> song song với Xích đạo.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Kinh tuyến gốc có số độ bao nhiêu, đi qua đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Kinh tuyến <b>0°</b>, đi qua Đài thiên văn <b>Gờ-rin-uýt</b> (Luân Đôn, Anh).</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn sơ đồ: đường ngang nằm giữa quả cầu, chia đôi Trái Đất, tên là gì? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Là <b>Xích đạo</b> — vĩ tuyến gốc 0°, vĩ tuyến dài nhất.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Tọa độ địa lí của một điểm gồm những thành phần nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Gồm <b>kinh độ</b> và <b>vĩ độ</b> của điểm đó.</div></div><div class="fcbox" data-cards="5,6,7,8,9"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#mb" data-goto="0">⬅ Bài trước: Bài mở đầu: Tại sao cần học Địa lí?</a> <a class="next" href="#bai2" data-goto="2">Học tiếp ➜ Bài 2: Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ</a></div><div class="btviet" id="btviet-dia-bai1"><h3>✍️ Viết ra suy nghĩ của em — Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Muốn chỉ rõ một địa điểm trên Trái Đất nằm ở đâu, vì sao người ta không chỉ nói tên nơi đó mà còn dùng kinh độ và vĩ độ?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Tên nơi có thể trùng nhau không? / Kinh độ đo từ đâu tới đâu? / Vĩ độ đo từ đâu tới đâu?</p><p><b>Ý chính cần có:</b> Tọa độ địa lí = kinh độ + vĩ độ; kinh độ là khoảng cách góc tới kinh tuyến gốc (0°, qua Gờ-rin-uýt); vĩ độ là khoảng cách góc tới Xích đạo (0°); Xích đạo chia Trái Đất thành bán cầu Bắc và bán cầu Nam.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Em hãy tưởng tượng bạn ở xa hỏi: 'Trường em nằm ở đâu trên Trái Đất?' Em sẽ trả lời bằng những gì đã học (kinh tuyến, vĩ tuyến, bán cầu)?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Trường em nằm ở bán cầu nào? / Em dùng đường nào để xác định vị trí? / Vì sao cần cả kinh độ lẫn vĩ độ?</p><p><b>Ý chính cần có:</b> Nhắc đến kinh độ + vĩ độ (tọa độ địa lí); nhắc đến Xích đạo chia hai bán cầu; nói rõ chỉ một trong hai thì chưa đủ xác định vị trí.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai1" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai1"><h3>Phiếu viết — Bài 1. Hệ thống kinh, vĩ tuyến. Tọa độ địa lí</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Muốn chỉ rõ một địa điểm trên Trái Đất nằm ở đâu, vì sao người ta không chỉ nói tên nơi đó mà còn dùng kinh độ và vĩ độ?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Em hãy tưởng tượng bạn ở xa hỏi: 'Trường em nằm ở đâu trên Trái Đất?' Em sẽ trả lời bằng những gì đã học (kinh tuyến, vĩ tuyến, bán cầu)?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai2" style="--c:#0277bd"><span class="badge gk">⭐ Ôn giữa kì 1</span><h2>Bài 2. Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ</h2>
@@ -278,7 +285,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Nếu bổ Trái Đất ra như bổ một quả trứng, bên trong sẽ có gì? Lòng trắng, lòng đỏ… hay những lớp đá nóng chảy đỏ rực? Cùng “mổ” Trái Đất bằng sơ đồ nhé!</div><ul class="pts"><li>Trái Đất gồm <b>3 lớp</b> như quả trứng: <span class='hl2'>vỏ Trái Đất</span> (mỏng như vỏ trứng), <span class='hl2'>lớp bao phủ / manti</span> (dày như lòng trắng), <span class='hl2'>nhân</span> ở trung tâm (như lòng đỏ).</li><li><b>Vỏ Trái Đất</b> mỏng nhất: dày từ khoảng <span class='hl'>5 km</span> (dưới đại dương) đến <span class='hl'>70 km</span> (dưới lục địa), là nơi con người sinh sống.</li><li><b>Nhân Trái Đất</b> rất nóng, nhiệt độ lên tới khoảng <span class='hl'>6 000°C</span> — nóng gần bằng bề mặt Mặt Trời!</li><li>Vỏ Trái Đất không liền một khối mà bị nứt thành nhiều <span class='hl2'>mảng kiến tạo</span> như những mảnh ghép khổng lồ.</li><li>Các mảng kiến tạo <b>trôi rất chậm</b> trên lớp manti (chỉ vài cm mỗi năm) — chậm như móng tay của em dài ra vậy!</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/cau-truc-trai-dat.svg" alt="Sơ đồ cắt ngang Trái Đất: lớp ngoài mỏng là VỎ, lớp dày giữa là MANTI (bao phủ)," loading="lazy"><figcaption>Sơ đồ cắt ngang Trái Đất: lớp ngoài mỏng là VỎ, lớp dày giữa là MANTI (bao phủ), trong cùng là NHÂN. Các số trên hình đánh dấu từng lớp.<br><span class="src">Ảnh: Original: USGS Vector:  Anasofiapaixao — Public domain. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/mang-kien-tao-2022.svg" alt="Bản đồ các mảng kiến tạo lớn trên Trái Đất — vỏ Trái Đất như một bức tranh ghép " loading="lazy"><figcaption>Bản đồ các mảng kiến tạo lớn trên Trái Đất — vỏ Trái Đất như một bức tranh ghép khổng lồ đang trôi rất chậm. Đọc tên các mảng ghi trên bản đồ (tiếng Anh → tiếng Việt): Pacific = Thái Bình Dương, Eurasian = Á–Âu, African = Phi, Indian = Ấn Độ, Australian = Ô-xtrây-lia, North American = Bắc Mĩ, South American = Nam Mĩ, Antarctic = Nam Cực, Nazca = Na-xca, Cocos = Cô-cốt, Caribbean = Ca-ri-bê, Arabian = A-rập, Philippine = Phi-líp-pin, Somali = Xô-ma-li, Scotia = Xcô-tia.<br><span class="src lic">Ảnh: M.Bitton — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
+  </div><div class="hook">✨ Nếu bổ Trái Đất ra như bổ một quả trứng, bên trong sẽ có gì? Lòng trắng, lòng đỏ… hay những lớp đá nóng chảy đỏ rực? Cùng “mổ” Trái Đất bằng sơ đồ nhé!</div><ul class="pts"><li>Trái Đất gồm <b>3 lớp</b> như quả trứng: <span class='hl2'>vỏ Trái Đất</span> (mỏng như vỏ trứng), <span class='hl2'>lớp bao phủ / manti</span> (dày như lòng trắng), <span class='hl2'>nhân</span> ở trung tâm (như lòng đỏ).</li><li><b>Vỏ Trái Đất</b> mỏng nhất: dày từ khoảng <span class='hl'>5 km</span> (dưới đại dương) đến <span class='hl'>70 km</span> (dưới lục địa), là nơi con người sinh sống.</li><li><b>Nhân Trái Đất</b> rất nóng, nhiệt độ lên tới khoảng <span class='hl'>6 000°C</span> — nóng gần bằng bề mặt Mặt Trời!</li><li>Vỏ Trái Đất không liền một khối mà bị nứt thành nhiều <span class='hl2'>mảng kiến tạo</span> như những mảnh ghép khổng lồ.</li><li>Các mảng kiến tạo <b>trôi rất chậm</b> trên lớp manti (chỉ vài cm mỗi năm) — chậm như móng tay của em dài ra vậy!</li></ul><div class="gallery"><figure><div class="figh">🌍 Mô hình 3D — Mổ Trái Đất xem 3 lớp</div><div class="m3wrap" id="m3wrap-bai10"><div class="m3box" id="m3box-bai10"></div><div class="m3fb" id="m3fb-bai10" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem hình cắt ngang bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai10" data-layer="vo">🟤 Vỏ Trái Đất</button><button type="button" class="tbtn" data-m3="bai10" data-layer="manti">🟠 Manti</button><button type="button" class="tbtn" data-m3="bai10" data-layer="nhan">🟡 Nhân</button><button type="button" class="tbtn" data-m3rot="bai10" data-dir="-1">⟲ Xoay</button><button type="button" class="tbtn" data-m3rot="bai10" data-dir="1">Xoay ⟳</button><button type="button" class="tbtn" data-m3full="m3wrap-bai10">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai10">Kéo bằng chuột (hoặc bấm nút xoay) để xem quanh quả đất. Bấm vào từng lớp để xem. Độ dày các lớp không theo tỉ lệ thật — vỏ thật quá mỏng nên vẽ dày lên mới nhìn thấy.</div></div><figcaption>Mô hình 3D: Trái Đất cắt vát một góc, nhìn thấy 3 lớp vỏ – manti – nhân như quả trứng bổ ra. (Minh họa, độ dày không theo tỉ lệ thật.)</figcaption></figure><figure><img src="../hinh-anh/dialy/cau-truc-trai-dat.svg" alt="Sơ đồ cắt ngang Trái Đất: lớp ngoài mỏng là VỎ, lớp dày giữa là MANTI (bao phủ)," loading="lazy"><figcaption>Sơ đồ cắt ngang Trái Đất: lớp ngoài mỏng là VỎ, lớp dày giữa là MANTI (bao phủ), trong cùng là NHÂN. Các số trên hình đánh dấu từng lớp.<br><span class="src">Ảnh: Original: USGS Vector:  Anasofiapaixao — Public domain. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/mang-kien-tao-2022.svg" alt="Bản đồ các mảng kiến tạo lớn trên Trái Đất — vỏ Trái Đất như một bức tranh ghép " loading="lazy"><figcaption>Bản đồ các mảng kiến tạo lớn trên Trái Đất — vỏ Trái Đất như một bức tranh ghép khổng lồ đang trôi rất chậm. Đọc tên các mảng ghi trên bản đồ (tiếng Anh → tiếng Việt): Pacific = Thái Bình Dương, Eurasian = Á–Âu, African = Phi, Indian = Ấn Độ, Australian = Ô-xtrây-lia, North American = Bắc Mĩ, South American = Nam Mĩ, Antarctic = Nam Cực, Nazca = Na-xca, Cocos = Cô-cốt, Caribbean = Ca-ri-bê, Arabian = A-rập, Philippine = Phi-líp-pin, Somali = Xô-ma-li, Scotia = Xcô-tia.<br><span class="src lic">Ảnh: M.Bitton — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/cau-truc-trai-dat.svg" alt="Sơ đồ cấu tạo Trái Đất" loading="lazy"><div>Trái Đất gồm mấy lớp chính?</div></div><div class="mini-face mini-back">3 lớp: vỏ, manti (bao phủ) và nhân.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/mang-kien-tao-2022.svg" alt="Bản đồ các mảng kiến tạo" loading="lazy"><div>Vỏ Trái Đất bị nứt vỡ thành những mảng lớn gọi là gì?</div></div><div class="mini-face mini-back">Các mảng kiến tạo — trôi rất chậm, vài cm mỗi năm.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Trái Đất có <b>3 lớp</b>: vỏ – manti (bao phủ) – nhân. Vỏ nứt thành các <b>mảng kiến tạo</b> trôi chậm vài cm/năm.</div><div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ như quả trứng: <b>vỏ trứng = vỏ Trái Đất, lòng trắng = manti, lòng đỏ = nhân</b>.</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#d84315">Bài 10 — Cấu tạo của Trái Đất. Các mảng kiến tạo</div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">3 lớp của Trái Đất</span><span class="mm-k">VỎ (mỏng) • MANTI/bao phủ (dày) • NHÂN (nóng nhất)</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Vỏ Trái Đất</span><span class="mm-k">5 km dưới biển → 70 km dưới lục địa • nơi ta sinh sống</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Nhân</span><span class="mm-k">nóng tới ≈ 6 000°C</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Mảng kiến tạo</span><span class="mm-k">vỏ nứt thành nhiều MẢNH GHÉP khổng lồ</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Chuyển động mảng</span><span class="mm-k">trôi CHẬM vài cm/năm → sinh núi, động đất, núi lửa</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Trái Đất gồm những lớp nào, từ ngoài vào trong? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Vỏ Trái Đất</b> → <b>lớp bao phủ (manti)</b> → <b>nhân</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Lớp nào của Trái Đất mỏng nhất? Dày khoảng bao nhiêu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Vỏ Trái Đất</b> — từ khoảng 5 km dưới đại dương đến 70 km dưới lục địa.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn bản đồ mảng kiến tạo: núi lửa và động đất thường tập trung ở đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Ở <b>ranh giới — nơi tiếp xúc giữa các mảng kiến tạo</b>, vì ở đó các mảng va chạm, trượt qua nhau mạnh nhất.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Các mảng kiến tạo chuyển động nhanh hay chậm? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Rất <b>chậm</b> — chỉ vài xăng-ti-mét mỗi năm.</div></div><div class="fcbox" data-cards="50,51,52,53,54"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai9" data-goto="9">⬅ Bài trước: Bài 9: Xác định phương hướng ngoài thực tế</a> <a class="next" href="#bai11" data-goto="11">Học tiếp ➜ Bài 11: Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</a></div><div class="btviet" id="btviet-dia-bai10"><h3>✍️ Viết ra suy nghĩ của em — Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao các nhà khoa học ví Trái Đất như quả trứng?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Trái Đất có mấy lớp? / Lớp nào mỏng nhất, giống vỏ trứng? / Lớp nào dày, giống lòng trắng? / Ở giữa là gì?</p><p><b>Ý chính cần có:</b> Trái Đất có 3 lớp: vỏ (mỏng như vỏ trứng, dày 5 km dưới đại dương đến 70 km dưới lục địa), manti/lớp bao phủ (dày như lòng trắng), nhân ở trung tâm (rất nóng, khoảng 6 000°C).</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Các mảng kiến tạo trôi vài xăng-ti-mét mỗi năm. Theo em, sau hàng triệu năm, vị trí các lục địa có thay đổi không? Vì sao?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Mỗi năm trôi vài cm thì triệu năm trôi được bao xa? / Chậm có nghĩa là không đổi không? / Vỏ Trái Đất liền một khối hay nứt thành mảng?</p><p><b>Ý chính cần có:</b> Vỏ Trái Đất nứt thành nhiều mảng kiến tạo; mỗi năm trôi vài cm, tích lũy hàng triệu năm thành hàng nghìn km; nên vị trí lục địa thay đổi rất nhiều theo thời gian.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai10" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai10"><h3>Phiếu viết — Bài 10. Cấu tạo của Trái Đất. Các mảng kiến tạo</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao các nhà khoa học ví Trái Đất như quả trứng?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Các mảng kiến tạo trôi vài xăng-ti-mét mỗi năm. Theo em, sau hàng triệu năm, vị trí các lục địa có thay đổi không? Vì sao?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai11" style="--c:#d84315"><span class="badge gk">⭐ Ôn giữa kì 1</span><h2>Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</h2>
@@ -286,7 +293,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Ai đã “xây” nên những dãy núi cao sừng sững? Và ai hằng ngày “gọt” chúng thấp dần đi? Đó là hai “đội thợ” ngược nhau: một đội đẩy từ trong lòng đất, một đội bào mòn từ bên ngoài!</div><ul class="pts"><li><span class='hl2'>Quá trình nội sinh</span> là các quá trình xảy ra <b>bên trong</b> lòng Trái Đất (do năng lượng trong lòng đất) → làm bề mặt <span class='hl'>nâng lên, uốn nếp, đứt gãy</span> — tạo núi, động đất, núi lửa.</li><li><span class='hl2'>Quá trình ngoại sinh</span> xảy ra <b>bên trên bề mặt</b> Trái Đất (do nắng, gió, nước, băng…) → <span class='hl'>bào mòn, hạ thấp</span> bề mặt, bồi đắp nơi trũng.</li><li>Hai quá trình này <b>ngược nhau</b> nhưng xảy ra <b>cùng lúc</b>: nội sinh “xây” lên, ngoại sinh “gọt” xuống.</li><li><b>Hiện tượng tạo núi:</b> khi hai mảng kiến tạo <b>xô vào nhau</b>, đất đá bị nén, uốn nếp và đẩy cao lên thành dãy núi (như dãy Hi-ma-lay-a — “nóc nhà thế giới”).</li><li>Ví dụ ngoại sinh gần gũi: dòng sông chảy xiết <b>bào mòn</b> hai bờ, gió thổi <b>mài mòn</b> đá sa mạc thành những đụn cát.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/tang-da-uon-nep.jpg" alt="Các lớp đá bị UỐN CONG như sóng — dấu vết của lực nội sinh nén ép đất đá từ hai " loading="lazy"><figcaption>Các lớp đá bị UỐN CONG như sóng — dấu vết của lực nội sinh nén ép đất đá từ hai phía.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/hiem-nui-grand-canyon.jpg" alt="Hẻm núi Grand Canyon (Mĩ): dòng sông Colorado chảy qua hàng triệu năm đã BÀO MÒN" loading="lazy"><figcaption>Hẻm núi Grand Canyon (Mĩ): dòng sông Colorado chảy qua hàng triệu năm đã BÀO MÒN đá, khoét thành vực sâu khổng lồ — công việc của ngoại sinh.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/con-cat-namib.jpg" alt="Những đụn cát ở sa mạc Namib do GIÓ (ngoại sinh) thổi dồn và mài mòn tạo thành." loading="lazy"><figcaption>Những đụn cát ở sa mạc Namib do GIÓ (ngoại sinh) thổi dồn và mài mòn tạo thành.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
+  </div><div class="hook">✨ Ai đã “xây” nên những dãy núi cao sừng sững? Và ai hằng ngày “gọt” chúng thấp dần đi? Đó là hai “đội thợ” ngược nhau: một đội đẩy từ trong lòng đất, một đội bào mòn từ bên ngoài!</div><ul class="pts"><li><span class='hl2'>Quá trình nội sinh</span> là các quá trình xảy ra <b>bên trong</b> lòng Trái Đất (do năng lượng trong lòng đất) → làm bề mặt <span class='hl'>nâng lên, uốn nếp, đứt gãy</span> — tạo núi, động đất, núi lửa.</li><li><span class='hl2'>Quá trình ngoại sinh</span> xảy ra <b>bên trên bề mặt</b> Trái Đất (do nắng, gió, nước, băng…) → <span class='hl'>bào mòn, hạ thấp</span> bề mặt, bồi đắp nơi trũng.</li><li>Hai quá trình này <b>ngược nhau</b> nhưng xảy ra <b>cùng lúc</b>: nội sinh “xây” lên, ngoại sinh “gọt” xuống.</li><li><b>Hiện tượng tạo núi:</b> khi hai mảng kiến tạo <b>xô vào nhau</b>, đất đá bị nén, uốn nếp và đẩy cao lên thành dãy núi (như dãy Hi-ma-lay-a — “nóc nhà thế giới”).</li><li>Ví dụ ngoại sinh gần gũi: dòng sông chảy xiết <b>bào mòn</b> hai bờ, gió thổi <b>mài mòn</b> đá sa mạc thành những đụn cát.</li></ul><div class="gallery"><figure><div class="figh">⛰️ Mô hình 3D — Hai mảng xô nhau tạo núi</div><div class="m3wrap" id="m3wrap-bai11"><div class="m3box" id="m3box-bai11"></div><div class="m3fb" id="m3fb-bai11" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem ảnh lớp đá uốn nếp bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai11" data-step="0">1. Hai mảng</button><button type="button" class="tbtn" data-m3="bai11" data-step="1">2. Xô vào nhau</button><button type="button" class="tbtn" data-m3="bai11" data-step="2">3. Nén, uốn nếp</button><button type="button" class="tbtn" data-m3="bai11" data-step="3">4. Đẩy cao thành núi</button><button type="button" class="tbtn" data-m3play="bai11">▶ Chạy toàn bộ</button><button type="button" class="tbtn" data-m3full="m3wrap-bai11">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai11">Bấm từng bước để xem núi hình thành. Nội sinh “xây” lên, ngoại sinh “gọt” xuống — hai quá trình ngược nhau nhưng xảy ra cùng lúc.</div></div><figcaption>Mô hình 3D: hai mảng kiến tạo xô vào nhau, đất đá bị nén, uốn nếp rồi đẩy cao lên thành dãy núi. (Minh họa, không theo tỉ lệ thật.)</figcaption></figure><figure><img src="../hinh-anh/dialy/tang-da-uon-nep.jpg" alt="Các lớp đá bị UỐN CONG như sóng — dấu vết của lực nội sinh nén ép đất đá từ hai " loading="lazy"><figcaption>Các lớp đá bị UỐN CONG như sóng — dấu vết của lực nội sinh nén ép đất đá từ hai phía.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/hiem-nui-grand-canyon.jpg" alt="Hẻm núi Grand Canyon (Mĩ): dòng sông Colorado chảy qua hàng triệu năm đã BÀO MÒN" loading="lazy"><figcaption>Hẻm núi Grand Canyon (Mĩ): dòng sông Colorado chảy qua hàng triệu năm đã BÀO MÒN đá, khoét thành vực sâu khổng lồ — công việc của ngoại sinh.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/con-cat-namib.jpg" alt="Những đụn cát ở sa mạc Namib do GIÓ (ngoại sinh) thổi dồn và mài mòn tạo thành." loading="lazy"><figcaption>Những đụn cát ở sa mạc Namib do GIÓ (ngoại sinh) thổi dồn và mài mòn tạo thành.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/tang-da-uon-nep.jpg" alt="Tầng đá bị uốn nếp" loading="lazy"><div>Tầng đá bị uốn cong như sóng do lực từ đâu?</div></div><div class="mini-face mini-back">Lực nội sinh — từ bên trong Trái Đất đẩy lên.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/hiem-nui-grand-canyon.jpg" alt="Hẻm núi Grand Canyon" loading="lazy"><div>Hẻm núi bị nước khoét sâu dần là quá trình nào?</div></div><div class="mini-face mini-back">Ngoại sinh — lực bên ngoài bào mòn, hạ thấp địa hình.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Nội sinh = lực từ <b>bên trong</b> → nâng lên, tạo núi. Ngoại sinh = lực từ <b>bên ngoài</b> (nắng, gió, nước) → bào mòn, hạ thấp. Hai quá trình <b>đối nghịch</b> nhau.</div><div class="meo">💡 <b>Mẹo nhớ:</b> <b>Nội là trong (đẩy lên), Ngoại là ngoài (gọt xuống)</b> — hai đội thợ ngược nhau!</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#d84315">Bài 11 — Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Nội sinh</span><span class="mm-k">từ BÊN TRONG lòng đất → NÂNG LÊN • uốn nếp • tạo núi</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Ngoại sinh</span><span class="mm-k">từ BÊN NGOÀI (nắng, gió, nước) → BÀO MÒN • hạ thấp • bồi đắp</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Quan hệ</span><span class="mm-k">ĐỐI NGHỊCH nhưng xảy ra CÙNG LÚC</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Hiện tượng tạo núi</span><span class="mm-k">2 mảng XÔ VÀO NHAU → đất đá bị nén, đẩy CAO lên</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Ví dụ</span><span class="mm-k">nội sinh: dãy Hi-ma-lay-a • ngoại sinh: sông bào mòn, gió tạo đụn cát</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Nội sinh và ngoại sinh khác nhau ở nguồn lực từ đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Nội sinh: lực từ <b>bên trong</b> lòng Trái Đất. Ngoại sinh: lực từ <b>bên ngoài</b> bề mặt (nắng, gió, nước, băng…).</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Núi được tạo thành như thế nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Khi hai mảng kiến tạo <b>xô vào nhau</b>, đất đá bị nén ép, uốn nếp và <b>đẩy cao lên</b> thành núi.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn ảnh các lớp đá uốn cong: đây là dấu vết của quá trình nội sinh hay ngoại sinh? Vì sao? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Nội sinh</b> — vì chỉ lực nén ép từ trong lòng đất mới uốn cong được các lớp đá cứng.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Hẻm Grand Canyon do sông khoét sâu là công của quá trình nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Quá trình <b>ngoại sinh</b> (nước sông bào mòn đá qua hàng triệu năm).</div></div><div class="fcbox" data-cards="55,56,57,58,59"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai10" data-goto="10">⬅ Bài trước: Bài 10: Cấu tạo của Trái Đất. Các mảng kiến tạo</a> <a class="next" href="#bai12" data-goto="12">Học tiếp ➜ Bài 12: Núi lửa và động đất</a></div><div class="btviet" id="btviet-dia-bai11"><h3>✍️ Viết ra suy nghĩ của em — Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao nội sinh và ngoại sinh được gọi là hai quá trình đối nghịch nhau nhưng vẫn xảy ra cùng lúc?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Nội sinh xảy ra ở đâu, làm gì? / Ngoại sinh xảy ra ở đâu, làm gì? / 'Xây lên' và 'gọt xuống' có ngược nhau không?</p><p><b>Ý chính cần có:</b> Nội sinh = lực từ bên trong lòng đất, làm bề mặt nâng lên, uốn nếp; ngoại sinh = lực từ bên ngoài (nắng, gió, nước, băng), bào mòn, hạ thấp; hai quá trình ngược nhau nhưng xảy ra cùng lúc.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Dãy Hi-ma-lay-a hình thành thế nào? Em hãy viết lại quá trình đó.</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Khi hai mảng kiến tạo xô vào nhau thì đất đá bị gì? / Đất đá bị nén, uốn nếp rồi sao? / Đây là quá trình nội sinh hay ngoại sinh?</p><p><b>Ý chính cần có:</b> Hai mảng kiến tạo xô vào nhau; đất đá bị nén, uốn nếp và đẩy cao lên thành dãy núi; đó là hiện tượng tạo núi do nội sinh.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai11" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai11"><h3>Phiếu viết — Bài 11. Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao nội sinh và ngoại sinh được gọi là hai quá trình đối nghịch nhau nhưng vẫn xảy ra cùng lúc?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Dãy Hi-ma-lay-a hình thành thế nào? Em hãy viết lại quá trình đó.</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai12" style="--c:#d84315"><span class="badge gk">⭐ Ôn giữa kì 1</span><h2>Bài 12. Núi lửa và động đất</h2>
@@ -294,7 +301,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Có những ngọn núi biết… phun lửa! Và có lúc mặt đất bỗng rung lắc dữ dội làm nhà cửa đổ sập. Đó là núi lửa và động đất — hai “cơn giận” đáng sợ nhất của Trái Đất.</div><ul class="pts"><li><span class='hl2'>Núi lửa</span> là hiện tượng <b>macma</b> (đá nóng chảy trong lòng đất) phun trào lên bề mặt qua khe nứt của vỏ Trái Đất; macma khi phun ra ngoài gọi là <span class='hl'>dung nham</span>.</li><li>Núi lửa có 2 loại: <b>đang hoạt động</b> và <b>đã tắt</b>. Vùng ven Thái Bình Dương có rất nhiều núi lửa — gọi là <span class='hl'>“Vành đai lửa Thái Bình Dương”</span>.</li><li><span class='hl2'>Động đất</span> là hiện tượng mặt đất <b>rung lắc</b> do các mảng kiến tạo va chạm, trượt qua nhau, làm nứt vỡ vỏ Trái Đất.</li><li>Hậu quả: núi lửa và động đất gây <b>thiệt hại lớn</b> về người và tài sản, có thể gây <b>sóng thần</b> nếu xảy ra dưới biển.</li><li>Mặt tốt ít ai ngờ: tro núi lửa lâu ngày thành <b>đất đỏ bazan màu mỡ</b> (như ở Tây Nguyên nước ta) rất tốt cho cây trồng.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/so-do-nui-lua.svg" alt="Sơ đồ mặt cắt một núi lửa: macma từ lò macma ở sâu dâng lên, phun ra miệng núi t" loading="lazy"><figcaption>Sơ đồ mặt cắt một núi lửa: macma từ lò macma ở sâu dâng lên, phun ra miệng núi thành dung nham, tro bụi.<br><span class="src lic">Ảnh: MesserWoland — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/dong-dat-fukui-1948.jpg" alt="Một tòa nhà bị đổ sập sau trận động đất ở Fukui (Nhật Bản, 1948) — cho thấy sức " loading="lazy"><figcaption>Một tòa nhà bị đổ sập sau trận động đất ở Fukui (Nhật Bản, 1948) — cho thấy sức tàn phá của động đất.<br><span class="src">Ảnh: Bert Cohen — Public domain. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
+  </div><div class="hook">✨ Có những ngọn núi biết… phun lửa! Và có lúc mặt đất bỗng rung lắc dữ dội làm nhà cửa đổ sập. Đó là núi lửa và động đất — hai “cơn giận” đáng sợ nhất của Trái Đất.</div><ul class="pts"><li><span class='hl2'>Núi lửa</span> là hiện tượng <b>macma</b> (đá nóng chảy trong lòng đất) phun trào lên bề mặt qua khe nứt của vỏ Trái Đất; macma khi phun ra ngoài gọi là <span class='hl'>dung nham</span>.</li><li>Núi lửa có 2 loại: <b>đang hoạt động</b> và <b>đã tắt</b>. Vùng ven Thái Bình Dương có rất nhiều núi lửa — gọi là <span class='hl'>“Vành đai lửa Thái Bình Dương”</span>.</li><li><span class='hl2'>Động đất</span> là hiện tượng mặt đất <b>rung lắc</b> do các mảng kiến tạo va chạm, trượt qua nhau, làm nứt vỡ vỏ Trái Đất.</li><li>Hậu quả: núi lửa và động đất gây <b>thiệt hại lớn</b> về người và tài sản, có thể gây <b>sóng thần</b> nếu xảy ra dưới biển.</li><li>Mặt tốt ít ai ngờ: tro núi lửa lâu ngày thành <b>đất đỏ bazan màu mỡ</b> (như ở Tây Nguyên nước ta) rất tốt cho cây trồng.</li></ul><div class="gallery"><figure><div class="figh">🌋 Mô hình 3D — Núi lửa phun trào</div><div class="m3wrap" id="m3wrap-bai12"><div class="m3box" id="m3box-bai12"></div><div class="m3fb" id="m3fb-bai12" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem sơ đồ mặt cắt bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai12" data-step="0">1. Lò macma</button><button type="button" class="tbtn" data-m3="bai12" data-step="1">2. Phun trào</button><button type="button" class="tbtn" data-m3="bai12" data-step="2">3. Dung nham chảy</button><button type="button" class="tbtn" data-m3="bai12" data-step="3">4. Tro bụi</button><button type="button" class="tbtn" data-m3play="bai12">▶ Chạy toàn bộ</button><button type="button" class="tbtn" data-m3full="m3wrap-bai12">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai12">Bấm từng bước để xem núi lửa phun trào. Macma ở trong lòng đất — phun ra ngoài thành dung nham.</div></div><figcaption>Mô hình 3D: núi lửa cắt vát thấy lò macma và đường macma dâng lên, phun trào qua miệng núi, dung nham chảy xuống sườn, tro bụi bay lên. (Minh họa, không theo tỉ lệ thật.)</figcaption></figure><figure><img src="../hinh-anh/dialy/so-do-nui-lua.svg" alt="Sơ đồ mặt cắt một núi lửa: macma từ lò macma ở sâu dâng lên, phun ra miệng núi t" loading="lazy"><figcaption>Sơ đồ mặt cắt một núi lửa: macma từ lò macma ở sâu dâng lên, phun ra miệng núi thành dung nham, tro bụi.<br><span class="src lic">Ảnh: MesserWoland — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/dong-dat-fukui-1948.jpg" alt="Một tòa nhà bị đổ sập sau trận động đất ở Fukui (Nhật Bản, 1948) — cho thấy sức " loading="lazy"><figcaption>Một tòa nhà bị đổ sập sau trận động đất ở Fukui (Nhật Bản, 1948) — cho thấy sức tàn phá của động đất.<br><span class="src">Ảnh: Bert Cohen — Public domain. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/so-do-nui-lua.svg" alt="Sơ đồ núi lửa phun trào" loading="lazy"><div>Macma khi phun ra ngoài bề mặt gọi là gì?</div></div><div class="mini-face mini-back">Dung nham.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/sua-nui-lua-dat-mau.webp" alt="Đất núi lửa màu mỡ để trồng cây" loading="lazy"><div>Tro núi lửa lâu ngày tạo ra loại đất gì tốt cho cây trồng?</div></div><div class="mini-face mini-back">Đất bazan màu mỡ.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Núi lửa = <b>macma phun trào</b>; động đất = <b>mặt đất rung lắc</b>. Cả hai đều do hoạt động <b>bên trong</b> Trái Đất (nội sinh) và tập trung ở nơi tiếp xúc giữa các mảng kiến tạo.</div><div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ: <b>macma ở trong lòng đất — phun ra ngoài thành dung nham!</b></div><div class="bosung">➕ <b>Kiến thức bổ sung — biết thêm để làm được bài tập:</b> Khi xảy ra <b>động đất mạnh</b>, em nhớ nguyên tắc an toàn: <b>bảo vệ đầu</b> (chui xuống gầm bàn chắc chắn); khi hết rung lắc thì <b>chạy ra khỏi nhà tới nơi trống trải</b>, <b>tránh xa tòa nhà cao</b>, cây lớn và dây điện — và tuyệt đối không dùng thang máy.</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#d84315">Bài 12 — Núi lửa và động đất</div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Núi lửa</span><span class="mm-k">MACMA phun trào qua khe nứt → ra ngoài gọi là DUNG NHAM</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Phân bố</span><span class="mm-k">ven Thái Bình Dương = “Vành đai lửa”</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Động đất</span><span class="mm-k">mặt đất RUNG LẮC do mảng va chạm, nứt vỡ</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Hậu quả</span><span class="mm-k">thiệt hại người & của • có thể gây SÓNG THẦN</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Mặt có lợi</span><span class="mm-k">tro núi lửa → đất bazan MÀU MỠ trồng cây</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Macma và dung nham khác nhau ở điểm nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Macma</b> là đá nóng chảy còn ở <b>trong lòng đất</b>; khi phun ra bề mặt thì gọi là <b>dung nham</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Động đất xảy ra do nguyên nhân gì? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Do các <b>mảng kiến tạo va chạm, trượt qua nhau</b> làm vỏ Trái Đất nứt vỡ, mặt đất rung lắc.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn sơ đồ núi lửa: macma dâng lên từ đâu và phun ra ở đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Từ <b>lò macma</b> ở sâu trong lòng đất, theo đường dẫn lên và phun ra ở <b>miệng núi lửa</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Kể một mặt có lợi của núi lửa. <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Tro bụi núi lửa lâu ngày tạo thành <b>đất đỏ bazan màu mỡ</b>, rất tốt cho cây trồng (ví dụ ở Tây Nguyên).</div></div><div class="fcbox" data-cards="60,61,62,63,64"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai11" data-goto="11">⬅ Bài trước: Bài 11: Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi</a> <a class="next" href="#bai13" data-goto="13">Học tiếp ➜ Bài 13: Các dạng địa hình chính trên Trái Đất. Khoáng sản</a></div><div class="btviet" id="btviet-dia-bai12"><h3>✍️ Viết ra suy nghĩ của em — Bài 12. Núi lửa và động đất</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao núi lửa và động đất thường tập trung ở nơi tiếp xúc giữa các mảng kiến tạo?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Núi lửa là gì? / Động đất là gì? / Mảng va chạm, trượt qua nhau thì vỏ Trái Đất bị gì?</p><p><b>Ý chính cần có:</b> Núi lửa = macma phun trào qua khe nứt vỏ Trái Đất; động đất = mặt đất rung lắc do mảng va chạm, trượt qua nhau làm nứt vỡ vỏ; cả hai đều do hoạt động bên trong (nội sinh) nên tập trung ở nơi các mảng tiếp xúc.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Nếu gia đình em sống gần vùng có núi lửa đang hoạt động, em nghĩ gia đình cần chuẩn bị và làm gì để an toàn?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Khi có cảnh báo thì nghe theo ai? / Có nên đến gần miệng núi lửa xem không? / Cần chuẩn bị đồ dùng gì khi phải di chuyển?</p><p><b>Ý chính cần có:</b> Luôn nghe theo cảnh báo và hướng dẫn của chính quyền; không đến gần miệng núi lửa; chuẩn bị sẵn đồ cần thiết để di chuyển nhanh đến nơi an toàn khi có lệnh sơ tán.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai12" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai12"><h3>Phiếu viết — Bài 12. Núi lửa và động đất</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao núi lửa và động đất thường tập trung ở nơi tiếp xúc giữa các mảng kiến tạo?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Nếu gia đình em sống gần vùng có núi lửa đang hoạt động, em nghĩ gia đình cần chuẩn bị và làm gì để an toàn?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai13" style="--c:#d84315"><span class="badge gk">⭐ Ôn giữa kì 1</span><h2>Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản</h2>
@@ -302,7 +309,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Bề mặt Trái Đất không bằng phẳng như sân trường: chỗ nhô cao thành núi, chỗ phẳng mênh mông là đồng bằng, chỗ trũng xuống thành thung lũng. Cùng làm một chuyến “du lịch” qua các dạng địa hình chính nhé!</div><ul class="pts"><li>Có 4 dạng địa hình chính: <span class='hl2'>núi</span>, <span class='hl2'>cao nguyên</span>, <span class='hl2'>đồi</span> và <span class='hl2'>đồng bằng</span>.</li><li><b>Núi:</b> cao trên <span class='hl'>500 m</span> so với mực nước biển, đỉnh nhọn, sườn dốc. <b>Đồi:</b> thấp hơn 500 m, đỉnh tròn, sườn thoải.</li><li><b>Cao nguyên:</b> cao trên 500 m nhưng bề mặt <b>tương đối bằng phẳng</b> như một chiếc bàn khổng lồ. <b>Đồng bằng:</b> thấp dưới 200 m, bề mặt bằng phẳng, đất đai màu mỡ.</li><li>Dựa vào độ cao, núi chia thành: núi thấp (dưới 1 000 m), núi trung bình (1 000–2 000 m), núi cao (trên 2 000 m). Đỉnh Ê-vơ-rét (Hi-ma-lay-a) cao khoảng <span class='hl'>8 848 m</span> — cao nhất thế giới.</li><li><span class='hl2'>Khoáng sản</span> là những tích tụ tự nhiên của khoáng vật có ích trong lòng đất (than đá, dầu mỏ, sắt, vàng…). Khoáng sản chia 3 nhóm: <b>năng lượng</b> (than, dầu mỏ), <b>kim loại</b> (sắt, vàng, nhôm), <b>phi kim loại</b> (đá vôi, muối, a-pa-tít).</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/dinh-everest.jpg" alt="Đỉnh Ê-vơ-rét — “nóc nhà của thế giới” cao khoảng 8 848 m, thuộc dạng địa hình N" loading="lazy"><figcaption>Đỉnh Ê-vơ-rét — “nóc nhà của thế giới” cao khoảng 8 848 m, thuộc dạng địa hình NÚI CAO.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/cao-nguyen-tay-tang.jpg" alt="Cao nguyên Tây Tạng: vùng đất CAO nhưng bề mặt khá bằng phẳng, trải rộng mênh mô" loading="lazy"><figcaption>Cao nguyên Tây Tạng: vùng đất CAO nhưng bề mặt khá bằng phẳng, trải rộng mênh mông.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/song-uon-khuc.jpg" alt="Một khúc sông uốn lượn trên đồng bằng nhìn từ trên cao — đồng bằng thấp, phẳng, " loading="lazy"><figcaption>Một khúc sông uốn lượn trên đồng bằng nhìn từ trên cao — đồng bằng thấp, phẳng, là nơi sông bồi đắp phù sa.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/thach-anh-tibet.jpg" alt="Tinh thể thạch anh — một khoáng sản phi kim loại đẹp như pha lê, được khai thác " loading="lazy"><figcaption>Tinh thể thạch anh — một khoáng sản phi kim loại đẹp như pha lê, được khai thác từ lòng đất.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
+  </div><div class="hook">✨ Bề mặt Trái Đất không bằng phẳng như sân trường: chỗ nhô cao thành núi, chỗ phẳng mênh mông là đồng bằng, chỗ trũng xuống thành thung lũng. Cùng làm một chuyến “du lịch” qua các dạng địa hình chính nhé!</div><ul class="pts"><li>Có 4 dạng địa hình chính: <span class='hl2'>núi</span>, <span class='hl2'>cao nguyên</span>, <span class='hl2'>đồi</span> và <span class='hl2'>đồng bằng</span>.</li><li><b>Núi:</b> cao trên <span class='hl'>500 m</span> so với mực nước biển, đỉnh nhọn, sườn dốc. <b>Đồi:</b> thấp hơn 500 m, đỉnh tròn, sườn thoải.</li><li><b>Cao nguyên:</b> cao trên 500 m nhưng bề mặt <b>tương đối bằng phẳng</b> như một chiếc bàn khổng lồ. <b>Đồng bằng:</b> thấp dưới 200 m, bề mặt bằng phẳng, đất đai màu mỡ.</li><li>Dựa vào độ cao, núi chia thành: núi thấp (dưới 1 000 m), núi trung bình (1 000–2 000 m), núi cao (trên 2 000 m). Đỉnh Ê-vơ-rét (Hi-ma-lay-a) cao khoảng <span class='hl'>8 848 m</span> — cao nhất thế giới.</li><li><span class='hl2'>Khoáng sản</span> là những tích tụ tự nhiên của khoáng vật có ích trong lòng đất (than đá, dầu mỏ, sắt, vàng…). Khoáng sản chia 3 nhóm: <b>năng lượng</b> (than, dầu mỏ), <b>kim loại</b> (sắt, vàng, nhôm), <b>phi kim loại</b> (đá vôi, muối, a-pa-tít).</li></ul><div class="gallery"><figure><div class="figh">🏔️ Mô hình 3D — 4 dạng địa hình chính</div><div class="m3wrap" id="m3wrap-bai13"><div class="m3box" id="m3box-bai13"></div><div class="m3fb" id="m3fb-bai13" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem ảnh đỉnh Ê-vơ-rét bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai13" data-layer="nui">Núi</button><button type="button" class="tbtn" data-m3="bai13" data-layer="caonguyen">Cao nguyên</button><button type="button" class="tbtn" data-m3="bai13" data-layer="doi">Đồi</button><button type="button" class="tbtn" data-m3="bai13" data-layer="dongbang">Đồng bằng</button><button type="button" class="tbtn" data-m3full="m3wrap-bai13">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai13">Bấm vào từng dạng địa hình để xem. Có 4 dạng địa hình chính: núi, cao nguyên, đồi và đồng bằng.</div></div><figcaption>Mô hình 3D: núi cao đỉnh nhọn, cao nguyên bằng phẳng như chiếc bàn, đồi thấp đỉnh tròn, đồng bằng thấp bằng phẳng. (Minh họa, không theo tỉ lệ thật.)</figcaption></figure><figure><img src="../hinh-anh/dialy/dinh-everest.jpg" alt="Đỉnh Ê-vơ-rét — “nóc nhà của thế giới” cao khoảng 8 848 m, thuộc dạng địa hình N" loading="lazy"><figcaption>Đỉnh Ê-vơ-rét — “nóc nhà của thế giới” cao khoảng 8 848 m, thuộc dạng địa hình NÚI CAO.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/cao-nguyen-tay-tang.jpg" alt="Cao nguyên Tây Tạng: vùng đất CAO nhưng bề mặt khá bằng phẳng, trải rộng mênh mô" loading="lazy"><figcaption>Cao nguyên Tây Tạng: vùng đất CAO nhưng bề mặt khá bằng phẳng, trải rộng mênh mông.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/song-uon-khuc.jpg" alt="Một khúc sông uốn lượn trên đồng bằng nhìn từ trên cao — đồng bằng thấp, phẳng, " loading="lazy"><figcaption>Một khúc sông uốn lượn trên đồng bằng nhìn từ trên cao — đồng bằng thấp, phẳng, là nơi sông bồi đắp phù sa.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/thach-anh-tibet.jpg" alt="Tinh thể thạch anh — một khoáng sản phi kim loại đẹp như pha lê, được khai thác " loading="lazy"><figcaption>Tinh thể thạch anh — một khoáng sản phi kim loại đẹp như pha lê, được khai thác từ lòng đất.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/sua-bon-dang-dia-hinh.webp" alt="Bốn dạng địa hình chính" loading="lazy"><div>Có mấy dạng địa hình chính trên Trái Đất?</div></div><div class="mini-face mini-back">4 dạng: núi – cao nguyên – đồi – đồng bằng.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/dinh-everest.jpg" alt="Đỉnh Ê-vơ-rét phủ tuyết" loading="lazy"><div>Đỉnh núi cao nhất thế giới tên gì, cao khoảng bao nhiêu?</div></div><div class="mini-face mini-back">Ê-vơ-rét — khoảng 8 848 m.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> 4 dạng địa hình: <b>núi</b> (cao, dốc) – <b>cao nguyên</b> (cao, phẳng) – <b>đồi</b> (thấp, tròn) – <b>đồng bằng</b> (thấp, phẳng). Khoáng sản có 3 nhóm: <b>năng lượng – kim loại – phi kim loại</b>.</div><div class="meo">💡 <b>Mẹo nhớ:</b> Phân biệt nhanh: <b>cao mà dốc là NÚI, cao mà phẳng là CAO NGUYÊN, thấp tròn là ĐỒI, thấp phẳng là ĐỒNG BẰNG!</b></div><div class="bosung">➕ <b>Kiến thức bổ sung — biết thêm để làm được bài tập:</b> Việt Nam có <b>hai đồng bằng lớn nhất</b>: <b>đồng bằng sông Hồng</b> ở miền Bắc (do phù sa sông Hồng bồi đắp) và <b>đồng bằng sông Cửu Long</b> ở miền Nam (do phù sa sông Mê Kông bồi đắp). Đây là hai vựa lúa lớn nhất nước ta.</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#d84315">Bài 13 — Các dạng địa hình chính trên Trái Đất. Khoáng sản</div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Núi</span><span class="mm-k">> 500 m • đỉnh NHỌN, sườn DỐC • Ê-vơ-rét ≈ 8 848 m</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Cao nguyên</span><span class="mm-k">> 500 m nhưng bề mặt PHẲNG như mặt bàn</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Đồi</span><span class="mm-k">< 500 m • đỉnh TRÒN, sườn THOẢI</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Đồng bằng</span><span class="mm-k">< 200 m • bằng PHẲNG • đất màu mỡ</span></div><div class="mm-branch"><span class="mm-b" style="background:#d8431522;border-color:#d84315;color:#d84315">Khoáng sản</span><span class="mm-k">năng lượng (than, dầu) • kim loại (sắt, vàng) • phi kim (đá vôi, muối)</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Nêu 4 dạng địa hình chính trên Trái Đất. <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Núi, cao nguyên, đồi và đồng bằng</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Núi và cao nguyên giống và khác nhau ở điểm nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Giống: đều cao trên 500 m. Khác: núi <b>đỉnh nhọn, sườn dốc</b>; cao nguyên <b>bề mặt bằng phẳng</b>.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn ảnh Ê-vơ-rét: đỉnh núi cao nhất thế giới này cao khoảng bao nhiêu mét? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Khoảng <b>8 848 m</b> so với mực nước biển.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Than đá, dầu mỏ thuộc nhóm khoáng sản nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Nhóm khoáng sản <b>năng lượng</b> (dùng làm nhiên liệu).</div></div><div class="fcbox" data-cards="65,66,67,68,69"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai12" data-goto="12">⬅ Bài trước: Bài 12: Núi lửa và động đất</a> <a class="next" href="#bai14" data-goto="14">Học tiếp ➜ Bài 14: Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản</a></div><div class="btviet" id="btviet-dia-bai13"><h3>✍️ Viết ra suy nghĩ của em — Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Núi và cao nguyên đều cao trên 500 m, vì sao người ta không gọi cao nguyên là núi?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Núi có đỉnh và sườn thế nào? / Cao nguyên có bề mặt thế nào? / Đồi và đồng bằng thì sao?</p><p><b>Ý chính cần có:</b> Núi cao trên 500 m, đỉnh nhọn, sườn dốc; cao nguyên cũng cao trên 500 m nhưng bề mặt tương đối bằng phẳng như chiếc bàn khổng lồ; đồi thấp hơn 500 m, đỉnh tròn, sườn thoải; đồng bằng thấp dưới 200 m, bề mặt bằng phẳng.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Em hãy tả một dạng địa hình em từng thấy (núi, đồi, cao nguyên hay đồng bằng) và nêu rõ dấu hiệu giúp em nhận ra nó.</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Nơi đó cao hay thấp? / Đỉnh nhọn hay tròn, mặt phẳng hay dốc? / Dấu hiệu nào đúng với định nghĩa đã học?</p><p><b>Ý chính cần có:</b> Tả được cảnh đã thấy; nêu đúng dấu hiệu (độ cao, đỉnh, sườn, bề mặt); kết luận đúng tên dạng địa hình.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai13" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai13"><h3>Phiếu viết — Bài 13. Các dạng địa hình chính trên Trái Đất. Khoáng sản</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Núi và cao nguyên đều cao trên 500 m, vì sao người ta không gọi cao nguyên là núi?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Em hãy tả một dạng địa hình em từng thấy (núi, đồi, cao nguyên hay đồng bằng) và nêu rõ dấu hiệu giúp em nhận ra nó.</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai14" style="--c:#d84315"><span class="badge sau">📚 Sau giữa kì</span><h2>Bài 14. Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản</h2>
@@ -330,7 +337,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Quanh Trái Đất có một “chiếc chăn” vô hình làm bằng không khí — nhờ nó mà ta thở được, máy bay bay được, và gió thổi mát mỗi buổi chiều. Chiếc chăn đó là lớp vỏ khí!</div><ul class="pts"><li><span class='hl2'>Lớp vỏ khí</span> (khí quyển) là lớp không khí bao quanh Trái Đất, gồm chủ yếu khí <b>ni-tơ (78%)</b> và <b>ô-xi (21%)</b>.</li><li>Khí quyển chia thành các tầng; tầng gần mặt đất nhất là <span class='hl'>tầng đối lưu</span> — nơi xảy ra hầu hết hiện tượng thời tiết (mây, mưa, gió) và là nơi ta sống.</li><li><span class='hl2'>Khí áp</span> là <b>sức ép của không khí</b> lên bề mặt Trái Đất. Không khí cũng có trọng lượng đấy — nó đè lên mọi vật như nước đè lên người bơi!</li><li><span class='hl2'>Gió</span> là sự chuyển động của không khí từ nơi <span class='hl'>khí áp cao đến nơi khí áp thấp</span>. Áp càng chênh lệch nhiều, gió càng mạnh.</li><li>Trên Trái Đất có các <b>đai khí áp</b> và các loại <b>gió chính</b>: gió Tín phong (thổi đều về phía Xích đạo), gió Tây ôn đới, gió Đông cực.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/hoan-luu-khi-quyen.svg" alt="Sơ đồ hoàn lưu khí quyển toàn cầu (tự vẽ, nhãn tiếng Việt): các vòng gió lớn" loading="lazy"><figcaption>Sơ đồ hoàn lưu khí quyển toàn cầu (tự vẽ, nhãn tiếng Việt): các vòng gió lớn đưa không khí nóng từ Xích đạo về hai cực và ngược lại.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure><figure><svg viewBox="0 0 640 350" class="dsvg" role="img" aria-label="Các tầng khí quyển">
+  </div><div class="hook">✨ Quanh Trái Đất có một “chiếc chăn” vô hình làm bằng không khí — nhờ nó mà ta thở được, máy bay bay được, và gió thổi mát mỗi buổi chiều. Chiếc chăn đó là lớp vỏ khí!</div><ul class="pts"><li><span class='hl2'>Lớp vỏ khí</span> (khí quyển) là lớp không khí bao quanh Trái Đất, gồm chủ yếu khí <b>ni-tơ (78%)</b> và <b>ô-xi (21%)</b>.</li><li>Khí quyển chia thành các tầng; tầng gần mặt đất nhất là <span class='hl'>tầng đối lưu</span> — nơi xảy ra hầu hết hiện tượng thời tiết (mây, mưa, gió) và là nơi ta sống.</li><li><span class='hl2'>Khí áp</span> là <b>sức ép của không khí</b> lên bề mặt Trái Đất. Không khí cũng có trọng lượng đấy — nó đè lên mọi vật như nước đè lên người bơi!</li><li><span class='hl2'>Gió</span> là sự chuyển động của không khí từ nơi <span class='hl'>khí áp cao đến nơi khí áp thấp</span>. Áp càng chênh lệch nhiều, gió càng mạnh.</li><li>Trên Trái Đất có các <b>đai khí áp</b> và các loại <b>gió chính</b>: gió Tín phong (thổi đều về phía Xích đạo), gió Tây ôn đới, gió Đông cực.</li></ul><div class="gallery"><figure><div class="figh">💨 Mô hình 3D — Các loại gió trên Trái Đất</div><div class="m3wrap" id="m3wrap-bai15"><div class="m3box" id="m3box-bai15"></div><div class="m3fb" id="m3fb-bai15" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem sơ đồ hoàn lưu khí quyển bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai15" data-layer="tinphong">Gió Tín phong</button><button type="button" class="tbtn" data-m3="bai15" data-layer="tay">Gió Tây ôn đới</button><button type="button" class="tbtn" data-m3="bai15" data-layer="dongcuc">Gió Đông cực</button><button type="button" class="tbtn" data-m3rot="bai15" data-dir="-1">⟲ Xoay</button><button type="button" class="tbtn" data-m3rot="bai15" data-dir="1">Xoay ⟳</button><button type="button" class="tbtn" data-m3full="m3wrap-bai15">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai15">Gió là không khí chuyển động từ nơi áp cao đến nơi áp thấp. Áp chênh lệch càng nhiều, gió càng mạnh. Khí quyển gồm chủ yếu ni-tơ 78% và ô-xi 21%.</div></div><figcaption>Mô hình 3D: quả địa cầu với 3 vành đai gió chính — Tín phong, Tây ôn đới, Đông cực — mỗi vành đai một màu, hạt gió chạy đều quanh vành đai. (Minh họa.)</figcaption></figure><figure><img src="../hinh-anh/dialy/hoan-luu-khi-quyen.svg" alt="Sơ đồ hoàn lưu khí quyển toàn cầu (tự vẽ, nhãn tiếng Việt): các vòng gió lớn" loading="lazy"><figcaption>Sơ đồ hoàn lưu khí quyển toàn cầu (tự vẽ, nhãn tiếng Việt): các vòng gió lớn đưa không khí nóng từ Xích đạo về hai cực và ngược lại.<br><span class="src">Sơ đồ tự vẽ minh họa (đơn giản hoá).</span></figcaption></figure><figure><svg viewBox="0 0 640 350" class="dsvg" role="img" aria-label="Các tầng khí quyển">
 <rect x="0" y="0" width="640" height="350" fill="#eaf4fc"/>
 <rect x="60" y="20" width="520" height="58" fill="#b39ddb"/><rect x="60" y="78" width="520" height="52" fill="#90caf9"/><rect x="60" y="130" width="520" height="48" fill="#64b5f6"/><rect x="60" y="178" width="520" height="56" fill="#ffe082"/><rect x="60" y="234" width="520" height="66" fill="#a5d6a7"/>
 <rect x="60" y="300" width="520" height="50" fill="#8d6e63"/>
@@ -347,7 +354,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Vì sao trưa nắng chang chang mà sáng sớm lại mát? Vì sao có mây trắng bồng bềnh rồi lại đổ mưa? Bài này giải thích “chuyện nắng mưa” mà em gặp mỗi ngày!</div><ul class="pts"><li>Mặt Trời sưởi nóng <b>mặt đất trước</b>; mặt đất nóng lên rồi mới tỏa nhiệt làm nóng <b>không khí ở sát mặt đất</b>. Vì vậy càng lên cao càng lạnh — như khi leo núi cao phải mặc áo ấm!</li><li><span class='hl2'>Nhiệt độ không khí</span> thay đổi theo: thời gian trong ngày (cao nhất vào khoảng <span class='hl'>13–14 giờ</span>), theo mùa và theo vị trí (gần biển mát hơn trong đất liền vào mùa hè).</li><li><b>Mây</b> hình thành khi hơi nước trong không khí bốc lên cao, gặp lạnh, <span class='hl2'>ngưng tụ</span> thành những hạt nước/li ti lơ lửng.</li><li>Khi các hạt nước trong mây to dần, nặng dần và rơi xuống → <span class='hl'>mưa</span>. Lượng mưa đo bằng <b>vũ kế</b>, đơn vị là mi-li-mét (mm).</li><li>Nơi gần Xích đạo mưa nhiều quanh năm; vùng sa mạc (như Xa-ha-ra) mưa rất ít — lượng mưa khác nhau giữa các nơi trên Trái Đất.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/may-vu-tich.jpg" alt="Đám mây dông (vũ tích) khổng lồ vươn cao như một ngọn núi trắng — loại mây thườn" loading="lazy"><figcaption>Đám mây dông (vũ tích) khổng lồ vươn cao như một ngọn núi trắng — loại mây thường mang theo mưa lớn và sấm sét.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg" alt="Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): nước bốc hơi → ngưng tụ thành mâ" loading="lazy"><figcaption>Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): nước bốc hơi → ngưng tụ thành mây → mưa rơi xuống → chảy về sông, biển.<br><span class="src lic">Ảnh: Tttrung — CC BY-SA 4.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/tram-thoi-tiet.jpg" alt="Một trạm quan trắc thời tiết với các dụng cụ đo nhiệt độ, lượng mưa, gió — nhờ đ" loading="lazy"><figcaption>Một trạm quan trắc thời tiết với các dụng cụ đo nhiệt độ, lượng mưa, gió — nhờ đó ta có dự báo thời tiết mỗi ngày.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
+  </div><div class="hook">✨ Vì sao trưa nắng chang chang mà sáng sớm lại mát? Vì sao có mây trắng bồng bềnh rồi lại đổ mưa? Bài này giải thích “chuyện nắng mưa” mà em gặp mỗi ngày!</div><ul class="pts"><li>Mặt Trời sưởi nóng <b>mặt đất trước</b>; mặt đất nóng lên rồi mới tỏa nhiệt làm nóng <b>không khí ở sát mặt đất</b>. Vì vậy càng lên cao càng lạnh — như khi leo núi cao phải mặc áo ấm!</li><li><span class='hl2'>Nhiệt độ không khí</span> thay đổi theo: thời gian trong ngày (cao nhất vào khoảng <span class='hl'>13–14 giờ</span>), theo mùa và theo vị trí (gần biển mát hơn trong đất liền vào mùa hè).</li><li><b>Mây</b> hình thành khi hơi nước trong không khí bốc lên cao, gặp lạnh, <span class='hl2'>ngưng tụ</span> thành những hạt nước/li ti lơ lửng.</li><li>Khi các hạt nước trong mây to dần, nặng dần và rơi xuống → <span class='hl'>mưa</span>. Lượng mưa đo bằng <b>vũ kế</b>, đơn vị là mi-li-mét (mm).</li><li>Nơi gần Xích đạo mưa nhiều quanh năm; vùng sa mạc (như Xa-ha-ra) mưa rất ít — lượng mưa khác nhau giữa các nơi trên Trái Đất.</li></ul><div class="gallery"><figure><div class="figh">☁️ Mô hình 3D — Đối lưu tạo mây và mưa</div><div class="m3wrap" id="m3wrap-bai16"><div class="m3box" id="m3box-bai16"></div><div class="m3fb" id="m3fb-bai16" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem ảnh mây dông bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai16" data-step="0">1. Mặt Trời sưởi đất</button><button type="button" class="tbtn" data-m3="bai16" data-step="1">2. Không khí nóng bốc lên</button><button type="button" class="tbtn" data-m3="bai16" data-step="2">3. Ngưng tụ thành mây</button><button type="button" class="tbtn" data-m3="bai16" data-step="3">4. Mưa</button><button type="button" class="tbtn" data-m3play="bai16">▶ Chạy toàn bộ</button><button type="button" class="tbtn" data-m3full="m3wrap-bai16">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai16">Bấm từng bước để xem đối lưu tạo mây và mưa.</div></div><figcaption>Mô hình 3D: Mặt Trời sưởi nóng mặt đất, không khí nóng bốc lên, gặp lạnh ngưng tụ thành mây, hạt nước nặng dần rơi xuống thành mưa. (Minh họa.)</figcaption></figure><figure><img src="../hinh-anh/dialy/may-vu-tich.jpg" alt="Đám mây dông (vũ tích) khổng lồ vươn cao như một ngọn núi trắng — loại mây thườn" loading="lazy"><figcaption>Đám mây dông (vũ tích) khổng lồ vươn cao như một ngọn núi trắng — loại mây thường mang theo mưa lớn và sấm sét.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg" alt="Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): nước bốc hơi → ngưng tụ thành mâ" loading="lazy"><figcaption>Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): nước bốc hơi → ngưng tụ thành mây → mưa rơi xuống → chảy về sông, biển.<br><span class="src lic">Ảnh: Tttrung — CC BY-SA 4.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/tram-thoi-tiet.jpg" alt="Một trạm quan trắc thời tiết với các dụng cụ đo nhiệt độ, lượng mưa, gió — nhờ đ" loading="lazy"><figcaption>Một trạm quan trắc thời tiết với các dụng cụ đo nhiệt độ, lượng mưa, gió — nhờ đó ta có dự báo thời tiết mỗi ngày.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/may-vu-tich.jpg" alt="Mây vũ tích" loading="lazy"><div>Mây hình thành do hiện tượng gì?</div></div><div class="mini-face mini-back">Hơi nước ngưng tụ khi gặp lạnh ở trên cao.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/sua-mat-dat-toa-nhiet.webp" alt="Mặt đất tỏa nhiệt sau khi hấp thụ nắng" loading="lazy"><div>Không khí nóng lên chủ yếu nhờ đâu?</div></div><div class="mini-face mini-back">Mặt đất hấp thụ nắng rồi tỏa nhiệt lên.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Không khí nóng lên nhờ <b>mặt đất tỏa nhiệt</b>. Mây = hơi nước <b>ngưng tụ</b>; mưa khi hạt nước đủ nặng rơi xuống. Đo mưa bằng <b>vũ kế</b>, đơn vị <b>mm</b>.</div><div class="meo">💡 <b>Mẹo nhớ:</b> <b>Nắng hun đất, đất hun không khí</b> — và hơi nước gặp lạnh thì “khóc” thành mưa!</div><div class="bosung">➕ <b>Kiến thức bổ sung — biết thêm để làm được bài tập:</b> Vì sao mùa hè <b>ven biển mát hơn</b> trong đất liền? Vì <b>nước biển nóng lên và nguội đi chậm hơn đất liền</b>: ban ngày biển làm dịu hơi nóng, ban đêm biển tỏa nhiệt từ từ. Nhờ biển <b>điều hòa nhiệt độ</b> như vậy nên khí hậu ven biển dễ chịu hơn.</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#00838f">Bài 16 — Nhiệt độ không khí. Mây và mưa</div><div class="mm-branch"><span class="mm-b" style="background:#00838f22;border-color:#00838f;color:#00838f">Nhiệt độ không khí</span><span class="mm-k">Mặt Trời → hun nóng ĐẤT → đất tỏa nhiệt nóng KHÔNG KHÍ</span></div><div class="mm-branch"><span class="mm-b" style="background:#00838f22;border-color:#00838f;color:#00838f">Thay đổi nhiệt độ</span><span class="mm-k">theo giờ (nóng nhất 13–14h) • theo mùa • gần biển mát hơn</span></div><div class="mm-branch"><span class="mm-b" style="background:#00838f22;border-color:#00838f;color:#00838f">Mây</span><span class="mm-k">hơi nước bốc lên, gặp lạnh → NGƯNG TỤ thành hạt li ti</span></div><div class="mm-branch"><span class="mm-b" style="background:#00838f22;border-color:#00838f;color:#00838f">Mưa →</span><span class="mm-k">hạt nước to & nặng dần → RƠI xuống</span></div><div class="mm-branch"><span class="mm-b" style="background:#00838f22;border-color:#00838f;color:#00838f">Đo mưa</span><span class="mm-k">VŨ KẾ • đơn vị mm</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Vì sao càng lên cao (leo núi) càng lạnh? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Vì không khí được mặt đất tỏa nhiệt làm nóng; càng xa mặt đất, không khí càng <b>loãng và lạnh</b> hơn.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Mây được hình thành như thế nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Hơi nước bốc lên cao, gặp <b>lạnh</b>, <b>ngưng tụ</b> thành các hạt nước nhỏ li ti lơ lửng — đó là mây.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn ảnh đám mây dông cao lớn: loại mây này thường báo hiệu thời tiết gì? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Thường mang theo <b>mưa lớn, dông và sấm sét</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Lượng mưa được đo bằng dụng cụ gì, đơn vị gì? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Đo bằng <b>vũ kế</b>, đơn vị <b>mi-li-mét (mm)</b>.</div></div><div class="fcbox" data-cards="80,81,82,83,84"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai15" data-goto="15">⬅ Bài trước: Bài 15: Lớp vỏ khí của Trái Đất. Khí áp và gió</a> <a class="next" href="#bai17" data-goto="17">Học tiếp ➜ Bài 17: Thời tiết và khí hậu. Biến đổi khí hậu</a></div><div class="btviet" id="btviet-dia-bai16"><h3>✍️ Viết ra suy nghĩ của em — Bài 16. Nhiệt độ không khí. Mây và mưa</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao càng lên cao càng lạnh, dù càng lên cao càng gần Mặt Trời?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Mặt Trời sưởi nóng cái gì trước? / Mặt đất nóng lên rồi làm gì? / Không khí ở sát mặt đất hay trên cao được sưởi nhiều hơn?</p><p><b>Ý chính cần có:</b> Mặt Trời sưởi nóng mặt đất trước; mặt đất nóng lên rồi tỏa nhiệt làm nóng không khí sát mặt đất; càng lên cao càng xa nguồn nhiệt này nên càng lạnh.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Nhiệt độ trong ngày cao nhất vào khoảng 13–14 giờ, chứ không phải lúc 12 giờ khi Mặt Trời cao nhất. Vì sao?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Lúc 12 giờ mặt đất nhận nhiệt nhiều nhất chưa? / Mặt đất cần thời gian để làm gì? / Khi nào mặt đất tỏa nhiệt mạnh nhất?</p><p><b>Ý chính cần có:</b> Mặt Trời sưởi mặt đất trước, mặt đất cần thời gian hấp thụ rồi mới tỏa nhiệt làm nóng không khí; nên nhiệt độ cao nhất trễ hơn lúc nắng gắt nhất, vào khoảng 13–14 giờ.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai16" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai16"><h3>Phiếu viết — Bài 16. Nhiệt độ không khí. Mây và mưa</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao càng lên cao càng lạnh, dù càng lên cao càng gần Mặt Trời?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Nhiệt độ trong ngày cao nhất vào khoảng 13–14 giờ, chứ không phải lúc 12 giờ khi Mặt Trời cao nhất. Vì sao?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai17" style="--c:#00838f"><span class="badge sau">📚 Sau giữa kì</span><h2>Bài 17. Thời tiết và khí hậu. Biến đổi khí hậu</h2>
@@ -371,7 +378,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Một giọt mưa hôm nay rơi xuống sân trường — em có tin giọt nước đó có thể đã từng ở trong đại dương cách đây hàng nghìn năm? Nước trên Trái Đất cứ “đi du lịch” vòng quanh mãi như thế đấy!</div><ul class="pts"><li><span class='hl2'>Thủy quyển</span> là toàn bộ nước trên Trái Đất: nước ở <b>đại dương, biển, sông, hồ</b>, nước <b>ngầm</b> dưới đất, <b>băng tuyết</b> và cả <b>hơi nước</b> trong khí quyển.</li><li>Nước biển và đại dương chiếm khoảng <span class='hl'>97,5%</span> lượng nước; nước ngọt chỉ khoảng <b>2,5%</b> — và phần lớn nước ngọt lại bị “khóa” trong băng tuyết!</li><li><span class='hl2'>Vòng tuần hoàn lớn của nước</span>: nước biển <b>bốc hơi</b> → hơi nước được gió đưa vào đất liền → <b>ngưng tụ</b> thành mây → <b>mưa</b> rơi xuống → chảy thành sông, ngấm xuống đất → cuối cùng lại <b>chảy về biển</b>. Vòng này lặp đi lặp lại không ngừng.</li><li>Động lực của vòng tuần hoàn là năng lượng <b>Mặt Trời</b> (làm nước bốc hơi) và <b>trọng lực</b> (làm nước chảy từ cao xuống thấp).</li><li>Nước là nguồn sống: không có nước thì không có sự sống trên Trái Đất — vì vậy phải <b>tiết kiệm và bảo vệ nguồn nước</b>.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg" alt="Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): bốc hơi từ biển, ngưng tụ thành mây, mưa xuống đất, sông chảy về biển và nước ngầm" loading="lazy"><figcaption>Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): bốc hơi từ biển → ngưng tụ thành mây → mưa xuống đất liền → sông chảy về biển, một phần thấm xuống thành nước ngầm.<br><span class="src lic">Ảnh: Tttrung — CC BY-SA 4.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg" alt="Ảnh vệ tinh bề mặt Trái Đất (Blue Marble của NASA): màu xanh biển mênh mông chín" loading="lazy"><figcaption>Ảnh vệ tinh bề mặt Trái Đất (Blue Marble của NASA): màu xanh biển mênh mông chính là thủy quyển — nước phủ khoảng 3/4 bề mặt hành tinh.<br><span class="src lic">Ảnh: NASA Goddard Space Flight Center Image by Ret — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
+  </div><div class="hook">✨ Một giọt mưa hôm nay rơi xuống sân trường — em có tin giọt nước đó có thể đã từng ở trong đại dương cách đây hàng nghìn năm? Nước trên Trái Đất cứ “đi du lịch” vòng quanh mãi như thế đấy!</div><ul class="pts"><li><span class='hl2'>Thủy quyển</span> là toàn bộ nước trên Trái Đất: nước ở <b>đại dương, biển, sông, hồ</b>, nước <b>ngầm</b> dưới đất, <b>băng tuyết</b> và cả <b>hơi nước</b> trong khí quyển.</li><li>Nước biển và đại dương chiếm khoảng <span class='hl'>97,5%</span> lượng nước; nước ngọt chỉ khoảng <b>2,5%</b> — và phần lớn nước ngọt lại bị “khóa” trong băng tuyết!</li><li><span class='hl2'>Vòng tuần hoàn lớn của nước</span>: nước biển <b>bốc hơi</b> → hơi nước được gió đưa vào đất liền → <b>ngưng tụ</b> thành mây → <b>mưa</b> rơi xuống → chảy thành sông, ngấm xuống đất → cuối cùng lại <b>chảy về biển</b>. Vòng này lặp đi lặp lại không ngừng.</li><li>Động lực của vòng tuần hoàn là năng lượng <b>Mặt Trời</b> (làm nước bốc hơi) và <b>trọng lực</b> (làm nước chảy từ cao xuống thấp).</li><li>Nước là nguồn sống: không có nước thì không có sự sống trên Trái Đất — vì vậy phải <b>tiết kiệm và bảo vệ nguồn nước</b>.</li></ul><div class="gallery"><figure><div class="figh">💧 Mô hình 3D — Vòng tuần hoàn lớn của nước</div><div class="m3wrap" id="m3wrap-bai19"><div class="m3box" id="m3box-bai19"></div><div class="m3fb" id="m3fb-bai19" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem sơ đồ vòng tuần hoàn bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai19" data-step="0">1. Bốc hơi</button><button type="button" class="tbtn" data-m3="bai19" data-step="1">2. Gió đưa vào đất liền</button><button type="button" class="tbtn" data-m3="bai19" data-step="2">3. Ngưng tụ thành mây</button><button type="button" class="tbtn" data-m3="bai19" data-step="3">4. Mưa</button><button type="button" class="tbtn" data-m3="bai19" data-step="4">5. Chảy về biển</button><button type="button" class="tbtn" data-m3play="bai19">▶ Chạy toàn bộ</button><button type="button" class="tbtn" data-m3full="m3wrap-bai19">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai19">Bấm từng bước để xem vòng tuần hoàn lớn của nước. Động lực: năng lượng Mặt Trời (làm nước bốc hơi) và trọng lực (kéo nước từ cao xuống thấp).</div></div><figcaption>Mô hình 3D: nước biển bốc hơi, hơi nước theo gió vào đất liền, ngưng tụ thành mây, mưa xuống núi rồi chảy thành sông về biển, lặp mãi không ngừng. (Minh họa, không theo tỉ lệ thật.)</figcaption></figure><figure><img src="../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg" alt="Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): bốc hơi từ biển, ngưng tụ thành mây, mưa xuống đất, sông chảy về biển và nước ngầm" loading="lazy"><figcaption>Sơ đồ vòng tuần hoàn của nước (chữ tiếng Việt): bốc hơi từ biển → ngưng tụ thành mây → mưa xuống đất liền → sông chảy về biển, một phần thấm xuống thành nước ngầm.<br><span class="src lic">Ảnh: Tttrung — CC BY-SA 4.0. Nguồn: Wikimedia Commons</span></figcaption></figure><figure><img src="../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg" alt="Ảnh vệ tinh bề mặt Trái Đất (Blue Marble của NASA): màu xanh biển mênh mông chín" loading="lazy"><figcaption>Ảnh vệ tinh bề mặt Trái Đất (Blue Marble của NASA): màu xanh biển mênh mông chính là thủy quyển — nước phủ khoảng 3/4 bề mặt hành tinh.<br><span class="src lic">Ảnh: NASA Goddard Space Flight Center Image by Ret — CC BY-SA 3.0. Nguồn: Wikimedia Commons</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/vong-tuan-hoan-nuoc.svg" alt="Sơ đồ vòng tuần hoàn của nước" loading="lazy"><div>Nước tuần hoàn theo thứ tự nào?</div></div><div class="mini-face mini-back">Bốc hơi → ngưng tụ thành mây → mưa → chảy về biển, lặp mãi.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/bai6-trai-dat-blue-marble.jpg" alt="Trái Đất nhìn từ vũ trụ" loading="lazy"><div>Nước ngọt chỉ chiếm khoảng bao nhiêu phần trăm nước trên Trái Đất?</div></div><div class="mini-face mini-back">Chỉ khoảng 2,5% — nên phải tiết kiệm nước ngọt.</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Thủy quyển = <b>mọi dạng nước</b> trên Trái Đất. Vòng tuần hoàn: <b>bốc hơi → ngưng tụ (mây) → mưa → chảy về biển</b>, lặp mãi không ngừng.</div><div class="meo">💡 <b>Mẹo nhớ:</b> Nhớ vòng nước bằng 4 chữ: <b>Hơi – Mây – Mưa – Sông</b> (rồi lại về biển)!</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#1565c0">Bài 19 — Thủy quyển và vòng tuần hoàn lớn của nước</div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Thủy quyển là gì</span><span class="mm-k">mọi dạng nước: biển • sông hồ • nước ngầm • băng • hơi nước</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Tỉ lệ</span><span class="mm-k">nước MẶN ≈ 97,5% • nước NGỌT ≈ 2,5%</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Vòng tuần hoàn →</span><span class="mm-k">BỐC HƠI → NGƯNG TỤ thành mây → MƯA → CHẢY VỀ BIỂN</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Động lực</span><span class="mm-k">năng lượng MẶT TRỜI + TRỌNG LỰC</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Ý nghĩa</span><span class="mm-k">nước nuôi SỰ SỐNG → phải tiết kiệm & bảo vệ</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Thủy quyển bao gồm những dạng nước nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Nước ở <b>biển, đại dương, sông, hồ</b>; <b>nước ngầm</b>; <b>băng tuyết</b> và <b>hơi nước</b> trong khí quyển.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Kể đúng thứ tự các giai đoạn của vòng tuần hoàn lớn của nước. <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a"><b>Bốc hơi</b> → <b>ngưng tụ</b> thành mây → <b>mưa</b> rơi xuống → nước chảy theo sông/ngấm ngầm → <b>về biển</b>, rồi lại bốc hơi.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn ảnh vệ tinh Trái Đất: vì sao hành tinh của ta được gọi là “hành tinh xanh”? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Vì <b>nước (đại dương)</b> phủ khoảng <b>3/4 bề mặt</b>, nhìn từ vũ trụ Trái Đất có màu xanh của biển.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Nước ngọt chiếm khoảng bao nhiêu phần trăm lượng nước trên Trái Đất? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Chỉ khoảng <b>2,5%</b> — rất ít, nên phải tiết kiệm nước ngọt.</div></div><div class="fcbox" data-cards="95,96,97,98,99"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai18" data-goto="18">⬅ Bài trước: Bài 18: Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa</a> <a class="next" href="#bai20" data-goto="20">Học tiếp ➜ Bài 20: Sông và hồ. Nước ngầm và băng hà</a></div><div class="btviet" id="btviet-dia-bai19"><h3>✍️ Viết ra suy nghĩ của em — Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao vòng tuần hoàn của nước cứ lặp mãi không ngừng?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Nước biển bốc hơi nhờ năng lượng nào? / Hơi nước ngưng tụ thành gì? / Mưa rơi xuống rồi chảy về đâu? / Cái gì làm nước chảy từ cao xuống thấp?</p><p><b>Ý chính cần có:</b> Vòng tuần hoàn: bốc hơi → ngưng tụ thành mây → mưa → chảy về biển; động lực là năng lượng Mặt Trời (làm nước bốc hơi) và trọng lực (làm nước chảy từ cao xuống thấp); nên vòng này lặp mãi không ngừng.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Nước ngọt chỉ khoảng 2,5% mà phần lớn lại bị 'khóa' trong băng tuyết. Vì sao em phải tiết kiệm nước ngọt?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Nước biển chiếm bao nhiêu phần trăm? / Nước ngọt dùng được ngay có nhiều không? / Lãng phí nước ngọt thì sao?</p><p><b>Ý chính cần có:</b> Nước biển và đại dương chiếm khoảng 97,5%; nước ngọt chỉ khoảng 2,5% và phần lớn bị khóa trong băng; nước ngọt dùng được rất ít nên phải tiết kiệm.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai19" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai19"><h3>Phiếu viết — Bài 19. Thủy quyển và vòng tuần hoàn lớn của nước</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao vòng tuần hoàn của nước cứ lặp mãi không ngừng?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Nước ngọt chỉ khoảng 2,5% mà phần lớn lại bị 'khóa' trong băng tuyết. Vì sao em phải tiết kiệm nước ngọt?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><section class="lesson" id="bai20" style="--c:#1565c0"><span class="badge sau">📚 Sau giữa kì</span><h2>Bài 20. Sông và hồ. Nước ngầm và băng hà</h2>
@@ -387,7 +394,7 @@ figcaption .src{color:#546e7a;font-size:14px}
     <button type="button" class="ls-listen">🔊 Nghe bài này</button>
     <button type="button" class="ls-stop" hidden>⏹ Dừng đọc</button><select class="ls-rate" aria-label="Tốc độ nghe bài"><option value="0.78">🐢 Chậm</option><option value="0.92" selected>Vừa</option><option value="1.08">Nhanh</option></select>
     <p class="ls-note" hidden></p>
-  </div><div class="hook">✨ Đứng trên bãi biển, trước mặt em là mặt nước mênh mông tới tận chân trời — đó mới chỉ là một phần nhỏ của đại dương chiếm tới 3/4 Trái Đất. Cùng “lặn” xuống khám phá thế giới nước mặn nhé!</div><ul class="pts"><li>Trên Trái Đất có <span class='hl'>4 đại dương</span>: Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương. <b>Thái Bình Dương</b> là đại dương <b>lớn nhất và sâu nhất</b>.</li><li><span class='hl2'>Biển</span> là bộ phận của đại dương, nằm gần lục địa và bị đất liền bao bọc một phần (ví dụ: Biển Đông của Việt Nam).</li><li>Nước biển có vị mặn vì chứa <span class='hl'>muối</span> — trung bình khoảng <b>35‰</b> (35 gam muối trong 1 lít nước). Độ mặn khác nhau giữa các biển.</li><li>Nước biển luôn vận động: <b>sóng</b> (do gió), <span class='hl2'>thủy triều</span> (nước lên – xuống theo Mặt Trăng) và <b>dòng biển</b> (những “con sông” chảy trong đại dương).</li><li>Biển và đại dương cho con người: hải sản, muối, dầu khí, đường giao thông và du lịch — nhưng cũng cần được <b>bảo vệ khỏi ô nhiễm</b>.</li></ul><div class="gallery"><figure><img src="../hinh-anh/dialy/song-bien.jpg" alt="Những con sóng biển vỗ vào bờ — sóng là một dạng vận động của nước biển, do gió " loading="lazy"><figcaption>Những con sóng biển vỗ vào bờ — sóng là một dạng vận động của nước biển, do gió gây ra.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/trai-dat-apollo-17.jpg" alt="Từ vũ trụ, Trái Đất xanh vì đại dương. Thái Bình Dương — đại dương lớn nhất — ch" loading="lazy"><figcaption>Từ vũ trụ, Trái Đất xanh vì đại dương. Thái Bình Dương — đại dương lớn nhất — chiếm gần nửa bề mặt hành tinh.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
+  </div><div class="hook">✨ Đứng trên bãi biển, trước mặt em là mặt nước mênh mông tới tận chân trời — đó mới chỉ là một phần nhỏ của đại dương chiếm tới 3/4 Trái Đất. Cùng “lặn” xuống khám phá thế giới nước mặn nhé!</div><ul class="pts"><li>Trên Trái Đất có <span class='hl'>4 đại dương</span>: Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương. <b>Thái Bình Dương</b> là đại dương <b>lớn nhất và sâu nhất</b>.</li><li><span class='hl2'>Biển</span> là bộ phận của đại dương, nằm gần lục địa và bị đất liền bao bọc một phần (ví dụ: Biển Đông của Việt Nam).</li><li>Nước biển có vị mặn vì chứa <span class='hl'>muối</span> — trung bình khoảng <b>35‰</b> (35 gam muối trong 1 lít nước). Độ mặn khác nhau giữa các biển.</li><li>Nước biển luôn vận động: <b>sóng</b> (do gió), <span class='hl2'>thủy triều</span> (nước lên – xuống theo Mặt Trăng) và <b>dòng biển</b> (những “con sông” chảy trong đại dương).</li><li>Biển và đại dương cho con người: hải sản, muối, dầu khí, đường giao thông và du lịch — nhưng cũng cần được <b>bảo vệ khỏi ô nhiễm</b>.</li></ul><div class="gallery"><figure><div class="figh">🌊 Mô hình 3D — Nước biển vận động</div><div class="m3wrap" id="m3wrap-bai21"><div class="m3box" id="m3box-bai21"></div><div class="m3fb" id="m3fb-bai21" style="display:none">Không tải được mô hình 3D (cần mạng để tải thư viện). Xem ảnh sóng biển bên dưới nhé!</div><div class="m3btns"><button type="button" class="tbtn" data-m3="bai21" data-step="0">1. Sóng</button><button type="button" class="tbtn" data-m3="bai21" data-step="1">2. Thủy triều</button><button type="button" class="tbtn" data-m3="bai21" data-step="2">3. Dòng biển</button><button type="button" class="tbtn" data-m3play="bai21">▶ Chạy toàn bộ</button><button type="button" class="tbtn" data-m3full="m3wrap-bai21">⛶ Toàn màn hình</button></div><div class="m3info" id="m3info-bai21">Trên Trái Đất có 4 đại dương: Thái Bình Dương (lớn nhất và sâu nhất), Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương. Nước biển mặn trung bình khoảng 35‰.</div></div><figcaption>Mô hình 3D: mặt biển nhấp nhô sóng do gió, nước lên xuống theo Mặt Trăng (thủy triều), và những “con sông” chảy trong đại dương (dòng biển). (Minh họa.)</figcaption></figure><figure><img src="../hinh-anh/dialy/song-bien.jpg" alt="Những con sóng biển vỗ vào bờ — sóng là một dạng vận động của nước biển, do gió " loading="lazy"><figcaption>Những con sóng biển vỗ vào bờ — sóng là một dạng vận động của nước biển, do gió gây ra.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure><figure><img src="../hinh-anh/dialy/trai-dat-apollo-17.jpg" alt="Từ vũ trụ, Trái Đất xanh vì đại dương. Thái Bình Dương — đại dương lớn nhất — ch" loading="lazy"><figcaption>Từ vũ trụ, Trái Đất xanh vì đại dương. Thái Bình Dương — đại dương lớn nhất — chiếm gần nửa bề mặt hành tinh.<br><span class="src">(Tranh minh họa theo phong cách ảnh thật)</span></figcaption></figure></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/cac-dai-duong.svg" alt="Sơ đồ các đại dương" loading="lazy"><div>Trên Trái Đất có mấy đại dương?</div></div><div class="mini-face mini-back">4 đại dương.</div></div></div>
 <div class="minicard"><div class="mini-inner"><div class="mini-face mini-front"><span class="mini-tag">⚡ Nhớ nhanh</span><img src="../hinh-anh/dialy/song-bien.jpg" alt="Sóng biển" loading="lazy"><div>Sóng là một dạng gì của nước biển?</div></div><div class="mini-face mini-back">Vận động của nước biển (cùng với thủy triều và dòng biển).</div></div></div>
 <div class="moc">⭐ <b>Điểm cần nhớ:</b> Có <b>4 đại dương</b> (Thái Bình Dương lớn nhất). Nước biển mặn ≈ <b>35‰</b>. Nước biển vận động: <b>sóng – thủy triều – dòng biển</b>. Một số tài liệu mới còn tính thêm Nam Đại Dương quanh Nam Cực, nên có nơi nói Trái Đất có 5 đại dương.</div><div class="meo">💡 <b>Mẹo nhớ:</b> <b>Bốn đại dương nhớ tên: Thái – Đại Tây – Ấn Độ – Bắc Băng</b>; biển Đông là “sân nhà” của Việt Nam!</div><div class="mmap"><div class="mm-title">🧠 Sơ đồ tư duy</div><div class="mm-center" style="background:#1565c0">Bài 21 — Biển và đại dương</div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">4 đại dương</span><span class="mm-k">THÁI BÌNH DƯƠNG (lớn nhất) • Đại Tây Dương • Ấn Độ Dương • Bắc Băng Dương</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Biển</span><span class="mm-k">bộ phận của đại dương, gần lục địa • ví dụ: Biển Đông</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Độ muối</span><span class="mm-k">trung bình ≈ 35‰ • khác nhau giữa các biển</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Vận động →</span><span class="mm-k">SÓNG (gió) • THỦY TRIỀU (Mặt Trăng) • DÒNG BIỂN</span></div><div class="mm-branch"><span class="mm-b" style="background:#1565c022;border-color:#1565c0;color:#1565c0">Giá trị</span><span class="mm-k">hải sản • muối • dầu khí • giao thông • du lịch</span></div></div><div class="secttl">❓ Câu hỏi gợi nhớ</div><p class="small">Tự trả lời trong đầu trước, rồi bấm vào câu hỏi để kiểm tra đáp án. (Hình minh họa nằm ở phần bài học phía trên; đáp án không lặp lại hình để em tự nhớ lại nhé!)</p><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Kể tên 4 đại dương trên Trái Đất. Đại dương nào lớn nhất? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương, Bắc Băng Dương. Lớn nhất là <b>Thái Bình Dương</b>.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Biển khác đại dương ở điểm nào? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Biển là <b>bộ phận nhỏ hơn của đại dương</b>, nằm gần lục địa và bị đất liền bao bọc một phần.</div></div><div class="qa"><button type="button" class="qa-q">🖼️ Nhìn ảnh sóng biển: sóng được tạo ra chủ yếu do đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Do <b>gió</b> thổi trên mặt nước.</div></div><div class="qa"><button type="button" class="qa-q">Nhớ lại xem: Thủy triều là hiện tượng gì, do đâu? <span class="qahint">— bấm để xem đáp án</span></button><div class="qa-a">Là nước biển <b>lên – xuống</b> theo chu kì, chủ yếu do <b>sức hút của Mặt Trăng</b>.</div></div><div class="fcbox" data-cards="105,106,107,108,109"><div class="secttl">🃏 Flashcard của bài <span class="fcprog"></span></div><div class="fcard"><img class="fcimg" alt="Hình gợi nhớ của thẻ"><div class="fctext"></div><div class="fchint"></div></div><div class="fcbtns"><button type="button" class="fcprev">⬅ Trước</button><button type="button" class="fcflip">🔄 Lật thẻ</button><button type="button" class="fcnext">Sau ➡</button><button type="button" class="fcknow">✅ Đã thuộc</button><button type="button" class="fcunk">↩ Chưa thuộc</button></div></div><div class="next"><a class="next" href="#bai20" data-goto="20">⬅ Bài trước: Bài 20: Sông và hồ. Nước ngầm và băng hà</a> <a class="next" href="#bai22" data-goto="22">Học tiếp ➜ Bài 22: Lớp đất trên Trái Đất</a></div><div class="btviet" id="btviet-dia-bai21"><h3>✍️ Viết ra suy nghĩ của em — Bài 21. Biển và đại dương</h3><p class="btviet-intro">Học xong bài này, em viết 2 câu trả lời ra giấy (in phiếu bên dưới). Viết bằng lời của em, không cần viết đúng từng chữ trong bài.</p><div class="btviet-task"><p class="btviet-q"><b>Câu 1.</b> Vì sao nước biển lại mặn?</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Nước biển chứa gì? / Trung bình bao nhiêu gam muối trong 1 lít nước? / Độ mặn có giống nhau ở mọi biển không?</p><p><b>Ý chính cần có:</b> Nước biển có vị mặn vì chứa muối; trung bình khoảng 35‰ (35 gam muối trong 1 lít nước); độ mặn khác nhau giữa các biển.</p></div></div><div class="btviet-task"><p class="btviet-q"><b>Câu 2.</b> Sóng, thủy triều và dòng biển khác nhau thế nào? Em hãy viết cách phân biệt ba hiện tượng này.</p><button class="btviet-ph-q" type="button">👨‍👩‍👧 Gợi ý cho phụ huynh hướng dẫn ▼</button><div class="btviet-ph-a"><p><b>Gợi mở:</b> Sóng do cái gì gây ra? / Thủy triều lên xuống theo cái gì? / Dòng biển giống cái gì chảy trong đại dương?</p><p><b>Ý chính cần có:</b> Sóng do gió; thủy triều là nước lên – xuống theo Mặt Trăng; dòng biển là những 'con sông' chảy trong đại dương.</p></div></div><button class="btviet-btn" data-btviet-print="in-btviet-dia-bai21" type="button">🖨️ In phiếu viết bài này</button><div class="btviet-print-src" id="in-btviet-dia-bai21"><h3>Phiếu viết — Bài 21. Biển và đại dương</h3><p>Họ và tên: ______________________ Lớp: __________</p><div class="btviet-ptask"><p><b>Câu 1.</b> Vì sao nước biển lại mặn?</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><div class="btviet-ptask"><p><b>Câu 2.</b> Sóng, thủy triều và dòng biển khác nhau thế nào? Em hãy viết cách phân biệt ba hiện tượng này.</p><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div><div class="btviet-line"></div></div><p><i>Viết xong, bấm xem “Ý cần có” để tự tick: em đủ mấy ý?</i></p></div></div></section><div class="chap" style="background:#2e7d32">Chương 6 — Đất và sinh vật trên Trái Đất</div><section class="lesson" id="bai22" style="--c:#2e7d32"><span class="badge sau">📚 Sau giữa kì</span><h2>Bài 22. Lớp đất trên Trái Đất</h2>
@@ -1402,7 +1409,694 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
   root.querySelectorAll('[data-print]').forEach(function(b){ b.addEventListener('click',function(){ printWin(b.getAttribute('data-print-title')||'Ôn tập', b.getAttribute('data-print')); }); });
 })();
 </script>
-</div><style>#btviet-dia-mb,#btviet-dia-bai1,#btviet-dia-bai2,#btviet-dia-bai3,#btviet-dia-bai4,#btviet-dia-bai5,#btviet-dia-bai6,#btviet-dia-bai7,#btviet-dia-bai8,#btviet-dia-bai9,#btviet-dia-bai10,#btviet-dia-bai11,#btviet-dia-bai12,#btviet-dia-bai13,#btviet-dia-bai14,#btviet-dia-bai15,#btviet-dia-bai16,#btviet-dia-bai17,#btviet-dia-bai18,#btviet-dia-bai19,#btviet-dia-bai20,#btviet-dia-bai21,#btviet-dia-bai22,#btviet-dia-bai23{border:2px solid #1565c0;background:#f5f9ff;border-radius:12px;padding:16px;margin:24px 0}.btviet-q{font-size:17px;line-height:1.6}.btviet-ph-q{display:block;width:100%;text-align:left;font-size:16px;padding:10px 12px;margin:8px 0;border:1px dashed #1565c0;border-radius:8px;background:#fff;cursor:pointer}.btviet-task .btviet-ph-a{display:none}.btviet-task.open-ph .btviet-ph-a{display:block;background:#fff;border:1px dashed #1565c0;border-radius:8px;padding:10px 12px;margin:0 0 12px}.btviet-btn{display:block;width:100%;font-size:17px;font-weight:700;padding:12px;border:none;border-radius:10px;background:#1565c0;color:#fff;cursor:pointer;margin-top:12px}.btviet-print-src{display:none}.btviet-line{height:30px;border-bottom:1px solid #999}</style><script>(function(){function printWin(title,srcId){var src=document.getElementById(srcId);if(!src)return;var w=window.open("","_blank");if(!w)return;w.document.write("<!doctype html><html><head><meta charset=\"utf-8\"><title>"+title+"</title><style>body{font-family:system-ui,sans-serif;font-size:17px;line-height:1.6;margin:24px}h3{color:#1565c0}.btviet-line{height:30px;border-bottom:1px solid #999}.btviet-ptask{break-inside:avoid;margin-bottom:18px}</style></head><body>"+src.innerHTML+"</body></html>");w.document.close();w.focus();w.print();}document.querySelectorAll(".btviet-ph-q").forEach(function(b){b.addEventListener("click",function(){var t=b.closest(".btviet-task");if(!t)return;t.classList.toggle("open-ph");b.textContent=b.textContent.replace(/▼|▲/,t.classList.contains("open-ph")?"▲":"▼");});});document.querySelectorAll("[data-btviet-print]").forEach(function(b){b.addEventListener("click",function(){printWin("Phiếu viết Địa lí",b.getAttribute("data-btviet-print"));});});})();</script><script src="../assets/nav-chuan.js"></script>
+</div><style>#btviet-dia-mb,#btviet-dia-bai1,#btviet-dia-bai2,#btviet-dia-bai3,#btviet-dia-bai4,#btviet-dia-bai5,#btviet-dia-bai6,#btviet-dia-bai7,#btviet-dia-bai8,#btviet-dia-bai9,#btviet-dia-bai10,#btviet-dia-bai11,#btviet-dia-bai12,#btviet-dia-bai13,#btviet-dia-bai14,#btviet-dia-bai15,#btviet-dia-bai16,#btviet-dia-bai17,#btviet-dia-bai18,#btviet-dia-bai19,#btviet-dia-bai20,#btviet-dia-bai21,#btviet-dia-bai22,#btviet-dia-bai23{border:2px solid #1565c0;background:#f5f9ff;border-radius:12px;padding:16px;margin:24px 0}.btviet-q{font-size:17px;line-height:1.6}.btviet-ph-q{display:block;width:100%;text-align:left;font-size:16px;padding:10px 12px;margin:8px 0;border:1px dashed #1565c0;border-radius:8px;background:#fff;cursor:pointer}.btviet-task .btviet-ph-a{display:none}.btviet-task.open-ph .btviet-ph-a{display:block;background:#fff;border:1px dashed #1565c0;border-radius:8px;padding:10px 12px;margin:0 0 12px}.btviet-btn{display:block;width:100%;font-size:17px;font-weight:700;padding:12px;border:none;border-radius:10px;background:#1565c0;color:#fff;cursor:pointer;margin-top:12px}.btviet-print-src{display:none}.btviet-line{height:30px;border-bottom:1px solid #999}</style><script>(function(){function printWin(title,srcId){var src=document.getElementById(srcId);if(!src)return;var w=window.open("","_blank");if(!w)return;w.document.write("<!doctype html><html><head><meta charset=\"utf-8\"><title>"+title+"</title><style>body{font-family:system-ui,sans-serif;font-size:17px;line-height:1.6;margin:24px}h3{color:#1565c0}.btviet-line{height:30px;border-bottom:1px solid #999}.btviet-ptask{break-inside:avoid;margin-bottom:18px}</style></head><body>"+src.innerHTML+"</body></html>");w.document.close();w.focus();w.print();}document.querySelectorAll(".btviet-ph-q").forEach(function(b){b.addEventListener("click",function(){var t=b.closest(".btviet-task");if(!t)return;t.classList.toggle("open-ph");b.textContent=b.textContent.replace(/▼|▲/,t.classList.contains("open-ph")?"▲":"▼");});});document.querySelectorAll("[data-btviet-print]").forEach(function(b){b.addEventListener("click",function(){printWin("Phiếu viết Địa lí",b.getAttribute("data-btviet-print"));});});})();</script><script>
+/* ===== MO HINH 3D MOI: Bai 10, 12, 16, 19 (dung chung thu vien Three.js cua Bai 6) ===== */
+(function(){
+  var MODELS = {};
+  function base(boxId){
+    var box = document.getElementById(boxId);
+    var renderer = new THREE.WebGLRenderer({antialias:true});
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    box.appendChild(renderer.domElement);
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.8));
+    var dl = new THREE.DirectionalLight(0xffffff, 0.7);
+    dl.position.set(5, 10, 7); scene.add(dl);
+    var group = new THREE.Group(); scene.add(group);
+    var m = {box:box, renderer:renderer, scene:scene, camera:camera, group:group, raf:0, vis:false};
+    var drag = false, px = 0, py = 0;
+    var el = renderer.domElement;
+    el.style.display = 'block'; el.style.width = '100%'; el.style.height = '100%';
+    el.addEventListener('pointerdown', function(e){ if(e.pointerType === 'mouse'){ drag = true; px = e.clientX; py = e.clientY; } });
+    window.addEventListener('pointermove', function(e){
+      if(!drag) return;
+      group.rotation.y += (e.clientX - px) * 0.01;
+      group.rotation.x = Math.max(-0.9, Math.min(0.9, group.rotation.x + (e.clientY - py) * 0.01));
+      px = e.clientX; py = e.clientY;
+    });
+    window.addEventListener('pointerup', function(){ drag = false; });
+    el.addEventListener('wheel', function(e){
+      e.preventDefault();
+      var l = camera.position.length();
+      l = Math.max(4, Math.min(30, l * (e.deltaY > 0 ? 1.1 : 0.9)));
+      camera.position.setLength(l);
+    }, {passive:false});
+    m.resize = function(){
+      var w = box.clientWidth || 640, h = box.clientHeight || 340;
+      if(w < 10 || h < 10) return;
+      renderer.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix();
+    };
+    m.start = function(fn){
+      function tick(){
+        if(!m.vis) return;
+        fn();
+        renderer.render(scene, camera);
+        m.raf = requestAnimationFrame(tick);
+      }
+      m.tick = tick;
+    };
+    return m;
+  }
+  function observe(m, wrapId){
+    var w = document.getElementById(wrapId);
+    if(!w) return;
+    if(!('IntersectionObserver' in window)){ m.vis = true; m.resize(); m.tick(); return; }
+    new IntersectionObserver(function(es){
+      var vis = es[0].isIntersecting;
+      if(vis && !m.vis){ m.vis = true; m.resize(); m.tick(); }
+      else if(!vis && m.vis){ m.vis = false; cancelAnimationFrame(m.raf); }
+    }, {threshold: 0.05}).observe(w);
+  }
+  function showFallback(key){
+    var b = document.getElementById('m3box-' + key), f = document.getElementById('m3fb-' + key);
+    if(b) b.style.display = 'none';
+    if(f) f.style.display = 'block';
+  }
+  function basic(color, opacity){
+    var mt = new THREE.MeshBasicMaterial({color: color});
+    if(opacity !== undefined){ mt.transparent = true; mt.opacity = opacity; }
+    return mt;
+  }
+  function lambert(color, side){
+    return new THREE.MeshLambertMaterial({color: color, side: side || THREE.FrontSide});
+  }
+  function ball(r, mat, x, y, z){
+    var o = new THREE.Mesh(new THREE.SphereGeometry(r, 20, 14), mat);
+    o.position.set(x, y, z); return o;
+  }
+  function pathPos(path, t){
+    if(t <= 0) return path[0];
+    if(t >= 1) return path[path.length - 1];
+    var f = t * (path.length - 1), i = Math.floor(f), u = f - i;
+    var a = path[i], b = path[i + 1];
+    return {x: a.x + (b.x - a.x) * u, y: a.y + (b.y - a.y) * u, z: a.z + (b.z - a.z) * u};
+  }
+  function setInfo(key, text){
+    var el = document.getElementById('m3info-' + key);
+    if(el) el.textContent = text;
+  }
+  function markOn(key, sel){
+    document.querySelectorAll('[data-m3="' + key + '"]').forEach(function(b){
+      b.classList.toggle('on', b === sel);
+    });
+  }
+
+  /* ---------- BAI 10: cat vat Trai Dat ---------- */
+  var EARTH_INFO = {
+    vo: 'Vỏ Trái Đất — mỏng nhất, dày từ khoảng 5 km (dưới đại dương) đến 70 km (dưới lục địa), là nơi con người sinh sống. Ví như vỏ trứng.',
+    manti: 'Lớp bao phủ (manti) — dày như lòng trắng trứng. Các mảng kiến tạo trôi rất chậm trên lớp này, chỉ vài cm mỗi năm.',
+    nhan: 'Nhân ở trung tâm — như lòng đỏ trứng, rất nóng, nhiệt độ lên tới khoảng 6 000°C.'
+  };
+  function buildEarth(){
+    var m = base('m3box-bai10');
+    m.scene.background = new THREE.Color(0x0d1b2e);
+    m.camera.position.set(0, 1.2, 6.5); m.camera.lookAt(0, 0, 0);
+    m.group.rotation.y = Math.PI * 0.75;
+    function shell(r, color){
+      var o = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32, 0, Math.PI * 1.5), lambert(color, THREE.DoubleSide));
+      m.group.add(o); return o;
+    }
+    var vo = shell(2.0, 0x8d6e63);
+    var manti = shell(1.86, 0xff7043);
+    var nhan = ball(1.0, basic(0xfdd835), 0, 0, 0);
+    m.group.add(nhan);
+    var mats = {vo: vo.material, manti: manti.material, nhan: nhan.material};
+    var baseC = {vo: 0x8d6e63, manti: 0xff7043, nhan: 0xfdd835};
+    var hiC = {vo: 0xbcaaa4, manti: 0xff8a65, nhan: 0xffea00};
+    m.setLayer = function(k){
+      Object.keys(mats).forEach(function(key){ mats[key].color.set(key === k ? hiC[key] : baseC[key]); });
+      setInfo('bai10', EARTH_INFO[k]);
+    };
+    m.start(function(){});
+    MODELS.bai10 = m;
+  }
+
+  /* ---------- BAI 12: nui lua ---------- */
+  var VOLC_INFO = [
+    'Bước 1 — Macma (đá nóng chảy) nằm trong lò macma sâu dưới lòng đất.',
+    'Bước 2 — Macma phun trào qua khe nứt của vỏ Trái Đất, lên khỏi miệng núi lửa.',
+    'Bước 3 — Macma phun ra ngoài gọi là dung nham, chảy xuống sườn núi.',
+    'Bước 4 — Tro bụi bay lên cao rồi rơi xuống phủ quanh núi, lâu ngày thành đất đỏ bazan màu mỡ.'
+  ];
+  function buildVolc(){
+    var m = base('m3box-bai12');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 2.6, 8.5); m.camera.lookAt(0, 1.2, 0);
+    var g = m.group; g.rotation.y = Math.PI * 0.25;
+    var ground = new THREE.Mesh(new THREE.RingGeometry(2.3, 6.5, 40), lambert(0x81c784, THREE.DoubleSide));
+    ground.rotation.x = -Math.PI / 2; ground.position.y = 0.02; g.add(ground);
+    var cone = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 2.2, 2.2, 48, 1, false, 0, Math.PI * 1.5), lambert(0x8d6e63, THREE.DoubleSide));
+    cone.position.y = 1.1; g.add(cone);
+    var chamber = ball(0.85, basic(0xff5722), 0, -0.6, 0);
+    chamber.scale.y = 0.7; g.add(chamber);
+    var conduit = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, 2.7, 16), basic(0xff5722));
+    conduit.position.y = 0.85; g.add(conduit);
+    var crater = new THREE.Mesh(new THREE.CircleGeometry(0.35, 24), basic(0xff9800));
+    crater.rotation.x = -Math.PI / 2; crater.position.y = 2.21; g.add(crater);
+    var lavaMat = basic(0xff9800);
+    var paths = [
+      [{x:0.3,y:2.1,z:0.2},{x:0.9,y:1.5,z:0.7},{x:1.5,y:0.7,z:1.2},{x:2.0,y:0.1,z:1.7}],
+      [{x:-0.3,y:2.1,z:-0.2},{x:-1.0,y:1.4,z:-0.8},{x:-1.7,y:0.6,z:-1.3},{x:-2.2,y:0.1,z:-1.7}],
+      [{x:0.1,y:2.1,z:-0.3},{x:0.2,y:1.4,z:-1.0},{x:0.3,y:0.6,z:-1.8},{x:0.4,y:0.1,z:-2.4}]
+    ];
+    var flows = [];
+    paths.forEach(function(p, pi){
+      for(var k = 0; k < 4; k++){
+        var o = ball(0.11, lavaMat, 0, 0, 0);
+        o.visible = false; g.add(o);
+        flows.push({o:o, path:p, t:(k / 4 + pi * 0.13) % 1});
+      }
+    });
+    var bombs = [];
+    for(var i = 0; i < 22; i++){
+      var o = ball(0.09, basic(0xff5722), 0, -5, 0);
+      g.add(o);
+      bombs.push({o:o, v:{x:0,y:0,z:0}, live:false});
+    }
+    function spawnBomb(b){
+      b.o.position.set(0, 2.3, 0);
+      b.v = {x:(Math.random() - 0.5) * 3, y: 3.5 + Math.random() * 2, z:(Math.random() - 0.5) * 3};
+      b.live = true;
+    }
+    var smokes = [];
+    for(var j = 0; j < 12; j++){
+      var o = ball(0.3, basic(0xb0bec5, 0.55), 0, -5, 0);
+      g.add(o);
+      smokes.push({o:o, t: Math.random()});
+    }
+    m.step = 0;
+    m.setStep = function(n){
+      m.step = n;
+      setInfo('bai12', VOLC_INFO[n]);
+    };
+    m.start(function(){
+      var erupting = m.step >= 1;
+      var flowing = m.step >= 2;
+      var ashy = m.step >= 3;
+      crater.material.opacity = erupting ? 1 : 0.7;
+      crater.material.transparent = true;
+      flows.forEach(function(f){
+        f.o.visible = flowing;
+        if(!flowing) return;
+        f.t += 0.0035;
+        if(f.t > 1) f.t = 0;
+        var p = pathPos(f.path, f.t);
+        f.o.position.set(p.x, p.y, p.z);
+      });
+      bombs.forEach(function(b){
+        if(erupting && !b.live) spawnBomb(b);
+        if(!b.live){ b.o.position.y = -5; return; }
+        b.v.y -= 0.09;
+        b.o.position.x += b.v.x * 0.03;
+        b.o.position.y += b.v.y * 0.03;
+        b.o.position.z += b.v.z * 0.03;
+        if(b.o.position.y < 0.1){ if(erupting) spawnBomb(b); else b.live = false; }
+      });
+      smokes.forEach(function(s){
+        if(!erupting && !ashy){ s.o.position.y = -5; return; }
+        s.t += ashy ? 0.006 : 0.0035;
+        if(s.t > 1) s.t = 0;
+        var a = s.t;
+        s.o.position.set((Math.sin(a * 9) * 0.3), 2.3 + a * 2.6, (Math.cos(a * 7) * 0.3));
+        var sc = 0.4 + a * 1.1;
+        s.o.scale.x = sc; s.o.scale.y = sc; s.o.scale.z = sc;
+        s.o.material.opacity = (1 - a) * (ashy ? 0.7 : 0.45);
+      });
+    });
+    MODELS.bai12 = m;
+  }
+
+  /* ---------- BAI 16: doi luu ---------- */
+  var CONV_INFO = [
+    'Bước 1 — Mặt Trời sưởi nóng mặt đất trước; mặt đất nóng lên rồi tỏa nhiệt làm nóng không khí ở sát mặt đất.',
+    'Bước 2 — Không khí nóng nhẹ hơn nên bốc lên cao.',
+    'Bước 3 — Hơi nước bốc lên cao, gặp lạnh, ngưng tụ thành những hạt nước li ti lơ lửng — đó là mây.',
+    'Bước 4 — Các hạt nước trong mây to dần, nặng dần rồi rơi xuống thành mưa.'
+  ];
+  function buildConv(){
+    var m = base('m3box-bai16');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 2.8, 9.5); m.camera.lookAt(0, 1.6, 0);
+    var g = m.group;
+    var ground = new THREE.Mesh(new THREE.PlaneGeometry(12, 7), lambert(0xa5d6a7, THREE.DoubleSide));
+    ground.rotation.x = -Math.PI / 2; ground.position.y = 0; g.add(ground);
+    var sun = ball(0.7, basic(0xffeb3b), -4, 3.6, -1); g.add(sun);
+    var warm = [];
+    for(var i = 0; i < 12; i++){
+      var o = ball(0.12, basic(0xff7043), 0, -5, 0);
+      g.add(o);
+      warm.push({o:o, x:-2.5 + (i % 6) * 1 + 0.3, t: (i / 12)});
+    }
+    var cloudMat = basic(0xffffff, 0.15);
+    var cloud = new THREE.Group();
+    [[-0.9,3.4,0],[0,3.6,0],[0.9,3.4,0],[0,3.3,0.4],[-0.4,3.7,-0.2]].forEach(function(p){
+      cloud.add(ball(0.55, cloudMat, p[0], p[1], p[2]));
+    });
+    g.add(cloud);
+    var rains = [];
+    for(var j = 0; j < 16; j++){
+      var o = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.3, 0.06), basic(0x2196f3));
+      o.position.set(-1.5 + (j % 8) * 0.4, -5, (j < 8 ? 0.2 : -0.2));
+      g.add(o);
+      rains.push({o:o, t: (j / 16)});
+    }
+    m.step = 0;
+    m.setStep = function(n){ m.step = n; setInfo('bai16', CONV_INFO[n]); };
+    m.start(function(){
+      warm.forEach(function(w){
+        w.o.visible = m.step >= 1;
+        if(m.step < 1) return;
+        w.t += 0.004;
+        if(w.t > 1) w.t = 0;
+        w.o.position.set(w.x, 0.2 + w.t * 2.8, 0.3);
+      });
+      cloudMat.opacity = m.step >= 2 ? 0.95 : 0.15;
+      rains.forEach(function(r){
+        r.o.visible = m.step >= 3;
+        if(m.step < 3) return;
+        r.t += 0.02;
+        if(r.t > 1) r.t = 0;
+        r.o.position.y = 3.1 - r.t * 3.0;
+      });
+    });
+    MODELS.bai16 = m;
+  }
+
+  /* ---------- BAI 19: vong tuan hoan nuoc ---------- */
+  var WATER_INFO = [
+    'Bước 1 — Nước biển bốc hơi nhờ năng lượng Mặt Trời.',
+    'Bước 2 — Hơi nước được gió đưa vào đất liền.',
+    'Bước 3 — Hơi nước ngưng tụ thành mây.',
+    'Bước 4 — Mưa rơi xuống đất liền.',
+    'Bước 5 — Nước chảy thành sông, ngấm xuống đất, cuối cùng lại chảy về biển. Vòng này lặp mãi không ngừng (trọng lực kéo nước từ cao xuống thấp).'
+  ];
+  function buildWater(){
+    var m = base('m3box-bai19');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 3.2, 11); m.camera.lookAt(0, 1, 0);
+    var g = m.group;
+    var basePlane = new THREE.Mesh(new THREE.PlaneGeometry(14, 8), lambert(0xc8e6c9, THREE.DoubleSide));
+    basePlane.rotation.x = -Math.PI / 2; basePlane.position.y = 0; g.add(basePlane);
+    var sea = new THREE.Mesh(new THREE.PlaneGeometry(6, 7), lambert(0x0288d1, THREE.DoubleSide));
+    sea.rotation.x = -Math.PI / 2; sea.position.set(-3.5, 0.03, 0); g.add(sea);
+    var land = new THREE.Mesh(new THREE.BoxGeometry(6, 0.8, 7), lambert(0x81c784));
+    land.position.set(2.5, 0.4, 0); g.add(land);
+    var mountain = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 1.4, 1.8, 24), lambert(0x8d6e63));
+    mountain.position.set(3.4, 1.7, 0); g.add(mountain);
+    var sun = ball(0.7, basic(0xffeb3b), -4.5, 4, -1); g.add(sun);
+    var evap = [];
+    for(var i = 0; i < 12; i++){
+      var o = ball(0.1, basic(0x4fc3f7), 0, -5, 0);
+      g.add(o);
+      evap.push({o:o, x:-5.5 + (i % 6) * 0.7, t: (i / 12)});
+    }
+    var drift = [];
+    for(var j = 0; j < 10; j++){
+      var o = ball(0.1, basic(0x4fc3f7), 0, -5, 0);
+      g.add(o);
+      drift.push({o:o, t: (j / 10)});
+    }
+    var cloudMat = basic(0xffffff, 0.15);
+    var cloud = new THREE.Group();
+    [[1.6,4.1,0],[2.5,4.3,0],[3.4,4.1,0],[2.5,4.0,0.4]].forEach(function(p){
+      cloud.add(ball(0.55, cloudMat, p[0], p[1], p[2]));
+    });
+    g.add(cloud);
+    var rains = [];
+    for(var k = 0; k < 14; k++){
+      var o = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.3, 0.06), basic(0x2196f3));
+      o.position.set(1.5 + (k % 7) * 0.4, -5, 0.2);
+      g.add(o);
+      rains.push({o:o, t: (k / 14)});
+    }
+    var riverPath = [{x:3.2,y:0.9,z:0},{x:2.0,y:0.85,z:0.6},{x:0.5,y:0.5,z:0.3},{x:-1.0,y:0.15,z:0},{x:-2.2,y:0.1,z:0}];
+    var riverMat = basic(0x29b6f6);
+    var riverFlow = [];
+    for(var r = 0; r < 8; r++){
+      var o = ball(0.12, riverMat, 0, -5, 0);
+      g.add(o);
+      riverFlow.push({o:o, t: (r / 8)});
+    }
+    m.step = 0;
+    m.setStep = function(n){ m.step = n; setInfo('bai19', WATER_INFO[n]); };
+    m.start(function(){
+      evap.forEach(function(e){
+        e.o.visible = true;
+        e.t += 0.004;
+        if(e.t > 1) e.t = 0;
+        e.o.position.set(e.x, 0.2 + e.t * 3.0, 0.3);
+      });
+      drift.forEach(function(d){
+        d.o.visible = m.step >= 1;
+        if(m.step < 1) return;
+        d.t += 0.004;
+        if(d.t > 1) d.t = 0;
+        d.o.position.set(-2 + d.t * 4.2, 3.4 + d.t * 0.4, 0.3);
+      });
+      cloudMat.opacity = m.step >= 2 ? 0.95 : 0.15;
+      rains.forEach(function(r){
+        r.o.visible = m.step >= 3;
+        if(m.step < 3) return;
+        r.t += 0.02;
+        if(r.t > 1) r.t = 0;
+        r.o.position.y = 3.8 - r.t * 2.9;
+      });
+      riverFlow.forEach(function(f){
+        f.o.visible = m.step >= 4;
+        if(m.step < 4) return;
+        f.t += 0.004;
+        if(f.t > 1) f.t = 0;
+        var p = pathPos(riverPath, f.t);
+        f.o.position.set(p.x, p.y, p.z);
+      });
+    });
+    MODELS.bai19 = m;
+  }
+
+  /* ---------- khoi dong + nut bam ---------- */
+  var BUILDERS = {bai10: buildEarth, bai12: buildVolc, bai16: buildConv, bai19: buildWater};
+
+  /* ---------- BAI 1: qua dia cau luoi kinh vi ---------- */
+  var GLOBE_INFO = {
+    equator: 'Xích đạo (0°) — vĩ tuyến dài nhất, chia Trái Đất thành bán cầu Bắc và bán cầu Nam.',
+    prime: 'Kinh tuyến gốc (0°) — đi qua Đài thiên văn Gờ-rin-uýt ở Luân Đôn (Anh).',
+    meridian: 'Kinh tuyến — đường dọc nối hai cực Bắc – Nam. Kinh độ của một điểm là khoảng cách góc từ điểm đó tới kinh tuyến gốc.',
+    parallel: 'Vĩ tuyến — đường tròn song song với Xích đạo. Vĩ độ của một điểm là khoảng cách góc tới Xích đạo.'
+  };
+  function buildGlobe(){
+    var m = base('m3box-bai1');
+    m.scene.background = new THREE.Color(0x0d1b2e);
+    m.camera.position.set(0, 1.0, 6.5); m.camera.lookAt(0, 0, 0);
+    m.group.rotation.y = 0.6;
+    m.group.add(new THREE.Mesh(new THREE.SphereGeometry(2, 48, 32), lambert(0x1565c0)));
+    var dim = 0x90caf9, hi = 0xffeb3b;
+    function torus(r, tube, mat){
+      return new THREE.Mesh(new THREE.TorusGeometry(r, tube, 8, 64), mat);
+    }
+    function band(latDeg, color){
+      var th = latDeg * Math.PI / 180;
+      var o = torus(2.02 * Math.cos(th), 0.012, basic(color));
+      o.rotation.x = Math.PI / 2; o.position.y = 2.02 * Math.sin(th);
+      m.group.add(o); return o;
+    }
+    var groups = {equator: [], prime: [], meridian: [], parallel: []};
+    var eq = torus(2.02, 0.02, basic(dim));
+    eq.rotation.x = Math.PI / 2; m.group.add(eq); groups.equator.push(eq.material);
+    var pr = new THREE.Mesh(new THREE.TorusGeometry(2.02, 0.02, 8, 32, Math.PI), basic(dim));
+    pr.rotation.z = -Math.PI / 2; m.group.add(pr); groups.prime.push(pr.material);
+    for(var a = 0; a < 6; a++){
+      var mer = torus(2.02, 0.012, basic(dim));
+      mer.rotation.y = a * Math.PI / 6; m.group.add(mer); groups.meridian.push(mer.material);
+    }
+    [30, 60, -30, -60].forEach(function(lat){ groups.parallel.push(band(lat, dim).material); });
+    m.setLayer = function(k){
+      Object.keys(groups).forEach(function(key){
+        groups[key].forEach(function(mt){ mt.color.set(key === k ? hi : dim); });
+      });
+      setInfo('bai1', GLOBE_INFO[k]);
+    };
+    m.start(function(){});
+    MODELS.bai1 = m;
+  }
+
+  /* ---------- BAI 11: hai mang xo nhau tao nui ---------- */
+  var PLATE_INFO = [
+    'Hai mảng kiến tạo nằm cạnh nhau. Nội sinh (từ bên trong lòng đất) “xây” lên, ngoại sinh (nắng, gió, nước) “gọt” xuống — hai quá trình ngược nhau nhưng xảy ra cùng lúc.',
+    'Hai mảng xô vào nhau.',
+    'Đất đá bị nén, uốn nếp.',
+    'Đất đá bị đẩy cao lên thành dãy núi — như dãy Hi-ma-lay-a, “nóc nhà thế giới”.'
+  ];
+  function buildPlates(){
+    var m = base('m3box-bai11');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 2.5, 8.5); m.camera.lookAt(0, 0.5, 0);
+    var g = m.group;
+    var ground = new THREE.Mesh(new THREE.PlaneGeometry(12, 6), lambert(0xc8e6c9, THREE.DoubleSide));
+    ground.rotation.x = -Math.PI / 2; ground.position.y = -0.26; g.add(ground);
+    var left = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.5, 2.6), lambert(0x8d6e63));
+    left.position.set(-2.4, 0, 0); g.add(left);
+    var right = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.5, 2.6), lambert(0xa1887f));
+    right.position.set(2.4, 0, 0); g.add(right);
+    var fold = [];
+    for(var i = 0; i < 3; i++){
+      var f = new THREE.Mesh(new THREE.BoxGeometry(2.0, 0.12, 2.2), lambert(0x6d4c41));
+      f.position.set(0, 0.32 + i * 0.18, 0); f.visible = false; g.add(f); fold.push(f);
+    }
+    var mountain = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 1.3, 1.6, 24), lambert(0x78909c));
+    mountain.position.set(0, 0.3, 0); mountain.scale.x = 0.3; mountain.scale.y = 0.05; mountain.scale.z = 0.3; g.add(mountain);
+    m.step = 0;
+    m.setStep = function(n){ m.step = n; setInfo('bai11', PLATE_INFO[n]); };
+    m.start(function(){
+      var tx = m.step >= 1 ? 1.5 : 2.4;
+      left.position.x += (-tx - left.position.x) * 0.05;
+      right.position.x += (tx - right.position.x) * 0.05;
+      var ts = m.step >= 3 ? 1 : (m.step >= 2 ? 0.55 : 0.05);
+      mountain.scale.x += (ts - mountain.scale.x) * 0.05;
+      mountain.scale.z += (ts - mountain.scale.z) * 0.05;
+      mountain.scale.y += (ts - mountain.scale.y) * 0.05;
+      mountain.position.y = 0.25 + 0.8 * mountain.scale.y;
+      fold.forEach(function(f, i){
+        f.visible = m.step >= 2;
+        f.rotation.z = m.step >= 2 ? (i === 1 ? 0.12 : -0.1) : 0;
+      });
+    });
+    MODELS.bai11 = m;
+  }
+
+  /* ---------- BAI 13: 4 dang dia hinh ---------- */
+  var TERRAIN_INFO = {
+    nui: 'Núi — cao trên 500 m so với mực nước biển, đỉnh nhọn, sườn dốc. Núi thấp dưới 1 000 m, núi trung bình 1 000–2 000 m, núi cao trên 2 000 m. Ê-vơ-rét cao khoảng 8 848 m, cao nhất thế giới.',
+    caonguyen: 'Cao nguyên — cao trên 500 m nhưng bề mặt tương đối bằng phẳng như một chiếc bàn khổng lồ.',
+    doi: 'Đồi — thấp hơn 500 m, đỉnh tròn, sườn thoải.',
+    dongbang: 'Đồng bằng — thấp dưới 200 m, bề mặt bằng phẳng, đất đai màu mỡ.'
+  };
+  function buildTerrain(){
+    var m = base('m3box-bai13');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 3, 10.5); m.camera.lookAt(0, 0.8, 0);
+    var g = m.group;
+    var ground = new THREE.Mesh(new THREE.PlaneGeometry(13, 6), lambert(0xc8e6c9, THREE.DoubleSide));
+    ground.rotation.x = -Math.PI / 2; g.add(ground);
+    var nui = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 1.3, 2.6, 24), lambert(0x8d6e63));
+    nui.position.set(-4.3, 1.3, 0); g.add(nui);
+    var cap = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.35, 0.5, 16), lambert(0xffffff));
+    cap.position.set(-4.3, 2.4, 0); g.add(cap);
+    var cn = new THREE.Mesh(new THREE.CylinderGeometry(1.3, 1.3, 1.2, 24), lambert(0xa1887f));
+    cn.position.set(-1.4, 0.6, 0); g.add(cn);
+    var doi = ball(1.3, lambert(0x81c784), 1.5, 0.28, 0);
+    doi.scale.y = 0.42; g.add(doi);
+    var db = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.25, 2.4), lambert(0xa5d6a7));
+    db.position.set(4.3, 0.125, 0); g.add(db);
+    var mats = {nui: nui.material, caonguyen: cn.material, doi: doi.material, dongbang: db.material};
+    var baseC = {nui: 0x8d6e63, caonguyen: 0xa1887f, doi: 0x81c784, dongbang: 0xa5d6a7};
+    var hiC = {nui: 0xbcaaa4, caonguyen: 0xd7ccc8, doi: 0xa5d6a7, dongbang: 0xc8e6c9};
+    m.setLayer = function(k){
+      Object.keys(mats).forEach(function(key){ mats[key].color.set(key === k ? hiC[key] : baseC[key]); });
+      setInfo('bai13', TERRAIN_INFO[k]);
+    };
+    m.start(function(){});
+    MODELS.bai13 = m;
+  }
+
+  /* ---------- BAI 15: cac loai gio ---------- */
+  var WIND_INFO = {
+    tinphong: 'Gió Tín phong — thổi từ hai chí tuyến về phía Xích đạo (từ nơi áp cao ở chí tuyến sang nơi áp thấp ở Xích đạo).',
+    tay: 'Gió Tây ôn đới — thổi từ chí tuyến về vùng ôn đới.',
+    dongcuc: 'Gió Đông cực — thổi từ hai cực về vùng ôn đới.'
+  };
+  function buildWinds(){
+    var m = base('m3box-bai15');
+    m.scene.background = new THREE.Color(0x0d1b2e);
+    m.camera.position.set(0, 1.0, 6.5); m.camera.lookAt(0, 0, 0);
+    m.group.rotation.y = 0.6;
+    m.group.add(new THREE.Mesh(new THREE.SphereGeometry(2, 48, 32), lambert(0x1565c0)));
+    function belt(lat, color, dir){
+      var th = lat * Math.PI / 180;
+      var mat = basic(color);
+      var o = new THREE.Mesh(new THREE.TorusGeometry(2.06 * Math.cos(th), 0.045, 8, 64), mat);
+      o.rotation.x = Math.PI / 2; o.position.y = 2.06 * Math.sin(th);
+      m.group.add(o);
+      var ps = [];
+      for(var i = 0; i < 8; i++){
+        var p = ball(0.07, basic(0xffffff), 0, 0, 0);
+        m.group.add(p); ps.push({o:p, a:(i / 8) * Math.PI * 2});
+      }
+      return {mat:mat, lat:lat, dir:dir, ps:ps};
+    }
+    var belts = {
+      tinphong: [belt(15, 0x4fc3f7, -1), belt(-15, 0x4fc3f7, -1)],
+      tay: [belt(45, 0x81c784, 1), belt(-45, 0x81c784, 1)],
+      dongcuc: [belt(75, 0xce93d8, -1), belt(-75, 0xce93d8, -1)]
+    };
+    var baseC2 = {tinphong: 0x4fc3f7, tay: 0x81c784, dongcuc: 0xce93d8};
+    var sel = null;
+    m.setLayer = function(k){
+      sel = k;
+      Object.keys(belts).forEach(function(key){
+        belts[key].forEach(function(b){ b.mat.color.set(key === k ? 0xffeb3b : baseC2[key]); });
+      });
+      setInfo('bai15', WIND_INFO[k]);
+    };
+    var t = 0;
+    m.start(function(){
+      t += 0.008;
+      Object.keys(belts).forEach(function(key){
+        var on = (sel === null || sel === key);
+        belts[key].forEach(function(b){
+          b.ps.forEach(function(p){
+            p.o.visible = on;
+            if(!on) return;
+            var a = p.a + t * b.dir;
+            var th = b.lat * Math.PI / 180, R = 2.06 * Math.cos(th);
+            p.o.position.set(R * Math.cos(a), 2.06 * Math.sin(th), R * Math.sin(a));
+          });
+        });
+      });
+    });
+    MODELS.bai15 = m;
+  }
+
+  /* ---------- BAI 21: nuoc bien van dong ---------- */
+  var SEA_INFO = [
+    'Sóng — do gió làm mặt biển nhấp nhô, vỗ vào bờ.',
+    'Thủy triều — nước biển lên xuống theo Mặt Trăng.',
+    'Dòng biển — những “con sông” chảy trong đại dương.'
+  ];
+  function buildSea(){
+    var m = base('m3box-bai21');
+    m.scene.background = new THREE.Color(0xb3e5fc);
+    m.camera.position.set(0, 3, 10); m.camera.lookAt(0, 0, 0);
+    var g = m.group;
+    var sea = new THREE.Mesh(new THREE.PlaneGeometry(10, 6), lambert(0x0288d1, THREE.DoubleSide));
+    sea.rotation.x = -Math.PI / 2; sea.position.y = 0; g.add(sea);
+    var shore = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.5, 6), lambert(0xc8e6c9));
+    shore.position.set(5.2, 0.25, 0); g.add(shore);
+    var moon = ball(0.55, basic(0xfff9c4), -3.5, 3.5, -1);
+    moon.visible = false; g.add(moon);
+    var waves = [];
+    for(var i = 0; i < 12; i++){
+      var o = ball(0.12, basic(0x4fc3f7), 0, 0, 0);
+      g.add(o);
+      waves.push({o:o, x:-4 + i * 0.7, ph:(i / 12) * Math.PI * 2});
+    }
+    function loopPath(cx, cz, rx, rz, color){
+      var ps = [];
+      for(var j = 0; j < 8; j++){
+        var o = ball(0.1, basic(color), 0, -5, 0);
+        g.add(o); ps.push({o:o, a:(j / 8) * Math.PI * 2});
+      }
+      return {ps:ps, cx:cx, cz:cz, rx:rx, rz:rz};
+    }
+    var loops = [loopPath(-1, 0, 2.6, 1.6, 0xff8a65), loopPath(-1, 0, 2.6, 1.6, 0x4fc3f7)];
+    loops[1].ps.forEach(function(p){ p.a += 0.4; });
+    m.step = 0;
+    m.setStep = function(n){ m.step = n; setInfo('bai21', SEA_INFO[n]); };
+    var t = 0;
+    m.start(function(){
+      t += 0.03;
+      var amp = m.step === 0 ? 0.18 : 0.06;
+      waves.forEach(function(w){
+        w.o.position.set(w.x, 0.12 + Math.sin(t * 2 + w.ph) * amp, 1.5);
+      });
+      moon.visible = m.step === 1;
+      sea.position.y = m.step === 1 ? Math.sin(t) * 0.15 : 0;
+      loops.forEach(function(L, li){
+        L.ps.forEach(function(p){
+          p.o.visible = m.step === 2;
+          if(m.step !== 2) return;
+          p.a += (li === 0 ? 0.008 : -0.008);
+          p.o.position.set(L.cx + Math.cos(p.a) * L.rx, 0.12, L.cz + Math.sin(p.a) * L.rz);
+        });
+      });
+    });
+    MODELS.bai21 = m;
+  }
+
+  BUILDERS.bai1 = buildGlobe; BUILDERS.bai11 = buildPlates; BUILDERS.bai13 = buildTerrain; BUILDERS.bai15 = buildWinds; BUILDERS.bai21 = buildSea;
+  Object.keys(BUILDERS).forEach(function(key){
+    try{
+      if(typeof THREE === 'undefined'){ showFallback(key); return; }
+      BUILDERS[key]();
+      var mm = MODELS[key];
+      if(mm) observe(mm, 'm3wrap-' + key);
+    }catch(e){ showFallback(key); }
+  });
+  function resizeAll(){
+    Object.keys(MODELS).forEach(function(k){ MODELS[k].resize(); });
+  }
+  window.addEventListener('resize', resizeAll);
+  document.addEventListener('fullscreenchange', resizeAll);
+  document.addEventListener('webkitfullscreenchange', resizeAll);
+  document.addEventListener('mozfullscreenchange', resizeAll);
+  document.addEventListener('click', function(e){
+    var t = e.target;
+    if(!t || !t.closest) return;
+    var lb = t.closest('[data-m3][data-layer]');
+    if(lb){
+      var mm = MODELS[lb.dataset.m3];
+      if(mm && mm.setLayer){ mm.setLayer(lb.dataset.layer); markOn(lb.dataset.m3, lb); }
+      return;
+    }
+    var sb = t.closest('[data-m3][data-step]');
+    if(sb){
+      var key = sb.dataset.m3, mm2 = MODELS[key];
+      if(mm2 && mm2.setStep){
+        stopPlay(key);
+        mm2.setStep(parseInt(sb.dataset.step, 10));
+        markOn(key, sb);
+      }
+      return;
+    }
+    var pb = t.closest('[data-m3play]');
+    if(pb){
+      var key2 = pb.dataset.m3play, mm3 = MODELS[key2];
+      if(!mm3 || !mm3.setStep) return;
+      if(mm3._play){ stopPlay(key2); return; }
+      var steps = document.querySelectorAll('[data-m3="' + key2 + '"][data-step]').length;
+      mm3.setStep(0);
+      markOn(key2, document.querySelector('[data-m3="' + key2 + '"][data-step="0"]'));
+      pb.textContent = '⏸ Dừng chạy';
+      mm3._play = setInterval(function(){
+        var cur = mm3.step;
+        if(cur >= steps - 1){ stopPlay(key2); return; }
+        mm3.setStep(cur + 1);
+        markOn(key2, document.querySelector('[data-m3="' + key2 + '"][data-step="' + (cur + 1) + '"]'));
+      }, 4000);
+      return;
+    }
+    var rb = t.closest('[data-m3rot]');
+    if(rb){
+      var mm4 = MODELS[rb.dataset.m3rot];
+      if(mm4) mm4.group.rotation.y += parseInt(rb.dataset.dir, 10) * 0.5;
+      return;
+    }
+    var fb = t.closest('[data-m3full]');
+    if(fb){
+      var w = document.getElementById(fb.dataset.m3full);
+      if(!w) return;
+      var isFull = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement;
+      if(isFull){
+        if(document.exitFullscreen) document.exitFullscreen();
+        else if(document.webkitExitFullscreen) document.webkitExitFullscreen();
+        else if(document.mozCancelFullScreen) document.mozCancelFullScreen();
+      }else{
+        if(w.requestFullscreen) w.requestFullscreen();
+        else if(w.webkitRequestFullscreen) w.webkitRequestFullscreen();
+        else if(w.mozRequestFullScreen) w.mozRequestFullScreen();
+      }
+      return;
+    }
+  });
+  function stopPlay(key){
+    var mm = MODELS[key];
+    if(mm && mm._play){ clearInterval(mm._play); mm._play = null; }
+    var pb = document.querySelector('[data-m3play="' + key + '"]');
+    if(pb) pb.textContent = '▶ Chạy toàn bộ';
+  }
+})();
+</script>
+<script src="../assets/nav-chuan.js"></script>
 
 <script>
 /* Cầu nối 3D Bài 6: logic menu cũ gọi window.__onShow mỗi lần chuyển bài;
