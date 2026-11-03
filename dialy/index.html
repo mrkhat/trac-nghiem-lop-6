@@ -1460,7 +1460,7 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
     var dl = new THREE.DirectionalLight(0xffffff, 0.7);
     dl.position.set(5, 10, 7); scene.add(dl);
     var group = new THREE.Group(); scene.add(group);
-    var m = {box:box, renderer:renderer, scene:scene, camera:camera, group:group, raf:0, vis:false};
+    var m = {box:box, renderer:renderer, scene:scene, camera:camera, group:group, raf:0, vis:false, drawn:false};
     var drag = false, px = 0, py = 0;
     var el = renderer.domElement;
     el.style.display = 'block'; el.style.width = '100%'; el.style.height = '100%';
@@ -1488,6 +1488,7 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
         if(!m.vis) return;
         fn();
         renderer.render(scene, camera);
+        m.drawn = true;
         m.raf = requestAnimationFrame(tick);
       }
       m.tick = tick;
@@ -1497,12 +1498,43 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
   function observe(m, wrapId){
     var w = document.getElementById(wrapId);
     if(!w) return;
-    if(!('IntersectionObserver' in window)){ m.vis = true; m.resize(); m.tick(); return; }
+    if(!('IntersectionObserver' in window)){ m.vis = true; m.resize(); scheduleFallbackCheck(wrapId.replace('m3wrap-', ''), m); m.tick(); return; }
     new IntersectionObserver(function(es){
       var vis = es[0].isIntersecting;
-      if(vis && !m.vis){ m.vis = true; m.resize(); m.tick(); }
+      if(vis && !m.vis){ m.vis = true; m.resize(); scheduleFallbackCheck(wrapId.replace('m3wrap-', ''), m); m.tick(); }
       else if(!vis && m.vis){ m.vis = false; cancelAnimationFrame(m.raf); }
     }, {threshold: 0.05}).observe(w);
+  }
+  function wrapVisible(w){
+    if(!w || !w.isConnected) return false;
+    var el = w;
+    while(el && el !== document.body){
+      if(el.hidden) return false;
+      if(el.style && el.style.display === 'none') return false;
+      el = el.parentNode;
+    }
+    return true;
+  }
+  function scheduleFallbackCheck(key, mm){
+    if(!mm || mm._fbTimer) return;
+    mm._fbTimer = setTimeout(function(){
+      mm._fbTimer = 0;
+      var w = document.getElementById('m3wrap-' + key);
+      if(!w || !wrapVisible(w) || mm.fbShown) return;
+      var cv = mm.box && mm.box.querySelector('canvas');
+      var blank = !cv || cv.clientWidth < 10 || cv.clientHeight < 10 || !mm.drawn;
+      if(blank){ mm.fbShown = true; mm.vis = false; cancelAnimationFrame(mm.raf); showFallback(key); }
+    }, 1000);
+  }
+  function activateVisible(){
+    Object.keys(MODELS).forEach(function(k){
+      var mm = MODELS[k];
+      if(!mm || mm.vis || mm.fbShown) return;
+      var w = document.getElementById('m3wrap-' + k);
+      if(!w || !wrapVisible(w)) return;
+      mm.vis = true; mm.resize(); scheduleFallbackCheck(k, mm);
+      try{ mm.tick(); }catch(e){ if(window.console) console.error(e); }
+    });
   }
   function showFallback(key){
     var b = document.getElementById('m3box-' + key), f = document.getElementById('m3fb-' + key);
@@ -3074,12 +3106,21 @@ document.querySelectorAll('.minicard').forEach(function(c){c.addEventListener('c
   });
   function resizeAll(){
     Object.keys(MODELS).forEach(function(k){ MODELS[k].resize(); });
+    activateVisible();
   }
   window.addEventListener('resize', resizeAll);
   document.addEventListener('fullscreenchange', resizeAll);
   document.addEventListener('webkitfullscreenchange', resizeAll);
   document.addEventListener('mozfullscreenchange', resizeAll);
+  if('MutationObserver' in window){
+    var m3mo = new MutationObserver(function(){ setTimeout(activateVisible, 0); });
+    document.querySelectorAll('section.lesson, section.partsum').forEach(function(el){
+      m3mo.observe(el, {attributes:true, attributeFilter:['class']});
+    });
+  }
+  setTimeout(activateVisible, 0);
   document.addEventListener('click', function(e){
+    setTimeout(activateVisible, 0);
     var t = e.target;
     if(!t || !t.closest) return;
     var lb = t.closest('[data-m3][data-layer]');
