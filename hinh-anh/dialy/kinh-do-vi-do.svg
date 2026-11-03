@@ -21,16 +21,18 @@
     <text x="228" y="330" font-weight="bold" fill="#c62828">Cực Nam</text>
     <line x1="330" y1="176" x2="392" y2="86" stroke="#37474f" stroke-width="1.4"/>
     <text x="398" y="80" font-weight="bold" fill="#2e7d32">Kinh tuyến</text>
-    <text x="398" y="102" font-size="15" fill="#455a64">đường nối Cực Bắc – Cực Nam;</text>
-    <text x="398" y="122" font-size="15" fill="#455a64">đường xanh lá đậm là kinh tuyến gốc 0°</text>
+    <text x="398" y="102" font-size="15" fill="#455a64">đường nối Cực Bắc –</text>
+    <text x="398" y="122" font-size="15" fill="#455a64">Cực Nam; đường xanh lá</text>
+    <text x="398" y="142" font-size="15" fill="#455a64">đậm là kinh tuyến gốc 0°</text>
     <line x1="92" y1="140" x2="36" y2="120" stroke="#37474f" stroke-width="1.4"/>
     <text x="30" y="106" font-weight="bold" fill="#1565c0">Vĩ tuyến</text>
     <text x="30" y="86" font-size="15" fill="#455a64">các vòng tròn song song</text>
     <text x="30" y="66" font-size="15" fill="#455a64">với Xích đạo</text>
     <line x1="300" y1="205" x2="392" y2="238" stroke="#c62828" stroke-width="1.4"/>
     <text x="398" y="244" font-weight="bold" fill="#c62828">Xích đạo</text>
-    <text x="398" y="266" font-size="15" fill="#455a64">vĩ tuyến 0°, vĩ tuyến lớn nhất,</text>
-    <text x="398" y="286" font-size="15" fill="#455a64">chia Trái Đất thành bán cầu Bắc và Nam</text>
+    <text x="398" y="266" font-size="15" fill="#455a64">vĩ tuyến 0°, vĩ tuyến</text>
+    <text x="398" y="286" font-size="15" fill="#455a64">lớn nhất, chia Trái Đất</text>
+    <text x="398" y="306" font-size="15" fill="#455a64">thành bán cầu Bắc và Nam</text>
   </g>
   <text x="320" y="368" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607d8b">Hệ thống kinh tuyến – vĩ tuyến trên quả Địa Cầu (sơ đồ minh họa đơn giản hoá).</text>
 </svg>
