@@ -204,6 +204,7 @@ button{font-family:inherit}
 
   <div class="chk"><p>❓ <b>Gợi nhớ:</b> 🖼️ Nhìn hình các nhà khoa học trong phòng thí nghiệm: họ đang làm hoạt động gì? Hoạt động đó có phải là nghiên cứu khoa học không?</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Họ đang làm thí nghiệm, tìm tòi khám phá cái mới — đó chính là hoạt động nghiên cứu khoa học.</div></div><div class="chk"><p>❓ <b>Gợi nhớ:</b> Kể tên 5 lĩnh vực của Khoa học tự nhiên.</p><button class="chk-btn">Xem đáp án</button><div class="chk-a">✅ Vật lí học, Hóa học, Sinh học, Thiên văn học và Khoa học Trái Đất.</div></div>
   <div class="fc-sec"><div class="fc-title">🃏 Flashcard của bài — bấm vào thẻ để lật mặt sau; nhớ rồi thì bấm ✔ Đã thuộc</div><div class="fc-tools"><span class="fc-prog" data-prog="bai1"></span><button class="fc-filter" data-filter="bai1">Chỉ xem thẻ chưa thuộc</button></div><div class="fc-grid" data-fc="bai1"></div></div>
+  <div style="margin:16px 0"><button type="button" onclick="inBaiTap(1, "Bài 1. Giới thiệu về Khoa học tự nhiên")" style="padding:10px 18px;font-size:17px;border-radius:10px;border:2px solid #1565c0;background:#e3f2fd;cursor:pointer">🖨️ In bài tập</button> <span style="font-size:15px;color:#546e7a">In phiếu bài tập của bài này để làm trên giấy (không in đáp án).</span></div>
   <div class="next">✅ Xong Bài 1 rồi! Ôn thẻ xong thì đi tiếp 👉 <a class="next" href="#bai2">Bài 2: An toàn phòng thực hành</a></div>
 </div>
 <!-- BÀI 2 -->
@@ -2162,5 +2163,37 @@ document.querySelectorAll('[data-fc]').forEach(function(box){
   };
 </script>
 <script src="../assets/nav-chuan.js"></script>
+<script>
+/* ===== PHIẾU IN BÀI TẬP (thí điểm 1 bài/môn) =====
+   Theo mẫu printWin của Lịch sử/Địa lí (mở cửa sổ mới, ghi HTML rồi in),
+   nhưng nội dung phiếu SINH TỪ questions.json của đúng bài đó (không viết
+   tay, không chép đáp án): chỉ in câu hỏi + ☐, không in answer/explanation.
+   Câu nào hỏi tới hình mà phiếu không có hình kèm theo thì bị loại và ghi rõ
+   số câu đã loại ở cuối phiếu. */
+function inBaiTap(bai, tenBai){
+  fetch('questions.json').then(function(r){return r.json();}).then(function(all){
+    var qs=all.filter(function(q){return Number(q.bai)===bai;});
+    var excl=[];
+    var rows=qs.filter(function(q){
+      if(/hình|biểu tượng/i.test(q.question||'')){excl.push(q);return false;}
+      return true;
+    });
+    var h='<h2>'+tenBai+'</h2><p>Họ và tên: ______________________ &nbsp; Ngày: ____/____/________</p>';
+    h+='<h3>Phần 1. Trắc nghiệm — khoanh vào ☐ trước đáp án em chọn</h3>';
+    rows.forEach(function(q,i){
+      h+='<div class="pq"><p><b>Câu '+(i+1)+'. '+q.question+'</b></p>';
+      (q.options||[]).forEach(function(o){h+='<p>☐ '+o+'</p>';});
+      h+='</div>';
+    });
+    h+='<h3>Phần 2. Làm bài trên giấy</h3><p>Viết lại đáp án và giải thích ngắn gọn cho 2 câu em thấy khó nhất vào các dòng dưới đây.</p>';
+    for(var i=0;i<6;i++){h+='<div class="rline"></div>';}
+    if(excl.length){h+='<p><i>Đã bỏ '+excl.length+' câu cần xem hình (không có hình kèm theo trong phiếu này).</i></p>';}
+    h+='<p><i>Đáp án xem trên phần mềm.</i></p>';
+    var w=window.open('','_blank');
+    w.document.write('<!doctype html><html><head><meta charset="utf-8"><title>'+tenBai+'</title><style>body{font-family:Arial,sans-serif;font-size:16px;line-height:1.7;padding:24px;color:#000}h2{font-size:22px}h3{font-size:19px}.rline{height:30px;border-bottom:1px solid #888}.pq{break-inside:avoid;margin:0 0 14px}</style></head><body>'+h+'</body></html>');
+    w.document.close(); w.focus(); w.print();
+  }).catch(function(){alert('Không tải được questions.json, em thử lại nhé.');});
+}
+</script>
 </body>
 </html>
