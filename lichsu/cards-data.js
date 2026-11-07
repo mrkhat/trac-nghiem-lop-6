@@ -186,5 +186,5 @@ const CARDS=[
 ["Kể tên 3 loại tư liệu lịch sử và cho ví dụ mỗi loại.","Tư liệu hiện vật (trống đồng, rìu đá) – tư liệu chữ viết (bia đá, sử sách) – tư liệu truyền miệng (truyền thuyết, chuyện kể qua nhiều đời).","b2loai"],
 ["Tư liệu gốc là gì? Vì sao đáng tin hơn?","Là tư liệu ra đời cùng thời với sự kiện, ví dụ bia đá khắc đúng thời đó. Đáng tin hơn vì không qua kể lại, viết lại về sau.","b2goc"],
 ["Vì sao phải đối chiếu nhiều tư liệu trước khi kết luận?","Vì một nguồn duy nhất có thể thiếu hoặc sai lệch, nhất là chuyện truyền miệng dễ thêm bớt; nhiều nguồn khớp nhau thì kết luận mới chắc chắn.","b2doi"],
-["“Phục hưng lại lịch sử” nghĩa là gì?","Là từ những manh mối rời rạc ghép lại thành bức tranh quá khứ hoàn chỉnh; chỗ nào thiếu chứng cứ thì nói rõ là chưa biết, không bịa thêm.","b2ghep"]
+["“Phục dựng lại lịch sử” nghĩa là gì?","Là từ những manh mối rời rạc ghép lại thành bức tranh quá khứ hoàn chỉnh; chỗ nào thiếu chứng cứ thì nói rõ là chưa biết, không bịa thêm.","b2ghep"]
 ];
