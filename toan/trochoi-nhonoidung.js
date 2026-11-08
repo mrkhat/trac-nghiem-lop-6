@@ -100,6 +100,7 @@
   ];
   var EXCLUDED = ['tap-hop', 'hon-so', 'bieu-do-cot-kep', 'truc-so-nguyen'];
   var LS_KEY = 'toan6_nhonoidung_v1';
+  var LS_STATE = 'toan6_nhonoidung_state_v1'; /* luu do kho + so vong de tai lai trang khong mat */
   var MAX_ROUNDS = 20;
   var ROUND_LEN = 5;
   var TIPS = [
@@ -177,7 +178,25 @@
     for (var i = 0; i < ws.length; i++) if (!wordHit(ws[i], typedWords)) return false;
     return true;
   }
-  /* Cham 1 cau: tra {score, hit:[tu khoa], miss:[tu khoa]}. */
+  /* Tim lai dang co dau cua 1 tu khoa (da chuan hoa) trong doan hien thi, de
+     hien "Con thieu" bang chu co dau cho be/ba me de doc. Khong tim thay thi
+     tra lai chinh tu khoa — chi doi cach hien, khong doi cach cham. */
+  function displayPhrase(text, normKw) {
+    var words = String(text || '').split(/\s+/).filter(Boolean);
+    var nws = words.map(function (w) { return norm(w); });
+    var kw = String(normKw || '').split(' ').filter(Boolean);
+    if (!kw.length || !words.length) return normKw;
+    for (var i = 0; i + kw.length <= nws.length; i++) {
+      var ok = true;
+      for (var j = 0; j < kw.length; j++) if (nws[i + j] !== kw[j]) { ok = false; break; }
+      if (ok) return words.slice(i, i + kw.length).join(' ');
+    }
+    return normKw;
+  }
+  function missDisplayList(displayText, miss) {
+    return (miss || []).map(function (k) { return displayPhrase(displayText, k); });
+  }
+  /* Cham 1 cau: tra {score, hit:[tu khoa], miss:[tu khoa], missDisp:[dang co dau]}. */
   function grade(typed, item) {
     var tn = norm(typed), tw = wordsOf(tn), score = 0, hit = [], miss = [];
     item.kw.forEach(function (k) {
@@ -186,7 +205,9 @@
       for (var i = 0; i < cands.length; i++) if (kwHit(cands[i], tn, tw)) { ok = true; break; }
       if (ok) { score += k.pts; hit.push(k.t); } else miss.push(k.t);
     });
-    return { score: score, hit: hit, miss: miss };
+    var disp = '';
+    try { disp = qDisplay(item); } catch (e) { disp = item.display || ''; }
+    return { score: score, hit: hit, miss: miss, missDisp: missDisplayList(disp, miss) };
   }
   /* Chuyen ky hieu thanh loi (§3) — dung khi can doc mot doan chua co ban spoken tay. */
   function toSpeech(text) {
@@ -486,7 +507,7 @@
     var res = grade(typed, state.cur.item);
     var rec = { cardId: state.cur.item.id, prompt: qDisplay(state.cur.item),
       expected: qDisplay(state.cur.item), typed: typed, score: res.score,
-      hit: res.hit, miss: res.miss };
+      hit: res.hit, miss: res.miss, missDisp: res.missDisp };
     state.round.results.push(rec);
     state.round.score += res.score;
     state.cur.typed = typed;
@@ -512,6 +533,7 @@
     /* Duoi 25/50 thi o lai do kho cu; tu 25 tro len thi len 1 muc (toi da 4). */
     if (r.score >= 25 && state.level < 4) state.level++;
     state.roundNo++;
+    try { window.localStorage.setItem(LS_STATE, JSON.stringify({ level: state.level, roundNo: state.roundNo })); } catch (e) {}
     state.phase = 'summary';
     render();
   }
@@ -707,7 +729,9 @@
       h += inputHtml();
     } else if (state.phase === 'result' && state.cur && state.cur.result) {
       var r = state.cur.result, it = state.cur.item;
-      var missTxt = r.miss.length ? 'Gần đúng rồi, còn thiếu ý này: ' + r.miss.join(', ') + '.' : '';
+      var typedEmpty = !(state.cur.typed || '').trim();
+      var missTxt = typedEmpty ? 'Con chưa ghi gì cả. Đáp án đúng ở bên cạnh nhé.'
+        : (r.miss.length ? 'Gần đúng rồi, còn thiếu ý này: ' + (r.missDisp || r.miss).join(', ') + '.' : '');
       h += '<h3>🧠 N3 — Nhớ nội dung</h3>'
         + '<div class="tnnd-stars">' + starsFor(r.score) + '</div>'
         + '<div class="tnnd-score">Điểm nhớ câu này: ' + r.score + ' / 10</div>'
@@ -725,7 +749,7 @@
       var totalHit = 0, totalKw = 0;
       rr.results.forEach(function (x) { totalHit += x.hit.length; totalKw += x.hit.length + x.miss.length; });
       var weak = null;
-      rr.results.forEach(function (x) { if (!weak && x.miss.length) weak = x; });
+      rr.results.forEach(function (x) { if (x.miss.length && (!weak || x.score < weak.score)) weak = x; });
       var verdict = rr.score >= 40 ? 'Nhớ rất tốt!' : (rr.score >= 30 ? 'Nhớ tốt!' : 'Con đã cố hết vòng rồi!');
       h += '<h3>🧠 N3 — Nhớ nội dung</h3>'
         + '<div class="tnnd-sum">🎉 ' + verdict + '<br>'
@@ -742,7 +766,7 @@
         h += '<div class="tnnd-hitem"><b>Câu ' + (i + 1) + ' — điểm nhớ ' + x.score + '/10</b><br>'
           + '✏️ Bé ghi: ' + esc(x.typed || '(bé chưa ghi gì)') + '<br>'
           + '✅ Đáp án: ' + esc(x.expected) + '<br>'
-          + (x.miss.length ? '🟡 Còn thiếu: ' + esc(x.miss.join(', ')) : '🟢 Nhớ đủ hết.') + '</div>';
+          + (x.miss.length ? '🟡 Còn thiếu: ' + esc((x.missDisp || x.miss).join(', ')) : '🟢 Nhớ đủ hết.') + '</div>';
       });
       h += '<div class="tnnd-tools"><button type="button" class="tnnd-btn primary" data-tnnd="new-round">🔄 Chơi vòng mới</button>'
         + '<button type="button" class="tnnd-btn" data-tnnd="home">🏠 Về màn hình chọn cách chơi</button></div>';
@@ -774,7 +798,7 @@
             h += '<div class="tnnd-hitem"><b>Câu ' + (i + 1) + ' — ' + it.score + '/10</b><br>'
               + '✏️ Bé ghi: ' + esc(it.typed || '(bé chưa ghi gì)') + '<br>'
               + '✅ Đáp án: ' + esc(it.expected) + '<br>'
-              + (it.miss.length ? '🟡 Còn thiếu: ' + esc(it.miss.join(', ')) : '🟢 Nhớ đủ hết.') + '</div>';
+              + (it.miss.length ? '🟡 Còn thiếu: ' + esc((it.missDisp || missDisplayList(it.expected, it.miss)).join(', ')) : '🟢 Nhớ đủ hết.') + '</div>';
           });
           h += '<div class="tnnd-tools"><button type="button" class="tnnd-btn" data-tnnd="hist-print" data-id="' + esc(r.id) + '">🖨️ In cho ba mẹ (vòng này)</button></div>';
         }
@@ -884,6 +908,14 @@
     if (!root) return;
     stopAll();
     state.phase = 'home'; state.round = null; state.cur = null;
+    /* Khoi phuc do kho + so vong da luu (neu co) de tai lai trang khong mat tien do. */
+    try {
+      var savedState = JSON.parse(window.localStorage.getItem(LS_STATE) || 'null');
+      if (savedState) {
+        if (savedState.level >= 1 && savedState.level <= 4) state.level = savedState.level;
+        if (savedState.roundNo >= 1) state.roundNo = savedState.roundNo;
+      }
+    } catch (e) {}
     var found = collectCards(cards);
     state.pool = found.cards;
     state.poolSource = found.source;
