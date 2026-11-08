@@ -1445,6 +1445,9 @@ body.mode-all .viewctl .vmrow-nav{display:none}
     <h3>🧠 Trò luyện trí nhớ</h3>
     <p class="desc">Nhớ thẻ rồi trả lời.<br>Quên thì bấm xem lại, không sao đâu.</p>
     <div id="gameNho"></div>
+    <h3>🧠 Nhớ nội dung</h3>
+    <p class="desc">Nhìn hoặc nghe một nội dung ngắn, rồi ghi lại những gì em nhớ.<br>Mỗi vòng có 5 câu.</p>
+    <div id="gameNhoNoiDung"></div>
   </div>
 </div>
 <div id="tabKiemTra">
@@ -2523,6 +2526,7 @@ document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.g
 <script src="trochoi-sudoku.js?v=20261107"></script>
 <script src="trochoi-timso.js?v=20261107"></script>
 <script src="trochoi-nho.js?v=20261107"></script>
+<script src="trochoi-nhonoidung.js?v=20261108"></script>
 <script>
 /* ===== TAB TRO CHOI (Toan): Sudoku + Tim so + Nho N1/N2 =====
    - 3 file tro chi can 1 lan init khi trang tai (init chay duoc ca khi tab chua mo).
@@ -2550,6 +2554,23 @@ document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.g
           clearInterval(iv);
         }else if(tries>=40){ clearInterval(iv); }
       }catch(e){ clearInterval(iv); }
+    },500);
+  }
+  /* N3 "Nho noi dung": cung co che nhu Nho — init 1 lan, polling setCards 40 lan x 500ms. */
+  var nd=document.getElementById('gameNhoNoiDung');
+  if(window.TroChoiNhoNoiDung&&nd){
+    var cardsNd=(typeof theory!=='undefined'&&theory&&theory.length>=6)?theory:null;
+    window.TroChoiNhoNoiDung.init(nd,cardsNd);
+    var triesNd=0;
+    var ivNd=setInterval(function(){
+      triesNd++;
+      try{
+        if(typeof theory!=='undefined'&&theory&&theory.length>=6){
+          var srcNd=window.TroChoiNhoNoiDung.getPoolSource()||'';
+          if(srcNd.indexOf('theory')!==0&&srcNd!=='init-arg'){ window.TroChoiNhoNoiDung.setCards(theory); }
+          clearInterval(ivNd);
+        }else if(triesNd>=40){ clearInterval(ivNd); }
+      }catch(e){ clearInterval(ivNd); }
     },500);
   }
   function veDauTabTroChoi(e){
