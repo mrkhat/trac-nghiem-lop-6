@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎮 Trò chơi — Toán 6 | Lớp 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/common.css">
+<link rel="stylesheet" href="../assets/layout-laptop-ipad.css">
+<style>
+/* CSS copy NGUYEN VAN tu toan/index.html (dòng 17-20) — vi common.css khong co .sec/.desc:
+   a.back / .sec / .sec>h2 / .sec .desc */
+a.back{display:inline-block;color:#2e7d32;text-decoration:none;margin-bottom:12px}
+.sec{background:#fff;border-radius:10px;padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.sec>h2{font-size:25px;color:#2e7d32;margin-bottom:6px;line-height:1.35}
+.sec .desc{color:#444;font-size:16px;margin-bottom:10px;line-height:1.6}
+/* Tu quyet (toan/index.html khong co quy tac rieng cho h3 trong .sec): h3 tieu de
+   tung tro, cung tone xanh la voi .sec>h2. */
+.sec h3{font-size:21px;color:#1b5e20;margin:16px 0 4px;line-height:1.35}
+.sec h3:first-of-type{margin-top:6px}
+html{overflow-x:hidden}
+body{overflow-x:hidden}
+button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.topnav a{font-size:16px}
+.wrap{max-width:880px;margin:0 auto;padding:0 12px 30px}
+/* Menu 5 tro o dau trang (tu quyet — thay cho tabbar cua Toan, trang nay khong co tab). */
+.game-menu{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:12px 0}
+.game-menu a{display:inline-block;min-height:44px;line-height:44px;padding:0 14px;border-radius:999px;background:#fff;border:2px solid #2e7d32;color:#2e7d32;text-decoration:none;font-weight:700;font-size:16px}
+.game-menu a:hover{background:#e8f5e9}
+.game-sec{scroll-margin-top:12px}
+</style>
+</head>
+<body>
+<div class="topnav"><a href="../">← 📚 Trang chủ Lớp 6</a></div>
+<h1>🎮 Trò chơi — Toán 6</h1>
+<p class="sub">Chơi một lúc rồi nghỉ nhé.<br>Mỗi trò chỉ 3–5 phút.<br>Không bấm giờ, không trừ điểm.</p>
+<div class="wrap">
+
+<div class="game-menu" role="navigation" aria-label="Chọn trò chơi">
+  <a href="#sec-sudoku">🧩 Sudoku</a>
+  <a href="#sec-timso">🔎 Tìm số</a>
+  <a href="#gameNhoN1">🧠 N1 — Thẻ nào biến mất?</a>
+  <a href="#gameNhoN2">🔢 N2 — Xếp đúng thứ tự</a>
+  <a href="#sec-nhonoidung">🧠 N3 — Nhớ nội dung</a>
+</div>
+
+<div class="sec">
+  <div style="text-align:center;margin:12px 0">
+    <button id="goFlashFromGames" type="button" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:52px;padding:10px 22px;font-size:18px;font-weight:700;font-family:inherit;cursor:pointer">🃏 Chơi Lật thẻ tìm cặp →</button>
+    <p class="desc" style="margin-top:6px">Trò Lật thẻ tìm cặp vẫn ở tab 🃏 Flashcard của trang Toán.<br>Bấm nút trên để sang đó chơi.</p>
+  </div>
+  <p class="desc" style="text-align:center">Các trò trí nhớ (N1, N2, N3) dùng đúng 21 thẻ lý thuyết Toán 6 — giống hệt lúc còn ở tab Trò chơi.</p>
+</div>
+
+<section class="sec game-sec" id="sec-sudoku">
+  <h3>🧩 Sudoku</h3>
+  <p class="desc">Điền số sao cho mỗi hàng, mỗi cột, mỗi ô vuông nhỏ đều đủ số 1–4.</p>
+  <div id="gameSudoku"></div>
+</section>
+
+<section class="sec game-sec" id="sec-timso">
+  <h3>🔎 Tìm số luyện mắt</h3>
+  <p class="desc">Tìm các số theo thứ tự 1, 2, 3… cho tới số cuối.</p>
+  <div id="gameTimSo"></div>
+</section>
+
+<section class="sec game-sec" id="sec-nho">
+  <h3>🧠 Trò luyện trí nhớ</h3>
+  <p class="desc">Nhớ thẻ rồi trả lời.<br>Quên thì bấm xem lại, không sao đâu.</p>
+  <div id="gameNho"></div>
+</section>
+
+<section class="sec game-sec" id="sec-nhonoidung">
+  <h3>🧠 Nhớ nội dung</h3>
+  <p class="desc">Nhìn hoặc nghe một nội dung ngắn, rồi ghi lại những gì em nhớ.<br>Mỗi vòng có 5 câu.</p>
+  <div id="gameNhoNoiDung"></div>
+</section>
+
+<div class="sec">
+  <p class="desc" style="text-align:center;margin-bottom:0"><a class="back" href="../toan/">← Về trang Toán 6</a> · <a class="back" href="../">← Trang chủ Lớp 6</a></p>
+</div>
+
+</div>
+<script src="trochoi-sudoku.js"></script>
+<script src="trochoi-timso.js"></script>
+<script src="trochoi-nho.js"></script>
+<script src="trochoi-nhonoidung.js"></script>
+<script>
+/* ===== TRANG TRO CHOI (tach tu tab Tro choi cua toan/index.html) =====
+   - 4 file tro KHONG tu chay: trang nay goi init() 1 lan khi mo trang
+     (khong con co che tab; init chay duoc ngay ca khi phan tu chua hien).
+     Thu tu init giong toan/index.html: Sudoku -> Tim so -> Nho N1/N2 -> N3.
+   - The ly thuyet: nap ../toan/theory.json (21 the) roi truyen vao init nhu
+     Toan van lam (bien theory o Toan). Neu luc dau nap chua duoc, khoi tao
+     truoc bang kho du phong trong file tro, roi thu nap lai 40 lan x 500ms
+     (co che polling giong toan/index.html) de doi the that vao setCards.
+   - Nut "Ve lai" cua Sudoku / Tim so: 2 file tro tu an container cua minh roi
+     bao su kien (sudoku:home / trochoitimso:ve-lai). O day khong co tab nen
+     chi hien lai container do va cuon ve dung phan tro vua bam.
+   - Nut "Lat the tim cap": Toan KHONG nhan tham so tab tren URL (khong doc
+     hash/query); tab dang mo luu o localStorage khoa 'toan6_tab' va Toan doc
+     khoa nay luc tai trang. Nen nut nay ghi 'flash' vao khoa do roi moi sang
+     ../toan/ (cung origin nen localStorage dung chung). Neu ghi that bai
+     (vd. mo file truc tiep) thi van sang trang Toan binh thuong. */
+(function () {
+  function theoryOk(t) { return t && t.length >= 6; }
+
+  function initAll(theory) {
+    var cards = theoryOk(theory) ? theory : null;
+    var sdk = document.getElementById('gameSudoku');
+    if (window.TroChoiSudoku && sdk) window.TroChoiSudoku.init(sdk);
+    var ts = document.getElementById('gameTimSo');
+    if (window.TroChoiTimSo && ts) window.TroChoiTimSo.init(ts);
+    var nh = document.getElementById('gameNho');
+    if (window.TroChoiNho && nh) window.TroChoiNho.init(nh, cards);
+    var nd = document.getElementById('gameNhoNoiDung');
+    if (window.TroChoiNhoNoiDung && nd) window.TroChoiNhoNoiDung.init(nd, cards);
+  }
+
+  function loadTheory() {
+    if (typeof fetch !== 'function') return Promise.resolve(null);
+    return fetch('../toan/theory.json?v=20261025').then(function (r) {
+      if (!r.ok) return null;
+      return r.json();
+    }).catch(function () { return null; });
+  }
+
+  loadTheory().then(function (theory) {
+    if (theoryOk(theory)) {
+      /* Dat truoc de collectCards() trong 2 file Nho/N3 thay duoc khi init. */
+      window.__THEORY = theory;
+      window.TroChoiNhoCards = theory;
+    }
+    initAll(theory);
+    if (!theoryOk(theory)) {
+      /* Nap lan dau that bai: thu lai nhu polling o Toan (40 lan x 500ms). */
+      var tries = 0;
+      var iv = setInterval(function () {
+        tries++;
+        loadTheory().then(function (t2) {
+          if (theoryOk(t2)) {
+            window.__THEORY = t2;
+            window.TroChoiNhoCards = t2;
+            try {
+              if (window.TroChoiNho) {
+                var src = window.TroChoiNho.getPoolSource() || '';
+                if (src.indexOf('theory') !== 0 && src !== 'init-arg') window.TroChoiNho.setCards(t2);
+              }
+              if (window.TroChoiNhoNoiDung) {
+                var srcNd = window.TroChoiNhoNoiDung.getPoolSource() || '';
+                if (srcNd.indexOf('theory') !== 0 && srcNd !== 'init-arg') window.TroChoiNhoNoiDung.setCards(t2);
+              }
+            } catch (e) {}
+            clearInterval(iv);
+          } else if (tries >= 40) { clearInterval(iv); }
+        });
+      }, 500);
+    }
+  });
+
+  function veLaiTro(e) {
+    /* Sudoku / Tim so khi bam "Ve lai" da tu an container roi moi bao su kien;
+       hien lai container do va cuon ve dung phan tro vua bam. */
+    var c = e && e.target;
+    if (c && c.style) c.style.display = '';
+    var sec = c && c.closest ? c.closest('.game-sec') : null;
+    if (sec && sec.scrollIntoView) sec.scrollIntoView();
+    else if (typeof window.scrollTo === 'function') window.scrollTo(0, 0);
+  }
+  document.addEventListener('sudoku:home', veLaiTro);
+  document.addEventListener('trochoitimso:ve-lai', veLaiTro);
+
+  var goFlash = document.getElementById('goFlashFromGames');
+  if (goFlash) goFlash.addEventListener('click', function () {
+    try { window.localStorage.setItem('toan6_tab', 'flash'); } catch (e) {}
+    window.location.href = '../toan/';
+  });
+})();
+</script>
+</body>
+</html>

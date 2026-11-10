@@ -192,19 +192,18 @@ button.ktcd-home{display:inline-block;background:#fff;border:1.5px solid #b0bec5
 .ltrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
 .pnote{font-size:15px;color:#444;line-height:1.6}
 .lcheck{font-size:19px;color:#0d47a1;margin:14px 0 4px}
-/* ===== 7 TAB: HOC TAP / LY THUYET / TONG HOP KIEN THUC / LUYEN TAP / KIEM TRA / FLASHCARD / TRO CHOI ===== */
+/* ===== 6 TAB: HOC TAP / LY THUYET / TONG HOP KIEN THUC / LUYEN TAP / KIEM TRA / FLASHCARD ===== */
 .tabbar{position:sticky;top:0;z-index:60;display:flex;gap:6px;background:#f5f7fa;padding:8px 0;margin-bottom:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .tabbar::-webkit-scrollbar{display:none}
 .tabbtn{flex:1 0 auto;min-height:48px;padding:9px 10px;border-radius:12px;font-size:16px;font-weight:600;font-family:inherit;cursor:pointer;background:#fff;border:2px solid #90a4ae;color:#37474f;white-space:nowrap}
 .tabbtn.on{background:#2e7d32;border-color:#2e7d32;color:#fff}
-#tabLyThuyet,#tabTongHop,#tabLuyen,#tabKiemTra,#tabFlash,#tabTroChoi{display:none}
-body.tab-lythuyet #tabHoc,body.tab-tonghop #tabHoc,body.tab-luyen #tabHoc,body.tab-kiemtra #tabHoc,body.tab-trochoi #tabHoc{display:none}
+#tabLyThuyet,#tabTongHop,#tabLuyen,#tabKiemTra,#tabFlash{display:none}
+body.tab-lythuyet #tabHoc,body.tab-tonghop #tabHoc,body.tab-luyen #tabHoc,body.tab-kiemtra #tabHoc{display:none}
 body.tab-lythuyet #tabLyThuyet{display:block}
 body.tab-tonghop #tabTongHop{display:block}
 body.tab-luyen #tabLuyen{display:block}
 body.tab-kiemtra #tabKiemTra{display:block}
 body.tab-flash #tabFlash{display:block}
-body.tab-trochoi #tabTroChoi{display:block}
 .sgk{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:12px;padding:1px 9px;font-size:14px;font-weight:700;margin-right:7px;white-space:nowrap}
 .lgenbox{border:2px solid #a5d6a7;background:#f7fbf7;border-radius:12px;padding:14px;margin:12px 0}
 /* ===== VIEWCTL CHUAN (nav-chuan.js) — NGOAI LE DUY NHAT ve mot nguon: Toan
@@ -269,7 +268,7 @@ body.mode-all .viewctl .vmrow-nav{display:none}
 
 <div class="tabbar" id="tabbar"><button class="tabbtn on" type="button" data-tab="hoc">📖 Học tập</button><button class="tabbtn" type="button" data-tab="lythuyet">📐 Lý thuyết</button><button class="tabbtn" type="button" data-tab="tonghop">📚 Tổng hợp kiến thức</button><button class="tabbtn" type="button" data-tab="luyen">✏️ Luyện tập</button><button class="tabbtn" type="button" data-tab="kiemtra">🧠 Kiểm tra</button>
     <button class="tabbtn" type="button" data-tab="flash">🃏 Flashcard</button>
-    <button class="tabbtn" type="button" data-tab="trochoi">🎮 Trò chơi</button></div>
+</div>
   <p class="desc" id="tabNow" style="text-align:center;margin:2px 0 10px"></p>
 <div id="home">
 <div id="tabHoc">
@@ -1416,7 +1415,7 @@ body.mode-all .viewctl .vmrow-nav{display:none}
     <div id="tfHead" style="text-align:center;font-weight:600;margin:6px 0 10px"></div>
     <div id="tfMount"></div>
     <div style="text-align:center;margin:16px 0 4px"><button id="tgBtn" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:52px;padding:10px 22px;font-size:18px;font-weight:700;font-family:inherit;cursor:pointer">🎮 Chơi lật thẻ tìm cặp</button></div>
-    <p style="text-align:center;margin:10px 0"><button id="goGamesFromFlash" type="button" style="background:none;border:none;color:#2e7d32;font-size:17px;font-weight:700;cursor:pointer;font-family:inherit;min-height:44px;padding:10px 12px">🎮 Xem thêm trò chơi (Sudoku, Tìm số, Trí nhớ) →</button></p>
+    <p style="text-align:center;margin:10px 0"><a href="../trochoi/" style="background:none;border:none;color:#2e7d32;font-size:17px;font-weight:700;cursor:pointer;font-family:inherit;min-height:44px;padding:10px 12px;text-decoration:none">🎮 Xem thêm trò chơi (Sudoku, Tìm số, Trí nhớ) →</a></p>
     <div id="tgArea" style="display:none">
       <p id="tgHead" style="text-align:center;font-weight:600"></p>
       <p id="tgStats" style="text-align:center"></p>
@@ -1428,28 +1427,6 @@ body.mode-all .viewctl .vmrow-nav{display:none}
         <button id="tgClose" style="background:#eceff1;color:#37474f;border:none;border-radius:10px;min-height:48px;padding:8px 18px;font-size:17px;font-weight:700;font-family:inherit;cursor:pointer;flex:1;min-width:140px">✖ Đóng trò chơi</button>
       </div>
     </div>
-  </div>
-</div>
-<div id="tabTroChoi">
-  <div class="sec">
-    <h2>🎮 Trò chơi</h2>
-    <p class="desc">Chơi một lúc rồi nghỉ nhé.<br>Mỗi trò chỉ 3–5 phút.<br>Không bấm giờ, không trừ điểm.</p>
-    <div style="text-align:center;margin:12px 0">
-      <button id="goFlashFromGames" type="button" style="background:#00897b;color:#fff;border:none;border-radius:10px;min-height:52px;padding:10px 22px;font-size:18px;font-weight:700;font-family:inherit;cursor:pointer">🃏 Chơi Lật thẻ tìm cặp →</button>
-      <p class="desc" style="margin-top:6px">Trò Lật thẻ tìm cặp vẫn ở tab 🃏 Flashcard.<br>Bấm nút trên để sang đó chơi.</p>
-    </div>
-    <h3>🧩 Sudoku</h3>
-    <p class="desc">Điền số sao cho mỗi hàng, mỗi cột, mỗi ô vuông nhỏ đều đủ số 1–4.</p>
-    <div id="gameSudoku"></div>
-    <h3>🔎 Tìm số luyện mắt</h3>
-    <p class="desc">Tìm các số theo thứ tự 1, 2, 3… cho tới số cuối.</p>
-    <div id="gameTimSo"></div>
-    <h3>🧠 Trò luyện trí nhớ</h3>
-    <p class="desc">Nhớ thẻ rồi trả lời.<br>Quên thì bấm xem lại, không sao đâu.</p>
-    <div id="gameNho"></div>
-    <h3>🧠 Nhớ nội dung</h3>
-    <p class="desc">Nhìn hoặc nghe một nội dung ngắn, rồi ghi lại những gì em nhớ.<br>Mỗi vòng có 5 câu.</p>
-    <div id="gameNhoNoiDung"></div>
   </div>
 </div>
 <div id="tabKiemTra">
@@ -2257,14 +2234,14 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     });
   }
 
-  /* ===== 7 TAB: HOC / LY THUYET / TONG HOP / LUYEN / KIEM TRA / FLASHCARD / TRO CHOI + LUYEN NHUNG TRONG BAI HOC ===== */
-  var TABS=['hoc','lythuyet','tonghop','luyen','kiemtra','flash','trochoi'];
+  /* ===== 6 TAB: HOC / LY THUYET / TONG HOP / LUYEN / KIEM TRA / FLASHCARD + LUYEN NHUNG TRONG BAI HOC ===== */
+  var TABS=['hoc','lythuyet','tonghop','luyen','kiemtra','flash'];
   var curTab='hoc';
   try{ var tb0=localStorage.getItem('toan6_tab'); if(TABS.indexOf(tb0)>=0) curTab=tb0; }catch(e){}
   var tabBtns=[].slice.call(document.querySelectorAll('[data-tab]'));
   window.setToanTab=function(t){
     curTab=(TABS.indexOf(t)>=0)?t:'hoc';
-    document.body.classList.remove('tab-lythuyet','tab-tonghop','tab-luyen','tab-kiemtra','tab-flash','tab-trochoi');
+    document.body.classList.remove('tab-lythuyet','tab-tonghop','tab-luyen','tab-kiemtra','tab-flash');
     if(curTab!=='hoc') document.body.classList.add('tab-'+curTab);
     tabBtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-tab')===curTab); });
     var onBtn=null;
@@ -2272,7 +2249,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     if(onBtn&&onBtn.scrollIntoView){ try{ onBtn.scrollIntoView({inline:'nearest',block:'nearest'}); }catch(e){} }
     try{ localStorage.setItem('toan6_tab',curTab); }catch(e){}
     var tn=document.getElementById('tabNow');
-    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',tonghop:'📚 Tổng hợp kiến thức',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard',trochoi:'🎮 Trò chơi'}; tn.textContent='Bạn đang ở: Toán › '+(tnNames[curTab]||curTab); }
+    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',tonghop:'📚 Tổng hợp kiến thức',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard'}; tn.textContent='Bạn đang ở: Toán › '+(tnNames[curTab]||curTab); }
   };
   var setToanTab=window.setToanTab;
   tabBtns.forEach(function(b){
@@ -2301,7 +2278,7 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
   /* ?muc= thang toan6_tab; ?muc= la/khong co thi giu toan6_tab (la thi 'hoc'). */
   try{
     var mucMap={'hoc-bai':'hoc','hinh-cong-thuc':'lythuyet','the-nho':'flash','luyen-bai':'luyen','thi-thu':'kiemtra',
-      'hoc':'hoc','lythuyet':'lythuyet','tonghop':'tonghop','luyen':'luyen','kiemtra':'kiemtra','flash':'flash','trochoi':'trochoi'};
+      'hoc':'hoc','lythuyet':'lythuyet','tonghop':'tonghop','luyen':'luyen','kiemtra':'kiemtra','flash':'flash'};
     var mucVal=new URLSearchParams(location.search).get('muc');
     if(mucVal&&mucMap[mucVal]) curTab=mucMap[mucVal];
   }catch(e){}
@@ -2555,83 +2532,6 @@ document.getElementById('tgBtn').onclick=function(){ document.getElementById('tg
 document.getElementById('tgNew').onclick=tgDeal;
 document.getElementById('tgClose').onclick=function(){ document.getElementById('tgArea').style.display='none'; };
 document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.getElementById('tgArea').style.display!=='none') tgDeal(); });
-</script>
-<script src="trochoi-sudoku.js?v=20261107"></script>
-<script src="trochoi-timso.js?v=20261107"></script>
-<script src="trochoi-nho.js?v=20261107"></script>
-<script src="trochoi-nhonoidung.js?v=20261108b"></script>
-<script>
-/* ===== TAB TRO CHOI (Toan): Sudoku + Tim so + Nho N1/N2 =====
-   - 3 file tro chi can 1 lan init khi trang tai (init chay duoc ca khi tab chua mo).
-   - Nho N1/N2 dung the theory that (bien theory, nap bat dong bo tu theory.json):
-     neu luc init theory chua ve thi file tro tu fetch theory.json de nang cap kho;
-     vong lap duoi day doi them de chac chan truyen the theory that vao setCards.
-   - Nut "Ve lai" cua Sudoku / Tim so: ve dau tab Tro choi (cuon len dau tab).
-   - Lat the tim cap GIU NGUYEN o tab Flashcard; tab Tro choi chi co nut sang do. */
-(function(){
-  var sdk=document.getElementById('gameSudoku');
-  if(window.TroChoiSudoku&&sdk) window.TroChoiSudoku.init(sdk);
-  var ts=document.getElementById('gameTimSo');
-  if(window.TroChoiTimSo&&ts) window.TroChoiTimSo.init(ts);
-  var nh=document.getElementById('gameNho');
-  if(window.TroChoiNho&&nh){
-    var cards=(typeof theory!=='undefined'&&theory&&theory.length>=6)?theory:null;
-    window.TroChoiNho.init(nh,cards);
-    var tries=0;
-    var iv=setInterval(function(){
-      tries++;
-      try{
-        if(typeof theory!=='undefined'&&theory&&theory.length>=6){
-          var src=window.TroChoiNho.getPoolSource()||'';
-          if(src.indexOf('theory')!==0&&src!=='init-arg'){ window.TroChoiNho.setCards(theory); }
-          clearInterval(iv);
-        }else if(tries>=40){ clearInterval(iv); }
-      }catch(e){ clearInterval(iv); }
-    },500);
-  }
-  /* N3 "Nho noi dung": cung co che nhu Nho — init 1 lan, polling setCards 40 lan x 500ms. */
-  var nd=document.getElementById('gameNhoNoiDung');
-  if(window.TroChoiNhoNoiDung&&nd){
-    var cardsNd=(typeof theory!=='undefined'&&theory&&theory.length>=6)?theory:null;
-    window.TroChoiNhoNoiDung.init(nd,cardsNd);
-    var triesNd=0;
-    var ivNd=setInterval(function(){
-      triesNd++;
-      try{
-        if(typeof theory!=='undefined'&&theory&&theory.length>=6){
-          var srcNd=window.TroChoiNhoNoiDung.getPoolSource()||'';
-          if(srcNd.indexOf('theory')!==0&&srcNd!=='init-arg'){ window.TroChoiNhoNoiDung.setCards(theory); }
-          clearInterval(ivNd);
-        }else if(triesNd>=40){ clearInterval(ivNd); }
-      }catch(e){ clearInterval(ivNd); }
-    },500);
-  }
-  function veDauTabTroChoi(e){
-    /* Sudoku / Tim so khi bam "Ve lai" tu an container cua minh roi moi bao su kien
-       (hop dong goc: trang tich hop se mo lai man hinh chon tro). O tab nay khong co
-       man hinh chon tro rieng — cac tro luon hien trong tab — nen hien lai container
-       cua tro vua bam roi cuon ve dau tab Tro choi. Be bam lai la thay tro ngay. */
-    var c=e&&e.target;
-    if(c&&c.style) c.style.display='';
-    if(typeof setToanTab==='function') setToanTab('trochoi');
-    var tab=document.getElementById('tabTroChoi');
-    if(tab&&tab.scrollIntoView) tab.scrollIntoView();
-    else if(typeof window.scrollTo==='function') window.scrollTo(0,0);
-  }
-  document.addEventListener('sudoku:home',veDauTabTroChoi);
-  document.addEventListener('trochoitimso:ve-lai',veDauTabTroChoi);
-  var goFlash=document.getElementById('goFlashFromGames');
-  if(goFlash) goFlash.addEventListener('click',function(){
-    if(typeof setToanTab==='function') setToanTab('flash');
-    var b=document.getElementById('tgBtn');
-    if(b&&b.scrollIntoView) b.scrollIntoView();
-  });
-  var goGames=document.getElementById('goGamesFromFlash');
-  if(goGames) goGames.addEventListener('click',function(){
-    if(typeof setToanTab==='function') setToanTab('trochoi');
-    if(typeof window.scrollTo==='function') window.scrollTo(0,0);
-  });
-})();
 </script>
 <script>
 /* ===== KIEM TRA THEO CHUYEN DE (kiemtra-chuyende.js): init 1 lan, polling toi da 40x500ms
