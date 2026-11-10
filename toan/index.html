@@ -143,6 +143,7 @@ img{max-width:100%}
 .btn,.vbtn,.vmbtn,.modebtn,.navbtn,.tbtn,.chk-btn,.qbtn,.spk{min-height:44px;padding:10px 16px;border-radius:10px;font-size:17px;font-family:inherit;cursor:pointer}
 input[type=text],input[type=number],input:not([type]),textarea,select{font-size:17px;min-height:44px;border-radius:8px;font-family:inherit}
 a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;text-decoration:none;color:#37474f;font-size:16px;margin:4px 0}
+button.ktcd-home{display:inline-block;background:#fff;border:1.5px solid #b0bec5;border-radius:10px;padding:9px 14px;color:#37474f;font-size:16px;margin:4px 0;cursor:pointer;font-family:inherit}
 .viewctl,.viewbar,.modebar,.vmodes{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
 .next{font-size:17px}
 @media(max-width:480px){body{padding:12px}h1{font-size:26px}}
@@ -262,6 +263,7 @@ body.mode-all .viewctl .vmrow-nav{display:none}
 <body>
 <a class="back" href="../">← Trang chủ các môn</a>
 <h1>🔢 Toán 6 — Tự luận</h1>
+<button id="ktcdHome" class="ktcd-home" type="button">🏠 Về đầu trang Toán</button>
 <p class="sub">Cả năm học • Đọc hiểu đề, phân tích và tự giải</p>
 <p class="steps">Cách làm một bài toán có lời văn:<br>Bước 1) Đọc đề.<br>Bước 2) 🔦 Tô đậm chữ quan trọng.<br>Bước 3) 🔍 Đề cho gì? Đề hỏi gì?<br>Bước 4) ✍️ Tự giải.<br>Bước 5) ✔ Kiểm tra lại.<br>Bước 6) 📖 Đối chiếu lời giải mẫu.</p>
 
@@ -1451,6 +1453,7 @@ body.mode-all .viewctl .vmrow-nav{display:none}
   </div>
 </div>
 <div id="tabKiemTra">
+  <p style="text-align:center"><a href="#ktcd-sec-a">Xuống: Bộ đề theo chuyên đề ↓</a></p>
   <div class="sec">
     <h2>🔁 Ôn luyện — Thẻ ⚡ Nhớ nhanh của cả môn Toán</h2>
     <p class="desc">Tất cả <b id="toanOnlCnt">…</b> thẻ ⚡ Nhớ nhanh trong các bài học, gom vào một bộ để em lật ôn lại từ đầu đến cuối. Bấm vào thẻ để lật xem đáp án, nhớ rồi bấm ✔ Đã thuộc. (Môn Toán không có bộ flashcard riêng — thẻ Nhớ nhanh chính là thẻ ghi nhớ của môn.)</p>
@@ -1477,6 +1480,10 @@ body.mode-all .viewctl .vmrow-nav{display:none}
       <button class="btn btn-a" id="btnQzSubmit">✔ Nộp bài</button>
     </div>
   </div>
+  <div class="sec" id="ktcd-sec-a"><h2>📝 Bộ đề theo chuyên đề</h2><div id="ktcdA"></div></div>
+  <div class="sec" id="ktcd-sec-b"><h2>🔀 Đề kiểm tra hỗn hợp</h2><div id="ktcdB"></div></div>
+  <div class="sec" id="ktcd-sec-hist"><h2>📋 Lịch sử kiểm tra — Ba mẹ xem</h2><div id="ktcdHist"></div></div>
+
 </div>
 </div>
 
@@ -1549,6 +1556,7 @@ body.mode-all .viewctl .vmrow-nav{display:none}
 </div>
 
 <script src="gen.js?v=20261025"></script>
+<script src="kiemtra-chuyende.js?v=20261109d"></script>
 <script>
 const CHAPTERS=window.GEN.chapters;
 const SGK_LBL={p22:'SGK Bài 1 · Tập hợp',p21:'SGK Bài 2 · Cách ghi số tự nhiên',p23:'SGK Bài 3 · Thứ tự trong tập hợp số tự nhiên',p3:'SGK Bài 4 · Phép cộng và phép trừ số tự nhiên',p4:'SGK Bài 5 · Phép nhân và phép chia số tự nhiên',p2:'SGK Bài 6 · Lũy thừa với số mũ tự nhiên',p1:'SGK Bài 7 · Thứ tự thực hiện các phép tính',p24:'SGK Bài 8 · Quan hệ chia hết và tính chất',p18:'SGK Bài 9 · Dấu hiệu chia hết',p28:'SGK Bài 10 · Số nguyên tố',p5:'SGK Bài 11 · Ước chung. Ước chung lớn nhất',p6:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p7:'SGK Bài 12 · Bội chung. Bội chung nhỏ nhất',p25:'SGK Bài 13 · Tập hợp các số nguyên',p8:'SGK Bài 14 · Phép cộng và phép trừ số nguyên',p9:'SGK Bài 15 · Quy tắc dấu ngoặc',p10:'SGK Bài 14–15 · Số nguyên',p27:'SGK Bài 15 · Quy tắc dấu ngoặc',p19:'SGK Bài 16 · Phép nhân số nguyên',p26:'SGK Bài 17 · Phép chia hết. Ước và bội của số nguyên',p13:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p12:'SGK Bài 18 · Tam giác đều. Hình vuông. Lục giác đều',p11:'SGK Bài 19 · Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân',p14:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p15:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p16:'SGK Bài 19–20 · Chu vi và diện tích tứ giác',p17:'SGK Bài 21 · Hình có trục đối xứng',p20:'SGK Bài 22 · Hình có tâm đối xứng',p29:'SGK Bài 23 · Mở rộng phân số. Phân số bằng nhau',p30:'SGK Bài 24 · So sánh phân số. Hỗn số dương',p31:'SGK Bài 25 · Phép cộng và phép trừ phân số',p32:'SGK Bài 26 · Phép nhân và phép chia phân số',p33:'SGK Bài 27 · Hai bài toán về phân số',p34:'SGK Bài 28 · Số thập phân',p35:'SGK Bài 29 · Tính toán với số thập phân',p36:'SGK Bài 30 · Làm tròn và ước lượng',p37:'SGK Bài 31 · Một số bài toán về tỉ số và tỉ số phần trăm',p38:'SGK Bài 32 · Điểm và đường thẳng',p39:'SGK Bài 33 · Điểm nằm giữa hai điểm. Tia',p40:'SGK Bài 34 · Đoạn thẳng. Độ dài đoạn thẳng',p41:'SGK Bài 35 · Trung điểm của đoạn thẳng',p42:'SGK Bài 36 · Góc',p43:'SGK Bài 37 · Số đo góc',p44:'SGK Bài 38 · Dữ liệu và thu thập dữ liệu',p45:'SGK Bài 39 · Bảng thống kê và biểu đồ tranh',p46:'SGK Bài 40 · Biểu đồ cột',p47:'SGK Bài 41 · Biểu đồ cột kép',p48:'SGK Bài 42 · Kết quả có thể và sự kiện trong trò chơi, thí nghiệm',p49:'SGK Bài 43 · Xác suất thực nghiệm'};
@@ -2259,9 +2267,12 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
     document.body.classList.remove('tab-lythuyet','tab-tonghop','tab-luyen','tab-kiemtra','tab-flash','tab-trochoi');
     if(curTab!=='hoc') document.body.classList.add('tab-'+curTab);
     tabBtns.forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-tab')===curTab); });
+    var onBtn=null;
+    tabBtns.forEach(function(b){ if(b.getAttribute('data-tab')===curTab) onBtn=b; });
+    if(onBtn&&onBtn.scrollIntoView){ try{ onBtn.scrollIntoView({inline:'nearest',block:'nearest'}); }catch(e){} }
     try{ localStorage.setItem('toan6_tab',curTab); }catch(e){}
     var tn=document.getElementById('tabNow');
-    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',tonghop:'📚 Tổng hợp kiến thức',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard',trochoi:'🎮 Trò chơi'}; tn.textContent='Em đang ở mục '+(tnNames[curTab]||curTab)+'. Bấm một nút ở hàng trên để chuyển sang mục khác.'; }
+    if(tn){ var tnNames={hoc:'📖 Học tập',lythuyet:'📐 Lý thuyết',tonghop:'📚 Tổng hợp kiến thức',luyen:'✏️ Luyện tập',kiemtra:'🧠 Kiểm tra',flash:'🃏 Flashcard',trochoi:'🎮 Trò chơi'}; tn.textContent='Bạn đang ở: Toán › '+(tnNames[curTab]||curTab); }
   };
   var setToanTab=window.setToanTab;
   tabBtns.forEach(function(b){
@@ -2272,6 +2283,28 @@ document.querySelectorAll('.qbtn').forEach(b=>b.onclick=()=>aiSend(b.dataset.q))
       window.scrollTo(0,0);
     });
   });
+  var ktcdHomeBtn=document.getElementById('ktcdHome');
+  if(ktcdHomeBtn) ktcdHomeBtn.addEventListener('click',function(){
+    var home=document.getElementById('home');
+    if(home&&home.classList.contains('hidden')&&typeof renderHome==='function'){ lessonReturn=false; renderHome(); }
+    setToanTab('hoc');
+    /* Ve che do Tung bai: NAV_CHUAN.goTo ve 'single' truoc (nav-chuan.js navGoTo),
+       dong thoi hien lai nut "▶ Hoc tiep" cua nav-chuan neu co bai do (nut nay nam
+       trong navRowNav, bi an khi o che do 'all'). */
+    try{
+      if(window.NAV_CHUAN&&typeof window.NAV_CHUAN.mode==='function'&&window.NAV_CHUAN.mode()==='all'){
+        window.NAV_CHUAN.goTo(window.NAV_CHUAN.current(),false);
+      }
+    }catch(e){}
+    try{ window.scrollTo(0,0); }catch(e){}
+  });
+  /* ?muc= thang toan6_tab; ?muc= la/khong co thi giu toan6_tab (la thi 'hoc'). */
+  try{
+    var mucMap={'hoc-bai':'hoc','hinh-cong-thuc':'lythuyet','the-nho':'flash','luyen-bai':'luyen','thi-thu':'kiemtra',
+      'hoc':'hoc','lythuyet':'lythuyet','tonghop':'tonghop','luyen':'luyen','kiemtra':'kiemtra','flash':'flash','trochoi':'trochoi'};
+    var mucVal=new URLSearchParams(location.search).get('muc');
+    if(mucVal&&mucMap[mucVal]) curTab=mucMap[mucVal];
+  }catch(e){}
   setToanTab(curTab);
   var lgenState={};
   function quickGen(sampleId,n){
@@ -2526,7 +2559,7 @@ document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.g
 <script src="trochoi-sudoku.js?v=20261107"></script>
 <script src="trochoi-timso.js?v=20261107"></script>
 <script src="trochoi-nho.js?v=20261107"></script>
-<script src="trochoi-nhonoidung.js?v=20261108"></script>
+<script src="trochoi-nhonoidung.js?v=20261108b"></script>
 <script>
 /* ===== TAB TRO CHOI (Toan): Sudoku + Tim so + Nho N1/N2 =====
    - 3 file tro chi can 1 lan init khi trang tai (init chay duoc ca khi tab chua mo).
@@ -2598,6 +2631,25 @@ document.getElementById('tfChSel').addEventListener('change',()=>{ if(document.g
     if(typeof setToanTab==='function') setToanTab('trochoi');
     if(typeof window.scrollTo==='function') window.scrollTo(0,0);
   });
+})();
+</script>
+<script>
+/* ===== KIEM TRA THEO CHUYEN DE (kiemtra-chuyende.js): init 1 lan, polling toi da 40x500ms
+   cho window.QUIZ_BANK va theory (bien theory nap bat dong bo tu theory.json o fetch 1568);
+   het polling ma chua co bank thi init voi bank rong va hien "Dang tai ngan hang cau hoi...". */
+(function(){
+  var tries=0;
+  var iv=setInterval(function(){
+    tries++;
+    try{
+      var bank=(window.QUIZ_BANK&&window.QUIZ_BANK.length)?window.QUIZ_BANK:null;
+      var th=(typeof theory!=='undefined'&&theory&&theory.length)?theory:null;
+      if((bank&&th)||tries>=40){
+        clearInterval(iv);
+        if(window.KiemTraChuyenDe) window.KiemTraChuyenDe.init({A:document.getElementById('ktcdA'),B:document.getElementById('ktcdB'),Hist:document.getElementById('ktcdHist'),bank:bank||[],theory:th||[],GEN:window.GEN});
+      }
+    }catch(e){ clearInterval(iv); }
+  },500);
 })();
 </script>
 <script>
