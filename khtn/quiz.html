@@ -14,8 +14,8 @@ h1{text-align:center;color:#1a73e8;margin-bottom:8px;font-size:30px;line-height:
 .sub{text-align:center;color:#444;margin-bottom:20px}
 .mode-btns{display:flex;gap:12px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
 .mode-btns button{padding:14px 28px;font-size:17px;border:none;border-radius:8px;cursor:pointer;color:#fff}
-#btnPractice{background:#34a853}
-#btnExam{background:#ea8600}
+#btnPractice{background:#1e7e34}
+#btnExam{background:#b85c00}
 #btnStudy{background:#1a73e8}
 #btnHome{background:#666;color:#fff;min-height:44px;padding:8px 16px;font-size:16px;border:none;border-radius:6px;cursor:pointer;margin-bottom:12px}
 .q{background:#fff;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
@@ -65,17 +65,17 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .fccard{position:relative;width:100%;min-height:300px;cursor:pointer;transition:transform .25s,opacity .25s}
 .fcinner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .45s}
 .fccard.flip .fcinner{transform:rotateY(180deg)}
-.fcface{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #b39ddb;border-radius:14px;padding:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:auto}
-.fcface.back{transform:rotateY(180deg);background:#f3e5f5;border-color:#7b1fa2}
+.fcface{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#e8f0fe;border:2px solid #1a73e8;border-radius:14px;padding:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:auto;color:#174ea6}
+.fcface.back{transform:rotateY(180deg);background:#e8f5e9;border-color:#b0bec5}
 .fcface img{max-width:100%;max-height:170px;border-radius:8px;margin-bottom:10px}
 .fcface svg{max-width:100%;height:auto;max-height:190px;margin-bottom:8px}
 .fctext{font-size:18px;line-height:1.6;white-space:pre-line}
-.fctag{position:absolute;top:10px;left:12px;font-size:13px;font-weight:700;color:#7b1fa2;background:#ede7f6;padding:2px 8px;border-radius:20px}
+.fctag{position:absolute;top:10px;left:12px;font-size:13px;font-weight:700;color:#174ea6;background:#e8f0fe;padding:2px 8px;border-radius:20px}
 .fchint{position:absolute;bottom:8px;right:12px;font-size:13px;color:#999}
 .fcbtns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
-.fcbtns button{min-height:48px;padding:10px 16px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;border:1.5px solid #b0bec5;background:#fff}
-.fcbtns .ok{background:#43a047;border-color:#43a047;color:#fff;font-weight:700}
-.fcbtns .no{color:#e65100;border-color:#e65100;font-weight:700}
+.fcbtns button{min-height:48px;padding:10px 16px;border-radius:10px;font-size:16px;font-family:inherit;cursor:pointer;border:1.5px solid #90a4ae;background:#fff;color:#37474f}
+.fcbtns .ok{background:#2e7d32;border-color:#2e7d32;color:#fff;font-weight:700}
+.fcbtns .no{color:#b34700;border-color:#bf5700;font-weight:700}
 .fcpop{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%) scale(.4);font-size:74px;opacity:0;pointer-events:none;z-index:5}
 .fcpop.go{animation:fcpopA .45s ease-out}
 @keyframes fcpopA{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}35%{opacity:1;transform:translate(-50%,-50%) scale(1.15)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.3)}}
@@ -83,6 +83,11 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
 .fccard.outL{transform:translateX(-60px);opacity:0}
 .fcdone{background:#e8f5e9;border:1.5px solid #43a047;border-radius:14px;padding:22px;text-align:center;font-size:18px}
 </style>
+<!-- CSS chung + layout laptop/iPad: DAT SAU TAT CA <style> inline trong <head> de
+     layout-laptop-ipad.css (dat sau, cung do dac hieu) thang rule body{max-width} inline
+     tu 901px tro len; dat truoc <style> thi inline viet sau se thang va layout mat tac dung. -->
+<link rel="stylesheet" href="../assets/common.css">
+<link rel="stylesheet" href="../assets/layout-laptop-ipad.css">
 </head>
 <body>
 <h1>📚 KHTN 6 - Cả năm học</h1>
@@ -144,10 +149,14 @@ a[href="../"],a[href="../index.html"],a.back{display:inline-block;background:#ff
   </div>
   <p style="text-align:center;margin-top:12px"><a href="../trochoi/">Xem thêm trò chơi →</a></p>
 </div>
+<!-- Dich neo #flash (quiz.html#flash). #flashArea da mang id rieng (JS doc 4 cho)
+     nen khong the them id thu 2 len cung the — dat wrapper nay lam dich neo. -->
+<div id="flash">
 <div id="flashArea" class="hidden">
   <button id="btnHomeF">← Chọn lại chế độ</button>
   <div id="fcHead" style="text-align:center;font-weight:600;margin:6px 0 10px"></div>
   <div id="fcMount"></div>
+</div>
 </div>
 <script>
 let allQ=[], quizQ=[], idx=0, score=0, mode='', answers=[];

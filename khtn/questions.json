@@ -118,15 +118,15 @@
   },
   {
     "id": 10,
-    "question": "Trong các vật liệu sau, vật liệu nào dẫn điện tốt?",
+    "question": "Vật thể nào sau đây là vật thể tự nhiên?",
     "options": [
-      "A. Thủy tinh",
-      "B. Kim loại",
-      "C. Cao su",
-      "D. Gốm"
+      "A. Cái bàn",
+      "B. Đồng hồ",
+      "C. Con voi",
+      "D. Cái ghế"
     ],
-    "answer": 1,
-    "explanation": "Kim loại dẫn điện tốt.",
+    "answer": 2,
+    "explanation": "Con voi có sẵn trong tự nhiên; bàn, ghế, đồng hồ do con người tạo ra nên là vật thể nhân tạo.",
     "bai": 9
   },
   {
@@ -419,13 +419,13 @@
     "id": 33,
     "question": "Không may làm vỡ nhiệt kế thủy ngân, cần làm gì khi thu dọn?",
     "options": [
-      "A. Đóng kín cửa, đeo khẩu trang và găng tay, dùng chổi mềm quét gom cẩn thận và báo ngay cho giáo viên.",
-      "B. Mở toang cửa sổ cho thủy ngân bay hết.",
+      "A. Đóng cửa phòng lại cho kín, dùng chổi quét gom rồi báo giáo viên.",
+      "B. Mở toang cửa sổ cho thoáng, đi ra ngoài một thời gian, đeo khẩu trang và găng tay, gom hạt thủy ngân bằng bìa cứng rồi báo giáo viên.",
       "C. Lấy chổi hót nhanh, không đeo khẩu trang.",
       "D. Gọi cấp cứu y tế."
     ],
-    "answer": 0,
-    "explanation": "Thủy ngân độc → đóng kín cửa, bảo hộ rồi thu dọn.",
+    "answer": 1,
+    "explanation": "Thủy ngân rất độc: mở toang cửa sổ cho thoáng, đi ra ngoài một thời gian cho hơi thủy ngân bay bớt, đeo khẩu trang và găng tay, gom hạt thủy ngân bằng bìa cứng (không dùng chổi quét làm hạt văng xa), rồi báo giáo viên.",
     "bai": 2
   },
   {
@@ -495,15 +495,15 @@
   },
   {
     "id": 39,
-    "question": "Cách đổi đơn vị nào sau đây là đúng?",
+    "question": "Một thước có GHĐ 20 cm và ĐCNN 1 mm. Kết luận nào sau đây là đúng?",
     "options": [
-      "A. 1 m³ = 100 L",
-      "B. 1 mL = 1 cm³",
-      "C. 1 dm³ = 0,1 m³",
-      "D. 1 dm³ = 1000 mm³"
+      "A. Thước đo được vật dài nhất 20 cm.",
+      "B. Thước đo được vật dài nhất 1 mm.",
+      "C. Khoảng cách giữa hai vạch chia liên tiếp trên thước là 20 cm.",
+      "D. Thước chỉ đo được vật dài đúng 1 mm."
     ],
-    "answer": 1,
-    "explanation": "1 mL = 1 cm³.",
+    "answer": 0,
+    "explanation": "GHĐ 20 cm là độ dài lớn nhất thước đo được; ĐCNN 1 mm là khoảng cách giữa hai vạch chia liên tiếp trên thước.",
     "bai": 5
   },
   {
@@ -625,41 +625,41 @@
   },
   {
     "id": 49,
-    "question": "Thế nào là vật liệu?",
+    "question": "Vật thể nào sau đây là vật thể nhân tạo?",
     "options": [
-      "A. Gồm nhiều chất trộn vào nhau.",
-      "B. Một số chất dùng trong xây dựng.",
-      "C. Một chất hoặc hỗn hợp được dùng làm nguyên liệu đầu vào sản xuất.",
-      "D. Thức ăn hàng ngày."
+      "A. Cây dừa",
+      "B. Hòn đá",
+      "C. Cái bàn",
+      "D. Con voi"
     ],
     "answer": 2,
-    "explanation": "Vật liệu là nguyên liệu đầu vào cho sản xuất.",
+    "explanation": "Cái bàn do con người tạo ra; cây dừa, hòn đá, con voi có sẵn trong tự nhiên.",
     "bai": 9
   },
   {
     "id": 50,
-    "question": "Trong các vật liệu sau, vật liệu nào cách điện tốt?",
+    "question": "Tính chất nào sau đây là tính chất vật lí của chất?",
     "options": [
-      "A. Đồng",
-      "B. Nhôm",
-      "C. Nhựa",
-      "D. Sắt"
+      "A. Than cháy tạo thành khí carbon dioxide",
+      "B. Đường bị đun nóng cháy đen",
+      "C. Màu sắc, mùi, vị của chất",
+      "D. Đá vôi gặp giấm ăn sủi bọt khí"
     ],
     "answer": 2,
-    "explanation": "Nhựa cách điện tốt.",
+    "explanation": "Màu sắc, mùi, vị là tính chất vật lí; các hiện tượng còn lại tạo thành chất mới nên là tính chất hóa học.",
     "bai": 9
   },
   {
     "id": 51,
-    "question": "Trường hợp nào không phải là vật liệu?",
+    "question": "Tính chất hóa học của chất thể hiện qua điều gì?",
     "options": [
-      "A. Kim loại.",
-      "B. Cao su.",
-      "C. Gỗ tự nhiên.",
-      "D. Xe đạp."
+      "A. Thể rắn, lỏng hay khí của chất",
+      "B. Màu sắc, mùi, vị của chất",
+      "C. Sự biến đổi tạo thành chất mới",
+      "D. Tính tan trong nước"
     ],
-    "answer": 3,
-    "explanation": "Xe đạp là vật thể/sản phẩm, không phải vật liệu.",
+    "answer": 2,
+    "explanation": "Tính chất hóa học thể hiện qua sự biến đổi tạo thành chất mới.",
     "bai": 9
   },
   {
@@ -673,7 +673,7 @@
     ],
     "answer": 1,
     "explanation": "3R: Reduce - Reuse - Recycle.",
-    "bai": 9
+    "bai": 12
   },
   {
     "id": 53,
@@ -703,15 +703,15 @@
   },
   {
     "id": 55,
-    "question": "Để sử dụng gas tiết kiệm, hiệu quả:",
+    "question": "Than cháy tạo thành khí carbon dioxide. Đây là ví dụ về tính chất nào của chất?",
     "options": [
-      "A. Tùy nhiệt độ cần thiết để điều chỉnh lượng gas.",
-      "B. Để gas ở mức nhỏ nhất.",
-      "C. Để gas ở mức lớn nhất.",
-      "D. Ngăn gas tiếp xúc với carbon dioxide."
+      "A. Tính chất vật lí",
+      "B. Tính chất hóa học",
+      "C. Thể của chất",
+      "D. Tính tan"
     ],
-    "answer": 0,
-    "explanation": "Điều chỉnh lửa phù hợp nhu cầu.",
+    "answer": 1,
+    "explanation": "Than cháy tạo thành chất mới (khí carbon dioxide) nên đây là tính chất hóa học.",
     "bai": 9
   },
   {
@@ -729,80 +729,80 @@
   },
   {
     "id": 57,
-    "question": "Đâu là tính chất hóa học của chất?",
+    "question": "Sắt để lâu trong không khí ẩm bị gỉ. Hiện tượng này thể hiện tính chất gì của sắt?",
     "options": [
-      "A. Đường tan vào nước",
-      "B. Kem chảy lỏng khi để ngoài trời",
-      "C. Tuyết tan",
-      "D. Đun đường bị cháy đen"
+      "A. Tính chất vật lí, vì sắt chỉ thay đổi màu sắc bên ngoài.",
+      "B. Tính chất hóa học, vì sắt biến đổi thành chất mới là gỉ sắt.",
+      "C. Tính chất vật lí, vì sắt vẫn còn là sắt.",
+      "D. Không thể hiện tính chất nào của sắt."
     ],
-    "answer": 3,
-    "explanation": "Đường cháy đen tạo chất mới.",
+    "answer": 1,
+    "explanation": "Sắt bị gỉ là sắt tác dụng với oxygen và hơi nước trong không khí ẩm tạo thành chất mới (gỉ sắt), nên thể hiện tính chất hóa học.",
     "bai": 9
   },
   {
     "id": 58,
-    "question": "Vật thể nào sau đây được xem là nguyên liệu?",
+    "question": "Cho mẫu đá vôi vào cốc giấm ăn thấy có bọt khí xuất hiện. Đây là tính chất gì của đá vôi?",
     "options": [
-      "A. Ngói",
-      "B. Đất sét.",
-      "C. Xi măng.",
-      "D. Gạch xây dựng."
+      "A. Tính chất vật lí",
+      "B. Tính chất hóa học",
+      "C. Thể rắn của đá vôi",
+      "D. Tính dẫn điện"
     ],
     "answer": 1,
-    "explanation": "Đất sét là nguyên liệu làm ngói, gạch.",
+    "explanation": "Đá vôi gặp giấm tạo thành chất mới (có bọt khí) nên đây là tính chất hóa học.",
     "bai": 9
   },
   {
     "id": 59,
-    "question": "Dùng gỗ để sản xuất giấy thì gỗ được gọi là",
+    "question": "Làm sữa chua thể hiện tính chất nào của sữa?",
     "options": [
-      "A. nhiên liệu.",
-      "B. nguyên liệu.",
-      "C. phế liệu.",
-      "D. vật liệu."
+      "A. Tính chất vật lí",
+      "B. Tính chất hóa học",
+      "C. Tính dẫn nhiệt",
+      "D. Tính tan trong nước"
     ],
     "answer": 1,
-    "explanation": "Gỗ là nguyên liệu sản xuất giấy.",
+    "explanation": "Làm sữa chua tạo thành chất mới nên thể hiện tính chất hóa học.",
     "bai": 9
   },
   {
     "id": 60,
-    "question": "Gang cứng hơn sắt nhưng ít dùng trong xây dựng vì sao?",
+    "question": "Đốt cháy mẫu giấy thể hiện tính chất nào của giấy?",
     "options": [
-      "A. Khó sản xuất hơn thép.",
-      "B. Dẫn nhiệt kém hơn thép.",
-      "C. Sản xuất ít hơn thép.",
-      "D. Giòn hơn thép."
+      "A. Tính chất vật lí",
+      "B. Tính chất hóa học",
+      "C. Tính dẫn điện",
+      "D. Tính tan"
     ],
-    "answer": 3,
-    "explanation": "Gang giòn, dễ gãy nên ít dùng trong xây dựng.",
+    "answer": 1,
+    "explanation": "Đốt cháy giấy tạo thành chất mới nên thể hiện tính chất hóa học.",
     "bai": 9
   },
   {
     "id": 61,
-    "question": "Khi khai thác quặng sắt, ý nào không đúng?",
+    "question": "Một vật thể có thể được tạo thành từ bao nhiêu chất?",
     "options": [
-      "A. Chế biến quặng thành sản phẩm có giá trị.",
-      "B. Nên dùng phương pháp khai thác thủ công.",
-      "C. Tránh ô nhiễm môi trường.",
-      "D. Khai thác tiết kiệm."
+      "A. Chỉ một chất duy nhất",
+      "B. Một chất hoặc nhiều chất",
+      "C. Chỉ các chất khí",
+      "D. Chỉ các chất lỏng"
     ],
     "answer": 1,
-    "explanation": "Không nên khai thác thủ công, kém hiệu quả và nguy hiểm.",
+    "explanation": "Một vật thể có thể được tạo thành từ một chất hoặc nhiều chất.",
     "bai": 9
   },
   {
     "id": 62,
-    "question": "Để sản xuất gang và thép, người ta chế biến từ quặng gì?",
+    "question": "Dựa vào tính chất của chất, ta có thể làm gì?",
     "options": [
-      "A. Quặng bauxite",
-      "B. Quặng sắt",
-      "C. Quặng đồng",
-      "D. Quặng titanium"
+      "A. Phân biệt chất này với chất khác",
+      "B. Làm cho chất biến mất",
+      "C. Đổi tên gọi của chất",
+      "D. Làm cho chất nhẹ hơn"
     ],
-    "answer": 1,
-    "explanation": "Gang thép từ quặng sắt.",
+    "answer": 0,
+    "explanation": "Dựa vào tính chất, ta có thể phân biệt chất này với chất khác.",
     "bai": 9
   },
   {
@@ -873,11 +873,11 @@
   {
     "answer": 1,
     "bai": 13,
-    "explanation": "Nguyên liệu là vật liệu lấy từ tự nhiên để sản xuất ra sản phẩm khác, ví dụ quặng sắt dùng để luyện gang, thép.",
+    "explanation": "Nguyên liệu là chất hoặc hỗn hợp được con người lấy từ tự nhiên hoặc tạo ra, dùng làm đầu vào để chế biến thành vật liệu hoặc sản phẩm khác, ví dụ đá vôi, quặng sắt, dầu mỏ.",
     "id": 68,
     "options": [
       "A. Sản phẩm đã làm xong, đóng gói cẩn thận để bán ra.",
-      "B. Vật liệu lấy từ tự nhiên để sản xuất sản phẩm khác.",
+      "B. Chất hoặc hỗn hợp được con người lấy từ tự nhiên hoặc tạo ra, dùng làm đầu vào để chế biến thành vật liệu hoặc sản phẩm khác (ví dụ: đá vôi, quặng sắt, dầu mỏ).",
       "C. Nhiên liệu dùng để đốt cháy lấy nhiệt để chạy máy.",
       "D. Rác thải bỏ đi sau khi đã dùng xong các sản phẩm."
     ],
@@ -921,19 +921,6 @@
       "D. Làm xi măng."
     ],
     "question": "Cát là nguyên liệu chính để làm gì?"
-  },
-  {
-    "answer": 1,
-    "bai": 13,
-    "explanation": "Nguyên liệu tái tạo là nguyên liệu trồng lại hoặc tạo lại được, ví dụ gỗ từ rừng trồng có thể trồng cây mới thay thế.",
-    "id": 72,
-    "options": [
-      "A. Quặng sắt.",
-      "B. Gỗ từ rừng trồng.",
-      "C. Dầu mỏ.",
-      "D. Than đá."
-    ],
-    "question": "Nguyên liệu nào sau đây có thể tái tạo?"
   },
   {
     "answer": 3,
@@ -1345,7 +1332,7 @@
     "id": 104,
     "options": [
       "A. Cô cạn bằng cách đun nóng.",
-      "B. Dùng nam châm để hút.",
+      "B. Để yên cho cát tan hết vào trong nước.",
       "C. Lọc qua giấy lọc.",
       "D. Đun sôi thật lâu."
     ],
@@ -1372,7 +1359,7 @@
     "options": [
       "A. Đun nóng cho chất lỏng bay hơi, còn lại chất tan.",
       "B. Lọc chất rắn ra khỏi chất lỏng qua giấy lọc.",
-      "C. Dùng nam châm để hút chất có tính từ ra ngoài.",
+      "C. Để yên cho chất tan lắng xuống đáy rồi gạn lấy phần trong.",
       "D. Để hỗn hợp lắng xuống rồi gạn lấy phần trong."
     ],
     "question": "Cô cạn là cách làm gì?"
@@ -1384,24 +1371,24 @@
     "id": 107,
     "options": [
       "A. Lọc qua giấy lọc.",
-      "B. Dùng nam châm hút.",
+      "B. Lọc qua giấy lọc để giữ muối lại trên giấy.",
       "C. Đổ thêm nước vào.",
       "D. Cô cạn bằng cách đun nóng."
     ],
     "question": "Muốn lấy muối từ nước muối, dùng cách nào?"
   },
   {
-    "answer": 2,
+    "answer": 1,
     "bai": 17,
-    "explanation": "Nam châm chỉ hút chất có tính từ như sắt, nên tách được mạt sắt ra khỏi cát hoặc bột lưu huỳnh.",
+    "explanation": "Lắng là để yên cho chất rắn nặng hơn lắng xuống đáy, rồi gạn lấy phần chất lỏng phía trên.",
     "id": 108,
     "options": [
-      "A. Nước và dầu ăn trộn lẫn với nhau.",
-      "B. Muối và nước đã khuấy tan hoàn toàn.",
-      "C. Bột sắt lẫn trong cát hoặc bột lưu huỳnh.",
-      "D. Đường và nước đã khuấy tan hoàn toàn."
+      "A. Đun nóng cho chất lỏng bay hơi, còn lại chất tan.",
+      "B. Để yên cho chất rắn nặng hơn lắng xuống đáy, rồi gạn lấy phần chất lỏng phía trên.",
+      "C. Đổ hỗn hợp qua giấy lọc để giữ chất rắn lại.",
+      "D. Dùng phễu chiết để tách hai chất lỏng không tan vào nhau."
     ],
-    "question": "Dùng nam châm tách được hỗn hợp nào?"
+    "question": "Lắng là cách làm gì?"
   },
   {
     "answer": 1,
@@ -1412,7 +1399,7 @@
       "A. Lọc hỗn hợp qua giấy lọc như lọc nước lẫn cát.",
       "B. Để yên cho dầu nổi lên rồi gạn lấy lớp dầu.",
       "C. Cô cạn bằng cách đun nóng cho nước bay hơi hết.",
-      "D. Dùng nam châm để hút dầu ra khỏi nước."
+      "D. Cô cạn bằng cách đun nóng cho dầu bay hơi hết."
     ],
     "question": "Tách dầu khỏi nước có thể dùng cách nào?"
   },
@@ -1425,7 +1412,7 @@
       "A. Để lắng rồi lọc qua vải hoặc giấy lọc.",
       "B. Đun sôi nước ngay lập tức cho nhanh.",
       "C. Cho thêm muối vào nước rồi khuấy đều lên.",
-      "D. Dùng nam châm để hút bùn đất ra khỏi nước."
+      "D. Để nước ngoài nắng cho bùn đất tự bay hơi hết."
     ],
     "question": "Nước sông lẫn bùn đất, muốn có nước trong, em làm gì trước?"
   },
@@ -1445,7 +1432,7 @@
   {
     "answer": 3,
     "bai": 17,
-    "explanation": "Mỗi cách tách dựa vào một tính chất khác nhau: không tan thì lọc, tan thì cô cạn, bị nam châm hút thì dùng nam châm.",
+    "explanation": "Mỗi cách tách dựa vào một tính chất khác nhau: chất rắn không tan thì lọc, chất tan thì cô cạn, hai chất lỏng không tan vào nhau thì chiết.",
     "id": 112,
     "options": [
       "A. Dựa vào màu sắc bên ngoài của hỗn hợp đó.",
@@ -5438,12 +5425,12 @@
     "question": "Vật liệu là gì?",
     "options": [
       "A. Sản phẩm đã hoàn thiện, dùng trực tiếp",
-      "B. Chất hoặc hỗn hợp dùng làm nguyên liệu đầu vào để sản xuất sản phẩm",
-      "C. Dụng cụ đo trong phòng thực hành",
+      "B. Con người dùng vật liệu để tạo ra các vật dụng (ví dụ: đá, gỗ là vật liệu tự nhiên; thủy tinh, nhựa do con người chế tạo)",
+      "C. Chất cháy được, khi cháy tỏa nhiều nhiệt",
       "D. Chất thải sau sản xuất"
     ],
     "answer": 1,
-    "explanation": "Vật liệu là chất hoặc hỗn hợp được dùng làm nguyên liệu đầu vào để sản xuất sản phẩm.",
+    "explanation": "Theo vở Bài 12: con người dùng vật liệu để tạo ra các vật dụng. Vật liệu tự nhiên: đá, gỗ, đất…; vật liệu do con người chế tạo: thủy tinh, nhựa, gốm sứ, kim loại…",
     "bai": 12
   },
   {
@@ -5744,5 +5731,96 @@
     "answer": 3,
     "explanation": "Cơ thể là cấp độ cao nhất, nơi các hệ cơ quan phối hợp hoạt động thống nhất.",
     "bai": 23
+  },
+  {
+    "id": 443,
+    "question": "Chân kính là bộ phận nào của kính hiển vi quang học?",
+    "options": [
+      "A. Bộ phận phóng to ảnh của vật",
+      "B. Bộ phận làm đế đỡ, giữ cho kính đứng vững",
+      "C. Bộ phận chiếu sáng tiêu bản",
+      "D. Bộ phận kẹp giữ tiêu bản"
+    ],
+    "answer": 1,
+    "explanation": "Theo vở Bài 4 (Câu 4 ôn tập): cấu tạo kính hiển vi gồm chân kính, ống kính, ốc điều chỉnh, đèn chiếu sáng, vật kính, bàn kính; chân kính là phần đế đỡ của kính.",
+    "bai": 4
+  },
+  {
+    "id": 444,
+    "question": "Cân đồng hồ trong vở có giới hạn đo (GHĐ) và độ chia nhỏ nhất (ĐCNN) là bao nhiêu?",
+    "options": [
+      "A. GHĐ 5 kg, ĐCNN 20 g",
+      "B. GHĐ 20 g, ĐCNN 5 kg",
+      "C. GHĐ 5 g, ĐCNN 20 kg",
+      "D. GHĐ 20 kg, ĐCNN 5 g"
+    ],
+    "answer": 0,
+    "explanation": "Theo vở (Bài tập tham khảo Câu 8): cân đồng hồ có GHĐ 5 kg, ĐCNN 20 g.",
+    "bai": 6
+  },
+  {
+    "id": 445,
+    "question": "Nhiệt kế y tế thủy ngân trong vở có giới hạn đo (GHĐ) và độ chia nhỏ nhất (ĐCNN) là bao nhiêu?",
+    "options": [
+      "A. GHĐ 42°C, ĐCNN 0,1°C",
+      "B. GHĐ 100°C, ĐCNN 1°C",
+      "C. GHĐ 0,1°C, ĐCNN 42°C",
+      "D. GHĐ 37°C, ĐCNN 0,5°C"
+    ],
+    "answer": 0,
+    "explanation": "Theo vở (Bài tập tham khảo Câu 9): nhiệt kế y tế thủy ngân có GHĐ 42°C, ĐCNN 0,1°C.",
+    "bai": 8
+  },
+  {
+    "id": 446,
+    "question": "Phương pháp chiết dùng để tách hỗn hợp nào?",
+    "options": [
+      "A. Chất rắn không tan ra khỏi chất lỏng",
+      "B. Các chất lỏng không tan vào nhau, ví dụ dầu ăn và nước",
+      "C. Chất tan ra khỏi dung dịch bằng cách đun cho dung môi bay hơi",
+      "D. Chất khí ra khỏi không khí"
+    ],
+    "answer": 1,
+    "explanation": "Theo SGK Bài 17: chiết dùng phễu chiết, bình chiết để tách các chất lỏng không tan vào nhau, ví dụ tách dầu ăn khỏi nước.",
+    "bai": 17
+  },
+  {
+    "id": 447,
+    "question": "Nguồn năng lượng thay thế nào sau đây có thể tái tạo được?",
+    "options": [
+      "A. Than đá",
+      "B. Dầu mỏ",
+      "C. Năng lượng mặt trời",
+      "D. Khí thiên nhiên"
+    ],
+    "answer": 2,
+    "explanation": "Theo vở Bài 14 mục III: các nguồn năng lượng thay thế gồm thủy điện, gió, năng lượng mặt trời, thủy triều, năng lượng sinh học, địa nhiệt; chúng có thể tái tạo được và bảo vệ môi trường.",
+    "bai": 14
+  },
+  {
+    "id": 448,
+    "question": "Hiện tượng nào sau đây chỉ thể hiện tính chất vật lí?",
+    "options": [
+      "A. Than cháy tạo thành khí carbon dioxide",
+      "B. Đường đun nóng cháy đen",
+      "C. Đá vôi gặp giấm ăn sủi bọt khí",
+      "D. Nước đá tan thành nước"
+    ],
+    "answer": 3,
+    "explanation": "Nước đá tan thành nước không tạo thành chất mới nên chỉ thể hiện tính chất vật lí.",
+    "bai": 9
+  },
+  {
+    "id": 449,
+    "question": "1 mL bằng bao nhiêu cm³?",
+    "options": [
+      "A. 1 cm³",
+      "B. 10 cm³",
+      "C. 100 cm³",
+      "D. 1000 cm³"
+    ],
+    "answer": 0,
+    "explanation": "1 mL = 1 cm³ (1 m³ = 1000 L). Đo thể tích vật rắn không thấm nước bằng bình chia độ: V = V₂ − V₁.",
+    "bai": 5
   }
 ]

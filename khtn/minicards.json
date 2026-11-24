@@ -65,9 +65,9 @@
  {
   "b": 5,
   "t": "mn",
-  "f": "1 mL bằng bao nhiêu cm³?",
-  "a": "1 mL = 1 cm³.",
-  "fi": "../hinh-anh/khtn/fc-bai5-ong-dong.webp"
+  "f": "ĐCNN của thước là gì?",
+  "a": "Khoảng cách giữa hai vạch chia liên tiếp trên thước.",
+  "fi": "../hinh-anh/khtn/bai5-thuoc-thep.webp"
  },
  {
   "b": 6,
@@ -116,14 +116,7 @@
   "t": "mn",
   "f": "Đun đường đến cháy đen cho thấy tính chất gì của chất?",
   "a": "Tính chất hóa học — vì có chất mới được tạo thành.",
-  "fi": "../hinh-anh/khtn/fc-bai10-duong-chay.webp"
- },
- {
-  "b": 9,
-  "t": "mn",
-  "f": "Biểu tượng trong hình có ý nghĩa gì?",
-  "a": "Tái chế (Recycle) — một trong ba phần của mô hình 3R.",
-  "fi": "../hinh-anh/khtn/bai10-bieu-tuong-tai-che.png"
+  "fi": "../hinh-anh/khtn/fc-bai9-duong-chay.webp"
  },
  {
   "b": 10,
@@ -768,5 +761,12 @@
   "f": "Con người tìm hiểu vũ trụ bằng gì?",
   "a": "Kính thiên văn, tàu vũ trụ, vệ tinh.",
   "fi": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%20300%20120%22%20style%3D%22width%3A100%25%3Bmax-width%3A400px%3Bheight%3Aauto%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%20150%2C60%20Q%20172%2C38%20194%2C54%20Q%20210%2C70%20190%2C88%20Q%20162%2C104%20128%2C88%20Q%20100%2C70%20122%2C50%20Q%20140%2C34%20166%2C46%22%20fill%3D%22none%22%20stroke%3D%22%23ab47bc%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+ },
+ {
+  "b": 5,
+  "t": "mn",
+  "f": "1 mL bằng bao nhiêu cm³?",
+  "a": "1 cm³ — đo thể tích bằng bình chia độ, V = V₂ − V₁.",
+  "fi": "../hinh-anh/khtn/fc-bai5-binh-chia-do.svg"
  }
 ]
